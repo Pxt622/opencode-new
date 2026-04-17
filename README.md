@@ -1,1 +1,242 @@
-IyBPcGVuQ29kZSBDb25maWcgJiBTa2lsbHMKCj4gTXkgY29tcGxldGUgT3BlbkNvZGUgY29uZmlndXJhdGlvbiDigJQgYWxsIHNraWxscywgTUNQIHNlcnZlcnMsIGFuZCBzZXR0aW5ncy4KPiBDbG9uZSBvbmNlLCBkZXBsb3kgYW55d2hlcmUuIEFsbCBwYXRocyBhcmUgcmVsYXRpdmUsIG5vIHNlY3JldHMgaW5jbHVkZWQuCgotLS0KCiMjIPCfk6YgV2hhdCdzIEluY2x1ZGVkCgojIyMgMS4gYG9wZW5jb2RlLW1lbW9yeS1tY3AvYAoKKirmnKzlnLDplb/mnJ/orrDlv4YgTUNQIOacjeWKoeWZqCoq77yM5Li6IEFJIGNvZGluZyBhZ2VudCDmj5Dkvpvot6jkvJror53orrDlv4bog73lipvjgIIKCi0gKirlrZjlgqgqKu+8mlNRTGl0ZSDmnKzlnLDmlbDmja7lupPvvIzlrozlhajnprvnur8KLSAqKuWQkemHj+aQnOe0oioq77ya5pys5Zyw5bWM5YWl5qih5Z6LIGBhbGwtTWluaUxNLUw2LXYyYO+8iOmmluasoei/kOihjOiHquWKqOS4i+i9vSB+MjNNQu+8iQotICoqNSDkuKrlt6XlhbcqKu+8mmBtZW1vcnlfYWRkYOOAgWBtZW1vcnlfc2VhcmNoYOOAgWBtZW1vcnlfZ2V0X3JlY2VudGDjgIFgbWVtb3J5X2RlbGV0ZWDjgIFgbWVtb3J5X2dldF9wcm9maWxlYAotICoq5Y676YeNKirvvJrnm7jkvLzluqYgPjAuOTIg6KeG5Li66YeN5aSN77yM6Ieq5Yqo6Lez6L+H5a2Y5YKoCi0gKirlpI3liLvot6/lvoQqKu+8mmBEOlxWUy1jb2RlLXByb2dyYW1cb3BlbmNvZGUtbWVtb3J5LW1jcFxg77yI5Luj56CBICsg5pWw5o2uICsg5qih5Z6L5YWo5Zyo6aG555uu5YaF77yJCgojIyMgMi4gYC5vcGVuY29kZS9gCgpPcGVuQ29kZSDnmoTlhajpg6jphY3nva7lkozmioDog73vvJoKCnwg5paH5Lu2L+ebruW9lSB8IOivtOaYjiB8CnwtLS0tLS0tLS0tLXwtLS0tLS18CnwgYG9wZW5jb2RlLmpzb25gIHwg5Li76YWN572u77yIcHJvdmlkZXJz44CBTUNQIHNlcnZlcnPjgIFwbHVnaW5z77yJIHwKfCBgb2gtbXktb3BlbmFnZW50Lmpzb25gIHwgb2gtbXktb3BlbmFnZW50IOaPkuS7tumFjee9riB8CnwgYGF1dGguanNvbmAgfCDimqDvuI8gKirkuI3kuIrkvKAqKu+8iOWQqyBBUEkgS2V577yJ4oCUIOWkjeWIu+aXtumcgOiHquihjOmFjee9riB8CnwgYGNvbW1hbmQvYCB8IE9wZW5Db2RlIOWRveS7pOWumuS5ie+8iG9wc3gtYXBwbHnjgIFvcHN4LXByb3Bvc2Ug562J77yJIHwKfCBgc2tpbGxzL2AgfCDmiYDmnIkgc2tpbGxz77yIfjUwKyDkuKrlrZDnm67lvZXvvIzlkKvlj4LogIPotYTmlpnjgIHohJrmnKzjgIHmlbDmja7vvIkgfAoKIyMjIDMuIGBBR0VOVFMubWRgCgrpobnnm67moLnnm67lvZXnmoTlvIDlj5HljY/orq7mlofku7bvvIzlrprkuYnpgJrnlKjlvIDlj5Hop4TojIPjgIIKCi0tLQoKIyMg8J+agCDlv6vpgJ/lpI3liLsKCiMjIyDliY3nva7mnaHku7YKCi0gKipOb2RlLmpzKiogMTgrCi0gKipucG0qKiAxMCsKLSAqKlB5dGhvbioqIDMuMTAr77yI6YOo5YiGIHNraWxsIOmcgOimge+8iQotICoqR2l0KioKCiMjIyBTdGVwIDEg4oCUIOWFi+mahuS7k+W6kwoKYGBgYmFzaApnaXQgY2xvbmUgaHR0cHM6Ly9naXRodWIuY29tLzx5b3VyLXVzZXJuYW1lPi9vcGVuY29kZS1jb25maWcuZ2l0CmNkIG9wZW5jb2RlLWNvbmZpZwpgYGAKCiMjIyBTdGVwIDIg4oCUIOWuieijhSBNQ1Ag5pyN5Yqh5Zmo5L6d6LWWCgpgYGBiYXNoCmNkIG9wZW5jb2RlLW1lbW9yeS1tY3AKbnBtIGluc3RhbGwKbnBtIHJ1biBidWlsZApjZCAuLgpgYGAKCiMjIyBTdGVwIDMg4oCUIOmFjee9riBPcGVuQ29kZQoKMS4g5bCGIGAub3BlbmNvZGVgIOebruW9leWkjeWItuWIsOS9oOeahOeUqOaIt+ebruW9le+8mgoKYGBgcG93ZXJzaGVsbAojIFdpbmRvd3MgUG93ZXJTaGVsbApDb3B5LUl0ZW0gLVBhdGggIi5vcGVuY29kZSIgLURlc3RpbmF0aW9uICIkSE9NRS8ub3BlbmNvZGUiIC1SZWN1cnNlIC1Gb3JjZQoKIyBMaW51eC9tYWNPUwpjcCAtciAub3BlbmNvZGUgfi8ub3BlbmNvZGUvCmBgYAoKMi4gKirnvJbovpEgYH4vLm9wZW5jb2RlL2F1dGguanNvbmAqKu+8jOWhq+WFpeS9oOeahCBBUEkgS2V577yaCgpgYGBqc29uCnsKICAicHJvdmlkZXJzIjogewogICAgImJhaWxpYW4iOiB7CiAgICAgICJhcGlLZXkiOiAiWU9VUl9CQUlMSUFOX0FQSV9LRVkiCiAgICB9CiAgfQp9CmBgYAoKMy4gKirnvJbovpEgYH4vLm9wZW5jb2RlL29wZW5jb2RlLmpzb25gKirvvJoKICAgLSDmo4Dmn6UgYG1jcFNlcnZlcnMubWVtb3J5LmFyZ3NgIOS4reeahOi3r+W+hOaYr+WQpumcgOimgeabtOaWsO+8iOaMh+WQkeS9oOeahOWFi+mahui3r+W+hO+8iQogICAtIOehruiupCBgcGx1Z2luYCDphY3nva7mmK/lkKbpnIDopoHosIPmlbQKCiMjIyBTdGVwIDQg4oCUIOWQr+WKqCBPcGVuQ29kZQoKYGBgYmFzaApvcGVuY29kZQpgYGAKCi0tLQoKIyMg8J+noCBNQ1Ag5pyN5Yqh5Zmo5L2/55So5pa55byPCgojIyMg6LCD55So5pa55byPCgpgYGB0eXBlc2NyaXB0Ci8vIOa3u+WKoOiusOW/hu+8iOiHquWKqOWOu+mHje+8iQptZW1vcnlfYWRkKHsgY29udGVudDogIumhueebruS9v+eUqCBEcml6emxlIE9STSIsIGNhdGVnb3J5OiAiYXJjaGl0ZWN0dXJlIiB9KQoKLy8g6K+t5LmJ5pCc57SiCm1lbW9yeV9zZWFyY2goeyBxdWVyeTogIuaVsOaNruW6k+aWueahiCIsIGxpbWl0OiA1LCB0aHJlc2hvbGQ6IDAuNzUgfSkKCi8vIOiOt+WPluacgOi/kSAxMCDmnaEKbWVtb3J5X2dldF9yZWNlbnQoeyBsaW1pdDogMTAgfSkKCi8vIOWIoOmZpOiusOW/hgptZW1vcnlfZGVsZXRlKHsgbWVtb3J5X2lkOiAibWVtX3h4eCIgfSkKCi8vIOiOt+WPlueUqOaIt+eUu+WDjwptZW1vcnlfZ2V0X3Byb2ZpbGUoKQpgYGAKCiMjIyBTa2lsbCDoh6rliqjlj6zlm54KCmBza2lsbHMvbWVtb3J5LXJlY2FsbC9TS0lMTC5tZGAg5a6a5LmJ5LqG5q+P5qyh5Lya6K+d5byA5aeL5pe2Kiroh6rliqjliqDovb3mnIDov5EgMTAg5p2h6K6w5b+GKirnmoTljY/orq7jgIJBSSDkvJroh6rliqjmiafooYzvvJoKCmBgYAptZW1vcnlfZ2V0X3Byb2ZpbGUoKSDihpIgbWVtb3J5X2dldF9yZWNlbnQoMTApIOKGkiBtZW1vcnlfc2VhcmNoKOebuOWFs+S4u+mimCkKYGBgCgotLS0KCiMjIPCfk4Eg5LuT5bqT57uT5p6ECgpgYGAKb3BlbmNvZGUtY29uZmlnLwrilJzilIDilIAgUkVBRE1FLm1kCuKUnOKUgOKUgCAuZ2l0aWdub3JlCuKUnOKUgOKUgCBBR0VOVFMubWQK4pSCCuKUnOKUgOKUgCBvcGVuY29kZS1tZW1vcnktbWNwLyAgICAgICAgICAgICAgIyBNQ1Ag5pyN5Yqh5Zmo77yIVHlwZVNjcmlwdO+8iQrilIIgICDilJzilIDilIAgcGFja2FnZS5qc29uCuKUgiAgIOKUnOKUgOKUgCB0c2NvbmZpZy5qc29uCuKUgiAgIOKUnOKUgOKUgCBzcmMvCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBpbmRleC50cyAgICAgICAgICAgICAgICAgICMg5YWl5Y+jCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBzZXJ2ZXIudHMgICAgICAgICAgICAgICAgICMgTUNQIOacjeWKoeWZqCArIDUg5Liq5bel5YW3CuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBkYi50cyAgICAgICAgICAgICAgICAgICAgICMgU1FMaXRlICsgYnJ1dGUtZm9yY2Ug5ZCR6YeP5pCc57SiCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBlbWJlZGRpbmdzLnRzICAgICAgICAgICAgICMg5pys5ZywIGFsbC1NaW5pTE0tTDYtdjIg5bWM5YWlCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCB0eXBlcy50cyAgICAgICAgICAgICAgICAgICMg57G75Z6L5a6a5LmJCuKUgiAgIOKUnOKUgOKUgCBkYXRhLyAgICAgICAgICAgICAgICAgICAgICAgICAjIFNRTGl0ZSDmlbDmja7lupPvvIjpppbmrKHov5DooYzoh6rliqjliJvlu7rvvIkK4pSCICAg4pSU4pSA4pSAIG1vZGVscy8gICAgICAgICAgICAgICAgICAgICAgICMg5bWM5YWl5qih5Z6L57yT5a2Y77yI6aaW5qyh6L+Q6KGM6Ieq5Yqo5LiL6L2977yJCuKUggrilJTilIDilIAgLm9wZW5jb2RlLyAgICAgICAgICAgICAgICAgICAgICAgIyBPcGVuQ29kZSDkuLvphY3nva4KICAgIOKUnOKUgOKUgCBvcGVuY29kZS5qc29uICAgICAgICAgICAgICAgICAjIOS4u+mFjee9rgogICAg4pSc4pSA4pSAIG9oLW15LW9wZW5hZ2VudC5qc29uCiAgICDilJzilIDilIAgYXV0aC5qc29uICAgICAgICAgICAgICAgICAgICAgIyDimqDvuI8g5LiN5LiK5Lyg77yM6ZyA6Ieq6KGM6YWN572uCiAgICDilJzilIDilIAgcGFja2FnZS5qc29uCiAgICDilJzilIDilIAgY29tbWFuZC8gICAgICAgICAgICAgICAgICAgICAgIyDlkb3ku6TlrprkuYkKICAgIOKUgiAgIOKUnOKUgOKUgCBvcHN4LWFwcGx5Lm1kCiAgICDilIIgICDilJzilIDilIAgb3BzeC1hcmNoaXZlLm1kCiAgICDilIIgICDilJzilIDilIAgb3BzeC1leHBsb3JlLm1kCiAgICDilIIgICDilJTilIDilIAgb3BzeC1wcm9wb3NlLm1kCiAgICDilJTilIDilIAgc2tpbGxzLyAgICAgICAgICAgICAgICAgICAgICAgIyDmiYDmnIkgc2tpbGxzICh+NTArKQogICAgICAgIOKUnOKUgOKUgCBtZW1vcnktcmVjYWxsLyAgICAgICAgICAgICMg4q2QIOmVv+acn+iusOW/huWPrOWbngogICAgICAgIOKUnOKUgOKUgCBoYXJtb255LWFya3RzLyAgICAgICAgICAgICMg6bi/6JKZIEFya1RTIOW8gOWPkQogICAgICAgIOKUnOKUgOKUgCBtY3AtYnVpbGRlci8gICAgICAgICAgICAgICMgTUNQIOacjeWKoeWZqOaehOW7ugogICAgICAgIOKUnOKUgOKUgCBkZXNpZ24tc3lzdGVtLwogICAgICAgIOKUnOKUgOKUgCBmcm9udGVuZC1kZXNpZ24vCiAgICAgICAg4pSc4pSA4pSAIGRvYy1jb2F1dGhvcmluZy8KICAgICAgICDilJzilIDilIAgZG9jeC8KICAgICAgICDilJzilIDilIAgcGRmLwogICAgICAgIOKUnOKUgOKUgCBwcHR4LwogICAgICAgIOKUnOKUgOKUgCBzbGlkZXMvCiAgICAgICAg4pSc4pSA4pSAIHhsc3gvCiAgICAgICAg4pSc4pSA4pSAIHVpLXN0eWxpbmcvCiAgICAgICAg4pSc4pSA4pSAIHdlYi1hY2Nlc3MvCiAgICAgICAg4pSU4pSA4pSAIC4uLu+8iOabtOWkmiBza2lsbHPvvIkKYGBgCgotLS0KCiMjIPCflKcg5bi46KeB6Zeu6aKYCgojIyMgUTog6aaW5qyh6L+Q6KGM5oqlIGBiZXR0ZXItc3FsaXRlM2Ag57yW6K+R6ZSZ6K+v77yfCgpgYGBiYXNoCiMgV2luZG93cyDpnIDopoEgQysrIOaehOW7uuW3peWFtwpucG0gaW5zdGFsbCAtLWJ1aWxkLWZyb20tc291cmNlIGJldHRlci1zcWxpdGUzCgojIOaIluiAheS9v+eUqCBlbGVjdHJvbi1yZWJ1aWxkCm5wbSBpbnN0YWxsIC1nIEBlbGVjdHJvbi9yZWJ1aWxkCm5weCBlbGVjdHJvbi1yZWJ1aWxkIC1mIC13IGJldHRlci1zcWxpdGUzCmBgYAoKIyMjIFE6IGBtZW1vcnlfc2VhcmNoYCDnrKzkuIDmrKHosIPnlKjlvojmhaLvvJ8KCuato+W4uOeOsOixoeOAgummluasoeiwg+eUqOaXtiBgQHhlbm92YS90cmFuc2Zvcm1lcnNgIOS8muS7jiBIdWdnaW5nRmFjZSDkuIvovb3mqKHlnovvvIjnuqYgMjNNQu+8ie+8jOS5i+WQjuWujOWFqOemu+e6v+OAggoKIyMjIFE6IOWmguS9lei/geenu+W3suacieiusOW/hu+8nwoKYGBgcG93ZXJzaGVsbAojIOWkjeWItuaVtOS4qiBkYXRhIOebruW9lQpDb3B5LUl0ZW0gLVBhdGggIkQ6XFZTLWNvZGUtcHJvZ3JhbVxvcGVuY29kZS1tZW1vcnktbWNwXGRhdGEiIC1EZXN0aW5hdGlvbiAiTkVXX1BBVEhcb3BlbmNvZGUtbWVtb3J5LW1jcFxkYXRhIiAtUmVjdXJzZQoKIyDlpI3liLbmqKHlnovnvJPlrZjvvIjliqDpgJ/pppbmrKHov5DooYzvvIkKQ29weS1JdGVtIC1QYXRoICJEOlxWUy1jb2RlLXByb2dyYW1cb3BlbmNvZGUtbWVtb3J5LW1jcFxtb2RlbHMiIC1EZXN0aW5hdGlvbiAiTkVXX1BBVEhcb3BlbmNvZGUtbWVtb3J5LW1jcFxtb2RlbHMiIC1SZWN1cnNlCmBgYAoKIyMjIFE6IGBhdXRoLmpzb25gIOWMheWQq+WTquS6m+Wtl+autemcgOimgeWhq+WGme+8nwoK5Y+C6ICDIGAub3BlbmNvZGUvb3BlbmNvZGUuanNvbmAg5Lit55qEIGBwcm92aWRlcmAg6YWN572u77yM5aGr5YWl5a+55bqUIEFQSSBLZXnvvJoKLSBgYmFpbGlhbmAg4oaSIOmYv+mHjOS6keeZvueCvCBBUEkgS2V5Ci0gYGRlZXBzZWVrYCDihpIgRGVlcFNlZWsgQVBJIEtleQotIGBvbGxhbWFgIOKGkiDmnKzlnLAgT2xsYW1h77yI5peg6ZyAIEtlee+8iQoKLS0tCgojIyDwn5OdIOiHquWumuS5ieS/ruaUuQoKIyMjIOa3u+WKoOaWsOeahCBTa2lsbAoK5ZyoIGB+Ly5vcGVuY29kZS9za2lsbHMvYCDkuIvliJvlu7rmlrDnm67lvZXvvIzljIXlkKsgYFNLSUxMLm1kYCDljbPlj6/ooqsgT3BlbkNvZGUg6Ieq5Yqo5Yqg6L2944CCCgojIyMg5L+u5pS5IE1DUCDmnI3liqHlmajphY3nva4KCue8lui+kSBgfi8ub3BlbmNvZGUvb3BlbmNvZGUuanNvbmAg5Lit55qEIGBtY3BTZXJ2ZXJzYCDoioLngrnvvJoKCmBgYGpzb24KIm1jcFNlcnZlcnMiOiB7CiAgIm1lbW9yeSI6IHsKICAgICJjb21tYW5kIjogIm5vZGUiLAogICAgImFyZ3MiOiBbIkQ6XFzkvaDnmoTot6/lvoRcXG9wZW5jb2RlLW1lbW9yeS1tY3BcXGRpc3RcXGluZGV4LmpzIl0KICB9Cn0KYGBgCgojIyMg5re75Yqg5pu05aSaIE1DUCDmnI3liqHlmagKCuWcqCBgbWNwU2VydmVyc2Ag5LiL5re75Yqg5pu05aSa5p2h55uu5Y2z5Y+v77yMT3BlbkNvZGUg5pSv5oyB5ZCM5pe26L+Q6KGM5aSa5LiqIE1DUCDmnI3liqHlmajjgIIKCi0tLQoKIyMg8J+ThCBMaWNlbnNlCgpNSVQg4oCUIOmaj+S+v+eUqO+8jOW8leeUqOivt+azqOaYjuadpea6kOOAggo=
+# OpenCode Config & Skills
+
+> My complete OpenCode configuration — all skills, MCP servers, and settings.
+> Clone once, deploy anywhere. All paths are relative, no secrets included.
+
+---
+
+## 📦 What's Included
+
+### 1. `opencode-memory-mcp/`
+
+**本地长期记忆 MCP 服务器**，为 AI coding agent 提供跨会话记忆能力。
+
+- **存储**：SQLite 本地数据库，完全离线
+- **向量搜索**：本地嵌入模型 `all-MiniLM-L6-v2`（首次运行自动下载 ~23MB）
+- **5 个工具**：`memory_add`、`memory_search`、`memory_get_recent`、`memory_delete`、`memory_get_profile`
+- **去重**：相似度 >0.92 视为重复，自动跳过存储
+- **复刻路径**：`D:\VS-code-program\opencode-memory-mcp\`（代码 + 数据 + 模型全在项目内）
+
+### 2. `.opencode/`
+
+OpenCode 的全部配置和技能：
+
+| 文件/目录 | 说明 |
+|-----------|------|
+| `opencode.json` | 主配置（providers、MCP servers、plugins） |
+| `oh-my-openagent.json` | oh-my-openagent 插件配置 |
+| `auth.json` | ⚠️ **不上传**（含 API Key）— 复刻时需自行配置 |
+| `command/` | OpenCode 命令定义（opsx-apply、opsx-propose 等） |
+| `skills/` | 所有 skills（~50+ 个子目录，含参考资料、脚本、数据） |
+
+### 3. `AGENTS.md`
+
+项目根目录的开发协议文件，定义通用开发规范。
+
+---
+
+## 🚀 快速复刻
+
+### 前置条件
+
+- **Node.js** 18+
+- **npm** 10+
+- **Python** 3.10+（部分 skill 需要）
+- **Git**
+
+### Step 1 — 克隆仓库
+
+```bash
+git clone https://github.com/<your-username>/opencode-config.git
+cd opencode-config
+```
+
+### Step 2 — 安装 MCP 服务器依赖
+
+```bash
+cd opencode-memory-mcp
+npm install
+npm run build
+cd ..
+```
+
+### Step 3 — 配置 OpenCode
+
+1. 将 `.opencode` 目录复制到你的用户目录：
+
+```powershell
+# Windows PowerShell
+Copy-Item -Path ".opencode" -Destination "$HOME/.opencode" -Recurse -Force
+
+# Linux/macOS
+cp -r .opencode ~/.opencode/
+```
+
+2. **编辑 `~/.opencode/auth.json`**，填入你的 API Key：
+
+```json
+{
+  "providers": {
+    "bailian": {
+      "apiKey": "YOUR_BAILIAN_API_KEY"
+    }
+  }
+}
+```
+
+3. **编辑 `~/.opencode/opencode.json`**：
+   - 检查 `mcpServers.memory.args` 中的路径是否需要更新（指向你的克隆路径）
+   - 确认 `plugin` 配置是否需要调整
+
+### Step 4 — 启动 OpenCode
+
+```bash
+opencode
+```
+
+---
+
+## 🧠 MCP 服务器使用方式
+
+### 调用方式
+
+```typescript
+// 添加记忆（自动去重）
+memory_add({ content: "项目使用 Drizzle ORM", category: "architecture" })
+
+// 语义搜索
+memory_search({ query: "数据库方案", limit: 5, threshold: 0.75 })
+
+// 获取最近 10 条
+memory_get_recent({ limit: 10 })
+
+// 删除记忆
+memory_delete({ memory_id: "mem_xxx" })
+
+// 获取用户画像
+memory_get_profile()
+```
+
+### Skill 自动召回
+
+`skills/memory-recall/SKILL.md` 定义了每次会话开始时**自动加载最近 10 条记忆**的协议。AI 会自动执行：
+
+```
+memory_get_profile() → memory_get_recent(10) → memory_search(相关主题)
+```
+
+---
+
+## 📁 仓库结构
+
+```
+opencode-config/
+├── README.md
+├── .gitignore
+├── AGENTS.md
+│
+├── opencode-memory-mcp/              # MCP 服务器（TypeScript）
+│   ├── package.json
+│   ├── tsconfig.json
+│   ├── src/
+│   │   ├── index.ts                  # 入口
+│   │   ├── server.ts                 # MCP 服务器 + 5 个工具
+│   │   ├── db.ts                     # SQLite + brute-force 向量搜索
+│   │   ├── embeddings.ts             # 本地 all-MiniLM-L6-v2 嵌入
+│   │   └── types.ts                  # 类型定义
+│   ├── data/                         # SQLite 数据库（首次运行自动创建）
+│   └── models/                       # 嵌入模型缓存（首次运行自动下载）
+│
+└── .opencode/                       # OpenCode 主配置
+    ├── opencode.json                 # 主配置
+    ├── oh-my-openagent.json
+    ├── auth.json                     # ⚠️ 不上传，需自行配置
+    ├── package.json
+    ├── command/                      # 命令定义
+    │   ├── opsx-apply.md
+    │   ├── opsx-archive.md
+    │   ├── opsx-explore.md
+    │   └── opsx-propose.md
+    └── skills/                       # 所有 skills (~50+)
+        ├── memory-recall/            # ⭐ 长期记忆召回
+        ├── harmony-arkts/            # 鸿蒙 ArkTS 开发
+        ├── mcp-builder/              # MCP 服务器构建
+        ├── design-system/
+        ├── frontend-design/
+        ├── doc-coauthoring/
+        ├── docx/
+        ├── pdf/
+        ├── pptx/
+        ├── slides/
+        ├── xlsx/
+        ├── ui-styling/
+        ├── web-access/
+        └── ...（更多 skills）
+```
+
+---
+
+## 🔧 常见问题
+
+### Q: 首次运行报 `better-sqlite3` 编译错误？
+
+```bash
+# Windows 需要 C++ 构建工具
+npm install --build-from-source better-sqlite3
+
+# 或者使用 electron-rebuild
+npm install -g @electron/rebuild
+npx electron-rebuild -f -w better-sqlite3
+```
+
+### Q: `memory_search` 第一次调用很慢？
+
+正常现象。首次调用时 `@xenova/transformers` 会从 HuggingFace 下载模型（约 23MB），之后完全离线。
+
+### Q: 如何迁移已有记忆？
+
+```powershell
+# 复制整个 data 目录
+Copy-Item -Path "D:\VS-code-program\opencode-memory-mcp\data" -Destination "NEW_PATH\opencode-memory-mcp\data" -Recurse
+
+# 复制模型缓存（加速首次运行）
+Copy-Item -Path "D:\VS-code-program\opencode-memory-mcp\models" -Destination "NEW_PATH\opencode-memory-mcp\models" -Recurse
+```
+
+### Q: `auth.json` 包含哪些字段需要填写？
+
+参考 `.opencode/opencode.json` 中的 `provider` 配置，填入对应 API Key：
+- `bailian` → 阿里云百炼 API Key
+- `deepseek` → DeepSeek API Key
+- `ollama` → 本地 Ollama（无需 Key）
+
+---
+
+## 📝 自定义修改
+
+### 添加新的 Skill
+
+在 `~/.opencode/skills/` 下创建新目录，包含 `SKILL.md` 即可被 OpenCode 自动加载。
+
+### 修改 MCP 服务器配置
+
+编辑 `~/.opencode/opencode.json` 中的 `mcpServers` 节点：
+
+```json
+"mcpServers": {
+  "memory": {
+    "command": "node",
+    "args": ["D:\\你的路径\\opencode-memory-mcp\\dist\\index.js"]
+  }
+}
+```
+
+### 添加更多 MCP 服务器
+
+在 `mcpServers` 下添加更多条目即可，OpenCode 支持同时运行多个 MCP 服务器。
+
+---
+
+## 📄 License
+
+MIT — 随便用，引用请注明来源。
