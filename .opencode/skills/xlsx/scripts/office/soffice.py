@@ -1,1 +1,183 @@
-IiIiCkhlbHBlciBmb3IgcnVubmluZyBMaWJyZU9mZmljZSAoc29mZmljZSkgaW4gZW52aXJvbm1lbnRzIHdoZXJlIEFGX1VOSVgKc29ja2V0cyBtYXkgYmUgYmxvY2tlZCAoZS5nLiwgc2FuZGJveGVkIFZNcykuICBEZXRlY3RzIHRoZSByZXN0cmljdGlvbgphdCBydW50aW1lIGFuZCBhcHBsaWVzIGFuIExEX1BSRUxPQUQgc2hpbSBpZiBuZWVkZWQuCgpVc2FnZToKICAgIGZyb20gb2ZmaWNlLnNvZmZpY2UgaW1wb3J0IHJ1bl9zb2ZmaWNlLCBnZXRfc29mZmljZV9lbnYKCiAgICAjIE9wdGlvbiAxIOKAkyBydW4gc29mZmljZSBkaXJlY3RseQogICAgcmVzdWx0ID0gcnVuX3NvZmZpY2UoWyItLWhlYWRsZXNzIiwgIi0tY29udmVydC10byIsICJwZGYiLCAiaW5wdXQuZG9jeCJdKQoKICAgICMgT3B0aW9uIDIg4oCTIGdldCBlbnYgZGljdCBmb3IgeW91ciBvd24gc3VicHJvY2VzcyBjYWxscwogICAgZW52ID0gZ2V0X3NvZmZpY2VfZW52KCkKICAgIHN1YnByb2Nlc3MucnVuKFsic29mZmljZSIsIC4uLl0sIGVudj1lbnYpCiIiIgoKaW1wb3J0IG9zCmltcG9ydCBzb2NrZXQKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHRlbXBmaWxlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKCmRlZiBnZXRfc29mZmljZV9lbnYoKSAtPiBkaWN0OgogICAgZW52ID0gb3MuZW52aXJvbi5jb3B5KCkKICAgIGVudlsiU0FMX1VTRV9WQ0xQTFVHSU4iXSA9ICJzdnAiCgogICAgaWYgX25lZWRzX3NoaW0oKToKICAgICAgICBzaGltID0gX2Vuc3VyZV9zaGltKCkKICAgICAgICBlbnZbIkxEX1BSRUxPQUQiXSA9IHN0cihzaGltKQoKICAgIHJldHVybiBlbnYKCgpkZWYgcnVuX3NvZmZpY2UoYXJnczogbGlzdFtzdHJdLCAqKmt3YXJncykgLT4gc3VicHJvY2Vzcy5Db21wbGV0ZWRQcm9jZXNzOgogICAgZW52ID0gZ2V0X3NvZmZpY2VfZW52KCkKICAgIHJldHVybiBzdWJwcm9jZXNzLnJ1bihbInNvZmZpY2UiXSArIGFyZ3MsIGVudj1lbnYsICoqa3dhcmdzKQoKCgpfU0hJTV9TTyA9IFBhdGgodGVtcGZpbGUuZ2V0dGVtcGRpcigpKSAvICJsb19zb2NrZXRfc2hpbS5zbyIKCgpkZWYgX25lZWRzX3NoaW0oKSAtPiBib29sOgogICAgdHJ5OgogICAgICAgIHMgPSBzb2NrZXQuc29ja2V0KHNvY2tldC5BRl9VTklYLCBzb2NrZXQuU09DS19TVFJFQU0pCiAgICAgICAgcy5jbG9zZSgpCiAgICAgICAgcmV0dXJuIEZhbHNlCiAgICBleGNlcHQgT1NFcnJvcjoKICAgICAgICByZXR1cm4gVHJ1ZQoKCmRlZiBfZW5zdXJlX3NoaW0oKSAtPiBQYXRoOgogICAgaWYgX1NISU1fU08uZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIF9TSElNX1NPCgogICAgc3JjID0gUGF0aCh0ZW1wZmlsZS5nZXR0ZW1wZGlyKCkpIC8gImxvX3NvY2tldF9zaGltLmMiCiAgICBzcmMud3JpdGVfdGV4dChfU0hJTV9TT1VSQ0UpCiAgICBzdWJwcm9jZXNzLnJ1bigKICAgICAgICBbImdjYyIsICItc2hhcmVkIiwgIi1mUElDIiwgIi1vIiwgc3RyKF9TSElNX1NPKSwgc3RyKHNyYyksICItbGRsIl0sCiAgICAgICAgY2hlY2s9VHJ1ZSwKICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLAogICAgKQogICAgc3JjLnVubGluaygpCiAgICByZXR1cm4gX1NISU1fU08KCgoKX1NISU1fU09VUkNFID0gciIiIgojZGVmaW5lIF9HTlVfU09VUkNFCiNpbmNsdWRlIDxkbGZjbi5oPgojaW5jbHVkZSA8ZXJybm8uaD4KI2luY2x1ZGUgPHNpZ25hbC5oPgojaW5jbHVkZSA8c3RkaW8uaD4KI2luY2x1ZGUgPHN0ZGxpYi5oPgojaW5jbHVkZSA8c3lzL3NvY2tldC5oPgojaW5jbHVkZSA8dW5pc3RkLmg+CgpzdGF0aWMgaW50ICgqcmVhbF9zb2NrZXQpKGludCwgaW50LCBpbnQpOwpzdGF0aWMgaW50ICgqcmVhbF9zb2NrZXRwYWlyKShpbnQsIGludCwgaW50LCBpbnRbMl0pOwpzdGF0aWMgaW50ICgqcmVhbF9saXN0ZW4pKGludCwgaW50KTsKc3RhdGljIGludCAoKnJlYWxfYWNjZXB0KShpbnQsIHN0cnVjdCBzb2NrYWRkciAqLCBzb2NrbGVuX3QgKik7CnN0YXRpYyBpbnQgKCpyZWFsX2Nsb3NlKShpbnQpOwpzdGF0aWMgaW50ICgqcmVhbF9yZWFkKShpbnQsIHZvaWQgKiwgc2l6ZV90KTsKCi8qIFBlci1GRCBib29ra2VlcGluZyAoRkRzID49IDEwMjQgYXJlIHBhc3NlZCB0aHJvdWdoIHVuc2hpbW1lZCkuICovCnN0YXRpYyBpbnQgaXNfc2hpbW1lZFsxMDI0XTsKc3RhdGljIGludCBwZWVyX29mWzEwMjRdOwpzdGF0aWMgaW50IHdha2VfclsxMDI0XTsgICAgICAgICAgICAvKiBhY2NlcHQoKSBibG9ja3MgcmVhZGluZyB0aGlzICovCnN0YXRpYyBpbnQgd2FrZV93WzEwMjRdOyAgICAgICAgICAgIC8qIGNsb3NlKCkgIHdyaXRlcyB0byB0aGlzICAgICAgKi8Kc3RhdGljIGludCBsaXN0ZW5lcl9mZCA9IC0xOyAgICAgICAgLyogRkQgdGhhdCByZWNlaXZlZCBsaXN0ZW4oKSAgICAqLwoKX19hdHRyaWJ1dGVfXygoY29uc3RydWN0b3IpKQpzdGF0aWMgdm9pZCBpbml0KHZvaWQpIHsKICAgIHJlYWxfc29ja2V0ICAgICA9IGRsc3ltKFJUTERfTkVYVCwgInNvY2tldCIpOwogICAgcmVhbF9zb2NrZXRwYWlyID0gZGxzeW0oUlRMRF9ORVhULCAic29ja2V0cGFpciIpOwogICAgcmVhbF9saXN0ZW4gICAgID0gZGxzeW0oUlRMRF9ORVhULCAibGlzdGVuIik7CiAgICByZWFsX2FjY2VwdCAgICAgPSBkbHN5bShSVExEX05FWFQsICJhY2NlcHQiKTsKICAgIHJlYWxfY2xvc2UgICAgICA9IGRsc3ltKFJUTERfTkVYVCwgImNsb3NlIik7CiAgICByZWFsX3JlYWQgICAgICAgPSBkbHN5bShSVExEX05FWFQsICJyZWFkIik7CiAgICBmb3IgKGludCBpID0gMDsgaSA8IDEwMjQ7IGkrKykgewogICAgICAgIHBlZXJfb2ZbaV0gPSAtMTsKICAgICAgICB3YWtlX3JbaV0gID0gLTE7CiAgICAgICAgd2FrZV93W2ldICA9IC0xOwogICAgfQp9CgovKiAtLS0tIHNvY2tldCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovCmludCBzb2NrZXQoaW50IGRvbWFpbiwgaW50IHR5cGUsIGludCBwcm90b2NvbCkgewogICAgaWYgKGRvbWFpbiA9PSBBRl9VTklYKSB7CiAgICAgICAgaW50IGZkID0gcmVhbF9zb2NrZXQoZG9tYWluLCB0eXBlLCBwcm90b2NvbCk7CiAgICAgICAgaWYgKGZkID49IDApIHJldHVybiBmZDsKICAgICAgICAvKiBzb2NrZXQoQUZfVU5JWCkgYmxvY2tlZCDigJMgZmFsbCBiYWNrIHRvIHNvY2tldHBhaXIoKS4gKi8KICAgICAgICBpbnQgc3ZbMl07CiAgICAgICAgaWYgKHJlYWxfc29ja2V0cGFpcihkb21haW4sIHR5cGUsIHByb3RvY29sLCBzdikgPT0gMCkgewogICAgICAgICAgICBpZiAoc3ZbMF0gPj0gMCAmJiBzdlswXSA8IDEwMjQpIHsKICAgICAgICAgICAgICAgIGlzX3NoaW1tZWRbc3ZbMF1dID0gMTsKICAgICAgICAgICAgICAgIHBlZXJfb2Zbc3ZbMF1dICAgID0gc3ZbMV07CiAgICAgICAgICAgICAgICBpbnQgd3BbMl07CiAgICAgICAgICAgICAgICBpZiAocGlwZSh3cCkgPT0gMCkgewogICAgICAgICAgICAgICAgICAgIHdha2VfcltzdlswXV0gPSB3cFswXTsKICAgICAgICAgICAgICAgICAgICB3YWtlX3dbc3ZbMF1dID0gd3BbMV07CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgcmV0dXJuIHN2WzBdOwogICAgICAgIH0KICAgICAgICBlcnJubyA9IEVQRVJNOwogICAgICAgIHJldHVybiAtMTsKICAgIH0KICAgIHJldHVybiByZWFsX3NvY2tldChkb21haW4sIHR5cGUsIHByb3RvY29sKTsKfQoKLyogLS0tLSBsaXN0ZW4gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqLwppbnQgbGlzdGVuKGludCBzb2NrZmQsIGludCBiYWNrbG9nKSB7CiAgICBpZiAoc29ja2ZkID49IDAgJiYgc29ja2ZkIDwgMTAyNCAmJiBpc19zaGltbWVkW3NvY2tmZF0pIHsKICAgICAgICBsaXN0ZW5lcl9mZCA9IHNvY2tmZDsKICAgICAgICByZXR1cm4gMDsKICAgIH0KICAgIHJldHVybiByZWFsX2xpc3Rlbihzb2NrZmQsIGJhY2tsb2cpOwp9CgovKiAtLS0tIGFjY2VwdCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovCmludCBhY2NlcHQoaW50IHNvY2tmZCwgc3RydWN0IHNvY2thZGRyICphZGRyLCBzb2NrbGVuX3QgKmFkZHJsZW4pIHsKICAgIGlmIChzb2NrZmQgPj0gMCAmJiBzb2NrZmQgPCAxMDI0ICYmIGlzX3NoaW1tZWRbc29ja2ZkXSkgewogICAgICAgIC8qIEJsb2NrIHVudGlsIGNsb3NlKCkgd3JpdGVzIHRvIHRoZSB3YWtlIHBpcGUuICovCiAgICAgICAgaWYgKHdha2Vfcltzb2NrZmRdID49IDApIHsKICAgICAgICAgICAgY2hhciBidWY7CiAgICAgICAgICAgIHJlYWxfcmVhZCh3YWtlX3Jbc29ja2ZkXSwgJmJ1ZiwgMSk7CiAgICAgICAgfQogICAgICAgIGVycm5vID0gRUNPTk5BQk9SVEVEOwogICAgICAgIHJldHVybiAtMTsKICAgIH0KICAgIHJldHVybiByZWFsX2FjY2VwdChzb2NrZmQsIGFkZHIsIGFkZHJsZW4pOwp9CgovKiAtLS0tIGNsb3NlIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovCmludCBjbG9zZShpbnQgZmQpIHsKICAgIGlmIChmZCA+PSAwICYmIGZkIDwgMTAyNCAmJiBpc19zaGltbWVkW2ZkXSkgewogICAgICAgIGludCB3YXNfbGlzdGVuZXIgPSAoZmQgPT0gbGlzdGVuZXJfZmQpOwogICAgICAgIGlzX3NoaW1tZWRbZmRdID0gMDsKCiAgICAgICAgaWYgKHdha2Vfd1tmZF0gPj0gMCkgeyAgICAgICAgICAgICAgLyogdW5ibG9jayBhY2NlcHQoKSAqLwogICAgICAgICAgICBjaGFyIGMgPSAwOwogICAgICAgICAgICB3cml0ZSh3YWtlX3dbZmRdLCAmYywgMSk7CiAgICAgICAgICAgIHJlYWxfY2xvc2Uod2FrZV93W2ZkXSk7CiAgICAgICAgICAgIHdha2Vfd1tmZF0gPSAtMTsKICAgICAgICB9CiAgICAgICAgaWYgKHdha2VfcltmZF0gPj0gMCkgeyByZWFsX2Nsb3NlKHdha2VfcltmZF0pOyB3YWtlX3JbZmRdICA9IC0xOyB9CiAgICAgICAgaWYgKHBlZXJfb2ZbZmRdID49IDApIHsgcmVhbF9jbG9zZShwZWVyX29mW2ZkXSk7IHBlZXJfb2ZbZmRdID0gLTE7IH0KCiAgICAgICAgaWYgKHdhc19saXN0ZW5lcikKICAgICAgICAgICAgX2V4aXQoMCk7ICAgICAgICAgICAgICAgICAgICAgICAgLyogY29udmVyc2lvbiBkb25lIOKAkyBleGl0ICovCiAgICB9CiAgICByZXR1cm4gcmVhbF9jbG9zZShmZCk7Cn0KIiIiCgoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBpbXBvcnQgc3lzCiAgICByZXN1bHQgPSBydW5fc29mZmljZShzeXMuYXJndlsxOl0pCiAgICBzeXMuZXhpdChyZXN1bHQucmV0dXJuY29kZSkK
+"""
+Helper for running LibreOffice (soffice) in environments where AF_UNIX
+sockets may be blocked (e.g., sandboxed VMs).  Detects the restriction
+at runtime and applies an LD_PRELOAD shim if needed.
+
+Usage:
+    from office.soffice import run_soffice, get_soffice_env
+
+    # Option 1 – run soffice directly
+    result = run_soffice(["--headless", "--convert-to", "pdf", "input.docx"])
+
+    # Option 2 – get env dict for your own subprocess calls
+    env = get_soffice_env()
+    subprocess.run(["soffice", ...], env=env)
+"""
+
+import os
+import socket
+import subprocess
+import tempfile
+from pathlib import Path
+
+
+def get_soffice_env() -> dict:
+    env = os.environ.copy()
+    env["SAL_USE_VCLPLUGIN"] = "svp"
+
+    if _needs_shim():
+        shim = _ensure_shim()
+        env["LD_PRELOAD"] = str(shim)
+
+    return env
+
+
+def run_soffice(args: list[str], **kwargs) -> subprocess.CompletedProcess:
+    env = get_soffice_env()
+    return subprocess.run(["soffice"] + args, env=env, **kwargs)
+
+
+
+_SHIM_SO = Path(tempfile.gettempdir()) / "lo_socket_shim.so"
+
+
+def _needs_shim() -> bool:
+    try:
+        s = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+        s.close()
+        return False
+    except OSError:
+        return True
+
+
+def _ensure_shim() -> Path:
+    if _SHIM_SO.exists():
+        return _SHIM_SO
+
+    src = Path(tempfile.gettempdir()) / "lo_socket_shim.c"
+    src.write_text(_SHIM_SOURCE)
+    subprocess.run(
+        ["gcc", "-shared", "-fPIC", "-o", str(_SHIM_SO), str(src), "-ldl"],
+        check=True,
+        capture_output=True,
+    )
+    src.unlink()
+    return _SHIM_SO
+
+
+
+_SHIM_SOURCE = r"""
+#define _GNU_SOURCE
+#include <dlfcn.h>
+#include <errno.h>
+#include <signal.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/socket.h>
+#include <unistd.h>
+
+static int (*real_socket)(int, int, int);
+static int (*real_socketpair)(int, int, int, int[2]);
+static int (*real_listen)(int, int);
+static int (*real_accept)(int, struct sockaddr *, socklen_t *);
+static int (*real_close)(int);
+static int (*real_read)(int, void *, size_t);
+
+/* Per-FD bookkeeping (FDs >= 1024 are passed through unshimmed). */
+static int is_shimmed[1024];
+static int peer_of[1024];
+static int wake_r[1024];            /* accept() blocks reading this */
+static int wake_w[1024];            /* close()  writes to this      */
+static int listener_fd = -1;        /* FD that received listen()    */
+
+__attribute__((constructor))
+static void init(void) {
+    real_socket     = dlsym(RTLD_NEXT, "socket");
+    real_socketpair = dlsym(RTLD_NEXT, "socketpair");
+    real_listen     = dlsym(RTLD_NEXT, "listen");
+    real_accept     = dlsym(RTLD_NEXT, "accept");
+    real_close      = dlsym(RTLD_NEXT, "close");
+    real_read       = dlsym(RTLD_NEXT, "read");
+    for (int i = 0; i < 1024; i++) {
+        peer_of[i] = -1;
+        wake_r[i]  = -1;
+        wake_w[i]  = -1;
+    }
+}
+
+/* ---- socket ---------------------------------------------------------- */
+int socket(int domain, int type, int protocol) {
+    if (domain == AF_UNIX) {
+        int fd = real_socket(domain, type, protocol);
+        if (fd >= 0) return fd;
+        /* socket(AF_UNIX) blocked – fall back to socketpair(). */
+        int sv[2];
+        if (real_socketpair(domain, type, protocol, sv) == 0) {
+            if (sv[0] >= 0 && sv[0] < 1024) {
+                is_shimmed[sv[0]] = 1;
+                peer_of[sv[0]]    = sv[1];
+                int wp[2];
+                if (pipe(wp) == 0) {
+                    wake_r[sv[0]] = wp[0];
+                    wake_w[sv[0]] = wp[1];
+                }
+            }
+            return sv[0];
+        }
+        errno = EPERM;
+        return -1;
+    }
+    return real_socket(domain, type, protocol);
+}
+
+/* ---- listen ---------------------------------------------------------- */
+int listen(int sockfd, int backlog) {
+    if (sockfd >= 0 && sockfd < 1024 && is_shimmed[sockfd]) {
+        listener_fd = sockfd;
+        return 0;
+    }
+    return real_listen(sockfd, backlog);
+}
+
+/* ---- accept ---------------------------------------------------------- */
+int accept(int sockfd, struct sockaddr *addr, socklen_t *addrlen) {
+    if (sockfd >= 0 && sockfd < 1024 && is_shimmed[sockfd]) {
+        /* Block until close() writes to the wake pipe. */
+        if (wake_r[sockfd] >= 0) {
+            char buf;
+            real_read(wake_r[sockfd], &buf, 1);
+        }
+        errno = ECONNABORTED;
+        return -1;
+    }
+    return real_accept(sockfd, addr, addrlen);
+}
+
+/* ---- close ----------------------------------------------------------- */
+int close(int fd) {
+    if (fd >= 0 && fd < 1024 && is_shimmed[fd]) {
+        int was_listener = (fd == listener_fd);
+        is_shimmed[fd] = 0;
+
+        if (wake_w[fd] >= 0) {              /* unblock accept() */
+            char c = 0;
+            write(wake_w[fd], &c, 1);
+            real_close(wake_w[fd]);
+            wake_w[fd] = -1;
+        }
+        if (wake_r[fd] >= 0) { real_close(wake_r[fd]); wake_r[fd]  = -1; }
+        if (peer_of[fd] >= 0) { real_close(peer_of[fd]); peer_of[fd] = -1; }
+
+        if (was_listener)
+            _exit(0);                        /* conversion done – exit */
+    }
+    return real_close(fd);
+}
+"""
+
+
+
+if __name__ == "__main__":
+    import sys
+    result = run_soffice(sys.argv[1:])
+    sys.exit(result.returncode)

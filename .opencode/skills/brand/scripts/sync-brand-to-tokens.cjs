@@ -1,1 +1,266 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogc3luYy1icmFuZC10by10b2tlbnMuY2pzCiAqCiAqIFN5bmNzIGJyYW5kLWd1aWRlbGluZXMubWQgY29sb3JzIOKGkiBkZXNpZ24tdG9rZW5zLmpzb24g4oaSIGRlc2lnbi10b2tlbnMuY3NzCiAqCiAqIFVzYWdlOgogKiAgIG5vZGUgc3luYy1icmFuZC10by10b2tlbnMuY2pzCiAqICAgbm9kZSBzeW5jLWJyYW5kLXRvLXRva2Vucy5janMgLS1kcnktcnVuCiAqLwoKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwpjb25zdCB7IGV4ZWNTeW5jIH0gPSByZXF1aXJlKCdjaGlsZF9wcm9jZXNzJyk7CgovLyBQYXRocwpjb25zdCBCUkFORF9HVUlERUxJTkVTID0gJ2RvY3MvYnJhbmQtZ3VpZGVsaW5lcy5tZCc7CmNvbnN0IERFU0lHTl9UT0tFTlNfSlNPTiA9ICdhc3NldHMvZGVzaWduLXRva2Vucy5qc29uJzsKY29uc3QgREVTSUdOX1RPS0VOU19DU1MgPSAnYXNzZXRzL2Rlc2lnbi10b2tlbnMuY3NzJzsKY29uc3QgR0VORVJBVEVfVE9LRU5TX1NDUklQVCA9ICcuY2xhdWRlL3NraWxscy9kZXNpZ24tc3lzdGVtL3NjcmlwdHMvZ2VuZXJhdGUtdG9rZW5zLmNqcyc7CgovKioKICogRXh0cmFjdCBjb2xvciBpbmZvIGZyb20gYnJhbmQgZ3VpZGVsaW5lcyBtYXJrZG93bgogKi8KZnVuY3Rpb24gZXh0cmFjdENvbG9yc0Zyb21NYXJrZG93bihjb250ZW50KSB7CiAgY29uc3QgY29sb3JzID0gewogICAgcHJpbWFyeTogeyBuYW1lOiAncHJpbWFyeScsIHNoYWRlczoge30gfSwKICAgIHNlY29uZGFyeTogeyBuYW1lOiAnc2Vjb25kYXJ5Jywgc2hhZGVzOiB7fSB9LAogICAgYWNjZW50OiB7IG5hbWU6ICdhY2NlbnQnLCBzaGFkZXM6IHt9IH0KICB9OwoKICAvLyBFeHRyYWN0IHByaW1hcnkgY29sb3IgbmFtZSBhbmQgaGV4IGZyb20gUXVpY2sgUmVmZXJlbmNlIHRhYmxlCiAgY29uc3QgcXVpY2tSZWZNYXRjaCA9IGNvbnRlbnQubWF0Y2goL1ByaW1hcnkgQ29sb3JccypcfFxzKiMoW0EtRmEtZjAtOV17Nn0pXHMqXCgoW14pXSspXCkvKTsKICBpZiAocXVpY2tSZWZNYXRjaCkgewogICAgY29sb3JzLnByaW1hcnkubmFtZSA9IHF1aWNrUmVmTWF0Y2hbMl0udG9Mb3dlckNhc2UoKS5yZXBsYWNlKC9ccysvZywgJy0nKTsKICAgIGNvbG9ycy5wcmltYXJ5LmJhc2UgPSBgIyR7cXVpY2tSZWZNYXRjaFsxXX1gOwogIH0KCiAgY29uc3Qgc2Vjb25kYXJ5TWF0Y2ggPSBjb250ZW50Lm1hdGNoKC9TZWNvbmRhcnkgQ29sb3JccypcfFxzKiMoW0EtRmEtZjAtOV17Nn0pXHMqXCgoW14pXSspXCkvKTsKICBpZiAoc2Vjb25kYXJ5TWF0Y2gpIHsKICAgIGNvbG9ycy5zZWNvbmRhcnkubmFtZSA9IHNlY29uZGFyeU1hdGNoWzJdLnRvTG93ZXJDYXNlKCkucmVwbGFjZSgvXHMrL2csICctJyk7CiAgICBjb2xvcnMuc2Vjb25kYXJ5LmJhc2UgPSBgIyR7c2Vjb25kYXJ5TWF0Y2hbMV19YDsKICB9CgogIGNvbnN0IGFjY2VudE1hdGNoID0gY29udGVudC5tYXRjaCgvQWNjZW50IENvbG9yXHMqXHxccyojKFtBLUZhLWYwLTldezZ9KVxzKlwoKFteKV0rKVwpLyk7CiAgaWYgKGFjY2VudE1hdGNoKSB7CiAgICBjb2xvcnMuYWNjZW50Lm5hbWUgPSBhY2NlbnRNYXRjaFsyXS50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL1xzKy9nLCAnLScpOwogICAgY29sb3JzLmFjY2VudC5iYXNlID0gYCMke2FjY2VudE1hdGNoWzFdfWA7CiAgfQoKICAvLyBFeHRyYWN0IGFsbCBzaGFkZXMgZnJvbSBQcmltYXJ5IENvbG9ycyB0YWJsZQogIGNvbnN0IHByaW1hcnlTZWN0aW9uID0gY29udGVudC5tYXRjaCgvIyMjIFByaW1hcnkgQ29sb3JzW1xzXFNdKj9cfFtcc1xTXSo/KD89IyMjfCQpL2kpOwogIGlmIChwcmltYXJ5U2VjdGlvbikgewogICAgY29uc3QgaGV4TWF0Y2hlcyA9IHByaW1hcnlTZWN0aW9uWzBdLm1hdGNoQWxsKC9cKlwqKFteKl0rKVwqXCpccypcfFxzKiMoW0EtRmEtZjAtOV17Nn0pL2cpOwogICAgZm9yIChjb25zdCBtYXRjaCBvZiBoZXhNYXRjaGVzKSB7CiAgICAgIGNvbnN0IG5hbWUgPSBtYXRjaFsxXS50cmltKCkudG9Mb3dlckNhc2UoKTsKICAgICAgY29uc3QgaGV4ID0gYCMke21hdGNoWzJdfWA7CiAgICAgIGlmIChuYW1lLmluY2x1ZGVzKCdkYXJrJykpIGNvbG9ycy5wcmltYXJ5LmRhcmsgPSBoZXg7CiAgICAgIGVsc2UgaWYgKG5hbWUuaW5jbHVkZXMoJ2xpZ2h0JykpIGNvbG9ycy5wcmltYXJ5LmxpZ2h0ID0gaGV4OwogICAgICBlbHNlIGNvbG9ycy5wcmltYXJ5LmJhc2UgPSBoZXg7CiAgICB9CiAgfQoKICAvLyBFeHRyYWN0IHNlY29uZGFyeSBzaGFkZXMKICBjb25zdCBzZWNvbmRhcnlTZWN0aW9uID0gY29udGVudC5tYXRjaCgvIyMjIFNlY29uZGFyeSBDb2xvcnNbXHNcU10qP1x8W1xzXFNdKj8oPz0jIyN8JCkvaSk7CiAgaWYgKHNlY29uZGFyeVNlY3Rpb24pIHsKICAgIGNvbnN0IGhleE1hdGNoZXMgPSBzZWNvbmRhcnlTZWN0aW9uWzBdLm1hdGNoQWxsKC9cKlwqKFteKl0rKVwqXCpccypcfFxzKiMoW0EtRmEtZjAtOV17Nn0pL2cpOwogICAgZm9yIChjb25zdCBtYXRjaCBvZiBoZXhNYXRjaGVzKSB7CiAgICAgIGNvbnN0IG5hbWUgPSBtYXRjaFsxXS50cmltKCkudG9Mb3dlckNhc2UoKTsKICAgICAgY29uc3QgaGV4ID0gYCMke21hdGNoWzJdfWA7CiAgICAgIGlmIChuYW1lLmluY2x1ZGVzKCdkYXJrJykpIGNvbG9ycy5zZWNvbmRhcnkuZGFyayA9IGhleDsKICAgICAgZWxzZSBpZiAobmFtZS5pbmNsdWRlcygnbGlnaHQnKSkgY29sb3JzLnNlY29uZGFyeS5saWdodCA9IGhleDsKICAgICAgZWxzZSBjb2xvcnMuc2Vjb25kYXJ5LmJhc2UgPSBoZXg7CiAgICB9CiAgfQoKICAvLyBFeHRyYWN0IGFjY2VudCBzaGFkZXMKICBjb25zdCBhY2NlbnRTZWN0aW9uID0gY29udGVudC5tYXRjaCgvIyMjIEFjY2VudCBDb2xvcnNbXHNcU10qP1x8W1xzXFNdKj8oPz0jIyN8JCkvaSk7CiAgaWYgKGFjY2VudFNlY3Rpb24pIHsKICAgIGNvbnN0IGhleE1hdGNoZXMgPSBhY2NlbnRTZWN0aW9uWzBdLm1hdGNoQWxsKC9cKlwqKFteKl0rKVwqXCpccypcfFxzKiMoW0EtRmEtZjAtOV17Nn0pL2cpOwogICAgZm9yIChjb25zdCBtYXRjaCBvZiBoZXhNYXRjaGVzKSB7CiAgICAgIGNvbnN0IG5hbWUgPSBtYXRjaFsxXS50cmltKCkudG9Mb3dlckNhc2UoKTsKICAgICAgY29uc3QgaGV4ID0gYCMke21hdGNoWzJdfWA7CiAgICAgIGlmIChuYW1lLmluY2x1ZGVzKCdkYXJrJykpIGNvbG9ycy5hY2NlbnQuZGFyayA9IGhleDsKICAgICAgZWxzZSBpZiAobmFtZS5pbmNsdWRlcygnbGlnaHQnKSkgY29sb3JzLmFjY2VudC5saWdodCA9IGhleDsKICAgICAgZWxzZSBjb2xvcnMuYWNjZW50LmJhc2UgPSBoZXg7CiAgICB9CiAgfQoKICByZXR1cm4gY29sb3JzOwp9CgovKioKICogR2VuZXJhdGUgY29sb3Igc2NhbGUgZnJvbSBiYXNlIGNvbG9yIChzaW1wbGUgYXBwcm9hY2gpCiAqLwpmdW5jdGlvbiBnZW5lcmF0ZUNvbG9yU2NhbGUoYmFzZUhleCwgZGFya0hleCwgbGlnaHRIZXgpIHsKICAvLyBVc2UgcHJvdmlkZWQgc2hhZGVzIG9yIGdlbmVyYXRlIGFwcHJveGltYXRpb25zCiAgcmV0dXJuIHsKICAgICI1MCI6IHsgIiR2YWx1ZSI6IGxpZ2h0SGV4IHx8IGFkanVzdEJyaWdodG5lc3MoYmFzZUhleCwgMC45KSwgIiR0eXBlIjogImNvbG9yIiB9LAogICAgIjEwMCI6IHsgIiR2YWx1ZSI6IGxpZ2h0SGV4IHx8IGFkanVzdEJyaWdodG5lc3MoYmFzZUhleCwgMC44KSwgIiR0eXBlIjogImNvbG9yIiB9LAogICAgIjIwMCI6IHsgIiR2YWx1ZSI6IGFkanVzdEJyaWdodG5lc3MoYmFzZUhleCwgMC42KSwgIiR0eXBlIjogImNvbG9yIiB9LAogICAgIjMwMCI6IHsgIiR2YWx1ZSI6IGFkanVzdEJyaWdodG5lc3MoYmFzZUhleCwgMC40KSwgIiR0eXBlIjogImNvbG9yIiB9LAogICAgIjQwMCI6IHsgIiR2YWx1ZSI6IGFkanVzdEJyaWdodG5lc3MoYmFzZUhleCwgMC4yKSwgIiR0eXBlIjogImNvbG9yIiB9LAogICAgIjUwMCI6IHsgIiR2YWx1ZSI6IGJhc2VIZXgsICIkdHlwZSI6ICJjb2xvciIgfSwKICAgICI2MDAiOiB7ICIkdmFsdWUiOiBkYXJrSGV4IHx8IGFkanVzdEJyaWdodG5lc3MoYmFzZUhleCwgLTAuMTUpLCAiJHR5cGUiOiAiY29sb3IiIH0sCiAgICAiNzAwIjogeyAiJHZhbHVlIjogYWRqdXN0QnJpZ2h0bmVzcyhiYXNlSGV4LCAtMC4zKSwgIiR0eXBlIjogImNvbG9yIiB9LAogICAgIjgwMCI6IHsgIiR2YWx1ZSI6IGFkanVzdEJyaWdodG5lc3MoYmFzZUhleCwgLTAuNDUpLCAiJHR5cGUiOiAiY29sb3IiIH0sCiAgICAiOTAwIjogeyAiJHZhbHVlIjogYWRqdXN0QnJpZ2h0bmVzcyhiYXNlSGV4LCAtMC42KSwgIiR0eXBlIjogImNvbG9yIiB9CiAgfTsKfQoKLyoqCiAqIEFkanVzdCBoZXggY29sb3IgYnJpZ2h0bmVzcwogKi8KZnVuY3Rpb24gYWRqdXN0QnJpZ2h0bmVzcyhoZXgsIHBlcmNlbnQpIHsKICBjb25zdCBudW0gPSBwYXJzZUludChoZXgucmVwbGFjZSgnIycsICcnKSwgMTYpOwogIGNvbnN0IHIgPSBNYXRoLm1pbigyNTUsIE1hdGgubWF4KDAsIChudW0gPj4gMTYpICsgTWF0aC5yb3VuZCgyNTUgKiBwZXJjZW50KSkpOwogIGNvbnN0IGcgPSBNYXRoLm1pbigyNTUsIE1hdGgubWF4KDAsICgobnVtID4+IDgpICYgMHgwMEZGKSArIE1hdGgucm91bmQoMjU1ICogcGVyY2VudCkpKTsKICBjb25zdCBiID0gTWF0aC5taW4oMjU1LCBNYXRoLm1heCgwLCAobnVtICYgMHgwMDAwRkYpICsgTWF0aC5yb3VuZCgyNTUgKiBwZXJjZW50KSkpOwogIHJldHVybiBgIyR7KChyIDw8IDE2KSB8IChnIDw8IDgpIHwgYikudG9TdHJpbmcoMTYpLnBhZFN0YXJ0KDYsICcwJykudG9VcHBlckNhc2UoKX1gOwp9CgovKioKICogVXBkYXRlIGRlc2lnbiB0b2tlbnMgSlNPTgogKi8KZnVuY3Rpb24gdXBkYXRlRGVzaWduVG9rZW5zKHRva2VucywgY29sb3JzKSB7CiAgLy8gVXBkYXRlIGJyYW5kIG5hbWUKICBjb25zdCBicmFuZE5hbWUgPSBgQ2xhdWRlS2l0IE1hcmtldGluZyAtICR7Y29sb3JzLnByaW1hcnkubmFtZS5zcGxpdCgnLScpLm1hcCh3ID0+IHcuY2hhckF0KDApLnRvVXBwZXJDYXNlKCkgKyB3LnNsaWNlKDEpKS5qb2luKCcgJyl9YDsKICB0b2tlbnMuYnJhbmQgPSBicmFuZE5hbWU7CgogIC8vIFVwZGF0ZSBwcmltaXRpdmUgY29sb3JzIHdpdGggbmV3IG5hbWVzCiAgY29uc3QgcHJpbWl0aXZlQ29sb3JzID0gdG9rZW5zLnByaW1pdGl2ZT8uY29sb3IgfHwge307CgogIC8vIFJlbW92ZSBvbGQgY29sb3Iga2V5cywgYWRkIG5ldyBvbmVzCiAgZGVsZXRlIHByaW1pdGl2ZUNvbG9ycy5jb3JhbDsKICBkZWxldGUgcHJpbWl0aXZlQ29sb3JzLnB1cnBsZTsKICBkZWxldGUgcHJpbWl0aXZlQ29sb3JzLm1pbnQ7CgogIC8vIEFkZCBuZXcgbmFtZWQgY29sb3JzCiAgcHJpbWl0aXZlQ29sb3JzW2NvbG9ycy5wcmltYXJ5Lm5hbWVdID0gZ2VuZXJhdGVDb2xvclNjYWxlKAogICAgY29sb3JzLnByaW1hcnkuYmFzZSwKICAgIGNvbG9ycy5wcmltYXJ5LmRhcmssCiAgICBjb2xvcnMucHJpbWFyeS5saWdodAogICk7CiAgcHJpbWl0aXZlQ29sb3JzW2NvbG9ycy5zZWNvbmRhcnkubmFtZV0gPSBnZW5lcmF0ZUNvbG9yU2NhbGUoCiAgICBjb2xvcnMuc2Vjb25kYXJ5LmJhc2UsCiAgICBjb2xvcnMuc2Vjb25kYXJ5LmRhcmssCiAgICBjb2xvcnMuc2Vjb25kYXJ5LmxpZ2h0CiAgKTsKICBwcmltaXRpdmVDb2xvcnNbY29sb3JzLmFjY2VudC5uYW1lXSA9IGdlbmVyYXRlQ29sb3JTY2FsZSgKICAgIGNvbG9ycy5hY2NlbnQuYmFzZSwKICAgIGNvbG9ycy5hY2NlbnQuZGFyaywKICAgIGNvbG9ycy5hY2NlbnQubGlnaHQKICApOwoKICB0b2tlbnMucHJpbWl0aXZlLmNvbG9yID0gcHJpbWl0aXZlQ29sb3JzOwoKICAvLyBVcGRhdGUgQUxMIHNlbWFudGljIGNvbG9yIHJlZmVyZW5jZXMKICBpZiAodG9rZW5zLnNlbWFudGljPy5jb2xvcikgewogICAgY29uc3Qgc2VtID0gdG9rZW5zLnNlbWFudGljLmNvbG9yOwogICAgY29uc3QgcCA9IGNvbG9ycy5wcmltYXJ5Lm5hbWU7CiAgICBjb25zdCBzID0gY29sb3JzLnNlY29uZGFyeS5uYW1lOwogICAgY29uc3QgYSA9IGNvbG9ycy5hY2NlbnQubmFtZTsKCiAgICAvLyBQcmltYXJ5IHZhcmlhbnRzCiAgICBzZW0ucHJpbWFyeSA9IHsgIiR2YWx1ZSI6IGB7cHJpbWl0aXZlLmNvbG9yLiR7cH0uNTAwfWAsICIkdHlwZSI6ICJjb2xvciIgfTsKICAgIHNlbVsncHJpbWFyeS1ob3ZlciddID0geyAiJHZhbHVlIjogYHtwcmltaXRpdmUuY29sb3IuJHtwfS42MDB9YCwgIiR0eXBlIjogImNvbG9yIiB9OwogICAgc2VtWydwcmltYXJ5LWFjdGl2ZSddID0geyAiJHZhbHVlIjogYHtwcmltaXRpdmUuY29sb3IuJHtwfS43MDB9YCwgIiR0eXBlIjogImNvbG9yIiB9OwogICAgc2VtWydwcmltYXJ5LWxpZ2h0J10gPSB7ICIkdmFsdWUiOiBge3ByaW1pdGl2ZS5jb2xvci4ke3B9LjQwMH1gLCAiJHR5cGUiOiAiY29sb3IiIH07CiAgICBzZW1bJ3ByaW1hcnktbGlnaHRlciddID0geyAiJHZhbHVlIjogYHtwcmltaXRpdmUuY29sb3IuJHtwfS4xMDB9YCwgIiR0eXBlIjogImNvbG9yIiB9OwogICAgc2VtWydwcmltYXJ5LWRhcmsnXSA9IHsgIiR2YWx1ZSI6IGB7cHJpbWl0aXZlLmNvbG9yLiR7cH0uNjAwfWAsICIkdHlwZSI6ICJjb2xvciIgfTsKCiAgICAvLyBTZWNvbmRhcnkgdmFyaWFudHMKICAgIHNlbS5zZWNvbmRhcnkgPSB7ICIkdmFsdWUiOiBge3ByaW1pdGl2ZS5jb2xvci4ke3N9LjUwMH1gLCAiJHR5cGUiOiAiY29sb3IiIH07CiAgICBzZW1bJ3NlY29uZGFyeS1ob3ZlciddID0geyAiJHZhbHVlIjogYHtwcmltaXRpdmUuY29sb3IuJHtzfS42MDB9YCwgIiR0eXBlIjogImNvbG9yIiB9OwogICAgc2VtWydzZWNvbmRhcnktbGlnaHQnXSA9IHsgIiR2YWx1ZSI6IGB7cHJpbWl0aXZlLmNvbG9yLiR7c30uMzAwfWAsICIkdHlwZSI6ICJjb2xvciIgfTsKICAgIHNlbVsnc2Vjb25kYXJ5LWRhcmsnXSA9IHsgIiR2YWx1ZSI6IGB7cHJpbWl0aXZlLmNvbG9yLiR7c30uNjAwfWAsICIkdHlwZSI6ICJjb2xvciIgfTsKCiAgICAvLyBBY2NlbnQgdmFyaWFudHMKICAgIHNlbS5hY2NlbnQgPSB7ICIkdmFsdWUiOiBge3ByaW1pdGl2ZS5jb2xvci4ke2F9LjUwMH1gLCAiJHR5cGUiOiAiY29sb3IiIH07CiAgICBzZW1bJ2FjY2VudC1ob3ZlciddID0geyAiJHZhbHVlIjogYHtwcmltaXRpdmUuY29sb3IuJHthfS42MDB9YCwgIiR0eXBlIjogImNvbG9yIiB9OwogICAgc2VtWydhY2NlbnQtbGlnaHQnXSA9IHsgIiR2YWx1ZSI6IGB7cHJpbWl0aXZlLmNvbG9yLiR7YX0uMzAwfWAsICIkdHlwZSI6ICJjb2xvciIgfTsKCiAgICAvLyBTdGF0dXMgY29sb3JzICh1c2UgYWNjZW50IGZvciBzdWNjZXNzLCBwcmltYXJ5IGZvciBlcnJvci9pbmZvKQogICAgc2VtLnN1Y2Nlc3MgPSB7ICIkdmFsdWUiOiBge3ByaW1pdGl2ZS5jb2xvci4ke2F9LjUwMH1gLCAiJHR5cGUiOiAiY29sb3IiIH07CiAgICBzZW1bJ3N1Y2Nlc3MtbGlnaHQnXSA9IHsgIiR2YWx1ZSI6IGB7cHJpbWl0aXZlLmNvbG9yLiR7YX0uMzAwfWAsICIkdHlwZSI6ICJjb2xvciIgfTsKICAgIHNlbS5lcnJvciA9IHsgIiR2YWx1ZSI6IGB7cHJpbWl0aXZlLmNvbG9yLiR7cH0uNTAwfWAsICIkdHlwZSI6ICJjb2xvciIgfTsKICAgIHNlbVsnZXJyb3ItbGlnaHQnXSA9IHsgIiR2YWx1ZSI6IGB7cHJpbWl0aXZlLmNvbG9yLiR7cH0uMzAwfWAsICIkdHlwZSI6ICJjb2xvciIgfTsKICAgIHNlbS5pbmZvID0geyAiJHZhbHVlIjogYHtwcmltaXRpdmUuY29sb3IuJHtzfS41MDB9YCwgIiR0eXBlIjogImNvbG9yIiB9OwogICAgc2VtWydpbmZvLWxpZ2h0J10gPSB7ICIkdmFsdWUiOiBge3ByaW1pdGl2ZS5jb2xvci4ke3N9LjMwMH1gLCAiJHR5cGUiOiAiY29sb3IiIH07CiAgfQoKICAvLyBVcGRhdGUgY29tcG9uZW50IHJlZmVyZW5jZXMgKGJ1dHRvbiB1c2VzIHByaW1hcnkgY29sb3Igd2l0aCBvcGFjaXR5KQogIGlmICh0b2tlbnMuY29tcG9uZW50Py5idXR0b24/LnNlY29uZGFyeSkgewogICAgY29uc3QgcHJpbWFyeUJhc2UgPSBjb2xvcnMucHJpbWFyeS5iYXNlOwogICAgdG9rZW5zLmNvbXBvbmVudC5idXR0b24uc2Vjb25kYXJ5WydiZy1ob3ZlciddID0gewogICAgICAiJHZhbHVlIjogYCR7cHJpbWFyeUJhc2V9MUFgLAogICAgICAiJHR5cGUiOiAiY29sb3IiCiAgICB9OwogIH0KCiAgcmV0dXJuIHRva2VuczsKfQoKLyoqCiAqIE1haW4KICovCmZ1bmN0aW9uIG1haW4oKSB7CiAgY29uc3QgZHJ5UnVuID0gcHJvY2Vzcy5hcmd2LmluY2x1ZGVzKCctLWRyeS1ydW4nKTsKCiAgY29uc29sZS5sb2coJ/CflIQgU3luY2luZyBicmFuZCBndWlkZWxpbmVzIOKGkiBkZXNpZ24gdG9rZW5zXG4nKTsKCiAgLy8gUmVhZCBicmFuZCBndWlkZWxpbmVzCiAgY29uc3QgZ3VpZGVsaW5lc1BhdGggPSBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgQlJBTkRfR1VJREVMSU5FUyk7CiAgaWYgKCFmcy5leGlzdHNTeW5jKGd1aWRlbGluZXNQYXRoKSkgewogICAgY29uc29sZS5lcnJvcihg4p2MIEJyYW5kIGd1aWRlbGluZXMgbm90IGZvdW5kOiAke2d1aWRlbGluZXNQYXRofWApOwogICAgcHJvY2Vzcy5leGl0KDEpOwogIH0KICBjb25zdCBndWlkZWxpbmVzQ29udGVudCA9IGZzLnJlYWRGaWxlU3luYyhndWlkZWxpbmVzUGF0aCwgJ3V0Zi04Jyk7CgogIC8vIEV4dHJhY3QgY29sb3JzCiAgY29uc3QgY29sb3JzID0gZXh0cmFjdENvbG9yc0Zyb21NYXJrZG93bihndWlkZWxpbmVzQ29udGVudCk7CiAgY29uc29sZS5sb2coJ/Cfk4ogRXh0cmFjdGVkIGNvbG9yczonKTsKICBjb25zb2xlLmxvZyhgICAgUHJpbWFyeTogJHtjb2xvcnMucHJpbWFyeS5uYW1lfSAoJHtjb2xvcnMucHJpbWFyeS5iYXNlfSlgKTsKICBjb25zb2xlLmxvZyhgICAgU2Vjb25kYXJ5OiAke2NvbG9ycy5zZWNvbmRhcnkubmFtZX0gKCR7Y29sb3JzLnNlY29uZGFyeS5iYXNlfSlgKTsKICBjb25zb2xlLmxvZyhgICAgQWNjZW50OiAke2NvbG9ycy5hY2NlbnQubmFtZX0gKCR7Y29sb3JzLmFjY2VudC5iYXNlfSlcbmApOwoKICAvLyBSZWFkIGV4aXN0aW5nIHRva2VucwogIGNvbnN0IHRva2Vuc1BhdGggPSBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgREVTSUdOX1RPS0VOU19KU09OKTsKICBsZXQgdG9rZW5zID0ge307CiAgaWYgKGZzLmV4aXN0c1N5bmModG9rZW5zUGF0aCkpIHsKICAgIHRva2VucyA9IEpTT04ucGFyc2UoZnMucmVhZEZpbGVTeW5jKHRva2Vuc1BhdGgsICd1dGYtOCcpKTsKICB9CgogIC8vIFVwZGF0ZSB0b2tlbnMKICB0b2tlbnMgPSB1cGRhdGVEZXNpZ25Ub2tlbnModG9rZW5zLCBjb2xvcnMpOwoKICBpZiAoZHJ5UnVuKSB7CiAgICBjb25zb2xlLmxvZygn8J+TiyBXb3VsZCB1cGRhdGUgZGVzaWduLXRva2Vucy5qc29uOicpOwogICAgY29uc29sZS5sb2coSlNPTi5zdHJpbmdpZnkodG9rZW5zLnByaW1pdGl2ZS5jb2xvciwgbnVsbCwgMikuc2xpY2UoMCwgNTAwKSArICcuLi4nKTsKICAgIGNvbnNvbGUubG9nKCdcbuKPre+4jyAgRHJ5IHJ1biAtIG5vIGZpbGVzIGNoYW5nZWQnKTsKICAgIHJldHVybjsKICB9CgogIC8vIFdyaXRlIHVwZGF0ZWQgdG9rZW5zCiAgZnMud3JpdGVGaWxlU3luYyh0b2tlbnNQYXRoLCBKU09OLnN0cmluZ2lmeSh0b2tlbnMsIG51bGwsIDIpKTsKICBjb25zb2xlLmxvZyhg4pyFIFVwZGF0ZWQ6ICR7REVTSUdOX1RPS0VOU19KU09OfWApOwoKICAvLyBSZWdlbmVyYXRlIENTUwogIGNvbnN0IGdlbmVyYXRlU2NyaXB0ID0gcGF0aC5yZXNvbHZlKHByb2Nlc3MuY3dkKCksIEdFTkVSQVRFX1RPS0VOU19TQ1JJUFQpOwogIGlmIChmcy5leGlzdHNTeW5jKGdlbmVyYXRlU2NyaXB0KSkgewogICAgdHJ5IHsKICAgICAgZXhlY1N5bmMoYG5vZGUgJHtnZW5lcmF0ZVNjcmlwdH0gLS1jb25maWcgJHtERVNJR05fVE9LRU5TX0pTT059IC1vICR7REVTSUdOX1RPS0VOU19DU1N9YCwgewogICAgICAgIGN3ZDogcHJvY2Vzcy5jd2QoKSwKICAgICAgICBzdGRpbzogJ2luaGVyaXQnCiAgICAgIH0pOwogICAgICBjb25zb2xlLmxvZyhg4pyFIFJlZ2VuZXJhdGVkOiAke0RFU0lHTl9UT0tFTlNfQ1NTfWApOwogICAgfSBjYXRjaCAoZSkgewogICAgICBjb25zb2xlLmVycm9yKCfimqDvuI8gIEZhaWxlZCB0byByZWdlbmVyYXRlIENTUzonLCBlLm1lc3NhZ2UpOwogICAgfQogIH0KCiAgY29uc29sZS5sb2coJ1xu4pyoIEJyYW5kIHN5bmMgY29tcGxldGUhJyk7Cn0KCm1haW4oKTsK
+#!/usr/bin/env node
+/**
+ * sync-brand-to-tokens.cjs
+ *
+ * Syncs brand-guidelines.md colors → design-tokens.json → design-tokens.css
+ *
+ * Usage:
+ *   node sync-brand-to-tokens.cjs
+ *   node sync-brand-to-tokens.cjs --dry-run
+ */
+
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+
+// Paths
+const BRAND_GUIDELINES = 'docs/brand-guidelines.md';
+const DESIGN_TOKENS_JSON = 'assets/design-tokens.json';
+const DESIGN_TOKENS_CSS = 'assets/design-tokens.css';
+const GENERATE_TOKENS_SCRIPT = '.claude/skills/design-system/scripts/generate-tokens.cjs';
+
+/**
+ * Extract color info from brand guidelines markdown
+ */
+function extractColorsFromMarkdown(content) {
+  const colors = {
+    primary: { name: 'primary', shades: {} },
+    secondary: { name: 'secondary', shades: {} },
+    accent: { name: 'accent', shades: {} }
+  };
+
+  // Extract primary color name and hex from Quick Reference table
+  const quickRefMatch = content.match(/Primary Color\s*\|\s*#([A-Fa-f0-9]{6})\s*\(([^)]+)\)/);
+  if (quickRefMatch) {
+    colors.primary.name = quickRefMatch[2].toLowerCase().replace(/\s+/g, '-');
+    colors.primary.base = `#${quickRefMatch[1]}`;
+  }
+
+  const secondaryMatch = content.match(/Secondary Color\s*\|\s*#([A-Fa-f0-9]{6})\s*\(([^)]+)\)/);
+  if (secondaryMatch) {
+    colors.secondary.name = secondaryMatch[2].toLowerCase().replace(/\s+/g, '-');
+    colors.secondary.base = `#${secondaryMatch[1]}`;
+  }
+
+  const accentMatch = content.match(/Accent Color\s*\|\s*#([A-Fa-f0-9]{6})\s*\(([^)]+)\)/);
+  if (accentMatch) {
+    colors.accent.name = accentMatch[2].toLowerCase().replace(/\s+/g, '-');
+    colors.accent.base = `#${accentMatch[1]}`;
+  }
+
+  // Extract all shades from Primary Colors table
+  const primarySection = content.match(/### Primary Colors[\s\S]*?\|[\s\S]*?(?=###|$)/i);
+  if (primarySection) {
+    const hexMatches = primarySection[0].matchAll(/\*\*([^*]+)\*\*\s*\|\s*#([A-Fa-f0-9]{6})/g);
+    for (const match of hexMatches) {
+      const name = match[1].trim().toLowerCase();
+      const hex = `#${match[2]}`;
+      if (name.includes('dark')) colors.primary.dark = hex;
+      else if (name.includes('light')) colors.primary.light = hex;
+      else colors.primary.base = hex;
+    }
+  }
+
+  // Extract secondary shades
+  const secondarySection = content.match(/### Secondary Colors[\s\S]*?\|[\s\S]*?(?=###|$)/i);
+  if (secondarySection) {
+    const hexMatches = secondarySection[0].matchAll(/\*\*([^*]+)\*\*\s*\|\s*#([A-Fa-f0-9]{6})/g);
+    for (const match of hexMatches) {
+      const name = match[1].trim().toLowerCase();
+      const hex = `#${match[2]}`;
+      if (name.includes('dark')) colors.secondary.dark = hex;
+      else if (name.includes('light')) colors.secondary.light = hex;
+      else colors.secondary.base = hex;
+    }
+  }
+
+  // Extract accent shades
+  const accentSection = content.match(/### Accent Colors[\s\S]*?\|[\s\S]*?(?=###|$)/i);
+  if (accentSection) {
+    const hexMatches = accentSection[0].matchAll(/\*\*([^*]+)\*\*\s*\|\s*#([A-Fa-f0-9]{6})/g);
+    for (const match of hexMatches) {
+      const name = match[1].trim().toLowerCase();
+      const hex = `#${match[2]}`;
+      if (name.includes('dark')) colors.accent.dark = hex;
+      else if (name.includes('light')) colors.accent.light = hex;
+      else colors.accent.base = hex;
+    }
+  }
+
+  return colors;
+}
+
+/**
+ * Generate color scale from base color (simple approach)
+ */
+function generateColorScale(baseHex, darkHex, lightHex) {
+  // Use provided shades or generate approximations
+  return {
+    "50": { "$value": lightHex || adjustBrightness(baseHex, 0.9), "$type": "color" },
+    "100": { "$value": lightHex || adjustBrightness(baseHex, 0.8), "$type": "color" },
+    "200": { "$value": adjustBrightness(baseHex, 0.6), "$type": "color" },
+    "300": { "$value": adjustBrightness(baseHex, 0.4), "$type": "color" },
+    "400": { "$value": adjustBrightness(baseHex, 0.2), "$type": "color" },
+    "500": { "$value": baseHex, "$type": "color" },
+    "600": { "$value": darkHex || adjustBrightness(baseHex, -0.15), "$type": "color" },
+    "700": { "$value": adjustBrightness(baseHex, -0.3), "$type": "color" },
+    "800": { "$value": adjustBrightness(baseHex, -0.45), "$type": "color" },
+    "900": { "$value": adjustBrightness(baseHex, -0.6), "$type": "color" }
+  };
+}
+
+/**
+ * Adjust hex color brightness
+ */
+function adjustBrightness(hex, percent) {
+  const num = parseInt(hex.replace('#', ''), 16);
+  const r = Math.min(255, Math.max(0, (num >> 16) + Math.round(255 * percent)));
+  const g = Math.min(255, Math.max(0, ((num >> 8) & 0x00FF) + Math.round(255 * percent)));
+  const b = Math.min(255, Math.max(0, (num & 0x0000FF) + Math.round(255 * percent)));
+  return `#${((r << 16) | (g << 8) | b).toString(16).padStart(6, '0').toUpperCase()}`;
+}
+
+/**
+ * Update design tokens JSON
+ */
+function updateDesignTokens(tokens, colors) {
+  // Update brand name
+  const brandName = `ClaudeKit Marketing - ${colors.primary.name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}`;
+  tokens.brand = brandName;
+
+  // Update primitive colors with new names
+  const primitiveColors = tokens.primitive?.color || {};
+
+  // Remove old color keys, add new ones
+  delete primitiveColors.coral;
+  delete primitiveColors.purple;
+  delete primitiveColors.mint;
+
+  // Add new named colors
+  primitiveColors[colors.primary.name] = generateColorScale(
+    colors.primary.base,
+    colors.primary.dark,
+    colors.primary.light
+  );
+  primitiveColors[colors.secondary.name] = generateColorScale(
+    colors.secondary.base,
+    colors.secondary.dark,
+    colors.secondary.light
+  );
+  primitiveColors[colors.accent.name] = generateColorScale(
+    colors.accent.base,
+    colors.accent.dark,
+    colors.accent.light
+  );
+
+  tokens.primitive.color = primitiveColors;
+
+  // Update ALL semantic color references
+  if (tokens.semantic?.color) {
+    const sem = tokens.semantic.color;
+    const p = colors.primary.name;
+    const s = colors.secondary.name;
+    const a = colors.accent.name;
+
+    // Primary variants
+    sem.primary = { "$value": `{primitive.color.${p}.500}`, "$type": "color" };
+    sem['primary-hover'] = { "$value": `{primitive.color.${p}.600}`, "$type": "color" };
+    sem['primary-active'] = { "$value": `{primitive.color.${p}.700}`, "$type": "color" };
+    sem['primary-light'] = { "$value": `{primitive.color.${p}.400}`, "$type": "color" };
+    sem['primary-lighter'] = { "$value": `{primitive.color.${p}.100}`, "$type": "color" };
+    sem['primary-dark'] = { "$value": `{primitive.color.${p}.600}`, "$type": "color" };
+
+    // Secondary variants
+    sem.secondary = { "$value": `{primitive.color.${s}.500}`, "$type": "color" };
+    sem['secondary-hover'] = { "$value": `{primitive.color.${s}.600}`, "$type": "color" };
+    sem['secondary-light'] = { "$value": `{primitive.color.${s}.300}`, "$type": "color" };
+    sem['secondary-dark'] = { "$value": `{primitive.color.${s}.600}`, "$type": "color" };
+
+    // Accent variants
+    sem.accent = { "$value": `{primitive.color.${a}.500}`, "$type": "color" };
+    sem['accent-hover'] = { "$value": `{primitive.color.${a}.600}`, "$type": "color" };
+    sem['accent-light'] = { "$value": `{primitive.color.${a}.300}`, "$type": "color" };
+
+    // Status colors (use accent for success, primary for error/info)
+    sem.success = { "$value": `{primitive.color.${a}.500}`, "$type": "color" };
+    sem['success-light'] = { "$value": `{primitive.color.${a}.300}`, "$type": "color" };
+    sem.error = { "$value": `{primitive.color.${p}.500}`, "$type": "color" };
+    sem['error-light'] = { "$value": `{primitive.color.${p}.300}`, "$type": "color" };
+    sem.info = { "$value": `{primitive.color.${s}.500}`, "$type": "color" };
+    sem['info-light'] = { "$value": `{primitive.color.${s}.300}`, "$type": "color" };
+  }
+
+  // Update component references (button uses primary color with opacity)
+  if (tokens.component?.button?.secondary) {
+    const primaryBase = colors.primary.base;
+    tokens.component.button.secondary['bg-hover'] = {
+      "$value": `${primaryBase}1A`,
+      "$type": "color"
+    };
+  }
+
+  return tokens;
+}
+
+/**
+ * Main
+ */
+function main() {
+  const dryRun = process.argv.includes('--dry-run');
+
+  console.log('🔄 Syncing brand guidelines → design tokens\n');
+
+  // Read brand guidelines
+  const guidelinesPath = path.resolve(process.cwd(), BRAND_GUIDELINES);
+  if (!fs.existsSync(guidelinesPath)) {
+    console.error(`❌ Brand guidelines not found: ${guidelinesPath}`);
+    process.exit(1);
+  }
+  const guidelinesContent = fs.readFileSync(guidelinesPath, 'utf-8');
+
+  // Extract colors
+  const colors = extractColorsFromMarkdown(guidelinesContent);
+  console.log('📊 Extracted colors:');
+  console.log(`   Primary: ${colors.primary.name} (${colors.primary.base})`);
+  console.log(`   Secondary: ${colors.secondary.name} (${colors.secondary.base})`);
+  console.log(`   Accent: ${colors.accent.name} (${colors.accent.base})\n`);
+
+  // Read existing tokens
+  const tokensPath = path.resolve(process.cwd(), DESIGN_TOKENS_JSON);
+  let tokens = {};
+  if (fs.existsSync(tokensPath)) {
+    tokens = JSON.parse(fs.readFileSync(tokensPath, 'utf-8'));
+  }
+
+  // Update tokens
+  tokens = updateDesignTokens(tokens, colors);
+
+  if (dryRun) {
+    console.log('📋 Would update design-tokens.json:');
+    console.log(JSON.stringify(tokens.primitive.color, null, 2).slice(0, 500) + '...');
+    console.log('\n⏭️  Dry run - no files changed');
+    return;
+  }
+
+  // Write updated tokens
+  fs.writeFileSync(tokensPath, JSON.stringify(tokens, null, 2));
+  console.log(`✅ Updated: ${DESIGN_TOKENS_JSON}`);
+
+  // Regenerate CSS
+  const generateScript = path.resolve(process.cwd(), GENERATE_TOKENS_SCRIPT);
+  if (fs.existsSync(generateScript)) {
+    try {
+      execSync(`node ${generateScript} --config ${DESIGN_TOKENS_JSON} -o ${DESIGN_TOKENS_CSS}`, {
+        cwd: process.cwd(),
+        stdio: 'inherit'
+      });
+      console.log(`✅ Regenerated: ${DESIGN_TOKENS_CSS}`);
+    } catch (e) {
+      console.error('⚠️  Failed to regenerate CSS:', e.message);
+    }
+  }
+
+  console.log('\n✨ Brand sync complete!');
+}
+
+main();

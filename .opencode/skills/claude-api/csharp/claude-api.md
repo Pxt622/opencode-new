@@ -1,1 +1,402 @@
-IyBDbGF1ZGUgQVBJIOKAlCBDIwoKPiAqKk5vdGU6KiogVGhlIEMjIFNESyBpcyB0aGUgb2ZmaWNpYWwgQW50aHJvcGljIFNESyBmb3IgQyMuIFRvb2wgdXNlIGlzIHN1cHBvcnRlZCB2aWEgdGhlIE1lc3NhZ2VzIEFQSS4gQSBjbGFzcy1hbm5vdGF0aW9uLWJhc2VkIHRvb2wgcnVubmVyIGlzIG5vdCBhdmFpbGFibGU7IHVzZSByYXcgdG9vbCBkZWZpbml0aW9ucyB3aXRoIEpTT04gc2NoZW1hLiBUaGUgU0RLIGFsc28gc3VwcG9ydHMgTWljcm9zb2Z0LkV4dGVuc2lvbnMuQUkgSUNoYXRDbGllbnQgaW50ZWdyYXRpb24gd2l0aCBmdW5jdGlvbiBpbnZvY2F0aW9uLgoKIyMgSW5zdGFsbGF0aW9uCgpgYGBiYXNoCmRvdG5ldCBhZGQgcGFja2FnZSBBbnRocm9waWMKYGBgCgojIyBDbGllbnQgSW5pdGlhbGl6YXRpb24KCmBgYGNzaGFycAp1c2luZyBBbnRocm9waWM7CgovLyBEZWZhdWx0ICh1c2VzIEFOVEhST1BJQ19BUElfS0VZIGVudiB2YXIpCkFudGhyb3BpY0NsaWVudCBjbGllbnQgPSBuZXcoKTsKCi8vIEV4cGxpY2l0IEFQSSBrZXkgKHVzZSBlbnZpcm9ubWVudCB2YXJpYWJsZXMg4oCUIG5ldmVyIGhhcmRjb2RlIGtleXMpCkFudGhyb3BpY0NsaWVudCBjbGllbnQgPSBuZXcoKSB7CiAgICBBcGlLZXkgPSBFbnZpcm9ubWVudC5HZXRFbnZpcm9ubWVudFZhcmlhYmxlKCJBTlRIUk9QSUNfQVBJX0tFWSIpCn07CmBgYAoKLS0tCgojIyBCYXNpYyBNZXNzYWdlIFJlcXVlc3QKCmBgYGNzaGFycAp1c2luZyBBbnRocm9waWMuTW9kZWxzLk1lc3NhZ2VzOwoKdmFyIHBhcmFtZXRlcnMgPSBuZXcgTWVzc2FnZUNyZWF0ZVBhcmFtcwp7CiAgICBNb2RlbCA9IE1vZGVsLkNsYXVkZU9wdXM0XzYsCiAgICBNYXhUb2tlbnMgPSAxNjAwMCwKICAgIE1lc3NhZ2VzID0gW25ldygpIHsgUm9sZSA9IFJvbGUuVXNlciwgQ29udGVudCA9ICJXaGF0IGlzIHRoZSBjYXBpdGFsIG9mIEZyYW5jZT8iIH1dCn07CnZhciByZXNwb25zZSA9IGF3YWl0IGNsaWVudC5NZXNzYWdlcy5DcmVhdGUocGFyYW1ldGVycyk7CgovLyBDb250ZW50QmxvY2sgaXMgYSB1bmlvbiB3cmFwcGVyLiAuVmFsdWUgdW53cmFwcyB0byB0aGUgdmFyaWFudCBvYmplY3QsCi8vIHRoZW4gT2ZUeXBlPFQ+IGZpbHRlcnMgdG8gdGhlIHR5cGUgeW91IHdhbnQuIE9yIHVzZSB0aGUgVHJ5UGljayogaWRpb20KLy8gc2hvd24gaW4gdGhlIFRoaW5raW5nIHNlY3Rpb24gYmVsb3cuCmZvcmVhY2ggKHZhciB0ZXh0IGluIHJlc3BvbnNlLkNvbnRlbnQuU2VsZWN0KGIgPT4gYi5WYWx1ZSkuT2ZUeXBlPFRleHRCbG9jaz4oKSkKewogICAgQ29uc29sZS5Xcml0ZUxpbmUodGV4dC5UZXh0KTsKfQpgYGAKCi0tLQoKIyMgU3RyZWFtaW5nCgpgYGBjc2hhcnAKdXNpbmcgQW50aHJvcGljLk1vZGVscy5NZXNzYWdlczsKCnZhciBwYXJhbWV0ZXJzID0gbmV3IE1lc3NhZ2VDcmVhdGVQYXJhbXMKewogICAgTW9kZWwgPSBNb2RlbC5DbGF1ZGVPcHVzNF82LAogICAgTWF4VG9rZW5zID0gNjQwMDAsCiAgICBNZXNzYWdlcyA9IFtuZXcoKSB7IFJvbGUgPSBSb2xlLlVzZXIsIENvbnRlbnQgPSAiV3JpdGUgYSBoYWlrdSIgfV0KfTsKCmF3YWl0IGZvcmVhY2ggKFJhd01lc3NhZ2VTdHJlYW1FdmVudCBzdHJlYW1FdmVudCBpbiBjbGllbnQuTWVzc2FnZXMuQ3JlYXRlU3RyZWFtaW5nKHBhcmFtZXRlcnMpKQp7CiAgICBpZiAoc3RyZWFtRXZlbnQuVHJ5UGlja0NvbnRlbnRCbG9ja0RlbHRhKG91dCB2YXIgZGVsdGEpICYmCiAgICAgICAgZGVsdGEuRGVsdGEuVHJ5UGlja1RleHQob3V0IHZhciB0ZXh0KSkKICAgIHsKICAgICAgICBDb25zb2xlLldyaXRlKHRleHQuVGV4dCk7CiAgICB9Cn0KYGBgCgoqKmBSYXdNZXNzYWdlU3RyZWFtRXZlbnRgIFRyeVBpY2sgbWV0aG9kcyoqIChuYW1pbmcgZHJvcHMgdGhlIGBNZXNzYWdlYC9gUmF3YCBwcmVmaXgpOiBgVHJ5UGlja1N0YXJ0YCwgYFRyeVBpY2tEZWx0YWAsIGBUcnlQaWNrU3RvcGAsIGBUcnlQaWNrQ29udGVudEJsb2NrU3RhcnRgLCBgVHJ5UGlja0NvbnRlbnRCbG9ja0RlbHRhYCwgYFRyeVBpY2tDb250ZW50QmxvY2tTdG9wYC4gVGhlcmUgaXMgbm8gYFRyeVBpY2tNZXNzYWdlU3RvcGAg4oCUIHVzZSBgVHJ5UGlja1N0b3BgLgoKLS0tCgojIyBUaGlua2luZwoKKipBZGFwdGl2ZSB0aGlua2luZyBpcyB0aGUgcmVjb21tZW5kZWQgbW9kZSBmb3IgQ2xhdWRlIDQuNisgbW9kZWxzLioqIENsYXVkZSBkZWNpZGVzIGR5bmFtaWNhbGx5IHdoZW4gYW5kIGhvdyBtdWNoIHRvIHRoaW5rLgoKYGBgY3NoYXJwCnVzaW5nIEFudGhyb3BpYy5Nb2RlbHMuTWVzc2FnZXM7Cgp2YXIgcmVzcG9uc2UgPSBhd2FpdCBjbGllbnQuTWVzc2FnZXMuQ3JlYXRlKG5ldyBNZXNzYWdlQ3JlYXRlUGFyYW1zCnsKICAgIE1vZGVsID0gTW9kZWwuQ2xhdWRlT3B1czRfNiwKICAgIE1heFRva2VucyA9IDE2MDAwLAogICAgLy8gVGhpbmtpbmdDb25maWdQYXJhbT8gaW1wbGljaXRseSBjb252ZXJ0cyBmcm9tIHRoZSBjb25jcmV0ZSB2YXJpYW50IGNsYXNzZXMg4oCUCiAgICAvLyBubyB3cmFwcGVyIG5lZWRlZC4KICAgIFRoaW5raW5nID0gbmV3IFRoaW5raW5nQ29uZmlnQWRhcHRpdmUoKSwKICAgIE1lc3NhZ2VzID0KICAgIFsKICAgICAgICBuZXcoKSB7IFJvbGUgPSBSb2xlLlVzZXIsIENvbnRlbnQgPSAiU29sdmU6IDI3ICogNDUzIiB9LAogICAgXSwKfSk7CgovLyBUaGlua2luZ0Jsb2NrKHMpIHByZWNlZGUgVGV4dEJsb2NrIGluIENvbnRlbnQuIFRyeVBpY2sqIG5hcnJvd3MgdGhlIHVuaW9uLgpmb3JlYWNoICh2YXIgYmxvY2sgaW4gcmVzcG9uc2UuQ29udGVudCkKewogICAgaWYgKGJsb2NrLlRyeVBpY2tUaGlua2luZyhvdXQgVGhpbmtpbmdCbG9jaz8gdCkpCiAgICB7CiAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUoJCJbdGhpbmtpbmddIHt0LlRoaW5raW5nfSIpOwogICAgfQogICAgZWxzZSBpZiAoYmxvY2suVHJ5UGlja1RleHQob3V0IFRleHRCbG9jaz8gdGV4dCkpCiAgICB7CiAgICAgICAgQ29uc29sZS5Xcml0ZUxpbmUodGV4dC5UZXh0KTsKICAgIH0KfQpgYGAKCj4gKipEZXByZWNhdGVkOioqIGBuZXcgVGhpbmtpbmdDb25maWdFbmFibGVkIHsgQnVkZ2V0VG9rZW5zID0gTiB9YCAoZml4ZWQtYnVkZ2V0IGV4dGVuZGVkIHRoaW5raW5nKSBzdGlsbCB3b3JrcyBvbiBDbGF1ZGUgNC42IGJ1dCBpcyBkZXByZWNhdGVkLiBVc2UgYWRhcHRpdmUgdGhpbmtpbmcgYWJvdmUuCgpBbHRlcm5hdGl2ZSB0byBgVHJ5UGljaypgOiBgLlNlbGVjdChiID0+IGIuVmFsdWUpLk9mVHlwZTxUaGlua2luZ0Jsb2NrPigpYCAoc2FtZSBMSU5RIHBhdHRlcm4gYXMgdGhlIEJhc2ljIE1lc3NhZ2UgZXhhbXBsZSkuCgotLS0KCiMjIFRvb2wgVXNlCgojIyMgRGVmaW5pbmcgYSB0b29sCgpgVG9vbGAgKE5PVCBgVG9vbFBhcmFtYCkgd2l0aCBhbiBgSW5wdXRTY2hlbWFgIHJlY29yZC4gYElucHV0U2NoZW1hLlR5cGVgIGlzIGF1dG8tc2V0IHRvIGAib2JqZWN0ImAgYnkgdGhlIGNvbnN0cnVjdG9yIOKAlCBkb24ndCBzZXQgaXQuIGBUb29sVW5pb25gIGhhcyBhbiBpbXBsaWNpdCBjb252ZXJzaW9uIGZyb20gYFRvb2xgLCB0cmlnZ2VyZWQgYnkgdGhlIGNvbGxlY3Rpb24gZXhwcmVzc2lvbiBgWy4uLl1gLgoKYGBgY3NoYXJwCnVzaW5nIFN5c3RlbS5UZXh0Lkpzb247CnVzaW5nIEFudGhyb3BpYy5Nb2RlbHMuTWVzc2FnZXM7Cgp2YXIgcGFyYW1ldGVycyA9IG5ldyBNZXNzYWdlQ3JlYXRlUGFyYW1zCnsKICAgIE1vZGVsID0gTW9kZWwuQ2xhdWRlU29ubmV0NF82LAogICAgTWF4VG9rZW5zID0gMTYwMDAsCiAgICBUb29scyA9IFsKICAgICAgICBuZXcgVG9vbCB7CiAgICAgICAgICAgIE5hbWUgPSAiZ2V0X3dlYXRoZXIiLAogICAgICAgICAgICBEZXNjcmlwdGlvbiA9ICJHZXQgdGhlIGN1cnJlbnQgd2VhdGhlciBpbiBhIGdpdmVuIGxvY2F0aW9uIiwKICAgICAgICAgICAgSW5wdXRTY2hlbWEgPSBuZXcoKSB7CiAgICAgICAgICAgICAgICBQcm9wZXJ0aWVzID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBKc29uRWxlbWVudD4gewogICAgICAgICAgICAgICAgICAgIFsibG9jYXRpb24iXSA9IEpzb25TZXJpYWxpemVyLlNlcmlhbGl6ZVRvRWxlbWVudCgKICAgICAgICAgICAgICAgICAgICAgICAgbmV3IHsgdHlwZSA9ICJzdHJpbmciLCBkZXNjcmlwdGlvbiA9ICJDaXR5IG5hbWUiIH0pLAogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgIFJlcXVpcmVkID0gWyJsb2NhdGlvbiJdLAogICAgICAgICAgICB9LAogICAgICAgIH0sCiAgICBdLAogICAgTWVzc2FnZXMgPSBbbmV3KCkgeyBSb2xlID0gUm9sZS5Vc2VyLCBDb250ZW50ID0gIldlYXRoZXIgaW4gUGFyaXM/IiB9XSwKfTsKYGBgCgpEZXJpdmVkIGZyb20gYGFudGhyb3BpYy1zZGstY3NoYXJwL3NyYy9BbnRocm9waWMvTW9kZWxzL01lc3NhZ2VzL1Rvb2wuY3NgIGFuZCBgVG9vbFVuaW9uLmNzOjc5OWAgKGltcGxpY2l0IGNvbnZlcnNpb24pLgoKU2VlIFtzaGFyZWQgdG9vbCB1c2UgY29uY2VwdHNdKC4uL3NoYXJlZC90b29sLXVzZS1jb25jZXB0cy5tZCkgZm9yIHRoZSBsb29wIHBhdHRlcm4uCiMjIyBDb252ZXJ0aW5nIHJlc3BvbnNlIGNvbnRlbnQgdG8gdGhlIGZvbGxvdy11cCBhc3Npc3RhbnQgbWVzc2FnZQoKV2hlbiBlY2hvaW5nIENsYXVkZSdzIHJlc3BvbnNlIGJhY2sgaW4gdGhlIGFzc2lzdGFudCB0dXJuLCAqKnRoZXJlIGlzIG5vIGAuVG9QYXJhbSgpYCBoZWxwZXIqKiDigJQgbWFudWFsbHkgcmVjb25zdHJ1Y3QgZWFjaCBgQ29udGVudEJsb2NrYCB2YXJpYW50IGFzIGl0cyBgKlBhcmFtYCBjb3VudGVycGFydC4gRG8gTk9UIHVzZSBgbmV3IENvbnRlbnRCbG9ja1BhcmFtKGJsb2NrLkpzb24pYDogaXQgY29tcGlsZXMgYW5kIHNlcmlhbGl6ZXMsIGJ1dCBgLlZhbHVlYCBzdGF5cyBgbnVsbGAgc28gYFRyeVBpY2sqYC9gVmFsaWRhdGUoKWAgZmFpbCAoZGVncmFkZWQgSlNPTiBwYXNzLXRocm91Z2gsIG5vdCB0aGUgdHlwZWQgcGF0aCkuCgpgYGBjc2hhcnAKdXNpbmcgQW50aHJvcGljLk1vZGVscy5NZXNzYWdlczsKCk1lc3NhZ2UgcmVzcG9uc2UgPSBhd2FpdCBjbGllbnQuTWVzc2FnZXMuQ3JlYXRlKHBhcmFtZXRlcnMpOwoKLy8gTm8gLlRvUGFyYW0oKSDigJQgcmVjb25zdHJ1Y3QgcGVyIHZhcmlhbnQuIEltcGxpY2l0IGNvbnZlcnNpb25zIGZyb20gZWFjaAovLyAqUGFyYW0gdHlwZSB0byBDb250ZW50QmxvY2tQYXJhbSBtZWFuIG5vIGV4cGxpY2l0IHdyYXBwZXIuCkxpc3Q8Q29udGVudEJsb2NrUGFyYW0+IGFzc2lzdGFudENvbnRlbnQgPSBbXTsKTGlzdDxDb250ZW50QmxvY2tQYXJhbT4gdG9vbFJlc3VsdHMgPSBbXTsKZm9yZWFjaCAoQ29udGVudEJsb2NrIGJsb2NrIGluIHJlc3BvbnNlLkNvbnRlbnQpCnsKICAgIGlmIChibG9jay5UcnlQaWNrVGV4dChvdXQgVGV4dEJsb2NrPyB0ZXh0KSkKICAgIHsKICAgICAgICBhc3Npc3RhbnRDb250ZW50LkFkZChuZXcgVGV4dEJsb2NrUGFyYW0geyBUZXh0ID0gdGV4dC5UZXh0IH0pOwogICAgfQogICAgZWxzZSBpZiAoYmxvY2suVHJ5UGlja1RoaW5raW5nKG91dCBUaGlua2luZ0Jsb2NrPyB0aGlua2luZykpCiAgICB7CiAgICAgICAgLy8gU2lnbmF0dXJlIE1VU1QgYmUgcHJlc2VydmVkIOKAlCB0aGUgQVBJIHJlamVjdHMgdGFtcGVyaW5nCiAgICAgICAgYXNzaXN0YW50Q29udGVudC5BZGQobmV3IFRoaW5raW5nQmxvY2tQYXJhbQogICAgICAgIHsKICAgICAgICAgICAgVGhpbmtpbmcgPSB0aGlua2luZy5UaGlua2luZywKICAgICAgICAgICAgU2lnbmF0dXJlID0gdGhpbmtpbmcuU2lnbmF0dXJlLAogICAgICAgIH0pOwogICAgfQogICAgZWxzZSBpZiAoYmxvY2suVHJ5UGlja1JlZGFjdGVkVGhpbmtpbmcob3V0IFJlZGFjdGVkVGhpbmtpbmdCbG9jaz8gcmVkYWN0ZWQpKQogICAgewogICAgICAgIGFzc2lzdGFudENvbnRlbnQuQWRkKG5ldyBSZWRhY3RlZFRoaW5raW5nQmxvY2tQYXJhbSB7IERhdGEgPSByZWRhY3RlZC5EYXRhIH0pOwogICAgfQogICAgZWxzZSBpZiAoYmxvY2suVHJ5UGlja1Rvb2xVc2Uob3V0IFRvb2xVc2VCbG9jaz8gdG9vbFVzZSkpCiAgICB7CiAgICAgICAgLy8gVG9vbFVzZUJsb2NrIGhhcyByZXF1aXJlZCBDYWxsZXI7IFRvb2xVc2VCbG9ja1BhcmFtLkNhbGxlciBpcyBvcHRpb25hbCDigJQgZG9uJ3QgY29weSBpdAogICAgICAgIGFzc2lzdGFudENvbnRlbnQuQWRkKG5ldyBUb29sVXNlQmxvY2tQYXJhbQogICAgICAgIHsKICAgICAgICAgICAgSUQgPSB0b29sVXNlLklELAogICAgICAgICAgICBOYW1lID0gdG9vbFVzZS5OYW1lLAogICAgICAgICAgICBJbnB1dCA9IHRvb2xVc2UuSW5wdXQsCiAgICAgICAgfSk7CiAgICAgICAgLy8gRXhlY3V0ZSB0aGUgdG9vbDsgY29sbGVjdCBPTkUgcmVzdWx0IHBlciB0b29sX3VzZSBibG9jayDigJQgdGhlIEFQSQogICAgICAgIC8vIHJlamVjdHMgdGhlIGZvbGxvdy11cCBpZiBhbnkgdG9vbF91c2UgSUQgbGFja3MgYSBtYXRjaGluZyB0b29sX3Jlc3VsdC4KICAgICAgICBzdHJpbmcgcmVzdWx0ID0gRXhlY3V0ZVlvdXJUb29sKHRvb2xVc2UuTmFtZSwgdG9vbFVzZS5JbnB1dCk7CiAgICAgICAgdG9vbFJlc3VsdHMuQWRkKG5ldyBUb29sUmVzdWx0QmxvY2tQYXJhbQogICAgICAgIHsKICAgICAgICAgICAgVG9vbFVzZUlEID0gdG9vbFVzZS5JRCwKICAgICAgICAgICAgQ29udGVudCA9IHJlc3VsdCwKICAgICAgICB9KTsKICAgIH0KfQoKLy8gRm9sbG93LXVwOiBwcmlvciBtZXNzYWdlcyArIGFzc2lzdGFudCBlY2hvICsgdXNlciB0b29sX3Jlc3VsdChzKQpMaXN0PE1lc3NhZ2VQYXJhbT4gZm9sbG93VXBNZXNzYWdlcyA9ClsKICAgIC4uIHBhcmFtZXRlcnMuTWVzc2FnZXMsCiAgICBuZXcoKSB7IFJvbGUgPSBSb2xlLkFzc2lzdGFudCwgQ29udGVudCA9IGFzc2lzdGFudENvbnRlbnQgfSwKICAgIG5ldygpIHsgUm9sZSA9IFJvbGUuVXNlciwgQ29udGVudCA9IHRvb2xSZXN1bHRzIH0sCl07CmBgYAoKYFRvb2xSZXN1bHRCbG9ja1BhcmFtYCBoYXMgbm8gdHVwbGUgY29uc3RydWN0b3Ig4oCUIHVzZSB0aGUgb2JqZWN0IGluaXRpYWxpemVyLiBgQ29udGVudGAgaXMgYSBzdHJpbmctb3ItbGlzdCB1bmlvbjsgYSBwbGFpbiBgc3RyaW5nYCBpbXBsaWNpdGx5IGNvbnZlcnRzLgoKLS0tCgojIyBDb250ZXh0IEVkaXRpbmcgLyBDb21wYWN0aW9uIChCZXRhKQoKKipCZXRhLW5hbWVzcGFjZSBwcmVmaXggaXMgaW5jb25zaXN0ZW50KiogKHNvdXJjZS12ZXJpZmllZCBhZ2FpbnN0IGBzcmMvQW50aHJvcGljL01vZGVscy9CZXRhL01lc3NhZ2VzLyouY3NgIEAgMTIuOS4wKS4gTm8gcHJlZml4OiBgTWVzc2FnZUNyZWF0ZVBhcmFtc2AsIGBNZXNzYWdlQ291bnRUb2tlbnNQYXJhbXNgLCBgUm9sZWAuICoqRXZlcnl0aGluZyBlbHNlIGhhcyB0aGUgYEJldGFgIHByZWZpeCoqOiBgQmV0YU1lc3NhZ2VQYXJhbWAsIGBCZXRhTWVzc2FnZWAsIGBCZXRhQ29udGVudEJsb2NrYCwgYEJldGFUb29sVXNlQmxvY2tgLCBhbGwgYmxvY2sgcGFyYW0gdHlwZXMuIFRoZSB1bnByZWZpeGVkIGBSb2xlYCBXSUxMIGNvbGxpZGUgd2l0aCBgQW50aHJvcGljLk1vZGVscy5NZXNzYWdlcy5Sb2xlYCBpZiB5b3UgaW1wb3J0IGJvdGggbmFtZXNwYWNlcyAoQ1MwMTA0KS4gU2FmZXN0OiBpbXBvcnQgb25seSBCZXRhOyBpZiBtaXhpbmcsIGFsaWFzIHRoZSBiZXRhIGBSb2xlYDoKCmBgYGNzaGFycAp1c2luZyBBbnRocm9waWMuTW9kZWxzLkJldGEuTWVzc2FnZXM7CnVzaW5nIE5vbkJldGEgPSBBbnRocm9waWMuTW9kZWxzLk1lc3NhZ2VzOyAgLy8gb25seSBpZiB5b3UgYWxzbyBuZWVkIG5vbi1iZXRhIHR5cGVzCi8vIE5vdzogTWVzc2FnZUNyZWF0ZVBhcmFtcywgQmV0YU1lc3NhZ2VQYXJhbSwgUm9sZSAoYmV0YSdzKSwgTm9uQmV0YS5Sb2xlIChpZiBuZWVkZWQpCmBgYAoKCmBCZXRhTWVzc2FnZS5Db250ZW50YCBpcyBgSVJlYWRPbmx5TGlzdDxCZXRhQ29udGVudEJsb2NrPmAg4oCUIGEgMTUtdmFyaWFudCBkaXNjcmltaW5hdGVkIHVuaW9uLiBOYXJyb3cgd2l0aCBgVHJ5UGljaypgLiAqKlJlc3BvbnNlIGBCZXRhQ29udGVudEJsb2NrYCBpcyBOT1QgYXNzaWduYWJsZSB0byBwYXJhbSBgQmV0YUNvbnRlbnRCbG9ja1BhcmFtYCoqIOKAlCB0aGVyZSdzIG5vIGAuVG9QYXJhbSgpYCBpbiBDIy4gUm91bmQtdHJpcCBieSBjb252ZXJ0aW5nIGVhY2ggYmxvY2s6CgpgYGBjc2hhcnAKdXNpbmcgQW50aHJvcGljLk1vZGVscy5CZXRhLk1lc3NhZ2VzOwoKdmFyIGJldGFQYXJhbXMgPSBuZXcgTWVzc2FnZUNyZWF0ZVBhcmFtcyAgIC8vIG5vIEJldGEgcHJlZml4IOKAlCBvbmUgb2Ygb25seSAyIHVucHJlZml4ZWQKewogICAgTW9kZWwgPSBNb2RlbC5DbGF1ZGVPcHVzNF82LAogICAgTWF4VG9rZW5zID0gMTYwMDAsCiAgICBCZXRhcyA9IFsiY29tcGFjdC0yMDI2LTAxLTEyIl0sCiAgICBDb250ZXh0TWFuYWdlbWVudCA9IG5ldyBCZXRhQ29udGV4dE1hbmFnZW1lbnRDb25maWcKICAgIHsKICAgICAgICBFZGl0cyA9IFtuZXcgQmV0YUNvbXBhY3QyMDI2MDExMkVkaXQoKV0sCiAgICB9LAogICAgTWVzc2FnZXMgPSBtZXNzYWdlcywKfTsKQmV0YU1lc3NhZ2UgcmVzcCA9IGF3YWl0IGNsaWVudC5CZXRhLk1lc3NhZ2VzLkNyZWF0ZShiZXRhUGFyYW1zKTsKCmZvcmVhY2ggKEJldGFDb250ZW50QmxvY2sgYmxvY2sgaW4gcmVzcC5Db250ZW50KQp7CiAgICBpZiAoYmxvY2suVHJ5UGlja0NvbXBhY3Rpb24ob3V0IEJldGFDb21wYWN0aW9uQmxvY2s/IGNvbXBhY3Rpb24pKQogICAgewogICAgICAgIC8vIENvbnRlbnQgaXMgbnVsbGFibGUg4oCUIGNvbXBhY3Rpb24gY2FuIGZhaWwgc2VydmVyLXNpZGUKICAgICAgICBDb25zb2xlLldyaXRlTGluZSgkImNvbXBhY3Rpb24gc3VtbWFyeToge2NvbXBhY3Rpb24uQ29udGVudH0iKTsKICAgIH0KfQoKLy8gQ29udGV4dC1lZGl0IG1ldGFkYXRhIGxpdmVzIG9uIGEgc2VwYXJhdGUgbnVsbGFibGUgZmllbGQKaWYgKHJlc3AuQ29udGV4dE1hbmFnZW1lbnQgaXMgeyB9IGN0eCkKewogICAgZm9yZWFjaCAodmFyIGVkaXQgaW4gY3R4LkFwcGxpZWRFZGl0cykKICAgICAgICBDb25zb2xlLldyaXRlTGluZSgkImNsZWFyZWQge2VkaXQuQ2xlYXJlZElucHV0VG9rZW5zfSB0b2tlbnMiKTsKfQoKLy8gUk9VTkQtVFJJUDogQmV0YU1lc3NhZ2VQYXJhbS5Db250ZW50IGlzIEJldGFNZXNzYWdlUGFyYW1Db250ZW50IChhIHN0cmluZ3xsaXN0Ci8vIHVuaW9uKS4gSXQgaW1wbGljaXQtY29udmVydHMgZnJvbSBMaXN0PEJldGFDb250ZW50QmxvY2tQYXJhbT4sIE5PVCBmcm9tIHRoZQovLyByZXNwb25zZSdzIElSZWFkT25seUxpc3Q8QmV0YUNvbnRlbnRCbG9jaz4uIENvbnZlcnQgZWFjaCBibG9jazoKTGlzdDxCZXRhQ29udGVudEJsb2NrUGFyYW0+IHBhcmFtQmxvY2tzID0gW107CmZvcmVhY2ggKHZhciBiIGluIHJlc3AuQ29udGVudCkKewogICAgaWYgKGIuVHJ5UGlja1RleHQob3V0IHZhciB0KSkgcGFyYW1CbG9ja3MuQWRkKG5ldyBCZXRhVGV4dEJsb2NrUGFyYW0geyBUZXh0ID0gdC5UZXh0IH0pOwogICAgZWxzZSBpZiAoYi5UcnlQaWNrQ29tcGFjdGlvbihvdXQgdmFyIGMpKSBwYXJhbUJsb2Nrcy5BZGQobmV3IEJldGFDb21wYWN0aW9uQmxvY2tQYXJhbSB7IENvbnRlbnQgPSBjLkNvbnRlbnQgfSk7CiAgICAvLyAuLi4gb3RoZXIgdmFyaWFudHMgYXMgbmVlZGVkCn0KbWVzc2FnZXMuQWRkKG5ldyBCZXRhTWVzc2FnZVBhcmFtIHsgUm9sZSA9IFJvbGUuQXNzaXN0YW50LCBDb250ZW50ID0gcGFyYW1CbG9ja3MgfSk7CmBgYAoKQWxsIDE1IGBCZXRhQ29udGVudEJsb2NrLlRyeVBpY2sqYCB2YXJpYW50czogYFRleHRgLCBgVGhpbmtpbmdgLCBgUmVkYWN0ZWRUaGlua2luZ2AsIGBUb29sVXNlYCwgYFNlcnZlclRvb2xVc2VgLCBgV2ViU2VhcmNoVG9vbFJlc3VsdGAsIGBXZWJGZXRjaFRvb2xSZXN1bHRgLCBgQ29kZUV4ZWN1dGlvblRvb2xSZXN1bHRgLCBgQmFzaENvZGVFeGVjdXRpb25Ub29sUmVzdWx0YCwgYFRleHRFZGl0b3JDb2RlRXhlY3V0aW9uVG9vbFJlc3VsdGAsIGBUb29sU2VhcmNoVG9vbFJlc3VsdGAsIGBNY3BUb29sVXNlYCwgYE1jcFRvb2xSZXN1bHRgLCBgQ29udGFpbmVyVXBsb2FkYCwgYENvbXBhY3Rpb25gLgoKKipgQmV0YVRvb2xVc2VCbG9jay5JbnB1dGAgaXMgYElSZWFkT25seURpY3Rpb25hcnk8c3RyaW5nLCBKc29uRWxlbWVudD5gKiog4oCUIGluZGV4IGJ5IGtleSB0aGVuIGNhbGwgdGhlIGBKc29uRWxlbWVudGAgZXh0cmFjdG9yOgoKYGBgY3NoYXJwCmlmIChibG9jay5UcnlQaWNrVG9vbFVzZShvdXQgQmV0YVRvb2xVc2VCbG9jaz8gdHUpKQp7CiAgICBpbnQgYSA9IHR1LklucHV0WyJhIl0uR2V0SW50MzIoKTsKICAgIHN0cmluZyBzID0gdHUuSW5wdXRbIm5hbWUiXS5HZXRTdHJpbmcoKSE7Cn0KYGBgCgotLS0KCiMjIEVmZm9ydCBQYXJhbWV0ZXIKCkVmZm9ydCBpcyBuZXN0ZWQgdW5kZXIgYE91dHB1dENvbmZpZ2AsIE5PVCBhIHRvcC1sZXZlbCBwcm9wZXJ0eS4gYEFwaUVudW08c3RyaW5nLCBFZmZvcnQ+YCBoYXMgYW4gaW1wbGljaXQgY29udmVyc2lvbiBmcm9tIHRoZSBlbnVtLCBzbyBhc3NpZ24gYEVmZm9ydC5IaWdoYCBkaXJlY3RseS4KCmBgYGNzaGFycApPdXRwdXRDb25maWcgPSBuZXcgT3V0cHV0Q29uZmlnIHsgRWZmb3J0ID0gRWZmb3J0LkhpZ2ggfSwKYGBgCgpWYWx1ZXM6IGBFZmZvcnQuTG93YCwgYEVmZm9ydC5NZWRpdW1gLCBgRWZmb3J0LkhpZ2hgLCBgRWZmb3J0Lk1heGAuIENvbWJpbmUgd2l0aCBgVGhpbmtpbmcgPSBuZXcgVGhpbmtpbmdDb25maWdBZGFwdGl2ZSgpYCBmb3IgY29zdC1xdWFsaXR5IGNvbnRyb2wuCgotLS0KCiMjIFByb21wdCBDYWNoaW5nCgpgU3lzdGVtYCB0YWtlcyBgTWVzc2FnZUNyZWF0ZVBhcmFtc1N5c3RlbT9gIOKAlCBhIHVuaW9uIG9mIGBzdHJpbmdgIG9yIGBMaXN0PFRleHRCbG9ja1BhcmFtPmAuIFRoZXJlIGlzIG5vIGBTeXN0ZW1UZXh0QmxvY2tQYXJhbWA7IHVzZSBwbGFpbiBgVGV4dEJsb2NrUGFyYW1gLiBUaGUgaW1wbGljaXQgY29udmVyc2lvbiBuZWVkcyB0aGUgY29uY3JldGUgYExpc3Q8VGV4dEJsb2NrUGFyYW0+YCB0eXBlIChhcnJheSBsaXRlcmFscyB3b24ndCBjb252ZXJ0KS4gRm9yIHBsYWNlbWVudCBwYXR0ZXJucyBhbmQgdGhlIHNpbGVudC1pbnZhbGlkYXRvciBhdWRpdCBjaGVja2xpc3QsIHNlZSBgc2hhcmVkL3Byb21wdC1jYWNoaW5nLm1kYC4KCmBgYGNzaGFycApTeXN0ZW0gPSBuZXcgTGlzdDxUZXh0QmxvY2tQYXJhbT4gewogICAgbmV3KCkgewogICAgICAgIFRleHQgPSBsb25nU3lzdGVtUHJvbXB0LAogICAgICAgIENhY2hlQ29udHJvbCA9IG5ldyBDYWNoZUNvbnRyb2xFcGhlbWVyYWwoKSwgIC8vIGF1dG8tc2V0cyBUeXBlID0gImVwaGVtZXJhbCIKICAgIH0sCn0sCmBgYAoKT3B0aW9uYWwgYFR0bGAgb24gYENhY2hlQ29udHJvbEVwaGVtZXJhbGA6IGBuZXcoKSB7IFR0bCA9IFR0bC5UdGwxaCB9YCBvciBgVHRsLlR0bDVtYC4gYENhY2hlQ29udHJvbGAgYWxzbyBleGlzdHMgb24gYFRvb2wuQ2FjaGVDb250cm9sYCBhbmQgdG9wLWxldmVsIGBNZXNzYWdlQ3JlYXRlUGFyYW1zLkNhY2hlQ29udHJvbGAuCgpWZXJpZnkgaGl0cyB2aWEgYHJlc3BvbnNlLlVzYWdlLkNhY2hlQ3JlYXRpb25JbnB1dFRva2Vuc2AgLyBgcmVzcG9uc2UuVXNhZ2UuQ2FjaGVSZWFkSW5wdXRUb2tlbnNgLgoKLS0tCgojIyBUb2tlbiBDb3VudGluZwoKYGBgY3NoYXJwCk1lc3NhZ2VUb2tlbnNDb3VudCByZXN1bHQgPSBhd2FpdCBjbGllbnQuTWVzc2FnZXMuQ291bnRUb2tlbnMobmV3IE1lc3NhZ2VDb3VudFRva2Vuc1BhcmFtcyB7CiAgICBNb2RlbCA9IE1vZGVsLkNsYXVkZU9wdXM0XzYsCiAgICBNZXNzYWdlcyA9IFtuZXcoKSB7IFJvbGUgPSBSb2xlLlVzZXIsIENvbnRlbnQgPSAiSGVsbG8iIH1dLAp9KTsKbG9uZyB0b2tlbnMgPSByZXN1bHQuSW5wdXRUb2tlbnM7CmBgYAoKYE1lc3NhZ2VDb3VudFRva2Vuc1BhcmFtcy5Ub29sc2AgdXNlcyBhIGRpZmZlcmVudCB1bmlvbiB0eXBlIChgTWVzc2FnZUNvdW50VG9rZW5zVG9vbGApIHRoYW4gYE1lc3NhZ2VDcmVhdGVQYXJhbXMuVG9vbHNgIChgVG9vbFVuaW9uYCkg4oCUIGlmIHlvdSdyZSBwYXNzaW5nIHRvb2xzLCB0aGUgY29tcGlsZXIgd2lsbCB0ZWxsIHlvdSB3aGVuIGl0IG1hdHRlcnMuCgotLS0KCiMjIFN0cnVjdHVyZWQgT3V0cHV0CgpgYGBjc2hhcnAKT3V0cHV0Q29uZmlnID0gbmV3IE91dHB1dENvbmZpZyB7CiAgICBGb3JtYXQgPSBuZXcgSnNvbk91dHB1dEZvcm1hdCB7CiAgICAgICAgU2NoZW1hID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBKc29uRWxlbWVudD4gewogICAgICAgICAgICBbInR5cGUiXSA9IEpzb25TZXJpYWxpemVyLlNlcmlhbGl6ZVRvRWxlbWVudCgib2JqZWN0IiksCiAgICAgICAgICAgIFsicHJvcGVydGllcyJdID0gSnNvblNlcmlhbGl6ZXIuU2VyaWFsaXplVG9FbGVtZW50KAogICAgICAgICAgICAgICAgbmV3IHsgbmFtZSA9IG5ldyB7IHR5cGUgPSAic3RyaW5nIiB9IH0pLAogICAgICAgICAgICBbInJlcXVpcmVkIl0gPSBKc29uU2VyaWFsaXplci5TZXJpYWxpemVUb0VsZW1lbnQobmV3W10geyAibmFtZSIgfSksCiAgICAgICAgfSwKICAgIH0sCn0sCmBgYAoKYEpzb25PdXRwdXRGb3JtYXQuVHlwZWAgaXMgYXV0by1zZXQgdG8gYCJqc29uX3NjaGVtYSJgIGJ5IHRoZSBjb25zdHJ1Y3Rvci4gYFNjaGVtYWAgaXMgYHJlcXVpcmVkYC4KCi0tLQoKIyMgUERGIC8gRG9jdW1lbnQgSW5wdXQKCmBEb2N1bWVudEJsb2NrUGFyYW1gIHRha2VzIGEgYERvY3VtZW50QmxvY2tQYXJhbVNvdXJjZWAgdW5pb246IGBCYXNlNjRQZGZTb3VyY2VgIC8gYFVybFBkZlNvdXJjZWAgLyBgUGxhaW5UZXh0U291cmNlYCAvIGBDb250ZW50QmxvY2tTb3VyY2VgLiBgQmFzZTY0UGRmU291cmNlYCBhdXRvLXNldHMgYE1lZGlhVHlwZSA9ICJhcHBsaWNhdGlvbi9wZGYiYCBhbmQgYFR5cGUgPSAiYmFzZTY0ImAuCgpgYGBjc2hhcnAKbmV3IE1lc3NhZ2VQYXJhbSB7CiAgICBSb2xlID0gUm9sZS5Vc2VyLAogICAgQ29udGVudCA9IG5ldyBMaXN0PENvbnRlbnRCbG9ja1BhcmFtPiB7CiAgICAgICAgbmV3IERvY3VtZW50QmxvY2tQYXJhbSB7IFNvdXJjZSA9IG5ldyBCYXNlNjRQZGZTb3VyY2UgeyBEYXRhID0gYmFzZTY0U3RyaW5nIH0gfSwKICAgICAgICBuZXcgVGV4dEJsb2NrUGFyYW0geyBUZXh0ID0gIlN1bW1hcml6ZSB0aGlzIFBERiIgfSwKICAgIH0sCn0KYGBgCgotLS0KCiMjIFNlcnZlci1TaWRlIFRvb2xzCgpXZWIgc2VhcmNoLCBiYXNoLCB0ZXh0IGVkaXRvciwgYW5kIGNvZGUgZXhlY3V0aW9uIGFyZSBidWlsdC1pbiBzZXJ2ZXIgdG9vbHMuIFR5cGUgbmFtZXMgYXJlIHZlcnNpb24tc3VmZml4ZWQ7IGNvbnN0cnVjdG9ycyBhdXRvLXNldCBgbmFtZWAvYHR5cGVgLiBBbGwgaW1wbGljaXQtY29udmVydCB0byBgVG9vbFVuaW9uYC4KCmBgYGNzaGFycApUb29scyA9IFsKICAgIG5ldyBXZWJTZWFyY2hUb29sMjAyNjAyMDkoKSwKICAgIG5ldyBUb29sQmFzaDIwMjUwMTI0KCksCiAgICBuZXcgVG9vbFRleHRFZGl0b3IyMDI1MDcyOCgpLAogICAgbmV3IENvZGVFeGVjdXRpb25Ub29sMjAyNjAxMjAoKSwKXSwKYGBgCgpBbHNvIGF2YWlsYWJsZTogYFdlYkZldGNoVG9vbDIwMjYwMjA5YCwgYE1lbW9yeVRvb2wyMDI1MDgxOGAuIGBXZWJTZWFyY2hUb29sMjAyNjAyMDlgIG9wdGlvbmFsczogYEFsbG93ZWREb21haW5zYCwgYEJsb2NrZWREb21haW5zYCwgYE1heFVzZXNgLCBgVXNlckxvY2F0aW9uYC4KCi0tLQoKIyMgRmlsZXMgQVBJIChCZXRhKQoKRmlsZXMgbGl2ZSB1bmRlciBgY2xpZW50LkJldGEuRmlsZXNgIChuYW1lc3BhY2UgYEFudGhyb3BpYy5Nb2RlbHMuQmV0YS5GaWxlc2ApLiBgQmluYXJ5Q29udGVudGAgaW1wbGljaXQtY29udmVydHMgZnJvbSBgU3RyZWFtYCBhbmQgYGJ5dGVbXWAuCgpgYGBjc2hhcnAKdXNpbmcgQW50aHJvcGljLk1vZGVscy5CZXRhLkZpbGVzOwp1c2luZyBBbnRocm9waWMuTW9kZWxzLkJldGEuTWVzc2FnZXM7CgpGaWxlTWV0YWRhdGEgbWV0YSA9IGF3YWl0IGNsaWVudC5CZXRhLkZpbGVzLlVwbG9hZCgKICAgIG5ldyBGaWxlVXBsb2FkUGFyYW1zIHsgRmlsZSA9IEZpbGUuT3BlblJlYWQoImRvYy5wZGYiKSB9KTsKCi8vIFJlZmVyZW5jaW5nIHRoZSB1cGxvYWRlZCBmaWxlIHJlcXVpcmVzIEJldGEgbWVzc2FnZSB0eXBlczoKbmV3IEJldGFSZXF1ZXN0RG9jdW1lbnRCbG9jayB7CiAgICBTb3VyY2UgPSBuZXcgQmV0YUZpbGVEb2N1bWVudFNvdXJjZSB7IEZpbGVJRCA9IG1ldGEuSUQgfSwKfQpgYGAKClRoZSBub24tYmV0YSBgRG9jdW1lbnRCbG9ja1BhcmFtU291cmNlYCB1bmlvbiBoYXMgbm8gZmlsZS1JRCB2YXJpYW50IOKAlCBmaWxlIHJlZmVyZW5jZXMgbmVlZCBgY2xpZW50LkJldGEuTWVzc2FnZXMuQ3JlYXRlKClgLgo=
+# Claude API — C#
+
+> **Note:** The C# SDK is the official Anthropic SDK for C#. Tool use is supported via the Messages API. A class-annotation-based tool runner is not available; use raw tool definitions with JSON schema. The SDK also supports Microsoft.Extensions.AI IChatClient integration with function invocation.
+
+## Installation
+
+```bash
+dotnet add package Anthropic
+```
+
+## Client Initialization
+
+```csharp
+using Anthropic;
+
+// Default (uses ANTHROPIC_API_KEY env var)
+AnthropicClient client = new();
+
+// Explicit API key (use environment variables — never hardcode keys)
+AnthropicClient client = new() {
+    ApiKey = Environment.GetEnvironmentVariable("ANTHROPIC_API_KEY")
+};
+```
+
+---
+
+## Basic Message Request
+
+```csharp
+using Anthropic.Models.Messages;
+
+var parameters = new MessageCreateParams
+{
+    Model = Model.ClaudeOpus4_6,
+    MaxTokens = 16000,
+    Messages = [new() { Role = Role.User, Content = "What is the capital of France?" }]
+};
+var response = await client.Messages.Create(parameters);
+
+// ContentBlock is a union wrapper. .Value unwraps to the variant object,
+// then OfType<T> filters to the type you want. Or use the TryPick* idiom
+// shown in the Thinking section below.
+foreach (var text in response.Content.Select(b => b.Value).OfType<TextBlock>())
+{
+    Console.WriteLine(text.Text);
+}
+```
+
+---
+
+## Streaming
+
+```csharp
+using Anthropic.Models.Messages;
+
+var parameters = new MessageCreateParams
+{
+    Model = Model.ClaudeOpus4_6,
+    MaxTokens = 64000,
+    Messages = [new() { Role = Role.User, Content = "Write a haiku" }]
+};
+
+await foreach (RawMessageStreamEvent streamEvent in client.Messages.CreateStreaming(parameters))
+{
+    if (streamEvent.TryPickContentBlockDelta(out var delta) &&
+        delta.Delta.TryPickText(out var text))
+    {
+        Console.Write(text.Text);
+    }
+}
+```
+
+**`RawMessageStreamEvent` TryPick methods** (naming drops the `Message`/`Raw` prefix): `TryPickStart`, `TryPickDelta`, `TryPickStop`, `TryPickContentBlockStart`, `TryPickContentBlockDelta`, `TryPickContentBlockStop`. There is no `TryPickMessageStop` — use `TryPickStop`.
+
+---
+
+## Thinking
+
+**Adaptive thinking is the recommended mode for Claude 4.6+ models.** Claude decides dynamically when and how much to think.
+
+```csharp
+using Anthropic.Models.Messages;
+
+var response = await client.Messages.Create(new MessageCreateParams
+{
+    Model = Model.ClaudeOpus4_6,
+    MaxTokens = 16000,
+    // ThinkingConfigParam? implicitly converts from the concrete variant classes —
+    // no wrapper needed.
+    Thinking = new ThinkingConfigAdaptive(),
+    Messages =
+    [
+        new() { Role = Role.User, Content = "Solve: 27 * 453" },
+    ],
+});
+
+// ThinkingBlock(s) precede TextBlock in Content. TryPick* narrows the union.
+foreach (var block in response.Content)
+{
+    if (block.TryPickThinking(out ThinkingBlock? t))
+    {
+        Console.WriteLine($"[thinking] {t.Thinking}");
+    }
+    else if (block.TryPickText(out TextBlock? text))
+    {
+        Console.WriteLine(text.Text);
+    }
+}
+```
+
+> **Deprecated:** `new ThinkingConfigEnabled { BudgetTokens = N }` (fixed-budget extended thinking) still works on Claude 4.6 but is deprecated. Use adaptive thinking above.
+
+Alternative to `TryPick*`: `.Select(b => b.Value).OfType<ThinkingBlock>()` (same LINQ pattern as the Basic Message example).
+
+---
+
+## Tool Use
+
+### Defining a tool
+
+`Tool` (NOT `ToolParam`) with an `InputSchema` record. `InputSchema.Type` is auto-set to `"object"` by the constructor — don't set it. `ToolUnion` has an implicit conversion from `Tool`, triggered by the collection expression `[...]`.
+
+```csharp
+using System.Text.Json;
+using Anthropic.Models.Messages;
+
+var parameters = new MessageCreateParams
+{
+    Model = Model.ClaudeSonnet4_6,
+    MaxTokens = 16000,
+    Tools = [
+        new Tool {
+            Name = "get_weather",
+            Description = "Get the current weather in a given location",
+            InputSchema = new() {
+                Properties = new Dictionary<string, JsonElement> {
+                    ["location"] = JsonSerializer.SerializeToElement(
+                        new { type = "string", description = "City name" }),
+                },
+                Required = ["location"],
+            },
+        },
+    ],
+    Messages = [new() { Role = Role.User, Content = "Weather in Paris?" }],
+};
+```
+
+Derived from `anthropic-sdk-csharp/src/Anthropic/Models/Messages/Tool.cs` and `ToolUnion.cs:799` (implicit conversion).
+
+See [shared tool use concepts](../shared/tool-use-concepts.md) for the loop pattern.
+### Converting response content to the follow-up assistant message
+
+When echoing Claude's response back in the assistant turn, **there is no `.ToParam()` helper** — manually reconstruct each `ContentBlock` variant as its `*Param` counterpart. Do NOT use `new ContentBlockParam(block.Json)`: it compiles and serializes, but `.Value` stays `null` so `TryPick*`/`Validate()` fail (degraded JSON pass-through, not the typed path).
+
+```csharp
+using Anthropic.Models.Messages;
+
+Message response = await client.Messages.Create(parameters);
+
+// No .ToParam() — reconstruct per variant. Implicit conversions from each
+// *Param type to ContentBlockParam mean no explicit wrapper.
+List<ContentBlockParam> assistantContent = [];
+List<ContentBlockParam> toolResults = [];
+foreach (ContentBlock block in response.Content)
+{
+    if (block.TryPickText(out TextBlock? text))
+    {
+        assistantContent.Add(new TextBlockParam { Text = text.Text });
+    }
+    else if (block.TryPickThinking(out ThinkingBlock? thinking))
+    {
+        // Signature MUST be preserved — the API rejects tampering
+        assistantContent.Add(new ThinkingBlockParam
+        {
+            Thinking = thinking.Thinking,
+            Signature = thinking.Signature,
+        });
+    }
+    else if (block.TryPickRedactedThinking(out RedactedThinkingBlock? redacted))
+    {
+        assistantContent.Add(new RedactedThinkingBlockParam { Data = redacted.Data });
+    }
+    else if (block.TryPickToolUse(out ToolUseBlock? toolUse))
+    {
+        // ToolUseBlock has required Caller; ToolUseBlockParam.Caller is optional — don't copy it
+        assistantContent.Add(new ToolUseBlockParam
+        {
+            ID = toolUse.ID,
+            Name = toolUse.Name,
+            Input = toolUse.Input,
+        });
+        // Execute the tool; collect ONE result per tool_use block — the API
+        // rejects the follow-up if any tool_use ID lacks a matching tool_result.
+        string result = ExecuteYourTool(toolUse.Name, toolUse.Input);
+        toolResults.Add(new ToolResultBlockParam
+        {
+            ToolUseID = toolUse.ID,
+            Content = result,
+        });
+    }
+}
+
+// Follow-up: prior messages + assistant echo + user tool_result(s)
+List<MessageParam> followUpMessages =
+[
+    .. parameters.Messages,
+    new() { Role = Role.Assistant, Content = assistantContent },
+    new() { Role = Role.User, Content = toolResults },
+];
+```
+
+`ToolResultBlockParam` has no tuple constructor — use the object initializer. `Content` is a string-or-list union; a plain `string` implicitly converts.
+
+---
+
+## Context Editing / Compaction (Beta)
+
+**Beta-namespace prefix is inconsistent** (source-verified against `src/Anthropic/Models/Beta/Messages/*.cs` @ 12.9.0). No prefix: `MessageCreateParams`, `MessageCountTokensParams`, `Role`. **Everything else has the `Beta` prefix**: `BetaMessageParam`, `BetaMessage`, `BetaContentBlock`, `BetaToolUseBlock`, all block param types. The unprefixed `Role` WILL collide with `Anthropic.Models.Messages.Role` if you import both namespaces (CS0104). Safest: import only Beta; if mixing, alias the beta `Role`:
+
+```csharp
+using Anthropic.Models.Beta.Messages;
+using NonBeta = Anthropic.Models.Messages;  // only if you also need non-beta types
+// Now: MessageCreateParams, BetaMessageParam, Role (beta's), NonBeta.Role (if needed)
+```
+
+
+`BetaMessage.Content` is `IReadOnlyList<BetaContentBlock>` — a 15-variant discriminated union. Narrow with `TryPick*`. **Response `BetaContentBlock` is NOT assignable to param `BetaContentBlockParam`** — there's no `.ToParam()` in C#. Round-trip by converting each block:
+
+```csharp
+using Anthropic.Models.Beta.Messages;
+
+var betaParams = new MessageCreateParams   // no Beta prefix — one of only 2 unprefixed
+{
+    Model = Model.ClaudeOpus4_6,
+    MaxTokens = 16000,
+    Betas = ["compact-2026-01-12"],
+    ContextManagement = new BetaContextManagementConfig
+    {
+        Edits = [new BetaCompact20260112Edit()],
+    },
+    Messages = messages,
+};
+BetaMessage resp = await client.Beta.Messages.Create(betaParams);
+
+foreach (BetaContentBlock block in resp.Content)
+{
+    if (block.TryPickCompaction(out BetaCompactionBlock? compaction))
+    {
+        // Content is nullable — compaction can fail server-side
+        Console.WriteLine($"compaction summary: {compaction.Content}");
+    }
+}
+
+// Context-edit metadata lives on a separate nullable field
+if (resp.ContextManagement is { } ctx)
+{
+    foreach (var edit in ctx.AppliedEdits)
+        Console.WriteLine($"cleared {edit.ClearedInputTokens} tokens");
+}
+
+// ROUND-TRIP: BetaMessageParam.Content is BetaMessageParamContent (a string|list
+// union). It implicit-converts from List<BetaContentBlockParam>, NOT from the
+// response's IReadOnlyList<BetaContentBlock>. Convert each block:
+List<BetaContentBlockParam> paramBlocks = [];
+foreach (var b in resp.Content)
+{
+    if (b.TryPickText(out var t)) paramBlocks.Add(new BetaTextBlockParam { Text = t.Text });
+    else if (b.TryPickCompaction(out var c)) paramBlocks.Add(new BetaCompactionBlockParam { Content = c.Content });
+    // ... other variants as needed
+}
+messages.Add(new BetaMessageParam { Role = Role.Assistant, Content = paramBlocks });
+```
+
+All 15 `BetaContentBlock.TryPick*` variants: `Text`, `Thinking`, `RedactedThinking`, `ToolUse`, `ServerToolUse`, `WebSearchToolResult`, `WebFetchToolResult`, `CodeExecutionToolResult`, `BashCodeExecutionToolResult`, `TextEditorCodeExecutionToolResult`, `ToolSearchToolResult`, `McpToolUse`, `McpToolResult`, `ContainerUpload`, `Compaction`.
+
+**`BetaToolUseBlock.Input` is `IReadOnlyDictionary<string, JsonElement>`** — index by key then call the `JsonElement` extractor:
+
+```csharp
+if (block.TryPickToolUse(out BetaToolUseBlock? tu))
+{
+    int a = tu.Input["a"].GetInt32();
+    string s = tu.Input["name"].GetString()!;
+}
+```
+
+---
+
+## Effort Parameter
+
+Effort is nested under `OutputConfig`, NOT a top-level property. `ApiEnum<string, Effort>` has an implicit conversion from the enum, so assign `Effort.High` directly.
+
+```csharp
+OutputConfig = new OutputConfig { Effort = Effort.High },
+```
+
+Values: `Effort.Low`, `Effort.Medium`, `Effort.High`, `Effort.Max`. Combine with `Thinking = new ThinkingConfigAdaptive()` for cost-quality control.
+
+---
+
+## Prompt Caching
+
+`System` takes `MessageCreateParamsSystem?` — a union of `string` or `List<TextBlockParam>`. There is no `SystemTextBlockParam`; use plain `TextBlockParam`. The implicit conversion needs the concrete `List<TextBlockParam>` type (array literals won't convert). For placement patterns and the silent-invalidator audit checklist, see `shared/prompt-caching.md`.
+
+```csharp
+System = new List<TextBlockParam> {
+    new() {
+        Text = longSystemPrompt,
+        CacheControl = new CacheControlEphemeral(),  // auto-sets Type = "ephemeral"
+    },
+},
+```
+
+Optional `Ttl` on `CacheControlEphemeral`: `new() { Ttl = Ttl.Ttl1h }` or `Ttl.Ttl5m`. `CacheControl` also exists on `Tool.CacheControl` and top-level `MessageCreateParams.CacheControl`.
+
+Verify hits via `response.Usage.CacheCreationInputTokens` / `response.Usage.CacheReadInputTokens`.
+
+---
+
+## Token Counting
+
+```csharp
+MessageTokensCount result = await client.Messages.CountTokens(new MessageCountTokensParams {
+    Model = Model.ClaudeOpus4_6,
+    Messages = [new() { Role = Role.User, Content = "Hello" }],
+});
+long tokens = result.InputTokens;
+```
+
+`MessageCountTokensParams.Tools` uses a different union type (`MessageCountTokensTool`) than `MessageCreateParams.Tools` (`ToolUnion`) — if you're passing tools, the compiler will tell you when it matters.
+
+---
+
+## Structured Output
+
+```csharp
+OutputConfig = new OutputConfig {
+    Format = new JsonOutputFormat {
+        Schema = new Dictionary<string, JsonElement> {
+            ["type"] = JsonSerializer.SerializeToElement("object"),
+            ["properties"] = JsonSerializer.SerializeToElement(
+                new { name = new { type = "string" } }),
+            ["required"] = JsonSerializer.SerializeToElement(new[] { "name" }),
+        },
+    },
+},
+```
+
+`JsonOutputFormat.Type` is auto-set to `"json_schema"` by the constructor. `Schema` is `required`.
+
+---
+
+## PDF / Document Input
+
+`DocumentBlockParam` takes a `DocumentBlockParamSource` union: `Base64PdfSource` / `UrlPdfSource` / `PlainTextSource` / `ContentBlockSource`. `Base64PdfSource` auto-sets `MediaType = "application/pdf"` and `Type = "base64"`.
+
+```csharp
+new MessageParam {
+    Role = Role.User,
+    Content = new List<ContentBlockParam> {
+        new DocumentBlockParam { Source = new Base64PdfSource { Data = base64String } },
+        new TextBlockParam { Text = "Summarize this PDF" },
+    },
+}
+```
+
+---
+
+## Server-Side Tools
+
+Web search, bash, text editor, and code execution are built-in server tools. Type names are version-suffixed; constructors auto-set `name`/`type`. All implicit-convert to `ToolUnion`.
+
+```csharp
+Tools = [
+    new WebSearchTool20260209(),
+    new ToolBash20250124(),
+    new ToolTextEditor20250728(),
+    new CodeExecutionTool20260120(),
+],
+```
+
+Also available: `WebFetchTool20260209`, `MemoryTool20250818`. `WebSearchTool20260209` optionals: `AllowedDomains`, `BlockedDomains`, `MaxUses`, `UserLocation`.
+
+---
+
+## Files API (Beta)
+
+Files live under `client.Beta.Files` (namespace `Anthropic.Models.Beta.Files`). `BinaryContent` implicit-converts from `Stream` and `byte[]`.
+
+```csharp
+using Anthropic.Models.Beta.Files;
+using Anthropic.Models.Beta.Messages;
+
+FileMetadata meta = await client.Beta.Files.Upload(
+    new FileUploadParams { File = File.OpenRead("doc.pdf") });
+
+// Referencing the uploaded file requires Beta message types:
+new BetaRequestDocumentBlock {
+    Source = new BetaFileDocumentSource { FileID = meta.ID },
+}
+```
+
+The non-beta `DocumentBlockParamSource` union has no file-ID variant — file references need `client.Beta.Messages.Create()`.

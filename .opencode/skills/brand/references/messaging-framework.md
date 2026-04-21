@@ -1,1 +1,85 @@
-IyBNZXNzYWdpbmcgRnJhbWV3b3JrCgojIyBGcmFtZXdvcmsgU3RydWN0dXJlCgpgYGAKTWlzc2lvbiAoV2h5IHdlIGV4aXN0KQogICAg4oaTClZpc2lvbiAoV2hlcmUgd2UncmUgZ29pbmcpCiAgICDihpMKVmFsdWUgUHJvcG9zaXRpb24gKFdoYXQgd2Ugb2ZmZXIpCiAgICDihpMKUG9zaXRpb25pbmcgU3RhdGVtZW50IChIb3cgd2UncmUgZGlmZmVyZW50KQogICAg4oaTCktleSBNZXNzYWdlcyAoV2hhdCB3ZSBzYXkpCiAgICDihpMKUHJvb2YgUG9pbnRzIChXaHkgdG8gYmVsaWV2ZSkKYGBgCgojIyBDb3JlIFN0YXRlbWVudHMKCiMjIyBNaXNzaW9uIFN0YXRlbWVudApgYGAKV2UgW2FjdGlvbl0gZm9yIFthdWRpZW5jZV0gYnkgW21ldGhvZF0gc28gdGhleSBjYW4gW291dGNvbWVdLgpgYGAKCiMjIyBWaXNpb24gU3RhdGVtZW50CmBgYApBIHdvcmxkIHdoZXJlIFthc3BpcmF0aW9uL2NoYW5nZSB3ZSB3YW50IHRvIHNlZV0uCmBgYAoKIyMjIFZhbHVlIFByb3Bvc2l0aW9uCmBgYApGb3IgW3RhcmdldCBjdXN0b21lcl0gd2hvIFtuZWVkL3Byb2JsZW1dLApbUHJvZHVjdC9CcmFuZF0gaXMgYSBbY2F0ZWdvcnldCnRoYXQgW2tleSBiZW5lZml0XS4KVW5saWtlIFtjb21wZXRpdG9yc10sCndlIFt1bmlxdWUgZGlmZmVyZW50aWF0b3JdLgpgYGAKCiMjIyBQb3NpdGlvbmluZyBTdGF0ZW1lbnQKYGBgCltCcmFuZF0gaXMgdGhlIFtjYXRlZ29yeV0gZm9yIFthdWRpZW5jZV0Kd2hvIHdhbnQgW2Rlc2lyZWQgb3V0Y29tZV0KYmVjYXVzZSBbcmVhc29uIHRvIGJlbGlldmVdLgpgYGAKCiMjIE1lc3NhZ2UgQXJjaGl0ZWN0dXJlCgojIyMgUHJpbWFyeSBNZXNzYWdlCk9uZSBzZW50ZW5jZSB0aGF0IGNhcHR1cmVzIHlvdXIgY29yZSB2YWx1ZS4KCiMjIyBTdXBwb3J0aW5nIE1lc3NhZ2VzICgzLTUpCkVhY2ggYWRkcmVzc2VzIGEgZGlmZmVyZW50IGJlbmVmaXQgb3IgYXVkaWVuY2UgbmVlZC4KCnwgTWVzc2FnZSB8IEF1ZGllbmNlIE5lZWQgfCBQcm9vZiBQb2ludCB8CnwtLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS18CnwgW01lc3NhZ2UgMV0gfCBbTmVlZF0gfCBbRXZpZGVuY2VdIHwKfCBbTWVzc2FnZSAyXSB8IFtOZWVkXSB8IFtFdmlkZW5jZV0gfAp8IFtNZXNzYWdlIDNdIHwgW05lZWRdIHwgW0V2aWRlbmNlXSB8CgojIyMgRWxldmF0b3IgUGl0Y2hlcwoKKioxMC1zZWNvbmQ6KioKW09uZSBzZW50ZW5jZSB0aGF0IHNwYXJrcyBpbnRlcmVzdF0KCioqMzAtc2Vjb25kOioqCltQcm9ibGVtICsgc29sdXRpb24gKyBkaWZmZXJlbnRpYXRpb25dCgoqKjYwLXNlY29uZDoqKgpbRnVsbCBwaXRjaCB3aXRoIHByb29mIHBvaW50c10KCiMjIE1lc3NhZ2UgYnkgQXVkaWVuY2UKCnwgQXVkaWVuY2UgfCBQYWluIFBvaW50IHwgS2V5IE1lc3NhZ2UgfCBDVEEgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLXwtLS0tLXwKfCBbU2VnbWVudCAxXSB8IFtQYWluXSB8IFtNZXNzYWdlXSB8IFtBY3Rpb25dIHwKfCBbU2VnbWVudCAyXSB8IFtQYWluXSB8IFtNZXNzYWdlXSB8IFtBY3Rpb25dIHwKCiMjIE1lc3NhZ2UgVGVzdGluZwoKMS4gSXMgaXQgY2xlYXI/IChObyBqYXJnb24pCjIuIElzIGl0IGRpZmZlcmVudGlhdGVkPyAoQ29tcGV0aXRvcnMgY2FuJ3Qgc2F5IGl0KQozLiBJcyBpdCBjcmVkaWJsZT8gKENhbiB3ZSBwcm92ZSBpdCkKNC4gSXMgaXQgY29tcGVsbGluZz8gKERvZXMgYXVkaWVuY2UgY2FyZSkKNS4gSXMgaXQgY29uc2lzdGVudD8gKEFsaWducyB3aXRoIGJyYW5kKQo=
+# Messaging Framework
+
+## Framework Structure
+
+```
+Mission (Why we exist)
+    ↓
+Vision (Where we're going)
+    ↓
+Value Proposition (What we offer)
+    ↓
+Positioning Statement (How we're different)
+    ↓
+Key Messages (What we say)
+    ↓
+Proof Points (Why to believe)
+```
+
+## Core Statements
+
+### Mission Statement
+```
+We [action] for [audience] by [method] so they can [outcome].
+```
+
+### Vision Statement
+```
+A world where [aspiration/change we want to see].
+```
+
+### Value Proposition
+```
+For [target customer] who [need/problem],
+[Product/Brand] is a [category]
+that [key benefit].
+Unlike [competitors],
+we [unique differentiator].
+```
+
+### Positioning Statement
+```
+[Brand] is the [category] for [audience]
+who want [desired outcome]
+because [reason to believe].
+```
+
+## Message Architecture
+
+### Primary Message
+One sentence that captures your core value.
+
+### Supporting Messages (3-5)
+Each addresses a different benefit or audience need.
+
+| Message | Audience Need | Proof Point |
+|---------|---------------|-------------|
+| [Message 1] | [Need] | [Evidence] |
+| [Message 2] | [Need] | [Evidence] |
+| [Message 3] | [Need] | [Evidence] |
+
+### Elevator Pitches
+
+**10-second:**
+[One sentence that sparks interest]
+
+**30-second:**
+[Problem + solution + differentiation]
+
+**60-second:**
+[Full pitch with proof points]
+
+## Message by Audience
+
+| Audience | Pain Point | Key Message | CTA |
+|----------|------------|-------------|-----|
+| [Segment 1] | [Pain] | [Message] | [Action] |
+| [Segment 2] | [Pain] | [Message] | [Action] |
+
+## Message Testing
+
+1. Is it clear? (No jargon)
+2. Is it differentiated? (Competitors can't say it)
+3. Is it credible? (Can we prove it)
+4. Is it compelling? (Does audience care)
+5. Is it consistent? (Aligns with brand)

@@ -1,1 +1,151 @@
-IiIiTGlnaHR3ZWlnaHQgY29ubmVjdGlvbiBoYW5kbGluZyBmb3IgTUNQIHNlcnZlcnMuIiIiCgpmcm9tIGFiYyBpbXBvcnQgQUJDLCBhYnN0cmFjdG1ldGhvZApmcm9tIGNvbnRleHRsaWIgaW1wb3J0IEFzeW5jRXhpdFN0YWNrCmZyb20gdHlwaW5nIGltcG9ydCBBbnkKCmZyb20gbWNwIGltcG9ydCBDbGllbnRTZXNzaW9uLCBTdGRpb1NlcnZlclBhcmFtZXRlcnMKZnJvbSBtY3AuY2xpZW50LnNzZSBpbXBvcnQgc3NlX2NsaWVudApmcm9tIG1jcC5jbGllbnQuc3RkaW8gaW1wb3J0IHN0ZGlvX2NsaWVudApmcm9tIG1jcC5jbGllbnQuc3RyZWFtYWJsZV9odHRwIGltcG9ydCBzdHJlYW1hYmxlaHR0cF9jbGllbnQKCgpjbGFzcyBNQ1BDb25uZWN0aW9uKEFCQyk6CiAgICAiIiJCYXNlIGNsYXNzIGZvciBNQ1Agc2VydmVyIGNvbm5lY3Rpb25zLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmKToKICAgICAgICBzZWxmLnNlc3Npb24gPSBOb25lCiAgICAgICAgc2VsZi5fc3RhY2sgPSBOb25lCgogICAgQGFic3RyYWN0bWV0aG9kCiAgICBkZWYgX2NyZWF0ZV9jb250ZXh0KHNlbGYpOgogICAgICAgICIiIkNyZWF0ZSB0aGUgY29ubmVjdGlvbiBjb250ZXh0IGJhc2VkIG9uIGNvbm5lY3Rpb24gdHlwZS4iIiIKCiAgICBhc3luYyBkZWYgX19hZW50ZXJfXyhzZWxmKToKICAgICAgICAiIiJJbml0aWFsaXplIE1DUCBzZXJ2ZXIgY29ubmVjdGlvbi4iIiIKICAgICAgICBzZWxmLl9zdGFjayA9IEFzeW5jRXhpdFN0YWNrKCkKICAgICAgICBhd2FpdCBzZWxmLl9zdGFjay5fX2FlbnRlcl9fKCkKCiAgICAgICAgdHJ5OgogICAgICAgICAgICBjdHggPSBzZWxmLl9jcmVhdGVfY29udGV4dCgpCiAgICAgICAgICAgIHJlc3VsdCA9IGF3YWl0IHNlbGYuX3N0YWNrLmVudGVyX2FzeW5jX2NvbnRleHQoY3R4KQoKICAgICAgICAgICAgaWYgbGVuKHJlc3VsdCkgPT0gMjoKICAgICAgICAgICAgICAgIHJlYWQsIHdyaXRlID0gcmVzdWx0CiAgICAgICAgICAgIGVsaWYgbGVuKHJlc3VsdCkgPT0gMzoKICAgICAgICAgICAgICAgIHJlYWQsIHdyaXRlLCBfID0gcmVzdWx0CiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKGYiVW5leHBlY3RlZCBjb250ZXh0IHJlc3VsdDoge3Jlc3VsdH0iKQoKICAgICAgICAgICAgc2Vzc2lvbl9jdHggPSBDbGllbnRTZXNzaW9uKHJlYWQsIHdyaXRlKQogICAgICAgICAgICBzZWxmLnNlc3Npb24gPSBhd2FpdCBzZWxmLl9zdGFjay5lbnRlcl9hc3luY19jb250ZXh0KHNlc3Npb25fY3R4KQogICAgICAgICAgICBhd2FpdCBzZWxmLnNlc3Npb24uaW5pdGlhbGl6ZSgpCiAgICAgICAgICAgIHJldHVybiBzZWxmCiAgICAgICAgZXhjZXB0IEJhc2VFeGNlcHRpb246CiAgICAgICAgICAgIGF3YWl0IHNlbGYuX3N0YWNrLl9fYWV4aXRfXyhOb25lLCBOb25lLCBOb25lKQogICAgICAgICAgICByYWlzZQoKICAgIGFzeW5jIGRlZiBfX2FleGl0X18oc2VsZiwgZXhjX3R5cGUsIGV4Y192YWwsIGV4Y190Yik6CiAgICAgICAgIiIiQ2xlYW4gdXAgTUNQIHNlcnZlciBjb25uZWN0aW9uIHJlc291cmNlcy4iIiIKICAgICAgICBpZiBzZWxmLl9zdGFjazoKICAgICAgICAgICAgYXdhaXQgc2VsZi5fc3RhY2suX19hZXhpdF9fKGV4Y190eXBlLCBleGNfdmFsLCBleGNfdGIpCiAgICAgICAgc2VsZi5zZXNzaW9uID0gTm9uZQogICAgICAgIHNlbGYuX3N0YWNrID0gTm9uZQoKICAgIGFzeW5jIGRlZiBsaXN0X3Rvb2xzKHNlbGYpIC0+IGxpc3RbZGljdFtzdHIsIEFueV1dOgogICAgICAgICIiIlJldHJpZXZlIGF2YWlsYWJsZSB0b29scyBmcm9tIHRoZSBNQ1Agc2VydmVyLiIiIgogICAgICAgIHJlc3BvbnNlID0gYXdhaXQgc2VsZi5zZXNzaW9uLmxpc3RfdG9vbHMoKQogICAgICAgIHJldHVybiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJuYW1lIjogdG9vbC5uYW1lLAogICAgICAgICAgICAgICAgImRlc2NyaXB0aW9uIjogdG9vbC5kZXNjcmlwdGlvbiwKICAgICAgICAgICAgICAgICJpbnB1dF9zY2hlbWEiOiB0b29sLmlucHV0U2NoZW1hLAogICAgICAgICAgICB9CiAgICAgICAgICAgIGZvciB0b29sIGluIHJlc3BvbnNlLnRvb2xzCiAgICAgICAgXQoKICAgIGFzeW5jIGRlZiBjYWxsX3Rvb2woc2VsZiwgdG9vbF9uYW1lOiBzdHIsIGFyZ3VtZW50czogZGljdFtzdHIsIEFueV0pIC0+IEFueToKICAgICAgICAiIiJDYWxsIGEgdG9vbCBvbiB0aGUgTUNQIHNlcnZlciB3aXRoIHByb3ZpZGVkIGFyZ3VtZW50cy4iIiIKICAgICAgICByZXN1bHQgPSBhd2FpdCBzZWxmLnNlc3Npb24uY2FsbF90b29sKHRvb2xfbmFtZSwgYXJndW1lbnRzPWFyZ3VtZW50cykKICAgICAgICByZXR1cm4gcmVzdWx0LmNvbnRlbnQKCgpjbGFzcyBNQ1BDb25uZWN0aW9uU3RkaW8oTUNQQ29ubmVjdGlvbik6CiAgICAiIiJNQ1AgY29ubmVjdGlvbiB1c2luZyBzdGFuZGFyZCBpbnB1dC9vdXRwdXQuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIGNvbW1hbmQ6IHN0ciwgYXJnczogbGlzdFtzdHJdID0gTm9uZSwgZW52OiBkaWN0W3N0ciwgc3RyXSA9IE5vbmUpOgogICAgICAgIHN1cGVyKCkuX19pbml0X18oKQogICAgICAgIHNlbGYuY29tbWFuZCA9IGNvbW1hbmQKICAgICAgICBzZWxmLmFyZ3MgPSBhcmdzIG9yIFtdCiAgICAgICAgc2VsZi5lbnYgPSBlbnYKCiAgICBkZWYgX2NyZWF0ZV9jb250ZXh0KHNlbGYpOgogICAgICAgIHJldHVybiBzdGRpb19jbGllbnQoCiAgICAgICAgICAgIFN0ZGlvU2VydmVyUGFyYW1ldGVycyhjb21tYW5kPXNlbGYuY29tbWFuZCwgYXJncz1zZWxmLmFyZ3MsIGVudj1zZWxmLmVudikKICAgICAgICApCgoKY2xhc3MgTUNQQ29ubmVjdGlvblNTRShNQ1BDb25uZWN0aW9uKToKICAgICIiIk1DUCBjb25uZWN0aW9uIHVzaW5nIFNlcnZlci1TZW50IEV2ZW50cy4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgdXJsOiBzdHIsIGhlYWRlcnM6IGRpY3Rbc3RyLCBzdHJdID0gTm9uZSk6CiAgICAgICAgc3VwZXIoKS5fX2luaXRfXygpCiAgICAgICAgc2VsZi51cmwgPSB1cmwKICAgICAgICBzZWxmLmhlYWRlcnMgPSBoZWFkZXJzIG9yIHt9CgogICAgZGVmIF9jcmVhdGVfY29udGV4dChzZWxmKToKICAgICAgICByZXR1cm4gc3NlX2NsaWVudCh1cmw9c2VsZi51cmwsIGhlYWRlcnM9c2VsZi5oZWFkZXJzKQoKCmNsYXNzIE1DUENvbm5lY3Rpb25IVFRQKE1DUENvbm5lY3Rpb24pOgogICAgIiIiTUNQIGNvbm5lY3Rpb24gdXNpbmcgU3RyZWFtYWJsZSBIVFRQLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCB1cmw6IHN0ciwgaGVhZGVyczogZGljdFtzdHIsIHN0cl0gPSBOb25lKToKICAgICAgICBzdXBlcigpLl9faW5pdF9fKCkKICAgICAgICBzZWxmLnVybCA9IHVybAogICAgICAgIHNlbGYuaGVhZGVycyA9IGhlYWRlcnMgb3Ige30KCiAgICBkZWYgX2NyZWF0ZV9jb250ZXh0KHNlbGYpOgogICAgICAgIHJldHVybiBzdHJlYW1hYmxlaHR0cF9jbGllbnQodXJsPXNlbGYudXJsLCBoZWFkZXJzPXNlbGYuaGVhZGVycykKCgpkZWYgY3JlYXRlX2Nvbm5lY3Rpb24oCiAgICB0cmFuc3BvcnQ6IHN0ciwKICAgIGNvbW1hbmQ6IHN0ciA9IE5vbmUsCiAgICBhcmdzOiBsaXN0W3N0cl0gPSBOb25lLAogICAgZW52OiBkaWN0W3N0ciwgc3RyXSA9IE5vbmUsCiAgICB1cmw6IHN0ciA9IE5vbmUsCiAgICBoZWFkZXJzOiBkaWN0W3N0ciwgc3RyXSA9IE5vbmUsCikgLT4gTUNQQ29ubmVjdGlvbjoKICAgICIiIkZhY3RvcnkgZnVuY3Rpb24gdG8gY3JlYXRlIHRoZSBhcHByb3ByaWF0ZSBNQ1AgY29ubmVjdGlvbi4KCiAgICBBcmdzOgogICAgICAgIHRyYW5zcG9ydDogQ29ubmVjdGlvbiB0eXBlICgic3RkaW8iLCAic3NlIiwgb3IgImh0dHAiKQogICAgICAgIGNvbW1hbmQ6IENvbW1hbmQgdG8gcnVuIChzdGRpbyBvbmx5KQogICAgICAgIGFyZ3M6IENvbW1hbmQgYXJndW1lbnRzIChzdGRpbyBvbmx5KQogICAgICAgIGVudjogRW52aXJvbm1lbnQgdmFyaWFibGVzIChzdGRpbyBvbmx5KQogICAgICAgIHVybDogU2VydmVyIFVSTCAoc3NlIGFuZCBodHRwIG9ubHkpCiAgICAgICAgaGVhZGVyczogSFRUUCBoZWFkZXJzIChzc2UgYW5kIGh0dHAgb25seSkKCiAgICBSZXR1cm5zOgogICAgICAgIE1DUENvbm5lY3Rpb24gaW5zdGFuY2UKICAgICIiIgogICAgdHJhbnNwb3J0ID0gdHJhbnNwb3J0Lmxvd2VyKCkKCiAgICBpZiB0cmFuc3BvcnQgPT0gInN0ZGlvIjoKICAgICAgICBpZiBub3QgY29tbWFuZDoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiQ29tbWFuZCBpcyByZXF1aXJlZCBmb3Igc3RkaW8gdHJhbnNwb3J0IikKICAgICAgICByZXR1cm4gTUNQQ29ubmVjdGlvblN0ZGlvKGNvbW1hbmQ9Y29tbWFuZCwgYXJncz1hcmdzLCBlbnY9ZW52KQoKICAgIGVsaWYgdHJhbnNwb3J0ID09ICJzc2UiOgogICAgICAgIGlmIG5vdCB1cmw6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlVSTCBpcyByZXF1aXJlZCBmb3Igc3NlIHRyYW5zcG9ydCIpCiAgICAgICAgcmV0dXJuIE1DUENvbm5lY3Rpb25TU0UodXJsPXVybCwgaGVhZGVycz1oZWFkZXJzKQoKICAgIGVsaWYgdHJhbnNwb3J0IGluIFsiaHR0cCIsICJzdHJlYW1hYmxlX2h0dHAiLCAic3RyZWFtYWJsZS1odHRwIl06CiAgICAgICAgaWYgbm90IHVybDoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiVVJMIGlzIHJlcXVpcmVkIGZvciBodHRwIHRyYW5zcG9ydCIpCiAgICAgICAgcmV0dXJuIE1DUENvbm5lY3Rpb25IVFRQKHVybD11cmwsIGhlYWRlcnM9aGVhZGVycykKCiAgICBlbHNlOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJVbnN1cHBvcnRlZCB0cmFuc3BvcnQgdHlwZToge3RyYW5zcG9ydH0uIFVzZSAnc3RkaW8nLCAnc3NlJywgb3IgJ2h0dHAnIikK
+"""Lightweight connection handling for MCP servers."""
+
+from abc import ABC, abstractmethod
+from contextlib import AsyncExitStack
+from typing import Any
+
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.sse import sse_client
+from mcp.client.stdio import stdio_client
+from mcp.client.streamable_http import streamablehttp_client
+
+
+class MCPConnection(ABC):
+    """Base class for MCP server connections."""
+
+    def __init__(self):
+        self.session = None
+        self._stack = None
+
+    @abstractmethod
+    def _create_context(self):
+        """Create the connection context based on connection type."""
+
+    async def __aenter__(self):
+        """Initialize MCP server connection."""
+        self._stack = AsyncExitStack()
+        await self._stack.__aenter__()
+
+        try:
+            ctx = self._create_context()
+            result = await self._stack.enter_async_context(ctx)
+
+            if len(result) == 2:
+                read, write = result
+            elif len(result) == 3:
+                read, write, _ = result
+            else:
+                raise ValueError(f"Unexpected context result: {result}")
+
+            session_ctx = ClientSession(read, write)
+            self.session = await self._stack.enter_async_context(session_ctx)
+            await self.session.initialize()
+            return self
+        except BaseException:
+            await self._stack.__aexit__(None, None, None)
+            raise
+
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        """Clean up MCP server connection resources."""
+        if self._stack:
+            await self._stack.__aexit__(exc_type, exc_val, exc_tb)
+        self.session = None
+        self._stack = None
+
+    async def list_tools(self) -> list[dict[str, Any]]:
+        """Retrieve available tools from the MCP server."""
+        response = await self.session.list_tools()
+        return [
+            {
+                "name": tool.name,
+                "description": tool.description,
+                "input_schema": tool.inputSchema,
+            }
+            for tool in response.tools
+        ]
+
+    async def call_tool(self, tool_name: str, arguments: dict[str, Any]) -> Any:
+        """Call a tool on the MCP server with provided arguments."""
+        result = await self.session.call_tool(tool_name, arguments=arguments)
+        return result.content
+
+
+class MCPConnectionStdio(MCPConnection):
+    """MCP connection using standard input/output."""
+
+    def __init__(self, command: str, args: list[str] = None, env: dict[str, str] = None):
+        super().__init__()
+        self.command = command
+        self.args = args or []
+        self.env = env
+
+    def _create_context(self):
+        return stdio_client(
+            StdioServerParameters(command=self.command, args=self.args, env=self.env)
+        )
+
+
+class MCPConnectionSSE(MCPConnection):
+    """MCP connection using Server-Sent Events."""
+
+    def __init__(self, url: str, headers: dict[str, str] = None):
+        super().__init__()
+        self.url = url
+        self.headers = headers or {}
+
+    def _create_context(self):
+        return sse_client(url=self.url, headers=self.headers)
+
+
+class MCPConnectionHTTP(MCPConnection):
+    """MCP connection using Streamable HTTP."""
+
+    def __init__(self, url: str, headers: dict[str, str] = None):
+        super().__init__()
+        self.url = url
+        self.headers = headers or {}
+
+    def _create_context(self):
+        return streamablehttp_client(url=self.url, headers=self.headers)
+
+
+def create_connection(
+    transport: str,
+    command: str = None,
+    args: list[str] = None,
+    env: dict[str, str] = None,
+    url: str = None,
+    headers: dict[str, str] = None,
+) -> MCPConnection:
+    """Factory function to create the appropriate MCP connection.
+
+    Args:
+        transport: Connection type ("stdio", "sse", or "http")
+        command: Command to run (stdio only)
+        args: Command arguments (stdio only)
+        env: Environment variables (stdio only)
+        url: Server URL (sse and http only)
+        headers: HTTP headers (sse and http only)
+
+    Returns:
+        MCPConnection instance
+    """
+    transport = transport.lower()
+
+    if transport == "stdio":
+        if not command:
+            raise ValueError("Command is required for stdio transport")
+        return MCPConnectionStdio(command=command, args=args, env=env)
+
+    elif transport == "sse":
+        if not url:
+            raise ValueError("URL is required for sse transport")
+        return MCPConnectionSSE(url=url, headers=headers)
+
+    elif transport in ["http", "streamable_http", "streamable-http"]:
+        if not url:
+            raise ValueError("URL is required for http transport")
+        return MCPConnectionHTTP(url=url, headers=headers)
+
+    else:
+        raise ValueError(f"Unsupported transport type: {transport}. Use 'stdio', 'sse', or 'http'")

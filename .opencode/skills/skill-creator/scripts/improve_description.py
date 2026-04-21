@@ -1,1 +1,247 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJJbXByb3ZlIGEgc2tpbGwgZGVzY3JpcHRpb24gYmFzZWQgb24gZXZhbCByZXN1bHRzLgoKVGFrZXMgZXZhbCByZXN1bHRzIChmcm9tIHJ1bl9ldmFsLnB5KSBhbmQgZ2VuZXJhdGVzIGFuIGltcHJvdmVkIGRlc2NyaXB0aW9uCmJ5IGNhbGxpbmcgYGNsYXVkZSAtcGAgYXMgYSBzdWJwcm9jZXNzIChzYW1lIGF1dGggcGF0dGVybiBhcyBydW5fZXZhbC5weSDigJQKdXNlcyB0aGUgc2Vzc2lvbidzIENsYXVkZSBDb2RlIGF1dGgsIG5vIHNlcGFyYXRlIEFOVEhST1BJQ19BUElfS0VZIG5lZWRlZCkuCiIiIgoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBqc29uCmltcG9ydCBvcwppbXBvcnQgcmUKaW1wb3J0IHN1YnByb2Nlc3MKaW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmZyb20gc2NyaXB0cy51dGlscyBpbXBvcnQgcGFyc2Vfc2tpbGxfbWQKCgpkZWYgX2NhbGxfY2xhdWRlKHByb21wdDogc3RyLCBtb2RlbDogc3RyIHwgTm9uZSwgdGltZW91dDogaW50ID0gMzAwKSAtPiBzdHI6CiAgICAiIiJSdW4gYGNsYXVkZSAtcGAgd2l0aCB0aGUgcHJvbXB0IG9uIHN0ZGluIGFuZCByZXR1cm4gdGhlIHRleHQgcmVzcG9uc2UuCgogICAgUHJvbXB0IGdvZXMgb3ZlciBzdGRpbiAobm90IGFyZ3YpIGJlY2F1c2UgaXQgZW1iZWRzIHRoZSBmdWxsIFNLSUxMLm1kCiAgICBib2R5IGFuZCBjYW4gZWFzaWx5IGV4Y2VlZCBjb21mb3J0YWJsZSBhcmd2IGxlbmd0aC4KICAgICIiIgogICAgY21kID0gWyJjbGF1ZGUiLCAiLXAiLCAiLS1vdXRwdXQtZm9ybWF0IiwgInRleHQiXQogICAgaWYgbW9kZWw6CiAgICAgICAgY21kLmV4dGVuZChbIi0tbW9kZWwiLCBtb2RlbF0pCgogICAgIyBSZW1vdmUgQ0xBVURFQ09ERSBlbnYgdmFyIHRvIGFsbG93IG5lc3RpbmcgY2xhdWRlIC1wIGluc2lkZSBhCiAgICAjIENsYXVkZSBDb2RlIHNlc3Npb24uIFRoZSBndWFyZCBpcyBmb3IgaW50ZXJhY3RpdmUgdGVybWluYWwgY29uZmxpY3RzOwogICAgIyBwcm9ncmFtbWF0aWMgc3VicHJvY2VzcyB1c2FnZSBpcyBzYWZlLiBTYW1lIHBhdHRlcm4gYXMgcnVuX2V2YWwucHkuCiAgICBlbnYgPSB7azogdiBmb3IgaywgdiBpbiBvcy5lbnZpcm9uLml0ZW1zKCkgaWYgayAhPSAiQ0xBVURFQ09ERSJ9CgogICAgcmVzdWx0ID0gc3VicHJvY2Vzcy5ydW4oCiAgICAgICAgY21kLAogICAgICAgIGlucHV0PXByb21wdCwKICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLAogICAgICAgIHRleHQ9VHJ1ZSwKICAgICAgICBlbnY9ZW52LAogICAgICAgIHRpbWVvdXQ9dGltZW91dCwKICAgICkKICAgIGlmIHJlc3VsdC5yZXR1cm5jb2RlICE9IDA6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKAogICAgICAgICAgICBmImNsYXVkZSAtcCBleGl0ZWQge3Jlc3VsdC5yZXR1cm5jb2RlfVxuc3RkZXJyOiB7cmVzdWx0LnN0ZGVycn0iCiAgICAgICAgKQogICAgcmV0dXJuIHJlc3VsdC5zdGRvdXQKCgpkZWYgaW1wcm92ZV9kZXNjcmlwdGlvbigKICAgIHNraWxsX25hbWU6IHN0ciwKICAgIHNraWxsX2NvbnRlbnQ6IHN0ciwKICAgIGN1cnJlbnRfZGVzY3JpcHRpb246IHN0ciwKICAgIGV2YWxfcmVzdWx0czogZGljdCwKICAgIGhpc3Rvcnk6IGxpc3RbZGljdF0sCiAgICBtb2RlbDogc3RyLAogICAgdGVzdF9yZXN1bHRzOiBkaWN0IHwgTm9uZSA9IE5vbmUsCiAgICBsb2dfZGlyOiBQYXRoIHwgTm9uZSA9IE5vbmUsCiAgICBpdGVyYXRpb246IGludCB8IE5vbmUgPSBOb25lLAopIC0+IHN0cjoKICAgICIiIkNhbGwgQ2xhdWRlIHRvIGltcHJvdmUgdGhlIGRlc2NyaXB0aW9uIGJhc2VkIG9uIGV2YWwgcmVzdWx0cy4iIiIKICAgIGZhaWxlZF90cmlnZ2VycyA9IFsKICAgICAgICByIGZvciByIGluIGV2YWxfcmVzdWx0c1sicmVzdWx0cyJdCiAgICAgICAgaWYgclsic2hvdWxkX3RyaWdnZXIiXSBhbmQgbm90IHJbInBhc3MiXQogICAgXQogICAgZmFsc2VfdHJpZ2dlcnMgPSBbCiAgICAgICAgciBmb3IgciBpbiBldmFsX3Jlc3VsdHNbInJlc3VsdHMiXQogICAgICAgIGlmIG5vdCByWyJzaG91bGRfdHJpZ2dlciJdIGFuZCBub3QgclsicGFzcyJdCiAgICBdCgogICAgIyBCdWlsZCBzY29yZXMgc3VtbWFyeQogICAgdHJhaW5fc2NvcmUgPSBmIntldmFsX3Jlc3VsdHNbJ3N1bW1hcnknXVsncGFzc2VkJ119L3tldmFsX3Jlc3VsdHNbJ3N1bW1hcnknXVsndG90YWwnXX0iCiAgICBpZiB0ZXN0X3Jlc3VsdHM6CiAgICAgICAgdGVzdF9zY29yZSA9IGYie3Rlc3RfcmVzdWx0c1snc3VtbWFyeSddWydwYXNzZWQnXX0ve3Rlc3RfcmVzdWx0c1snc3VtbWFyeSddWyd0b3RhbCddfSIKICAgICAgICBzY29yZXNfc3VtbWFyeSA9IGYiVHJhaW46IHt0cmFpbl9zY29yZX0sIFRlc3Q6IHt0ZXN0X3Njb3JlfSIKICAgIGVsc2U6CiAgICAgICAgc2NvcmVzX3N1bW1hcnkgPSBmIlRyYWluOiB7dHJhaW5fc2NvcmV9IgoKICAgIHByb21wdCA9IGYiIiJZb3UgYXJlIG9wdGltaXppbmcgYSBza2lsbCBkZXNjcmlwdGlvbiBmb3IgYSBDbGF1ZGUgQ29kZSBza2lsbCBjYWxsZWQgIntza2lsbF9uYW1lfSIuIEEgInNraWxsIiBpcyBzb3J0IG9mIGxpa2UgYSBwcm9tcHQsIGJ1dCB3aXRoIHByb2dyZXNzaXZlIGRpc2Nsb3N1cmUgLS0gdGhlcmUncyBhIHRpdGxlIGFuZCBkZXNjcmlwdGlvbiB0aGF0IENsYXVkZSBzZWVzIHdoZW4gZGVjaWRpbmcgd2hldGhlciB0byB1c2UgdGhlIHNraWxsLCBhbmQgdGhlbiBpZiBpdCBkb2VzIHVzZSB0aGUgc2tpbGwsIGl0IHJlYWRzIHRoZSAubWQgZmlsZSB3aGljaCBoYXMgbG90cyBtb3JlIGRldGFpbHMgYW5kIHBvdGVudGlhbGx5IGxpbmtzIHRvIG90aGVyIHJlc291cmNlcyBpbiB0aGUgc2tpbGwgZm9sZGVyIGxpa2UgaGVscGVyIGZpbGVzIGFuZCBzY3JpcHRzIGFuZCBhZGRpdGlvbmFsIGRvY3VtZW50YXRpb24gb3IgZXhhbXBsZXMuCgpUaGUgZGVzY3JpcHRpb24gYXBwZWFycyBpbiBDbGF1ZGUncyAiYXZhaWxhYmxlX3NraWxscyIgbGlzdC4gV2hlbiBhIHVzZXIgc2VuZHMgYSBxdWVyeSwgQ2xhdWRlIGRlY2lkZXMgd2hldGhlciB0byBpbnZva2UgdGhlIHNraWxsIGJhc2VkIHNvbGVseSBvbiB0aGUgdGl0bGUgYW5kIG9uIHRoaXMgZGVzY3JpcHRpb24uIFlvdXIgZ29hbCBpcyB0byB3cml0ZSBhIGRlc2NyaXB0aW9uIHRoYXQgdHJpZ2dlcnMgZm9yIHJlbGV2YW50IHF1ZXJpZXMsIGFuZCBkb2Vzbid0IHRyaWdnZXIgZm9yIGlycmVsZXZhbnQgb25lcy4KCkhlcmUncyB0aGUgY3VycmVudCBkZXNjcmlwdGlvbjoKPGN1cnJlbnRfZGVzY3JpcHRpb24+CiJ7Y3VycmVudF9kZXNjcmlwdGlvbn0iCjwvY3VycmVudF9kZXNjcmlwdGlvbj4KCkN1cnJlbnQgc2NvcmVzICh7c2NvcmVzX3N1bW1hcnl9KToKPHNjb3Jlc19zdW1tYXJ5PgoiIiIKICAgIGlmIGZhaWxlZF90cmlnZ2VyczoKICAgICAgICBwcm9tcHQgKz0gIkZBSUxFRCBUTyBUUklHR0VSIChzaG91bGQgaGF2ZSB0cmlnZ2VyZWQgYnV0IGRpZG4ndCk6XG4iCiAgICAgICAgZm9yIHIgaW4gZmFpbGVkX3RyaWdnZXJzOgogICAgICAgICAgICBwcm9tcHQgKz0gZicgIC0gIntyWyJxdWVyeSJdfSIgKHRyaWdnZXJlZCB7clsidHJpZ2dlcnMiXX0ve3JbInJ1bnMiXX0gdGltZXMpXG4nCiAgICAgICAgcHJvbXB0ICs9ICJcbiIKCiAgICBpZiBmYWxzZV90cmlnZ2VyczoKICAgICAgICBwcm9tcHQgKz0gIkZBTFNFIFRSSUdHRVJTICh0cmlnZ2VyZWQgYnV0IHNob3VsZG4ndCBoYXZlKTpcbiIKICAgICAgICBmb3IgciBpbiBmYWxzZV90cmlnZ2VyczoKICAgICAgICAgICAgcHJvbXB0ICs9IGYnICAtICJ7clsicXVlcnkiXX0iICh0cmlnZ2VyZWQge3JbInRyaWdnZXJzIl19L3tyWyJydW5zIl19IHRpbWVzKVxuJwogICAgICAgIHByb21wdCArPSAiXG4iCgogICAgaWYgaGlzdG9yeToKICAgICAgICBwcm9tcHQgKz0gIlBSRVZJT1VTIEFUVEVNUFRTIChkbyBOT1QgcmVwZWF0IHRoZXNlIOKAlCB0cnkgc29tZXRoaW5nIHN0cnVjdHVyYWxseSBkaWZmZXJlbnQpOlxuXG4iCiAgICAgICAgZm9yIGggaW4gaGlzdG9yeToKICAgICAgICAgICAgdHJhaW5fcyA9IGYie2guZ2V0KCd0cmFpbl9wYXNzZWQnLCBoLmdldCgncGFzc2VkJywgMCkpfS97aC5nZXQoJ3RyYWluX3RvdGFsJywgaC5nZXQoJ3RvdGFsJywgMCkpfSIKICAgICAgICAgICAgdGVzdF9zID0gZiJ7aC5nZXQoJ3Rlc3RfcGFzc2VkJywgJz8nKX0ve2guZ2V0KCd0ZXN0X3RvdGFsJywgJz8nKX0iIGlmIGguZ2V0KCd0ZXN0X3Bhc3NlZCcpIGlzIG5vdCBOb25lIGVsc2UgTm9uZQogICAgICAgICAgICBzY29yZV9zdHIgPSBmInRyYWluPXt0cmFpbl9zfSIgKyAoZiIsIHRlc3Q9e3Rlc3Rfc30iIGlmIHRlc3RfcyBlbHNlICIiKQogICAgICAgICAgICBwcm9tcHQgKz0gZic8YXR0ZW1wdCB7c2NvcmVfc3RyfT5cbicKICAgICAgICAgICAgcHJvbXB0ICs9IGYnRGVzY3JpcHRpb246ICJ7aFsiZGVzY3JpcHRpb24iXX0iXG4nCiAgICAgICAgICAgIGlmICJyZXN1bHRzIiBpbiBoOgogICAgICAgICAgICAgICAgcHJvbXB0ICs9ICJUcmFpbiByZXN1bHRzOlxuIgogICAgICAgICAgICAgICAgZm9yIHIgaW4gaFsicmVzdWx0cyJdOgogICAgICAgICAgICAgICAgICAgIHN0YXR1cyA9ICJQQVNTIiBpZiByWyJwYXNzIl0gZWxzZSAiRkFJTCIKICAgICAgICAgICAgICAgICAgICBwcm9tcHQgKz0gZicgIFt7c3RhdHVzfV0gIntyWyJxdWVyeSJdWzo4MF19IiAodHJpZ2dlcmVkIHtyWyJ0cmlnZ2VycyJdfS97clsicnVucyJdfSlcbicKICAgICAgICAgICAgaWYgaC5nZXQoIm5vdGUiKToKICAgICAgICAgICAgICAgIHByb21wdCArPSBmJ05vdGU6IHtoWyJub3RlIl19XG4nCiAgICAgICAgICAgIHByb21wdCArPSAiPC9hdHRlbXB0PlxuXG4iCgogICAgcHJvbXB0ICs9IGYiIiI8L3Njb3Jlc19zdW1tYXJ5PgoKU2tpbGwgY29udGVudCAoZm9yIGNvbnRleHQgb24gd2hhdCB0aGUgc2tpbGwgZG9lcyk6Cjxza2lsbF9jb250ZW50Pgp7c2tpbGxfY29udGVudH0KPC9za2lsbF9jb250ZW50PgoKQmFzZWQgb24gdGhlIGZhaWx1cmVzLCB3cml0ZSBhIG5ldyBhbmQgaW1wcm92ZWQgZGVzY3JpcHRpb24gdGhhdCBpcyBtb3JlIGxpa2VseSB0byB0cmlnZ2VyIGNvcnJlY3RseS4gV2hlbiBJIHNheSAiYmFzZWQgb24gdGhlIGZhaWx1cmVzIiwgaXQncyBhIGJpdCBvZiBhIHRyaWNreSBsaW5lIHRvIHdhbGsgYmVjYXVzZSB3ZSBkb24ndCB3YW50IHRvIG92ZXJmaXQgdG8gdGhlIHNwZWNpZmljIGNhc2VzIHlvdSdyZSBzZWVpbmcuIFNvIHdoYXQgSSBET04nVCB3YW50IHlvdSB0byBkbyBpcyBwcm9kdWNlIGFuIGV2ZXItZXhwYW5kaW5nIGxpc3Qgb2Ygc3BlY2lmaWMgcXVlcmllcyB0aGF0IHRoaXMgc2tpbGwgc2hvdWxkIG9yIHNob3VsZG4ndCB0cmlnZ2VyIGZvci4gSW5zdGVhZCwgdHJ5IHRvIGdlbmVyYWxpemUgZnJvbSB0aGUgZmFpbHVyZXMgdG8gYnJvYWRlciBjYXRlZ29yaWVzIG9mIHVzZXIgaW50ZW50IGFuZCBzaXR1YXRpb25zIHdoZXJlIHRoaXMgc2tpbGwgd291bGQgYmUgdXNlZnVsIG9yIG5vdCB1c2VmdWwuIFRoZSByZWFzb24gZm9yIHRoaXMgaXMgdHdvZm9sZDoKCjEuIEF2b2lkIG92ZXJmaXR0aW5nCjIuIFRoZSBsaXN0IG1pZ2h0IGdldCBsb29vb25nIGFuZCBpdCdzIGluamVjdGVkIGludG8gQUxMIHF1ZXJpZXMgYW5kIHRoZXJlIG1pZ2h0IGJlIGEgbG90IG9mIHNraWxscywgc28gd2UgZG9uJ3Qgd2FudCB0byBibG93IHRvbyBtdWNoIHNwYWNlIG9uIGFueSBnaXZlbiBkZXNjcmlwdGlvbi4KCkNvbmNyZXRlbHksIHlvdXIgZGVzY3JpcHRpb24gc2hvdWxkIG5vdCBiZSBtb3JlIHRoYW4gYWJvdXQgMTAwLTIwMCB3b3JkcywgZXZlbiBpZiB0aGF0IGNvbWVzIGF0IHRoZSBjb3N0IG9mIGFjY3VyYWN5LiBUaGVyZSBpcyBhIGhhcmQgbGltaXQgb2YgMTAyNCBjaGFyYWN0ZXJzIOKAlCBkZXNjcmlwdGlvbnMgb3ZlciB0aGF0IHdpbGwgYmUgdHJ1bmNhdGVkLCBzbyBzdGF5IGNvbWZvcnRhYmx5IHVuZGVyIGl0LgoKSGVyZSBhcmUgc29tZSB0aXBzIHRoYXQgd2UndmUgZm91bmQgdG8gd29yayB3ZWxsIGluIHdyaXRpbmcgdGhlc2UgZGVzY3JpcHRpb25zOgotIFRoZSBza2lsbCBzaG91bGQgYmUgcGhyYXNlZCBpbiB0aGUgaW1wZXJhdGl2ZSAtLSAiVXNlIHRoaXMgc2tpbGwgZm9yIiByYXRoZXIgdGhhbiAidGhpcyBza2lsbCBkb2VzIgotIFRoZSBza2lsbCBkZXNjcmlwdGlvbiBzaG91bGQgZm9jdXMgb24gdGhlIHVzZXIncyBpbnRlbnQsIHdoYXQgdGhleSBhcmUgdHJ5aW5nIHRvIGFjaGlldmUsIHZzLiB0aGUgaW1wbGVtZW50YXRpb24gZGV0YWlscyBvZiBob3cgdGhlIHNraWxsIHdvcmtzLgotIFRoZSBkZXNjcmlwdGlvbiBjb21wZXRlcyB3aXRoIG90aGVyIHNraWxscyBmb3IgQ2xhdWRlJ3MgYXR0ZW50aW9uIOKAlCBtYWtlIGl0IGRpc3RpbmN0aXZlIGFuZCBpbW1lZGlhdGVseSByZWNvZ25pemFibGUuCi0gSWYgeW91J3JlIGdldHRpbmcgbG90cyBvZiBmYWlsdXJlcyBhZnRlciByZXBlYXRlZCBhdHRlbXB0cywgY2hhbmdlIHRoaW5ncyB1cC4gVHJ5IGRpZmZlcmVudCBzZW50ZW5jZSBzdHJ1Y3R1cmVzIG9yIHdvcmRpbmdzLgoKSSdkIGVuY291cmFnZSB5b3UgdG8gYmUgY3JlYXRpdmUgYW5kIG1peCB1cCB0aGUgc3R5bGUgaW4gZGlmZmVyZW50IGl0ZXJhdGlvbnMgc2luY2UgeW91J2xsIGhhdmUgbXVsdGlwbGUgb3Bwb3J0dW5pdGllcyB0byB0cnkgZGlmZmVyZW50IGFwcHJvYWNoZXMgYW5kIHdlJ2xsIGp1c3QgZ3JhYiB0aGUgaGlnaGVzdC1zY29yaW5nIG9uZSBhdCB0aGUgZW5kLiAKClBsZWFzZSByZXNwb25kIHdpdGggb25seSB0aGUgbmV3IGRlc2NyaXB0aW9uIHRleHQgaW4gPG5ld19kZXNjcmlwdGlvbj4gdGFncywgbm90aGluZyBlbHNlLiIiIgoKICAgIHRleHQgPSBfY2FsbF9jbGF1ZGUocHJvbXB0LCBtb2RlbCkKCiAgICBtYXRjaCA9IHJlLnNlYXJjaChyIjxuZXdfZGVzY3JpcHRpb24+KC4qPyk8L25ld19kZXNjcmlwdGlvbj4iLCB0ZXh0LCByZS5ET1RBTEwpCiAgICBkZXNjcmlwdGlvbiA9IG1hdGNoLmdyb3VwKDEpLnN0cmlwKCkuc3RyaXAoJyInKSBpZiBtYXRjaCBlbHNlIHRleHQuc3RyaXAoKS5zdHJpcCgnIicpCgogICAgdHJhbnNjcmlwdDogZGljdCA9IHsKICAgICAgICAiaXRlcmF0aW9uIjogaXRlcmF0aW9uLAogICAgICAgICJwcm9tcHQiOiBwcm9tcHQsCiAgICAgICAgInJlc3BvbnNlIjogdGV4dCwKICAgICAgICAicGFyc2VkX2Rlc2NyaXB0aW9uIjogZGVzY3JpcHRpb24sCiAgICAgICAgImNoYXJfY291bnQiOiBsZW4oZGVzY3JpcHRpb24pLAogICAgICAgICJvdmVyX2xpbWl0IjogbGVuKGRlc2NyaXB0aW9uKSA+IDEwMjQsCiAgICB9CgogICAgIyBTYWZldHkgbmV0OiB0aGUgcHJvbXB0IGFscmVhZHkgc3RhdGVzIHRoZSAxMDI0LWNoYXIgaGFyZCBsaW1pdCwgYnV0IGlmCiAgICAjIHRoZSBtb2RlbCBibGV3IHBhc3QgaXQgYW55d2F5LCBtYWtlIG9uZSBmcmVzaCBzaW5nbGUtdHVybiBjYWxsIHRoYXQKICAgICMgcXVvdGVzIHRoZSB0b28tbG9uZyB2ZXJzaW9uIGFuZCBhc2tzIGZvciBhIHNob3J0ZXIgcmV3cml0ZS4gKFRoZSBvbGQKICAgICMgU0RLIHBhdGggZGlkIHRoaXMgYXMgYSB0cnVlIG11bHRpLXR1cm47IGBjbGF1ZGUgLXBgIGlzIG9uZS1zaG90LCBzbyB3ZQogICAgIyBpbmxpbmUgdGhlIHByaW9yIG91dHB1dCBpbnRvIHRoZSBuZXcgcHJvbXB0IGluc3RlYWQuKQogICAgaWYgbGVuKGRlc2NyaXB0aW9uKSA+IDEwMjQ6CiAgICAgICAgc2hvcnRlbl9wcm9tcHQgPSAoCiAgICAgICAgICAgIGYie3Byb21wdH1cblxuIgogICAgICAgICAgICBmIi0tLVxuXG4iCiAgICAgICAgICAgIGYiQSBwcmV2aW91cyBhdHRlbXB0IHByb2R1Y2VkIHRoaXMgZGVzY3JpcHRpb24sIHdoaWNoIGF0ICIKICAgICAgICAgICAgZiJ7bGVuKGRlc2NyaXB0aW9uKX0gY2hhcmFjdGVycyBpcyBvdmVyIHRoZSAxMDI0LWNoYXJhY3RlciBoYXJkIGxpbWl0OlxuXG4iCiAgICAgICAgICAgIGYnIntkZXNjcmlwdGlvbn0iXG5cbicKICAgICAgICAgICAgZiJSZXdyaXRlIGl0IHRvIGJlIHVuZGVyIDEwMjQgY2hhcmFjdGVycyB3aGlsZSBrZWVwaW5nIHRoZSBtb3N0ICIKICAgICAgICAgICAgZiJpbXBvcnRhbnQgdHJpZ2dlciB3b3JkcyBhbmQgaW50ZW50IGNvdmVyYWdlLiBSZXNwb25kIHdpdGggb25seSAiCiAgICAgICAgICAgIGYidGhlIG5ldyBkZXNjcmlwdGlvbiBpbiA8bmV3X2Rlc2NyaXB0aW9uPiB0YWdzLiIKICAgICAgICApCiAgICAgICAgc2hvcnRlbl90ZXh0ID0gX2NhbGxfY2xhdWRlKHNob3J0ZW5fcHJvbXB0LCBtb2RlbCkKICAgICAgICBtYXRjaCA9IHJlLnNlYXJjaChyIjxuZXdfZGVzY3JpcHRpb24+KC4qPyk8L25ld19kZXNjcmlwdGlvbj4iLCBzaG9ydGVuX3RleHQsIHJlLkRPVEFMTCkKICAgICAgICBzaG9ydGVuZWQgPSBtYXRjaC5ncm91cCgxKS5zdHJpcCgpLnN0cmlwKCciJykgaWYgbWF0Y2ggZWxzZSBzaG9ydGVuX3RleHQuc3RyaXAoKS5zdHJpcCgnIicpCgogICAgICAgIHRyYW5zY3JpcHRbInJld3JpdGVfcHJvbXB0Il0gPSBzaG9ydGVuX3Byb21wdAogICAgICAgIHRyYW5zY3JpcHRbInJld3JpdGVfcmVzcG9uc2UiXSA9IHNob3J0ZW5fdGV4dAogICAgICAgIHRyYW5zY3JpcHRbInJld3JpdGVfZGVzY3JpcHRpb24iXSA9IHNob3J0ZW5lZAogICAgICAgIHRyYW5zY3JpcHRbInJld3JpdGVfY2hhcl9jb3VudCJdID0gbGVuKHNob3J0ZW5lZCkKICAgICAgICBkZXNjcmlwdGlvbiA9IHNob3J0ZW5lZAoKICAgIHRyYW5zY3JpcHRbImZpbmFsX2Rlc2NyaXB0aW9uIl0gPSBkZXNjcmlwdGlvbgoKICAgIGlmIGxvZ19kaXI6CiAgICAgICAgbG9nX2Rpci5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICAgICAgbG9nX2ZpbGUgPSBsb2dfZGlyIC8gZiJpbXByb3ZlX2l0ZXJfe2l0ZXJhdGlvbiBvciAndW5rbm93bid9Lmpzb24iCiAgICAgICAgbG9nX2ZpbGUud3JpdGVfdGV4dChqc29uLmR1bXBzKHRyYW5zY3JpcHQsIGluZGVudD0yKSkKCiAgICByZXR1cm4gZGVzY3JpcHRpb24KCgpkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249IkltcHJvdmUgYSBza2lsbCBkZXNjcmlwdGlvbiBiYXNlZCBvbiBldmFsIHJlc3VsdHMiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1ldmFsLXJlc3VsdHMiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJQYXRoIHRvIGV2YWwgcmVzdWx0cyBKU09OIChmcm9tIHJ1bl9ldmFsLnB5KSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXNraWxsLXBhdGgiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJQYXRoIHRvIHNraWxsIGRpcmVjdG9yeSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWhpc3RvcnkiLCBkZWZhdWx0PU5vbmUsIGhlbHA9IlBhdGggdG8gaGlzdG9yeSBKU09OIChwcmV2aW91cyBhdHRlbXB0cykiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1tb2RlbCIsIHJlcXVpcmVkPVRydWUsIGhlbHA9Ik1vZGVsIGZvciBpbXByb3ZlbWVudCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXZlcmJvc2UiLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSJQcmludCB0aGlua2luZyB0byBzdGRlcnIiKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICBza2lsbF9wYXRoID0gUGF0aChhcmdzLnNraWxsX3BhdGgpCiAgICBpZiBub3QgKHNraWxsX3BhdGggLyAiU0tJTEwubWQiKS5leGlzdHMoKToKICAgICAgICBwcmludChmIkVycm9yOiBObyBTS0lMTC5tZCBmb3VuZCBhdCB7c2tpbGxfcGF0aH0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBldmFsX3Jlc3VsdHMgPSBqc29uLmxvYWRzKFBhdGgoYXJncy5ldmFsX3Jlc3VsdHMpLnJlYWRfdGV4dCgpKQogICAgaGlzdG9yeSA9IFtdCiAgICBpZiBhcmdzLmhpc3Rvcnk6CiAgICAgICAgaGlzdG9yeSA9IGpzb24ubG9hZHMoUGF0aChhcmdzLmhpc3RvcnkpLnJlYWRfdGV4dCgpKQoKICAgIG5hbWUsIF8sIGNvbnRlbnQgPSBwYXJzZV9za2lsbF9tZChza2lsbF9wYXRoKQogICAgY3VycmVudF9kZXNjcmlwdGlvbiA9IGV2YWxfcmVzdWx0c1siZGVzY3JpcHRpb24iXQoKICAgIGlmIGFyZ3MudmVyYm9zZToKICAgICAgICBwcmludChmIkN1cnJlbnQ6IHtjdXJyZW50X2Rlc2NyaXB0aW9ufSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICBwcmludChmIlNjb3JlOiB7ZXZhbF9yZXN1bHRzWydzdW1tYXJ5J11bJ3Bhc3NlZCddfS97ZXZhbF9yZXN1bHRzWydzdW1tYXJ5J11bJ3RvdGFsJ119IiwgZmlsZT1zeXMuc3RkZXJyKQoKICAgIG5ld19kZXNjcmlwdGlvbiA9IGltcHJvdmVfZGVzY3JpcHRpb24oCiAgICAgICAgc2tpbGxfbmFtZT1uYW1lLAogICAgICAgIHNraWxsX2NvbnRlbnQ9Y29udGVudCwKICAgICAgICBjdXJyZW50X2Rlc2NyaXB0aW9uPWN1cnJlbnRfZGVzY3JpcHRpb24sCiAgICAgICAgZXZhbF9yZXN1bHRzPWV2YWxfcmVzdWx0cywKICAgICAgICBoaXN0b3J5PWhpc3RvcnksCiAgICAgICAgbW9kZWw9YXJncy5tb2RlbCwKICAgICkKCiAgICBpZiBhcmdzLnZlcmJvc2U6CiAgICAgICAgcHJpbnQoZiJJbXByb3ZlZDoge25ld19kZXNjcmlwdGlvbn0iLCBmaWxlPXN5cy5zdGRlcnIpCgogICAgIyBPdXRwdXQgYXMgSlNPTiB3aXRoIGJvdGggdGhlIG5ldyBkZXNjcmlwdGlvbiBhbmQgdXBkYXRlZCBoaXN0b3J5CiAgICBvdXRwdXQgPSB7CiAgICAgICAgImRlc2NyaXB0aW9uIjogbmV3X2Rlc2NyaXB0aW9uLAogICAgICAgICJoaXN0b3J5IjogaGlzdG9yeSArIFt7CiAgICAgICAgICAgICJkZXNjcmlwdGlvbiI6IGN1cnJlbnRfZGVzY3JpcHRpb24sCiAgICAgICAgICAgICJwYXNzZWQiOiBldmFsX3Jlc3VsdHNbInN1bW1hcnkiXVsicGFzc2VkIl0sCiAgICAgICAgICAgICJmYWlsZWQiOiBldmFsX3Jlc3VsdHNbInN1bW1hcnkiXVsiZmFpbGVkIl0sCiAgICAgICAgICAgICJ0b3RhbCI6IGV2YWxfcmVzdWx0c1sic3VtbWFyeSJdWyJ0b3RhbCJdLAogICAgICAgICAgICAicmVzdWx0cyI6IGV2YWxfcmVzdWx0c1sicmVzdWx0cyJdLAogICAgICAgIH1dLAogICAgfQogICAgcHJpbnQoanNvbi5kdW1wcyhvdXRwdXQsIGluZGVudD0yKSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""Improve a skill description based on eval results.
+
+Takes eval results (from run_eval.py) and generates an improved description
+by calling `claude -p` as a subprocess (same auth pattern as run_eval.py —
+uses the session's Claude Code auth, no separate ANTHROPIC_API_KEY needed).
+"""
+
+import argparse
+import json
+import os
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+from scripts.utils import parse_skill_md
+
+
+def _call_claude(prompt: str, model: str | None, timeout: int = 300) -> str:
+    """Run `claude -p` with the prompt on stdin and return the text response.
+
+    Prompt goes over stdin (not argv) because it embeds the full SKILL.md
+    body and can easily exceed comfortable argv length.
+    """
+    cmd = ["claude", "-p", "--output-format", "text"]
+    if model:
+        cmd.extend(["--model", model])
+
+    # Remove CLAUDECODE env var to allow nesting claude -p inside a
+    # Claude Code session. The guard is for interactive terminal conflicts;
+    # programmatic subprocess usage is safe. Same pattern as run_eval.py.
+    env = {k: v for k, v in os.environ.items() if k != "CLAUDECODE"}
+
+    result = subprocess.run(
+        cmd,
+        input=prompt,
+        capture_output=True,
+        text=True,
+        env=env,
+        timeout=timeout,
+    )
+    if result.returncode != 0:
+        raise RuntimeError(
+            f"claude -p exited {result.returncode}\nstderr: {result.stderr}"
+        )
+    return result.stdout
+
+
+def improve_description(
+    skill_name: str,
+    skill_content: str,
+    current_description: str,
+    eval_results: dict,
+    history: list[dict],
+    model: str,
+    test_results: dict | None = None,
+    log_dir: Path | None = None,
+    iteration: int | None = None,
+) -> str:
+    """Call Claude to improve the description based on eval results."""
+    failed_triggers = [
+        r for r in eval_results["results"]
+        if r["should_trigger"] and not r["pass"]
+    ]
+    false_triggers = [
+        r for r in eval_results["results"]
+        if not r["should_trigger"] and not r["pass"]
+    ]
+
+    # Build scores summary
+    train_score = f"{eval_results['summary']['passed']}/{eval_results['summary']['total']}"
+    if test_results:
+        test_score = f"{test_results['summary']['passed']}/{test_results['summary']['total']}"
+        scores_summary = f"Train: {train_score}, Test: {test_score}"
+    else:
+        scores_summary = f"Train: {train_score}"
+
+    prompt = f"""You are optimizing a skill description for a Claude Code skill called "{skill_name}". A "skill" is sort of like a prompt, but with progressive disclosure -- there's a title and description that Claude sees when deciding whether to use the skill, and then if it does use the skill, it reads the .md file which has lots more details and potentially links to other resources in the skill folder like helper files and scripts and additional documentation or examples.
+
+The description appears in Claude's "available_skills" list. When a user sends a query, Claude decides whether to invoke the skill based solely on the title and on this description. Your goal is to write a description that triggers for relevant queries, and doesn't trigger for irrelevant ones.
+
+Here's the current description:
+<current_description>
+"{current_description}"
+</current_description>
+
+Current scores ({scores_summary}):
+<scores_summary>
+"""
+    if failed_triggers:
+        prompt += "FAILED TO TRIGGER (should have triggered but didn't):\n"
+        for r in failed_triggers:
+            prompt += f'  - "{r["query"]}" (triggered {r["triggers"]}/{r["runs"]} times)\n'
+        prompt += "\n"
+
+    if false_triggers:
+        prompt += "FALSE TRIGGERS (triggered but shouldn't have):\n"
+        for r in false_triggers:
+            prompt += f'  - "{r["query"]}" (triggered {r["triggers"]}/{r["runs"]} times)\n'
+        prompt += "\n"
+
+    if history:
+        prompt += "PREVIOUS ATTEMPTS (do NOT repeat these — try something structurally different):\n\n"
+        for h in history:
+            train_s = f"{h.get('train_passed', h.get('passed', 0))}/{h.get('train_total', h.get('total', 0))}"
+            test_s = f"{h.get('test_passed', '?')}/{h.get('test_total', '?')}" if h.get('test_passed') is not None else None
+            score_str = f"train={train_s}" + (f", test={test_s}" if test_s else "")
+            prompt += f'<attempt {score_str}>\n'
+            prompt += f'Description: "{h["description"]}"\n'
+            if "results" in h:
+                prompt += "Train results:\n"
+                for r in h["results"]:
+                    status = "PASS" if r["pass"] else "FAIL"
+                    prompt += f'  [{status}] "{r["query"][:80]}" (triggered {r["triggers"]}/{r["runs"]})\n'
+            if h.get("note"):
+                prompt += f'Note: {h["note"]}\n'
+            prompt += "</attempt>\n\n"
+
+    prompt += f"""</scores_summary>
+
+Skill content (for context on what the skill does):
+<skill_content>
+{skill_content}
+</skill_content>
+
+Based on the failures, write a new and improved description that is more likely to trigger correctly. When I say "based on the failures", it's a bit of a tricky line to walk because we don't want to overfit to the specific cases you're seeing. So what I DON'T want you to do is produce an ever-expanding list of specific queries that this skill should or shouldn't trigger for. Instead, try to generalize from the failures to broader categories of user intent and situations where this skill would be useful or not useful. The reason for this is twofold:
+
+1. Avoid overfitting
+2. The list might get loooong and it's injected into ALL queries and there might be a lot of skills, so we don't want to blow too much space on any given description.
+
+Concretely, your description should not be more than about 100-200 words, even if that comes at the cost of accuracy. There is a hard limit of 1024 characters — descriptions over that will be truncated, so stay comfortably under it.
+
+Here are some tips that we've found to work well in writing these descriptions:
+- The skill should be phrased in the imperative -- "Use this skill for" rather than "this skill does"
+- The skill description should focus on the user's intent, what they are trying to achieve, vs. the implementation details of how the skill works.
+- The description competes with other skills for Claude's attention — make it distinctive and immediately recognizable.
+- If you're getting lots of failures after repeated attempts, change things up. Try different sentence structures or wordings.
+
+I'd encourage you to be creative and mix up the style in different iterations since you'll have multiple opportunities to try different approaches and we'll just grab the highest-scoring one at the end. 
+
+Please respond with only the new description text in <new_description> tags, nothing else."""
+
+    text = _call_claude(prompt, model)
+
+    match = re.search(r"<new_description>(.*?)</new_description>", text, re.DOTALL)
+    description = match.group(1).strip().strip('"') if match else text.strip().strip('"')
+
+    transcript: dict = {
+        "iteration": iteration,
+        "prompt": prompt,
+        "response": text,
+        "parsed_description": description,
+        "char_count": len(description),
+        "over_limit": len(description) > 1024,
+    }
+
+    # Safety net: the prompt already states the 1024-char hard limit, but if
+    # the model blew past it anyway, make one fresh single-turn call that
+    # quotes the too-long version and asks for a shorter rewrite. (The old
+    # SDK path did this as a true multi-turn; `claude -p` is one-shot, so we
+    # inline the prior output into the new prompt instead.)
+    if len(description) > 1024:
+        shorten_prompt = (
+            f"{prompt}\n\n"
+            f"---\n\n"
+            f"A previous attempt produced this description, which at "
+            f"{len(description)} characters is over the 1024-character hard limit:\n\n"
+            f'"{description}"\n\n'
+            f"Rewrite it to be under 1024 characters while keeping the most "
+            f"important trigger words and intent coverage. Respond with only "
+            f"the new description in <new_description> tags."
+        )
+        shorten_text = _call_claude(shorten_prompt, model)
+        match = re.search(r"<new_description>(.*?)</new_description>", shorten_text, re.DOTALL)
+        shortened = match.group(1).strip().strip('"') if match else shorten_text.strip().strip('"')
+
+        transcript["rewrite_prompt"] = shorten_prompt
+        transcript["rewrite_response"] = shorten_text
+        transcript["rewrite_description"] = shortened
+        transcript["rewrite_char_count"] = len(shortened)
+        description = shortened
+
+    transcript["final_description"] = description
+
+    if log_dir:
+        log_dir.mkdir(parents=True, exist_ok=True)
+        log_file = log_dir / f"improve_iter_{iteration or 'unknown'}.json"
+        log_file.write_text(json.dumps(transcript, indent=2))
+
+    return description
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Improve a skill description based on eval results")
+    parser.add_argument("--eval-results", required=True, help="Path to eval results JSON (from run_eval.py)")
+    parser.add_argument("--skill-path", required=True, help="Path to skill directory")
+    parser.add_argument("--history", default=None, help="Path to history JSON (previous attempts)")
+    parser.add_argument("--model", required=True, help="Model for improvement")
+    parser.add_argument("--verbose", action="store_true", help="Print thinking to stderr")
+    args = parser.parse_args()
+
+    skill_path = Path(args.skill_path)
+    if not (skill_path / "SKILL.md").exists():
+        print(f"Error: No SKILL.md found at {skill_path}", file=sys.stderr)
+        sys.exit(1)
+
+    eval_results = json.loads(Path(args.eval_results).read_text())
+    history = []
+    if args.history:
+        history = json.loads(Path(args.history).read_text())
+
+    name, _, content = parse_skill_md(skill_path)
+    current_description = eval_results["description"]
+
+    if args.verbose:
+        print(f"Current: {current_description}", file=sys.stderr)
+        print(f"Score: {eval_results['summary']['passed']}/{eval_results['summary']['total']}", file=sys.stderr)
+
+    new_description = improve_description(
+        skill_name=name,
+        skill_content=content,
+        current_description=current_description,
+        eval_results=eval_results,
+        history=history,
+        model=args.model,
+    )
+
+    if args.verbose:
+        print(f"Improved: {new_description}", file=sys.stderr)
+
+    # Output as JSON with both the new description and updated history
+    output = {
+        "description": new_description,
+        "history": history + [{
+            "description": current_description,
+            "passed": eval_results["summary"]["passed"],
+            "failed": eval_results["summary"]["failed"],
+            "total": eval_results["summary"]["total"],
+            "results": eval_results["results"],
+        }],
+    }
+    print(json.dumps(output, indent=2))
+
+
+if __name__ == "__main__":
+    main()

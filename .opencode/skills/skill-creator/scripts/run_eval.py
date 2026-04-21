@@ -1,1 +1,310 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiJSdW4gdHJpZ2dlciBldmFsdWF0aW9uIGZvciBhIHNraWxsIGRlc2NyaXB0aW9uLgoKVGVzdHMgd2hldGhlciBhIHNraWxsJ3MgZGVzY3JpcHRpb24gY2F1c2VzIENsYXVkZSB0byB0cmlnZ2VyIChyZWFkIHRoZSBza2lsbCkKZm9yIGEgc2V0IG9mIHF1ZXJpZXMuIE91dHB1dHMgcmVzdWx0cyBhcyBKU09OLgoiIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHNlbGVjdAppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCmltcG9ydCB0aW1lCmltcG9ydCB1dWlkCmZyb20gY29uY3VycmVudC5mdXR1cmVzIGltcG9ydCBQcm9jZXNzUG9vbEV4ZWN1dG9yLCBhc19jb21wbGV0ZWQKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpmcm9tIHNjcmlwdHMudXRpbHMgaW1wb3J0IHBhcnNlX3NraWxsX21kCgoKZGVmIGZpbmRfcHJvamVjdF9yb290KCkgLT4gUGF0aDoKICAgICIiIkZpbmQgdGhlIHByb2plY3Qgcm9vdCBieSB3YWxraW5nIHVwIGZyb20gY3dkIGxvb2tpbmcgZm9yIC5jbGF1ZGUvLgoKICAgIE1pbWljcyBob3cgQ2xhdWRlIENvZGUgZGlzY292ZXJzIGl0cyBwcm9qZWN0IHJvb3QsIHNvIHRoZSBjb21tYW5kIGZpbGUKICAgIHdlIGNyZWF0ZSBlbmRzIHVwIHdoZXJlIGNsYXVkZSAtcCB3aWxsIGxvb2sgZm9yIGl0LgogICAgIiIiCiAgICBjdXJyZW50ID0gUGF0aC5jd2QoKQogICAgZm9yIHBhcmVudCBpbiBbY3VycmVudCwgKmN1cnJlbnQucGFyZW50c106CiAgICAgICAgaWYgKHBhcmVudCAvICIuY2xhdWRlIikuaXNfZGlyKCk6CiAgICAgICAgICAgIHJldHVybiBwYXJlbnQKICAgIHJldHVybiBjdXJyZW50CgoKZGVmIHJ1bl9zaW5nbGVfcXVlcnkoCiAgICBxdWVyeTogc3RyLAogICAgc2tpbGxfbmFtZTogc3RyLAogICAgc2tpbGxfZGVzY3JpcHRpb246IHN0ciwKICAgIHRpbWVvdXQ6IGludCwKICAgIHByb2plY3Rfcm9vdDogc3RyLAogICAgbW9kZWw6IHN0ciB8IE5vbmUgPSBOb25lLAopIC0+IGJvb2w6CiAgICAiIiJSdW4gYSBzaW5nbGUgcXVlcnkgYW5kIHJldHVybiB3aGV0aGVyIHRoZSBza2lsbCB3YXMgdHJpZ2dlcmVkLgoKICAgIENyZWF0ZXMgYSBjb21tYW5kIGZpbGUgaW4gLmNsYXVkZS9jb21tYW5kcy8gc28gaXQgYXBwZWFycyBpbiBDbGF1ZGUncwogICAgYXZhaWxhYmxlX3NraWxscyBsaXN0LCB0aGVuIHJ1bnMgYGNsYXVkZSAtcGAgd2l0aCB0aGUgcmF3IHF1ZXJ5LgogICAgVXNlcyAtLWluY2x1ZGUtcGFydGlhbC1tZXNzYWdlcyB0byBkZXRlY3QgdHJpZ2dlcmluZyBlYXJseSBmcm9tCiAgICBzdHJlYW0gZXZlbnRzIChjb250ZW50X2Jsb2NrX3N0YXJ0KSByYXRoZXIgdGhhbiB3YWl0aW5nIGZvciB0aGUKICAgIGZ1bGwgYXNzaXN0YW50IG1lc3NhZ2UsIHdoaWNoIG9ubHkgYXJyaXZlcyBhZnRlciB0b29sIGV4ZWN1dGlvbi4KICAgICIiIgogICAgdW5pcXVlX2lkID0gdXVpZC51dWlkNCgpLmhleFs6OF0KICAgIGNsZWFuX25hbWUgPSBmIntza2lsbF9uYW1lfS1za2lsbC17dW5pcXVlX2lkfSIKICAgIHByb2plY3RfY29tbWFuZHNfZGlyID0gUGF0aChwcm9qZWN0X3Jvb3QpIC8gIi5jbGF1ZGUiIC8gImNvbW1hbmRzIgogICAgY29tbWFuZF9maWxlID0gcHJvamVjdF9jb21tYW5kc19kaXIgLyBmIntjbGVhbl9uYW1lfS5tZCIKCiAgICB0cnk6CiAgICAgICAgcHJvamVjdF9jb21tYW5kc19kaXIubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgICAgICMgVXNlIFlBTUwgYmxvY2sgc2NhbGFyIHRvIGF2b2lkIGJyZWFraW5nIG9uIHF1b3RlcyBpbiBkZXNjcmlwdGlvbgogICAgICAgIGluZGVudGVkX2Rlc2MgPSAiXG4gICIuam9pbihza2lsbF9kZXNjcmlwdGlvbi5zcGxpdCgiXG4iKSkKICAgICAgICBjb21tYW5kX2NvbnRlbnQgPSAoCiAgICAgICAgICAgIGYiLS0tXG4iCiAgICAgICAgICAgIGYiZGVzY3JpcHRpb246IHxcbiIKICAgICAgICAgICAgZiIgIHtpbmRlbnRlZF9kZXNjfVxuIgogICAgICAgICAgICBmIi0tLVxuXG4iCiAgICAgICAgICAgIGYiIyB7c2tpbGxfbmFtZX1cblxuIgogICAgICAgICAgICBmIlRoaXMgc2tpbGwgaGFuZGxlczoge3NraWxsX2Rlc2NyaXB0aW9ufVxuIgogICAgICAgICkKICAgICAgICBjb21tYW5kX2ZpbGUud3JpdGVfdGV4dChjb21tYW5kX2NvbnRlbnQpCgogICAgICAgIGNtZCA9IFsKICAgICAgICAgICAgImNsYXVkZSIsCiAgICAgICAgICAgICItcCIsIHF1ZXJ5LAogICAgICAgICAgICAiLS1vdXRwdXQtZm9ybWF0IiwgInN0cmVhbS1qc29uIiwKICAgICAgICAgICAgIi0tdmVyYm9zZSIsCiAgICAgICAgICAgICItLWluY2x1ZGUtcGFydGlhbC1tZXNzYWdlcyIsCiAgICAgICAgXQogICAgICAgIGlmIG1vZGVsOgogICAgICAgICAgICBjbWQuZXh0ZW5kKFsiLS1tb2RlbCIsIG1vZGVsXSkKCiAgICAgICAgIyBSZW1vdmUgQ0xBVURFQ09ERSBlbnYgdmFyIHRvIGFsbG93IG5lc3RpbmcgY2xhdWRlIC1wIGluc2lkZSBhCiAgICAgICAgIyBDbGF1ZGUgQ29kZSBzZXNzaW9uLiBUaGUgZ3VhcmQgaXMgZm9yIGludGVyYWN0aXZlIHRlcm1pbmFsIGNvbmZsaWN0czsKICAgICAgICAjIHByb2dyYW1tYXRpYyBzdWJwcm9jZXNzIHVzYWdlIGlzIHNhZmUuCiAgICAgICAgZW52ID0ge2s6IHYgZm9yIGssIHYgaW4gb3MuZW52aXJvbi5pdGVtcygpIGlmIGsgIT0gIkNMQVVERUNPREUifQoKICAgICAgICBwcm9jZXNzID0gc3VicHJvY2Vzcy5Qb3BlbigKICAgICAgICAgICAgY21kLAogICAgICAgICAgICBzdGRvdXQ9c3VicHJvY2Vzcy5QSVBFLAogICAgICAgICAgICBzdGRlcnI9c3VicHJvY2Vzcy5ERVZOVUxMLAogICAgICAgICAgICBjd2Q9cHJvamVjdF9yb290LAogICAgICAgICAgICBlbnY9ZW52LAogICAgICAgICkKCiAgICAgICAgdHJpZ2dlcmVkID0gRmFsc2UKICAgICAgICBzdGFydF90aW1lID0gdGltZS50aW1lKCkKICAgICAgICBidWZmZXIgPSAiIgogICAgICAgICMgVHJhY2sgc3RhdGUgZm9yIHN0cmVhbSBldmVudCBkZXRlY3Rpb24KICAgICAgICBwZW5kaW5nX3Rvb2xfbmFtZSA9IE5vbmUKICAgICAgICBhY2N1bXVsYXRlZF9qc29uID0gIiIKCiAgICAgICAgdHJ5OgogICAgICAgICAgICB3aGlsZSB0aW1lLnRpbWUoKSAtIHN0YXJ0X3RpbWUgPCB0aW1lb3V0OgogICAgICAgICAgICAgICAgaWYgcHJvY2Vzcy5wb2xsKCkgaXMgbm90IE5vbmU6CiAgICAgICAgICAgICAgICAgICAgcmVtYWluaW5nID0gcHJvY2Vzcy5zdGRvdXQucmVhZCgpCiAgICAgICAgICAgICAgICAgICAgaWYgcmVtYWluaW5nOgogICAgICAgICAgICAgICAgICAgICAgICBidWZmZXIgKz0gcmVtYWluaW5nLmRlY29kZSgidXRmLTgiLCBlcnJvcnM9InJlcGxhY2UiKQogICAgICAgICAgICAgICAgICAgIGJyZWFrCgogICAgICAgICAgICAgICAgcmVhZHksIF8sIF8gPSBzZWxlY3Quc2VsZWN0KFtwcm9jZXNzLnN0ZG91dF0sIFtdLCBbXSwgMS4wKQogICAgICAgICAgICAgICAgaWYgbm90IHJlYWR5OgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgY2h1bmsgPSBvcy5yZWFkKHByb2Nlc3Muc3Rkb3V0LmZpbGVubygpLCA4MTkyKQogICAgICAgICAgICAgICAgaWYgbm90IGNodW5rOgogICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICBidWZmZXIgKz0gY2h1bmsuZGVjb2RlKCJ1dGYtOCIsIGVycm9ycz0icmVwbGFjZSIpCgogICAgICAgICAgICAgICAgd2hpbGUgIlxuIiBpbiBidWZmZXI6CiAgICAgICAgICAgICAgICAgICAgbGluZSwgYnVmZmVyID0gYnVmZmVyLnNwbGl0KCJcbiIsIDEpCiAgICAgICAgICAgICAgICAgICAgbGluZSA9IGxpbmUuc3RyaXAoKQogICAgICAgICAgICAgICAgICAgIGlmIG5vdCBsaW5lOgogICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgICAgIGV2ZW50ID0ganNvbi5sb2FkcyhsaW5lKQogICAgICAgICAgICAgICAgICAgIGV4Y2VwdCBqc29uLkpTT05EZWNvZGVFcnJvcjoKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICAgICAgICAgIyBFYXJseSBkZXRlY3Rpb24gdmlhIHN0cmVhbSBldmVudHMKICAgICAgICAgICAgICAgICAgICBpZiBldmVudC5nZXQoInR5cGUiKSA9PSAic3RyZWFtX2V2ZW50IjoKICAgICAgICAgICAgICAgICAgICAgICAgc2UgPSBldmVudC5nZXQoImV2ZW50Iiwge30pCiAgICAgICAgICAgICAgICAgICAgICAgIHNlX3R5cGUgPSBzZS5nZXQoInR5cGUiLCAiIikKCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHNlX3R5cGUgPT0gImNvbnRlbnRfYmxvY2tfc3RhcnQiOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2IgPSBzZS5nZXQoImNvbnRlbnRfYmxvY2siLCB7fSkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIGNiLmdldCgidHlwZSIpID09ICJ0b29sX3VzZSI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbF9uYW1lID0gY2IuZ2V0KCJuYW1lIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgdG9vbF9uYW1lIGluICgiU2tpbGwiLCAiUmVhZCIpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwZW5kaW5nX3Rvb2xfbmFtZSA9IHRvb2xfbmFtZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhY2N1bXVsYXRlZF9qc29uID0gIiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gRmFsc2UKCiAgICAgICAgICAgICAgICAgICAgICAgIGVsaWYgc2VfdHlwZSA9PSAiY29udGVudF9ibG9ja19kZWx0YSIgYW5kIHBlbmRpbmdfdG9vbF9uYW1lOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVsdGEgPSBzZS5nZXQoImRlbHRhIiwge30pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBkZWx0YS5nZXQoInR5cGUiKSA9PSAiaW5wdXRfanNvbl9kZWx0YSI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWNjdW11bGF0ZWRfanNvbiArPSBkZWx0YS5nZXQoInBhcnRpYWxfanNvbiIsICIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIGNsZWFuX25hbWUgaW4gYWNjdW11bGF0ZWRfanNvbjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKCiAgICAgICAgICAgICAgICAgICAgICAgIGVsaWYgc2VfdHlwZSBpbiAoImNvbnRlbnRfYmxvY2tfc3RvcCIsICJtZXNzYWdlX3N0b3AiKToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIHBlbmRpbmdfdG9vbF9uYW1lOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiBjbGVhbl9uYW1lIGluIGFjY3VtdWxhdGVkX2pzb24KICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIHNlX3R5cGUgPT0gIm1lc3NhZ2Vfc3RvcCI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgICAgICAgICAgICAgICAgICMgRmFsbGJhY2s6IGZ1bGwgYXNzaXN0YW50IG1lc3NhZ2UKICAgICAgICAgICAgICAgICAgICBlbGlmIGV2ZW50LmdldCgidHlwZSIpID09ICJhc3Npc3RhbnQiOgogICAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlID0gZXZlbnQuZ2V0KCJtZXNzYWdlIiwge30pCiAgICAgICAgICAgICAgICAgICAgICAgIGZvciBjb250ZW50X2l0ZW0gaW4gbWVzc2FnZS5nZXQoImNvbnRlbnQiLCBbXSk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBjb250ZW50X2l0ZW0uZ2V0KCJ0eXBlIikgIT0gInRvb2xfdXNlIjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbF9uYW1lID0gY29udGVudF9pdGVtLmdldCgibmFtZSIsICIiKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9vbF9pbnB1dCA9IGNvbnRlbnRfaXRlbS5nZXQoImlucHV0Iiwge30pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiB0b29sX25hbWUgPT0gIlNraWxsIiBhbmQgY2xlYW5fbmFtZSBpbiB0b29sX2lucHV0LmdldCgic2tpbGwiLCAiIik6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJpZ2dlcmVkID0gVHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZWxpZiB0b29sX25hbWUgPT0gIlJlYWQiIGFuZCBjbGVhbl9uYW1lIGluIHRvb2xfaW5wdXQuZ2V0KCJmaWxlX3BhdGgiLCAiIik6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJpZ2dlcmVkID0gVHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHRyaWdnZXJlZAoKICAgICAgICAgICAgICAgICAgICBlbGlmIGV2ZW50LmdldCgidHlwZSIpID09ICJyZXN1bHQiOgogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJpZ2dlcmVkCiAgICAgICAgZmluYWxseToKICAgICAgICAgICAgIyBDbGVhbiB1cCBwcm9jZXNzIG9uIGFueSBleGl0IHBhdGggKHJldHVybiwgZXhjZXB0aW9uLCB0aW1lb3V0KQogICAgICAgICAgICBpZiBwcm9jZXNzLnBvbGwoKSBpcyBOb25lOgogICAgICAgICAgICAgICAgcHJvY2Vzcy5raWxsKCkKICAgICAgICAgICAgICAgIHByb2Nlc3Mud2FpdCgpCgogICAgICAgIHJldHVybiB0cmlnZ2VyZWQKICAgIGZpbmFsbHk6CiAgICAgICAgaWYgY29tbWFuZF9maWxlLmV4aXN0cygpOgogICAgICAgICAgICBjb21tYW5kX2ZpbGUudW5saW5rKCkKCgpkZWYgcnVuX2V2YWwoCiAgICBldmFsX3NldDogbGlzdFtkaWN0XSwKICAgIHNraWxsX25hbWU6IHN0ciwKICAgIGRlc2NyaXB0aW9uOiBzdHIsCiAgICBudW1fd29ya2VyczogaW50LAogICAgdGltZW91dDogaW50LAogICAgcHJvamVjdF9yb290OiBQYXRoLAogICAgcnVuc19wZXJfcXVlcnk6IGludCA9IDEsCiAgICB0cmlnZ2VyX3RocmVzaG9sZDogZmxvYXQgPSAwLjUsCiAgICBtb2RlbDogc3RyIHwgTm9uZSA9IE5vbmUsCikgLT4gZGljdDoKICAgICIiIlJ1biB0aGUgZnVsbCBldmFsIHNldCBhbmQgcmV0dXJuIHJlc3VsdHMuIiIiCiAgICByZXN1bHRzID0gW10KCiAgICB3aXRoIFByb2Nlc3NQb29sRXhlY3V0b3IobWF4X3dvcmtlcnM9bnVtX3dvcmtlcnMpIGFzIGV4ZWN1dG9yOgogICAgICAgIGZ1dHVyZV90b19pbmZvID0ge30KICAgICAgICBmb3IgaXRlbSBpbiBldmFsX3NldDoKICAgICAgICAgICAgZm9yIHJ1bl9pZHggaW4gcmFuZ2UocnVuc19wZXJfcXVlcnkpOgogICAgICAgICAgICAgICAgZnV0dXJlID0gZXhlY3V0b3Iuc3VibWl0KAogICAgICAgICAgICAgICAgICAgIHJ1bl9zaW5nbGVfcXVlcnksCiAgICAgICAgICAgICAgICAgICAgaXRlbVsicXVlcnkiXSwKICAgICAgICAgICAgICAgICAgICBza2lsbF9uYW1lLAogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uLAogICAgICAgICAgICAgICAgICAgIHRpbWVvdXQsCiAgICAgICAgICAgICAgICAgICAgc3RyKHByb2plY3Rfcm9vdCksCiAgICAgICAgICAgICAgICAgICAgbW9kZWwsCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICBmdXR1cmVfdG9faW5mb1tmdXR1cmVdID0gKGl0ZW0sIHJ1bl9pZHgpCgogICAgICAgIHF1ZXJ5X3RyaWdnZXJzOiBkaWN0W3N0ciwgbGlzdFtib29sXV0gPSB7fQogICAgICAgIHF1ZXJ5X2l0ZW1zOiBkaWN0W3N0ciwgZGljdF0gPSB7fQogICAgICAgIGZvciBmdXR1cmUgaW4gYXNfY29tcGxldGVkKGZ1dHVyZV90b19pbmZvKToKICAgICAgICAgICAgaXRlbSwgXyA9IGZ1dHVyZV90b19pbmZvW2Z1dHVyZV0KICAgICAgICAgICAgcXVlcnkgPSBpdGVtWyJxdWVyeSJdCiAgICAgICAgICAgIHF1ZXJ5X2l0ZW1zW3F1ZXJ5XSA9IGl0ZW0KICAgICAgICAgICAgaWYgcXVlcnkgbm90IGluIHF1ZXJ5X3RyaWdnZXJzOgogICAgICAgICAgICAgICAgcXVlcnlfdHJpZ2dlcnNbcXVlcnldID0gW10KICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcXVlcnlfdHJpZ2dlcnNbcXVlcnldLmFwcGVuZChmdXR1cmUucmVzdWx0KCkpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIHByaW50KGYiV2FybmluZzogcXVlcnkgZmFpbGVkOiB7ZX0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgICAgICAgICBxdWVyeV90cmlnZ2Vyc1txdWVyeV0uYXBwZW5kKEZhbHNlKQoKICAgIGZvciBxdWVyeSwgdHJpZ2dlcnMgaW4gcXVlcnlfdHJpZ2dlcnMuaXRlbXMoKToKICAgICAgICBpdGVtID0gcXVlcnlfaXRlbXNbcXVlcnldCiAgICAgICAgdHJpZ2dlcl9yYXRlID0gc3VtKHRyaWdnZXJzKSAvIGxlbih0cmlnZ2VycykKICAgICAgICBzaG91bGRfdHJpZ2dlciA9IGl0ZW1bInNob3VsZF90cmlnZ2VyIl0KICAgICAgICBpZiBzaG91bGRfdHJpZ2dlcjoKICAgICAgICAgICAgZGlkX3Bhc3MgPSB0cmlnZ2VyX3JhdGUgPj0gdHJpZ2dlcl90aHJlc2hvbGQKICAgICAgICBlbHNlOgogICAgICAgICAgICBkaWRfcGFzcyA9IHRyaWdnZXJfcmF0ZSA8IHRyaWdnZXJfdGhyZXNob2xkCiAgICAgICAgcmVzdWx0cy5hcHBlbmQoewogICAgICAgICAgICAicXVlcnkiOiBxdWVyeSwKICAgICAgICAgICAgInNob3VsZF90cmlnZ2VyIjogc2hvdWxkX3RyaWdnZXIsCiAgICAgICAgICAgICJ0cmlnZ2VyX3JhdGUiOiB0cmlnZ2VyX3JhdGUsCiAgICAgICAgICAgICJ0cmlnZ2VycyI6IHN1bSh0cmlnZ2VycyksCiAgICAgICAgICAgICJydW5zIjogbGVuKHRyaWdnZXJzKSwKICAgICAgICAgICAgInBhc3MiOiBkaWRfcGFzcywKICAgICAgICB9KQoKICAgIHBhc3NlZCA9IHN1bSgxIGZvciByIGluIHJlc3VsdHMgaWYgclsicGFzcyJdKQogICAgdG90YWwgPSBsZW4ocmVzdWx0cykKCiAgICByZXR1cm4gewogICAgICAgICJza2lsbF9uYW1lIjogc2tpbGxfbmFtZSwKICAgICAgICAiZGVzY3JpcHRpb24iOiBkZXNjcmlwdGlvbiwKICAgICAgICAicmVzdWx0cyI6IHJlc3VsdHMsCiAgICAgICAgInN1bW1hcnkiOiB7CiAgICAgICAgICAgICJ0b3RhbCI6IHRvdGFsLAogICAgICAgICAgICAicGFzc2VkIjogcGFzc2VkLAogICAgICAgICAgICAiZmFpbGVkIjogdG90YWwgLSBwYXNzZWQsCiAgICAgICAgfSwKICAgIH0KCgpkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249IlJ1biB0cmlnZ2VyIGV2YWx1YXRpb24gZm9yIGEgc2tpbGwgZGVzY3JpcHRpb24iKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1ldmFsLXNldCIsIHJlcXVpcmVkPVRydWUsIGhlbHA9IlBhdGggdG8gZXZhbCBzZXQgSlNPTiBmaWxlIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tc2tpbGwtcGF0aCIsIHJlcXVpcmVkPVRydWUsIGhlbHA9IlBhdGggdG8gc2tpbGwgZGlyZWN0b3J5IikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tZGVzY3JpcHRpb24iLCBkZWZhdWx0PU5vbmUsIGhlbHA9Ik92ZXJyaWRlIGRlc2NyaXB0aW9uIHRvIHRlc3QiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1udW0td29ya2VycyIsIHR5cGU9aW50LCBkZWZhdWx0PTEwLCBoZWxwPSJOdW1iZXIgb2YgcGFyYWxsZWwgd29ya2VycyIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXRpbWVvdXQiLCB0eXBlPWludCwgZGVmYXVsdD0zMCwgaGVscD0iVGltZW91dCBwZXIgcXVlcnkgaW4gc2Vjb25kcyIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXJ1bnMtcGVyLXF1ZXJ5IiwgdHlwZT1pbnQsIGRlZmF1bHQ9MywgaGVscD0iTnVtYmVyIG9mIHJ1bnMgcGVyIHF1ZXJ5IikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tdHJpZ2dlci10aHJlc2hvbGQiLCB0eXBlPWZsb2F0LCBkZWZhdWx0PTAuNSwgaGVscD0iVHJpZ2dlciByYXRlIHRocmVzaG9sZCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLW1vZGVsIiwgZGVmYXVsdD1Ob25lLCBoZWxwPSJNb2RlbCB0byB1c2UgZm9yIGNsYXVkZSAtcCAoZGVmYXVsdDogdXNlcidzIGNvbmZpZ3VyZWQgbW9kZWwpIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tdmVyYm9zZSIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsIGhlbHA9IlByaW50IHByb2dyZXNzIHRvIHN0ZGVyciIpCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQoKICAgIGV2YWxfc2V0ID0ganNvbi5sb2FkcyhQYXRoKGFyZ3MuZXZhbF9zZXQpLnJlYWRfdGV4dCgpKQogICAgc2tpbGxfcGF0aCA9IFBhdGgoYXJncy5za2lsbF9wYXRoKQoKICAgIGlmIG5vdCAoc2tpbGxfcGF0aCAvICJTS0lMTC5tZCIpLmV4aXN0cygpOgogICAgICAgIHByaW50KGYiRXJyb3I6IE5vIFNLSUxMLm1kIGZvdW5kIGF0IHtza2lsbF9wYXRofSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICBzeXMuZXhpdCgxKQoKICAgIG5hbWUsIG9yaWdpbmFsX2Rlc2NyaXB0aW9uLCBjb250ZW50ID0gcGFyc2Vfc2tpbGxfbWQoc2tpbGxfcGF0aCkKICAgIGRlc2NyaXB0aW9uID0gYXJncy5kZXNjcmlwdGlvbiBvciBvcmlnaW5hbF9kZXNjcmlwdGlvbgogICAgcHJvamVjdF9yb290ID0gZmluZF9wcm9qZWN0X3Jvb3QoKQoKICAgIGlmIGFyZ3MudmVyYm9zZToKICAgICAgICBwcmludChmIkV2YWx1YXRpbmc6IHtkZXNjcmlwdGlvbn0iLCBmaWxlPXN5cy5zdGRlcnIpCgogICAgb3V0cHV0ID0gcnVuX2V2YWwoCiAgICAgICAgZXZhbF9zZXQ9ZXZhbF9zZXQsCiAgICAgICAgc2tpbGxfbmFtZT1uYW1lLAogICAgICAgIGRlc2NyaXB0aW9uPWRlc2NyaXB0aW9uLAogICAgICAgIG51bV93b3JrZXJzPWFyZ3MubnVtX3dvcmtlcnMsCiAgICAgICAgdGltZW91dD1hcmdzLnRpbWVvdXQsCiAgICAgICAgcHJvamVjdF9yb290PXByb2plY3Rfcm9vdCwKICAgICAgICBydW5zX3Blcl9xdWVyeT1hcmdzLnJ1bnNfcGVyX3F1ZXJ5LAogICAgICAgIHRyaWdnZXJfdGhyZXNob2xkPWFyZ3MudHJpZ2dlcl90aHJlc2hvbGQsCiAgICAgICAgbW9kZWw9YXJncy5tb2RlbCwKICAgICkKCiAgICBpZiBhcmdzLnZlcmJvc2U6CiAgICAgICAgc3VtbWFyeSA9IG91dHB1dFsic3VtbWFyeSJdCiAgICAgICAgcHJpbnQoZiJSZXN1bHRzOiB7c3VtbWFyeVsncGFzc2VkJ119L3tzdW1tYXJ5Wyd0b3RhbCddfSBwYXNzZWQiLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgZm9yIHIgaW4gb3V0cHV0WyJyZXN1bHRzIl06CiAgICAgICAgICAgIHN0YXR1cyA9ICJQQVNTIiBpZiByWyJwYXNzIl0gZWxzZSAiRkFJTCIKICAgICAgICAgICAgcmF0ZV9zdHIgPSBmIntyWyd0cmlnZ2VycyddfS97clsncnVucyddfSIKICAgICAgICAgICAgcHJpbnQoZiIgIFt7c3RhdHVzfV0gcmF0ZT17cmF0ZV9zdHJ9IGV4cGVjdGVkPXtyWydzaG91bGRfdHJpZ2dlciddfToge3JbJ3F1ZXJ5J11bOjcwXX0iLCBmaWxlPXN5cy5zdGRlcnIpCgogICAgcHJpbnQoanNvbi5kdW1wcyhvdXRwdXQsIGluZGVudD0yKSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""Run trigger evaluation for a skill description.
+
+Tests whether a skill's description causes Claude to trigger (read the skill)
+for a set of queries. Outputs results as JSON.
+"""
+
+import argparse
+import json
+import os
+import select
+import subprocess
+import sys
+import time
+import uuid
+from concurrent.futures import ProcessPoolExecutor, as_completed
+from pathlib import Path
+
+from scripts.utils import parse_skill_md
+
+
+def find_project_root() -> Path:
+    """Find the project root by walking up from cwd looking for .claude/.
+
+    Mimics how Claude Code discovers its project root, so the command file
+    we create ends up where claude -p will look for it.
+    """
+    current = Path.cwd()
+    for parent in [current, *current.parents]:
+        if (parent / ".claude").is_dir():
+            return parent
+    return current
+
+
+def run_single_query(
+    query: str,
+    skill_name: str,
+    skill_description: str,
+    timeout: int,
+    project_root: str,
+    model: str | None = None,
+) -> bool:
+    """Run a single query and return whether the skill was triggered.
+
+    Creates a command file in .claude/commands/ so it appears in Claude's
+    available_skills list, then runs `claude -p` with the raw query.
+    Uses --include-partial-messages to detect triggering early from
+    stream events (content_block_start) rather than waiting for the
+    full assistant message, which only arrives after tool execution.
+    """
+    unique_id = uuid.uuid4().hex[:8]
+    clean_name = f"{skill_name}-skill-{unique_id}"
+    project_commands_dir = Path(project_root) / ".claude" / "commands"
+    command_file = project_commands_dir / f"{clean_name}.md"
+
+    try:
+        project_commands_dir.mkdir(parents=True, exist_ok=True)
+        # Use YAML block scalar to avoid breaking on quotes in description
+        indented_desc = "\n  ".join(skill_description.split("\n"))
+        command_content = (
+            f"---\n"
+            f"description: |\n"
+            f"  {indented_desc}\n"
+            f"---\n\n"
+            f"# {skill_name}\n\n"
+            f"This skill handles: {skill_description}\n"
+        )
+        command_file.write_text(command_content)
+
+        cmd = [
+            "claude",
+            "-p", query,
+            "--output-format", "stream-json",
+            "--verbose",
+            "--include-partial-messages",
+        ]
+        if model:
+            cmd.extend(["--model", model])
+
+        # Remove CLAUDECODE env var to allow nesting claude -p inside a
+        # Claude Code session. The guard is for interactive terminal conflicts;
+        # programmatic subprocess usage is safe.
+        env = {k: v for k, v in os.environ.items() if k != "CLAUDECODE"}
+
+        process = subprocess.Popen(
+            cmd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.DEVNULL,
+            cwd=project_root,
+            env=env,
+        )
+
+        triggered = False
+        start_time = time.time()
+        buffer = ""
+        # Track state for stream event detection
+        pending_tool_name = None
+        accumulated_json = ""
+
+        try:
+            while time.time() - start_time < timeout:
+                if process.poll() is not None:
+                    remaining = process.stdout.read()
+                    if remaining:
+                        buffer += remaining.decode("utf-8", errors="replace")
+                    break
+
+                ready, _, _ = select.select([process.stdout], [], [], 1.0)
+                if not ready:
+                    continue
+
+                chunk = os.read(process.stdout.fileno(), 8192)
+                if not chunk:
+                    break
+                buffer += chunk.decode("utf-8", errors="replace")
+
+                while "\n" in buffer:
+                    line, buffer = buffer.split("\n", 1)
+                    line = line.strip()
+                    if not line:
+                        continue
+
+                    try:
+                        event = json.loads(line)
+                    except json.JSONDecodeError:
+                        continue
+
+                    # Early detection via stream events
+                    if event.get("type") == "stream_event":
+                        se = event.get("event", {})
+                        se_type = se.get("type", "")
+
+                        if se_type == "content_block_start":
+                            cb = se.get("content_block", {})
+                            if cb.get("type") == "tool_use":
+                                tool_name = cb.get("name", "")
+                                if tool_name in ("Skill", "Read"):
+                                    pending_tool_name = tool_name
+                                    accumulated_json = ""
+                                else:
+                                    return False
+
+                        elif se_type == "content_block_delta" and pending_tool_name:
+                            delta = se.get("delta", {})
+                            if delta.get("type") == "input_json_delta":
+                                accumulated_json += delta.get("partial_json", "")
+                                if clean_name in accumulated_json:
+                                    return True
+
+                        elif se_type in ("content_block_stop", "message_stop"):
+                            if pending_tool_name:
+                                return clean_name in accumulated_json
+                            if se_type == "message_stop":
+                                return False
+
+                    # Fallback: full assistant message
+                    elif event.get("type") == "assistant":
+                        message = event.get("message", {})
+                        for content_item in message.get("content", []):
+                            if content_item.get("type") != "tool_use":
+                                continue
+                            tool_name = content_item.get("name", "")
+                            tool_input = content_item.get("input", {})
+                            if tool_name == "Skill" and clean_name in tool_input.get("skill", ""):
+                                triggered = True
+                            elif tool_name == "Read" and clean_name in tool_input.get("file_path", ""):
+                                triggered = True
+                            return triggered
+
+                    elif event.get("type") == "result":
+                        return triggered
+        finally:
+            # Clean up process on any exit path (return, exception, timeout)
+            if process.poll() is None:
+                process.kill()
+                process.wait()
+
+        return triggered
+    finally:
+        if command_file.exists():
+            command_file.unlink()
+
+
+def run_eval(
+    eval_set: list[dict],
+    skill_name: str,
+    description: str,
+    num_workers: int,
+    timeout: int,
+    project_root: Path,
+    runs_per_query: int = 1,
+    trigger_threshold: float = 0.5,
+    model: str | None = None,
+) -> dict:
+    """Run the full eval set and return results."""
+    results = []
+
+    with ProcessPoolExecutor(max_workers=num_workers) as executor:
+        future_to_info = {}
+        for item in eval_set:
+            for run_idx in range(runs_per_query):
+                future = executor.submit(
+                    run_single_query,
+                    item["query"],
+                    skill_name,
+                    description,
+                    timeout,
+                    str(project_root),
+                    model,
+                )
+                future_to_info[future] = (item, run_idx)
+
+        query_triggers: dict[str, list[bool]] = {}
+        query_items: dict[str, dict] = {}
+        for future in as_completed(future_to_info):
+            item, _ = future_to_info[future]
+            query = item["query"]
+            query_items[query] = item
+            if query not in query_triggers:
+                query_triggers[query] = []
+            try:
+                query_triggers[query].append(future.result())
+            except Exception as e:
+                print(f"Warning: query failed: {e}", file=sys.stderr)
+                query_triggers[query].append(False)
+
+    for query, triggers in query_triggers.items():
+        item = query_items[query]
+        trigger_rate = sum(triggers) / len(triggers)
+        should_trigger = item["should_trigger"]
+        if should_trigger:
+            did_pass = trigger_rate >= trigger_threshold
+        else:
+            did_pass = trigger_rate < trigger_threshold
+        results.append({
+            "query": query,
+            "should_trigger": should_trigger,
+            "trigger_rate": trigger_rate,
+            "triggers": sum(triggers),
+            "runs": len(triggers),
+            "pass": did_pass,
+        })
+
+    passed = sum(1 for r in results if r["pass"])
+    total = len(results)
+
+    return {
+        "skill_name": skill_name,
+        "description": description,
+        "results": results,
+        "summary": {
+            "total": total,
+            "passed": passed,
+            "failed": total - passed,
+        },
+    }
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Run trigger evaluation for a skill description")
+    parser.add_argument("--eval-set", required=True, help="Path to eval set JSON file")
+    parser.add_argument("--skill-path", required=True, help="Path to skill directory")
+    parser.add_argument("--description", default=None, help="Override description to test")
+    parser.add_argument("--num-workers", type=int, default=10, help="Number of parallel workers")
+    parser.add_argument("--timeout", type=int, default=30, help="Timeout per query in seconds")
+    parser.add_argument("--runs-per-query", type=int, default=3, help="Number of runs per query")
+    parser.add_argument("--trigger-threshold", type=float, default=0.5, help="Trigger rate threshold")
+    parser.add_argument("--model", default=None, help="Model to use for claude -p (default: user's configured model)")
+    parser.add_argument("--verbose", action="store_true", help="Print progress to stderr")
+    args = parser.parse_args()
+
+    eval_set = json.loads(Path(args.eval_set).read_text())
+    skill_path = Path(args.skill_path)
+
+    if not (skill_path / "SKILL.md").exists():
+        print(f"Error: No SKILL.md found at {skill_path}", file=sys.stderr)
+        sys.exit(1)
+
+    name, original_description, content = parse_skill_md(skill_path)
+    description = args.description or original_description
+    project_root = find_project_root()
+
+    if args.verbose:
+        print(f"Evaluating: {description}", file=sys.stderr)
+
+    output = run_eval(
+        eval_set=eval_set,
+        skill_name=name,
+        description=description,
+        num_workers=args.num_workers,
+        timeout=args.timeout,
+        project_root=project_root,
+        runs_per_query=args.runs_per_query,
+        trigger_threshold=args.trigger_threshold,
+        model=args.model,
+    )
+
+    if args.verbose:
+        summary = output["summary"]
+        print(f"Results: {summary['passed']}/{summary['total']} passed", file=sys.stderr)
+        for r in output["results"]:
+            status = "PASS" if r["pass"] else "FAIL"
+            rate_str = f"{r['triggers']}/{r['runs']}"
+            print(f"  [{status}] rate={rate_str} expected={r['should_trigger']}: {r['query'][:70]}", file=sys.stderr)
+
+    print(json.dumps(output, indent=2))
+
+
+if __name__ == "__main__":
+    main()

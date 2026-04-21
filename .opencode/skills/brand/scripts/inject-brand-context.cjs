@@ -1,1 +1,349 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogaW5qZWN0LWJyYW5kLWNvbnRleHQuY2pzCiAqCiAqIEV4dHJhY3RzIGJyYW5kIGNvbnRleHQgZnJvbSBtYXJrZG93biBicmFuZCBndWlkZWxpbmVzCiAqIGFuZCBvdXRwdXRzIGEgZm9ybWF0dGVkIHN5c3RlbSBwcm9tcHQgYWRkaXRpb24uCiAqCiAqIFVzYWdlOgogKiAgIG5vZGUgaW5qZWN0LWJyYW5kLWNvbnRleHQuY2pzIFtwYXRoLXRvLWd1aWRlbGluZXNdCiAqICAgbm9kZSBpbmplY3QtYnJhbmQtY29udGV4dC5janMgLS1qc29uIFtwYXRoLXRvLWd1aWRlbGluZXNdCiAqCiAqIERlZmF1bHQgcGF0aDogZG9jcy9icmFuZC1ndWlkZWxpbmVzLm1kCiAqLwoKY29uc3QgZnMgPSByZXF1aXJlKCJmcyIpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgicGF0aCIpOwoKLy8gRGVmYXVsdCBicmFuZCBndWlkZWxpbmVzIHBhdGgKY29uc3QgREVGQVVMVF9HVUlERUxJTkVTX1BBVEggPSAiZG9jcy9icmFuZC1ndWlkZWxpbmVzLm1kIjsKCi8qKgogKiBFeHRyYWN0IGhleCBjb2xvcnMgZnJvbSB0ZXh0CiAqLwpmdW5jdGlvbiBleHRyYWN0SGV4Q29sb3JzKHRleHQpIHsKICBjb25zdCBoZXhQYXR0ZXJuID0gLyNbMC05QS1GYS1mXXs2fVxiL2c7CiAgcmV0dXJuIFsuLi5uZXcgU2V0KHRleHQubWF0Y2goaGV4UGF0dGVybikgfHwgW10pXTsKfQoKLyoqCiAqIEV4dHJhY3QgY29sb3IgZGF0YSBmcm9tIG1hcmtkb3duIHRhYmxlCiAqLwpmdW5jdGlvbiBleHRyYWN0Q29sb3JzRnJvbVRhYmxlKGNvbnRlbnQpIHsKICBjb25zdCBjb2xvcnMgPSB7CiAgICBwcmltYXJ5OiBbXSwKICAgIHNlY29uZGFyeTogW10sCiAgICBuZXV0cmFsOiBbXSwKICAgIHNlbWFudGljOiBbXSwKICB9OwoKICAvLyBGaW5kIGNvbG9yIHRhYmxlcwogIGNvbnN0IHByaW1hcnlNYXRjaCA9IGNvbnRlbnQubWF0Y2goCiAgICAvIyMjIFByaW1hcnkgQ29sb3JzW1xzXFNdKj9cfFtcc1xTXSo/KD89IyMjfCQpL2kKICApOwogIGNvbnN0IHNlY29uZGFyeU1hdGNoID0gY29udGVudC5tYXRjaCgKICAgIC8jIyMgU2Vjb25kYXJ5IENvbG9yc1tcc1xTXSo/XHxbXHNcU10qPyg/PSMjI3wkKS9pCiAgKTsKICBjb25zdCBuZXV0cmFsTWF0Y2ggPSBjb250ZW50Lm1hdGNoKAogICAgLyMjIyBOZXV0cmFsW1xzXFNdKj9cfFtcc1xTXSo/KD89IyMjfCQpL2kKICApOwogIGNvbnN0IHNlbWFudGljTWF0Y2ggPSBjb250ZW50Lm1hdGNoKAogICAgLyMjIyBTZW1hbnRpY1tcc1xTXSo/XHxbXHNcU10qPyg/PSMjI3wkKS9pCiAgKTsKCiAgaWYgKHByaW1hcnlNYXRjaCkgY29sb3JzLnByaW1hcnkgPSBleHRyYWN0SGV4Q29sb3JzKHByaW1hcnlNYXRjaFswXSk7CiAgaWYgKHNlY29uZGFyeU1hdGNoKSBjb2xvcnMuc2Vjb25kYXJ5ID0gZXh0cmFjdEhleENvbG9ycyhzZWNvbmRhcnlNYXRjaFswXSk7CiAgaWYgKG5ldXRyYWxNYXRjaCkgY29sb3JzLm5ldXRyYWwgPSBleHRyYWN0SGV4Q29sb3JzKG5ldXRyYWxNYXRjaFswXSk7CiAgaWYgKHNlbWFudGljTWF0Y2gpIGNvbG9ycy5zZW1hbnRpYyA9IGV4dHJhY3RIZXhDb2xvcnMoc2VtYW50aWNNYXRjaFswXSk7CgogIHJldHVybiBjb2xvcnM7Cn0KCi8qKgogKiBFeHRyYWN0IHR5cG9ncmFwaHkgaW5mbwogKi8KZnVuY3Rpb24gZXh0cmFjdFR5cG9ncmFwaHkoY29udGVudCkgewogIGNvbnN0IHR5cG9ncmFwaHkgPSB7CiAgICBoZWFkaW5nOiBudWxsLAogICAgYm9keTogbnVsbCwKICAgIG1vbm86IG51bGwsCiAgfTsKCiAgLy8gTG9vayBmb3IgZm9udCBkZWZpbml0aW9ucwogIGNvbnN0IGhlYWRpbmdNYXRjaCA9IGNvbnRlbnQubWF0Y2goLy0tZm9udC1oZWFkaW5nOlxzKlsnIl0oW14nIl0rKVsnIl0vKTsKICBjb25zdCBib2R5TWF0Y2ggPSBjb250ZW50Lm1hdGNoKC8tLWZvbnQtYm9keTpccypbJyJdKFteJyJdKylbJyJdLyk7CiAgY29uc3QgbW9ub01hdGNoID0gY29udGVudC5tYXRjaCgvLS1mb250LW1vbm86XHMqWyciXShbXiciXSspWyciXS8pOwoKICAvLyBGYWxsYmFjazogbG9vayBpbiB0YWJsZXMKICBjb25zdCBmb250U3RhY2tNYXRjaCA9IGNvbnRlbnQubWF0Y2goLyMjIyBGb250IFN0YWNrW1xzXFNdKj8oPz0jIyN8IyN8JCkvaSk7CiAgaWYgKGZvbnRTdGFja01hdGNoKSB7CiAgICBjb25zdCBzdGFja1RleHQgPSBmb250U3RhY2tNYXRjaFswXTsKICAgIGNvbnN0IGhlYWRpbmdBbHQgPSBzdGFja1RleHQubWF0Y2goL2hlYWRpbmdbXiddKlsnIl0oW14nIl0rKVsnIl0vaSk7CiAgICBjb25zdCBib2R5QWx0ID0gc3RhY2tUZXh0Lm1hdGNoKC9ib2R5W14nXSpbJyJdKFteJyJdKylbJyJdL2kpOwoKICAgIGlmIChoZWFkaW5nQWx0KSB0eXBvZ3JhcGh5LmhlYWRpbmcgPSBoZWFkaW5nQWx0WzFdOwogICAgaWYgKGJvZHlBbHQpIHR5cG9ncmFwaHkuYm9keSA9IGJvZHlBbHRbMV07CiAgfQoKICBpZiAoaGVhZGluZ01hdGNoKSB0eXBvZ3JhcGh5LmhlYWRpbmcgPSBoZWFkaW5nTWF0Y2hbMV07CiAgaWYgKGJvZHlNYXRjaCkgdHlwb2dyYXBoeS5ib2R5ID0gYm9keU1hdGNoWzFdOwogIGlmIChtb25vTWF0Y2gpIHR5cG9ncmFwaHkubW9ubyA9IG1vbm9NYXRjaFsxXTsKCiAgcmV0dXJuIHR5cG9ncmFwaHk7Cn0KCi8qKgogKiBFeHRyYWN0IHZvaWNlL3RvbmUgaW5mb3JtYXRpb24KICovCmZ1bmN0aW9uIGV4dHJhY3RWb2ljZShjb250ZW50KSB7CiAgY29uc3Qgdm9pY2UgPSB7CiAgICB0cmFpdHM6IFtdLAogICAgcHJvaGliaXRlZDogW10sCiAgICBwZXJzb25hbGl0eTogIiIsCiAgfTsKCiAgLy8gRXh0cmFjdCBwZXJzb25hbGl0eSB0cmFpdHMgZnJvbSB0YWJsZQogIGNvbnN0IHBlcnNvbmFsaXR5TWF0Y2ggPSBjb250ZW50Lm1hdGNoKAogICAgLyMjIyBCcmFuZCBQZXJzb25hbGl0eVtcc1xTXSo/XHxbXHNcU10qPyg/PSMjI3wjI3wkKS9pCiAgKTsKICBpZiAocGVyc29uYWxpdHlNYXRjaCkgewogICAgY29uc3QgdHJhaXRzID0gcGVyc29uYWxpdHlNYXRjaFswXS5tYXRjaCgKICAgICAgL1wqXCooW14qXSspXCpcKlxzKlx8XHMqKFtefF0rKS9nCiAgICApOwogICAgaWYgKHRyYWl0cykgewogICAgICB2b2ljZS50cmFpdHMgPSB0cmFpdHMubWFwKCh0KSA9PiB7CiAgICAgICAgY29uc3QgbWF0Y2ggPSB0Lm1hdGNoKC9cKlwqKFteKl0rKVwqXCovKTsKICAgICAgICByZXR1cm4gbWF0Y2ggPyBtYXRjaFsxXS50cmltKCkgOiAiIjsKICAgICAgfSkuZmlsdGVyKEJvb2xlYW4pOwogICAgfQogIH0KCiAgLy8gRXh0cmFjdCBwcm9oaWJpdGVkIHRlcm1zCiAgY29uc3QgcHJvaGliaXRlZE1hdGNoID0gY29udGVudC5tYXRjaCgKICAgIC8jIyMgUHJvaGliaXRlZFtcc1xTXSo/KD89IyMjfCMjfCQpL2kKICApOwogIGlmIChwcm9oaWJpdGVkTWF0Y2gpIHsKICAgIGNvbnN0IHRlcm1zID0gcHJvaGliaXRlZE1hdGNoWzBdLm1hdGNoKC9cfFxzKihbXnxdKylccypcfC9nKTsKICAgIGlmICh0ZXJtcykgewogICAgICB2b2ljZS5wcm9oaWJpdGVkID0gdGVybXMKICAgICAgICAubWFwKCh0KSA9PiB0LnJlcGxhY2UoL1x8L2csICIiKS50cmltKCkpCiAgICAgICAgLmZpbHRlcigodCkgPT4gdCAmJiAhdC5pbmNsdWRlcygiQXZvaWQiKSAmJiAhdC5pbmNsdWRlcygiLS0tIikpOwogICAgfQogIH0KCiAgLy8gRmFsbGJhY2s6IGxvb2sgZm9yIEZvcmJpZGRlbiBQaHJhc2VzCiAgY29uc3QgZm9yYmlkZGVuTWF0Y2ggPSBjb250ZW50Lm1hdGNoKAogICAgLyMjIyBGb3JiaWRkZW4gUGhyYXNlc1tcc1xTXSo/KD89IyMjfCMjfCQpL2kKICApOwogIGlmIChmb3JiaWRkZW5NYXRjaCAmJiB2b2ljZS5wcm9oaWJpdGVkLmxlbmd0aCA9PT0gMCkgewogICAgY29uc3QgaXRlbXMgPSBmb3JiaWRkZW5NYXRjaFswXS5tYXRjaCgvLVxzKlsiJ10/KFteIidcbihdKykvZyk7CiAgICBpZiAoaXRlbXMpIHsKICAgICAgdm9pY2UucHJvaGliaXRlZCA9IGl0ZW1zCiAgICAgICAgLm1hcCgoaXRlbSkgPT4gaXRlbS5yZXBsYWNlKC9eLVxzKlsiJ10/LywgIiIpLnRyaW0oKSkKICAgICAgICAuZmlsdGVyKEJvb2xlYW4pOwogICAgfQogIH0KCiAgdm9pY2UucGVyc29uYWxpdHkgPSB2b2ljZS50cmFpdHMuam9pbigiLCAiKTsKCiAgcmV0dXJuIHZvaWNlOwp9CgovKioKICogRXh0cmFjdCBjb3JlIGF0dHJpYnV0ZXMKICovCmZ1bmN0aW9uIGV4dHJhY3RDb3JlQXR0cmlidXRlcyhjb250ZW50KSB7CiAgY29uc3QgYXR0cmlidXRlcyA9IFtdOwoKICBjb25zdCBhdHRyaWJ1dGVzTWF0Y2ggPSBjb250ZW50Lm1hdGNoKAogICAgLyMjIyBDb3JlIEF0dHJpYnV0ZXNbXHNcU10qP1x8W1xzXFNdKj8oPz0jIyN8IyN8JCkvaQogICk7CiAgaWYgKGF0dHJpYnV0ZXNNYXRjaCkgewogICAgY29uc3Qgcm93cyA9IGF0dHJpYnV0ZXNNYXRjaFswXS5tYXRjaCgKICAgICAgL1x8XHMqXCpcKihbXipdKylcKlwqXHMqXHxccyooW158XSspXHwvZwogICAgKTsKICAgIGlmIChyb3dzKSB7CiAgICAgIHJvd3MuZm9yRWFjaCgocm93KSA9PiB7CiAgICAgICAgY29uc3QgbWF0Y2ggPSByb3cubWF0Y2goL1wqXCooW14qXSspXCpcKlxzKlx8XHMqKFtefF0rKS8pOwogICAgICAgIGlmIChtYXRjaCkgewogICAgICAgICAgYXR0cmlidXRlcy5wdXNoKHsKICAgICAgICAgICAgbmFtZTogbWF0Y2hbMV0udHJpbSgpLAogICAgICAgICAgICBkZXNjcmlwdGlvbjogbWF0Y2hbMl0udHJpbSgpLAogICAgICAgICAgfSk7CiAgICAgICAgfQogICAgICB9KTsKICAgIH0KICB9CgogIHJldHVybiBhdHRyaWJ1dGVzOwp9CgovKioKICogRXh0cmFjdCBBSSBpbWFnZSBnZW5lcmF0aW9uIGNvbnRleHQKICovCmZ1bmN0aW9uIGV4dHJhY3RJbWFnZVN0eWxlKGNvbnRlbnQpIHsKICBjb25zdCBpbWFnZVN0eWxlID0gewogICAgYmFzZVByb21wdDogIiIsCiAgICBrZXl3b3JkczogW10sCiAgICBtb29kOiBbXSwKICAgIGRvbnRzOiBbXSwKICAgIGV4YW1wbGVQcm9tcHRzOiBbXSwKICB9OwoKICAvLyBFeHRyYWN0IGJhc2UgcHJvbXB0IHRlbXBsYXRlIChjb250ZW50IGJldHdlZW4gYGBgIGJsb2NrcyBhZnRlciAiQmFzZSBQcm9tcHQgVGVtcGxhdGUiKQogIGNvbnN0IGJhc2VQcm9tcHRNYXRjaCA9IGNvbnRlbnQubWF0Y2goCiAgICAvIyMjIEJhc2UgUHJvbXB0IFRlbXBsYXRlW1xzXFNdKj9gYGBcbj8oW1xzXFNdKj8pYGBgL2kKICApOwogIGlmIChiYXNlUHJvbXB0TWF0Y2gpIHsKICAgIGltYWdlU3R5bGUuYmFzZVByb21wdCA9IGJhc2VQcm9tcHRNYXRjaFsxXS50cmltKCkucmVwbGFjZSgvXG4vZywgIiAiKTsKICB9CgogIC8vIEV4dHJhY3Qgc3R5bGUga2V5d29yZHMgZnJvbSB0YWJsZQogIGNvbnN0IGtleXdvcmRzTWF0Y2ggPSBjb250ZW50Lm1hdGNoKAogICAgLyMjIyBTdHlsZSBLZXl3b3Jkc1tcc1xTXSo/XHxbXHNcU10qPyg/PSMjI3wjI3wkKS9pCiAgKTsKICBpZiAoa2V5d29yZHNNYXRjaCkgewogICAgY29uc3Qga2V5d29yZFJvd3MgPSBrZXl3b3Jkc01hdGNoWzBdLm1hdGNoKC9cfFxzKlwqXCpbXipdK1wqXCpccypcfFxzKihbXnxdKylcfC9nKTsKICAgIGlmIChrZXl3b3JkUm93cykgewogICAgICBrZXl3b3JkUm93cy5mb3JFYWNoKChyb3cpID0+IHsKICAgICAgICBjb25zdCBtYXRjaCA9IHJvdy5tYXRjaCgvXHxccypcKlwqW14qXStcKlwqXHMqXHxccyooW158XSspXHwvKTsKICAgICAgICBpZiAobWF0Y2gpIHsKICAgICAgICAgIGNvbnN0IGtleXdvcmRzID0gbWF0Y2hbMV0uc3BsaXQoIiwiKS5tYXAoKGspID0+IGsudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7CiAgICAgICAgICBpbWFnZVN0eWxlLmtleXdvcmRzLnB1c2goLi4ua2V5d29yZHMpOwogICAgICAgIH0KICAgICAgfSk7CiAgICB9CiAgfQoKICAvLyBFeHRyYWN0IHZpc3VhbCBtb29kIGRlc2NyaXB0b3JzIChidWxsZXQgcG9pbnRzKQogIGNvbnN0IG1vb2RNYXRjaCA9IGNvbnRlbnQubWF0Y2goCiAgICAvIyMjIFZpc3VhbCBNb29kIERlc2NyaXB0b3JzW1xzXFNdKj8oPz0jIyN8IyN8JCkvaQogICk7CiAgaWYgKG1vb2RNYXRjaCkgewogICAgY29uc3QgbW9vZEl0ZW1zID0gbW9vZE1hdGNoWzBdLm1hdGNoKC8tXHMqKFteXG5dKykvZyk7CiAgICBpZiAobW9vZEl0ZW1zKSB7CiAgICAgIGltYWdlU3R5bGUubW9vZCA9IG1vb2RJdGVtcy5tYXAoKGl0ZW0pID0+IGl0ZW0ucmVwbGFjZSgvXi1ccyovLCAiIikudHJpbSgpKTsKICAgIH0KICB9CgogIC8vIEV4dHJhY3QgdmlzdWFsIGRvbid0cyBmcm9tIHRhYmxlCiAgY29uc3QgZG9udHNNYXRjaCA9IGNvbnRlbnQubWF0Y2goCiAgICAvIyMjIFZpc3VhbCBEb24ndHNbXHNcU10qP1x8W1xzXFNdKj8oPz0jIyN8IyN8JCkvaQogICk7CiAgaWYgKGRvbnRzTWF0Y2gpIHsKICAgIGNvbnN0IGRvbnRSb3dzID0gZG9udHNNYXRjaFswXS5tYXRjaCgvXHxccyooW158XSspXHMqXHxccyooW158XSspXHMqXHwvZyk7CiAgICBpZiAoZG9udFJvd3MpIHsKICAgICAgZG9udFJvd3MuZm9yRWFjaCgocm93KSA9PiB7CiAgICAgICAgY29uc3QgbWF0Y2ggPSByb3cubWF0Y2goL1x8XHMqKFtefF0rKVxzKlx8XHMqKFtefF0rKVxzKlx8Lyk7CiAgICAgICAgaWYgKG1hdGNoICYmICFtYXRjaFsxXS5pbmNsdWRlcygiQXZvaWQiKSAmJiAhbWF0Y2hbMV0uaW5jbHVkZXMoIi0tLSIpKSB7CiAgICAgICAgICBpbWFnZVN0eWxlLmRvbnRzLnB1c2gobWF0Y2hbMV0udHJpbSgpKTsKICAgICAgICB9CiAgICAgIH0pOwogICAgfQogIH0KCiAgLy8gRXh0cmFjdCBleGFtcGxlIHByb21wdHMgKGNvbnRlbnQgYmV0d2VlbiBgYGAgYmxvY2tzIGFmdGVyIHNwZWNpZmljIGhlYWRlcnMpCiAgY29uc3QgZXhhbXBsZU1hdGNoID0gY29udGVudC5tYXRjaCgvIyMjIEV4YW1wbGUgUHJvbXB0c1tcc1xTXSo/KD89IyN8JCkvaSk7CiAgaWYgKGV4YW1wbGVNYXRjaCkgewogICAgY29uc3QgcHJvbXB0cyA9IGV4YW1wbGVNYXRjaFswXS5tYXRjaCgvXCpcKihbXipdKylcKlwqOlxzKmBgYFxuPyhbXHNcU10qPylgYGAvZyk7CiAgICBpZiAocHJvbXB0cykgewogICAgICBwcm9tcHRzLmZvckVhY2goKHApID0+IHsKICAgICAgICBjb25zdCBtYXRjaCA9IHAubWF0Y2goL1wqXCooW14qXSspXCpcKjpccypgYGBcbj8oW1xzXFNdKj8pYGBgLyk7CiAgICAgICAgaWYgKG1hdGNoKSB7CiAgICAgICAgICBpbWFnZVN0eWxlLmV4YW1wbGVQcm9tcHRzLnB1c2goewogICAgICAgICAgICB0eXBlOiBtYXRjaFsxXS50cmltKCksCiAgICAgICAgICAgIHByb21wdDogbWF0Y2hbMl0udHJpbSgpLnJlcGxhY2UoL1xuL2csICIgIiksCiAgICAgICAgICB9KTsKICAgICAgICB9CiAgICAgIH0pOwogICAgfQogIH0KCiAgcmV0dXJuIGltYWdlU3R5bGU7Cn0KCi8qKgogKiBHZW5lcmF0ZSBzeXN0ZW0gcHJvbXB0IGFkZGl0aW9uCiAqLwpmdW5jdGlvbiBnZW5lcmF0ZVByb21wdEFkZGl0aW9uKGJyYW5kQ29udGV4dCkgewogIGNvbnN0IHsgY29sb3JzLCB0eXBvZ3JhcGh5LCB2b2ljZSwgYXR0cmlidXRlcywgaW1hZ2VTdHlsZSB9ID0gYnJhbmRDb250ZXh0OwoKICBsZXQgcHJvbXB0ID0gYApCUkFORCBDT05URVhUOgo9PT09PT09PT09PT09PQoKVklTVUFMIElERU5USVRZOgotIFByaW1hcnkgQ29sb3JzOiAke2NvbG9ycy5wcmltYXJ5LmpvaW4oIiwgIikgfHwgIk5vdCBzcGVjaWZpZWQifQotIFNlY29uZGFyeSBDb2xvcnM6ICR7Y29sb3JzLnNlY29uZGFyeS5qb2luKCIsICIpIHx8ICJOb3Qgc3BlY2lmaWVkIn0KLSBUeXBvZ3JhcGh5OiAke3R5cG9ncmFwaHkuaGVhZGluZyB8fCB0eXBvZ3JhcGh5LmJvZHkgfHwgIlN5c3RlbSBmb250cyJ9CgpCUkFORCBWT0lDRToKLSBQZXJzb25hbGl0eTogJHt2b2ljZS5wZXJzb25hbGl0eSB8fCAiUHJvZmVzc2lvbmFsIn0KLSBDb3JlIEF0dHJpYnV0ZXM6ICR7YXR0cmlidXRlcy5tYXAoKGEpID0+IGEubmFtZSkuam9pbigiLCAiKSB8fCAiTm90IHNwZWNpZmllZCJ9CgpDT05URU5UIFJVTEVTOgotIFByb2hpYml0ZWQgVGVybXM6ICR7dm9pY2UucHJvaGliaXRlZC5qb2luKCIsICIpIHx8ICJOb25lIHNwZWNpZmllZCJ9CmA7CgogIC8vIEFkZCBpbWFnZSBzdHlsZSBjb250ZXh0IGlmIGF2YWlsYWJsZQogIGlmIChpbWFnZVN0eWxlICYmIGltYWdlU3R5bGUuYmFzZVByb21wdCkgewogICAgcHJvbXB0ICs9IGAKSU1BR0UgR0VORVJBVElPTjoKLSBCYXNlIFByb21wdDogJHtpbWFnZVN0eWxlLmJhc2VQcm9tcHR9Ci0gU3R5bGUgS2V5d29yZHM6ICR7aW1hZ2VTdHlsZS5rZXl3b3Jkcy5zbGljZSgwLCAxMCkuam9pbigiLCAiKSB8fCAiTm90IHNwZWNpZmllZCJ9Ci0gVmlzdWFsIE1vb2Q6ICR7aW1hZ2VTdHlsZS5tb29kLnNsaWNlKDAsIDUpLmpvaW4oIjsgIikgfHwgIk5vdCBzcGVjaWZpZWQifQotIEF2b2lkOiAke2ltYWdlU3R5bGUuZG9udHMuam9pbigiLCAiKSB8fCAiTm9uZSBzcGVjaWZpZWQifQpgOwogIH0KCiAgcHJvbXB0ICs9IGAKQXBwbHkgdGhlc2UgYnJhbmQgZ3VpZGVsaW5lcyB0byBhbGwgZ2VuZXJhdGVkIGNvbnRlbnQuCk1haW50YWluIGNvbnNpc3RlbnQgdm9pY2UsIGNvbG9ycywgYW5kIG1lc3NhZ2luZy4KYDsKCiAgcmV0dXJuIHByb21wdC50cmltKCk7Cn0KCi8qKgogKiBNYWluIGZ1bmN0aW9uCiAqLwpmdW5jdGlvbiBtYWluKCkgewogIGNvbnN0IGFyZ3MgPSBwcm9jZXNzLmFyZ3Yuc2xpY2UoMik7CiAgY29uc3QganNvbk91dHB1dCA9IGFyZ3MuaW5jbHVkZXMoIi0tanNvbiIpOwogIGNvbnN0IGd1aWRlbGluZXNQYXRoID0gYXJncy5maW5kKChhKSA9PiAhYS5zdGFydHNXaXRoKCItLSIpKSB8fCBERUZBVUxUX0dVSURFTElORVNfUEFUSDsKCiAgLy8gUmVzb2x2ZSBwYXRoCiAgY29uc3QgcmVzb2x2ZWRQYXRoID0gcGF0aC5pc0Fic29sdXRlKGd1aWRlbGluZXNQYXRoKQogICAgPyBndWlkZWxpbmVzUGF0aAogICAgOiBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgZ3VpZGVsaW5lc1BhdGgpOwoKICAvLyBDaGVjayBpZiBmaWxlIGV4aXN0cwogIGlmICghZnMuZXhpc3RzU3luYyhyZXNvbHZlZFBhdGgpKSB7CiAgICBjb25zb2xlLmVycm9yKGBFcnJvcjogQnJhbmQgZ3VpZGVsaW5lcyBub3QgZm91bmQgYXQgJHtyZXNvbHZlZFBhdGh9YCk7CiAgICBjb25zb2xlLmVycm9yKGBDcmVhdGUgYnJhbmQgZ3VpZGVsaW5lcyBhdCAke0RFRkFVTFRfR1VJREVMSU5FU19QQVRIfSBvciBzcGVjaWZ5IGEgcGF0aC5gKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CgogIC8vIFJlYWQgZmlsZQogIGNvbnN0IGNvbnRlbnQgPSBmcy5yZWFkRmlsZVN5bmMocmVzb2x2ZWRQYXRoLCAidXRmLTgiKTsKCiAgLy8gRXh0cmFjdCBicmFuZCBjb250ZXh0CiAgY29uc3QgYnJhbmRDb250ZXh0ID0gewogICAgY29sb3JzOiBleHRyYWN0Q29sb3JzRnJvbVRhYmxlKGNvbnRlbnQpLAogICAgdHlwb2dyYXBoeTogZXh0cmFjdFR5cG9ncmFwaHkoY29udGVudCksCiAgICB2b2ljZTogZXh0cmFjdFZvaWNlKGNvbnRlbnQpLAogICAgYXR0cmlidXRlczogZXh0cmFjdENvcmVBdHRyaWJ1dGVzKGNvbnRlbnQpLAogICAgaW1hZ2VTdHlsZTogZXh0cmFjdEltYWdlU3R5bGUoY29udGVudCksCiAgICBzb3VyY2U6IHJlc29sdmVkUGF0aCwKICAgIGV4dHJhY3RlZEF0OiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCiAgfTsKCiAgLy8gT3V0cHV0CiAgaWYgKGpzb25PdXRwdXQpIHsKICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KGJyYW5kQ29udGV4dCwgbnVsbCwgMikpOwogIH0gZWxzZSB7CiAgICBjb25zb2xlLmxvZyhnZW5lcmF0ZVByb21wdEFkZGl0aW9uKGJyYW5kQ29udGV4dCkpOwogIH0KfQoKbWFpbigpOwo=
+#!/usr/bin/env node
+/**
+ * inject-brand-context.cjs
+ *
+ * Extracts brand context from markdown brand guidelines
+ * and outputs a formatted system prompt addition.
+ *
+ * Usage:
+ *   node inject-brand-context.cjs [path-to-guidelines]
+ *   node inject-brand-context.cjs --json [path-to-guidelines]
+ *
+ * Default path: docs/brand-guidelines.md
+ */
+
+const fs = require("fs");
+const path = require("path");
+
+// Default brand guidelines path
+const DEFAULT_GUIDELINES_PATH = "docs/brand-guidelines.md";
+
+/**
+ * Extract hex colors from text
+ */
+function extractHexColors(text) {
+  const hexPattern = /#[0-9A-Fa-f]{6}\b/g;
+  return [...new Set(text.match(hexPattern) || [])];
+}
+
+/**
+ * Extract color data from markdown table
+ */
+function extractColorsFromTable(content) {
+  const colors = {
+    primary: [],
+    secondary: [],
+    neutral: [],
+    semantic: [],
+  };
+
+  // Find color tables
+  const primaryMatch = content.match(
+    /### Primary Colors[\s\S]*?\|[\s\S]*?(?=###|$)/i
+  );
+  const secondaryMatch = content.match(
+    /### Secondary Colors[\s\S]*?\|[\s\S]*?(?=###|$)/i
+  );
+  const neutralMatch = content.match(
+    /### Neutral[\s\S]*?\|[\s\S]*?(?=###|$)/i
+  );
+  const semanticMatch = content.match(
+    /### Semantic[\s\S]*?\|[\s\S]*?(?=###|$)/i
+  );
+
+  if (primaryMatch) colors.primary = extractHexColors(primaryMatch[0]);
+  if (secondaryMatch) colors.secondary = extractHexColors(secondaryMatch[0]);
+  if (neutralMatch) colors.neutral = extractHexColors(neutralMatch[0]);
+  if (semanticMatch) colors.semantic = extractHexColors(semanticMatch[0]);
+
+  return colors;
+}
+
+/**
+ * Extract typography info
+ */
+function extractTypography(content) {
+  const typography = {
+    heading: null,
+    body: null,
+    mono: null,
+  };
+
+  // Look for font definitions
+  const headingMatch = content.match(/--font-heading:\s*['"]([^'"]+)['"]/);
+  const bodyMatch = content.match(/--font-body:\s*['"]([^'"]+)['"]/);
+  const monoMatch = content.match(/--font-mono:\s*['"]([^'"]+)['"]/);
+
+  // Fallback: look in tables
+  const fontStackMatch = content.match(/### Font Stack[\s\S]*?(?=###|##|$)/i);
+  if (fontStackMatch) {
+    const stackText = fontStackMatch[0];
+    const headingAlt = stackText.match(/heading[^']*['"]([^'"]+)['"]/i);
+    const bodyAlt = stackText.match(/body[^']*['"]([^'"]+)['"]/i);
+
+    if (headingAlt) typography.heading = headingAlt[1];
+    if (bodyAlt) typography.body = bodyAlt[1];
+  }
+
+  if (headingMatch) typography.heading = headingMatch[1];
+  if (bodyMatch) typography.body = bodyMatch[1];
+  if (monoMatch) typography.mono = monoMatch[1];
+
+  return typography;
+}
+
+/**
+ * Extract voice/tone information
+ */
+function extractVoice(content) {
+  const voice = {
+    traits: [],
+    prohibited: [],
+    personality: "",
+  };
+
+  // Extract personality traits from table
+  const personalityMatch = content.match(
+    /### Brand Personality[\s\S]*?\|[\s\S]*?(?=###|##|$)/i
+  );
+  if (personalityMatch) {
+    const traits = personalityMatch[0].match(
+      /\*\*([^*]+)\*\*\s*\|\s*([^|]+)/g
+    );
+    if (traits) {
+      voice.traits = traits.map((t) => {
+        const match = t.match(/\*\*([^*]+)\*\*/);
+        return match ? match[1].trim() : "";
+      }).filter(Boolean);
+    }
+  }
+
+  // Extract prohibited terms
+  const prohibitedMatch = content.match(
+    /### Prohibited[\s\S]*?(?=###|##|$)/i
+  );
+  if (prohibitedMatch) {
+    const terms = prohibitedMatch[0].match(/\|\s*([^|]+)\s*\|/g);
+    if (terms) {
+      voice.prohibited = terms
+        .map((t) => t.replace(/\|/g, "").trim())
+        .filter((t) => t && !t.includes("Avoid") && !t.includes("---"));
+    }
+  }
+
+  // Fallback: look for Forbidden Phrases
+  const forbiddenMatch = content.match(
+    /### Forbidden Phrases[\s\S]*?(?=###|##|$)/i
+  );
+  if (forbiddenMatch && voice.prohibited.length === 0) {
+    const items = forbiddenMatch[0].match(/-\s*["']?([^"'\n(]+)/g);
+    if (items) {
+      voice.prohibited = items
+        .map((item) => item.replace(/^-\s*["']?/, "").trim())
+        .filter(Boolean);
+    }
+  }
+
+  voice.personality = voice.traits.join(", ");
+
+  return voice;
+}
+
+/**
+ * Extract core attributes
+ */
+function extractCoreAttributes(content) {
+  const attributes = [];
+
+  const attributesMatch = content.match(
+    /### Core Attributes[\s\S]*?\|[\s\S]*?(?=###|##|$)/i
+  );
+  if (attributesMatch) {
+    const rows = attributesMatch[0].match(
+      /\|\s*\*\*([^*]+)\*\*\s*\|\s*([^|]+)\|/g
+    );
+    if (rows) {
+      rows.forEach((row) => {
+        const match = row.match(/\*\*([^*]+)\*\*\s*\|\s*([^|]+)/);
+        if (match) {
+          attributes.push({
+            name: match[1].trim(),
+            description: match[2].trim(),
+          });
+        }
+      });
+    }
+  }
+
+  return attributes;
+}
+
+/**
+ * Extract AI image generation context
+ */
+function extractImageStyle(content) {
+  const imageStyle = {
+    basePrompt: "",
+    keywords: [],
+    mood: [],
+    donts: [],
+    examplePrompts: [],
+  };
+
+  // Extract base prompt template (content between ``` blocks after "Base Prompt Template")
+  const basePromptMatch = content.match(
+    /### Base Prompt Template[\s\S]*?```\n?([\s\S]*?)```/i
+  );
+  if (basePromptMatch) {
+    imageStyle.basePrompt = basePromptMatch[1].trim().replace(/\n/g, " ");
+  }
+
+  // Extract style keywords from table
+  const keywordsMatch = content.match(
+    /### Style Keywords[\s\S]*?\|[\s\S]*?(?=###|##|$)/i
+  );
+  if (keywordsMatch) {
+    const keywordRows = keywordsMatch[0].match(/\|\s*\*\*[^*]+\*\*\s*\|\s*([^|]+)\|/g);
+    if (keywordRows) {
+      keywordRows.forEach((row) => {
+        const match = row.match(/\|\s*\*\*[^*]+\*\*\s*\|\s*([^|]+)\|/);
+        if (match) {
+          const keywords = match[1].split(",").map((k) => k.trim()).filter(Boolean);
+          imageStyle.keywords.push(...keywords);
+        }
+      });
+    }
+  }
+
+  // Extract visual mood descriptors (bullet points)
+  const moodMatch = content.match(
+    /### Visual Mood Descriptors[\s\S]*?(?=###|##|$)/i
+  );
+  if (moodMatch) {
+    const moodItems = moodMatch[0].match(/-\s*([^\n]+)/g);
+    if (moodItems) {
+      imageStyle.mood = moodItems.map((item) => item.replace(/^-\s*/, "").trim());
+    }
+  }
+
+  // Extract visual don'ts from table
+  const dontsMatch = content.match(
+    /### Visual Don'ts[\s\S]*?\|[\s\S]*?(?=###|##|$)/i
+  );
+  if (dontsMatch) {
+    const dontRows = dontsMatch[0].match(/\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|/g);
+    if (dontRows) {
+      dontRows.forEach((row) => {
+        const match = row.match(/\|\s*([^|]+)\s*\|\s*([^|]+)\s*\|/);
+        if (match && !match[1].includes("Avoid") && !match[1].includes("---")) {
+          imageStyle.donts.push(match[1].trim());
+        }
+      });
+    }
+  }
+
+  // Extract example prompts (content between ``` blocks after specific headers)
+  const exampleMatch = content.match(/### Example Prompts[\s\S]*?(?=##|$)/i);
+  if (exampleMatch) {
+    const prompts = exampleMatch[0].match(/\*\*([^*]+)\*\*:\s*```\n?([\s\S]*?)```/g);
+    if (prompts) {
+      prompts.forEach((p) => {
+        const match = p.match(/\*\*([^*]+)\*\*:\s*```\n?([\s\S]*?)```/);
+        if (match) {
+          imageStyle.examplePrompts.push({
+            type: match[1].trim(),
+            prompt: match[2].trim().replace(/\n/g, " "),
+          });
+        }
+      });
+    }
+  }
+
+  return imageStyle;
+}
+
+/**
+ * Generate system prompt addition
+ */
+function generatePromptAddition(brandContext) {
+  const { colors, typography, voice, attributes, imageStyle } = brandContext;
+
+  let prompt = `
+BRAND CONTEXT:
+==============
+
+VISUAL IDENTITY:
+- Primary Colors: ${colors.primary.join(", ") || "Not specified"}
+- Secondary Colors: ${colors.secondary.join(", ") || "Not specified"}
+- Typography: ${typography.heading || typography.body || "System fonts"}
+
+BRAND VOICE:
+- Personality: ${voice.personality || "Professional"}
+- Core Attributes: ${attributes.map((a) => a.name).join(", ") || "Not specified"}
+
+CONTENT RULES:
+- Prohibited Terms: ${voice.prohibited.join(", ") || "None specified"}
+`;
+
+  // Add image style context if available
+  if (imageStyle && imageStyle.basePrompt) {
+    prompt += `
+IMAGE GENERATION:
+- Base Prompt: ${imageStyle.basePrompt}
+- Style Keywords: ${imageStyle.keywords.slice(0, 10).join(", ") || "Not specified"}
+- Visual Mood: ${imageStyle.mood.slice(0, 5).join("; ") || "Not specified"}
+- Avoid: ${imageStyle.donts.join(", ") || "None specified"}
+`;
+  }
+
+  prompt += `
+Apply these brand guidelines to all generated content.
+Maintain consistent voice, colors, and messaging.
+`;
+
+  return prompt.trim();
+}
+
+/**
+ * Main function
+ */
+function main() {
+  const args = process.argv.slice(2);
+  const jsonOutput = args.includes("--json");
+  const guidelinesPath = args.find((a) => !a.startsWith("--")) || DEFAULT_GUIDELINES_PATH;
+
+  // Resolve path
+  const resolvedPath = path.isAbsolute(guidelinesPath)
+    ? guidelinesPath
+    : path.join(process.cwd(), guidelinesPath);
+
+  // Check if file exists
+  if (!fs.existsSync(resolvedPath)) {
+    console.error(`Error: Brand guidelines not found at ${resolvedPath}`);
+    console.error(`Create brand guidelines at ${DEFAULT_GUIDELINES_PATH} or specify a path.`);
+    process.exit(1);
+  }
+
+  // Read file
+  const content = fs.readFileSync(resolvedPath, "utf-8");
+
+  // Extract brand context
+  const brandContext = {
+    colors: extractColorsFromTable(content),
+    typography: extractTypography(content),
+    voice: extractVoice(content),
+    attributes: extractCoreAttributes(content),
+    imageStyle: extractImageStyle(content),
+    source: resolvedPath,
+    extractedAt: new Date().toISOString(),
+  };
+
+  // Output
+  if (jsonOutput) {
+    console.log(JSON.stringify(brandContext, null, 2));
+  } else {
+    console.log(generatePromptAddition(brandContext));
+  }
+}
+
+main();

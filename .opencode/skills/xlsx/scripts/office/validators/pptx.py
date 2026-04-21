@@ -1,1 +1,275 @@
-IiIiClZhbGlkYXRvciBmb3IgUG93ZXJQb2ludCBwcmVzZW50YXRpb24gWE1MIGZpbGVzIGFnYWluc3QgWFNEIHNjaGVtYXMuCiIiIgoKaW1wb3J0IHJlCgpmcm9tIC5iYXNlIGltcG9ydCBCYXNlU2NoZW1hVmFsaWRhdG9yCgoKY2xhc3MgUFBUWFNjaGVtYVZhbGlkYXRvcihCYXNlU2NoZW1hVmFsaWRhdG9yKToKCiAgICBQUkVTRU5UQVRJT05NTF9OQU1FU1BBQ0UgPSAoCiAgICAgICAgImh0dHA6Ly9zY2hlbWFzLm9wZW54bWxmb3JtYXRzLm9yZy9wcmVzZW50YXRpb25tbC8yMDA2L21haW4iCiAgICApCgogICAgRUxFTUVOVF9SRUxBVElPTlNISVBfVFlQRVMgPSB7CiAgICAgICAgInNsZGlkIjogInNsaWRlIiwKICAgICAgICAic2xkbWFzdGVyaWQiOiAic2xpZGVtYXN0ZXIiLAogICAgICAgICJub3Rlc21hc3RlcmlkIjogIm5vdGVzbWFzdGVyIiwKICAgICAgICAic2xkbGF5b3V0aWQiOiAic2xpZGVsYXlvdXQiLAogICAgICAgICJ0aGVtZWlkIjogInRoZW1lIiwKICAgICAgICAidGFibGVzdHlsZWlkIjogInRhYmxlc3R5bGVzIiwKICAgIH0KCiAgICBkZWYgdmFsaWRhdGUoc2VsZik6CiAgICAgICAgaWYgbm90IHNlbGYudmFsaWRhdGVfeG1sKCk6CiAgICAgICAgICAgIHJldHVybiBGYWxzZQoKICAgICAgICBhbGxfdmFsaWQgPSBUcnVlCiAgICAgICAgaWYgbm90IHNlbGYudmFsaWRhdGVfbmFtZXNwYWNlcygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV91bmlxdWVfaWRzKCk6CiAgICAgICAgICAgIGFsbF92YWxpZCA9IEZhbHNlCgogICAgICAgIGlmIG5vdCBzZWxmLnZhbGlkYXRlX3V1aWRfaWRzKCk6CiAgICAgICAgICAgIGFsbF92YWxpZCA9IEZhbHNlCgogICAgICAgIGlmIG5vdCBzZWxmLnZhbGlkYXRlX2ZpbGVfcmVmZXJlbmNlcygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9zbGlkZV9sYXlvdXRfaWRzKCk6CiAgICAgICAgICAgIGFsbF92YWxpZCA9IEZhbHNlCgogICAgICAgIGlmIG5vdCBzZWxmLnZhbGlkYXRlX2NvbnRlbnRfdHlwZXMoKToKICAgICAgICAgICAgYWxsX3ZhbGlkID0gRmFsc2UKCiAgICAgICAgaWYgbm90IHNlbGYudmFsaWRhdGVfYWdhaW5zdF94c2QoKToKICAgICAgICAgICAgYWxsX3ZhbGlkID0gRmFsc2UKCiAgICAgICAgaWYgbm90IHNlbGYudmFsaWRhdGVfbm90ZXNfc2xpZGVfcmVmZXJlbmNlcygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9hbGxfcmVsYXRpb25zaGlwX2lkcygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9ub19kdXBsaWNhdGVfc2xpZGVfbGF5b3V0cygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICByZXR1cm4gYWxsX3ZhbGlkCgogICAgZGVmIHZhbGlkYXRlX3V1aWRfaWRzKHNlbGYpOgogICAgICAgIGltcG9ydCBseG1sLmV0cmVlCgogICAgICAgIGVycm9ycyA9IFtdCiAgICAgICAgdXVpZF9wYXR0ZXJuID0gcmUuY29tcGlsZSgKICAgICAgICAgICAgciJeW1x7XChdP1swLTlBLUZhLWZdezh9LT9bMC05QS1GYS1mXXs0fS0/WzAtOUEtRmEtZl17NH0tP1swLTlBLUZhLWZdezR9LT9bMC05QS1GYS1mXXsxMn1bXH1cKV0/JCIKICAgICAgICApCgogICAgICAgIGZvciB4bWxfZmlsZSBpbiBzZWxmLnhtbF9maWxlczoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcm9vdCA9IGx4bWwuZXRyZWUucGFyc2Uoc3RyKHhtbF9maWxlKSkuZ2V0cm9vdCgpCgogICAgICAgICAgICAgICAgZm9yIGVsZW0gaW4gcm9vdC5pdGVyKCk6CiAgICAgICAgICAgICAgICAgICAgZm9yIGF0dHIsIHZhbHVlIGluIGVsZW0uYXR0cmliLml0ZW1zKCk6CiAgICAgICAgICAgICAgICAgICAgICAgIGF0dHJfbmFtZSA9IGF0dHIuc3BsaXQoIn0iKVstMV0ubG93ZXIoKQogICAgICAgICAgICAgICAgICAgICAgICBpZiBhdHRyX25hbWUgPT0gImlkIiBvciBhdHRyX25hbWUuZW5kc3dpdGgoImlkIik6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBzZWxmLl9sb29rc19saWtlX3V1aWQodmFsdWUpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIG5vdCB1dWlkX3BhdHRlcm4ubWF0Y2godmFsdWUpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHt4bWxfZmlsZS5yZWxhdGl2ZV90byhzZWxmLnVucGFja2VkX2Rpcil9OiAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmIkxpbmUge2VsZW0uc291cmNlbGluZX06IElEICd7dmFsdWV9JyBhcHBlYXJzIHRvIGJlIGEgVVVJRCBidXQgY29udGFpbnMgaW52YWxpZCBoZXggY2hhcmFjdGVycyIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgZXhjZXB0IChseG1sLmV0cmVlLlhNTFN5bnRheEVycm9yLCBFeGNlcHRpb24pIGFzIGU6CiAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgIGYiICB7eG1sX2ZpbGUucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogRXJyb3I6IHtlfSIKICAgICAgICAgICAgICAgICkKCiAgICAgICAgaWYgZXJyb3JzOgogICAgICAgICAgICBwcmludChmIkZBSUxFRCAtIEZvdW5kIHtsZW4oZXJyb3JzKX0gVVVJRCBJRCB2YWxpZGF0aW9uIGVycm9yczoiKQogICAgICAgICAgICBmb3IgZXJyb3IgaW4gZXJyb3JzOgogICAgICAgICAgICAgICAgcHJpbnQoZXJyb3IpCiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIHNlbGYudmVyYm9zZToKICAgICAgICAgICAgICAgIHByaW50KCJQQVNTRUQgLSBBbGwgVVVJRC1saWtlIElEcyBjb250YWluIHZhbGlkIGhleCB2YWx1ZXMiKQogICAgICAgICAgICByZXR1cm4gVHJ1ZQoKICAgIGRlZiBfbG9va3NfbGlrZV91dWlkKHNlbGYsIHZhbHVlKToKICAgICAgICBjbGVhbl92YWx1ZSA9IHZhbHVlLnN0cmlwKCJ7fSgpIikucmVwbGFjZSgiLSIsICIiKQogICAgICAgIHJldHVybiBsZW4oY2xlYW5fdmFsdWUpID09IDMyIGFuZCBhbGwoYy5pc2FsbnVtKCkgZm9yIGMgaW4gY2xlYW5fdmFsdWUpCgogICAgZGVmIHZhbGlkYXRlX3NsaWRlX2xheW91dF9pZHMoc2VsZik6CiAgICAgICAgaW1wb3J0IGx4bWwuZXRyZWUKCiAgICAgICAgZXJyb3JzID0gW10KCiAgICAgICAgc2xpZGVfbWFzdGVycyA9IGxpc3Qoc2VsZi51bnBhY2tlZF9kaXIuZ2xvYigicHB0L3NsaWRlTWFzdGVycy8qLnhtbCIpKQoKICAgICAgICBpZiBub3Qgc2xpZGVfbWFzdGVyczoKICAgICAgICAgICAgaWYgc2VsZi52ZXJib3NlOgogICAgICAgICAgICAgICAgcHJpbnQoIlBBU1NFRCAtIE5vIHNsaWRlIG1hc3RlcnMgZm91bmQiKQogICAgICAgICAgICByZXR1cm4gVHJ1ZQoKICAgICAgICBmb3Igc2xpZGVfbWFzdGVyIGluIHNsaWRlX21hc3RlcnM6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJvb3QgPSBseG1sLmV0cmVlLnBhcnNlKHN0cihzbGlkZV9tYXN0ZXIpKS5nZXRyb290KCkKCiAgICAgICAgICAgICAgICByZWxzX2ZpbGUgPSBzbGlkZV9tYXN0ZXIucGFyZW50IC8gIl9yZWxzIiAvIGYie3NsaWRlX21hc3Rlci5uYW1lfS5yZWxzIgoKICAgICAgICAgICAgICAgIGlmIG5vdCByZWxzX2ZpbGUuZXhpc3RzKCk6CiAgICAgICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHtzbGlkZV9tYXN0ZXIucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogIgogICAgICAgICAgICAgICAgICAgICAgICBmIk1pc3NpbmcgcmVsYXRpb25zaGlwcyBmaWxlOiB7cmVsc19maWxlLnJlbGF0aXZlX3RvKHNlbGYudW5wYWNrZWRfZGlyKX0iCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgcmVsc19yb290ID0gbHhtbC5ldHJlZS5wYXJzZShzdHIocmVsc19maWxlKSkuZ2V0cm9vdCgpCgogICAgICAgICAgICAgICAgdmFsaWRfbGF5b3V0X3JpZHMgPSBzZXQoKQogICAgICAgICAgICAgICAgZm9yIHJlbCBpbiByZWxzX3Jvb3QuZmluZGFsbCgKICAgICAgICAgICAgICAgICAgICBmIi4vL3t7e3NlbGYuUEFDS0FHRV9SRUxBVElPTlNISVBTX05BTUVTUEFDRX19fVJlbGF0aW9uc2hpcCIKICAgICAgICAgICAgICAgICk6CiAgICAgICAgICAgICAgICAgICAgcmVsX3R5cGUgPSByZWwuZ2V0KCJUeXBlIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgaWYgInNsaWRlTGF5b3V0IiBpbiByZWxfdHlwZToKICAgICAgICAgICAgICAgICAgICAgICAgdmFsaWRfbGF5b3V0X3JpZHMuYWRkKHJlbC5nZXQoIklkIikpCgogICAgICAgICAgICAgICAgZm9yIHNsZF9sYXlvdXRfaWQgaW4gcm9vdC5maW5kYWxsKAogICAgICAgICAgICAgICAgICAgIGYiLi8ve3t7c2VsZi5QUkVTRU5UQVRJT05NTF9OQU1FU1BBQ0V9fX1zbGRMYXlvdXRJZCIKICAgICAgICAgICAgICAgICk6CiAgICAgICAgICAgICAgICAgICAgcl9pZCA9IHNsZF9sYXlvdXRfaWQuZ2V0KAogICAgICAgICAgICAgICAgICAgICAgICBmInt7e3NlbGYuT0ZGSUNFX1JFTEFUSU9OU0hJUFNfTkFNRVNQQUNFfX19aWQiCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIGxheW91dF9pZCA9IHNsZF9sYXlvdXRfaWQuZ2V0KCJpZCIpCgogICAgICAgICAgICAgICAgICAgIGlmIHJfaWQgYW5kIHJfaWQgbm90IGluIHZhbGlkX2xheW91dF9yaWRzOgogICAgICAgICAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHtzbGlkZV9tYXN0ZXIucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZiJMaW5lIHtzbGRfbGF5b3V0X2lkLnNvdXJjZWxpbmV9OiBzbGRMYXlvdXRJZCB3aXRoIGlkPSd7bGF5b3V0X2lkfScgIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZiJyZWZlcmVuY2VzIHI6aWQ9J3tyX2lkfScgd2hpY2ggaXMgbm90IGZvdW5kIGluIHNsaWRlIGxheW91dCByZWxhdGlvbnNoaXBzIgogICAgICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICBleGNlcHQgKGx4bWwuZXRyZWUuWE1MU3ludGF4RXJyb3IsIEV4Y2VwdGlvbikgYXMgZToKICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoCiAgICAgICAgICAgICAgICAgICAgZiIgIHtzbGlkZV9tYXN0ZXIucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogRXJyb3I6IHtlfSIKICAgICAgICAgICAgICAgICkKCiAgICAgICAgaWYgZXJyb3JzOgogICAgICAgICAgICBwcmludChmIkZBSUxFRCAtIEZvdW5kIHtsZW4oZXJyb3JzKX0gc2xpZGUgbGF5b3V0IElEIHZhbGlkYXRpb24gZXJyb3JzOiIpCiAgICAgICAgICAgIGZvciBlcnJvciBpbiBlcnJvcnM6CiAgICAgICAgICAgICAgICBwcmludChlcnJvcikKICAgICAgICAgICAgcHJpbnQoCiAgICAgICAgICAgICAgICAiUmVtb3ZlIGludmFsaWQgcmVmZXJlbmNlcyBvciBhZGQgbWlzc2luZyBzbGlkZSBsYXlvdXRzIHRvIHRoZSByZWxhdGlvbnNoaXBzIGZpbGUuIgogICAgICAgICAgICApCiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIHNlbGYudmVyYm9zZToKICAgICAgICAgICAgICAgIHByaW50KCJQQVNTRUQgLSBBbGwgc2xpZGUgbGF5b3V0IElEcyByZWZlcmVuY2UgdmFsaWQgc2xpZGUgbGF5b3V0cyIpCiAgICAgICAgICAgIHJldHVybiBUcnVlCgogICAgZGVmIHZhbGlkYXRlX25vX2R1cGxpY2F0ZV9zbGlkZV9sYXlvdXRzKHNlbGYpOgogICAgICAgIGltcG9ydCBseG1sLmV0cmVlCgogICAgICAgIGVycm9ycyA9IFtdCiAgICAgICAgc2xpZGVfcmVsc19maWxlcyA9IGxpc3Qoc2VsZi51bnBhY2tlZF9kaXIuZ2xvYigicHB0L3NsaWRlcy9fcmVscy8qLnhtbC5yZWxzIikpCgogICAgICAgIGZvciByZWxzX2ZpbGUgaW4gc2xpZGVfcmVsc19maWxlczoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcm9vdCA9IGx4bWwuZXRyZWUucGFyc2Uoc3RyKHJlbHNfZmlsZSkpLmdldHJvb3QoKQoKICAgICAgICAgICAgICAgIGxheW91dF9yZWxzID0gWwogICAgICAgICAgICAgICAgICAgIHJlbAogICAgICAgICAgICAgICAgICAgIGZvciByZWwgaW4gcm9vdC5maW5kYWxsKAogICAgICAgICAgICAgICAgICAgICAgICBmIi4vL3t7e3NlbGYuUEFDS0FHRV9SRUxBVElPTlNISVBTX05BTUVTUEFDRX19fVJlbGF0aW9uc2hpcCIKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgaWYgInNsaWRlTGF5b3V0IiBpbiByZWwuZ2V0KCJUeXBlIiwgIiIpCiAgICAgICAgICAgICAgICBdCgogICAgICAgICAgICAgICAgaWYgbGVuKGxheW91dF9yZWxzKSA+IDE6CiAgICAgICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHtyZWxzX2ZpbGUucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogaGFzIHtsZW4obGF5b3V0X3JlbHMpfSBzbGlkZUxheW91dCByZWZlcmVuY2VzIgogICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoCiAgICAgICAgICAgICAgICAgICAgZiIgIHtyZWxzX2ZpbGUucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogRXJyb3I6IHtlfSIKICAgICAgICAgICAgICAgICkKCiAgICAgICAgaWYgZXJyb3JzOgogICAgICAgICAgICBwcmludCgiRkFJTEVEIC0gRm91bmQgc2xpZGVzIHdpdGggZHVwbGljYXRlIHNsaWRlTGF5b3V0IHJlZmVyZW5jZXM6IikKICAgICAgICAgICAgZm9yIGVycm9yIGluIGVycm9yczoKICAgICAgICAgICAgICAgIHByaW50KGVycm9yKQogICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICBlbHNlOgogICAgICAgICAgICBpZiBzZWxmLnZlcmJvc2U6CiAgICAgICAgICAgICAgICBwcmludCgiUEFTU0VEIC0gQWxsIHNsaWRlcyBoYXZlIGV4YWN0bHkgb25lIHNsaWRlTGF5b3V0IHJlZmVyZW5jZSIpCiAgICAgICAgICAgIHJldHVybiBUcnVlCgogICAgZGVmIHZhbGlkYXRlX25vdGVzX3NsaWRlX3JlZmVyZW5jZXMoc2VsZik6CiAgICAgICAgaW1wb3J0IGx4bWwuZXRyZWUKCiAgICAgICAgZXJyb3JzID0gW10KICAgICAgICBub3Rlc19zbGlkZV9yZWZlcmVuY2VzID0ge30gIAoKICAgICAgICBzbGlkZV9yZWxzX2ZpbGVzID0gbGlzdChzZWxmLnVucGFja2VkX2Rpci5nbG9iKCJwcHQvc2xpZGVzL19yZWxzLyoueG1sLnJlbHMiKSkKCiAgICAgICAgaWYgbm90IHNsaWRlX3JlbHNfZmlsZXM6CiAgICAgICAgICAgIGlmIHNlbGYudmVyYm9zZToKICAgICAgICAgICAgICAgIHByaW50KCJQQVNTRUQgLSBObyBzbGlkZSByZWxhdGlvbnNoaXAgZmlsZXMgZm91bmQiKQogICAgICAgICAgICByZXR1cm4gVHJ1ZQoKICAgICAgICBmb3IgcmVsc19maWxlIGluIHNsaWRlX3JlbHNfZmlsZXM6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJvb3QgPSBseG1sLmV0cmVlLnBhcnNlKHN0cihyZWxzX2ZpbGUpKS5nZXRyb290KCkKCiAgICAgICAgICAgICAgICBmb3IgcmVsIGluIHJvb3QuZmluZGFsbCgKICAgICAgICAgICAgICAgICAgICBmIi4vL3t7e3NlbGYuUEFDS0FHRV9SRUxBVElPTlNISVBTX05BTUVTUEFDRX19fVJlbGF0aW9uc2hpcCIKICAgICAgICAgICAgICAgICk6CiAgICAgICAgICAgICAgICAgICAgcmVsX3R5cGUgPSByZWwuZ2V0KCJUeXBlIiwgIiIpCiAgICAgICAgICAgICAgICAgICAgaWYgIm5vdGVzU2xpZGUiIGluIHJlbF90eXBlOgogICAgICAgICAgICAgICAgICAgICAgICB0YXJnZXQgPSByZWwuZ2V0KCJUYXJnZXQiLCAiIikKICAgICAgICAgICAgICAgICAgICAgICAgaWYgdGFyZ2V0OgogICAgICAgICAgICAgICAgICAgICAgICAgICAgbm9ybWFsaXplZF90YXJnZXQgPSB0YXJnZXQucmVwbGFjZSgiLi4vIiwgIiIpCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgc2xpZGVfbmFtZSA9IHJlbHNfZmlsZS5zdGVtLnJlcGxhY2UoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIi54bWwiLCAiIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKSAgCgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgbm9ybWFsaXplZF90YXJnZXQgbm90IGluIG5vdGVzX3NsaWRlX3JlZmVyZW5jZXM6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbm90ZXNfc2xpZGVfcmVmZXJlbmNlc1tub3JtYWxpemVkX3RhcmdldF0gPSBbXQogICAgICAgICAgICAgICAgICAgICAgICAgICAgbm90ZXNfc2xpZGVfcmVmZXJlbmNlc1tub3JtYWxpemVkX3RhcmdldF0uYXBwZW5kKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIChzbGlkZV9uYW1lLCByZWxzX2ZpbGUpCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICBleGNlcHQgKGx4bWwuZXRyZWUuWE1MU3ludGF4RXJyb3IsIEV4Y2VwdGlvbikgYXMgZToKICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoCiAgICAgICAgICAgICAgICAgICAgZiIgIHtyZWxzX2ZpbGUucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogRXJyb3I6IHtlfSIKICAgICAgICAgICAgICAgICkKCiAgICAgICAgZm9yIHRhcmdldCwgcmVmZXJlbmNlcyBpbiBub3Rlc19zbGlkZV9yZWZlcmVuY2VzLml0ZW1zKCk6CiAgICAgICAgICAgIGlmIGxlbihyZWZlcmVuY2VzKSA+IDE6CiAgICAgICAgICAgICAgICBzbGlkZV9uYW1lcyA9IFtyZWZbMF0gZm9yIHJlZiBpbiByZWZlcmVuY2VzXQogICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICBmIiAgTm90ZXMgc2xpZGUgJ3t0YXJnZXR9JyBpcyByZWZlcmVuY2VkIGJ5IG11bHRpcGxlIHNsaWRlczogeycsICcuam9pbihzbGlkZV9uYW1lcyl9IgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgZm9yIHNsaWRlX25hbWUsIHJlbHNfZmlsZSBpbiByZWZlcmVuY2VzOgogICAgICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoZiIgICAgLSB7cmVsc19maWxlLnJlbGF0aXZlX3RvKHNlbGYudW5wYWNrZWRfZGlyKX0iKQoKICAgICAgICBpZiBlcnJvcnM6CiAgICAgICAgICAgIHByaW50KAogICAgICAgICAgICAgICAgZiJGQUlMRUQgLSBGb3VuZCB7bGVuKFtlIGZvciBlIGluIGVycm9ycyBpZiBub3QgZS5zdGFydHN3aXRoKCcgICAgJyldKX0gbm90ZXMgc2xpZGUgcmVmZXJlbmNlIHZhbGlkYXRpb24gZXJyb3JzOiIKICAgICAgICAgICAgKQogICAgICAgICAgICBmb3IgZXJyb3IgaW4gZXJyb3JzOgogICAgICAgICAgICAgICAgcHJpbnQoZXJyb3IpCiAgICAgICAgICAgIHByaW50KCJFYWNoIHNsaWRlIG1heSBvcHRpb25hbGx5IGhhdmUgaXRzIG93biBzbGlkZSBmaWxlLiIpCiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIHNlbGYudmVyYm9zZToKICAgICAgICAgICAgICAgIHByaW50KCJQQVNTRUQgLSBBbGwgbm90ZXMgc2xpZGUgcmVmZXJlbmNlcyBhcmUgdW5pcXVlIikKICAgICAgICAgICAgcmV0dXJuIFRydWUKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcmFpc2UgUnVudGltZUVycm9yKCJUaGlzIG1vZHVsZSBzaG91bGQgbm90IGJlIHJ1biBkaXJlY3RseS4iKQo=
+"""
+Validator for PowerPoint presentation XML files against XSD schemas.
+"""
+
+import re
+
+from .base import BaseSchemaValidator
+
+
+class PPTXSchemaValidator(BaseSchemaValidator):
+
+    PRESENTATIONML_NAMESPACE = (
+        "http://schemas.openxmlformats.org/presentationml/2006/main"
+    )
+
+    ELEMENT_RELATIONSHIP_TYPES = {
+        "sldid": "slide",
+        "sldmasterid": "slidemaster",
+        "notesmasterid": "notesmaster",
+        "sldlayoutid": "slidelayout",
+        "themeid": "theme",
+        "tablestyleid": "tablestyles",
+    }
+
+    def validate(self):
+        if not self.validate_xml():
+            return False
+
+        all_valid = True
+        if not self.validate_namespaces():
+            all_valid = False
+
+        if not self.validate_unique_ids():
+            all_valid = False
+
+        if not self.validate_uuid_ids():
+            all_valid = False
+
+        if not self.validate_file_references():
+            all_valid = False
+
+        if not self.validate_slide_layout_ids():
+            all_valid = False
+
+        if not self.validate_content_types():
+            all_valid = False
+
+        if not self.validate_against_xsd():
+            all_valid = False
+
+        if not self.validate_notes_slide_references():
+            all_valid = False
+
+        if not self.validate_all_relationship_ids():
+            all_valid = False
+
+        if not self.validate_no_duplicate_slide_layouts():
+            all_valid = False
+
+        return all_valid
+
+    def validate_uuid_ids(self):
+        import lxml.etree
+
+        errors = []
+        uuid_pattern = re.compile(
+            r"^[\{\(]?[0-9A-Fa-f]{8}-?[0-9A-Fa-f]{4}-?[0-9A-Fa-f]{4}-?[0-9A-Fa-f]{4}-?[0-9A-Fa-f]{12}[\}\)]?$"
+        )
+
+        for xml_file in self.xml_files:
+            try:
+                root = lxml.etree.parse(str(xml_file)).getroot()
+
+                for elem in root.iter():
+                    for attr, value in elem.attrib.items():
+                        attr_name = attr.split("}")[-1].lower()
+                        if attr_name == "id" or attr_name.endswith("id"):
+                            if self._looks_like_uuid(value):
+                                if not uuid_pattern.match(value):
+                                    errors.append(
+                                        f"  {xml_file.relative_to(self.unpacked_dir)}: "
+                                        f"Line {elem.sourceline}: ID '{value}' appears to be a UUID but contains invalid hex characters"
+                                    )
+
+            except (lxml.etree.XMLSyntaxError, Exception) as e:
+                errors.append(
+                    f"  {xml_file.relative_to(self.unpacked_dir)}: Error: {e}"
+                )
+
+        if errors:
+            print(f"FAILED - Found {len(errors)} UUID ID validation errors:")
+            for error in errors:
+                print(error)
+            return False
+        else:
+            if self.verbose:
+                print("PASSED - All UUID-like IDs contain valid hex values")
+            return True
+
+    def _looks_like_uuid(self, value):
+        clean_value = value.strip("{}()").replace("-", "")
+        return len(clean_value) == 32 and all(c.isalnum() for c in clean_value)
+
+    def validate_slide_layout_ids(self):
+        import lxml.etree
+
+        errors = []
+
+        slide_masters = list(self.unpacked_dir.glob("ppt/slideMasters/*.xml"))
+
+        if not slide_masters:
+            if self.verbose:
+                print("PASSED - No slide masters found")
+            return True
+
+        for slide_master in slide_masters:
+            try:
+                root = lxml.etree.parse(str(slide_master)).getroot()
+
+                rels_file = slide_master.parent / "_rels" / f"{slide_master.name}.rels"
+
+                if not rels_file.exists():
+                    errors.append(
+                        f"  {slide_master.relative_to(self.unpacked_dir)}: "
+                        f"Missing relationships file: {rels_file.relative_to(self.unpacked_dir)}"
+                    )
+                    continue
+
+                rels_root = lxml.etree.parse(str(rels_file)).getroot()
+
+                valid_layout_rids = set()
+                for rel in rels_root.findall(
+                    f".//{{{self.PACKAGE_RELATIONSHIPS_NAMESPACE}}}Relationship"
+                ):
+                    rel_type = rel.get("Type", "")
+                    if "slideLayout" in rel_type:
+                        valid_layout_rids.add(rel.get("Id"))
+
+                for sld_layout_id in root.findall(
+                    f".//{{{self.PRESENTATIONML_NAMESPACE}}}sldLayoutId"
+                ):
+                    r_id = sld_layout_id.get(
+                        f"{{{self.OFFICE_RELATIONSHIPS_NAMESPACE}}}id"
+                    )
+                    layout_id = sld_layout_id.get("id")
+
+                    if r_id and r_id not in valid_layout_rids:
+                        errors.append(
+                            f"  {slide_master.relative_to(self.unpacked_dir)}: "
+                            f"Line {sld_layout_id.sourceline}: sldLayoutId with id='{layout_id}' "
+                            f"references r:id='{r_id}' which is not found in slide layout relationships"
+                        )
+
+            except (lxml.etree.XMLSyntaxError, Exception) as e:
+                errors.append(
+                    f"  {slide_master.relative_to(self.unpacked_dir)}: Error: {e}"
+                )
+
+        if errors:
+            print(f"FAILED - Found {len(errors)} slide layout ID validation errors:")
+            for error in errors:
+                print(error)
+            print(
+                "Remove invalid references or add missing slide layouts to the relationships file."
+            )
+            return False
+        else:
+            if self.verbose:
+                print("PASSED - All slide layout IDs reference valid slide layouts")
+            return True
+
+    def validate_no_duplicate_slide_layouts(self):
+        import lxml.etree
+
+        errors = []
+        slide_rels_files = list(self.unpacked_dir.glob("ppt/slides/_rels/*.xml.rels"))
+
+        for rels_file in slide_rels_files:
+            try:
+                root = lxml.etree.parse(str(rels_file)).getroot()
+
+                layout_rels = [
+                    rel
+                    for rel in root.findall(
+                        f".//{{{self.PACKAGE_RELATIONSHIPS_NAMESPACE}}}Relationship"
+                    )
+                    if "slideLayout" in rel.get("Type", "")
+                ]
+
+                if len(layout_rels) > 1:
+                    errors.append(
+                        f"  {rels_file.relative_to(self.unpacked_dir)}: has {len(layout_rels)} slideLayout references"
+                    )
+
+            except Exception as e:
+                errors.append(
+                    f"  {rels_file.relative_to(self.unpacked_dir)}: Error: {e}"
+                )
+
+        if errors:
+            print("FAILED - Found slides with duplicate slideLayout references:")
+            for error in errors:
+                print(error)
+            return False
+        else:
+            if self.verbose:
+                print("PASSED - All slides have exactly one slideLayout reference")
+            return True
+
+    def validate_notes_slide_references(self):
+        import lxml.etree
+
+        errors = []
+        notes_slide_references = {}  
+
+        slide_rels_files = list(self.unpacked_dir.glob("ppt/slides/_rels/*.xml.rels"))
+
+        if not slide_rels_files:
+            if self.verbose:
+                print("PASSED - No slide relationship files found")
+            return True
+
+        for rels_file in slide_rels_files:
+            try:
+                root = lxml.etree.parse(str(rels_file)).getroot()
+
+                for rel in root.findall(
+                    f".//{{{self.PACKAGE_RELATIONSHIPS_NAMESPACE}}}Relationship"
+                ):
+                    rel_type = rel.get("Type", "")
+                    if "notesSlide" in rel_type:
+                        target = rel.get("Target", "")
+                        if target:
+                            normalized_target = target.replace("../", "")
+
+                            slide_name = rels_file.stem.replace(
+                                ".xml", ""
+                            )  
+
+                            if normalized_target not in notes_slide_references:
+                                notes_slide_references[normalized_target] = []
+                            notes_slide_references[normalized_target].append(
+                                (slide_name, rels_file)
+                            )
+
+            except (lxml.etree.XMLSyntaxError, Exception) as e:
+                errors.append(
+                    f"  {rels_file.relative_to(self.unpacked_dir)}: Error: {e}"
+                )
+
+        for target, references in notes_slide_references.items():
+            if len(references) > 1:
+                slide_names = [ref[0] for ref in references]
+                errors.append(
+                    f"  Notes slide '{target}' is referenced by multiple slides: {', '.join(slide_names)}"
+                )
+                for slide_name, rels_file in references:
+                    errors.append(f"    - {rels_file.relative_to(self.unpacked_dir)}")
+
+        if errors:
+            print(
+                f"FAILED - Found {len([e for e in errors if not e.startswith('    ')])} notes slide reference validation errors:"
+            )
+            for error in errors:
+                print(error)
+            print("Each slide may optionally have its own slide file.")
+            return False
+        else:
+            if self.verbose:
+                print("PASSED - All notes slide references are unique")
+            return True
+
+
+if __name__ == "__main__":
+    raise RuntimeError("This module should not be run directly.")

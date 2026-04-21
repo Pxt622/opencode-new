@@ -1,1 +1,111 @@
-IiIiCkNvbW1hbmQgbGluZSB0b29sIHRvIHZhbGlkYXRlIE9mZmljZSBkb2N1bWVudCBYTUwgZmlsZXMgYWdhaW5zdCBYU0Qgc2NoZW1hcyBhbmQgdHJhY2tlZCBjaGFuZ2VzLgoKVXNhZ2U6CiAgICBweXRob24gdmFsaWRhdGUucHkgPHBhdGg+IFstLW9yaWdpbmFsIDxvcmlnaW5hbF9maWxlPl0gWy0tYXV0by1yZXBhaXJdIFstLWF1dGhvciBOQU1FXQoKVGhlIGZpcnN0IGFyZ3VtZW50IGNhbiBiZSBlaXRoZXI6Ci0gQW4gdW5wYWNrZWQgZGlyZWN0b3J5IGNvbnRhaW5pbmcgdGhlIE9mZmljZSBkb2N1bWVudCBYTUwgZmlsZXMKLSBBIHBhY2tlZCBPZmZpY2UgZmlsZSAoLmRvY3gvLnBwdHgvLnhsc3gpIHdoaWNoIHdpbGwgYmUgdW5wYWNrZWQgdG8gYSB0ZW1wIGRpcmVjdG9yeQoKQXV0by1yZXBhaXIgZml4ZXM6Ci0gcGFyYUlkL2R1cmFibGVJZCB2YWx1ZXMgdGhhdCBleGNlZWQgT09YTUwgbGltaXRzCi0gTWlzc2luZyB4bWw6c3BhY2U9InByZXNlcnZlIiBvbiB3OnQgZWxlbWVudHMgd2l0aCB3aGl0ZXNwYWNlCiIiIgoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBzeXMKaW1wb3J0IHRlbXBmaWxlCmltcG9ydCB6aXBmaWxlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKZnJvbSB2YWxpZGF0b3JzIGltcG9ydCBET0NYU2NoZW1hVmFsaWRhdG9yLCBQUFRYU2NoZW1hVmFsaWRhdG9yLCBSZWRsaW5pbmdWYWxpZGF0b3IKCgpkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249IlZhbGlkYXRlIE9mZmljZSBkb2N1bWVudCBYTUwgZmlsZXMiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAicGF0aCIsCiAgICAgICAgaGVscD0iUGF0aCB0byB1bnBhY2tlZCBkaXJlY3Rvcnkgb3IgcGFja2VkIE9mZmljZSBmaWxlICguZG9jeC8ucHB0eC8ueGxzeCkiLAogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1vcmlnaW5hbCIsCiAgICAgICAgcmVxdWlyZWQ9RmFsc2UsCiAgICAgICAgZGVmYXVsdD1Ob25lLAogICAgICAgIGhlbHA9IlBhdGggdG8gb3JpZ2luYWwgZmlsZSAoLmRvY3gvLnBwdHgvLnhsc3gpLiBJZiBvbWl0dGVkLCBhbGwgWFNEIGVycm9ycyBhcmUgcmVwb3J0ZWQgYW5kIHJlZGxpbmluZyB2YWxpZGF0aW9uIGlzIHNraXBwZWQuIiwKICAgICkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi12IiwKICAgICAgICAiLS12ZXJib3NlIiwKICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLAogICAgICAgIGhlbHA9IkVuYWJsZSB2ZXJib3NlIG91dHB1dCIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWF1dG8tcmVwYWlyIiwKICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLAogICAgICAgIGhlbHA9IkF1dG9tYXRpY2FsbHkgcmVwYWlyIGNvbW1vbiBpc3N1ZXMgKGhleCBJRHMsIHdoaXRlc3BhY2UgcHJlc2VydmF0aW9uKSIsCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLWF1dGhvciIsCiAgICAgICAgZGVmYXVsdD0iQ2xhdWRlIiwKICAgICAgICBoZWxwPSJBdXRob3IgbmFtZSBmb3IgcmVkbGluaW5nIHZhbGlkYXRpb24gKGRlZmF1bHQ6IENsYXVkZSkiLAogICAgKQogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICBwYXRoID0gUGF0aChhcmdzLnBhdGgpCiAgICBhc3NlcnQgcGF0aC5leGlzdHMoKSwgZiJFcnJvcjoge3BhdGh9IGRvZXMgbm90IGV4aXN0IgoKICAgIG9yaWdpbmFsX2ZpbGUgPSBOb25lCiAgICBpZiBhcmdzLm9yaWdpbmFsOgogICAgICAgIG9yaWdpbmFsX2ZpbGUgPSBQYXRoKGFyZ3Mub3JpZ2luYWwpCiAgICAgICAgYXNzZXJ0IG9yaWdpbmFsX2ZpbGUuaXNfZmlsZSgpLCBmIkVycm9yOiB7b3JpZ2luYWxfZmlsZX0gaXMgbm90IGEgZmlsZSIKICAgICAgICBhc3NlcnQgb3JpZ2luYWxfZmlsZS5zdWZmaXgubG93ZXIoKSBpbiBbIi5kb2N4IiwgIi5wcHR4IiwgIi54bHN4Il0sICgKICAgICAgICAgICAgZiJFcnJvcjoge29yaWdpbmFsX2ZpbGV9IG11c3QgYmUgYSAuZG9jeCwgLnBwdHgsIG9yIC54bHN4IGZpbGUiCiAgICAgICAgKQoKICAgIGZpbGVfZXh0ZW5zaW9uID0gKG9yaWdpbmFsX2ZpbGUgb3IgcGF0aCkuc3VmZml4Lmxvd2VyKCkKICAgIGFzc2VydCBmaWxlX2V4dGVuc2lvbiBpbiBbIi5kb2N4IiwgIi5wcHR4IiwgIi54bHN4Il0sICgKICAgICAgICBmIkVycm9yOiBDYW5ub3QgZGV0ZXJtaW5lIGZpbGUgdHlwZSBmcm9tIHtwYXRofS4gVXNlIC0tb3JpZ2luYWwgb3IgcHJvdmlkZSBhIC5kb2N4Ly5wcHR4Ly54bHN4IGZpbGUuIgogICAgKQoKICAgIGlmIHBhdGguaXNfZmlsZSgpIGFuZCBwYXRoLnN1ZmZpeC5sb3dlcigpIGluIFsiLmRvY3giLCAiLnBwdHgiLCAiLnhsc3giXToKICAgICAgICB0ZW1wX2RpciA9IHRlbXBmaWxlLm1rZHRlbXAoKQogICAgICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKHBhdGgsICJyIikgYXMgemY6CiAgICAgICAgICAgIHpmLmV4dHJhY3RhbGwodGVtcF9kaXIpCiAgICAgICAgdW5wYWNrZWRfZGlyID0gUGF0aCh0ZW1wX2RpcikKICAgIGVsc2U6CiAgICAgICAgYXNzZXJ0IHBhdGguaXNfZGlyKCksIGYiRXJyb3I6IHtwYXRofSBpcyBub3QgYSBkaXJlY3Rvcnkgb3IgT2ZmaWNlIGZpbGUiCiAgICAgICAgdW5wYWNrZWRfZGlyID0gcGF0aAoKICAgIG1hdGNoIGZpbGVfZXh0ZW5zaW9uOgogICAgICAgIGNhc2UgIi5kb2N4IjoKICAgICAgICAgICAgdmFsaWRhdG9ycyA9IFsKICAgICAgICAgICAgICAgIERPQ1hTY2hlbWFWYWxpZGF0b3IodW5wYWNrZWRfZGlyLCBvcmlnaW5hbF9maWxlLCB2ZXJib3NlPWFyZ3MudmVyYm9zZSksCiAgICAgICAgICAgIF0KICAgICAgICAgICAgaWYgb3JpZ2luYWxfZmlsZToKICAgICAgICAgICAgICAgIHZhbGlkYXRvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgIFJlZGxpbmluZ1ZhbGlkYXRvcih1bnBhY2tlZF9kaXIsIG9yaWdpbmFsX2ZpbGUsIHZlcmJvc2U9YXJncy52ZXJib3NlLCBhdXRob3I9YXJncy5hdXRob3IpICAKICAgICAgICAgICAgICAgICkKICAgICAgICBjYXNlICIucHB0eCI6CiAgICAgICAgICAgIHZhbGlkYXRvcnMgPSBbCiAgICAgICAgICAgICAgICBQUFRYU2NoZW1hVmFsaWRhdG9yKHVucGFja2VkX2Rpciwgb3JpZ2luYWxfZmlsZSwgdmVyYm9zZT1hcmdzLnZlcmJvc2UpLAogICAgICAgICAgICBdCiAgICAgICAgY2FzZSBfOgogICAgICAgICAgICBwcmludChmIkVycm9yOiBWYWxpZGF0aW9uIG5vdCBzdXBwb3J0ZWQgZm9yIGZpbGUgdHlwZSB7ZmlsZV9leHRlbnNpb259IikKICAgICAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBpZiBhcmdzLmF1dG9fcmVwYWlyOgogICAgICAgIHRvdGFsX3JlcGFpcnMgPSBzdW0odi5yZXBhaXIoKSBmb3IgdiBpbiB2YWxpZGF0b3JzKQogICAgICAgIGlmIHRvdGFsX3JlcGFpcnM6CiAgICAgICAgICAgIHByaW50KGYiQXV0by1yZXBhaXJlZCB7dG90YWxfcmVwYWlyc30gaXNzdWUocykiKQoKICAgIHN1Y2Nlc3MgPSBhbGwodi52YWxpZGF0ZSgpIGZvciB2IGluIHZhbGlkYXRvcnMpCgogICAgaWYgc3VjY2VzczoKICAgICAgICBwcmludCgiQWxsIHZhbGlkYXRpb25zIFBBU1NFRCEiKQoKICAgIHN5cy5leGl0KDAgaWYgc3VjY2VzcyBlbHNlIDEpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""
+Command line tool to validate Office document XML files against XSD schemas and tracked changes.
+
+Usage:
+    python validate.py <path> [--original <original_file>] [--auto-repair] [--author NAME]
+
+The first argument can be either:
+- An unpacked directory containing the Office document XML files
+- A packed Office file (.docx/.pptx/.xlsx) which will be unpacked to a temp directory
+
+Auto-repair fixes:
+- paraId/durableId values that exceed OOXML limits
+- Missing xml:space="preserve" on w:t elements with whitespace
+"""
+
+import argparse
+import sys
+import tempfile
+import zipfile
+from pathlib import Path
+
+from validators import DOCXSchemaValidator, PPTXSchemaValidator, RedliningValidator
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Validate Office document XML files")
+    parser.add_argument(
+        "path",
+        help="Path to unpacked directory or packed Office file (.docx/.pptx/.xlsx)",
+    )
+    parser.add_argument(
+        "--original",
+        required=False,
+        default=None,
+        help="Path to original file (.docx/.pptx/.xlsx). If omitted, all XSD errors are reported and redlining validation is skipped.",
+    )
+    parser.add_argument(
+        "-v",
+        "--verbose",
+        action="store_true",
+        help="Enable verbose output",
+    )
+    parser.add_argument(
+        "--auto-repair",
+        action="store_true",
+        help="Automatically repair common issues (hex IDs, whitespace preservation)",
+    )
+    parser.add_argument(
+        "--author",
+        default="Claude",
+        help="Author name for redlining validation (default: Claude)",
+    )
+    args = parser.parse_args()
+
+    path = Path(args.path)
+    assert path.exists(), f"Error: {path} does not exist"
+
+    original_file = None
+    if args.original:
+        original_file = Path(args.original)
+        assert original_file.is_file(), f"Error: {original_file} is not a file"
+        assert original_file.suffix.lower() in [".docx", ".pptx", ".xlsx"], (
+            f"Error: {original_file} must be a .docx, .pptx, or .xlsx file"
+        )
+
+    file_extension = (original_file or path).suffix.lower()
+    assert file_extension in [".docx", ".pptx", ".xlsx"], (
+        f"Error: Cannot determine file type from {path}. Use --original or provide a .docx/.pptx/.xlsx file."
+    )
+
+    if path.is_file() and path.suffix.lower() in [".docx", ".pptx", ".xlsx"]:
+        temp_dir = tempfile.mkdtemp()
+        with zipfile.ZipFile(path, "r") as zf:
+            zf.extractall(temp_dir)
+        unpacked_dir = Path(temp_dir)
+    else:
+        assert path.is_dir(), f"Error: {path} is not a directory or Office file"
+        unpacked_dir = path
+
+    match file_extension:
+        case ".docx":
+            validators = [
+                DOCXSchemaValidator(unpacked_dir, original_file, verbose=args.verbose),
+            ]
+            if original_file:
+                validators.append(
+                    RedliningValidator(unpacked_dir, original_file, verbose=args.verbose, author=args.author)  
+                )
+        case ".pptx":
+            validators = [
+                PPTXSchemaValidator(unpacked_dir, original_file, verbose=args.verbose),
+            ]
+        case _:
+            print(f"Error: Validation not supported for file type {file_extension}")
+            sys.exit(1)
+
+    if args.auto_repair:
+        total_repairs = sum(v.repair() for v in validators)
+        if total_repairs:
+            print(f"Auto-repaired {total_repairs} issue(s)")
+
+    success = all(v.validate() for v in validators)
+
+    if success:
+        print("All validations PASSED!")
+
+    sys.exit(0 if success else 1)
+
+
+if __name__ == "__main__":
+    main()

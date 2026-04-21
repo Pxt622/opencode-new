@@ -1,1 +1,336 @@
-IiIiVGVzdHMgZm9yIHRhaWx3aW5kX2NvbmZpZ19nZW4ucHkiIiIKCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHB5dGVzdAoKIyBBZGQgcGFyZW50IGRpcmVjdG9yeSB0byBwYXRoIGZvciBpbXBvcnRzCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihQYXRoKF9fZmlsZV9fKS5wYXJlbnQucGFyZW50KSkKCmZyb20gdGFpbHdpbmRfY29uZmlnX2dlbiBpbXBvcnQgVGFpbHdpbmRDb25maWdHZW5lcmF0b3IKCgpjbGFzcyBUZXN0VGFpbHdpbmRDb25maWdHZW5lcmF0b3I6CiAgICAiIiJUZXN0IFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yIGNsYXNzLiIiIgoKICAgIGRlZiB0ZXN0X2luaXRfZGVmYXVsdF90eXBlc2NyaXB0KHNlbGYpOgogICAgICAgICIiIlRlc3QgaW5pdGlhbGl6YXRpb24gd2l0aCBkZWZhdWx0IHNldHRpbmdzLiIiIgogICAgICAgIGdlbmVyYXRvciA9IFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yKCkKICAgICAgICBhc3NlcnQgZ2VuZXJhdG9yLnR5cGVzY3JpcHQgaXMgVHJ1ZQogICAgICAgIGFzc2VydCBnZW5lcmF0b3IuZnJhbWV3b3JrID09ICJyZWFjdCIKCiAgICBkZWYgdGVzdF9pbml0X2phdmFzY3JpcHQoc2VsZik6CiAgICAgICAgIiIiVGVzdCBpbml0aWFsaXphdGlvbiBmb3IgSmF2YVNjcmlwdCBjb25maWcuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IodHlwZXNjcmlwdD1GYWxzZSkKICAgICAgICBhc3NlcnQgZ2VuZXJhdG9yLnR5cGVzY3JpcHQgaXMgRmFsc2UKCiAgICBkZWYgdGVzdF9pbml0X2ZyYW1ld29yayhzZWxmKToKICAgICAgICAiIiJUZXN0IGluaXRpYWxpemF0aW9uIHdpdGggZGlmZmVyZW50IGZyYW1ld29ya3MuIiIiCiAgICAgICAgZm9yIGZyYW1ld29yayBpbiBbInJlYWN0IiwgInZ1ZSIsICJzdmVsdGUiLCAibmV4dGpzIl06CiAgICAgICAgICAgIGdlbmVyYXRvciA9IFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yKGZyYW1ld29yaz1mcmFtZXdvcmspCiAgICAgICAgICAgIGFzc2VydCBnZW5lcmF0b3IuZnJhbWV3b3JrID09IGZyYW1ld29yawoKICAgIGRlZiB0ZXN0X2RlZmF1bHRfb3V0cHV0X3BhdGhfdHlwZXNjcmlwdChzZWxmKToKICAgICAgICAiIiJUZXN0IGRlZmF1bHQgb3V0cHV0IHBhdGggZm9yIFR5cGVTY3JpcHQuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IodHlwZXNjcmlwdD1UcnVlKQogICAgICAgIGFzc2VydCBnZW5lcmF0b3Iub3V0cHV0X3BhdGgubmFtZSA9PSAidGFpbHdpbmQuY29uZmlnLnRzIgoKICAgIGRlZiB0ZXN0X2RlZmF1bHRfb3V0cHV0X3BhdGhfamF2YXNjcmlwdChzZWxmKToKICAgICAgICAiIiJUZXN0IGRlZmF1bHQgb3V0cHV0IHBhdGggZm9yIEphdmFTY3JpcHQuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IodHlwZXNjcmlwdD1GYWxzZSkKICAgICAgICBhc3NlcnQgZ2VuZXJhdG9yLm91dHB1dF9wYXRoLm5hbWUgPT0gInRhaWx3aW5kLmNvbmZpZy5qcyIKCiAgICBkZWYgdGVzdF9jdXN0b21fb3V0cHV0X3BhdGgoc2VsZiwgdG1wX3BhdGgpOgogICAgICAgICIiIlRlc3QgY3VzdG9tIG91dHB1dCBwYXRoLiIiIgogICAgICAgIGN1c3RvbV9wYXRoID0gdG1wX3BhdGggLyAiY3VzdG9tLWNvbmZpZy50cyIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcihvdXRwdXRfcGF0aD1jdXN0b21fcGF0aCkKICAgICAgICBhc3NlcnQgZ2VuZXJhdG9yLm91dHB1dF9wYXRoID09IGN1c3RvbV9wYXRoCgogICAgZGVmIHRlc3RfYmFzZV9jb25maWdfc3RydWN0dXJlKHNlbGYpOgogICAgICAgICIiIlRlc3QgYmFzZSBjb25maWd1cmF0aW9uIHN0cnVjdHVyZS4iIiIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcigpCiAgICAgICAgY29uZmlnID0gZ2VuZXJhdG9yLmNvbmZpZwoKICAgICAgICBhc3NlcnQgImRhcmtNb2RlIiBpbiBjb25maWcKICAgICAgICBhc3NlcnQgImNvbnRlbnQiIGluIGNvbmZpZwogICAgICAgIGFzc2VydCAidGhlbWUiIGluIGNvbmZpZwogICAgICAgIGFzc2VydCAicGx1Z2lucyIgaW4gY29uZmlnCiAgICAgICAgYXNzZXJ0ICJleHRlbmQiIGluIGNvbmZpZ1sidGhlbWUiXQoKICAgIGRlZiB0ZXN0X2RlZmF1bHRfY29udGVudF9wYXRoc19yZWFjdChzZWxmKToKICAgICAgICAiIiJUZXN0IGRlZmF1bHQgY29udGVudCBwYXRocyBmb3IgUmVhY3QuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IoZnJhbWV3b3JrPSJyZWFjdCIpCiAgICAgICAgcGF0aHMgPSBnZW5lcmF0b3IuY29uZmlnWyJjb250ZW50Il0KCiAgICAgICAgYXNzZXJ0IGFueSgic3JjLyoqLyoue2pzLGpzeCx0cyx0c3h9IiBpbiBwIGZvciBwIGluIHBhdGhzKQogICAgICAgIGFzc2VydCBhbnkoImluZGV4Lmh0bWwiIGluIHAgZm9yIHAgaW4gcGF0aHMpCgogICAgZGVmIHRlc3RfZGVmYXVsdF9jb250ZW50X3BhdGhzX25leHRqcyhzZWxmKToKICAgICAgICAiIiJUZXN0IGRlZmF1bHQgY29udGVudCBwYXRocyBmb3IgTmV4dC5qcy4iIiIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcihmcmFtZXdvcms9Im5leHRqcyIpCiAgICAgICAgcGF0aHMgPSBnZW5lcmF0b3IuY29uZmlnWyJjb250ZW50Il0KCiAgICAgICAgYXNzZXJ0IGFueSgiYXBwLyoqIiBpbiBwIGZvciBwIGluIHBhdGhzKQogICAgICAgIGFzc2VydCBhbnkoInBhZ2VzLyoqIiBpbiBwIGZvciBwIGluIHBhdGhzKQogICAgICAgIGFzc2VydCBhbnkoImNvbXBvbmVudHMvKioiIGluIHAgZm9yIHAgaW4gcGF0aHMpCgogICAgZGVmIHRlc3RfZGVmYXVsdF9jb250ZW50X3BhdGhzX3Z1ZShzZWxmKToKICAgICAgICAiIiJUZXN0IGRlZmF1bHQgY29udGVudCBwYXRocyBmb3IgVnVlLiIiIgogICAgICAgIGdlbmVyYXRvciA9IFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yKGZyYW1ld29yaz0idnVlIikKICAgICAgICBwYXRocyA9IGdlbmVyYXRvci5jb25maWdbImNvbnRlbnQiXQoKICAgICAgICBhc3NlcnQgYW55KCJ2dWUiIGluIHAgZm9yIHAgaW4gcGF0aHMpCgogICAgZGVmIHRlc3RfYWRkX2NvbG9ycyhzZWxmKToKICAgICAgICAiIiJUZXN0IGFkZGluZyBjdXN0b20gY29sb3JzLiIiIgogICAgICAgIGdlbmVyYXRvciA9IFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yKCkKICAgICAgICBjb2xvcnMgPSB7CiAgICAgICAgICAgICJicmFuZCI6ICIjM2I4MmY2IiwKICAgICAgICAgICAgImFjY2VudCI6ICIjOGI1Y2Y2IgogICAgICAgIH0KICAgICAgICBnZW5lcmF0b3IuYWRkX2NvbG9ycyhjb2xvcnMpCgogICAgICAgIGFzc2VydCAiY29sb3JzIiBpbiBnZW5lcmF0b3IuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXQogICAgICAgIGFzc2VydCBnZW5lcmF0b3IuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXVsiY29sb3JzIl1bImJyYW5kIl0gPT0gIiMzYjgyZjYiCiAgICAgICAgYXNzZXJ0IGdlbmVyYXRvci5jb25maWdbInRoZW1lIl1bImV4dGVuZCJdWyJjb2xvcnMiXVsiYWNjZW50Il0gPT0gIiM4YjVjZjYiCgogICAgZGVmIHRlc3RfYWRkX2NvbG9yc19tdWx0aXBsZV90aW1lcyhzZWxmKToKICAgICAgICAiIiJUZXN0IGFkZGluZyBjb2xvcnMgbXVsdGlwbGUgdGltZXMuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IoKQoKICAgICAgICBnZW5lcmF0b3IuYWRkX2NvbG9ycyh7ImJyYW5kIjogIiMzYjgyZjYifSkKICAgICAgICBnZW5lcmF0b3IuYWRkX2NvbG9ycyh7ImFjY2VudCI6ICIjOGI1Y2Y2In0pCgogICAgICAgIGNvbG9ycyA9IGdlbmVyYXRvci5jb25maWdbInRoZW1lIl1bImV4dGVuZCJdWyJjb2xvcnMiXQogICAgICAgIGFzc2VydCAiYnJhbmQiIGluIGNvbG9ycwogICAgICAgIGFzc2VydCAiYWNjZW50IiBpbiBjb2xvcnMKCiAgICBkZWYgdGVzdF9hZGRfY29sb3JfcGFsZXR0ZShzZWxmKToKICAgICAgICAiIiJUZXN0IGFkZGluZyBmdWxsIGNvbG9yIHBhbGV0dGUuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IoKQogICAgICAgIGdlbmVyYXRvci5hZGRfY29sb3JfcGFsZXR0ZSgiYnJhbmQiLCAiIzNiODJmNiIpCgogICAgICAgIGJyYW5kID0gZ2VuZXJhdG9yLmNvbmZpZ1sidGhlbWUiXVsiZXh0ZW5kIl1bImNvbG9ycyJdWyJicmFuZCJdCgogICAgICAgIGFzc2VydCBpc2luc3RhbmNlKGJyYW5kLCBkaWN0KQogICAgICAgIGFzc2VydCAiNTAiIGluIGJyYW5kCiAgICAgICAgYXNzZXJ0ICI1MDAiIGluIGJyYW5kCiAgICAgICAgYXNzZXJ0ICI5NTAiIGluIGJyYW5kCiAgICAgICAgYXNzZXJ0ICJ2YXIoLS1jb2xvci1icmFuZCIgaW4gYnJhbmRbIjUwMCJdCgogICAgZGVmIHRlc3RfYWRkX2ZvbnRzKHNlbGYpOgogICAgICAgICIiIlRlc3QgYWRkaW5nIGN1c3RvbSBmb250cy4iIiIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcigpCiAgICAgICAgZm9udHMgPSB7CiAgICAgICAgICAgICJzYW5zIjogWyJJbnRlciIsICJzeXN0ZW0tdWkiLCAic2Fucy1zZXJpZiJdLAogICAgICAgICAgICAiZGlzcGxheSI6IFsiUGxheWZhaXIgRGlzcGxheSIsICJzZXJpZiJdCiAgICAgICAgfQogICAgICAgIGdlbmVyYXRvci5hZGRfZm9udHMoZm9udHMpCgogICAgICAgIGZvbnRfZmFtaWx5ID0gZ2VuZXJhdG9yLmNvbmZpZ1sidGhlbWUiXVsiZXh0ZW5kIl1bImZvbnRGYW1pbHkiXQogICAgICAgIGFzc2VydCBmb250X2ZhbWlseVsic2FucyJdID09IFsiSW50ZXIiLCAic3lzdGVtLXVpIiwgInNhbnMtc2VyaWYiXQogICAgICAgIGFzc2VydCBmb250X2ZhbWlseVsiZGlzcGxheSJdID09IFsiUGxheWZhaXIgRGlzcGxheSIsICJzZXJpZiJdCgogICAgZGVmIHRlc3RfYWRkX3NwYWNpbmcoc2VsZik6CiAgICAgICAgIiIiVGVzdCBhZGRpbmcgY3VzdG9tIHNwYWNpbmcuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IoKQogICAgICAgIHNwYWNpbmcgPSB7CiAgICAgICAgICAgICIxOCI6ICI0LjVyZW0iLAogICAgICAgICAgICAibmF2YmFyIjogIjRyZW0iCiAgICAgICAgfQogICAgICAgIGdlbmVyYXRvci5hZGRfc3BhY2luZyhzcGFjaW5nKQoKICAgICAgICBzcGFjaW5nX2NvbmZpZyA9IGdlbmVyYXRvci5jb25maWdbInRoZW1lIl1bImV4dGVuZCJdWyJzcGFjaW5nIl0KICAgICAgICBhc3NlcnQgc3BhY2luZ19jb25maWdbIjE4Il0gPT0gIjQuNXJlbSIKICAgICAgICBhc3NlcnQgc3BhY2luZ19jb25maWdbIm5hdmJhciJdID09ICI0cmVtIgoKICAgIGRlZiB0ZXN0X2FkZF9icmVha3BvaW50cyhzZWxmKToKICAgICAgICAiIiJUZXN0IGFkZGluZyBjdXN0b20gYnJlYWtwb2ludHMuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IoKQogICAgICAgIGJyZWFrcG9pbnRzID0gewogICAgICAgICAgICAiM3hsIjogIjE5MjBweCIsCiAgICAgICAgICAgICJ0YWJsZXQiOiAiNzY4cHgiCiAgICAgICAgfQogICAgICAgIGdlbmVyYXRvci5hZGRfYnJlYWtwb2ludHMoYnJlYWtwb2ludHMpCgogICAgICAgIHNjcmVlbnMgPSBnZW5lcmF0b3IuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXVsic2NyZWVucyJdCiAgICAgICAgYXNzZXJ0IHNjcmVlbnNbIjN4bCJdID09ICIxOTIwcHgiCiAgICAgICAgYXNzZXJ0IHNjcmVlbnNbInRhYmxldCJdID09ICI3NjhweCIKCiAgICBkZWYgdGVzdF9hZGRfcGx1Z2lucyhzZWxmKToKICAgICAgICAiIiJUZXN0IGFkZGluZyBwbHVnaW5zLiIiIgogICAgICAgIGdlbmVyYXRvciA9IFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yKCkKICAgICAgICBwbHVnaW5zID0gWyJAdGFpbHdpbmRjc3MvdHlwb2dyYXBoeSIsICJAdGFpbHdpbmRjc3MvZm9ybXMiXQogICAgICAgIGdlbmVyYXRvci5hZGRfcGx1Z2lucyhwbHVnaW5zKQoKICAgICAgICBhc3NlcnQgIkB0YWlsd2luZGNzcy90eXBvZ3JhcGh5IiBpbiBnZW5lcmF0b3IuY29uZmlnWyJwbHVnaW5zIl0KICAgICAgICBhc3NlcnQgIkB0YWlsd2luZGNzcy9mb3JtcyIgaW4gZ2VuZXJhdG9yLmNvbmZpZ1sicGx1Z2lucyJdCgogICAgZGVmIHRlc3RfYWRkX3BsdWdpbnNfbm9fZHVwbGljYXRlcyhzZWxmKToKICAgICAgICAiIiJUZXN0IHRoYXQgYWRkaW5nIHNhbWUgcGx1Z2luIHR3aWNlIGRvZXNuJ3QgZHVwbGljYXRlLiIiIgogICAgICAgIGdlbmVyYXRvciA9IFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yKCkKICAgICAgICBnZW5lcmF0b3IuYWRkX3BsdWdpbnMoWyJAdGFpbHdpbmRjc3MvdHlwb2dyYXBoeSJdKQogICAgICAgIGdlbmVyYXRvci5hZGRfcGx1Z2lucyhbIkB0YWlsd2luZGNzcy90eXBvZ3JhcGh5Il0pCgogICAgICAgIGNvdW50ID0gZ2VuZXJhdG9yLmNvbmZpZ1sicGx1Z2lucyJdLmNvdW50KCJAdGFpbHdpbmRjc3MvdHlwb2dyYXBoeSIpCiAgICAgICAgYXNzZXJ0IGNvdW50ID09IDEKCiAgICBkZWYgdGVzdF9yZWNvbW1lbmRfcGx1Z2lucyhzZWxmKToKICAgICAgICAiIiJUZXN0IHBsdWdpbiByZWNvbW1lbmRhdGlvbnMuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IoKQogICAgICAgIHJlY29tbWVuZGF0aW9ucyA9IGdlbmVyYXRvci5yZWNvbW1lbmRfcGx1Z2lucygpCgogICAgICAgIGFzc2VydCBpc2luc3RhbmNlKHJlY29tbWVuZGF0aW9ucywgbGlzdCkKICAgICAgICBhc3NlcnQgInRhaWx3aW5kY3NzLWFuaW1hdGUiIGluIHJlY29tbWVuZGF0aW9ucwoKICAgIGRlZiB0ZXN0X3JlY29tbWVuZF9wbHVnaW5zX25leHRqcyhzZWxmKToKICAgICAgICAiIiJUZXN0IHBsdWdpbiByZWNvbW1lbmRhdGlvbnMgZm9yIE5leHQuanMuIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IoZnJhbWV3b3JrPSJuZXh0anMiKQogICAgICAgIHJlY29tbWVuZGF0aW9ucyA9IGdlbmVyYXRvci5yZWNvbW1lbmRfcGx1Z2lucygpCgogICAgICAgIGFzc2VydCAiQHRhaWx3aW5kY3NzL3R5cG9ncmFwaHkiIGluIHJlY29tbWVuZGF0aW9ucwoKICAgIGRlZiB0ZXN0X2dlbmVyYXRlX3R5cGVzY3JpcHRfY29uZmlnKHNlbGYpOgogICAgICAgICIiIlRlc3QgZ2VuZXJhdGluZyBUeXBlU2NyaXB0IGNvbmZpZ3VyYXRpb24uIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IodHlwZXNjcmlwdD1UcnVlKQogICAgICAgIGNvbmZpZyA9IGdlbmVyYXRvci5nZW5lcmF0ZV9jb25maWdfc3RyaW5nKCkKCiAgICAgICAgYXNzZXJ0ICJpbXBvcnQgdHlwZSB7IENvbmZpZyB9IGZyb20gJ3RhaWx3aW5kY3NzJyIgaW4gY29uZmlnCiAgICAgICAgYXNzZXJ0ICJjb25zdCBjb25maWc6IENvbmZpZyIgaW4gY29uZmlnCiAgICAgICAgYXNzZXJ0ICJleHBvcnQgZGVmYXVsdCBjb25maWciIGluIGNvbmZpZwoKICAgIGRlZiB0ZXN0X2dlbmVyYXRlX2phdmFzY3JpcHRfY29uZmlnKHNlbGYpOgogICAgICAgICIiIlRlc3QgZ2VuZXJhdGluZyBKYXZhU2NyaXB0IGNvbmZpZ3VyYXRpb24uIiIiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IodHlwZXNjcmlwdD1GYWxzZSkKICAgICAgICBjb25maWcgPSBnZW5lcmF0b3IuZ2VuZXJhdGVfY29uZmlnX3N0cmluZygpCgogICAgICAgIGFzc2VydCAibW9kdWxlLmV4cG9ydHMiIGluIGNvbmZpZwogICAgICAgIGFzc2VydCAiQHR5cGUiIGluIGNvbmZpZwoKICAgIGRlZiB0ZXN0X2dlbmVyYXRlX2NvbmZpZ193aXRoX2NvbG9ycyhzZWxmKToKICAgICAgICAiIiJUZXN0IGdlbmVyYXRpbmcgY29uZmlnIHdpdGggY3VzdG9tIGNvbG9ycy4iIiIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcigpCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9jb2xvcnMoeyJicmFuZCI6ICIjM2I4MmY2In0pCiAgICAgICAgY29uZmlnID0gZ2VuZXJhdG9yLmdlbmVyYXRlX2NvbmZpZ19zdHJpbmcoKQoKICAgICAgICBhc3NlcnQgImNvbG9ycyIgaW4gY29uZmlnCiAgICAgICAgYXNzZXJ0ICJicmFuZCIgaW4gY29uZmlnCgogICAgZGVmIHRlc3RfZ2VuZXJhdGVfY29uZmlnX3dpdGhfcGx1Z2lucyhzZWxmKToKICAgICAgICAiIiJUZXN0IGdlbmVyYXRpbmcgY29uZmlnIHdpdGggcGx1Z2lucy4iIiIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcigpCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9wbHVnaW5zKFsidGFpbHdpbmRjc3MtYW5pbWF0ZSJdKQogICAgICAgIGNvbmZpZyA9IGdlbmVyYXRvci5nZW5lcmF0ZV9jb25maWdfc3RyaW5nKCkKCiAgICAgICAgYXNzZXJ0ICJwbHVnaW5zOiIgaW4gY29uZmlnCiAgICAgICAgYXNzZXJ0ICJyZXF1aXJlKCd0YWlsd2luZGNzcy1hbmltYXRlJykiIGluIGNvbmZpZwoKICAgIGRlZiB0ZXN0X3ZhbGlkYXRlX2NvbmZpZ192YWxpZChzZWxmKToKICAgICAgICAiIiJUZXN0IHZhbGlkYXRpbmcgdmFsaWQgY29uZmlndXJhdGlvbi4iIiIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcigpCiAgICAgICAgdmFsaWQsIG1lc3NhZ2UgPSBnZW5lcmF0b3IudmFsaWRhdGVfY29uZmlnKCkKCiAgICAgICAgYXNzZXJ0IHZhbGlkIGlzIFRydWUKCiAgICBkZWYgdGVzdF92YWxpZGF0ZV9jb25maWdfbm9fY29udGVudChzZWxmKToKICAgICAgICAiIiJUZXN0IHZhbGlkYXRpbmcgY29uZmlnIHdpdGggbm8gY29udGVudCBwYXRocy4iIiIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcigpCiAgICAgICAgZ2VuZXJhdG9yLmNvbmZpZ1siY29udGVudCJdID0gW10KCiAgICAgICAgdmFsaWQsIG1lc3NhZ2UgPSBnZW5lcmF0b3IudmFsaWRhdGVfY29uZmlnKCkKCiAgICAgICAgYXNzZXJ0IHZhbGlkIGlzIEZhbHNlCiAgICAgICAgYXNzZXJ0ICJObyBjb250ZW50IHBhdGhzIiBpbiBtZXNzYWdlCgogICAgZGVmIHRlc3RfdmFsaWRhdGVfY29uZmlnX2VtcHR5X3RoZW1lKHNlbGYpOgogICAgICAgICIiIlRlc3QgdmFsaWRhdGluZyBjb25maWcgd2l0aCBlbXB0eSB0aGVtZSBleHRlbnNpb25zLiIiIgogICAgICAgIGdlbmVyYXRvciA9IFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yKCkKICAgICAgICAjIERlZmF1bHQgaGFzIGVtcHR5IHRoZW1lLmV4dGVuZAoKICAgICAgICB2YWxpZCwgbWVzc2FnZSA9IGdlbmVyYXRvci52YWxpZGF0ZV9jb25maWcoKQoKICAgICAgICBhc3NlcnQgdmFsaWQgaXMgVHJ1ZQogICAgICAgIGFzc2VydCAiV2FybmluZyIgaW4gbWVzc2FnZQoKICAgIGRlZiB0ZXN0X3dyaXRlX2NvbmZpZyhzZWxmLCB0bXBfcGF0aCk6CiAgICAgICAgIiIiVGVzdCB3cml0aW5nIGNvbmZpZ3VyYXRpb24gdG8gZmlsZS4iIiIKICAgICAgICBvdXRwdXRfcGF0aCA9IHRtcF9wYXRoIC8gInRhaWx3aW5kLmNvbmZpZy50cyIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcihvdXRwdXRfcGF0aD1vdXRwdXRfcGF0aCkKCiAgICAgICAgc3VjY2VzcywgbWVzc2FnZSA9IGdlbmVyYXRvci53cml0ZV9jb25maWcoKQoKICAgICAgICBhc3NlcnQgc3VjY2VzcyBpcyBUcnVlCiAgICAgICAgYXNzZXJ0IG91dHB1dF9wYXRoLmV4aXN0cygpCiAgICAgICAgYXNzZXJ0ICJ3cml0dGVuIHRvIiBpbiBtZXNzYWdlCgogICAgZGVmIHRlc3Rfd3JpdGVfY29uZmlnX2NyZWF0ZXNfY29udGVudChzZWxmLCB0bXBfcGF0aCk6CiAgICAgICAgIiIiVGVzdCB0aGF0IHdyaXR0ZW4gY29uZmlnIGNvbnRhaW5zIGV4cGVjdGVkIGNvbnRlbnQuIiIiCiAgICAgICAgb3V0cHV0X3BhdGggPSB0bXBfcGF0aCAvICJ0YWlsd2luZC5jb25maWcudHMiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3Iob3V0cHV0X3BhdGg9b3V0cHV0X3BhdGgpCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9jb2xvcnMoeyJicmFuZCI6ICIjM2I4MmY2In0pCgogICAgICAgIGdlbmVyYXRvci53cml0ZV9jb25maWcoKQoKICAgICAgICBjb250ZW50ID0gb3V0cHV0X3BhdGgucmVhZF90ZXh0KCkKICAgICAgICBhc3NlcnQgImltcG9ydCB0eXBlIHsgQ29uZmlnIH0iIGluIGNvbnRlbnQKICAgICAgICBhc3NlcnQgImJyYW5kIiBpbiBjb250ZW50CgogICAgZGVmIHRlc3Rfd3JpdGVfY29uZmlnX2ludmFsaWRfcGF0aChzZWxmKToKICAgICAgICAiIiJUZXN0IHdyaXRpbmcgY29uZmlnIHRvIGludmFsaWQgcGF0aC4iIiIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcihvdXRwdXRfcGF0aD1QYXRoKCIvaW52YWxpZC9wYXRoL2NvbmZpZy50cyIpKQoKICAgICAgICBzdWNjZXNzLCBtZXNzYWdlID0gZ2VuZXJhdG9yLndyaXRlX2NvbmZpZygpCgogICAgICAgIGFzc2VydCBzdWNjZXNzIGlzIEZhbHNlCiAgICAgICAgYXNzZXJ0ICJGYWlsZWQgdG8gd3JpdGUiIGluIG1lc3NhZ2UKCiAgICBkZWYgdGVzdF9mdWxsX2NvbmZpZ3VyYXRpb25fdHlwZXNjcmlwdChzZWxmLCB0bXBfcGF0aCk6CiAgICAgICAgIiIiVGVzdCBnZW5lcmF0aW5nIGNvbXBsZXRlIFR5cGVTY3JpcHQgY29uZmlndXJhdGlvbi4iIiIKICAgICAgICBvdXRwdXRfcGF0aCA9IHRtcF9wYXRoIC8gInRhaWx3aW5kLmNvbmZpZy50cyIKICAgICAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcigKICAgICAgICAgICAgdHlwZXNjcmlwdD1UcnVlLAogICAgICAgICAgICBmcmFtZXdvcms9Im5leHRqcyIsCiAgICAgICAgICAgIG91dHB1dF9wYXRoPW91dHB1dF9wYXRoCiAgICAgICAgKQoKICAgICAgICAjIEFkZCB2YXJpb3VzIGN1c3RvbWl6YXRpb25zCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9jb2xvcnMoeyJicmFuZCI6ICIjM2I4MmY2IiwgImFjY2VudCI6ICIjOGI1Y2Y2In0pCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9mb250cyh7InNhbnMiOiBbIkludGVyIiwgInNhbnMtc2VyaWYiXX0pCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9zcGFjaW5nKHsibmF2YmFyIjogIjRyZW0ifSkKICAgICAgICBnZW5lcmF0b3IuYWRkX2JyZWFrcG9pbnRzKHsiM3hsIjogIjE5MjBweCJ9KQogICAgICAgIGdlbmVyYXRvci5hZGRfcGx1Z2lucyhbInRhaWx3aW5kY3NzLWFuaW1hdGUiXSkKCiAgICAgICAgc3VjY2VzcywgXyA9IGdlbmVyYXRvci53cml0ZV9jb25maWcoKQogICAgICAgIGFzc2VydCBzdWNjZXNzIGlzIFRydWUKCiAgICAgICAgY29udGVudCA9IG91dHB1dF9wYXRoLnJlYWRfdGV4dCgpCgogICAgICAgICMgVmVyaWZ5IGFsbCBjdXN0b21pemF0aW9ucyBhcmUgcHJlc2VudAogICAgICAgIGFzc2VydCAiYnJhbmQiIGluIGNvbnRlbnQKICAgICAgICBhc3NlcnQgImFjY2VudCIgaW4gY29udGVudAogICAgICAgIGFzc2VydCAiSW50ZXIiIGluIGNvbnRlbnQKICAgICAgICBhc3NlcnQgIm5hdmJhciIgaW4gY29udGVudAogICAgICAgIGFzc2VydCAiM3hsIiBpbiBjb250ZW50CiAgICAgICAgYXNzZXJ0ICJ0YWlsd2luZGNzcy1hbmltYXRlIiBpbiBjb250ZW50CgogICAgZGVmIHRlc3RfZnVsbF9jb25maWd1cmF0aW9uX2phdmFzY3JpcHQoc2VsZiwgdG1wX3BhdGgpOgogICAgICAgICIiIlRlc3QgZ2VuZXJhdGluZyBjb21wbGV0ZSBKYXZhU2NyaXB0IGNvbmZpZ3VyYXRpb24uIiIiCiAgICAgICAgb3V0cHV0X3BhdGggPSB0bXBfcGF0aCAvICJ0YWlsd2luZC5jb25maWcuanMiCiAgICAgICAgZ2VuZXJhdG9yID0gVGFpbHdpbmRDb25maWdHZW5lcmF0b3IoCiAgICAgICAgICAgIHR5cGVzY3JpcHQ9RmFsc2UsCiAgICAgICAgICAgIGZyYW1ld29yaz0icmVhY3QiLAogICAgICAgICAgICBvdXRwdXRfcGF0aD1vdXRwdXRfcGF0aAogICAgICAgICkKCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9jb2xvcnMoeyJwcmltYXJ5IjogIiMzYjgyZjYifSkKICAgICAgICBnZW5lcmF0b3IuYWRkX3BsdWdpbnMoWyJAdGFpbHdpbmRjc3MvZm9ybXMiXSkKCiAgICAgICAgc3VjY2VzcywgXyA9IGdlbmVyYXRvci53cml0ZV9jb25maWcoKQogICAgICAgIGFzc2VydCBzdWNjZXNzIGlzIFRydWUKCiAgICAgICAgY29udGVudCA9IG91dHB1dF9wYXRoLnJlYWRfdGV4dCgpCgogICAgICAgIGFzc2VydCAibW9kdWxlLmV4cG9ydHMiIGluIGNvbnRlbnQKICAgICAgICBhc3NlcnQgInByaW1hcnkiIGluIGNvbnRlbnQKICAgICAgICBhc3NlcnQgIkB0YWlsd2luZGNzcy9mb3JtcyIgaW4gY29udGVudAo=
+"""Tests for tailwind_config_gen.py"""
+
+from pathlib import Path
+
+import pytest
+
+# Add parent directory to path for imports
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from tailwind_config_gen import TailwindConfigGenerator
+
+
+class TestTailwindConfigGenerator:
+    """Test TailwindConfigGenerator class."""
+
+    def test_init_default_typescript(self):
+        """Test initialization with default settings."""
+        generator = TailwindConfigGenerator()
+        assert generator.typescript is True
+        assert generator.framework == "react"
+
+    def test_init_javascript(self):
+        """Test initialization for JavaScript config."""
+        generator = TailwindConfigGenerator(typescript=False)
+        assert generator.typescript is False
+
+    def test_init_framework(self):
+        """Test initialization with different frameworks."""
+        for framework in ["react", "vue", "svelte", "nextjs"]:
+            generator = TailwindConfigGenerator(framework=framework)
+            assert generator.framework == framework
+
+    def test_default_output_path_typescript(self):
+        """Test default output path for TypeScript."""
+        generator = TailwindConfigGenerator(typescript=True)
+        assert generator.output_path.name == "tailwind.config.ts"
+
+    def test_default_output_path_javascript(self):
+        """Test default output path for JavaScript."""
+        generator = TailwindConfigGenerator(typescript=False)
+        assert generator.output_path.name == "tailwind.config.js"
+
+    def test_custom_output_path(self, tmp_path):
+        """Test custom output path."""
+        custom_path = tmp_path / "custom-config.ts"
+        generator = TailwindConfigGenerator(output_path=custom_path)
+        assert generator.output_path == custom_path
+
+    def test_base_config_structure(self):
+        """Test base configuration structure."""
+        generator = TailwindConfigGenerator()
+        config = generator.config
+
+        assert "darkMode" in config
+        assert "content" in config
+        assert "theme" in config
+        assert "plugins" in config
+        assert "extend" in config["theme"]
+
+    def test_default_content_paths_react(self):
+        """Test default content paths for React."""
+        generator = TailwindConfigGenerator(framework="react")
+        paths = generator.config["content"]
+
+        assert any("src/**/*.{js,jsx,ts,tsx}" in p for p in paths)
+        assert any("index.html" in p for p in paths)
+
+    def test_default_content_paths_nextjs(self):
+        """Test default content paths for Next.js."""
+        generator = TailwindConfigGenerator(framework="nextjs")
+        paths = generator.config["content"]
+
+        assert any("app/**" in p for p in paths)
+        assert any("pages/**" in p for p in paths)
+        assert any("components/**" in p for p in paths)
+
+    def test_default_content_paths_vue(self):
+        """Test default content paths for Vue."""
+        generator = TailwindConfigGenerator(framework="vue")
+        paths = generator.config["content"]
+
+        assert any("vue" in p for p in paths)
+
+    def test_add_colors(self):
+        """Test adding custom colors."""
+        generator = TailwindConfigGenerator()
+        colors = {
+            "brand": "#3b82f6",
+            "accent": "#8b5cf6"
+        }
+        generator.add_colors(colors)
+
+        assert "colors" in generator.config["theme"]["extend"]
+        assert generator.config["theme"]["extend"]["colors"]["brand"] == "#3b82f6"
+        assert generator.config["theme"]["extend"]["colors"]["accent"] == "#8b5cf6"
+
+    def test_add_colors_multiple_times(self):
+        """Test adding colors multiple times."""
+        generator = TailwindConfigGenerator()
+
+        generator.add_colors({"brand": "#3b82f6"})
+        generator.add_colors({"accent": "#8b5cf6"})
+
+        colors = generator.config["theme"]["extend"]["colors"]
+        assert "brand" in colors
+        assert "accent" in colors
+
+    def test_add_color_palette(self):
+        """Test adding full color palette."""
+        generator = TailwindConfigGenerator()
+        generator.add_color_palette("brand", "#3b82f6")
+
+        brand = generator.config["theme"]["extend"]["colors"]["brand"]
+
+        assert isinstance(brand, dict)
+        assert "50" in brand
+        assert "500" in brand
+        assert "950" in brand
+        assert "var(--color-brand" in brand["500"]
+
+    def test_add_fonts(self):
+        """Test adding custom fonts."""
+        generator = TailwindConfigGenerator()
+        fonts = {
+            "sans": ["Inter", "system-ui", "sans-serif"],
+            "display": ["Playfair Display", "serif"]
+        }
+        generator.add_fonts(fonts)
+
+        font_family = generator.config["theme"]["extend"]["fontFamily"]
+        assert font_family["sans"] == ["Inter", "system-ui", "sans-serif"]
+        assert font_family["display"] == ["Playfair Display", "serif"]
+
+    def test_add_spacing(self):
+        """Test adding custom spacing."""
+        generator = TailwindConfigGenerator()
+        spacing = {
+            "18": "4.5rem",
+            "navbar": "4rem"
+        }
+        generator.add_spacing(spacing)
+
+        spacing_config = generator.config["theme"]["extend"]["spacing"]
+        assert spacing_config["18"] == "4.5rem"
+        assert spacing_config["navbar"] == "4rem"
+
+    def test_add_breakpoints(self):
+        """Test adding custom breakpoints."""
+        generator = TailwindConfigGenerator()
+        breakpoints = {
+            "3xl": "1920px",
+            "tablet": "768px"
+        }
+        generator.add_breakpoints(breakpoints)
+
+        screens = generator.config["theme"]["extend"]["screens"]
+        assert screens["3xl"] == "1920px"
+        assert screens["tablet"] == "768px"
+
+    def test_add_plugins(self):
+        """Test adding plugins."""
+        generator = TailwindConfigGenerator()
+        plugins = ["@tailwindcss/typography", "@tailwindcss/forms"]
+        generator.add_plugins(plugins)
+
+        assert "@tailwindcss/typography" in generator.config["plugins"]
+        assert "@tailwindcss/forms" in generator.config["plugins"]
+
+    def test_add_plugins_no_duplicates(self):
+        """Test that adding same plugin twice doesn't duplicate."""
+        generator = TailwindConfigGenerator()
+        generator.add_plugins(["@tailwindcss/typography"])
+        generator.add_plugins(["@tailwindcss/typography"])
+
+        count = generator.config["plugins"].count("@tailwindcss/typography")
+        assert count == 1
+
+    def test_recommend_plugins(self):
+        """Test plugin recommendations."""
+        generator = TailwindConfigGenerator()
+        recommendations = generator.recommend_plugins()
+
+        assert isinstance(recommendations, list)
+        assert "tailwindcss-animate" in recommendations
+
+    def test_recommend_plugins_nextjs(self):
+        """Test plugin recommendations for Next.js."""
+        generator = TailwindConfigGenerator(framework="nextjs")
+        recommendations = generator.recommend_plugins()
+
+        assert "@tailwindcss/typography" in recommendations
+
+    def test_generate_typescript_config(self):
+        """Test generating TypeScript configuration."""
+        generator = TailwindConfigGenerator(typescript=True)
+        config = generator.generate_config_string()
+
+        assert "import type { Config } from 'tailwindcss'" in config
+        assert "const config: Config" in config
+        assert "export default config" in config
+
+    def test_generate_javascript_config(self):
+        """Test generating JavaScript configuration."""
+        generator = TailwindConfigGenerator(typescript=False)
+        config = generator.generate_config_string()
+
+        assert "module.exports" in config
+        assert "@type" in config
+
+    def test_generate_config_with_colors(self):
+        """Test generating config with custom colors."""
+        generator = TailwindConfigGenerator()
+        generator.add_colors({"brand": "#3b82f6"})
+        config = generator.generate_config_string()
+
+        assert "colors" in config
+        assert "brand" in config
+
+    def test_generate_config_with_plugins(self):
+        """Test generating config with plugins."""
+        generator = TailwindConfigGenerator()
+        generator.add_plugins(["tailwindcss-animate"])
+        config = generator.generate_config_string()
+
+        assert "plugins:" in config
+        assert "require('tailwindcss-animate')" in config
+
+    def test_validate_config_valid(self):
+        """Test validating valid configuration."""
+        generator = TailwindConfigGenerator()
+        valid, message = generator.validate_config()
+
+        assert valid is True
+
+    def test_validate_config_no_content(self):
+        """Test validating config with no content paths."""
+        generator = TailwindConfigGenerator()
+        generator.config["content"] = []
+
+        valid, message = generator.validate_config()
+
+        assert valid is False
+        assert "No content paths" in message
+
+    def test_validate_config_empty_theme(self):
+        """Test validating config with empty theme extensions."""
+        generator = TailwindConfigGenerator()
+        # Default has empty theme.extend
+
+        valid, message = generator.validate_config()
+
+        assert valid is True
+        assert "Warning" in message
+
+    def test_write_config(self, tmp_path):
+        """Test writing configuration to file."""
+        output_path = tmp_path / "tailwind.config.ts"
+        generator = TailwindConfigGenerator(output_path=output_path)
+
+        success, message = generator.write_config()
+
+        assert success is True
+        assert output_path.exists()
+        assert "written to" in message
+
+    def test_write_config_creates_content(self, tmp_path):
+        """Test that written config contains expected content."""
+        output_path = tmp_path / "tailwind.config.ts"
+        generator = TailwindConfigGenerator(output_path=output_path)
+        generator.add_colors({"brand": "#3b82f6"})
+
+        generator.write_config()
+
+        content = output_path.read_text()
+        assert "import type { Config }" in content
+        assert "brand" in content
+
+    def test_write_config_invalid_path(self):
+        """Test writing config to invalid path."""
+        generator = TailwindConfigGenerator(output_path=Path("/invalid/path/config.ts"))
+
+        success, message = generator.write_config()
+
+        assert success is False
+        assert "Failed to write" in message
+
+    def test_full_configuration_typescript(self, tmp_path):
+        """Test generating complete TypeScript configuration."""
+        output_path = tmp_path / "tailwind.config.ts"
+        generator = TailwindConfigGenerator(
+            typescript=True,
+            framework="nextjs",
+            output_path=output_path
+        )
+
+        # Add various customizations
+        generator.add_colors({"brand": "#3b82f6", "accent": "#8b5cf6"})
+        generator.add_fonts({"sans": ["Inter", "sans-serif"]})
+        generator.add_spacing({"navbar": "4rem"})
+        generator.add_breakpoints({"3xl": "1920px"})
+        generator.add_plugins(["tailwindcss-animate"])
+
+        success, _ = generator.write_config()
+        assert success is True
+
+        content = output_path.read_text()
+
+        # Verify all customizations are present
+        assert "brand" in content
+        assert "accent" in content
+        assert "Inter" in content
+        assert "navbar" in content
+        assert "3xl" in content
+        assert "tailwindcss-animate" in content
+
+    def test_full_configuration_javascript(self, tmp_path):
+        """Test generating complete JavaScript configuration."""
+        output_path = tmp_path / "tailwind.config.js"
+        generator = TailwindConfigGenerator(
+            typescript=False,
+            framework="react",
+            output_path=output_path
+        )
+
+        generator.add_colors({"primary": "#3b82f6"})
+        generator.add_plugins(["@tailwindcss/forms"])
+
+        success, _ = generator.write_config()
+        assert success is True
+
+        content = output_path.read_text()
+
+        assert "module.exports" in content
+        assert "primary" in content
+        assert "@tailwindcss/forms" in content

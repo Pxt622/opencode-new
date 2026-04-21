@@ -1,1 +1,4 @@
-SW52b2tlIGBzbGlkZXNgIHNraWxsIHRvIGNyZWF0ZSBwZXJzdWFzaXZlIEhUTUwgc2xpZGVzIHVzaW5nIGRlc2lnbiB0b2tlbnMsIENoYXJ0LmpzLCBhbmQgdGhlIHNsaWRlIGtub3dsZWRnZSBkYXRhYmFzZS4KCiMjIFRhc2sKPHRhc2s+JEFSR1VNRU5UUzwvdGFzaz4K
+Invoke `slides` skill to create persuasive HTML slides using design tokens, Chart.js, and the slide knowledge database.
+
+## Task
+<task>$ARGUMENTS</task>

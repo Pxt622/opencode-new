@@ -1,1 +1,98 @@
-IyBGaWxlcyBBUEkg4oCUIFR5cGVTY3JpcHQKClRoZSBGaWxlcyBBUEkgdXBsb2FkcyBmaWxlcyBmb3IgdXNlIGluIE1lc3NhZ2VzIEFQSSByZXF1ZXN0cy4gUmVmZXJlbmNlIGZpbGVzIHZpYSBgZmlsZV9pZGAgaW4gY29udGVudCBibG9ja3MsIGF2b2lkaW5nIHJlLXVwbG9hZHMgYWNyb3NzIG11bHRpcGxlIEFQSSBjYWxscy4KCioqQmV0YToqKiBQYXNzIGBiZXRhczogWyJmaWxlcy1hcGktMjAyNS0wNC0xNCJdYCBpbiB5b3VyIEFQSSBjYWxscyAodGhlIFNESyBzZXRzIHRoZSByZXF1aXJlZCBoZWFkZXIgYXV0b21hdGljYWxseSkuCgojIyBLZXkgRmFjdHMKCi0gTWF4aW11bSBmaWxlIHNpemU6IDUwMCBNQgotIFRvdGFsIHN0b3JhZ2U6IDEwMCBHQiBwZXIgb3JnYW5pemF0aW9uCi0gRmlsZXMgcGVyc2lzdCB1bnRpbCBkZWxldGVkCi0gRmlsZSBvcGVyYXRpb25zICh1cGxvYWQsIGxpc3QsIGRlbGV0ZSkgYXJlIGZyZWU7IGNvbnRlbnQgdXNlZCBpbiBtZXNzYWdlcyBpcyBiaWxsZWQgYXMgaW5wdXQgdG9rZW5zCi0gTm90IGF2YWlsYWJsZSBvbiBBbWF6b24gQmVkcm9jayBvciBHb29nbGUgVmVydGV4IEFJCgotLS0KCiMjIFVwbG9hZCBhIEZpbGUKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IEFudGhyb3BpYywgeyB0b0ZpbGUgfSBmcm9tICJAYW50aHJvcGljLWFpL3NkayI7CmltcG9ydCBmcyBmcm9tICJmcyI7Cgpjb25zdCBjbGllbnQgPSBuZXcgQW50aHJvcGljKCk7Cgpjb25zdCB1cGxvYWRlZCA9IGF3YWl0IGNsaWVudC5iZXRhLmZpbGVzLnVwbG9hZCh7CiAgZmlsZTogYXdhaXQgdG9GaWxlKGZzLmNyZWF0ZVJlYWRTdHJlYW0oInJlcG9ydC5wZGYiKSwgdW5kZWZpbmVkLCB7CiAgICB0eXBlOiAiYXBwbGljYXRpb24vcGRmIiwKICB9KSwKICBiZXRhczogWyJmaWxlcy1hcGktMjAyNS0wNC0xNCJdLAp9KTsKCmNvbnNvbGUubG9nKGBGaWxlIElEOiAke3VwbG9hZGVkLmlkfWApOwpjb25zb2xlLmxvZyhgU2l6ZTogJHt1cGxvYWRlZC5zaXplX2J5dGVzfSBieXRlc2ApOwpgYGAKCi0tLQoKIyMgVXNlIGEgRmlsZSBpbiBNZXNzYWdlcwoKIyMjIFBERiAvIFRleHQgRG9jdW1lbnQKCmBgYHR5cGVzY3JpcHQKY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBjbGllbnQuYmV0YS5tZXNzYWdlcy5jcmVhdGUoewogIG1vZGVsOiAiY2xhdWRlLW9wdXMtNC02IiwKICBtYXhfdG9rZW5zOiAxNjAwMCwKICBtZXNzYWdlczogWwogICAgewogICAgICByb2xlOiAidXNlciIsCiAgICAgIGNvbnRlbnQ6IFsKICAgICAgICB7IHR5cGU6ICJ0ZXh0IiwgdGV4dDogIlN1bW1hcml6ZSB0aGUga2V5IGZpbmRpbmdzIGluIHRoaXMgcmVwb3J0LiIgfSwKICAgICAgICB7CiAgICAgICAgICB0eXBlOiAiZG9jdW1lbnQiLAogICAgICAgICAgc291cmNlOiB7IHR5cGU6ICJmaWxlIiwgZmlsZV9pZDogdXBsb2FkZWQuaWQgfSwKICAgICAgICAgIHRpdGxlOiAiUTQgUmVwb3J0IiwKICAgICAgICAgIGNpdGF0aW9uczogeyBlbmFibGVkOiB0cnVlIH0sCiAgICAgICAgfSwKICAgICAgXSwKICAgIH0sCiAgXSwKICBiZXRhczogWyJmaWxlcy1hcGktMjAyNS0wNC0xNCJdLAp9KTsKCmNvbnNvbGUubG9nKHJlc3BvbnNlLmNvbnRlbnRbMF0udGV4dCk7CmBgYAoKLS0tCgojIyBNYW5hZ2UgRmlsZXMKCiMjIyBMaXN0IEZpbGVzCgpgYGB0eXBlc2NyaXB0CmNvbnN0IGZpbGVzID0gYXdhaXQgY2xpZW50LmJldGEuZmlsZXMubGlzdCh7CiAgYmV0YXM6IFsiZmlsZXMtYXBpLTIwMjUtMDQtMTQiXSwKfSk7CmZvciAoY29uc3QgZiBvZiBmaWxlcy5kYXRhKSB7CiAgY29uc29sZS5sb2coYCR7Zi5pZH06ICR7Zi5maWxlbmFtZX0gKCR7Zi5zaXplX2J5dGVzfSBieXRlcylgKTsKfQpgYGAKCiMjIyBEZWxldGUgYSBGaWxlCgpgYGB0eXBlc2NyaXB0CmF3YWl0IGNsaWVudC5iZXRhLmZpbGVzLmRlbGV0ZSgiZmlsZV8wMTFDTmhhOGlDSmNVMXdYTlI2cTRWOHciLCB7CiAgYmV0YXM6IFsiZmlsZXMtYXBpLTIwMjUtMDQtMTQiXSwKfSk7CmBgYAoKIyMjIERvd25sb2FkIGEgRmlsZQoKYGBgdHlwZXNjcmlwdApjb25zdCByZXNwb25zZSA9IGF3YWl0IGNsaWVudC5iZXRhLmZpbGVzLmRvd25sb2FkKAogICJmaWxlXzAxMUNOaGE4aUNKY1Uxd1hOUjZxNFY4dyIsCiAgeyBiZXRhczogWyJmaWxlcy1hcGktMjAyNS0wNC0xNCJdIH0sCik7CmNvbnN0IGNvbnRlbnQgPSBCdWZmZXIuZnJvbShhd2FpdCByZXNwb25zZS5hcnJheUJ1ZmZlcigpKTsKYXdhaXQgZnMucHJvbWlzZXMud3JpdGVGaWxlKCJvdXRwdXQudHh0IiwgY29udGVudCk7CmBgYAo=
+# Files API — TypeScript
+
+The Files API uploads files for use in Messages API requests. Reference files via `file_id` in content blocks, avoiding re-uploads across multiple API calls.
+
+**Beta:** Pass `betas: ["files-api-2025-04-14"]` in your API calls (the SDK sets the required header automatically).
+
+## Key Facts
+
+- Maximum file size: 500 MB
+- Total storage: 100 GB per organization
+- Files persist until deleted
+- File operations (upload, list, delete) are free; content used in messages is billed as input tokens
+- Not available on Amazon Bedrock or Google Vertex AI
+
+---
+
+## Upload a File
+
+```typescript
+import Anthropic, { toFile } from "@anthropic-ai/sdk";
+import fs from "fs";
+
+const client = new Anthropic();
+
+const uploaded = await client.beta.files.upload({
+  file: await toFile(fs.createReadStream("report.pdf"), undefined, {
+    type: "application/pdf",
+  }),
+  betas: ["files-api-2025-04-14"],
+});
+
+console.log(`File ID: ${uploaded.id}`);
+console.log(`Size: ${uploaded.size_bytes} bytes`);
+```
+
+---
+
+## Use a File in Messages
+
+### PDF / Text Document
+
+```typescript
+const response = await client.beta.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  messages: [
+    {
+      role: "user",
+      content: [
+        { type: "text", text: "Summarize the key findings in this report." },
+        {
+          type: "document",
+          source: { type: "file", file_id: uploaded.id },
+          title: "Q4 Report",
+          citations: { enabled: true },
+        },
+      ],
+    },
+  ],
+  betas: ["files-api-2025-04-14"],
+});
+
+console.log(response.content[0].text);
+```
+
+---
+
+## Manage Files
+
+### List Files
+
+```typescript
+const files = await client.beta.files.list({
+  betas: ["files-api-2025-04-14"],
+});
+for (const f of files.data) {
+  console.log(`${f.id}: ${f.filename} (${f.size_bytes} bytes)`);
+}
+```
+
+### Delete a File
+
+```typescript
+await client.beta.files.delete("file_011CNha8iCJcU1wXNR6q4V8w", {
+  betas: ["files-api-2025-04-14"],
+});
+```
+
+### Download a File
+
+```typescript
+const response = await client.beta.files.download(
+  "file_011CNha8iCJcU1wXNR6q4V8w",
+  { betas: ["files-api-2025-04-14"] },
+);
+const content = Buffer.from(await response.arrayBuffer());
+await fs.promises.writeFile("output.txt", content);
+```

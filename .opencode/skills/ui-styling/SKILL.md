@@ -1,1 +1,324 @@
-LS0tCm5hbWU6IGNrbTp1aS1zdHlsaW5nCmRlc2NyaXB0aW9uOiBDcmVhdGUgYmVhdXRpZnVsLCBhY2Nlc3NpYmxlIHVzZXIgaW50ZXJmYWNlcyB3aXRoIHNoYWRjbi91aSBjb21wb25lbnRzIChidWlsdCBvbiBSYWRpeCBVSSArIFRhaWx3aW5kKSwgVGFpbHdpbmQgQ1NTIHV0aWxpdHktZmlyc3Qgc3R5bGluZywgYW5kIGNhbnZhcy1iYXNlZCB2aXN1YWwgZGVzaWducy4gVXNlIHdoZW4gYnVpbGRpbmcgdXNlciBpbnRlcmZhY2VzLCBpbXBsZW1lbnRpbmcgZGVzaWduIHN5c3RlbXMsIGNyZWF0aW5nIHJlc3BvbnNpdmUgbGF5b3V0cywgYWRkaW5nIGFjY2Vzc2libGUgY29tcG9uZW50cyAoZGlhbG9ncywgZHJvcGRvd25zLCBmb3JtcywgdGFibGVzKSwgY3VzdG9taXppbmcgdGhlbWVzIGFuZCBjb2xvcnMsIGltcGxlbWVudGluZyBkYXJrIG1vZGUsIGdlbmVyYXRpbmcgdmlzdWFsIGRlc2lnbnMgYW5kIHBvc3RlcnMsIG9yIGVzdGFibGlzaGluZyBjb25zaXN0ZW50IHN0eWxpbmcgcGF0dGVybnMgYWNyb3NzIGFwcGxpY2F0aW9ucy4KYXJndW1lbnQtaGludDogIltjb21wb25lbnQgb3IgbGF5b3V0XSIKbGljZW5zZTogTUlUCm1ldGFkYXRhOgogIGF1dGhvcjogY2xhdWRla2l0CiAgdmVyc2lvbjogIjEuMC4wIgotLS0KCiMgVUkgU3R5bGluZyBTa2lsbAoKQ29tcHJlaGVuc2l2ZSBza2lsbCBmb3IgY3JlYXRpbmcgYmVhdXRpZnVsLCBhY2Nlc3NpYmxlIHVzZXIgaW50ZXJmYWNlcyBjb21iaW5pbmcgc2hhZGNuL3VpIGNvbXBvbmVudHMsIFRhaWx3aW5kIENTUyB1dGlsaXR5IHN0eWxpbmcsIGFuZCBjYW52YXMtYmFzZWQgdmlzdWFsIGRlc2lnbiBzeXN0ZW1zLgoKIyMgUmVmZXJlbmNlCgotIHNoYWRjbi91aTogaHR0cHM6Ly91aS5zaGFkY24uY29tL2xsbXMudHh0Ci0gVGFpbHdpbmQgQ1NTOiBodHRwczovL3RhaWx3aW5kY3NzLmNvbS9kb2NzCgojIyBXaGVuIHRvIFVzZSBUaGlzIFNraWxsCgpVc2Ugd2hlbjoKLSBCdWlsZGluZyBVSSB3aXRoIFJlYWN0LWJhc2VkIGZyYW1ld29ya3MgKE5leHQuanMsIFZpdGUsIFJlbWl4LCBBc3RybykKLSBJbXBsZW1lbnRpbmcgYWNjZXNzaWJsZSBjb21wb25lbnRzIChkaWFsb2dzLCBmb3JtcywgdGFibGVzLCBuYXZpZ2F0aW9uKQotIFN0eWxpbmcgd2l0aCB1dGlsaXR5LWZpcnN0IENTUyBhcHByb2FjaAotIENyZWF0aW5nIHJlc3BvbnNpdmUsIG1vYmlsZS1maXJzdCBsYXlvdXRzCi0gSW1wbGVtZW50aW5nIGRhcmsgbW9kZSBhbmQgdGhlbWUgY3VzdG9taXphdGlvbgotIEJ1aWxkaW5nIGRlc2lnbiBzeXN0ZW1zIHdpdGggY29uc2lzdGVudCB0b2tlbnMKLSBHZW5lcmF0aW5nIHZpc3VhbCBkZXNpZ25zLCBwb3N0ZXJzLCBvciBicmFuZCBtYXRlcmlhbHMKLSBSYXBpZCBwcm90b3R5cGluZyB3aXRoIGltbWVkaWF0ZSB2aXN1YWwgZmVlZGJhY2sKLSBBZGRpbmcgY29tcGxleCBVSSBwYXR0ZXJucyAoZGF0YSB0YWJsZXMsIGNoYXJ0cywgY29tbWFuZCBwYWxldHRlcykKCiMjIENvcmUgU3RhY2sKCiMjIyBDb21wb25lbnQgTGF5ZXI6IHNoYWRjbi91aQotIFByZS1idWlsdCBhY2Nlc3NpYmxlIGNvbXBvbmVudHMgdmlhIFJhZGl4IFVJIHByaW1pdGl2ZXMKLSBDb3B5LXBhc3RlIGRpc3RyaWJ1dGlvbiBtb2RlbCAoY29tcG9uZW50cyBsaXZlIGluIHlvdXIgY29kZWJhc2UpCi0gVHlwZVNjcmlwdC1maXJzdCB3aXRoIGZ1bGwgdHlwZSBzYWZldHkKLSBDb21wb3NhYmxlIHByaW1pdGl2ZXMgZm9yIGNvbXBsZXggVUlzCi0gQ0xJLWJhc2VkIGluc3RhbGxhdGlvbiBhbmQgbWFuYWdlbWVudAoKIyMjIFN0eWxpbmcgTGF5ZXI6IFRhaWx3aW5kIENTUwotIFV0aWxpdHktZmlyc3QgQ1NTIGZyYW1ld29yawotIEJ1aWxkLXRpbWUgcHJvY2Vzc2luZyB3aXRoIHplcm8gcnVudGltZSBvdmVyaGVhZAotIE1vYmlsZS1maXJzdCByZXNwb25zaXZlIGRlc2lnbgotIENvbnNpc3RlbnQgZGVzaWduIHRva2VucyAoY29sb3JzLCBzcGFjaW5nLCB0eXBvZ3JhcGh5KQotIEF1dG9tYXRpYyBkZWFkIGNvZGUgZWxpbWluYXRpb24KCiMjIyBWaXN1YWwgRGVzaWduIExheWVyOiBDYW52YXMKLSBNdXNldW0tcXVhbGl0eSB2aXN1YWwgY29tcG9zaXRpb25zCi0gUGhpbG9zb3BoeS1kcml2ZW4gZGVzaWduIGFwcHJvYWNoCi0gU29waGlzdGljYXRlZCB2aXN1YWwgY29tbXVuaWNhdGlvbgotIE1pbmltYWwgdGV4dCwgbWF4aW11bSB2aXN1YWwgaW1wYWN0Ci0gU3lzdGVtYXRpYyBwYXR0ZXJucyBhbmQgcmVmaW5lZCBhZXN0aGV0aWNzCgojIyBRdWljayBTdGFydAoKIyMjIENvbXBvbmVudCArIFN0eWxpbmcgU2V0dXAKCioqSW5zdGFsbCBzaGFkY24vdWkgd2l0aCBUYWlsd2luZDoqKgpgYGBiYXNoCm5weCBzaGFkY25AbGF0ZXN0IGluaXQKYGBgCgpDTEkgcHJvbXB0cyBmb3IgZnJhbWV3b3JrLCBUeXBlU2NyaXB0LCBwYXRocywgYW5kIHRoZW1lIHByZWZlcmVuY2VzLiBUaGlzIGNvbmZpZ3VyZXMgYm90aCBzaGFkY24vdWkgYW5kIFRhaWx3aW5kIENTUy4KCioqQWRkIGNvbXBvbmVudHM6KioKYGBgYmFzaApucHggc2hhZGNuQGxhdGVzdCBhZGQgYnV0dG9uIGNhcmQgZGlhbG9nIGZvcm0KYGBgCgoqKlVzZSBjb21wb25lbnRzIHdpdGggdXRpbGl0eSBzdHlsaW5nOioqCmBgYHRzeAppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIgppbXBvcnQgeyBDYXJkLCBDYXJkSGVhZGVyLCBDYXJkVGl0bGUsIENhcmRDb250ZW50IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhcmQiCgpleHBvcnQgZnVuY3Rpb24gRGFzaGJvYXJkKCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gcC02IGdyaWQgZ2FwLTYgbWQ6Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTMiPgogICAgICA8Q2FyZCBjbGFzc05hbWU9ImhvdmVyOnNoYWRvdy1sZyB0cmFuc2l0aW9uLXNoYWRvdyI+CiAgICAgICAgPENhcmRIZWFkZXI+CiAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIj5BbmFseXRpY3M8L0NhcmRUaXRsZT4KICAgICAgICA8L0NhcmRIZWFkZXI+CiAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj5WaWV3IHlvdXIgbWV0cmljczwvcD4KICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZGVmYXVsdCIgY2xhc3NOYW1lPSJ3LWZ1bGwiPgogICAgICAgICAgICBWaWV3IERldGFpbHMKICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgIDwvQ2FyZENvbnRlbnQ+CiAgICAgIDwvQ2FyZD4KICAgIDwvZGl2PgogICkKfQpgYGAKCiMjIyBBbHRlcm5hdGl2ZTogVGFpbHdpbmQtT25seSBTZXR1cAoKKipWaXRlIHByb2plY3RzOioqCmBgYGJhc2gKbnBtIGluc3RhbGwgLUQgdGFpbHdpbmRjc3MgQHRhaWx3aW5kY3NzL3ZpdGUKYGBgCgpgYGBqYXZhc2NyaXB0Ci8vIHZpdGUuY29uZmlnLnRzCmltcG9ydCB0YWlsd2luZGNzcyBmcm9tICdAdGFpbHdpbmRjc3Mvdml0ZScKZXhwb3J0IGRlZmF1bHQgeyBwbHVnaW5zOiBbdGFpbHdpbmRjc3MoKV0gfQpgYGAKCmBgYGNzcwovKiBzcmMvaW5kZXguY3NzICovCkBpbXBvcnQgInRhaWx3aW5kY3NzIjsKYGBgCgojIyBDb21wb25lbnQgTGlicmFyeSBHdWlkZQoKKipDb21wcmVoZW5zaXZlIGNvbXBvbmVudCBjYXRhbG9nIHdpdGggdXNhZ2UgcGF0dGVybnMsIGluc3RhbGxhdGlvbiwgYW5kIGNvbXBvc2l0aW9uIGV4YW1wbGVzLioqCgpTZWU6IGByZWZlcmVuY2VzL3NoYWRjbi1jb21wb25lbnRzLm1kYAoKQ292ZXJzOgotIEZvcm0gJiBpbnB1dCBjb21wb25lbnRzIChCdXR0b24sIElucHV0LCBTZWxlY3QsIENoZWNrYm94LCBEYXRlIFBpY2tlciwgRm9ybSB2YWxpZGF0aW9uKQotIExheW91dCAmIG5hdmlnYXRpb24gKENhcmQsIFRhYnMsIEFjY29yZGlvbiwgTmF2aWdhdGlvbiBNZW51KQotIE92ZXJsYXlzICYgZGlhbG9ncyAoRGlhbG9nLCBEcmF3ZXIsIFBvcG92ZXIsIFRvYXN0LCBDb21tYW5kKQotIEZlZWRiYWNrICYgc3RhdHVzIChBbGVydCwgUHJvZ3Jlc3MsIFNrZWxldG9uKQotIERpc3BsYXkgY29tcG9uZW50cyAoVGFibGUsIERhdGEgVGFibGUsIEF2YXRhciwgQmFkZ2UpCgojIyBUaGVtZSAmIEN1c3RvbWl6YXRpb24KCioqVGhlbWUgY29uZmlndXJhdGlvbiwgQ1NTIHZhcmlhYmxlcywgZGFyayBtb2RlIGltcGxlbWVudGF0aW9uLCBhbmQgY29tcG9uZW50IGN1c3RvbWl6YXRpb24uKioKClNlZTogYHJlZmVyZW5jZXMvc2hhZGNuLXRoZW1pbmcubWRgCgpDb3ZlcnM6Ci0gRGFyayBtb2RlIHNldHVwIHdpdGggbmV4dC10aGVtZXMKLSBDU1MgdmFyaWFibGUgc3lzdGVtCi0gQ29sb3IgY3VzdG9taXphdGlvbiBhbmQgcGFsZXR0ZXMKLSBDb21wb25lbnQgdmFyaWFudCBjdXN0b21pemF0aW9uCi0gVGhlbWUgdG9nZ2xlIGltcGxlbWVudGF0aW9uCgojIyBBY2Nlc3NpYmlsaXR5IFBhdHRlcm5zCgoqKkFSSUEgcGF0dGVybnMsIGtleWJvYXJkIG5hdmlnYXRpb24sIHNjcmVlbiByZWFkZXIgc3VwcG9ydCwgYW5kIGFjY2Vzc2libGUgY29tcG9uZW50IHVzYWdlLioqCgpTZWU6IGByZWZlcmVuY2VzL3NoYWRjbi1hY2Nlc3NpYmlsaXR5Lm1kYAoKQ292ZXJzOgotIFJhZGl4IFVJIGFjY2Vzc2liaWxpdHkgZmVhdHVyZXMKLSBLZXlib2FyZCBuYXZpZ2F0aW9uIHBhdHRlcm5zCi0gRm9jdXMgbWFuYWdlbWVudAotIFNjcmVlbiByZWFkZXIgYW5ub3VuY2VtZW50cwotIEZvcm0gdmFsaWRhdGlvbiBhY2Nlc3NpYmlsaXR5CgojIyBUYWlsd2luZCBVdGlsaXRpZXMKCioqQ29yZSB1dGlsaXR5IGNsYXNzZXMgZm9yIGxheW91dCwgc3BhY2luZywgdHlwb2dyYXBoeSwgY29sb3JzLCBib3JkZXJzLCBhbmQgc2hhZG93cy4qKgoKU2VlOiBgcmVmZXJlbmNlcy90YWlsd2luZC11dGlsaXRpZXMubWRgCgpDb3ZlcnM6Ci0gTGF5b3V0IHV0aWxpdGllcyAoRmxleGJveCwgR3JpZCwgcG9zaXRpb25pbmcpCi0gU3BhY2luZyBzeXN0ZW0gKHBhZGRpbmcsIG1hcmdpbiwgZ2FwKQotIFR5cG9ncmFwaHkgKGZvbnQgc2l6ZXMsIHdlaWdodHMsIGFsaWdubWVudCwgbGluZSBoZWlnaHQpCi0gQ29sb3JzIGFuZCBiYWNrZ3JvdW5kcwotIEJvcmRlcnMgYW5kIHNoYWRvd3MKLSBBcmJpdHJhcnkgdmFsdWVzIGZvciBjdXN0b20gc3R5bGluZwoKIyMgUmVzcG9uc2l2ZSBEZXNpZ24KCioqTW9iaWxlLWZpcnN0IGJyZWFrcG9pbnRzLCByZXNwb25zaXZlIHV0aWxpdGllcywgYW5kIGFkYXB0aXZlIGxheW91dHMuKioKClNlZTogYHJlZmVyZW5jZXMvdGFpbHdpbmQtcmVzcG9uc2l2ZS5tZGAKCkNvdmVyczoKLSBNb2JpbGUtZmlyc3QgYXBwcm9hY2gKLSBCcmVha3BvaW50IHN5c3RlbSAoc20sIG1kLCBsZywgeGwsIDJ4bCkKLSBSZXNwb25zaXZlIHV0aWxpdHkgcGF0dGVybnMKLSBDb250YWluZXIgcXVlcmllcwotIE1heC13aWR0aCBxdWVyaWVzCi0gQ3VzdG9tIGJyZWFrcG9pbnRzCgojIyBUYWlsd2luZCBDdXN0b21pemF0aW9uCgoqKkNvbmZpZyBmaWxlIHN0cnVjdHVyZSwgY3VzdG9tIHV0aWxpdGllcywgcGx1Z2lucywgYW5kIHRoZW1lIGV4dGVuc2lvbnMuKioKClNlZTogYHJlZmVyZW5jZXMvdGFpbHdpbmQtY3VzdG9taXphdGlvbi5tZGAKCkNvdmVyczoKLSBAdGhlbWUgZGlyZWN0aXZlIGZvciBjdXN0b20gdG9rZW5zCi0gQ3VzdG9tIGNvbG9ycyBhbmQgZm9udHMKLSBTcGFjaW5nIGFuZCBicmVha3BvaW50IGV4dGVuc2lvbnMKLSBDdXN0b20gdXRpbGl0eSBjcmVhdGlvbgotIEN1c3RvbSB2YXJpYW50cwotIExheWVyIG9yZ2FuaXphdGlvbiAoQGxheWVyIGJhc2UsIGNvbXBvbmVudHMsIHV0aWxpdGllcykKLSBBcHBseSBkaXJlY3RpdmUgZm9yIGNvbXBvbmVudCBleHRyYWN0aW9uCgojIyBWaXN1YWwgRGVzaWduIFN5c3RlbQoKKipDYW52YXMtYmFzZWQgZGVzaWduIHBoaWxvc29waHksIHZpc3VhbCBjb21tdW5pY2F0aW9uIHByaW5jaXBsZXMsIGFuZCBzb3BoaXN0aWNhdGVkIGNvbXBvc2l0aW9ucy4qKgoKU2VlOiBgcmVmZXJlbmNlcy9jYW52YXMtZGVzaWduLXN5c3RlbS5tZGAKCkNvdmVyczoKLSBEZXNpZ24gcGhpbG9zb3BoeSBhcHByb2FjaAotIFZpc3VhbCBjb21tdW5pY2F0aW9uIG92ZXIgdGV4dAotIFN5c3RlbWF0aWMgcGF0dGVybnMgYW5kIGNvbXBvc2l0aW9uCi0gQ29sb3IsIGZvcm0sIGFuZCBzcGF0aWFsIGRlc2lnbgotIE1pbmltYWwgdGV4dCBpbnRlZ3JhdGlvbgotIE11c2V1bS1xdWFsaXR5IGV4ZWN1dGlvbgotIE11bHRpLXBhZ2UgZGVzaWduIHN5c3RlbXMKCiMjIFV0aWxpdHkgU2NyaXB0cwoKKipQeXRob24gYXV0b21hdGlvbiBmb3IgY29tcG9uZW50IGluc3RhbGxhdGlvbiBhbmQgY29uZmlndXJhdGlvbiBnZW5lcmF0aW9uLioqCgojIyMgc2hhZGNuX2FkZC5weQpBZGQgc2hhZGNuL3VpIGNvbXBvbmVudHMgd2l0aCBkZXBlbmRlbmN5IGhhbmRsaW5nOgpgYGBiYXNoCnB5dGhvbiBzY3JpcHRzL3NoYWRjbl9hZGQucHkgYnV0dG9uIGNhcmQgZGlhbG9nCmBgYAoKIyMjIHRhaWx3aW5kX2NvbmZpZ19nZW4ucHkKR2VuZXJhdGUgdGFpbHdpbmQuY29uZmlnLmpzIHdpdGggY3VzdG9tIHRoZW1lOgpgYGBiYXNoCnB5dGhvbiBzY3JpcHRzL3RhaWx3aW5kX2NvbmZpZ19nZW4ucHkgLS1jb2xvcnMgYnJhbmQ6Ymx1ZSAtLWZvbnRzIGRpc3BsYXk6SW50ZXIKYGBgCgojIyBCZXN0IFByYWN0aWNlcwoKMS4gKipDb21wb25lbnQgQ29tcG9zaXRpb24qKjogQnVpbGQgY29tcGxleCBVSXMgZnJvbSBzaW1wbGUsIGNvbXBvc2FibGUgcHJpbWl0aXZlcwoyLiAqKlV0aWxpdHktRmlyc3QgU3R5bGluZyoqOiBVc2UgVGFpbHdpbmQgY2xhc3NlcyBkaXJlY3RseTsgZXh0cmFjdCBjb21wb25lbnRzIG9ubHkgZm9yIHRydWUgcmVwZXRpdGlvbgozLiAqKk1vYmlsZS1GaXJzdCBSZXNwb25zaXZlKio6IFN0YXJ0IHdpdGggbW9iaWxlIHN0eWxlcywgbGF5ZXIgcmVzcG9uc2l2ZSB2YXJpYW50cwo0LiAqKkFjY2Vzc2liaWxpdHktRmlyc3QqKjogTGV2ZXJhZ2UgUmFkaXggVUkgcHJpbWl0aXZlcywgYWRkIGZvY3VzIHN0YXRlcywgdXNlIHNlbWFudGljIEhUTUwKNS4gKipEZXNpZ24gVG9rZW5zKio6IFVzZSBjb25zaXN0ZW50IHNwYWNpbmcgc2NhbGUsIGNvbG9yIHBhbGV0dGVzLCB0eXBvZ3JhcGh5IHN5c3RlbQo2LiAqKkRhcmsgTW9kZSBDb25zaXN0ZW5jeSoqOiBBcHBseSBkYXJrIHZhcmlhbnRzIHRvIGFsbCB0aGVtZWQgZWxlbWVudHMKNy4gKipQZXJmb3JtYW5jZSoqOiBMZXZlcmFnZSBhdXRvbWF0aWMgQ1NTIHB1cmdpbmcsIGF2b2lkIGR5bmFtaWMgY2xhc3MgbmFtZXMKOC4gKipUeXBlU2NyaXB0Kio6IFVzZSBmdWxsIHR5cGUgc2FmZXR5IGZvciBiZXR0ZXIgRFgKOS4gKipWaXN1YWwgSGllcmFyY2h5Kio6IExldCBjb21wb3NpdGlvbiBndWlkZSBhdHRlbnRpb24sIHVzZSBzcGFjaW5nIGFuZCBjb2xvciBpbnRlbnRpb25hbGx5CjEwLiAqKkV4cGVydCBDcmFmdHNtYW5zaGlwKio6IEV2ZXJ5IGRldGFpbCBtYXR0ZXJzIC0gdHJlYXQgVUkgYXMgYSBjcmFmdAoKIyMgUmVmZXJlbmNlIE5hdmlnYXRpb24KCioqQ29tcG9uZW50IExpYnJhcnkqKgotIGByZWZlcmVuY2VzL3NoYWRjbi1jb21wb25lbnRzLm1kYCAtIENvbXBsZXRlIGNvbXBvbmVudCBjYXRhbG9nCi0gYHJlZmVyZW5jZXMvc2hhZGNuLXRoZW1pbmcubWRgIC0gVGhlbWluZyBhbmQgY3VzdG9taXphdGlvbgotIGByZWZlcmVuY2VzL3NoYWRjbi1hY2Nlc3NpYmlsaXR5Lm1kYCAtIEFjY2Vzc2liaWxpdHkgcGF0dGVybnMKCioqU3R5bGluZyBTeXN0ZW0qKgotIGByZWZlcmVuY2VzL3RhaWx3aW5kLXV0aWxpdGllcy5tZGAgLSBDb3JlIHV0aWxpdHkgY2xhc3NlcwotIGByZWZlcmVuY2VzL3RhaWx3aW5kLXJlc3BvbnNpdmUubWRgIC0gUmVzcG9uc2l2ZSBkZXNpZ24KLSBgcmVmZXJlbmNlcy90YWlsd2luZC1jdXN0b21pemF0aW9uLm1kYCAtIENvbmZpZ3VyYXRpb24gYW5kIGV4dGVuc2lvbnMKCioqVmlzdWFsIERlc2lnbioqCi0gYHJlZmVyZW5jZXMvY2FudmFzLWRlc2lnbi1zeXN0ZW0ubWRgIC0gRGVzaWduIHBoaWxvc29waHkgYW5kIGNhbnZhcyB3b3JrZmxvd3MKCioqQXV0b21hdGlvbioqCi0gYHNjcmlwdHMvc2hhZGNuX2FkZC5weWAgLSBDb21wb25lbnQgaW5zdGFsbGF0aW9uCi0gYHNjcmlwdHMvdGFpbHdpbmRfY29uZmlnX2dlbi5weWAgLSBDb25maWcgZ2VuZXJhdGlvbgoKIyMgQ29tbW9uIFBhdHRlcm5zCgoqKkZvcm0gd2l0aCB2YWxpZGF0aW9uOioqCmBgYHRzeAppbXBvcnQgeyB1c2VGb3JtIH0gZnJvbSAicmVhY3QtaG9vay1mb3JtIgppbXBvcnQgeyB6b2RSZXNvbHZlciB9IGZyb20gIkBob29rZm9ybS9yZXNvbHZlcnMvem9kIgppbXBvcnQgKiBhcyB6IGZyb20gInpvZCIKaW1wb3J0IHsgRm9ybSwgRm9ybUZpZWxkLCBGb3JtSXRlbSwgRm9ybUxhYmVsLCBGb3JtQ29udHJvbCwgRm9ybU1lc3NhZ2UgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZm9ybSIKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiCmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iCgpjb25zdCBzY2hlbWEgPSB6Lm9iamVjdCh7CiAgZW1haWw6IHouc3RyaW5nKCkuZW1haWwoKSwKICBwYXNzd29yZDogei5zdHJpbmcoKS5taW4oOCkKfSkKCmV4cG9ydCBmdW5jdGlvbiBMb2dpbkZvcm0oKSB7CiAgY29uc3QgZm9ybSA9IHVzZUZvcm0oewogICAgcmVzb2x2ZXI6IHpvZFJlc29sdmVyKHNjaGVtYSksCiAgICBkZWZhdWx0VmFsdWVzOiB7IGVtYWlsOiAiIiwgcGFzc3dvcmQ6ICIiIH0KICB9KQoKICByZXR1cm4gKAogICAgPEZvcm0gey4uLmZvcm19PgogICAgICA8Zm9ybSBvblN1Ym1pdD17Zm9ybS5oYW5kbGVTdWJtaXQoY29uc29sZS5sb2cpfSBjbGFzc05hbWU9InNwYWNlLXktNiI+CiAgICAgICAgPEZvcm1GaWVsZCBjb250cm9sPXtmb3JtLmNvbnRyb2x9IG5hbWU9ImVtYWlsIiByZW5kZXI9eyh7IGZpZWxkIH0pID0+ICgKICAgICAgICAgIDxGb3JtSXRlbT4KICAgICAgICAgICAgPEZvcm1MYWJlbD5FbWFpbDwvRm9ybUxhYmVsPgogICAgICAgICAgICA8Rm9ybUNvbnRyb2w+CiAgICAgICAgICAgICAgPElucHV0IHR5cGU9ImVtYWlsIiB7Li4uZmllbGR9IC8+CiAgICAgICAgICAgIDwvRm9ybUNvbnRyb2w+CiAgICAgICAgICAgIDxGb3JtTWVzc2FnZSAvPgogICAgICAgICAgPC9Gb3JtSXRlbT4KICAgICAgICApfSAvPgogICAgICAgIDxCdXR0b24gdHlwZT0ic3VibWl0IiBjbGFzc05hbWU9InctZnVsbCI+U2lnbiBJbjwvQnV0dG9uPgogICAgICA8L2Zvcm0+CiAgICA8L0Zvcm0+CiAgKQp9CmBgYAoKKipSZXNwb25zaXZlIGxheW91dCB3aXRoIGRhcmsgbW9kZToqKgpgYGB0c3gKPGRpdiBjbGFzc05hbWU9Im1pbi1oLXNjcmVlbiBiZy13aGl0ZSBkYXJrOmJnLWdyYXktOTAwIj4KICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIG14LWF1dG8gcHgtNCBweS04Ij4KICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy0zIGdhcC02Ij4KICAgICAgPENhcmQgY2xhc3NOYW1lPSJiZy13aGl0ZSBkYXJrOmJnLWdyYXktODAwIGJvcmRlci1ncmF5LTIwMCBkYXJrOmJvcmRlci1ncmF5LTcwMCI+CiAgICAgICAgPENhcmRDb250ZW50IGNsYXNzTmFtZT0icC02Ij4KICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LWdyYXktOTAwIGRhcms6dGV4dC13aGl0ZSI+CiAgICAgICAgICAgIENvbnRlbnQKICAgICAgICAgIDwvaDM+CiAgICAgICAgPC9DYXJkQ29udGVudD4KICAgICAgPC9DYXJkPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvZGl2PgpgYGAKCiMjIFJlc291cmNlcwoKLSBzaGFkY24vdWkgRG9jczogaHR0cHM6Ly91aS5zaGFkY24uY29tCi0gVGFpbHdpbmQgQ1NTIERvY3M6IGh0dHBzOi8vdGFpbHdpbmRjc3MuY29tCi0gUmFkaXggVUk6IGh0dHBzOi8vcmFkaXgtdWkuY29tCi0gVGFpbHdpbmQgVUk6IGh0dHBzOi8vdGFpbHdpbmR1aS5jb20KLSBIZWFkbGVzcyBVSTogaHR0cHM6Ly9oZWFkbGVzc3VpLmNvbQotIHYwIChBSSBVSSBHZW5lcmF0b3IpOiBodHRwczovL3YwLmRldgo=
+---
+name: ckm:ui-styling
+description: Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating responsive layouts, adding accessible components (dialogs, dropdowns, forms, tables), customizing themes and colors, implementing dark mode, generating visual designs and posters, or establishing consistent styling patterns across applications.
+argument-hint: "[component or layout]"
+license: MIT
+metadata:
+  author: claudekit
+  version: "1.0.0"
+---
+
+# UI Styling Skill
+
+Comprehensive skill for creating beautiful, accessible user interfaces combining shadcn/ui components, Tailwind CSS utility styling, and canvas-based visual design systems.
+
+## Reference
+
+- shadcn/ui: https://ui.shadcn.com/llms.txt
+- Tailwind CSS: https://tailwindcss.com/docs
+
+## When to Use This Skill
+
+Use when:
+- Building UI with React-based frameworks (Next.js, Vite, Remix, Astro)
+- Implementing accessible components (dialogs, forms, tables, navigation)
+- Styling with utility-first CSS approach
+- Creating responsive, mobile-first layouts
+- Implementing dark mode and theme customization
+- Building design systems with consistent tokens
+- Generating visual designs, posters, or brand materials
+- Rapid prototyping with immediate visual feedback
+- Adding complex UI patterns (data tables, charts, command palettes)
+
+## Core Stack
+
+### Component Layer: shadcn/ui
+- Pre-built accessible components via Radix UI primitives
+- Copy-paste distribution model (components live in your codebase)
+- TypeScript-first with full type safety
+- Composable primitives for complex UIs
+- CLI-based installation and management
+
+### Styling Layer: Tailwind CSS
+- Utility-first CSS framework
+- Build-time processing with zero runtime overhead
+- Mobile-first responsive design
+- Consistent design tokens (colors, spacing, typography)
+- Automatic dead code elimination
+
+### Visual Design Layer: Canvas
+- Museum-quality visual compositions
+- Philosophy-driven design approach
+- Sophisticated visual communication
+- Minimal text, maximum visual impact
+- Systematic patterns and refined aesthetics
+
+## Quick Start
+
+### Component + Styling Setup
+
+**Install shadcn/ui with Tailwind:**
+```bash
+npx shadcn@latest init
+```
+
+CLI prompts for framework, TypeScript, paths, and theme preferences. This configures both shadcn/ui and Tailwind CSS.
+
+**Add components:**
+```bash
+npx shadcn@latest add button card dialog form
+```
+
+**Use components with utility styling:**
+```tsx
+import { Button } from "@/components/ui/button"
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
+
+export function Dashboard() {
+  return (
+    <div className="container mx-auto p-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <Card className="hover:shadow-lg transition-shadow">
+        <CardHeader>
+          <CardTitle className="text-2xl font-bold">Analytics</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          <p className="text-muted-foreground">View your metrics</p>
+          <Button variant="default" className="w-full">
+            View Details
+          </Button>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}
+```
+
+### Alternative: Tailwind-Only Setup
+
+**Vite projects:**
+```bash
+npm install -D tailwindcss @tailwindcss/vite
+```
+
+```javascript
+// vite.config.ts
+import tailwindcss from '@tailwindcss/vite'
+export default { plugins: [tailwindcss()] }
+```
+
+```css
+/* src/index.css */
+@import "tailwindcss";
+```
+
+## Component Library Guide
+
+**Comprehensive component catalog with usage patterns, installation, and composition examples.**
+
+See: `references/shadcn-components.md`
+
+Covers:
+- Form & input components (Button, Input, Select, Checkbox, Date Picker, Form validation)
+- Layout & navigation (Card, Tabs, Accordion, Navigation Menu)
+- Overlays & dialogs (Dialog, Drawer, Popover, Toast, Command)
+- Feedback & status (Alert, Progress, Skeleton)
+- Display components (Table, Data Table, Avatar, Badge)
+
+## Theme & Customization
+
+**Theme configuration, CSS variables, dark mode implementation, and component customization.**
+
+See: `references/shadcn-theming.md`
+
+Covers:
+- Dark mode setup with next-themes
+- CSS variable system
+- Color customization and palettes
+- Component variant customization
+- Theme toggle implementation
+
+## Accessibility Patterns
+
+**ARIA patterns, keyboard navigation, screen reader support, and accessible component usage.**
+
+See: `references/shadcn-accessibility.md`
+
+Covers:
+- Radix UI accessibility features
+- Keyboard navigation patterns
+- Focus management
+- Screen reader announcements
+- Form validation accessibility
+
+## Tailwind Utilities
+
+**Core utility classes for layout, spacing, typography, colors, borders, and shadows.**
+
+See: `references/tailwind-utilities.md`
+
+Covers:
+- Layout utilities (Flexbox, Grid, positioning)
+- Spacing system (padding, margin, gap)
+- Typography (font sizes, weights, alignment, line height)
+- Colors and backgrounds
+- Borders and shadows
+- Arbitrary values for custom styling
+
+## Responsive Design
+
+**Mobile-first breakpoints, responsive utilities, and adaptive layouts.**
+
+See: `references/tailwind-responsive.md`
+
+Covers:
+- Mobile-first approach
+- Breakpoint system (sm, md, lg, xl, 2xl)
+- Responsive utility patterns
+- Container queries
+- Max-width queries
+- Custom breakpoints
+
+## Tailwind Customization
+
+**Config file structure, custom utilities, plugins, and theme extensions.**
+
+See: `references/tailwind-customization.md`
+
+Covers:
+- @theme directive for custom tokens
+- Custom colors and fonts
+- Spacing and breakpoint extensions
+- Custom utility creation
+- Custom variants
+- Layer organization (@layer base, components, utilities)
+- Apply directive for component extraction
+
+## Visual Design System
+
+**Canvas-based design philosophy, visual communication principles, and sophisticated compositions.**
+
+See: `references/canvas-design-system.md`
+
+Covers:
+- Design philosophy approach
+- Visual communication over text
+- Systematic patterns and composition
+- Color, form, and spatial design
+- Minimal text integration
+- Museum-quality execution
+- Multi-page design systems
+
+## Utility Scripts
+
+**Python automation for component installation and configuration generation.**
+
+### shadcn_add.py
+Add shadcn/ui components with dependency handling:
+```bash
+python scripts/shadcn_add.py button card dialog
+```
+
+### tailwind_config_gen.py
+Generate tailwind.config.js with custom theme:
+```bash
+python scripts/tailwind_config_gen.py --colors brand:blue --fonts display:Inter
+```
+
+## Best Practices
+
+1. **Component Composition**: Build complex UIs from simple, composable primitives
+2. **Utility-First Styling**: Use Tailwind classes directly; extract components only for true repetition
+3. **Mobile-First Responsive**: Start with mobile styles, layer responsive variants
+4. **Accessibility-First**: Leverage Radix UI primitives, add focus states, use semantic HTML
+5. **Design Tokens**: Use consistent spacing scale, color palettes, typography system
+6. **Dark Mode Consistency**: Apply dark variants to all themed elements
+7. **Performance**: Leverage automatic CSS purging, avoid dynamic class names
+8. **TypeScript**: Use full type safety for better DX
+9. **Visual Hierarchy**: Let composition guide attention, use spacing and color intentionally
+10. **Expert Craftsmanship**: Every detail matters - treat UI as a craft
+
+## Reference Navigation
+
+**Component Library**
+- `references/shadcn-components.md` - Complete component catalog
+- `references/shadcn-theming.md` - Theming and customization
+- `references/shadcn-accessibility.md` - Accessibility patterns
+
+**Styling System**
+- `references/tailwind-utilities.md` - Core utility classes
+- `references/tailwind-responsive.md` - Responsive design
+- `references/tailwind-customization.md` - Configuration and extensions
+
+**Visual Design**
+- `references/canvas-design-system.md` - Design philosophy and canvas workflows
+
+**Automation**
+- `scripts/shadcn_add.py` - Component installation
+- `scripts/tailwind_config_gen.py` - Config generation
+
+## Common Patterns
+
+**Form with validation:**
+```tsx
+import { useForm } from "react-hook-form"
+import { zodResolver } from "@hookform/resolvers/zod"
+import * as z from "zod"
+import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "@/components/ui/form"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
+
+const schema = z.object({
+  email: z.string().email(),
+  password: z.string().min(8)
+})
+
+export function LoginForm() {
+  const form = useForm({
+    resolver: zodResolver(schema),
+    defaultValues: { email: "", password: "" }
+  })
+
+  return (
+    <Form {...form}>
+      <form onSubmit={form.handleSubmit(console.log)} className="space-y-6">
+        <FormField control={form.control} name="email" render={({ field }) => (
+          <FormItem>
+            <FormLabel>Email</FormLabel>
+            <FormControl>
+              <Input type="email" {...field} />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        )} />
+        <Button type="submit" className="w-full">Sign In</Button>
+      </form>
+    </Form>
+  )
+}
+```
+
+**Responsive layout with dark mode:**
+```tsx
+<div className="min-h-screen bg-white dark:bg-gray-900">
+  <div className="container mx-auto px-4 py-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <Card className="bg-white dark:bg-gray-800 border-gray-200 dark:border-gray-700">
+        <CardContent className="p-6">
+          <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+            Content
+          </h3>
+        </CardContent>
+      </Card>
+    </div>
+  </div>
+</div>
+```
+
+## Resources
+
+- shadcn/ui Docs: https://ui.shadcn.com
+- Tailwind CSS Docs: https://tailwindcss.com
+- Radix UI: https://radix-ui.com
+- Tailwind UI: https://tailwindui.com
+- Headless UI: https://headlessui.com
+- v0 (AI UI Generator): https://v0.dev

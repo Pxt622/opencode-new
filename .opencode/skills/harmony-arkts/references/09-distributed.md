@@ -1,1 +1,111 @@
-IyBIYXJtb255T1Mg5YiG5biD5byP6IO95Yqb5LiO5pyN5Yqh5Y2h54mHCgojIyDliIbluIPlvI/ku7vliqHosIPluqYKCkhhcm1vbnlPUyDmj5Dkvpvnu5/kuIDnmoTliIbluIPlvI/ku7vliqHosIPluqbog73lipvvvIzmlK/mjIHot6jorr7lpIfnmoTlupTnlKjlkK/liqjjgIHov5znqIvosIPnlKjlkozkuJrliqHov4Hnp7vjgIIKCiMjIyDln7rmnKznuqbmnZ8KCi0g6ZyA6KaB5ZyoIEludGVudCDkuK3orr7nva7mlK/mjIHliIbluIPlvI/nmoTmoIforrAKLSDpnIDopoHlnKggYGNvbmZpZy5qc29uYCDkuK3mt7vliqDmnYPpmZDnlLPor7cKCmBgYGpzb24KInJlcVBlcm1pc3Npb25zIjogWwogIHsgIm5hbWUiOiAib2hvcy5wZXJtaXNzaW9uLkRJU1RSSUJVVEVEX0RBVEFTWU5DIiB9Cl0KYGBgCgojIyMg5YiG5biD5byP5ZCv5YqoIFBhZ2UgQWJpbGl0eQoKYGBgdHlwZXNjcmlwdAppbXBvcnQgZmVhdHVyZUFiaWxpdHkgZnJvbSAnQG9ob3MuYWJpbGl0eS5mZWF0dXJlQWJpbGl0eScKCi8vIOiOt+WPluiuvuWkh+WIl+ihqAppbXBvcnQgZGV2aWNlTWFuYWdlciBmcm9tICdAb2hvcy5kaXN0cmlidXRlZEhhcmR3YXJlLmRldmljZU1hbmFnZXInCgpsZXQgZGV2aWNlTGlzdCA9IGRldmljZU1hbmFnZXIucXVlcnlEZXZpY2VzKAogIGRldmljZU1hbmFnZXIuRGV2aWNlVHlwZS5ERVZJQ0VfVFlQRV9QSE9ORQopCgovLyDlkK/liqjov5znqIsgQWJpbGl0eQpsZXQgd2FudCA9IHsKICBidW5kbGVOYW1lOiAnY29tLmV4YW1wbGUubXlhcHAnLAogIGFiaWxpdHlOYW1lOiAnY29tLmV4YW1wbGUubXlhcHAuTWFpbkFiaWxpdHknLAogIGRldmljZUlkOiBkZXZpY2VMaXN0WzBdLmRldmljZUlkLCAgLy8g5oyH5a6a6K6+5aSHCiAgZmxhZ3M6IDB4MDEwMDAwMDAgIC8vIOaUr+aMgeWIhuW4g+W8j+eahOagh+iusAp9CgpmZWF0dXJlQWJpbGl0eS5zdGFydEFiaWxpdHkod2FudCkKYGBgCgojIyMg5Lia5Yqh6L+B56e7CgpgYGB0eXBlc2NyaXB0CmltcG9ydCBwYXJ0aWNsZUFiaWxpdHkgZnJvbSAnQG9ob3MuYWJpbGl0eS5wYXJ0aWNsZUFiaWxpdHknCgovLyDov4Hnp7vliLDlhbbku5borr7lpIcKbGV0IHdhbnQgPSB7CiAgYnVuZGxlTmFtZTogJ2NvbS5leGFtcGxlLm15YXBwJywKICBhYmlsaXR5TmFtZTogJ01haW5BYmlsaXR5JywKICBkZXZpY2VJZDogdGFyZ2V0RGV2aWNlSWQKfQoKcGFydGljbGVBYmlsaXR5Lm1pc3Npb25Qb29sLm1pZ3JhdGVNaXNzaW9uKAogIHdhbnQsCiAgewogICAgc2F2ZURhdGE6IHRydWUsICAvLyDmmK/lkKbkv53lrZjmlbDmja4KICAgIG5vdGlmeTogdHJ1ZSAgICAgIC8vIOaYr+WQpumAmuefpQogIH0KKQpgYGAKCiMjIOacjeWKoeWNoeeJhwoKIyMjIOamgui/sAoK5pyN5Yqh5Y2h54mH77yIV2lkZ2V077yJ5piv6bi/6JKZ57O757uf55qE6YeN6KaB54m55oCn77yM5Y+v5Lul5bCG5bqU55So55qE6YeN6KaB5L+h5oGv5Lul5Y2h54mH5b2i5byP5bGV56S65Zyo5qGM6Z2i5oiW5YW25LuW5bqU55So55WM6Z2i5Lit44CCCgojIyMg6YWN572u5pyN5Yqh5Y2h54mHCgpgYGBqc29uCiJhYmlsaXRpZXMiOiBbewogICJuYW1lIjogIi5NeUZvcm0iLAogICJ0eXBlIjogInBhZ2UiLAogICJmb3Jtc0VuYWJsZWQiOiB0cnVlLAogICJmb3JtcyI6IFt7CiAgICAibmFtZSI6ICJNeUZvcm0iLAogICAgImRlc2NyaXB0aW9uIjogIuekuuS+i+WNoeeJhyIsCiAgICAidHlwZSI6ICJKUyIsCiAgICAianNDb21wb25lbnROYW1lIjogImNhcmQiLAogICAgImNvbG9yTW9kZSI6ICJhdXRvIiwKICAgICJpc0RlZmF1bHQiOiB0cnVlLAogICAgInVwZGF0ZUVuYWJsZWQiOiB0cnVlLAogICAgInNjaGVkdWxlZFVwZGF0ZVRpbWUiOiAiMTE6MDAiLAogICAgImRlZmF1bHREaW1lbnNpb24iOiAiMioyIiwKICAgICJzdXBwb3J0RGltZW5zaW9ucyI6IFsiMioyIiwgIjIqNCIsICI0KjQiXQogIH1dCn1dCmBgYAoKIyMjIEpTIOWNoeeJh+W8gOWPkQoKYGBgdHlwZXNjcmlwdAovLyBlbnRyeS9zcmMvbWFpbi9qcy9jYXJkL3BhZ2VzL2luZGV4L2luZGV4LmpzCmltcG9ydCBmZXRjaCBmcm9tICdAc3lzdGVtLmZldGNoJwoKZXhwb3J0IGRlZmF1bHQgewogIGRhdGE6IHsKICAgIHRpdGxlOiAn5Y2h54mH5qCH6aKYJywKICAgIGNvbnRlbnQ6ICfljaHniYflhoXlrrknCiAgfSwKICBvbkluaXQoKSB7CiAgICAvLyDliJ3lp4vljJbmlbDmja4KICB9LAogIG9uVXBkYXRlKCkgewogICAgLy8g5a6a5pe25pu05pawCiAgfSwKICBvbkNsaWNrKCkgewogICAgLy8g54K55Ye75LqL5Lu2CiAgfQp9CmBgYAo=
+# HarmonyOS 分布式能力与服务卡片
+
+## 分布式任务调度
+
+HarmonyOS 提供统一的分布式任务调度能力，支持跨设备的应用启动、远程调用和业务迁移。
+
+### 基本约束
+
+- 需要在 Intent 中设置支持分布式的标记
+- 需要在 `config.json` 中添加权限申请
+
+```json
+"reqPermissions": [
+  { "name": "ohos.permission.DISTRIBUTED_DATASYNC" }
+]
+```
+
+### 分布式启动 Page Ability
+
+```typescript
+import featureAbility from '@ohos.ability.featureAbility'
+
+// 获取设备列表
+import deviceManager from '@ohos.distributedHardware.deviceManager'
+
+let deviceList = deviceManager.queryDevices(
+  deviceManager.DeviceType.DEVICE_TYPE_PHONE
+)
+
+// 启动远程 Ability
+let want = {
+  bundleName: 'com.example.myapp',
+  abilityName: 'com.example.myapp.MainAbility',
+  deviceId: deviceList[0].deviceId,  // 指定设备
+  flags: 0x01000000  // 支持分布式的标记
+}
+
+featureAbility.startAbility(want)
+```
+
+### 业务迁移
+
+```typescript
+import particleAbility from '@ohos.ability.particleAbility'
+
+// 迁移到其他设备
+let want = {
+  bundleName: 'com.example.myapp',
+  abilityName: 'MainAbility',
+  deviceId: targetDeviceId
+}
+
+particleAbility.missionPool.migrateMission(
+  want,
+  {
+    saveData: true,  // 是否保存数据
+    notify: true      // 是否通知
+  }
+)
+```
+
+## 服务卡片
+
+### 概述
+
+服务卡片（Widget）是鸿蒙系统的重要特性，可以将应用的重要信息以卡片形式展示在桌面或其他应用界面中。
+
+### 配置服务卡片
+
+```json
+"abilities": [{
+  "name": ".MyForm",
+  "type": "page",
+  "formsEnabled": true,
+  "forms": [{
+    "name": "MyForm",
+    "description": "示例卡片",
+    "type": "JS",
+    "jsComponentName": "card",
+    "colorMode": "auto",
+    "isDefault": true,
+    "updateEnabled": true,
+    "scheduledUpdateTime": "11:00",
+    "defaultDimension": "2*2",
+    "supportDimensions": ["2*2", "2*4", "4*4"]
+  }]
+}]
+```
+
+### JS 卡片开发
+
+```typescript
+// entry/src/main/js/card/pages/index/index.js
+import fetch from '@system.fetch'
+
+export default {
+  data: {
+    title: '卡片标题',
+    content: '卡片内容'
+  },
+  onInit() {
+    // 初始化数据
+  },
+  onUpdate() {
+    // 定时更新
+  },
+  onClick() {
+    // 点击事件
+  }
+}
+```

@@ -1,1 +1,19 @@
-IyBGb3Jlc3QgQ2Fub3B5CgpBIG5hdHVyYWwgYW5kIGdyb3VuZGVkIHRoZW1lIGZlYXR1cmluZyBlYXJ0aCB0b25lcyBpbnNwaXJlZCBieSBkZW5zZSBmb3Jlc3QgZW52aXJvbm1lbnRzLgoKIyMgQ29sb3IgUGFsZXR0ZQoKLSAqKkZvcmVzdCBHcmVlbioqOiBgIzJkNGEyYmAgLSBQcmltYXJ5IGRhcmsgZ3JlZW4KLSAqKlNhZ2UqKjogYCM3ZDg0NzFgIC0gTXV0ZWQgZ3JlZW4gYWNjZW50Ci0gKipPbGl2ZSoqOiBgI2E0YWM4NmAgLSBMaWdodCBhY2NlbnQgY29sb3IKLSAqKkl2b3J5Kio6IGAjZmFmOWY2YCAtIEJhY2tncm91bmRzIGFuZCB0ZXh0CgojIyBUeXBvZ3JhcGh5CgotICoqSGVhZGVycyoqOiBGcmVlU2VyaWYgQm9sZAotICoqQm9keSBUZXh0Kio6IEZyZWVTYW5zCgojIyBCZXN0IFVzZWQgRm9yCgpFbnZpcm9ubWVudGFsIHByZXNlbnRhdGlvbnMsIHN1c3RhaW5hYmlsaXR5IHJlcG9ydHMsIG91dGRvb3IgYnJhbmRzLCB3ZWxsbmVzcyBjb250ZW50LCBvcmdhbmljIHByb2R1Y3RzLgo=
+# Forest Canopy
+
+A natural and grounded theme featuring earth tones inspired by dense forest environments.
+
+## Color Palette
+
+- **Forest Green**: `#2d4a2b` - Primary dark green
+- **Sage**: `#7d8471` - Muted green accent
+- **Olive**: `#a4ac86` - Light accent color
+- **Ivory**: `#faf9f6` - Backgrounds and text
+
+## Typography
+
+- **Headers**: FreeSerif Bold
+- **Body Text**: FreeSans
+
+## Best Used For
+
+Environmental presentations, sustainability reports, outdoor brands, wellness content, organic products.

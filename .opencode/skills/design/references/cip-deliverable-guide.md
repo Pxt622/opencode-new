@@ -1,1 +1,95 @@
-IyBDSVAgRGVsaXZlcmFibGUgR3VpZGUKCiMjIENvcmUgSWRlbnRpdHkKCiMjIyBQcmltYXJ5IExvZ28KLSBWZWN0b3IgZm9ybWF0IChTVkcsIEFJLCBFUFMpCi0gQ2xlYXIgc3BhY2UgcnVsZXMgZGVmaW5lZAotIFNjYWxhYmxlIGZyb20gZmF2aWNvbiB0byBiaWxsYm9hcmQKCiMjIyBMb2dvIFZhcmlhdGlvbnMKLSBIb3Jpem9udGFsLCB2ZXJ0aWNhbCwgc3RhY2tlZAotIEljb24vc3ltYm9sIG9ubHkKLSBNb25vY2hyb21lIHZlcnNpb25zIChibGFjaywgd2hpdGUsIHJldmVyc2VkKQoKIyMgU3RhdGlvbmVyeSBTZXQKCiMjIyBCdXNpbmVzcyBDYXJkCi0gU3RhbmRhcmQ6IDMuNXgyIGluY2hlcyAvIDg1eDU1bW0KLSBQcmVtaXVtIHBhcGVyIHN0b2NrICgzMDAtNDAwZ3NtKQotIEZpbmlzaGVzOiBtYXR0ZSwgc3BvdCBVViwgZm9pbCwgZW1ib3NzCgojIyMgTGV0dGVyaGVhZAotIEE0IG9yIExldHRlciBzaXplCi0gSGVhZGVyIGFyZWEgZm9yIGxvZ28vY29udGFjdAotIERpZ2l0YWwgYW5kIHByaW50IHZlcnNpb25zCgojIyMgRW52ZWxvcGUKLSBETCwgQzQsIEM1IHNpemVzCi0gTG9nbyBvbiBmbGFwIG9yIGZyb250Ci0gUmV0dXJuIGFkZHJlc3Mgc3R5bGluZwoKIyMgT2ZmaWNlIEVudmlyb25tZW50CgojIyMgUmVjZXB0aW9uIFNpZ25hZ2UKLSAzRCBkaW1lbnNpb25hbCBsZXR0ZXJzCi0gQmFja2xpdCBMRUQgb3B0aW9ucwotIE1hdGVyaWFsczogYWNyeWxpYywgbWV0YWwsIHdvb2QKCiMjIyBXYXlmaW5kaW5nIFN5c3RlbQotIENvbnNpc3RlbnQgaWNvbiBzeXN0ZW0KLSBDbGVhciBoaWVyYXJjaHkKLSBBREEgY29tcGxpYW5jZQoKIyMjIFdhbGwgR3JhcGhpY3MKLSBNaXNzaW9uL3ZhbHVlcyBkaXNwbGF5cwotIExhcmdlLXNjYWxlIG11cmFscwotIFdpbmRvdyBmcm9zdGluZwoKIyMgQXBwYXJlbAoKIyMjIFBvbG8gU2hpcnQKLSBFbWJyb2lkZXJ5IHByZWZlcnJlZAotIExlZnQgY2hlc3QgcGxhY2VtZW50Ci0gUXVhbGl0eSBmYWJyaWMgKHBpcXVlIGNvdHRvbikKCiMjIyBVbmlmb3JtcwotIERlcGFydG1lbnQgY29sb3IgY29kaW5nCi0gTmFtZSBiYWRnZSBpbnRlZ3JhdGlvbgotIFNhZmV0eSByZXF1aXJlbWVudHMgaWYgYXBwbGljYWJsZQoKIyMgVmVoaWNsZSBCcmFuZGluZwoKIyMjIENhci9TZWRhbgotIERvb3IgcGFuZWwgYnJhbmRpbmcKLSBQYXJ0aWFsIG9yIGZ1bGwgd3JhcAotIENvbnRhY3QgaW5mb3JtYXRpb24gdmlzaWJsZQoKIyMjIEZsZWV0IFZlaGljbGVzCi0gQ29uc2lzdGVudCBkZXNpZ24gYWNyb3NzIGZsZWV0Ci0gSGlnaCB2aXNpYmlsaXR5IGNvbnRhY3QgZGV0YWlscwotIFByb2Zlc3Npb25hbCBpbnN0YWxsYXRpb24KCiMjIERpZ2l0YWwgQXNzZXRzCgojIyMgU29jaWFsIE1lZGlhCi0gUHJvZmlsZSBwaWN0dXJlcyAoaWNvbiB2ZXJzaW9uKQotIENvdmVyIGltYWdlcyAocGxhdGZvcm0tc3BlY2lmaWMpCi0gUG9zdCB0ZW1wbGF0ZXMKCiMjIyBFbWFpbCBTaWduYXR1cmUKLSBIVE1MIHJlc3BvbnNpdmUKLSBNYXggNjAwcHggd2lkdGgKLSBFc3NlbnRpYWwgY29udGFjdCBvbmx5CgojIyBFdmVudHMgJiBQcm9tb3Rpb25hbAoKIyMjIFRyYWRlIFNob3cgQm9vdGgKLSBNb2R1bGFyIGRlc2lnbgotIEVhc3kgYXNzZW1ibHkKLSBLZXkgbWVzc2FnaW5nIHZpc2libGUKCiMjIyBQcm9tb3Rpb25hbCBJdGVtcwotIFF1YWxpdHkgb3ZlciBxdWFudGl0eQotIFVzZWZ1bCBpdGVtcyBwcmVmZXJyZWQKLSBCcmFuZCBjb2xvcnMgcHJvbWluZW50Cg==
+# CIP Deliverable Guide
+
+## Core Identity
+
+### Primary Logo
+- Vector format (SVG, AI, EPS)
+- Clear space rules defined
+- Scalable from favicon to billboard
+
+### Logo Variations
+- Horizontal, vertical, stacked
+- Icon/symbol only
+- Monochrome versions (black, white, reversed)
+
+## Stationery Set
+
+### Business Card
+- Standard: 3.5x2 inches / 85x55mm
+- Premium paper stock (300-400gsm)
+- Finishes: matte, spot UV, foil, emboss
+
+### Letterhead
+- A4 or Letter size
+- Header area for logo/contact
+- Digital and print versions
+
+### Envelope
+- DL, C4, C5 sizes
+- Logo on flap or front
+- Return address styling
+
+## Office Environment
+
+### Reception Signage
+- 3D dimensional letters
+- Backlit LED options
+- Materials: acrylic, metal, wood
+
+### Wayfinding System
+- Consistent icon system
+- Clear hierarchy
+- ADA compliance
+
+### Wall Graphics
+- Mission/values displays
+- Large-scale murals
+- Window frosting
+
+## Apparel
+
+### Polo Shirt
+- Embroidery preferred
+- Left chest placement
+- Quality fabric (pique cotton)
+
+### Uniforms
+- Department color coding
+- Name badge integration
+- Safety requirements if applicable
+
+## Vehicle Branding
+
+### Car/Sedan
+- Door panel branding
+- Partial or full wrap
+- Contact information visible
+
+### Fleet Vehicles
+- Consistent design across fleet
+- High visibility contact details
+- Professional installation
+
+## Digital Assets
+
+### Social Media
+- Profile pictures (icon version)
+- Cover images (platform-specific)
+- Post templates
+
+### Email Signature
+- HTML responsive
+- Max 600px width
+- Essential contact only
+
+## Events & Promotional
+
+### Trade Show Booth
+- Modular design
+- Easy assembly
+- Key messaging visible
+
+### Promotional Items
+- Quality over quantity
+- Useful items preferred
+- Brand colors prominent

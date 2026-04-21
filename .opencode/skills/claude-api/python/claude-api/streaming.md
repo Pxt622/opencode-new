@@ -1,1 +1,162 @@
-IyBTdHJlYW1pbmcg4oCUIFB5dGhvbgoKIyMgUXVpY2sgU3RhcnQKCmBgYHB5dGhvbgp3aXRoIGNsaWVudC5tZXNzYWdlcy5zdHJlYW0oCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9NjQwMDAsCiAgICBtZXNzYWdlcz1beyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICJXcml0ZSBhIHN0b3J5In1dCikgYXMgc3RyZWFtOgogICAgZm9yIHRleHQgaW4gc3RyZWFtLnRleHRfc3RyZWFtOgogICAgICAgIHByaW50KHRleHQsIGVuZD0iIiwgZmx1c2g9VHJ1ZSkKYGBgCgojIyMgQXN5bmMKCmBgYHB5dGhvbgphc3luYyB3aXRoIGFzeW5jX2NsaWVudC5tZXNzYWdlcy5zdHJlYW0oCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9NjQwMDAsCiAgICBtZXNzYWdlcz1beyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICJXcml0ZSBhIHN0b3J5In1dCikgYXMgc3RyZWFtOgogICAgYXN5bmMgZm9yIHRleHQgaW4gc3RyZWFtLnRleHRfc3RyZWFtOgogICAgICAgIHByaW50KHRleHQsIGVuZD0iIiwgZmx1c2g9VHJ1ZSkKYGBgCgotLS0KCiMjIEhhbmRsaW5nIERpZmZlcmVudCBDb250ZW50IFR5cGVzCgpDbGF1ZGUgbWF5IHJldHVybiB0ZXh0LCB0aGlua2luZyBibG9ja3MsIG9yIHRvb2wgdXNlLiBIYW5kbGUgZWFjaCBhcHByb3ByaWF0ZWx5OgoKPiAqKk9wdXMgNC42OioqIFVzZSBgdGhpbmtpbmc6IHt0eXBlOiAiYWRhcHRpdmUifWAuIE9uIG9sZGVyIG1vZGVscywgdXNlIGB0aGlua2luZzoge3R5cGU6ICJlbmFibGVkIiwgYnVkZ2V0X3Rva2VuczogTn1gIGluc3RlYWQuCgpgYGBweXRob24Kd2l0aCBjbGllbnQubWVzc2FnZXMuc3RyZWFtKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTY0MDAwLAogICAgdGhpbmtpbmc9eyJ0eXBlIjogImFkYXB0aXZlIn0sCiAgICBtZXNzYWdlcz1beyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICJBbmFseXplIHRoaXMgcHJvYmxlbSJ9XQopIGFzIHN0cmVhbToKICAgIGZvciBldmVudCBpbiBzdHJlYW06CiAgICAgICAgaWYgZXZlbnQudHlwZSA9PSAiY29udGVudF9ibG9ja19zdGFydCI6CiAgICAgICAgICAgIGlmIGV2ZW50LmNvbnRlbnRfYmxvY2sudHlwZSA9PSAidGhpbmtpbmciOgogICAgICAgICAgICAgICAgcHJpbnQoIlxuW1RoaW5raW5nLi4uXSIpCiAgICAgICAgICAgIGVsaWYgZXZlbnQuY29udGVudF9ibG9jay50eXBlID09ICJ0ZXh0IjoKICAgICAgICAgICAgICAgIHByaW50KCJcbltSZXNwb25zZTpdIikKCiAgICAgICAgZWxpZiBldmVudC50eXBlID09ICJjb250ZW50X2Jsb2NrX2RlbHRhIjoKICAgICAgICAgICAgaWYgZXZlbnQuZGVsdGEudHlwZSA9PSAidGhpbmtpbmdfZGVsdGEiOgogICAgICAgICAgICAgICAgcHJpbnQoZXZlbnQuZGVsdGEudGhpbmtpbmcsIGVuZD0iIiwgZmx1c2g9VHJ1ZSkKICAgICAgICAgICAgZWxpZiBldmVudC5kZWx0YS50eXBlID09ICJ0ZXh0X2RlbHRhIjoKICAgICAgICAgICAgICAgIHByaW50KGV2ZW50LmRlbHRhLnRleHQsIGVuZD0iIiwgZmx1c2g9VHJ1ZSkKYGBgCgotLS0KCiMjIFN0cmVhbWluZyB3aXRoIFRvb2wgVXNlCgpUaGUgUHl0aG9uIHRvb2wgcnVubmVyIGN1cnJlbnRseSByZXR1cm5zIGNvbXBsZXRlIG1lc3NhZ2VzLiBVc2Ugc3RyZWFtaW5nIGZvciBpbmRpdmlkdWFsIEFQSSBjYWxscyB3aXRoaW4gYSBtYW51YWwgbG9vcCBpZiB5b3UgbmVlZCBwZXItdG9rZW4gc3RyZWFtaW5nIHdpdGggdG9vbHM6CgpgYGBweXRob24Kd2l0aCBjbGllbnQubWVzc2FnZXMuc3RyZWFtKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTY0MDAwLAogICAgdG9vbHM9dG9vbHMsCiAgICBtZXNzYWdlcz1tZXNzYWdlcwopIGFzIHN0cmVhbToKICAgIGZvciB0ZXh0IGluIHN0cmVhbS50ZXh0X3N0cmVhbToKICAgICAgICBwcmludCh0ZXh0LCBlbmQ9IiIsIGZsdXNoPVRydWUpCgogICAgcmVzcG9uc2UgPSBzdHJlYW0uZ2V0X2ZpbmFsX21lc3NhZ2UoKQogICAgIyBDb250aW51ZSB3aXRoIHRvb2wgZXhlY3V0aW9uIGlmIHJlc3BvbnNlLnN0b3BfcmVhc29uID09ICJ0b29sX3VzZSIKYGBgCgotLS0KCiMjIEdldHRpbmcgdGhlIEZpbmFsIE1lc3NhZ2UKCmBgYHB5dGhvbgp3aXRoIGNsaWVudC5tZXNzYWdlcy5zdHJlYW0oCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9NjQwMDAsCiAgICBtZXNzYWdlcz1beyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICJIZWxsbyJ9XQopIGFzIHN0cmVhbToKICAgIGZvciB0ZXh0IGluIHN0cmVhbS50ZXh0X3N0cmVhbToKICAgICAgICBwcmludCh0ZXh0LCBlbmQ9IiIsIGZsdXNoPVRydWUpCgogICAgIyBHZXQgZnVsbCBtZXNzYWdlIGFmdGVyIHN0cmVhbWluZwogICAgZmluYWxfbWVzc2FnZSA9IHN0cmVhbS5nZXRfZmluYWxfbWVzc2FnZSgpCiAgICBwcmludChmIlxuXG5Ub2tlbnMgdXNlZDoge2ZpbmFsX21lc3NhZ2UudXNhZ2Uub3V0cHV0X3Rva2Vuc30iKQpgYGAKCi0tLQoKIyMgU3RyZWFtaW5nIHdpdGggUHJvZ3Jlc3MgVXBkYXRlcwoKYGBgcHl0aG9uCmRlZiBzdHJlYW1fd2l0aF9wcm9ncmVzcyhjbGllbnQsICoqa3dhcmdzKToKICAgICIiIlN0cmVhbSBhIHJlc3BvbnNlIHdpdGggcHJvZ3Jlc3MgdXBkYXRlcy4iIiIKICAgIHRvdGFsX3Rva2VucyA9IDAKICAgIGNvbnRlbnRfcGFydHMgPSBbXQoKICAgIHdpdGggY2xpZW50Lm1lc3NhZ2VzLnN0cmVhbSgqKmt3YXJncykgYXMgc3RyZWFtOgogICAgICAgIGZvciBldmVudCBpbiBzdHJlYW06CiAgICAgICAgICAgIGlmIGV2ZW50LnR5cGUgPT0gImNvbnRlbnRfYmxvY2tfZGVsdGEiOgogICAgICAgICAgICAgICAgaWYgZXZlbnQuZGVsdGEudHlwZSA9PSAidGV4dF9kZWx0YSI6CiAgICAgICAgICAgICAgICAgICAgdGV4dCA9IGV2ZW50LmRlbHRhLnRleHQKICAgICAgICAgICAgICAgICAgICBjb250ZW50X3BhcnRzLmFwcGVuZCh0ZXh0KQogICAgICAgICAgICAgICAgICAgIHByaW50KHRleHQsIGVuZD0iIiwgZmx1c2g9VHJ1ZSkKCiAgICAgICAgICAgIGVsaWYgZXZlbnQudHlwZSA9PSAibWVzc2FnZV9kZWx0YSI6CiAgICAgICAgICAgICAgICBpZiBldmVudC51c2FnZSBhbmQgZXZlbnQudXNhZ2Uub3V0cHV0X3Rva2VucyBpcyBub3QgTm9uZToKICAgICAgICAgICAgICAgICAgICB0b3RhbF90b2tlbnMgPSBldmVudC51c2FnZS5vdXRwdXRfdG9rZW5zCgogICAgICAgIGZpbmFsX21lc3NhZ2UgPSBzdHJlYW0uZ2V0X2ZpbmFsX21lc3NhZ2UoKQoKICAgIHByaW50KGYiXG5cbltUb2tlbnMgdXNlZDoge3RvdGFsX3Rva2Vuc31dIikKICAgIHJldHVybiAiIi5qb2luKGNvbnRlbnRfcGFydHMpCmBgYAoKLS0tCgojIyBFcnJvciBIYW5kbGluZyBpbiBTdHJlYW1zCgpgYGBweXRob24KdHJ5OgogICAgd2l0aCBjbGllbnQubWVzc2FnZXMuc3RyZWFtKAogICAgICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgICAgIG1heF90b2tlbnM9NjQwMDAsCiAgICAgICAgbWVzc2FnZXM9W3sicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiAiV3JpdGUgYSBzdG9yeSJ9XQogICAgKSBhcyBzdHJlYW06CiAgICAgICAgZm9yIHRleHQgaW4gc3RyZWFtLnRleHRfc3RyZWFtOgogICAgICAgICAgICBwcmludCh0ZXh0LCBlbmQ9IiIsIGZsdXNoPVRydWUpCmV4Y2VwdCBhbnRocm9waWMuQVBJQ29ubmVjdGlvbkVycm9yOgogICAgcHJpbnQoIlxuQ29ubmVjdGlvbiBsb3N0LiBQbGVhc2UgcmV0cnkuIikKZXhjZXB0IGFudGhyb3BpYy5SYXRlTGltaXRFcnJvcjoKICAgIHByaW50KCJcblJhdGUgbGltaXRlZC4gUGxlYXNlIHdhaXQgYW5kIHJldHJ5LiIpCmV4Y2VwdCBhbnRocm9waWMuQVBJU3RhdHVzRXJyb3IgYXMgZToKICAgIHByaW50KGYiXG5BUEkgZXJyb3I6IHtlLnN0YXR1c19jb2RlfSIpCmBgYAoKLS0tCgojIyBTdHJlYW0gRXZlbnQgVHlwZXMKCnwgRXZlbnQgVHlwZSAgICAgICAgICAgIHwgRGVzY3JpcHRpb24gICAgICAgICAgICAgICAgIHwgV2hlbiBpdCBmaXJlcyAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IGBtZXNzYWdlX3N0YXJ0YCAgICAgICB8IENvbnRhaW5zIG1lc3NhZ2UgbWV0YWRhdGEgICB8IE9uY2UgYXQgdGhlIGJlZ2lubmluZyAgICAgICAgICAgICB8CnwgYGNvbnRlbnRfYmxvY2tfc3RhcnRgIHwgTmV3IGNvbnRlbnQgYmxvY2sgYmVnaW5uaW5nIHwgV2hlbiBhIHRleHQvdG9vbF91c2UgYmxvY2sgc3RhcnRzIHwKfCBgY29udGVudF9ibG9ja19kZWx0YWAgfCBJbmNyZW1lbnRhbCBjb250ZW50IHVwZGF0ZSAgfCBGb3IgZWFjaCB0b2tlbi9jaHVuayAgICAgICAgICAgICAgfAp8IGBjb250ZW50X2Jsb2NrX3N0b3BgICB8IENvbnRlbnQgYmxvY2sgY29tcGxldGUgICAgICB8IFdoZW4gYSBibG9jayBmaW5pc2hlcyAgICAgICAgICAgICB8CnwgYG1lc3NhZ2VfZGVsdGFgICAgICAgIHwgTWVzc2FnZS1sZXZlbCB1cGRhdGVzICAgICAgIHwgQ29udGFpbnMgYHN0b3BfcmVhc29uYCwgdXNhZ2UgICAgIHwKfCBgbWVzc2FnZV9zdG9wYCAgICAgICAgfCBNZXNzYWdlIGNvbXBsZXRlICAgICAgICAgICAgfCBPbmNlIGF0IHRoZSBlbmQgICAgICAgICAgICAgICAgICAgfAoKIyMgQmVzdCBQcmFjdGljZXMKCjEuICoqQWx3YXlzIGZsdXNoIG91dHB1dCoqIOKAlCBVc2UgYGZsdXNoPVRydWVgIHRvIHNob3cgdG9rZW5zIGltbWVkaWF0ZWx5CjIuICoqSGFuZGxlIHBhcnRpYWwgcmVzcG9uc2VzKiog4oCUIElmIHRoZSBzdHJlYW0gaXMgaW50ZXJydXB0ZWQsIHlvdSBtYXkgaGF2ZSBpbmNvbXBsZXRlIGNvbnRlbnQKMy4gKipUcmFjayB0b2tlbiB1c2FnZSoqIOKAlCBUaGUgYG1lc3NhZ2VfZGVsdGFgIGV2ZW50IGNvbnRhaW5zIHVzYWdlIGluZm9ybWF0aW9uCjQuICoqVXNlIHRpbWVvdXRzKiog4oCUIFNldCBhcHByb3ByaWF0ZSB0aW1lb3V0cyBmb3IgeW91ciBhcHBsaWNhdGlvbgo1LiAqKkRlZmF1bHQgdG8gc3RyZWFtaW5nKiog4oCUIFVzZSBgLmdldF9maW5hbF9tZXNzYWdlKClgIHRvIGdldCB0aGUgY29tcGxldGUgcmVzcG9uc2UgZXZlbiB3aGVuIHN0cmVhbWluZywgZ2l2aW5nIHlvdSB0aW1lb3V0IHByb3RlY3Rpb24gd2l0aG91dCBuZWVkaW5nIHRvIGhhbmRsZSBpbmRpdmlkdWFsIGV2ZW50cwo=
+# Streaming — Python
+
+## Quick Start
+
+```python
+with client.messages.stream(
+    model="claude-opus-4-6",
+    max_tokens=64000,
+    messages=[{"role": "user", "content": "Write a story"}]
+) as stream:
+    for text in stream.text_stream:
+        print(text, end="", flush=True)
+```
+
+### Async
+
+```python
+async with async_client.messages.stream(
+    model="claude-opus-4-6",
+    max_tokens=64000,
+    messages=[{"role": "user", "content": "Write a story"}]
+) as stream:
+    async for text in stream.text_stream:
+        print(text, end="", flush=True)
+```
+
+---
+
+## Handling Different Content Types
+
+Claude may return text, thinking blocks, or tool use. Handle each appropriately:
+
+> **Opus 4.6:** Use `thinking: {type: "adaptive"}`. On older models, use `thinking: {type: "enabled", budget_tokens: N}` instead.
+
+```python
+with client.messages.stream(
+    model="claude-opus-4-6",
+    max_tokens=64000,
+    thinking={"type": "adaptive"},
+    messages=[{"role": "user", "content": "Analyze this problem"}]
+) as stream:
+    for event in stream:
+        if event.type == "content_block_start":
+            if event.content_block.type == "thinking":
+                print("\n[Thinking...]")
+            elif event.content_block.type == "text":
+                print("\n[Response:]")
+
+        elif event.type == "content_block_delta":
+            if event.delta.type == "thinking_delta":
+                print(event.delta.thinking, end="", flush=True)
+            elif event.delta.type == "text_delta":
+                print(event.delta.text, end="", flush=True)
+```
+
+---
+
+## Streaming with Tool Use
+
+The Python tool runner currently returns complete messages. Use streaming for individual API calls within a manual loop if you need per-token streaming with tools:
+
+```python
+with client.messages.stream(
+    model="claude-opus-4-6",
+    max_tokens=64000,
+    tools=tools,
+    messages=messages
+) as stream:
+    for text in stream.text_stream:
+        print(text, end="", flush=True)
+
+    response = stream.get_final_message()
+    # Continue with tool execution if response.stop_reason == "tool_use"
+```
+
+---
+
+## Getting the Final Message
+
+```python
+with client.messages.stream(
+    model="claude-opus-4-6",
+    max_tokens=64000,
+    messages=[{"role": "user", "content": "Hello"}]
+) as stream:
+    for text in stream.text_stream:
+        print(text, end="", flush=True)
+
+    # Get full message after streaming
+    final_message = stream.get_final_message()
+    print(f"\n\nTokens used: {final_message.usage.output_tokens}")
+```
+
+---
+
+## Streaming with Progress Updates
+
+```python
+def stream_with_progress(client, **kwargs):
+    """Stream a response with progress updates."""
+    total_tokens = 0
+    content_parts = []
+
+    with client.messages.stream(**kwargs) as stream:
+        for event in stream:
+            if event.type == "content_block_delta":
+                if event.delta.type == "text_delta":
+                    text = event.delta.text
+                    content_parts.append(text)
+                    print(text, end="", flush=True)
+
+            elif event.type == "message_delta":
+                if event.usage and event.usage.output_tokens is not None:
+                    total_tokens = event.usage.output_tokens
+
+        final_message = stream.get_final_message()
+
+    print(f"\n\n[Tokens used: {total_tokens}]")
+    return "".join(content_parts)
+```
+
+---
+
+## Error Handling in Streams
+
+```python
+try:
+    with client.messages.stream(
+        model="claude-opus-4-6",
+        max_tokens=64000,
+        messages=[{"role": "user", "content": "Write a story"}]
+    ) as stream:
+        for text in stream.text_stream:
+            print(text, end="", flush=True)
+except anthropic.APIConnectionError:
+    print("\nConnection lost. Please retry.")
+except anthropic.RateLimitError:
+    print("\nRate limited. Please wait and retry.")
+except anthropic.APIStatusError as e:
+    print(f"\nAPI error: {e.status_code}")
+```
+
+---
+
+## Stream Event Types
+
+| Event Type            | Description                 | When it fires                     |
+| --------------------- | --------------------------- | --------------------------------- |
+| `message_start`       | Contains message metadata   | Once at the beginning             |
+| `content_block_start` | New content block beginning | When a text/tool_use block starts |
+| `content_block_delta` | Incremental content update  | For each token/chunk              |
+| `content_block_stop`  | Content block complete      | When a block finishes             |
+| `message_delta`       | Message-level updates       | Contains `stop_reason`, usage     |
+| `message_stop`        | Message complete            | Once at the end                   |
+
+## Best Practices
+
+1. **Always flush output** — Use `flush=True` to show tokens immediately
+2. **Handle partial responses** — If the stream is interrupted, you may have incomplete content
+3. **Track token usage** — The `message_delta` event contains usage information
+4. **Use timeouts** — Set appropriate timeouts for your application
+5. **Default to streaming** — Use `.get_final_message()` to get the complete response even when streaming, giving you timeout protection without needing to handle individual events

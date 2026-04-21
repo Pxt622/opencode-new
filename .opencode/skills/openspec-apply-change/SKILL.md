@@ -1,1 +1,156 @@
-LS0tCm5hbWU6IG9wZW5zcGVjLWFwcGx5LWNoYW5nZQpkZXNjcmlwdGlvbjogSW1wbGVtZW50IHRhc2tzIGZyb20gYW4gT3BlblNwZWMgY2hhbmdlLiBVc2Ugd2hlbiB0aGUgdXNlciB3YW50cyB0byBzdGFydCBpbXBsZW1lbnRpbmcsIGNvbnRpbnVlIGltcGxlbWVudGF0aW9uLCBvciB3b3JrIHRocm91Z2ggdGFza3MuCmxpY2Vuc2U6IE1JVApjb21wYXRpYmlsaXR5OiBSZXF1aXJlcyBvcGVuc3BlYyBDTEkuCm1ldGFkYXRhOgogIGF1dGhvcjogb3BlbnNwZWMKICB2ZXJzaW9uOiAiMS4wIgogIGdlbmVyYXRlZEJ5OiAiMS4yLjAiCi0tLQoKSW1wbGVtZW50IHRhc2tzIGZyb20gYW4gT3BlblNwZWMgY2hhbmdlLgoKKipJbnB1dCoqOiBPcHRpb25hbGx5IHNwZWNpZnkgYSBjaGFuZ2UgbmFtZS4gSWYgb21pdHRlZCwgY2hlY2sgaWYgaXQgY2FuIGJlIGluZmVycmVkIGZyb20gY29udmVyc2F0aW9uIGNvbnRleHQuIElmIHZhZ3VlIG9yIGFtYmlndW91cyB5b3UgTVVTVCBwcm9tcHQgZm9yIGF2YWlsYWJsZSBjaGFuZ2VzLgoKKipTdGVwcyoqCgoxLiAqKlNlbGVjdCB0aGUgY2hhbmdlKioKCiAgIElmIGEgbmFtZSBpcyBwcm92aWRlZCwgdXNlIGl0LiBPdGhlcndpc2U6CiAgIC0gSW5mZXIgZnJvbSBjb252ZXJzYXRpb24gY29udGV4dCBpZiB0aGUgdXNlciBtZW50aW9uZWQgYSBjaGFuZ2UKICAgLSBBdXRvLXNlbGVjdCBpZiBvbmx5IG9uZSBhY3RpdmUgY2hhbmdlIGV4aXN0cwogICAtIElmIGFtYmlndW91cywgcnVuIGBvcGVuc3BlYyBsaXN0IC0tanNvbmAgdG8gZ2V0IGF2YWlsYWJsZSBjaGFuZ2VzIGFuZCB1c2UgdGhlICoqQXNrVXNlclF1ZXN0aW9uIHRvb2wqKiB0byBsZXQgdGhlIHVzZXIgc2VsZWN0CgogICBBbHdheXMgYW5ub3VuY2U6ICJVc2luZyBjaGFuZ2U6IDxuYW1lPiIgYW5kIGhvdyB0byBvdmVycmlkZSAoZS5nLiwgYC9vcHN4LWFwcGx5IDxvdGhlcj5gKS4KCjIuICoqQ2hlY2sgc3RhdHVzIHRvIHVuZGVyc3RhbmQgdGhlIHNjaGVtYSoqCiAgIGBgYGJhc2gKICAgb3BlbnNwZWMgc3RhdHVzIC0tY2hhbmdlICI8bmFtZT4iIC0tanNvbgogICBgYGAKICAgUGFyc2UgdGhlIEpTT04gdG8gdW5kZXJzdGFuZDoKICAgLSBgc2NoZW1hTmFtZWA6IFRoZSB3b3JrZmxvdyBiZWluZyB1c2VkIChlLmcuLCAic3BlYy1kcml2ZW4iKQogICAtIFdoaWNoIGFydGlmYWN0IGNvbnRhaW5zIHRoZSB0YXNrcyAodHlwaWNhbGx5ICJ0YXNrcyIgZm9yIHNwZWMtZHJpdmVuLCBjaGVjayBzdGF0dXMgZm9yIG90aGVycykKCjMuICoqR2V0IGFwcGx5IGluc3RydWN0aW9ucyoqCgogICBgYGBiYXNoCiAgIG9wZW5zcGVjIGluc3RydWN0aW9ucyBhcHBseSAtLWNoYW5nZSAiPG5hbWU+IiAtLWpzb24KICAgYGBgCgogICBUaGlzIHJldHVybnM6CiAgIC0gQ29udGV4dCBmaWxlIHBhdGhzICh2YXJpZXMgYnkgc2NoZW1hIC0gY291bGQgYmUgcHJvcG9zYWwvc3BlY3MvZGVzaWduL3Rhc2tzIG9yIHNwZWMvdGVzdHMvaW1wbGVtZW50YXRpb24vZG9jcykKICAgLSBQcm9ncmVzcyAodG90YWwsIGNvbXBsZXRlLCByZW1haW5pbmcpCiAgIC0gVGFzayBsaXN0IHdpdGggc3RhdHVzCiAgIC0gRHluYW1pYyBpbnN0cnVjdGlvbiBiYXNlZCBvbiBjdXJyZW50IHN0YXRlCgogICAqKkhhbmRsZSBzdGF0ZXM6KioKICAgLSBJZiBgc3RhdGU6ICJibG9ja2VkImAgKG1pc3NpbmcgYXJ0aWZhY3RzKTogc2hvdyBtZXNzYWdlLCBzdWdnZXN0IHVzaW5nIG9wZW5zcGVjLWNvbnRpbnVlLWNoYW5nZQogICAtIElmIGBzdGF0ZTogImFsbF9kb25lImA6IGNvbmdyYXR1bGF0ZSwgc3VnZ2VzdCBhcmNoaXZlCiAgIC0gT3RoZXJ3aXNlOiBwcm9jZWVkIHRvIGltcGxlbWVudGF0aW9uCgo0LiAqKlJlYWQgY29udGV4dCBmaWxlcyoqCgogICBSZWFkIHRoZSBmaWxlcyBsaXN0ZWQgaW4gYGNvbnRleHRGaWxlc2AgZnJvbSB0aGUgYXBwbHkgaW5zdHJ1Y3Rpb25zIG91dHB1dC4KICAgVGhlIGZpbGVzIGRlcGVuZCBvbiB0aGUgc2NoZW1hIGJlaW5nIHVzZWQ6CiAgIC0gKipzcGVjLWRyaXZlbioqOiBwcm9wb3NhbCwgc3BlY3MsIGRlc2lnbiwgdGFza3MKICAgLSBPdGhlciBzY2hlbWFzOiBmb2xsb3cgdGhlIGNvbnRleHRGaWxlcyBmcm9tIENMSSBvdXRwdXQKCjUuICoqU2hvdyBjdXJyZW50IHByb2dyZXNzKioKCiAgIERpc3BsYXk6CiAgIC0gU2NoZW1hIGJlaW5nIHVzZWQKICAgLSBQcm9ncmVzczogIk4vTSB0YXNrcyBjb21wbGV0ZSIKICAgLSBSZW1haW5pbmcgdGFza3Mgb3ZlcnZpZXcKICAgLSBEeW5hbWljIGluc3RydWN0aW9uIGZyb20gQ0xJCgo2LiAqKkltcGxlbWVudCB0YXNrcyAobG9vcCB1bnRpbCBkb25lIG9yIGJsb2NrZWQpKioKCiAgIEZvciBlYWNoIHBlbmRpbmcgdGFzazoKICAgLSBTaG93IHdoaWNoIHRhc2sgaXMgYmVpbmcgd29ya2VkIG9uCiAgIC0gTWFrZSB0aGUgY29kZSBjaGFuZ2VzIHJlcXVpcmVkCiAgIC0gS2VlcCBjaGFuZ2VzIG1pbmltYWwgYW5kIGZvY3VzZWQKICAgLSBNYXJrIHRhc2sgY29tcGxldGUgaW4gdGhlIHRhc2tzIGZpbGU6IGAtIFsgXWAg4oaSIGAtIFt4XWAKICAgLSBDb250aW51ZSB0byBuZXh0IHRhc2sKCiAgICoqUGF1c2UgaWY6KioKICAgLSBUYXNrIGlzIHVuY2xlYXIg4oaSIGFzayBmb3IgY2xhcmlmaWNhdGlvbgogICAtIEltcGxlbWVudGF0aW9uIHJldmVhbHMgYSBkZXNpZ24gaXNzdWUg4oaSIHN1Z2dlc3QgdXBkYXRpbmcgYXJ0aWZhY3RzCiAgIC0gRXJyb3Igb3IgYmxvY2tlciBlbmNvdW50ZXJlZCDihpIgcmVwb3J0IGFuZCB3YWl0IGZvciBndWlkYW5jZQogICAtIFVzZXIgaW50ZXJydXB0cwoKNy4gKipPbiBjb21wbGV0aW9uIG9yIHBhdXNlLCBzaG93IHN0YXR1cyoqCgogICBEaXNwbGF5OgogICAtIFRhc2tzIGNvbXBsZXRlZCB0aGlzIHNlc3Npb24KICAgLSBPdmVyYWxsIHByb2dyZXNzOiAiTi9NIHRhc2tzIGNvbXBsZXRlIgogICAtIElmIGFsbCBkb25lOiBzdWdnZXN0IGFyY2hpdmUKICAgLSBJZiBwYXVzZWQ6IGV4cGxhaW4gd2h5IGFuZCB3YWl0IGZvciBndWlkYW5jZQoKKipPdXRwdXQgRHVyaW5nIEltcGxlbWVudGF0aW9uKioKCmBgYAojIyBJbXBsZW1lbnRpbmc6IDxjaGFuZ2UtbmFtZT4gKHNjaGVtYTogPHNjaGVtYS1uYW1lPikKCldvcmtpbmcgb24gdGFzayAzLzc6IDx0YXNrIGRlc2NyaXB0aW9uPgpbLi4uaW1wbGVtZW50YXRpb24gaGFwcGVuaW5nLi4uXQrinJMgVGFzayBjb21wbGV0ZQoKV29ya2luZyBvbiB0YXNrIDQvNzogPHRhc2sgZGVzY3JpcHRpb24+ClsuLi5pbXBsZW1lbnRhdGlvbiBoYXBwZW5pbmcuLi5dCuKckyBUYXNrIGNvbXBsZXRlCmBgYAoKKipPdXRwdXQgT24gQ29tcGxldGlvbioqCgpgYGAKIyMgSW1wbGVtZW50YXRpb24gQ29tcGxldGUKCioqQ2hhbmdlOioqIDxjaGFuZ2UtbmFtZT4KKipTY2hlbWE6KiogPHNjaGVtYS1uYW1lPgoqKlByb2dyZXNzOioqIDcvNyB0YXNrcyBjb21wbGV0ZSDinJMKCiMjIyBDb21wbGV0ZWQgVGhpcyBTZXNzaW9uCi0gW3hdIFRhc2sgMQotIFt4XSBUYXNrIDIKLi4uCgpBbGwgdGFza3MgY29tcGxldGUhIFJlYWR5IHRvIGFyY2hpdmUgdGhpcyBjaGFuZ2UuCmBgYAoKKipPdXRwdXQgT24gUGF1c2UgKElzc3VlIEVuY291bnRlcmVkKSoqCgpgYGAKIyMgSW1wbGVtZW50YXRpb24gUGF1c2VkCgoqKkNoYW5nZToqKiA8Y2hhbmdlLW5hbWU+CioqU2NoZW1hOioqIDxzY2hlbWEtbmFtZT4KKipQcm9ncmVzczoqKiA0LzcgdGFza3MgY29tcGxldGUKCiMjIyBJc3N1ZSBFbmNvdW50ZXJlZAo8ZGVzY3JpcHRpb24gb2YgdGhlIGlzc3VlPgoKKipPcHRpb25zOioqCjEuIDxvcHRpb24gMT4KMi4gPG9wdGlvbiAyPgozLiBPdGhlciBhcHByb2FjaAoKV2hhdCB3b3VsZCB5b3UgbGlrZSB0byBkbz8KYGBgCgoqKkd1YXJkcmFpbHMqKgotIEtlZXAgZ29pbmcgdGhyb3VnaCB0YXNrcyB1bnRpbCBkb25lIG9yIGJsb2NrZWQKLSBBbHdheXMgcmVhZCBjb250ZXh0IGZpbGVzIGJlZm9yZSBzdGFydGluZyAoZnJvbSB0aGUgYXBwbHkgaW5zdHJ1Y3Rpb25zIG91dHB1dCkKLSBJZiB0YXNrIGlzIGFtYmlndW91cywgcGF1c2UgYW5kIGFzayBiZWZvcmUgaW1wbGVtZW50aW5nCi0gSWYgaW1wbGVtZW50YXRpb24gcmV2ZWFscyBpc3N1ZXMsIHBhdXNlIGFuZCBzdWdnZXN0IGFydGlmYWN0IHVwZGF0ZXMKLSBLZWVwIGNvZGUgY2hhbmdlcyBtaW5pbWFsIGFuZCBzY29wZWQgdG8gZWFjaCB0YXNrCi0gVXBkYXRlIHRhc2sgY2hlY2tib3ggaW1tZWRpYXRlbHkgYWZ0ZXIgY29tcGxldGluZyBlYWNoIHRhc2sKLSBQYXVzZSBvbiBlcnJvcnMsIGJsb2NrZXJzLCBvciB1bmNsZWFyIHJlcXVpcmVtZW50cyAtIGRvbid0IGd1ZXNzCi0gVXNlIGNvbnRleHRGaWxlcyBmcm9tIENMSSBvdXRwdXQsIGRvbid0IGFzc3VtZSBzcGVjaWZpYyBmaWxlIG5hbWVzCgoqKkZsdWlkIFdvcmtmbG93IEludGVncmF0aW9uKioKClRoaXMgc2tpbGwgc3VwcG9ydHMgdGhlICJhY3Rpb25zIG9uIGEgY2hhbmdlIiBtb2RlbDoKCi0gKipDYW4gYmUgaW52b2tlZCBhbnl0aW1lKio6IEJlZm9yZSBhbGwgYXJ0aWZhY3RzIGFyZSBkb25lIChpZiB0YXNrcyBleGlzdCksIGFmdGVyIHBhcnRpYWwgaW1wbGVtZW50YXRpb24sIGludGVybGVhdmVkIHdpdGggb3RoZXIgYWN0aW9ucwotICoqQWxsb3dzIGFydGlmYWN0IHVwZGF0ZXMqKjogSWYgaW1wbGVtZW50YXRpb24gcmV2ZWFscyBkZXNpZ24gaXNzdWVzLCBzdWdnZXN0IHVwZGF0aW5nIGFydGlmYWN0cyAtIG5vdCBwaGFzZS1sb2NrZWQsIHdvcmsgZmx1aWRseQo=
+---
+name: openspec-apply-change
+description: Implement tasks from an OpenSpec change. Use when the user wants to start implementing, continue implementation, or work through tasks.
+license: MIT
+compatibility: Requires openspec CLI.
+metadata:
+  author: openspec
+  version: "1.0"
+  generatedBy: "1.2.0"
+---
+
+Implement tasks from an OpenSpec change.
+
+**Input**: Optionally specify a change name. If omitted, check if it can be inferred from conversation context. If vague or ambiguous you MUST prompt for available changes.
+
+**Steps**
+
+1. **Select the change**
+
+   If a name is provided, use it. Otherwise:
+   - Infer from conversation context if the user mentioned a change
+   - Auto-select if only one active change exists
+   - If ambiguous, run `openspec list --json` to get available changes and use the **AskUserQuestion tool** to let the user select
+
+   Always announce: "Using change: <name>" and how to override (e.g., `/opsx-apply <other>`).
+
+2. **Check status to understand the schema**
+   ```bash
+   openspec status --change "<name>" --json
+   ```
+   Parse the JSON to understand:
+   - `schemaName`: The workflow being used (e.g., "spec-driven")
+   - Which artifact contains the tasks (typically "tasks" for spec-driven, check status for others)
+
+3. **Get apply instructions**
+
+   ```bash
+   openspec instructions apply --change "<name>" --json
+   ```
+
+   This returns:
+   - Context file paths (varies by schema - could be proposal/specs/design/tasks or spec/tests/implementation/docs)
+   - Progress (total, complete, remaining)
+   - Task list with status
+   - Dynamic instruction based on current state
+
+   **Handle states:**
+   - If `state: "blocked"` (missing artifacts): show message, suggest using openspec-continue-change
+   - If `state: "all_done"`: congratulate, suggest archive
+   - Otherwise: proceed to implementation
+
+4. **Read context files**
+
+   Read the files listed in `contextFiles` from the apply instructions output.
+   The files depend on the schema being used:
+   - **spec-driven**: proposal, specs, design, tasks
+   - Other schemas: follow the contextFiles from CLI output
+
+5. **Show current progress**
+
+   Display:
+   - Schema being used
+   - Progress: "N/M tasks complete"
+   - Remaining tasks overview
+   - Dynamic instruction from CLI
+
+6. **Implement tasks (loop until done or blocked)**
+
+   For each pending task:
+   - Show which task is being worked on
+   - Make the code changes required
+   - Keep changes minimal and focused
+   - Mark task complete in the tasks file: `- [ ]` → `- [x]`
+   - Continue to next task
+
+   **Pause if:**
+   - Task is unclear → ask for clarification
+   - Implementation reveals a design issue → suggest updating artifacts
+   - Error or blocker encountered → report and wait for guidance
+   - User interrupts
+
+7. **On completion or pause, show status**
+
+   Display:
+   - Tasks completed this session
+   - Overall progress: "N/M tasks complete"
+   - If all done: suggest archive
+   - If paused: explain why and wait for guidance
+
+**Output During Implementation**
+
+```
+## Implementing: <change-name> (schema: <schema-name>)
+
+Working on task 3/7: <task description>
+[...implementation happening...]
+✓ Task complete
+
+Working on task 4/7: <task description>
+[...implementation happening...]
+✓ Task complete
+```
+
+**Output On Completion**
+
+```
+## Implementation Complete
+
+**Change:** <change-name>
+**Schema:** <schema-name>
+**Progress:** 7/7 tasks complete ✓
+
+### Completed This Session
+- [x] Task 1
+- [x] Task 2
+...
+
+All tasks complete! Ready to archive this change.
+```
+
+**Output On Pause (Issue Encountered)**
+
+```
+## Implementation Paused
+
+**Change:** <change-name>
+**Schema:** <schema-name>
+**Progress:** 4/7 tasks complete
+
+### Issue Encountered
+<description of the issue>
+
+**Options:**
+1. <option 1>
+2. <option 2>
+3. Other approach
+
+What would you like to do?
+```
+
+**Guardrails**
+- Keep going through tasks until done or blocked
+- Always read context files before starting (from the apply instructions output)
+- If task is ambiguous, pause and ask before implementing
+- If implementation reveals issues, pause and suggest artifact updates
+- Keep code changes minimal and scoped to each task
+- Update task checkbox immediately after completing each task
+- Pause on errors, blockers, or unclear requirements - don't guess
+- Use contextFiles from CLI output, don't assume specific file names
+
+**Fluid Workflow Integration**
+
+This skill supports the "actions on a change" model:
+
+- **Can be invoked anytime**: Before all artifacts are done (if tasks exist), after partial implementation, interleaved with other actions
+- **Allows artifact updates**: If implementation reveals design issues, suggest updating artifacts - not phase-locked, work fluidly

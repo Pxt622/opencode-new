@@ -1,1 +1,98 @@
-aW1wb3J0IGpzb24KaW1wb3J0IHN5cwoKZnJvbSBweXBkZiBpbXBvcnQgUGRmUmVhZGVyLCBQZGZXcml0ZXIKCmZyb20gZXh0cmFjdF9mb3JtX2ZpZWxkX2luZm8gaW1wb3J0IGdldF9maWVsZF9pbmZvCgoKCgpkZWYgZmlsbF9wZGZfZmllbGRzKGlucHV0X3BkZl9wYXRoOiBzdHIsIGZpZWxkc19qc29uX3BhdGg6IHN0ciwgb3V0cHV0X3BkZl9wYXRoOiBzdHIpOgogICAgd2l0aCBvcGVuKGZpZWxkc19qc29uX3BhdGgpIGFzIGY6CiAgICAgICAgZmllbGRzID0ganNvbi5sb2FkKGYpCiAgICBmaWVsZHNfYnlfcGFnZSA9IHt9CiAgICBmb3IgZmllbGQgaW4gZmllbGRzOgogICAgICAgIGlmICJ2YWx1ZSIgaW4gZmllbGQ6CiAgICAgICAgICAgIGZpZWxkX2lkID0gZmllbGRbImZpZWxkX2lkIl0KICAgICAgICAgICAgcGFnZSA9IGZpZWxkWyJwYWdlIl0KICAgICAgICAgICAgaWYgcGFnZSBub3QgaW4gZmllbGRzX2J5X3BhZ2U6CiAgICAgICAgICAgICAgICBmaWVsZHNfYnlfcGFnZVtwYWdlXSA9IHt9CiAgICAgICAgICAgIGZpZWxkc19ieV9wYWdlW3BhZ2VdW2ZpZWxkX2lkXSA9IGZpZWxkWyJ2YWx1ZSJdCiAgICAKICAgIHJlYWRlciA9IFBkZlJlYWRlcihpbnB1dF9wZGZfcGF0aCkKCiAgICBoYXNfZXJyb3IgPSBGYWxzZQogICAgZmllbGRfaW5mbyA9IGdldF9maWVsZF9pbmZvKHJlYWRlcikKICAgIGZpZWxkc19ieV9pZHMgPSB7ZlsiZmllbGRfaWQiXTogZiBmb3IgZiBpbiBmaWVsZF9pbmZvfQogICAgZm9yIGZpZWxkIGluIGZpZWxkczoKICAgICAgICBleGlzdGluZ19maWVsZCA9IGZpZWxkc19ieV9pZHMuZ2V0KGZpZWxkWyJmaWVsZF9pZCJdKQogICAgICAgIGlmIG5vdCBleGlzdGluZ19maWVsZDoKICAgICAgICAgICAgaGFzX2Vycm9yID0gVHJ1ZQogICAgICAgICAgICBwcmludChmIkVSUk9SOiBge2ZpZWxkWydmaWVsZF9pZCddfWAgaXMgbm90IGEgdmFsaWQgZmllbGQgSUQiKQogICAgICAgIGVsaWYgZmllbGRbInBhZ2UiXSAhPSBleGlzdGluZ19maWVsZFsicGFnZSJdOgogICAgICAgICAgICBoYXNfZXJyb3IgPSBUcnVlCiAgICAgICAgICAgIHByaW50KGYiRVJST1I6IEluY29ycmVjdCBwYWdlIG51bWJlciBmb3IgYHtmaWVsZFsnZmllbGRfaWQnXX1gIChnb3Qge2ZpZWxkWydwYWdlJ119LCBleHBlY3RlZCB7ZXhpc3RpbmdfZmllbGRbJ3BhZ2UnXX0pIikKICAgICAgICBlbHNlOgogICAgICAgICAgICBpZiAidmFsdWUiIGluIGZpZWxkOgogICAgICAgICAgICAgICAgZXJyID0gdmFsaWRhdGlvbl9lcnJvcl9mb3JfZmllbGRfdmFsdWUoZXhpc3RpbmdfZmllbGQsIGZpZWxkWyJ2YWx1ZSJdKQogICAgICAgICAgICAgICAgaWYgZXJyOgogICAgICAgICAgICAgICAgICAgIHByaW50KGVycikKICAgICAgICAgICAgICAgICAgICBoYXNfZXJyb3IgPSBUcnVlCiAgICBpZiBoYXNfZXJyb3I6CiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICB3cml0ZXIgPSBQZGZXcml0ZXIoY2xvbmVfZnJvbT1yZWFkZXIpCiAgICBmb3IgcGFnZSwgZmllbGRfdmFsdWVzIGluIGZpZWxkc19ieV9wYWdlLml0ZW1zKCk6CiAgICAgICAgd3JpdGVyLnVwZGF0ZV9wYWdlX2Zvcm1fZmllbGRfdmFsdWVzKHdyaXRlci5wYWdlc1twYWdlIC0gMV0sIGZpZWxkX3ZhbHVlcywgYXV0b19yZWdlbmVyYXRlPUZhbHNlKQoKICAgIHdyaXRlci5zZXRfbmVlZF9hcHBlYXJhbmNlc193cml0ZXIoVHJ1ZSkKICAgIAogICAgd2l0aCBvcGVuKG91dHB1dF9wZGZfcGF0aCwgIndiIikgYXMgZjoKICAgICAgICB3cml0ZXIud3JpdGUoZikKCgpkZWYgdmFsaWRhdGlvbl9lcnJvcl9mb3JfZmllbGRfdmFsdWUoZmllbGRfaW5mbywgZmllbGRfdmFsdWUpOgogICAgZmllbGRfdHlwZSA9IGZpZWxkX2luZm9bInR5cGUiXQogICAgZmllbGRfaWQgPSBmaWVsZF9pbmZvWyJmaWVsZF9pZCJdCiAgICBpZiBmaWVsZF90eXBlID09ICJjaGVja2JveCI6CiAgICAgICAgY2hlY2tlZF92YWwgPSBmaWVsZF9pbmZvWyJjaGVja2VkX3ZhbHVlIl0KICAgICAgICB1bmNoZWNrZWRfdmFsID0gZmllbGRfaW5mb1sidW5jaGVja2VkX3ZhbHVlIl0KICAgICAgICBpZiBmaWVsZF92YWx1ZSAhPSBjaGVja2VkX3ZhbCBhbmQgZmllbGRfdmFsdWUgIT0gdW5jaGVja2VkX3ZhbDoKICAgICAgICAgICAgcmV0dXJuIGYnRVJST1I6IEludmFsaWQgdmFsdWUgIntmaWVsZF92YWx1ZX0iIGZvciBjaGVja2JveCBmaWVsZCAie2ZpZWxkX2lkfSIuIFRoZSBjaGVja2VkIHZhbHVlIGlzICJ7Y2hlY2tlZF92YWx9IiBhbmQgdGhlIHVuY2hlY2tlZCB2YWx1ZSBpcyAie3VuY2hlY2tlZF92YWx9IicKICAgIGVsaWYgZmllbGRfdHlwZSA9PSAicmFkaW9fZ3JvdXAiOgogICAgICAgIG9wdGlvbl92YWx1ZXMgPSBbb3B0WyJ2YWx1ZSJdIGZvciBvcHQgaW4gZmllbGRfaW5mb1sicmFkaW9fb3B0aW9ucyJdXQogICAgICAgIGlmIGZpZWxkX3ZhbHVlIG5vdCBpbiBvcHRpb25fdmFsdWVzOgogICAgICAgICAgICByZXR1cm4gZidFUlJPUjogSW52YWxpZCB2YWx1ZSAie2ZpZWxkX3ZhbHVlfSIgZm9yIHJhZGlvIGdyb3VwIGZpZWxkICJ7ZmllbGRfaWR9Ii4gVmFsaWQgdmFsdWVzIGFyZToge29wdGlvbl92YWx1ZXN9JyAKICAgIGVsaWYgZmllbGRfdHlwZSA9PSAiY2hvaWNlIjoKICAgICAgICBjaG9pY2VfdmFsdWVzID0gW29wdFsidmFsdWUiXSBmb3Igb3B0IGluIGZpZWxkX2luZm9bImNob2ljZV9vcHRpb25zIl1dCiAgICAgICAgaWYgZmllbGRfdmFsdWUgbm90IGluIGNob2ljZV92YWx1ZXM6CiAgICAgICAgICAgIHJldHVybiBmJ0VSUk9SOiBJbnZhbGlkIHZhbHVlICJ7ZmllbGRfdmFsdWV9IiBmb3IgY2hvaWNlIGZpZWxkICJ7ZmllbGRfaWR9Ii4gVmFsaWQgdmFsdWVzIGFyZToge2Nob2ljZV92YWx1ZXN9JwogICAgcmV0dXJuIE5vbmUKCgpkZWYgbW9ua2V5cGF0Y2hfcHlkcGZfbWV0aG9kKCk6CiAgICBmcm9tIHB5cGRmLmdlbmVyaWMgaW1wb3J0IERpY3Rpb25hcnlPYmplY3QKICAgIGZyb20gcHlwZGYuY29uc3RhbnRzIGltcG9ydCBGaWVsZERpY3Rpb25hcnlBdHRyaWJ1dGVzCgogICAgb3JpZ2luYWxfZ2V0X2luaGVyaXRlZCA9IERpY3Rpb25hcnlPYmplY3QuZ2V0X2luaGVyaXRlZAoKICAgIGRlZiBwYXRjaGVkX2dldF9pbmhlcml0ZWQoc2VsZiwga2V5OiBzdHIsIGRlZmF1bHQgPSBOb25lKToKICAgICAgICByZXN1bHQgPSBvcmlnaW5hbF9nZXRfaW5oZXJpdGVkKHNlbGYsIGtleSwgZGVmYXVsdCkKICAgICAgICBpZiBrZXkgPT0gRmllbGREaWN0aW9uYXJ5QXR0cmlidXRlcy5PcHQ6CiAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UocmVzdWx0LCBsaXN0KSBhbmQgYWxsKGlzaW5zdGFuY2UodiwgbGlzdCkgYW5kIGxlbih2KSA9PSAyIGZvciB2IGluIHJlc3VsdCk6CiAgICAgICAgICAgICAgICByZXN1bHQgPSBbclswXSBmb3IgciBpbiByZXN1bHRdCiAgICAgICAgcmV0dXJuIHJlc3VsdAoKICAgIERpY3Rpb25hcnlPYmplY3QuZ2V0X2luaGVyaXRlZCA9IHBhdGNoZWRfZ2V0X2luaGVyaXRlZAoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBpZiBsZW4oc3lzLmFyZ3YpICE9IDQ6CiAgICAgICAgcHJpbnQoIlVzYWdlOiBmaWxsX2ZpbGxhYmxlX2ZpZWxkcy5weSBbaW5wdXQgcGRmXSBbZmllbGRfdmFsdWVzLmpzb25dIFtvdXRwdXQgcGRmXSIpCiAgICAgICAgc3lzLmV4aXQoMSkKICAgIG1vbmtleXBhdGNoX3B5ZHBmX21ldGhvZCgpCiAgICBpbnB1dF9wZGYgPSBzeXMuYXJndlsxXQogICAgZmllbGRzX2pzb24gPSBzeXMuYXJndlsyXQogICAgb3V0cHV0X3BkZiA9IHN5cy5hcmd2WzNdCiAgICBmaWxsX3BkZl9maWVsZHMoaW5wdXRfcGRmLCBmaWVsZHNfanNvbiwgb3V0cHV0X3BkZikK
+import json
+import sys
+
+from pypdf import PdfReader, PdfWriter
+
+from extract_form_field_info import get_field_info
+
+
+
+
+def fill_pdf_fields(input_pdf_path: str, fields_json_path: str, output_pdf_path: str):
+    with open(fields_json_path) as f:
+        fields = json.load(f)
+    fields_by_page = {}
+    for field in fields:
+        if "value" in field:
+            field_id = field["field_id"]
+            page = field["page"]
+            if page not in fields_by_page:
+                fields_by_page[page] = {}
+            fields_by_page[page][field_id] = field["value"]
+    
+    reader = PdfReader(input_pdf_path)
+
+    has_error = False
+    field_info = get_field_info(reader)
+    fields_by_ids = {f["field_id"]: f for f in field_info}
+    for field in fields:
+        existing_field = fields_by_ids.get(field["field_id"])
+        if not existing_field:
+            has_error = True
+            print(f"ERROR: `{field['field_id']}` is not a valid field ID")
+        elif field["page"] != existing_field["page"]:
+            has_error = True
+            print(f"ERROR: Incorrect page number for `{field['field_id']}` (got {field['page']}, expected {existing_field['page']})")
+        else:
+            if "value" in field:
+                err = validation_error_for_field_value(existing_field, field["value"])
+                if err:
+                    print(err)
+                    has_error = True
+    if has_error:
+        sys.exit(1)
+
+    writer = PdfWriter(clone_from=reader)
+    for page, field_values in fields_by_page.items():
+        writer.update_page_form_field_values(writer.pages[page - 1], field_values, auto_regenerate=False)
+
+    writer.set_need_appearances_writer(True)
+    
+    with open(output_pdf_path, "wb") as f:
+        writer.write(f)
+
+
+def validation_error_for_field_value(field_info, field_value):
+    field_type = field_info["type"]
+    field_id = field_info["field_id"]
+    if field_type == "checkbox":
+        checked_val = field_info["checked_value"]
+        unchecked_val = field_info["unchecked_value"]
+        if field_value != checked_val and field_value != unchecked_val:
+            return f'ERROR: Invalid value "{field_value}" for checkbox field "{field_id}". The checked value is "{checked_val}" and the unchecked value is "{unchecked_val}"'
+    elif field_type == "radio_group":
+        option_values = [opt["value"] for opt in field_info["radio_options"]]
+        if field_value not in option_values:
+            return f'ERROR: Invalid value "{field_value}" for radio group field "{field_id}". Valid values are: {option_values}' 
+    elif field_type == "choice":
+        choice_values = [opt["value"] for opt in field_info["choice_options"]]
+        if field_value not in choice_values:
+            return f'ERROR: Invalid value "{field_value}" for choice field "{field_id}". Valid values are: {choice_values}'
+    return None
+
+
+def monkeypatch_pydpf_method():
+    from pypdf.generic import DictionaryObject
+    from pypdf.constants import FieldDictionaryAttributes
+
+    original_get_inherited = DictionaryObject.get_inherited
+
+    def patched_get_inherited(self, key: str, default = None):
+        result = original_get_inherited(self, key, default)
+        if key == FieldDictionaryAttributes.Opt:
+            if isinstance(result, list) and all(isinstance(v, list) and len(v) == 2 for v in result):
+                result = [r[0] for r in result]
+        return result
+
+    DictionaryObject.get_inherited = patched_get_inherited
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 4:
+        print("Usage: fill_fillable_fields.py [input pdf] [field_values.json] [output pdf]")
+        sys.exit(1)
+    monkeypatch_pydpf_method()
+    input_pdf = sys.argv[1]
+    fields_json = sys.argv[2]
+    output_pdf = sys.argv[3]
+    fill_pdf_fields(input_pdf, fields_json, output_pdf)

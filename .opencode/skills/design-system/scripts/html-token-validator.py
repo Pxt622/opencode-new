@@ -1,1 +1,327 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKSFRNTCBEZXNpZ24gVG9rZW4gVmFsaWRhdG9yCkVuc3VyZXMgYWxsIEhUTUwgYXNzZXRzIChzbGlkZXMsIGluZm9ncmFwaGljcywgZXRjLikgdXNlIGRlc2lnbiB0b2tlbnMuClNvdXJjZSBvZiB0cnV0aDogYXNzZXRzL2Rlc2lnbi10b2tlbnMuY3NzCgpVc2FnZToKICBweXRob24gaHRtbC10b2tlbi12YWxpZGF0b3IucHkgICAgICAgICAgICAgICAgICAgICMgVmFsaWRhdGUgYWxsIEhUTUwgYXNzZXRzCiAgcHl0aG9uIGh0bWwtdG9rZW4tdmFsaWRhdG9yLnB5IC0tdHlwZSBzbGlkZXMgICAgICAjIFZhbGlkYXRlIG9ubHkgc2xpZGVzCiAgcHl0aG9uIGh0bWwtdG9rZW4tdmFsaWRhdG9yLnB5IC0tdHlwZSBpbmZvZ3JhcGhpY3MgIyBWYWxpZGF0ZSBvbmx5IGluZm9ncmFwaGljcwogIHB5dGhvbiBodG1sLXRva2VuLXZhbGlkYXRvci5weSBwYXRoL3RvL2ZpbGUuaHRtbCAgIyBWYWxpZGF0ZSBzcGVjaWZpYyBmaWxlCiAgcHl0aG9uIGh0bWwtdG9rZW4tdmFsaWRhdG9yLnB5IC0tZml4ICAgICAgICAgICAgICAjIEF1dG8tZml4IGlzc3VlcyAoV0lQKQoiIiIKCmltcG9ydCByZQppbXBvcnQganNvbgppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHR5cGluZyBpbXBvcnQgRGljdCwgTGlzdCwgVHVwbGUsIE9wdGlvbmFsCgojIFByb2plY3Qgcm9vdCByZWxhdGl2ZSB0byB0aGlzIHNjcmlwdApQUk9KRUNUX1JPT1QgPSBQYXRoKF9fZmlsZV9fKS5wYXJlbnQucGFyZW50LnBhcmVudC5wYXJlbnQucGFyZW50ClRPS0VOU19KU09OX1BBVEggPSBQUk9KRUNUX1JPT1QgLyAnYXNzZXRzJyAvICdkZXNpZ24tdG9rZW5zLmpzb24nClRPS0VOU19DU1NfUEFUSCA9IFBST0pFQ1RfUk9PVCAvICdhc3NldHMnIC8gJ2Rlc2lnbi10b2tlbnMuY3NzJwoKIyBBc3NldCBkaXJlY3RvcmllcyB0byB2YWxpZGF0ZQpBU1NFVF9ESVJTID0gewogICAgJ3NsaWRlcyc6IFBST0pFQ1RfUk9PVCAvICdhc3NldHMnIC8gJ2Rlc2lnbnMnIC8gJ3NsaWRlcycsCiAgICAnaW5mb2dyYXBoaWNzJzogUFJPSkVDVF9ST09UIC8gJ2Fzc2V0cycgLyAnaW5mb2dyYXBoaWNzJywKfQoKIyBQYXR0ZXJucyB0aGF0IGluZGljYXRlIGhhcmRjb2RlZCB2YWx1ZXMgKHNob3VsZCB1c2UgdG9rZW5zKQpGT1JCSURERU5fUEFUVEVSTlMgPSBbCiAgICAocicjWzAtOUEtRmEtZl17Myw4fVxiJywgJ2hleCBjb2xvcicpLAogICAgKHIncmdiXChccypcZCtccyosXHMqXGQrXHMqLFxzKlxkK1xzKlwpJywgJ3JnYiBjb2xvcicpLAogICAgKHIncmdiYVwoXHMqXGQrXHMqLFxzKlxkK1xzKixccypcZCtccyosXHMqW1xkLl0rXHMqXCknLCAncmdiYSBjb2xvcicpLAogICAgKHInaHNsXChbXildK1wpJywgJ2hzbCBjb2xvcicpLAogICAgKHIiZm9udC1mYW1pbHk6XHMqJ1tedl1bXmFdW15yXVteJ10qJywiLCAnaGFyZGNvZGVkIGZvbnQnKSwgICMgRXhjbHVkZSB2YXIoKQogICAgKHInZm9udC1mYW1pbHk6XHMqIltedl1bXmFdW15yXVteIl0qIiwnLCAnaGFyZGNvZGVkIGZvbnQnKSwKXQoKIyBBbGxvd2VkIHJnYmEgcGF0dGVybnMgKGJyYW5kIGNvbG9ycyB3aXRoIHRyYW5zcGFyZW5jeSAtIENTUyBsaW1pdGF0aW9uKQojIFRoZXNlIGFyZSBkZXJpdmVkIGZyb20gYnJhbmQgdG9rZW5zIGJ1dCBuZWVkIHJnYmEgZm9yIHRyYW5zcGFyZW5jeQpBTExPV0VEX1JHQkFfUEFUVEVSTlMgPSBbCiAgICByJ3JnYmFcKFxzKjU5XHMqLFxzKjEzMFxzKixccyoyNDYnLCAgICAjIC0tY29sb3ItcHJpbWFyeSAoIzNCODJGNikKICAgIHIncmdiYVwoXHMqMjQ1XHMqLFxzKjE1OFxzKixccyoxMScsICAgICMgLS1jb2xvci1zZWNvbmRhcnkgKCNGNTlFMEIpCiAgICByJ3JnYmFcKFxzKjE2XHMqLFxzKjE4NVxzKixccyoxMjknLCAgICAjIC0tY29sb3ItYWNjZW50ICgjMTBCOTgxKQogICAgcidyZ2JhXChccyoyMFxzKixccyoxODRccyosXHMqMTY2JywgICAgIyAtLWNvbG9yLWFjY2VudCBhbHQgKCMxNEI4QTYpCiAgICByJ3JnYmFcKFxzKjBccyosXHMqMFxzKixccyowJywgICAgICAgICAjIGJsYWNrIHRyYW5zcGFyZW5jeSAoY29tbW9uKQogICAgcidyZ2JhXChccyoyNTVccyosXHMqMjU1XHMqLFxzKjI1NScsICAgIyB3aGl0ZSB0cmFuc3BhcmVuY3kgKGNvbW1vbikKICAgIHIncmdiYVwoXHMqMTVccyosXHMqMjNccyosXHMqNDInLCAgICAgICMgLS1jb2xvci1zdXJmYWNlICgjMEYxNzJBKQogICAgcidyZ2JhXChccyo3XHMqLFxzKjExXHMqLFxzKjIwJywgICAgICAgIyAtLWNvbG9yLWJhY2tncm91bmQgKCMwNzBCMTQpCl0KCiMgQWxsb3dlZCBleGNlcHRpb25zIChleHRlcm5hbCBpbWFnZXMsIGV0Yy4pCkFMTE9XRURfRVhDRVBUSU9OUyA9IFsKICAgICdwZXhlbHMuY29tJywgJ3Vuc3BsYXNoLmNvbScsICd5b3V0dWJlLmNvbScsICd5dGltZy5jb20nLAogICAgJ2dvb2dsZWZvbnRzJywgJ2ZvbnRzLmdvb2dsZWFwaXMuY29tJywgJ2ZvbnRzLmdzdGF0aWMuY29tJywKXQoKCmNsYXNzIFZhbGlkYXRpb25SZXN1bHQ6CiAgICAiIiJWYWxpZGF0aW9uIHJlc3VsdCBmb3IgYSBzaW5nbGUgZmlsZS4iIiIKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBmaWxlX3BhdGg6IFBhdGgpOgogICAgICAgIHNlbGYuZmlsZV9wYXRoID0gZmlsZV9wYXRoCiAgICAgICAgc2VsZi5lcnJvcnM6IExpc3Rbc3RyXSA9IFtdCiAgICAgICAgc2VsZi53YXJuaW5nczogTGlzdFtzdHJdID0gW10KICAgICAgICBzZWxmLnBhc3NlZCA9IFRydWUKCiAgICBkZWYgYWRkX2Vycm9yKHNlbGYsIG1zZzogc3RyKToKICAgICAgICBzZWxmLmVycm9ycy5hcHBlbmQobXNnKQogICAgICAgIHNlbGYucGFzc2VkID0gRmFsc2UKCiAgICBkZWYgYWRkX3dhcm5pbmcoc2VsZiwgbXNnOiBzdHIpOgogICAgICAgIHNlbGYud2FybmluZ3MuYXBwZW5kKG1zZykKCgpkZWYgbG9hZF9jc3NfdmFyaWFibGVzKCkgLT4gRGljdFtzdHIsIHN0cl06CiAgICAiIiJMb2FkIENTUyB2YXJpYWJsZXMgZnJvbSBkZXNpZ24tdG9rZW5zLmNzcy4iIiIKICAgIHZhcmlhYmxlcyA9IHt9CiAgICBpZiBUT0tFTlNfQ1NTX1BBVEguZXhpc3RzKCk6CiAgICAgICAgY29udGVudCA9IFRPS0VOU19DU1NfUEFUSC5yZWFkX3RleHQoKQogICAgICAgICMgRXh0cmFjdCAtLXZhci1uYW1lOiB2YWx1ZSBwYXR0ZXJucwogICAgICAgIGZvciBtYXRjaCBpbiByZS5maW5kaXRlcihyJygtLVtcdy1dKyk6XHMqKFteO10rKTsnLCBjb250ZW50KToKICAgICAgICAgICAgdmFyaWFibGVzW21hdGNoLmdyb3VwKDEpXSA9IG1hdGNoLmdyb3VwKDIpLnN0cmlwKCkKICAgIHJldHVybiB2YXJpYWJsZXMKCgpkZWYgaXNfaW5zaWRlX2Jsb2NrKGNvbnRlbnQ6IHN0ciwgbWF0Y2hfcG9zOiBpbnQsIG9wZW5fdGFnOiBzdHIsIGNsb3NlX3RhZzogc3RyKSAtPiBib29sOgogICAgIiIiQ2hlY2sgaWYgcG9zaXRpb24gaXMgaW5zaWRlIGEgc3BlY2lmaWMgSFRNTCBibG9jay4iIiIKICAgIHByZSA9IGNvbnRlbnRbOm1hdGNoX3Bvc10KICAgIHRhZ19vcGVuID0gcHJlLnJmaW5kKG9wZW5fdGFnKQogICAgdGFnX2Nsb3NlID0gcHJlLnJmaW5kKGNsb3NlX3RhZykKICAgIHJldHVybiB0YWdfb3BlbiA+IHRhZ19jbG9zZQoKCmRlZiBpc19hbGxvd2VkX2V4Y2VwdGlvbihjb250ZXh0OiBzdHIpIC0+IGJvb2w6CiAgICAiIiJDaGVjayBpZiB0aGUgaGFyZGNvZGVkIHZhbHVlIGlzIGluIGFuIGFsbG93ZWQgZXhjZXB0aW9uIGNvbnRleHQuIiIiCiAgICBjb250ZXh0X2xvd2VyID0gY29udGV4dC5sb3dlcigpCiAgICByZXR1cm4gYW55KGV4YyBpbiBjb250ZXh0X2xvd2VyIGZvciBleGMgaW4gQUxMT1dFRF9FWENFUFRJT05TKQoKCmRlZiBpc19hbGxvd2VkX3JnYmEobWF0Y2hfdGV4dDogc3RyKSAtPiBib29sOgogICAgIiIiQ2hlY2sgaWYgcmdiYSBwYXR0ZXJuIHVzZXMgYnJhbmQgY29sb3JzIChhbGxvd2VkIGZvciB0cmFuc3BhcmVuY3kpLiIiIgogICAgcmV0dXJuIGFueShyZS5tYXRjaChwYXR0ZXJuLCBtYXRjaF90ZXh0KSBmb3IgcGF0dGVybiBpbiBBTExPV0VEX1JHQkFfUEFUVEVSTlMpCgoKZGVmIGdldF9jb250ZXh0KGNvbnRlbnQ6IHN0ciwgcG9zOiBpbnQsIGNoYXJzOiBpbnQgPSAxMDApIC0+IHN0cjoKICAgICIiIkdldCBzdXJyb3VuZGluZyBjb250ZXh0IGZvciBhIG1hdGNoIHBvc2l0aW9uLiIiIgogICAgc3RhcnQgPSBtYXgoMCwgcG9zIC0gY2hhcnMpCiAgICBlbmQgPSBtaW4obGVuKGNvbnRlbnQpLCBwb3MgKyBjaGFycykKICAgIHJldHVybiBjb250ZW50W3N0YXJ0OmVuZF0KCgpkZWYgdmFsaWRhdGVfaHRtbChjb250ZW50OiBzdHIsIGZpbGVfcGF0aDogUGF0aCwgdmVyYm9zZTogYm9vbCA9IEZhbHNlKSAtPiBWYWxpZGF0aW9uUmVzdWx0OgogICAgIiIiCiAgICBWYWxpZGF0ZSBIVE1MIGNvbnRlbnQgZm9yIGRlc2lnbiB0b2tlbiBjb21wbGlhbmNlLgoKICAgIENoZWNrczoKICAgIDEuIGRlc2lnbi10b2tlbnMuY3NzIGltcG9ydCBwcmVzZW50CiAgICAyLiBObyBoYXJkY29kZWQgY29sb3JzIGluIENTUyAoZXhjZXB0IGluIDxzY3JpcHQ+IGZvciBDaGFydC5qcykKICAgIDMuIE5vIGhhcmRjb2RlZCBmb250cwogICAgNC4gVXNlcyB2YXIoLS10b2tlbi1uYW1lKSBwYXR0ZXJuCiAgICAiIiIKICAgIHJlc3VsdCA9IFZhbGlkYXRpb25SZXN1bHQoZmlsZV9wYXRoKQoKICAgICMgMS4gQ2hlY2sgZm9yIGRlc2lnbi10b2tlbnMuY3NzIGltcG9ydAogICAgaWYgJ2Rlc2lnbi10b2tlbnMuY3NzJyBub3QgaW4gY29udGVudDoKICAgICAgICByZXN1bHQuYWRkX2Vycm9yKCJNaXNzaW5nIGRlc2lnbi10b2tlbnMuY3NzIGltcG9ydCIpCgogICAgIyAyLiBDaGVjayBmb3IgZm9yYmlkZGVuIHBhdHRlcm5zIGluIENTUwogICAgZm9yIHBhdHRlcm4sIGRlc2NyaXB0aW9uIGluIEZPUkJJRERFTl9QQVRURVJOUzoKICAgICAgICBmb3IgbWF0Y2ggaW4gcmUuZmluZGl0ZXIocGF0dGVybiwgY29udGVudCk6CiAgICAgICAgICAgIG1hdGNoX3RleHQgPSBtYXRjaC5ncm91cCgpCiAgICAgICAgICAgIG1hdGNoX3BvcyA9IG1hdGNoLnN0YXJ0KCkKICAgICAgICAgICAgY29udGV4dCA9IGdldF9jb250ZXh0KGNvbnRlbnQsIG1hdGNoX3BvcykKCiAgICAgICAgICAgICMgU2tpcCBpZiBpbiA8c2NyaXB0PiBibG9jayAoQ2hhcnQuanMgYWxsb3dlZCkKICAgICAgICAgICAgaWYgaXNfaW5zaWRlX2Jsb2NrKGNvbnRlbnQsIG1hdGNoX3BvcywgJzxzY3JpcHQnLCAnPC9zY3JpcHQ+Jyk6CiAgICAgICAgICAgICAgICBpZiB2ZXJib3NlOgogICAgICAgICAgICAgICAgICAgIHJlc3VsdC5hZGRfd2FybmluZyhmIkFsbG93ZWQgaW4gPHNjcmlwdD46IHttYXRjaF90ZXh0fSIpCiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgIyBTa2lwIGlmIGluIGFsbG93ZWQgZXhjZXB0aW9uIGNvbnRleHQgKGV4dGVybmFsIFVSTHMpCiAgICAgICAgICAgIGlmIGlzX2FsbG93ZWRfZXhjZXB0aW9uKGNvbnRleHQpOgogICAgICAgICAgICAgICAgaWYgdmVyYm9zZToKICAgICAgICAgICAgICAgICAgICByZXN1bHQuYWRkX3dhcm5pbmcoZiJBbGxvd2VkIGV4dGVybmFsOiB7bWF0Y2hfdGV4dH0iKQogICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICMgU2tpcCByZ2JhIHVzaW5nIGJyYW5kIGNvbG9ycyAobmVlZGVkIGZvciB0cmFuc3BhcmVuY3kgZWZmZWN0cykKICAgICAgICAgICAgaWYgZGVzY3JpcHRpb24gPT0gJ3JnYmEgY29sb3InIGFuZCBpc19hbGxvd2VkX3JnYmEobWF0Y2hfdGV4dCk6CiAgICAgICAgICAgICAgICBpZiB2ZXJib3NlOgogICAgICAgICAgICAgICAgICAgIHJlc3VsdC5hZGRfd2FybmluZyhmIkFsbG93ZWQgYnJhbmQgcmdiYToge21hdGNoX3RleHR9IikKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICAjIFNraXAgaWYgcGFydCBvZiB2YXIoKSByZWZlcmVuY2UgKGZhbHNlIHBvc2l0aXZlKQogICAgICAgICAgICBpZiAndmFyKCcgaW4gY29udGV4dCBhbmQgbWF0Y2hfdGV4dCBpbiBjb250ZXh0OgogICAgICAgICAgICAgICAgIyBDaGVjayBpZiBpdCdzIGEgZmFsbGJhY2sgdmFsdWUgaW4gdmFyKCkKICAgICAgICAgICAgICAgIHZhcl9wYXR0ZXJuID0gcmYndmFyXChbXildKntyZS5lc2NhcGUobWF0Y2hfdGV4dCl9W14pXSpcKScKICAgICAgICAgICAgICAgIGlmIHJlLnNlYXJjaCh2YXJfcGF0dGVybiwgY29udGV4dCk6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICMgRXJyb3IgaWYgaW4gPHN0eWxlPiBvciBpbmxpbmUgc3R5bGUKICAgICAgICAgICAgaWYgaXNfaW5zaWRlX2Jsb2NrKGNvbnRlbnQsIG1hdGNoX3BvcywgJzxzdHlsZScsICc8L3N0eWxlPicpOgogICAgICAgICAgICAgICAgcmVzdWx0LmFkZF9lcnJvcihmIkhhcmRjb2RlZCB7ZGVzY3JpcHRpb259IGluIDxzdHlsZT46IHttYXRjaF90ZXh0fSIpCiAgICAgICAgICAgIGVsaWYgJ3N0eWxlPSInIGluIGNvbnRleHQ6CiAgICAgICAgICAgICAgICByZXN1bHQuYWRkX2Vycm9yKGYiSGFyZGNvZGVkIHtkZXNjcmlwdGlvbn0gaW4gaW5saW5lIHN0eWxlOiB7bWF0Y2hfdGV4dH0iKQoKICAgICMgMy4gQ2hlY2sgZm9yIHJlcXVpcmVkIHZhcigpIHVzYWdlIGluZGljYXRvcnMKICAgIHRva2VuX3BhdHRlcm5zID0gWwogICAgICAgIHIndmFyXCgtLWNvbG9yLScsCiAgICAgICAgcid2YXJcKC0tcHJpbWl0aXZlLScsCiAgICAgICAgcid2YXJcKC0tdHlwb2dyYXBoeS0nLAogICAgICAgIHIndmFyXCgtLWNhcmQtJywKICAgICAgICByJ3ZhclwoLS1idXR0b24tJywKICAgIF0KICAgIHRva2VuX2NvdW50ID0gc3VtKGxlbihyZS5maW5kYWxsKHAsIGNvbnRlbnQpKSBmb3IgcCBpbiB0b2tlbl9wYXR0ZXJucykKCiAgICBpZiB0b2tlbl9jb3VudCA8IDU6CiAgICAgICAgcmVzdWx0LmFkZF93YXJuaW5nKGYiTG93IHRva2VuIHVzYWdlICh7dG9rZW5fY291bnR9IHZhcigpIHJlZmVyZW5jZXMpLiBDb25zaWRlciB1c2luZyBtb3JlIGRlc2lnbiB0b2tlbnMuIikKCiAgICByZXR1cm4gcmVzdWx0CgoKZGVmIHZhbGlkYXRlX2ZpbGUoZmlsZV9wYXRoOiBQYXRoLCB2ZXJib3NlOiBib29sID0gRmFsc2UpIC0+IFZhbGlkYXRpb25SZXN1bHQ6CiAgICAiIiJWYWxpZGF0ZSBhIHNpbmdsZSBIVE1MIGZpbGUuIiIiCiAgICBpZiBub3QgZmlsZV9wYXRoLmV4aXN0cygpOgogICAgICAgIHJlc3VsdCA9IFZhbGlkYXRpb25SZXN1bHQoZmlsZV9wYXRoKQogICAgICAgIHJlc3VsdC5hZGRfZXJyb3IoIkZpbGUgbm90IGZvdW5kIikKICAgICAgICByZXR1cm4gcmVzdWx0CgogICAgY29udGVudCA9IGZpbGVfcGF0aC5yZWFkX3RleHQoKQogICAgcmV0dXJuIHZhbGlkYXRlX2h0bWwoY29udGVudCwgZmlsZV9wYXRoLCB2ZXJib3NlKQoKCmRlZiB2YWxpZGF0ZV9kaXJlY3RvcnkoZGlyX3BhdGg6IFBhdGgsIHZlcmJvc2U6IGJvb2wgPSBGYWxzZSkgLT4gTGlzdFtWYWxpZGF0aW9uUmVzdWx0XToKICAgICIiIlZhbGlkYXRlIGFsbCBIVE1MIGZpbGVzIGluIGEgZGlyZWN0b3J5LiIiIgogICAgcmVzdWx0cyA9IFtdCiAgICBpZiBkaXJfcGF0aC5leGlzdHMoKToKICAgICAgICBmb3IgaHRtbF9maWxlIGluIHNvcnRlZChkaXJfcGF0aC5nbG9iKCcqLmh0bWwnKSk6CiAgICAgICAgICAgIHJlc3VsdHMuYXBwZW5kKHZhbGlkYXRlX2ZpbGUoaHRtbF9maWxlLCB2ZXJib3NlKSkKICAgIHJldHVybiByZXN1bHRzCgoKZGVmIHByaW50X3Jlc3VsdChyZXN1bHQ6IFZhbGlkYXRpb25SZXN1bHQsIHZlcmJvc2U6IGJvb2wgPSBGYWxzZSk6CiAgICAiIiJQcmludCB2YWxpZGF0aW9uIHJlc3VsdCBmb3IgYSBmaWxlLiIiIgogICAgc3RhdHVzID0gIuKckyIgaWYgcmVzdWx0LnBhc3NlZCBlbHNlICLinJciCiAgICBwcmludChmIiAge3N0YXR1c30ge3Jlc3VsdC5maWxlX3BhdGgubmFtZX0iKQoKICAgIGlmIHJlc3VsdC5lcnJvcnM6CiAgICAgICAgZm9yIGVycm9yIGluIHJlc3VsdC5lcnJvcnNbOjVdOiAgIyBMaW1pdCBvdXRwdXQKICAgICAgICAgICAgcHJpbnQoZiIgICAgICDilJzilIAge2Vycm9yfSIpCiAgICAgICAgaWYgbGVuKHJlc3VsdC5lcnJvcnMpID4gNToKICAgICAgICAgICAgcHJpbnQoZiIgICAgICDilJTilIAgLi4uIGFuZCB7bGVuKHJlc3VsdC5lcnJvcnMpIC0gNX0gbW9yZSBlcnJvcnMiKQoKICAgIGlmIHZlcmJvc2UgYW5kIHJlc3VsdC53YXJuaW5nczoKICAgICAgICBmb3Igd2FybmluZyBpbiByZXN1bHQud2FybmluZ3NbOjNdOgogICAgICAgICAgICBwcmludChmIiAgICAgIFt3YXJuXSB7d2FybmluZ30iKQoKCmRlZiBwcmludF9zdW1tYXJ5KGFsbF9yZXN1bHRzOiBEaWN0W3N0ciwgTGlzdFtWYWxpZGF0aW9uUmVzdWx0XV0pOgogICAgIiIiUHJpbnQgc3VtbWFyeSBvZiBhbGwgdmFsaWRhdGlvbiByZXN1bHRzLiIiIgogICAgdG90YWxfZmlsZXMgPSAwCiAgICB0b3RhbF9wYXNzZWQgPSAwCiAgICB0b3RhbF9lcnJvcnMgPSAwCgogICAgcHJpbnQoIlxuIiArICI9IiAqIDYwKQogICAgcHJpbnQoIkhUTUwgREVTSUdOIFRPS0VOIFZBTElEQVRJT04gU1VNTUFSWSIpCiAgICBwcmludCgiPSIgKiA2MCkKCiAgICBmb3IgYXNzZXRfdHlwZSwgcmVzdWx0cyBpbiBhbGxfcmVzdWx0cy5pdGVtcygpOgogICAgICAgIGlmIG5vdCByZXN1bHRzOgogICAgICAgICAgICBjb250aW51ZQoKICAgICAgICBwYXNzZWQgPSBzdW0oMSBmb3IgciBpbiByZXN1bHRzIGlmIHIucGFzc2VkKQogICAgICAgIGZhaWxlZCA9IGxlbihyZXN1bHRzKSAtIHBhc3NlZAogICAgICAgIGVycm9ycyA9IHN1bShsZW4oci5lcnJvcnMpIGZvciByIGluIHJlc3VsdHMpCgogICAgICAgIHRvdGFsX2ZpbGVzICs9IGxlbihyZXN1bHRzKQogICAgICAgIHRvdGFsX3Bhc3NlZCArPSBwYXNzZWQKICAgICAgICB0b3RhbF9lcnJvcnMgKz0gZXJyb3JzCgogICAgICAgIHN0YXR1cyA9ICLinJMiIGlmIGZhaWxlZCA9PSAwIGVsc2UgIuKclyIKICAgICAgICBwcmludChmIlxue3N0YXR1c30ge2Fzc2V0X3R5cGUudXBwZXIoKX06IHtwYXNzZWR9L3tsZW4ocmVzdWx0cyl9IHBhc3NlZCIpCgogICAgICAgIGZvciByZXN1bHQgaW4gcmVzdWx0czoKICAgICAgICAgICAgaWYgbm90IHJlc3VsdC5wYXNzZWQ6CiAgICAgICAgICAgICAgICBwcmludF9yZXN1bHQocmVzdWx0KQoKICAgIHByaW50KCJcbiIgKyAiLSIgKiA2MCkKICAgIGlmIHRvdGFsX2Vycm9ycyA9PSAwOgogICAgICAgIHByaW50KGYi4pyTIEFMTCBQQVNTRUQ6IHt0b3RhbF9wYXNzZWR9L3t0b3RhbF9maWxlc30gZmlsZXMgdmFsaWQiKQogICAgZWxzZToKICAgICAgICBwcmludChmIuKclyBGQUlMRUQ6IHt0b3RhbF9maWxlcyAtIHRvdGFsX3Bhc3NlZH0ve3RvdGFsX2ZpbGVzfSBmaWxlcyBoYXZlIGlzc3VlcyAoe3RvdGFsX2Vycm9yc30gdG90YWwgZXJyb3JzKSIpCiAgICBwcmludCgiLSIgKiA2MCkKCiAgICByZXR1cm4gdG90YWxfZXJyb3JzID09IDAKCgpkZWYgbWFpbigpOgogICAgIiIiQ0xJIGVudHJ5IHBvaW50LiIiIgogICAgaW1wb3J0IGFyZ3BhcnNlCgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoCiAgICAgICAgZGVzY3JpcHRpb249J1ZhbGlkYXRlIEhUTUwgYXNzZXRzIGZvciBkZXNpZ24gdG9rZW4gY29tcGxpYW5jZScsCiAgICAgICAgZm9ybWF0dGVyX2NsYXNzPWFyZ3BhcnNlLlJhd0Rlc2NyaXB0aW9uSGVscEZvcm1hdHRlciwKICAgICAgICBlcGlsb2c9IiIiCkV4YW1wbGVzOgogICUocHJvZylzICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBWYWxpZGF0ZSBhbGwgSFRNTCBhc3NldHMKICAlKHByb2cpcyAtLXR5cGUgc2xpZGVzICAgICAgICAgICAgICMgVmFsaWRhdGUgb25seSBzbGlkZXMKICAlKHByb2cpcyAtLXR5cGUgaW5mb2dyYXBoaWNzICAgICAgICMgVmFsaWRhdGUgb25seSBpbmZvZ3JhcGhpY3MKICAlKHByb2cpcyBwYXRoL3RvL2ZpbGUuaHRtbCAgICAgICAgICMgVmFsaWRhdGUgc3BlY2lmaWMgZmlsZQogICUocHJvZylzIC0tY29sb3JzICAgICAgICAgICAgICAgICAgIyBTaG93IGJyYW5kIGNvbG9ycyBmcm9tIHRva2VucwoiIiIKICAgICkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJ2ZpbGVzJywgbmFyZ3M9JyonLCBoZWxwPSdTcGVjaWZpYyBIVE1MIGZpbGVzIHRvIHZhbGlkYXRlJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy10JywgJy0tdHlwZScsIGNob2ljZXM9WydzbGlkZXMnLCAnaW5mb2dyYXBoaWNzJywgJ2FsbCddLAogICAgICAgICAgICAgICAgICAgICAgICBkZWZhdWx0PSdhbGwnLCBoZWxwPSdBc3NldCB0eXBlIHRvIHZhbGlkYXRlJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy12JywgJy0tdmVyYm9zZScsIGFjdGlvbj0nc3RvcmVfdHJ1ZScsIGhlbHA9J1Nob3cgd2FybmluZ3MnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1jb2xvcnMnLCBhY3Rpb249J3N0b3JlX3RydWUnLCBoZWxwPSdQcmludCBDU1MgdmFyaWFibGVzIGZyb20gdG9rZW5zJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tZml4JywgYWN0aW9uPSdzdG9yZV90cnVlJywgaGVscD0nQXV0by1maXggaXNzdWVzIChleHBlcmltZW50YWwpJykKCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQoKICAgICMgU2hvdyBjb2xvcnMgbW9kZQogICAgaWYgYXJncy5jb2xvcnM6CiAgICAgICAgdmFyaWFibGVzID0gbG9hZF9jc3NfdmFyaWFibGVzKCkKICAgICAgICBwcmludCgiXG5EZXNpZ24gVG9rZW5zIChmcm9tIGRlc2lnbi10b2tlbnMuY3NzKToiKQogICAgICAgIHByaW50KCItIiAqIDQwKQogICAgICAgIGZvciBuYW1lLCB2YWx1ZSBpbiBzb3J0ZWQodmFyaWFibGVzLml0ZW1zKCkpWzozMF06CiAgICAgICAgICAgIHByaW50KGYiICB7bmFtZX06IHt2YWx1ZX0iKQogICAgICAgIGlmIGxlbih2YXJpYWJsZXMpID4gMzA6CiAgICAgICAgICAgIHByaW50KGYiICAuLi4gYW5kIHtsZW4odmFyaWFibGVzKSAtIDMwfSBtb3JlIikKICAgICAgICByZXR1cm4KCiAgICBhbGxfcmVzdWx0czogRGljdFtzdHIsIExpc3RbVmFsaWRhdGlvblJlc3VsdF1dID0ge30KCiAgICAjIFZhbGlkYXRlIHNwZWNpZmljIGZpbGVzCiAgICBpZiBhcmdzLmZpbGVzOgogICAgICAgIHJlc3VsdHMgPSBbXQogICAgICAgIGZvciBmaWxlX3BhdGggaW4gYXJncy5maWxlczoKICAgICAgICAgICAgcGF0aCA9IFBhdGgoZmlsZV9wYXRoKQogICAgICAgICAgICBpZiBwYXRoLmV4aXN0cygpOgogICAgICAgICAgICAgICAgcmVzdWx0cy5hcHBlbmQodmFsaWRhdGVfZmlsZShwYXRoLCBhcmdzLnZlcmJvc2UpKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcmVzdWx0ID0gVmFsaWRhdGlvblJlc3VsdChwYXRoKQogICAgICAgICAgICAgICAgcmVzdWx0LmFkZF9lcnJvcigiRmlsZSBub3QgZm91bmQiKQogICAgICAgICAgICAgICAgcmVzdWx0cy5hcHBlbmQocmVzdWx0KQogICAgICAgIGFsbF9yZXN1bHRzWydzcGVjaWZpZWQnXSA9IHJlc3VsdHMKICAgIGVsc2U6CiAgICAgICAgIyBWYWxpZGF0ZSBieSB0eXBlCiAgICAgICAgdHlwZXNfdG9fY2hlY2sgPSBBU1NFVF9ESVJTLmtleXMoKSBpZiBhcmdzLnR5cGUgPT0gJ2FsbCcgZWxzZSBbYXJncy50eXBlXQoKICAgICAgICBmb3IgYXNzZXRfdHlwZSBpbiB0eXBlc190b19jaGVjazoKICAgICAgICAgICAgaWYgYXNzZXRfdHlwZSBpbiBBU1NFVF9ESVJTOgogICAgICAgICAgICAgICAgcmVzdWx0cyA9IHZhbGlkYXRlX2RpcmVjdG9yeShBU1NFVF9ESVJTW2Fzc2V0X3R5cGVdLCBhcmdzLnZlcmJvc2UpCiAgICAgICAgICAgICAgICBhbGxfcmVzdWx0c1thc3NldF90eXBlXSA9IHJlc3VsdHMKCiAgICAjIFByaW50IHJlc3VsdHMKICAgIHN1Y2Nlc3MgPSBwcmludF9zdW1tYXJ5KGFsbF9yZXN1bHRzKQoKICAgIGlmIG5vdCBzdWNjZXNzOgogICAgICAgIHN5cy5leGl0KDEpCgoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+"""
+HTML Design Token Validator
+Ensures all HTML assets (slides, infographics, etc.) use design tokens.
+Source of truth: assets/design-tokens.css
+
+Usage:
+  python html-token-validator.py                    # Validate all HTML assets
+  python html-token-validator.py --type slides      # Validate only slides
+  python html-token-validator.py --type infographics # Validate only infographics
+  python html-token-validator.py path/to/file.html  # Validate specific file
+  python html-token-validator.py --fix              # Auto-fix issues (WIP)
+"""
+
+import re
+import json
+import sys
+from pathlib import Path
+from typing import Dict, List, Tuple, Optional
+
+# Project root relative to this script
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent
+TOKENS_JSON_PATH = PROJECT_ROOT / 'assets' / 'design-tokens.json'
+TOKENS_CSS_PATH = PROJECT_ROOT / 'assets' / 'design-tokens.css'
+
+# Asset directories to validate
+ASSET_DIRS = {
+    'slides': PROJECT_ROOT / 'assets' / 'designs' / 'slides',
+    'infographics': PROJECT_ROOT / 'assets' / 'infographics',
+}
+
+# Patterns that indicate hardcoded values (should use tokens)
+FORBIDDEN_PATTERNS = [
+    (r'#[0-9A-Fa-f]{3,8}\b', 'hex color'),
+    (r'rgb\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*\)', 'rgb color'),
+    (r'rgba\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*,\s*[\d.]+\s*\)', 'rgba color'),
+    (r'hsl\([^)]+\)', 'hsl color'),
+    (r"font-family:\s*'[^v][^a][^r][^']*',", 'hardcoded font'),  # Exclude var()
+    (r'font-family:\s*"[^v][^a][^r][^"]*",', 'hardcoded font'),
+]
+
+# Allowed rgba patterns (brand colors with transparency - CSS limitation)
+# These are derived from brand tokens but need rgba for transparency
+ALLOWED_RGBA_PATTERNS = [
+    r'rgba\(\s*59\s*,\s*130\s*,\s*246',    # --color-primary (#3B82F6)
+    r'rgba\(\s*245\s*,\s*158\s*,\s*11',    # --color-secondary (#F59E0B)
+    r'rgba\(\s*16\s*,\s*185\s*,\s*129',    # --color-accent (#10B981)
+    r'rgba\(\s*20\s*,\s*184\s*,\s*166',    # --color-accent alt (#14B8A6)
+    r'rgba\(\s*0\s*,\s*0\s*,\s*0',         # black transparency (common)
+    r'rgba\(\s*255\s*,\s*255\s*,\s*255',   # white transparency (common)
+    r'rgba\(\s*15\s*,\s*23\s*,\s*42',      # --color-surface (#0F172A)
+    r'rgba\(\s*7\s*,\s*11\s*,\s*20',       # --color-background (#070B14)
+]
+
+# Allowed exceptions (external images, etc.)
+ALLOWED_EXCEPTIONS = [
+    'pexels.com', 'unsplash.com', 'youtube.com', 'ytimg.com',
+    'googlefonts', 'fonts.googleapis.com', 'fonts.gstatic.com',
+]
+
+
+class ValidationResult:
+    """Validation result for a single file."""
+    def __init__(self, file_path: Path):
+        self.file_path = file_path
+        self.errors: List[str] = []
+        self.warnings: List[str] = []
+        self.passed = True
+
+    def add_error(self, msg: str):
+        self.errors.append(msg)
+        self.passed = False
+
+    def add_warning(self, msg: str):
+        self.warnings.append(msg)
+
+
+def load_css_variables() -> Dict[str, str]:
+    """Load CSS variables from design-tokens.css."""
+    variables = {}
+    if TOKENS_CSS_PATH.exists():
+        content = TOKENS_CSS_PATH.read_text()
+        # Extract --var-name: value patterns
+        for match in re.finditer(r'(--[\w-]+):\s*([^;]+);', content):
+            variables[match.group(1)] = match.group(2).strip()
+    return variables
+
+
+def is_inside_block(content: str, match_pos: int, open_tag: str, close_tag: str) -> bool:
+    """Check if position is inside a specific HTML block."""
+    pre = content[:match_pos]
+    tag_open = pre.rfind(open_tag)
+    tag_close = pre.rfind(close_tag)
+    return tag_open > tag_close
+
+
+def is_allowed_exception(context: str) -> bool:
+    """Check if the hardcoded value is in an allowed exception context."""
+    context_lower = context.lower()
+    return any(exc in context_lower for exc in ALLOWED_EXCEPTIONS)
+
+
+def is_allowed_rgba(match_text: str) -> bool:
+    """Check if rgba pattern uses brand colors (allowed for transparency)."""
+    return any(re.match(pattern, match_text) for pattern in ALLOWED_RGBA_PATTERNS)
+
+
+def get_context(content: str, pos: int, chars: int = 100) -> str:
+    """Get surrounding context for a match position."""
+    start = max(0, pos - chars)
+    end = min(len(content), pos + chars)
+    return content[start:end]
+
+
+def validate_html(content: str, file_path: Path, verbose: bool = False) -> ValidationResult:
+    """
+    Validate HTML content for design token compliance.
+
+    Checks:
+    1. design-tokens.css import present
+    2. No hardcoded colors in CSS (except in <script> for Chart.js)
+    3. No hardcoded fonts
+    4. Uses var(--token-name) pattern
+    """
+    result = ValidationResult(file_path)
+
+    # 1. Check for design-tokens.css import
+    if 'design-tokens.css' not in content:
+        result.add_error("Missing design-tokens.css import")
+
+    # 2. Check for forbidden patterns in CSS
+    for pattern, description in FORBIDDEN_PATTERNS:
+        for match in re.finditer(pattern, content):
+            match_text = match.group()
+            match_pos = match.start()
+            context = get_context(content, match_pos)
+
+            # Skip if in <script> block (Chart.js allowed)
+            if is_inside_block(content, match_pos, '<script', '</script>'):
+                if verbose:
+                    result.add_warning(f"Allowed in <script>: {match_text}")
+                continue
+
+            # Skip if in allowed exception context (external URLs)
+            if is_allowed_exception(context):
+                if verbose:
+                    result.add_warning(f"Allowed external: {match_text}")
+                continue
+
+            # Skip rgba using brand colors (needed for transparency effects)
+            if description == 'rgba color' and is_allowed_rgba(match_text):
+                if verbose:
+                    result.add_warning(f"Allowed brand rgba: {match_text}")
+                continue
+
+            # Skip if part of var() reference (false positive)
+            if 'var(' in context and match_text in context:
+                # Check if it's a fallback value in var()
+                var_pattern = rf'var\([^)]*{re.escape(match_text)}[^)]*\)'
+                if re.search(var_pattern, context):
+                    continue
+
+            # Error if in <style> or inline style
+            if is_inside_block(content, match_pos, '<style', '</style>'):
+                result.add_error(f"Hardcoded {description} in <style>: {match_text}")
+            elif 'style="' in context:
+                result.add_error(f"Hardcoded {description} in inline style: {match_text}")
+
+    # 3. Check for required var() usage indicators
+    token_patterns = [
+        r'var\(--color-',
+        r'var\(--primitive-',
+        r'var\(--typography-',
+        r'var\(--card-',
+        r'var\(--button-',
+    ]
+    token_count = sum(len(re.findall(p, content)) for p in token_patterns)
+
+    if token_count < 5:
+        result.add_warning(f"Low token usage ({token_count} var() references). Consider using more design tokens.")
+
+    return result
+
+
+def validate_file(file_path: Path, verbose: bool = False) -> ValidationResult:
+    """Validate a single HTML file."""
+    if not file_path.exists():
+        result = ValidationResult(file_path)
+        result.add_error("File not found")
+        return result
+
+    content = file_path.read_text()
+    return validate_html(content, file_path, verbose)
+
+
+def validate_directory(dir_path: Path, verbose: bool = False) -> List[ValidationResult]:
+    """Validate all HTML files in a directory."""
+    results = []
+    if dir_path.exists():
+        for html_file in sorted(dir_path.glob('*.html')):
+            results.append(validate_file(html_file, verbose))
+    return results
+
+
+def print_result(result: ValidationResult, verbose: bool = False):
+    """Print validation result for a file."""
+    status = "✓" if result.passed else "✗"
+    print(f"  {status} {result.file_path.name}")
+
+    if result.errors:
+        for error in result.errors[:5]:  # Limit output
+            print(f"      ├─ {error}")
+        if len(result.errors) > 5:
+            print(f"      └─ ... and {len(result.errors) - 5} more errors")
+
+    if verbose and result.warnings:
+        for warning in result.warnings[:3]:
+            print(f"      [warn] {warning}")
+
+
+def print_summary(all_results: Dict[str, List[ValidationResult]]):
+    """Print summary of all validation results."""
+    total_files = 0
+    total_passed = 0
+    total_errors = 0
+
+    print("\n" + "=" * 60)
+    print("HTML DESIGN TOKEN VALIDATION SUMMARY")
+    print("=" * 60)
+
+    for asset_type, results in all_results.items():
+        if not results:
+            continue
+
+        passed = sum(1 for r in results if r.passed)
+        failed = len(results) - passed
+        errors = sum(len(r.errors) for r in results)
+
+        total_files += len(results)
+        total_passed += passed
+        total_errors += errors
+
+        status = "✓" if failed == 0 else "✗"
+        print(f"\n{status} {asset_type.upper()}: {passed}/{len(results)} passed")
+
+        for result in results:
+            if not result.passed:
+                print_result(result)
+
+    print("\n" + "-" * 60)
+    if total_errors == 0:
+        print(f"✓ ALL PASSED: {total_passed}/{total_files} files valid")
+    else:
+        print(f"✗ FAILED: {total_files - total_passed}/{total_files} files have issues ({total_errors} total errors)")
+    print("-" * 60)
+
+    return total_errors == 0
+
+
+def main():
+    """CLI entry point."""
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description='Validate HTML assets for design token compliance',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  %(prog)s                           # Validate all HTML assets
+  %(prog)s --type slides             # Validate only slides
+  %(prog)s --type infographics       # Validate only infographics
+  %(prog)s path/to/file.html         # Validate specific file
+  %(prog)s --colors                  # Show brand colors from tokens
+"""
+    )
+    parser.add_argument('files', nargs='*', help='Specific HTML files to validate')
+    parser.add_argument('-t', '--type', choices=['slides', 'infographics', 'all'],
+                        default='all', help='Asset type to validate')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Show warnings')
+    parser.add_argument('--colors', action='store_true', help='Print CSS variables from tokens')
+    parser.add_argument('--fix', action='store_true', help='Auto-fix issues (experimental)')
+
+    args = parser.parse_args()
+
+    # Show colors mode
+    if args.colors:
+        variables = load_css_variables()
+        print("\nDesign Tokens (from design-tokens.css):")
+        print("-" * 40)
+        for name, value in sorted(variables.items())[:30]:
+            print(f"  {name}: {value}")
+        if len(variables) > 30:
+            print(f"  ... and {len(variables) - 30} more")
+        return
+
+    all_results: Dict[str, List[ValidationResult]] = {}
+
+    # Validate specific files
+    if args.files:
+        results = []
+        for file_path in args.files:
+            path = Path(file_path)
+            if path.exists():
+                results.append(validate_file(path, args.verbose))
+            else:
+                result = ValidationResult(path)
+                result.add_error("File not found")
+                results.append(result)
+        all_results['specified'] = results
+    else:
+        # Validate by type
+        types_to_check = ASSET_DIRS.keys() if args.type == 'all' else [args.type]
+
+        for asset_type in types_to_check:
+            if asset_type in ASSET_DIRS:
+                results = validate_directory(ASSET_DIRS[asset_type], args.verbose)
+                all_results[asset_type] = results
+
+    # Print results
+    success = print_summary(all_results)
+
+    if not success:
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()

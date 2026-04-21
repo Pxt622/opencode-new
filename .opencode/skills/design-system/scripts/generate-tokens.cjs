@@ -1,1 +1,205 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogR2VuZXJhdGUgQ1NTIHZhcmlhYmxlcyBmcm9tIGRlc2lnbiB0b2tlbnMgSlNPTgogKgogKiBVc2FnZToKICogICBub2RlIGdlbmVyYXRlLXRva2Vucy5janMgLS1jb25maWcgdG9rZW5zLmpzb24gLW8gdG9rZW5zLmNzcwogKiAgIG5vZGUgZ2VuZXJhdGUtdG9rZW5zLmNqcyAtLWNvbmZpZyB0b2tlbnMuanNvbiAtLWZvcm1hdCB0YWlsd2luZAogKi8KCmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKCi8qKgogKiBQYXJzZSBjb21tYW5kIGxpbmUgYXJndW1lbnRzCiAqLwpmdW5jdGlvbiBwYXJzZUFyZ3MoKSB7CiAgY29uc3QgYXJncyA9IHByb2Nlc3MuYXJndi5zbGljZSgyKTsKICBjb25zdCBvcHRpb25zID0gewogICAgY29uZmlnOiBudWxsLAogICAgb3V0cHV0OiBudWxsLAogICAgZm9ybWF0OiAnY3NzJyAvLyBjc3MgfCB0YWlsd2luZAogIH07CgogIGZvciAobGV0IGkgPSAwOyBpIDwgYXJncy5sZW5ndGg7IGkrKykgewogICAgaWYgKGFyZ3NbaV0gPT09ICctLWNvbmZpZycgfHwgYXJnc1tpXSA9PT0gJy1jJykgewogICAgICBvcHRpb25zLmNvbmZpZyA9IGFyZ3NbKytpXTsKICAgIH0gZWxzZSBpZiAoYXJnc1tpXSA9PT0gJy0tb3V0cHV0JyB8fCBhcmdzW2ldID09PSAnLW8nKSB7CiAgICAgIG9wdGlvbnMub3V0cHV0ID0gYXJnc1srK2ldOwogICAgfSBlbHNlIGlmIChhcmdzW2ldID09PSAnLS1mb3JtYXQnIHx8IGFyZ3NbaV0gPT09ICctZicpIHsKICAgICAgb3B0aW9ucy5mb3JtYXQgPSBhcmdzWysraV07CiAgICB9IGVsc2UgaWYgKGFyZ3NbaV0gPT09ICctLWhlbHAnIHx8IGFyZ3NbaV0gPT09ICctaCcpIHsKICAgICAgY29uc29sZS5sb2coYApVc2FnZTogbm9kZSBnZW5lcmF0ZS10b2tlbnMuY2pzIFtvcHRpb25zXQoKT3B0aW9uczoKICAtYywgLS1jb25maWcgPGZpbGU+ICAgSW5wdXQgSlNPTiB0b2tlbiBmaWxlIChyZXF1aXJlZCkKICAtbywgLS1vdXRwdXQgPGZpbGU+ICAgT3V0cHV0IGZpbGUgKGRlZmF1bHQ6IHN0ZG91dCkKICAtZiwgLS1mb3JtYXQgPHR5cGU+ICAgT3V0cHV0IGZvcm1hdDogY3NzIHwgdGFpbHdpbmQgKGRlZmF1bHQ6IGNzcykKICAtaCwgLS1oZWxwICAgICAgICAgICAgU2hvdyB0aGlzIGhlbHAKICAgICAgYCk7CiAgICAgIHByb2Nlc3MuZXhpdCgwKTsKICAgIH0KICB9CgogIHJldHVybiBvcHRpb25zOwp9CgovKioKICogUmVzb2x2ZSB0b2tlbiByZWZlcmVuY2VzIGxpa2Uge3ByaW1pdGl2ZS5jb2xvci5ibHVlLjYwMH0KICovCmZ1bmN0aW9uIHJlc29sdmVSZWZlcmVuY2UodmFsdWUsIHRva2VucykgewogIGlmICh0eXBlb2YgdmFsdWUgIT09ICdzdHJpbmcnIHx8ICF2YWx1ZS5zdGFydHNXaXRoKCd7JykpIHsKICAgIHJldHVybiB2YWx1ZTsKICB9CgogIGNvbnN0IHBhdGggPSB2YWx1ZS5zbGljZSgxLCAtMSkuc3BsaXQoJy4nKTsKICBsZXQgcmVzdWx0ID0gdG9rZW5zOwoKICBmb3IgKGNvbnN0IGtleSBvZiBwYXRoKSB7CiAgICByZXN1bHQgPSByZXN1bHQ/LltrZXldOwogIH0KCiAgaWYgKHJlc3VsdD8uJHZhbHVlKSB7CiAgICByZXR1cm4gcmVzb2x2ZVJlZmVyZW5jZShyZXN1bHQuJHZhbHVlLCB0b2tlbnMpOwogIH0KCiAgcmV0dXJuIHJlc3VsdCB8fCB2YWx1ZTsKfQoKLyoqCiAqIENvbnZlcnQgdG9rZW4gbmFtZSB0byBDU1MgdmFyaWFibGUgbmFtZQogKi8KZnVuY3Rpb24gdG9Dc3NWYXJOYW1lKHBhdGgpIHsKICByZXR1cm4gJy0tJyArIHBhdGguam9pbignLScpLnJlcGxhY2UoL1wuL2csICctJyk7Cn0KCi8qKgogKiBGbGF0dGVuIHRva2VucyBpbnRvIENTUyB2YXJpYWJsZXMKICovCmZ1bmN0aW9uIGZsYXR0ZW5Ub2tlbnMob2JqLCB0b2tlbnMsIHByZWZpeCA9IFtdLCByZXN1bHQgPSB7fSkgewogIGZvciAoY29uc3QgW2tleSwgdmFsdWVdIG9mIE9iamVjdC5lbnRyaWVzKG9iaikpIHsKICAgIGNvbnN0IGN1cnJlbnRQYXRoID0gWy4uLnByZWZpeCwga2V5XTsKCiAgICBpZiAodmFsdWUgJiYgdHlwZW9mIHZhbHVlID09PSAnb2JqZWN0JykgewogICAgICBpZiAodmFsdWUuJHZhbHVlICE9PSB1bmRlZmluZWQpIHsKICAgICAgICAvLyBUaGlzIGlzIGEgdG9rZW4KICAgICAgICBjb25zdCBjc3NWYXIgPSB0b0Nzc1Zhck5hbWUoY3VycmVudFBhdGgpOwogICAgICAgIGNvbnN0IHJlc29sdmVkVmFsdWUgPSByZXNvbHZlUmVmZXJlbmNlKHZhbHVlLiR2YWx1ZSwgdG9rZW5zKTsKICAgICAgICByZXN1bHRbY3NzVmFyXSA9IHJlc29sdmVkVmFsdWU7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgLy8gUmVjdXJzZSBpbnRvIG5lc3RlZCBvYmplY3QKICAgICAgICBmbGF0dGVuVG9rZW5zKHZhbHVlLCB0b2tlbnMsIGN1cnJlbnRQYXRoLCByZXN1bHQpOwogICAgICB9CiAgICB9CiAgfQoKICByZXR1cm4gcmVzdWx0Owp9CgovKioKICogR2VuZXJhdGUgQ1NTIG91dHB1dAogKi8KZnVuY3Rpb24gZ2VuZXJhdGVDU1ModG9rZW5zKSB7CiAgY29uc3QgcHJpbWl0aXZlID0gZmxhdHRlblRva2Vucyh0b2tlbnMucHJpbWl0aXZlIHx8IHt9LCB0b2tlbnMsIFsncHJpbWl0aXZlJ10pOwogIGNvbnN0IHNlbWFudGljID0gZmxhdHRlblRva2Vucyh0b2tlbnMuc2VtYW50aWMgfHwge30sIHRva2VucywgW10pOwogIGNvbnN0IGNvbXBvbmVudCA9IGZsYXR0ZW5Ub2tlbnModG9rZW5zLmNvbXBvbmVudCB8fCB7fSwgdG9rZW5zLCBbXSk7CiAgY29uc3QgZGFya1NlbWFudGljID0gZmxhdHRlblRva2Vucyh0b2tlbnMuZGFyaz8uc2VtYW50aWMgfHwge30sIHRva2VucywgW10pOwoKICBsZXQgY3NzID0gYC8qIERlc2lnbiBUb2tlbnMgLSBBdXRvLWdlbmVyYXRlZCAqLwovKiBEbyBub3QgZWRpdCBkaXJlY3RseSAtIG1vZGlmeSB0b2tlbnMuanNvbiBpbnN0ZWFkICovCgovKiA9PT0gUFJJTUlUSVZFUyA9PT0gKi8KOnJvb3Qgewoke09iamVjdC5lbnRyaWVzKHByaW1pdGl2ZSkubWFwKChbaywgdl0pID0+IGAgICR7a306ICR7dn07YCkuam9pbignXG4nKX0KfQoKLyogPT09IFNFTUFOVElDID09PSAqLwo6cm9vdCB7CiR7T2JqZWN0LmVudHJpZXMoc2VtYW50aWMpLm1hcCgoW2ssIHZdKSA9PiBgICAke2t9OiAke3Z9O2ApLmpvaW4oJ1xuJyl9Cn0KCi8qID09PSBDT01QT05FTlRTID09PSAqLwo6cm9vdCB7CiR7T2JqZWN0LmVudHJpZXMoY29tcG9uZW50KS5tYXAoKFtrLCB2XSkgPT4gYCAgJHtrfTogJHt2fTtgKS5qb2luKCdcbicpfQp9CmA7CgogIGlmIChPYmplY3Qua2V5cyhkYXJrU2VtYW50aWMpLmxlbmd0aCA+IDApIHsKICAgIGNzcyArPSBgCi8qID09PSBEQVJLIE1PREUgPT09ICovCi5kYXJrIHsKJHtPYmplY3QuZW50cmllcyhkYXJrU2VtYW50aWMpLm1hcCgoW2ssIHZdKSA9PiBgICAke2t9OiAke3Z9O2ApLmpvaW4oJ1xuJyl9Cn0KYDsKICB9CgogIHJldHVybiBjc3M7Cn0KCi8qKgogKiBHZW5lcmF0ZSBUYWlsd2luZCBjb25maWcgb3V0cHV0CiAqLwpmdW5jdGlvbiBnZW5lcmF0ZVRhaWx3aW5kKHRva2VucykgewogIGNvbnN0IHNlbWFudGljID0gZmxhdHRlblRva2Vucyh0b2tlbnMuc2VtYW50aWMgfHwge30sIHRva2VucywgW10pOwoKICAvLyBFeHRyYWN0IGNvbG9ycyBmb3IgVGFpbHdpbmQKICBjb25zdCBjb2xvcnMgPSB7fTsKICBmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBPYmplY3QuZW50cmllcyhzZW1hbnRpYykpIHsKICAgIGlmIChrZXkuaW5jbHVkZXMoJ2NvbG9yJykpIHsKICAgICAgY29uc3QgbmFtZSA9IGtleS5yZXBsYWNlKCctLWNvbG9yLScsICcnKS5yZXBsYWNlKC8tL2csICcuJyk7CiAgICAgIGNvbG9yc1tuYW1lXSA9IGB2YXIoJHtrZXl9KWA7CiAgICB9CiAgfQoKICByZXR1cm4gYC8vIFRhaWx3aW5kIGNvbG9yIGNvbmZpZyAtIEF1dG8tZ2VuZXJhdGVkCi8vIEFkZCB0byB0YWlsd2luZC5jb25maWcudHMgdGhlbWUuZXh0ZW5kLmNvbG9ycwoKbW9kdWxlLmV4cG9ydHMgPSB7CiAgY29sb3JzOiAke0pTT04uc3RyaW5naWZ5KGNvbG9ycywgbnVsbCwgMikucmVwbGFjZSgvIi9nLCAiJyIpfQp9OwpgOwp9CgovKioKICogTWFpbgogKi8KZnVuY3Rpb24gbWFpbigpIHsKICBjb25zdCBvcHRpb25zID0gcGFyc2VBcmdzKCk7CgogIGlmICghb3B0aW9ucy5jb25maWcpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yOiAtLWNvbmZpZyBpcyByZXF1aXJlZCcpOwogICAgcHJvY2Vzcy5leGl0KDEpOwogIH0KCiAgLy8gUmVzb2x2ZSBjb25maWcgcGF0aAogIGNvbnN0IGNvbmZpZ1BhdGggPSBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgb3B0aW9ucy5jb25maWcpOwoKICBpZiAoIWZzLmV4aXN0c1N5bmMoY29uZmlnUGF0aCkpIHsKICAgIGNvbnNvbGUuZXJyb3IoYEVycm9yOiBDb25maWcgZmlsZSBub3QgZm91bmQ6ICR7Y29uZmlnUGF0aH1gKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CgogIC8vIFJlYWQgYW5kIHBhcnNlIHRva2VucwogIGNvbnN0IHRva2VucyA9IEpTT04ucGFyc2UoZnMucmVhZEZpbGVTeW5jKGNvbmZpZ1BhdGgsICd1dGYtOCcpKTsKCiAgLy8gR2VuZXJhdGUgb3V0cHV0CiAgbGV0IG91dHB1dDsKICBpZiAob3B0aW9ucy5mb3JtYXQgPT09ICd0YWlsd2luZCcpIHsKICAgIG91dHB1dCA9IGdlbmVyYXRlVGFpbHdpbmQodG9rZW5zKTsKICB9IGVsc2UgewogICAgb3V0cHV0ID0gZ2VuZXJhdGVDU1ModG9rZW5zKTsKICB9CgogIC8vIFdyaXRlIG91dHB1dAogIGlmIChvcHRpb25zLm91dHB1dCkgewogICAgY29uc3Qgb3V0cHV0UGF0aCA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCBvcHRpb25zLm91dHB1dCk7CiAgICBmcy5ta2RpclN5bmMocGF0aC5kaXJuYW1lKG91dHB1dFBhdGgpLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KTsKICAgIGZzLndyaXRlRmlsZVN5bmMob3V0cHV0UGF0aCwgb3V0cHV0KTsKICAgIGNvbnNvbGUubG9nKGBHZW5lcmF0ZWQ6ICR7b3V0cHV0UGF0aH1gKTsKICB9IGVsc2UgewogICAgY29uc29sZS5sb2cob3V0cHV0KTsKICB9Cn0KCm1haW4oKTsK
+#!/usr/bin/env node
+/**
+ * Generate CSS variables from design tokens JSON
+ *
+ * Usage:
+ *   node generate-tokens.cjs --config tokens.json -o tokens.css
+ *   node generate-tokens.cjs --config tokens.json --format tailwind
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+/**
+ * Parse command line arguments
+ */
+function parseArgs() {
+  const args = process.argv.slice(2);
+  const options = {
+    config: null,
+    output: null,
+    format: 'css' // css | tailwind
+  };
+
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--config' || args[i] === '-c') {
+      options.config = args[++i];
+    } else if (args[i] === '--output' || args[i] === '-o') {
+      options.output = args[++i];
+    } else if (args[i] === '--format' || args[i] === '-f') {
+      options.format = args[++i];
+    } else if (args[i] === '--help' || args[i] === '-h') {
+      console.log(`
+Usage: node generate-tokens.cjs [options]
+
+Options:
+  -c, --config <file>   Input JSON token file (required)
+  -o, --output <file>   Output file (default: stdout)
+  -f, --format <type>   Output format: css | tailwind (default: css)
+  -h, --help            Show this help
+      `);
+      process.exit(0);
+    }
+  }
+
+  return options;
+}
+
+/**
+ * Resolve token references like {primitive.color.blue.600}
+ */
+function resolveReference(value, tokens) {
+  if (typeof value !== 'string' || !value.startsWith('{')) {
+    return value;
+  }
+
+  const path = value.slice(1, -1).split('.');
+  let result = tokens;
+
+  for (const key of path) {
+    result = result?.[key];
+  }
+
+  if (result?.$value) {
+    return resolveReference(result.$value, tokens);
+  }
+
+  return result || value;
+}
+
+/**
+ * Convert token name to CSS variable name
+ */
+function toCssVarName(path) {
+  return '--' + path.join('-').replace(/\./g, '-');
+}
+
+/**
+ * Flatten tokens into CSS variables
+ */
+function flattenTokens(obj, tokens, prefix = [], result = {}) {
+  for (const [key, value] of Object.entries(obj)) {
+    const currentPath = [...prefix, key];
+
+    if (value && typeof value === 'object') {
+      if (value.$value !== undefined) {
+        // This is a token
+        const cssVar = toCssVarName(currentPath);
+        const resolvedValue = resolveReference(value.$value, tokens);
+        result[cssVar] = resolvedValue;
+      } else {
+        // Recurse into nested object
+        flattenTokens(value, tokens, currentPath, result);
+      }
+    }
+  }
+
+  return result;
+}
+
+/**
+ * Generate CSS output
+ */
+function generateCSS(tokens) {
+  const primitive = flattenTokens(tokens.primitive || {}, tokens, ['primitive']);
+  const semantic = flattenTokens(tokens.semantic || {}, tokens, []);
+  const component = flattenTokens(tokens.component || {}, tokens, []);
+  const darkSemantic = flattenTokens(tokens.dark?.semantic || {}, tokens, []);
+
+  let css = `/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+${Object.entries(primitive).map(([k, v]) => `  ${k}: ${v};`).join('\n')}
+}
+
+/* === SEMANTIC === */
+:root {
+${Object.entries(semantic).map(([k, v]) => `  ${k}: ${v};`).join('\n')}
+}
+
+/* === COMPONENTS === */
+:root {
+${Object.entries(component).map(([k, v]) => `  ${k}: ${v};`).join('\n')}
+}
+`;
+
+  if (Object.keys(darkSemantic).length > 0) {
+    css += `
+/* === DARK MODE === */
+.dark {
+${Object.entries(darkSemantic).map(([k, v]) => `  ${k}: ${v};`).join('\n')}
+}
+`;
+  }
+
+  return css;
+}
+
+/**
+ * Generate Tailwind config output
+ */
+function generateTailwind(tokens) {
+  const semantic = flattenTokens(tokens.semantic || {}, tokens, []);
+
+  // Extract colors for Tailwind
+  const colors = {};
+  for (const [key, value] of Object.entries(semantic)) {
+    if (key.includes('color')) {
+      const name = key.replace('--color-', '').replace(/-/g, '.');
+      colors[name] = `var(${key})`;
+    }
+  }
+
+  return `// Tailwind color config - Auto-generated
+// Add to tailwind.config.ts theme.extend.colors
+
+module.exports = {
+  colors: ${JSON.stringify(colors, null, 2).replace(/"/g, "'")}
+};
+`;
+}
+
+/**
+ * Main
+ */
+function main() {
+  const options = parseArgs();
+
+  if (!options.config) {
+    console.error('Error: --config is required');
+    process.exit(1);
+  }
+
+  // Resolve config path
+  const configPath = path.resolve(process.cwd(), options.config);
+
+  if (!fs.existsSync(configPath)) {
+    console.error(`Error: Config file not found: ${configPath}`);
+    process.exit(1);
+  }
+
+  // Read and parse tokens
+  const tokens = JSON.parse(fs.readFileSync(configPath, 'utf-8'));
+
+  // Generate output
+  let output;
+  if (options.format === 'tailwind') {
+    output = generateTailwind(tokens);
+  } else {
+    output = generateCSS(tokens);
+  }
+
+  // Write output
+  if (options.output) {
+    const outputPath = path.resolve(process.cwd(), options.output);
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, output);
+    console.log(`Generated: ${outputPath}`);
+  } else {
+    console.log(output);
+  }
+}
+
+main();

@@ -1,1 +1,40 @@
-ZnJvbSBwbGF5d3JpZ2h0LnN5bmNfYXBpIGltcG9ydCBzeW5jX3BsYXl3cmlnaHQKCiMgRXhhbXBsZTogRGlzY292ZXJpbmcgYnV0dG9ucyBhbmQgb3RoZXIgZWxlbWVudHMgb24gYSBwYWdlCgp3aXRoIHN5bmNfcGxheXdyaWdodCgpIGFzIHA6CiAgICBicm93c2VyID0gcC5jaHJvbWl1bS5sYXVuY2goaGVhZGxlc3M9VHJ1ZSkKICAgIHBhZ2UgPSBicm93c2VyLm5ld19wYWdlKCkKCiAgICAjIE5hdmlnYXRlIHRvIHBhZ2UgYW5kIHdhaXQgZm9yIGl0IHRvIGZ1bGx5IGxvYWQKICAgIHBhZ2UuZ290bygnaHR0cDovL2xvY2FsaG9zdDo1MTczJykKICAgIHBhZ2Uud2FpdF9mb3JfbG9hZF9zdGF0ZSgnbmV0d29ya2lkbGUnKQoKICAgICMgRGlzY292ZXIgYWxsIGJ1dHRvbnMgb24gdGhlIHBhZ2UKICAgIGJ1dHRvbnMgPSBwYWdlLmxvY2F0b3IoJ2J1dHRvbicpLmFsbCgpCiAgICBwcmludChmIkZvdW5kIHtsZW4oYnV0dG9ucyl9IGJ1dHRvbnM6IikKICAgIGZvciBpLCBidXR0b24gaW4gZW51bWVyYXRlKGJ1dHRvbnMpOgogICAgICAgIHRleHQgPSBidXR0b24uaW5uZXJfdGV4dCgpIGlmIGJ1dHRvbi5pc192aXNpYmxlKCkgZWxzZSAiW2hpZGRlbl0iCiAgICAgICAgcHJpbnQoZiIgIFt7aX1dIHt0ZXh0fSIpCgogICAgIyBEaXNjb3ZlciBsaW5rcwogICAgbGlua3MgPSBwYWdlLmxvY2F0b3IoJ2FbaHJlZl0nKS5hbGwoKQogICAgcHJpbnQoZiJcbkZvdW5kIHtsZW4obGlua3MpfSBsaW5rczoiKQogICAgZm9yIGxpbmsgaW4gbGlua3NbOjVdOiAgIyBTaG93IGZpcnN0IDUKICAgICAgICB0ZXh0ID0gbGluay5pbm5lcl90ZXh0KCkuc3RyaXAoKQogICAgICAgIGhyZWYgPSBsaW5rLmdldF9hdHRyaWJ1dGUoJ2hyZWYnKQogICAgICAgIHByaW50KGYiICAtIHt0ZXh0fSAtPiB7aHJlZn0iKQoKICAgICMgRGlzY292ZXIgaW5wdXQgZmllbGRzCiAgICBpbnB1dHMgPSBwYWdlLmxvY2F0b3IoJ2lucHV0LCB0ZXh0YXJlYSwgc2VsZWN0JykuYWxsKCkKICAgIHByaW50KGYiXG5Gb3VuZCB7bGVuKGlucHV0cyl9IGlucHV0IGZpZWxkczoiKQogICAgZm9yIGlucHV0X2VsZW0gaW4gaW5wdXRzOgogICAgICAgIG5hbWUgPSBpbnB1dF9lbGVtLmdldF9hdHRyaWJ1dGUoJ25hbWUnKSBvciBpbnB1dF9lbGVtLmdldF9hdHRyaWJ1dGUoJ2lkJykgb3IgIlt1bm5hbWVkXSIKICAgICAgICBpbnB1dF90eXBlID0gaW5wdXRfZWxlbS5nZXRfYXR0cmlidXRlKCd0eXBlJykgb3IgJ3RleHQnCiAgICAgICAgcHJpbnQoZiIgIC0ge25hbWV9ICh7aW5wdXRfdHlwZX0pIikKCiAgICAjIFRha2Ugc2NyZWVuc2hvdCBmb3IgdmlzdWFsIHJlZmVyZW5jZQogICAgcGFnZS5zY3JlZW5zaG90KHBhdGg9Jy90bXAvcGFnZV9kaXNjb3ZlcnkucG5nJywgZnVsbF9wYWdlPVRydWUpCiAgICBwcmludCgiXG5TY3JlZW5zaG90IHNhdmVkIHRvIC90bXAvcGFnZV9kaXNjb3ZlcnkucG5nIikKCiAgICBicm93c2VyLmNsb3NlKCk=
+from playwright.sync_api import sync_playwright
+
+# Example: Discovering buttons and other elements on a page
+
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+    page = browser.new_page()
+
+    # Navigate to page and wait for it to fully load
+    page.goto('http://localhost:5173')
+    page.wait_for_load_state('networkidle')
+
+    # Discover all buttons on the page
+    buttons = page.locator('button').all()
+    print(f"Found {len(buttons)} buttons:")
+    for i, button in enumerate(buttons):
+        text = button.inner_text() if button.is_visible() else "[hidden]"
+        print(f"  [{i}] {text}")
+
+    # Discover links
+    links = page.locator('a[href]').all()
+    print(f"\nFound {len(links)} links:")
+    for link in links[:5]:  # Show first 5
+        text = link.inner_text().strip()
+        href = link.get_attribute('href')
+        print(f"  - {text} -> {href}")
+
+    # Discover input fields
+    inputs = page.locator('input, textarea, select').all()
+    print(f"\nFound {len(inputs)} input fields:")
+    for input_elem in inputs:
+        name = input_elem.get_attribute('name') or input_elem.get_attribute('id') or "[unnamed]"
+        input_type = input_elem.get_attribute('type') or 'text'
+        print(f"  - {name} ({input_type})")
+
+    # Take screenshot for visual reference
+    page.screenshot(path='/tmp/page_discovery.png', full_page=True)
+    print("\nScreenshot saved to /tmp/page_discovery.png")
+
+    browser.close()

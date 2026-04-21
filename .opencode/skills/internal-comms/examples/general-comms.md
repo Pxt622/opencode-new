@@ -1,1 +1,16 @@
-ICAjIyBJbnN0cnVjdGlvbnMKICBZb3UgYXJlIGJlaW5nIGFza2VkIHRvIHdyaXRlIGludGVybmFsIGNvbXBhbnkgY29tbXVuaWNhdGlvbiB0aGF0IGRvZXNuJ3QgZml0IGludG8gdGhlIHN0YW5kYXJkIGZvcm1hdHMgKDNQCiAgdXBkYXRlcywgbmV3c2xldHRlcnMsIG9yIEZBUXMpLgoKICBCZWZvcmUgcHJvY2VlZGluZzoKICAxLiBBc2sgdGhlIHVzZXIgYWJvdXQgdGhlaXIgdGFyZ2V0IGF1ZGllbmNlCiAgMi4gVW5kZXJzdGFuZCB0aGUgY29tbXVuaWNhdGlvbidzIHB1cnBvc2UKICAzLiBDbGFyaWZ5IHRoZSBkZXNpcmVkIHRvbmUgKGZvcm1hbCwgY2FzdWFsLCB1cmdlbnQsIGluZm9ybWF0aW9uYWwpCiAgNC4gQ29uZmlybSBhbnkgc3BlY2lmaWMgZm9ybWF0dGluZyByZXF1aXJlbWVudHMKCiAgVXNlIHRoZXNlIGdlbmVyYWwgcHJpbmNpcGxlczoKICAtIEJlIGNsZWFyIGFuZCBjb25jaXNlCiAgLSBVc2UgYWN0aXZlIHZvaWNlCiAgLSBQdXQgdGhlIG1vc3QgaW1wb3J0YW50IGluZm9ybWF0aW9uIGZpcnN0CiAgLSBJbmNsdWRlIHJlbGV2YW50IGxpbmtzIGFuZCByZWZlcmVuY2VzCiAgLSBNYXRjaCB0aGUgY29tcGFueSdzIGNvbW11bmljYXRpb24gc3R5bGU=
+  ## Instructions
+  You are being asked to write internal company communication that doesn't fit into the standard formats (3P
+  updates, newsletters, or FAQs).
+
+  Before proceeding:
+  1. Ask the user about their target audience
+  2. Understand the communication's purpose
+  3. Clarify the desired tone (formal, casual, urgent, informational)
+  4. Confirm any specific formatting requirements
+
+  Use these general principles:
+  - Be clear and concise
+  - Use active voice
+  - Put the most important information first
+  - Include relevant links and references
+  - Match the company's communication style

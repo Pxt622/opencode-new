@@ -1,1 +1,317 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKQmFja2dyb3VuZCBJbWFnZSBGZXRjaGVyCkZldGNoZXMgcmVhbCBpbWFnZXMgZnJvbSBQZXhlbHMgZm9yIHNsaWRlIGJhY2tncm91bmRzLgpVc2VzIHdlYiBzY3JhcGluZyAobm8gQVBJIGtleSByZXF1aXJlZCkgb3IgV2ViRmV0Y2ggdG9vbCBpbnRlZ3JhdGlvbi4KIiIiCgppbXBvcnQganNvbgppbXBvcnQgY3N2CmltcG9ydCByZQppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKIyBQcm9qZWN0IHJvb3QgcmVsYXRpdmUgdG8gdGhpcyBzY3JpcHQKUFJPSkVDVF9ST09UID0gUGF0aChfX2ZpbGVfXykucGFyZW50LnBhcmVudC5wYXJlbnQucGFyZW50LnBhcmVudApUT0tFTlNfUEFUSCA9IFBST0pFQ1RfUk9PVCAvICdhc3NldHMnIC8gJ2Rlc2lnbi10b2tlbnMuanNvbicKQkFDS0dST1VORFNfQ1NWID0gUGF0aChfX2ZpbGVfXykucGFyZW50LnBhcmVudCAvICdkYXRhJyAvICdzbGlkZS1iYWNrZ3JvdW5kcy5jc3YnCgoKZGVmIHJlc29sdmVfdG9rZW5fcmVmZXJlbmNlKHJlZjogc3RyLCB0b2tlbnM6IGRpY3QpIC0+IHN0cjoKICAgICIiIlJlc29sdmUgdG9rZW4gcmVmZXJlbmNlIGxpa2Uge3ByaW1pdGl2ZS5jb2xvci5vY2Vhbi1ibHVlLjUwMH0gdG8gaGV4IHZhbHVlLiIiIgogICAgaWYgbm90IHJlZiBvciBub3QgcmVmLnN0YXJ0c3dpdGgoJ3snKSBvciBub3QgcmVmLmVuZHN3aXRoKCd9Jyk6CiAgICAgICAgcmV0dXJuIHJlZiAgIyBBbHJlYWR5IGEgdmFsdWUsIG5vdCBhIHJlZmVyZW5jZQoKICAgICMgUGFyc2UgcmVmZXJlbmNlOiB7cHJpbWl0aXZlLmNvbG9yLm9jZWFuLWJsdWUuNTAwfQogICAgcGF0aCA9IHJlZlsxOi0xXS5zcGxpdCgnLicpICAjIFsncHJpbWl0aXZlJywgJ2NvbG9yJywgJ29jZWFuLWJsdWUnLCAnNTAwJ10KICAgIGN1cnJlbnQgPSB0b2tlbnMKICAgIGZvciBrZXkgaW4gcGF0aDoKICAgICAgICBpZiBpc2luc3RhbmNlKGN1cnJlbnQsIGRpY3QpOgogICAgICAgICAgICBjdXJyZW50ID0gY3VycmVudC5nZXQoa2V5KQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiBOb25lICAjIEludmFsaWQgcGF0aAogICAgIyBSZXR1cm4gJHZhbHVlIGlmIGl0J3MgYSB0b2tlbiBvYmplY3QKICAgIGlmIGlzaW5zdGFuY2UoY3VycmVudCwgZGljdCkgYW5kICckdmFsdWUnIGluIGN1cnJlbnQ6CiAgICAgICAgcmV0dXJuIGN1cnJlbnRbJyR2YWx1ZSddCiAgICByZXR1cm4gY3VycmVudAoKCmRlZiBsb2FkX2JyYW5kX2NvbG9ycygpOgogICAgIiIiTG9hZCBjb2xvcnMgZnJvbSBhc3NldHMvZGVzaWduLXRva2Vucy5qc29uIGZvciBvdmVybGF5IGdyYWRpZW50cy4KCiAgICBSZXNvbHZlcyBzZW1hbnRpYyB0b2tlbiByZWZlcmVuY2VzIHRvIGFjdHVhbCBoZXggdmFsdWVzLgogICAgIiIiCiAgICB0cnk6CiAgICAgICAgd2l0aCBvcGVuKFRPS0VOU19QQVRIKSBhcyBmOgogICAgICAgICAgICB0b2tlbnMgPSBqc29uLmxvYWQoZikKCiAgICAgICAgY29sb3JzID0gdG9rZW5zLmdldCgncHJpbWl0aXZlJywge30pLmdldCgnY29sb3InLCB7fSkKICAgICAgICBzZW1hbnRpYyA9IHRva2Vucy5nZXQoJ3NlbWFudGljJywge30pLmdldCgnY29sb3InLCB7fSkKCiAgICAgICAgIyBUcnkgc2VtYW50aWMgdG9rZW5zIGZpcnN0IChwcmVmZXJyZWQpIC0gcmVzb2x2ZSByZWZlcmVuY2VzCiAgICAgICAgaWYgc2VtYW50aWM6CiAgICAgICAgICAgIHByaW1hcnlfcmVmID0gc2VtYW50aWMuZ2V0KCdwcmltYXJ5Jywge30pLmdldCgnJHZhbHVlJykKICAgICAgICAgICAgc2Vjb25kYXJ5X3JlZiA9IHNlbWFudGljLmdldCgnc2Vjb25kYXJ5Jywge30pLmdldCgnJHZhbHVlJykKICAgICAgICAgICAgYWNjZW50X3JlZiA9IHNlbWFudGljLmdldCgnYWNjZW50Jywge30pLmdldCgnJHZhbHVlJykKICAgICAgICAgICAgYmFja2dyb3VuZF9yZWYgPSBzZW1hbnRpYy5nZXQoJ2JhY2tncm91bmQnLCB7fSkuZ2V0KCckdmFsdWUnKQoKICAgICAgICAgICAgcHJpbWFyeSA9IHJlc29sdmVfdG9rZW5fcmVmZXJlbmNlKHByaW1hcnlfcmVmLCB0b2tlbnMpCiAgICAgICAgICAgIHNlY29uZGFyeSA9IHJlc29sdmVfdG9rZW5fcmVmZXJlbmNlKHNlY29uZGFyeV9yZWYsIHRva2VucykKICAgICAgICAgICAgYWNjZW50ID0gcmVzb2x2ZV90b2tlbl9yZWZlcmVuY2UoYWNjZW50X3JlZiwgdG9rZW5zKQogICAgICAgICAgICBiYWNrZ3JvdW5kID0gcmVzb2x2ZV90b2tlbl9yZWZlcmVuY2UoYmFja2dyb3VuZF9yZWYsIHRva2VucykKCiAgICAgICAgICAgIGlmIHByaW1hcnkgYW5kIHNlY29uZGFyeToKICAgICAgICAgICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICAgICAgICAgJ3ByaW1hcnknOiBwcmltYXJ5LAogICAgICAgICAgICAgICAgICAgICdzZWNvbmRhcnknOiBzZWNvbmRhcnksCiAgICAgICAgICAgICAgICAgICAgJ2FjY2VudCc6IGFjY2VudCBvciBwcmltYXJ5LAogICAgICAgICAgICAgICAgICAgICdiYWNrZ3JvdW5kJzogYmFja2dyb3VuZCBvciAnIzBEMEQwRCcsCiAgICAgICAgICAgICAgICB9CgogICAgICAgICMgRmFsbGJhY2s6IGZpbmQgZmlyc3QgY29sb3IgcGFsZXR0ZSB3aXRoIDUwMCB2YWx1ZSAocHJpbWFyeSkKICAgICAgICBwcmltYXJ5X2tleXMgPSBbJ29jZWFuLWJsdWUnLCAnY29yYWwnLCAnYmx1ZScsICdwcmltYXJ5J10KICAgICAgICBzZWNvbmRhcnlfa2V5cyA9IFsnZ29sZGVuLWFtYmVyJywgJ3B1cnBsZScsICdhbWJlcicsICdzZWNvbmRhcnknXQogICAgICAgIGFjY2VudF9rZXlzID0gWydlbWVyYWxkJywgJ21pbnQnLCAnZ3JlZW4nLCAnYWNjZW50J10KCiAgICAgICAgcHJpbWFyeV9jb2xvciA9IE5vbmUKICAgICAgICBzZWNvbmRhcnlfY29sb3IgPSBOb25lCiAgICAgICAgYWNjZW50X2NvbG9yID0gTm9uZQoKICAgICAgICBmb3Iga2V5IGluIHByaW1hcnlfa2V5czoKICAgICAgICAgICAgaWYga2V5IGluIGNvbG9ycyBhbmQgaXNpbnN0YW5jZShjb2xvcnNba2V5XSwgZGljdCk6CiAgICAgICAgICAgICAgICBwcmltYXJ5X2NvbG9yID0gY29sb3JzW2tleV0uZ2V0KCc1MDAnLCB7fSkuZ2V0KCckdmFsdWUnKQogICAgICAgICAgICAgICAgaWYgcHJpbWFyeV9jb2xvcjoKICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICBmb3Iga2V5IGluIHNlY29uZGFyeV9rZXlzOgogICAgICAgICAgICBpZiBrZXkgaW4gY29sb3JzIGFuZCBpc2luc3RhbmNlKGNvbG9yc1trZXldLCBkaWN0KToKICAgICAgICAgICAgICAgIHNlY29uZGFyeV9jb2xvciA9IGNvbG9yc1trZXldLmdldCgnNTAwJywge30pLmdldCgnJHZhbHVlJykKICAgICAgICAgICAgICAgIGlmIHNlY29uZGFyeV9jb2xvcjoKICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICBmb3Iga2V5IGluIGFjY2VudF9rZXlzOgogICAgICAgICAgICBpZiBrZXkgaW4gY29sb3JzIGFuZCBpc2luc3RhbmNlKGNvbG9yc1trZXldLCBkaWN0KToKICAgICAgICAgICAgICAgIGFjY2VudF9jb2xvciA9IGNvbG9yc1trZXldLmdldCgnNTAwJywge30pLmdldCgnJHZhbHVlJykKICAgICAgICAgICAgICAgIGlmIGFjY2VudF9jb2xvcjoKICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICBiYWNrZ3JvdW5kID0gY29sb3JzLmdldCgnZGFyaycsIHt9KS5nZXQoJzgwMCcsIHt9KS5nZXQoJyR2YWx1ZScsICcjMEQwRDBEJykKCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgJ3ByaW1hcnknOiBwcmltYXJ5X2NvbG9yIG9yICcjM0I4MkY2JywKICAgICAgICAgICAgJ3NlY29uZGFyeSc6IHNlY29uZGFyeV9jb2xvciBvciAnI0Y1OUUwQicsCiAgICAgICAgICAgICdhY2NlbnQnOiBhY2NlbnRfY29sb3Igb3IgJyMxMEI5ODEnLAogICAgICAgICAgICAnYmFja2dyb3VuZCc6IGJhY2tncm91bmQsCiAgICAgICAgfQogICAgZXhjZXB0IChGaWxlTm90Rm91bmRFcnJvciwgS2V5RXJyb3IsIFR5cGVFcnJvcik6CiAgICAgICAgIyBGYWxsYmFjayBkZWZhdWx0cwogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICdwcmltYXJ5JzogJyMzQjgyRjYnLAogICAgICAgICAgICAnc2Vjb25kYXJ5JzogJyNGNTlFMEInLAogICAgICAgICAgICAnYWNjZW50JzogJyMxMEI5ODEnLAogICAgICAgICAgICAnYmFja2dyb3VuZCc6ICcjMEQwRDBEJywKICAgICAgICB9CgoKZGVmIGxvYWRfYmFja2dyb3VuZHNfY29uZmlnKCk6CiAgICAiIiJMb2FkIGJhY2tncm91bmQgY29uZmlndXJhdGlvbiBmcm9tIENTVi4iIiIKICAgIGNvbmZpZyA9IHt9CiAgICB0cnk6CiAgICAgICAgd2l0aCBvcGVuKEJBQ0tHUk9VTkRTX0NTViwgbmV3bGluZT0nJykgYXMgZjoKICAgICAgICAgICAgcmVhZGVyID0gY3N2LkRpY3RSZWFkZXIoZikKICAgICAgICAgICAgZm9yIHJvdyBpbiByZWFkZXI6CiAgICAgICAgICAgICAgICBjb25maWdbcm93WydzbGlkZV90eXBlJ11dID0gcm93CiAgICBleGNlcHQgRmlsZU5vdEZvdW5kRXJyb3I6CiAgICAgICAgcHJpbnQoZiJXYXJuaW5nOiB7QkFDS0dST1VORFNfQ1NWfSBub3QgZm91bmQiKQogICAgcmV0dXJuIGNvbmZpZwoKCmRlZiBnZXRfb3ZlcmxheV9jc3Moc3R5bGU6IHN0ciwgYnJhbmRfY29sb3JzOiBkaWN0KSAtPiBzdHI6CiAgICAiIiJHZW5lcmF0ZSBvdmVybGF5IENTUyB1c2luZyBicmFuZCBjb2xvcnMgZnJvbSBkZXNpZ24tdG9rZW5zLmpzb24uIiIiCiAgICBvdmVybGF5cyA9IHsKICAgICAgICAnZ3JhZGllbnQtZGFyayc6IGYibGluZWFyLWdyYWRpZW50KDEzNWRlZywge2JyYW5kX2NvbG9yc1snYmFja2dyb3VuZCddfUU2LCB7YnJhbmRfY29sb3JzWydiYWNrZ3JvdW5kJ119QjMpIiwKICAgICAgICAnZ3JhZGllbnQtYnJhbmQnOiBmImxpbmVhci1ncmFkaWVudCgxMzVkZWcsIHticmFuZF9jb2xvcnNbJ3ByaW1hcnknXX1DQywge2JyYW5kX2NvbG9yc1snc2Vjb25kYXJ5J119OTkpIiwKICAgICAgICAnZ3JhZGllbnQtYWNjZW50JzogZiJsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCB7YnJhbmRfY29sb3JzWydhY2NlbnQnXX05OSwgdHJhbnNwYXJlbnQpIiwKICAgICAgICAnYmx1ci1kYXJrJzogZiJyZ2JhKDEzLDEzLDEzLDAuOCkiLAogICAgICAgICdkZXNhdHVyYXRlLWRhcmsnOiBmInJnYmEoMTMsMTMsMTMsMC43KSIsCiAgICB9CiAgICByZXR1cm4gb3ZlcmxheXMuZ2V0KHN0eWxlLCBvdmVybGF5c1snZ3JhZGllbnQtZGFyayddKQoKCiMgQ3VyYXRlZCBoaWdoLXF1YWxpdHkgaW1hZ2VzIGZyb20gUGV4ZWxzIChmcmVlIHRvIHVzZSwgcHJlLXNlbGVjdGVkIGZvciBicmFuZCBhZXN0aGV0aWMpCkNVUkFURURfSU1BR0VTID0gewogICAgJ2hlcm8nOiBbCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzM4NjE5NjkvcGV4ZWxzLXBob3RvLTM4NjE5NjkuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzI1ODI5MzcvcGV4ZWxzLXBob3RvLTI1ODI5MzcuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzEwODk0MzgvcGV4ZWxzLXBob3RvLTEwODk0MzguanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICBdLAogICAgJ3Zpc2lvbic6IFsKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzE4MzE1MC9wZXhlbHMtcGhvdG8tMzE4MzE1MC5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzE4MjgxMi9wZXhlbHMtcGhvdG8tMzE4MjgxMi5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzE4NDI5MS9wZXhlbHMtcGhvdG8tMzE4NDI5MS5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgIF0sCiAgICAndGVhbSc6IFsKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzE4NDQxOC9wZXhlbHMtcGhvdG8tMzE4NDQxOC5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzE4NDMzOC9wZXhlbHMtcGhvdG8tMzE4NDMzOC5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzE4Mjc3My9wZXhlbHMtcGhvdG8tMzE4Mjc3My5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgIF0sCiAgICAndGVzdGltb25pYWwnOiBbCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzMxODQ0NjUvcGV4ZWxzLXBob3RvLTMxODQ0NjUuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzExODE2MjIvcGV4ZWxzLXBob3RvLTExODE2MjIuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICBdLAogICAgJ2N0YSc6IFsKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzE4NDMzOS9wZXhlbHMtcGhvdG8tMzE4NDMzOS5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzE4NDI5OC9wZXhlbHMtcGhvdG8tMzE4NDI5OC5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgIF0sCiAgICAncHJvYmxlbSc6IFsKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMzc2MDUyOS9wZXhlbHMtcGhvdG8tMzc2MDUyOS5qcGVnP2F1dG89Y29tcHJlc3MmY3M9dGlueXNyZ2Imdz0xOTIwJywKICAgICAgICAnaHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvODk3ODE3L3BleGVscy1waG90by04OTc4MTcuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICBdLAogICAgJ3NvbHV0aW9uJzogWwogICAgICAgICdodHRwczovL2ltYWdlcy5wZXhlbHMuY29tL3Bob3Rvcy8zMTg0MjkyL3BleGVscy1waG90by0zMTg0MjkyLmpwZWc/YXV0bz1jb21wcmVzcyZjcz10aW55c3JnYiZ3PTE5MjAnLAogICAgICAgICdodHRwczovL2ltYWdlcy5wZXhlbHMuY29tL3Bob3Rvcy8zMTg0NjQ0L3BleGVscy1waG90by0zMTg0NjQ0LmpwZWc/YXV0bz1jb21wcmVzcyZjcz10aW55c3JnYiZ3PTE5MjAnLAogICAgXSwKICAgICdob29rJzogWwogICAgICAgICdodHRwczovL2ltYWdlcy5wZXhlbHMuY29tL3Bob3Rvcy8yNTgyOTM3L3BleGVscy1waG90by0yNTgyOTM3LmpwZWc/YXV0bz1jb21wcmVzcyZjcz10aW55c3JnYiZ3PTE5MjAnLAogICAgICAgICdodHRwczovL2ltYWdlcy5wZXhlbHMuY29tL3Bob3Rvcy8xMDg5NDM4L3BleGVscy1waG90by0xMDg5NDM4LmpwZWc/YXV0bz1jb21wcmVzcyZjcz10aW55c3JnYiZ3PTE5MjAnLAogICAgXSwKICAgICdzb2NpYWwnOiBbCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzMxODQzNjAvcGV4ZWxzLXBob3RvLTMxODQzNjAuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzMxODQyODcvcGV4ZWxzLXBob3RvLTMxODQyODcuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICBdLAogICAgJ2RlbW8nOiBbCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzExODE2NzUvcGV4ZWxzLXBob3RvLTExODE2NzUuanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICAgICAgJ2h0dHBzOi8vaW1hZ2VzLnBleGVscy5jb20vcGhvdG9zLzM4NjE5NTgvcGV4ZWxzLXBob3RvLTM4NjE5NTguanBlZz9hdXRvPWNvbXByZXNzJmNzPXRpbnlzcmdiJnc9MTkyMCcsCiAgICBdLAp9CgoKZGVmIGdldF9jdXJhdGVkX2ltYWdlcyhzbGlkZV90eXBlOiBzdHIpIC0+IGxpc3Q6CiAgICAiIiJHZXQgY3VyYXRlZCBpbWFnZXMgZm9yIHNsaWRlIHR5cGUuIiIiCiAgICByZXR1cm4gQ1VSQVRFRF9JTUFHRVMuZ2V0KHNsaWRlX3R5cGUsIENVUkFURURfSU1BR0VTLmdldCgnaGVybycsIFtdKSkKCgpkZWYgZ2V0X3BleGVsc19zZWFyY2hfdXJsKGtleXdvcmRzOiBzdHIpIC0+IHN0cjoKICAgICIiIkdlbmVyYXRlIFBleGVscyBzZWFyY2ggVVJMIGZvciBtYW51YWwgbG9va3VwLiIiIgogICAgaW1wb3J0IHVybGxpYi5wYXJzZQogICAgcmV0dXJuIGYiaHR0cHM6Ly93d3cucGV4ZWxzLmNvbS9zZWFyY2gve3VybGxpYi5wYXJzZS5xdW90ZShrZXl3b3Jkcyl9LyIKCgpkZWYgZ2V0X2JhY2tncm91bmRfaW1hZ2Uoc2xpZGVfdHlwZTogc3RyKSAtPiBkaWN0OgogICAgIiIiCiAgICBHZXQgY3VyYXRlZCBpbWFnZSBtYXRjaGluZyBzbGlkZSB0eXBlIGFuZCBicmFuZCBhZXN0aGV0aWMuCiAgICBVc2VzIHByZS1zZWxlY3RlZCBQZXhlbHMgaW1hZ2VzIChubyBBUEkvc2NyYXBpbmcgbmVlZGVkKS4KICAgICIiIgogICAgYnJhbmRfY29sb3JzID0gbG9hZF9icmFuZF9jb2xvcnMoKQogICAgY29uZmlnID0gbG9hZF9iYWNrZ3JvdW5kc19jb25maWcoKQoKICAgIHNsaWRlX2NvbmZpZyA9IGNvbmZpZy5nZXQoc2xpZGVfdHlwZSkKICAgIG92ZXJsYXlfc3R5bGUgPSAnZ3JhZGllbnQtZGFyaycKICAgIGtleXdvcmRzID0gc2xpZGVfdHlwZQoKICAgIGlmIHNsaWRlX2NvbmZpZzoKICAgICAgICBrZXl3b3JkcyA9IHNsaWRlX2NvbmZpZy5nZXQoJ3NlYXJjaF9rZXl3b3JkcycsIHNsaWRlX2NvbmZpZy5nZXQoJ2ltYWdlX2NhdGVnb3J5Jywgc2xpZGVfdHlwZSkpCiAgICAgICAgb3ZlcmxheV9zdHlsZSA9IHNsaWRlX2NvbmZpZy5nZXQoJ292ZXJsYXlfc3R5bGUnLCAnZ3JhZGllbnQtZGFyaycpCgogICAgIyBHZXQgY3VyYXRlZCBpbWFnZXMKICAgIHVybHMgPSBnZXRfY3VyYXRlZF9pbWFnZXMoc2xpZGVfdHlwZSkKICAgIGlmIHVybHM6CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgICAgJ3VybCc6IHVybHNbMF0sCiAgICAgICAgICAgICdhbGxfdXJscyc6IHVybHMsCiAgICAgICAgICAgICdvdmVybGF5JzogZ2V0X292ZXJsYXlfY3NzKG92ZXJsYXlfc3R5bGUsIGJyYW5kX2NvbG9ycyksCiAgICAgICAgICAgICdhdHRyaWJ1dGlvbic6ICdQaG90byBmcm9tIFBleGVscyAoZnJlZSB0byB1c2UpJywKICAgICAgICAgICAgJ3NvdXJjZSc6ICdwZXhlbHMtY3VyYXRlZCcsCiAgICAgICAgICAgICdzZWFyY2hfdXJsJzogZ2V0X3BleGVsc19zZWFyY2hfdXJsKGtleXdvcmRzKSwKICAgICAgICB9CgogICAgIyBGYWxsYmFjazogcHJvdmlkZSBzZWFyY2ggVVJMIGZvciBtYW51YWwgc2VsZWN0aW9uCiAgICByZXR1cm4gewogICAgICAgICd1cmwnOiBOb25lLAogICAgICAgICdvdmVybGF5JzogZ2V0X292ZXJsYXlfY3NzKG92ZXJsYXlfc3R5bGUsIGJyYW5kX2NvbG9ycyksCiAgICAgICAgJ2tleXdvcmRzJzoga2V5d29yZHMsCiAgICAgICAgJ3NlYXJjaF91cmwnOiBnZXRfcGV4ZWxzX3NlYXJjaF91cmwoa2V5d29yZHMpLAogICAgICAgICdhdmFpbGFibGVfdHlwZXMnOiBsaXN0KENVUkFURURfSU1BR0VTLmtleXMoKSksCiAgICB9CgoKZGVmIGdlbmVyYXRlX2Nzc19mb3JfYmFja2dyb3VuZChyZXN1bHQ6IGRpY3QsIHNsaWRlX2NsYXNzOiBzdHIgPSAnLnNsaWRlLXdpdGgtYmcnKSAtPiBzdHI6CiAgICAiIiJHZW5lcmF0ZSBDU1MgZm9yIGEgYmFja2dyb3VuZCBzbGlkZS4iIiIKICAgIGlmIG5vdCByZXN1bHQuZ2V0KCd1cmwnKToKICAgICAgICBzZWFyY2hfdXJsID0gcmVzdWx0LmdldCgnc2VhcmNoX3VybCcsICcnKQogICAgICAgIHJldHVybiBmIiIiLyogTm8gaW1hZ2Ugc2NyYXBlZC4gU2VhcmNoIG1hbnVhbGx5OiB7c2VhcmNoX3VybH0gKi8KLyogT3ZlcmxheSByZWFkeToge3Jlc3VsdC5nZXQoJ292ZXJsYXknLCAnZ3JhZGllbnQtZGFyaycpfSAqLwoiIiIKCiAgICByZXR1cm4gZiIiIntzbGlkZV9jbGFzc30ge3sKICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgne3Jlc3VsdFsndXJsJ119Jyk7CiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyOwogICAgYmFja2dyb3VuZC1wb3NpdGlvbjogY2VudGVyOwogICAgcG9zaXRpb246IHJlbGF0aXZlOwp9fQoKe3NsaWRlX2NsYXNzfTo6YmVmb3JlIHt7CiAgICBjb250ZW50OiAnJzsKICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICAgIGluc2V0OiAwOwogICAgYmFja2dyb3VuZDoge3Jlc3VsdFsnb3ZlcmxheSddfTsKfX0KCntzbGlkZV9jbGFzc30gLmNvbnRlbnQge3sKICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgIHotaW5kZXg6IDE7Cn19CgovKiB7cmVzdWx0LmdldCgnYXR0cmlidXRpb24nLCAnUGV4ZWxzJyl9IC0ge3Jlc3VsdC5nZXQoJ3NlYXJjaF91cmwnLCAnJyl9ICovCiIiIgoKCmRlZiBtYWluKCk6CiAgICAiIiJDTEkgZW50cnkgcG9pbnQuIiIiCiAgICBpbXBvcnQgYXJncGFyc2UKCiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0nR2V0IGJhY2tncm91bmQgaW1hZ2VzIGZvciBzbGlkZXMnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnc2xpZGVfdHlwZScsIG5hcmdzPSc/JywgaGVscD0nU2xpZGUgdHlwZSAoaGVybywgdmlzaW9uLCB0ZWFtLCBldGMuKScpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWxpc3QnLCBhY3Rpb249J3N0b3JlX3RydWUnLCBoZWxwPSdMaXN0IGF2YWlsYWJsZSBzbGlkZSB0eXBlcycpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLWNzcycsIGFjdGlvbj0nc3RvcmVfdHJ1ZScsIGhlbHA9J091dHB1dCBDU1MgZm9yIHRoZSBiYWNrZ3JvdW5kJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tanNvbicsIGFjdGlvbj0nc3RvcmVfdHJ1ZScsIGhlbHA9J091dHB1dCBKU09OJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tY29sb3JzJywgYWN0aW9uPSdzdG9yZV90cnVlJywgaGVscD0nU2hvdyBicmFuZCBjb2xvcnMnKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgnLS1hbGwnLCBhY3Rpb249J3N0b3JlX3RydWUnLCBoZWxwPSdTaG93IGFsbCBjdXJhdGVkIFVSTHMnKQoKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCgogICAgaWYgYXJncy5jb2xvcnM6CiAgICAgICAgY29sb3JzID0gbG9hZF9icmFuZF9jb2xvcnMoKQogICAgICAgIHByaW50KCJcbkJyYW5kIENvbG9ycyAoZnJvbSBkZXNpZ24tdG9rZW5zLmpzb24pOiIpCiAgICAgICAgZm9yIG5hbWUsIHZhbHVlIGluIGNvbG9ycy5pdGVtcygpOgogICAgICAgICAgICBwcmludChmIiAge25hbWV9OiB7dmFsdWV9IikKICAgICAgICByZXR1cm4KCiAgICBpZiBhcmdzLmxpc3Q6CiAgICAgICAgcHJpbnQoIlxuQXZhaWxhYmxlIHNsaWRlIHR5cGVzIChjdXJhdGVkIGltYWdlcyk6IikKICAgICAgICBmb3Igc2xpZGVfdHlwZSwgdXJscyBpbiBDVVJBVEVEX0lNQUdFUy5pdGVtcygpOgogICAgICAgICAgICBwcmludChmIiAge3NsaWRlX3R5cGV9OiB7bGVuKHVybHMpfSBpbWFnZXMiKQogICAgICAgIHJldHVybgoKICAgIGlmIG5vdCBhcmdzLnNsaWRlX3R5cGU6CiAgICAgICAgcGFyc2VyLnByaW50X2hlbHAoKQogICAgICAgIHJldHVybgoKICAgIHJlc3VsdCA9IGdldF9iYWNrZ3JvdW5kX2ltYWdlKGFyZ3Muc2xpZGVfdHlwZSkKCiAgICBpZiBhcmdzLmpzb246CiAgICAgICAgcHJpbnQoanNvbi5kdW1wcyhyZXN1bHQsIGluZGVudD0yKSkKICAgIGVsaWYgYXJncy5jc3M6CiAgICAgICAgcHJpbnQoZ2VuZXJhdGVfY3NzX2Zvcl9iYWNrZ3JvdW5kKHJlc3VsdCkpCiAgICBlbGlmIGFyZ3MuYWxsOgogICAgICAgIHByaW50KGYiXG5BbGwgaW1hZ2VzIGZvciAne2FyZ3Muc2xpZGVfdHlwZX0nOiIpCiAgICAgICAgZm9yIGksIHVybCBpbiBlbnVtZXJhdGUocmVzdWx0LmdldCgnYWxsX3VybHMnLCBbXSksIDEpOgogICAgICAgICAgICBwcmludChmIiAge2l9LiB7dXJsfSIpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYiXG5JbWFnZSBVUkw6IHtyZXN1bHRbJ3VybCddfSIpCiAgICAgICAgcHJpbnQoZiJBbHRlcm5hdGl2ZXM6IHtsZW4ocmVzdWx0LmdldCgnYWxsX3VybHMnLCBbXSkpfSBhdmFpbGFibGUgKHVzZSAtLWFsbCkiKQogICAgICAgIHByaW50KGYiT3ZlcmxheToge3Jlc3VsdFsnb3ZlcmxheSddfSIpCgoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+"""
+Background Image Fetcher
+Fetches real images from Pexels for slide backgrounds.
+Uses web scraping (no API key required) or WebFetch tool integration.
+"""
+
+import json
+import csv
+import re
+import sys
+from pathlib import Path
+
+# Project root relative to this script
+PROJECT_ROOT = Path(__file__).parent.parent.parent.parent.parent
+TOKENS_PATH = PROJECT_ROOT / 'assets' / 'design-tokens.json'
+BACKGROUNDS_CSV = Path(__file__).parent.parent / 'data' / 'slide-backgrounds.csv'
+
+
+def resolve_token_reference(ref: str, tokens: dict) -> str:
+    """Resolve token reference like {primitive.color.ocean-blue.500} to hex value."""
+    if not ref or not ref.startswith('{') or not ref.endswith('}'):
+        return ref  # Already a value, not a reference
+
+    # Parse reference: {primitive.color.ocean-blue.500}
+    path = ref[1:-1].split('.')  # ['primitive', 'color', 'ocean-blue', '500']
+    current = tokens
+    for key in path:
+        if isinstance(current, dict):
+            current = current.get(key)
+        else:
+            return None  # Invalid path
+    # Return $value if it's a token object
+    if isinstance(current, dict) and '$value' in current:
+        return current['$value']
+    return current
+
+
+def load_brand_colors():
+    """Load colors from assets/design-tokens.json for overlay gradients.
+
+    Resolves semantic token references to actual hex values.
+    """
+    try:
+        with open(TOKENS_PATH) as f:
+            tokens = json.load(f)
+
+        colors = tokens.get('primitive', {}).get('color', {})
+        semantic = tokens.get('semantic', {}).get('color', {})
+
+        # Try semantic tokens first (preferred) - resolve references
+        if semantic:
+            primary_ref = semantic.get('primary', {}).get('$value')
+            secondary_ref = semantic.get('secondary', {}).get('$value')
+            accent_ref = semantic.get('accent', {}).get('$value')
+            background_ref = semantic.get('background', {}).get('$value')
+
+            primary = resolve_token_reference(primary_ref, tokens)
+            secondary = resolve_token_reference(secondary_ref, tokens)
+            accent = resolve_token_reference(accent_ref, tokens)
+            background = resolve_token_reference(background_ref, tokens)
+
+            if primary and secondary:
+                return {
+                    'primary': primary,
+                    'secondary': secondary,
+                    'accent': accent or primary,
+                    'background': background or '#0D0D0D',
+                }
+
+        # Fallback: find first color palette with 500 value (primary)
+        primary_keys = ['ocean-blue', 'coral', 'blue', 'primary']
+        secondary_keys = ['golden-amber', 'purple', 'amber', 'secondary']
+        accent_keys = ['emerald', 'mint', 'green', 'accent']
+
+        primary_color = None
+        secondary_color = None
+        accent_color = None
+
+        for key in primary_keys:
+            if key in colors and isinstance(colors[key], dict):
+                primary_color = colors[key].get('500', {}).get('$value')
+                if primary_color:
+                    break
+
+        for key in secondary_keys:
+            if key in colors and isinstance(colors[key], dict):
+                secondary_color = colors[key].get('500', {}).get('$value')
+                if secondary_color:
+                    break
+
+        for key in accent_keys:
+            if key in colors and isinstance(colors[key], dict):
+                accent_color = colors[key].get('500', {}).get('$value')
+                if accent_color:
+                    break
+
+        background = colors.get('dark', {}).get('800', {}).get('$value', '#0D0D0D')
+
+        return {
+            'primary': primary_color or '#3B82F6',
+            'secondary': secondary_color or '#F59E0B',
+            'accent': accent_color or '#10B981',
+            'background': background,
+        }
+    except (FileNotFoundError, KeyError, TypeError):
+        # Fallback defaults
+        return {
+            'primary': '#3B82F6',
+            'secondary': '#F59E0B',
+            'accent': '#10B981',
+            'background': '#0D0D0D',
+        }
+
+
+def load_backgrounds_config():
+    """Load background configuration from CSV."""
+    config = {}
+    try:
+        with open(BACKGROUNDS_CSV, newline='') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                config[row['slide_type']] = row
+    except FileNotFoundError:
+        print(f"Warning: {BACKGROUNDS_CSV} not found")
+    return config
+
+
+def get_overlay_css(style: str, brand_colors: dict) -> str:
+    """Generate overlay CSS using brand colors from design-tokens.json."""
+    overlays = {
+        'gradient-dark': f"linear-gradient(135deg, {brand_colors['background']}E6, {brand_colors['background']}B3)",
+        'gradient-brand': f"linear-gradient(135deg, {brand_colors['primary']}CC, {brand_colors['secondary']}99)",
+        'gradient-accent': f"linear-gradient(135deg, {brand_colors['accent']}99, transparent)",
+        'blur-dark': f"rgba(13,13,13,0.8)",
+        'desaturate-dark': f"rgba(13,13,13,0.7)",
+    }
+    return overlays.get(style, overlays['gradient-dark'])
+
+
+# Curated high-quality images from Pexels (free to use, pre-selected for brand aesthetic)
+CURATED_IMAGES = {
+    'hero': [
+        'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'vision': [
+        'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'team': [
+        'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'testimonial': [
+        'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'cta': [
+        'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'problem': [
+        'https://images.pexels.com/photos/3760529/pexels-photo-3760529.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/897817/pexels-photo-897817.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'solution': [
+        'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/3184644/pexels-photo-3184644.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'hook': [
+        'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'social': [
+        'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+    'demo': [
+        'https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    ],
+}
+
+
+def get_curated_images(slide_type: str) -> list:
+    """Get curated images for slide type."""
+    return CURATED_IMAGES.get(slide_type, CURATED_IMAGES.get('hero', []))
+
+
+def get_pexels_search_url(keywords: str) -> str:
+    """Generate Pexels search URL for manual lookup."""
+    import urllib.parse
+    return f"https://www.pexels.com/search/{urllib.parse.quote(keywords)}/"
+
+
+def get_background_image(slide_type: str) -> dict:
+    """
+    Get curated image matching slide type and brand aesthetic.
+    Uses pre-selected Pexels images (no API/scraping needed).
+    """
+    brand_colors = load_brand_colors()
+    config = load_backgrounds_config()
+
+    slide_config = config.get(slide_type)
+    overlay_style = 'gradient-dark'
+    keywords = slide_type
+
+    if slide_config:
+        keywords = slide_config.get('search_keywords', slide_config.get('image_category', slide_type))
+        overlay_style = slide_config.get('overlay_style', 'gradient-dark')
+
+    # Get curated images
+    urls = get_curated_images(slide_type)
+    if urls:
+        return {
+            'url': urls[0],
+            'all_urls': urls,
+            'overlay': get_overlay_css(overlay_style, brand_colors),
+            'attribution': 'Photo from Pexels (free to use)',
+            'source': 'pexels-curated',
+            'search_url': get_pexels_search_url(keywords),
+        }
+
+    # Fallback: provide search URL for manual selection
+    return {
+        'url': None,
+        'overlay': get_overlay_css(overlay_style, brand_colors),
+        'keywords': keywords,
+        'search_url': get_pexels_search_url(keywords),
+        'available_types': list(CURATED_IMAGES.keys()),
+    }
+
+
+def generate_css_for_background(result: dict, slide_class: str = '.slide-with-bg') -> str:
+    """Generate CSS for a background slide."""
+    if not result.get('url'):
+        search_url = result.get('search_url', '')
+        return f"""/* No image scraped. Search manually: {search_url} */
+/* Overlay ready: {result.get('overlay', 'gradient-dark')} */
+"""
+
+    return f"""{slide_class} {{
+    background-image: url('{result['url']}');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}}
+
+{slide_class}::before {{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: {result['overlay']};
+}}
+
+{slide_class} .content {{
+    position: relative;
+    z-index: 1;
+}}
+
+/* {result.get('attribution', 'Pexels')} - {result.get('search_url', '')} */
+"""
+
+
+def main():
+    """CLI entry point."""
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Get background images for slides')
+    parser.add_argument('slide_type', nargs='?', help='Slide type (hero, vision, team, etc.)')
+    parser.add_argument('--list', action='store_true', help='List available slide types')
+    parser.add_argument('--css', action='store_true', help='Output CSS for the background')
+    parser.add_argument('--json', action='store_true', help='Output JSON')
+    parser.add_argument('--colors', action='store_true', help='Show brand colors')
+    parser.add_argument('--all', action='store_true', help='Show all curated URLs')
+
+    args = parser.parse_args()
+
+    if args.colors:
+        colors = load_brand_colors()
+        print("\nBrand Colors (from design-tokens.json):")
+        for name, value in colors.items():
+            print(f"  {name}: {value}")
+        return
+
+    if args.list:
+        print("\nAvailable slide types (curated images):")
+        for slide_type, urls in CURATED_IMAGES.items():
+            print(f"  {slide_type}: {len(urls)} images")
+        return
+
+    if not args.slide_type:
+        parser.print_help()
+        return
+
+    result = get_background_image(args.slide_type)
+
+    if args.json:
+        print(json.dumps(result, indent=2))
+    elif args.css:
+        print(generate_css_for_background(result))
+    elif args.all:
+        print(f"\nAll images for '{args.slide_type}':")
+        for i, url in enumerate(result.get('all_urls', []), 1):
+            print(f"  {i}. {url}")
+    else:
+        print(f"\nImage URL: {result['url']}")
+        print(f"Alternatives: {len(result.get('all_urls', []))} available (use --all)")
+        print(f"Overlay: {result['overlay']}")
+
+
+if __name__ == '__main__':
+    main()

@@ -1,1 +1,19 @@
-IyBUZWNoIElubm92YXRpb24KCkEgYm9sZCBhbmQgbW9kZXJuIHRoZW1lIHdpdGggaGlnaC1jb250cmFzdCBjb2xvcnMgcGVyZmVjdCBmb3IgY3V0dGluZy1lZGdlIHRlY2hub2xvZ3kgcHJlc2VudGF0aW9ucy4KCiMjIENvbG9yIFBhbGV0dGUKCi0gKipFbGVjdHJpYyBCbHVlKio6IGAjMDA2NmZmYCAtIFZpYnJhbnQgcHJpbWFyeSBhY2NlbnQKLSAqKk5lb24gQ3lhbioqOiBgIzAwZmZmZmAgLSBCcmlnaHQgaGlnaGxpZ2h0IGNvbG9yCi0gKipEYXJrIEdyYXkqKjogYCMxZTFlMWVgIC0gRGVlcCBiYWNrZ3JvdW5kcwotICoqV2hpdGUqKjogYCNmZmZmZmZgIC0gQ2xlYW4gdGV4dCBhbmQgY29udHJhc3QKCiMjIFR5cG9ncmFwaHkKCi0gKipIZWFkZXJzKio6IERlamFWdSBTYW5zIEJvbGQKLSAqKkJvZHkgVGV4dCoqOiBEZWphVnUgU2FucwoKIyMgQmVzdCBVc2VkIEZvcgoKVGVjaCBzdGFydHVwcywgc29mdHdhcmUgbGF1bmNoZXMsIGlubm92YXRpb24gc2hvd2Nhc2VzLCBBSS9NTCBwcmVzZW50YXRpb25zLCBkaWdpdGFsIHRyYW5zZm9ybWF0aW9uIGNvbnRlbnQuCg==
+# Tech Innovation
+
+A bold and modern theme with high-contrast colors perfect for cutting-edge technology presentations.
+
+## Color Palette
+
+- **Electric Blue**: `#0066ff` - Vibrant primary accent
+- **Neon Cyan**: `#00ffff` - Bright highlight color
+- **Dark Gray**: `#1e1e1e` - Deep backgrounds
+- **White**: `#ffffff` - Clean text and contrast
+
+## Typography
+
+- **Headers**: DejaVu Sans Bold
+- **Body Text**: DejaVu Sans
+
+## Best Used For
+
+Tech startups, software launches, innovation showcases, AI/ML presentations, digital transformation content.

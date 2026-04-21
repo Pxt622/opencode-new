@@ -1,1 +1,305 @@
-IyBUb29sIFVzZSBDb25jZXB0cwoKVGhpcyBmaWxlIGNvdmVycyB0aGUgY29uY2VwdHVhbCBmb3VuZGF0aW9ucyBvZiB0b29sIHVzZSB3aXRoIHRoZSBDbGF1ZGUgQVBJLiBGb3IgbGFuZ3VhZ2Utc3BlY2lmaWMgY29kZSBleGFtcGxlcywgc2VlIHRoZSBgcHl0aG9uL2AsIGB0eXBlc2NyaXB0L2AsIG9yIG90aGVyIGxhbmd1YWdlIGZvbGRlcnMuCgojIyBVc2VyLURlZmluZWQgVG9vbHMKCiMjIyBUb29sIERlZmluaXRpb24gU3RydWN0dXJlCgo+ICoqTm90ZToqKiBXaGVuIHVzaW5nIHRoZSBUb29sIFJ1bm5lciAoYmV0YSksIHRvb2wgc2NoZW1hcyBhcmUgZ2VuZXJhdGVkIGF1dG9tYXRpY2FsbHkgZnJvbSB5b3VyIGZ1bmN0aW9uIHNpZ25hdHVyZXMgKFB5dGhvbiksIFpvZCBzY2hlbWFzIChUeXBlU2NyaXB0KSwgYW5ub3RhdGVkIGNsYXNzZXMgKEphdmEpLCBganNvbnNjaGVtYWAgc3RydWN0IHRhZ3MgKEdvKSwgb3IgYEJhc2VUb29sYCBzdWJjbGFzc2VzIChSdWJ5KS4gVGhlIHJhdyBKU09OIHNjaGVtYSBmb3JtYXQgYmVsb3cgaXMgZm9yIHRoZSBtYW51YWwgYXBwcm9hY2gg4oCUIGluY2x1ZGluZyBQSFAncyBgQmV0YVJ1bm5hYmxlVG9vbGAsIHdoaWNoIHdyYXBzIGEgcnVuIGNsb3N1cmUgYXJvdW5kIGEgaGFuZC13cml0dGVuIHNjaGVtYSDigJQgb3IgU0RLcyB3aXRob3V0IHRvb2wgcnVubmVyIHN1cHBvcnQuCgpFYWNoIHRvb2wgcmVxdWlyZXMgYSBuYW1lLCBkZXNjcmlwdGlvbiwgYW5kIEpTT04gU2NoZW1hIGZvciBpdHMgaW5wdXRzOgoKYGBganNvbgp7CiAgIm5hbWUiOiAiZ2V0X3dlYXRoZXIiLAogICJkZXNjcmlwdGlvbiI6ICJHZXQgY3VycmVudCB3ZWF0aGVyIGZvciBhIGxvY2F0aW9uIiwKICAiaW5wdXRfc2NoZW1hIjogewogICAgInR5cGUiOiAib2JqZWN0IiwKICAgICJwcm9wZXJ0aWVzIjogewogICAgICAibG9jYXRpb24iOiB7CiAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAiZGVzY3JpcHRpb24iOiAiQ2l0eSBhbmQgc3RhdGUsIGUuZy4sIFNhbiBGcmFuY2lzY28sIENBIgogICAgICB9LAogICAgICAidW5pdCI6IHsKICAgICAgICAidHlwZSI6ICJzdHJpbmciLAogICAgICAgICJlbnVtIjogWyJjZWxzaXVzIiwgImZhaHJlbmhlaXQiXSwKICAgICAgICAiZGVzY3JpcHRpb24iOiAiVGVtcGVyYXR1cmUgdW5pdCIKICAgICAgfQogICAgfSwKICAgICJyZXF1aXJlZCI6IFsibG9jYXRpb24iXQogIH0KfQpgYGAKCioqQmVzdCBwcmFjdGljZXMgZm9yIHRvb2wgZGVmaW5pdGlvbnM6KioKCi0gVXNlIGNsZWFyLCBkZXNjcmlwdGl2ZSBuYW1lcyAoZS5nLiwgYGdldF93ZWF0aGVyYCwgYHNlYXJjaF9kYXRhYmFzZWAsIGBzZW5kX2VtYWlsYCkKLSBXcml0ZSBkZXRhaWxlZCBkZXNjcmlwdGlvbnMg4oCUIENsYXVkZSB1c2VzIHRoZXNlIHRvIGRlY2lkZSB3aGVuIHRvIHVzZSB0aGUgdG9vbAotIEluY2x1ZGUgZGVzY3JpcHRpb25zIGZvciBlYWNoIHByb3BlcnR5Ci0gVXNlIGBlbnVtYCBmb3IgcGFyYW1ldGVycyB3aXRoIGEgZml4ZWQgc2V0IG9mIHZhbHVlcwotIE1hcmsgdHJ1bHkgcmVxdWlyZWQgcGFyYW1ldGVycyBpbiBgcmVxdWlyZWRgOyBtYWtlIG90aGVycyBvcHRpb25hbCB3aXRoIGRlZmF1bHRzCgotLS0KCiMjIyBUb29sIENob2ljZSBPcHRpb25zCgpDb250cm9sIHdoZW4gQ2xhdWRlIHVzZXMgdG9vbHM6Cgp8IFZhbHVlICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IEJlaGF2aW9yICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgeyJ0eXBlIjogImF1dG8ifWAgICAgICAgICAgICAgICAgfCBDbGF1ZGUgZGVjaWRlcyB3aGV0aGVyIHRvIHVzZSB0b29scyAoZGVmYXVsdCkgfAp8IGB7InR5cGUiOiAiYW55In1gICAgICAgICAgICAgICAgICB8IENsYXVkZSBtdXN0IHVzZSBhdCBsZWFzdCBvbmUgdG9vbCAgICAgICAgICAgICB8CnwgYHsidHlwZSI6ICJ0b29sIiwgIm5hbWUiOiAiLi4uIn1gIHwgQ2xhdWRlIG11c3QgdXNlIHRoZSBzcGVjaWZpZWQgdG9vbCAgICAgICAgICAgIHwKfCBgeyJ0eXBlIjogIm5vbmUifWAgICAgICAgICAgICAgICAgfCBDbGF1ZGUgY2Fubm90IHVzZSB0b29scyAgICAgICAgICAgICAgICAgICAgICAgfAoKQW55IGB0b29sX2Nob2ljZWAgdmFsdWUgY2FuIGFsc28gaW5jbHVkZSBgImRpc2FibGVfcGFyYWxsZWxfdG9vbF91c2UiOiB0cnVlYCB0byBmb3JjZSBDbGF1ZGUgdG8gdXNlIGF0IG1vc3Qgb25lIHRvb2wgcGVyIHJlc3BvbnNlLiBCeSBkZWZhdWx0LCBDbGF1ZGUgbWF5IHJlcXVlc3QgbXVsdGlwbGUgdG9vbCBjYWxscyBpbiBhIHNpbmdsZSByZXNwb25zZS4KCi0tLQoKIyMjIFRvb2wgUnVubmVyIHZzIE1hbnVhbCBMb29wCgoqKlRvb2wgUnVubmVyIChSZWNvbW1lbmRlZCk6KiogVGhlIFNESydzIHRvb2wgcnVubmVyIGhhbmRsZXMgdGhlIGFnZW50aWMgbG9vcCBhdXRvbWF0aWNhbGx5IOKAlCBpdCBjYWxscyB0aGUgQVBJLCBkZXRlY3RzIHRvb2wgdXNlIHJlcXVlc3RzLCBleGVjdXRlcyB5b3VyIHRvb2wgZnVuY3Rpb25zLCBmZWVkcyByZXN1bHRzIGJhY2sgdG8gQ2xhdWRlLCBhbmQgcmVwZWF0cyB1bnRpbCBDbGF1ZGUgc3RvcHMgY2FsbGluZyB0b29scy4gQXZhaWxhYmxlIGluIFB5dGhvbiwgVHlwZVNjcmlwdCwgSmF2YSwgR28sIFJ1YnksIGFuZCBQSFAgU0RLcyAoYmV0YSkuIFRoZSBQeXRob24gU0RLIGFsc28gcHJvdmlkZXMgTUNQIGNvbnZlcnNpb24gaGVscGVycyAoYGFudGhyb3BpYy5saWIudG9vbHMubWNwYCkgdG8gY29udmVydCBNQ1AgdG9vbHMsIHByb21wdHMsIGFuZCByZXNvdXJjZXMgZm9yIHVzZSB3aXRoIHRoZSB0b29sIHJ1bm5lciDigJQgc2VlIGBweXRob24vY2xhdWRlLWFwaS90b29sLXVzZS5tZGAgZm9yIGRldGFpbHMuCgoqKk1hbnVhbCBBZ2VudGljIExvb3A6KiogVXNlIHdoZW4geW91IG5lZWQgZmluZS1ncmFpbmVkIGNvbnRyb2wgb3ZlciB0aGUgbG9vcCAoZS5nLiwgY3VzdG9tIGxvZ2dpbmcsIGNvbmRpdGlvbmFsIHRvb2wgZXhlY3V0aW9uLCBodW1hbi1pbi10aGUtbG9vcCBhcHByb3ZhbCkuIExvb3AgdW50aWwgYHN0b3BfcmVhc29uID09ICJlbmRfdHVybiJgLCBhbHdheXMgYXBwZW5kIHRoZSBmdWxsIGByZXNwb25zZS5jb250ZW50YCB0byBwcmVzZXJ2ZSB0b29sX3VzZSBibG9ja3MsIGFuZCBlbnN1cmUgZWFjaCBgdG9vbF9yZXN1bHRgIGluY2x1ZGVzIHRoZSBtYXRjaGluZyBgdG9vbF91c2VfaWRgLgoKKipTdG9wIHJlYXNvbnMgZm9yIHNlcnZlci1zaWRlIHRvb2xzOioqIFdoZW4gdXNpbmcgc2VydmVyLXNpZGUgdG9vbHMgKGNvZGUgZXhlY3V0aW9uLCB3ZWIgc2VhcmNoLCBldGMuKSwgdGhlIEFQSSBydW5zIGEgc2VydmVyLXNpZGUgc2FtcGxpbmcgbG9vcC4gSWYgdGhpcyBsb29wIHJlYWNoZXMgaXRzIGRlZmF1bHQgbGltaXQgb2YgMTAgaXRlcmF0aW9ucywgdGhlIHJlc3BvbnNlIHdpbGwgaGF2ZSBgc3RvcF9yZWFzb246ICJwYXVzZV90dXJuImAuIFRvIGNvbnRpbnVlLCByZS1zZW5kIHRoZSB1c2VyIG1lc3NhZ2UgYW5kIGFzc2lzdGFudCByZXNwb25zZSBhbmQgbWFrZSBhbm90aGVyIEFQSSByZXF1ZXN0IOKAlCB0aGUgc2VydmVyIHdpbGwgcmVzdW1lIHdoZXJlIGl0IGxlZnQgb2ZmLiBEbyBOT1QgYWRkIGFuIGV4dHJhIHVzZXIgbWVzc2FnZSBsaWtlICJDb250aW51ZS4iIOKAlCB0aGUgQVBJIGRldGVjdHMgdGhlIHRyYWlsaW5nIGBzZXJ2ZXJfdG9vbF91c2VgIGJsb2NrIGFuZCBrbm93cyB0byByZXN1bWUgYXV0b21hdGljYWxseS4KCmBgYHB5dGhvbgojIEhhbmRsZSBwYXVzZV90dXJuIGluIHlvdXIgYWdlbnRpYyBsb29wCmlmIHJlc3BvbnNlLnN0b3BfcmVhc29uID09ICJwYXVzZV90dXJuIjoKICAgIG1lc3NhZ2VzID0gWwogICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiB1c2VyX3F1ZXJ5fSwKICAgICAgICB7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiByZXNwb25zZS5jb250ZW50fSwKICAgIF0KICAgICMgTWFrZSBhbm90aGVyIEFQSSByZXF1ZXN0IOKAlCBzZXJ2ZXIgcmVzdW1lcyBhdXRvbWF0aWNhbGx5CiAgICByZXNwb25zZSA9IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoCiAgICAgICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsIG1lc3NhZ2VzPW1lc3NhZ2VzLCB0b29scz10b29scwogICAgKQpgYGAKClNldCBhIGBtYXhfY29udGludWF0aW9uc2AgbGltaXQgKGUuZy4sIDUpIHRvIHByZXZlbnQgaW5maW5pdGUgbG9vcHMuIEZvciB0aGUgZnVsbCBndWlkZSwgc2VlOiBgaHR0cHM6Ly9wbGF0Zm9ybS5jbGF1ZGUuY29tL2RvY3MvZW4vYnVpbGQtd2l0aC1jbGF1ZGUvaGFuZGxpbmctc3RvcC1yZWFzb25zYAoKPiAqKlNlY3VyaXR5OioqIFRoZSB0b29sIHJ1bm5lciBleGVjdXRlcyB5b3VyIHRvb2wgZnVuY3Rpb25zIGF1dG9tYXRpY2FsbHkgd2hlbmV2ZXIgQ2xhdWRlIHJlcXVlc3RzIHRoZW0uIEZvciB0b29scyB3aXRoIHNpZGUgZWZmZWN0cyAoc2VuZGluZyBlbWFpbHMsIG1vZGlmeWluZyBkYXRhYmFzZXMsIGZpbmFuY2lhbCB0cmFuc2FjdGlvbnMpLCB2YWxpZGF0ZSBpbnB1dHMgd2l0aGluIHlvdXIgdG9vbCBmdW5jdGlvbnMgYW5kIGNvbnNpZGVyIHJlcXVpcmluZyBjb25maXJtYXRpb24gZm9yIGRlc3RydWN0aXZlIG9wZXJhdGlvbnMuIFVzZSB0aGUgbWFudWFsIGFnZW50aWMgbG9vcCBpZiB5b3UgbmVlZCBodW1hbi1pbi10aGUtbG9vcCBhcHByb3ZhbCBiZWZvcmUgZWFjaCB0b29sIGV4ZWN1dGlvbi4KCi0tLQoKIyMjIEhhbmRsaW5nIFRvb2wgUmVzdWx0cwoKV2hlbiBDbGF1ZGUgdXNlcyBhIHRvb2wsIHRoZSByZXNwb25zZSBjb250YWlucyBhIGB0b29sX3VzZWAgYmxvY2suIFlvdSBtdXN0OgoKMS4gRXhlY3V0ZSB0aGUgdG9vbCB3aXRoIHRoZSBwcm92aWRlZCBpbnB1dAoyLiBTZW5kIHRoZSByZXN1bHQgYmFjayBpbiBhIGB0b29sX3Jlc3VsdGAgbWVzc2FnZQozLiBDb250aW51ZSB0aGUgY29udmVyc2F0aW9uCgoqKkVycm9yIGhhbmRsaW5nIGluIHRvb2wgcmVzdWx0czoqKiBXaGVuIGEgdG9vbCBleGVjdXRpb24gZmFpbHMsIHNldCBgImlzX2Vycm9yIjogdHJ1ZWAgYW5kIHByb3ZpZGUgYW4gaW5mb3JtYXRpdmUgZXJyb3IgbWVzc2FnZS4gQ2xhdWRlIHdpbGwgdHlwaWNhbGx5IGFja25vd2xlZGdlIHRoZSBlcnJvciBhbmQgZWl0aGVyIHRyeSBhIGRpZmZlcmVudCBhcHByb2FjaCBvciBhc2sgZm9yIGNsYXJpZmljYXRpb24uCgoqKk11bHRpcGxlIHRvb2wgY2FsbHM6KiogQ2xhdWRlIGNhbiByZXF1ZXN0IG11bHRpcGxlIHRvb2xzIGluIGEgc2luZ2xlIHJlc3BvbnNlLiBIYW5kbGUgdGhlbSBhbGwgYmVmb3JlIGNvbnRpbnVpbmcg4oCUIHNlbmQgYWxsIHJlc3VsdHMgYmFjayBpbiBhIHNpbmdsZSBgdXNlcmAgbWVzc2FnZS4KCi0tLQoKIyMgU2VydmVyLVNpZGUgVG9vbHM6IENvZGUgRXhlY3V0aW9uCgpUaGUgY29kZSBleGVjdXRpb24gdG9vbCBsZXRzIENsYXVkZSBydW4gY29kZSBpbiBhIHNlY3VyZSwgc2FuZGJveGVkIGNvbnRhaW5lci4gVW5saWtlIHVzZXItZGVmaW5lZCB0b29scywgc2VydmVyLXNpZGUgdG9vbHMgcnVuIG9uIEFudGhyb3BpYydzIGluZnJhc3RydWN0dXJlIOKAlCB5b3UgZG9uJ3QgZXhlY3V0ZSBhbnl0aGluZyBjbGllbnQtc2lkZS4gSnVzdCBpbmNsdWRlIHRoZSB0b29sIGRlZmluaXRpb24gYW5kIENsYXVkZSBoYW5kbGVzIHRoZSByZXN0LgoKIyMjIEtleSBGYWN0cwoKLSBSdW5zIGluIGFuIGlzb2xhdGVkIGNvbnRhaW5lciAoMSBDUFUsIDUgR2lCIFJBTSwgNSBHaUIgZGlzaykKLSBObyBpbnRlcm5ldCBhY2Nlc3MgKGZ1bGx5IHNhbmRib3hlZCkKLSBQeXRob24gMy4xMSB3aXRoIGRhdGEgc2NpZW5jZSBsaWJyYXJpZXMgcHJlLWluc3RhbGxlZAotIENvbnRhaW5lcnMgcGVyc2lzdCBmb3IgMzAgZGF5cyBhbmQgY2FuIGJlIHJldXNlZCBhY3Jvc3MgcmVxdWVzdHMKLSBGcmVlIHdoZW4gdXNlZCB3aXRoIHdlYiBzZWFyY2gvd2ViIGZldGNoIHRvb2xzOyBvdGhlcndpc2UgJDAuMDUvaG91ciBhZnRlciAxLDU1MCBmcmVlIGhvdXJzL21vbnRoIHBlciBvcmdhbml6YXRpb24KCiMjIyBUb29sIERlZmluaXRpb24KClRoZSB0b29sIHJlcXVpcmVzIG5vIHNjaGVtYSDigJQganVzdCBkZWNsYXJlIGl0IGluIHRoZSBgdG9vbHNgIGFycmF5OgoKYGBganNvbgp7CiAgInR5cGUiOiAiY29kZV9leGVjdXRpb25fMjAyNjAxMjAiLAogICJuYW1lIjogImNvZGVfZXhlY3V0aW9uIgp9CmBgYAoKQ2xhdWRlIGF1dG9tYXRpY2FsbHkgZ2FpbnMgYWNjZXNzIHRvIGBiYXNoX2NvZGVfZXhlY3V0aW9uYCAocnVuIHNoZWxsIGNvbW1hbmRzKSBhbmQgYHRleHRfZWRpdG9yX2NvZGVfZXhlY3V0aW9uYCAoY3JlYXRlL3ZpZXcvZWRpdCBmaWxlcykuCgojIyMgUHJlLWluc3RhbGxlZCBQeXRob24gTGlicmFyaWVzCgotICoqRGF0YSBzY2llbmNlKio6IHBhbmRhcywgbnVtcHksIHNjaXB5LCBzY2lraXQtbGVhcm4sIHN0YXRzbW9kZWxzCi0gKipWaXN1YWxpemF0aW9uKio6IG1hdHBsb3RsaWIsIHNlYWJvcm4KLSAqKkZpbGUgcHJvY2Vzc2luZyoqOiBvcGVucHl4bCwgeGxzeHdyaXRlciwgcGlsbG93LCBweXBkZiwgcGRmcGx1bWJlciwgcHl0aG9uLWRvY3gsIHB5dGhvbi1wcHR4Ci0gKipNYXRoKio6IHN5bXB5LCBtcG1hdGgKLSAqKlV0aWxpdGllcyoqOiB0cWRtLCBweXRob24tZGF0ZXV0aWwsIHB5dHosIHNxbGl0ZTMKCkFkZGl0aW9uYWwgcGFja2FnZXMgY2FuIGJlIGluc3RhbGxlZCBhdCBydW50aW1lIHZpYSBgcGlwIGluc3RhbGxgLgoKIyMjIFN1cHBvcnRlZCBGaWxlIFR5cGVzIGZvciBVcGxvYWQKCnwgVHlwZSAgIHwgRXh0ZW5zaW9ucyAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8CnwgRGF0YSAgIHwgQ1NWLCBFeGNlbCAoLnhsc3gvLnhscyksIEpTT04sIFhNTCB8CnwgSW1hZ2VzIHwgSlBFRywgUE5HLCBHSUYsIFdlYlAgICAgICAgICAgICAgICB8CnwgVGV4dCAgIHwgLnR4dCwgLm1kLCAucHksIC5qcywgZXRjLiAgICAgICAgICB8CgojIyMgQ29udGFpbmVyIFJldXNlCgpSZXVzZSBjb250YWluZXJzIGFjcm9zcyByZXF1ZXN0cyB0byBtYWludGFpbiBzdGF0ZSAoZmlsZXMsIGluc3RhbGxlZCBwYWNrYWdlcywgdmFyaWFibGVzKS4gRXh0cmFjdCB0aGUgYGNvbnRhaW5lcl9pZGAgZnJvbSB0aGUgZmlyc3QgcmVzcG9uc2UgYW5kIHBhc3MgaXQgdG8gc3Vic2VxdWVudCByZXF1ZXN0cy4KCiMjIyBSZXNwb25zZSBTdHJ1Y3R1cmUKClRoZSByZXNwb25zZSBjb250YWlucyBpbnRlcmxlYXZlZCB0ZXh0IGFuZCB0b29sIHJlc3VsdCBibG9ja3M6CgotIGB0ZXh0YCDigJQgQ2xhdWRlJ3MgZXhwbGFuYXRpb24KLSBgc2VydmVyX3Rvb2xfdXNlYCDigJQgV2hhdCBDbGF1ZGUgaXMgZG9pbmcKLSBgYmFzaF9jb2RlX2V4ZWN1dGlvbl90b29sX3Jlc3VsdGAg4oCUIENvZGUgZXhlY3V0aW9uIG91dHB1dCAoY2hlY2sgYHJldHVybl9jb2RlYCBmb3Igc3VjY2Vzcy9mYWlsdXJlKQotIGB0ZXh0X2VkaXRvcl9jb2RlX2V4ZWN1dGlvbl90b29sX3Jlc3VsdGAg4oCUIEZpbGUgb3BlcmF0aW9uIHJlc3VsdHMKCj4gKipTZWN1cml0eToqKiBBbHdheXMgc2FuaXRpemUgZmlsZW5hbWVzIHdpdGggYG9zLnBhdGguYmFzZW5hbWUoKWAgLyBgcGF0aC5iYXNlbmFtZSgpYCBiZWZvcmUgd3JpdGluZyBkb3dubG9hZGVkIGZpbGVzIHRvIGRpc2sgdG8gcHJldmVudCBwYXRoIHRyYXZlcnNhbCBhdHRhY2tzLiBXcml0ZSBmaWxlcyB0byBhIGRlZGljYXRlZCBvdXRwdXQgZGlyZWN0b3J5LgoKLS0tCgojIyBTZXJ2ZXItU2lkZSBUb29sczogV2ViIFNlYXJjaCBhbmQgV2ViIEZldGNoCgpXZWIgc2VhcmNoIGFuZCB3ZWIgZmV0Y2ggbGV0IENsYXVkZSBzZWFyY2ggdGhlIHdlYiBhbmQgcmV0cmlldmUgcGFnZSBjb250ZW50LiBUaGV5IHJ1biBzZXJ2ZXItc2lkZSDigJQganVzdCBpbmNsdWRlIHRoZSB0b29sIGRlZmluaXRpb25zIGFuZCBDbGF1ZGUgaGFuZGxlcyBxdWVyaWVzLCBmZXRjaGluZywgYW5kIHJlc3VsdCBwcm9jZXNzaW5nIGF1dG9tYXRpY2FsbHkuCgojIyMgVG9vbCBEZWZpbml0aW9ucwoKYGBganNvbgpbCiAgeyAidHlwZSI6ICJ3ZWJfc2VhcmNoXzIwMjYwMjA5IiwgIm5hbWUiOiAid2ViX3NlYXJjaCIgfSwKICB7ICJ0eXBlIjogIndlYl9mZXRjaF8yMDI2MDIwOSIsICJuYW1lIjogIndlYl9mZXRjaCIgfQpdCmBgYAoKIyMjIER5bmFtaWMgRmlsdGVyaW5nIChPcHVzIDQuNiAvIFNvbm5ldCA0LjYpCgpUaGUgYHdlYl9zZWFyY2hfMjAyNjAyMDlgIGFuZCBgd2ViX2ZldGNoXzIwMjYwMjA5YCB2ZXJzaW9ucyBzdXBwb3J0ICoqZHluYW1pYyBmaWx0ZXJpbmcqKiDigJQgQ2xhdWRlIHdyaXRlcyBhbmQgZXhlY3V0ZXMgY29kZSB0byBmaWx0ZXIgc2VhcmNoIHJlc3VsdHMgYmVmb3JlIHRoZXkgcmVhY2ggdGhlIGNvbnRleHQgd2luZG93LCBpbXByb3ZpbmcgYWNjdXJhY3kgYW5kIHRva2VuIGVmZmljaWVuY3kuIER5bmFtaWMgZmlsdGVyaW5nIGlzIGJ1aWx0IGludG8gdGhlc2UgdG9vbCB2ZXJzaW9ucyBhbmQgYWN0aXZhdGVzIGF1dG9tYXRpY2FsbHk7IHlvdSBkbyBub3QgbmVlZCB0byBzZXBhcmF0ZWx5IGRlY2xhcmUgdGhlIGBjb2RlX2V4ZWN1dGlvbmAgdG9vbCBvciBwYXNzIGFueSBiZXRhIGhlYWRlci4KCmBgYGpzb24KewogICJ0b29scyI6IFsKICAgIHsgInR5cGUiOiAid2ViX3NlYXJjaF8yMDI2MDIwOSIsICJuYW1lIjogIndlYl9zZWFyY2giIH0sCiAgICB7ICJ0eXBlIjogIndlYl9mZXRjaF8yMDI2MDIwOSIsICJuYW1lIjogIndlYl9mZXRjaCIgfQogIF0KfQpgYGAKCldpdGhvdXQgZHluYW1pYyBmaWx0ZXJpbmcsIHRoZSBwcmV2aW91cyBgd2ViX3NlYXJjaF8yMDI1MDMwNWAgdmVyc2lvbiBpcyBhbHNvIGF2YWlsYWJsZS4KCj4gKipOb3RlOioqIE9ubHkgaW5jbHVkZSB0aGUgc3RhbmRhbG9uZSBgY29kZV9leGVjdXRpb25gIHRvb2wgd2hlbiB5b3VyIGFwcGxpY2F0aW9uIG5lZWRzIGNvZGUgZXhlY3V0aW9uIGZvciBpdHMgb3duIHB1cnBvc2VzIChkYXRhIGFuYWx5c2lzLCBmaWxlIHByb2Nlc3NpbmcsIHZpc3VhbGl6YXRpb24pIGluZGVwZW5kZW50IG9mIHdlYiBzZWFyY2guIEluY2x1ZGluZyBpdCBhbG9uZ3NpZGUgYF8yMDI2MDIwOWAgd2ViIHRvb2xzIGNyZWF0ZXMgYSBzZWNvbmQgZXhlY3V0aW9uIGVudmlyb25tZW50IHRoYXQgY2FuIGNvbmZ1c2UgdGhlIG1vZGVsLgoKLS0tCgojIyBTZXJ2ZXItU2lkZSBUb29sczogUHJvZ3JhbW1hdGljIFRvb2wgQ2FsbGluZwoKUHJvZ3JhbW1hdGljIHRvb2wgY2FsbGluZyBsZXRzIENsYXVkZSBleGVjdXRlIGNvbXBsZXggbXVsdGktdG9vbCB3b3JrZmxvd3MgaW4gY29kZSwga2VlcGluZyBpbnRlcm1lZGlhdGUgcmVzdWx0cyBvdXQgb2YgdGhlIGNvbnRleHQgd2luZG93LiBDbGF1ZGUgd3JpdGVzIGNvZGUgdGhhdCBjYWxscyB5b3VyIHRvb2xzIGRpcmVjdGx5LCByZWR1Y2luZyB0b2tlbiB1c2FnZSBmb3IgbXVsdGktc3RlcCBvcGVyYXRpb25zLgoKRm9yIGZ1bGwgZG9jdW1lbnRhdGlvbiwgdXNlIFdlYkZldGNoOgoKLSBVUkw6IGBodHRwczovL3BsYXRmb3JtLmNsYXVkZS5jb20vZG9jcy9lbi9hZ2VudHMtYW5kLXRvb2xzL3Rvb2wtdXNlL3Byb2dyYW1tYXRpYy10b29sLWNhbGxpbmdgCgotLS0KCiMjIFNlcnZlci1TaWRlIFRvb2xzOiBUb29sIFNlYXJjaAoKVGhlIHRvb2wgc2VhcmNoIHRvb2wgbGV0cyBDbGF1ZGUgZHluYW1pY2FsbHkgZGlzY292ZXIgdG9vbHMgZnJvbSBsYXJnZSBsaWJyYXJpZXMgd2l0aG91dCBsb2FkaW5nIGFsbCBkZWZpbml0aW9ucyBpbnRvIHRoZSBjb250ZXh0IHdpbmRvdy4gVXNlZnVsIHdoZW4geW91IGhhdmUgbWFueSB0b29scyBidXQgb25seSBhIGZldyBhcmUgcmVsZXZhbnQgdG8gYW55IGdpdmVuIHF1ZXJ5LgoKRm9yIGZ1bGwgZG9jdW1lbnRhdGlvbiwgdXNlIFdlYkZldGNoOgoKLSBVUkw6IGBodHRwczovL3BsYXRmb3JtLmNsYXVkZS5jb20vZG9jcy9lbi9hZ2VudHMtYW5kLXRvb2xzL3Rvb2wtdXNlL3Rvb2wtc2VhcmNoLXRvb2xgCgotLS0KCiMjIFRvb2wgVXNlIEV4YW1wbGVzCgpZb3UgY2FuIHByb3ZpZGUgc2FtcGxlIHRvb2wgY2FsbHMgZGlyZWN0bHkgaW4geW91ciB0b29sIGRlZmluaXRpb25zIHRvIGRlbW9uc3RyYXRlIHVzYWdlIHBhdHRlcm5zIGFuZCByZWR1Y2UgcGFyYW1ldGVyIGVycm9ycy4gVGhpcyBoZWxwcyBDbGF1ZGUgdW5kZXJzdGFuZCBob3cgdG8gY29ycmVjdGx5IGZvcm1hdCB0b29sIGlucHV0cywgZXNwZWNpYWxseSBmb3IgdG9vbHMgd2l0aCBjb21wbGV4IHNjaGVtYXMuCgpGb3IgZnVsbCBkb2N1bWVudGF0aW9uLCB1c2UgV2ViRmV0Y2g6CgotIFVSTDogYGh0dHBzOi8vcGxhdGZvcm0uY2xhdWRlLmNvbS9kb2NzL2VuL2FnZW50cy1hbmQtdG9vbHMvdG9vbC11c2UvaW1wbGVtZW50LXRvb2wtdXNlYAoKLS0tCgojIyBTZXJ2ZXItU2lkZSBUb29sczogQ29tcHV0ZXIgVXNlCgpDb21wdXRlciB1c2UgbGV0cyBDbGF1ZGUgaW50ZXJhY3Qgd2l0aCBhIGRlc2t0b3AgZW52aXJvbm1lbnQgKHNjcmVlbnNob3RzLCBtb3VzZSwga2V5Ym9hcmQpLiBJdCBjYW4gYmUgQW50aHJvcGljLWhvc3RlZCAoc2VydmVyLXNpZGUsIGxpa2UgY29kZSBleGVjdXRpb24pIG9yIHNlbGYtaG9zdGVkICh5b3UgcHJvdmlkZSB0aGUgZW52aXJvbm1lbnQgYW5kIGV4ZWN1dGUgYWN0aW9ucyBjbGllbnQtc2lkZSkuCgpGb3IgZnVsbCBkb2N1bWVudGF0aW9uLCB1c2UgV2ViRmV0Y2g6CgotIFVSTDogYGh0dHBzOi8vcGxhdGZvcm0uY2xhdWRlLmNvbS9kb2NzL2VuL2FnZW50cy1hbmQtdG9vbHMvY29tcHV0ZXItdXNlL292ZXJ2aWV3YAoKLS0tCgojIyBDbGllbnQtU2lkZSBUb29sczogTWVtb3J5CgpUaGUgbWVtb3J5IHRvb2wgZW5hYmxlcyBDbGF1ZGUgdG8gc3RvcmUgYW5kIHJldHJpZXZlIGluZm9ybWF0aW9uIGFjcm9zcyBjb252ZXJzYXRpb25zIHRocm91Z2ggYSBtZW1vcnkgZmlsZSBkaXJlY3RvcnkuIENsYXVkZSBjYW4gY3JlYXRlLCByZWFkLCB1cGRhdGUsIGFuZCBkZWxldGUgZmlsZXMgdGhhdCBwZXJzaXN0IGJldHdlZW4gc2Vzc2lvbnMuCgojIyMgS2V5IEZhY3RzCgotIENsaWVudC1zaWRlIHRvb2wg4oCUIHlvdSBjb250cm9sIHN0b3JhZ2UgdmlhIHlvdXIgaW1wbGVtZW50YXRpb24KLSBTdXBwb3J0cyBjb21tYW5kczogYHZpZXdgLCBgY3JlYXRlYCwgYHN0cl9yZXBsYWNlYCwgYGluc2VydGAsIGBkZWxldGVgLCBgcmVuYW1lYAotIE9wZXJhdGVzIG9uIGZpbGVzIGluIGEgYC9tZW1vcmllc2AgZGlyZWN0b3J5Ci0gVGhlIFB5dGhvbiwgVHlwZVNjcmlwdCwgYW5kIEphdmEgU0RLcyBwcm92aWRlIGhlbHBlciBjbGFzc2VzL2Z1bmN0aW9ucyBmb3IgaW1wbGVtZW50aW5nIHRoZSBtZW1vcnkgYmFja2VuZAoKPiAqKlNlY3VyaXR5OioqIE5ldmVyIHN0b3JlIEFQSSBrZXlzLCBwYXNzd29yZHMsIHRva2Vucywgb3Igb3RoZXIgc2VjcmV0cyBpbiBtZW1vcnkgZmlsZXMuIEJlIGNhdXRpb3VzIHdpdGggcGVyc29uYWxseSBpZGVudGlmaWFibGUgaW5mb3JtYXRpb24gKFBJSSkg4oCUIGNoZWNrIGRhdGEgcHJpdmFjeSByZWd1bGF0aW9ucyAoR0RQUiwgQ0NQQSkgYmVmb3JlIHBlcnNpc3RpbmcgdXNlciBkYXRhLiBUaGUgcmVmZXJlbmNlIGltcGxlbWVudGF0aW9ucyBoYXZlIG5vIGJ1aWx0LWluIGFjY2VzcyBjb250cm9sOyBpbiBtdWx0aS11c2VyIHN5c3RlbXMsIGltcGxlbWVudCBwZXItdXNlciBtZW1vcnkgZGlyZWN0b3JpZXMgYW5kIGF1dGhlbnRpY2F0aW9uIGluIHlvdXIgdG9vbCBoYW5kbGVycy4KCkZvciBmdWxsIGltcGxlbWVudGF0aW9uIGV4YW1wbGVzLCB1c2UgV2ViRmV0Y2g6CgotIERvY3M6IGBodHRwczovL3BsYXRmb3JtLmNsYXVkZS5jb20vZG9jcy9lbi9hZ2VudHMtYW5kLXRvb2xzL3Rvb2wtdXNlL21lbW9yeS10b29sLm1kYAoKLS0tCgojIyBTdHJ1Y3R1cmVkIE91dHB1dHMKClN0cnVjdHVyZWQgb3V0cHV0cyBjb25zdHJhaW4gQ2xhdWRlJ3MgcmVzcG9uc2VzIHRvIGZvbGxvdyBhIHNwZWNpZmljIEpTT04gc2NoZW1hLCBndWFyYW50ZWVpbmcgdmFsaWQsIHBhcnNlYWJsZSBvdXRwdXQuIFRoaXMgaXMgbm90IGEgc2VwYXJhdGUgdG9vbCDigJQgaXQgZW5oYW5jZXMgdGhlIE1lc3NhZ2VzIEFQSSByZXNwb25zZSBmb3JtYXQgYW5kL29yIHRvb2wgcGFyYW1ldGVyIHZhbGlkYXRpb24uCgpUd28gZmVhdHVyZXMgYXJlIGF2YWlsYWJsZToKCi0gKipKU09OIG91dHB1dHMqKiAoYG91dHB1dF9jb25maWcuZm9ybWF0YCk6IENvbnRyb2wgQ2xhdWRlJ3MgcmVzcG9uc2UgZm9ybWF0Ci0gKipTdHJpY3QgdG9vbCB1c2UqKiAoYHN0cmljdDogdHJ1ZWApOiBHdWFyYW50ZWUgdmFsaWQgdG9vbCBwYXJhbWV0ZXIgc2NoZW1hcwoKKipTdXBwb3J0ZWQgbW9kZWxzOioqIENsYXVkZSBPcHVzIDQuNiwgQ2xhdWRlIFNvbm5ldCA0LjYsIGFuZCBDbGF1ZGUgSGFpa3UgNC41LiBMZWdhY3kgbW9kZWxzIChDbGF1ZGUgT3B1cyA0LjUsIENsYXVkZSBPcHVzIDQuMSkgYWxzbyBzdXBwb3J0IHN0cnVjdHVyZWQgb3V0cHV0cy4KCj4gKipSZWNvbW1lbmRlZDoqKiBVc2UgYGNsaWVudC5tZXNzYWdlcy5wYXJzZSgpYCB3aGljaCBhdXRvbWF0aWNhbGx5IHZhbGlkYXRlcyByZXNwb25zZXMgYWdhaW5zdCB5b3VyIHNjaGVtYS4gV2hlbiB1c2luZyBgbWVzc2FnZXMuY3JlYXRlKClgIGRpcmVjdGx5LCB1c2UgYG91dHB1dF9jb25maWc6IHtmb3JtYXQ6IHsuLi59fWAuIFRoZSBgb3V0cHV0X2Zvcm1hdGAgY29udmVuaWVuY2UgcGFyYW1ldGVyIGlzIGFsc28gYWNjZXB0ZWQgYnkgc29tZSBTREsgbWV0aG9kcyAoZS5nLiwgYC5wYXJzZSgpYCksIGJ1dCBgb3V0cHV0X2NvbmZpZy5mb3JtYXRgIGlzIHRoZSBjYW5vbmljYWwgQVBJLWxldmVsIHBhcmFtZXRlci4KCiMjIyBKU09OIFNjaGVtYSBMaW1pdGF0aW9ucwoKKipTdXBwb3J0ZWQ6KioKCi0gQmFzaWMgdHlwZXM6IG9iamVjdCwgYXJyYXksIHN0cmluZywgaW50ZWdlciwgbnVtYmVyLCBib29sZWFuLCBudWxsCi0gYGVudW1gLCBgY29uc3RgLCBgYW55T2ZgLCBgYWxsT2ZgLCBgJHJlZmAvYCRkZWZgCi0gU3RyaW5nIGZvcm1hdHM6IGBkYXRlLXRpbWVgLCBgdGltZWAsIGBkYXRlYCwgYGR1cmF0aW9uYCwgYGVtYWlsYCwgYGhvc3RuYW1lYCwgYHVyaWAsIGBpcHY0YCwgYGlwdjZgLCBgdXVpZGAKLSBgYWRkaXRpb25hbFByb3BlcnRpZXM6IGZhbHNlYCAocmVxdWlyZWQgZm9yIGFsbCBvYmplY3RzKQoKKipOb3Qgc3VwcG9ydGVkOioqCgotIFJlY3Vyc2l2ZSBzY2hlbWFzCi0gTnVtZXJpY2FsIGNvbnN0cmFpbnRzIChgbWluaW11bWAsIGBtYXhpbXVtYCwgYG11bHRpcGxlT2ZgKQotIFN0cmluZyBjb25zdHJhaW50cyAoYG1pbkxlbmd0aGAsIGBtYXhMZW5ndGhgKQotIENvbXBsZXggYXJyYXkgY29uc3RyYWludHMKLSBgYWRkaXRpb25hbFByb3BlcnRpZXNgIHNldCB0byBhbnl0aGluZyBvdGhlciB0aGFuIGBmYWxzZWAKClRoZSBQeXRob24gYW5kIFR5cGVTY3JpcHQgU0RLcyBhdXRvbWF0aWNhbGx5IGhhbmRsZSB1bnN1cHBvcnRlZCBjb25zdHJhaW50cyBieSByZW1vdmluZyB0aGVtIGZyb20gdGhlIHNjaGVtYSBzZW50IHRvIHRoZSBBUEkgYW5kIHZhbGlkYXRpbmcgdGhlbSBjbGllbnQtc2lkZS4KCiMjIyBJbXBvcnRhbnQgTm90ZXMKCi0gKipGaXJzdCByZXF1ZXN0IGxhdGVuY3kqKjogTmV3IHNjaGVtYXMgaW5jdXIgYSBvbmUtdGltZSBjb21waWxhdGlvbiBjb3N0LiBTdWJzZXF1ZW50IHJlcXVlc3RzIHdpdGggdGhlIHNhbWUgc2NoZW1hIHVzZSBhIDI0LWhvdXIgY2FjaGUuCi0gKipSZWZ1c2FscyoqOiBJZiBDbGF1ZGUgcmVmdXNlcyBmb3Igc2FmZXR5IHJlYXNvbnMgKGBzdG9wX3JlYXNvbjogInJlZnVzYWwiYCksIHRoZSBvdXRwdXQgbWF5IG5vdCBtYXRjaCB5b3VyIHNjaGVtYS4KLSAqKlRva2VuIGxpbWl0cyoqOiBJZiBgc3RvcF9yZWFzb246ICJtYXhfdG9rZW5zImAsIG91dHB1dCBtYXkgYmUgaW5jb21wbGV0ZS4gSW5jcmVhc2UgYG1heF90b2tlbnNgLgotICoqSW5jb21wYXRpYmxlIHdpdGgqKjogQ2l0YXRpb25zIChyZXR1cm5zIDQwMCBlcnJvciksIG1lc3NhZ2UgcHJlZmlsbGluZy4KLSAqKldvcmtzIHdpdGgqKjogQmF0Y2hlcyBBUEksIHN0cmVhbWluZywgdG9rZW4gY291bnRpbmcsIGV4dGVuZGVkIHRoaW5raW5nLgoKLS0tCgojIyBUaXBzIGZvciBFZmZlY3RpdmUgVG9vbCBVc2UKCjEuICoqUHJvdmlkZSBkZXRhaWxlZCBkZXNjcmlwdGlvbnMqKjogQ2xhdWRlIHJlbGllcyBoZWF2aWx5IG9uIGRlc2NyaXB0aW9ucyB0byB1bmRlcnN0YW5kIHdoZW4gYW5kIGhvdyB0byB1c2UgdG9vbHMKMi4gKipVc2Ugc3BlY2lmaWMgdG9vbCBuYW1lcyoqOiBgZ2V0X2N1cnJlbnRfd2VhdGhlcmAgaXMgYmV0dGVyIHRoYW4gYHdlYXRoZXJgCjMuICoqVmFsaWRhdGUgaW5wdXRzKio6IEFsd2F5cyB2YWxpZGF0ZSB0b29sIGlucHV0cyBiZWZvcmUgZXhlY3V0aW9uCjQuICoqSGFuZGxlIGVycm9ycyBncmFjZWZ1bGx5Kio6IFJldHVybiBpbmZvcm1hdGl2ZSBlcnJvciBtZXNzYWdlcyBzbyBDbGF1ZGUgY2FuIGFkYXB0CjUuICoqTGltaXQgdG9vbCBjb3VudCoqOiBUb28gbWFueSB0b29scyBjYW4gY29uZnVzZSB0aGUgbW9kZWwg4oCUIGtlZXAgdGhlIHNldCBmb2N1c2VkCjYuICoqVGVzdCB0b29sIGludGVyYWN0aW9ucyoqOiBWZXJpZnkgQ2xhdWRlIHVzZXMgdG9vbHMgY29ycmVjdGx5IGluIHZhcmlvdXMgc2NlbmFyaW9zCgpGb3IgZGV0YWlsZWQgdG9vbCB1c2UgZG9jdW1lbnRhdGlvbiwgdXNlIFdlYkZldGNoOgoKLSBVUkw6IGBodHRwczovL3BsYXRmb3JtLmNsYXVkZS5jb20vZG9jcy9lbi9hZ2VudHMtYW5kLXRvb2xzL3Rvb2wtdXNlL292ZXJ2aWV3YAo=
+# Tool Use Concepts
+
+This file covers the conceptual foundations of tool use with the Claude API. For language-specific code examples, see the `python/`, `typescript/`, or other language folders.
+
+## User-Defined Tools
+
+### Tool Definition Structure
+
+> **Note:** When using the Tool Runner (beta), tool schemas are generated automatically from your function signatures (Python), Zod schemas (TypeScript), annotated classes (Java), `jsonschema` struct tags (Go), or `BaseTool` subclasses (Ruby). The raw JSON schema format below is for the manual approach — including PHP's `BetaRunnableTool`, which wraps a run closure around a hand-written schema — or SDKs without tool runner support.
+
+Each tool requires a name, description, and JSON Schema for its inputs:
+
+```json
+{
+  "name": "get_weather",
+  "description": "Get current weather for a location",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "location": {
+        "type": "string",
+        "description": "City and state, e.g., San Francisco, CA"
+      },
+      "unit": {
+        "type": "string",
+        "enum": ["celsius", "fahrenheit"],
+        "description": "Temperature unit"
+      }
+    },
+    "required": ["location"]
+  }
+}
+```
+
+**Best practices for tool definitions:**
+
+- Use clear, descriptive names (e.g., `get_weather`, `search_database`, `send_email`)
+- Write detailed descriptions — Claude uses these to decide when to use the tool
+- Include descriptions for each property
+- Use `enum` for parameters with a fixed set of values
+- Mark truly required parameters in `required`; make others optional with defaults
+
+---
+
+### Tool Choice Options
+
+Control when Claude uses tools:
+
+| Value                             | Behavior                                      |
+| --------------------------------- | --------------------------------------------- |
+| `{"type": "auto"}`                | Claude decides whether to use tools (default) |
+| `{"type": "any"}`                 | Claude must use at least one tool             |
+| `{"type": "tool", "name": "..."}` | Claude must use the specified tool            |
+| `{"type": "none"}`                | Claude cannot use tools                       |
+
+Any `tool_choice` value can also include `"disable_parallel_tool_use": true` to force Claude to use at most one tool per response. By default, Claude may request multiple tool calls in a single response.
+
+---
+
+### Tool Runner vs Manual Loop
+
+**Tool Runner (Recommended):** The SDK's tool runner handles the agentic loop automatically — it calls the API, detects tool use requests, executes your tool functions, feeds results back to Claude, and repeats until Claude stops calling tools. Available in Python, TypeScript, Java, Go, Ruby, and PHP SDKs (beta). The Python SDK also provides MCP conversion helpers (`anthropic.lib.tools.mcp`) to convert MCP tools, prompts, and resources for use with the tool runner — see `python/claude-api/tool-use.md` for details.
+
+**Manual Agentic Loop:** Use when you need fine-grained control over the loop (e.g., custom logging, conditional tool execution, human-in-the-loop approval). Loop until `stop_reason == "end_turn"`, always append the full `response.content` to preserve tool_use blocks, and ensure each `tool_result` includes the matching `tool_use_id`.
+
+**Stop reasons for server-side tools:** When using server-side tools (code execution, web search, etc.), the API runs a server-side sampling loop. If this loop reaches its default limit of 10 iterations, the response will have `stop_reason: "pause_turn"`. To continue, re-send the user message and assistant response and make another API request — the server will resume where it left off. Do NOT add an extra user message like "Continue." — the API detects the trailing `server_tool_use` block and knows to resume automatically.
+
+```python
+# Handle pause_turn in your agentic loop
+if response.stop_reason == "pause_turn":
+    messages = [
+        {"role": "user", "content": user_query},
+        {"role": "assistant", "content": response.content},
+    ]
+    # Make another API request — server resumes automatically
+    response = client.messages.create(
+        model="claude-opus-4-6", messages=messages, tools=tools
+    )
+```
+
+Set a `max_continuations` limit (e.g., 5) to prevent infinite loops. For the full guide, see: `https://platform.claude.com/docs/en/build-with-claude/handling-stop-reasons`
+
+> **Security:** The tool runner executes your tool functions automatically whenever Claude requests them. For tools with side effects (sending emails, modifying databases, financial transactions), validate inputs within your tool functions and consider requiring confirmation for destructive operations. Use the manual agentic loop if you need human-in-the-loop approval before each tool execution.
+
+---
+
+### Handling Tool Results
+
+When Claude uses a tool, the response contains a `tool_use` block. You must:
+
+1. Execute the tool with the provided input
+2. Send the result back in a `tool_result` message
+3. Continue the conversation
+
+**Error handling in tool results:** When a tool execution fails, set `"is_error": true` and provide an informative error message. Claude will typically acknowledge the error and either try a different approach or ask for clarification.
+
+**Multiple tool calls:** Claude can request multiple tools in a single response. Handle them all before continuing — send all results back in a single `user` message.
+
+---
+
+## Server-Side Tools: Code Execution
+
+The code execution tool lets Claude run code in a secure, sandboxed container. Unlike user-defined tools, server-side tools run on Anthropic's infrastructure — you don't execute anything client-side. Just include the tool definition and Claude handles the rest.
+
+### Key Facts
+
+- Runs in an isolated container (1 CPU, 5 GiB RAM, 5 GiB disk)
+- No internet access (fully sandboxed)
+- Python 3.11 with data science libraries pre-installed
+- Containers persist for 30 days and can be reused across requests
+- Free when used with web search/web fetch tools; otherwise $0.05/hour after 1,550 free hours/month per organization
+
+### Tool Definition
+
+The tool requires no schema — just declare it in the `tools` array:
+
+```json
+{
+  "type": "code_execution_20260120",
+  "name": "code_execution"
+}
+```
+
+Claude automatically gains access to `bash_code_execution` (run shell commands) and `text_editor_code_execution` (create/view/edit files).
+
+### Pre-installed Python Libraries
+
+- **Data science**: pandas, numpy, scipy, scikit-learn, statsmodels
+- **Visualization**: matplotlib, seaborn
+- **File processing**: openpyxl, xlsxwriter, pillow, pypdf, pdfplumber, python-docx, python-pptx
+- **Math**: sympy, mpmath
+- **Utilities**: tqdm, python-dateutil, pytz, sqlite3
+
+Additional packages can be installed at runtime via `pip install`.
+
+### Supported File Types for Upload
+
+| Type   | Extensions                         |
+| ------ | ---------------------------------- |
+| Data   | CSV, Excel (.xlsx/.xls), JSON, XML |
+| Images | JPEG, PNG, GIF, WebP               |
+| Text   | .txt, .md, .py, .js, etc.          |
+
+### Container Reuse
+
+Reuse containers across requests to maintain state (files, installed packages, variables). Extract the `container_id` from the first response and pass it to subsequent requests.
+
+### Response Structure
+
+The response contains interleaved text and tool result blocks:
+
+- `text` — Claude's explanation
+- `server_tool_use` — What Claude is doing
+- `bash_code_execution_tool_result` — Code execution output (check `return_code` for success/failure)
+- `text_editor_code_execution_tool_result` — File operation results
+
+> **Security:** Always sanitize filenames with `os.path.basename()` / `path.basename()` before writing downloaded files to disk to prevent path traversal attacks. Write files to a dedicated output directory.
+
+---
+
+## Server-Side Tools: Web Search and Web Fetch
+
+Web search and web fetch let Claude search the web and retrieve page content. They run server-side — just include the tool definitions and Claude handles queries, fetching, and result processing automatically.
+
+### Tool Definitions
+
+```json
+[
+  { "type": "web_search_20260209", "name": "web_search" },
+  { "type": "web_fetch_20260209", "name": "web_fetch" }
+]
+```
+
+### Dynamic Filtering (Opus 4.6 / Sonnet 4.6)
+
+The `web_search_20260209` and `web_fetch_20260209` versions support **dynamic filtering** — Claude writes and executes code to filter search results before they reach the context window, improving accuracy and token efficiency. Dynamic filtering is built into these tool versions and activates automatically; you do not need to separately declare the `code_execution` tool or pass any beta header.
+
+```json
+{
+  "tools": [
+    { "type": "web_search_20260209", "name": "web_search" },
+    { "type": "web_fetch_20260209", "name": "web_fetch" }
+  ]
+}
+```
+
+Without dynamic filtering, the previous `web_search_20250305` version is also available.
+
+> **Note:** Only include the standalone `code_execution` tool when your application needs code execution for its own purposes (data analysis, file processing, visualization) independent of web search. Including it alongside `_20260209` web tools creates a second execution environment that can confuse the model.
+
+---
+
+## Server-Side Tools: Programmatic Tool Calling
+
+Programmatic tool calling lets Claude execute complex multi-tool workflows in code, keeping intermediate results out of the context window. Claude writes code that calls your tools directly, reducing token usage for multi-step operations.
+
+For full documentation, use WebFetch:
+
+- URL: `https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling`
+
+---
+
+## Server-Side Tools: Tool Search
+
+The tool search tool lets Claude dynamically discover tools from large libraries without loading all definitions into the context window. Useful when you have many tools but only a few are relevant to any given query.
+
+For full documentation, use WebFetch:
+
+- URL: `https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool`
+
+---
+
+## Tool Use Examples
+
+You can provide sample tool calls directly in your tool definitions to demonstrate usage patterns and reduce parameter errors. This helps Claude understand how to correctly format tool inputs, especially for tools with complex schemas.
+
+For full documentation, use WebFetch:
+
+- URL: `https://platform.claude.com/docs/en/agents-and-tools/tool-use/implement-tool-use`
+
+---
+
+## Server-Side Tools: Computer Use
+
+Computer use lets Claude interact with a desktop environment (screenshots, mouse, keyboard). It can be Anthropic-hosted (server-side, like code execution) or self-hosted (you provide the environment and execute actions client-side).
+
+For full documentation, use WebFetch:
+
+- URL: `https://platform.claude.com/docs/en/agents-and-tools/computer-use/overview`
+
+---
+
+## Client-Side Tools: Memory
+
+The memory tool enables Claude to store and retrieve information across conversations through a memory file directory. Claude can create, read, update, and delete files that persist between sessions.
+
+### Key Facts
+
+- Client-side tool — you control storage via your implementation
+- Supports commands: `view`, `create`, `str_replace`, `insert`, `delete`, `rename`
+- Operates on files in a `/memories` directory
+- The Python, TypeScript, and Java SDKs provide helper classes/functions for implementing the memory backend
+
+> **Security:** Never store API keys, passwords, tokens, or other secrets in memory files. Be cautious with personally identifiable information (PII) — check data privacy regulations (GDPR, CCPA) before persisting user data. The reference implementations have no built-in access control; in multi-user systems, implement per-user memory directories and authentication in your tool handlers.
+
+For full implementation examples, use WebFetch:
+
+- Docs: `https://platform.claude.com/docs/en/agents-and-tools/tool-use/memory-tool.md`
+
+---
+
+## Structured Outputs
+
+Structured outputs constrain Claude's responses to follow a specific JSON schema, guaranteeing valid, parseable output. This is not a separate tool — it enhances the Messages API response format and/or tool parameter validation.
+
+Two features are available:
+
+- **JSON outputs** (`output_config.format`): Control Claude's response format
+- **Strict tool use** (`strict: true`): Guarantee valid tool parameter schemas
+
+**Supported models:** Claude Opus 4.6, Claude Sonnet 4.6, and Claude Haiku 4.5. Legacy models (Claude Opus 4.5, Claude Opus 4.1) also support structured outputs.
+
+> **Recommended:** Use `client.messages.parse()` which automatically validates responses against your schema. When using `messages.create()` directly, use `output_config: {format: {...}}`. The `output_format` convenience parameter is also accepted by some SDK methods (e.g., `.parse()`), but `output_config.format` is the canonical API-level parameter.
+
+### JSON Schema Limitations
+
+**Supported:**
+
+- Basic types: object, array, string, integer, number, boolean, null
+- `enum`, `const`, `anyOf`, `allOf`, `$ref`/`$def`
+- String formats: `date-time`, `time`, `date`, `duration`, `email`, `hostname`, `uri`, `ipv4`, `ipv6`, `uuid`
+- `additionalProperties: false` (required for all objects)
+
+**Not supported:**
+
+- Recursive schemas
+- Numerical constraints (`minimum`, `maximum`, `multipleOf`)
+- String constraints (`minLength`, `maxLength`)
+- Complex array constraints
+- `additionalProperties` set to anything other than `false`
+
+The Python and TypeScript SDKs automatically handle unsupported constraints by removing them from the schema sent to the API and validating them client-side.
+
+### Important Notes
+
+- **First request latency**: New schemas incur a one-time compilation cost. Subsequent requests with the same schema use a 24-hour cache.
+- **Refusals**: If Claude refuses for safety reasons (`stop_reason: "refusal"`), the output may not match your schema.
+- **Token limits**: If `stop_reason: "max_tokens"`, output may be incomplete. Increase `max_tokens`.
+- **Incompatible with**: Citations (returns 400 error), message prefilling.
+- **Works with**: Batches API, streaming, token counting, extended thinking.
+
+---
+
+## Tips for Effective Tool Use
+
+1. **Provide detailed descriptions**: Claude relies heavily on descriptions to understand when and how to use tools
+2. **Use specific tool names**: `get_current_weather` is better than `weather`
+3. **Validate inputs**: Always validate tool inputs before execution
+4. **Handle errors gracefully**: Return informative error messages so Claude can adapt
+5. **Limit tool count**: Too many tools can confuse the model — keep the set focused
+6. **Test tool interactions**: Verify Claude uses tools correctly in various scenarios
+
+For detailed tool use documentation, use WebFetch:
+
+- URL: `https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview`

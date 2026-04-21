@@ -1,1 +1,359 @@
-IyBBZ2VudCBTREsgUGF0dGVybnMg4oCUIFB5dGhvbgoKIyMgQmFzaWMgQWdlbnQKCmBgYHB5dGhvbgppbXBvcnQgYW55aW8KZnJvbSBjbGF1ZGVfYWdlbnRfc2RrIGltcG9ydCBxdWVyeSwgQ2xhdWRlQWdlbnRPcHRpb25zLCBSZXN1bHRNZXNzYWdlCgphc3luYyBkZWYgbWFpbigpOgogICAgYXN5bmMgZm9yIG1lc3NhZ2UgaW4gcXVlcnkoCiAgICAgICAgcHJvbXB0PSJFeHBsYWluIHdoYXQgdGhpcyByZXBvc2l0b3J5IGRvZXMiLAogICAgICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKAogICAgICAgICAgICBjd2Q9Ii9wYXRoL3RvL3Byb2plY3QiLAogICAgICAgICAgICBhbGxvd2VkX3Rvb2xzPVsiUmVhZCIsICJHbG9iIiwgIkdyZXAiXQogICAgICAgICkKICAgICk6CiAgICAgICAgaWYgaXNpbnN0YW5jZShtZXNzYWdlLCBSZXN1bHRNZXNzYWdlKToKICAgICAgICAgICAgcHJpbnQobWVzc2FnZS5yZXN1bHQpCgphbnlpby5ydW4obWFpbikKYGBgCgotLS0KCiMjIEN1c3RvbSBUb29scwoKQ3VzdG9tIHRvb2xzIHJlcXVpcmUgYW4gTUNQIHNlcnZlci4gVXNlIGBDbGF1ZGVTREtDbGllbnRgIGZvciBmdWxsIGNvbnRyb2wgKGN1c3RvbSBTREsgTUNQIHRvb2xzIHJlcXVpcmUgYENsYXVkZVNES0NsaWVudGAg4oCUIGBxdWVyeSgpYCBvbmx5IHN1cHBvcnRzIGV4dGVybmFsIHN0ZGlvL2h0dHAgTUNQIHNlcnZlcnMpLgoKYGBgcHl0aG9uCmltcG9ydCBhbnlpbwpmcm9tIGNsYXVkZV9hZ2VudF9zZGsgaW1wb3J0ICgKICAgIHRvb2wsCiAgICBjcmVhdGVfc2RrX21jcF9zZXJ2ZXIsCiAgICBDbGF1ZGVTREtDbGllbnQsCiAgICBDbGF1ZGVBZ2VudE9wdGlvbnMsCiAgICBBc3Npc3RhbnRNZXNzYWdlLAogICAgVGV4dEJsb2NrLAopCgpAdG9vbCgiZ2V0X3dlYXRoZXIiLCAiR2V0IHRoZSBjdXJyZW50IHdlYXRoZXIgZm9yIGEgbG9jYXRpb24iLCB7ImxvY2F0aW9uIjogc3RyfSkKYXN5bmMgZGVmIGdldF93ZWF0aGVyKGFyZ3MpOgogICAgbG9jYXRpb24gPSBhcmdzWyJsb2NhdGlvbiJdCiAgICByZXR1cm4geyJjb250ZW50IjogW3sidHlwZSI6ICJ0ZXh0IiwgInRleHQiOiBmIlRoZSB3ZWF0aGVyIGluIHtsb2NhdGlvbn0gaXMgc3VubnkgYW5kIDcywrBGLiJ9XX0KCnNlcnZlciA9IGNyZWF0ZV9zZGtfbWNwX3NlcnZlcigid2VhdGhlci10b29scyIsIHRvb2xzPVtnZXRfd2VhdGhlcl0pCgphc3luYyBkZWYgbWFpbigpOgogICAgb3B0aW9ucyA9IENsYXVkZUFnZW50T3B0aW9ucyhtY3Bfc2VydmVycz17IndlYXRoZXIiOiBzZXJ2ZXJ9KQogICAgYXN5bmMgd2l0aCBDbGF1ZGVTREtDbGllbnQob3B0aW9ucz1vcHRpb25zKSBhcyBjbGllbnQ6CiAgICAgICAgYXdhaXQgY2xpZW50LnF1ZXJ5KCJXaGF0J3MgdGhlIHdlYXRoZXIgaW4gUGFyaXM/IikKICAgICAgICBhc3luYyBmb3IgbWVzc2FnZSBpbiBjbGllbnQucmVjZWl2ZV9yZXNwb25zZSgpOgogICAgICAgICAgICBpZiBpc2luc3RhbmNlKG1lc3NhZ2UsIEFzc2lzdGFudE1lc3NhZ2UpOgogICAgICAgICAgICAgICAgZm9yIGJsb2NrIGluIG1lc3NhZ2UuY29udGVudDoKICAgICAgICAgICAgICAgICAgICBpZiBpc2luc3RhbmNlKGJsb2NrLCBUZXh0QmxvY2spOgogICAgICAgICAgICAgICAgICAgICAgICBwcmludChibG9jay50ZXh0KQoKYW55aW8ucnVuKG1haW4pCmBgYAoKLS0tCgojIyBIb29rcwoKIyMjIEFmdGVyIFRvb2wgVXNlIEhvb2sKCkxvZyBmaWxlIGNoYW5nZXMgYWZ0ZXIgYW55IGVkaXQ6CgpgYGBweXRob24KaW1wb3J0IGFueWlvCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcXVlcnksIENsYXVkZUFnZW50T3B0aW9ucywgSG9va01hdGNoZXIsIFJlc3VsdE1lc3NhZ2UKCmFzeW5jIGRlZiBsb2dfZmlsZV9jaGFuZ2UoaW5wdXRfZGF0YSwgdG9vbF91c2VfaWQsIGNvbnRleHQpOgogICAgZmlsZV9wYXRoID0gaW5wdXRfZGF0YS5nZXQoJ3Rvb2xfaW5wdXQnLCB7fSkuZ2V0KCdmaWxlX3BhdGgnLCAndW5rbm93bicpCiAgICB3aXRoIG9wZW4oJy4vYXVkaXQubG9nJywgJ2EnKSBhcyBmOgogICAgICAgIGYud3JpdGUoZiJ7ZGF0ZXRpbWUubm93KCl9OiBtb2RpZmllZCB7ZmlsZV9wYXRofVxuIikKICAgIHJldHVybiB7fQoKYXN5bmMgZGVmIG1haW4oKToKICAgIGFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgICAgIHByb21wdD0iUmVmYWN0b3IgdXRpbHMucHkgdG8gaW1wcm92ZSByZWFkYWJpbGl0eSIsCiAgICAgICAgb3B0aW9ucz1DbGF1ZGVBZ2VudE9wdGlvbnMoCiAgICAgICAgICAgIGFsbG93ZWRfdG9vbHM9WyJSZWFkIiwgIkVkaXQiLCAiV3JpdGUiXSwKICAgICAgICAgICAgcGVybWlzc2lvbl9tb2RlPSJhY2NlcHRFZGl0cyIsCiAgICAgICAgICAgIGhvb2tzPXsKICAgICAgICAgICAgICAgICJQb3N0VG9vbFVzZSI6IFtIb29rTWF0Y2hlcihtYXRjaGVyPSJFZGl0fFdyaXRlIiwgaG9va3M9W2xvZ19maWxlX2NoYW5nZV0pXQogICAgICAgICAgICB9CiAgICAgICAgKQogICAgKToKICAgICAgICBpZiBpc2luc3RhbmNlKG1lc3NhZ2UsIFJlc3VsdE1lc3NhZ2UpOgogICAgICAgICAgICBwcmludChtZXNzYWdlLnJlc3VsdCkKCmFueWlvLnJ1bihtYWluKQpgYGAKCi0tLQoKIyMgU3ViYWdlbnRzCgpgYGBweXRob24KaW1wb3J0IGFueWlvCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcXVlcnksIENsYXVkZUFnZW50T3B0aW9ucywgQWdlbnREZWZpbml0aW9uLCBSZXN1bHRNZXNzYWdlCgphc3luYyBkZWYgbWFpbigpOgogICAgYXN5bmMgZm9yIG1lc3NhZ2UgaW4gcXVlcnkoCiAgICAgICAgcHJvbXB0PSJVc2UgdGhlIGNvZGUtcmV2aWV3ZXIgYWdlbnQgdG8gcmV2aWV3IHRoaXMgY29kZWJhc2UiLAogICAgICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKAogICAgICAgICAgICBhbGxvd2VkX3Rvb2xzPVsiUmVhZCIsICJHbG9iIiwgIkdyZXAiLCAiQWdlbnQiXSwKICAgICAgICAgICAgYWdlbnRzPXsKICAgICAgICAgICAgICAgICJjb2RlLXJldmlld2VyIjogQWdlbnREZWZpbml0aW9uKAogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uPSJFeHBlcnQgY29kZSByZXZpZXdlciBmb3IgcXVhbGl0eSBhbmQgc2VjdXJpdHkgcmV2aWV3cy4iLAogICAgICAgICAgICAgICAgICAgIHByb21wdD0iQW5hbHl6ZSBjb2RlIHF1YWxpdHkgYW5kIHN1Z2dlc3QgaW1wcm92ZW1lbnRzLiIsCiAgICAgICAgICAgICAgICAgICAgdG9vbHM9WyJSZWFkIiwgIkdsb2IiLCAiR3JlcCJdCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KICAgICAgICApCiAgICApOgogICAgICAgIGlmIGlzaW5zdGFuY2UobWVzc2FnZSwgUmVzdWx0TWVzc2FnZSk6CiAgICAgICAgICAgIHByaW50KG1lc3NhZ2UucmVzdWx0KQoKYW55aW8ucnVuKG1haW4pCmBgYAoKLS0tCgojIyBNQ1AgU2VydmVyIEludGVncmF0aW9uCgojIyMgQnJvd3NlciBBdXRvbWF0aW9uIChQbGF5d3JpZ2h0KQoKYGBgcHl0aG9uCmltcG9ydCBhbnlpbwpmcm9tIGNsYXVkZV9hZ2VudF9zZGsgaW1wb3J0IHF1ZXJ5LCBDbGF1ZGVBZ2VudE9wdGlvbnMsIFJlc3VsdE1lc3NhZ2UKCmFzeW5jIGRlZiBtYWluKCk6CiAgICBhc3luYyBmb3IgbWVzc2FnZSBpbiBxdWVyeSgKICAgICAgICBwcm9tcHQ9Ik9wZW4gZXhhbXBsZS5jb20gYW5kIGRlc2NyaWJlIHdoYXQgeW91IHNlZSIsCiAgICAgICAgb3B0aW9ucz1DbGF1ZGVBZ2VudE9wdGlvbnMoCiAgICAgICAgICAgIG1jcF9zZXJ2ZXJzPXsKICAgICAgICAgICAgICAgICJwbGF5d3JpZ2h0IjogeyJjb21tYW5kIjogIm5weCIsICJhcmdzIjogWyJAcGxheXdyaWdodC9tY3BAbGF0ZXN0Il19CiAgICAgICAgICAgIH0KICAgICAgICApCiAgICApOgogICAgICAgIGlmIGlzaW5zdGFuY2UobWVzc2FnZSwgUmVzdWx0TWVzc2FnZSk6CiAgICAgICAgICAgIHByaW50KG1lc3NhZ2UucmVzdWx0KQoKYW55aW8ucnVuKG1haW4pCmBgYAoKIyMjIERhdGFiYXNlIEFjY2VzcyAoUG9zdGdyZVNRTCkKCmBgYHB5dGhvbgppbXBvcnQgb3MKaW1wb3J0IGFueWlvCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcXVlcnksIENsYXVkZUFnZW50T3B0aW9ucywgUmVzdWx0TWVzc2FnZQoKYXN5bmMgZGVmIG1haW4oKToKICAgIGFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgICAgIHByb21wdD0iU2hvdyBtZSB0aGUgdG9wIDEwIHVzZXJzIGJ5IG9yZGVyIGNvdW50IiwKICAgICAgICBvcHRpb25zPUNsYXVkZUFnZW50T3B0aW9ucygKICAgICAgICAgICAgbWNwX3NlcnZlcnM9ewogICAgICAgICAgICAgICAgInBvc3RncmVzIjogewogICAgICAgICAgICAgICAgICAgICJjb21tYW5kIjogIm5weCIsCiAgICAgICAgICAgICAgICAgICAgImFyZ3MiOiBbIi15IiwgIkBtb2RlbGNvbnRleHRwcm90b2NvbC9zZXJ2ZXItcG9zdGdyZXMiXSwKICAgICAgICAgICAgICAgICAgICAiZW52IjogeyJEQVRBQkFTRV9VUkwiOiBvcy5lbnZpcm9uWyJEQVRBQkFTRV9VUkwiXX0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICkKICAgICk6CiAgICAgICAgaWYgaXNpbnN0YW5jZShtZXNzYWdlLCBSZXN1bHRNZXNzYWdlKToKICAgICAgICAgICAgcHJpbnQobWVzc2FnZS5yZXN1bHQpCgphbnlpby5ydW4obWFpbikKYGBgCgotLS0KCiMjIFBlcm1pc3Npb24gTW9kZXMKCmBgYHB5dGhvbgppbXBvcnQgYW55aW8KZnJvbSBjbGF1ZGVfYWdlbnRfc2RrIGltcG9ydCBxdWVyeSwgQ2xhdWRlQWdlbnRPcHRpb25zCgphc3luYyBkZWYgbWFpbigpOgogICAgIyBEZWZhdWx0OiBwcm9tcHQgZm9yIGRhbmdlcm91cyBvcGVyYXRpb25zCiAgICBhc3luYyBmb3IgbWVzc2FnZSBpbiBxdWVyeSgKICAgICAgICBwcm9tcHQ9IkRlbGV0ZSBhbGwgdGVzdCBmaWxlcyIsCiAgICAgICAgb3B0aW9ucz1DbGF1ZGVBZ2VudE9wdGlvbnMoCiAgICAgICAgICAgIGFsbG93ZWRfdG9vbHM9WyJCYXNoIl0sCiAgICAgICAgICAgIHBlcm1pc3Npb25fbW9kZT0iZGVmYXVsdCIgICMgV2lsbCBwcm9tcHQgYmVmb3JlIGRlbGV0aW5nCiAgICAgICAgKQogICAgKToKICAgICAgICBwYXNzCgogICAgIyBQbGFuOiBhZ2VudCBjcmVhdGVzIGEgcGxhbiBiZWZvcmUgbWFraW5nIGNoYW5nZXMKICAgIGFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgICAgIHByb21wdD0iUmVmYWN0b3IgdGhlIGF1dGggc3lzdGVtIiwKICAgICAgICBvcHRpb25zPUNsYXVkZUFnZW50T3B0aW9ucygKICAgICAgICAgICAgYWxsb3dlZF90b29scz1bIlJlYWQiLCAiRWRpdCJdLAogICAgICAgICAgICBwZXJtaXNzaW9uX21vZGU9InBsYW4iCiAgICAgICAgKQogICAgKToKICAgICAgICBwYXNzCgogICAgIyBBY2NlcHQgZWRpdHM6IGF1dG8tYWNjZXB0IGZpbGUgZWRpdHMKICAgIGFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgICAgIHByb21wdD0iUmVmYWN0b3IgdGhpcyBtb2R1bGUiLAogICAgICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKAogICAgICAgICAgICBhbGxvd2VkX3Rvb2xzPVsiUmVhZCIsICJFZGl0Il0sCiAgICAgICAgICAgIHBlcm1pc3Npb25fbW9kZT0iYWNjZXB0RWRpdHMiCiAgICAgICAgKQogICAgKToKICAgICAgICBwYXNzCgogICAgIyBCeXBhc3M6IHNraXAgYWxsIHByb21wdHMgKHVzZSB3aXRoIGNhdXRpb24pCiAgICBhc3luYyBmb3IgbWVzc2FnZSBpbiBxdWVyeSgKICAgICAgICBwcm9tcHQ9IlNldCB1cCB0aGUgZGV2ZWxvcG1lbnQgZW52aXJvbm1lbnQiLAogICAgICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKAogICAgICAgICAgICBhbGxvd2VkX3Rvb2xzPVsiQmFzaCIsICJXcml0ZSJdLAogICAgICAgICAgICBwZXJtaXNzaW9uX21vZGU9ImJ5cGFzc1Blcm1pc3Npb25zIgogICAgICAgICkKICAgICk6CiAgICAgICAgcGFzcwoKYW55aW8ucnVuKG1haW4pCmBgYAoKLS0tCgojIyBFcnJvciBSZWNvdmVyeQoKYGBgcHl0aG9uCmltcG9ydCBhbnlpbwpmcm9tIGNsYXVkZV9hZ2VudF9zZGsgaW1wb3J0ICgKICAgIHF1ZXJ5LAogICAgQ2xhdWRlQWdlbnRPcHRpb25zLAogICAgQ0xJTm90Rm91bmRFcnJvciwKICAgIENMSUNvbm5lY3Rpb25FcnJvciwKICAgIFByb2Nlc3NFcnJvciwKICAgIFJlc3VsdE1lc3NhZ2UsCikKCmFzeW5jIGRlZiBydW5fd2l0aF9yZWNvdmVyeSgpOgogICAgdHJ5OgogICAgICAgIGFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgICAgICAgICBwcm9tcHQ9IkZpeCB0aGUgZmFpbGluZyB0ZXN0cyIsCiAgICAgICAgICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKAogICAgICAgICAgICAgICAgYWxsb3dlZF90b29scz1bIlJlYWQiLCAiRWRpdCIsICJCYXNoIl0sCiAgICAgICAgICAgICAgICBtYXhfdHVybnM9MTAKICAgICAgICAgICAgKQogICAgICAgICk6CiAgICAgICAgICAgIGlmIGlzaW5zdGFuY2UobWVzc2FnZSwgUmVzdWx0TWVzc2FnZSk6CiAgICAgICAgICAgICAgICBwcmludChtZXNzYWdlLnJlc3VsdCkKICAgIGV4Y2VwdCBDTElOb3RGb3VuZEVycm9yOgogICAgICAgIHByaW50KCJDbGF1ZGUgQ29kZSBDTEkgbm90IGZvdW5kLiBJbnN0YWxsIHdpdGg6IHBpcCBpbnN0YWxsIGNsYXVkZS1hZ2VudC1zZGsiKQogICAgZXhjZXB0IENMSUNvbm5lY3Rpb25FcnJvciBhcyBlOgogICAgICAgIHByaW50KGYiQ29ubmVjdGlvbiBlcnJvcjoge2V9IikKICAgIGV4Y2VwdCBQcm9jZXNzRXJyb3IgYXMgZToKICAgICAgICBwcmludChmIlByb2Nlc3MgZXJyb3I6IHtlfSIpCgphbnlpby5ydW4ocnVuX3dpdGhfcmVjb3ZlcnkpCmBgYAoKLS0tCgojIyBTZXNzaW9uIFJlc3VtcHRpb24KCmBgYHB5dGhvbgppbXBvcnQgYW55aW8KZnJvbSBjbGF1ZGVfYWdlbnRfc2RrIGltcG9ydCBxdWVyeSwgQ2xhdWRlQWdlbnRPcHRpb25zLCBSZXN1bHRNZXNzYWdlLCBTeXN0ZW1NZXNzYWdlCgphc3luYyBkZWYgbWFpbigpOgogICAgc2Vzc2lvbl9pZCA9IE5vbmUKCiAgICAjIEZpcnN0IHF1ZXJ5OiBjYXB0dXJlIHRoZSBzZXNzaW9uIElECiAgICBhc3luYyBmb3IgbWVzc2FnZSBpbiBxdWVyeSgKICAgICAgICBwcm9tcHQ9IlJlYWQgdGhlIGF1dGhlbnRpY2F0aW9uIG1vZHVsZSIsCiAgICAgICAgb3B0aW9ucz1DbGF1ZGVBZ2VudE9wdGlvbnMoYWxsb3dlZF90b29scz1bIlJlYWQiLCAiR2xvYiJdKQogICAgKToKICAgICAgICBpZiBpc2luc3RhbmNlKG1lc3NhZ2UsIFN5c3RlbU1lc3NhZ2UpIGFuZCBtZXNzYWdlLnN1YnR5cGUgPT0gImluaXQiOgogICAgICAgICAgICBzZXNzaW9uX2lkID0gbWVzc2FnZS5kYXRhLmdldCgic2Vzc2lvbl9pZCIpCgogICAgIyBSZXN1bWUgd2l0aCBmdWxsIGNvbnRleHQgZnJvbSB0aGUgZmlyc3QgcXVlcnkKICAgIGFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgICAgIHByb21wdD0iTm93IGZpbmQgYWxsIHBsYWNlcyB0aGF0IGNhbGwgaXQiLCAgIyAiaXQiID0gYXV0aCBtb2R1bGUKICAgICAgICBvcHRpb25zPUNsYXVkZUFnZW50T3B0aW9ucyhyZXN1bWU9c2Vzc2lvbl9pZCkKICAgICk6CiAgICAgICAgaWYgaXNpbnN0YW5jZShtZXNzYWdlLCBSZXN1bHRNZXNzYWdlKToKICAgICAgICAgICAgcHJpbnQobWVzc2FnZS5yZXN1bHQpCgphbnlpby5ydW4obWFpbikKYGBgCgotLS0KCiMjIFNlc3Npb24gSGlzdG9yeQoKYGBgcHl0aG9uCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgbGlzdF9zZXNzaW9ucywgZ2V0X3Nlc3Npb25fbWVzc2FnZXMKCiMgTGlzdCBwYXN0IHNlc3Npb25zIChzeW5jIGZ1bmN0aW9uIOKAlCBubyBhd2FpdCkKc2Vzc2lvbnMgPSBsaXN0X3Nlc3Npb25zKCkKZm9yIHNlc3Npb24gaW4gc2Vzc2lvbnM6CiAgICBwcmludChmIlNlc3Npb24ge3Nlc3Npb24uc2Vzc2lvbl9pZH0gaW4ge3Nlc3Npb24uY3dkfSIpCgojIFJldHJpZXZlIG1lc3NhZ2VzIGZyb20gdGhlIG1vc3QgcmVjZW50IHNlc3Npb24gKHN5bmMgZnVuY3Rpb24g4oCUIG5vIGF3YWl0KQppZiBzZXNzaW9uczoKICAgIG1lc3NhZ2VzID0gZ2V0X3Nlc3Npb25fbWVzc2FnZXMoc2Vzc2lvbl9pZD1zZXNzaW9uc1swXS5zZXNzaW9uX2lkKQogICAgZm9yIG1zZyBpbiBtZXNzYWdlczoKICAgICAgICBwcmludChtc2cpCmBgYAoKLS0tCgojIyBTZXNzaW9uIE11dGF0aW9ucwoKYGBgcHl0aG9uCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcmVuYW1lX3Nlc3Npb24sIHRhZ19zZXNzaW9uCgpzZXNzaW9uX2lkID0gInlvdXItc2Vzc2lvbi1pZCIKCiMgUmVuYW1lIGEgc2Vzc2lvbgpyZW5hbWVfc2Vzc2lvbihzZXNzaW9uX2lkPXNlc3Npb25faWQsIHRpdGxlPSJSZWZhY3RvcmluZyBhdXRoIG1vZHVsZSIpCgojIFRhZyBhIHNlc3Npb24gZm9yIGZpbHRlcmluZwp0YWdfc2Vzc2lvbihzZXNzaW9uX2lkPXNlc3Npb25faWQsIHRhZz0iZXhwZXJpbWVudC12MiIpCgojIENsZWFyIGEgdGFnCnRhZ19zZXNzaW9uKHNlc3Npb25faWQ9c2Vzc2lvbl9pZCwgdGFnPU5vbmUpCgojIFNjb3BlIHRvIGEgc3BlY2lmaWMgcHJvamVjdCBkaXJlY3RvcnkKcmVuYW1lX3Nlc3Npb24oc2Vzc2lvbl9pZD1zZXNzaW9uX2lkLCB0aXRsZT0iTmV3IHRpdGxlIiwgZGlyZWN0b3J5PSIvcGF0aC90by9wcm9qZWN0IikKYGBgCgotLS0KCiMjIEN1c3RvbSBTeXN0ZW0gUHJvbXB0CgpgYGBweXRob24KaW1wb3J0IGFueWlvCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcXVlcnksIENsYXVkZUFnZW50T3B0aW9ucywgUmVzdWx0TWVzc2FnZQoKYXN5bmMgZGVmIG1haW4oKToKICAgIGFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgICAgIHByb21wdD0iUmV2aWV3IHRoaXMgY29kZSIsCiAgICAgICAgb3B0aW9ucz1DbGF1ZGVBZ2VudE9wdGlvbnMoCiAgICAgICAgICAgIGFsbG93ZWRfdG9vbHM9WyJSZWFkIiwgIkdsb2IiLCAiR3JlcCJdLAogICAgICAgICAgICBzeXN0ZW1fcHJvbXB0PSIiIllvdSBhcmUgYSBzZW5pb3IgY29kZSByZXZpZXdlciBmb2N1c2VkIG9uOgoxLiBTZWN1cml0eSB2dWxuZXJhYmlsaXRpZXMKMi4gUGVyZm9ybWFuY2UgaXNzdWVzCjMuIENvZGUgbWFpbnRhaW5hYmlsaXR5CgpBbHdheXMgcHJvdmlkZSBzcGVjaWZpYyBsaW5lIG51bWJlcnMgYW5kIHN1Z2dlc3Rpb25zIGZvciBpbXByb3ZlbWVudC4iIiIKICAgICAgICApCiAgICApOgogICAgICAgIGlmIGlzaW5zdGFuY2UobWVzc2FnZSwgUmVzdWx0TWVzc2FnZSk6CiAgICAgICAgICAgIHByaW50KG1lc3NhZ2UucmVzdWx0KQoKYW55aW8ucnVuKG1haW4pCmBgYAo=
+# Agent SDK Patterns — Python
+
+## Basic Agent
+
+```python
+import anyio
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage
+
+async def main():
+    async for message in query(
+        prompt="Explain what this repository does",
+        options=ClaudeAgentOptions(
+            cwd="/path/to/project",
+            allowed_tools=["Read", "Glob", "Grep"]
+        )
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+
+anyio.run(main)
+```
+
+---
+
+## Custom Tools
+
+Custom tools require an MCP server. Use `ClaudeSDKClient` for full control (custom SDK MCP tools require `ClaudeSDKClient` — `query()` only supports external stdio/http MCP servers).
+
+```python
+import anyio
+from claude_agent_sdk import (
+    tool,
+    create_sdk_mcp_server,
+    ClaudeSDKClient,
+    ClaudeAgentOptions,
+    AssistantMessage,
+    TextBlock,
+)
+
+@tool("get_weather", "Get the current weather for a location", {"location": str})
+async def get_weather(args):
+    location = args["location"]
+    return {"content": [{"type": "text", "text": f"The weather in {location} is sunny and 72°F."}]}
+
+server = create_sdk_mcp_server("weather-tools", tools=[get_weather])
+
+async def main():
+    options = ClaudeAgentOptions(mcp_servers={"weather": server})
+    async with ClaudeSDKClient(options=options) as client:
+        await client.query("What's the weather in Paris?")
+        async for message in client.receive_response():
+            if isinstance(message, AssistantMessage):
+                for block in message.content:
+                    if isinstance(block, TextBlock):
+                        print(block.text)
+
+anyio.run(main)
+```
+
+---
+
+## Hooks
+
+### After Tool Use Hook
+
+Log file changes after any edit:
+
+```python
+import anyio
+from datetime import datetime
+from claude_agent_sdk import query, ClaudeAgentOptions, HookMatcher, ResultMessage
+
+async def log_file_change(input_data, tool_use_id, context):
+    file_path = input_data.get('tool_input', {}).get('file_path', 'unknown')
+    with open('./audit.log', 'a') as f:
+        f.write(f"{datetime.now()}: modified {file_path}\n")
+    return {}
+
+async def main():
+    async for message in query(
+        prompt="Refactor utils.py to improve readability",
+        options=ClaudeAgentOptions(
+            allowed_tools=["Read", "Edit", "Write"],
+            permission_mode="acceptEdits",
+            hooks={
+                "PostToolUse": [HookMatcher(matcher="Edit|Write", hooks=[log_file_change])]
+            }
+        )
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+
+anyio.run(main)
+```
+
+---
+
+## Subagents
+
+```python
+import anyio
+from claude_agent_sdk import query, ClaudeAgentOptions, AgentDefinition, ResultMessage
+
+async def main():
+    async for message in query(
+        prompt="Use the code-reviewer agent to review this codebase",
+        options=ClaudeAgentOptions(
+            allowed_tools=["Read", "Glob", "Grep", "Agent"],
+            agents={
+                "code-reviewer": AgentDefinition(
+                    description="Expert code reviewer for quality and security reviews.",
+                    prompt="Analyze code quality and suggest improvements.",
+                    tools=["Read", "Glob", "Grep"]
+                )
+            }
+        )
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+
+anyio.run(main)
+```
+
+---
+
+## MCP Server Integration
+
+### Browser Automation (Playwright)
+
+```python
+import anyio
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage
+
+async def main():
+    async for message in query(
+        prompt="Open example.com and describe what you see",
+        options=ClaudeAgentOptions(
+            mcp_servers={
+                "playwright": {"command": "npx", "args": ["@playwright/mcp@latest"]}
+            }
+        )
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+
+anyio.run(main)
+```
+
+### Database Access (PostgreSQL)
+
+```python
+import os
+import anyio
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage
+
+async def main():
+    async for message in query(
+        prompt="Show me the top 10 users by order count",
+        options=ClaudeAgentOptions(
+            mcp_servers={
+                "postgres": {
+                    "command": "npx",
+                    "args": ["-y", "@modelcontextprotocol/server-postgres"],
+                    "env": {"DATABASE_URL": os.environ["DATABASE_URL"]}
+                }
+            }
+        )
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+
+anyio.run(main)
+```
+
+---
+
+## Permission Modes
+
+```python
+import anyio
+from claude_agent_sdk import query, ClaudeAgentOptions
+
+async def main():
+    # Default: prompt for dangerous operations
+    async for message in query(
+        prompt="Delete all test files",
+        options=ClaudeAgentOptions(
+            allowed_tools=["Bash"],
+            permission_mode="default"  # Will prompt before deleting
+        )
+    ):
+        pass
+
+    # Plan: agent creates a plan before making changes
+    async for message in query(
+        prompt="Refactor the auth system",
+        options=ClaudeAgentOptions(
+            allowed_tools=["Read", "Edit"],
+            permission_mode="plan"
+        )
+    ):
+        pass
+
+    # Accept edits: auto-accept file edits
+    async for message in query(
+        prompt="Refactor this module",
+        options=ClaudeAgentOptions(
+            allowed_tools=["Read", "Edit"],
+            permission_mode="acceptEdits"
+        )
+    ):
+        pass
+
+    # Bypass: skip all prompts (use with caution)
+    async for message in query(
+        prompt="Set up the development environment",
+        options=ClaudeAgentOptions(
+            allowed_tools=["Bash", "Write"],
+            permission_mode="bypassPermissions"
+        )
+    ):
+        pass
+
+anyio.run(main)
+```
+
+---
+
+## Error Recovery
+
+```python
+import anyio
+from claude_agent_sdk import (
+    query,
+    ClaudeAgentOptions,
+    CLINotFoundError,
+    CLIConnectionError,
+    ProcessError,
+    ResultMessage,
+)
+
+async def run_with_recovery():
+    try:
+        async for message in query(
+            prompt="Fix the failing tests",
+            options=ClaudeAgentOptions(
+                allowed_tools=["Read", "Edit", "Bash"],
+                max_turns=10
+            )
+        ):
+            if isinstance(message, ResultMessage):
+                print(message.result)
+    except CLINotFoundError:
+        print("Claude Code CLI not found. Install with: pip install claude-agent-sdk")
+    except CLIConnectionError as e:
+        print(f"Connection error: {e}")
+    except ProcessError as e:
+        print(f"Process error: {e}")
+
+anyio.run(run_with_recovery)
+```
+
+---
+
+## Session Resumption
+
+```python
+import anyio
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage, SystemMessage
+
+async def main():
+    session_id = None
+
+    # First query: capture the session ID
+    async for message in query(
+        prompt="Read the authentication module",
+        options=ClaudeAgentOptions(allowed_tools=["Read", "Glob"])
+    ):
+        if isinstance(message, SystemMessage) and message.subtype == "init":
+            session_id = message.data.get("session_id")
+
+    # Resume with full context from the first query
+    async for message in query(
+        prompt="Now find all places that call it",  # "it" = auth module
+        options=ClaudeAgentOptions(resume=session_id)
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+
+anyio.run(main)
+```
+
+---
+
+## Session History
+
+```python
+from claude_agent_sdk import list_sessions, get_session_messages
+
+# List past sessions (sync function — no await)
+sessions = list_sessions()
+for session in sessions:
+    print(f"Session {session.session_id} in {session.cwd}")
+
+# Retrieve messages from the most recent session (sync function — no await)
+if sessions:
+    messages = get_session_messages(session_id=sessions[0].session_id)
+    for msg in messages:
+        print(msg)
+```
+
+---
+
+## Session Mutations
+
+```python
+from claude_agent_sdk import rename_session, tag_session
+
+session_id = "your-session-id"
+
+# Rename a session
+rename_session(session_id=session_id, title="Refactoring auth module")
+
+# Tag a session for filtering
+tag_session(session_id=session_id, tag="experiment-v2")
+
+# Clear a tag
+tag_session(session_id=session_id, tag=None)
+
+# Scope to a specific project directory
+rename_session(session_id=session_id, title="New title", directory="/path/to/project")
+```
+
+---
+
+## Custom System Prompt
+
+```python
+import anyio
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage
+
+async def main():
+    async for message in query(
+        prompt="Review this code",
+        options=ClaudeAgentOptions(
+            allowed_tools=["Read", "Glob", "Grep"],
+            system_prompt="""You are a senior code reviewer focused on:
+1. Security vulnerabilities
+2. Performance issues
+3. Code maintainability
+
+Always provide specific line numbers and suggestions for improvement."""
+        )
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+
+anyio.run(main)
+```

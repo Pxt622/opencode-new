@@ -1,1 +1,19 @@
-IyBNaWRuaWdodCBHYWxheHkKCkEgZHJhbWF0aWMgYW5kIGNvc21pYyB0aGVtZSB3aXRoIGRlZXAgcHVycGxlcyBhbmQgbXlzdGljYWwgdG9uZXMgZm9yIGltcGFjdGZ1bCBwcmVzZW50YXRpb25zLgoKIyMgQ29sb3IgUGFsZXR0ZQoKLSAqKkRlZXAgUHVycGxlKio6IGAjMmIxZTNlYCAtIFJpY2ggZGFyayBiYXNlCi0gKipDb3NtaWMgQmx1ZSoqOiBgIzRhNGU4ZmAgLSBNeXN0aWNhbCBtaWQtdG9uZQotICoqTGF2ZW5kZXIqKjogYCNhNDkwYzJgIC0gU29mdCBhY2NlbnQgY29sb3IKLSAqKlNpbHZlcioqOiBgI2U2ZTZmYWAgLSBMaWdodCBoaWdobGlnaHRzIGFuZCB0ZXh0CgojIyBUeXBvZ3JhcGh5CgotICoqSGVhZGVycyoqOiBGcmVlU2FucyBCb2xkCi0gKipCb2R5IFRleHQqKjogRnJlZVNhbnMKCiMjIEJlc3QgVXNlZCBGb3IKCkVudGVydGFpbm1lbnQgaW5kdXN0cnksIGdhbWluZyBwcmVzZW50YXRpb25zLCBuaWdodGxpZmUgdmVudWVzLCBsdXh1cnkgYnJhbmRzLCBjcmVhdGl2ZSBhZ2VuY2llcy4K
+# Midnight Galaxy
+
+A dramatic and cosmic theme with deep purples and mystical tones for impactful presentations.
+
+## Color Palette
+
+- **Deep Purple**: `#2b1e3e` - Rich dark base
+- **Cosmic Blue**: `#4a4e8f` - Mystical mid-tone
+- **Lavender**: `#a490c2` - Soft accent color
+- **Silver**: `#e6e6fa` - Light highlights and text
+
+## Typography
+
+- **Headers**: FreeSans Bold
+- **Body Text**: FreeSans
+
+## Best Used For
+
+Entertainment industry, gaming presentations, nightlife venues, luxury brands, creative agencies.

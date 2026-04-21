@@ -1,1 +1,37 @@
-aW1wb3J0IGpzb24KaW1wb3J0IHN5cwoKZnJvbSBQSUwgaW1wb3J0IEltYWdlLCBJbWFnZURyYXcKCgoKCmRlZiBjcmVhdGVfdmFsaWRhdGlvbl9pbWFnZShwYWdlX251bWJlciwgZmllbGRzX2pzb25fcGF0aCwgaW5wdXRfcGF0aCwgb3V0cHV0X3BhdGgpOgogICAgd2l0aCBvcGVuKGZpZWxkc19qc29uX3BhdGgsICdyJykgYXMgZjoKICAgICAgICBkYXRhID0ganNvbi5sb2FkKGYpCgogICAgICAgIGltZyA9IEltYWdlLm9wZW4oaW5wdXRfcGF0aCkKICAgICAgICBkcmF3ID0gSW1hZ2VEcmF3LkRyYXcoaW1nKQogICAgICAgIG51bV9ib3hlcyA9IDAKICAgICAgICAKICAgICAgICBmb3IgZmllbGQgaW4gZGF0YVsiZm9ybV9maWVsZHMiXToKICAgICAgICAgICAgaWYgZmllbGRbInBhZ2VfbnVtYmVyIl0gPT0gcGFnZV9udW1iZXI6CiAgICAgICAgICAgICAgICBlbnRyeV9ib3ggPSBmaWVsZFsnZW50cnlfYm91bmRpbmdfYm94J10KICAgICAgICAgICAgICAgIGxhYmVsX2JveCA9IGZpZWxkWydsYWJlbF9ib3VuZGluZ19ib3gnXQogICAgICAgICAgICAgICAgZHJhdy5yZWN0YW5nbGUoZW50cnlfYm94LCBvdXRsaW5lPSdyZWQnLCB3aWR0aD0yKQogICAgICAgICAgICAgICAgZHJhdy5yZWN0YW5nbGUobGFiZWxfYm94LCBvdXRsaW5lPSdibHVlJywgd2lkdGg9MikKICAgICAgICAgICAgICAgIG51bV9ib3hlcyArPSAyCiAgICAgICAgCiAgICAgICAgaW1nLnNhdmUob3V0cHV0X3BhdGgpCiAgICAgICAgcHJpbnQoZiJDcmVhdGVkIHZhbGlkYXRpb24gaW1hZ2UgYXQge291dHB1dF9wYXRofSB3aXRoIHtudW1fYm94ZXN9IGJvdW5kaW5nIGJveGVzIikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgaWYgbGVuKHN5cy5hcmd2KSAhPSA1OgogICAgICAgIHByaW50KCJVc2FnZTogY3JlYXRlX3ZhbGlkYXRpb25faW1hZ2UucHkgW3BhZ2UgbnVtYmVyXSBbZmllbGRzLmpzb24gZmlsZV0gW2lucHV0IGltYWdlIHBhdGhdIFtvdXRwdXQgaW1hZ2UgcGF0aF0iKQogICAgICAgIHN5cy5leGl0KDEpCiAgICBwYWdlX251bWJlciA9IGludChzeXMuYXJndlsxXSkKICAgIGZpZWxkc19qc29uX3BhdGggPSBzeXMuYXJndlsyXQogICAgaW5wdXRfaW1hZ2VfcGF0aCA9IHN5cy5hcmd2WzNdCiAgICBvdXRwdXRfaW1hZ2VfcGF0aCA9IHN5cy5hcmd2WzRdCiAgICBjcmVhdGVfdmFsaWRhdGlvbl9pbWFnZShwYWdlX251bWJlciwgZmllbGRzX2pzb25fcGF0aCwgaW5wdXRfaW1hZ2VfcGF0aCwgb3V0cHV0X2ltYWdlX3BhdGgpCg==
+import json
+import sys
+
+from PIL import Image, ImageDraw
+
+
+
+
+def create_validation_image(page_number, fields_json_path, input_path, output_path):
+    with open(fields_json_path, 'r') as f:
+        data = json.load(f)
+
+        img = Image.open(input_path)
+        draw = ImageDraw.Draw(img)
+        num_boxes = 0
+        
+        for field in data["form_fields"]:
+            if field["page_number"] == page_number:
+                entry_box = field['entry_bounding_box']
+                label_box = field['label_bounding_box']
+                draw.rectangle(entry_box, outline='red', width=2)
+                draw.rectangle(label_box, outline='blue', width=2)
+                num_boxes += 2
+        
+        img.save(output_path)
+        print(f"Created validation image at {output_path} with {num_boxes} bounding boxes")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 5:
+        print("Usage: create_validation_image.py [page number] [fields.json file] [input image path] [output image path]")
+        sys.exit(1)
+    page_number = int(sys.argv[1])
+    fields_json_path = sys.argv[2]
+    input_image_path = sys.argv[3]
+    output_image_path = sys.argv[4]
+    create_validation_image(page_number, fields_json_path, input_image_path, output_image_path)

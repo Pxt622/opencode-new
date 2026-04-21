@@ -1,1 +1,19 @@
-IyBCb3RhbmljYWwgR2FyZGVuCgpBIGZyZXNoIGFuZCBvcmdhbmljIHRoZW1lIGZlYXR1cmluZyB2aWJyYW50IGdhcmRlbi1pbnNwaXJlZCBjb2xvcnMgZm9yIGxpdmVseSBwcmVzZW50YXRpb25zLgoKIyMgQ29sb3IgUGFsZXR0ZQoKLSAqKkZlcm4gR3JlZW4qKjogYCM0YTdjNTlgIC0gUmljaCBuYXR1cmFsIGdyZWVuCi0gKipNYXJpZ29sZCoqOiBgI2Y5YTYyMGAgLSBCcmlnaHQgZmxvcmFsIGFjY2VudAotICoqVGVycmFjb3R0YSoqOiBgI2I3NDcyYWAgLSBFYXJ0aHkgd2FybSB0b25lCi0gKipDcmVhbSoqOiBgI2Y1ZjNlZGAgLSBTb2Z0IG5ldXRyYWwgYmFja2dyb3VuZHMKCiMjIFR5cG9ncmFwaHkKCi0gKipIZWFkZXJzKio6IERlamFWdSBTZXJpZiBCb2xkCi0gKipCb2R5IFRleHQqKjogRGVqYVZ1IFNhbnMKCiMjIEJlc3QgVXNlZCBGb3IKCkdhcmRlbiBjZW50ZXJzLCBmb29kIHByZXNlbnRhdGlvbnMsIGZhcm0tdG8tdGFibGUgY29udGVudCwgYm90YW5pY2FsIGJyYW5kcywgbmF0dXJhbCBwcm9kdWN0cy4K
+# Botanical Garden
+
+A fresh and organic theme featuring vibrant garden-inspired colors for lively presentations.
+
+## Color Palette
+
+- **Fern Green**: `#4a7c59` - Rich natural green
+- **Marigold**: `#f9a620` - Bright floral accent
+- **Terracotta**: `#b7472a` - Earthy warm tone
+- **Cream**: `#f5f3ed` - Soft neutral backgrounds
+
+## Typography
+
+- **Headers**: DejaVu Serif Bold
+- **Body Text**: DejaVu Sans
+
+## Best Used For
+
+Garden centers, food presentations, farm-to-table content, botanical brands, natural products.

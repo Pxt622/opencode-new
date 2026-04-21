@@ -1,1 +1,244 @@
-LS0tCm5hbWU6IGNrbTpkZXNpZ24tc3lzdGVtCmRlc2NyaXB0aW9uOiBUb2tlbiBhcmNoaXRlY3R1cmUsIGNvbXBvbmVudCBzcGVjaWZpY2F0aW9ucywgYW5kIHNsaWRlIGdlbmVyYXRpb24uIFRocmVlLWxheWVyIHRva2VucyAocHJpbWl0aXZl4oaSc2VtYW50aWPihpJjb21wb25lbnQpLCBDU1MgdmFyaWFibGVzLCBzcGFjaW5nL3R5cG9ncmFwaHkgc2NhbGVzLCBjb21wb25lbnQgc3BlY3MsIHN0cmF0ZWdpYyBzbGlkZSBjcmVhdGlvbi4gVXNlIGZvciBkZXNpZ24gdG9rZW5zLCBzeXN0ZW1hdGljIGRlc2lnbiwgYnJhbmQtY29tcGxpYW50IHByZXNlbnRhdGlvbnMuCmFyZ3VtZW50LWhpbnQ6ICJbY29tcG9uZW50IG9yIHRva2VuXSIKbGljZW5zZTogTUlUCm1ldGFkYXRhOgogIGF1dGhvcjogY2xhdWRla2l0CiAgdmVyc2lvbjogIjEuMC4wIgotLS0KCiMgRGVzaWduIFN5c3RlbQoKVG9rZW4gYXJjaGl0ZWN0dXJlLCBjb21wb25lbnQgc3BlY2lmaWNhdGlvbnMsIHN5c3RlbWF0aWMgZGVzaWduLCBzbGlkZSBnZW5lcmF0aW9uLgoKIyMgV2hlbiB0byBVc2UKCi0gRGVzaWduIHRva2VuIGNyZWF0aW9uCi0gQ29tcG9uZW50IHN0YXRlIGRlZmluaXRpb25zCi0gQ1NTIHZhcmlhYmxlIHN5c3RlbXMKLSBTcGFjaW5nL3R5cG9ncmFwaHkgc2NhbGVzCi0gRGVzaWduLXRvLWNvZGUgaGFuZG9mZgotIFRhaWx3aW5kIHRoZW1lIGNvbmZpZ3VyYXRpb24KLSAqKlNsaWRlL3ByZXNlbnRhdGlvbiBnZW5lcmF0aW9uKioKCiMjIFRva2VuIEFyY2hpdGVjdHVyZQoKTG9hZDogYHJlZmVyZW5jZXMvdG9rZW4tYXJjaGl0ZWN0dXJlLm1kYAoKIyMjIFRocmVlLUxheWVyIFN0cnVjdHVyZQoKYGBgClByaW1pdGl2ZSAocmF3IHZhbHVlcykKICAgICAgIOKGkwpTZW1hbnRpYyAocHVycG9zZSBhbGlhc2VzKQogICAgICAg4oaTCkNvbXBvbmVudCAoY29tcG9uZW50LXNwZWNpZmljKQpgYGAKCioqRXhhbXBsZToqKgpgYGBjc3MKLyogUHJpbWl0aXZlICovCi0tY29sb3ItYmx1ZS02MDA6ICMyNTYzRUI7CgovKiBTZW1hbnRpYyAqLwotLWNvbG9yLXByaW1hcnk6IHZhcigtLWNvbG9yLWJsdWUtNjAwKTsKCi8qIENvbXBvbmVudCAqLwotLWJ1dHRvbi1iZzogdmFyKC0tY29sb3ItcHJpbWFyeSk7CmBgYAoKIyMgUXVpY2sgU3RhcnQKCioqR2VuZXJhdGUgdG9rZW5zOioqCmBgYGJhc2gKbm9kZSBzY3JpcHRzL2dlbmVyYXRlLXRva2Vucy5janMgLS1jb25maWcgdG9rZW5zLmpzb24gLW8gdG9rZW5zLmNzcwpgYGAKCioqVmFsaWRhdGUgdXNhZ2U6KioKYGBgYmFzaApub2RlIHNjcmlwdHMvdmFsaWRhdGUtdG9rZW5zLmNqcyAtLWRpciBzcmMvCmBgYAoKIyMgUmVmZXJlbmNlcwoKfCBUb3BpYyB8IEZpbGUgfAp8LS0tLS0tLXwtLS0tLS18CnwgVG9rZW4gQXJjaGl0ZWN0dXJlIHwgYHJlZmVyZW5jZXMvdG9rZW4tYXJjaGl0ZWN0dXJlLm1kYCB8CnwgUHJpbWl0aXZlIFRva2VucyB8IGByZWZlcmVuY2VzL3ByaW1pdGl2ZS10b2tlbnMubWRgIHwKfCBTZW1hbnRpYyBUb2tlbnMgfCBgcmVmZXJlbmNlcy9zZW1hbnRpYy10b2tlbnMubWRgIHwKfCBDb21wb25lbnQgVG9rZW5zIHwgYHJlZmVyZW5jZXMvY29tcG9uZW50LXRva2Vucy5tZGAgfAp8IENvbXBvbmVudCBTcGVjcyB8IGByZWZlcmVuY2VzL2NvbXBvbmVudC1zcGVjcy5tZGAgfAp8IFN0YXRlcyAmIFZhcmlhbnRzIHwgYHJlZmVyZW5jZXMvc3RhdGVzLWFuZC12YXJpYW50cy5tZGAgfAp8IFRhaWx3aW5kIEludGVncmF0aW9uIHwgYHJlZmVyZW5jZXMvdGFpbHdpbmQtaW50ZWdyYXRpb24ubWRgIHwKCiMjIENvbXBvbmVudCBTcGVjIFBhdHRlcm4KCnwgUHJvcGVydHkgfCBEZWZhdWx0IHwgSG92ZXIgfCBBY3RpdmUgfCBEaXNhYmxlZCB8CnwtLS0tLS0tLS0tfC0tLS0tLS0tLXwtLS0tLS0tfC0tLS0tLS0tfC0tLS0tLS0tLS18CnwgQmFja2dyb3VuZCB8IHByaW1hcnkgfCBwcmltYXJ5LWRhcmsgfCBwcmltYXJ5LWRhcmtlciB8IG11dGVkIHwKfCBUZXh0IHwgd2hpdGUgfCB3aGl0ZSB8IHdoaXRlIHwgbXV0ZWQtZmcgfAp8IEJvcmRlciB8IG5vbmUgfCBub25lIHwgbm9uZSB8IG11dGVkLWJvcmRlciB8CnwgU2hhZG93IHwgc20gfCBtZCB8IG5vbmUgfCBub25lIHwKCiMjIFNjcmlwdHMKCnwgU2NyaXB0IHwgUHVycG9zZSB8CnwtLS0tLS0tLXwtLS0tLS0tLS18CnwgYGdlbmVyYXRlLXRva2Vucy5janNgIHwgR2VuZXJhdGUgQ1NTIGZyb20gSlNPTiB0b2tlbiBjb25maWcgfAp8IGB2YWxpZGF0ZS10b2tlbnMuY2pzYCB8IENoZWNrIGZvciBoYXJkY29kZWQgdmFsdWVzIGluIGNvZGUgfAp8IGBzZWFyY2gtc2xpZGVzLnB5YCB8IEJNMjUgc2VhcmNoICsgY29udGV4dHVhbCByZWNvbW1lbmRhdGlvbnMgfAp8IGBzbGlkZS10b2tlbi12YWxpZGF0b3IucHlgIHwgVmFsaWRhdGUgc2xpZGUgSFRNTCBmb3IgdG9rZW4gY29tcGxpYW5jZSB8CnwgYGZldGNoLWJhY2tncm91bmQucHlgIHwgRmV0Y2ggaW1hZ2VzIGZyb20gUGV4ZWxzL1Vuc3BsYXNoIHwKCiMjIFRlbXBsYXRlcwoKfCBUZW1wbGF0ZSB8IFB1cnBvc2UgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS18CnwgYGRlc2lnbi10b2tlbnMtc3RhcnRlci5qc29uYCB8IFN0YXJ0ZXIgSlNPTiB3aXRoIHRocmVlLWxheWVyIHN0cnVjdHVyZSB8CgojIyBJbnRlZ3JhdGlvbgoKKipXaXRoIGJyYW5kOioqIEV4dHJhY3QgcHJpbWl0aXZlcyBmcm9tIGJyYW5kIGNvbG9ycy90eXBvZ3JhcGh5CioqV2l0aCB1aS1zdHlsaW5nOioqIENvbXBvbmVudCB0b2tlbnMg4oaSIFRhaWx3aW5kIGNvbmZpZwoKKipTa2lsbCBEZXBlbmRlbmNpZXM6KiogYnJhbmQsIHVpLXN0eWxpbmcKKipQcmltYXJ5IEFnZW50czoqKiB1aS11eC1kZXNpZ25lciwgZnJvbnRlbmQtZGV2ZWxvcGVyCgojIyBTbGlkZSBTeXN0ZW0KCkJyYW5kLWNvbXBsaWFudCBwcmVzZW50YXRpb25zIHVzaW5nIGRlc2lnbiB0b2tlbnMgKyBDaGFydC5qcyArIGNvbnRleHR1YWwgZGVjaXNpb24gc3lzdGVtLgoKIyMjIFNvdXJjZSBvZiBUcnV0aAoKfCBGaWxlIHwgUHVycG9zZSB8CnwtLS0tLS18LS0tLS0tLS0tfAp8IGBkb2NzL2JyYW5kLWd1aWRlbGluZXMubWRgIHwgQnJhbmQgaWRlbnRpdHksIHZvaWNlLCBjb2xvcnMgfAp8IGBhc3NldHMvZGVzaWduLXRva2Vucy5qc29uYCB8IFRva2VuIGRlZmluaXRpb25zIChwcmltaXRpdmXihpJzZW1hbnRpY+KGkmNvbXBvbmVudCkgfAp8IGBhc3NldHMvZGVzaWduLXRva2Vucy5jc3NgIHwgQ1NTIHZhcmlhYmxlcyAoaW1wb3J0IGluIHNsaWRlcykgfAp8IGBhc3NldHMvY3NzL3NsaWRlLWFuaW1hdGlvbnMuY3NzYCB8IENTUyBhbmltYXRpb24gbGlicmFyeSB8CgojIyMgU2xpZGUgU2VhcmNoIChCTTI1KQoKYGBgYmFzaAojIEJhc2ljIHNlYXJjaCAoYXV0by1kZXRlY3QgZG9tYWluKQpweXRob24gc2NyaXB0cy9zZWFyY2gtc2xpZGVzLnB5ICJpbnZlc3RvciBwaXRjaCIKCiMgRG9tYWluLXNwZWNpZmljIHNlYXJjaApweXRob24gc2NyaXB0cy9zZWFyY2gtc2xpZGVzLnB5ICJwcm9ibGVtIGFnaXRhdGlvbiIgLWQgY29weQpweXRob24gc2NyaXB0cy9zZWFyY2gtc2xpZGVzLnB5ICJyZXZlbnVlIGdyb3d0aCIgLWQgY2hhcnQKCiMgQ29udGV4dHVhbCBzZWFyY2ggKFByZW1pdW0gU3lzdGVtKQpweXRob24gc2NyaXB0cy9zZWFyY2gtc2xpZGVzLnB5ICJwcm9ibGVtIHNsaWRlIiAtLWNvbnRleHQgLS1wb3NpdGlvbiAyIC0tdG90YWwgOQpweXRob24gc2NyaXB0cy9zZWFyY2gtc2xpZGVzLnB5ICJjdGEiIC0tY29udGV4dCAtLXBvc2l0aW9uIDkgLS1wcmV2LWVtb3Rpb24gZnJ1c3RyYXRpb24KYGBgCgojIyMgRGVjaXNpb24gU3lzdGVtIENTVnMKCnwgRmlsZSB8IFB1cnBvc2UgfAp8LS0tLS0tfC0tLS0tLS0tLXwKfCBgZGF0YS9zbGlkZS1zdHJhdGVnaWVzLmNzdmAgfCAxNSBkZWNrIHN0cnVjdHVyZXMgKyBlbW90aW9uIGFyY3MgKyBzcGFya2xpbmUgYmVhdHMgfAp8IGBkYXRhL3NsaWRlLWxheW91dHMuY3N2YCB8IDI1IGxheW91dHMgKyBjb21wb25lbnQgdmFyaWFudHMgKyBhbmltYXRpb25zIHwKfCBgZGF0YS9zbGlkZS1sYXlvdXQtbG9naWMuY3N2YCB8IEdvYWwg4oaSIExheW91dCArIGJyZWFrX3BhdHRlcm4gZmxhZyB8CnwgYGRhdGEvc2xpZGUtdHlwb2dyYXBoeS5jc3ZgIHwgQ29udGVudCB0eXBlIOKGkiBUeXBvZ3JhcGh5IHNjYWxlIHwKfCBgZGF0YS9zbGlkZS1jb2xvci1sb2dpYy5jc3ZgIHwgRW1vdGlvbiDihpIgQ29sb3IgdHJlYXRtZW50IHwKfCBgZGF0YS9zbGlkZS1iYWNrZ3JvdW5kcy5jc3ZgIHwgU2xpZGUgdHlwZSDihpIgSW1hZ2UgY2F0ZWdvcnkgKFBleGVscy9VbnNwbGFzaCkgfAp8IGBkYXRhL3NsaWRlLWNvcHkuY3N2YCB8IDI1IGNvcHl3cml0aW5nIGZvcm11bGFzIChQQVMsIEFJREEsIEZBQikgfAp8IGBkYXRhL3NsaWRlLWNoYXJ0cy5jc3ZgIHwgMjUgY2hhcnQgdHlwZXMgd2l0aCBDaGFydC5qcyBjb25maWcgfAoKIyMjIENvbnRleHR1YWwgRGVjaXNpb24gRmxvdwoKYGBgCjEuIFBhcnNlIGdvYWwvY29udGV4dAogICAgICAgIOKGkwoyLiBTZWFyY2ggc2xpZGUtc3RyYXRlZ2llcy5jc3Yg4oaSIEdldCBzdHJhdGVneSArIGVtb3Rpb24gYmVhdHMKICAgICAgICDihpMKMy4gRm9yIGVhY2ggc2xpZGU6CiAgIGEuIFF1ZXJ5IHNsaWRlLWxheW91dC1sb2dpYy5jc3Yg4oaSIGxheW91dCArIGJyZWFrX3BhdHRlcm4KICAgYi4gUXVlcnkgc2xpZGUtdHlwb2dyYXBoeS5jc3Yg4oaSIHR5cGUgc2NhbGUKICAgYy4gUXVlcnkgc2xpZGUtY29sb3ItbG9naWMuY3N2IOKGkiBjb2xvciB0cmVhdG1lbnQKICAgZC4gUXVlcnkgc2xpZGUtYmFja2dyb3VuZHMuY3N2IOKGkiBpbWFnZSBpZiBuZWVkZWQKICAgZS4gQXBwbHkgYW5pbWF0aW9uIGNsYXNzIGZyb20gc2xpZGUtYW5pbWF0aW9ucy5jc3MKICAgICAgICDihpMKNC4gR2VuZXJhdGUgSFRNTCB3aXRoIGRlc2lnbiB0b2tlbnMKICAgICAgICDihpMKNS4gVmFsaWRhdGUgd2l0aCBzbGlkZS10b2tlbi12YWxpZGF0b3IucHkKYGBgCgojIyMgUGF0dGVybiBCcmVha2luZyAoRHVhcnRlIFNwYXJrbGluZSkKClByZW1pdW0gZGVja3MgYWx0ZXJuYXRlIGJldHdlZW4gZW1vdGlvbnMgZm9yIGVuZ2FnZW1lbnQ6CmBgYAoiV2hhdCBJcyIgKGZydXN0cmF0aW9uKSDihpQgIldoYXQgQ291bGQgQmUiIChob3BlKQpgYGAKClN5c3RlbSBjYWxjdWxhdGVzIHBhdHRlcm4gYnJlYWtzIGF0IDEvMyBhbmQgMi8zIHBvc2l0aW9ucy4KCiMjIyBTbGlkZSBSZXF1aXJlbWVudHMKCioqQUxMIHNsaWRlcyBNVVNUOioqCjEuIEltcG9ydCBgYXNzZXRzL2Rlc2lnbi10b2tlbnMuY3NzYCAtIHNpbmdsZSBzb3VyY2Ugb2YgdHJ1dGgKMi4gVXNlIENTUyB2YXJpYWJsZXM6IGB2YXIoLS1jb2xvci1wcmltYXJ5KWAsIGB2YXIoLS1zbGlkZS1iZylgLCBldGMuCjMuIFVzZSBDaGFydC5qcyBmb3IgY2hhcnRzIChOT1QgQ1NTLW9ubHkgYmFycykKNC4gSW5jbHVkZSBuYXZpZ2F0aW9uIChrZXlib2FyZCBhcnJvd3MsIGNsaWNrLCBwcm9ncmVzcyBiYXIpCjUuIENlbnRlciBhbGlnbiBjb250ZW50CjYuIEZvY3VzIG9uIHBlcnN1YXNpb24vY29udmVyc2lvbgoKIyMjIENoYXJ0LmpzIEludGVncmF0aW9uCgpgYGBodG1sCjxzY3JpcHQgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvbnBtL2NoYXJ0LmpzQDQuNC4xL2Rpc3QvY2hhcnQudW1kLm1pbi5qcyI+PC9zY3JpcHQ+Cgo8Y2FudmFzIGlkPSJyZXZlbnVlQ2hhcnQiPjwvY2FudmFzPgo8c2NyaXB0PgpuZXcgQ2hhcnQoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3JldmVudWVDaGFydCcpLCB7CiAgICB0eXBlOiAnbGluZScsCiAgICBkYXRhOiB7CiAgICAgICAgbGFiZWxzOiBbJ1NlcCcsICdPY3QnLCAnTm92JywgJ0RlYyddLAogICAgICAgIGRhdGFzZXRzOiBbewogICAgICAgICAgICBkYXRhOiBbNSwgMTIsIDI4LCA0NV0sCiAgICAgICAgICAgIGJvcmRlckNvbG9yOiAnI0ZGNkI2QicsICAvLyBVc2UgYnJhbmQgY29yYWwKICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yOiAncmdiYSgyNTUsIDEwNywgMTA3LCAwLjEpJywKICAgICAgICAgICAgZmlsbDogdHJ1ZSwKICAgICAgICAgICAgdGVuc2lvbjogMC40CiAgICAgICAgfV0KICAgIH0KfSk7Cjwvc2NyaXB0PgpgYGAKCiMjIyBUb2tlbiBDb21wbGlhbmNlCgpgYGBjc3MKLyogQ09SUkVDVCAtIHVzZXMgdG9rZW4gKi8KYmFja2dyb3VuZDogdmFyKC0tc2xpZGUtYmcpOwpjb2xvcjogdmFyKC0tY29sb3ItcHJpbWFyeSk7CmZvbnQtZmFtaWx5OiB2YXIoLS10eXBvZ3JhcGh5LWZvbnQtaGVhZGluZyk7CgovKiBXUk9ORyAtIGhhcmRjb2RlZCAqLwpiYWNrZ3JvdW5kOiAjMEQwRDBEOwpjb2xvcjogI0ZGNkI2QjsKZm9udC1mYW1pbHk6ICdTcGFjZSBHcm90ZXNrJzsKYGBgCgojIyMgUmVmZXJlbmNlIEltcGxlbWVudGF0aW9uCgpXb3JraW5nIGV4YW1wbGUgd2l0aCBhbGwgZmVhdHVyZXM6CmBgYAphc3NldHMvZGVzaWducy9zbGlkZXMvY2xhdWRla2l0LXBpdGNoLTI1MTIyMy5odG1sCmBgYAoKIyMjIENvbW1hbmQKCmBgYGJhc2gKL3NsaWRlczpjcmVhdGUgIjEwLXNsaWRlIGludmVzdG9yIHBpdGNoIGZvciBDbGF1ZGVLaXQgTWFya2V0aW5nIgpgYGAKCiMjIEJlc3QgUHJhY3RpY2VzCgoxLiBOZXZlciB1c2UgcmF3IGhleCBpbiBjb21wb25lbnRzIC0gYWx3YXlzIHJlZmVyZW5jZSB0b2tlbnMKMi4gU2VtYW50aWMgbGF5ZXIgZW5hYmxlcyB0aGVtZSBzd2l0Y2hpbmcgKGxpZ2h0L2RhcmspCjMuIENvbXBvbmVudCB0b2tlbnMgZW5hYmxlIHBlci1jb21wb25lbnQgY3VzdG9taXphdGlvbgo0LiBVc2UgSFNMIGZvcm1hdCBmb3Igb3BhY2l0eSBjb250cm9sCjUuIERvY3VtZW50IGV2ZXJ5IHRva2VuJ3MgcHVycG9zZQo2LiAqKlNsaWRlcyBtdXN0IGltcG9ydCBkZXNpZ24tdG9rZW5zLmNzcyBhbmQgdXNlIHZhcigpIGV4Y2x1c2l2ZWx5KioK
+---
+name: ckm:design-system
+description: Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, brand-compliant presentations.
+argument-hint: "[component or token]"
+license: MIT
+metadata:
+  author: claudekit
+  version: "1.0.0"
+---
+
+# Design System
+
+Token architecture, component specifications, systematic design, slide generation.
+
+## When to Use
+
+- Design token creation
+- Component state definitions
+- CSS variable systems
+- Spacing/typography scales
+- Design-to-code handoff
+- Tailwind theme configuration
+- **Slide/presentation generation**
+
+## Token Architecture
+
+Load: `references/token-architecture.md`
+
+### Three-Layer Structure
+
+```
+Primitive (raw values)
+       ↓
+Semantic (purpose aliases)
+       ↓
+Component (component-specific)
+```
+
+**Example:**
+```css
+/* Primitive */
+--color-blue-600: #2563EB;
+
+/* Semantic */
+--color-primary: var(--color-blue-600);
+
+/* Component */
+--button-bg: var(--color-primary);
+```
+
+## Quick Start
+
+**Generate tokens:**
+```bash
+node scripts/generate-tokens.cjs --config tokens.json -o tokens.css
+```
+
+**Validate usage:**
+```bash
+node scripts/validate-tokens.cjs --dir src/
+```
+
+## References
+
+| Topic | File |
+|-------|------|
+| Token Architecture | `references/token-architecture.md` |
+| Primitive Tokens | `references/primitive-tokens.md` |
+| Semantic Tokens | `references/semantic-tokens.md` |
+| Component Tokens | `references/component-tokens.md` |
+| Component Specs | `references/component-specs.md` |
+| States & Variants | `references/states-and-variants.md` |
+| Tailwind Integration | `references/tailwind-integration.md` |
+
+## Component Spec Pattern
+
+| Property | Default | Hover | Active | Disabled |
+|----------|---------|-------|--------|----------|
+| Background | primary | primary-dark | primary-darker | muted |
+| Text | white | white | white | muted-fg |
+| Border | none | none | none | muted-border |
+| Shadow | sm | md | none | none |
+
+## Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `generate-tokens.cjs` | Generate CSS from JSON token config |
+| `validate-tokens.cjs` | Check for hardcoded values in code |
+| `search-slides.py` | BM25 search + contextual recommendations |
+| `slide-token-validator.py` | Validate slide HTML for token compliance |
+| `fetch-background.py` | Fetch images from Pexels/Unsplash |
+
+## Templates
+
+| Template | Purpose |
+|----------|---------|
+| `design-tokens-starter.json` | Starter JSON with three-layer structure |
+
+## Integration
+
+**With brand:** Extract primitives from brand colors/typography
+**With ui-styling:** Component tokens → Tailwind config
+
+**Skill Dependencies:** brand, ui-styling
+**Primary Agents:** ui-ux-designer, frontend-developer
+
+## Slide System
+
+Brand-compliant presentations using design tokens + Chart.js + contextual decision system.
+
+### Source of Truth
+
+| File | Purpose |
+|------|---------|
+| `docs/brand-guidelines.md` | Brand identity, voice, colors |
+| `assets/design-tokens.json` | Token definitions (primitive→semantic→component) |
+| `assets/design-tokens.css` | CSS variables (import in slides) |
+| `assets/css/slide-animations.css` | CSS animation library |
+
+### Slide Search (BM25)
+
+```bash
+# Basic search (auto-detect domain)
+python scripts/search-slides.py "investor pitch"
+
+# Domain-specific search
+python scripts/search-slides.py "problem agitation" -d copy
+python scripts/search-slides.py "revenue growth" -d chart
+
+# Contextual search (Premium System)
+python scripts/search-slides.py "problem slide" --context --position 2 --total 9
+python scripts/search-slides.py "cta" --context --position 9 --prev-emotion frustration
+```
+
+### Decision System CSVs
+
+| File | Purpose |
+|------|---------|
+| `data/slide-strategies.csv` | 15 deck structures + emotion arcs + sparkline beats |
+| `data/slide-layouts.csv` | 25 layouts + component variants + animations |
+| `data/slide-layout-logic.csv` | Goal → Layout + break_pattern flag |
+| `data/slide-typography.csv` | Content type → Typography scale |
+| `data/slide-color-logic.csv` | Emotion → Color treatment |
+| `data/slide-backgrounds.csv` | Slide type → Image category (Pexels/Unsplash) |
+| `data/slide-copy.csv` | 25 copywriting formulas (PAS, AIDA, FAB) |
+| `data/slide-charts.csv` | 25 chart types with Chart.js config |
+
+### Contextual Decision Flow
+
+```
+1. Parse goal/context
+        ↓
+2. Search slide-strategies.csv → Get strategy + emotion beats
+        ↓
+3. For each slide:
+   a. Query slide-layout-logic.csv → layout + break_pattern
+   b. Query slide-typography.csv → type scale
+   c. Query slide-color-logic.csv → color treatment
+   d. Query slide-backgrounds.csv → image if needed
+   e. Apply animation class from slide-animations.css
+        ↓
+4. Generate HTML with design tokens
+        ↓
+5. Validate with slide-token-validator.py
+```
+
+### Pattern Breaking (Duarte Sparkline)
+
+Premium decks alternate between emotions for engagement:
+```
+"What Is" (frustration) ↔ "What Could Be" (hope)
+```
+
+System calculates pattern breaks at 1/3 and 2/3 positions.
+
+### Slide Requirements
+
+**ALL slides MUST:**
+1. Import `assets/design-tokens.css` - single source of truth
+2. Use CSS variables: `var(--color-primary)`, `var(--slide-bg)`, etc.
+3. Use Chart.js for charts (NOT CSS-only bars)
+4. Include navigation (keyboard arrows, click, progress bar)
+5. Center align content
+6. Focus on persuasion/conversion
+
+### Chart.js Integration
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+
+<canvas id="revenueChart"></canvas>
+<script>
+new Chart(document.getElementById('revenueChart'), {
+    type: 'line',
+    data: {
+        labels: ['Sep', 'Oct', 'Nov', 'Dec'],
+        datasets: [{
+            data: [5, 12, 28, 45],
+            borderColor: '#FF6B6B',  // Use brand coral
+            backgroundColor: 'rgba(255, 107, 107, 0.1)',
+            fill: true,
+            tension: 0.4
+        }]
+    }
+});
+</script>
+```
+
+### Token Compliance
+
+```css
+/* CORRECT - uses token */
+background: var(--slide-bg);
+color: var(--color-primary);
+font-family: var(--typography-font-heading);
+
+/* WRONG - hardcoded */
+background: #0D0D0D;
+color: #FF6B6B;
+font-family: 'Space Grotesk';
+```
+
+### Reference Implementation
+
+Working example with all features:
+```
+assets/designs/slides/claudekit-pitch-251223.html
+```
+
+### Command
+
+```bash
+/slides:create "10-slide investor pitch for ClaudeKit Marketing"
+```
+
+## Best Practices
+
+1. Never use raw hex in components - always reference tokens
+2. Semantic layer enables theme switching (light/dark)
+3. Component tokens enable per-component customization
+4. Use HSL format for opacity control
+5. Document every token's purpose
+6. **Slides must import design-tokens.css and use var() exclusively**

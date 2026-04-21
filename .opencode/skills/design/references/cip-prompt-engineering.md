@@ -1,1 +1,84 @@
-IyBDSVAgTW9ja3VwIFByb21wdCBFbmdpbmVlcmluZwoKIyMgQmFzZSBQcm9tcHQgU3RydWN0dXJlCgpgYGAKUHJvZmVzc2lvbmFsIGNvcnBvcmF0ZSBpZGVudGl0eSBtb2NrdXAgcGhvdG9ncmFwaCBzaG93aW5nIFtERUxJVkVSQUJMRV0gZm9yIGJyYW5kICdbQlJBTkRfTkFNRV0nLCBbU1RZTEVdIGRlc2lnbiBzdHlsZSwgdXNpbmcgY29sb3JzIFtDT0xPUlNdLCBbVFlQT0dSQVBIWV0gdHlwb2dyYXBoeSwgbG9nbyBwbGFjZW1lbnQ6IFtQTEFDRU1FTlRdLCBbTUFURVJJQUxTXSBtYXRlcmlhbHMgd2l0aCBbRklOSVNIRVNdIGZpbmlzaCwgW0NPTlRFWFRdIHNldHRpbmcsIFtNT09EXSBtb29kLCBwaG90b3JlYWxpc3RpYyBwcm9kdWN0IHBob3RvZ3JhcGh5LCBzb2Z0IG5hdHVyYWwgbGlnaHRpbmcsIGhpZ2ggcXVhbGl0eSBwcm9mZXNzaW9uYWwgc2hvdCwgOGsgcmVzb2x1dGlvbiBkZXRhaWxlZApgYGAKCiMjIERlbGl2ZXJhYmxlLVNwZWNpZmljIE1vZGlmaWVycwoKIyMjIEJ1c2luZXNzIENhcmQKYGBgCmJ1c2luZXNzIGNhcmQgb24gbWFyYmxlIHN1cmZhY2UsIHN0YWNrIG9mIGNhcmRzLCBwcmVtaXVtIHBhcGVyIHRleHR1cmUsIHNvZnQgc2hhZG93cywgNDUgZGVncmVlIGFuZ2xlCmBgYAoKIyMjIExldHRlcmhlYWQKYGBgCmxldHRlcmhlYWQgZmxhdCBsYXkgd2l0aCBlbnZlbG9wZSBhbmQgcGVuLCB2ZWx2ZXQgZmFicmljIGJhY2tncm91bmQsIGJyYW5kIHN0YXRpb25lcnkgc2V0LCBvdmVyaGVhZCB2aWV3CmBgYAoKIyMjIE9mZmljZSBTaWduYWdlCmBgYAozRCBsb2dvIHNpZ25hZ2Ugb24gb2ZmaWNlIHdhbGwsIG1vZGVybiBsb2JieSBpbnRlcmlvciwgYmFja2xpdCBMRUQsIGJydXNoZWQgbWV0YWwgZmluaXNoLCBhcmNoaXRlY3R1cmFsIHBob3RvZ3JhcGh5CmBgYAoKIyMjIFZlaGljbGUgQnJhbmRpbmcKYGBgCmJyYW5kZWQgdmVoaWNsZSBvbiB1cmJhbiBzdHJlZXQsIDMvNCBmcm9udCBhbmdsZSB2aWV3LCBwcm9mZXNzaW9uYWwgY2FyIHdyYXAsIG1vdGlvbiBibHVyIGJhY2tncm91bmQgb3B0aW9uYWwKYGBgCgojIyMgQXBwYXJlbCAoUG9sby9ULVNoaXJ0KQpgYGAKZm9sZGVkIHBvbG8gc2hpcnQgb24gY2xlYW4gYmFja2dyb3VuZCwgZW1icm9pZGVyZWQgbG9nbyBvbiBjaGVzdCwgcHJlbWl1bSBmYWJyaWMgdGV4dHVyZSwgcHJvZHVjdCBwaG90b2dyYXBoeQpgYGAKCiMjIFN0eWxlIE1vZGlmaWVycwoKIyMjIENvcnBvcmF0ZSBNaW5pbWFsCmBgYApjbGVhbiBtaW5pbWFsIGFlc3RoZXRpYywgd2hpdGUgc3BhY2UsIHN1YnRsZSBzaGFkb3dzLCBtYXR0ZSBmaW5pc2gsIHByb2Zlc3Npb25hbApgYGAKCiMjIyBMdXh1cnkgUHJlbWl1bQpgYGAKZGFyayBiYWNrZ3JvdW5kLCBkcmFtYXRpYyByaW0gbGlnaHRpbmcsIGdvbGQgYWNjZW50cywgcHJlbWl1bSBtYXRlcmlhbHMsIHNvcGhpc3RpY2F0ZWQKYGBgCgojIyMgTW9kZXJuIFRlY2gKYGBgCmdyYWRpZW50IGNvbG9ycywgZ2VvbWV0cmljIGVsZW1lbnRzLCBjbGVhbiBzdXJmYWNlcywgZnV0dXJpc3RpYywgaW5ub3ZhdGl2ZQpgYGAKCiMjIyBXYXJtIE9yZ2FuaWMKYGBgCm5hdHVyYWwgbWF0ZXJpYWxzLCBrcmFmdCBwYXBlciB0ZXh0dXJlLCB3YXJtIGxpZ2h0aW5nLCBhdXRoZW50aWMsIGFydGlzYW4KYGBgCgojIyBMaWdodGluZyBNb2RpZmllcnMKCi0gKipTdHVkaW86KiogYHByb2Zlc3Npb25hbCBzdHVkaW8gbGlnaHRpbmcsIGV2ZW4gaWxsdW1pbmF0aW9uYAotICoqTmF0dXJhbDoqKiBgc29mdCBuYXR1cmFsIGRheWxpZ2h0LCB3aW5kb3cgbGlnaHRgCi0gKipEcmFtYXRpYzoqKiBgZHJhbWF0aWMgcmltIGxpZ2h0LCBkYXJrIGJhY2tncm91bmQsIGhpZ2ggY29udHJhc3RgCi0gKipXYXJtOioqIGB3YXJtIGdvbGRlbiBob3VyIGxpZ2h0aW5nLCBjb3p5IGF0bW9zcGhlcmVgCgojIyBDb250ZXh0IE1vZGlmaWVycwoKLSAqKk1hcmJsZSBkZXNrOioqIGB3aGl0ZSBtYXJibGUgc3VyZmFjZSwgc29mdCBzaGFkb3dzLCBsdXh1cnlgCi0gKipXb29kZW4gdGFibGU6KiogYHdhcm0gd29vZCBncmFpbiwgbmF0dXJhbCwgYXJ0aXNhbmAKLSAqKk9mZmljZSBpbnRlcmlvcjoqKiBgbW9kZXJuIG9mZmljZSBlbnZpcm9ubWVudCwgYXJjaGl0ZWN0dXJhbGAKLSAqKkZsYXQgbGF5OioqIGBvdmVyaGVhZCB2aWV3LCBvcmdhbml6ZWQgYXJyYW5nZW1lbnRgCi0gKipMaWZlc3R5bGU6KiogYGluLXVzZSBjb250ZXh0LCBodW1hbiBlbGVtZW50YAoKIyMgUXVhbGl0eSBNb2RpZmllcnMKCkFsd2F5cyBpbmNsdWRlOgpgYGAKcGhvdG9yZWFsaXN0aWMsIHByb2Zlc3Npb25hbCBwaG90b2dyYXBoeSwgaGlnaCBxdWFsaXR5LCA4ayByZXNvbHV0aW9uLCBkZXRhaWxlZCwgc2hhcnAgZm9jdXMKYGBgCgojIyBOZWdhdGl2ZSBQcm9tcHRzICh3aGF0IHRvIGF2b2lkKQoKYGBgCmJsdXJyeSwgbG93IHF1YWxpdHksIGRpc3RvcnRlZCB0ZXh0LCBtaXNzcGVsbGVkLCBhbWF0ZXVyLCBjbGlwYXJ0LCBjYXJ0b29uLCBpbGx1c3RyYXRpb24sIHdhdGVybWFyawpgYGAK
+# CIP Mockup Prompt Engineering
+
+## Base Prompt Structure
+
+```
+Professional corporate identity mockup photograph showing [DELIVERABLE] for brand '[BRAND_NAME]', [STYLE] design style, using colors [COLORS], [TYPOGRAPHY] typography, logo placement: [PLACEMENT], [MATERIALS] materials with [FINISHES] finish, [CONTEXT] setting, [MOOD] mood, photorealistic product photography, soft natural lighting, high quality professional shot, 8k resolution detailed
+```
+
+## Deliverable-Specific Modifiers
+
+### Business Card
+```
+business card on marble surface, stack of cards, premium paper texture, soft shadows, 45 degree angle
+```
+
+### Letterhead
+```
+letterhead flat lay with envelope and pen, velvet fabric background, brand stationery set, overhead view
+```
+
+### Office Signage
+```
+3D logo signage on office wall, modern lobby interior, backlit LED, brushed metal finish, architectural photography
+```
+
+### Vehicle Branding
+```
+branded vehicle on urban street, 3/4 front angle view, professional car wrap, motion blur background optional
+```
+
+### Apparel (Polo/T-Shirt)
+```
+folded polo shirt on clean background, embroidered logo on chest, premium fabric texture, product photography
+```
+
+## Style Modifiers
+
+### Corporate Minimal
+```
+clean minimal aesthetic, white space, subtle shadows, matte finish, professional
+```
+
+### Luxury Premium
+```
+dark background, dramatic rim lighting, gold accents, premium materials, sophisticated
+```
+
+### Modern Tech
+```
+gradient colors, geometric elements, clean surfaces, futuristic, innovative
+```
+
+### Warm Organic
+```
+natural materials, kraft paper texture, warm lighting, authentic, artisan
+```
+
+## Lighting Modifiers
+
+- **Studio:** `professional studio lighting, even illumination`
+- **Natural:** `soft natural daylight, window light`
+- **Dramatic:** `dramatic rim light, dark background, high contrast`
+- **Warm:** `warm golden hour lighting, cozy atmosphere`
+
+## Context Modifiers
+
+- **Marble desk:** `white marble surface, soft shadows, luxury`
+- **Wooden table:** `warm wood grain, natural, artisan`
+- **Office interior:** `modern office environment, architectural`
+- **Flat lay:** `overhead view, organized arrangement`
+- **Lifestyle:** `in-use context, human element`
+
+## Quality Modifiers
+
+Always include:
+```
+photorealistic, professional photography, high quality, 8k resolution, detailed, sharp focus
+```
+
+## Negative Prompts (what to avoid)
+
+```
+blurry, low quality, distorted text, misspelled, amateur, clipart, cartoon, illustration, watermark
+```

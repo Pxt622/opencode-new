@@ -1,1 +1,113 @@
-IyBDbGF1ZGUgQVBJIOKAlCBSdWJ5Cgo+ICoqTm90ZToqKiBUaGUgUnVieSBTREsgc3VwcG9ydHMgdGhlIENsYXVkZSBBUEkuIEEgdG9vbCBydW5uZXIgaXMgYXZhaWxhYmxlIGluIGJldGEgdmlhIGBjbGllbnQuYmV0YS5tZXNzYWdlcy50b29sX3J1bm5lcigpYC4gQWdlbnQgU0RLIGlzIG5vdCB5ZXQgYXZhaWxhYmxlIGZvciBSdWJ5LgoKIyMgSW5zdGFsbGF0aW9uCgpgYGBiYXNoCmdlbSBpbnN0YWxsIGFudGhyb3BpYwpgYGAKCiMjIENsaWVudCBJbml0aWFsaXphdGlvbgoKYGBgcnVieQpyZXF1aXJlICJhbnRocm9waWMiCgojIERlZmF1bHQgKHVzZXMgQU5USFJPUElDX0FQSV9LRVkgZW52IHZhcikKY2xpZW50ID0gQW50aHJvcGljOjpDbGllbnQubmV3CgojIEV4cGxpY2l0IEFQSSBrZXkKY2xpZW50ID0gQW50aHJvcGljOjpDbGllbnQubmV3KGFwaV9rZXk6ICJ5b3VyLWFwaS1rZXkiKQpgYGAKCi0tLQoKIyMgQmFzaWMgTWVzc2FnZSBSZXF1ZXN0CgpgYGBydWJ5Cm1lc3NhZ2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogIG1vZGVsOiA6ImNsYXVkZS1vcHVzLTQtNiIsCiAgbWF4X3Rva2VuczogMTYwMDAsCiAgbWVzc2FnZXM6IFsKICAgIHsgcm9sZTogInVzZXIiLCBjb250ZW50OiAiV2hhdCBpcyB0aGUgY2FwaXRhbCBvZiBGcmFuY2U/IiB9CiAgXQopCiMgY29udGVudCBpcyBhbiBhcnJheSBvZiBwb2x5bW9ycGhpYyBibG9jayBvYmplY3RzIChUZXh0QmxvY2ssIFRoaW5raW5nQmxvY2ssCiMgVG9vbFVzZUJsb2NrLCAuLi4pLiAudHlwZSBpcyBhIFN5bWJvbCDigJQgY29tcGFyZSB3aXRoIDp0ZXh0LCBub3QgInRleHQiLgojIC50ZXh0IHJhaXNlcyBOb01ldGhvZEVycm9yIG9uIG5vbi1UZXh0QmxvY2sgZW50cmllcy4KbWVzc2FnZS5jb250ZW50LmVhY2ggZG8gfGJsb2NrfAogIHB1dHMgYmxvY2sudGV4dCBpZiBibG9jay50eXBlID09IDp0ZXh0CmVuZApgYGAKCi0tLQoKIyMgU3RyZWFtaW5nCgpgYGBydWJ5CnN0cmVhbSA9IGNsaWVudC5tZXNzYWdlcy5zdHJlYW0oCiAgbW9kZWw6IDoiY2xhdWRlLW9wdXMtNC02IiwKICBtYXhfdG9rZW5zOiA2NDAwMCwKICBtZXNzYWdlczogW3sgcm9sZTogInVzZXIiLCBjb250ZW50OiAiV3JpdGUgYSBoYWlrdSIgfV0KKQoKc3RyZWFtLnRleHQuZWFjaCB7IHx0ZXh0fCBwcmludCh0ZXh0KSB9CmBgYAoKLS0tCgojIyBUb29sIFVzZQoKVGhlIFJ1YnkgU0RLIHN1cHBvcnRzIHRvb2wgdXNlIHZpYSByYXcgSlNPTiBzY2hlbWEgZGVmaW5pdGlvbnMgYW5kIGFsc28gcHJvdmlkZXMgYSBiZXRhIHRvb2wgcnVubmVyIGZvciBhdXRvbWF0aWMgdG9vbCBleGVjdXRpb24uCgojIyMgVG9vbCBSdW5uZXIgKEJldGEpCgpgYGBydWJ5CmNsYXNzIEdldFdlYXRoZXJJbnB1dCA8IEFudGhyb3BpYzo6QmFzZU1vZGVsCiAgcmVxdWlyZWQgOmxvY2F0aW9uLCBTdHJpbmcsIGRvYzogIkNpdHkgYW5kIHN0YXRlLCBlLmcuIFNhbiBGcmFuY2lzY28sIENBIgplbmQKCmNsYXNzIEdldFdlYXRoZXIgPCBBbnRocm9waWM6OkJhc2VUb29sCiAgZG9jICJHZXQgdGhlIGN1cnJlbnQgd2VhdGhlciBmb3IgYSBsb2NhdGlvbiIKCiAgaW5wdXRfc2NoZW1hIEdldFdlYXRoZXJJbnB1dAoKICBkZWYgY2FsbChpbnB1dCkKICAgICJUaGUgd2VhdGhlciBpbiAje2lucHV0LmxvY2F0aW9ufSBpcyBzdW5ueSBhbmQgNzLCsEYuIgogIGVuZAplbmQKCmNsaWVudC5iZXRhLm1lc3NhZ2VzLnRvb2xfcnVubmVyKAogIG1vZGVsOiA6ImNsYXVkZS1vcHVzLTQtNiIsCiAgbWF4X3Rva2VuczogMTYwMDAsCiAgdG9vbHM6IFtHZXRXZWF0aGVyLm5ld10sCiAgbWVzc2FnZXM6IFt7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogIldoYXQncyB0aGUgd2VhdGhlciBpbiBTYW4gRnJhbmNpc2NvPyIgfV0KKS5lYWNoX21lc3NhZ2UgZG8gfG1lc3NhZ2V8CiAgcHV0cyBtZXNzYWdlLmNvbnRlbnQKZW5kCmBgYAoKIyMjIE1hbnVhbCBMb29wCgpTZWUgdGhlIFtzaGFyZWQgdG9vbCB1c2UgY29uY2VwdHNdKC4uL3NoYXJlZC90b29sLXVzZS1jb25jZXB0cy5tZCkgZm9yIHRoZSB0b29sIGRlZmluaXRpb24gZm9ybWF0IGFuZCBhZ2VudGljIGxvb3AgcGF0dGVybi4KCi0tLQoKIyMgUHJvbXB0IENhY2hpbmcKCmBzeXN0ZW1fOmAgKHRyYWlsaW5nIHVuZGVyc2NvcmUg4oCUIGF2b2lkcyBzaGFkb3dpbmcgYEtlcm5lbCNzeXN0ZW1gKSB0YWtlcyBhbiBhcnJheSBvZiB0ZXh0IGJsb2Nrczsgc2V0IGBjYWNoZV9jb250cm9sYCBvbiB0aGUgbGFzdCBibG9jay4gUGxhaW4gaGFzaGVzIHdvcmsgdmlhIHRoZSBgT3JIYXNoYCB0eXBlIGFsaWFzLiBGb3IgcGxhY2VtZW50IHBhdHRlcm5zIGFuZCB0aGUgc2lsZW50LWludmFsaWRhdG9yIGF1ZGl0IGNoZWNrbGlzdCwgc2VlIGBzaGFyZWQvcHJvbXB0LWNhY2hpbmcubWRgLgoKYGBgcnVieQptZXNzYWdlID0gY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSgKICBtb2RlbDogOiJjbGF1ZGUtb3B1cy00LTYiLAogIG1heF90b2tlbnM6IDE2MDAwLAogIHN5c3RlbV86IFsKICAgIHsgdHlwZTogInRleHQiLCB0ZXh0OiBsb25nX3N5c3RlbV9wcm9tcHQsIGNhY2hlX2NvbnRyb2w6IHsgdHlwZTogImVwaGVtZXJhbCIgfSB9CiAgXSwKICBtZXNzYWdlczogW3sgcm9sZTogInVzZXIiLCBjb250ZW50OiAiU3VtbWFyaXplIHRoZSBrZXkgcG9pbnRzIiB9XQopCmBgYAoKRm9yIDEtaG91ciBUVEw6IGBjYWNoZV9jb250cm9sOiB7IHR5cGU6ICJlcGhlbWVyYWwiLCB0dGw6ICIxaCIgfWAuIFRoZXJlJ3MgYWxzbyBhIHRvcC1sZXZlbCBgY2FjaGVfY29udHJvbDpgIG9uIGBtZXNzYWdlcy5jcmVhdGVgIHRoYXQgYXV0by1wbGFjZXMgb24gdGhlIGxhc3QgY2FjaGVhYmxlIGJsb2NrLgoKVmVyaWZ5IGhpdHMgdmlhIGBtZXNzYWdlLnVzYWdlLmNhY2hlX2NyZWF0aW9uX2lucHV0X3Rva2Vuc2AgLyBgbWVzc2FnZS51c2FnZS5jYWNoZV9yZWFkX2lucHV0X3Rva2Vuc2AuCg==
+# Claude API — Ruby
+
+> **Note:** The Ruby SDK supports the Claude API. A tool runner is available in beta via `client.beta.messages.tool_runner()`. Agent SDK is not yet available for Ruby.
+
+## Installation
+
+```bash
+gem install anthropic
+```
+
+## Client Initialization
+
+```ruby
+require "anthropic"
+
+# Default (uses ANTHROPIC_API_KEY env var)
+client = Anthropic::Client.new
+
+# Explicit API key
+client = Anthropic::Client.new(api_key: "your-api-key")
+```
+
+---
+
+## Basic Message Request
+
+```ruby
+message = client.messages.create(
+  model: :"claude-opus-4-6",
+  max_tokens: 16000,
+  messages: [
+    { role: "user", content: "What is the capital of France?" }
+  ]
+)
+# content is an array of polymorphic block objects (TextBlock, ThinkingBlock,
+# ToolUseBlock, ...). .type is a Symbol — compare with :text, not "text".
+# .text raises NoMethodError on non-TextBlock entries.
+message.content.each do |block|
+  puts block.text if block.type == :text
+end
+```
+
+---
+
+## Streaming
+
+```ruby
+stream = client.messages.stream(
+  model: :"claude-opus-4-6",
+  max_tokens: 64000,
+  messages: [{ role: "user", content: "Write a haiku" }]
+)
+
+stream.text.each { |text| print(text) }
+```
+
+---
+
+## Tool Use
+
+The Ruby SDK supports tool use via raw JSON schema definitions and also provides a beta tool runner for automatic tool execution.
+
+### Tool Runner (Beta)
+
+```ruby
+class GetWeatherInput < Anthropic::BaseModel
+  required :location, String, doc: "City and state, e.g. San Francisco, CA"
+end
+
+class GetWeather < Anthropic::BaseTool
+  doc "Get the current weather for a location"
+
+  input_schema GetWeatherInput
+
+  def call(input)
+    "The weather in #{input.location} is sunny and 72°F."
+  end
+end
+
+client.beta.messages.tool_runner(
+  model: :"claude-opus-4-6",
+  max_tokens: 16000,
+  tools: [GetWeather.new],
+  messages: [{ role: "user", content: "What's the weather in San Francisco?" }]
+).each_message do |message|
+  puts message.content
+end
+```
+
+### Manual Loop
+
+See the [shared tool use concepts](../shared/tool-use-concepts.md) for the tool definition format and agentic loop pattern.
+
+---
+
+## Prompt Caching
+
+`system_:` (trailing underscore — avoids shadowing `Kernel#system`) takes an array of text blocks; set `cache_control` on the last block. Plain hashes work via the `OrHash` type alias. For placement patterns and the silent-invalidator audit checklist, see `shared/prompt-caching.md`.
+
+```ruby
+message = client.messages.create(
+  model: :"claude-opus-4-6",
+  max_tokens: 16000,
+  system_: [
+    { type: "text", text: long_system_prompt, cache_control: { type: "ephemeral" } }
+  ],
+  messages: [{ role: "user", content: "Summarize the key points" }]
+)
+```
+
+For 1-hour TTL: `cache_control: { type: "ephemeral", ttl: "1h" }`. There's also a top-level `cache_control:` on `messages.create` that auto-places on the last cacheable block.
+
+Verify hits via `message.usage.cache_creation_input_tokens` / `message.usage.cache_read_input_tokens`.

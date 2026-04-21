@@ -1,1 +1,333 @@
-IyBDbGF1ZGUgQVBJIOKAlCBUeXBlU2NyaXB0CgojIyBJbnN0YWxsYXRpb24KCmBgYGJhc2gKbnBtIGluc3RhbGwgQGFudGhyb3BpYy1haS9zZGsKYGBgCgojIyBDbGllbnQgSW5pdGlhbGl6YXRpb24KCmBgYHR5cGVzY3JpcHQKaW1wb3J0IEFudGhyb3BpYyBmcm9tICJAYW50aHJvcGljLWFpL3NkayI7CgovLyBEZWZhdWx0ICh1c2VzIEFOVEhST1BJQ19BUElfS0VZIGVudiB2YXIpCmNvbnN0IGNsaWVudCA9IG5ldyBBbnRocm9waWMoKTsKCi8vIEV4cGxpY2l0IEFQSSBrZXkKY29uc3QgY2xpZW50ID0gbmV3IEFudGhyb3BpYyh7IGFwaUtleTogInlvdXItYXBpLWtleSIgfSk7CmBgYAoKLS0tCgojIyBCYXNpYyBNZXNzYWdlIFJlcXVlc3QKCmBgYHR5cGVzY3JpcHQKY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBjbGllbnQubWVzc2FnZXMuY3JlYXRlKHsKICBtb2RlbDogImNsYXVkZS1vcHVzLTQtNiIsCiAgbWF4X3Rva2VuczogMTYwMDAsCiAgbWVzc2FnZXM6IFt7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogIldoYXQgaXMgdGhlIGNhcGl0YWwgb2YgRnJhbmNlPyIgfV0sCn0pOwovLyByZXNwb25zZS5jb250ZW50IGlzIENvbnRlbnRCbG9ja1tdIOKAlCBhIGRpc2NyaW1pbmF0ZWQgdW5pb24uIE5hcnJvdyBieSAudHlwZQovLyBiZWZvcmUgYWNjZXNzaW5nIC50ZXh0IChUeXBlU2NyaXB0IHdpbGwgZXJyb3Igb24gY29udGVudFswXS50ZXh0IHdpdGhvdXQgdGhpcykuCmZvciAoY29uc3QgYmxvY2sgb2YgcmVzcG9uc2UuY29udGVudCkgewogIGlmIChibG9jay50eXBlID09PSAidGV4dCIpIHsKICAgIGNvbnNvbGUubG9nKGJsb2NrLnRleHQpOwogIH0KfQpgYGAKCi0tLQoKIyMgU3lzdGVtIFByb21wdHMKCmBgYHR5cGVzY3JpcHQKY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBjbGllbnQubWVzc2FnZXMuY3JlYXRlKHsKICBtb2RlbDogImNsYXVkZS1vcHVzLTQtNiIsCiAgbWF4X3Rva2VuczogMTYwMDAsCiAgc3lzdGVtOgogICAgIllvdSBhcmUgYSBoZWxwZnVsIGNvZGluZyBhc3Npc3RhbnQuIEFsd2F5cyBwcm92aWRlIGV4YW1wbGVzIGluIFB5dGhvbi4iLAogIG1lc3NhZ2VzOiBbeyByb2xlOiAidXNlciIsIGNvbnRlbnQ6ICJIb3cgZG8gSSByZWFkIGEgSlNPTiBmaWxlPyIgfV0sCn0pOwpgYGAKCi0tLQoKIyMgVmlzaW9uIChJbWFnZXMpCgojIyMgVVJMCgpgYGB0eXBlc2NyaXB0CmNvbnN0IHJlc3BvbnNlID0gYXdhaXQgY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSh7CiAgbW9kZWw6ICJjbGF1ZGUtb3B1cy00LTYiLAogIG1heF90b2tlbnM6IDE2MDAwLAogIG1lc3NhZ2VzOiBbCiAgICB7CiAgICAgIHJvbGU6ICJ1c2VyIiwKICAgICAgY29udGVudDogWwogICAgICAgIHsKICAgICAgICAgIHR5cGU6ICJpbWFnZSIsCiAgICAgICAgICBzb3VyY2U6IHsgdHlwZTogInVybCIsIHVybDogImh0dHBzOi8vZXhhbXBsZS5jb20vaW1hZ2UucG5nIiB9LAogICAgICAgIH0sCiAgICAgICAgeyB0eXBlOiAidGV4dCIsIHRleHQ6ICJEZXNjcmliZSB0aGlzIGltYWdlIiB9LAogICAgICBdLAogICAgfSwKICBdLAp9KTsKYGBgCgojIyMgQmFzZTY0CgpgYGB0eXBlc2NyaXB0CmltcG9ydCBmcyBmcm9tICJmcyI7Cgpjb25zdCBpbWFnZURhdGEgPSBmcy5yZWFkRmlsZVN5bmMoImltYWdlLnBuZyIpLnRvU3RyaW5nKCJiYXNlNjQiKTsKCmNvbnN0IHJlc3BvbnNlID0gYXdhaXQgY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSh7CiAgbW9kZWw6ICJjbGF1ZGUtb3B1cy00LTYiLAogIG1heF90b2tlbnM6IDE2MDAwLAogIG1lc3NhZ2VzOiBbCiAgICB7CiAgICAgIHJvbGU6ICJ1c2VyIiwKICAgICAgY29udGVudDogWwogICAgICAgIHsKICAgICAgICAgIHR5cGU6ICJpbWFnZSIsCiAgICAgICAgICBzb3VyY2U6IHsgdHlwZTogImJhc2U2NCIsIG1lZGlhX3R5cGU6ICJpbWFnZS9wbmciLCBkYXRhOiBpbWFnZURhdGEgfSwKICAgICAgICB9LAogICAgICAgIHsgdHlwZTogInRleHQiLCB0ZXh0OiAiV2hhdCdzIGluIHRoaXMgaW1hZ2U/IiB9LAogICAgICBdLAogICAgfSwKICBdLAp9KTsKYGBgCgotLS0KCiMjIFByb21wdCBDYWNoaW5nCgoqKkNhY2hpbmcgaXMgYSBwcmVmaXggbWF0Y2gqKiDigJQgYW55IGJ5dGUgY2hhbmdlIGFueXdoZXJlIGluIHRoZSBwcmVmaXggaW52YWxpZGF0ZXMgZXZlcnl0aGluZyBhZnRlciBpdC4gRm9yIHBsYWNlbWVudCBwYXR0ZXJucywgYXJjaGl0ZWN0dXJhbCBndWlkYW5jZSAoZnJvemVuIHN5c3RlbSBwcm9tcHQsIGRldGVybWluaXN0aWMgdG9vbCBvcmRlciwgd2hlcmUgdG8gcHV0IHZvbGF0aWxlIGNvbnRlbnQpLCBhbmQgdGhlIHNpbGVudC1pbnZhbGlkYXRvciBhdWRpdCBjaGVja2xpc3QsIHJlYWQgYHNoYXJlZC9wcm9tcHQtY2FjaGluZy5tZGAuCgojIyMgQXV0b21hdGljIENhY2hpbmcgKFJlY29tbWVuZGVkKQoKVXNlIHRvcC1sZXZlbCBgY2FjaGVfY29udHJvbGAgdG8gYXV0b21hdGljYWxseSBjYWNoZSB0aGUgbGFzdCBjYWNoZWFibGUgYmxvY2sgaW4gdGhlIHJlcXVlc3Q6CgpgYGB0eXBlc2NyaXB0CmNvbnN0IHJlc3BvbnNlID0gYXdhaXQgY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSh7CiAgbW9kZWw6ICJjbGF1ZGUtb3B1cy00LTYiLAogIG1heF90b2tlbnM6IDE2MDAwLAogIGNhY2hlX2NvbnRyb2w6IHsgdHlwZTogImVwaGVtZXJhbCIgfSwgLy8gYXV0by1jYWNoZXMgdGhlIGxhc3QgY2FjaGVhYmxlIGJsb2NrCiAgc3lzdGVtOiAiWW91IGFyZSBhbiBleHBlcnQgb24gdGhpcyBsYXJnZSBkb2N1bWVudC4uLiIsCiAgbWVzc2FnZXM6IFt7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogIlN1bW1hcml6ZSB0aGUga2V5IHBvaW50cyIgfV0sCn0pOwpgYGAKCiMjIyBNYW51YWwgQ2FjaGUgQ29udHJvbAoKRm9yIGZpbmUtZ3JhaW5lZCBjb250cm9sLCBhZGQgYGNhY2hlX2NvbnRyb2xgIHRvIHNwZWNpZmljIGNvbnRlbnQgYmxvY2tzOgoKYGBgdHlwZXNjcmlwdApjb25zdCByZXNwb25zZSA9IGF3YWl0IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoewogIG1vZGVsOiAiY2xhdWRlLW9wdXMtNC02IiwKICBtYXhfdG9rZW5zOiAxNjAwMCwKICBzeXN0ZW06IFsKICAgIHsKICAgICAgdHlwZTogInRleHQiLAogICAgICB0ZXh0OiAiWW91IGFyZSBhbiBleHBlcnQgb24gdGhpcyBsYXJnZSBkb2N1bWVudC4uLiIsCiAgICAgIGNhY2hlX2NvbnRyb2w6IHsgdHlwZTogImVwaGVtZXJhbCIgfSwgLy8gZGVmYXVsdCBUVEwgaXMgNSBtaW51dGVzCiAgICB9LAogIF0sCiAgbWVzc2FnZXM6IFt7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogIlN1bW1hcml6ZSB0aGUga2V5IHBvaW50cyIgfV0sCn0pOwoKLy8gV2l0aCBleHBsaWNpdCBUVEwgKHRpbWUtdG8tbGl2ZSkKY29uc3QgcmVzcG9uc2UyID0gYXdhaXQgY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSh7CiAgbW9kZWw6ICJjbGF1ZGUtb3B1cy00LTYiLAogIG1heF90b2tlbnM6IDE2MDAwLAogIHN5c3RlbTogWwogICAgewogICAgICB0eXBlOiAidGV4dCIsCiAgICAgIHRleHQ6ICJZb3UgYXJlIGFuIGV4cGVydCBvbiB0aGlzIGxhcmdlIGRvY3VtZW50Li4uIiwKICAgICAgY2FjaGVfY29udHJvbDogeyB0eXBlOiAiZXBoZW1lcmFsIiwgdHRsOiAiMWgiIH0sIC8vIDEgaG91ciBUVEwKICAgIH0sCiAgXSwKICBtZXNzYWdlczogW3sgcm9sZTogInVzZXIiLCBjb250ZW50OiAiU3VtbWFyaXplIHRoZSBrZXkgcG9pbnRzIiB9XSwKfSk7CmBgYAoKIyMjIFZlcmlmeWluZyBDYWNoZSBIaXRzCgpgYGB0eXBlc2NyaXB0CmNvbnNvbGUubG9nKHJlc3BvbnNlLnVzYWdlLmNhY2hlX2NyZWF0aW9uX2lucHV0X3Rva2Vucyk7IC8vIHRva2VucyB3cml0dGVuIHRvIGNhY2hlICh+MS4yNXggY29zdCkKY29uc29sZS5sb2cocmVzcG9uc2UudXNhZ2UuY2FjaGVfcmVhZF9pbnB1dF90b2tlbnMpOyAgICAgLy8gdG9rZW5zIHNlcnZlZCBmcm9tIGNhY2hlICh+MC4xeCBjb3N0KQpjb25zb2xlLmxvZyhyZXNwb25zZS51c2FnZS5pbnB1dF90b2tlbnMpOyAgICAgICAgICAgICAgICAvLyB1bmNhY2hlZCB0b2tlbnMgKGZ1bGwgY29zdCkKYGBgCgpJZiBgY2FjaGVfcmVhZF9pbnB1dF90b2tlbnNgIGlzIHplcm8gYWNyb3NzIHJlcGVhdGVkIGlkZW50aWNhbC1wcmVmaXggcmVxdWVzdHMsIGEgc2lsZW50IGludmFsaWRhdG9yIGlzIGF0IHdvcmsg4oCUIGBEYXRlLm5vdygpYCBvciBhIFVVSUQgaW4gdGhlIHN5c3RlbSBwcm9tcHQsIG5vbi1kZXRlcm1pbmlzdGljIGtleSBvcmRlcmluZywgb3IgYSB2YXJ5aW5nIHRvb2wgc2V0LiBTZWUgYHNoYXJlZC9wcm9tcHQtY2FjaGluZy5tZGAgZm9yIHRoZSBmdWxsIGF1ZGl0IHRhYmxlLgoKLS0tCgojIyBFeHRlbmRlZCBUaGlua2luZwoKPiAqKk9wdXMgNC42IGFuZCBTb25uZXQgNC42OioqIFVzZSBhZGFwdGl2ZSB0aGlua2luZy4gYGJ1ZGdldF90b2tlbnNgIGlzIGRlcHJlY2F0ZWQgb24gYm90aCBPcHVzIDQuNiBhbmQgU29ubmV0IDQuNi4KPiAqKk9sZGVyIG1vZGVsczoqKiBVc2UgYHRoaW5raW5nOiB7dHlwZTogImVuYWJsZWQiLCBidWRnZXRfdG9rZW5zOiBOfWAgKG11c3QgYmUgPCBgbWF4X3Rva2Vuc2AsIG1pbiAxMDI0KS4KCmBgYHR5cGVzY3JpcHQKLy8gT3B1cyA0LjY6IGFkYXB0aXZlIHRoaW5raW5nIChyZWNvbW1lbmRlZCkKY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBjbGllbnQubWVzc2FnZXMuY3JlYXRlKHsKICBtb2RlbDogImNsYXVkZS1vcHVzLTQtNiIsCiAgbWF4X3Rva2VuczogMTYwMDAsCiAgdGhpbmtpbmc6IHsgdHlwZTogImFkYXB0aXZlIiB9LAogIG91dHB1dF9jb25maWc6IHsgZWZmb3J0OiAiaGlnaCIgfSwgLy8gbG93IHwgbWVkaXVtIHwgaGlnaCB8IG1heAogIG1lc3NhZ2VzOiBbCiAgICB7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogIlNvbHZlIHRoaXMgbWF0aCBwcm9ibGVtIHN0ZXAgYnkgc3RlcC4uLiIgfSwKICBdLAp9KTsKCmZvciAoY29uc3QgYmxvY2sgb2YgcmVzcG9uc2UuY29udGVudCkgewogIGlmIChibG9jay50eXBlID09PSAidGhpbmtpbmciKSB7CiAgICBjb25zb2xlLmxvZygiVGhpbmtpbmc6IiwgYmxvY2sudGhpbmtpbmcpOwogIH0gZWxzZSBpZiAoYmxvY2sudHlwZSA9PT0gInRleHQiKSB7CiAgICBjb25zb2xlLmxvZygiUmVzcG9uc2U6IiwgYmxvY2sudGV4dCk7CiAgfQp9CmBgYAoKLS0tCgojIyBFcnJvciBIYW5kbGluZwoKVXNlIHRoZSBTREsncyB0eXBlZCBleGNlcHRpb24gY2xhc3NlcyDigJQgbmV2ZXIgY2hlY2sgZXJyb3IgbWVzc2FnZXMgd2l0aCBzdHJpbmcgbWF0Y2hpbmc6CgpgYGB0eXBlc2NyaXB0CmltcG9ydCBBbnRocm9waWMgZnJvbSAiQGFudGhyb3BpYy1haS9zZGsiOwoKdHJ5IHsKICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoey4uLn0pOwp9IGNhdGNoIChlcnJvcikgewogIGlmIChlcnJvciBpbnN0YW5jZW9mIEFudGhyb3BpYy5CYWRSZXF1ZXN0RXJyb3IpIHsKICAgIGNvbnNvbGUuZXJyb3IoIkJhZCByZXF1ZXN0OiIsIGVycm9yLm1lc3NhZ2UpOwogIH0gZWxzZSBpZiAoZXJyb3IgaW5zdGFuY2VvZiBBbnRocm9waWMuQXV0aGVudGljYXRpb25FcnJvcikgewogICAgY29uc29sZS5lcnJvcigiSW52YWxpZCBBUEkga2V5Iik7CiAgfSBlbHNlIGlmIChlcnJvciBpbnN0YW5jZW9mIEFudGhyb3BpYy5SYXRlTGltaXRFcnJvcikgewogICAgY29uc29sZS5lcnJvcigiUmF0ZSBsaW1pdGVkIC0gcmV0cnkgbGF0ZXIiKTsKICB9IGVsc2UgaWYgKGVycm9yIGluc3RhbmNlb2YgQW50aHJvcGljLkFQSUVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKGBBUEkgZXJyb3IgJHtlcnJvci5zdGF0dXN9OmAsIGVycm9yLm1lc3NhZ2UpOwogIH0KfQpgYGAKCkFsbCBjbGFzc2VzIGV4dGVuZCBgQW50aHJvcGljLkFQSUVycm9yYCB3aXRoIGEgdHlwZWQgYHN0YXR1c2AgZmllbGQuIENoZWNrIGZyb20gbW9zdCBzcGVjaWZpYyB0byBsZWFzdCBzcGVjaWZpYy4gU2VlIFtzaGFyZWQvZXJyb3ItY29kZXMubWRdKC4uLy4uL3NoYXJlZC9lcnJvci1jb2Rlcy5tZCkgZm9yIHRoZSBmdWxsIGVycm9yIGNvZGUgcmVmZXJlbmNlLgoKLS0tCgojIyBNdWx0aS1UdXJuIENvbnZlcnNhdGlvbnMKClRoZSBBUEkgaXMgc3RhdGVsZXNzIOKAlCBzZW5kIHRoZSBmdWxsIGNvbnZlcnNhdGlvbiBoaXN0b3J5IGVhY2ggdGltZS4gVXNlIGBBbnRocm9waWMuTWVzc2FnZVBhcmFtW11gIHRvIHR5cGUgdGhlIG1lc3NhZ2VzIGFycmF5OgoKYGBgdHlwZXNjcmlwdApjb25zdCBtZXNzYWdlczogQW50aHJvcGljLk1lc3NhZ2VQYXJhbVtdID0gWwogIHsgcm9sZTogInVzZXIiLCBjb250ZW50OiAiTXkgbmFtZSBpcyBBbGljZS4iIH0sCiAgeyByb2xlOiAiYXNzaXN0YW50IiwgY29udGVudDogIkhlbGxvIEFsaWNlISBOaWNlIHRvIG1lZXQgeW91LiIgfSwKICB7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogIldoYXQncyBteSBuYW1lPyIgfSwKXTsKCmNvbnN0IHJlc3BvbnNlID0gYXdhaXQgY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSh7CiAgbW9kZWw6ICJjbGF1ZGUtb3B1cy00LTYiLAogIG1heF90b2tlbnM6IDE2MDAwLAogIG1lc3NhZ2VzOiBtZXNzYWdlcywKfSk7CmBgYAoKKipSdWxlczoqKgoKLSBDb25zZWN1dGl2ZSBzYW1lLXJvbGUgbWVzc2FnZXMgYXJlIGFsbG93ZWQg4oCUIHRoZSBBUEkgY29tYmluZXMgdGhlbSBpbnRvIGEgc2luZ2xlIHR1cm4KLSBGaXJzdCBtZXNzYWdlIG11c3QgYmUgYHVzZXJgCi0gVXNlIFNESyB0eXBlcyAoYEFudGhyb3BpYy5NZXNzYWdlUGFyYW1gLCBgQW50aHJvcGljLk1lc3NhZ2VgLCBgQW50aHJvcGljLlRvb2xgLCBldGMuKSBmb3IgYWxsIEFQSSBkYXRhIHN0cnVjdHVyZXMg4oCUIGRvbid0IHJlZGVmaW5lIGVxdWl2YWxlbnQgaW50ZXJmYWNlcwoKLS0tCgojIyMgQ29tcGFjdGlvbiAobG9uZyBjb252ZXJzYXRpb25zKQoKPiAqKkJldGEsIE9wdXMgNC42IGFuZCBTb25uZXQgNC42LioqIFdoZW4gY29udmVyc2F0aW9ucyBhcHByb2FjaCB0aGUgMjAwSyBjb250ZXh0IHdpbmRvdywgY29tcGFjdGlvbiBhdXRvbWF0aWNhbGx5IHN1bW1hcml6ZXMgZWFybGllciBjb250ZXh0IHNlcnZlci1zaWRlLiBUaGUgQVBJIHJldHVybnMgYSBgY29tcGFjdGlvbmAgYmxvY2s7IHlvdSBtdXN0IHBhc3MgaXQgYmFjayBvbiBzdWJzZXF1ZW50IHJlcXVlc3RzIOKAlCBhcHBlbmQgYHJlc3BvbnNlLmNvbnRlbnRgLCBub3QganVzdCB0aGUgdGV4dC4KCmBgYHR5cGVzY3JpcHQKaW1wb3J0IEFudGhyb3BpYyBmcm9tICJAYW50aHJvcGljLWFpL3NkayI7Cgpjb25zdCBjbGllbnQgPSBuZXcgQW50aHJvcGljKCk7CmNvbnN0IG1lc3NhZ2VzOiBBbnRocm9waWMuQmV0YS5CZXRhTWVzc2FnZVBhcmFtW10gPSBbXTsKCmFzeW5jIGZ1bmN0aW9uIGNoYXQodXNlck1lc3NhZ2U6IHN0cmluZyk6IFByb21pc2U8c3RyaW5nPiB7CiAgbWVzc2FnZXMucHVzaCh7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogdXNlck1lc3NhZ2UgfSk7CgogIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgY2xpZW50LmJldGEubWVzc2FnZXMuY3JlYXRlKHsKICAgIGJldGFzOiBbImNvbXBhY3QtMjAyNi0wMS0xMiJdLAogICAgbW9kZWw6ICJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWF4X3Rva2VuczogMTYwMDAsCiAgICBtZXNzYWdlcywKICAgIGNvbnRleHRfbWFuYWdlbWVudDogewogICAgICBlZGl0czogW3sgdHlwZTogImNvbXBhY3RfMjAyNjAxMTIiIH1dLAogICAgfSwKICB9KTsKCiAgLy8gQXBwZW5kIGZ1bGwgY29udGVudCDigJQgY29tcGFjdGlvbiBibG9ja3MgbXVzdCBiZSBwcmVzZXJ2ZWQKICBtZXNzYWdlcy5wdXNoKHsgcm9sZTogImFzc2lzdGFudCIsIGNvbnRlbnQ6IHJlc3BvbnNlLmNvbnRlbnQgfSk7CgogIGNvbnN0IHRleHRCbG9jayA9IHJlc3BvbnNlLmNvbnRlbnQuZmluZCgKICAgIChiKTogYiBpcyBBbnRocm9waWMuQmV0YS5CZXRhVGV4dEJsb2NrID0+IGIudHlwZSA9PT0gInRleHQiLAogICk7CiAgcmV0dXJuIHRleHRCbG9jaz8udGV4dCA/PyAiIjsKfQoKLy8gQ29tcGFjdGlvbiB0cmlnZ2VycyBhdXRvbWF0aWNhbGx5IHdoZW4gY29udGV4dCBncm93cyBsYXJnZQpjb25zb2xlLmxvZyhhd2FpdCBjaGF0KCJIZWxwIG1lIGJ1aWxkIGEgUHl0aG9uIHdlYiBzY3JhcGVyIikpOwpjb25zb2xlLmxvZyhhd2FpdCBjaGF0KCJBZGQgc3VwcG9ydCBmb3IgSmF2YVNjcmlwdC1yZW5kZXJlZCBwYWdlcyIpKTsKY29uc29sZS5sb2coYXdhaXQgY2hhdCgiTm93IGFkZCByYXRlIGxpbWl0aW5nIGFuZCBlcnJvciBoYW5kbGluZyIpKTsKYGBgCgotLS0KCiMjIFN0b3AgUmVhc29ucwoKVGhlIGBzdG9wX3JlYXNvbmAgZmllbGQgaW4gdGhlIHJlc3BvbnNlIGluZGljYXRlcyB3aHkgdGhlIG1vZGVsIHN0b3BwZWQgZ2VuZXJhdGluZzoKCnwgVmFsdWUgICAgICAgICAgIHwgTWVhbmluZyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IGBlbmRfdHVybmAgICAgICB8IENsYXVkZSBmaW5pc2hlZCBpdHMgcmVzcG9uc2UgbmF0dXJhbGx5ICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYG1heF90b2tlbnNgICAgIHwgSGl0IHRoZSBgbWF4X3Rva2Vuc2AgbGltaXQg4oCUIGluY3JlYXNlIGl0IG9yIHVzZSBzdHJlYW1pbmcgICAgICAgfAp8IGBzdG9wX3NlcXVlbmNlYCB8IEhpdCBhIGN1c3RvbSBzdG9wIHNlcXVlbmNlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYHRvb2xfdXNlYCAgICAgIHwgQ2xhdWRlIHdhbnRzIHRvIGNhbGwgYSB0b29sIOKAlCBleGVjdXRlIGl0IGFuZCBjb250aW51ZSAgICAgICAgICAgfAp8IGBwYXVzZV90dXJuYCAgICB8IE1vZGVsIHBhdXNlZCBhbmQgY2FuIGJlIHJlc3VtZWQgKGFnZW50aWMgZmxvd3MpICAgICAgICAgICAgICAgICB8CnwgYHJlZnVzYWxgICAgICAgIHwgQ2xhdWRlIHJlZnVzZWQgZm9yIHNhZmV0eSByZWFzb25zIOKAlCBvdXRwdXQgbWF5IG5vdCBtYXRjaCBzY2hlbWEgfAoKLS0tCgojIyBDb3N0IE9wdGltaXphdGlvbiBTdHJhdGVnaWVzCgojIyMgMS4gVXNlIFByb21wdCBDYWNoaW5nIGZvciBSZXBlYXRlZCBDb250ZXh0CgpgYGB0eXBlc2NyaXB0Ci8vIEF1dG9tYXRpYyBjYWNoaW5nIChzaW1wbGVzdCDigJQgY2FjaGVzIHRoZSBsYXN0IGNhY2hlYWJsZSBibG9jaykKY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBjbGllbnQubWVzc2FnZXMuY3JlYXRlKHsKICBtb2RlbDogImNsYXVkZS1vcHVzLTQtNiIsCiAgbWF4X3Rva2VuczogMTYwMDAsCiAgY2FjaGVfY29udHJvbDogeyB0eXBlOiAiZXBoZW1lcmFsIiB9LAogIHN5c3RlbTogbGFyZ2VEb2N1bWVudFRleHQsIC8vIGUuZy4sIDUwS0Igb2YgY29udGV4dAogIG1lc3NhZ2VzOiBbeyByb2xlOiAidXNlciIsIGNvbnRlbnQ6ICJTdW1tYXJpemUgdGhlIGtleSBwb2ludHMiIH1dLAp9KTsKCi8vIEZpcnN0IHJlcXVlc3Q6IGZ1bGwgY29zdAovLyBTdWJzZXF1ZW50IHJlcXVlc3RzOiB+OTAlIGNoZWFwZXIgZm9yIGNhY2hlZCBwb3J0aW9uCmBgYAoKIyMjIDIuIFVzZSBUb2tlbiBDb3VudGluZyBCZWZvcmUgUmVxdWVzdHMKCmBgYHR5cGVzY3JpcHQKY29uc3QgY291bnRSZXNwb25zZSA9IGF3YWl0IGNsaWVudC5tZXNzYWdlcy5jb3VudFRva2Vucyh7CiAgbW9kZWw6ICJjbGF1ZGUtb3B1cy00LTYiLAogIG1lc3NhZ2VzOiBtZXNzYWdlcywKICBzeXN0ZW06IHN5c3RlbSwKfSk7Cgpjb25zdCBlc3RpbWF0ZWRJbnB1dENvc3QgPSBjb3VudFJlc3BvbnNlLmlucHV0X3Rva2VucyAqIDAuMDAwMDA1OyAvLyAkNS8xTSB0b2tlbnMKY29uc29sZS5sb2coYEVzdGltYXRlZCBpbnB1dCBjb3N0OiAkJHtlc3RpbWF0ZWRJbnB1dENvc3QudG9GaXhlZCg0KX1gKTsKYGBgCg==
+# Claude API — TypeScript
+
+## Installation
+
+```bash
+npm install @anthropic-ai/sdk
+```
+
+## Client Initialization
+
+```typescript
+import Anthropic from "@anthropic-ai/sdk";
+
+// Default (uses ANTHROPIC_API_KEY env var)
+const client = new Anthropic();
+
+// Explicit API key
+const client = new Anthropic({ apiKey: "your-api-key" });
+```
+
+---
+
+## Basic Message Request
+
+```typescript
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  messages: [{ role: "user", content: "What is the capital of France?" }],
+});
+// response.content is ContentBlock[] — a discriminated union. Narrow by .type
+// before accessing .text (TypeScript will error on content[0].text without this).
+for (const block of response.content) {
+  if (block.type === "text") {
+    console.log(block.text);
+  }
+}
+```
+
+---
+
+## System Prompts
+
+```typescript
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  system:
+    "You are a helpful coding assistant. Always provide examples in Python.",
+  messages: [{ role: "user", content: "How do I read a JSON file?" }],
+});
+```
+
+---
+
+## Vision (Images)
+
+### URL
+
+```typescript
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  messages: [
+    {
+      role: "user",
+      content: [
+        {
+          type: "image",
+          source: { type: "url", url: "https://example.com/image.png" },
+        },
+        { type: "text", text: "Describe this image" },
+      ],
+    },
+  ],
+});
+```
+
+### Base64
+
+```typescript
+import fs from "fs";
+
+const imageData = fs.readFileSync("image.png").toString("base64");
+
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  messages: [
+    {
+      role: "user",
+      content: [
+        {
+          type: "image",
+          source: { type: "base64", media_type: "image/png", data: imageData },
+        },
+        { type: "text", text: "What's in this image?" },
+      ],
+    },
+  ],
+});
+```
+
+---
+
+## Prompt Caching
+
+**Caching is a prefix match** — any byte change anywhere in the prefix invalidates everything after it. For placement patterns, architectural guidance (frozen system prompt, deterministic tool order, where to put volatile content), and the silent-invalidator audit checklist, read `shared/prompt-caching.md`.
+
+### Automatic Caching (Recommended)
+
+Use top-level `cache_control` to automatically cache the last cacheable block in the request:
+
+```typescript
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  cache_control: { type: "ephemeral" }, // auto-caches the last cacheable block
+  system: "You are an expert on this large document...",
+  messages: [{ role: "user", content: "Summarize the key points" }],
+});
+```
+
+### Manual Cache Control
+
+For fine-grained control, add `cache_control` to specific content blocks:
+
+```typescript
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  system: [
+    {
+      type: "text",
+      text: "You are an expert on this large document...",
+      cache_control: { type: "ephemeral" }, // default TTL is 5 minutes
+    },
+  ],
+  messages: [{ role: "user", content: "Summarize the key points" }],
+});
+
+// With explicit TTL (time-to-live)
+const response2 = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  system: [
+    {
+      type: "text",
+      text: "You are an expert on this large document...",
+      cache_control: { type: "ephemeral", ttl: "1h" }, // 1 hour TTL
+    },
+  ],
+  messages: [{ role: "user", content: "Summarize the key points" }],
+});
+```
+
+### Verifying Cache Hits
+
+```typescript
+console.log(response.usage.cache_creation_input_tokens); // tokens written to cache (~1.25x cost)
+console.log(response.usage.cache_read_input_tokens);     // tokens served from cache (~0.1x cost)
+console.log(response.usage.input_tokens);                // uncached tokens (full cost)
+```
+
+If `cache_read_input_tokens` is zero across repeated identical-prefix requests, a silent invalidator is at work — `Date.now()` or a UUID in the system prompt, non-deterministic key ordering, or a varying tool set. See `shared/prompt-caching.md` for the full audit table.
+
+---
+
+## Extended Thinking
+
+> **Opus 4.6 and Sonnet 4.6:** Use adaptive thinking. `budget_tokens` is deprecated on both Opus 4.6 and Sonnet 4.6.
+> **Older models:** Use `thinking: {type: "enabled", budget_tokens: N}` (must be < `max_tokens`, min 1024).
+
+```typescript
+// Opus 4.6: adaptive thinking (recommended)
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  thinking: { type: "adaptive" },
+  output_config: { effort: "high" }, // low | medium | high | max
+  messages: [
+    { role: "user", content: "Solve this math problem step by step..." },
+  ],
+});
+
+for (const block of response.content) {
+  if (block.type === "thinking") {
+    console.log("Thinking:", block.thinking);
+  } else if (block.type === "text") {
+    console.log("Response:", block.text);
+  }
+}
+```
+
+---
+
+## Error Handling
+
+Use the SDK's typed exception classes — never check error messages with string matching:
+
+```typescript
+import Anthropic from "@anthropic-ai/sdk";
+
+try {
+  const response = await client.messages.create({...});
+} catch (error) {
+  if (error instanceof Anthropic.BadRequestError) {
+    console.error("Bad request:", error.message);
+  } else if (error instanceof Anthropic.AuthenticationError) {
+    console.error("Invalid API key");
+  } else if (error instanceof Anthropic.RateLimitError) {
+    console.error("Rate limited - retry later");
+  } else if (error instanceof Anthropic.APIError) {
+    console.error(`API error ${error.status}:`, error.message);
+  }
+}
+```
+
+All classes extend `Anthropic.APIError` with a typed `status` field. Check from most specific to least specific. See [shared/error-codes.md](../../shared/error-codes.md) for the full error code reference.
+
+---
+
+## Multi-Turn Conversations
+
+The API is stateless — send the full conversation history each time. Use `Anthropic.MessageParam[]` to type the messages array:
+
+```typescript
+const messages: Anthropic.MessageParam[] = [
+  { role: "user", content: "My name is Alice." },
+  { role: "assistant", content: "Hello Alice! Nice to meet you." },
+  { role: "user", content: "What's my name?" },
+];
+
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  messages: messages,
+});
+```
+
+**Rules:**
+
+- Consecutive same-role messages are allowed — the API combines them into a single turn
+- First message must be `user`
+- Use SDK types (`Anthropic.MessageParam`, `Anthropic.Message`, `Anthropic.Tool`, etc.) for all API data structures — don't redefine equivalent interfaces
+
+---
+
+### Compaction (long conversations)
+
+> **Beta, Opus 4.6 and Sonnet 4.6.** When conversations approach the 200K context window, compaction automatically summarizes earlier context server-side. The API returns a `compaction` block; you must pass it back on subsequent requests — append `response.content`, not just the text.
+
+```typescript
+import Anthropic from "@anthropic-ai/sdk";
+
+const client = new Anthropic();
+const messages: Anthropic.Beta.BetaMessageParam[] = [];
+
+async function chat(userMessage: string): Promise<string> {
+  messages.push({ role: "user", content: userMessage });
+
+  const response = await client.beta.messages.create({
+    betas: ["compact-2026-01-12"],
+    model: "claude-opus-4-6",
+    max_tokens: 16000,
+    messages,
+    context_management: {
+      edits: [{ type: "compact_20260112" }],
+    },
+  });
+
+  // Append full content — compaction blocks must be preserved
+  messages.push({ role: "assistant", content: response.content });
+
+  const textBlock = response.content.find(
+    (b): b is Anthropic.Beta.BetaTextBlock => b.type === "text",
+  );
+  return textBlock?.text ?? "";
+}
+
+// Compaction triggers automatically when context grows large
+console.log(await chat("Help me build a Python web scraper"));
+console.log(await chat("Add support for JavaScript-rendered pages"));
+console.log(await chat("Now add rate limiting and error handling"));
+```
+
+---
+
+## Stop Reasons
+
+The `stop_reason` field in the response indicates why the model stopped generating:
+
+| Value           | Meaning                                                         |
+| --------------- | --------------------------------------------------------------- |
+| `end_turn`      | Claude finished its response naturally                          |
+| `max_tokens`    | Hit the `max_tokens` limit — increase it or use streaming       |
+| `stop_sequence` | Hit a custom stop sequence                                      |
+| `tool_use`      | Claude wants to call a tool — execute it and continue           |
+| `pause_turn`    | Model paused and can be resumed (agentic flows)                 |
+| `refusal`       | Claude refused for safety reasons — output may not match schema |
+
+---
+
+## Cost Optimization Strategies
+
+### 1. Use Prompt Caching for Repeated Context
+
+```typescript
+// Automatic caching (simplest — caches the last cacheable block)
+const response = await client.messages.create({
+  model: "claude-opus-4-6",
+  max_tokens: 16000,
+  cache_control: { type: "ephemeral" },
+  system: largeDocumentText, // e.g., 50KB of context
+  messages: [{ role: "user", content: "Summarize the key points" }],
+});
+
+// First request: full cost
+// Subsequent requests: ~90% cheaper for cached portion
+```
+
+### 2. Use Token Counting Before Requests
+
+```typescript
+const countResponse = await client.messages.countTokens({
+  model: "claude-opus-4-6",
+  messages: messages,
+  system: system,
+});
+
+const estimatedInputCost = countResponse.input_tokens * 0.000005; // $5/1M tokens
+console.log(`Estimated input cost: $${estimatedInputCost.toFixed(4)}`);
+```

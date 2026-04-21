@@ -1,1 +1,68 @@
-IyBDSVAgRGVzaWduIFN0eWxlIEd1aWRlCgojIyBDb3Jwb3JhdGUgTWluaW1hbAoqKkluZHVzdHJpZXM6KiogRmluYW5jZSwgTGVnYWwsIENvbnN1bHRpbmcsIFRlY2gKKipDb2xvcnM6KiogTmF2eSAoIzBGMTcyQSksIFdoaXRlICgjRkZGRkZGKSwgQmx1ZSBhY2NlbnRzCioqVHlwb2dyYXBoeToqKiBDbGVhbiBzYW5zLXNlcmlmIChJbnRlciwgSGVsdmV0aWNhKQoqKk1hdGVyaWFsczoqKiBQcmVtaXVtIG1hdHRlIHBhcGVyLCBzdWJ0bGUgdGV4dHVyZXMKKipGaW5pc2hlczoqKiBNYXR0ZSwgc3BvdCBVViBvbiBsb2dvCgojIyBNb2Rlcm4gVGVjaAoqKkluZHVzdHJpZXM6KiogVGVjaCwgU2FhUywgU3RhcnR1cHMsIEFJCioqQ29sb3JzOioqIFB1cnBsZSAoIzYzNjZGMSksIEN5YW4gKCMwRUE1RTkpLCBHcmVlbiAoIzEwQjk4MSkKKipUeXBvZ3JhcGh5OioqIEdlb21ldHJpYyBzYW5zIChPdXRmaXQsIFBvcHBpbnMpCioqTWF0ZXJpYWxzOioqIFNtb290aCBzdXJmYWNlcywgZ3JhZGllbnQgcHJpbnRzCioqRmluaXNoZXM6KiogR2xvc3MsIG1ldGFsbGljIGFjY2VudHMKCiMjIEx1eHVyeSBQcmVtaXVtCioqSW5kdXN0cmllczoqKiBGYXNoaW9uLCBKZXdlbHJ5LCBIb3RlbHMsIEZpbmUgRGluaW5nCioqQ29sb3JzOioqIEJsYWNrICgjMUMxOTE3KSwgR29sZCAoI0Q0QUYzNyksIFdoaXRlCioqVHlwb2dyYXBoeToqKiBFbGVnYW50IHNlcmlmIChQbGF5ZmFpciksIHRoaW4gc2FucwoqKk1hdGVyaWFsczoqKiBIZWF2eSBjb3R0b24gcGFwZXIsIGxlYXRoZXIsIG1ldGFsCioqRmluaXNoZXM6KiogR29sZCBmb2lsLCBlbWJvc3MsIGRlYm9zcywgc29mdC10b3VjaAoKIyMgQ2xhc3NpYyBUcmFkaXRpb25hbAoqKkluZHVzdHJpZXM6KiogTGF3IEZpcm1zLCBIZXJpdGFnZSBCcmFuZHMsIEZpbmFuY2UKKipDb2xvcnM6KiogTmF2eSwgQnVyZ3VuZHksIEdvbGQKKipUeXBvZ3JhcGh5OioqIFRyYWRpdGlvbmFsIHNlcmlmIChUaW1lcywgR2FyYW1vbmQpCioqTWF0ZXJpYWxzOioqIFF1YWxpdHkgbGFpZCBwYXBlciwgd29vZAoqKkZpbmlzaGVzOioqIExldHRlcnByZXNzLCBnb2xkIGVtYm9zcwoKIyMgV2FybSBPcmdhbmljCioqSW5kdXN0cmllczoqKiBGb29kLCBPcmdhbmljLCBXZWxsbmVzcywgQ3JhZnQKKipDb2xvcnM6KiogQnJvd24gKCM4QjQ1MTMpLCBHcmVlbiAoIzIyOEIyMiksIENyZWFtCioqVHlwb2dyYXBoeToqKiBGcmllbmRseSBzZXJpZiwgb3JnYW5pYyBzY3JpcHQKKipNYXRlcmlhbHM6KiogS3JhZnQgcGFwZXIsIHJlY3ljbGVkIG1hdGVyaWFscwoqKkZpbmlzaGVzOioqIFVuY29hdGVkLCBuYXR1cmFsIHRleHR1cmVzCgojIyBCb2xkIER5bmFtaWMKKipJbmR1c3RyaWVzOioqIFNwb3J0cywgRW50ZXJ0YWlubWVudCwgR2FtaW5nCioqQ29sb3JzOioqIFJlZCAoI0RDMjYyNiksIE9yYW5nZSAoI0Y5NzMxNiksIEJsYWNrCioqVHlwb2dyYXBoeToqKiBCb2xkIGNvbmRlbnNlZCBzYW5zCioqTWF0ZXJpYWxzOioqIEhpZ2gtY29udHJhc3QsIG1ldGFsbGljCioqRmluaXNoZXM6KiogR2xvc3MsIHZpYnJhbnQgY29sb3JzCgojIyBGcmVzaCBNb2Rlcm4KKipJbmR1c3RyaWVzOioqIEhlYWx0aGNhcmUsIFdlbGxuZXNzLCBGaW50ZWNoCioqQ29sb3JzOioqIE1pbnQgKCMxMEI5ODEpLCBTa3kgKCMwRUE1RTkpLCBXaGl0ZQoqKlR5cG9ncmFwaHk6KiogTW9kZXJuIHJvdW5kZWQgc2FucwoqKk1hdGVyaWFsczoqKiBMaWdodCwgY2xlYW4gc3VyZmFjZXMKKipGaW5pc2hlczoqKiBNYXR0ZSwgY2xlYW4gbWluaW1hbAoKIyMgU29mdCBFbGVnYW50CioqSW5kdXN0cmllczoqKiBCZWF1dHksIFdlZGRpbmcsIFNwYSwgRmFzaGlvbgoqKkNvbG9yczoqKiBQaW5rICgjRjQ3MkI2KSwgR29sZCwgV2hpdGUKKipUeXBvZ3JhcGh5OioqIEVsZWdhbnQgc2NyaXB0LCB0aGluIHNhbnMKKipNYXRlcmlhbHM6KiogU29mdC10b3VjaCwgcXVhbGl0eSBwYXBlcgoqKkZpbmlzaGVzOioqIFJvc2UgZ29sZCBmb2lsLCBlbWJvc3MKCiMjIENvbG9yIFBzeWNob2xvZ3kKCnwgQ29sb3IgfCBNZWFuaW5nIHwgQmVzdCBVc2UgfAp8LS0tLS0tLXwtLS0tLS0tLS18LS0tLS0tLS0tLXwKfCBCbHVlIHwgVHJ1c3QsIHN0YWJpbGl0eSB8IEZpbmFuY2UsIFRlY2gsIEhlYWx0aGNhcmUgfAp8IEdyZWVuIHwgR3Jvd3RoLCBuYXR1cmUgfCBFY28sIFdlbGxuZXNzLCBPcmdhbmljIHwKfCBHb2xkIHwgTHV4dXJ5LCBwcmVzdGlnZSB8IFByZW1pdW0sIEpld2VscnkgfAp8IFJlZCB8IEVuZXJneSwgcGFzc2lvbiB8IEZvb2QsIFNwb3J0cyB8CnwgQmxhY2sgfCBTb3BoaXN0aWNhdGlvbiB8IEx1eHVyeSwgRmFzaGlvbiB8CnwgV2hpdGUgfCBDbGVhbiwgbWluaW1hbCB8IFRlY2gsIEhlYWx0aGNhcmUgfAo=
+# CIP Design Style Guide
+
+## Corporate Minimal
+**Industries:** Finance, Legal, Consulting, Tech
+**Colors:** Navy (#0F172A), White (#FFFFFF), Blue accents
+**Typography:** Clean sans-serif (Inter, Helvetica)
+**Materials:** Premium matte paper, subtle textures
+**Finishes:** Matte, spot UV on logo
+
+## Modern Tech
+**Industries:** Tech, SaaS, Startups, AI
+**Colors:** Purple (#6366F1), Cyan (#0EA5E9), Green (#10B981)
+**Typography:** Geometric sans (Outfit, Poppins)
+**Materials:** Smooth surfaces, gradient prints
+**Finishes:** Gloss, metallic accents
+
+## Luxury Premium
+**Industries:** Fashion, Jewelry, Hotels, Fine Dining
+**Colors:** Black (#1C1917), Gold (#D4AF37), White
+**Typography:** Elegant serif (Playfair), thin sans
+**Materials:** Heavy cotton paper, leather, metal
+**Finishes:** Gold foil, emboss, deboss, soft-touch
+
+## Classic Traditional
+**Industries:** Law Firms, Heritage Brands, Finance
+**Colors:** Navy, Burgundy, Gold
+**Typography:** Traditional serif (Times, Garamond)
+**Materials:** Quality laid paper, wood
+**Finishes:** Letterpress, gold emboss
+
+## Warm Organic
+**Industries:** Food, Organic, Wellness, Craft
+**Colors:** Brown (#8B4513), Green (#228B22), Cream
+**Typography:** Friendly serif, organic script
+**Materials:** Kraft paper, recycled materials
+**Finishes:** Uncoated, natural textures
+
+## Bold Dynamic
+**Industries:** Sports, Entertainment, Gaming
+**Colors:** Red (#DC2626), Orange (#F97316), Black
+**Typography:** Bold condensed sans
+**Materials:** High-contrast, metallic
+**Finishes:** Gloss, vibrant colors
+
+## Fresh Modern
+**Industries:** Healthcare, Wellness, Fintech
+**Colors:** Mint (#10B981), Sky (#0EA5E9), White
+**Typography:** Modern rounded sans
+**Materials:** Light, clean surfaces
+**Finishes:** Matte, clean minimal
+
+## Soft Elegant
+**Industries:** Beauty, Wedding, Spa, Fashion
+**Colors:** Pink (#F472B6), Gold, White
+**Typography:** Elegant script, thin sans
+**Materials:** Soft-touch, quality paper
+**Finishes:** Rose gold foil, emboss
+
+## Color Psychology
+
+| Color | Meaning | Best Use |
+|-------|---------|----------|
+| Blue | Trust, stability | Finance, Tech, Healthcare |
+| Green | Growth, nature | Eco, Wellness, Organic |
+| Gold | Luxury, prestige | Premium, Jewelry |
+| Red | Energy, passion | Food, Sports |
+| Black | Sophistication | Luxury, Fashion |
+| White | Clean, minimal | Tech, Healthcare |

@@ -1,1 +1,84 @@
-IyBDb3B5d3JpdGluZyBGb3JtdWxhcwoKMjUgZm9ybXVsYXMgZm9yIHBlcnN1YXNpdmUgc2xpZGUgY29weS4KCiMjIENvcmUgRm9ybXVsYXMKCiMjIyBQQVMgKFByb2JsZW0tQWdpdGF0ZS1Tb2x1dGlvbikKKipVc2U6KiogUHJvYmxlbSBzbGlkZXMsIHBhaW4gcG9pbnRzCioqQ29tcG9uZW50czoqKiBQcm9ibGVtIOKGkiBBZ2l0YXRlIOKGkiBTb2x1dGlvbgoqKlRlbXBsYXRlOioqICJbUGFpbiBwb2ludF0/IEV2ZXJ5IFt0aW1lIGZyYW1lXSwgW2NvbnNlcXVlbmNlXS4gW1NvbHV0aW9uXSBmaXhlcyB0aGlzLiIKCiMjIyBBSURBIChBdHRlbnRpb24tSW50ZXJlc3QtRGVzaXJlLUFjdGlvbikKKipVc2U6KiogQ1RBcywgY2xvc2luZyBzbGlkZXMKKipDb21wb25lbnRzOioqIEF0dGVudGlvbiDihpIgSW50ZXJlc3Qg4oaSIERlc2lyZSDihpIgQWN0aW9uCioqVGVtcGxhdGU6KiogIltCb2xkIHN0YXRlbWVudF0uIFtCZW5lZml0IGRldGFpbF0uIFtTb2NpYWwgcHJvb2ZdLiBbQ1RBXS4iCgojIyMgRkFCIChGZWF0dXJlcy1BZHZhbnRhZ2VzLUJlbmVmaXRzKQoqKlVzZToqKiBGZWF0dXJlIHNsaWRlcywgcHJvZHVjdCBzaG93Y2FzZXMKKipDb21wb25lbnRzOioqIEZlYXR1cmUg4oaSIEFkdmFudGFnZSDihpIgQmVuZWZpdAoqKlRlbXBsYXRlOioqICJbRmVhdHVyZV0gbGV0cyB5b3UgW2FkdmFudGFnZV0sIHNvIHlvdSBjYW4gW2JlbmVmaXRdLiIKCiMjIyBDb3N0IG9mIEluYWN0aW9uCioqVXNlOioqIEFnaXRhdGlvbiBzbGlkZXMsIHVyZ2VuY3kKKipDb21wb25lbnRzOioqIFN0YXR1cyBRdW8g4oaSIExvc3Mg4oaSIFRpbWUgRGVjYXkKKipUZW1wbGF0ZToqKiAiV2l0aG91dCBbc29sdXRpb25dLCB5b3UncmUgbG9zaW5nIFthbW91bnRdIGV2ZXJ5IFt0aW1lZnJhbWVdLiIKCiMjIyBCZWZvcmUtQWZ0ZXItQnJpZGdlCioqVXNlOioqIFRyYW5zZm9ybWF0aW9uIHNsaWRlcywgY2FzZSBzdHVkaWVzCioqQ29tcG9uZW50czoqKiBCZWZvcmUg4oaSIEFmdGVyIOKGkiBCcmlkZ2UKKipUZW1wbGF0ZToqKiAiW1BhaW4gcG9pbnQgYmVmb3JlXS4gW0Rlc2lyZWQgc3RhdGUgYWZ0ZXJdLiBbWW91ciBzb2x1dGlvbl0gaXMgdGhlIGJyaWRnZS4iCgojIyBGb3JtdWxhLXRvLVNsaWRlIE1hcHBpbmcKCnwgU2xpZGUgVHlwZSB8IFByaW1hcnkgRm9ybXVsYSB8IEVtb3Rpb24gfAp8LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLXwKfCBUaXRsZS9Ib29rIHwgQUlEQSwgSG9vayB8IGN1cmlvc2l0eSB8CnwgUHJvYmxlbSB8IFBBUywgQWdpdGF0ZSB8IGZydXN0cmF0aW9uIHwKfCBDb3N0L1Jpc2sgfCBDb3N0IG9mIEluYWN0aW9uIHwgZmVhciB8CnwgU29sdXRpb24gfCBGQUIsIEJBQiB8IGhvcGUgfAp8IEZlYXR1cmVzIHwgRkFCIHwgY29uZmlkZW5jZSB8CnwgVHJhY3Rpb24gfCBQcm9vZiBTdGFjayB8IHRydXN0IHwKfCBTb2NpYWwgUHJvb2YgfCBUZXN0aW1vbmlhbCB8IHRydXN0IHwKfCBQcmljaW5nIHwgVmFsdWUgU3RhY2sgfCBjb25maWRlbmNlIHwKfCBDVEEgfCBBSURBLCBVcmdlbmN5IHwgdXJnZW5jeSB8CgojIyBIZWFkbGluZSBQYXR0ZXJucwoKIyMjIFBvd2VyIFdvcmRzCi0gIlN0b3AgW2JhZCB0aGluZ10iCi0gIkdldCBbZGVzaXJlZCByZXN1bHRdIGluIFt0aW1lZnJhbWVdIgotICJUaGUgW2FkamVjdGl2ZV0gd2F5IHRvIFthY3Rpb25dIgotICJXaHkgW2F1ZGllbmNlXSBjaG9vc2UgW3Byb2R1Y3RdIgotICJbTnVtYmVyXSB3YXlzIHRvIFthY2hpZXZlIGdvYWxdIgoKIyMjIENvbnRyYXN0IFBhdHRlcm5zCi0gIltPbGQgd2F5XSBpcyBkZWFkLiBNZWV0IFtuZXcgd2F5XS4iCi0gIkRvbid0IFtiYWQgYWN0aW9uXS4gSW5zdGVhZCwgW2dvb2QgYWN0aW9uXS4iCi0gIkZyb20gW3BhaW4gcG9pbnRdIHRvIFtiZW5lZml0XS4iCgojIyMgU29jaWFsIFByb29mIFBhdHRlcm5zCi0gIltOdW1iZXJdKyBbdXNlcnMvY29tcGFuaWVzXSB0cnVzdCBbcHJvZHVjdF0iCi0gIkpvaW4gW25vdGFibGUgY29tcGFueV0gYW5kIFtub3RhYmxlIGNvbXBhbnldIgotICJBcyBzZWVuIGluIFtwdWJsaWNhdGlvbl0iCgojIyBTZWFyY2ggQ29tbWFuZHMKCmBgYGJhc2gKIyBGaW5kIGZvcm11bGEgZm9yIHNsaWRlIHR5cGUKcHl0aG9uIC5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi1zeXN0ZW0vc2NyaXB0cy9zZWFyY2gtc2xpZGVzLnB5ICJwcm9ibGVtIGFnaXRhdGlvbiIgLWQgY29weQoKIyBHZXQgZW1vdGlvbi1hcHByb3ByaWF0ZSBmb3JtdWxhCnB5dGhvbiAuY2xhdWRlL3NraWxscy9kZXNpZ24tc3lzdGVtL3NjcmlwdHMvc2VhcmNoLXNsaWRlcy5weSAidXJnZW5jeSBjdGEiIC1kIGNvcHkKYGBgCgojIyBRdWljayBSZWZlcmVuY2UKCnwgTmVlZCB8IFVzZSBGb3JtdWxhIHwKfC0tLS0tLXwtLS0tLS0tLS0tLS18CnwgQ3JlYXRlIHVyZ2VuY3kgfCBDb3N0IG9mIEluYWN0aW9uLCBTY2FyY2l0eSB8CnwgQnVpbGQgdHJ1c3QgfCBTb2NpYWwgUHJvb2YsIFRlc3RpbW9uaWFsIHwKfCBTaG93IHZhbHVlIHwgRkFCLCBWYWx1ZSBTdGFjayB8CnwgRHJpdmUgYWN0aW9uIHwgQUlEQSwgQ1RBIHwKfCBUZWxsIHN0b3J5IHwgQkFCLCBTdG9yeSBBcmMgfAp8IFByZXNlbnQgZGF0YSB8IFByb29mIFN0YWNrIHwK
+# Copywriting Formulas
+
+25 formulas for persuasive slide copy.
+
+## Core Formulas
+
+### PAS (Problem-Agitate-Solution)
+**Use:** Problem slides, pain points
+**Components:** Problem → Agitate → Solution
+**Template:** "[Pain point]? Every [time frame], [consequence]. [Solution] fixes this."
+
+### AIDA (Attention-Interest-Desire-Action)
+**Use:** CTAs, closing slides
+**Components:** Attention → Interest → Desire → Action
+**Template:** "[Bold statement]. [Benefit detail]. [Social proof]. [CTA]."
+
+### FAB (Features-Advantages-Benefits)
+**Use:** Feature slides, product showcases
+**Components:** Feature → Advantage → Benefit
+**Template:** "[Feature] lets you [advantage], so you can [benefit]."
+
+### Cost of Inaction
+**Use:** Agitation slides, urgency
+**Components:** Status Quo → Loss → Time Decay
+**Template:** "Without [solution], you're losing [amount] every [timeframe]."
+
+### Before-After-Bridge
+**Use:** Transformation slides, case studies
+**Components:** Before → After → Bridge
+**Template:** "[Pain point before]. [Desired state after]. [Your solution] is the bridge."
+
+## Formula-to-Slide Mapping
+
+| Slide Type | Primary Formula | Emotion |
+|------------|-----------------|---------|
+| Title/Hook | AIDA, Hook | curiosity |
+| Problem | PAS, Agitate | frustration |
+| Cost/Risk | Cost of Inaction | fear |
+| Solution | FAB, BAB | hope |
+| Features | FAB | confidence |
+| Traction | Proof Stack | trust |
+| Social Proof | Testimonial | trust |
+| Pricing | Value Stack | confidence |
+| CTA | AIDA, Urgency | urgency |
+
+## Headline Patterns
+
+### Power Words
+- "Stop [bad thing]"
+- "Get [desired result] in [timeframe]"
+- "The [adjective] way to [action]"
+- "Why [audience] choose [product]"
+- "[Number] ways to [achieve goal]"
+
+### Contrast Patterns
+- "[Old way] is dead. Meet [new way]."
+- "Don't [bad action]. Instead, [good action]."
+- "From [pain point] to [benefit]."
+
+### Social Proof Patterns
+- "[Number]+ [users/companies] trust [product]"
+- "Join [notable company] and [notable company]"
+- "As seen in [publication]"
+
+## Search Commands
+
+```bash
+# Find formula for slide type
+python .claude/skills/design-system/scripts/search-slides.py "problem agitation" -d copy
+
+# Get emotion-appropriate formula
+python .claude/skills/design-system/scripts/search-slides.py "urgency cta" -d copy
+```
+
+## Quick Reference
+
+| Need | Use Formula |
+|------|------------|
+| Create urgency | Cost of Inaction, Scarcity |
+| Build trust | Social Proof, Testimonial |
+| Show value | FAB, Value Stack |
+| Drive action | AIDA, CTA |
+| Tell story | BAB, Story Arc |
+| Present data | Proof Stack |

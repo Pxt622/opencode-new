@@ -1,1 +1,590 @@
-IyBUb29sIFVzZSDigJQgUHl0aG9uCgpGb3IgY29uY2VwdHVhbCBvdmVydmlldyAodG9vbCBkZWZpbml0aW9ucywgdG9vbCBjaG9pY2UsIHRpcHMpLCBzZWUgW3NoYXJlZC90b29sLXVzZS1jb25jZXB0cy5tZF0oLi4vLi4vc2hhcmVkL3Rvb2wtdXNlLWNvbmNlcHRzLm1kKS4KCiMjIFRvb2wgUnVubmVyIChSZWNvbW1lbmRlZCkKCioqQmV0YToqKiBUaGUgdG9vbCBydW5uZXIgaXMgaW4gYmV0YSBpbiB0aGUgUHl0aG9uIFNESy4KClVzZSB0aGUgYEBiZXRhX3Rvb2xgIGRlY29yYXRvciB0byBkZWZpbmUgdG9vbHMgYXMgdHlwZWQgZnVuY3Rpb25zLCB0aGVuIHBhc3MgdGhlbSB0byBgY2xpZW50LmJldGEubWVzc2FnZXMudG9vbF9ydW5uZXIoKWA6CgpgYGBweXRob24KaW1wb3J0IGFudGhyb3BpYwpmcm9tIGFudGhyb3BpYyBpbXBvcnQgYmV0YV90b29sCgpjbGllbnQgPSBhbnRocm9waWMuQW50aHJvcGljKCkKCkBiZXRhX3Rvb2wKZGVmIGdldF93ZWF0aGVyKGxvY2F0aW9uOiBzdHIsIHVuaXQ6IHN0ciA9ICJjZWxzaXVzIikgLT4gc3RyOgogICAgIiIiR2V0IGN1cnJlbnQgd2VhdGhlciBmb3IgYSBsb2NhdGlvbi4KCiAgICBBcmdzOgogICAgICAgIGxvY2F0aW9uOiBDaXR5IGFuZCBzdGF0ZSwgZS5nLiwgU2FuIEZyYW5jaXNjbywgQ0EuCiAgICAgICAgdW5pdDogVGVtcGVyYXR1cmUgdW5pdCwgZWl0aGVyICJjZWxzaXVzIiBvciAiZmFocmVuaGVpdCIuCiAgICAiIiIKICAgICMgWW91ciBpbXBsZW1lbnRhdGlvbiBoZXJlCiAgICByZXR1cm4gZiI3MsKwRiBhbmQgc3VubnkgaW4ge2xvY2F0aW9ufSIKCiMgVGhlIHRvb2wgcnVubmVyIGhhbmRsZXMgdGhlIGFnZW50aWMgbG9vcCBhdXRvbWF0aWNhbGx5CnJ1bm5lciA9IGNsaWVudC5iZXRhLm1lc3NhZ2VzLnRvb2xfcnVubmVyKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgdG9vbHM9W2dldF93ZWF0aGVyXSwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIldoYXQncyB0aGUgd2VhdGhlciBpbiBQYXJpcz8ifV0sCikKCiMgRWFjaCBpdGVyYXRpb24geWllbGRzIGEgQmV0YU1lc3NhZ2U7IGl0ZXJhdGlvbiBzdG9wcyB3aGVuIENsYXVkZSBpcyBkb25lCmZvciBtZXNzYWdlIGluIHJ1bm5lcjoKICAgIHByaW50KG1lc3NhZ2UpCmBgYAoKRm9yIGFzeW5jIHVzYWdlLCB1c2UgYEBiZXRhX2FzeW5jX3Rvb2xgIHdpdGggYGFzeW5jIGRlZmAgZnVuY3Rpb25zLgoKKipLZXkgYmVuZWZpdHMgb2YgdGhlIHRvb2wgcnVubmVyOioqCgotIE5vIG1hbnVhbCBsb29wIOKAlCB0aGUgU0RLIGhhbmRsZXMgY2FsbGluZyB0b29scyBhbmQgZmVlZGluZyByZXN1bHRzIGJhY2sKLSBUeXBlLXNhZmUgdG9vbCBpbnB1dHMgdmlhIGRlY29yYXRvcnMKLSBUb29sIHNjaGVtYXMgYXJlIGdlbmVyYXRlZCBhdXRvbWF0aWNhbGx5IGZyb20gZnVuY3Rpb24gc2lnbmF0dXJlcwotIEl0ZXJhdGlvbiBzdG9wcyBhdXRvbWF0aWNhbGx5IHdoZW4gQ2xhdWRlIGhhcyBubyBtb3JlIHRvb2wgY2FsbHMKCi0tLQoKIyMgTUNQIFRvb2wgQ29udmVyc2lvbiBIZWxwZXJzCgoqKkJldGEuKiogQ29udmVydCBbTUNQIChNb2RlbCBDb250ZXh0IFByb3RvY29sKV0oaHR0cHM6Ly9tb2RlbGNvbnRleHRwcm90b2NvbC5pby8pIHRvb2xzLCBwcm9tcHRzLCBhbmQgcmVzb3VyY2VzIHRvIEFudGhyb3BpYyBBUEkgdHlwZXMgZm9yIHVzZSB3aXRoIHRoZSB0b29sIHJ1bm5lci4gUmVxdWlyZXMgYHBpcCBpbnN0YWxsIGFudGhyb3BpY1ttY3BdYCAoUHl0aG9uIDMuMTArKS4KCj4gKipOb3RlOioqIFRoZSBDbGF1ZGUgQVBJIGFsc28gc3VwcG9ydHMgYW4gYG1jcF9zZXJ2ZXJzYCBwYXJhbWV0ZXIgdGhhdCBsZXRzIENsYXVkZSBjb25uZWN0IGRpcmVjdGx5IHRvIHJlbW90ZSBNQ1Agc2VydmVycy4gVXNlIHRoZXNlIGhlbHBlcnMgaW5zdGVhZCB3aGVuIHlvdSBuZWVkIGxvY2FsIE1DUCBzZXJ2ZXJzLCBwcm9tcHRzLCByZXNvdXJjZXMsIG9yIG1vcmUgY29udHJvbCBvdmVyIHRoZSBNQ1AgY29ubmVjdGlvbi4KCiMjIyBNQ1AgVG9vbHMgd2l0aCBUb29sIFJ1bm5lcgoKYGBgcHl0aG9uCmZyb20gYW50aHJvcGljIGltcG9ydCBBc3luY0FudGhyb3BpYwpmcm9tIGFudGhyb3BpYy5saWIudG9vbHMubWNwIGltcG9ydCBhc3luY19tY3BfdG9vbApmcm9tIG1jcCBpbXBvcnQgQ2xpZW50U2Vzc2lvbgpmcm9tIG1jcC5jbGllbnQuc3RkaW8gaW1wb3J0IHN0ZGlvX2NsaWVudCwgU3RkaW9TZXJ2ZXJQYXJhbWV0ZXJzCgpjbGllbnQgPSBBc3luY0FudGhyb3BpYygpCgphc3luYyB3aXRoIHN0ZGlvX2NsaWVudChTdGRpb1NlcnZlclBhcmFtZXRlcnMoY29tbWFuZD0ibWNwLXNlcnZlciIpKSBhcyAocmVhZCwgd3JpdGUpOgogICAgYXN5bmMgd2l0aCBDbGllbnRTZXNzaW9uKHJlYWQsIHdyaXRlKSBhcyBtY3BfY2xpZW50OgogICAgICAgIGF3YWl0IG1jcF9jbGllbnQuaW5pdGlhbGl6ZSgpCgogICAgICAgIHRvb2xzX3Jlc3VsdCA9IGF3YWl0IG1jcF9jbGllbnQubGlzdF90b29scygpCiAgICAgICAgIyB0b29sX3J1bm5lciBpcyBzeW5jIOKAlCByZXR1cm5zIHRoZSBydW5uZXIsIG5vdCBhIGNvcm91dGluZQogICAgICAgIHJ1bm5lciA9IGNsaWVudC5iZXRhLm1lc3NhZ2VzLnRvb2xfcnVubmVyKAogICAgICAgICAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgICAgICAgICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgICAgICAgICAgbWVzc2FnZXM9W3sicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiAiVXNlIHRoZSBhdmFpbGFibGUgdG9vbHMifV0sCiAgICAgICAgICAgIHRvb2xzPVthc3luY19tY3BfdG9vbCh0LCBtY3BfY2xpZW50KSBmb3IgdCBpbiB0b29sc19yZXN1bHQudG9vbHNdLAogICAgICAgICkKICAgICAgICBhc3luYyBmb3IgbWVzc2FnZSBpbiBydW5uZXI6CiAgICAgICAgICAgIHByaW50KG1lc3NhZ2UpCmBgYAoKRm9yIHN5bmMgdXNhZ2UsIHVzZSBgbWNwX3Rvb2xgIGluc3RlYWQgb2YgYGFzeW5jX21jcF90b29sYC4KCiMjIyBNQ1AgUHJvbXB0cwoKYGBgcHl0aG9uCmZyb20gYW50aHJvcGljLmxpYi50b29scy5tY3AgaW1wb3J0IG1jcF9tZXNzYWdlCgpwcm9tcHQgPSBhd2FpdCBtY3BfY2xpZW50LmdldF9wcm9tcHQobmFtZT0ibXktcHJvbXB0IikKcmVzcG9uc2UgPSBhd2FpdCBjbGllbnQuYmV0YS5tZXNzYWdlcy5jcmVhdGUoCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICBtZXNzYWdlcz1bbWNwX21lc3NhZ2UobSkgZm9yIG0gaW4gcHJvbXB0Lm1lc3NhZ2VzXSwKKQpgYGAKCiMjIyBNQ1AgUmVzb3VyY2VzIGFzIENvbnRlbnQKCmBgYHB5dGhvbgpmcm9tIGFudGhyb3BpYy5saWIudG9vbHMubWNwIGltcG9ydCBtY3BfcmVzb3VyY2VfdG9fY29udGVudAoKcmVzb3VyY2UgPSBhd2FpdCBtY3BfY2xpZW50LnJlYWRfcmVzb3VyY2UodXJpPSJmaWxlOi8vL3BhdGgvdG8vZG9jLnR4dCIpCnJlc3BvbnNlID0gYXdhaXQgY2xpZW50LmJldGEubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgbWVzc2FnZXM9W3sKICAgICAgICAicm9sZSI6ICJ1c2VyIiwKICAgICAgICAiY29udGVudCI6IFsKICAgICAgICAgICAgbWNwX3Jlc291cmNlX3RvX2NvbnRlbnQocmVzb3VyY2UpLAogICAgICAgICAgICB7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogIlN1bW1hcml6ZSB0aGlzIGRvY3VtZW50In0sCiAgICAgICAgXSwKICAgIH1dLAopCmBgYAoKIyMjIFVwbG9hZCBNQ1AgUmVzb3VyY2VzIGFzIEZpbGVzCgpgYGBweXRob24KZnJvbSBhbnRocm9waWMubGliLnRvb2xzLm1jcCBpbXBvcnQgbWNwX3Jlc291cmNlX3RvX2ZpbGUKCnJlc291cmNlID0gYXdhaXQgbWNwX2NsaWVudC5yZWFkX3Jlc291cmNlKHVyaT0iZmlsZTovLy9wYXRoL3RvL2RhdGEuanNvbiIpCnVwbG9hZGVkID0gYXdhaXQgY2xpZW50LmJldGEuZmlsZXMudXBsb2FkKGZpbGU9bWNwX3Jlc291cmNlX3RvX2ZpbGUocmVzb3VyY2UpKQpgYGAKCkNvbnZlcnNpb24gZnVuY3Rpb25zIHJhaXNlIGBVbnN1cHBvcnRlZE1DUFZhbHVlRXJyb3JgIGlmIGFuIE1DUCB2YWx1ZSBjYW5ub3QgYmUgY29udmVydGVkIChlLmcuLCB1bnN1cHBvcnRlZCBjb250ZW50IHR5cGVzIGxpa2UgYXVkaW8sIHVuc3VwcG9ydGVkIE1JTUUgdHlwZXMpLgoKLS0tCgojIyBNYW51YWwgQWdlbnRpYyBMb29wCgpVc2UgdGhpcyB3aGVuIHlvdSBuZWVkIGZpbmUtZ3JhaW5lZCBjb250cm9sIG92ZXIgdGhlIGxvb3AgKGUuZy4sIGN1c3RvbSBsb2dnaW5nLCBjb25kaXRpb25hbCB0b29sIGV4ZWN1dGlvbiwgaHVtYW4taW4tdGhlLWxvb3AgYXBwcm92YWwpOgoKYGBgcHl0aG9uCmltcG9ydCBhbnRocm9waWMKCmNsaWVudCA9IGFudGhyb3BpYy5BbnRocm9waWMoKQp0b29scyA9IFsuLi5dICAjIFlvdXIgdG9vbCBkZWZpbml0aW9ucwptZXNzYWdlcyA9IFt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogdXNlcl9pbnB1dH1dCgojIEFnZW50aWMgbG9vcDoga2VlcCBnb2luZyB1bnRpbCBDbGF1ZGUgc3RvcHMgY2FsbGluZyB0b29scwp3aGlsZSBUcnVlOgogICAgcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICAgICAgdG9vbHM9dG9vbHMsCiAgICAgICAgbWVzc2FnZXM9bWVzc2FnZXMKICAgICkKCiAgICAjIElmIENsYXVkZSBpcyBkb25lIChubyBtb3JlIHRvb2wgY2FsbHMpLCBicmVhawogICAgaWYgcmVzcG9uc2Uuc3RvcF9yZWFzb24gPT0gImVuZF90dXJuIjoKICAgICAgICBicmVhawoKICAgICMgU2VydmVyLXNpZGUgdG9vbCBoaXQgaXRlcmF0aW9uIGxpbWl0OyByZS1zZW5kIHRvIGNvbnRpbnVlCiAgICBpZiByZXNwb25zZS5zdG9wX3JlYXNvbiA9PSAicGF1c2VfdHVybiI6CiAgICAgICAgbWVzc2FnZXMgPSBbCiAgICAgICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiB1c2VyX2lucHV0fSwKICAgICAgICAgICAgeyJyb2xlIjogImFzc2lzdGFudCIsICJjb250ZW50IjogcmVzcG9uc2UuY29udGVudH0sCiAgICAgICAgXQogICAgICAgIGNvbnRpbnVlCgogICAgIyBFeHRyYWN0IHRvb2wgdXNlIGJsb2NrcyBmcm9tIHRoZSByZXNwb25zZQogICAgdG9vbF91c2VfYmxvY2tzID0gW2IgZm9yIGIgaW4gcmVzcG9uc2UuY29udGVudCBpZiBiLnR5cGUgPT0gInRvb2xfdXNlIl0KCiAgICAjIEFwcGVuZCBhc3Npc3RhbnQncyByZXNwb25zZSAoaW5jbHVkaW5nIHRvb2xfdXNlIGJsb2NrcykKICAgIG1lc3NhZ2VzLmFwcGVuZCh7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiByZXNwb25zZS5jb250ZW50fSkKCiAgICAjIEV4ZWN1dGUgZWFjaCB0b29sIGFuZCBjb2xsZWN0IHJlc3VsdHMKICAgIHRvb2xfcmVzdWx0cyA9IFtdCiAgICBmb3IgdG9vbCBpbiB0b29sX3VzZV9ibG9ja3M6CiAgICAgICAgcmVzdWx0ID0gZXhlY3V0ZV90b29sKHRvb2wubmFtZSwgdG9vbC5pbnB1dCkgICMgWW91ciBpbXBsZW1lbnRhdGlvbgogICAgICAgIHRvb2xfcmVzdWx0cy5hcHBlbmQoewogICAgICAgICAgICAidHlwZSI6ICJ0b29sX3Jlc3VsdCIsCiAgICAgICAgICAgICJ0b29sX3VzZV9pZCI6IHRvb2wuaWQsICAjIE11c3QgbWF0Y2ggdGhlIHRvb2xfdXNlIGJsb2NrJ3MgaWQKICAgICAgICAgICAgImNvbnRlbnQiOiByZXN1bHQKICAgICAgICB9KQoKICAgICMgQXBwZW5kIHRvb2wgcmVzdWx0cyBhcyBhIHVzZXIgbWVzc2FnZQogICAgbWVzc2FnZXMuYXBwZW5kKHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiB0b29sX3Jlc3VsdHN9KQoKIyBGaW5hbCByZXNwb25zZSB0ZXh0CmZpbmFsX3RleHQgPSBuZXh0KGIudGV4dCBmb3IgYiBpbiByZXNwb25zZS5jb250ZW50IGlmIGIudHlwZSA9PSAidGV4dCIpCmBgYAoKLS0tCgojIyBIYW5kbGluZyBUb29sIFJlc3VsdHMKCmBgYHB5dGhvbgpyZXNwb25zZSA9IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICB0b29scz10b29scywKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIldoYXQncyB0aGUgd2VhdGhlciBpbiBQYXJpcz8ifV0KKQoKZm9yIGJsb2NrIGluIHJlc3BvbnNlLmNvbnRlbnQ6CiAgICBpZiBibG9jay50eXBlID09ICJ0b29sX3VzZSI6CiAgICAgICAgdG9vbF9uYW1lID0gYmxvY2submFtZQogICAgICAgIHRvb2xfaW5wdXQgPSBibG9jay5pbnB1dAogICAgICAgIHRvb2xfdXNlX2lkID0gYmxvY2suaWQKCiAgICAgICAgcmVzdWx0ID0gZXhlY3V0ZV90b29sKHRvb2xfbmFtZSwgdG9vbF9pbnB1dCkKCiAgICAgICAgZm9sbG93dXAgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgICAgICAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgICAgICAgICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgICAgICAgICAgdG9vbHM9dG9vbHMsCiAgICAgICAgICAgIG1lc3NhZ2VzPVsKICAgICAgICAgICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiAiV2hhdCdzIHRoZSB3ZWF0aGVyIGluIFBhcmlzPyJ9LAogICAgICAgICAgICAgICAgeyJyb2xlIjogImFzc2lzdGFudCIsICJjb250ZW50IjogcmVzcG9uc2UuY29udGVudH0sCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgInJvbGUiOiAidXNlciIsCiAgICAgICAgICAgICAgICAgICAgImNvbnRlbnQiOiBbewogICAgICAgICAgICAgICAgICAgICAgICAidHlwZSI6ICJ0b29sX3Jlc3VsdCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJ0b29sX3VzZV9pZCI6IHRvb2xfdXNlX2lkLAogICAgICAgICAgICAgICAgICAgICAgICAiY29udGVudCI6IHJlc3VsdAogICAgICAgICAgICAgICAgICAgIH1dCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIF0KICAgICAgICApCmBgYAoKLS0tCgojIyBNdWx0aXBsZSBUb29sIENhbGxzCgpgYGBweXRob24KdG9vbF9yZXN1bHRzID0gW10KCmZvciBibG9jayBpbiByZXNwb25zZS5jb250ZW50OgogICAgaWYgYmxvY2sudHlwZSA9PSAidG9vbF91c2UiOgogICAgICAgIHJlc3VsdCA9IGV4ZWN1dGVfdG9vbChibG9jay5uYW1lLCBibG9jay5pbnB1dCkKICAgICAgICB0b29sX3Jlc3VsdHMuYXBwZW5kKHsKICAgICAgICAgICAgInR5cGUiOiAidG9vbF9yZXN1bHQiLAogICAgICAgICAgICAidG9vbF91c2VfaWQiOiBibG9jay5pZCwKICAgICAgICAgICAgImNvbnRlbnQiOiByZXN1bHQKICAgICAgICB9KQoKIyBTZW5kIGFsbCByZXN1bHRzIGJhY2sgYXQgb25jZQppZiB0b29sX3Jlc3VsdHM6CiAgICBmb2xsb3d1cCA9IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoCiAgICAgICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICAgICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgICAgICB0b29scz10b29scywKICAgICAgICBtZXNzYWdlcz1bCiAgICAgICAgICAgICpwcmV2aW91c19tZXNzYWdlcywKICAgICAgICAgICAgeyJyb2xlIjogImFzc2lzdGFudCIsICJjb250ZW50IjogcmVzcG9uc2UuY29udGVudH0sCiAgICAgICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiB0b29sX3Jlc3VsdHN9CiAgICAgICAgXQogICAgKQpgYGAKCi0tLQoKIyMgRXJyb3IgSGFuZGxpbmcgaW4gVG9vbCBSZXN1bHRzCgpgYGBweXRob24KdG9vbF9yZXN1bHQgPSB7CiAgICAidHlwZSI6ICJ0b29sX3Jlc3VsdCIsCiAgICAidG9vbF91c2VfaWQiOiB0b29sX3VzZV9pZCwKICAgICJjb250ZW50IjogIkVycm9yOiBMb2NhdGlvbiAneHl6JyBub3QgZm91bmQuIFBsZWFzZSBwcm92aWRlIGEgdmFsaWQgY2l0eSBuYW1lLiIsCiAgICAiaXNfZXJyb3IiOiBUcnVlCn0KYGBgCgotLS0KCiMjIFRvb2wgQ2hvaWNlCgpgYGBweXRob24KcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgdG9vbHM9dG9vbHMsCiAgICB0b29sX2Nob2ljZT17InR5cGUiOiAidG9vbCIsICJuYW1lIjogImdldF93ZWF0aGVyIn0sICAjIEZvcmNlIHNwZWNpZmljIHRvb2wKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIldoYXQncyB0aGUgd2VhdGhlciBpbiBQYXJpcz8ifV0KKQpgYGAKCi0tLQoKIyMgQ29kZSBFeGVjdXRpb24KCiMjIyBCYXNpYyBVc2FnZQoKYGBgcHl0aG9uCmltcG9ydCBhbnRocm9waWMKCmNsaWVudCA9IGFudGhyb3BpYy5BbnRocm9waWMoKQoKcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgbWVzc2FnZXM9W3sKICAgICAgICAicm9sZSI6ICJ1c2VyIiwKICAgICAgICAiY29udGVudCI6ICJDYWxjdWxhdGUgdGhlIG1lYW4gYW5kIHN0YW5kYXJkIGRldmlhdGlvbiBvZiBbMSwgMiwgMywgNCwgNSwgNiwgNywgOCwgOSwgMTBdIgogICAgfV0sCiAgICB0b29scz1bewogICAgICAgICJ0eXBlIjogImNvZGVfZXhlY3V0aW9uXzIwMjYwMTIwIiwKICAgICAgICAibmFtZSI6ICJjb2RlX2V4ZWN1dGlvbiIKICAgIH1dCikKCmZvciBibG9jayBpbiByZXNwb25zZS5jb250ZW50OgogICAgaWYgYmxvY2sudHlwZSA9PSAidGV4dCI6CiAgICAgICAgcHJpbnQoYmxvY2sudGV4dCkKICAgIGVsaWYgYmxvY2sudHlwZSA9PSAiYmFzaF9jb2RlX2V4ZWN1dGlvbl90b29sX3Jlc3VsdCI6CiAgICAgICAgcHJpbnQoZiJzdGRvdXQ6IHtibG9jay5jb250ZW50LnN0ZG91dH0iKQpgYGAKCiMjIyBVcGxvYWQgRmlsZXMgZm9yIEFuYWx5c2lzCgpgYGBweXRob24KIyAxLiBVcGxvYWQgYSBmaWxlCnVwbG9hZGVkID0gY2xpZW50LmJldGEuZmlsZXMudXBsb2FkKGZpbGU9b3Blbigic2FsZXNfZGF0YS5jc3YiLCAicmIiKSkKCiMgMi4gUGFzcyB0byBjb2RlIGV4ZWN1dGlvbiB2aWEgY29udGFpbmVyX3VwbG9hZCBibG9jawojIENvZGUgZXhlY3V0aW9uIGlzIEdBOyBGaWxlcyBBUEkgaXMgc3RpbGwgYmV0YSAocGFzcyB2aWEgZXh0cmFfaGVhZGVycykKcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgZXh0cmFfaGVhZGVycz17ImFudGhyb3BpYy1iZXRhIjogImZpbGVzLWFwaS0yMDI1LTA0LTE0In0sCiAgICBtZXNzYWdlcz1bewogICAgICAgICJyb2xlIjogInVzZXIiLAogICAgICAgICJjb250ZW50IjogWwogICAgICAgICAgICB7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogIkFuYWx5emUgdGhpcyBzYWxlcyBkYXRhLiBTaG93IHRyZW5kcyBhbmQgY3JlYXRlIGEgdmlzdWFsaXphdGlvbi4ifSwKICAgICAgICAgICAgeyJ0eXBlIjogImNvbnRhaW5lcl91cGxvYWQiLCAiZmlsZV9pZCI6IHVwbG9hZGVkLmlkfQogICAgICAgIF0KICAgIH1dLAogICAgdG9vbHM9W3sidHlwZSI6ICJjb2RlX2V4ZWN1dGlvbl8yMDI2MDEyMCIsICJuYW1lIjogImNvZGVfZXhlY3V0aW9uIn1dCikKYGBgCgojIyMgUmV0cmlldmUgR2VuZXJhdGVkIEZpbGVzCgpgYGBweXRob24KaW1wb3J0IG9zCgpPVVRQVVRfRElSID0gIi4vY2xhdWRlX291dHB1dHMiCm9zLm1ha2VkaXJzKE9VVFBVVF9ESVIsIGV4aXN0X29rPVRydWUpCgpmb3IgYmxvY2sgaW4gcmVzcG9uc2UuY29udGVudDoKICAgIGlmIGJsb2NrLnR5cGUgPT0gImJhc2hfY29kZV9leGVjdXRpb25fdG9vbF9yZXN1bHQiOgogICAgICAgIHJlc3VsdCA9IGJsb2NrLmNvbnRlbnQKICAgICAgICBpZiByZXN1bHQudHlwZSA9PSAiYmFzaF9jb2RlX2V4ZWN1dGlvbl9yZXN1bHQiIGFuZCByZXN1bHQuY29udGVudDoKICAgICAgICAgICAgZm9yIGZpbGVfcmVmIGluIHJlc3VsdC5jb250ZW50OgogICAgICAgICAgICAgICAgaWYgZmlsZV9yZWYudHlwZSA9PSAiYmFzaF9jb2RlX2V4ZWN1dGlvbl9vdXRwdXQiOgogICAgICAgICAgICAgICAgICAgIG1ldGFkYXRhID0gY2xpZW50LmJldGEuZmlsZXMucmV0cmlldmVfbWV0YWRhdGEoZmlsZV9yZWYuZmlsZV9pZCkKICAgICAgICAgICAgICAgICAgICBmaWxlX2NvbnRlbnQgPSBjbGllbnQuYmV0YS5maWxlcy5kb3dubG9hZChmaWxlX3JlZi5maWxlX2lkKQogICAgICAgICAgICAgICAgICAgICMgVXNlIGJhc2VuYW1lIHRvIHByZXZlbnQgcGF0aCB0cmF2ZXJzYWw7IHZhbGlkYXRlIHJlc3VsdAogICAgICAgICAgICAgICAgICAgIHNhZmVfbmFtZSA9IG9zLnBhdGguYmFzZW5hbWUobWV0YWRhdGEuZmlsZW5hbWUpCiAgICAgICAgICAgICAgICAgICAgaWYgbm90IHNhZmVfbmFtZSBvciBzYWZlX25hbWUgaW4gKCIuIiwgIi4uIik6CiAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KGYiU2tpcHBpbmcgaW52YWxpZCBmaWxlbmFtZToge21ldGFkYXRhLmZpbGVuYW1lfSIpCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgb3V0cHV0X3BhdGggPSBvcy5wYXRoLmpvaW4oT1VUUFVUX0RJUiwgc2FmZV9uYW1lKQogICAgICAgICAgICAgICAgICAgIGZpbGVfY29udGVudC53cml0ZV90b19maWxlKG91dHB1dF9wYXRoKQogICAgICAgICAgICAgICAgICAgIHByaW50KGYiU2F2ZWQ6IHtvdXRwdXRfcGF0aH0iKQpgYGAKCiMjIyBDb250YWluZXIgUmV1c2UKCmBgYHB5dGhvbgojIEZpcnN0IHJlcXVlc3Q6IHNldCB1cCBlbnZpcm9ubWVudApyZXNwb25zZTEgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgbWVzc2FnZXM9W3sicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiAiSW5zdGFsbCB0YWJ1bGF0ZSBhbmQgY3JlYXRlIGRhdGEuanNvbiB3aXRoIHNhbXBsZSBkYXRhIn1dLAogICAgdG9vbHM9W3sidHlwZSI6ICJjb2RlX2V4ZWN1dGlvbl8yMDI2MDEyMCIsICJuYW1lIjogImNvZGVfZXhlY3V0aW9uIn1dCikKCiMgR2V0IGNvbnRhaW5lciBJRCBmcm9tIHJlc3BvbnNlCmNvbnRhaW5lcl9pZCA9IHJlc3BvbnNlMS5jb250YWluZXIuaWQKCiMgU2Vjb25kIHJlcXVlc3Q6IHJldXNlIHRoZSBzYW1lIGNvbnRhaW5lcgpyZXNwb25zZTIgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgY29udGFpbmVyPWNvbnRhaW5lcl9pZCwKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlJlYWQgZGF0YS5qc29uIGFuZCBkaXNwbGF5IGFzIGEgZm9ybWF0dGVkIHRhYmxlIn1dLAogICAgdG9vbHM9W3sidHlwZSI6ICJjb2RlX2V4ZWN1dGlvbl8yMDI2MDEyMCIsICJuYW1lIjogImNvZGVfZXhlY3V0aW9uIn1dCikKYGBgCgojIyMgUmVzcG9uc2UgU3RydWN0dXJlCgpgYGBweXRob24KZm9yIGJsb2NrIGluIHJlc3BvbnNlLmNvbnRlbnQ6CiAgICBpZiBibG9jay50eXBlID09ICJ0ZXh0IjoKICAgICAgICBwcmludChibG9jay50ZXh0KSAgIyBDbGF1ZGUncyBleHBsYW5hdGlvbgogICAgZWxpZiBibG9jay50eXBlID09ICJzZXJ2ZXJfdG9vbF91c2UiOgogICAgICAgIHByaW50KGYiUnVubmluZzoge2Jsb2NrLm5hbWV9IC0ge2Jsb2NrLmlucHV0fSIpICAjIFdoYXQgQ2xhdWRlIGlzIGRvaW5nCiAgICBlbGlmIGJsb2NrLnR5cGUgPT0gImJhc2hfY29kZV9leGVjdXRpb25fdG9vbF9yZXN1bHQiOgogICAgICAgIHJlc3VsdCA9IGJsb2NrLmNvbnRlbnQKICAgICAgICBpZiByZXN1bHQudHlwZSA9PSAiYmFzaF9jb2RlX2V4ZWN1dGlvbl9yZXN1bHQiOgogICAgICAgICAgICBpZiByZXN1bHQucmV0dXJuX2NvZGUgPT0gMDoKICAgICAgICAgICAgICAgIHByaW50KGYiT3V0cHV0OiB7cmVzdWx0LnN0ZG91dH0iKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcHJpbnQoZiJFcnJvcjoge3Jlc3VsdC5zdGRlcnJ9IikKICAgICAgICBlbHNlOgogICAgICAgICAgICBwcmludChmIlRvb2wgZXJyb3I6IHtyZXN1bHQuZXJyb3JfY29kZX0iKQogICAgZWxpZiBibG9jay50eXBlID09ICJ0ZXh0X2VkaXRvcl9jb2RlX2V4ZWN1dGlvbl90b29sX3Jlc3VsdCI6CiAgICAgICAgcHJpbnQoZiJGaWxlIG9wZXJhdGlvbjoge2Jsb2NrLmNvbnRlbnR9IikKYGBgCgotLS0KCiMjIE1lbW9yeSBUb29sCgojIyMgQmFzaWMgVXNhZ2UKCmBgYHB5dGhvbgppbXBvcnQgYW50aHJvcGljCgpjbGllbnQgPSBhbnRocm9waWMuQW50aHJvcGljKCkKCnJlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSgKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlJlbWVtYmVyIHRoYXQgbXkgcHJlZmVycmVkIGxhbmd1YWdlIGlzIFB5dGhvbi4ifV0sCiAgICB0b29scz1beyJ0eXBlIjogIm1lbW9yeV8yMDI1MDgxOCIsICJuYW1lIjogIm1lbW9yeSJ9XSwKKQpgYGAKCiMjIyBTREsgTWVtb3J5IEhlbHBlcgoKU3ViY2xhc3MgYEJldGFBYnN0cmFjdE1lbW9yeVRvb2xgOgoKYGBgcHl0aG9uCmZyb20gYW50aHJvcGljLmxpYi50b29scyBpbXBvcnQgQmV0YUFic3RyYWN0TWVtb3J5VG9vbAoKY2xhc3MgTXlNZW1vcnlUb29sKEJldGFBYnN0cmFjdE1lbW9yeVRvb2wpOgogICAgZGVmIHZpZXcoc2VsZiwgY29tbWFuZCk6IC4uLgogICAgZGVmIGNyZWF0ZShzZWxmLCBjb21tYW5kKTogLi4uCiAgICBkZWYgc3RyX3JlcGxhY2Uoc2VsZiwgY29tbWFuZCk6IC4uLgogICAgZGVmIGluc2VydChzZWxmLCBjb21tYW5kKTogLi4uCiAgICBkZWYgZGVsZXRlKHNlbGYsIGNvbW1hbmQpOiAuLi4KICAgIGRlZiByZW5hbWUoc2VsZiwgY29tbWFuZCk6IC4uLgoKbWVtb3J5ID0gTXlNZW1vcnlUb29sKCkKCiMgVXNlIHdpdGggdG9vbCBydW5uZXIKcnVubmVyID0gY2xpZW50LmJldGEubWVzc2FnZXMudG9vbF9ydW5uZXIoCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICB0b29scz1bbWVtb3J5XSwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlJlbWVtYmVyIG15IHByZWZlcmVuY2VzIn1dLAopCgpmb3IgbWVzc2FnZSBpbiBydW5uZXI6CiAgICBwcmludChtZXNzYWdlKQpgYGAKCkZvciBmdWxsIGltcGxlbWVudGF0aW9uIGV4YW1wbGVzLCB1c2UgV2ViRmV0Y2g6CgotIGBodHRwczovL2dpdGh1Yi5jb20vYW50aHJvcGljcy9hbnRocm9waWMtc2RrLXB5dGhvbi9ibG9iL21haW4vZXhhbXBsZXMvbWVtb3J5L2Jhc2ljLnB5YAoKLS0tCgojIyBTdHJ1Y3R1cmVkIE91dHB1dHMKCiMjIyBKU09OIE91dHB1dHMgKFB5ZGFudGljIOKAlCBSZWNvbW1lbmRlZCkKCmBgYHB5dGhvbgpmcm9tIHB5ZGFudGljIGltcG9ydCBCYXNlTW9kZWwKZnJvbSB0eXBpbmcgaW1wb3J0IExpc3QKaW1wb3J0IGFudGhyb3BpYwoKY2xhc3MgQ29udGFjdEluZm8oQmFzZU1vZGVsKToKICAgIG5hbWU6IHN0cgogICAgZW1haWw6IHN0cgogICAgcGxhbjogc3RyCiAgICBpbnRlcmVzdHM6IExpc3Rbc3RyXQogICAgZGVtb19yZXF1ZXN0ZWQ6IGJvb2wKCmNsaWVudCA9IGFudGhyb3BpYy5BbnRocm9waWMoKQoKcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMucGFyc2UoCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICBtZXNzYWdlcz1bewogICAgICAgICJyb2xlIjogInVzZXIiLAogICAgICAgICJjb250ZW50IjogIkV4dHJhY3Q6IEphbmUgRG9lIChqYW5lQGNvLmNvbSkgd2FudHMgRW50ZXJwcmlzZSwgaW50ZXJlc3RlZCBpbiBBUEkgYW5kIFNES3MsIHdhbnRzIGEgZGVtby4iCiAgICB9XSwKICAgIG91dHB1dF9mb3JtYXQ9Q29udGFjdEluZm8sCikKCiMgcmVzcG9uc2UucGFyc2VkX291dHB1dCBpcyBhIHZhbGlkYXRlZCBDb250YWN0SW5mbyBpbnN0YW5jZQpjb250YWN0ID0gcmVzcG9uc2UucGFyc2VkX291dHB1dApwcmludChjb250YWN0Lm5hbWUpICAgICAgICAgICAjICJKYW5lIERvZSIKcHJpbnQoY29udGFjdC5pbnRlcmVzdHMpICAgICAgIyBbIkFQSSIsICJTREtzIl0KYGBgCgojIyMgUmF3IFNjaGVtYQoKYGBgcHl0aG9uCnJlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSgKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIG1lc3NhZ2VzPVt7CiAgICAgICAgInJvbGUiOiAidXNlciIsCiAgICAgICAgImNvbnRlbnQiOiAiRXh0cmFjdCBpbmZvOiBKb2huIFNtaXRoIChqb2huQGV4YW1wbGUuY29tKSB3YW50cyB0aGUgRW50ZXJwcmlzZSBwbGFuLiIKICAgIH1dLAogICAgb3V0cHV0X2NvbmZpZz17CiAgICAgICAgImZvcm1hdCI6IHsKICAgICAgICAgICAgInR5cGUiOiAianNvbl9zY2hlbWEiLAogICAgICAgICAgICAic2NoZW1hIjogewogICAgICAgICAgICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgICAgICAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICAgICAgICAgICAgICJuYW1lIjogeyJ0eXBlIjogInN0cmluZyJ9LAogICAgICAgICAgICAgICAgICAgICJlbWFpbCI6IHsidHlwZSI6ICJzdHJpbmcifSwKICAgICAgICAgICAgICAgICAgICAicGxhbiI6IHsidHlwZSI6ICJzdHJpbmcifSwKICAgICAgICAgICAgICAgICAgICAiZGVtb19yZXF1ZXN0ZWQiOiB7InR5cGUiOiAiYm9vbGVhbiJ9CiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgInJlcXVpcmVkIjogWyJuYW1lIiwgImVtYWlsIiwgInBsYW4iLCAiZGVtb19yZXF1ZXN0ZWQiXSwKICAgICAgICAgICAgICAgICJhZGRpdGlvbmFsUHJvcGVydGllcyI6IEZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CikKCmltcG9ydCBqc29uCiMgb3V0cHV0X2NvbmZpZy5mb3JtYXQgZ3VhcmFudGVlcyB0aGUgZmlyc3QgYmxvY2sgaXMgdGV4dCB3aXRoIHZhbGlkIEpTT04KdGV4dCA9IG5leHQoYi50ZXh0IGZvciBiIGluIHJlc3BvbnNlLmNvbnRlbnQgaWYgYi50eXBlID09ICJ0ZXh0IikKZGF0YSA9IGpzb24ubG9hZHModGV4dCkKYGBgCgojIyMgU3RyaWN0IFRvb2wgVXNlCgpgYGBweXRob24KcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgbWVzc2FnZXM9W3sicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiAiQm9vayBhIGZsaWdodCB0byBUb2t5byBmb3IgMiBwYXNzZW5nZXJzIG9uIE1hcmNoIDE1In1dLAogICAgdG9vbHM9W3sKICAgICAgICAibmFtZSI6ICJib29rX2ZsaWdodCIsCiAgICAgICAgImRlc2NyaXB0aW9uIjogIkJvb2sgYSBmbGlnaHQgdG8gYSBkZXN0aW5hdGlvbiIsCiAgICAgICAgInN0cmljdCI6IFRydWUsCiAgICAgICAgImlucHV0X3NjaGVtYSI6IHsKICAgICAgICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgICAgICAgICAiZGVzdGluYXRpb24iOiB7InR5cGUiOiAic3RyaW5nIn0sCiAgICAgICAgICAgICAgICAiZGF0ZSI6IHsidHlwZSI6ICJzdHJpbmciLCAiZm9ybWF0IjogImRhdGUifSwKICAgICAgICAgICAgICAgICJwYXNzZW5nZXJzIjogeyJ0eXBlIjogImludGVnZXIiLCAiZW51bSI6IFsxLCAyLCAzLCA0LCA1LCA2LCA3LCA4XX0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgInJlcXVpcmVkIjogWyJkZXN0aW5hdGlvbiIsICJkYXRlIiwgInBhc3NlbmdlcnMiXSwKICAgICAgICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIjogRmFsc2UKICAgICAgICB9CiAgICB9XQopCmBgYAoKIyMjIFVzaW5nIEJvdGggVG9nZXRoZXIKCmBgYHB5dGhvbgpyZXNwb25zZSA9IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICBtZXNzYWdlcz1beyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICJQbGFuIGEgdHJpcCB0byBQYXJpcyBuZXh0IG1vbnRoIn1dLAogICAgb3V0cHV0X2NvbmZpZz17CiAgICAgICAgImZvcm1hdCI6IHsKICAgICAgICAgICAgInR5cGUiOiAianNvbl9zY2hlbWEiLAogICAgICAgICAgICAic2NoZW1hIjogewogICAgICAgICAgICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgICAgICAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICAgICAgICAgICAgICJzdW1tYXJ5IjogeyJ0eXBlIjogInN0cmluZyJ9LAogICAgICAgICAgICAgICAgICAgICJuZXh0X3N0ZXBzIjogeyJ0eXBlIjogImFycmF5IiwgIml0ZW1zIjogeyJ0eXBlIjogInN0cmluZyJ9fQogICAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAgICJyZXF1aXJlZCI6IFsic3VtbWFyeSIsICJuZXh0X3N0ZXBzIl0sCiAgICAgICAgICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBGYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfSwKICAgIHRvb2xzPVt7CiAgICAgICAgIm5hbWUiOiAic2VhcmNoX2ZsaWdodHMiLAogICAgICAgICJkZXNjcmlwdGlvbiI6ICJTZWFyY2ggZm9yIGF2YWlsYWJsZSBmbGlnaHRzIiwKICAgICAgICAic3RyaWN0IjogVHJ1ZSwKICAgICAgICAiaW5wdXRfc2NoZW1hIjogewogICAgICAgICAgICAidHlwZSI6ICJvYmplY3QiLAogICAgICAgICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAgICAgICAgICJkZXN0aW5hdGlvbiI6IHsidHlwZSI6ICJzdHJpbmcifSwKICAgICAgICAgICAgICAgICJkYXRlIjogeyJ0eXBlIjogInN0cmluZyIsICJmb3JtYXQiOiAiZGF0ZSJ9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJyZXF1aXJlZCI6IFsiZGVzdGluYXRpb24iLCAiZGF0ZSJdLAogICAgICAgICAgICAiYWRkaXRpb25hbFByb3BlcnRpZXMiOiBGYWxzZQogICAgICAgIH0KICAgIH1dCikKYGBgCg==
+# Tool Use — Python
+
+For conceptual overview (tool definitions, tool choice, tips), see [shared/tool-use-concepts.md](../../shared/tool-use-concepts.md).
+
+## Tool Runner (Recommended)
+
+**Beta:** The tool runner is in beta in the Python SDK.
+
+Use the `@beta_tool` decorator to define tools as typed functions, then pass them to `client.beta.messages.tool_runner()`:
+
+```python
+import anthropic
+from anthropic import beta_tool
+
+client = anthropic.Anthropic()
+
+@beta_tool
+def get_weather(location: str, unit: str = "celsius") -> str:
+    """Get current weather for a location.
+
+    Args:
+        location: City and state, e.g., San Francisco, CA.
+        unit: Temperature unit, either "celsius" or "fahrenheit".
+    """
+    # Your implementation here
+    return f"72°F and sunny in {location}"
+
+# The tool runner handles the agentic loop automatically
+runner = client.beta.messages.tool_runner(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    tools=[get_weather],
+    messages=[{"role": "user", "content": "What's the weather in Paris?"}],
+)
+
+# Each iteration yields a BetaMessage; iteration stops when Claude is done
+for message in runner:
+    print(message)
+```
+
+For async usage, use `@beta_async_tool` with `async def` functions.
+
+**Key benefits of the tool runner:**
+
+- No manual loop — the SDK handles calling tools and feeding results back
+- Type-safe tool inputs via decorators
+- Tool schemas are generated automatically from function signatures
+- Iteration stops automatically when Claude has no more tool calls
+
+---
+
+## MCP Tool Conversion Helpers
+
+**Beta.** Convert [MCP (Model Context Protocol)](https://modelcontextprotocol.io/) tools, prompts, and resources to Anthropic API types for use with the tool runner. Requires `pip install anthropic[mcp]` (Python 3.10+).
+
+> **Note:** The Claude API also supports an `mcp_servers` parameter that lets Claude connect directly to remote MCP servers. Use these helpers instead when you need local MCP servers, prompts, resources, or more control over the MCP connection.
+
+### MCP Tools with Tool Runner
+
+```python
+from anthropic import AsyncAnthropic
+from anthropic.lib.tools.mcp import async_mcp_tool
+from mcp import ClientSession
+from mcp.client.stdio import stdio_client, StdioServerParameters
+
+client = AsyncAnthropic()
+
+async with stdio_client(StdioServerParameters(command="mcp-server")) as (read, write):
+    async with ClientSession(read, write) as mcp_client:
+        await mcp_client.initialize()
+
+        tools_result = await mcp_client.list_tools()
+        # tool_runner is sync — returns the runner, not a coroutine
+        runner = client.beta.messages.tool_runner(
+            model="claude-opus-4-6",
+            max_tokens=16000,
+            messages=[{"role": "user", "content": "Use the available tools"}],
+            tools=[async_mcp_tool(t, mcp_client) for t in tools_result.tools],
+        )
+        async for message in runner:
+            print(message)
+```
+
+For sync usage, use `mcp_tool` instead of `async_mcp_tool`.
+
+### MCP Prompts
+
+```python
+from anthropic.lib.tools.mcp import mcp_message
+
+prompt = await mcp_client.get_prompt(name="my-prompt")
+response = await client.beta.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[mcp_message(m) for m in prompt.messages],
+)
+```
+
+### MCP Resources as Content
+
+```python
+from anthropic.lib.tools.mcp import mcp_resource_to_content
+
+resource = await mcp_client.read_resource(uri="file:///path/to/doc.txt")
+response = await client.beta.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{
+        "role": "user",
+        "content": [
+            mcp_resource_to_content(resource),
+            {"type": "text", "text": "Summarize this document"},
+        ],
+    }],
+)
+```
+
+### Upload MCP Resources as Files
+
+```python
+from anthropic.lib.tools.mcp import mcp_resource_to_file
+
+resource = await mcp_client.read_resource(uri="file:///path/to/data.json")
+uploaded = await client.beta.files.upload(file=mcp_resource_to_file(resource))
+```
+
+Conversion functions raise `UnsupportedMCPValueError` if an MCP value cannot be converted (e.g., unsupported content types like audio, unsupported MIME types).
+
+---
+
+## Manual Agentic Loop
+
+Use this when you need fine-grained control over the loop (e.g., custom logging, conditional tool execution, human-in-the-loop approval):
+
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+tools = [...]  # Your tool definitions
+messages = [{"role": "user", "content": user_input}]
+
+# Agentic loop: keep going until Claude stops calling tools
+while True:
+    response = client.messages.create(
+        model="claude-opus-4-6",
+        max_tokens=16000,
+        tools=tools,
+        messages=messages
+    )
+
+    # If Claude is done (no more tool calls), break
+    if response.stop_reason == "end_turn":
+        break
+
+    # Server-side tool hit iteration limit; re-send to continue
+    if response.stop_reason == "pause_turn":
+        messages = [
+            {"role": "user", "content": user_input},
+            {"role": "assistant", "content": response.content},
+        ]
+        continue
+
+    # Extract tool use blocks from the response
+    tool_use_blocks = [b for b in response.content if b.type == "tool_use"]
+
+    # Append assistant's response (including tool_use blocks)
+    messages.append({"role": "assistant", "content": response.content})
+
+    # Execute each tool and collect results
+    tool_results = []
+    for tool in tool_use_blocks:
+        result = execute_tool(tool.name, tool.input)  # Your implementation
+        tool_results.append({
+            "type": "tool_result",
+            "tool_use_id": tool.id,  # Must match the tool_use block's id
+            "content": result
+        })
+
+    # Append tool results as a user message
+    messages.append({"role": "user", "content": tool_results})
+
+# Final response text
+final_text = next(b.text for b in response.content if b.type == "text")
+```
+
+---
+
+## Handling Tool Results
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    tools=tools,
+    messages=[{"role": "user", "content": "What's the weather in Paris?"}]
+)
+
+for block in response.content:
+    if block.type == "tool_use":
+        tool_name = block.name
+        tool_input = block.input
+        tool_use_id = block.id
+
+        result = execute_tool(tool_name, tool_input)
+
+        followup = client.messages.create(
+            model="claude-opus-4-6",
+            max_tokens=16000,
+            tools=tools,
+            messages=[
+                {"role": "user", "content": "What's the weather in Paris?"},
+                {"role": "assistant", "content": response.content},
+                {
+                    "role": "user",
+                    "content": [{
+                        "type": "tool_result",
+                        "tool_use_id": tool_use_id,
+                        "content": result
+                    }]
+                }
+            ]
+        )
+```
+
+---
+
+## Multiple Tool Calls
+
+```python
+tool_results = []
+
+for block in response.content:
+    if block.type == "tool_use":
+        result = execute_tool(block.name, block.input)
+        tool_results.append({
+            "type": "tool_result",
+            "tool_use_id": block.id,
+            "content": result
+        })
+
+# Send all results back at once
+if tool_results:
+    followup = client.messages.create(
+        model="claude-opus-4-6",
+        max_tokens=16000,
+        tools=tools,
+        messages=[
+            *previous_messages,
+            {"role": "assistant", "content": response.content},
+            {"role": "user", "content": tool_results}
+        ]
+    )
+```
+
+---
+
+## Error Handling in Tool Results
+
+```python
+tool_result = {
+    "type": "tool_result",
+    "tool_use_id": tool_use_id,
+    "content": "Error: Location 'xyz' not found. Please provide a valid city name.",
+    "is_error": True
+}
+```
+
+---
+
+## Tool Choice
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    tools=tools,
+    tool_choice={"type": "tool", "name": "get_weather"},  # Force specific tool
+    messages=[{"role": "user", "content": "What's the weather in Paris?"}]
+)
+```
+
+---
+
+## Code Execution
+
+### Basic Usage
+
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{
+        "role": "user",
+        "content": "Calculate the mean and standard deviation of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+    }],
+    tools=[{
+        "type": "code_execution_20260120",
+        "name": "code_execution"
+    }]
+)
+
+for block in response.content:
+    if block.type == "text":
+        print(block.text)
+    elif block.type == "bash_code_execution_tool_result":
+        print(f"stdout: {block.content.stdout}")
+```
+
+### Upload Files for Analysis
+
+```python
+# 1. Upload a file
+uploaded = client.beta.files.upload(file=open("sales_data.csv", "rb"))
+
+# 2. Pass to code execution via container_upload block
+# Code execution is GA; Files API is still beta (pass via extra_headers)
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    extra_headers={"anthropic-beta": "files-api-2025-04-14"},
+    messages=[{
+        "role": "user",
+        "content": [
+            {"type": "text", "text": "Analyze this sales data. Show trends and create a visualization."},
+            {"type": "container_upload", "file_id": uploaded.id}
+        ]
+    }],
+    tools=[{"type": "code_execution_20260120", "name": "code_execution"}]
+)
+```
+
+### Retrieve Generated Files
+
+```python
+import os
+
+OUTPUT_DIR = "./claude_outputs"
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+for block in response.content:
+    if block.type == "bash_code_execution_tool_result":
+        result = block.content
+        if result.type == "bash_code_execution_result" and result.content:
+            for file_ref in result.content:
+                if file_ref.type == "bash_code_execution_output":
+                    metadata = client.beta.files.retrieve_metadata(file_ref.file_id)
+                    file_content = client.beta.files.download(file_ref.file_id)
+                    # Use basename to prevent path traversal; validate result
+                    safe_name = os.path.basename(metadata.filename)
+                    if not safe_name or safe_name in (".", ".."):
+                        print(f"Skipping invalid filename: {metadata.filename}")
+                        continue
+                    output_path = os.path.join(OUTPUT_DIR, safe_name)
+                    file_content.write_to_file(output_path)
+                    print(f"Saved: {output_path}")
+```
+
+### Container Reuse
+
+```python
+# First request: set up environment
+response1 = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{"role": "user", "content": "Install tabulate and create data.json with sample data"}],
+    tools=[{"type": "code_execution_20260120", "name": "code_execution"}]
+)
+
+# Get container ID from response
+container_id = response1.container.id
+
+# Second request: reuse the same container
+response2 = client.messages.create(
+    container=container_id,
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{"role": "user", "content": "Read data.json and display as a formatted table"}],
+    tools=[{"type": "code_execution_20260120", "name": "code_execution"}]
+)
+```
+
+### Response Structure
+
+```python
+for block in response.content:
+    if block.type == "text":
+        print(block.text)  # Claude's explanation
+    elif block.type == "server_tool_use":
+        print(f"Running: {block.name} - {block.input}")  # What Claude is doing
+    elif block.type == "bash_code_execution_tool_result":
+        result = block.content
+        if result.type == "bash_code_execution_result":
+            if result.return_code == 0:
+                print(f"Output: {result.stdout}")
+            else:
+                print(f"Error: {result.stderr}")
+        else:
+            print(f"Tool error: {result.error_code}")
+    elif block.type == "text_editor_code_execution_tool_result":
+        print(f"File operation: {block.content}")
+```
+
+---
+
+## Memory Tool
+
+### Basic Usage
+
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{"role": "user", "content": "Remember that my preferred language is Python."}],
+    tools=[{"type": "memory_20250818", "name": "memory"}],
+)
+```
+
+### SDK Memory Helper
+
+Subclass `BetaAbstractMemoryTool`:
+
+```python
+from anthropic.lib.tools import BetaAbstractMemoryTool
+
+class MyMemoryTool(BetaAbstractMemoryTool):
+    def view(self, command): ...
+    def create(self, command): ...
+    def str_replace(self, command): ...
+    def insert(self, command): ...
+    def delete(self, command): ...
+    def rename(self, command): ...
+
+memory = MyMemoryTool()
+
+# Use with tool runner
+runner = client.beta.messages.tool_runner(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    tools=[memory],
+    messages=[{"role": "user", "content": "Remember my preferences"}],
+)
+
+for message in runner:
+    print(message)
+```
+
+For full implementation examples, use WebFetch:
+
+- `https://github.com/anthropics/anthropic-sdk-python/blob/main/examples/memory/basic.py`
+
+---
+
+## Structured Outputs
+
+### JSON Outputs (Pydantic — Recommended)
+
+```python
+from pydantic import BaseModel
+from typing import List
+import anthropic
+
+class ContactInfo(BaseModel):
+    name: str
+    email: str
+    plan: str
+    interests: List[str]
+    demo_requested: bool
+
+client = anthropic.Anthropic()
+
+response = client.messages.parse(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{
+        "role": "user",
+        "content": "Extract: Jane Doe (jane@co.com) wants Enterprise, interested in API and SDKs, wants a demo."
+    }],
+    output_format=ContactInfo,
+)
+
+# response.parsed_output is a validated ContactInfo instance
+contact = response.parsed_output
+print(contact.name)           # "Jane Doe"
+print(contact.interests)      # ["API", "SDKs"]
+```
+
+### Raw Schema
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{
+        "role": "user",
+        "content": "Extract info: John Smith (john@example.com) wants the Enterprise plan."
+    }],
+    output_config={
+        "format": {
+            "type": "json_schema",
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string"},
+                    "email": {"type": "string"},
+                    "plan": {"type": "string"},
+                    "demo_requested": {"type": "boolean"}
+                },
+                "required": ["name", "email", "plan", "demo_requested"],
+                "additionalProperties": False
+            }
+        }
+    }
+)
+
+import json
+# output_config.format guarantees the first block is text with valid JSON
+text = next(b.text for b in response.content if b.type == "text")
+data = json.loads(text)
+```
+
+### Strict Tool Use
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{"role": "user", "content": "Book a flight to Tokyo for 2 passengers on March 15"}],
+    tools=[{
+        "name": "book_flight",
+        "description": "Book a flight to a destination",
+        "strict": True,
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "destination": {"type": "string"},
+                "date": {"type": "string", "format": "date"},
+                "passengers": {"type": "integer", "enum": [1, 2, 3, 4, 5, 6, 7, 8]}
+            },
+            "required": ["destination", "date", "passengers"],
+            "additionalProperties": False
+        }
+    }]
+)
+```
+
+### Using Both Together
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{"role": "user", "content": "Plan a trip to Paris next month"}],
+    output_config={
+        "format": {
+            "type": "json_schema",
+            "schema": {
+                "type": "object",
+                "properties": {
+                    "summary": {"type": "string"},
+                    "next_steps": {"type": "array", "items": {"type": "string"}}
+                },
+                "required": ["summary", "next_steps"],
+                "additionalProperties": False
+            }
+        }
+    },
+    tools=[{
+        "name": "search_flights",
+        "description": "Search for available flights",
+        "strict": True,
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "destination": {"type": "string"},
+                "date": {"type": "string", "format": "date"}
+            },
+            "required": ["destination", "date"],
+            "additionalProperties": False
+        }
+    }]
+)
+```

@@ -1,1 +1,292 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKc2hhZGNuL3VpIENvbXBvbmVudCBJbnN0YWxsZXIKCkFkZCBzaGFkY24vdWkgY29tcG9uZW50cyB0byBwcm9qZWN0IHdpdGggYXV0b21hdGljIGRlcGVuZGVuY3kgaGFuZGxpbmcuCldyYXBzIHNoYWRjbiBDTEkgZm9yIHByb2dyYW1tYXRpYyBjb21wb25lbnQgaW5zdGFsbGF0aW9uLgoiIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHR5cGluZyBpbXBvcnQgTGlzdCwgT3B0aW9uYWwKCgpjbGFzcyBTaGFkY25JbnN0YWxsZXI6CiAgICAiIiJIYW5kbGUgc2hhZGNuL3VpIGNvbXBvbmVudCBpbnN0YWxsYXRpb24uIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHByb2plY3Rfcm9vdDogT3B0aW9uYWxbUGF0aF0gPSBOb25lLCBkcnlfcnVuOiBib29sID0gRmFsc2UpOgogICAgICAgICIiIgogICAgICAgIEluaXRpYWxpemUgaW5zdGFsbGVyLgoKICAgICAgICBBcmdzOgogICAgICAgICAgICBwcm9qZWN0X3Jvb3Q6IFByb2plY3Qgcm9vdCBkaXJlY3RvcnkgKGRlZmF1bHQ6IGN1cnJlbnQgZGlyZWN0b3J5KQogICAgICAgICAgICBkcnlfcnVuOiBJZiBUcnVlLCBzaG93IGFjdGlvbnMgd2l0aG91dCBleGVjdXRpbmcKICAgICAgICAiIiIKICAgICAgICBzZWxmLnByb2plY3Rfcm9vdCA9IHByb2plY3Rfcm9vdCBvciBQYXRoLmN3ZCgpCiAgICAgICAgc2VsZi5kcnlfcnVuID0gZHJ5X3J1bgogICAgICAgIHNlbGYuY29tcG9uZW50c19qc29uID0gc2VsZi5wcm9qZWN0X3Jvb3QgLyAiY29tcG9uZW50cy5qc29uIgoKICAgIGRlZiBjaGVja19zaGFkY25fY29uZmlnKHNlbGYpIC0+IGJvb2w6CiAgICAgICAgIiIiCiAgICAgICAgQ2hlY2sgaWYgc2hhZGNuIGlzIGluaXRpYWxpemVkIGluIHByb2plY3QuCgogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIFRydWUgaWYgY29tcG9uZW50cy5qc29uIGV4aXN0cwogICAgICAgICIiIgogICAgICAgIHJldHVybiBzZWxmLmNvbXBvbmVudHNfanNvbi5leGlzdHMoKQoKICAgIGRlZiBnZXRfaW5zdGFsbGVkX2NvbXBvbmVudHMoc2VsZikgLT4gTGlzdFtzdHJdOgogICAgICAgICIiIgogICAgICAgIEdldCBsaXN0IG9mIGFscmVhZHkgaW5zdGFsbGVkIGNvbXBvbmVudHMuCgogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIExpc3Qgb2YgaW5zdGFsbGVkIGNvbXBvbmVudCBuYW1lcwogICAgICAgICIiIgogICAgICAgIGlmIG5vdCBzZWxmLmNoZWNrX3NoYWRjbl9jb25maWcoKToKICAgICAgICAgICAgcmV0dXJuIFtdCgogICAgICAgIHRyeToKICAgICAgICAgICAgd2l0aCBvcGVuKHNlbGYuY29tcG9uZW50c19qc29uKSBhcyBmOgogICAgICAgICAgICAgICAgY29uZmlnID0ganNvbi5sb2FkKGYpCgogICAgICAgICAgICBjb21wb25lbnRzX2RpciA9IHNlbGYucHJvamVjdF9yb290IC8gY29uZmlnLmdldCgiYWxpYXNlcyIsIHt9KS5nZXQoCiAgICAgICAgICAgICAgICAiY29tcG9uZW50cyIsICJjb21wb25lbnRzIgogICAgICAgICAgICApLnJlcGxhY2UoIkAvIiwgIiIpCiAgICAgICAgICAgIHVpX2RpciA9IGNvbXBvbmVudHNfZGlyIC8gInVpIgoKICAgICAgICAgICAgaWYgbm90IHVpX2Rpci5leGlzdHMoKToKICAgICAgICAgICAgICAgIHJldHVybiBbXQoKICAgICAgICAgICAgcmV0dXJuIFtmLnN0ZW0gZm9yIGYgaW4gdWlfZGlyLmdsb2IoIioudHN4IikgaWYgZi5pc19maWxlKCldCiAgICAgICAgZXhjZXB0IChqc29uLkpTT05EZWNvZGVFcnJvciwgS2V5RXJyb3IsIE9TRXJyb3IpOgogICAgICAgICAgICByZXR1cm4gW10KCiAgICBkZWYgYWRkX2NvbXBvbmVudHMoCiAgICAgICAgc2VsZiwgY29tcG9uZW50czogTGlzdFtzdHJdLCBvdmVyd3JpdGU6IGJvb2wgPSBGYWxzZQogICAgKSAtPiB0dXBsZVtib29sLCBzdHJdOgogICAgICAgICIiIgogICAgICAgIEFkZCBzaGFkY24vdWkgY29tcG9uZW50cy4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgY29tcG9uZW50czogTGlzdCBvZiBjb21wb25lbnQgbmFtZXMgdG8gYWRkCiAgICAgICAgICAgIG92ZXJ3cml0ZTogSWYgVHJ1ZSwgb3ZlcndyaXRlIGV4aXN0aW5nIGNvbXBvbmVudHMKCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgVHVwbGUgb2YgKHN1Y2Nlc3MsIG1lc3NhZ2UpCiAgICAgICAgIiIiCiAgICAgICAgaWYgbm90IGNvbXBvbmVudHM6CiAgICAgICAgICAgIHJldHVybiBGYWxzZSwgIk5vIGNvbXBvbmVudHMgc3BlY2lmaWVkIgoKICAgICAgICBpZiBub3Qgc2VsZi5jaGVja19zaGFkY25fY29uZmlnKCk6CiAgICAgICAgICAgIHJldHVybiAoCiAgICAgICAgICAgICAgICBGYWxzZSwKICAgICAgICAgICAgICAgICJzaGFkY24gbm90IGluaXRpYWxpemVkLiBSdW4gJ25weCBzaGFkY25AbGF0ZXN0IGluaXQnIGZpcnN0IiwKICAgICAgICAgICAgKQoKICAgICAgICAjIENoZWNrIHdoaWNoIGNvbXBvbmVudHMgYWxyZWFkeSBleGlzdAogICAgICAgIGluc3RhbGxlZCA9IHNlbGYuZ2V0X2luc3RhbGxlZF9jb21wb25lbnRzKCkKICAgICAgICBhbHJlYWR5X2luc3RhbGxlZCA9IFtjIGZvciBjIGluIGNvbXBvbmVudHMgaWYgYyBpbiBpbnN0YWxsZWRdCgogICAgICAgIGlmIGFscmVhZHlfaW5zdGFsbGVkIGFuZCBub3Qgb3ZlcndyaXRlOgogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgRmFsc2UsCiAgICAgICAgICAgICAgICBmIkNvbXBvbmVudHMgYWxyZWFkeSBpbnN0YWxsZWQ6IHsnLCAnLmpvaW4oYWxyZWFkeV9pbnN0YWxsZWQpfS4gIgogICAgICAgICAgICAgICAgIlVzZSAtLW92ZXJ3cml0ZSB0byByZWluc3RhbGwiLAogICAgICAgICAgICApCgogICAgICAgICMgQnVpbGQgY29tbWFuZAogICAgICAgIGNtZCA9IFsibnB4IiwgInNoYWRjbkBsYXRlc3QiLCAiYWRkIl0gKyBjb21wb25lbnRzCgogICAgICAgIGlmIG92ZXJ3cml0ZToKICAgICAgICAgICAgY21kLmFwcGVuZCgiLS1vdmVyd3JpdGUiKQoKICAgICAgICBpZiBzZWxmLmRyeV9ydW46CiAgICAgICAgICAgIHJldHVybiBUcnVlLCBmIldvdWxkIHJ1bjogeycgJy5qb2luKGNtZCl9IgoKICAgICAgICAjIEV4ZWN1dGUgY29tbWFuZAogICAgICAgIHRyeToKICAgICAgICAgICAgcmVzdWx0ID0gc3VicHJvY2Vzcy5ydW4oCiAgICAgICAgICAgICAgICBjbWQsCiAgICAgICAgICAgICAgICBjd2Q9c2VsZi5wcm9qZWN0X3Jvb3QsCiAgICAgICAgICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLAogICAgICAgICAgICAgICAgdGV4dD1UcnVlLAogICAgICAgICAgICAgICAgY2hlY2s9VHJ1ZSwKICAgICAgICAgICAgKQoKICAgICAgICAgICAgc3VjY2Vzc19tc2cgPSBmIlN1Y2Nlc3NmdWxseSBhZGRlZCBjb21wb25lbnRzOiB7JywgJy5qb2luKGNvbXBvbmVudHMpfSIKICAgICAgICAgICAgaWYgcmVzdWx0LnN0ZG91dDoKICAgICAgICAgICAgICAgIHN1Y2Nlc3NfbXNnICs9IGYiXG5cbk91dHB1dDpcbntyZXN1bHQuc3Rkb3V0fSIKCiAgICAgICAgICAgIHJldHVybiBUcnVlLCBzdWNjZXNzX21zZwoKICAgICAgICBleGNlcHQgc3VicHJvY2Vzcy5DYWxsZWRQcm9jZXNzRXJyb3IgYXMgZToKICAgICAgICAgICAgZXJyb3JfbXNnID0gZiJGYWlsZWQgdG8gYWRkIGNvbXBvbmVudHM6IHtlLnN0ZGVyciBvciBlLnN0ZG91dCBvciBzdHIoZSl9IgogICAgICAgICAgICByZXR1cm4gRmFsc2UsIGVycm9yX21zZwogICAgICAgIGV4Y2VwdCBGaWxlTm90Rm91bmRFcnJvcjoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlLCAibnB4IG5vdCBmb3VuZC4gRW5zdXJlIE5vZGUuanMgaXMgaW5zdGFsbGVkIgoKICAgIGRlZiBhZGRfYWxsX2NvbXBvbmVudHMoc2VsZiwgb3ZlcndyaXRlOiBib29sID0gRmFsc2UpIC0+IHR1cGxlW2Jvb2wsIHN0cl06CiAgICAgICAgIiIiCiAgICAgICAgQWRkIGFsbCBhdmFpbGFibGUgc2hhZGNuL3VpIGNvbXBvbmVudHMuCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIG92ZXJ3cml0ZTogSWYgVHJ1ZSwgb3ZlcndyaXRlIGV4aXN0aW5nIGNvbXBvbmVudHMKCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgVHVwbGUgb2YgKHN1Y2Nlc3MsIG1lc3NhZ2UpCiAgICAgICAgIiIiCiAgICAgICAgaWYgbm90IHNlbGYuY2hlY2tfc2hhZGNuX2NvbmZpZygpOgogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgICAgRmFsc2UsCiAgICAgICAgICAgICAgICAic2hhZGNuIG5vdCBpbml0aWFsaXplZC4gUnVuICducHggc2hhZGNuQGxhdGVzdCBpbml0JyBmaXJzdCIsCiAgICAgICAgICAgICkKCiAgICAgICAgY21kID0gWyJucHgiLCAic2hhZGNuQGxhdGVzdCIsICJhZGQiLCAiLS1hbGwiXQoKICAgICAgICBpZiBvdmVyd3JpdGU6CiAgICAgICAgICAgIGNtZC5hcHBlbmQoIi0tb3ZlcndyaXRlIikKCiAgICAgICAgaWYgc2VsZi5kcnlfcnVuOgogICAgICAgICAgICByZXR1cm4gVHJ1ZSwgZiJXb3VsZCBydW46IHsnICcuam9pbihjbWQpfSIKCiAgICAgICAgdHJ5OgogICAgICAgICAgICByZXN1bHQgPSBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgICAgIGNtZCwKICAgICAgICAgICAgICAgIGN3ZD1zZWxmLnByb2plY3Rfcm9vdCwKICAgICAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsCiAgICAgICAgICAgICAgICB0ZXh0PVRydWUsCiAgICAgICAgICAgICAgICBjaGVjaz1UcnVlLAogICAgICAgICAgICApCgogICAgICAgICAgICBzdWNjZXNzX21zZyA9ICJTdWNjZXNzZnVsbHkgYWRkZWQgYWxsIGNvbXBvbmVudHMiCiAgICAgICAgICAgIGlmIHJlc3VsdC5zdGRvdXQ6CiAgICAgICAgICAgICAgICBzdWNjZXNzX21zZyArPSBmIlxuXG5PdXRwdXQ6XG57cmVzdWx0LnN0ZG91dH0iCgogICAgICAgICAgICByZXR1cm4gVHJ1ZSwgc3VjY2Vzc19tc2cKCiAgICAgICAgZXhjZXB0IHN1YnByb2Nlc3MuQ2FsbGVkUHJvY2Vzc0Vycm9yIGFzIGU6CiAgICAgICAgICAgIGVycm9yX21zZyA9IGYiRmFpbGVkIHRvIGFkZCBhbGwgY29tcG9uZW50czoge2Uuc3RkZXJyIG9yIGUuc3Rkb3V0IG9yIHN0cihlKX0iCiAgICAgICAgICAgIHJldHVybiBGYWxzZSwgZXJyb3JfbXNnCiAgICAgICAgZXhjZXB0IEZpbGVOb3RGb3VuZEVycm9yOgogICAgICAgICAgICByZXR1cm4gRmFsc2UsICJucHggbm90IGZvdW5kLiBFbnN1cmUgTm9kZS5qcyBpcyBpbnN0YWxsZWQiCgogICAgZGVmIGxpc3RfaW5zdGFsbGVkKHNlbGYpIC0+IHR1cGxlW2Jvb2wsIHN0cl06CiAgICAgICAgIiIiCiAgICAgICAgTGlzdCBpbnN0YWxsZWQgY29tcG9uZW50cy4KCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgVHVwbGUgb2YgKHN1Y2Nlc3MsIG1lc3NhZ2Ugd2l0aCBjb21wb25lbnQgbGlzdCkKICAgICAgICAiIiIKICAgICAgICBpZiBub3Qgc2VsZi5jaGVja19zaGFkY25fY29uZmlnKCk6CiAgICAgICAgICAgIHJldHVybiBGYWxzZSwgInNoYWRjbiBub3QgaW5pdGlhbGl6ZWQiCgogICAgICAgIGluc3RhbGxlZCA9IHNlbGYuZ2V0X2luc3RhbGxlZF9jb21wb25lbnRzKCkKCiAgICAgICAgaWYgbm90IGluc3RhbGxlZDoKICAgICAgICAgICAgcmV0dXJuIFRydWUsICJObyBjb21wb25lbnRzIGluc3RhbGxlZCIKCiAgICAgICAgcmV0dXJuIFRydWUsIGYiSW5zdGFsbGVkIGNvbXBvbmVudHM6XG4iICsgIlxuIi5qb2luKGYiICAtIHtjfSIgZm9yIGMgaW4gc29ydGVkKGluc3RhbGxlZCkpCgoKZGVmIG1haW4oKToKICAgICIiIkNMSSBlbnRyeSBwb2ludC4iIiIKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKAogICAgICAgIGRlc2NyaXB0aW9uPSJBZGQgc2hhZGNuL3VpIGNvbXBvbmVudHMgdG8geW91ciBwcm9qZWN0IiwKICAgICAgICBmb3JtYXR0ZXJfY2xhc3M9YXJncGFyc2UuUmF3RGVzY3JpcHRpb25IZWxwRm9ybWF0dGVyLAogICAgICAgIGVwaWxvZz0iIiIKRXhhbXBsZXM6CiAgIyBBZGQgc2luZ2xlIGNvbXBvbmVudAogIHB5dGhvbiBzaGFkY25fYWRkLnB5IGJ1dHRvbgoKICAjIEFkZCBtdWx0aXBsZSBjb21wb25lbnRzCiAgcHl0aG9uIHNoYWRjbl9hZGQucHkgYnV0dG9uIGNhcmQgZGlhbG9nCgogICMgQWRkIGFsbCBjb21wb25lbnRzCiAgcHl0aG9uIHNoYWRjbl9hZGQucHkgLS1hbGwKCiAgIyBPdmVyd3JpdGUgZXhpc3RpbmcgY29tcG9uZW50cwogIHB5dGhvbiBzaGFkY25fYWRkLnB5IGJ1dHRvbiAtLW92ZXJ3cml0ZQoKICAjIERyeSBydW4gKHNob3cgd2hhdCB3b3VsZCBiZSBkb25lKQogIHB5dGhvbiBzaGFkY25fYWRkLnB5IGJ1dHRvbiBjYXJkIC0tZHJ5LXJ1bgoKICAjIExpc3QgaW5zdGFsbGVkIGNvbXBvbmVudHMKICBweXRob24gc2hhZGNuX2FkZC5weSAtLWxpc3QKICAgICAgICAiIiIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiY29tcG9uZW50cyIsCiAgICAgICAgbmFyZ3M9IioiLAogICAgICAgIGhlbHA9IkNvbXBvbmVudCBuYW1lcyB0byBhZGQgKGUuZy4sIGJ1dHRvbiwgY2FyZCwgZGlhbG9nKSIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1hbGwiLAogICAgICAgIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsCiAgICAgICAgaGVscD0iQWRkIGFsbCBhdmFpbGFibGUgY29tcG9uZW50cyIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1vdmVyd3JpdGUiLAogICAgICAgIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsCiAgICAgICAgaGVscD0iT3ZlcndyaXRlIGV4aXN0aW5nIGNvbXBvbmVudHMiLAogICAgKQoKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tZHJ5LXJ1biIsCiAgICAgICAgYWN0aW9uPSJzdG9yZV90cnVlIiwKICAgICAgICBoZWxwPSJTaG93IHdoYXQgd291bGQgYmUgZG9uZSB3aXRob3V0IGV4ZWN1dGluZyIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1saXN0IiwKICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLAogICAgICAgIGhlbHA9Ikxpc3QgaW5zdGFsbGVkIGNvbXBvbmVudHMiLAogICAgKQoKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tcHJvamVjdC1yb290IiwKICAgICAgICB0eXBlPVBhdGgsCiAgICAgICAgaGVscD0iUHJvamVjdCByb290IGRpcmVjdG9yeSAoZGVmYXVsdDogY3VycmVudCBkaXJlY3RvcnkpIiwKICAgICkKCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQoKICAgICMgSW5pdGlhbGl6ZSBpbnN0YWxsZXIKICAgIGluc3RhbGxlciA9IFNoYWRjbkluc3RhbGxlcigKICAgICAgICBwcm9qZWN0X3Jvb3Q9YXJncy5wcm9qZWN0X3Jvb3QsCiAgICAgICAgZHJ5X3J1bj1hcmdzLmRyeV9ydW4sCiAgICApCgogICAgIyBIYW5kbGUgbGlzdCBjb21tYW5kCiAgICBpZiBhcmdzLmxpc3Q6CiAgICAgICAgc3VjY2VzcywgbWVzc2FnZSA9IGluc3RhbGxlci5saXN0X2luc3RhbGxlZCgpCiAgICAgICAgcHJpbnQobWVzc2FnZSkKICAgICAgICBzeXMuZXhpdCgwIGlmIHN1Y2Nlc3MgZWxzZSAxKQoKICAgICMgSGFuZGxlIGFkZCBhbGwgY29tbWFuZAogICAgaWYgYXJncy5hbGw6CiAgICAgICAgc3VjY2VzcywgbWVzc2FnZSA9IGluc3RhbGxlci5hZGRfYWxsX2NvbXBvbmVudHMob3ZlcndyaXRlPWFyZ3Mub3ZlcndyaXRlKQogICAgICAgIHByaW50KG1lc3NhZ2UpCiAgICAgICAgc3lzLmV4aXQoMCBpZiBzdWNjZXNzIGVsc2UgMSkKCiAgICAjIEhhbmRsZSBhZGQgc3BlY2lmaWMgY29tcG9uZW50cwogICAgaWYgbm90IGFyZ3MuY29tcG9uZW50czoKICAgICAgICBwYXJzZXIucHJpbnRfaGVscCgpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBzdWNjZXNzLCBtZXNzYWdlID0gaW5zdGFsbGVyLmFkZF9jb21wb25lbnRzKAogICAgICAgIGFyZ3MuY29tcG9uZW50cywKICAgICAgICBvdmVyd3JpdGU9YXJncy5vdmVyd3JpdGUsCiAgICApCgogICAgcHJpbnQobWVzc2FnZSkKICAgIHN5cy5leGl0KDAgaWYgc3VjY2VzcyBlbHNlIDEpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+"""
+shadcn/ui Component Installer
+
+Add shadcn/ui components to project with automatic dependency handling.
+Wraps shadcn CLI for programmatic component installation.
+"""
+
+import argparse
+import json
+import subprocess
+import sys
+from pathlib import Path
+from typing import List, Optional
+
+
+class ShadcnInstaller:
+    """Handle shadcn/ui component installation."""
+
+    def __init__(self, project_root: Optional[Path] = None, dry_run: bool = False):
+        """
+        Initialize installer.
+
+        Args:
+            project_root: Project root directory (default: current directory)
+            dry_run: If True, show actions without executing
+        """
+        self.project_root = project_root or Path.cwd()
+        self.dry_run = dry_run
+        self.components_json = self.project_root / "components.json"
+
+    def check_shadcn_config(self) -> bool:
+        """
+        Check if shadcn is initialized in project.
+
+        Returns:
+            True if components.json exists
+        """
+        return self.components_json.exists()
+
+    def get_installed_components(self) -> List[str]:
+        """
+        Get list of already installed components.
+
+        Returns:
+            List of installed component names
+        """
+        if not self.check_shadcn_config():
+            return []
+
+        try:
+            with open(self.components_json) as f:
+                config = json.load(f)
+
+            components_dir = self.project_root / config.get("aliases", {}).get(
+                "components", "components"
+            ).replace("@/", "")
+            ui_dir = components_dir / "ui"
+
+            if not ui_dir.exists():
+                return []
+
+            return [f.stem for f in ui_dir.glob("*.tsx") if f.is_file()]
+        except (json.JSONDecodeError, KeyError, OSError):
+            return []
+
+    def add_components(
+        self, components: List[str], overwrite: bool = False
+    ) -> tuple[bool, str]:
+        """
+        Add shadcn/ui components.
+
+        Args:
+            components: List of component names to add
+            overwrite: If True, overwrite existing components
+
+        Returns:
+            Tuple of (success, message)
+        """
+        if not components:
+            return False, "No components specified"
+
+        if not self.check_shadcn_config():
+            return (
+                False,
+                "shadcn not initialized. Run 'npx shadcn@latest init' first",
+            )
+
+        # Check which components already exist
+        installed = self.get_installed_components()
+        already_installed = [c for c in components if c in installed]
+
+        if already_installed and not overwrite:
+            return (
+                False,
+                f"Components already installed: {', '.join(already_installed)}. "
+                "Use --overwrite to reinstall",
+            )
+
+        # Build command
+        cmd = ["npx", "shadcn@latest", "add"] + components
+
+        if overwrite:
+            cmd.append("--overwrite")
+
+        if self.dry_run:
+            return True, f"Would run: {' '.join(cmd)}"
+
+        # Execute command
+        try:
+            result = subprocess.run(
+                cmd,
+                cwd=self.project_root,
+                capture_output=True,
+                text=True,
+                check=True,
+            )
+
+            success_msg = f"Successfully added components: {', '.join(components)}"
+            if result.stdout:
+                success_msg += f"\n\nOutput:\n{result.stdout}"
+
+            return True, success_msg
+
+        except subprocess.CalledProcessError as e:
+            error_msg = f"Failed to add components: {e.stderr or e.stdout or str(e)}"
+            return False, error_msg
+        except FileNotFoundError:
+            return False, "npx not found. Ensure Node.js is installed"
+
+    def add_all_components(self, overwrite: bool = False) -> tuple[bool, str]:
+        """
+        Add all available shadcn/ui components.
+
+        Args:
+            overwrite: If True, overwrite existing components
+
+        Returns:
+            Tuple of (success, message)
+        """
+        if not self.check_shadcn_config():
+            return (
+                False,
+                "shadcn not initialized. Run 'npx shadcn@latest init' first",
+            )
+
+        cmd = ["npx", "shadcn@latest", "add", "--all"]
+
+        if overwrite:
+            cmd.append("--overwrite")
+
+        if self.dry_run:
+            return True, f"Would run: {' '.join(cmd)}"
+
+        try:
+            result = subprocess.run(
+                cmd,
+                cwd=self.project_root,
+                capture_output=True,
+                text=True,
+                check=True,
+            )
+
+            success_msg = "Successfully added all components"
+            if result.stdout:
+                success_msg += f"\n\nOutput:\n{result.stdout}"
+
+            return True, success_msg
+
+        except subprocess.CalledProcessError as e:
+            error_msg = f"Failed to add all components: {e.stderr or e.stdout or str(e)}"
+            return False, error_msg
+        except FileNotFoundError:
+            return False, "npx not found. Ensure Node.js is installed"
+
+    def list_installed(self) -> tuple[bool, str]:
+        """
+        List installed components.
+
+        Returns:
+            Tuple of (success, message with component list)
+        """
+        if not self.check_shadcn_config():
+            return False, "shadcn not initialized"
+
+        installed = self.get_installed_components()
+
+        if not installed:
+            return True, "No components installed"
+
+        return True, f"Installed components:\n" + "\n".join(f"  - {c}" for c in sorted(installed))
+
+
+def main():
+    """CLI entry point."""
+    parser = argparse.ArgumentParser(
+        description="Add shadcn/ui components to your project",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Add single component
+  python shadcn_add.py button
+
+  # Add multiple components
+  python shadcn_add.py button card dialog
+
+  # Add all components
+  python shadcn_add.py --all
+
+  # Overwrite existing components
+  python shadcn_add.py button --overwrite
+
+  # Dry run (show what would be done)
+  python shadcn_add.py button card --dry-run
+
+  # List installed components
+  python shadcn_add.py --list
+        """,
+    )
+
+    parser.add_argument(
+        "components",
+        nargs="*",
+        help="Component names to add (e.g., button, card, dialog)",
+    )
+
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="Add all available components",
+    )
+
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Overwrite existing components",
+    )
+
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Show what would be done without executing",
+    )
+
+    parser.add_argument(
+        "--list",
+        action="store_true",
+        help="List installed components",
+    )
+
+    parser.add_argument(
+        "--project-root",
+        type=Path,
+        help="Project root directory (default: current directory)",
+    )
+
+    args = parser.parse_args()
+
+    # Initialize installer
+    installer = ShadcnInstaller(
+        project_root=args.project_root,
+        dry_run=args.dry_run,
+    )
+
+    # Handle list command
+    if args.list:
+        success, message = installer.list_installed()
+        print(message)
+        sys.exit(0 if success else 1)
+
+    # Handle add all command
+    if args.all:
+        success, message = installer.add_all_components(overwrite=args.overwrite)
+        print(message)
+        sys.exit(0 if success else 1)
+
+    # Handle add specific components
+    if not args.components:
+        parser.print_help()
+        sys.exit(1)
+
+    success, message = installer.add_components(
+        args.components,
+        overwrite=args.overwrite,
+    )
+
+    print(message)
+    sys.exit(0 if success else 1)
+
+
+if __name__ == "__main__":
+    main()

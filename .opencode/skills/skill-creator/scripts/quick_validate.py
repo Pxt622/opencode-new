@@ -1,1 +1,103 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKUXVpY2sgdmFsaWRhdGlvbiBzY3JpcHQgZm9yIHNraWxscyAtIG1pbmltYWwgdmVyc2lvbgoiIiIKCmltcG9ydCBzeXMKaW1wb3J0IG9zCmltcG9ydCByZQppbXBvcnQgeWFtbApmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCmRlZiB2YWxpZGF0ZV9za2lsbChza2lsbF9wYXRoKToKICAgICIiIkJhc2ljIHZhbGlkYXRpb24gb2YgYSBza2lsbCIiIgogICAgc2tpbGxfcGF0aCA9IFBhdGgoc2tpbGxfcGF0aCkKCiAgICAjIENoZWNrIFNLSUxMLm1kIGV4aXN0cwogICAgc2tpbGxfbWQgPSBza2lsbF9wYXRoIC8gJ1NLSUxMLm1kJwogICAgaWYgbm90IHNraWxsX21kLmV4aXN0cygpOgogICAgICAgIHJldHVybiBGYWxzZSwgIlNLSUxMLm1kIG5vdCBmb3VuZCIKCiAgICAjIFJlYWQgYW5kIHZhbGlkYXRlIGZyb250bWF0dGVyCiAgICBjb250ZW50ID0gc2tpbGxfbWQucmVhZF90ZXh0KCkKICAgIGlmIG5vdCBjb250ZW50LnN0YXJ0c3dpdGgoJy0tLScpOgogICAgICAgIHJldHVybiBGYWxzZSwgIk5vIFlBTUwgZnJvbnRtYXR0ZXIgZm91bmQiCgogICAgIyBFeHRyYWN0IGZyb250bWF0dGVyCiAgICBtYXRjaCA9IHJlLm1hdGNoKHInXi0tLVxuKC4qPylcbi0tLScsIGNvbnRlbnQsIHJlLkRPVEFMTCkKICAgIGlmIG5vdCBtYXRjaDoKICAgICAgICByZXR1cm4gRmFsc2UsICJJbnZhbGlkIGZyb250bWF0dGVyIGZvcm1hdCIKCiAgICBmcm9udG1hdHRlcl90ZXh0ID0gbWF0Y2guZ3JvdXAoMSkKCiAgICAjIFBhcnNlIFlBTUwgZnJvbnRtYXR0ZXIKICAgIHRyeToKICAgICAgICBmcm9udG1hdHRlciA9IHlhbWwuc2FmZV9sb2FkKGZyb250bWF0dGVyX3RleHQpCiAgICAgICAgaWYgbm90IGlzaW5zdGFuY2UoZnJvbnRtYXR0ZXIsIGRpY3QpOgogICAgICAgICAgICByZXR1cm4gRmFsc2UsICJGcm9udG1hdHRlciBtdXN0IGJlIGEgWUFNTCBkaWN0aW9uYXJ5IgogICAgZXhjZXB0IHlhbWwuWUFNTEVycm9yIGFzIGU6CiAgICAgICAgcmV0dXJuIEZhbHNlLCBmIkludmFsaWQgWUFNTCBpbiBmcm9udG1hdHRlcjoge2V9IgoKICAgICMgRGVmaW5lIGFsbG93ZWQgcHJvcGVydGllcwogICAgQUxMT1dFRF9QUk9QRVJUSUVTID0geyduYW1lJywgJ2Rlc2NyaXB0aW9uJywgJ2xpY2Vuc2UnLCAnYWxsb3dlZC10b29scycsICdtZXRhZGF0YScsICdjb21wYXRpYmlsaXR5J30KCiAgICAjIENoZWNrIGZvciB1bmV4cGVjdGVkIHByb3BlcnRpZXMgKGV4Y2x1ZGluZyBuZXN0ZWQga2V5cyB1bmRlciBtZXRhZGF0YSkKICAgIHVuZXhwZWN0ZWRfa2V5cyA9IHNldChmcm9udG1hdHRlci5rZXlzKCkpIC0gQUxMT1dFRF9QUk9QRVJUSUVTCiAgICBpZiB1bmV4cGVjdGVkX2tleXM6CiAgICAgICAgcmV0dXJuIEZhbHNlLCAoCiAgICAgICAgICAgIGYiVW5leHBlY3RlZCBrZXkocykgaW4gU0tJTEwubWQgZnJvbnRtYXR0ZXI6IHsnLCAnLmpvaW4oc29ydGVkKHVuZXhwZWN0ZWRfa2V5cykpfS4gIgogICAgICAgICAgICBmIkFsbG93ZWQgcHJvcGVydGllcyBhcmU6IHsnLCAnLmpvaW4oc29ydGVkKEFMTE9XRURfUFJPUEVSVElFUykpfSIKICAgICAgICApCgogICAgIyBDaGVjayByZXF1aXJlZCBmaWVsZHMKICAgIGlmICduYW1lJyBub3QgaW4gZnJvbnRtYXR0ZXI6CiAgICAgICAgcmV0dXJuIEZhbHNlLCAiTWlzc2luZyAnbmFtZScgaW4gZnJvbnRtYXR0ZXIiCiAgICBpZiAnZGVzY3JpcHRpb24nIG5vdCBpbiBmcm9udG1hdHRlcjoKICAgICAgICByZXR1cm4gRmFsc2UsICJNaXNzaW5nICdkZXNjcmlwdGlvbicgaW4gZnJvbnRtYXR0ZXIiCgogICAgIyBFeHRyYWN0IG5hbWUgZm9yIHZhbGlkYXRpb24KICAgIG5hbWUgPSBmcm9udG1hdHRlci5nZXQoJ25hbWUnLCAnJykKICAgIGlmIG5vdCBpc2luc3RhbmNlKG5hbWUsIHN0cik6CiAgICAgICAgcmV0dXJuIEZhbHNlLCBmIk5hbWUgbXVzdCBiZSBhIHN0cmluZywgZ290IHt0eXBlKG5hbWUpLl9fbmFtZV9ffSIKICAgIG5hbWUgPSBuYW1lLnN0cmlwKCkKICAgIGlmIG5hbWU6CiAgICAgICAgIyBDaGVjayBuYW1pbmcgY29udmVudGlvbiAoa2ViYWItY2FzZTogbG93ZXJjYXNlIHdpdGggaHlwaGVucykKICAgICAgICBpZiBub3QgcmUubWF0Y2gocideW2EtejAtOS1dKyQnLCBuYW1lKToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlLCBmIk5hbWUgJ3tuYW1lfScgc2hvdWxkIGJlIGtlYmFiLWNhc2UgKGxvd2VyY2FzZSBsZXR0ZXJzLCBkaWdpdHMsIGFuZCBoeXBoZW5zIG9ubHkpIgogICAgICAgIGlmIG5hbWUuc3RhcnRzd2l0aCgnLScpIG9yIG5hbWUuZW5kc3dpdGgoJy0nKSBvciAnLS0nIGluIG5hbWU6CiAgICAgICAgICAgIHJldHVybiBGYWxzZSwgZiJOYW1lICd7bmFtZX0nIGNhbm5vdCBzdGFydC9lbmQgd2l0aCBoeXBoZW4gb3IgY29udGFpbiBjb25zZWN1dGl2ZSBoeXBoZW5zIgogICAgICAgICMgQ2hlY2sgbmFtZSBsZW5ndGggKG1heCA2NCBjaGFyYWN0ZXJzIHBlciBzcGVjKQogICAgICAgIGlmIGxlbihuYW1lKSA+IDY0OgogICAgICAgICAgICByZXR1cm4gRmFsc2UsIGYiTmFtZSBpcyB0b28gbG9uZyAoe2xlbihuYW1lKX0gY2hhcmFjdGVycykuIE1heGltdW0gaXMgNjQgY2hhcmFjdGVycy4iCgogICAgIyBFeHRyYWN0IGFuZCB2YWxpZGF0ZSBkZXNjcmlwdGlvbgogICAgZGVzY3JpcHRpb24gPSBmcm9udG1hdHRlci5nZXQoJ2Rlc2NyaXB0aW9uJywgJycpCiAgICBpZiBub3QgaXNpbnN0YW5jZShkZXNjcmlwdGlvbiwgc3RyKToKICAgICAgICByZXR1cm4gRmFsc2UsIGYiRGVzY3JpcHRpb24gbXVzdCBiZSBhIHN0cmluZywgZ290IHt0eXBlKGRlc2NyaXB0aW9uKS5fX25hbWVfX30iCiAgICBkZXNjcmlwdGlvbiA9IGRlc2NyaXB0aW9uLnN0cmlwKCkKICAgIGlmIGRlc2NyaXB0aW9uOgogICAgICAgICMgQ2hlY2sgZm9yIGFuZ2xlIGJyYWNrZXRzCiAgICAgICAgaWYgJzwnIGluIGRlc2NyaXB0aW9uIG9yICc+JyBpbiBkZXNjcmlwdGlvbjoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlLCAiRGVzY3JpcHRpb24gY2Fubm90IGNvbnRhaW4gYW5nbGUgYnJhY2tldHMgKDwgb3IgPikiCiAgICAgICAgIyBDaGVjayBkZXNjcmlwdGlvbiBsZW5ndGggKG1heCAxMDI0IGNoYXJhY3RlcnMgcGVyIHNwZWMpCiAgICAgICAgaWYgbGVuKGRlc2NyaXB0aW9uKSA+IDEwMjQ6CiAgICAgICAgICAgIHJldHVybiBGYWxzZSwgZiJEZXNjcmlwdGlvbiBpcyB0b28gbG9uZyAoe2xlbihkZXNjcmlwdGlvbil9IGNoYXJhY3RlcnMpLiBNYXhpbXVtIGlzIDEwMjQgY2hhcmFjdGVycy4iCgogICAgIyBWYWxpZGF0ZSBjb21wYXRpYmlsaXR5IGZpZWxkIGlmIHByZXNlbnQgKG9wdGlvbmFsKQogICAgY29tcGF0aWJpbGl0eSA9IGZyb250bWF0dGVyLmdldCgnY29tcGF0aWJpbGl0eScsICcnKQogICAgaWYgY29tcGF0aWJpbGl0eToKICAgICAgICBpZiBub3QgaXNpbnN0YW5jZShjb21wYXRpYmlsaXR5LCBzdHIpOgogICAgICAgICAgICByZXR1cm4gRmFsc2UsIGYiQ29tcGF0aWJpbGl0eSBtdXN0IGJlIGEgc3RyaW5nLCBnb3Qge3R5cGUoY29tcGF0aWJpbGl0eSkuX19uYW1lX199IgogICAgICAgIGlmIGxlbihjb21wYXRpYmlsaXR5KSA+IDUwMDoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlLCBmIkNvbXBhdGliaWxpdHkgaXMgdG9vIGxvbmcgKHtsZW4oY29tcGF0aWJpbGl0eSl9IGNoYXJhY3RlcnMpLiBNYXhpbXVtIGlzIDUwMCBjaGFyYWN0ZXJzLiIKCiAgICByZXR1cm4gVHJ1ZSwgIlNraWxsIGlzIHZhbGlkISIKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBpZiBsZW4oc3lzLmFyZ3YpICE9IDI6CiAgICAgICAgcHJpbnQoIlVzYWdlOiBweXRob24gcXVpY2tfdmFsaWRhdGUucHkgPHNraWxsX2RpcmVjdG9yeT4iKQogICAgICAgIHN5cy5leGl0KDEpCiAgICAKICAgIHZhbGlkLCBtZXNzYWdlID0gdmFsaWRhdGVfc2tpbGwoc3lzLmFyZ3ZbMV0pCiAgICBwcmludChtZXNzYWdlKQogICAgc3lzLmV4aXQoMCBpZiB2YWxpZCBlbHNlIDEp
+#!/usr/bin/env python3
+"""
+Quick validation script for skills - minimal version
+"""
+
+import sys
+import os
+import re
+import yaml
+from pathlib import Path
+
+def validate_skill(skill_path):
+    """Basic validation of a skill"""
+    skill_path = Path(skill_path)
+
+    # Check SKILL.md exists
+    skill_md = skill_path / 'SKILL.md'
+    if not skill_md.exists():
+        return False, "SKILL.md not found"
+
+    # Read and validate frontmatter
+    content = skill_md.read_text()
+    if not content.startswith('---'):
+        return False, "No YAML frontmatter found"
+
+    # Extract frontmatter
+    match = re.match(r'^---\n(.*?)\n---', content, re.DOTALL)
+    if not match:
+        return False, "Invalid frontmatter format"
+
+    frontmatter_text = match.group(1)
+
+    # Parse YAML frontmatter
+    try:
+        frontmatter = yaml.safe_load(frontmatter_text)
+        if not isinstance(frontmatter, dict):
+            return False, "Frontmatter must be a YAML dictionary"
+    except yaml.YAMLError as e:
+        return False, f"Invalid YAML in frontmatter: {e}"
+
+    # Define allowed properties
+    ALLOWED_PROPERTIES = {'name', 'description', 'license', 'allowed-tools', 'metadata', 'compatibility'}
+
+    # Check for unexpected properties (excluding nested keys under metadata)
+    unexpected_keys = set(frontmatter.keys()) - ALLOWED_PROPERTIES
+    if unexpected_keys:
+        return False, (
+            f"Unexpected key(s) in SKILL.md frontmatter: {', '.join(sorted(unexpected_keys))}. "
+            f"Allowed properties are: {', '.join(sorted(ALLOWED_PROPERTIES))}"
+        )
+
+    # Check required fields
+    if 'name' not in frontmatter:
+        return False, "Missing 'name' in frontmatter"
+    if 'description' not in frontmatter:
+        return False, "Missing 'description' in frontmatter"
+
+    # Extract name for validation
+    name = frontmatter.get('name', '')
+    if not isinstance(name, str):
+        return False, f"Name must be a string, got {type(name).__name__}"
+    name = name.strip()
+    if name:
+        # Check naming convention (kebab-case: lowercase with hyphens)
+        if not re.match(r'^[a-z0-9-]+$', name):
+            return False, f"Name '{name}' should be kebab-case (lowercase letters, digits, and hyphens only)"
+        if name.startswith('-') or name.endswith('-') or '--' in name:
+            return False, f"Name '{name}' cannot start/end with hyphen or contain consecutive hyphens"
+        # Check name length (max 64 characters per spec)
+        if len(name) > 64:
+            return False, f"Name is too long ({len(name)} characters). Maximum is 64 characters."
+
+    # Extract and validate description
+    description = frontmatter.get('description', '')
+    if not isinstance(description, str):
+        return False, f"Description must be a string, got {type(description).__name__}"
+    description = description.strip()
+    if description:
+        # Check for angle brackets
+        if '<' in description or '>' in description:
+            return False, "Description cannot contain angle brackets (< or >)"
+        # Check description length (max 1024 characters per spec)
+        if len(description) > 1024:
+            return False, f"Description is too long ({len(description)} characters). Maximum is 1024 characters."
+
+    # Validate compatibility field if present (optional)
+    compatibility = frontmatter.get('compatibility', '')
+    if compatibility:
+        if not isinstance(compatibility, str):
+            return False, f"Compatibility must be a string, got {type(compatibility).__name__}"
+        if len(compatibility) > 500:
+            return False, f"Compatibility is too long ({len(compatibility)} characters). Maximum is 500 characters."
+
+    return True, "Skill is valid!"
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Usage: python quick_validate.py <skill_directory>")
+        sys.exit(1)
+    
+    valid, message = validate_skill(sys.argv[1])
+    print(message)
+    sys.exit(0 if valid else 1)

@@ -1,1 +1,421 @@
-IyBDbGF1ZGUgQVBJIOKAlCBHbwoKPiAqKk5vdGU6KiogVGhlIEdvIFNESyBzdXBwb3J0cyB0aGUgQ2xhdWRlIEFQSSBhbmQgYmV0YSB0b29sIHVzZSB3aXRoIGBCZXRhVG9vbFJ1bm5lcmAuIEFnZW50IFNESyBpcyBub3QgeWV0IGF2YWlsYWJsZSBmb3IgR28uCgojIyBJbnN0YWxsYXRpb24KCmBgYGJhc2gKZ28gZ2V0IGdpdGh1Yi5jb20vYW50aHJvcGljcy9hbnRocm9waWMtc2RrLWdvCmBgYAoKIyMgQ2xpZW50IEluaXRpYWxpemF0aW9uCgpgYGBnbwppbXBvcnQgKAogICAgImdpdGh1Yi5jb20vYW50aHJvcGljcy9hbnRocm9waWMtc2RrLWdvIgogICAgImdpdGh1Yi5jb20vYW50aHJvcGljcy9hbnRocm9waWMtc2RrLWdvL29wdGlvbiIKKQoKLy8gRGVmYXVsdCAodXNlcyBBTlRIUk9QSUNfQVBJX0tFWSBlbnYgdmFyKQpjbGllbnQgOj0gYW50aHJvcGljLk5ld0NsaWVudCgpCgovLyBFeHBsaWNpdCBBUEkga2V5CmNsaWVudCA6PSBhbnRocm9waWMuTmV3Q2xpZW50KAogICAgb3B0aW9uLldpdGhBUElLZXkoInlvdXItYXBpLWtleSIpLAopCmBgYAoKLS0tCgojIyBCYXNpYyBNZXNzYWdlIFJlcXVlc3QKCmBgYGdvCnJlc3BvbnNlLCBlcnIgOj0gY2xpZW50Lk1lc3NhZ2VzLk5ldyhjb250ZXh0LkJhY2tncm91bmQoKSwgYW50aHJvcGljLk1lc3NhZ2VOZXdQYXJhbXN7CiAgICBNb2RlbDogICAgIGFudGhyb3BpYy5Nb2RlbENsYXVkZU9wdXM0XzYsCiAgICBNYXhUb2tlbnM6IDE2MDAwLAogICAgTWVzc2FnZXM6IFtdYW50aHJvcGljLk1lc3NhZ2VQYXJhbXsKICAgICAgICBhbnRocm9waWMuTmV3VXNlck1lc3NhZ2UoYW50aHJvcGljLk5ld1RleHRCbG9jaygiV2hhdCBpcyB0aGUgY2FwaXRhbCBvZiBGcmFuY2U/IikpLAogICAgfSwKfSkKaWYgZXJyICE9IG5pbCB7CiAgICBsb2cuRmF0YWwoZXJyKQp9CmZvciBfLCBibG9jayA6PSByYW5nZSByZXNwb25zZS5Db250ZW50IHsKICAgIHN3aXRjaCB2YXJpYW50IDo9IGJsb2NrLkFzQW55KCkuKHR5cGUpIHsKICAgIGNhc2UgYW50aHJvcGljLlRleHRCbG9jazoKICAgICAgICBmbXQuUHJpbnRsbih2YXJpYW50LlRleHQpCiAgICB9Cn0KYGBgCgotLS0KCiMjIFN0cmVhbWluZwoKYGBgZ28Kc3RyZWFtIDo9IGNsaWVudC5NZXNzYWdlcy5OZXdTdHJlYW1pbmcoY29udGV4dC5CYWNrZ3JvdW5kKCksIGFudGhyb3BpYy5NZXNzYWdlTmV3UGFyYW1zewogICAgTW9kZWw6ICAgICBhbnRocm9waWMuTW9kZWxDbGF1ZGVPcHVzNF82LAogICAgTWF4VG9rZW5zOiA2NDAwMCwKICAgIE1lc3NhZ2VzOiBbXWFudGhyb3BpYy5NZXNzYWdlUGFyYW17CiAgICAgICAgYW50aHJvcGljLk5ld1VzZXJNZXNzYWdlKGFudGhyb3BpYy5OZXdUZXh0QmxvY2soIldyaXRlIGEgaGFpa3UiKSksCiAgICB9LAp9KQoKZm9yIHN0cmVhbS5OZXh0KCkgewogICAgZXZlbnQgOj0gc3RyZWFtLkN1cnJlbnQoKQogICAgc3dpdGNoIGV2ZW50VmFyaWFudCA6PSBldmVudC5Bc0FueSgpLih0eXBlKSB7CiAgICBjYXNlIGFudGhyb3BpYy5Db250ZW50QmxvY2tEZWx0YUV2ZW50OgogICAgICAgIHN3aXRjaCBkZWx0YVZhcmlhbnQgOj0gZXZlbnRWYXJpYW50LkRlbHRhLkFzQW55KCkuKHR5cGUpIHsKICAgICAgICBjYXNlIGFudGhyb3BpYy5UZXh0RGVsdGE6CiAgICAgICAgICAgIGZtdC5QcmludChkZWx0YVZhcmlhbnQuVGV4dCkKICAgICAgICB9CiAgICB9Cn0KaWYgZXJyIDo9IHN0cmVhbS5FcnIoKTsgZXJyICE9IG5pbCB7CiAgICBsb2cuRmF0YWwoZXJyKQp9CmBgYAoKKipBY2N1bXVsYXRpbmcgdGhlIGZpbmFsIG1lc3NhZ2UqKiAodGhlcmUgaXMgbm8gYEdldEZpbmFsTWVzc2FnZSgpYCBvbiB0aGUgc3RyZWFtKToKCmBgYGdvCnN0cmVhbSA6PSBjbGllbnQuTWVzc2FnZXMuTmV3U3RyZWFtaW5nKGN0eCwgcGFyYW1zKQptZXNzYWdlIDo9IGFudGhyb3BpYy5NZXNzYWdle30KZm9yIHN0cmVhbS5OZXh0KCkgewogICAgbWVzc2FnZS5BY2N1bXVsYXRlKHN0cmVhbS5DdXJyZW50KCkpCn0KaWYgZXJyIDo9IHN0cmVhbS5FcnIoKTsgZXJyICE9IG5pbCB7IGxvZy5GYXRhbChlcnIpIH0KLy8gbWVzc2FnZS5Db250ZW50IG5vdyBoYXMgdGhlIGNvbXBsZXRlIHJlc3BvbnNlCmBgYAoKCi0tLQoKIyMgVG9vbCBVc2UKCiMjIyBUb29sIFJ1bm5lciAoQmV0YSDigJQgUmVjb21tZW5kZWQpCgoqKkJldGE6KiogVGhlIEdvIFNESyBwcm92aWRlcyBgQmV0YVRvb2xSdW5uZXJgIGZvciBhdXRvbWF0aWMgdG9vbCB1c2UgbG9vcHMgdmlhIHRoZSBgdG9vbHJ1bm5lcmAgcGFja2FnZS4KCmBgYGdvCmltcG9ydCAoCiAgICAiY29udGV4dCIKICAgICJmbXQiCiAgICAibG9nIgoKICAgICJnaXRodWIuY29tL2FudGhyb3BpY3MvYW50aHJvcGljLXNkay1nbyIKICAgICJnaXRodWIuY29tL2FudGhyb3BpY3MvYW50aHJvcGljLXNkay1nby90b29scnVubmVyIgopCgovLyBEZWZpbmUgdG9vbCBpbnB1dCB3aXRoIGpzb25zY2hlbWEgdGFncyBmb3IgYXV0b21hdGljIHNjaGVtYSBnZW5lcmF0aW9uCnR5cGUgR2V0V2VhdGhlcklucHV0IHN0cnVjdCB7CiAgICBDaXR5IHN0cmluZyBganNvbjoiY2l0eSIganNvbnNjaGVtYToicmVxdWlyZWQsZGVzY3JpcHRpb249VGhlIGNpdHkgbmFtZSJgCn0KCi8vIENyZWF0ZSBhIHRvb2wgd2l0aCBhdXRvbWF0aWMgc2NoZW1hIGdlbmVyYXRpb24gZnJvbSBzdHJ1Y3QgdGFncwp3ZWF0aGVyVG9vbCwgZXJyIDo9IHRvb2xydW5uZXIuTmV3QmV0YVRvb2xGcm9tSlNPTlNjaGVtYSgKICAgICJnZXRfd2VhdGhlciIsCiAgICAiR2V0IGN1cnJlbnQgd2VhdGhlciBmb3IgYSBjaXR5IiwKICAgIGZ1bmMoY3R4IGNvbnRleHQuQ29udGV4dCwgaW5wdXQgR2V0V2VhdGhlcklucHV0KSAoYW50aHJvcGljLkJldGFUb29sUmVzdWx0QmxvY2tQYXJhbUNvbnRlbnRVbmlvbiwgZXJyb3IpIHsKICAgICAgICByZXR1cm4gYW50aHJvcGljLkJldGFUb29sUmVzdWx0QmxvY2tQYXJhbUNvbnRlbnRVbmlvbnsKICAgICAgICAgICAgT2ZUZXh0OiAmYW50aHJvcGljLkJldGFUZXh0QmxvY2tQYXJhbXsKICAgICAgICAgICAgICAgIFRleHQ6IGZtdC5TcHJpbnRmKCJUaGUgd2VhdGhlciBpbiAlcyBpcyBzdW5ueSwgNzLCsEYiLCBpbnB1dC5DaXR5KSwKICAgICAgICAgICAgfSwKICAgICAgICB9LCBuaWwKICAgIH0sCikKaWYgZXJyICE9IG5pbCB7CiAgICBsb2cuRmF0YWwoZXJyKQp9CgovLyBDcmVhdGUgYSB0b29sIHJ1bm5lciB0aGF0IGhhbmRsZXMgdGhlIGNvbnZlcnNhdGlvbiBsb29wIGF1dG9tYXRpY2FsbHkKcnVubmVyIDo9IGNsaWVudC5CZXRhLk1lc3NhZ2VzLk5ld1Rvb2xSdW5uZXIoCiAgICBbXWFudGhyb3BpYy5CZXRhVG9vbHt3ZWF0aGVyVG9vbH0sCiAgICBhbnRocm9waWMuQmV0YVRvb2xSdW5uZXJQYXJhbXN7CiAgICAgICAgQmV0YU1lc3NhZ2VOZXdQYXJhbXM6IGFudGhyb3BpYy5CZXRhTWVzc2FnZU5ld1BhcmFtc3sKICAgICAgICAgICAgTW9kZWw6ICAgICBhbnRocm9waWMuTW9kZWxDbGF1ZGVPcHVzNF82LAogICAgICAgICAgICBNYXhUb2tlbnM6IDE2MDAwLAogICAgICAgICAgICBNZXNzYWdlczogW11hbnRocm9waWMuQmV0YU1lc3NhZ2VQYXJhbXsKICAgICAgICAgICAgICAgIGFudGhyb3BpYy5OZXdCZXRhVXNlck1lc3NhZ2UoYW50aHJvcGljLk5ld0JldGFUZXh0QmxvY2soIldoYXQncyB0aGUgd2VhdGhlciBpbiBQYXJpcz8iKSksCiAgICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICAgICBNYXhJdGVyYXRpb25zOiA1LAogICAgfSwKKQoKLy8gUnVuIHVudGlsIENsYXVkZSBwcm9kdWNlcyBhIGZpbmFsIHJlc3BvbnNlCm1lc3NhZ2UsIGVyciA6PSBydW5uZXIuUnVuVG9Db21wbGV0aW9uKGNvbnRleHQuQmFja2dyb3VuZCgpKQppZiBlcnIgIT0gbmlsIHsKICAgIGxvZy5GYXRhbChlcnIpCn0KCi8vIFJ1blRvQ29tcGxldGlvbiByZXR1cm5zICpCZXRhTWVzc2FnZTsgY29udGVudCBpcyBbXUJldGFDb250ZW50QmxvY2tVbmlvbi4KLy8gTmFycm93IHZpYSBBc0FueSgpIHN3aXRjaCDigJQgbm90ZSB0aGUgQmV0YS1uYW1lc3BhY2UgdHlwZXMgKEJldGFUZXh0QmxvY2ssCi8vIG5vdCBUZXh0QmxvY2spOgpmb3IgXywgYmxvY2sgOj0gcmFuZ2UgbWVzc2FnZS5Db250ZW50IHsKICAgIHN3aXRjaCBibG9jayA6PSBibG9jay5Bc0FueSgpLih0eXBlKSB7CiAgICBjYXNlIGFudGhyb3BpYy5CZXRhVGV4dEJsb2NrOgogICAgICAgIGZtdC5QcmludGxuKGJsb2NrLlRleHQpCiAgICB9Cn0KYGBgCgoqKktleSBmZWF0dXJlcyBvZiB0aGUgR28gdG9vbCBydW5uZXI6KioKCi0gQXV0b21hdGljIHNjaGVtYSBnZW5lcmF0aW9uIGZyb20gR28gc3RydWN0cyB2aWEgYGpzb25zY2hlbWFgIHRhZ3MKLSBgUnVuVG9Db21wbGV0aW9uKClgIGZvciBzaW1wbGUgb25lLXNob3QgdXNhZ2UKLSBgQWxsKClgIGl0ZXJhdG9yIGZvciBwcm9jZXNzaW5nIGVhY2ggbWVzc2FnZSBpbiB0aGUgY29udmVyc2F0aW9uCi0gYE5leHRNZXNzYWdlKClgIGZvciBzdGVwLWJ5LXN0ZXAgaXRlcmF0aW9uCi0gU3RyZWFtaW5nIHZhcmlhbnQgdmlhIGBOZXdUb29sUnVubmVyU3RyZWFtaW5nKClgIHdpdGggYEFsbFN0cmVhbWluZygpYAoKIyMjIE1hbnVhbCBMb29wCgpGb3IgZmluZS1ncmFpbmVkIGNvbnRyb2wgb3ZlciB0aGUgYWdlbnRpYyBsb29wLCBkZWZpbmUgdG9vbHMgd2l0aCBgVG9vbFBhcmFtYCwgY2hlY2sgYFN0b3BSZWFzb25gLCBleGVjdXRlIHRvb2xzIHlvdXJzZWxmLCBhbmQgZmVlZCBgdG9vbF9yZXN1bHRgIGJsb2NrcyBiYWNrLiBUaGlzIGlzIHRoZSBwYXR0ZXJuIHdoZW4geW91IG5lZWQgdG8gaW50ZXJjZXB0LCB2YWxpZGF0ZSwgb3IgbG9nIHRvb2wgY2FsbHMuCgpEZXJpdmVkIGZyb20gYGFudGhyb3BpYy1zZGstZ28vZXhhbXBsZXMvdG9vbHMvbWFpbi5nb2AuCgpgYGBnbwpwYWNrYWdlIG1haW4KCmltcG9ydCAoCiAgICAiY29udGV4dCIKICAgICJlbmNvZGluZy9qc29uIgogICAgImZtdCIKICAgICJsb2ciCgogICAgImdpdGh1Yi5jb20vYW50aHJvcGljcy9hbnRocm9waWMtc2RrLWdvIgopCgpmdW5jIG1haW4oKSB7CiAgICBjbGllbnQgOj0gYW50aHJvcGljLk5ld0NsaWVudCgpCgogICAgLy8gMS4gRGVmaW5lIHRvb2xzLiBUb29sUGFyYW0uSW5wdXRTY2hlbWEgdXNlcyBhIG1hcCwgbm8gc3RydWN0IHRhZ3MgbmVlZGVkLgogICAgYWRkVG9vbCA6PSBhbnRocm9waWMuVG9vbFBhcmFtewogICAgICAgIE5hbWU6ICAgICAgICAiYWRkIiwKICAgICAgICBEZXNjcmlwdGlvbjogYW50aHJvcGljLlN0cmluZygiQWRkIHR3byBpbnRlZ2VycyIpLAogICAgICAgIElucHV0U2NoZW1hOiBhbnRocm9waWMuVG9vbElucHV0U2NoZW1hUGFyYW17CiAgICAgICAgICAgIFByb3BlcnRpZXM6IG1hcFtzdHJpbmddYW55ewogICAgICAgICAgICAgICAgImEiOiBtYXBbc3RyaW5nXWFueXsidHlwZSI6ICJpbnRlZ2VyIn0sCiAgICAgICAgICAgICAgICAiYiI6IG1hcFtzdHJpbmddYW55eyJ0eXBlIjogImludGVnZXIifSwKICAgICAgICAgICAgfSwKICAgICAgICB9LAogICAgfQogICAgLy8gVG9vbFBhcmFtIG11c3QgYmUgd3JhcHBlZCBpbiBUb29sVW5pb25QYXJhbSBmb3IgdGhlIFRvb2xzIHNsaWNlCiAgICB0b29scyA6PSBbXWFudGhyb3BpYy5Ub29sVW5pb25QYXJhbXt7T2ZUb29sOiAmYWRkVG9vbH19CgogICAgbWVzc2FnZXMgOj0gW11hbnRocm9waWMuTWVzc2FnZVBhcmFtewogICAgICAgIGFudGhyb3BpYy5OZXdVc2VyTWVzc2FnZShhbnRocm9waWMuTmV3VGV4dEJsb2NrKCJXaGF0IGlzIDIgKyAzPyIpKSwKICAgIH0KCiAgICBmb3IgewogICAgICAgIHJlc3AsIGVyciA6PSBjbGllbnQuTWVzc2FnZXMuTmV3KGNvbnRleHQuQmFja2dyb3VuZCgpLCBhbnRocm9waWMuTWVzc2FnZU5ld1BhcmFtc3sKICAgICAgICAgICAgTW9kZWw6ICAgICBhbnRocm9waWMuTW9kZWxDbGF1ZGVTb25uZXQ0XzYsCiAgICAgICAgICAgIE1heFRva2VuczogMTYwMDAsCiAgICAgICAgICAgIE1lc3NhZ2VzOiAgbWVzc2FnZXMsCiAgICAgICAgICAgIFRvb2xzOiAgICAgdG9vbHMsCiAgICAgICAgfSkKICAgICAgICBpZiBlcnIgIT0gbmlsIHsKICAgICAgICAgICAgbG9nLkZhdGFsKGVycikKICAgICAgICB9CgogICAgICAgIC8vIDIuIEFwcGVuZCB0aGUgYXNzaXN0YW50IHJlc3BvbnNlIHRvIGhpc3RvcnkgQkVGT1JFIHByb2Nlc3NpbmcgdG9vbCBjYWxscy4KICAgICAgICAvLyAgICByZXNwLlRvUGFyYW0oKSBjb252ZXJ0cyBNZXNzYWdlIOKGkiBNZXNzYWdlUGFyYW0gaW4gb25lIGNhbGwuCiAgICAgICAgbWVzc2FnZXMgPSBhcHBlbmQobWVzc2FnZXMsIHJlc3AuVG9QYXJhbSgpKQoKICAgICAgICAvLyAzLiBXYWxrIGNvbnRlbnQgYmxvY2tzLiBDb250ZW50QmxvY2tVbmlvbiBpcyBhIGZsYXR0ZW5lZCBzdHJ1Y3Q7CiAgICAgICAgLy8gICAgdXNlIGJsb2NrLkFzQW55KCkuKHR5cGUpIHRvIHN3aXRjaCBvbiB0aGUgYWN0dWFsIHZhcmlhbnQuCiAgICAgICAgdG9vbFJlc3VsdHMgOj0gW11hbnRocm9waWMuQ29udGVudEJsb2NrUGFyYW1Vbmlvbnt9CiAgICAgICAgZm9yIF8sIGJsb2NrIDo9IHJhbmdlIHJlc3AuQ29udGVudCB7CiAgICAgICAgICAgIHN3aXRjaCB2YXJpYW50IDo9IGJsb2NrLkFzQW55KCkuKHR5cGUpIHsKICAgICAgICAgICAgY2FzZSBhbnRocm9waWMuVGV4dEJsb2NrOgogICAgICAgICAgICAgICAgZm10LlByaW50bG4odmFyaWFudC5UZXh0KQogICAgICAgICAgICBjYXNlIGFudGhyb3BpYy5Ub29sVXNlQmxvY2s6CiAgICAgICAgICAgICAgICAvLyA0LiBQYXJzZSB0aGUgdG9vbCBpbnB1dC4gVXNlIHZhcmlhbnQuSlNPTi5JbnB1dC5SYXcoKSB0byBnZXQgdGhlCiAgICAgICAgICAgICAgICAvLyAgICByYXcgSlNPTiDigJQgYmxvY2suSW5wdXQgaXMganNvbi5SYXdNZXNzYWdlLCBub3QgdGhlIHBhcnNlZCB2YWx1ZS4KICAgICAgICAgICAgICAgIHZhciBpbiBzdHJ1Y3QgewogICAgICAgICAgICAgICAgICAgIEEgaW50IGBqc29uOiJhImAKICAgICAgICAgICAgICAgICAgICBCIGludCBganNvbjoiYiJgCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwoW11ieXRlKHZhcmlhbnQuSlNPTi5JbnB1dC5SYXcoKSksICZpbik7IGVyciAhPSBuaWwgewogICAgICAgICAgICAgICAgICAgIGxvZy5GYXRhbChlcnIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXN1bHQgOj0gZm10LlNwcmludGYoIiVkIiwgaW4uQStpbi5CKQogICAgICAgICAgICAgICAgLy8gNS4gTmV3VG9vbFJlc3VsdEJsb2NrKHRvb2xVc2VJRCwgY29udGVudCwgaXNFcnJvcikgYnVpbGRzIHRoZQogICAgICAgICAgICAgICAgLy8gICAgQ29udGVudEJsb2NrUGFyYW1VbmlvbiBmb3IgeW91LiBibG9jay5JRCBpcyB0aGUgdG9vbF91c2VfaWQuCiAgICAgICAgICAgICAgICB0b29sUmVzdWx0cyA9IGFwcGVuZCh0b29sUmVzdWx0cywKICAgICAgICAgICAgICAgICAgICBhbnRocm9waWMuTmV3VG9vbFJlc3VsdEJsb2NrKGJsb2NrLklELCByZXN1bHQsIGZhbHNlKSkKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgLy8gNi4gRXhpdCB3aGVuIENsYXVkZSBzdG9wcyBhc2tpbmcgZm9yIHRvb2xzCiAgICAgICAgaWYgcmVzcC5TdG9wUmVhc29uICE9IGFudGhyb3BpYy5TdG9wUmVhc29uVG9vbFVzZSB7CiAgICAgICAgICAgIGJyZWFrCiAgICAgICAgfQoKICAgICAgICAvLyA3LiBUb29sIHJlc3VsdHMgZ28gaW4gYSB1c2VyIG1lc3NhZ2UgKHZhcmlhZGljOiBhbGwgcmVzdWx0cyBpbiBvbmUgdHVybikKICAgICAgICBtZXNzYWdlcyA9IGFwcGVuZChtZXNzYWdlcywgYW50aHJvcGljLk5ld1VzZXJNZXNzYWdlKHRvb2xSZXN1bHRzLi4uKSkKICAgIH0KfQpgYGAKCioqS2V5IEFQSSBzdXJmYWNlOioqCgp8IFN5bWJvbCB8IFB1cnBvc2UgfAp8LS0tfC0tLXwKfCBgcmVzcC5Ub1BhcmFtKClgIHwgQ29udmVydCBgTWVzc2FnZWAgcmVzcG9uc2Ug4oaSIGBNZXNzYWdlUGFyYW1gIGZvciBoaXN0b3J5IHwKfCBgYmxvY2suQXNBbnkoKS4odHlwZSlgIHwgVHlwZS1zd2l0Y2ggb24gYENvbnRlbnRCbG9ja1VuaW9uYCB2YXJpYW50cyB8CnwgYHZhcmlhbnQuSlNPTi5JbnB1dC5SYXcoKWAgfCBSYXcgSlNPTiBzdHJpbmcgb2YgdG9vbCBpbnB1dCAoZm9yIGBqc29uLlVubWFyc2hhbGApIHwKfCBgYW50aHJvcGljLk5ld1Rvb2xSZXN1bHRCbG9jayhpZCwgY29udGVudCwgaXNFcnJvcilgIHwgQnVpbGQgYHRvb2xfcmVzdWx0YCBibG9jayB8CnwgYGFudGhyb3BpYy5OZXdVc2VyTWVzc2FnZShibG9ja3MuLi4pYCB8IFdyYXAgdG9vbCByZXN1bHRzIGFzIGEgdXNlciB0dXJuIHwKfCBgYW50aHJvcGljLlN0b3BSZWFzb25Ub29sVXNlYCB8IGBTdG9wUmVhc29uYCBjb25zdGFudCB0byBjaGVjayBsb29wIHRlcm1pbmF0aW9uIHwKfCBgYW50aHJvcGljLlRvb2xVbmlvblBhcmFte09mVG9vbDogJnR9YCB8IFdyYXAgYFRvb2xQYXJhbWAgaW4gdGhlIHVuaW9uIGZvciBgVG9vbHM6YCB8CgotLS0KCiMjIFRoaW5raW5nCgpFbmFibGUgQ2xhdWRlJ3MgaW50ZXJuYWwgcmVhc29uaW5nIGJ5IHNldHRpbmcgYFRoaW5raW5nYCBpbiBgTWVzc2FnZU5ld1BhcmFtc2AuIFRoZSByZXNwb25zZSB3aWxsIGNvbnRhaW4gYFRoaW5raW5nQmxvY2tgIGNvbnRlbnQgYmVmb3JlIHRoZSBmaW5hbCBgVGV4dEJsb2NrYC4KCioqQWRhcHRpdmUgdGhpbmtpbmcgaXMgdGhlIHJlY29tbWVuZGVkIG1vZGUgZm9yIENsYXVkZSA0LjYrIG1vZGVscy4qKiBDbGF1ZGUgZGVjaWRlcyBkeW5hbWljYWxseSB3aGVuIGFuZCBob3cgbXVjaCB0byB0aGluay4gQ29tYmluZSB3aXRoIHRoZSBgZWZmb3J0YCBwYXJhbWV0ZXIgZm9yIGNvc3QtcXVhbGl0eSBjb250cm9sLgoKRGVyaXZlZCBmcm9tIGBhbnRocm9waWMtc2RrLWdvL21lc3NhZ2UuZ29gIChgVGhpbmtpbmdDb25maWdQYXJhbVVuaW9uYCwgYE5ld1RoaW5raW5nQ29uZmlnQWRhcHRpdmVQYXJhbWApLgoKYGBgZ28KLy8gVGhlcmUgaXMgbm8gVGhpbmtpbmdDb25maWdQYXJhbU9mQWRhcHRpdmUgaGVscGVyIOKAlCBjb25zdHJ1Y3QgdGhlIHVuaW9uCi8vIHN0cnVjdC1saXRlcmFsIGRpcmVjdGx5IGFuZCB0YWtlIHRoZSBhZGRyZXNzIG9mIHRoZSB2YXJpYW50LgphZGFwdGl2ZSA6PSBhbnRocm9waWMuTmV3VGhpbmtpbmdDb25maWdBZGFwdGl2ZVBhcmFtKCkKcGFyYW1zIDo9IGFudGhyb3BpYy5NZXNzYWdlTmV3UGFyYW1zewogICAgTW9kZWw6ICAgICBhbnRocm9waWMuTW9kZWxDbGF1ZGVTb25uZXQ0XzYsCiAgICBNYXhUb2tlbnM6IDE2MDAwLAogICAgVGhpbmtpbmc6ICBhbnRocm9waWMuVGhpbmtpbmdDb25maWdQYXJhbVVuaW9ue09mQWRhcHRpdmU6ICZhZGFwdGl2ZX0sCiAgICBNZXNzYWdlczogW11hbnRocm9waWMuTWVzc2FnZVBhcmFtewogICAgICAgIGFudGhyb3BpYy5OZXdVc2VyTWVzc2FnZShhbnRocm9waWMuTmV3VGV4dEJsb2NrKCJIb3cgbWFueSByJ3MgaW4gc3RyYXdiZXJyeT8iKSksCiAgICB9LAp9CgpyZXNwLCBlcnIgOj0gY2xpZW50Lk1lc3NhZ2VzLk5ldyhjb250ZXh0LkJhY2tncm91bmQoKSwgcGFyYW1zKQppZiBlcnIgIT0gbmlsIHsKICAgIGxvZy5GYXRhbChlcnIpCn0KCi8vIFRoaW5raW5nQmxvY2socykgcHJlY2VkZSBUZXh0QmxvY2sgaW4gY29udGVudApmb3IgXywgYmxvY2sgOj0gcmFuZ2UgcmVzcC5Db250ZW50IHsKICAgIHN3aXRjaCBiIDo9IGJsb2NrLkFzQW55KCkuKHR5cGUpIHsKICAgIGNhc2UgYW50aHJvcGljLlRoaW5raW5nQmxvY2s6CiAgICAgICAgZm10LlByaW50bG4oIlt0aGlua2luZ10iLCBiLlRoaW5raW5nKQogICAgY2FzZSBhbnRocm9waWMuVGV4dEJsb2NrOgogICAgICAgIGZtdC5QcmludGxuKGIuVGV4dCkKICAgIH0KfQpgYGAKCj4gKipEZXByZWNhdGVkOioqIGBUaGlua2luZ0NvbmZpZ1BhcmFtT2ZFbmFibGVkKGJ1ZGdldFRva2VucylgIChmaXhlZC1idWRnZXQgZXh0ZW5kZWQgdGhpbmtpbmcpIHN0aWxsIHdvcmtzIG9uIENsYXVkZSA0LjYgYnV0IGlzIGRlcHJlY2F0ZWQuIFVzZSBhZGFwdGl2ZSB0aGlua2luZyBhYm92ZS4KClRvIGRpc2FibGU6IGBhbnRocm9waWMuVGhpbmtpbmdDb25maWdQYXJhbVVuaW9ue09mRGlzYWJsZWQ6ICZhbnRocm9waWMuVGhpbmtpbmdDb25maWdEaXNhYmxlZFBhcmFte319YC4KCi0tLQoKIyMgUHJvbXB0IENhY2hpbmcKCmBTeXN0ZW1gIGlzIGBbXVRleHRCbG9ja1BhcmFtYDsgc2V0IGBDYWNoZUNvbnRyb2xgIG9uIHRoZSBsYXN0IGJsb2NrIHRvIGNhY2hlIHRvb2xzICsgc3lzdGVtIHRvZ2V0aGVyLiBGb3IgcGxhY2VtZW50IHBhdHRlcm5zIGFuZCB0aGUgc2lsZW50LWludmFsaWRhdG9yIGF1ZGl0IGNoZWNrbGlzdCwgc2VlIGBzaGFyZWQvcHJvbXB0LWNhY2hpbmcubWRgLgoKYGBgZ28KU3lzdGVtOiBbXWFudGhyb3BpYy5UZXh0QmxvY2tQYXJhbXt7CiAgICBUZXh0OiAgICAgICAgIGxvbmdTeXN0ZW1Qcm9tcHQsCiAgICBDYWNoZUNvbnRyb2w6IGFudGhyb3BpYy5OZXdDYWNoZUNvbnRyb2xFcGhlbWVyYWxQYXJhbSgpLCAvLyBkZWZhdWx0IDVtIFRUTAp9fSwKYGBgCgpGb3IgMS1ob3VyIFRUTDogYGFudGhyb3BpYy5DYWNoZUNvbnRyb2xFcGhlbWVyYWxQYXJhbXtUVEw6IGFudGhyb3BpYy5DYWNoZUNvbnRyb2xFcGhlbWVyYWxUVExUVEwxaH1gLiBUaGVyZSdzIGFsc28gYSB0b3AtbGV2ZWwgYENhY2hlQ29udHJvbGAgb24gYE1lc3NhZ2VOZXdQYXJhbXNgIHRoYXQgYXV0by1wbGFjZXMgb24gdGhlIGxhc3QgY2FjaGVhYmxlIGJsb2NrLgoKVmVyaWZ5IGhpdHMgdmlhIGByZXNwLlVzYWdlLkNhY2hlQ3JlYXRpb25JbnB1dFRva2Vuc2AgLyBgcmVzcC5Vc2FnZS5DYWNoZVJlYWRJbnB1dFRva2Vuc2AuCgotLS0KCiMjIFNlcnZlci1TaWRlIFRvb2xzCgpWZXJzaW9uLXN1ZmZpeGVkIHN0cnVjdCBuYW1lcyB3aXRoIGBQYXJhbWAgc3VmZml4LiBgTmFtZWAvYFR5cGVgIGFyZSBgY29uc3RhbnQuKmAgdHlwZXMg4oCUIHplcm8gdmFsdWUgbWFyc2hhbHMgY29ycmVjdGx5LCBzbyBge31gIHdvcmtzLiBXcmFwIGluIGBUb29sVW5pb25QYXJhbWAgd2l0aCB0aGUgbWF0Y2hpbmcgYE9mKmAgZmllbGQuCgpgYGBnbwpUb29sczogW11hbnRocm9waWMuVG9vbFVuaW9uUGFyYW17CiAgICB7T2ZXZWJTZWFyY2hUb29sMjAyNjAyMDk6ICZhbnRocm9waWMuV2ViU2VhcmNoVG9vbDIwMjYwMjA5UGFyYW17fX0sCiAgICB7T2ZCYXNoVG9vbDIwMjUwMTI0OiAmYW50aHJvcGljLlRvb2xCYXNoMjAyNTAxMjRQYXJhbXt9fSwKICAgIHtPZlRleHRFZGl0b3IyMDI1MDcyODogJmFudGhyb3BpYy5Ub29sVGV4dEVkaXRvcjIwMjUwNzI4UGFyYW17fX0sCiAgICB7T2ZDb2RlRXhlY3V0aW9uVG9vbDIwMjYwMTIwOiAmYW50aHJvcGljLkNvZGVFeGVjdXRpb25Ub29sMjAyNjAxMjBQYXJhbXt9fSwKfSwKYGBgCgpBbHNvIGF2YWlsYWJsZTogYFdlYkZldGNoVG9vbDIwMjYwMjA5UGFyYW1gLCBgTWVtb3J5VG9vbDIwMjUwODE4UGFyYW1gLCBgVG9vbFNlYXJjaFRvb2xCbTI1XzIwMjUxMTE5UGFyYW1gLCBgVG9vbFNlYXJjaFRvb2xSZWdleDIwMjUxMTE5UGFyYW1gLgoKLS0tCgojIyBQREYgLyBEb2N1bWVudCBJbnB1dAoKYE5ld0RvY3VtZW50QmxvY2tgIGdlbmVyaWMgaGVscGVyIGFjY2VwdHMgYW55IHNvdXJjZSB0eXBlLiBgTWVkaWFUeXBlYC9gVHlwZWAgYXJlIGF1dG8tc2V0LgoKYGBgZ28KYjY0IDo9IGJhc2U2NC5TdGRFbmNvZGluZy5FbmNvZGVUb1N0cmluZyhwZGZCeXRlcykKCm1zZyA6PSBhbnRocm9waWMuTmV3VXNlck1lc3NhZ2UoCiAgICBhbnRocm9waWMuTmV3RG9jdW1lbnRCbG9jayhhbnRocm9waWMuQmFzZTY0UERGU291cmNlUGFyYW17RGF0YTogYjY0fSksCiAgICBhbnRocm9waWMuTmV3VGV4dEJsb2NrKCJTdW1tYXJpemUgdGhpcyBkb2N1bWVudCIpLAopCmBgYAoKT3RoZXIgc291cmNlczogYFVSTFBERlNvdXJjZVBhcmFte1VSTDogImh0dHBzOi8vLi4uIn1gLCBgUGxhaW5UZXh0U291cmNlUGFyYW17RGF0YTogIi4uLiJ9YC4KCi0tLQoKIyMgRmlsZXMgQVBJIChCZXRhKQoKVW5kZXIgYGNsaWVudC5CZXRhLkZpbGVzYC4gTWV0aG9kIGlzICoqYFVwbG9hZGAqKiAoTk9UIGBOZXdgL2BDcmVhdGVgKSwgcGFyYW1zIHN0cnVjdCBpcyBgQmV0YUZpbGVVcGxvYWRQYXJhbXNgLiBUaGUgYEZpbGVgIGZpZWxkIHRha2VzIGFuIGBpby5SZWFkZXJgOyB1c2UgYGFudGhyb3BpYy5GaWxlKClgIHRvIGF0dGFjaCBhIGZpbGVuYW1lICsgY29udGVudC10eXBlIGZvciB0aGUgbXVsdGlwYXJ0IGVuY29kaW5nLgoKYGBgZ28KZiwgXyA6PSBvcy5PcGVuKCIuL3VwbG9hZF9tZS50eHQiKQpkZWZlciBmLkNsb3NlKCkKCm1ldGEsIGVyciA6PSBjbGllbnQuQmV0YS5GaWxlcy5VcGxvYWQoY3R4LCBhbnRocm9waWMuQmV0YUZpbGVVcGxvYWRQYXJhbXN7CiAgICBGaWxlOiAgYW50aHJvcGljLkZpbGUoZiwgInVwbG9hZF9tZS50eHQiLCAidGV4dC9wbGFpbiIpLAogICAgQmV0YXM6IFtdYW50aHJvcGljLkFudGhyb3BpY0JldGF7YW50aHJvcGljLkFudGhyb3BpY0JldGFGaWxlc0FQSTIwMjVfMDRfMTR9LAp9KQovLyBtZXRhLklEIGlzIHRoZSBmaWxlX2lkIHRvIHJlZmVyZW5jZSBpbiBzdWJzZXF1ZW50IG1lc3NhZ2UgcmVxdWVzdHMKYGBgCgpPdGhlciBgQmV0YS5GaWxlc2AgbWV0aG9kczogYExpc3RgLCBgRGVsZXRlYCwgYERvd25sb2FkYCwgYEdldE1ldGFkYXRhYC4KCi0tLQoKIyMgQ29udGV4dCBFZGl0aW5nIC8gQ29tcGFjdGlvbiAoQmV0YSkKClVzZSBgQmV0YS5NZXNzYWdlcy5OZXdgIHdpdGggYENvbnRleHRNYW5hZ2VtZW50YCBvbiBgQmV0YU1lc3NhZ2VOZXdQYXJhbXNgLiBUaGVyZSBpcyBubyBgTmV3QmV0YUFzc2lzdGFudE1lc3NhZ2VgIOKAlCB1c2UgYC5Ub1BhcmFtKClgIGZvciB0aGUgcm91bmQtdHJpcC4KCmBgYGdvCnBhcmFtcyA6PSBhbnRocm9waWMuQmV0YU1lc3NhZ2VOZXdQYXJhbXN7CiAgICBNb2RlbDogICAgIGFudGhyb3BpYy5Nb2RlbENsYXVkZU9wdXM0XzYsICAvLyBhbHNvIHN1cHBvcnRlZDogTW9kZWxDbGF1ZGVTb25uZXQ0XzYKICAgIE1heFRva2VuczogMTYwMDAsCiAgICBCZXRhczogICAgIFtdYW50aHJvcGljLkFudGhyb3BpY0JldGF7ImNvbXBhY3QtMjAyNi0wMS0xMiJ9LAogICAgQ29udGV4dE1hbmFnZW1lbnQ6IGFudGhyb3BpYy5CZXRhQ29udGV4dE1hbmFnZW1lbnRDb25maWdQYXJhbXsKICAgICAgICBFZGl0czogW11hbnRocm9waWMuQmV0YUNvbnRleHRNYW5hZ2VtZW50Q29uZmlnRWRpdFVuaW9uUGFyYW17CiAgICAgICAgICAgIHtPZkNvbXBhY3QyMDI2MDExMjogJmFudGhyb3BpYy5CZXRhQ29tcGFjdDIwMjYwMTEyRWRpdFBhcmFte319LAogICAgICAgIH0sCiAgICB9LAogICAgTWVzc2FnZXM6IFtdYW50aHJvcGljLkJldGFNZXNzYWdlUGFyYW17IC8qIC4uLiAqLyB9LAp9CgpyZXNwLCBlcnIgOj0gY2xpZW50LkJldGEuTWVzc2FnZXMuTmV3KGN0eCwgcGFyYW1zKQppZiBlcnIgIT0gbmlsIHsKICAgIGxvZy5GYXRhbChlcnIpCn0KCi8vIFJvdW5kLXRyaXA6IGFwcGVuZCByZXNwb25zZSB0byBoaXN0b3J5IHZpYSAuVG9QYXJhbSgpCnBhcmFtcy5NZXNzYWdlcyA9IGFwcGVuZChwYXJhbXMuTWVzc2FnZXMsIHJlc3AuVG9QYXJhbSgpKQoKLy8gUmVhZCBjb21wYWN0aW9uIGJsb2NrcyBmcm9tIHRoZSByZXNwb25zZQpmb3IgXywgYmxvY2sgOj0gcmFuZ2UgcmVzcC5Db250ZW50IHsKICAgIGlmIGMsIG9rIDo9IGJsb2NrLkFzQW55KCkuKGFudGhyb3BpYy5CZXRhQ29tcGFjdGlvbkJsb2NrKTsgb2sgewogICAgICAgIGZtdC5QcmludGxuKCJjb21wYWN0aW9uIHN1bW1hcnk6IiwgYy5Db250ZW50KQogICAgfQp9CmBgYAoKT3RoZXIgZWRpdCB0eXBlczogYEJldGFDbGVhclRvb2xVc2VzMjAyNTA5MTlFZGl0UGFyYW1gLCBgQmV0YUNsZWFyVGhpbmtpbmcyMDI1MTAxNUVkaXRQYXJhbWAuCg==
+# Claude API — Go
+
+> **Note:** The Go SDK supports the Claude API and beta tool use with `BetaToolRunner`. Agent SDK is not yet available for Go.
+
+## Installation
+
+```bash
+go get github.com/anthropics/anthropic-sdk-go
+```
+
+## Client Initialization
+
+```go
+import (
+    "github.com/anthropics/anthropic-sdk-go"
+    "github.com/anthropics/anthropic-sdk-go/option"
+)
+
+// Default (uses ANTHROPIC_API_KEY env var)
+client := anthropic.NewClient()
+
+// Explicit API key
+client := anthropic.NewClient(
+    option.WithAPIKey("your-api-key"),
+)
+```
+
+---
+
+## Basic Message Request
+
+```go
+response, err := client.Messages.New(context.Background(), anthropic.MessageNewParams{
+    Model:     anthropic.ModelClaudeOpus4_6,
+    MaxTokens: 16000,
+    Messages: []anthropic.MessageParam{
+        anthropic.NewUserMessage(anthropic.NewTextBlock("What is the capital of France?")),
+    },
+})
+if err != nil {
+    log.Fatal(err)
+}
+for _, block := range response.Content {
+    switch variant := block.AsAny().(type) {
+    case anthropic.TextBlock:
+        fmt.Println(variant.Text)
+    }
+}
+```
+
+---
+
+## Streaming
+
+```go
+stream := client.Messages.NewStreaming(context.Background(), anthropic.MessageNewParams{
+    Model:     anthropic.ModelClaudeOpus4_6,
+    MaxTokens: 64000,
+    Messages: []anthropic.MessageParam{
+        anthropic.NewUserMessage(anthropic.NewTextBlock("Write a haiku")),
+    },
+})
+
+for stream.Next() {
+    event := stream.Current()
+    switch eventVariant := event.AsAny().(type) {
+    case anthropic.ContentBlockDeltaEvent:
+        switch deltaVariant := eventVariant.Delta.AsAny().(type) {
+        case anthropic.TextDelta:
+            fmt.Print(deltaVariant.Text)
+        }
+    }
+}
+if err := stream.Err(); err != nil {
+    log.Fatal(err)
+}
+```
+
+**Accumulating the final message** (there is no `GetFinalMessage()` on the stream):
+
+```go
+stream := client.Messages.NewStreaming(ctx, params)
+message := anthropic.Message{}
+for stream.Next() {
+    message.Accumulate(stream.Current())
+}
+if err := stream.Err(); err != nil { log.Fatal(err) }
+// message.Content now has the complete response
+```
+
+
+---
+
+## Tool Use
+
+### Tool Runner (Beta — Recommended)
+
+**Beta:** The Go SDK provides `BetaToolRunner` for automatic tool use loops via the `toolrunner` package.
+
+```go
+import (
+    "context"
+    "fmt"
+    "log"
+
+    "github.com/anthropics/anthropic-sdk-go"
+    "github.com/anthropics/anthropic-sdk-go/toolrunner"
+)
+
+// Define tool input with jsonschema tags for automatic schema generation
+type GetWeatherInput struct {
+    City string `json:"city" jsonschema:"required,description=The city name"`
+}
+
+// Create a tool with automatic schema generation from struct tags
+weatherTool, err := toolrunner.NewBetaToolFromJSONSchema(
+    "get_weather",
+    "Get current weather for a city",
+    func(ctx context.Context, input GetWeatherInput) (anthropic.BetaToolResultBlockParamContentUnion, error) {
+        return anthropic.BetaToolResultBlockParamContentUnion{
+            OfText: &anthropic.BetaTextBlockParam{
+                Text: fmt.Sprintf("The weather in %s is sunny, 72°F", input.City),
+            },
+        }, nil
+    },
+)
+if err != nil {
+    log.Fatal(err)
+}
+
+// Create a tool runner that handles the conversation loop automatically
+runner := client.Beta.Messages.NewToolRunner(
+    []anthropic.BetaTool{weatherTool},
+    anthropic.BetaToolRunnerParams{
+        BetaMessageNewParams: anthropic.BetaMessageNewParams{
+            Model:     anthropic.ModelClaudeOpus4_6,
+            MaxTokens: 16000,
+            Messages: []anthropic.BetaMessageParam{
+                anthropic.NewBetaUserMessage(anthropic.NewBetaTextBlock("What's the weather in Paris?")),
+            },
+        },
+        MaxIterations: 5,
+    },
+)
+
+// Run until Claude produces a final response
+message, err := runner.RunToCompletion(context.Background())
+if err != nil {
+    log.Fatal(err)
+}
+
+// RunToCompletion returns *BetaMessage; content is []BetaContentBlockUnion.
+// Narrow via AsAny() switch — note the Beta-namespace types (BetaTextBlock,
+// not TextBlock):
+for _, block := range message.Content {
+    switch block := block.AsAny().(type) {
+    case anthropic.BetaTextBlock:
+        fmt.Println(block.Text)
+    }
+}
+```
+
+**Key features of the Go tool runner:**
+
+- Automatic schema generation from Go structs via `jsonschema` tags
+- `RunToCompletion()` for simple one-shot usage
+- `All()` iterator for processing each message in the conversation
+- `NextMessage()` for step-by-step iteration
+- Streaming variant via `NewToolRunnerStreaming()` with `AllStreaming()`
+
+### Manual Loop
+
+For fine-grained control over the agentic loop, define tools with `ToolParam`, check `StopReason`, execute tools yourself, and feed `tool_result` blocks back. This is the pattern when you need to intercept, validate, or log tool calls.
+
+Derived from `anthropic-sdk-go/examples/tools/main.go`.
+
+```go
+package main
+
+import (
+    "context"
+    "encoding/json"
+    "fmt"
+    "log"
+
+    "github.com/anthropics/anthropic-sdk-go"
+)
+
+func main() {
+    client := anthropic.NewClient()
+
+    // 1. Define tools. ToolParam.InputSchema uses a map, no struct tags needed.
+    addTool := anthropic.ToolParam{
+        Name:        "add",
+        Description: anthropic.String("Add two integers"),
+        InputSchema: anthropic.ToolInputSchemaParam{
+            Properties: map[string]any{
+                "a": map[string]any{"type": "integer"},
+                "b": map[string]any{"type": "integer"},
+            },
+        },
+    }
+    // ToolParam must be wrapped in ToolUnionParam for the Tools slice
+    tools := []anthropic.ToolUnionParam{{OfTool: &addTool}}
+
+    messages := []anthropic.MessageParam{
+        anthropic.NewUserMessage(anthropic.NewTextBlock("What is 2 + 3?")),
+    }
+
+    for {
+        resp, err := client.Messages.New(context.Background(), anthropic.MessageNewParams{
+            Model:     anthropic.ModelClaudeSonnet4_6,
+            MaxTokens: 16000,
+            Messages:  messages,
+            Tools:     tools,
+        })
+        if err != nil {
+            log.Fatal(err)
+        }
+
+        // 2. Append the assistant response to history BEFORE processing tool calls.
+        //    resp.ToParam() converts Message → MessageParam in one call.
+        messages = append(messages, resp.ToParam())
+
+        // 3. Walk content blocks. ContentBlockUnion is a flattened struct;
+        //    use block.AsAny().(type) to switch on the actual variant.
+        toolResults := []anthropic.ContentBlockParamUnion{}
+        for _, block := range resp.Content {
+            switch variant := block.AsAny().(type) {
+            case anthropic.TextBlock:
+                fmt.Println(variant.Text)
+            case anthropic.ToolUseBlock:
+                // 4. Parse the tool input. Use variant.JSON.Input.Raw() to get the
+                //    raw JSON — block.Input is json.RawMessage, not the parsed value.
+                var in struct {
+                    A int `json:"a"`
+                    B int `json:"b"`
+                }
+                if err := json.Unmarshal([]byte(variant.JSON.Input.Raw()), &in); err != nil {
+                    log.Fatal(err)
+                }
+                result := fmt.Sprintf("%d", in.A+in.B)
+                // 5. NewToolResultBlock(toolUseID, content, isError) builds the
+                //    ContentBlockParamUnion for you. block.ID is the tool_use_id.
+                toolResults = append(toolResults,
+                    anthropic.NewToolResultBlock(block.ID, result, false))
+            }
+        }
+
+        // 6. Exit when Claude stops asking for tools
+        if resp.StopReason != anthropic.StopReasonToolUse {
+            break
+        }
+
+        // 7. Tool results go in a user message (variadic: all results in one turn)
+        messages = append(messages, anthropic.NewUserMessage(toolResults...))
+    }
+}
+```
+
+**Key API surface:**
+
+| Symbol | Purpose |
+|---|---|
+| `resp.ToParam()` | Convert `Message` response → `MessageParam` for history |
+| `block.AsAny().(type)` | Type-switch on `ContentBlockUnion` variants |
+| `variant.JSON.Input.Raw()` | Raw JSON string of tool input (for `json.Unmarshal`) |
+| `anthropic.NewToolResultBlock(id, content, isError)` | Build `tool_result` block |
+| `anthropic.NewUserMessage(blocks...)` | Wrap tool results as a user turn |
+| `anthropic.StopReasonToolUse` | `StopReason` constant to check loop termination |
+| `anthropic.ToolUnionParam{OfTool: &t}` | Wrap `ToolParam` in the union for `Tools:` |
+
+---
+
+## Thinking
+
+Enable Claude's internal reasoning by setting `Thinking` in `MessageNewParams`. The response will contain `ThinkingBlock` content before the final `TextBlock`.
+
+**Adaptive thinking is the recommended mode for Claude 4.6+ models.** Claude decides dynamically when and how much to think. Combine with the `effort` parameter for cost-quality control.
+
+Derived from `anthropic-sdk-go/message.go` (`ThinkingConfigParamUnion`, `NewThinkingConfigAdaptiveParam`).
+
+```go
+// There is no ThinkingConfigParamOfAdaptive helper — construct the union
+// struct-literal directly and take the address of the variant.
+adaptive := anthropic.NewThinkingConfigAdaptiveParam()
+params := anthropic.MessageNewParams{
+    Model:     anthropic.ModelClaudeSonnet4_6,
+    MaxTokens: 16000,
+    Thinking:  anthropic.ThinkingConfigParamUnion{OfAdaptive: &adaptive},
+    Messages: []anthropic.MessageParam{
+        anthropic.NewUserMessage(anthropic.NewTextBlock("How many r's in strawberry?")),
+    },
+}
+
+resp, err := client.Messages.New(context.Background(), params)
+if err != nil {
+    log.Fatal(err)
+}
+
+// ThinkingBlock(s) precede TextBlock in content
+for _, block := range resp.Content {
+    switch b := block.AsAny().(type) {
+    case anthropic.ThinkingBlock:
+        fmt.Println("[thinking]", b.Thinking)
+    case anthropic.TextBlock:
+        fmt.Println(b.Text)
+    }
+}
+```
+
+> **Deprecated:** `ThinkingConfigParamOfEnabled(budgetTokens)` (fixed-budget extended thinking) still works on Claude 4.6 but is deprecated. Use adaptive thinking above.
+
+To disable: `anthropic.ThinkingConfigParamUnion{OfDisabled: &anthropic.ThinkingConfigDisabledParam{}}`.
+
+---
+
+## Prompt Caching
+
+`System` is `[]TextBlockParam`; set `CacheControl` on the last block to cache tools + system together. For placement patterns and the silent-invalidator audit checklist, see `shared/prompt-caching.md`.
+
+```go
+System: []anthropic.TextBlockParam{{
+    Text:         longSystemPrompt,
+    CacheControl: anthropic.NewCacheControlEphemeralParam(), // default 5m TTL
+}},
+```
+
+For 1-hour TTL: `anthropic.CacheControlEphemeralParam{TTL: anthropic.CacheControlEphemeralTTLTTL1h}`. There's also a top-level `CacheControl` on `MessageNewParams` that auto-places on the last cacheable block.
+
+Verify hits via `resp.Usage.CacheCreationInputTokens` / `resp.Usage.CacheReadInputTokens`.
+
+---
+
+## Server-Side Tools
+
+Version-suffixed struct names with `Param` suffix. `Name`/`Type` are `constant.*` types — zero value marshals correctly, so `{}` works. Wrap in `ToolUnionParam` with the matching `Of*` field.
+
+```go
+Tools: []anthropic.ToolUnionParam{
+    {OfWebSearchTool20260209: &anthropic.WebSearchTool20260209Param{}},
+    {OfBashTool20250124: &anthropic.ToolBash20250124Param{}},
+    {OfTextEditor20250728: &anthropic.ToolTextEditor20250728Param{}},
+    {OfCodeExecutionTool20260120: &anthropic.CodeExecutionTool20260120Param{}},
+},
+```
+
+Also available: `WebFetchTool20260209Param`, `MemoryTool20250818Param`, `ToolSearchToolBm25_20251119Param`, `ToolSearchToolRegex20251119Param`.
+
+---
+
+## PDF / Document Input
+
+`NewDocumentBlock` generic helper accepts any source type. `MediaType`/`Type` are auto-set.
+
+```go
+b64 := base64.StdEncoding.EncodeToString(pdfBytes)
+
+msg := anthropic.NewUserMessage(
+    anthropic.NewDocumentBlock(anthropic.Base64PDFSourceParam{Data: b64}),
+    anthropic.NewTextBlock("Summarize this document"),
+)
+```
+
+Other sources: `URLPDFSourceParam{URL: "https://..."}`, `PlainTextSourceParam{Data: "..."}`.
+
+---
+
+## Files API (Beta)
+
+Under `client.Beta.Files`. Method is **`Upload`** (NOT `New`/`Create`), params struct is `BetaFileUploadParams`. The `File` field takes an `io.Reader`; use `anthropic.File()` to attach a filename + content-type for the multipart encoding.
+
+```go
+f, _ := os.Open("./upload_me.txt")
+defer f.Close()
+
+meta, err := client.Beta.Files.Upload(ctx, anthropic.BetaFileUploadParams{
+    File:  anthropic.File(f, "upload_me.txt", "text/plain"),
+    Betas: []anthropic.AnthropicBeta{anthropic.AnthropicBetaFilesAPI2025_04_14},
+})
+// meta.ID is the file_id to reference in subsequent message requests
+```
+
+Other `Beta.Files` methods: `List`, `Delete`, `Download`, `GetMetadata`.
+
+---
+
+## Context Editing / Compaction (Beta)
+
+Use `Beta.Messages.New` with `ContextManagement` on `BetaMessageNewParams`. There is no `NewBetaAssistantMessage` — use `.ToParam()` for the round-trip.
+
+```go
+params := anthropic.BetaMessageNewParams{
+    Model:     anthropic.ModelClaudeOpus4_6,  // also supported: ModelClaudeSonnet4_6
+    MaxTokens: 16000,
+    Betas:     []anthropic.AnthropicBeta{"compact-2026-01-12"},
+    ContextManagement: anthropic.BetaContextManagementConfigParam{
+        Edits: []anthropic.BetaContextManagementConfigEditUnionParam{
+            {OfCompact20260112: &anthropic.BetaCompact20260112EditParam{}},
+        },
+    },
+    Messages: []anthropic.BetaMessageParam{ /* ... */ },
+}
+
+resp, err := client.Beta.Messages.New(ctx, params)
+if err != nil {
+    log.Fatal(err)
+}
+
+// Round-trip: append response to history via .ToParam()
+params.Messages = append(params.Messages, resp.ToParam())
+
+// Read compaction blocks from the response
+for _, block := range resp.Content {
+    if c, ok := block.AsAny().(anthropic.BetaCompactionBlock); ok {
+        fmt.Println("compaction summary:", c.Content)
+    }
+}
+```
+
+Other edit types: `BetaClearToolUses20250919EditParam`, `BetaClearThinking20251015EditParam`.

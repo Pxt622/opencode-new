@@ -1,1 +1,206 @@
-IyBIVFRQIEVycm9yIENvZGVzIFJlZmVyZW5jZQoKVGhpcyBmaWxlIGRvY3VtZW50cyBIVFRQIGVycm9yIGNvZGVzIHJldHVybmVkIGJ5IHRoZSBDbGF1ZGUgQVBJLCB0aGVpciBjb21tb24gY2F1c2VzLCBhbmQgaG93IHRvIGhhbmRsZSB0aGVtLiBGb3IgbGFuZ3VhZ2Utc3BlY2lmaWMgZXJyb3IgaGFuZGxpbmcgZXhhbXBsZXMsIHNlZSB0aGUgYHB5dGhvbi9gIG9yIGB0eXBlc2NyaXB0L2AgZm9sZGVycy4KCiMjIEVycm9yIENvZGUgU3VtbWFyeQoKfCBDb2RlIHwgRXJyb3IgVHlwZSAgICAgICAgICAgICAgfCBSZXRyeWFibGUgfCBDb21tb24gQ2F1c2UgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IC0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8CnwgNDAwICB8IGBpbnZhbGlkX3JlcXVlc3RfZXJyb3JgIHwgTm8gICAgICAgIHwgSW52YWxpZCByZXF1ZXN0IGZvcm1hdCBvciBwYXJhbWV0ZXJzIHwKfCA0MDEgIHwgYGF1dGhlbnRpY2F0aW9uX2Vycm9yYCAgfCBObyAgICAgICAgfCBJbnZhbGlkIG9yIG1pc3NpbmcgQVBJIGtleSAgICAgICAgICAgfAp8IDQwMyAgfCBgcGVybWlzc2lvbl9lcnJvcmAgICAgICB8IE5vICAgICAgICB8IEFQSSBrZXkgbGFja3MgcGVybWlzc2lvbiAgICAgICAgICAgICB8CnwgNDA0ICB8IGBub3RfZm91bmRfZXJyb3JgICAgICAgIHwgTm8gICAgICAgIHwgSW52YWxpZCBlbmRwb2ludCBvciBtb2RlbCBJRCAgICAgICAgIHwKfCA0MTMgIHwgYHJlcXVlc3RfdG9vX2xhcmdlYCAgICAgfCBObyAgICAgICAgfCBSZXF1ZXN0IGV4Y2VlZHMgc2l6ZSBsaW1pdHMgICAgICAgICAgfAp8IDQyOSAgfCBgcmF0ZV9saW1pdF9lcnJvcmAgICAgICB8IFllcyAgICAgICB8IFRvbyBtYW55IHJlcXVlc3RzICAgICAgICAgICAgICAgICAgICB8CnwgNTAwICB8IGBhcGlfZXJyb3JgICAgICAgICAgICAgIHwgWWVzICAgICAgIHwgQW50aHJvcGljIHNlcnZpY2UgaXNzdWUgICAgICAgICAgICAgIHwKfCA1MjkgIHwgYG92ZXJsb2FkZWRfZXJyb3JgICAgICAgfCBZZXMgICAgICAgfCBBUEkgaXMgdGVtcG9yYXJpbHkgb3ZlcmxvYWRlZCAgICAgICAgfAoKIyMgRGV0YWlsZWQgRXJyb3IgSW5mb3JtYXRpb24KCiMjIyA0MDAgQmFkIFJlcXVlc3QKCioqQ2F1c2VzOioqCgotIE1hbGZvcm1lZCBKU09OIGluIHJlcXVlc3QgYm9keQotIE1pc3NpbmcgcmVxdWlyZWQgcGFyYW1ldGVycyAoYG1vZGVsYCwgYG1heF90b2tlbnNgLCBgbWVzc2FnZXNgKQotIEludmFsaWQgcGFyYW1ldGVyIHR5cGVzIChlLmcuLCBzdHJpbmcgd2hlcmUgaW50ZWdlciBleHBlY3RlZCkKLSBFbXB0eSBtZXNzYWdlcyBhcnJheQotIE1lc3NhZ2VzIG5vdCBhbHRlcm5hdGluZyB1c2VyL2Fzc2lzdGFudAoKKipFeGFtcGxlIGVycm9yOioqCgpgYGBqc29uCnsKICAidHlwZSI6ICJlcnJvciIsCiAgImVycm9yIjogewogICAgInR5cGUiOiAiaW52YWxpZF9yZXF1ZXN0X2Vycm9yIiwKICAgICJtZXNzYWdlIjogIm1lc3NhZ2VzOiByb2xlcyBtdXN0IGFsdGVybmF0ZSBiZXR3ZWVuIFwidXNlclwiIGFuZCBcImFzc2lzdGFudFwiIgogIH0sCiAgInJlcXVlc3RfaWQiOiAicmVxXzAxMUNTSG9FZXFzNUMzNUsyVVVxUjdGeSIKfQpgYGAKCioqRml4OioqIFZhbGlkYXRlIHJlcXVlc3Qgc3RydWN0dXJlIGJlZm9yZSBzZW5kaW5nLiBDaGVjayB0aGF0OgoKLSBgbW9kZWxgIGlzIGEgdmFsaWQgbW9kZWwgSUQKLSBgbWF4X3Rva2Vuc2AgaXMgYSBwb3NpdGl2ZSBpbnRlZ2VyCi0gYG1lc3NhZ2VzYCBhcnJheSBpcyBub24tZW1wdHkgYW5kIGFsdGVybmF0ZXMgY29ycmVjdGx5CgotLS0KCiMjIyA0MDEgVW5hdXRob3JpemVkCgoqKkNhdXNlczoqKgoKLSBNaXNzaW5nIGB4LWFwaS1rZXlgIGhlYWRlciBvciBgQXV0aG9yaXphdGlvbmAgaGVhZGVyCi0gSW52YWxpZCBBUEkga2V5IGZvcm1hdAotIFJldm9rZWQgb3IgZGVsZXRlZCBBUEkga2V5CgoqKkZpeDoqKiBFbnN1cmUgYEFOVEhST1BJQ19BUElfS0VZYCBlbnZpcm9ubWVudCB2YXJpYWJsZSBpcyBzZXQgY29ycmVjdGx5LgoKLS0tCgojIyMgNDAzIEZvcmJpZGRlbgoKKipDYXVzZXM6KioKCi0gQVBJIGtleSBkb2Vzbid0IGhhdmUgYWNjZXNzIHRvIHRoZSByZXF1ZXN0ZWQgbW9kZWwKLSBPcmdhbml6YXRpb24tbGV2ZWwgcmVzdHJpY3Rpb25zCi0gQXR0ZW1wdGluZyB0byBhY2Nlc3MgYmV0YSBmZWF0dXJlcyB3aXRob3V0IGJldGEgYWNjZXNzCgoqKkZpeDoqKiBDaGVjayB5b3VyIEFQSSBrZXkgcGVybWlzc2lvbnMgaW4gdGhlIENvbnNvbGUuIFlvdSBtYXkgbmVlZCBhIGRpZmZlcmVudCBBUEkga2V5IG9yIHRvIHJlcXVlc3QgYWNjZXNzIHRvIHNwZWNpZmljIGZlYXR1cmVzLgoKLS0tCgojIyMgNDA0IE5vdCBGb3VuZAoKKipDYXVzZXM6KioKCi0gVHlwbyBpbiBtb2RlbCBJRCAoZS5nLiwgYGNsYXVkZS1zb25uZXQtNC42YCBpbnN0ZWFkIG9mIGBjbGF1ZGUtc29ubmV0LTQtNmApCi0gVXNpbmcgZGVwcmVjYXRlZCBtb2RlbCBJRAotIEludmFsaWQgQVBJIGVuZHBvaW50CgoqKkZpeDoqKiBVc2UgZXhhY3QgbW9kZWwgSURzIGZyb20gdGhlIG1vZGVscyBkb2N1bWVudGF0aW9uLiBZb3UgY2FuIHVzZSBhbGlhc2VzIChlLmcuLCBgY2xhdWRlLW9wdXMtNC02YCkuCgotLS0KCiMjIyA0MTMgUmVxdWVzdCBUb28gTGFyZ2UKCioqQ2F1c2VzOioqCgotIFJlcXVlc3QgYm9keSBleGNlZWRzIG1heGltdW0gc2l6ZQotIFRvbyBtYW55IHRva2VucyBpbiBpbnB1dAotIEltYWdlIGRhdGEgdG9vIGxhcmdlCgoqKkZpeDoqKiBSZWR1Y2UgaW5wdXQgc2l6ZSDigJQgdHJ1bmNhdGUgY29udmVyc2F0aW9uIGhpc3RvcnksIGNvbXByZXNzL3Jlc2l6ZSBpbWFnZXMsIG9yIHNwbGl0IGxhcmdlIGRvY3VtZW50cyBpbnRvIGNodW5rcy4KCi0tLQoKIyMjIDQwMCBWYWxpZGF0aW9uIEVycm9ycwoKU29tZSA0MDAgZXJyb3JzIGFyZSBzcGVjaWZpY2FsbHkgcmVsYXRlZCB0byBwYXJhbWV0ZXIgdmFsaWRhdGlvbjoKCi0gYG1heF90b2tlbnNgIGV4Y2VlZHMgbW9kZWwncyBsaW1pdAotIEludmFsaWQgYHRlbXBlcmF0dXJlYCB2YWx1ZSAobXVzdCBiZSAwLjAtMS4wKQotIGBidWRnZXRfdG9rZW5zYCA+PSBgbWF4X3Rva2Vuc2AgaW4gZXh0ZW5kZWQgdGhpbmtpbmcKLSBJbnZhbGlkIHRvb2wgZGVmaW5pdGlvbiBzY2hlbWEKCioqQ29tbW9uIG1pc3Rha2Ugd2l0aCBleHRlbmRlZCB0aGlua2luZzoqKgoKYGBgCiMgV3Jvbmc6IGJ1ZGdldF90b2tlbnMgbXVzdCBiZSA8IG1heF90b2tlbnMKdGhpbmtpbmc6IGJ1ZGdldF90b2tlbnM9MTAwMDAsIG1heF90b2tlbnM9MTAwMCAg4oaSIEVycm9yIQoKIyBDb3JyZWN0CnRoaW5raW5nOiBidWRnZXRfdG9rZW5zPTEwMDAwLCBtYXhfdG9rZW5zPTE2MDAwCmBgYAoKLS0tCgojIyMgNDI5IFJhdGUgTGltaXRlZAoKKipDYXVzZXM6KioKCi0gRXhjZWVkZWQgcmVxdWVzdHMgcGVyIG1pbnV0ZSAoUlBNKQotIEV4Y2VlZGVkIHRva2VucyBwZXIgbWludXRlIChUUE0pCi0gRXhjZWVkZWQgdG9rZW5zIHBlciBkYXkgKFRQRCkKCioqSGVhZGVycyB0byBjaGVjazoqKgoKLSBgcmV0cnktYWZ0ZXJgOiBTZWNvbmRzIHRvIHdhaXQgYmVmb3JlIHJldHJ5aW5nCi0gYHgtcmF0ZWxpbWl0LWxpbWl0LSpgOiBZb3VyIGxpbWl0cwotIGB4LXJhdGVsaW1pdC1yZW1haW5pbmctKmA6IFJlbWFpbmluZyBxdW90YQoKKipGaXg6KiogVGhlIEFudGhyb3BpYyBTREtzIGF1dG9tYXRpY2FsbHkgcmV0cnkgNDI5IGFuZCA1eHggZXJyb3JzIHdpdGggZXhwb25lbnRpYWwgYmFja29mZiAoZGVmYXVsdDogYG1heF9yZXRyaWVzPTJgKS4gRm9yIGN1c3RvbSByZXRyeSBiZWhhdmlvciwgc2VlIHRoZSBsYW5ndWFnZS1zcGVjaWZpYyBlcnJvciBoYW5kbGluZyBleGFtcGxlcy4KCi0tLQoKIyMjIDUwMCBJbnRlcm5hbCBTZXJ2ZXIgRXJyb3IKCioqQ2F1c2VzOioqCgotIFRlbXBvcmFyeSBBbnRocm9waWMgc2VydmljZSBpc3N1ZQotIEJ1ZyBpbiBBUEkgcHJvY2Vzc2luZwoKKipGaXg6KiogUmV0cnkgd2l0aCBleHBvbmVudGlhbCBiYWNrb2ZmLiBJZiBwZXJzaXN0ZW50LCBjaGVjayBbc3RhdHVzLmFudGhyb3BpYy5jb21dKGh0dHBzOi8vc3RhdHVzLmFudGhyb3BpYy5jb20pLgoKLS0tCgojIyMgNTI5IE92ZXJsb2FkZWQKCioqQ2F1c2VzOioqCgotIEhpZ2ggQVBJIGRlbWFuZAotIFNlcnZpY2UgY2FwYWNpdHkgcmVhY2hlZAoKKipGaXg6KiogUmV0cnkgd2l0aCBleHBvbmVudGlhbCBiYWNrb2ZmLiBDb25zaWRlciB1c2luZyBhIGRpZmZlcmVudCBtb2RlbCAoSGFpa3UgaXMgb2Z0ZW4gbGVzcyBsb2FkZWQpLCBzcHJlYWRpbmcgcmVxdWVzdHMgb3ZlciB0aW1lLCBvciBpbXBsZW1lbnRpbmcgcmVxdWVzdCBxdWV1aW5nLgoKLS0tCgojIyBDb21tb24gTWlzdGFrZXMgYW5kIEZpeGVzCgp8IE1pc3Rha2UgICAgICAgICAgICAgICAgICAgICAgICAgfCBFcnJvciAgICAgICAgICAgIHwgRml4ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgYnVkZ2V0X3Rva2Vuc2AgPj0gYG1heF90b2tlbnNgIHwgNDAwICAgICAgICAgICAgICB8IEVuc3VyZSBgYnVkZ2V0X3Rva2Vuc2AgPCBgbWF4X3Rva2Vuc2AgICAgICAgICAgICAgICAgICAgfAp8IFR5cG8gaW4gbW9kZWwgSUQgICAgICAgICAgICAgICAgfCA0MDQgICAgICAgICAgICAgIHwgVXNlIHZhbGlkIG1vZGVsIElEIGxpa2UgYGNsYXVkZS1vcHVzLTQtNmAgICAgICAgICAgICAgICB8CnwgRmlyc3QgbWVzc2FnZSBpcyBgYXNzaXN0YW50YCAgICB8IDQwMCAgICAgICAgICAgICAgfCBGaXJzdCBtZXNzYWdlIG11c3QgYmUgYHVzZXJgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBDb25zZWN1dGl2ZSBzYW1lLXJvbGUgbWVzc2FnZXMgIHwgNDAwICAgICAgICAgICAgICB8IEFsdGVybmF0ZSBgdXNlcmAgYW5kIGBhc3Npc3RhbnRgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IEFQSSBrZXkgaW4gY29kZSAgICAgICAgICAgICAgICAgfCA0MDEgKGxlYWtlZCBrZXkpIHwgVXNlIGVudmlyb25tZW50IHZhcmlhYmxlICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgQ3VzdG9tIHJldHJ5IG5lZWRzICAgICAgICAgICAgICB8IDQyOS81eHggICAgICAgICAgfCBTREsgcmV0cmllcyBhdXRvbWF0aWNhbGx5OyBjdXN0b21pemUgd2l0aCBgbWF4X3JldHJpZXNgIHwKCiMjIFR5cGVkIEV4Y2VwdGlvbnMgaW4gU0RLcwoKKipBbHdheXMgdXNlIHRoZSBTREsncyB0eXBlZCBleGNlcHRpb24gY2xhc3NlcyoqIGluc3RlYWQgb2YgY2hlY2tpbmcgZXJyb3IgbWVzc2FnZXMgd2l0aCBzdHJpbmcgbWF0Y2hpbmcuIEVhY2ggSFRUUCBlcnJvciBjb2RlIG1hcHMgdG8gYSBzcGVjaWZpYyBleGNlcHRpb24gY2xhc3M6Cgp8IEhUVFAgQ29kZSB8IFR5cGVTY3JpcHQgQ2xhc3MgICAgICAgICAgICAgICAgICB8IFB5dGhvbiBDbGFzcyAgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCA0MDAgICAgICAgfCBgQW50aHJvcGljLkJhZFJlcXVlc3RFcnJvcmAgICAgICAgfCBgYW50aHJvcGljLkJhZFJlcXVlc3RFcnJvcmAgICAgICAgfAp8IDQwMSAgICAgICB8IGBBbnRocm9waWMuQXV0aGVudGljYXRpb25FcnJvcmAgICB8IGBhbnRocm9waWMuQXV0aGVudGljYXRpb25FcnJvcmAgICB8CnwgNDAzICAgICAgIHwgYEFudGhyb3BpYy5QZXJtaXNzaW9uRGVuaWVkRXJyb3JgIHwgYGFudGhyb3BpYy5QZXJtaXNzaW9uRGVuaWVkRXJyb3JgIHwKfCA0MDQgICAgICAgfCBgQW50aHJvcGljLk5vdEZvdW5kRXJyb3JgICAgICAgICAgfCBgYW50aHJvcGljLk5vdEZvdW5kRXJyb3JgICAgICAgICAgfAp8IDQyOSAgICAgICB8IGBBbnRocm9waWMuUmF0ZUxpbWl0RXJyb3JgICAgICAgICB8IGBhbnRocm9waWMuUmF0ZUxpbWl0RXJyb3JgICAgICAgICB8CnwgNTAwKyAgICAgIHwgYEFudGhyb3BpYy5JbnRlcm5hbFNlcnZlckVycm9yYCAgIHwgYGFudGhyb3BpYy5JbnRlcm5hbFNlcnZlckVycm9yYCAgIHwKfCBBbnkgICAgICAgfCBgQW50aHJvcGljLkFQSUVycm9yYCAgICAgICAgICAgICAgfCBgYW50aHJvcGljLkFQSUVycm9yYCAgICAgICAgICAgICAgfAoKYGBgdHlwZXNjcmlwdAovLyDinIUgQ29ycmVjdDogdXNlIHR5cGVkIGV4Y2VwdGlvbnMKdHJ5IHsKICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoey4uLn0pOwp9IGNhdGNoIChlcnJvcikgewogIGlmIChlcnJvciBpbnN0YW5jZW9mIEFudGhyb3BpYy5SYXRlTGltaXRFcnJvcikgewogICAgLy8gSGFuZGxlIHJhdGUgbGltaXRpbmcKICB9IGVsc2UgaWYgKGVycm9yIGluc3RhbmNlb2YgQW50aHJvcGljLkFQSUVycm9yKSB7CiAgICBjb25zb2xlLmVycm9yKGBBUEkgZXJyb3IgJHtlcnJvci5zdGF0dXN9OmAsIGVycm9yLm1lc3NhZ2UpOwogIH0KfQoKLy8g4p2MIFdyb25nOiBkb24ndCBjaGVjayBlcnJvciBtZXNzYWdlcyB3aXRoIHN0cmluZyBtYXRjaGluZwp0cnkgewogIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSh7Li4ufSk7Cn0gY2F0Y2ggKGVycm9yKSB7CiAgY29uc3QgbXNnID0gZXJyb3IgaW5zdGFuY2VvZiBFcnJvciA/IGVycm9yLm1lc3NhZ2UgOiBTdHJpbmcoZXJyb3IpOwogIGlmIChtc2cuaW5jbHVkZXMoIjQyOSIpIHx8IG1zZy5pbmNsdWRlcygicmF0ZV9saW1pdCIpKSB7IC4uLiB9Cn0KYGBgCgpBbGwgZXhjZXB0aW9uIGNsYXNzZXMgZXh0ZW5kIGBBbnRocm9waWMuQVBJRXJyb3JgLCB3aGljaCBoYXMgYSBgc3RhdHVzYCBwcm9wZXJ0eS4gVXNlIGBpbnN0YW5jZW9mYCBjaGVja3MgZnJvbSBtb3N0IHNwZWNpZmljIHRvIGxlYXN0IHNwZWNpZmljIChlLmcuLCBjaGVjayBgUmF0ZUxpbWl0RXJyb3JgIGJlZm9yZSBgQVBJRXJyb3JgKS4K
+# HTTP Error Codes Reference
+
+This file documents HTTP error codes returned by the Claude API, their common causes, and how to handle them. For language-specific error handling examples, see the `python/` or `typescript/` folders.
+
+## Error Code Summary
+
+| Code | Error Type              | Retryable | Common Cause                         |
+| ---- | ----------------------- | --------- | ------------------------------------ |
+| 400  | `invalid_request_error` | No        | Invalid request format or parameters |
+| 401  | `authentication_error`  | No        | Invalid or missing API key           |
+| 403  | `permission_error`      | No        | API key lacks permission             |
+| 404  | `not_found_error`       | No        | Invalid endpoint or model ID         |
+| 413  | `request_too_large`     | No        | Request exceeds size limits          |
+| 429  | `rate_limit_error`      | Yes       | Too many requests                    |
+| 500  | `api_error`             | Yes       | Anthropic service issue              |
+| 529  | `overloaded_error`      | Yes       | API is temporarily overloaded        |
+
+## Detailed Error Information
+
+### 400 Bad Request
+
+**Causes:**
+
+- Malformed JSON in request body
+- Missing required parameters (`model`, `max_tokens`, `messages`)
+- Invalid parameter types (e.g., string where integer expected)
+- Empty messages array
+- Messages not alternating user/assistant
+
+**Example error:**
+
+```json
+{
+  "type": "error",
+  "error": {
+    "type": "invalid_request_error",
+    "message": "messages: roles must alternate between \"user\" and \"assistant\""
+  },
+  "request_id": "req_011CSHoEeqs5C35K2UUqR7Fy"
+}
+```
+
+**Fix:** Validate request structure before sending. Check that:
+
+- `model` is a valid model ID
+- `max_tokens` is a positive integer
+- `messages` array is non-empty and alternates correctly
+
+---
+
+### 401 Unauthorized
+
+**Causes:**
+
+- Missing `x-api-key` header or `Authorization` header
+- Invalid API key format
+- Revoked or deleted API key
+
+**Fix:** Ensure `ANTHROPIC_API_KEY` environment variable is set correctly.
+
+---
+
+### 403 Forbidden
+
+**Causes:**
+
+- API key doesn't have access to the requested model
+- Organization-level restrictions
+- Attempting to access beta features without beta access
+
+**Fix:** Check your API key permissions in the Console. You may need a different API key or to request access to specific features.
+
+---
+
+### 404 Not Found
+
+**Causes:**
+
+- Typo in model ID (e.g., `claude-sonnet-4.6` instead of `claude-sonnet-4-6`)
+- Using deprecated model ID
+- Invalid API endpoint
+
+**Fix:** Use exact model IDs from the models documentation. You can use aliases (e.g., `claude-opus-4-6`).
+
+---
+
+### 413 Request Too Large
+
+**Causes:**
+
+- Request body exceeds maximum size
+- Too many tokens in input
+- Image data too large
+
+**Fix:** Reduce input size — truncate conversation history, compress/resize images, or split large documents into chunks.
+
+---
+
+### 400 Validation Errors
+
+Some 400 errors are specifically related to parameter validation:
+
+- `max_tokens` exceeds model's limit
+- Invalid `temperature` value (must be 0.0-1.0)
+- `budget_tokens` >= `max_tokens` in extended thinking
+- Invalid tool definition schema
+
+**Common mistake with extended thinking:**
+
+```
+# Wrong: budget_tokens must be < max_tokens
+thinking: budget_tokens=10000, max_tokens=1000  → Error!
+
+# Correct
+thinking: budget_tokens=10000, max_tokens=16000
+```
+
+---
+
+### 429 Rate Limited
+
+**Causes:**
+
+- Exceeded requests per minute (RPM)
+- Exceeded tokens per minute (TPM)
+- Exceeded tokens per day (TPD)
+
+**Headers to check:**
+
+- `retry-after`: Seconds to wait before retrying
+- `x-ratelimit-limit-*`: Your limits
+- `x-ratelimit-remaining-*`: Remaining quota
+
+**Fix:** The Anthropic SDKs automatically retry 429 and 5xx errors with exponential backoff (default: `max_retries=2`). For custom retry behavior, see the language-specific error handling examples.
+
+---
+
+### 500 Internal Server Error
+
+**Causes:**
+
+- Temporary Anthropic service issue
+- Bug in API processing
+
+**Fix:** Retry with exponential backoff. If persistent, check [status.anthropic.com](https://status.anthropic.com).
+
+---
+
+### 529 Overloaded
+
+**Causes:**
+
+- High API demand
+- Service capacity reached
+
+**Fix:** Retry with exponential backoff. Consider using a different model (Haiku is often less loaded), spreading requests over time, or implementing request queuing.
+
+---
+
+## Common Mistakes and Fixes
+
+| Mistake                         | Error            | Fix                                                     |
+| ------------------------------- | ---------------- | ------------------------------------------------------- |
+| `budget_tokens` >= `max_tokens` | 400              | Ensure `budget_tokens` < `max_tokens`                   |
+| Typo in model ID                | 404              | Use valid model ID like `claude-opus-4-6`               |
+| First message is `assistant`    | 400              | First message must be `user`                            |
+| Consecutive same-role messages  | 400              | Alternate `user` and `assistant`                        |
+| API key in code                 | 401 (leaked key) | Use environment variable                                |
+| Custom retry needs              | 429/5xx          | SDK retries automatically; customize with `max_retries` |
+
+## Typed Exceptions in SDKs
+
+**Always use the SDK's typed exception classes** instead of checking error messages with string matching. Each HTTP error code maps to a specific exception class:
+
+| HTTP Code | TypeScript Class                  | Python Class                      |
+| --------- | --------------------------------- | --------------------------------- |
+| 400       | `Anthropic.BadRequestError`       | `anthropic.BadRequestError`       |
+| 401       | `Anthropic.AuthenticationError`   | `anthropic.AuthenticationError`   |
+| 403       | `Anthropic.PermissionDeniedError` | `anthropic.PermissionDeniedError` |
+| 404       | `Anthropic.NotFoundError`         | `anthropic.NotFoundError`         |
+| 429       | `Anthropic.RateLimitError`        | `anthropic.RateLimitError`        |
+| 500+      | `Anthropic.InternalServerError`   | `anthropic.InternalServerError`   |
+| Any       | `Anthropic.APIError`              | `anthropic.APIError`              |
+
+```typescript
+// ✅ Correct: use typed exceptions
+try {
+  const response = await client.messages.create({...});
+} catch (error) {
+  if (error instanceof Anthropic.RateLimitError) {
+    // Handle rate limiting
+  } else if (error instanceof Anthropic.APIError) {
+    console.error(`API error ${error.status}:`, error.message);
+  }
+}
+
+// ❌ Wrong: don't check error messages with string matching
+try {
+  const response = await client.messages.create({...});
+} catch (error) {
+  const msg = error instanceof Error ? error.message : String(error);
+  if (msg.includes("429") || msg.includes("rate_limit")) { ... }
+}
+```
+
+All exception classes extend `Anthropic.APIError`, which has a `status` property. Use `instanceof` checks from most specific to least specific (e.g., check `RateLimitError` before `APIError`).

@@ -1,1 +1,186 @@
-IyBDb2xvciBQYWxldHRlIE1hbmFnZW1lbnQKCkd1aWRlbGluZXMgZm9yIGRlZmluaW5nLCBleHRyYWN0aW5nLCBhbmQgZW5mb3JjaW5nIGJyYW5kIGNvbG9ycy4KCiMjIENvbG9yIFN5c3RlbSBTdHJ1Y3R1cmUKCiMjIyBIaWVyYXJjaHkKYGBgClByaW1hcnkgQ29sb3JzICgxLTIpCuKUnOKUgOKUgCBNYWluIGJyYW5kIGNvbG9yIC0gVXNlZCBmb3IgQ1RBcywgaGVhZGVycywga2V5IGVsZW1lbnRzCuKUlOKUgOKUgCBTdXBwb3J0aW5nIHByaW1hcnkgLSBTZWNvbmRhcnkgZW1waGFzaXMKClNlY29uZGFyeSBDb2xvcnMgKDItMykK4pSc4pSA4pSAIEFjY2VudCBjb2xvcnMgLSBIaWdobGlnaHRzLCBpbnRlcmFjdGl2ZSBzdGF0ZXMK4pSU4pSA4pSAIFN1cHBvcnRpbmcgdmlzdWFscyAtIEljb25zLCBpbGx1c3RyYXRpb25zCgpOZXV0cmFsIFBhbGV0dGUgKDMtNSkK4pSc4pSA4pSAIEJhY2tncm91bmQgY29sb3JzIC0gUGFnZSwgY2FyZCwgbW9kYWwgYmFja2dyb3VuZHMK4pSc4pSA4pSAIFRleHQgY29sb3JzIC0gSGVhZGluZ3MsIGJvZHksIG11dGVkIHRleHQK4pSU4pSA4pSAIFVJIGVsZW1lbnRzIC0gQm9yZGVycywgZGl2aWRlcnMsIHNoYWRvd3MKClNlbWFudGljIENvbG9ycyAoNCkK4pSc4pSA4pSAIFN1Y2Nlc3MgLSAjMjJDNTVFIChncmVlbikK4pSc4pSA4pSAIFdhcm5pbmcgLSAjRjU5RTBCIChhbWJlcikK4pSc4pSA4pSAIEVycm9yIC0gI0VGNDQ0NCAocmVkKQrilJTilIDilIAgSW5mbyAtICMzQjgyRjYgKGJsdWUpCmBgYAoKIyMgQ29sb3IgRG9jdW1lbnRhdGlvbiBGb3JtYXQKCiMjIyBNYXJrZG93biBUYWJsZQpgYGBtYXJrZG93bgp8IE5hbWUgfCBIZXggfCBSR0IgfCBIU0wgfCBVc2FnZSB8CnwtLS0tLS18LS0tLS18LS0tLS18LS0tLS18LS0tLS0tLXwKfCBQcmltYXJ5IEJsdWUgfCAjMjU2M0VCIHwgcmdiKDM3LDk5LDIzNSkgfCBoc2woMjE3LDkxJSw1MyUpIHwgQ1RBcywgbGlua3MgfApgYGAKCiMjIyBDU1MgVmFyaWFibGVzCmBgYGNzcwo6cm9vdCB7CiAgLyogUHJpbWFyeSAqLwogIC0tY29sb3ItcHJpbWFyeTogIzI1NjNFQjsKICAtLWNvbG9yLXByaW1hcnktbGlnaHQ6ICMzQjgyRjY7CiAgLS1jb2xvci1wcmltYXJ5LWRhcms6ICMxRDRFRDg7CgogIC8qIFNlY29uZGFyeSAqLwogIC0tY29sb3Itc2Vjb25kYXJ5OiAjOEI1Q0Y2OwogIC0tY29sb3ItYWNjZW50OiAjRjU5RTBCOwoKICAvKiBOZXV0cmFsICovCiAgLS1jb2xvci1iYWNrZ3JvdW5kOiAjRkZGRkZGOwogIC0tY29sb3Itc3VyZmFjZTogI0Y5RkFGQjsKICAtLWNvbG9yLXRleHQtcHJpbWFyeTogIzExMTgyNzsKICAtLWNvbG9yLXRleHQtc2Vjb25kYXJ5OiAjNkI3MjgwOwogIC0tY29sb3ItYm9yZGVyOiAjRTVFN0VCOwp9CmBgYAoKIyMjIFRhaWx3aW5kIENvbmZpZwpgYGBqYXZhc2NyaXB0CmNvbG9yczogewogIHByaW1hcnk6IHsKICAgIERFRkFVTFQ6ICcjMjU2M0VCJywKICAgIDUwOiAnI0VGRjZGRicsCiAgICAxMDA6ICcjREJFQUZFJywKICAgIDUwMDogJyMzQjgyRjYnLAogICAgNjAwOiAnIzI1NjNFQicsCiAgICA3MDA6ICcjMUQ0RUQ4JywKICB9Cn0KYGBgCgojIyBBY2Nlc3NpYmlsaXR5IFJlcXVpcmVtZW50cwoKIyMjIENvbnRyYXN0IFJhdGlvcyAoV0NBRyAyLjEpCnwgTGV2ZWwgfCBOb3JtYWwgVGV4dCB8IExhcmdlIFRleHQgfCBVSSBDb21wb25lbnRzIHwKfC0tLS0tLS18LS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tfAp8IEFBIHwgNC41OjEgfCAzOjEgfCAzOjEgfAp8IEFBQSB8IDc6MSB8IDQuNToxIHwgNC41OjEgfAoKIyMjIENoZWNraW5nIENvbnRyYXN0CmBgYGphdmFzY3JpcHQKLy8gRm9ybXVsYSBmb3IgcmVsYXRpdmUgbHVtaW5hbmNlCmZ1bmN0aW9uIGx1bWluYW5jZShyLCBnLCBiKSB7CiAgY29uc3QgW3JzLCBncywgYnNdID0gW3IsIGcsIGJdLm1hcCh2ID0+IHsKICAgIHYgLz0gMjU1OwogICAgcmV0dXJuIHYgPD0gMC4wMzkyOCA/IHYgLyAxMi45MiA6IE1hdGgucG93KCh2ICsgMC4wNTUpIC8gMS4wNTUsIDIuNCk7CiAgfSk7CiAgcmV0dXJuIDAuMjEyNiAqIHJzICsgMC43MTUyICogZ3MgKyAwLjA3MjIgKiBiczsKfQoKZnVuY3Rpb24gY29udHJhc3RSYXRpbyhsMSwgbDIpIHsKICBjb25zdCBsaWdodGVyID0gTWF0aC5tYXgobDEsIGwyKTsKICBjb25zdCBkYXJrZXIgPSBNYXRoLm1pbihsMSwgbDIpOwogIHJldHVybiAobGlnaHRlciArIDAuMDUpIC8gKGRhcmtlciArIDAuMDUpOwp9CmBgYAoKIyMgQ29sb3IgRXh0cmFjdGlvbgoKIyMjIEZyb20gSW1hZ2VzClVzZSBgZXh0cmFjdC1jb2xvcnMuY2pzYCBzY3JpcHQgdG86CjEuIExvYWQgaW1hZ2UgZmlsZQoyLiBFeHRyYWN0IGRvbWluYW50IGNvbG9ycyB1c2luZyBrLW1lYW5zIGNsdXN0ZXJpbmcKMy4gTWFwIHRvIG5lYXJlc3QgYnJhbmQgY29sb3JzCjQuIFJlcG9ydCBjb21wbGlhbmNlIHBlcmNlbnRhZ2UKCiMjIyBGcm9tIEJyYW5kIEd1aWRlbGluZXMKUGFyc2UgbWFya2Rvd24gdG8gZXh0cmFjdDoKLSBIZXggdmFsdWVzIGZyb20gdGFibGVzCi0gQ1NTIHZhcmlhYmxlIGRlZmluaXRpb25zCi0gQ29sb3IgbmFtZXMgYW5kIHVzYWdlIGRlc2NyaXB0aW9ucwoKIyMgQnJhbmQgQ29tcGxpYW5jZSBWYWxpZGF0aW9uCgojIyMgUnVsZXMKMS4gKipQcmltYXJ5IGNvbG9yIHJhdGlvKio6IDYwLTcwJSBvZiBkZXNpZ24KMi4gKipTZWNvbmRhcnkgY29sb3IgcmF0aW8qKjogMjAtMzAlIG9mIGRlc2lnbgozLiAqKkFjY2VudCBjb2xvciByYXRpbyoqOiA1LTEwJSBvZiBkZXNpZ24KNC4gKipPZmYtYnJhbmQgdG9sZXJhbmNlKio6IE1heCAyMCUgbm9uLXBhbGV0dGUgY29sb3JzCgojIyMgVmFsaWRhdGlvbiBPdXRwdXQKYGBganNvbgp7CiAgImNvbXBsaWFuY2UiOiA4NSwKICAiY29sb3JzIjogewogICAgImJyYW5kIjogWyIjMjU2M0VCIiwgIiM4QjVDRjYiLCAiI0ZGRkZGRiJdLAogICAgIm9mZkJyYW5kIjogWyIjRkY1NTAwIl0sCiAgICAiZG9taW5hbnQiOiAiIzI1NjNFQiIKICB9LAogICJpc3N1ZXMiOiBbCiAgICAiT2ZmLWJyYW5kIGNvbG9yICNGRjU1MDAgZGV0ZWN0ZWQgKDE1JSBjb3ZlcmFnZSkiLAogICAgIlByaW1hcnkgY29sb3IgdW5kZXJ1c2VkICg0NSUgdnMgNjAlIHRhcmdldCkiCiAgXQp9CmBgYAoKIyMgQ29sb3IgVXNhZ2UgR3VpZGVsaW5lcwoKIyMjIERvJ3MKLSBVc2UgcHJpbWFyeSBmb3IgbWFpbiBDVEFzIGFuZCBrZXkgZWxlbWVudHMKLSBNYWludGFpbiBjb25zaXN0ZW50IGhvdmVyL2FjdGl2ZSBzdGF0ZXMKLSBUZXN0IGFsbCBjb21iaW5hdGlvbnMgZm9yIGFjY2Vzc2liaWxpdHkKLSBEb2N1bWVudCBjb2xvciBkZWNpc2lvbnMKCiMjIyBEb24ndHMKLSBVc2UgbW9yZSB0aGFuIDItMyBjb2xvcnMgaW4gc2luZ2xlIGNvbXBvbmVudAotIE1peCB3YXJtIGFuZCBjb29sIHRvbmVzIHdpdGhvdXQgaW50ZW50Ci0gVXNlIHB1cmUgYmxhY2sgKCMwMDApIGZvciB0ZXh0ICh1c2UgIzExMSBvciBzaW1pbGFyKQotIFJlbHkgc29sZWx5IG9uIGNvbG9yIGZvciBtZWFuaW5nICh1c2UgaWNvbnMvdGV4dCB0b28pCgojIyBDb2xvciBQYWxldHRlIEV4YW1wbGVzCgojIyMgVGVjaC9TYWFTCmBgYApQcmltYXJ5OiAjMjU2M0VCIChCbHVlKQpTZWNvbmRhcnk6ICM4QjVDRjYgKFB1cnBsZSkKQWNjZW50OiAjMTBCOTgxIChFbWVyYWxkKQpCYWNrZ3JvdW5kOiAjRjlGQUZCClRleHQ6ICMxMTE4MjcKYGBgCgojIyMgTWFya2V0aW5nL0NyZWF0aXZlCmBgYApQcmltYXJ5OiAjRjk3MzE2IChPcmFuZ2UpClNlY29uZGFyeTogI0VDNDg5OSAoUGluaykKQWNjZW50OiAjMTRCOEE2IChUZWFsKQpCYWNrZ3JvdW5kOiAjRkZGRkZGClRleHQ6ICMxRjI5MzcKYGBgCgojIyMgUHJvZmVzc2lvbmFsL0NvcnBvcmF0ZQpgYGAKUHJpbWFyeTogIzFFNDBBRiAoTmF2eSkKU2Vjb25kYXJ5OiAjNDc1NTY5IChTbGF0ZSkKQWNjZW50OiAjMEVBNUU5IChTa3kpCkJhY2tncm91bmQ6ICNGOEZBRkMKVGV4dDogIzBGMTcyQQpgYGAKCiMjIFRvb2xzICYgUmVzb3VyY2VzCgotIFtDb29sb3JzXShodHRwczovL2Nvb2xvcnMuY28pIC0gUGFsZXR0ZSBnZW5lcmF0aW9uCi0gW1dlYkFJTSBDb250cmFzdCBDaGVja2VyXShodHRwczovL3dlYmFpbS5vcmcvcmVzb3VyY2VzL2NvbnRyYXN0Y2hlY2tlci8pCi0gW1RhaWx3aW5kIENvbG9yIFJlZmVyZW5jZV0oaHR0cHM6Ly90YWlsd2luZGNzcy5jb20vZG9jcy9jdXN0b21pemluZy1jb2xvcnMpCi0gW0NvbG9yIEh1bnRdKGh0dHBzOi8vY29sb3JodW50LmNvKSAtIEN1cmF0ZWQgcGFsZXR0ZXMK
+# Color Palette Management
+
+Guidelines for defining, extracting, and enforcing brand colors.
+
+## Color System Structure
+
+### Hierarchy
+```
+Primary Colors (1-2)
+├── Main brand color - Used for CTAs, headers, key elements
+└── Supporting primary - Secondary emphasis
+
+Secondary Colors (2-3)
+├── Accent colors - Highlights, interactive states
+└── Supporting visuals - Icons, illustrations
+
+Neutral Palette (3-5)
+├── Background colors - Page, card, modal backgrounds
+├── Text colors - Headings, body, muted text
+└── UI elements - Borders, dividers, shadows
+
+Semantic Colors (4)
+├── Success - #22C55E (green)
+├── Warning - #F59E0B (amber)
+├── Error - #EF4444 (red)
+└── Info - #3B82F6 (blue)
+```
+
+## Color Documentation Format
+
+### Markdown Table
+```markdown
+| Name | Hex | RGB | HSL | Usage |
+|------|-----|-----|-----|-------|
+| Primary Blue | #2563EB | rgb(37,99,235) | hsl(217,91%,53%) | CTAs, links |
+```
+
+### CSS Variables
+```css
+:root {
+  /* Primary */
+  --color-primary: #2563EB;
+  --color-primary-light: #3B82F6;
+  --color-primary-dark: #1D4ED8;
+
+  /* Secondary */
+  --color-secondary: #8B5CF6;
+  --color-accent: #F59E0B;
+
+  /* Neutral */
+  --color-background: #FFFFFF;
+  --color-surface: #F9FAFB;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6B7280;
+  --color-border: #E5E7EB;
+}
+```
+
+### Tailwind Config
+```javascript
+colors: {
+  primary: {
+    DEFAULT: '#2563EB',
+    50: '#EFF6FF',
+    100: '#DBEAFE',
+    500: '#3B82F6',
+    600: '#2563EB',
+    700: '#1D4ED8',
+  }
+}
+```
+
+## Accessibility Requirements
+
+### Contrast Ratios (WCAG 2.1)
+| Level | Normal Text | Large Text | UI Components |
+|-------|-------------|------------|---------------|
+| AA | 4.5:1 | 3:1 | 3:1 |
+| AAA | 7:1 | 4.5:1 | 4.5:1 |
+
+### Checking Contrast
+```javascript
+// Formula for relative luminance
+function luminance(r, g, b) {
+  const [rs, gs, bs] = [r, g, b].map(v => {
+    v /= 255;
+    return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+  });
+  return 0.2126 * rs + 0.7152 * gs + 0.0722 * bs;
+}
+
+function contrastRatio(l1, l2) {
+  const lighter = Math.max(l1, l2);
+  const darker = Math.min(l1, l2);
+  return (lighter + 0.05) / (darker + 0.05);
+}
+```
+
+## Color Extraction
+
+### From Images
+Use `extract-colors.cjs` script to:
+1. Load image file
+2. Extract dominant colors using k-means clustering
+3. Map to nearest brand colors
+4. Report compliance percentage
+
+### From Brand Guidelines
+Parse markdown to extract:
+- Hex values from tables
+- CSS variable definitions
+- Color names and usage descriptions
+
+## Brand Compliance Validation
+
+### Rules
+1. **Primary color ratio**: 60-70% of design
+2. **Secondary color ratio**: 20-30% of design
+3. **Accent color ratio**: 5-10% of design
+4. **Off-brand tolerance**: Max 20% non-palette colors
+
+### Validation Output
+```json
+{
+  "compliance": 85,
+  "colors": {
+    "brand": ["#2563EB", "#8B5CF6", "#FFFFFF"],
+    "offBrand": ["#FF5500"],
+    "dominant": "#2563EB"
+  },
+  "issues": [
+    "Off-brand color #FF5500 detected (15% coverage)",
+    "Primary color underused (45% vs 60% target)"
+  ]
+}
+```
+
+## Color Usage Guidelines
+
+### Do's
+- Use primary for main CTAs and key elements
+- Maintain consistent hover/active states
+- Test all combinations for accessibility
+- Document color decisions
+
+### Don'ts
+- Use more than 2-3 colors in single component
+- Mix warm and cool tones without intent
+- Use pure black (#000) for text (use #111 or similar)
+- Rely solely on color for meaning (use icons/text too)
+
+## Color Palette Examples
+
+### Tech/SaaS
+```
+Primary: #2563EB (Blue)
+Secondary: #8B5CF6 (Purple)
+Accent: #10B981 (Emerald)
+Background: #F9FAFB
+Text: #111827
+```
+
+### Marketing/Creative
+```
+Primary: #F97316 (Orange)
+Secondary: #EC4899 (Pink)
+Accent: #14B8A6 (Teal)
+Background: #FFFFFF
+Text: #1F2937
+```
+
+### Professional/Corporate
+```
+Primary: #1E40AF (Navy)
+Secondary: #475569 (Slate)
+Accent: #0EA5E9 (Sky)
+Background: #F8FAFC
+Text: #0F172A
+```
+
+## Tools & Resources
+
+- [Coolors](https://coolors.co) - Palette generation
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- [Tailwind Color Reference](https://tailwindcss.com/docs/customizing-colors)
+- [Color Hunt](https://colorhunt.co) - Curated palettes

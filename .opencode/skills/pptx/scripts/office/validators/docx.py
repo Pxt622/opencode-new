@@ -1,1 +1,446 @@
-IiIiClZhbGlkYXRvciBmb3IgV29yZCBkb2N1bWVudCBYTUwgZmlsZXMgYWdhaW5zdCBYU0Qgc2NoZW1hcy4KIiIiCgppbXBvcnQgcmFuZG9tCmltcG9ydCByZQppbXBvcnQgdGVtcGZpbGUKaW1wb3J0IHppcGZpbGUKCmltcG9ydCBkZWZ1c2VkeG1sLm1pbmlkb20KaW1wb3J0IGx4bWwuZXRyZWUKCmZyb20gLmJhc2UgaW1wb3J0IEJhc2VTY2hlbWFWYWxpZGF0b3IKCgpjbGFzcyBET0NYU2NoZW1hVmFsaWRhdG9yKEJhc2VTY2hlbWFWYWxpZGF0b3IpOgoKICAgIFdPUkRfMjAwNl9OQU1FU1BBQ0UgPSAiaHR0cDovL3NjaGVtYXMub3BlbnhtbGZvcm1hdHMub3JnL3dvcmRwcm9jZXNzaW5nbWwvMjAwNi9tYWluIgogICAgVzE0X05BTUVTUEFDRSA9ICJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL29mZmljZS93b3JkLzIwMTAvd29yZG1sIgogICAgVzE2Q0lEX05BTUVTUEFDRSA9ICJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL29mZmljZS93b3JkLzIwMTYvd29yZG1sL2NpZCIKCiAgICBFTEVNRU5UX1JFTEFUSU9OU0hJUF9UWVBFUyA9IHt9CgogICAgZGVmIHZhbGlkYXRlKHNlbGYpOgogICAgICAgIGlmIG5vdCBzZWxmLnZhbGlkYXRlX3htbCgpOgogICAgICAgICAgICByZXR1cm4gRmFsc2UKCiAgICAgICAgYWxsX3ZhbGlkID0gVHJ1ZQogICAgICAgIGlmIG5vdCBzZWxmLnZhbGlkYXRlX25hbWVzcGFjZXMoKToKICAgICAgICAgICAgYWxsX3ZhbGlkID0gRmFsc2UKCiAgICAgICAgaWYgbm90IHNlbGYudmFsaWRhdGVfdW5pcXVlX2lkcygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9maWxlX3JlZmVyZW5jZXMoKToKICAgICAgICAgICAgYWxsX3ZhbGlkID0gRmFsc2UKCiAgICAgICAgaWYgbm90IHNlbGYudmFsaWRhdGVfY29udGVudF90eXBlcygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9hZ2FpbnN0X3hzZCgpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV93aGl0ZXNwYWNlX3ByZXNlcnZhdGlvbigpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9kZWxldGlvbnMoKToKICAgICAgICAgICAgYWxsX3ZhbGlkID0gRmFsc2UKCiAgICAgICAgaWYgbm90IHNlbGYudmFsaWRhdGVfaW5zZXJ0aW9ucygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9hbGxfcmVsYXRpb25zaGlwX2lkcygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9pZF9jb25zdHJhaW50cygpOgogICAgICAgICAgICBhbGxfdmFsaWQgPSBGYWxzZQoKICAgICAgICBpZiBub3Qgc2VsZi52YWxpZGF0ZV9jb21tZW50X21hcmtlcnMoKToKICAgICAgICAgICAgYWxsX3ZhbGlkID0gRmFsc2UKCiAgICAgICAgc2VsZi5jb21wYXJlX3BhcmFncmFwaF9jb3VudHMoKQoKICAgICAgICByZXR1cm4gYWxsX3ZhbGlkCgogICAgZGVmIHZhbGlkYXRlX3doaXRlc3BhY2VfcHJlc2VydmF0aW9uKHNlbGYpOgogICAgICAgIGVycm9ycyA9IFtdCgogICAgICAgIGZvciB4bWxfZmlsZSBpbiBzZWxmLnhtbF9maWxlczoKICAgICAgICAgICAgaWYgeG1sX2ZpbGUubmFtZSAhPSAiZG9jdW1lbnQueG1sIjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICByb290ID0gbHhtbC5ldHJlZS5wYXJzZShzdHIoeG1sX2ZpbGUpKS5nZXRyb290KCkKCiAgICAgICAgICAgICAgICBmb3IgZWxlbSBpbiByb290Lml0ZXIoZiJ7e3tzZWxmLldPUkRfMjAwNl9OQU1FU1BBQ0V9fX10Iik6CiAgICAgICAgICAgICAgICAgICAgaWYgZWxlbS50ZXh0OgogICAgICAgICAgICAgICAgICAgICAgICB0ZXh0ID0gZWxlbS50ZXh0CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIHJlLnNlYXJjaChyIl5bIFx0XG5ccl0iLCB0ZXh0KSBvciByZS5zZWFyY2goCiAgICAgICAgICAgICAgICAgICAgICAgICAgICByIlsgXHRcblxyXSQiLCB0ZXh0CiAgICAgICAgICAgICAgICAgICAgICAgICk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB4bWxfc3BhY2VfYXR0ciA9IGYie3t7c2VsZi5YTUxfTkFNRVNQQUNFfX19c3BhY2UiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgeG1sX3NwYWNlX2F0dHIgbm90IGluIGVsZW0uYXR0cmliCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3IgZWxlbS5hdHRyaWJbeG1sX3NwYWNlX2F0dHJdICE9ICJwcmVzZXJ2ZSIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dF9wcmV2aWV3ID0gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXByKHRleHQpWzo1MF0gKyAiLi4uIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBsZW4ocmVwcih0ZXh0KSkgPiA1MAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbHNlIHJlcHIodGV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHt4bWxfZmlsZS5yZWxhdGl2ZV90byhzZWxmLnVucGFja2VkX2Rpcil9OiAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGYiTGluZSB7ZWxlbS5zb3VyY2VsaW5lfTogdzp0IGVsZW1lbnQgd2l0aCB3aGl0ZXNwYWNlIG1pc3NpbmcgeG1sOnNwYWNlPSdwcmVzZXJ2ZSc6IHt0ZXh0X3ByZXZpZXd9IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKCiAgICAgICAgICAgIGV4Y2VwdCAobHhtbC5ldHJlZS5YTUxTeW50YXhFcnJvciwgRXhjZXB0aW9uKSBhcyBlOgogICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICBmIiAge3htbF9maWxlLnJlbGF0aXZlX3RvKHNlbGYudW5wYWNrZWRfZGlyKX06IEVycm9yOiB7ZX0iCiAgICAgICAgICAgICAgICApCgogICAgICAgIGlmIGVycm9yczoKICAgICAgICAgICAgcHJpbnQoZiJGQUlMRUQgLSBGb3VuZCB7bGVuKGVycm9ycyl9IHdoaXRlc3BhY2UgcHJlc2VydmF0aW9uIHZpb2xhdGlvbnM6IikKICAgICAgICAgICAgZm9yIGVycm9yIGluIGVycm9yczoKICAgICAgICAgICAgICAgIHByaW50KGVycm9yKQogICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICBlbHNlOgogICAgICAgICAgICBpZiBzZWxmLnZlcmJvc2U6CiAgICAgICAgICAgICAgICBwcmludCgiUEFTU0VEIC0gQWxsIHdoaXRlc3BhY2UgaXMgcHJvcGVybHkgcHJlc2VydmVkIikKICAgICAgICAgICAgcmV0dXJuIFRydWUKCiAgICBkZWYgdmFsaWRhdGVfZGVsZXRpb25zKHNlbGYpOgogICAgICAgIGVycm9ycyA9IFtdCgogICAgICAgIGZvciB4bWxfZmlsZSBpbiBzZWxmLnhtbF9maWxlczoKICAgICAgICAgICAgaWYgeG1sX2ZpbGUubmFtZSAhPSAiZG9jdW1lbnQueG1sIjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICByb290ID0gbHhtbC5ldHJlZS5wYXJzZShzdHIoeG1sX2ZpbGUpKS5nZXRyb290KCkKICAgICAgICAgICAgICAgIG5hbWVzcGFjZXMgPSB7InciOiBzZWxmLldPUkRfMjAwNl9OQU1FU1BBQ0V9CgogICAgICAgICAgICAgICAgZm9yIHRfZWxlbSBpbiByb290LnhwYXRoKCIuLy93OmRlbC8vdzp0IiwgbmFtZXNwYWNlcz1uYW1lc3BhY2VzKToKICAgICAgICAgICAgICAgICAgICBpZiB0X2VsZW0udGV4dDoKICAgICAgICAgICAgICAgICAgICAgICAgdGV4dF9wcmV2aWV3ID0gKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVwcih0X2VsZW0udGV4dClbOjUwXSArICIuLi4iCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBsZW4ocmVwcih0X2VsZW0udGV4dCkpID4gNTAKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgcmVwcih0X2VsZW0udGV4dCkKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHt4bWxfZmlsZS5yZWxhdGl2ZV90byhzZWxmLnVucGFja2VkX2Rpcil9OiAiCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmIkxpbmUge3RfZWxlbS5zb3VyY2VsaW5lfTogPHc6dD4gZm91bmQgd2l0aGluIDx3OmRlbD46IHt0ZXh0X3ByZXZpZXd9IgogICAgICAgICAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgZm9yIGluc3RyX2VsZW0gaW4gcm9vdC54cGF0aCgKICAgICAgICAgICAgICAgICAgICAiLi8vdzpkZWwvL3c6aW5zdHJUZXh0IiwgbmFtZXNwYWNlcz1uYW1lc3BhY2VzCiAgICAgICAgICAgICAgICApOgogICAgICAgICAgICAgICAgICAgIHRleHRfcHJldmlldyA9ICgKICAgICAgICAgICAgICAgICAgICAgICAgcmVwcihpbnN0cl9lbGVtLnRleHQgb3IgIiIpWzo1MF0gKyAiLi4uIgogICAgICAgICAgICAgICAgICAgICAgICBpZiBsZW4ocmVwcihpbnN0cl9lbGVtLnRleHQgb3IgIiIpKSA+IDUwCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2UgcmVwcihpbnN0cl9lbGVtLnRleHQgb3IgIiIpCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoCiAgICAgICAgICAgICAgICAgICAgICAgIGYiICB7eG1sX2ZpbGUucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogIgogICAgICAgICAgICAgICAgICAgICAgICBmIkxpbmUge2luc3RyX2VsZW0uc291cmNlbGluZX06IDx3Omluc3RyVGV4dD4gZm91bmQgd2l0aGluIDx3OmRlbD4gKHVzZSA8dzpkZWxJbnN0clRleHQ+KToge3RleHRfcHJldmlld30iCiAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgZXhjZXB0IChseG1sLmV0cmVlLlhNTFN5bnRheEVycm9yLCBFeGNlcHRpb24pIGFzIGU6CiAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgIGYiICB7eG1sX2ZpbGUucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogRXJyb3I6IHtlfSIKICAgICAgICAgICAgICAgICkKCiAgICAgICAgaWYgZXJyb3JzOgogICAgICAgICAgICBwcmludChmIkZBSUxFRCAtIEZvdW5kIHtsZW4oZXJyb3JzKX0gZGVsZXRpb24gdmFsaWRhdGlvbiB2aW9sYXRpb25zOiIpCiAgICAgICAgICAgIGZvciBlcnJvciBpbiBlcnJvcnM6CiAgICAgICAgICAgICAgICBwcmludChlcnJvcikKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgZWxzZToKICAgICAgICAgICAgaWYgc2VsZi52ZXJib3NlOgogICAgICAgICAgICAgICAgcHJpbnQoIlBBU1NFRCAtIE5vIHc6dCBlbGVtZW50cyBmb3VuZCB3aXRoaW4gdzpkZWwgZWxlbWVudHMiKQogICAgICAgICAgICByZXR1cm4gVHJ1ZQoKICAgIGRlZiBjb3VudF9wYXJhZ3JhcGhzX2luX3VucGFja2VkKHNlbGYpOgogICAgICAgIGNvdW50ID0gMAoKICAgICAgICBmb3IgeG1sX2ZpbGUgaW4gc2VsZi54bWxfZmlsZXM6CiAgICAgICAgICAgIGlmIHhtbF9maWxlLm5hbWUgIT0gImRvY3VtZW50LnhtbCI6CiAgICAgICAgICAgICAgICBjb250aW51ZQoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgcm9vdCA9IGx4bWwuZXRyZWUucGFyc2Uoc3RyKHhtbF9maWxlKSkuZ2V0cm9vdCgpCiAgICAgICAgICAgICAgICBwYXJhZ3JhcGhzID0gcm9vdC5maW5kYWxsKGYiLi8ve3t7c2VsZi5XT1JEXzIwMDZfTkFNRVNQQUNFfX19cCIpCiAgICAgICAgICAgICAgICBjb3VudCA9IGxlbihwYXJhZ3JhcGhzKQogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICBwcmludChmIkVycm9yIGNvdW50aW5nIHBhcmFncmFwaHMgaW4gdW5wYWNrZWQgZG9jdW1lbnQ6IHtlfSIpCgogICAgICAgIHJldHVybiBjb3VudAoKICAgIGRlZiBjb3VudF9wYXJhZ3JhcGhzX2luX29yaWdpbmFsKHNlbGYpOgogICAgICAgIG9yaWdpbmFsID0gc2VsZi5vcmlnaW5hbF9maWxlCiAgICAgICAgaWYgb3JpZ2luYWwgaXMgTm9uZToKICAgICAgICAgICAgcmV0dXJuIDAKCiAgICAgICAgY291bnQgPSAwCgogICAgICAgIHRyeToKICAgICAgICAgICAgd2l0aCB0ZW1wZmlsZS5UZW1wb3JhcnlEaXJlY3RvcnkoKSBhcyB0ZW1wX2RpcjoKICAgICAgICAgICAgICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKG9yaWdpbmFsLCAiciIpIGFzIHppcF9yZWY6CiAgICAgICAgICAgICAgICAgICAgemlwX3JlZi5leHRyYWN0YWxsKHRlbXBfZGlyKQoKICAgICAgICAgICAgICAgIGRvY194bWxfcGF0aCA9IHRlbXBfZGlyICsgIi93b3JkL2RvY3VtZW50LnhtbCIKICAgICAgICAgICAgICAgIHJvb3QgPSBseG1sLmV0cmVlLnBhcnNlKGRvY194bWxfcGF0aCkuZ2V0cm9vdCgpCgogICAgICAgICAgICAgICAgcGFyYWdyYXBocyA9IHJvb3QuZmluZGFsbChmIi4vL3t7e3NlbGYuV09SRF8yMDA2X05BTUVTUEFDRX19fXAiKQogICAgICAgICAgICAgICAgY291bnQgPSBsZW4ocGFyYWdyYXBocykKCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICBwcmludChmIkVycm9yIGNvdW50aW5nIHBhcmFncmFwaHMgaW4gb3JpZ2luYWwgZG9jdW1lbnQ6IHtlfSIpCgogICAgICAgIHJldHVybiBjb3VudAoKICAgIGRlZiB2YWxpZGF0ZV9pbnNlcnRpb25zKHNlbGYpOgogICAgICAgIGVycm9ycyA9IFtdCgogICAgICAgIGZvciB4bWxfZmlsZSBpbiBzZWxmLnhtbF9maWxlczoKICAgICAgICAgICAgaWYgeG1sX2ZpbGUubmFtZSAhPSAiZG9jdW1lbnQueG1sIjoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICByb290ID0gbHhtbC5ldHJlZS5wYXJzZShzdHIoeG1sX2ZpbGUpKS5nZXRyb290KCkKICAgICAgICAgICAgICAgIG5hbWVzcGFjZXMgPSB7InciOiBzZWxmLldPUkRfMjAwNl9OQU1FU1BBQ0V9CgogICAgICAgICAgICAgICAgaW52YWxpZF9lbGVtZW50cyA9IHJvb3QueHBhdGgoCiAgICAgICAgICAgICAgICAgICAgIi4vL3c6aW5zLy93OmRlbFRleHRbbm90KGFuY2VzdG9yOjp3OmRlbCldIiwgbmFtZXNwYWNlcz1uYW1lc3BhY2VzCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgZm9yIGVsZW0gaW4gaW52YWxpZF9lbGVtZW50czoKICAgICAgICAgICAgICAgICAgICB0ZXh0X3ByZXZpZXcgPSAoCiAgICAgICAgICAgICAgICAgICAgICAgIHJlcHIoZWxlbS50ZXh0IG9yICIiKVs6NTBdICsgIi4uLiIKICAgICAgICAgICAgICAgICAgICAgICAgaWYgbGVuKHJlcHIoZWxlbS50ZXh0IG9yICIiKSkgPiA1MAogICAgICAgICAgICAgICAgICAgICAgICBlbHNlIHJlcHIoZWxlbS50ZXh0IG9yICIiKQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgICAgICBmIiAge3htbF9maWxlLnJlbGF0aXZlX3RvKHNlbGYudW5wYWNrZWRfZGlyKX06ICIKICAgICAgICAgICAgICAgICAgICAgICAgZiJMaW5lIHtlbGVtLnNvdXJjZWxpbmV9OiA8dzpkZWxUZXh0PiB3aXRoaW4gPHc6aW5zPjoge3RleHRfcHJldmlld30iCiAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgZXhjZXB0IChseG1sLmV0cmVlLlhNTFN5bnRheEVycm9yLCBFeGNlcHRpb24pIGFzIGU6CiAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgIGYiICB7eG1sX2ZpbGUucmVsYXRpdmVfdG8oc2VsZi51bnBhY2tlZF9kaXIpfTogRXJyb3I6IHtlfSIKICAgICAgICAgICAgICAgICkKCiAgICAgICAgaWYgZXJyb3JzOgogICAgICAgICAgICBwcmludChmIkZBSUxFRCAtIEZvdW5kIHtsZW4oZXJyb3JzKX0gaW5zZXJ0aW9uIHZhbGlkYXRpb24gdmlvbGF0aW9uczoiKQogICAgICAgICAgICBmb3IgZXJyb3IgaW4gZXJyb3JzOgogICAgICAgICAgICAgICAgcHJpbnQoZXJyb3IpCiAgICAgICAgICAgIHJldHVybiBGYWxzZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIHNlbGYudmVyYm9zZToKICAgICAgICAgICAgICAgIHByaW50KCJQQVNTRUQgLSBObyB3OmRlbFRleHQgZWxlbWVudHMgd2l0aGluIHc6aW5zIGVsZW1lbnRzIikKICAgICAgICAgICAgcmV0dXJuIFRydWUKCiAgICBkZWYgY29tcGFyZV9wYXJhZ3JhcGhfY291bnRzKHNlbGYpOgogICAgICAgIG9yaWdpbmFsX2NvdW50ID0gc2VsZi5jb3VudF9wYXJhZ3JhcGhzX2luX29yaWdpbmFsKCkKICAgICAgICBuZXdfY291bnQgPSBzZWxmLmNvdW50X3BhcmFncmFwaHNfaW5fdW5wYWNrZWQoKQoKICAgICAgICBkaWZmID0gbmV3X2NvdW50IC0gb3JpZ2luYWxfY291bnQKICAgICAgICBkaWZmX3N0ciA9IGYiK3tkaWZmfSIgaWYgZGlmZiA+IDAgZWxzZSBzdHIoZGlmZikKICAgICAgICBwcmludChmIlxuUGFyYWdyYXBoczoge29yaWdpbmFsX2NvdW50fSDihpIge25ld19jb3VudH0gKHtkaWZmX3N0cn0pIikKCiAgICBkZWYgX3BhcnNlX2lkX3ZhbHVlKHNlbGYsIHZhbDogc3RyLCBiYXNlOiBpbnQgPSAxNikgLT4gaW50OgogICAgICAgIHJldHVybiBpbnQodmFsLCBiYXNlKQoKICAgIGRlZiB2YWxpZGF0ZV9pZF9jb25zdHJhaW50cyhzZWxmKToKICAgICAgICBlcnJvcnMgPSBbXQogICAgICAgIHBhcmFfaWRfYXR0ciA9IGYie3t7c2VsZi5XMTRfTkFNRVNQQUNFfX19cGFyYUlkIgogICAgICAgIGR1cmFibGVfaWRfYXR0ciA9IGYie3t7c2VsZi5XMTZDSURfTkFNRVNQQUNFfX19ZHVyYWJsZUlkIgoKICAgICAgICBmb3IgeG1sX2ZpbGUgaW4gc2VsZi54bWxfZmlsZXM6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGZvciBlbGVtIGluIGx4bWwuZXRyZWUucGFyc2Uoc3RyKHhtbF9maWxlKSkuaXRlcigpOgogICAgICAgICAgICAgICAgICAgIGlmIHZhbCA6PSBlbGVtLmdldChwYXJhX2lkX2F0dHIpOgogICAgICAgICAgICAgICAgICAgICAgICBpZiBzZWxmLl9wYXJzZV9pZF92YWx1ZSh2YWwsIGJhc2U9MTYpID49IDB4ODAwMDAwMDA6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGYiICB7eG1sX2ZpbGUubmFtZX06e2VsZW0uc291cmNlbGluZX06IHBhcmFJZD17dmFsfSA+PSAweDgwMDAwMDAwIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgICAgICBpZiB2YWwgOj0gZWxlbS5nZXQoZHVyYWJsZV9pZF9hdHRyKToKICAgICAgICAgICAgICAgICAgICAgICAgaWYgeG1sX2ZpbGUubmFtZSA9PSAibnVtYmVyaW5nLnhtbCI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgc2VsZi5fcGFyc2VfaWRfdmFsdWUodmFsLCBiYXNlPTEwKSA+PSAweDdGRkZGRkZGOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBlcnJvcnMuYXBwZW5kKAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHt4bWxfZmlsZS5uYW1lfTp7ZWxlbS5zb3VyY2VsaW5lfTogIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZiJkdXJhYmxlSWQ9e3ZhbH0gPj0gMHg3RkZGRkZGRiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHt4bWxfZmlsZS5uYW1lfTp7ZWxlbS5zb3VyY2VsaW5lfTogIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmImR1cmFibGVJZD17dmFsfSBtdXN0IGJlIGRlY2ltYWwgaW4gbnVtYmVyaW5nLnhtbCIKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBzZWxmLl9wYXJzZV9pZF92YWx1ZSh2YWwsIGJhc2U9MTYpID49IDB4N0ZGRkZGRkY6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZiIgIHt4bWxfZmlsZS5uYW1lfTp7ZWxlbS5zb3VyY2VsaW5lfTogIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmImR1cmFibGVJZD17dmFsfSA+PSAweDdGRkZGRkZGIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIHBhc3MKCiAgICAgICAgaWYgZXJyb3JzOgogICAgICAgICAgICBwcmludChmIkZBSUxFRCAtIHtsZW4oZXJyb3JzKX0gSUQgY29uc3RyYWludCB2aW9sYXRpb25zOiIpCiAgICAgICAgICAgIGZvciBlIGluIGVycm9yczoKICAgICAgICAgICAgICAgIHByaW50KGUpCiAgICAgICAgZWxpZiBzZWxmLnZlcmJvc2U6CiAgICAgICAgICAgIHByaW50KCJQQVNTRUQgLSBBbGwgcGFyYUlkL2R1cmFibGVJZCB2YWx1ZXMgd2l0aGluIGNvbnN0cmFpbnRzIikKICAgICAgICByZXR1cm4gbm90IGVycm9ycwoKICAgIGRlZiB2YWxpZGF0ZV9jb21tZW50X21hcmtlcnMoc2VsZik6CiAgICAgICAgZXJyb3JzID0gW10KCiAgICAgICAgZG9jdW1lbnRfeG1sID0gTm9uZQogICAgICAgIGNvbW1lbnRzX3htbCA9IE5vbmUKICAgICAgICBmb3IgeG1sX2ZpbGUgaW4gc2VsZi54bWxfZmlsZXM6CiAgICAgICAgICAgIGlmIHhtbF9maWxlLm5hbWUgPT0gImRvY3VtZW50LnhtbCIgYW5kICJ3b3JkIiBpbiBzdHIoeG1sX2ZpbGUpOgogICAgICAgICAgICAgICAgZG9jdW1lbnRfeG1sID0geG1sX2ZpbGUKICAgICAgICAgICAgZWxpZiB4bWxfZmlsZS5uYW1lID09ICJjb21tZW50cy54bWwiOgogICAgICAgICAgICAgICAgY29tbWVudHNfeG1sID0geG1sX2ZpbGUKCiAgICAgICAgaWYgbm90IGRvY3VtZW50X3htbDoKICAgICAgICAgICAgaWYgc2VsZi52ZXJib3NlOgogICAgICAgICAgICAgICAgcHJpbnQoIlBBU1NFRCAtIE5vIGRvY3VtZW50LnhtbCBmb3VuZCAoc2tpcHBpbmcgY29tbWVudCB2YWxpZGF0aW9uKSIpCiAgICAgICAgICAgIHJldHVybiBUcnVlCgogICAgICAgIHRyeToKICAgICAgICAgICAgZG9jX3Jvb3QgPSBseG1sLmV0cmVlLnBhcnNlKHN0cihkb2N1bWVudF94bWwpKS5nZXRyb290KCkKICAgICAgICAgICAgbmFtZXNwYWNlcyA9IHsidyI6IHNlbGYuV09SRF8yMDA2X05BTUVTUEFDRX0KCiAgICAgICAgICAgIHJhbmdlX3N0YXJ0cyA9IHsKICAgICAgICAgICAgICAgIGVsZW0uZ2V0KGYie3t7c2VsZi5XT1JEXzIwMDZfTkFNRVNQQUNFfX19aWQiKQogICAgICAgICAgICAgICAgZm9yIGVsZW0gaW4gZG9jX3Jvb3QueHBhdGgoCiAgICAgICAgICAgICAgICAgICAgIi4vL3c6Y29tbWVudFJhbmdlU3RhcnQiLCBuYW1lc3BhY2VzPW5hbWVzcGFjZXMKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICByYW5nZV9lbmRzID0gewogICAgICAgICAgICAgICAgZWxlbS5nZXQoZiJ7e3tzZWxmLldPUkRfMjAwNl9OQU1FU1BBQ0V9fX1pZCIpCiAgICAgICAgICAgICAgICBmb3IgZWxlbSBpbiBkb2Nfcm9vdC54cGF0aCgKICAgICAgICAgICAgICAgICAgICAiLi8vdzpjb21tZW50UmFuZ2VFbmQiLCBuYW1lc3BhY2VzPW5hbWVzcGFjZXMKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgfQogICAgICAgICAgICByZWZlcmVuY2VzID0gewogICAgICAgICAgICAgICAgZWxlbS5nZXQoZiJ7e3tzZWxmLldPUkRfMjAwNl9OQU1FU1BBQ0V9fX1pZCIpCiAgICAgICAgICAgICAgICBmb3IgZWxlbSBpbiBkb2Nfcm9vdC54cGF0aCgKICAgICAgICAgICAgICAgICAgICAiLi8vdzpjb21tZW50UmVmZXJlbmNlIiwgbmFtZXNwYWNlcz1uYW1lc3BhY2VzCiAgICAgICAgICAgICAgICApCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIG9ycGhhbmVkX2VuZHMgPSByYW5nZV9lbmRzIC0gcmFuZ2Vfc3RhcnRzCiAgICAgICAgICAgIGZvciBjb21tZW50X2lkIGluIHNvcnRlZCgKICAgICAgICAgICAgICAgIG9ycGhhbmVkX2VuZHMsIGtleT1sYW1iZGEgeDogaW50KHgpIGlmIHggYW5kIHguaXNkaWdpdCgpIGVsc2UgMAogICAgICAgICAgICApOgogICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICBmJyAgZG9jdW1lbnQueG1sOiBjb21tZW50UmFuZ2VFbmQgaWQ9Intjb21tZW50X2lkfSIgaGFzIG5vIG1hdGNoaW5nIGNvbW1lbnRSYW5nZVN0YXJ0JwogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgb3JwaGFuZWRfc3RhcnRzID0gcmFuZ2Vfc3RhcnRzIC0gcmFuZ2VfZW5kcwogICAgICAgICAgICBmb3IgY29tbWVudF9pZCBpbiBzb3J0ZWQoCiAgICAgICAgICAgICAgICBvcnBoYW5lZF9zdGFydHMsIGtleT1sYW1iZGEgeDogaW50KHgpIGlmIHggYW5kIHguaXNkaWdpdCgpIGVsc2UgMAogICAgICAgICAgICApOgogICAgICAgICAgICAgICAgZXJyb3JzLmFwcGVuZCgKICAgICAgICAgICAgICAgICAgICBmJyAgZG9jdW1lbnQueG1sOiBjb21tZW50UmFuZ2VTdGFydCBpZD0ie2NvbW1lbnRfaWR9IiBoYXMgbm8gbWF0Y2hpbmcgY29tbWVudFJhbmdlRW5kJwogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgY29tbWVudF9pZHMgPSBzZXQoKQogICAgICAgICAgICBpZiBjb21tZW50c194bWwgYW5kIGNvbW1lbnRzX3htbC5leGlzdHMoKToKICAgICAgICAgICAgICAgIGNvbW1lbnRzX3Jvb3QgPSBseG1sLmV0cmVlLnBhcnNlKHN0cihjb21tZW50c194bWwpKS5nZXRyb290KCkKICAgICAgICAgICAgICAgIGNvbW1lbnRfaWRzID0gewogICAgICAgICAgICAgICAgICAgIGVsZW0uZ2V0KGYie3t7c2VsZi5XT1JEXzIwMDZfTkFNRVNQQUNFfX19aWQiKQogICAgICAgICAgICAgICAgICAgIGZvciBlbGVtIGluIGNvbW1lbnRzX3Jvb3QueHBhdGgoCiAgICAgICAgICAgICAgICAgICAgICAgICIuLy93OmNvbW1lbnQiLCBuYW1lc3BhY2VzPW5hbWVzcGFjZXMKICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgbWFya2VyX2lkcyA9IHJhbmdlX3N0YXJ0cyB8IHJhbmdlX2VuZHMgfCByZWZlcmVuY2VzCiAgICAgICAgICAgICAgICBpbnZhbGlkX3JlZnMgPSBtYXJrZXJfaWRzIC0gY29tbWVudF9pZHMKICAgICAgICAgICAgICAgIGZvciBjb21tZW50X2lkIGluIHNvcnRlZCgKICAgICAgICAgICAgICAgICAgICBpbnZhbGlkX3JlZnMsIGtleT1sYW1iZGEgeDogaW50KHgpIGlmIHggYW5kIHguaXNkaWdpdCgpIGVsc2UgMAogICAgICAgICAgICAgICAgKToKICAgICAgICAgICAgICAgICAgICBpZiBjb21tZW50X2lkOiAgCiAgICAgICAgICAgICAgICAgICAgICAgIGVycm9ycy5hcHBlbmQoCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmJyAgZG9jdW1lbnQueG1sOiBtYXJrZXIgaWQ9Intjb21tZW50X2lkfSIgcmVmZXJlbmNlcyBub24tZXhpc3RlbnQgY29tbWVudCcKICAgICAgICAgICAgICAgICAgICAgICAgKQoKICAgICAgICBleGNlcHQgKGx4bWwuZXRyZWUuWE1MU3ludGF4RXJyb3IsIEV4Y2VwdGlvbikgYXMgZToKICAgICAgICAgICAgZXJyb3JzLmFwcGVuZChmIiAgRXJyb3IgcGFyc2luZyBYTUw6IHtlfSIpCgogICAgICAgIGlmIGVycm9yczoKICAgICAgICAgICAgcHJpbnQoZiJGQUlMRUQgLSB7bGVuKGVycm9ycyl9IGNvbW1lbnQgbWFya2VyIHZpb2xhdGlvbnM6IikKICAgICAgICAgICAgZm9yIGVycm9yIGluIGVycm9yczoKICAgICAgICAgICAgICAgIHByaW50KGVycm9yKQogICAgICAgICAgICByZXR1cm4gRmFsc2UKICAgICAgICBlbHNlOgogICAgICAgICAgICBpZiBzZWxmLnZlcmJvc2U6CiAgICAgICAgICAgICAgICBwcmludCgiUEFTU0VEIC0gQWxsIGNvbW1lbnQgbWFya2VycyBwcm9wZXJseSBwYWlyZWQiKQogICAgICAgICAgICByZXR1cm4gVHJ1ZQoKICAgIGRlZiByZXBhaXIoc2VsZikgLT4gaW50OgogICAgICAgIHJlcGFpcnMgPSBzdXBlcigpLnJlcGFpcigpCiAgICAgICAgcmVwYWlycyArPSBzZWxmLnJlcGFpcl9kdXJhYmxlSWQoKQogICAgICAgIHJldHVybiByZXBhaXJzCgogICAgZGVmIHJlcGFpcl9kdXJhYmxlSWQoc2VsZikgLT4gaW50OgogICAgICAgIHJlcGFpcnMgPSAwCgogICAgICAgIGZvciB4bWxfZmlsZSBpbiBzZWxmLnhtbF9maWxlczoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgY29udGVudCA9IHhtbF9maWxlLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKQogICAgICAgICAgICAgICAgZG9tID0gZGVmdXNlZHhtbC5taW5pZG9tLnBhcnNlU3RyaW5nKGNvbnRlbnQpCiAgICAgICAgICAgICAgICBtb2RpZmllZCA9IEZhbHNlCgogICAgICAgICAgICAgICAgZm9yIGVsZW0gaW4gZG9tLmdldEVsZW1lbnRzQnlUYWdOYW1lKCIqIik6CiAgICAgICAgICAgICAgICAgICAgaWYgbm90IGVsZW0uaGFzQXR0cmlidXRlKCJ3MTZjaWQ6ZHVyYWJsZUlkIik6CiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgICAgIGR1cmFibGVfaWQgPSBlbGVtLmdldEF0dHJpYnV0ZSgidzE2Y2lkOmR1cmFibGVJZCIpCiAgICAgICAgICAgICAgICAgICAgbmVlZHNfcmVwYWlyID0gRmFsc2UKCiAgICAgICAgICAgICAgICAgICAgaWYgeG1sX2ZpbGUubmFtZSA9PSAibnVtYmVyaW5nLnhtbCI6CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5lZWRzX3JlcGFpciA9ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLl9wYXJzZV9pZF92YWx1ZShkdXJhYmxlX2lkLCBiYXNlPTEwKSA+PSAweDdGRkZGRkZGCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmVlZHNfcmVwYWlyID0gVHJ1ZQogICAgICAgICAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5lZWRzX3JlcGFpciA9ICgKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzZWxmLl9wYXJzZV9pZF92YWx1ZShkdXJhYmxlX2lkLCBiYXNlPTE2KSA+PSAweDdGRkZGRkZGCiAgICAgICAgICAgICAgICAgICAgICAgICAgICApCiAgICAgICAgICAgICAgICAgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgbmVlZHNfcmVwYWlyID0gVHJ1ZQoKICAgICAgICAgICAgICAgICAgICBpZiBuZWVkc19yZXBhaXI6CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlID0gcmFuZG9tLnJhbmRpbnQoMSwgMHg3RkZGRkZGRSkKICAgICAgICAgICAgICAgICAgICAgICAgaWYgeG1sX2ZpbGUubmFtZSA9PSAibnVtYmVyaW5nLnhtbCI6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBuZXdfaWQgPSBzdHIodmFsdWUpICAKICAgICAgICAgICAgICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5ld19pZCA9IGYie3ZhbHVlOjA4WH0iICAKCiAgICAgICAgICAgICAgICAgICAgICAgIGVsZW0uc2V0QXR0cmlidXRlKCJ3MTZjaWQ6ZHVyYWJsZUlkIiwgbmV3X2lkKQogICAgICAgICAgICAgICAgICAgICAgICBwcmludCgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGYiICBSZXBhaXJlZDoge3htbF9maWxlLm5hbWV9OiBkdXJhYmxlSWQge2R1cmFibGVfaWR9IOKGkiB7bmV3X2lkfSIKICAgICAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgICAgICAgICByZXBhaXJzICs9IDEKICAgICAgICAgICAgICAgICAgICAgICAgbW9kaWZpZWQgPSBUcnVlCgogICAgICAgICAgICAgICAgaWYgbW9kaWZpZWQ6CiAgICAgICAgICAgICAgICAgICAgeG1sX2ZpbGUud3JpdGVfYnl0ZXMoZG9tLnRveG1sKGVuY29kaW5nPSJVVEYtOCIpKQoKICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgICAgIHBhc3MKCiAgICAgICAgcmV0dXJuIHJlcGFpcnMKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcmFpc2UgUnVudGltZUVycm9yKCJUaGlzIG1vZHVsZSBzaG91bGQgbm90IGJlIHJ1biBkaXJlY3RseS4iKQo=
+"""
+Validator for Word document XML files against XSD schemas.
+"""
+
+import random
+import re
+import tempfile
+import zipfile
+
+import defusedxml.minidom
+import lxml.etree
+
+from .base import BaseSchemaValidator
+
+
+class DOCXSchemaValidator(BaseSchemaValidator):
+
+    WORD_2006_NAMESPACE = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+    W14_NAMESPACE = "http://schemas.microsoft.com/office/word/2010/wordml"
+    W16CID_NAMESPACE = "http://schemas.microsoft.com/office/word/2016/wordml/cid"
+
+    ELEMENT_RELATIONSHIP_TYPES = {}
+
+    def validate(self):
+        if not self.validate_xml():
+            return False
+
+        all_valid = True
+        if not self.validate_namespaces():
+            all_valid = False
+
+        if not self.validate_unique_ids():
+            all_valid = False
+
+        if not self.validate_file_references():
+            all_valid = False
+
+        if not self.validate_content_types():
+            all_valid = False
+
+        if not self.validate_against_xsd():
+            all_valid = False
+
+        if not self.validate_whitespace_preservation():
+            all_valid = False
+
+        if not self.validate_deletions():
+            all_valid = False
+
+        if not self.validate_insertions():
+            all_valid = False
+
+        if not self.validate_all_relationship_ids():
+            all_valid = False
+
+        if not self.validate_id_constraints():
+            all_valid = False
+
+        if not self.validate_comment_markers():
+            all_valid = False
+
+        self.compare_paragraph_counts()
+
+        return all_valid
+
+    def validate_whitespace_preservation(self):
+        errors = []
+
+        for xml_file in self.xml_files:
+            if xml_file.name != "document.xml":
+                continue
+
+            try:
+                root = lxml.etree.parse(str(xml_file)).getroot()
+
+                for elem in root.iter(f"{{{self.WORD_2006_NAMESPACE}}}t"):
+                    if elem.text:
+                        text = elem.text
+                        if re.search(r"^[ \t\n\r]", text) or re.search(
+                            r"[ \t\n\r]$", text
+                        ):
+                            xml_space_attr = f"{{{self.XML_NAMESPACE}}}space"
+                            if (
+                                xml_space_attr not in elem.attrib
+                                or elem.attrib[xml_space_attr] != "preserve"
+                            ):
+                                text_preview = (
+                                    repr(text)[:50] + "..."
+                                    if len(repr(text)) > 50
+                                    else repr(text)
+                                )
+                                errors.append(
+                                    f"  {xml_file.relative_to(self.unpacked_dir)}: "
+                                    f"Line {elem.sourceline}: w:t element with whitespace missing xml:space='preserve': {text_preview}"
+                                )
+
+            except (lxml.etree.XMLSyntaxError, Exception) as e:
+                errors.append(
+                    f"  {xml_file.relative_to(self.unpacked_dir)}: Error: {e}"
+                )
+
+        if errors:
+            print(f"FAILED - Found {len(errors)} whitespace preservation violations:")
+            for error in errors:
+                print(error)
+            return False
+        else:
+            if self.verbose:
+                print("PASSED - All whitespace is properly preserved")
+            return True
+
+    def validate_deletions(self):
+        errors = []
+
+        for xml_file in self.xml_files:
+            if xml_file.name != "document.xml":
+                continue
+
+            try:
+                root = lxml.etree.parse(str(xml_file)).getroot()
+                namespaces = {"w": self.WORD_2006_NAMESPACE}
+
+                for t_elem in root.xpath(".//w:del//w:t", namespaces=namespaces):
+                    if t_elem.text:
+                        text_preview = (
+                            repr(t_elem.text)[:50] + "..."
+                            if len(repr(t_elem.text)) > 50
+                            else repr(t_elem.text)
+                        )
+                        errors.append(
+                            f"  {xml_file.relative_to(self.unpacked_dir)}: "
+                            f"Line {t_elem.sourceline}: <w:t> found within <w:del>: {text_preview}"
+                        )
+
+                for instr_elem in root.xpath(
+                    ".//w:del//w:instrText", namespaces=namespaces
+                ):
+                    text_preview = (
+                        repr(instr_elem.text or "")[:50] + "..."
+                        if len(repr(instr_elem.text or "")) > 50
+                        else repr(instr_elem.text or "")
+                    )
+                    errors.append(
+                        f"  {xml_file.relative_to(self.unpacked_dir)}: "
+                        f"Line {instr_elem.sourceline}: <w:instrText> found within <w:del> (use <w:delInstrText>): {text_preview}"
+                    )
+
+            except (lxml.etree.XMLSyntaxError, Exception) as e:
+                errors.append(
+                    f"  {xml_file.relative_to(self.unpacked_dir)}: Error: {e}"
+                )
+
+        if errors:
+            print(f"FAILED - Found {len(errors)} deletion validation violations:")
+            for error in errors:
+                print(error)
+            return False
+        else:
+            if self.verbose:
+                print("PASSED - No w:t elements found within w:del elements")
+            return True
+
+    def count_paragraphs_in_unpacked(self):
+        count = 0
+
+        for xml_file in self.xml_files:
+            if xml_file.name != "document.xml":
+                continue
+
+            try:
+                root = lxml.etree.parse(str(xml_file)).getroot()
+                paragraphs = root.findall(f".//{{{self.WORD_2006_NAMESPACE}}}p")
+                count = len(paragraphs)
+            except Exception as e:
+                print(f"Error counting paragraphs in unpacked document: {e}")
+
+        return count
+
+    def count_paragraphs_in_original(self):
+        original = self.original_file
+        if original is None:
+            return 0
+
+        count = 0
+
+        try:
+            with tempfile.TemporaryDirectory() as temp_dir:
+                with zipfile.ZipFile(original, "r") as zip_ref:
+                    zip_ref.extractall(temp_dir)
+
+                doc_xml_path = temp_dir + "/word/document.xml"
+                root = lxml.etree.parse(doc_xml_path).getroot()
+
+                paragraphs = root.findall(f".//{{{self.WORD_2006_NAMESPACE}}}p")
+                count = len(paragraphs)
+
+        except Exception as e:
+            print(f"Error counting paragraphs in original document: {e}")
+
+        return count
+
+    def validate_insertions(self):
+        errors = []
+
+        for xml_file in self.xml_files:
+            if xml_file.name != "document.xml":
+                continue
+
+            try:
+                root = lxml.etree.parse(str(xml_file)).getroot()
+                namespaces = {"w": self.WORD_2006_NAMESPACE}
+
+                invalid_elements = root.xpath(
+                    ".//w:ins//w:delText[not(ancestor::w:del)]", namespaces=namespaces
+                )
+
+                for elem in invalid_elements:
+                    text_preview = (
+                        repr(elem.text or "")[:50] + "..."
+                        if len(repr(elem.text or "")) > 50
+                        else repr(elem.text or "")
+                    )
+                    errors.append(
+                        f"  {xml_file.relative_to(self.unpacked_dir)}: "
+                        f"Line {elem.sourceline}: <w:delText> within <w:ins>: {text_preview}"
+                    )
+
+            except (lxml.etree.XMLSyntaxError, Exception) as e:
+                errors.append(
+                    f"  {xml_file.relative_to(self.unpacked_dir)}: Error: {e}"
+                )
+
+        if errors:
+            print(f"FAILED - Found {len(errors)} insertion validation violations:")
+            for error in errors:
+                print(error)
+            return False
+        else:
+            if self.verbose:
+                print("PASSED - No w:delText elements within w:ins elements")
+            return True
+
+    def compare_paragraph_counts(self):
+        original_count = self.count_paragraphs_in_original()
+        new_count = self.count_paragraphs_in_unpacked()
+
+        diff = new_count - original_count
+        diff_str = f"+{diff}" if diff > 0 else str(diff)
+        print(f"\nParagraphs: {original_count} → {new_count} ({diff_str})")
+
+    def _parse_id_value(self, val: str, base: int = 16) -> int:
+        return int(val, base)
+
+    def validate_id_constraints(self):
+        errors = []
+        para_id_attr = f"{{{self.W14_NAMESPACE}}}paraId"
+        durable_id_attr = f"{{{self.W16CID_NAMESPACE}}}durableId"
+
+        for xml_file in self.xml_files:
+            try:
+                for elem in lxml.etree.parse(str(xml_file)).iter():
+                    if val := elem.get(para_id_attr):
+                        if self._parse_id_value(val, base=16) >= 0x80000000:
+                            errors.append(
+                                f"  {xml_file.name}:{elem.sourceline}: paraId={val} >= 0x80000000"
+                            )
+
+                    if val := elem.get(durable_id_attr):
+                        if xml_file.name == "numbering.xml":
+                            try:
+                                if self._parse_id_value(val, base=10) >= 0x7FFFFFFF:
+                                    errors.append(
+                                        f"  {xml_file.name}:{elem.sourceline}: "
+                                        f"durableId={val} >= 0x7FFFFFFF"
+                                    )
+                            except ValueError:
+                                errors.append(
+                                    f"  {xml_file.name}:{elem.sourceline}: "
+                                    f"durableId={val} must be decimal in numbering.xml"
+                                )
+                        else:
+                            if self._parse_id_value(val, base=16) >= 0x7FFFFFFF:
+                                errors.append(
+                                    f"  {xml_file.name}:{elem.sourceline}: "
+                                    f"durableId={val} >= 0x7FFFFFFF"
+                                )
+            except Exception:
+                pass
+
+        if errors:
+            print(f"FAILED - {len(errors)} ID constraint violations:")
+            for e in errors:
+                print(e)
+        elif self.verbose:
+            print("PASSED - All paraId/durableId values within constraints")
+        return not errors
+
+    def validate_comment_markers(self):
+        errors = []
+
+        document_xml = None
+        comments_xml = None
+        for xml_file in self.xml_files:
+            if xml_file.name == "document.xml" and "word" in str(xml_file):
+                document_xml = xml_file
+            elif xml_file.name == "comments.xml":
+                comments_xml = xml_file
+
+        if not document_xml:
+            if self.verbose:
+                print("PASSED - No document.xml found (skipping comment validation)")
+            return True
+
+        try:
+            doc_root = lxml.etree.parse(str(document_xml)).getroot()
+            namespaces = {"w": self.WORD_2006_NAMESPACE}
+
+            range_starts = {
+                elem.get(f"{{{self.WORD_2006_NAMESPACE}}}id")
+                for elem in doc_root.xpath(
+                    ".//w:commentRangeStart", namespaces=namespaces
+                )
+            }
+            range_ends = {
+                elem.get(f"{{{self.WORD_2006_NAMESPACE}}}id")
+                for elem in doc_root.xpath(
+                    ".//w:commentRangeEnd", namespaces=namespaces
+                )
+            }
+            references = {
+                elem.get(f"{{{self.WORD_2006_NAMESPACE}}}id")
+                for elem in doc_root.xpath(
+                    ".//w:commentReference", namespaces=namespaces
+                )
+            }
+
+            orphaned_ends = range_ends - range_starts
+            for comment_id in sorted(
+                orphaned_ends, key=lambda x: int(x) if x and x.isdigit() else 0
+            ):
+                errors.append(
+                    f'  document.xml: commentRangeEnd id="{comment_id}" has no matching commentRangeStart'
+                )
+
+            orphaned_starts = range_starts - range_ends
+            for comment_id in sorted(
+                orphaned_starts, key=lambda x: int(x) if x and x.isdigit() else 0
+            ):
+                errors.append(
+                    f'  document.xml: commentRangeStart id="{comment_id}" has no matching commentRangeEnd'
+                )
+
+            comment_ids = set()
+            if comments_xml and comments_xml.exists():
+                comments_root = lxml.etree.parse(str(comments_xml)).getroot()
+                comment_ids = {
+                    elem.get(f"{{{self.WORD_2006_NAMESPACE}}}id")
+                    for elem in comments_root.xpath(
+                        ".//w:comment", namespaces=namespaces
+                    )
+                }
+
+                marker_ids = range_starts | range_ends | references
+                invalid_refs = marker_ids - comment_ids
+                for comment_id in sorted(
+                    invalid_refs, key=lambda x: int(x) if x and x.isdigit() else 0
+                ):
+                    if comment_id:  
+                        errors.append(
+                            f'  document.xml: marker id="{comment_id}" references non-existent comment'
+                        )
+
+        except (lxml.etree.XMLSyntaxError, Exception) as e:
+            errors.append(f"  Error parsing XML: {e}")
+
+        if errors:
+            print(f"FAILED - {len(errors)} comment marker violations:")
+            for error in errors:
+                print(error)
+            return False
+        else:
+            if self.verbose:
+                print("PASSED - All comment markers properly paired")
+            return True
+
+    def repair(self) -> int:
+        repairs = super().repair()
+        repairs += self.repair_durableId()
+        return repairs
+
+    def repair_durableId(self) -> int:
+        repairs = 0
+
+        for xml_file in self.xml_files:
+            try:
+                content = xml_file.read_text(encoding="utf-8")
+                dom = defusedxml.minidom.parseString(content)
+                modified = False
+
+                for elem in dom.getElementsByTagName("*"):
+                    if not elem.hasAttribute("w16cid:durableId"):
+                        continue
+
+                    durable_id = elem.getAttribute("w16cid:durableId")
+                    needs_repair = False
+
+                    if xml_file.name == "numbering.xml":
+                        try:
+                            needs_repair = (
+                                self._parse_id_value(durable_id, base=10) >= 0x7FFFFFFF
+                            )
+                        except ValueError:
+                            needs_repair = True
+                    else:
+                        try:
+                            needs_repair = (
+                                self._parse_id_value(durable_id, base=16) >= 0x7FFFFFFF
+                            )
+                        except ValueError:
+                            needs_repair = True
+
+                    if needs_repair:
+                        value = random.randint(1, 0x7FFFFFFE)
+                        if xml_file.name == "numbering.xml":
+                            new_id = str(value)  
+                        else:
+                            new_id = f"{value:08X}"  
+
+                        elem.setAttribute("w16cid:durableId", new_id)
+                        print(
+                            f"  Repaired: {xml_file.name}: durableId {durable_id} → {new_id}"
+                        )
+                        repairs += 1
+                        modified = True
+
+                if modified:
+                    xml_file.write_bytes(dom.toxml(encoding="UTF-8"))
+
+            except Exception:
+                pass
+
+        return repairs
+
+
+if __name__ == "__main__":
+    raise RuntimeError("This module should not be run directly.")

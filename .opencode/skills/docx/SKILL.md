@@ -1,1 +1,590 @@
-LS0tCm5hbWU6IGRvY3gKZGVzY3JpcHRpb246ICJVc2UgdGhpcyBza2lsbCB3aGVuZXZlciB0aGUgdXNlciB3YW50cyB0byBjcmVhdGUsIHJlYWQsIGVkaXQsIG9yIG1hbmlwdWxhdGUgV29yZCBkb2N1bWVudHMgKC5kb2N4IGZpbGVzKS4gVHJpZ2dlcnMgaW5jbHVkZTogYW55IG1lbnRpb24gb2YgJ1dvcmQgZG9jJywgJ3dvcmQgZG9jdW1lbnQnLCAnLmRvY3gnLCBvciByZXF1ZXN0cyB0byBwcm9kdWNlIHByb2Zlc3Npb25hbCBkb2N1bWVudHMgd2l0aCBmb3JtYXR0aW5nIGxpa2UgdGFibGVzIG9mIGNvbnRlbnRzLCBoZWFkaW5ncywgcGFnZSBudW1iZXJzLCBvciBsZXR0ZXJoZWFkcy4gQWxzbyB1c2Ugd2hlbiBleHRyYWN0aW5nIG9yIHJlb3JnYW5pemluZyBjb250ZW50IGZyb20gLmRvY3ggZmlsZXMsIGluc2VydGluZyBvciByZXBsYWNpbmcgaW1hZ2VzIGluIGRvY3VtZW50cywgcGVyZm9ybWluZyBmaW5kLWFuZC1yZXBsYWNlIGluIFdvcmQgZmlsZXMsIHdvcmtpbmcgd2l0aCB0cmFja2VkIGNoYW5nZXMgb3IgY29tbWVudHMsIG9yIGNvbnZlcnRpbmcgY29udGVudCBpbnRvIGEgcG9saXNoZWQgV29yZCBkb2N1bWVudC4gSWYgdGhlIHVzZXIgYXNrcyBmb3IgYSAncmVwb3J0JywgJ21lbW8nLCAnbGV0dGVyJywgJ3RlbXBsYXRlJywgb3Igc2ltaWxhciBkZWxpdmVyYWJsZSBhcyBhIFdvcmQgb3IgLmRvY3ggZmlsZSwgdXNlIHRoaXMgc2tpbGwuIERvIE5PVCB1c2UgZm9yIFBERnMsIHNwcmVhZHNoZWV0cywgR29vZ2xlIERvY3MsIG9yIGdlbmVyYWwgY29kaW5nIHRhc2tzIHVucmVsYXRlZCB0byBkb2N1bWVudCBnZW5lcmF0aW9uLiIKbGljZW5zZTogUHJvcHJpZXRhcnkuIExJQ0VOU0UudHh0IGhhcyBjb21wbGV0ZSB0ZXJtcwotLS0KCiMgRE9DWCBjcmVhdGlvbiwgZWRpdGluZywgYW5kIGFuYWx5c2lzCgojIyBPdmVydmlldwoKQSAuZG9jeCBmaWxlIGlzIGEgWklQIGFyY2hpdmUgY29udGFpbmluZyBYTUwgZmlsZXMuCgojIyBRdWljayBSZWZlcmVuY2UKCnwgVGFzayB8IEFwcHJvYWNoIHwKfC0tLS0tLXwtLS0tLS0tLS0tfAp8IFJlYWQvYW5hbHl6ZSBjb250ZW50IHwgYHBhbmRvY2Agb3IgdW5wYWNrIGZvciByYXcgWE1MIHwKfCBDcmVhdGUgbmV3IGRvY3VtZW50IHwgVXNlIGBkb2N4LWpzYCAtIHNlZSBDcmVhdGluZyBOZXcgRG9jdW1lbnRzIGJlbG93IHwKfCBFZGl0IGV4aXN0aW5nIGRvY3VtZW50IHwgVW5wYWNrIOKGkiBlZGl0IFhNTCDihpIgcmVwYWNrIC0gc2VlIEVkaXRpbmcgRXhpc3RpbmcgRG9jdW1lbnRzIGJlbG93IHwKCiMjIyBDb252ZXJ0aW5nIC5kb2MgdG8gLmRvY3gKCkxlZ2FjeSBgLmRvY2AgZmlsZXMgbXVzdCBiZSBjb252ZXJ0ZWQgYmVmb3JlIGVkaXRpbmc6CgpgYGBiYXNoCnB5dGhvbiBzY3JpcHRzL29mZmljZS9zb2ZmaWNlLnB5IC0taGVhZGxlc3MgLS1jb252ZXJ0LXRvIGRvY3ggZG9jdW1lbnQuZG9jCmBgYAoKIyMjIFJlYWRpbmcgQ29udGVudAoKYGBgYmFzaAojIFRleHQgZXh0cmFjdGlvbiB3aXRoIHRyYWNrZWQgY2hhbmdlcwpwYW5kb2MgLS10cmFjay1jaGFuZ2VzPWFsbCBkb2N1bWVudC5kb2N4IC1vIG91dHB1dC5tZAoKIyBSYXcgWE1MIGFjY2VzcwpweXRob24gc2NyaXB0cy9vZmZpY2UvdW5wYWNrLnB5IGRvY3VtZW50LmRvY3ggdW5wYWNrZWQvCmBgYAoKIyMjIENvbnZlcnRpbmcgdG8gSW1hZ2VzCgpgYGBiYXNoCnB5dGhvbiBzY3JpcHRzL29mZmljZS9zb2ZmaWNlLnB5IC0taGVhZGxlc3MgLS1jb252ZXJ0LXRvIHBkZiBkb2N1bWVudC5kb2N4CnBkZnRvcHBtIC1qcGVnIC1yIDE1MCBkb2N1bWVudC5wZGYgcGFnZQpgYGAKCiMjIyBBY2NlcHRpbmcgVHJhY2tlZCBDaGFuZ2VzCgpUbyBwcm9kdWNlIGEgY2xlYW4gZG9jdW1lbnQgd2l0aCBhbGwgdHJhY2tlZCBjaGFuZ2VzIGFjY2VwdGVkIChyZXF1aXJlcyBMaWJyZU9mZmljZSk6CgpgYGBiYXNoCnB5dGhvbiBzY3JpcHRzL2FjY2VwdF9jaGFuZ2VzLnB5IGlucHV0LmRvY3ggb3V0cHV0LmRvY3gKYGBgCgotLS0KCiMjIENyZWF0aW5nIE5ldyBEb2N1bWVudHMKCkdlbmVyYXRlIC5kb2N4IGZpbGVzIHdpdGggSmF2YVNjcmlwdCwgdGhlbiB2YWxpZGF0ZS4gSW5zdGFsbDogYG5wbSBpbnN0YWxsIC1nIGRvY3hgCgojIyMgU2V0dXAKYGBgamF2YXNjcmlwdApjb25zdCB7IERvY3VtZW50LCBQYWNrZXIsIFBhcmFncmFwaCwgVGV4dFJ1biwgVGFibGUsIFRhYmxlUm93LCBUYWJsZUNlbGwsIEltYWdlUnVuLAogICAgICAgIEhlYWRlciwgRm9vdGVyLCBBbGlnbm1lbnRUeXBlLCBQYWdlT3JpZW50YXRpb24sIExldmVsRm9ybWF0LCBFeHRlcm5hbEh5cGVybGluaywKICAgICAgICBJbnRlcm5hbEh5cGVybGluaywgQm9va21hcmssIEZvb3Rub3RlUmVmZXJlbmNlUnVuLCBQb3NpdGlvbmFsVGFiLAogICAgICAgIFBvc2l0aW9uYWxUYWJBbGlnbm1lbnQsIFBvc2l0aW9uYWxUYWJSZWxhdGl2ZVRvLCBQb3NpdGlvbmFsVGFiTGVhZGVyLAogICAgICAgIFRhYlN0b3BUeXBlLCBUYWJTdG9wUG9zaXRpb24sIENvbHVtbiwgU2VjdGlvblR5cGUsCiAgICAgICAgVGFibGVPZkNvbnRlbnRzLCBIZWFkaW5nTGV2ZWwsIEJvcmRlclN0eWxlLCBXaWR0aFR5cGUsIFNoYWRpbmdUeXBlLAogICAgICAgIFZlcnRpY2FsQWxpZ24sIFBhZ2VOdW1iZXIsIFBhZ2VCcmVhayB9ID0gcmVxdWlyZSgnZG9jeCcpOwoKY29uc3QgZG9jID0gbmV3IERvY3VtZW50KHsgc2VjdGlvbnM6IFt7IGNoaWxkcmVuOiBbLyogY29udGVudCAqL10gfV0gfSk7ClBhY2tlci50b0J1ZmZlcihkb2MpLnRoZW4oYnVmZmVyID0+IGZzLndyaXRlRmlsZVN5bmMoImRvYy5kb2N4IiwgYnVmZmVyKSk7CmBgYAoKIyMjIFZhbGlkYXRpb24KQWZ0ZXIgY3JlYXRpbmcgdGhlIGZpbGUsIHZhbGlkYXRlIGl0LiBJZiB2YWxpZGF0aW9uIGZhaWxzLCB1bnBhY2ssIGZpeCB0aGUgWE1MLCBhbmQgcmVwYWNrLgpgYGBiYXNoCnB5dGhvbiBzY3JpcHRzL29mZmljZS92YWxpZGF0ZS5weSBkb2MuZG9jeApgYGAKCiMjIyBQYWdlIFNpemUKCmBgYGphdmFzY3JpcHQKLy8gQ1JJVElDQUw6IGRvY3gtanMgZGVmYXVsdHMgdG8gQTQsIG5vdCBVUyBMZXR0ZXIKLy8gQWx3YXlzIHNldCBwYWdlIHNpemUgZXhwbGljaXRseSBmb3IgY29uc2lzdGVudCByZXN1bHRzCnNlY3Rpb25zOiBbewogIHByb3BlcnRpZXM6IHsKICAgIHBhZ2U6IHsKICAgICAgc2l6ZTogewogICAgICAgIHdpZHRoOiAxMjI0MCwgICAvLyA4LjUgaW5jaGVzIGluIERYQQogICAgICAgIGhlaWdodDogMTU4NDAgICAvLyAxMSBpbmNoZXMgaW4gRFhBCiAgICAgIH0sCiAgICAgIG1hcmdpbjogeyB0b3A6IDE0NDAsIHJpZ2h0OiAxNDQwLCBib3R0b206IDE0NDAsIGxlZnQ6IDE0NDAgfSAvLyAxIGluY2ggbWFyZ2lucwogICAgfQogIH0sCiAgY2hpbGRyZW46IFsvKiBjb250ZW50ICovXQp9XQpgYGAKCioqQ29tbW9uIHBhZ2Ugc2l6ZXMgKERYQSB1bml0cywgMTQ0MCBEWEEgPSAxIGluY2gpOioqCgp8IFBhcGVyIHwgV2lkdGggfCBIZWlnaHQgfCBDb250ZW50IFdpZHRoICgxIiBtYXJnaW5zKSB8CnwtLS0tLS0tfC0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tfAp8IFVTIExldHRlciB8IDEyLDI0MCB8IDE1LDg0MCB8IDksMzYwIHwKfCBBNCAoZGVmYXVsdCkgfCAxMSw5MDYgfCAxNiw4MzggfCA5LDAyNiB8CgoqKkxhbmRzY2FwZSBvcmllbnRhdGlvbjoqKiBkb2N4LWpzIHN3YXBzIHdpZHRoL2hlaWdodCBpbnRlcm5hbGx5LCBzbyBwYXNzIHBvcnRyYWl0IGRpbWVuc2lvbnMgYW5kIGxldCBpdCBoYW5kbGUgdGhlIHN3YXA6CmBgYGphdmFzY3JpcHQKc2l6ZTogewogIHdpZHRoOiAxMjI0MCwgICAvLyBQYXNzIFNIT1JUIGVkZ2UgYXMgd2lkdGgKICBoZWlnaHQ6IDE1ODQwLCAgLy8gUGFzcyBMT05HIGVkZ2UgYXMgaGVpZ2h0CiAgb3JpZW50YXRpb246IFBhZ2VPcmllbnRhdGlvbi5MQU5EU0NBUEUgIC8vIGRvY3gtanMgc3dhcHMgdGhlbSBpbiB0aGUgWE1MCn0sCi8vIENvbnRlbnQgd2lkdGggPSAxNTg0MCAtIGxlZnQgbWFyZ2luIC0gcmlnaHQgbWFyZ2luICh1c2VzIHRoZSBsb25nIGVkZ2UpCmBgYAoKIyMjIFN0eWxlcyAoT3ZlcnJpZGUgQnVpbHQtaW4gSGVhZGluZ3MpCgpVc2UgQXJpYWwgYXMgdGhlIGRlZmF1bHQgZm9udCAodW5pdmVyc2FsbHkgc3VwcG9ydGVkKS4gS2VlcCB0aXRsZXMgYmxhY2sgZm9yIHJlYWRhYmlsaXR5LgoKYGBgamF2YXNjcmlwdApjb25zdCBkb2MgPSBuZXcgRG9jdW1lbnQoewogIHN0eWxlczogewogICAgZGVmYXVsdDogeyBkb2N1bWVudDogeyBydW46IHsgZm9udDogIkFyaWFsIiwgc2l6ZTogMjQgfSB9IH0sIC8vIDEycHQgZGVmYXVsdAogICAgcGFyYWdyYXBoU3R5bGVzOiBbCiAgICAgIC8vIElNUE9SVEFOVDogVXNlIGV4YWN0IElEcyB0byBvdmVycmlkZSBidWlsdC1pbiBzdHlsZXMKICAgICAgeyBpZDogIkhlYWRpbmcxIiwgbmFtZTogIkhlYWRpbmcgMSIsIGJhc2VkT246ICJOb3JtYWwiLCBuZXh0OiAiTm9ybWFsIiwgcXVpY2tGb3JtYXQ6IHRydWUsCiAgICAgICAgcnVuOiB7IHNpemU6IDMyLCBib2xkOiB0cnVlLCBmb250OiAiQXJpYWwiIH0sCiAgICAgICAgcGFyYWdyYXBoOiB7IHNwYWNpbmc6IHsgYmVmb3JlOiAyNDAsIGFmdGVyOiAyNDAgfSwgb3V0bGluZUxldmVsOiAwIH0gfSwgLy8gb3V0bGluZUxldmVsIHJlcXVpcmVkIGZvciBUT0MKICAgICAgeyBpZDogIkhlYWRpbmcyIiwgbmFtZTogIkhlYWRpbmcgMiIsIGJhc2VkT246ICJOb3JtYWwiLCBuZXh0OiAiTm9ybWFsIiwgcXVpY2tGb3JtYXQ6IHRydWUsCiAgICAgICAgcnVuOiB7IHNpemU6IDI4LCBib2xkOiB0cnVlLCBmb250OiAiQXJpYWwiIH0sCiAgICAgICAgcGFyYWdyYXBoOiB7IHNwYWNpbmc6IHsgYmVmb3JlOiAxODAsIGFmdGVyOiAxODAgfSwgb3V0bGluZUxldmVsOiAxIH0gfSwKICAgIF0KICB9LAogIHNlY3Rpb25zOiBbewogICAgY2hpbGRyZW46IFsKICAgICAgbmV3IFBhcmFncmFwaCh7IGhlYWRpbmc6IEhlYWRpbmdMZXZlbC5IRUFESU5HXzEsIGNoaWxkcmVuOiBbbmV3IFRleHRSdW4oIlRpdGxlIildIH0pLAogICAgXQogIH1dCn0pOwpgYGAKCiMjIyBMaXN0cyAoTkVWRVIgdXNlIHVuaWNvZGUgYnVsbGV0cykKCmBgYGphdmFzY3JpcHQKLy8g4p2MIFdST05HIC0gbmV2ZXIgbWFudWFsbHkgaW5zZXJ0IGJ1bGxldCBjaGFyYWN0ZXJzCm5ldyBQYXJhZ3JhcGgoeyBjaGlsZHJlbjogW25ldyBUZXh0UnVuKCLigKIgSXRlbSIpXSB9KSAgLy8gQkFECm5ldyBQYXJhZ3JhcGgoeyBjaGlsZHJlbjogW25ldyBUZXh0UnVuKCJcdTIwMjIgSXRlbSIpXSB9KSAgLy8gQkFECgovLyDinIUgQ09SUkVDVCAtIHVzZSBudW1iZXJpbmcgY29uZmlnIHdpdGggTGV2ZWxGb3JtYXQuQlVMTEVUCmNvbnN0IGRvYyA9IG5ldyBEb2N1bWVudCh7CiAgbnVtYmVyaW5nOiB7CiAgICBjb25maWc6IFsKICAgICAgeyByZWZlcmVuY2U6ICJidWxsZXRzIiwKICAgICAgICBsZXZlbHM6IFt7IGxldmVsOiAwLCBmb3JtYXQ6IExldmVsRm9ybWF0LkJVTExFVCwgdGV4dDogIuKAoiIsIGFsaWdubWVudDogQWxpZ25tZW50VHlwZS5MRUZULAogICAgICAgICAgc3R5bGU6IHsgcGFyYWdyYXBoOiB7IGluZGVudDogeyBsZWZ0OiA3MjAsIGhhbmdpbmc6IDM2MCB9IH0gfSB9XSB9LAogICAgICB7IHJlZmVyZW5jZTogIm51bWJlcnMiLAogICAgICAgIGxldmVsczogW3sgbGV2ZWw6IDAsIGZvcm1hdDogTGV2ZWxGb3JtYXQuREVDSU1BTCwgdGV4dDogIiUxLiIsIGFsaWdubWVudDogQWxpZ25tZW50VHlwZS5MRUZULAogICAgICAgICAgc3R5bGU6IHsgcGFyYWdyYXBoOiB7IGluZGVudDogeyBsZWZ0OiA3MjAsIGhhbmdpbmc6IDM2MCB9IH0gfSB9XSB9LAogICAgXQogIH0sCiAgc2VjdGlvbnM6IFt7CiAgICBjaGlsZHJlbjogWwogICAgICBuZXcgUGFyYWdyYXBoKHsgbnVtYmVyaW5nOiB7IHJlZmVyZW5jZTogImJ1bGxldHMiLCBsZXZlbDogMCB9LAogICAgICAgIGNoaWxkcmVuOiBbbmV3IFRleHRSdW4oIkJ1bGxldCBpdGVtIildIH0pLAogICAgICBuZXcgUGFyYWdyYXBoKHsgbnVtYmVyaW5nOiB7IHJlZmVyZW5jZTogIm51bWJlcnMiLCBsZXZlbDogMCB9LAogICAgICAgIGNoaWxkcmVuOiBbbmV3IFRleHRSdW4oIk51bWJlcmVkIGl0ZW0iKV0gfSksCiAgICBdCiAgfV0KfSk7CgovLyDimqDvuI8gRWFjaCByZWZlcmVuY2UgY3JlYXRlcyBJTkRFUEVOREVOVCBudW1iZXJpbmcKLy8gU2FtZSByZWZlcmVuY2UgPSBjb250aW51ZXMgKDEsMiwzIHRoZW4gNCw1LDYpCi8vIERpZmZlcmVudCByZWZlcmVuY2UgPSByZXN0YXJ0cyAoMSwyLDMgdGhlbiAxLDIsMykKYGBgCgojIyMgVGFibGVzCgoqKkNSSVRJQ0FMOiBUYWJsZXMgbmVlZCBkdWFsIHdpZHRocyoqIC0gc2V0IGJvdGggYGNvbHVtbldpZHRoc2Agb24gdGhlIHRhYmxlIEFORCBgd2lkdGhgIG9uIGVhY2ggY2VsbC4gV2l0aG91dCBib3RoLCB0YWJsZXMgcmVuZGVyIGluY29ycmVjdGx5IG9uIHNvbWUgcGxhdGZvcm1zLgoKYGBgamF2YXNjcmlwdAovLyBDUklUSUNBTDogQWx3YXlzIHNldCB0YWJsZSB3aWR0aCBmb3IgY29uc2lzdGVudCByZW5kZXJpbmcKLy8gQ1JJVElDQUw6IFVzZSBTaGFkaW5nVHlwZS5DTEVBUiAobm90IFNPTElEKSB0byBwcmV2ZW50IGJsYWNrIGJhY2tncm91bmRzCmNvbnN0IGJvcmRlciA9IHsgc3R5bGU6IEJvcmRlclN0eWxlLlNJTkdMRSwgc2l6ZTogMSwgY29sb3I6ICJDQ0NDQ0MiIH07CmNvbnN0IGJvcmRlcnMgPSB7IHRvcDogYm9yZGVyLCBib3R0b206IGJvcmRlciwgbGVmdDogYm9yZGVyLCByaWdodDogYm9yZGVyIH07CgpuZXcgVGFibGUoewogIHdpZHRoOiB7IHNpemU6IDkzNjAsIHR5cGU6IFdpZHRoVHlwZS5EWEEgfSwgLy8gQWx3YXlzIHVzZSBEWEEgKHBlcmNlbnRhZ2VzIGJyZWFrIGluIEdvb2dsZSBEb2NzKQogIGNvbHVtbldpZHRoczogWzQ2ODAsIDQ2ODBdLCAvLyBNdXN0IHN1bSB0byB0YWJsZSB3aWR0aCAoRFhBOiAxNDQwID0gMSBpbmNoKQogIHJvd3M6IFsKICAgIG5ldyBUYWJsZVJvdyh7CiAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgbmV3IFRhYmxlQ2VsbCh7CiAgICAgICAgICBib3JkZXJzLAogICAgICAgICAgd2lkdGg6IHsgc2l6ZTogNDY4MCwgdHlwZTogV2lkdGhUeXBlLkRYQSB9LCAvLyBBbHNvIHNldCBvbiBlYWNoIGNlbGwKICAgICAgICAgIHNoYWRpbmc6IHsgZmlsbDogIkQ1RThGMCIsIHR5cGU6IFNoYWRpbmdUeXBlLkNMRUFSIH0sIC8vIENMRUFSIG5vdCBTT0xJRAogICAgICAgICAgbWFyZ2luczogeyB0b3A6IDgwLCBib3R0b206IDgwLCBsZWZ0OiAxMjAsIHJpZ2h0OiAxMjAgfSwgLy8gQ2VsbCBwYWRkaW5nIChpbnRlcm5hbCwgbm90IGFkZGVkIHRvIHdpZHRoKQogICAgICAgICAgY2hpbGRyZW46IFtuZXcgUGFyYWdyYXBoKHsgY2hpbGRyZW46IFtuZXcgVGV4dFJ1bigiQ2VsbCIpXSB9KV0KICAgICAgICB9KQogICAgICBdCiAgICB9KQogIF0KfSkKYGBgCgoqKlRhYmxlIHdpZHRoIGNhbGN1bGF0aW9uOioqCgpBbHdheXMgdXNlIGBXaWR0aFR5cGUuRFhBYCDigJQgYFdpZHRoVHlwZS5QRVJDRU5UQUdFYCBicmVha3MgaW4gR29vZ2xlIERvY3MuCgpgYGBqYXZhc2NyaXB0Ci8vIFRhYmxlIHdpZHRoID0gc3VtIG9mIGNvbHVtbldpZHRocyA9IGNvbnRlbnQgd2lkdGgKLy8gVVMgTGV0dGVyIHdpdGggMSIgbWFyZ2luczogMTIyNDAgLSAyODgwID0gOTM2MCBEWEEKd2lkdGg6IHsgc2l6ZTogOTM2MCwgdHlwZTogV2lkdGhUeXBlLkRYQSB9LApjb2x1bW5XaWR0aHM6IFs3MDAwLCAyMzYwXSAgLy8gTXVzdCBzdW0gdG8gdGFibGUgd2lkdGgKYGBgCgoqKldpZHRoIHJ1bGVzOioqCi0gKipBbHdheXMgdXNlIGBXaWR0aFR5cGUuRFhBYCoqIOKAlCBuZXZlciBgV2lkdGhUeXBlLlBFUkNFTlRBR0VgIChpbmNvbXBhdGlibGUgd2l0aCBHb29nbGUgRG9jcykKLSBUYWJsZSB3aWR0aCBtdXN0IGVxdWFsIHRoZSBzdW0gb2YgYGNvbHVtbldpZHRoc2AKLSBDZWxsIGB3aWR0aGAgbXVzdCBtYXRjaCBjb3JyZXNwb25kaW5nIGBjb2x1bW5XaWR0aGAKLSBDZWxsIGBtYXJnaW5zYCBhcmUgaW50ZXJuYWwgcGFkZGluZyAtIHRoZXkgcmVkdWNlIGNvbnRlbnQgYXJlYSwgbm90IGFkZCB0byBjZWxsIHdpZHRoCi0gRm9yIGZ1bGwtd2lkdGggdGFibGVzOiB1c2UgY29udGVudCB3aWR0aCAocGFnZSB3aWR0aCBtaW51cyBsZWZ0IGFuZCByaWdodCBtYXJnaW5zKQoKIyMjIEltYWdlcwoKYGBgamF2YXNjcmlwdAovLyBDUklUSUNBTDogdHlwZSBwYXJhbWV0ZXIgaXMgUkVRVUlSRUQKbmV3IFBhcmFncmFwaCh7CiAgY2hpbGRyZW46IFtuZXcgSW1hZ2VSdW4oewogICAgdHlwZTogInBuZyIsIC8vIFJlcXVpcmVkOiBwbmcsIGpwZywganBlZywgZ2lmLCBibXAsIHN2ZwogICAgZGF0YTogZnMucmVhZEZpbGVTeW5jKCJpbWFnZS5wbmciKSwKICAgIHRyYW5zZm9ybWF0aW9uOiB7IHdpZHRoOiAyMDAsIGhlaWdodDogMTUwIH0sCiAgICBhbHRUZXh0OiB7IHRpdGxlOiAiVGl0bGUiLCBkZXNjcmlwdGlvbjogIkRlc2MiLCBuYW1lOiAiTmFtZSIgfSAvLyBBbGwgdGhyZWUgcmVxdWlyZWQKICB9KV0KfSkKYGBgCgojIyMgUGFnZSBCcmVha3MKCmBgYGphdmFzY3JpcHQKLy8gQ1JJVElDQUw6IFBhZ2VCcmVhayBtdXN0IGJlIGluc2lkZSBhIFBhcmFncmFwaApuZXcgUGFyYWdyYXBoKHsgY2hpbGRyZW46IFtuZXcgUGFnZUJyZWFrKCldIH0pCgovLyBPciB1c2UgcGFnZUJyZWFrQmVmb3JlCm5ldyBQYXJhZ3JhcGgoeyBwYWdlQnJlYWtCZWZvcmU6IHRydWUsIGNoaWxkcmVuOiBbbmV3IFRleHRSdW4oIk5ldyBwYWdlIildIH0pCmBgYAoKIyMjIEh5cGVybGlua3MKCmBgYGphdmFzY3JpcHQKLy8gRXh0ZXJuYWwgbGluawpuZXcgUGFyYWdyYXBoKHsKICBjaGlsZHJlbjogW25ldyBFeHRlcm5hbEh5cGVybGluayh7CiAgICBjaGlsZHJlbjogW25ldyBUZXh0UnVuKHsgdGV4dDogIkNsaWNrIGhlcmUiLCBzdHlsZTogIkh5cGVybGluayIgfSldLAogICAgbGluazogImh0dHBzOi8vZXhhbXBsZS5jb20iLAogIH0pXQp9KQoKLy8gSW50ZXJuYWwgbGluayAoYm9va21hcmsgKyByZWZlcmVuY2UpCi8vIDEuIENyZWF0ZSBib29rbWFyayBhdCBkZXN0aW5hdGlvbgpuZXcgUGFyYWdyYXBoKHsgaGVhZGluZzogSGVhZGluZ0xldmVsLkhFQURJTkdfMSwgY2hpbGRyZW46IFsKICBuZXcgQm9va21hcmsoeyBpZDogImNoYXB0ZXIxIiwgY2hpbGRyZW46IFtuZXcgVGV4dFJ1bigiQ2hhcHRlciAxIildIH0pLApdfSkKLy8gMi4gTGluayB0byBpdApuZXcgUGFyYWdyYXBoKHsgY2hpbGRyZW46IFtuZXcgSW50ZXJuYWxIeXBlcmxpbmsoewogIGNoaWxkcmVuOiBbbmV3IFRleHRSdW4oeyB0ZXh0OiAiU2VlIENoYXB0ZXIgMSIsIHN0eWxlOiAiSHlwZXJsaW5rIiB9KV0sCiAgYW5jaG9yOiAiY2hhcHRlcjEiLAp9KV19KQpgYGAKCiMjIyBGb290bm90ZXMKCmBgYGphdmFzY3JpcHQKY29uc3QgZG9jID0gbmV3IERvY3VtZW50KHsKICBmb290bm90ZXM6IHsKICAgIDE6IHsgY2hpbGRyZW46IFtuZXcgUGFyYWdyYXBoKCJTb3VyY2U6IEFubnVhbCBSZXBvcnQgMjAyNCIpXSB9LAogICAgMjogeyBjaGlsZHJlbjogW25ldyBQYXJhZ3JhcGgoIlNlZSBhcHBlbmRpeCBmb3IgbWV0aG9kb2xvZ3kiKV0gfSwKICB9LAogIHNlY3Rpb25zOiBbewogICAgY2hpbGRyZW46IFtuZXcgUGFyYWdyYXBoKHsKICAgICAgY2hpbGRyZW46IFsKICAgICAgICBuZXcgVGV4dFJ1bigiUmV2ZW51ZSBncmV3IDE1JSIpLAogICAgICAgIG5ldyBGb290bm90ZVJlZmVyZW5jZVJ1bigxKSwKICAgICAgICBuZXcgVGV4dFJ1bigiIHVzaW5nIGFkanVzdGVkIG1ldHJpY3MiKSwKICAgICAgICBuZXcgRm9vdG5vdGVSZWZlcmVuY2VSdW4oMiksCiAgICAgIF0sCiAgICB9KV0KICB9XQp9KTsKYGBgCgojIyMgVGFiIFN0b3BzCgpgYGBqYXZhc2NyaXB0Ci8vIFJpZ2h0LWFsaWduIHRleHQgb24gc2FtZSBsaW5lIChlLmcuLCBkYXRlIG9wcG9zaXRlIGEgdGl0bGUpCm5ldyBQYXJhZ3JhcGgoewogIGNoaWxkcmVuOiBbCiAgICBuZXcgVGV4dFJ1bigiQ29tcGFueSBOYW1lIiksCiAgICBuZXcgVGV4dFJ1bigiXHRKYW51YXJ5IDIwMjUiKSwKICBdLAogIHRhYlN0b3BzOiBbeyB0eXBlOiBUYWJTdG9wVHlwZS5SSUdIVCwgcG9zaXRpb246IFRhYlN0b3BQb3NpdGlvbi5NQVggfV0sCn0pCgovLyBEb3QgbGVhZGVyIChlLmcuLCBUT0Mtc3R5bGUpCm5ldyBQYXJhZ3JhcGgoewogIGNoaWxkcmVuOiBbCiAgICBuZXcgVGV4dFJ1bigiSW50cm9kdWN0aW9uIiksCiAgICBuZXcgVGV4dFJ1bih7IGNoaWxkcmVuOiBbCiAgICAgIG5ldyBQb3NpdGlvbmFsVGFiKHsKICAgICAgICBhbGlnbm1lbnQ6IFBvc2l0aW9uYWxUYWJBbGlnbm1lbnQuUklHSFQsCiAgICAgICAgcmVsYXRpdmVUbzogUG9zaXRpb25hbFRhYlJlbGF0aXZlVG8uTUFSR0lOLAogICAgICAgIGxlYWRlcjogUG9zaXRpb25hbFRhYkxlYWRlci5ET1QsCiAgICAgIH0pLAogICAgICAiMyIsCiAgICBdfSksCiAgXSwKfSkKYGBgCgojIyMgTXVsdGktQ29sdW1uIExheW91dHMKCmBgYGphdmFzY3JpcHQKLy8gRXF1YWwtd2lkdGggY29sdW1ucwpzZWN0aW9uczogW3sKICBwcm9wZXJ0aWVzOiB7CiAgICBjb2x1bW46IHsKICAgICAgY291bnQ6IDIsICAgICAgICAgIC8vIG51bWJlciBvZiBjb2x1bW5zCiAgICAgIHNwYWNlOiA3MjAsICAgICAgICAvLyBnYXAgYmV0d2VlbiBjb2x1bW5zIGluIERYQSAoNzIwID0gMC41IGluY2gpCiAgICAgIGVxdWFsV2lkdGg6IHRydWUsCiAgICAgIHNlcGFyYXRlOiB0cnVlLCAgICAvLyB2ZXJ0aWNhbCBsaW5lIGJldHdlZW4gY29sdW1ucwogICAgfSwKICB9LAogIGNoaWxkcmVuOiBbLyogY29udGVudCBmbG93cyBuYXR1cmFsbHkgYWNyb3NzIGNvbHVtbnMgKi9dCn1dCgovLyBDdXN0b20td2lkdGggY29sdW1ucyAoZXF1YWxXaWR0aCBtdXN0IGJlIGZhbHNlKQpzZWN0aW9uczogW3sKICBwcm9wZXJ0aWVzOiB7CiAgICBjb2x1bW46IHsKICAgICAgZXF1YWxXaWR0aDogZmFsc2UsCiAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgbmV3IENvbHVtbih7IHdpZHRoOiA1NDAwLCBzcGFjZTogNzIwIH0pLAogICAgICAgIG5ldyBDb2x1bW4oeyB3aWR0aDogMzI0MCB9KSwKICAgICAgXSwKICAgIH0sCiAgfSwKICBjaGlsZHJlbjogWy8qIGNvbnRlbnQgKi9dCn1dCmBgYAoKRm9yY2UgYSBjb2x1bW4gYnJlYWsgd2l0aCBhIG5ldyBzZWN0aW9uIHVzaW5nIGB0eXBlOiBTZWN0aW9uVHlwZS5ORVhUX0NPTFVNTmAuCgojIyMgVGFibGUgb2YgQ29udGVudHMKCmBgYGphdmFzY3JpcHQKLy8gQ1JJVElDQUw6IEhlYWRpbmdzIG11c3QgdXNlIEhlYWRpbmdMZXZlbCBPTkxZIC0gbm8gY3VzdG9tIHN0eWxlcwpuZXcgVGFibGVPZkNvbnRlbnRzKCJUYWJsZSBvZiBDb250ZW50cyIsIHsgaHlwZXJsaW5rOiB0cnVlLCBoZWFkaW5nU3R5bGVSYW5nZTogIjEtMyIgfSkKYGBgCgojIyMgSGVhZGVycy9Gb290ZXJzCgpgYGBqYXZhc2NyaXB0CnNlY3Rpb25zOiBbewogIHByb3BlcnRpZXM6IHsKICAgIHBhZ2U6IHsgbWFyZ2luOiB7IHRvcDogMTQ0MCwgcmlnaHQ6IDE0NDAsIGJvdHRvbTogMTQ0MCwgbGVmdDogMTQ0MCB9IH0gLy8gMTQ0MCA9IDEgaW5jaAogIH0sCiAgaGVhZGVyczogewogICAgZGVmYXVsdDogbmV3IEhlYWRlcih7IGNoaWxkcmVuOiBbbmV3IFBhcmFncmFwaCh7IGNoaWxkcmVuOiBbbmV3IFRleHRSdW4oIkhlYWRlciIpXSB9KV0gfSkKICB9LAogIGZvb3RlcnM6IHsKICAgIGRlZmF1bHQ6IG5ldyBGb290ZXIoeyBjaGlsZHJlbjogW25ldyBQYXJhZ3JhcGgoewogICAgICBjaGlsZHJlbjogW25ldyBUZXh0UnVuKCJQYWdlICIpLCBuZXcgVGV4dFJ1bih7IGNoaWxkcmVuOiBbUGFnZU51bWJlci5DVVJSRU5UXSB9KV0KICAgIH0pXSB9KQogIH0sCiAgY2hpbGRyZW46IFsvKiBjb250ZW50ICovXQp9XQpgYGAKCiMjIyBDcml0aWNhbCBSdWxlcyBmb3IgZG9jeC1qcwoKLSAqKlNldCBwYWdlIHNpemUgZXhwbGljaXRseSoqIC0gZG9jeC1qcyBkZWZhdWx0cyB0byBBNDsgdXNlIFVTIExldHRlciAoMTIyNDAgeCAxNTg0MCBEWEEpIGZvciBVUyBkb2N1bWVudHMKLSAqKkxhbmRzY2FwZTogcGFzcyBwb3J0cmFpdCBkaW1lbnNpb25zKiogLSBkb2N4LWpzIHN3YXBzIHdpZHRoL2hlaWdodCBpbnRlcm5hbGx5OyBwYXNzIHNob3J0IGVkZ2UgYXMgYHdpZHRoYCwgbG9uZyBlZGdlIGFzIGBoZWlnaHRgLCBhbmQgc2V0IGBvcmllbnRhdGlvbjogUGFnZU9yaWVudGF0aW9uLkxBTkRTQ0FQRWAKLSAqKk5ldmVyIHVzZSBgXG5gKiogLSB1c2Ugc2VwYXJhdGUgUGFyYWdyYXBoIGVsZW1lbnRzCi0gKipOZXZlciB1c2UgdW5pY29kZSBidWxsZXRzKiogLSB1c2UgYExldmVsRm9ybWF0LkJVTExFVGAgd2l0aCBudW1iZXJpbmcgY29uZmlnCi0gKipQYWdlQnJlYWsgbXVzdCBiZSBpbiBQYXJhZ3JhcGgqKiAtIHN0YW5kYWxvbmUgY3JlYXRlcyBpbnZhbGlkIFhNTAotICoqSW1hZ2VSdW4gcmVxdWlyZXMgYHR5cGVgKiogLSBhbHdheXMgc3BlY2lmeSBwbmcvanBnL2V0YwotICoqQWx3YXlzIHNldCB0YWJsZSBgd2lkdGhgIHdpdGggRFhBKiogLSBuZXZlciB1c2UgYFdpZHRoVHlwZS5QRVJDRU5UQUdFYCAoYnJlYWtzIGluIEdvb2dsZSBEb2NzKQotICoqVGFibGVzIG5lZWQgZHVhbCB3aWR0aHMqKiAtIGBjb2x1bW5XaWR0aHNgIGFycmF5IEFORCBjZWxsIGB3aWR0aGAsIGJvdGggbXVzdCBtYXRjaAotICoqVGFibGUgd2lkdGggPSBzdW0gb2YgY29sdW1uV2lkdGhzKiogLSBmb3IgRFhBLCBlbnN1cmUgdGhleSBhZGQgdXAgZXhhY3RseQotICoqQWx3YXlzIGFkZCBjZWxsIG1hcmdpbnMqKiAtIHVzZSBgbWFyZ2luczogeyB0b3A6IDgwLCBib3R0b206IDgwLCBsZWZ0OiAxMjAsIHJpZ2h0OiAxMjAgfWAgZm9yIHJlYWRhYmxlIHBhZGRpbmcKLSAqKlVzZSBgU2hhZGluZ1R5cGUuQ0xFQVJgKiogLSBuZXZlciBTT0xJRCBmb3IgdGFibGUgc2hhZGluZwotICoqTmV2ZXIgdXNlIHRhYmxlcyBhcyBkaXZpZGVycy9ydWxlcyoqIC0gY2VsbHMgaGF2ZSBtaW5pbXVtIGhlaWdodCBhbmQgcmVuZGVyIGFzIGVtcHR5IGJveGVzIChpbmNsdWRpbmcgaW4gaGVhZGVycy9mb290ZXJzKTsgdXNlIGBib3JkZXI6IHsgYm90dG9tOiB7IHN0eWxlOiBCb3JkZXJTdHlsZS5TSU5HTEUsIHNpemU6IDYsIGNvbG9yOiAiMkU3NUI2Iiwgc3BhY2U6IDEgfSB9YCBvbiBhIFBhcmFncmFwaCBpbnN0ZWFkLiBGb3IgdHdvLWNvbHVtbiBmb290ZXJzLCB1c2UgdGFiIHN0b3BzIChzZWUgVGFiIFN0b3BzIHNlY3Rpb24pLCBub3QgdGFibGVzCi0gKipUT0MgcmVxdWlyZXMgSGVhZGluZ0xldmVsIG9ubHkqKiAtIG5vIGN1c3RvbSBzdHlsZXMgb24gaGVhZGluZyBwYXJhZ3JhcGhzCi0gKipPdmVycmlkZSBidWlsdC1pbiBzdHlsZXMqKiAtIHVzZSBleGFjdCBJRHM6ICJIZWFkaW5nMSIsICJIZWFkaW5nMiIsIGV0Yy4KLSAqKkluY2x1ZGUgYG91dGxpbmVMZXZlbGAqKiAtIHJlcXVpcmVkIGZvciBUT0MgKDAgZm9yIEgxLCAxIGZvciBIMiwgZXRjLikKCi0tLQoKIyMgRWRpdGluZyBFeGlzdGluZyBEb2N1bWVudHMKCioqRm9sbG93IGFsbCAzIHN0ZXBzIGluIG9yZGVyLioqCgojIyMgU3RlcCAxOiBVbnBhY2sKYGBgYmFzaApweXRob24gc2NyaXB0cy9vZmZpY2UvdW5wYWNrLnB5IGRvY3VtZW50LmRvY3ggdW5wYWNrZWQvCmBgYApFeHRyYWN0cyBYTUwsIHByZXR0eS1wcmludHMsIG1lcmdlcyBhZGphY2VudCBydW5zLCBhbmQgY29udmVydHMgc21hcnQgcXVvdGVzIHRvIFhNTCBlbnRpdGllcyAoYCYjeDIwMUM7YCBldGMuKSBzbyB0aGV5IHN1cnZpdmUgZWRpdGluZy4gVXNlIGAtLW1lcmdlLXJ1bnMgZmFsc2VgIHRvIHNraXAgcnVuIG1lcmdpbmcuCgojIyMgU3RlcCAyOiBFZGl0IFhNTAoKRWRpdCBmaWxlcyBpbiBgdW5wYWNrZWQvd29yZC9gLiBTZWUgWE1MIFJlZmVyZW5jZSBiZWxvdyBmb3IgcGF0dGVybnMuCgoqKlVzZSAiQ2xhdWRlIiBhcyB0aGUgYXV0aG9yKiogZm9yIHRyYWNrZWQgY2hhbmdlcyBhbmQgY29tbWVudHMsIHVubGVzcyB0aGUgdXNlciBleHBsaWNpdGx5IHJlcXVlc3RzIHVzZSBvZiBhIGRpZmZlcmVudCBuYW1lLgoKKipVc2UgdGhlIEVkaXQgdG9vbCBkaXJlY3RseSBmb3Igc3RyaW5nIHJlcGxhY2VtZW50LiBEbyBub3Qgd3JpdGUgUHl0aG9uIHNjcmlwdHMuKiogU2NyaXB0cyBpbnRyb2R1Y2UgdW5uZWNlc3NhcnkgY29tcGxleGl0eS4gVGhlIEVkaXQgdG9vbCBzaG93cyBleGFjdGx5IHdoYXQgaXMgYmVpbmcgcmVwbGFjZWQuCgoqKkNSSVRJQ0FMOiBVc2Ugc21hcnQgcXVvdGVzIGZvciBuZXcgY29udGVudC4qKiBXaGVuIGFkZGluZyB0ZXh0IHdpdGggYXBvc3Ryb3BoZXMgb3IgcXVvdGVzLCB1c2UgWE1MIGVudGl0aWVzIHRvIHByb2R1Y2Ugc21hcnQgcXVvdGVzOgpgYGB4bWwKPCEtLSBVc2UgdGhlc2UgZW50aXRpZXMgZm9yIHByb2Zlc3Npb25hbCB0eXBvZ3JhcGh5IC0tPgo8dzp0PkhlcmUmI3gyMDE5O3MgYSBxdW90ZTogJiN4MjAxQztIZWxsbyYjeDIwMUQ7PC93OnQ+CmBgYAp8IEVudGl0eSB8IENoYXJhY3RlciB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCBgJiN4MjAxODtgIHwg4oCYIChsZWZ0IHNpbmdsZSkgfAp8IGAmI3gyMDE5O2AgfCDigJkgKHJpZ2h0IHNpbmdsZSAvIGFwb3N0cm9waGUpIHwKfCBgJiN4MjAxQztgIHwg4oCcIChsZWZ0IGRvdWJsZSkgfAp8IGAmI3gyMDFEO2AgfCDigJ0gKHJpZ2h0IGRvdWJsZSkgfAoKKipBZGRpbmcgY29tbWVudHM6KiogVXNlIGBjb21tZW50LnB5YCB0byBoYW5kbGUgYm9pbGVycGxhdGUgYWNyb3NzIG11bHRpcGxlIFhNTCBmaWxlcyAodGV4dCBtdXN0IGJlIHByZS1lc2NhcGVkIFhNTCk6CmBgYGJhc2gKcHl0aG9uIHNjcmlwdHMvY29tbWVudC5weSB1bnBhY2tlZC8gMCAiQ29tbWVudCB0ZXh0IHdpdGggJmFtcDsgYW5kICYjeDIwMTk7IgpweXRob24gc2NyaXB0cy9jb21tZW50LnB5IHVucGFja2VkLyAxICJSZXBseSB0ZXh0IiAtLXBhcmVudCAwICAjIHJlcGx5IHRvIGNvbW1lbnQgMApweXRob24gc2NyaXB0cy9jb21tZW50LnB5IHVucGFja2VkLyAwICJUZXh0IiAtLWF1dGhvciAiQ3VzdG9tIEF1dGhvciIgICMgY3VzdG9tIGF1dGhvciBuYW1lCmBgYApUaGVuIGFkZCBtYXJrZXJzIHRvIGRvY3VtZW50LnhtbCAoc2VlIENvbW1lbnRzIGluIFhNTCBSZWZlcmVuY2UpLgoKIyMjIFN0ZXAgMzogUGFjawpgYGBiYXNoCnB5dGhvbiBzY3JpcHRzL29mZmljZS9wYWNrLnB5IHVucGFja2VkLyBvdXRwdXQuZG9jeCAtLW9yaWdpbmFsIGRvY3VtZW50LmRvY3gKYGBgClZhbGlkYXRlcyB3aXRoIGF1dG8tcmVwYWlyLCBjb25kZW5zZXMgWE1MLCBhbmQgY3JlYXRlcyBET0NYLiBVc2UgYC0tdmFsaWRhdGUgZmFsc2VgIHRvIHNraXAuCgoqKkF1dG8tcmVwYWlyIHdpbGwgZml4OioqCi0gYGR1cmFibGVJZGAgPj0gMHg3RkZGRkZGRiAocmVnZW5lcmF0ZXMgdmFsaWQgSUQpCi0gTWlzc2luZyBgeG1sOnNwYWNlPSJwcmVzZXJ2ZSJgIG9uIGA8dzp0PmAgd2l0aCB3aGl0ZXNwYWNlCgoqKkF1dG8tcmVwYWlyIHdvbid0IGZpeDoqKgotIE1hbGZvcm1lZCBYTUwsIGludmFsaWQgZWxlbWVudCBuZXN0aW5nLCBtaXNzaW5nIHJlbGF0aW9uc2hpcHMsIHNjaGVtYSB2aW9sYXRpb25zCgojIyMgQ29tbW9uIFBpdGZhbGxzCgotICoqUmVwbGFjZSBlbnRpcmUgYDx3OnI+YCBlbGVtZW50cyoqOiBXaGVuIGFkZGluZyB0cmFja2VkIGNoYW5nZXMsIHJlcGxhY2UgdGhlIHdob2xlIGA8dzpyPi4uLjwvdzpyPmAgYmxvY2sgd2l0aCBgPHc6ZGVsPi4uLjx3Omlucz4uLi5gIGFzIHNpYmxpbmdzLiBEb24ndCBpbmplY3QgdHJhY2tlZCBjaGFuZ2UgdGFncyBpbnNpZGUgYSBydW4uCi0gKipQcmVzZXJ2ZSBgPHc6clByPmAgZm9ybWF0dGluZyoqOiBDb3B5IHRoZSBvcmlnaW5hbCBydW4ncyBgPHc6clByPmAgYmxvY2sgaW50byB5b3VyIHRyYWNrZWQgY2hhbmdlIHJ1bnMgdG8gbWFpbnRhaW4gYm9sZCwgZm9udCBzaXplLCBldGMuCgotLS0KCiMjIFhNTCBSZWZlcmVuY2UKCiMjIyBTY2hlbWEgQ29tcGxpYW5jZQoKLSAqKkVsZW1lbnQgb3JkZXIgaW4gYDx3OnBQcj5gKio6IGA8dzpwU3R5bGU+YCwgYDx3Om51bVByPmAsIGA8dzpzcGFjaW5nPmAsIGA8dzppbmQ+YCwgYDx3OmpjPmAsIGA8dzpyUHI+YCBsYXN0Ci0gKipXaGl0ZXNwYWNlKio6IEFkZCBgeG1sOnNwYWNlPSJwcmVzZXJ2ZSJgIHRvIGA8dzp0PmAgd2l0aCBsZWFkaW5nL3RyYWlsaW5nIHNwYWNlcwotICoqUlNJRHMqKjogTXVzdCBiZSA4LWRpZ2l0IGhleCAoZS5nLiwgYDAwQUIxMjM0YCkKCiMjIyBUcmFja2VkIENoYW5nZXMKCioqSW5zZXJ0aW9uOioqCmBgYHhtbAo8dzppbnMgdzppZD0iMSIgdzphdXRob3I9IkNsYXVkZSIgdzpkYXRlPSIyMDI1LTAxLTAxVDAwOjAwOjAwWiI+CiAgPHc6cj48dzp0Pmluc2VydGVkIHRleHQ8L3c6dD48L3c6cj4KPC93Omlucz4KYGBgCgoqKkRlbGV0aW9uOioqCmBgYHhtbAo8dzpkZWwgdzppZD0iMiIgdzphdXRob3I9IkNsYXVkZSIgdzpkYXRlPSIyMDI1LTAxLTAxVDAwOjAwOjAwWiI+CiAgPHc6cj48dzpkZWxUZXh0PmRlbGV0ZWQgdGV4dDwvdzpkZWxUZXh0PjwvdzpyPgo8L3c6ZGVsPgpgYGAKCioqSW5zaWRlIGA8dzpkZWw+YCoqOiBVc2UgYDx3OmRlbFRleHQ+YCBpbnN0ZWFkIG9mIGA8dzp0PmAsIGFuZCBgPHc6ZGVsSW5zdHJUZXh0PmAgaW5zdGVhZCBvZiBgPHc6aW5zdHJUZXh0PmAuCgoqKk1pbmltYWwgZWRpdHMqKiAtIG9ubHkgbWFyayB3aGF0IGNoYW5nZXM6CmBgYHhtbAo8IS0tIENoYW5nZSAiMzAgZGF5cyIgdG8gIjYwIGRheXMiIC0tPgo8dzpyPjx3OnQ+VGhlIHRlcm0gaXMgPC93OnQ+PC93OnI+Cjx3OmRlbCB3OmlkPSIxIiB3OmF1dGhvcj0iQ2xhdWRlIiB3OmRhdGU9Ii4uLiI+CiAgPHc6cj48dzpkZWxUZXh0PjMwPC93OmRlbFRleHQ+PC93OnI+CjwvdzpkZWw+Cjx3OmlucyB3OmlkPSIyIiB3OmF1dGhvcj0iQ2xhdWRlIiB3OmRhdGU9Ii4uLiI+CiAgPHc6cj48dzp0PjYwPC93OnQ+PC93OnI+CjwvdzppbnM+Cjx3OnI+PHc6dD4gZGF5cy48L3c6dD48L3c6cj4KYGBgCgoqKkRlbGV0aW5nIGVudGlyZSBwYXJhZ3JhcGhzL2xpc3QgaXRlbXMqKiAtIHdoZW4gcmVtb3ZpbmcgQUxMIGNvbnRlbnQgZnJvbSBhIHBhcmFncmFwaCwgYWxzbyBtYXJrIHRoZSBwYXJhZ3JhcGggbWFyayBhcyBkZWxldGVkIHNvIGl0IG1lcmdlcyB3aXRoIHRoZSBuZXh0IHBhcmFncmFwaC4gQWRkIGA8dzpkZWwvPmAgaW5zaWRlIGA8dzpwUHI+PHc6clByPmA6CmBgYHhtbAo8dzpwPgogIDx3OnBQcj4KICAgIDx3Om51bVByPi4uLjwvdzpudW1Qcj4gIDwhLS0gbGlzdCBudW1iZXJpbmcgaWYgcHJlc2VudCAtLT4KICAgIDx3OnJQcj4KICAgICAgPHc6ZGVsIHc6aWQ9IjEiIHc6YXV0aG9yPSJDbGF1ZGUiIHc6ZGF0ZT0iMjAyNS0wMS0wMVQwMDowMDowMFoiLz4KICAgIDwvdzpyUHI+CiAgPC93OnBQcj4KICA8dzpkZWwgdzppZD0iMiIgdzphdXRob3I9IkNsYXVkZSIgdzpkYXRlPSIyMDI1LTAxLTAxVDAwOjAwOjAwWiI+CiAgICA8dzpyPjx3OmRlbFRleHQ+RW50aXJlIHBhcmFncmFwaCBjb250ZW50IGJlaW5nIGRlbGV0ZWQuLi48L3c6ZGVsVGV4dD48L3c6cj4KICA8L3c6ZGVsPgo8L3c6cD4KYGBgCldpdGhvdXQgdGhlIGA8dzpkZWwvPmAgaW4gYDx3OnBQcj48dzpyUHI+YCwgYWNjZXB0aW5nIGNoYW5nZXMgbGVhdmVzIGFuIGVtcHR5IHBhcmFncmFwaC9saXN0IGl0ZW0uCgoqKlJlamVjdGluZyBhbm90aGVyIGF1dGhvcidzIGluc2VydGlvbioqIC0gbmVzdCBkZWxldGlvbiBpbnNpZGUgdGhlaXIgaW5zZXJ0aW9uOgpgYGB4bWwKPHc6aW5zIHc6YXV0aG9yPSJKYW5lIiB3OmlkPSI1Ij4KICA8dzpkZWwgdzphdXRob3I9IkNsYXVkZSIgdzppZD0iMTAiPgogICAgPHc6cj48dzpkZWxUZXh0PnRoZWlyIGluc2VydGVkIHRleHQ8L3c6ZGVsVGV4dD48L3c6cj4KICA8L3c6ZGVsPgo8L3c6aW5zPgpgYGAKCioqUmVzdG9yaW5nIGFub3RoZXIgYXV0aG9yJ3MgZGVsZXRpb24qKiAtIGFkZCBpbnNlcnRpb24gYWZ0ZXIgKGRvbid0IG1vZGlmeSB0aGVpciBkZWxldGlvbik6CmBgYHhtbAo8dzpkZWwgdzphdXRob3I9IkphbmUiIHc6aWQ9IjUiPgogIDx3OnI+PHc6ZGVsVGV4dD5kZWxldGVkIHRleHQ8L3c6ZGVsVGV4dD48L3c6cj4KPC93OmRlbD4KPHc6aW5zIHc6YXV0aG9yPSJDbGF1ZGUiIHc6aWQ9IjEwIj4KICA8dzpyPjx3OnQ+ZGVsZXRlZCB0ZXh0PC93OnQ+PC93OnI+CjwvdzppbnM+CmBgYAoKIyMjIENvbW1lbnRzCgpBZnRlciBydW5uaW5nIGBjb21tZW50LnB5YCAoc2VlIFN0ZXAgMiksIGFkZCBtYXJrZXJzIHRvIGRvY3VtZW50LnhtbC4gRm9yIHJlcGxpZXMsIHVzZSBgLS1wYXJlbnRgIGZsYWcgYW5kIG5lc3QgbWFya2VycyBpbnNpZGUgdGhlIHBhcmVudCdzLgoKKipDUklUSUNBTDogYDx3OmNvbW1lbnRSYW5nZVN0YXJ0PmAgYW5kIGA8dzpjb21tZW50UmFuZ2VFbmQ+YCBhcmUgc2libGluZ3Mgb2YgYDx3OnI+YCwgbmV2ZXIgaW5zaWRlIGA8dzpyPmAuKioKCmBgYHhtbAo8IS0tIENvbW1lbnQgbWFya2VycyBhcmUgZGlyZWN0IGNoaWxkcmVuIG9mIHc6cCwgbmV2ZXIgaW5zaWRlIHc6ciAtLT4KPHc6Y29tbWVudFJhbmdlU3RhcnQgdzppZD0iMCIvPgo8dzpkZWwgdzppZD0iMSIgdzphdXRob3I9IkNsYXVkZSIgdzpkYXRlPSIyMDI1LTAxLTAxVDAwOjAwOjAwWiI+CiAgPHc6cj48dzpkZWxUZXh0PmRlbGV0ZWQ8L3c6ZGVsVGV4dD48L3c6cj4KPC93OmRlbD4KPHc6cj48dzp0PiBtb3JlIHRleHQ8L3c6dD48L3c6cj4KPHc6Y29tbWVudFJhbmdlRW5kIHc6aWQ9IjAiLz4KPHc6cj48dzpyUHI+PHc6clN0eWxlIHc6dmFsPSJDb21tZW50UmVmZXJlbmNlIi8+PC93OnJQcj48dzpjb21tZW50UmVmZXJlbmNlIHc6aWQ9IjAiLz48L3c6cj4KCjwhLS0gQ29tbWVudCAwIHdpdGggcmVwbHkgMSBuZXN0ZWQgaW5zaWRlIC0tPgo8dzpjb21tZW50UmFuZ2VTdGFydCB3OmlkPSIwIi8+CiAgPHc6Y29tbWVudFJhbmdlU3RhcnQgdzppZD0iMSIvPgogIDx3OnI+PHc6dD50ZXh0PC93OnQ+PC93OnI+CiAgPHc6Y29tbWVudFJhbmdlRW5kIHc6aWQ9IjEiLz4KPHc6Y29tbWVudFJhbmdlRW5kIHc6aWQ9IjAiLz4KPHc6cj48dzpyUHI+PHc6clN0eWxlIHc6dmFsPSJDb21tZW50UmVmZXJlbmNlIi8+PC93OnJQcj48dzpjb21tZW50UmVmZXJlbmNlIHc6aWQ9IjAiLz48L3c6cj4KPHc6cj48dzpyUHI+PHc6clN0eWxlIHc6dmFsPSJDb21tZW50UmVmZXJlbmNlIi8+PC93OnJQcj48dzpjb21tZW50UmVmZXJlbmNlIHc6aWQ9IjEiLz48L3c6cj4KYGBgCgojIyMgSW1hZ2VzCgoxLiBBZGQgaW1hZ2UgZmlsZSB0byBgd29yZC9tZWRpYS9gCjIuIEFkZCByZWxhdGlvbnNoaXAgdG8gYHdvcmQvX3JlbHMvZG9jdW1lbnQueG1sLnJlbHNgOgpgYGB4bWwKPFJlbGF0aW9uc2hpcCBJZD0icklkNSIgVHlwZT0iLi4uL2ltYWdlIiBUYXJnZXQ9Im1lZGlhL2ltYWdlMS5wbmciLz4KYGBgCjMuIEFkZCBjb250ZW50IHR5cGUgdG8gYFtDb250ZW50X1R5cGVzXS54bWxgOgpgYGB4bWwKPERlZmF1bHQgRXh0ZW5zaW9uPSJwbmciIENvbnRlbnRUeXBlPSJpbWFnZS9wbmciLz4KYGBgCjQuIFJlZmVyZW5jZSBpbiBkb2N1bWVudC54bWw6CmBgYHhtbAo8dzpkcmF3aW5nPgogIDx3cDppbmxpbmU+CiAgICA8d3A6ZXh0ZW50IGN4PSI5MTQ0MDAiIGN5PSI5MTQ0MDAiLz4gIDwhLS0gRU1VczogOTE0NDAwID0gMSBpbmNoIC0tPgogICAgPGE6Z3JhcGhpYz4KICAgICAgPGE6Z3JhcGhpY0RhdGEgdXJpPSIuLi4vcGljdHVyZSI+CiAgICAgICAgPHBpYzpwaWM+CiAgICAgICAgICA8cGljOmJsaXBGaWxsPjxhOmJsaXAgcjplbWJlZD0icklkNSIvPjwvcGljOmJsaXBGaWxsPgogICAgICAgIDwvcGljOnBpYz4KICAgICAgPC9hOmdyYXBoaWNEYXRhPgogICAgPC9hOmdyYXBoaWM+CiAgPC93cDppbmxpbmU+CjwvdzpkcmF3aW5nPgpgYGAKCi0tLQoKIyMgRGVwZW5kZW5jaWVzCgotICoqcGFuZG9jKio6IFRleHQgZXh0cmFjdGlvbgotICoqZG9jeCoqOiBgbnBtIGluc3RhbGwgLWcgZG9jeGAgKG5ldyBkb2N1bWVudHMpCi0gKipMaWJyZU9mZmljZSoqOiBQREYgY29udmVyc2lvbiAoYXV0by1jb25maWd1cmVkIGZvciBzYW5kYm94ZWQgZW52aXJvbm1lbnRzIHZpYSBgc2NyaXB0cy9vZmZpY2Uvc29mZmljZS5weWApCi0gKipQb3BwbGVyKio6IGBwZGZ0b3BwbWAgZm9yIGltYWdlcwo=
+---
+name: docx
+description: "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation."
+license: Proprietary. LICENSE.txt has complete terms
+---
+
+# DOCX creation, editing, and analysis
+
+## Overview
+
+A .docx file is a ZIP archive containing XML files.
+
+## Quick Reference
+
+| Task | Approach |
+|------|----------|
+| Read/analyze content | `pandoc` or unpack for raw XML |
+| Create new document | Use `docx-js` - see Creating New Documents below |
+| Edit existing document | Unpack → edit XML → repack - see Editing Existing Documents below |
+
+### Converting .doc to .docx
+
+Legacy `.doc` files must be converted before editing:
+
+```bash
+python scripts/office/soffice.py --headless --convert-to docx document.doc
+```
+
+### Reading Content
+
+```bash
+# Text extraction with tracked changes
+pandoc --track-changes=all document.docx -o output.md
+
+# Raw XML access
+python scripts/office/unpack.py document.docx unpacked/
+```
+
+### Converting to Images
+
+```bash
+python scripts/office/soffice.py --headless --convert-to pdf document.docx
+pdftoppm -jpeg -r 150 document.pdf page
+```
+
+### Accepting Tracked Changes
+
+To produce a clean document with all tracked changes accepted (requires LibreOffice):
+
+```bash
+python scripts/accept_changes.py input.docx output.docx
+```
+
+---
+
+## Creating New Documents
+
+Generate .docx files with JavaScript, then validate. Install: `npm install -g docx`
+
+### Setup
+```javascript
+const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, ImageRun,
+        Header, Footer, AlignmentType, PageOrientation, LevelFormat, ExternalHyperlink,
+        InternalHyperlink, Bookmark, FootnoteReferenceRun, PositionalTab,
+        PositionalTabAlignment, PositionalTabRelativeTo, PositionalTabLeader,
+        TabStopType, TabStopPosition, Column, SectionType,
+        TableOfContents, HeadingLevel, BorderStyle, WidthType, ShadingType,
+        VerticalAlign, PageNumber, PageBreak } = require('docx');
+
+const doc = new Document({ sections: [{ children: [/* content */] }] });
+Packer.toBuffer(doc).then(buffer => fs.writeFileSync("doc.docx", buffer));
+```
+
+### Validation
+After creating the file, validate it. If validation fails, unpack, fix the XML, and repack.
+```bash
+python scripts/office/validate.py doc.docx
+```
+
+### Page Size
+
+```javascript
+// CRITICAL: docx-js defaults to A4, not US Letter
+// Always set page size explicitly for consistent results
+sections: [{
+  properties: {
+    page: {
+      size: {
+        width: 12240,   // 8.5 inches in DXA
+        height: 15840   // 11 inches in DXA
+      },
+      margin: { top: 1440, right: 1440, bottom: 1440, left: 1440 } // 1 inch margins
+    }
+  },
+  children: [/* content */]
+}]
+```
+
+**Common page sizes (DXA units, 1440 DXA = 1 inch):**
+
+| Paper | Width | Height | Content Width (1" margins) |
+|-------|-------|--------|---------------------------|
+| US Letter | 12,240 | 15,840 | 9,360 |
+| A4 (default) | 11,906 | 16,838 | 9,026 |
+
+**Landscape orientation:** docx-js swaps width/height internally, so pass portrait dimensions and let it handle the swap:
+```javascript
+size: {
+  width: 12240,   // Pass SHORT edge as width
+  height: 15840,  // Pass LONG edge as height
+  orientation: PageOrientation.LANDSCAPE  // docx-js swaps them in the XML
+},
+// Content width = 15840 - left margin - right margin (uses the long edge)
+```
+
+### Styles (Override Built-in Headings)
+
+Use Arial as the default font (universally supported). Keep titles black for readability.
+
+```javascript
+const doc = new Document({
+  styles: {
+    default: { document: { run: { font: "Arial", size: 24 } } }, // 12pt default
+    paragraphStyles: [
+      // IMPORTANT: Use exact IDs to override built-in styles
+      { id: "Heading1", name: "Heading 1", basedOn: "Normal", next: "Normal", quickFormat: true,
+        run: { size: 32, bold: true, font: "Arial" },
+        paragraph: { spacing: { before: 240, after: 240 }, outlineLevel: 0 } }, // outlineLevel required for TOC
+      { id: "Heading2", name: "Heading 2", basedOn: "Normal", next: "Normal", quickFormat: true,
+        run: { size: 28, bold: true, font: "Arial" },
+        paragraph: { spacing: { before: 180, after: 180 }, outlineLevel: 1 } },
+    ]
+  },
+  sections: [{
+    children: [
+      new Paragraph({ heading: HeadingLevel.HEADING_1, children: [new TextRun("Title")] }),
+    ]
+  }]
+});
+```
+
+### Lists (NEVER use unicode bullets)
+
+```javascript
+// ❌ WRONG - never manually insert bullet characters
+new Paragraph({ children: [new TextRun("• Item")] })  // BAD
+new Paragraph({ children: [new TextRun("\u2022 Item")] })  // BAD
+
+// ✅ CORRECT - use numbering config with LevelFormat.BULLET
+const doc = new Document({
+  numbering: {
+    config: [
+      { reference: "bullets",
+        levels: [{ level: 0, format: LevelFormat.BULLET, text: "•", alignment: AlignmentType.LEFT,
+          style: { paragraph: { indent: { left: 720, hanging: 360 } } } }] },
+      { reference: "numbers",
+        levels: [{ level: 0, format: LevelFormat.DECIMAL, text: "%1.", alignment: AlignmentType.LEFT,
+          style: { paragraph: { indent: { left: 720, hanging: 360 } } } }] },
+    ]
+  },
+  sections: [{
+    children: [
+      new Paragraph({ numbering: { reference: "bullets", level: 0 },
+        children: [new TextRun("Bullet item")] }),
+      new Paragraph({ numbering: { reference: "numbers", level: 0 },
+        children: [new TextRun("Numbered item")] }),
+    ]
+  }]
+});
+
+// ⚠️ Each reference creates INDEPENDENT numbering
+// Same reference = continues (1,2,3 then 4,5,6)
+// Different reference = restarts (1,2,3 then 1,2,3)
+```
+
+### Tables
+
+**CRITICAL: Tables need dual widths** - set both `columnWidths` on the table AND `width` on each cell. Without both, tables render incorrectly on some platforms.
+
+```javascript
+// CRITICAL: Always set table width for consistent rendering
+// CRITICAL: Use ShadingType.CLEAR (not SOLID) to prevent black backgrounds
+const border = { style: BorderStyle.SINGLE, size: 1, color: "CCCCCC" };
+const borders = { top: border, bottom: border, left: border, right: border };
+
+new Table({
+  width: { size: 9360, type: WidthType.DXA }, // Always use DXA (percentages break in Google Docs)
+  columnWidths: [4680, 4680], // Must sum to table width (DXA: 1440 = 1 inch)
+  rows: [
+    new TableRow({
+      children: [
+        new TableCell({
+          borders,
+          width: { size: 4680, type: WidthType.DXA }, // Also set on each cell
+          shading: { fill: "D5E8F0", type: ShadingType.CLEAR }, // CLEAR not SOLID
+          margins: { top: 80, bottom: 80, left: 120, right: 120 }, // Cell padding (internal, not added to width)
+          children: [new Paragraph({ children: [new TextRun("Cell")] })]
+        })
+      ]
+    })
+  ]
+})
+```
+
+**Table width calculation:**
+
+Always use `WidthType.DXA` — `WidthType.PERCENTAGE` breaks in Google Docs.
+
+```javascript
+// Table width = sum of columnWidths = content width
+// US Letter with 1" margins: 12240 - 2880 = 9360 DXA
+width: { size: 9360, type: WidthType.DXA },
+columnWidths: [7000, 2360]  // Must sum to table width
+```
+
+**Width rules:**
+- **Always use `WidthType.DXA`** — never `WidthType.PERCENTAGE` (incompatible with Google Docs)
+- Table width must equal the sum of `columnWidths`
+- Cell `width` must match corresponding `columnWidth`
+- Cell `margins` are internal padding - they reduce content area, not add to cell width
+- For full-width tables: use content width (page width minus left and right margins)
+
+### Images
+
+```javascript
+// CRITICAL: type parameter is REQUIRED
+new Paragraph({
+  children: [new ImageRun({
+    type: "png", // Required: png, jpg, jpeg, gif, bmp, svg
+    data: fs.readFileSync("image.png"),
+    transformation: { width: 200, height: 150 },
+    altText: { title: "Title", description: "Desc", name: "Name" } // All three required
+  })]
+})
+```
+
+### Page Breaks
+
+```javascript
+// CRITICAL: PageBreak must be inside a Paragraph
+new Paragraph({ children: [new PageBreak()] })
+
+// Or use pageBreakBefore
+new Paragraph({ pageBreakBefore: true, children: [new TextRun("New page")] })
+```
+
+### Hyperlinks
+
+```javascript
+// External link
+new Paragraph({
+  children: [new ExternalHyperlink({
+    children: [new TextRun({ text: "Click here", style: "Hyperlink" })],
+    link: "https://example.com",
+  })]
+})
+
+// Internal link (bookmark + reference)
+// 1. Create bookmark at destination
+new Paragraph({ heading: HeadingLevel.HEADING_1, children: [
+  new Bookmark({ id: "chapter1", children: [new TextRun("Chapter 1")] }),
+]})
+// 2. Link to it
+new Paragraph({ children: [new InternalHyperlink({
+  children: [new TextRun({ text: "See Chapter 1", style: "Hyperlink" })],
+  anchor: "chapter1",
+})]})
+```
+
+### Footnotes
+
+```javascript
+const doc = new Document({
+  footnotes: {
+    1: { children: [new Paragraph("Source: Annual Report 2024")] },
+    2: { children: [new Paragraph("See appendix for methodology")] },
+  },
+  sections: [{
+    children: [new Paragraph({
+      children: [
+        new TextRun("Revenue grew 15%"),
+        new FootnoteReferenceRun(1),
+        new TextRun(" using adjusted metrics"),
+        new FootnoteReferenceRun(2),
+      ],
+    })]
+  }]
+});
+```
+
+### Tab Stops
+
+```javascript
+// Right-align text on same line (e.g., date opposite a title)
+new Paragraph({
+  children: [
+    new TextRun("Company Name"),
+    new TextRun("\tJanuary 2025"),
+  ],
+  tabStops: [{ type: TabStopType.RIGHT, position: TabStopPosition.MAX }],
+})
+
+// Dot leader (e.g., TOC-style)
+new Paragraph({
+  children: [
+    new TextRun("Introduction"),
+    new TextRun({ children: [
+      new PositionalTab({
+        alignment: PositionalTabAlignment.RIGHT,
+        relativeTo: PositionalTabRelativeTo.MARGIN,
+        leader: PositionalTabLeader.DOT,
+      }),
+      "3",
+    ]}),
+  ],
+})
+```
+
+### Multi-Column Layouts
+
+```javascript
+// Equal-width columns
+sections: [{
+  properties: {
+    column: {
+      count: 2,          // number of columns
+      space: 720,        // gap between columns in DXA (720 = 0.5 inch)
+      equalWidth: true,
+      separate: true,    // vertical line between columns
+    },
+  },
+  children: [/* content flows naturally across columns */]
+}]
+
+// Custom-width columns (equalWidth must be false)
+sections: [{
+  properties: {
+    column: {
+      equalWidth: false,
+      children: [
+        new Column({ width: 5400, space: 720 }),
+        new Column({ width: 3240 }),
+      ],
+    },
+  },
+  children: [/* content */]
+}]
+```
+
+Force a column break with a new section using `type: SectionType.NEXT_COLUMN`.
+
+### Table of Contents
+
+```javascript
+// CRITICAL: Headings must use HeadingLevel ONLY - no custom styles
+new TableOfContents("Table of Contents", { hyperlink: true, headingStyleRange: "1-3" })
+```
+
+### Headers/Footers
+
+```javascript
+sections: [{
+  properties: {
+    page: { margin: { top: 1440, right: 1440, bottom: 1440, left: 1440 } } // 1440 = 1 inch
+  },
+  headers: {
+    default: new Header({ children: [new Paragraph({ children: [new TextRun("Header")] })] })
+  },
+  footers: {
+    default: new Footer({ children: [new Paragraph({
+      children: [new TextRun("Page "), new TextRun({ children: [PageNumber.CURRENT] })]
+    })] })
+  },
+  children: [/* content */]
+}]
+```
+
+### Critical Rules for docx-js
+
+- **Set page size explicitly** - docx-js defaults to A4; use US Letter (12240 x 15840 DXA) for US documents
+- **Landscape: pass portrait dimensions** - docx-js swaps width/height internally; pass short edge as `width`, long edge as `height`, and set `orientation: PageOrientation.LANDSCAPE`
+- **Never use `\n`** - use separate Paragraph elements
+- **Never use unicode bullets** - use `LevelFormat.BULLET` with numbering config
+- **PageBreak must be in Paragraph** - standalone creates invalid XML
+- **ImageRun requires `type`** - always specify png/jpg/etc
+- **Always set table `width` with DXA** - never use `WidthType.PERCENTAGE` (breaks in Google Docs)
+- **Tables need dual widths** - `columnWidths` array AND cell `width`, both must match
+- **Table width = sum of columnWidths** - for DXA, ensure they add up exactly
+- **Always add cell margins** - use `margins: { top: 80, bottom: 80, left: 120, right: 120 }` for readable padding
+- **Use `ShadingType.CLEAR`** - never SOLID for table shading
+- **Never use tables as dividers/rules** - cells have minimum height and render as empty boxes (including in headers/footers); use `border: { bottom: { style: BorderStyle.SINGLE, size: 6, color: "2E75B6", space: 1 } }` on a Paragraph instead. For two-column footers, use tab stops (see Tab Stops section), not tables
+- **TOC requires HeadingLevel only** - no custom styles on heading paragraphs
+- **Override built-in styles** - use exact IDs: "Heading1", "Heading2", etc.
+- **Include `outlineLevel`** - required for TOC (0 for H1, 1 for H2, etc.)
+
+---
+
+## Editing Existing Documents
+
+**Follow all 3 steps in order.**
+
+### Step 1: Unpack
+```bash
+python scripts/office/unpack.py document.docx unpacked/
+```
+Extracts XML, pretty-prints, merges adjacent runs, and converts smart quotes to XML entities (`&#x201C;` etc.) so they survive editing. Use `--merge-runs false` to skip run merging.
+
+### Step 2: Edit XML
+
+Edit files in `unpacked/word/`. See XML Reference below for patterns.
+
+**Use "Claude" as the author** for tracked changes and comments, unless the user explicitly requests use of a different name.
+
+**Use the Edit tool directly for string replacement. Do not write Python scripts.** Scripts introduce unnecessary complexity. The Edit tool shows exactly what is being replaced.
+
+**CRITICAL: Use smart quotes for new content.** When adding text with apostrophes or quotes, use XML entities to produce smart quotes:
+```xml
+<!-- Use these entities for professional typography -->
+<w:t>Here&#x2019;s a quote: &#x201C;Hello&#x201D;</w:t>
+```
+| Entity | Character |
+|--------|-----------|
+| `&#x2018;` | ‘ (left single) |
+| `&#x2019;` | ’ (right single / apostrophe) |
+| `&#x201C;` | “ (left double) |
+| `&#x201D;` | ” (right double) |
+
+**Adding comments:** Use `comment.py` to handle boilerplate across multiple XML files (text must be pre-escaped XML):
+```bash
+python scripts/comment.py unpacked/ 0 "Comment text with &amp; and &#x2019;"
+python scripts/comment.py unpacked/ 1 "Reply text" --parent 0  # reply to comment 0
+python scripts/comment.py unpacked/ 0 "Text" --author "Custom Author"  # custom author name
+```
+Then add markers to document.xml (see Comments in XML Reference).
+
+### Step 3: Pack
+```bash
+python scripts/office/pack.py unpacked/ output.docx --original document.docx
+```
+Validates with auto-repair, condenses XML, and creates DOCX. Use `--validate false` to skip.
+
+**Auto-repair will fix:**
+- `durableId` >= 0x7FFFFFFF (regenerates valid ID)
+- Missing `xml:space="preserve"` on `<w:t>` with whitespace
+
+**Auto-repair won't fix:**
+- Malformed XML, invalid element nesting, missing relationships, schema violations
+
+### Common Pitfalls
+
+- **Replace entire `<w:r>` elements**: When adding tracked changes, replace the whole `<w:r>...</w:r>` block with `<w:del>...<w:ins>...` as siblings. Don't inject tracked change tags inside a run.
+- **Preserve `<w:rPr>` formatting**: Copy the original run's `<w:rPr>` block into your tracked change runs to maintain bold, font size, etc.
+
+---
+
+## XML Reference
+
+### Schema Compliance
+
+- **Element order in `<w:pPr>`**: `<w:pStyle>`, `<w:numPr>`, `<w:spacing>`, `<w:ind>`, `<w:jc>`, `<w:rPr>` last
+- **Whitespace**: Add `xml:space="preserve"` to `<w:t>` with leading/trailing spaces
+- **RSIDs**: Must be 8-digit hex (e.g., `00AB1234`)
+
+### Tracked Changes
+
+**Insertion:**
+```xml
+<w:ins w:id="1" w:author="Claude" w:date="2025-01-01T00:00:00Z">
+  <w:r><w:t>inserted text</w:t></w:r>
+</w:ins>
+```
+
+**Deletion:**
+```xml
+<w:del w:id="2" w:author="Claude" w:date="2025-01-01T00:00:00Z">
+  <w:r><w:delText>deleted text</w:delText></w:r>
+</w:del>
+```
+
+**Inside `<w:del>`**: Use `<w:delText>` instead of `<w:t>`, and `<w:delInstrText>` instead of `<w:instrText>`.
+
+**Minimal edits** - only mark what changes:
+```xml
+<!-- Change "30 days" to "60 days" -->
+<w:r><w:t>The term is </w:t></w:r>
+<w:del w:id="1" w:author="Claude" w:date="...">
+  <w:r><w:delText>30</w:delText></w:r>
+</w:del>
+<w:ins w:id="2" w:author="Claude" w:date="...">
+  <w:r><w:t>60</w:t></w:r>
+</w:ins>
+<w:r><w:t> days.</w:t></w:r>
+```
+
+**Deleting entire paragraphs/list items** - when removing ALL content from a paragraph, also mark the paragraph mark as deleted so it merges with the next paragraph. Add `<w:del/>` inside `<w:pPr><w:rPr>`:
+```xml
+<w:p>
+  <w:pPr>
+    <w:numPr>...</w:numPr>  <!-- list numbering if present -->
+    <w:rPr>
+      <w:del w:id="1" w:author="Claude" w:date="2025-01-01T00:00:00Z"/>
+    </w:rPr>
+  </w:pPr>
+  <w:del w:id="2" w:author="Claude" w:date="2025-01-01T00:00:00Z">
+    <w:r><w:delText>Entire paragraph content being deleted...</w:delText></w:r>
+  </w:del>
+</w:p>
+```
+Without the `<w:del/>` in `<w:pPr><w:rPr>`, accepting changes leaves an empty paragraph/list item.
+
+**Rejecting another author's insertion** - nest deletion inside their insertion:
+```xml
+<w:ins w:author="Jane" w:id="5">
+  <w:del w:author="Claude" w:id="10">
+    <w:r><w:delText>their inserted text</w:delText></w:r>
+  </w:del>
+</w:ins>
+```
+
+**Restoring another author's deletion** - add insertion after (don't modify their deletion):
+```xml
+<w:del w:author="Jane" w:id="5">
+  <w:r><w:delText>deleted text</w:delText></w:r>
+</w:del>
+<w:ins w:author="Claude" w:id="10">
+  <w:r><w:t>deleted text</w:t></w:r>
+</w:ins>
+```
+
+### Comments
+
+After running `comment.py` (see Step 2), add markers to document.xml. For replies, use `--parent` flag and nest markers inside the parent's.
+
+**CRITICAL: `<w:commentRangeStart>` and `<w:commentRangeEnd>` are siblings of `<w:r>`, never inside `<w:r>`.**
+
+```xml
+<!-- Comment markers are direct children of w:p, never inside w:r -->
+<w:commentRangeStart w:id="0"/>
+<w:del w:id="1" w:author="Claude" w:date="2025-01-01T00:00:00Z">
+  <w:r><w:delText>deleted</w:delText></w:r>
+</w:del>
+<w:r><w:t> more text</w:t></w:r>
+<w:commentRangeEnd w:id="0"/>
+<w:r><w:rPr><w:rStyle w:val="CommentReference"/></w:rPr><w:commentReference w:id="0"/></w:r>
+
+<!-- Comment 0 with reply 1 nested inside -->
+<w:commentRangeStart w:id="0"/>
+  <w:commentRangeStart w:id="1"/>
+  <w:r><w:t>text</w:t></w:r>
+  <w:commentRangeEnd w:id="1"/>
+<w:commentRangeEnd w:id="0"/>
+<w:r><w:rPr><w:rStyle w:val="CommentReference"/></w:rPr><w:commentReference w:id="0"/></w:r>
+<w:r><w:rPr><w:rStyle w:val="CommentReference"/></w:rPr><w:commentReference w:id="1"/></w:r>
+```
+
+### Images
+
+1. Add image file to `word/media/`
+2. Add relationship to `word/_rels/document.xml.rels`:
+```xml
+<Relationship Id="rId5" Type=".../image" Target="media/image1.png"/>
+```
+3. Add content type to `[Content_Types].xml`:
+```xml
+<Default Extension="png" ContentType="image/png"/>
+```
+4. Reference in document.xml:
+```xml
+<w:drawing>
+  <wp:inline>
+    <wp:extent cx="914400" cy="914400"/>  <!-- EMUs: 914400 = 1 inch -->
+    <a:graphic>
+      <a:graphicData uri=".../picture">
+        <pic:pic>
+          <pic:blipFill><a:blip r:embed="rId5"/></pic:blipFill>
+        </pic:pic>
+      </a:graphicData>
+    </a:graphic>
+  </wp:inline>
+</w:drawing>
+```
+
+---
+
+## Dependencies
+
+- **pandoc**: Text extraction
+- **docx**: `npm install -g docx` (new documents)
+- **LibreOffice**: PDF conversion (auto-configured for sandboxed environments via `scripts/office/soffice.py`)
+- **Poppler**: `pdftoppm` for images

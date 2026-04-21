@@ -1,1 +1,294 @@
-KipDUklUSUNBTDogWW91IE1VU1QgY29tcGxldGUgdGhlc2Ugc3RlcHMgaW4gb3JkZXIuIERvIG5vdCBza2lwIGFoZWFkIHRvIHdyaXRpbmcgY29kZS4qKgoKSWYgeW91IG5lZWQgdG8gZmlsbCBvdXQgYSBQREYgZm9ybSwgZmlyc3QgY2hlY2sgdG8gc2VlIGlmIHRoZSBQREYgaGFzIGZpbGxhYmxlIGZvcm0gZmllbGRzLiBSdW4gdGhpcyBzY3JpcHQgZnJvbSB0aGlzIGZpbGUncyBkaXJlY3Rvcnk6CiBgcHl0aG9uIHNjcmlwdHMvY2hlY2tfZmlsbGFibGVfZmllbGRzIDxmaWxlLnBkZj5gLCBhbmQgZGVwZW5kaW5nIG9uIHRoZSByZXN1bHQgZ28gdG8gZWl0aGVyIHRoZSAiRmlsbGFibGUgZmllbGRzIiBvciAiTm9uLWZpbGxhYmxlIGZpZWxkcyIgYW5kIGZvbGxvdyB0aG9zZSBpbnN0cnVjdGlvbnMuCgojIEZpbGxhYmxlIGZpZWxkcwpJZiB0aGUgUERGIGhhcyBmaWxsYWJsZSBmb3JtIGZpZWxkczoKLSBSdW4gdGhpcyBzY3JpcHQgZnJvbSB0aGlzIGZpbGUncyBkaXJlY3Rvcnk6IGBweXRob24gc2NyaXB0cy9leHRyYWN0X2Zvcm1fZmllbGRfaW5mby5weSA8aW5wdXQucGRmPiA8ZmllbGRfaW5mby5qc29uPmAuIEl0IHdpbGwgY3JlYXRlIGEgSlNPTiBmaWxlIHdpdGggYSBsaXN0IG9mIGZpZWxkcyBpbiB0aGlzIGZvcm1hdDoKYGBgClsKICB7CiAgICAiZmllbGRfaWQiOiAodW5pcXVlIElEIGZvciB0aGUgZmllbGQpLAogICAgInBhZ2UiOiAocGFnZSBudW1iZXIsIDEtYmFzZWQpLAogICAgInJlY3QiOiAoW2xlZnQsIGJvdHRvbSwgcmlnaHQsIHRvcF0gYm91bmRpbmcgYm94IGluIFBERiBjb29yZGluYXRlcywgeT0wIGlzIHRoZSBib3R0b20gb2YgdGhlIHBhZ2UpLAogICAgInR5cGUiOiAoInRleHQiLCAiY2hlY2tib3giLCAicmFkaW9fZ3JvdXAiLCBvciAiY2hvaWNlIiksCiAgfSwKICAvLyBDaGVja2JveGVzIGhhdmUgImNoZWNrZWRfdmFsdWUiIGFuZCAidW5jaGVja2VkX3ZhbHVlIiBwcm9wZXJ0aWVzOgogIHsKICAgICJmaWVsZF9pZCI6ICh1bmlxdWUgSUQgZm9yIHRoZSBmaWVsZCksCiAgICAicGFnZSI6IChwYWdlIG51bWJlciwgMS1iYXNlZCksCiAgICAidHlwZSI6ICJjaGVja2JveCIsCiAgICAiY2hlY2tlZF92YWx1ZSI6IChTZXQgdGhlIGZpZWxkIHRvIHRoaXMgdmFsdWUgdG8gY2hlY2sgdGhlIGNoZWNrYm94KSwKICAgICJ1bmNoZWNrZWRfdmFsdWUiOiAoU2V0IHRoZSBmaWVsZCB0byB0aGlzIHZhbHVlIHRvIHVuY2hlY2sgdGhlIGNoZWNrYm94KSwKICB9LAogIC8vIFJhZGlvIGdyb3VwcyBoYXZlIGEgInJhZGlvX29wdGlvbnMiIGxpc3Qgd2l0aCB0aGUgcG9zc2libGUgY2hvaWNlcy4KICB7CiAgICAiZmllbGRfaWQiOiAodW5pcXVlIElEIGZvciB0aGUgZmllbGQpLAogICAgInBhZ2UiOiAocGFnZSBudW1iZXIsIDEtYmFzZWQpLAogICAgInR5cGUiOiAicmFkaW9fZ3JvdXAiLAogICAgInJhZGlvX29wdGlvbnMiOiBbCiAgICAgIHsKICAgICAgICAidmFsdWUiOiAoc2V0IHRoZSBmaWVsZCB0byB0aGlzIHZhbHVlIHRvIHNlbGVjdCB0aGlzIHJhZGlvIG9wdGlvbiksCiAgICAgICAgInJlY3QiOiAoYm91bmRpbmcgYm94IGZvciB0aGUgcmFkaW8gYnV0dG9uIGZvciB0aGlzIG9wdGlvbikKICAgICAgfSwKICAgICAgLy8gT3RoZXIgcmFkaW8gb3B0aW9ucwogICAgXQogIH0sCiAgLy8gTXVsdGlwbGUgY2hvaWNlIGZpZWxkcyBoYXZlIGEgImNob2ljZV9vcHRpb25zIiBsaXN0IHdpdGggdGhlIHBvc3NpYmxlIGNob2ljZXM6CiAgewogICAgImZpZWxkX2lkIjogKHVuaXF1ZSBJRCBmb3IgdGhlIGZpZWxkKSwKICAgICJwYWdlIjogKHBhZ2UgbnVtYmVyLCAxLWJhc2VkKSwKICAgICJ0eXBlIjogImNob2ljZSIsCiAgICAiY2hvaWNlX29wdGlvbnMiOiBbCiAgICAgIHsKICAgICAgICAidmFsdWUiOiAoc2V0IHRoZSBmaWVsZCB0byB0aGlzIHZhbHVlIHRvIHNlbGVjdCB0aGlzIG9wdGlvbiksCiAgICAgICAgInRleHQiOiAoZGlzcGxheSB0ZXh0IG9mIHRoZSBvcHRpb24pCiAgICAgIH0sCiAgICAgIC8vIE90aGVyIGNob2ljZSBvcHRpb25zCiAgICBdLAogIH0KXQpgYGAKLSBDb252ZXJ0IHRoZSBQREYgdG8gUE5HcyAob25lIGltYWdlIGZvciBlYWNoIHBhZ2UpIHdpdGggdGhpcyBzY3JpcHQgKHJ1biBmcm9tIHRoaXMgZmlsZSdzIGRpcmVjdG9yeSk6CmBweXRob24gc2NyaXB0cy9jb252ZXJ0X3BkZl90b19pbWFnZXMucHkgPGZpbGUucGRmPiA8b3V0cHV0X2RpcmVjdG9yeT5gClRoZW4gYW5hbHl6ZSB0aGUgaW1hZ2VzIHRvIGRldGVybWluZSB0aGUgcHVycG9zZSBvZiBlYWNoIGZvcm0gZmllbGQgKG1ha2Ugc3VyZSB0byBjb252ZXJ0IHRoZSBib3VuZGluZyBib3ggUERGIGNvb3JkaW5hdGVzIHRvIGltYWdlIGNvb3JkaW5hdGVzKS4KLSBDcmVhdGUgYSBgZmllbGRfdmFsdWVzLmpzb25gIGZpbGUgaW4gdGhpcyBmb3JtYXQgd2l0aCB0aGUgdmFsdWVzIHRvIGJlIGVudGVyZWQgZm9yIGVhY2ggZmllbGQ6CmBgYApbCiAgewogICAgImZpZWxkX2lkIjogImxhc3RfbmFtZSIsIC8vIE11c3QgbWF0Y2ggdGhlIGZpZWxkX2lkIGZyb20gYGV4dHJhY3RfZm9ybV9maWVsZF9pbmZvLnB5YAogICAgImRlc2NyaXB0aW9uIjogIlRoZSB1c2VyJ3MgbGFzdCBuYW1lIiwKICAgICJwYWdlIjogMSwgLy8gTXVzdCBtYXRjaCB0aGUgInBhZ2UiIHZhbHVlIGluIGZpZWxkX2luZm8uanNvbgogICAgInZhbHVlIjogIlNpbXBzb24iCiAgfSwKICB7CiAgICAiZmllbGRfaWQiOiAiQ2hlY2tib3gxMiIsCiAgICAiZGVzY3JpcHRpb24iOiAiQ2hlY2tib3ggdG8gYmUgY2hlY2tlZCBpZiB0aGUgdXNlciBpcyAxOCBvciBvdmVyIiwKICAgICJwYWdlIjogMSwKICAgICJ2YWx1ZSI6ICIvT24iIC8vIElmIHRoaXMgaXMgYSBjaGVja2JveCwgdXNlIGl0cyAiY2hlY2tlZF92YWx1ZSIgdmFsdWUgdG8gY2hlY2sgaXQuIElmIGl0J3MgYSByYWRpbyBidXR0b24gZ3JvdXAsIHVzZSBvbmUgb2YgdGhlICJ2YWx1ZSIgdmFsdWVzIGluICJyYWRpb19vcHRpb25zIi4KICB9LAogIC8vIG1vcmUgZmllbGRzCl0KYGBgCi0gUnVuIHRoZSBgZmlsbF9maWxsYWJsZV9maWVsZHMucHlgIHNjcmlwdCBmcm9tIHRoaXMgZmlsZSdzIGRpcmVjdG9yeSB0byBjcmVhdGUgYSBmaWxsZWQtaW4gUERGOgpgcHl0aG9uIHNjcmlwdHMvZmlsbF9maWxsYWJsZV9maWVsZHMucHkgPGlucHV0IHBkZj4gPGZpZWxkX3ZhbHVlcy5qc29uPiA8b3V0cHV0IHBkZj5gClRoaXMgc2NyaXB0IHdpbGwgdmVyaWZ5IHRoYXQgdGhlIGZpZWxkIElEcyBhbmQgdmFsdWVzIHlvdSBwcm92aWRlIGFyZSB2YWxpZDsgaWYgaXQgcHJpbnRzIGVycm9yIG1lc3NhZ2VzLCBjb3JyZWN0IHRoZSBhcHByb3ByaWF0ZSBmaWVsZHMgYW5kIHRyeSBhZ2Fpbi4KCiMgTm9uLWZpbGxhYmxlIGZpZWxkcwpJZiB0aGUgUERGIGRvZXNuJ3QgaGF2ZSBmaWxsYWJsZSBmb3JtIGZpZWxkcywgeW91J2xsIGFkZCB0ZXh0IGFubm90YXRpb25zLiBGaXJzdCB0cnkgdG8gZXh0cmFjdCBjb29yZGluYXRlcyBmcm9tIHRoZSBQREYgc3RydWN0dXJlIChtb3JlIGFjY3VyYXRlKSwgdGhlbiBmYWxsIGJhY2sgdG8gdmlzdWFsIGVzdGltYXRpb24gaWYgbmVlZGVkLgoKIyMgU3RlcCAxOiBUcnkgU3RydWN0dXJlIEV4dHJhY3Rpb24gRmlyc3QKClJ1biB0aGlzIHNjcmlwdCB0byBleHRyYWN0IHRleHQgbGFiZWxzLCBsaW5lcywgYW5kIGNoZWNrYm94ZXMgd2l0aCB0aGVpciBleGFjdCBQREYgY29vcmRpbmF0ZXM6CmBweXRob24gc2NyaXB0cy9leHRyYWN0X2Zvcm1fc3RydWN0dXJlLnB5IDxpbnB1dC5wZGY+IGZvcm1fc3RydWN0dXJlLmpzb25gCgpUaGlzIGNyZWF0ZXMgYSBKU09OIGZpbGUgY29udGFpbmluZzoKLSAqKmxhYmVscyoqOiBFdmVyeSB0ZXh0IGVsZW1lbnQgd2l0aCBleGFjdCBjb29yZGluYXRlcyAoeDAsIHRvcCwgeDEsIGJvdHRvbSBpbiBQREYgcG9pbnRzKQotICoqbGluZXMqKjogSG9yaXpvbnRhbCBsaW5lcyB0aGF0IGRlZmluZSByb3cgYm91bmRhcmllcwotICoqY2hlY2tib3hlcyoqOiBTbWFsbCBzcXVhcmUgcmVjdGFuZ2xlcyB0aGF0IGFyZSBjaGVja2JveGVzICh3aXRoIGNlbnRlciBjb29yZGluYXRlcykKLSAqKnJvd19ib3VuZGFyaWVzKio6IFJvdyB0b3AvYm90dG9tIHBvc2l0aW9ucyBjYWxjdWxhdGVkIGZyb20gaG9yaXpvbnRhbCBsaW5lcwoKKipDaGVjayB0aGUgcmVzdWx0cyoqOiBJZiBgZm9ybV9zdHJ1Y3R1cmUuanNvbmAgaGFzIG1lYW5pbmdmdWwgbGFiZWxzICh0ZXh0IGVsZW1lbnRzIHRoYXQgY29ycmVzcG9uZCB0byBmb3JtIGZpZWxkcyksIHVzZSAqKkFwcHJvYWNoIEE6IFN0cnVjdHVyZS1CYXNlZCBDb29yZGluYXRlcyoqLiBJZiB0aGUgUERGIGlzIHNjYW5uZWQvaW1hZ2UtYmFzZWQgYW5kIGhhcyBmZXcgb3Igbm8gbGFiZWxzLCB1c2UgKipBcHByb2FjaCBCOiBWaXN1YWwgRXN0aW1hdGlvbioqLgoKLS0tCgojIyBBcHByb2FjaCBBOiBTdHJ1Y3R1cmUtQmFzZWQgQ29vcmRpbmF0ZXMgKFByZWZlcnJlZCkKClVzZSB0aGlzIHdoZW4gYGV4dHJhY3RfZm9ybV9zdHJ1Y3R1cmUucHlgIGZvdW5kIHRleHQgbGFiZWxzIGluIHRoZSBQREYuCgojIyMgQS4xOiBBbmFseXplIHRoZSBTdHJ1Y3R1cmUKClJlYWQgZm9ybV9zdHJ1Y3R1cmUuanNvbiBhbmQgaWRlbnRpZnk6CgoxLiAqKkxhYmVsIGdyb3VwcyoqOiBBZGphY2VudCB0ZXh0IGVsZW1lbnRzIHRoYXQgZm9ybSBhIHNpbmdsZSBsYWJlbCAoZS5nLiwgIkxhc3QiICsgIk5hbWUiKQoyLiAqKlJvdyBzdHJ1Y3R1cmUqKjogTGFiZWxzIHdpdGggc2ltaWxhciBgdG9wYCB2YWx1ZXMgYXJlIGluIHRoZSBzYW1lIHJvdwozLiAqKkZpZWxkIGNvbHVtbnMqKjogRW50cnkgYXJlYXMgc3RhcnQgYWZ0ZXIgbGFiZWwgZW5kcyAoeDAgPSBsYWJlbC54MSArIGdhcCkKNC4gKipDaGVja2JveGVzKio6IFVzZSB0aGUgY2hlY2tib3ggY29vcmRpbmF0ZXMgZGlyZWN0bHkgZnJvbSB0aGUgc3RydWN0dXJlCgoqKkNvb3JkaW5hdGUgc3lzdGVtKio6IFBERiBjb29yZGluYXRlcyB3aGVyZSB5PTAgaXMgYXQgVE9QIG9mIHBhZ2UsIHkgaW5jcmVhc2VzIGRvd253YXJkLgoKIyMjIEEuMjogQ2hlY2sgZm9yIE1pc3NpbmcgRWxlbWVudHMKClRoZSBzdHJ1Y3R1cmUgZXh0cmFjdGlvbiBtYXkgbm90IGRldGVjdCBhbGwgZm9ybSBlbGVtZW50cy4gQ29tbW9uIGNhc2VzOgotICoqQ2lyY3VsYXIgY2hlY2tib3hlcyoqOiBPbmx5IHNxdWFyZSByZWN0YW5nbGVzIGFyZSBkZXRlY3RlZCBhcyBjaGVja2JveGVzCi0gKipDb21wbGV4IGdyYXBoaWNzKio6IERlY29yYXRpdmUgZWxlbWVudHMgb3Igbm9uLXN0YW5kYXJkIGZvcm0gY29udHJvbHMKLSAqKkZhZGVkIG9yIGxpZ2h0LWNvbG9yZWQgZWxlbWVudHMqKjogTWF5IG5vdCBiZSBleHRyYWN0ZWQKCklmIHlvdSBzZWUgZm9ybSBmaWVsZHMgaW4gdGhlIFBERiBpbWFnZXMgdGhhdCBhcmVuJ3QgaW4gZm9ybV9zdHJ1Y3R1cmUuanNvbiwgeW91J2xsIG5lZWQgdG8gdXNlICoqdmlzdWFsIGFuYWx5c2lzKiogZm9yIHRob3NlIHNwZWNpZmljIGZpZWxkcyAoc2VlICJIeWJyaWQgQXBwcm9hY2giIGJlbG93KS4KCiMjIyBBLjM6IENyZWF0ZSBmaWVsZHMuanNvbiB3aXRoIFBERiBDb29yZGluYXRlcwoKRm9yIGVhY2ggZmllbGQsIGNhbGN1bGF0ZSBlbnRyeSBjb29yZGluYXRlcyBmcm9tIHRoZSBleHRyYWN0ZWQgc3RydWN0dXJlOgoKKipUZXh0IGZpZWxkczoqKgotIGVudHJ5IHgwID0gbGFiZWwgeDEgKyA1IChzbWFsbCBnYXAgYWZ0ZXIgbGFiZWwpCi0gZW50cnkgeDEgPSBuZXh0IGxhYmVsJ3MgeDAsIG9yIHJvdyBib3VuZGFyeQotIGVudHJ5IHRvcCA9IHNhbWUgYXMgbGFiZWwgdG9wCi0gZW50cnkgYm90dG9tID0gcm93IGJvdW5kYXJ5IGxpbmUgYmVsb3csIG9yIGxhYmVsIGJvdHRvbSArIHJvd19oZWlnaHQKCioqQ2hlY2tib3hlczoqKgotIFVzZSB0aGUgY2hlY2tib3ggcmVjdGFuZ2xlIGNvb3JkaW5hdGVzIGRpcmVjdGx5IGZyb20gZm9ybV9zdHJ1Y3R1cmUuanNvbgotIGVudHJ5X2JvdW5kaW5nX2JveCA9IFtjaGVja2JveC54MCwgY2hlY2tib3gudG9wLCBjaGVja2JveC54MSwgY2hlY2tib3guYm90dG9tXQoKQ3JlYXRlIGZpZWxkcy5qc29uIHVzaW5nIGBwZGZfd2lkdGhgIGFuZCBgcGRmX2hlaWdodGAgKHNpZ25hbHMgUERGIGNvb3JkaW5hdGVzKToKYGBganNvbgp7CiAgInBhZ2VzIjogWwogICAgeyJwYWdlX251bWJlciI6IDEsICJwZGZfd2lkdGgiOiA2MTIsICJwZGZfaGVpZ2h0IjogNzkyfQogIF0sCiAgImZvcm1fZmllbGRzIjogWwogICAgewogICAgICAicGFnZV9udW1iZXIiOiAxLAogICAgICAiZGVzY3JpcHRpb24iOiAiTGFzdCBuYW1lIGVudHJ5IGZpZWxkIiwKICAgICAgImZpZWxkX2xhYmVsIjogIkxhc3QgTmFtZSIsCiAgICAgICJsYWJlbF9ib3VuZGluZ19ib3giOiBbNDMsIDYzLCA4NywgNzNdLAogICAgICAiZW50cnlfYm91bmRpbmdfYm94IjogWzkyLCA2MywgMjYwLCA3OV0sCiAgICAgICJlbnRyeV90ZXh0IjogeyJ0ZXh0IjogIlNtaXRoIiwgImZvbnRfc2l6ZSI6IDEwfQogICAgfSwKICAgIHsKICAgICAgInBhZ2VfbnVtYmVyIjogMSwKICAgICAgImRlc2NyaXB0aW9uIjogIlVTIENpdGl6ZW4gWWVzIGNoZWNrYm94IiwKICAgICAgImZpZWxkX2xhYmVsIjogIlllcyIsCiAgICAgICJsYWJlbF9ib3VuZGluZ19ib3giOiBbMjYwLCAyMDAsIDI4MCwgMjEwXSwKICAgICAgImVudHJ5X2JvdW5kaW5nX2JveCI6IFsyODUsIDE5NywgMjkyLCAyMDVdLAogICAgICAiZW50cnlfdGV4dCI6IHsidGV4dCI6ICJYIn0KICAgIH0KICBdCn0KYGBgCgoqKkltcG9ydGFudCoqOiBVc2UgYHBkZl93aWR0aGAvYHBkZl9oZWlnaHRgIGFuZCBjb29yZGluYXRlcyBkaXJlY3RseSBmcm9tIGZvcm1fc3RydWN0dXJlLmpzb24uCgojIyMgQS40OiBWYWxpZGF0ZSBCb3VuZGluZyBCb3hlcwoKQmVmb3JlIGZpbGxpbmcsIGNoZWNrIHlvdXIgYm91bmRpbmcgYm94ZXMgZm9yIGVycm9yczoKYHB5dGhvbiBzY3JpcHRzL2NoZWNrX2JvdW5kaW5nX2JveGVzLnB5IGZpZWxkcy5qc29uYAoKVGhpcyBjaGVja3MgZm9yIGludGVyc2VjdGluZyBib3VuZGluZyBib3hlcyBhbmQgZW50cnkgYm94ZXMgdGhhdCBhcmUgdG9vIHNtYWxsIGZvciB0aGUgZm9udCBzaXplLiBGaXggYW55IHJlcG9ydGVkIGVycm9ycyBiZWZvcmUgZmlsbGluZy4KCi0tLQoKIyMgQXBwcm9hY2ggQjogVmlzdWFsIEVzdGltYXRpb24gKEZhbGxiYWNrKQoKVXNlIHRoaXMgd2hlbiB0aGUgUERGIGlzIHNjYW5uZWQvaW1hZ2UtYmFzZWQgYW5kIHN0cnVjdHVyZSBleHRyYWN0aW9uIGZvdW5kIG5vIHVzYWJsZSB0ZXh0IGxhYmVscyAoZS5nLiwgYWxsIHRleHQgc2hvd3MgYXMgIihjaWQ6WCkiIHBhdHRlcm5zKS4KCiMjIyBCLjE6IENvbnZlcnQgUERGIHRvIEltYWdlcwoKYHB5dGhvbiBzY3JpcHRzL2NvbnZlcnRfcGRmX3RvX2ltYWdlcy5weSA8aW5wdXQucGRmPiA8aW1hZ2VzX2Rpci8+YAoKIyMjIEIuMjogSW5pdGlhbCBGaWVsZCBJZGVudGlmaWNhdGlvbgoKRXhhbWluZSBlYWNoIHBhZ2UgaW1hZ2UgdG8gaWRlbnRpZnkgZm9ybSBzZWN0aW9ucyBhbmQgZ2V0ICoqcm91Z2ggZXN0aW1hdGVzKiogb2YgZmllbGQgbG9jYXRpb25zOgotIEZvcm0gZmllbGQgbGFiZWxzIGFuZCB0aGVpciBhcHByb3hpbWF0ZSBwb3NpdGlvbnMKLSBFbnRyeSBhcmVhcyAobGluZXMsIGJveGVzLCBvciBibGFuayBzcGFjZXMgZm9yIHRleHQgaW5wdXQpCi0gQ2hlY2tib3hlcyBhbmQgdGhlaXIgYXBwcm94aW1hdGUgbG9jYXRpb25zCgpGb3IgZWFjaCBmaWVsZCwgbm90ZSBhcHByb3hpbWF0ZSBwaXhlbCBjb29yZGluYXRlcyAodGhleSBkb24ndCBuZWVkIHRvIGJlIHByZWNpc2UgeWV0KS4KCiMjIyBCLjM6IFpvb20gUmVmaW5lbWVudCAoQ1JJVElDQUwgZm9yIGFjY3VyYWN5KQoKRm9yIGVhY2ggZmllbGQsIGNyb3AgYSByZWdpb24gYXJvdW5kIHRoZSBlc3RpbWF0ZWQgcG9zaXRpb24gdG8gcmVmaW5lIGNvb3JkaW5hdGVzIHByZWNpc2VseS4KCioqQ3JlYXRlIGEgem9vbWVkIGNyb3AgdXNpbmcgSW1hZ2VNYWdpY2s6KioKYGBgYmFzaAptYWdpY2sgPHBhZ2VfaW1hZ2U+IC1jcm9wIDx3aWR0aD54PGhlaWdodD4rPHg+Kzx5PiArcmVwYWdlIDxjcm9wX291dHB1dC5wbmc+CmBgYAoKV2hlcmU6Ci0gYDx4PiwgPHk+YCA9IHRvcC1sZWZ0IGNvcm5lciBvZiBjcm9wIHJlZ2lvbiAodXNlIHlvdXIgcm91Z2ggZXN0aW1hdGUgbWludXMgcGFkZGluZykKLSBgPHdpZHRoPiwgPGhlaWdodD5gID0gc2l6ZSBvZiBjcm9wIHJlZ2lvbiAoZmllbGQgYXJlYSBwbHVzIH41MHB4IHBhZGRpbmcgb24gZWFjaCBzaWRlKQoKKipFeGFtcGxlOioqIFRvIHJlZmluZSBhICJOYW1lIiBmaWVsZCBlc3RpbWF0ZWQgYXJvdW5kICgxMDAsIDE1MCk6CmBgYGJhc2gKbWFnaWNrIGltYWdlc19kaXIvcGFnZV8xLnBuZyAtY3JvcCAzMDB4ODArNTArMTIwICtyZXBhZ2UgY3JvcHMvbmFtZV9maWVsZC5wbmcKYGBgCgooTm90ZTogaWYgdGhlIGBtYWdpY2tgIGNvbW1hbmQgaXNuJ3QgYXZhaWxhYmxlLCB0cnkgYGNvbnZlcnRgIHdpdGggdGhlIHNhbWUgYXJndW1lbnRzKS4KCioqRXhhbWluZSB0aGUgY3JvcHBlZCBpbWFnZSoqIHRvIGRldGVybWluZSBwcmVjaXNlIGNvb3JkaW5hdGVzOgoxLiBJZGVudGlmeSB0aGUgZXhhY3QgcGl4ZWwgd2hlcmUgdGhlIGVudHJ5IGFyZWEgYmVnaW5zIChhZnRlciB0aGUgbGFiZWwpCjIuIElkZW50aWZ5IHdoZXJlIHRoZSBlbnRyeSBhcmVhIGVuZHMgKGJlZm9yZSBuZXh0IGZpZWxkIG9yIGVkZ2UpCjMuIElkZW50aWZ5IHRoZSB0b3AgYW5kIGJvdHRvbSBvZiB0aGUgZW50cnkgbGluZS9ib3gKCioqQ29udmVydCBjcm9wIGNvb3JkaW5hdGVzIGJhY2sgdG8gZnVsbCBpbWFnZSBjb29yZGluYXRlczoqKgotIGZ1bGxfeCA9IGNyb3BfeCArIGNyb3Bfb2Zmc2V0X3gKLSBmdWxsX3kgPSBjcm9wX3kgKyBjcm9wX29mZnNldF95CgpFeGFtcGxlOiBJZiB0aGUgY3JvcCBzdGFydGVkIGF0ICg1MCwgMTIwKSBhbmQgdGhlIGVudHJ5IGJveCBzdGFydHMgYXQgKDUyLCAxOCkgd2l0aGluIHRoZSBjcm9wOgotIGVudHJ5X3gwID0gNTIgKyA1MCA9IDEwMgotIGVudHJ5X3RvcCA9IDE4ICsgMTIwID0gMTM4CgoqKlJlcGVhdCBmb3IgZWFjaCBmaWVsZCoqLCBncm91cGluZyBuZWFyYnkgZmllbGRzIGludG8gc2luZ2xlIGNyb3BzIHdoZW4gcG9zc2libGUuCgojIyMgQi40OiBDcmVhdGUgZmllbGRzLmpzb24gd2l0aCBSZWZpbmVkIENvb3JkaW5hdGVzCgpDcmVhdGUgZmllbGRzLmpzb24gdXNpbmcgYGltYWdlX3dpZHRoYCBhbmQgYGltYWdlX2hlaWdodGAgKHNpZ25hbHMgaW1hZ2UgY29vcmRpbmF0ZXMpOgpgYGBqc29uCnsKICAicGFnZXMiOiBbCiAgICB7InBhZ2VfbnVtYmVyIjogMSwgImltYWdlX3dpZHRoIjogMTcwMCwgImltYWdlX2hlaWdodCI6IDIyMDB9CiAgXSwKICAiZm9ybV9maWVsZHMiOiBbCiAgICB7CiAgICAgICJwYWdlX251bWJlciI6IDEsCiAgICAgICJkZXNjcmlwdGlvbiI6ICJMYXN0IG5hbWUgZW50cnkgZmllbGQiLAogICAgICAiZmllbGRfbGFiZWwiOiAiTGFzdCBOYW1lIiwKICAgICAgImxhYmVsX2JvdW5kaW5nX2JveCI6IFsxMjAsIDE3NSwgMjQyLCAxOThdLAogICAgICAiZW50cnlfYm91bmRpbmdfYm94IjogWzI1NSwgMTc1LCA3MjAsIDIxOF0sCiAgICAgICJlbnRyeV90ZXh0IjogeyJ0ZXh0IjogIlNtaXRoIiwgImZvbnRfc2l6ZSI6IDEwfQogICAgfQogIF0KfQpgYGAKCioqSW1wb3J0YW50Kio6IFVzZSBgaW1hZ2Vfd2lkdGhgL2BpbWFnZV9oZWlnaHRgIGFuZCB0aGUgcmVmaW5lZCBwaXhlbCBjb29yZGluYXRlcyBmcm9tIHRoZSB6b29tIGFuYWx5c2lzLgoKIyMjIEIuNTogVmFsaWRhdGUgQm91bmRpbmcgQm94ZXMKCkJlZm9yZSBmaWxsaW5nLCBjaGVjayB5b3VyIGJvdW5kaW5nIGJveGVzIGZvciBlcnJvcnM6CmBweXRob24gc2NyaXB0cy9jaGVja19ib3VuZGluZ19ib3hlcy5weSBmaWVsZHMuanNvbmAKClRoaXMgY2hlY2tzIGZvciBpbnRlcnNlY3RpbmcgYm91bmRpbmcgYm94ZXMgYW5kIGVudHJ5IGJveGVzIHRoYXQgYXJlIHRvbyBzbWFsbCBmb3IgdGhlIGZvbnQgc2l6ZS4gRml4IGFueSByZXBvcnRlZCBlcnJvcnMgYmVmb3JlIGZpbGxpbmcuCgotLS0KCiMjIEh5YnJpZCBBcHByb2FjaDogU3RydWN0dXJlICsgVmlzdWFsCgpVc2UgdGhpcyB3aGVuIHN0cnVjdHVyZSBleHRyYWN0aW9uIHdvcmtzIGZvciBtb3N0IGZpZWxkcyBidXQgbWlzc2VzIHNvbWUgZWxlbWVudHMgKGUuZy4sIGNpcmN1bGFyIGNoZWNrYm94ZXMsIHVudXN1YWwgZm9ybSBjb250cm9scykuCgoxLiAqKlVzZSBBcHByb2FjaCBBKiogZm9yIGZpZWxkcyB0aGF0IHdlcmUgZGV0ZWN0ZWQgaW4gZm9ybV9zdHJ1Y3R1cmUuanNvbgoyLiAqKkNvbnZlcnQgUERGIHRvIGltYWdlcyoqIGZvciB2aXN1YWwgYW5hbHlzaXMgb2YgbWlzc2luZyBmaWVsZHMKMy4gKipVc2Ugem9vbSByZWZpbmVtZW50KiogKGZyb20gQXBwcm9hY2ggQikgZm9yIHRoZSBtaXNzaW5nIGZpZWxkcwo0LiAqKkNvbWJpbmUgY29vcmRpbmF0ZXMqKjogRm9yIGZpZWxkcyBmcm9tIHN0cnVjdHVyZSBleHRyYWN0aW9uLCB1c2UgYHBkZl93aWR0aGAvYHBkZl9oZWlnaHRgLiBGb3IgdmlzdWFsbHktZXN0aW1hdGVkIGZpZWxkcywgeW91IG11c3QgY29udmVydCBpbWFnZSBjb29yZGluYXRlcyB0byBQREYgY29vcmRpbmF0ZXM6CiAgIC0gcGRmX3ggPSBpbWFnZV94ICogKHBkZl93aWR0aCAvIGltYWdlX3dpZHRoKQogICAtIHBkZl95ID0gaW1hZ2VfeSAqIChwZGZfaGVpZ2h0IC8gaW1hZ2VfaGVpZ2h0KQo1LiAqKlVzZSBhIHNpbmdsZSBjb29yZGluYXRlIHN5c3RlbSoqIGluIGZpZWxkcy5qc29uIC0gY29udmVydCBhbGwgdG8gUERGIGNvb3JkaW5hdGVzIHdpdGggYHBkZl93aWR0aGAvYHBkZl9oZWlnaHRgCgotLS0KCiMjIFN0ZXAgMjogVmFsaWRhdGUgQmVmb3JlIEZpbGxpbmcKCioqQWx3YXlzIHZhbGlkYXRlIGJvdW5kaW5nIGJveGVzIGJlZm9yZSBmaWxsaW5nOioqCmBweXRob24gc2NyaXB0cy9jaGVja19ib3VuZGluZ19ib3hlcy5weSBmaWVsZHMuanNvbmAKClRoaXMgY2hlY2tzIGZvcjoKLSBJbnRlcnNlY3RpbmcgYm91bmRpbmcgYm94ZXMgKHdoaWNoIHdvdWxkIGNhdXNlIG92ZXJsYXBwaW5nIHRleHQpCi0gRW50cnkgYm94ZXMgdGhhdCBhcmUgdG9vIHNtYWxsIGZvciB0aGUgc3BlY2lmaWVkIGZvbnQgc2l6ZQoKRml4IGFueSByZXBvcnRlZCBlcnJvcnMgaW4gZmllbGRzLmpzb24gYmVmb3JlIHByb2NlZWRpbmcuCgojIyBTdGVwIDM6IEZpbGwgdGhlIEZvcm0KClRoZSBmaWxsIHNjcmlwdCBhdXRvLWRldGVjdHMgdGhlIGNvb3JkaW5hdGUgc3lzdGVtIGFuZCBoYW5kbGVzIGNvbnZlcnNpb246CmBweXRob24gc2NyaXB0cy9maWxsX3BkZl9mb3JtX3dpdGhfYW5ub3RhdGlvbnMucHkgPGlucHV0LnBkZj4gZmllbGRzLmpzb24gPG91dHB1dC5wZGY+YAoKIyMgU3RlcCA0OiBWZXJpZnkgT3V0cHV0CgpDb252ZXJ0IHRoZSBmaWxsZWQgUERGIHRvIGltYWdlcyBhbmQgdmVyaWZ5IHRleHQgcGxhY2VtZW50OgpgcHl0aG9uIHNjcmlwdHMvY29udmVydF9wZGZfdG9faW1hZ2VzLnB5IDxvdXRwdXQucGRmPiA8dmVyaWZ5X2ltYWdlcy8+YAoKSWYgdGV4dCBpcyBtaXNwb3NpdGlvbmVkOgotICoqQXBwcm9hY2ggQSoqOiBDaGVjayB0aGF0IHlvdSdyZSB1c2luZyBQREYgY29vcmRpbmF0ZXMgZnJvbSBmb3JtX3N0cnVjdHVyZS5qc29uIHdpdGggYHBkZl93aWR0aGAvYHBkZl9oZWlnaHRgCi0gKipBcHByb2FjaCBCKio6IENoZWNrIHRoYXQgaW1hZ2UgZGltZW5zaW9ucyBtYXRjaCBhbmQgY29vcmRpbmF0ZXMgYXJlIGFjY3VyYXRlIHBpeGVscwotICoqSHlicmlkKio6IEVuc3VyZSBjb29yZGluYXRlIGNvbnZlcnNpb25zIGFyZSBjb3JyZWN0IGZvciB2aXN1YWxseS1lc3RpbWF0ZWQgZmllbGRzCg==
+**CRITICAL: You MUST complete these steps in order. Do not skip ahead to writing code.**
+
+If you need to fill out a PDF form, first check to see if the PDF has fillable form fields. Run this script from this file's directory:
+ `python scripts/check_fillable_fields <file.pdf>`, and depending on the result go to either the "Fillable fields" or "Non-fillable fields" and follow those instructions.
+
+# Fillable fields
+If the PDF has fillable form fields:
+- Run this script from this file's directory: `python scripts/extract_form_field_info.py <input.pdf> <field_info.json>`. It will create a JSON file with a list of fields in this format:
+```
+[
+  {
+    "field_id": (unique ID for the field),
+    "page": (page number, 1-based),
+    "rect": ([left, bottom, right, top] bounding box in PDF coordinates, y=0 is the bottom of the page),
+    "type": ("text", "checkbox", "radio_group", or "choice"),
+  },
+  // Checkboxes have "checked_value" and "unchecked_value" properties:
+  {
+    "field_id": (unique ID for the field),
+    "page": (page number, 1-based),
+    "type": "checkbox",
+    "checked_value": (Set the field to this value to check the checkbox),
+    "unchecked_value": (Set the field to this value to uncheck the checkbox),
+  },
+  // Radio groups have a "radio_options" list with the possible choices.
+  {
+    "field_id": (unique ID for the field),
+    "page": (page number, 1-based),
+    "type": "radio_group",
+    "radio_options": [
+      {
+        "value": (set the field to this value to select this radio option),
+        "rect": (bounding box for the radio button for this option)
+      },
+      // Other radio options
+    ]
+  },
+  // Multiple choice fields have a "choice_options" list with the possible choices:
+  {
+    "field_id": (unique ID for the field),
+    "page": (page number, 1-based),
+    "type": "choice",
+    "choice_options": [
+      {
+        "value": (set the field to this value to select this option),
+        "text": (display text of the option)
+      },
+      // Other choice options
+    ],
+  }
+]
+```
+- Convert the PDF to PNGs (one image for each page) with this script (run from this file's directory):
+`python scripts/convert_pdf_to_images.py <file.pdf> <output_directory>`
+Then analyze the images to determine the purpose of each form field (make sure to convert the bounding box PDF coordinates to image coordinates).
+- Create a `field_values.json` file in this format with the values to be entered for each field:
+```
+[
+  {
+    "field_id": "last_name", // Must match the field_id from `extract_form_field_info.py`
+    "description": "The user's last name",
+    "page": 1, // Must match the "page" value in field_info.json
+    "value": "Simpson"
+  },
+  {
+    "field_id": "Checkbox12",
+    "description": "Checkbox to be checked if the user is 18 or over",
+    "page": 1,
+    "value": "/On" // If this is a checkbox, use its "checked_value" value to check it. If it's a radio button group, use one of the "value" values in "radio_options".
+  },
+  // more fields
+]
+```
+- Run the `fill_fillable_fields.py` script from this file's directory to create a filled-in PDF:
+`python scripts/fill_fillable_fields.py <input pdf> <field_values.json> <output pdf>`
+This script will verify that the field IDs and values you provide are valid; if it prints error messages, correct the appropriate fields and try again.
+
+# Non-fillable fields
+If the PDF doesn't have fillable form fields, you'll add text annotations. First try to extract coordinates from the PDF structure (more accurate), then fall back to visual estimation if needed.
+
+## Step 1: Try Structure Extraction First
+
+Run this script to extract text labels, lines, and checkboxes with their exact PDF coordinates:
+`python scripts/extract_form_structure.py <input.pdf> form_structure.json`
+
+This creates a JSON file containing:
+- **labels**: Every text element with exact coordinates (x0, top, x1, bottom in PDF points)
+- **lines**: Horizontal lines that define row boundaries
+- **checkboxes**: Small square rectangles that are checkboxes (with center coordinates)
+- **row_boundaries**: Row top/bottom positions calculated from horizontal lines
+
+**Check the results**: If `form_structure.json` has meaningful labels (text elements that correspond to form fields), use **Approach A: Structure-Based Coordinates**. If the PDF is scanned/image-based and has few or no labels, use **Approach B: Visual Estimation**.
+
+---
+
+## Approach A: Structure-Based Coordinates (Preferred)
+
+Use this when `extract_form_structure.py` found text labels in the PDF.
+
+### A.1: Analyze the Structure
+
+Read form_structure.json and identify:
+
+1. **Label groups**: Adjacent text elements that form a single label (e.g., "Last" + "Name")
+2. **Row structure**: Labels with similar `top` values are in the same row
+3. **Field columns**: Entry areas start after label ends (x0 = label.x1 + gap)
+4. **Checkboxes**: Use the checkbox coordinates directly from the structure
+
+**Coordinate system**: PDF coordinates where y=0 is at TOP of page, y increases downward.
+
+### A.2: Check for Missing Elements
+
+The structure extraction may not detect all form elements. Common cases:
+- **Circular checkboxes**: Only square rectangles are detected as checkboxes
+- **Complex graphics**: Decorative elements or non-standard form controls
+- **Faded or light-colored elements**: May not be extracted
+
+If you see form fields in the PDF images that aren't in form_structure.json, you'll need to use **visual analysis** for those specific fields (see "Hybrid Approach" below).
+
+### A.3: Create fields.json with PDF Coordinates
+
+For each field, calculate entry coordinates from the extracted structure:
+
+**Text fields:**
+- entry x0 = label x1 + 5 (small gap after label)
+- entry x1 = next label's x0, or row boundary
+- entry top = same as label top
+- entry bottom = row boundary line below, or label bottom + row_height
+
+**Checkboxes:**
+- Use the checkbox rectangle coordinates directly from form_structure.json
+- entry_bounding_box = [checkbox.x0, checkbox.top, checkbox.x1, checkbox.bottom]
+
+Create fields.json using `pdf_width` and `pdf_height` (signals PDF coordinates):
+```json
+{
+  "pages": [
+    {"page_number": 1, "pdf_width": 612, "pdf_height": 792}
+  ],
+  "form_fields": [
+    {
+      "page_number": 1,
+      "description": "Last name entry field",
+      "field_label": "Last Name",
+      "label_bounding_box": [43, 63, 87, 73],
+      "entry_bounding_box": [92, 63, 260, 79],
+      "entry_text": {"text": "Smith", "font_size": 10}
+    },
+    {
+      "page_number": 1,
+      "description": "US Citizen Yes checkbox",
+      "field_label": "Yes",
+      "label_bounding_box": [260, 200, 280, 210],
+      "entry_bounding_box": [285, 197, 292, 205],
+      "entry_text": {"text": "X"}
+    }
+  ]
+}
+```
+
+**Important**: Use `pdf_width`/`pdf_height` and coordinates directly from form_structure.json.
+
+### A.4: Validate Bounding Boxes
+
+Before filling, check your bounding boxes for errors:
+`python scripts/check_bounding_boxes.py fields.json`
+
+This checks for intersecting bounding boxes and entry boxes that are too small for the font size. Fix any reported errors before filling.
+
+---
+
+## Approach B: Visual Estimation (Fallback)
+
+Use this when the PDF is scanned/image-based and structure extraction found no usable text labels (e.g., all text shows as "(cid:X)" patterns).
+
+### B.1: Convert PDF to Images
+
+`python scripts/convert_pdf_to_images.py <input.pdf> <images_dir/>`
+
+### B.2: Initial Field Identification
+
+Examine each page image to identify form sections and get **rough estimates** of field locations:
+- Form field labels and their approximate positions
+- Entry areas (lines, boxes, or blank spaces for text input)
+- Checkboxes and their approximate locations
+
+For each field, note approximate pixel coordinates (they don't need to be precise yet).
+
+### B.3: Zoom Refinement (CRITICAL for accuracy)
+
+For each field, crop a region around the estimated position to refine coordinates precisely.
+
+**Create a zoomed crop using ImageMagick:**
+```bash
+magick <page_image> -crop <width>x<height>+<x>+<y> +repage <crop_output.png>
+```
+
+Where:
+- `<x>, <y>` = top-left corner of crop region (use your rough estimate minus padding)
+- `<width>, <height>` = size of crop region (field area plus ~50px padding on each side)
+
+**Example:** To refine a "Name" field estimated around (100, 150):
+```bash
+magick images_dir/page_1.png -crop 300x80+50+120 +repage crops/name_field.png
+```
+
+(Note: if the `magick` command isn't available, try `convert` with the same arguments).
+
+**Examine the cropped image** to determine precise coordinates:
+1. Identify the exact pixel where the entry area begins (after the label)
+2. Identify where the entry area ends (before next field or edge)
+3. Identify the top and bottom of the entry line/box
+
+**Convert crop coordinates back to full image coordinates:**
+- full_x = crop_x + crop_offset_x
+- full_y = crop_y + crop_offset_y
+
+Example: If the crop started at (50, 120) and the entry box starts at (52, 18) within the crop:
+- entry_x0 = 52 + 50 = 102
+- entry_top = 18 + 120 = 138
+
+**Repeat for each field**, grouping nearby fields into single crops when possible.
+
+### B.4: Create fields.json with Refined Coordinates
+
+Create fields.json using `image_width` and `image_height` (signals image coordinates):
+```json
+{
+  "pages": [
+    {"page_number": 1, "image_width": 1700, "image_height": 2200}
+  ],
+  "form_fields": [
+    {
+      "page_number": 1,
+      "description": "Last name entry field",
+      "field_label": "Last Name",
+      "label_bounding_box": [120, 175, 242, 198],
+      "entry_bounding_box": [255, 175, 720, 218],
+      "entry_text": {"text": "Smith", "font_size": 10}
+    }
+  ]
+}
+```
+
+**Important**: Use `image_width`/`image_height` and the refined pixel coordinates from the zoom analysis.
+
+### B.5: Validate Bounding Boxes
+
+Before filling, check your bounding boxes for errors:
+`python scripts/check_bounding_boxes.py fields.json`
+
+This checks for intersecting bounding boxes and entry boxes that are too small for the font size. Fix any reported errors before filling.
+
+---
+
+## Hybrid Approach: Structure + Visual
+
+Use this when structure extraction works for most fields but misses some elements (e.g., circular checkboxes, unusual form controls).
+
+1. **Use Approach A** for fields that were detected in form_structure.json
+2. **Convert PDF to images** for visual analysis of missing fields
+3. **Use zoom refinement** (from Approach B) for the missing fields
+4. **Combine coordinates**: For fields from structure extraction, use `pdf_width`/`pdf_height`. For visually-estimated fields, you must convert image coordinates to PDF coordinates:
+   - pdf_x = image_x * (pdf_width / image_width)
+   - pdf_y = image_y * (pdf_height / image_height)
+5. **Use a single coordinate system** in fields.json - convert all to PDF coordinates with `pdf_width`/`pdf_height`
+
+---
+
+## Step 2: Validate Before Filling
+
+**Always validate bounding boxes before filling:**
+`python scripts/check_bounding_boxes.py fields.json`
+
+This checks for:
+- Intersecting bounding boxes (which would cause overlapping text)
+- Entry boxes that are too small for the specified font size
+
+Fix any reported errors in fields.json before proceeding.
+
+## Step 3: Fill the Form
+
+The fill script auto-detects the coordinate system and handles conversion:
+`python scripts/fill_pdf_form_with_annotations.py <input.pdf> fields.json <output.pdf>`
+
+## Step 4: Verify Output
+
+Convert the filled PDF to images and verify text placement:
+`python scripts/convert_pdf_to_images.py <output.pdf> <verify_images/>`
+
+If text is mispositioned:
+- **Approach A**: Check that you're using PDF coordinates from form_structure.json with `pdf_width`/`pdf_height`
+- **Approach B**: Check that image dimensions match and coordinates are accurate pixels
+- **Hybrid**: Ensure coordinate conversions are correct for visually-estimated fields

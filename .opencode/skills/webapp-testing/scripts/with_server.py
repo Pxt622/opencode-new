@@ -1,1 +1,106 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKU3RhcnQgb25lIG9yIG1vcmUgc2VydmVycywgd2FpdCBmb3IgdGhlbSB0byBiZSByZWFkeSwgcnVuIGEgY29tbWFuZCwgdGhlbiBjbGVhbiB1cC4KClVzYWdlOgogICAgIyBTaW5nbGUgc2VydmVyCiAgICBweXRob24gc2NyaXB0cy93aXRoX3NlcnZlci5weSAtLXNlcnZlciAibnBtIHJ1biBkZXYiIC0tcG9ydCA1MTczIC0tIHB5dGhvbiBhdXRvbWF0aW9uLnB5CiAgICBweXRob24gc2NyaXB0cy93aXRoX3NlcnZlci5weSAtLXNlcnZlciAibnBtIHN0YXJ0IiAtLXBvcnQgMzAwMCAtLSBweXRob24gdGVzdC5weQoKICAgICMgTXVsdGlwbGUgc2VydmVycwogICAgcHl0aG9uIHNjcmlwdHMvd2l0aF9zZXJ2ZXIucHkgXAogICAgICAtLXNlcnZlciAiY2QgYmFja2VuZCAmJiBweXRob24gc2VydmVyLnB5IiAtLXBvcnQgMzAwMCBcCiAgICAgIC0tc2VydmVyICJjZCBmcm9udGVuZCAmJiBucG0gcnVuIGRldiIgLS1wb3J0IDUxNzMgXAogICAgICAtLSBweXRob24gdGVzdC5weQoiIiIKCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCBzb2NrZXQKaW1wb3J0IHRpbWUKaW1wb3J0IHN5cwppbXBvcnQgYXJncGFyc2UKCmRlZiBpc19zZXJ2ZXJfcmVhZHkocG9ydCwgdGltZW91dD0zMCk6CiAgICAiIiJXYWl0IGZvciBzZXJ2ZXIgdG8gYmUgcmVhZHkgYnkgcG9sbGluZyB0aGUgcG9ydC4iIiIKICAgIHN0YXJ0X3RpbWUgPSB0aW1lLnRpbWUoKQogICAgd2hpbGUgdGltZS50aW1lKCkgLSBzdGFydF90aW1lIDwgdGltZW91dDoKICAgICAgICB0cnk6CiAgICAgICAgICAgIHdpdGggc29ja2V0LmNyZWF0ZV9jb25uZWN0aW9uKCgnbG9jYWxob3N0JywgcG9ydCksIHRpbWVvdXQ9MSk6CiAgICAgICAgICAgICAgICByZXR1cm4gVHJ1ZQogICAgICAgIGV4Y2VwdCAoc29ja2V0LmVycm9yLCBDb25uZWN0aW9uUmVmdXNlZEVycm9yKToKICAgICAgICAgICAgdGltZS5zbGVlcCgwLjUpCiAgICByZXR1cm4gRmFsc2UKCgpkZWYgbWFpbigpOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249J1J1biBjb21tYW5kIHdpdGggb25lIG9yIG1vcmUgc2VydmVycycpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCctLXNlcnZlcicsIGFjdGlvbj0nYXBwZW5kJywgZGVzdD0nc2VydmVycycsIHJlcXVpcmVkPVRydWUsIGhlbHA9J1NlcnZlciBjb21tYW5kIChjYW4gYmUgcmVwZWF0ZWQpJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tcG9ydCcsIGFjdGlvbj0nYXBwZW5kJywgZGVzdD0ncG9ydHMnLCB0eXBlPWludCwgcmVxdWlyZWQ9VHJ1ZSwgaGVscD0nUG9ydCBmb3IgZWFjaCBzZXJ2ZXIgKG11c3QgbWF0Y2ggLS1zZXJ2ZXIgY291bnQpJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJy0tdGltZW91dCcsIHR5cGU9aW50LCBkZWZhdWx0PTMwLCBoZWxwPSdUaW1lb3V0IGluIHNlY29uZHMgcGVyIHNlcnZlciAoZGVmYXVsdDogMzApJykKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoJ2NvbW1hbmQnLCBuYXJncz1hcmdwYXJzZS5SRU1BSU5ERVIsIGhlbHA9J0NvbW1hbmQgdG8gcnVuIGFmdGVyIHNlcnZlcihzKSByZWFkeScpCgogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICAjIFJlbW92ZSB0aGUgJy0tJyBzZXBhcmF0b3IgaWYgcHJlc2VudAogICAgaWYgYXJncy5jb21tYW5kIGFuZCBhcmdzLmNvbW1hbmRbMF0gPT0gJy0tJzoKICAgICAgICBhcmdzLmNvbW1hbmQgPSBhcmdzLmNvbW1hbmRbMTpdCgogICAgaWYgbm90IGFyZ3MuY29tbWFuZDoKICAgICAgICBwcmludCgiRXJyb3I6IE5vIGNvbW1hbmQgc3BlY2lmaWVkIHRvIHJ1biIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICAjIFBhcnNlIHNlcnZlciBjb25maWd1cmF0aW9ucwogICAgaWYgbGVuKGFyZ3Muc2VydmVycykgIT0gbGVuKGFyZ3MucG9ydHMpOgogICAgICAgIHByaW50KCJFcnJvcjogTnVtYmVyIG9mIC0tc2VydmVyIGFuZCAtLXBvcnQgYXJndW1lbnRzIG11c3QgbWF0Y2giKQogICAgICAgIHN5cy5leGl0KDEpCgogICAgc2VydmVycyA9IFtdCiAgICBmb3IgY21kLCBwb3J0IGluIHppcChhcmdzLnNlcnZlcnMsIGFyZ3MucG9ydHMpOgogICAgICAgIHNlcnZlcnMuYXBwZW5kKHsnY21kJzogY21kLCAncG9ydCc6IHBvcnR9KQoKICAgIHNlcnZlcl9wcm9jZXNzZXMgPSBbXQoKICAgIHRyeToKICAgICAgICAjIFN0YXJ0IGFsbCBzZXJ2ZXJzCiAgICAgICAgZm9yIGksIHNlcnZlciBpbiBlbnVtZXJhdGUoc2VydmVycyk6CiAgICAgICAgICAgIHByaW50KGYiU3RhcnRpbmcgc2VydmVyIHtpKzF9L3tsZW4oc2VydmVycyl9OiB7c2VydmVyWydjbWQnXX0iKQoKICAgICAgICAgICAgIyBVc2Ugc2hlbGw9VHJ1ZSB0byBzdXBwb3J0IGNvbW1hbmRzIHdpdGggY2QgYW5kICYmCiAgICAgICAgICAgIHByb2Nlc3MgPSBzdWJwcm9jZXNzLlBvcGVuKAogICAgICAgICAgICAgICAgc2VydmVyWydjbWQnXSwKICAgICAgICAgICAgICAgIHNoZWxsPVRydWUsCiAgICAgICAgICAgICAgICBzdGRvdXQ9c3VicHJvY2Vzcy5QSVBFLAogICAgICAgICAgICAgICAgc3RkZXJyPXN1YnByb2Nlc3MuUElQRQogICAgICAgICAgICApCiAgICAgICAgICAgIHNlcnZlcl9wcm9jZXNzZXMuYXBwZW5kKHByb2Nlc3MpCgogICAgICAgICAgICAjIFdhaXQgZm9yIHRoaXMgc2VydmVyIHRvIGJlIHJlYWR5CiAgICAgICAgICAgIHByaW50KGYiV2FpdGluZyBmb3Igc2VydmVyIG9uIHBvcnQge3NlcnZlclsncG9ydCddfS4uLiIpCiAgICAgICAgICAgIGlmIG5vdCBpc19zZXJ2ZXJfcmVhZHkoc2VydmVyWydwb3J0J10sIHRpbWVvdXQ9YXJncy50aW1lb3V0KToKICAgICAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihmIlNlcnZlciBmYWlsZWQgdG8gc3RhcnQgb24gcG9ydCB7c2VydmVyWydwb3J0J119IHdpdGhpbiB7YXJncy50aW1lb3V0fXMiKQoKICAgICAgICAgICAgcHJpbnQoZiJTZXJ2ZXIgcmVhZHkgb24gcG9ydCB7c2VydmVyWydwb3J0J119IikKCiAgICAgICAgcHJpbnQoZiJcbkFsbCB7bGVuKHNlcnZlcnMpfSBzZXJ2ZXIocykgcmVhZHkiKQoKICAgICAgICAjIFJ1biB0aGUgY29tbWFuZAogICAgICAgIHByaW50KGYiUnVubmluZzogeycgJy5qb2luKGFyZ3MuY29tbWFuZCl9XG4iKQogICAgICAgIHJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKGFyZ3MuY29tbWFuZCkKICAgICAgICBzeXMuZXhpdChyZXN1bHQucmV0dXJuY29kZSkKCiAgICBmaW5hbGx5OgogICAgICAgICMgQ2xlYW4gdXAgYWxsIHNlcnZlcnMKICAgICAgICBwcmludChmIlxuU3RvcHBpbmcge2xlbihzZXJ2ZXJfcHJvY2Vzc2VzKX0gc2VydmVyKHMpLi4uIikKICAgICAgICBmb3IgaSwgcHJvY2VzcyBpbiBlbnVtZXJhdGUoc2VydmVyX3Byb2Nlc3Nlcyk6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHByb2Nlc3MudGVybWluYXRlKCkKICAgICAgICAgICAgICAgIHByb2Nlc3Mud2FpdCh0aW1lb3V0PTUpCiAgICAgICAgICAgIGV4Y2VwdCBzdWJwcm9jZXNzLlRpbWVvdXRFeHBpcmVkOgogICAgICAgICAgICAgICAgcHJvY2Vzcy5raWxsKCkKICAgICAgICAgICAgICAgIHByb2Nlc3Mud2FpdCgpCiAgICAgICAgICAgIHByaW50KGYiU2VydmVyIHtpKzF9IHN0b3BwZWQiKQogICAgICAgIHByaW50KCJBbGwgc2VydmVycyBzdG9wcGVkIikKCgppZiBfX25hbWVfXyA9PSAnX19tYWluX18nOgogICAgbWFpbigp
+#!/usr/bin/env python3
+"""
+Start one or more servers, wait for them to be ready, run a command, then clean up.
+
+Usage:
+    # Single server
+    python scripts/with_server.py --server "npm run dev" --port 5173 -- python automation.py
+    python scripts/with_server.py --server "npm start" --port 3000 -- python test.py
+
+    # Multiple servers
+    python scripts/with_server.py \
+      --server "cd backend && python server.py" --port 3000 \
+      --server "cd frontend && npm run dev" --port 5173 \
+      -- python test.py
+"""
+
+import subprocess
+import socket
+import time
+import sys
+import argparse
+
+def is_server_ready(port, timeout=30):
+    """Wait for server to be ready by polling the port."""
+    start_time = time.time()
+    while time.time() - start_time < timeout:
+        try:
+            with socket.create_connection(('localhost', port), timeout=1):
+                return True
+        except (socket.error, ConnectionRefusedError):
+            time.sleep(0.5)
+    return False
+
+
+def main():
+    parser = argparse.ArgumentParser(description='Run command with one or more servers')
+    parser.add_argument('--server', action='append', dest='servers', required=True, help='Server command (can be repeated)')
+    parser.add_argument('--port', action='append', dest='ports', type=int, required=True, help='Port for each server (must match --server count)')
+    parser.add_argument('--timeout', type=int, default=30, help='Timeout in seconds per server (default: 30)')
+    parser.add_argument('command', nargs=argparse.REMAINDER, help='Command to run after server(s) ready')
+
+    args = parser.parse_args()
+
+    # Remove the '--' separator if present
+    if args.command and args.command[0] == '--':
+        args.command = args.command[1:]
+
+    if not args.command:
+        print("Error: No command specified to run")
+        sys.exit(1)
+
+    # Parse server configurations
+    if len(args.servers) != len(args.ports):
+        print("Error: Number of --server and --port arguments must match")
+        sys.exit(1)
+
+    servers = []
+    for cmd, port in zip(args.servers, args.ports):
+        servers.append({'cmd': cmd, 'port': port})
+
+    server_processes = []
+
+    try:
+        # Start all servers
+        for i, server in enumerate(servers):
+            print(f"Starting server {i+1}/{len(servers)}: {server['cmd']}")
+
+            # Use shell=True to support commands with cd and &&
+            process = subprocess.Popen(
+                server['cmd'],
+                shell=True,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.PIPE
+            )
+            server_processes.append(process)
+
+            # Wait for this server to be ready
+            print(f"Waiting for server on port {server['port']}...")
+            if not is_server_ready(server['port'], timeout=args.timeout):
+                raise RuntimeError(f"Server failed to start on port {server['port']} within {args.timeout}s")
+
+            print(f"Server ready on port {server['port']}")
+
+        print(f"\nAll {len(servers)} server(s) ready")
+
+        # Run the command
+        print(f"Running: {' '.join(args.command)}\n")
+        result = subprocess.run(args.command)
+        sys.exit(result.returncode)
+
+    finally:
+        # Clean up all servers
+        print(f"\nStopping {len(server_processes)} server(s)...")
+        for i, process in enumerate(server_processes):
+            try:
+                process.terminate()
+                process.wait(timeout=5)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait()
+            print(f"Server {i+1} stopped")
+        print("All servers stopped")
+
+
+if __name__ == '__main__':
+    main()

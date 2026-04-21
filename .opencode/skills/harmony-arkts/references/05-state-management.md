@@ -1,1 +1,73 @@
-IyBBcmtUUyDnirbmgIHnrqHnkIYKCiMjIOijhemlsOWZqOWvueavlAoKfCDoo4XppbDlmaggfCDkvZznlKjln58gfCDor7TmmI4gfAp8LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tfAp8IGBAU3RhdGVgIHwg57uE5Lu25YaFIHwg57uE5Lu256eB5pyJ54q25oCB77yM5Y+Y5YyW6Kem5Y+RIFVJIOabtOaWsCB8CnwgYEBQcm9wYCB8IOeItuKGkuWtkCB8IOWNleWQkeaVsOaNruS8oOmAkiB8CnwgYEBMaW5rYCB8IOeItuKGlOWtkCB8IOWPjOWQkeaVsOaNrue7keWumiB8CnwgYEBQcm92aWRlYCB8IOelluWFiOKGkuWQjuS7oyB8IOi3qOWxgue6p+aVsOaNruaPkOS+myB8CnwgYEBDb25zdW1lYCB8IOWQjuS7o+KGkOelluWFiCB8IOa2iOi0uSBQcm92aWRlIOaVsOaNriB8CnwgYEBPYnNlcnZlZGAgfCDnsbvnuqfliKsgfCDphY3lkIggQE9iamVjdExpbmsg55uR5ZCs5a+56LGh5Y+Y5YyWIHwKfCBgQE9iamVjdExpbmtgIHwg57uE5Lu25YaFIHwg55uR5ZCsIEBPYnNlcnZlZCDlr7nosaHnmoTlj5jljJYgfAoKIyMg566A5Y2V56S65L6LCgpgYGB0eXBlc2NyaXB0CkBFbnRyeQpAQ29tcG9uZW50CnN0cnVjdCBDb3VudGVyIHsKICBAU3RhdGUgY291bnQ6IG51bWJlciA9IDAKCiAgYnVpbGQoKSB7CiAgICBDb2x1bW4oKSB7CiAgICAgIFRleHQoYENvdW50OiAke3RoaXMuY291bnR9YCkKICAgICAgICAuZm9udFNpemUoMzApCgogICAgICBSb3coKSB7CiAgICAgICAgQnV0dG9uKCctJykKICAgICAgICAgIC5vbkNsaWNrKCgpID0+IHRoaXMuY291bnQtLSkKCiAgICAgICAgQnV0dG9uKCcrJykKICAgICAgICAgIC5vbkNsaWNrKCgpID0+IHRoaXMuY291bnQrKykKICAgICAgfQogICAgfQogIH0KfQpgYGAKCiMjIOeItuWtkOWPjOWQkee7keWumgoKYGBgdHlwZXNjcmlwdAovLyDniLbnu4Tku7YKQEVudHJ5CkBDb21wb25lbnQKc3RydWN0IFBhcmVudCB7CiAgQFN0YXRlIGZhdGhlck1zZzogc3RyaW5nID0gJ0hlbGxvJwoKICBidWlsZCgpIHsKICAgIENvbHVtbigpIHsKICAgICAgQ2hpbGQoewogICAgICAgIG1lc3NhZ2U6ICRmYXRoZXJNc2cgIC8vIOS9v+eUqCAkIOWIm+W7uuWPjOWQkee7keWumgogICAgICB9KQogICAgfQogIH0KfQoKLy8g5a2Q57uE5Lu2CkBDb21wb25lbnQKc3RydWN0IENoaWxkIHsKICBATGluayBtZXNzYWdlOiBzdHJpbmcgIC8vIEBMaW5rIOWunueOsOWPjOWQkee7keWumgoKICBidWlsZCgpIHsKICAgIENvbHVtbigpIHsKICAgICAgVGV4dCh0aGlzLm1lc3NhZ2UpCiAgICAgIFRleHRJbnB1dCh7IHRleHQ6IHRoaXMubWVzc2FnZSB9KQogICAgICAgIC5vbkNoYW5nZSgodmFsdWU6IHN0cmluZykgPT4gewogICAgICAgICAgdGhpcy5tZXNzYWdlID0gdmFsdWUKICAgICAgICB9KQogICAgfQogIH0KfQpgYGAK
+# ArkTS 状态管理
+
+## 装饰器对比
+
+| 装饰器 | 作用域 | 说明 |
+|--------|--------|------|
+| `@State` | 组件内 | 组件私有状态，变化触发 UI 更新 |
+| `@Prop` | 父→子 | 单向数据传递 |
+| `@Link` | 父↔子 | 双向数据绑定 |
+| `@Provide` | 祖先→后代 | 跨层级数据提供 |
+| `@Consume` | 后代←祖先 | 消费 Provide 数据 |
+| `@Observed` | 类级别 | 配合 @ObjectLink 监听对象变化 |
+| `@ObjectLink` | 组件内 | 监听 @Observed 对象的变化 |
+
+## 简单示例
+
+```typescript
+@Entry
+@Component
+struct Counter {
+  @State count: number = 0
+
+  build() {
+    Column() {
+      Text(`Count: ${this.count}`)
+        .fontSize(30)
+
+      Row() {
+        Button('-')
+          .onClick(() => this.count--)
+
+        Button('+')
+          .onClick(() => this.count++)
+      }
+    }
+  }
+}
+```
+
+## 父子双向绑定
+
+```typescript
+// 父组件
+@Entry
+@Component
+struct Parent {
+  @State fatherMsg: string = 'Hello'
+
+  build() {
+    Column() {
+      Child({
+        message: $fatherMsg  // 使用 $ 创建双向绑定
+      })
+    }
+  }
+}
+
+// 子组件
+@Component
+struct Child {
+  @Link message: string  // @Link 实现双向绑定
+
+  build() {
+    Column() {
+      Text(this.message)
+      TextInput({ text: this.message })
+        .onChange((value: string) => {
+          this.message = value
+        })
+    }
+  }
+}
+```

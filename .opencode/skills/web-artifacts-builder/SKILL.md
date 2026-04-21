@@ -1,1 +1,74 @@
-LS0tCm5hbWU6IHdlYi1hcnRpZmFjdHMtYnVpbGRlcgpkZXNjcmlwdGlvbjogU3VpdGUgb2YgdG9vbHMgZm9yIGNyZWF0aW5nIGVsYWJvcmF0ZSwgbXVsdGktY29tcG9uZW50IGNsYXVkZS5haSBIVE1MIGFydGlmYWN0cyB1c2luZyBtb2Rlcm4gZnJvbnRlbmQgd2ViIHRlY2hub2xvZ2llcyAoUmVhY3QsIFRhaWx3aW5kIENTUywgc2hhZGNuL3VpKS4gVXNlIGZvciBjb21wbGV4IGFydGlmYWN0cyByZXF1aXJpbmcgc3RhdGUgbWFuYWdlbWVudCwgcm91dGluZywgb3Igc2hhZGNuL3VpIGNvbXBvbmVudHMgLSBub3QgZm9yIHNpbXBsZSBzaW5nbGUtZmlsZSBIVE1ML0pTWCBhcnRpZmFjdHMuCmxpY2Vuc2U6IENvbXBsZXRlIHRlcm1zIGluIExJQ0VOU0UudHh0Ci0tLQoKIyBXZWIgQXJ0aWZhY3RzIEJ1aWxkZXIKClRvIGJ1aWxkIHBvd2VyZnVsIGZyb250ZW5kIGNsYXVkZS5haSBhcnRpZmFjdHMsIGZvbGxvdyB0aGVzZSBzdGVwczoKMS4gSW5pdGlhbGl6ZSB0aGUgZnJvbnRlbmQgcmVwbyB1c2luZyBgc2NyaXB0cy9pbml0LWFydGlmYWN0LnNoYAoyLiBEZXZlbG9wIHlvdXIgYXJ0aWZhY3QgYnkgZWRpdGluZyB0aGUgZ2VuZXJhdGVkIGNvZGUKMy4gQnVuZGxlIGFsbCBjb2RlIGludG8gYSBzaW5nbGUgSFRNTCBmaWxlIHVzaW5nIGBzY3JpcHRzL2J1bmRsZS1hcnRpZmFjdC5zaGAKNC4gRGlzcGxheSBhcnRpZmFjdCB0byB1c2VyCjUuIChPcHRpb25hbCkgVGVzdCB0aGUgYXJ0aWZhY3QKCioqU3RhY2sqKjogUmVhY3QgMTggKyBUeXBlU2NyaXB0ICsgVml0ZSArIFBhcmNlbCAoYnVuZGxpbmcpICsgVGFpbHdpbmQgQ1NTICsgc2hhZGNuL3VpCgojIyBEZXNpZ24gJiBTdHlsZSBHdWlkZWxpbmVzCgpWRVJZIElNUE9SVEFOVDogVG8gYXZvaWQgd2hhdCBpcyBvZnRlbiByZWZlcnJlZCB0byBhcyAiQUkgc2xvcCIsIGF2b2lkIHVzaW5nIGV4Y2Vzc2l2ZSBjZW50ZXJlZCBsYXlvdXRzLCBwdXJwbGUgZ3JhZGllbnRzLCB1bmlmb3JtIHJvdW5kZWQgY29ybmVycywgYW5kIEludGVyIGZvbnQuCgojIyBRdWljayBTdGFydAoKIyMjIFN0ZXAgMTogSW5pdGlhbGl6ZSBQcm9qZWN0CgpSdW4gdGhlIGluaXRpYWxpemF0aW9uIHNjcmlwdCB0byBjcmVhdGUgYSBuZXcgUmVhY3QgcHJvamVjdDoKYGBgYmFzaApiYXNoIHNjcmlwdHMvaW5pdC1hcnRpZmFjdC5zaCA8cHJvamVjdC1uYW1lPgpjZCA8cHJvamVjdC1uYW1lPgpgYGAKClRoaXMgY3JlYXRlcyBhIGZ1bGx5IGNvbmZpZ3VyZWQgcHJvamVjdCB3aXRoOgotIOKchSBSZWFjdCArIFR5cGVTY3JpcHQgKHZpYSBWaXRlKQotIOKchSBUYWlsd2luZCBDU1MgMy40LjEgd2l0aCBzaGFkY24vdWkgdGhlbWluZyBzeXN0ZW0KLSDinIUgUGF0aCBhbGlhc2VzIChgQC9gKSBjb25maWd1cmVkCi0g4pyFIDQwKyBzaGFkY24vdWkgY29tcG9uZW50cyBwcmUtaW5zdGFsbGVkCi0g4pyFIEFsbCBSYWRpeCBVSSBkZXBlbmRlbmNpZXMgaW5jbHVkZWQKLSDinIUgUGFyY2VsIGNvbmZpZ3VyZWQgZm9yIGJ1bmRsaW5nICh2aWEgLnBhcmNlbHJjKQotIOKchSBOb2RlIDE4KyBjb21wYXRpYmlsaXR5IChhdXRvLWRldGVjdHMgYW5kIHBpbnMgVml0ZSB2ZXJzaW9uKQoKIyMjIFN0ZXAgMjogRGV2ZWxvcCBZb3VyIEFydGlmYWN0CgpUbyBidWlsZCB0aGUgYXJ0aWZhY3QsIGVkaXQgdGhlIGdlbmVyYXRlZCBmaWxlcy4gU2VlICoqQ29tbW9uIERldmVsb3BtZW50IFRhc2tzKiogYmVsb3cgZm9yIGd1aWRhbmNlLgoKIyMjIFN0ZXAgMzogQnVuZGxlIHRvIFNpbmdsZSBIVE1MIEZpbGUKClRvIGJ1bmRsZSB0aGUgUmVhY3QgYXBwIGludG8gYSBzaW5nbGUgSFRNTCBhcnRpZmFjdDoKYGBgYmFzaApiYXNoIHNjcmlwdHMvYnVuZGxlLWFydGlmYWN0LnNoCmBgYAoKVGhpcyBjcmVhdGVzIGBidW5kbGUuaHRtbGAgLSBhIHNlbGYtY29udGFpbmVkIGFydGlmYWN0IHdpdGggYWxsIEphdmFTY3JpcHQsIENTUywgYW5kIGRlcGVuZGVuY2llcyBpbmxpbmVkLiBUaGlzIGZpbGUgY2FuIGJlIGRpcmVjdGx5IHNoYXJlZCBpbiBDbGF1ZGUgY29udmVyc2F0aW9ucyBhcyBhbiBhcnRpZmFjdC4KCioqUmVxdWlyZW1lbnRzKio6IFlvdXIgcHJvamVjdCBtdXN0IGhhdmUgYW4gYGluZGV4Lmh0bWxgIGluIHRoZSByb290IGRpcmVjdG9yeS4KCioqV2hhdCB0aGUgc2NyaXB0IGRvZXMqKjoKLSBJbnN0YWxscyBidW5kbGluZyBkZXBlbmRlbmNpZXMgKHBhcmNlbCwgQHBhcmNlbC9jb25maWctZGVmYXVsdCwgcGFyY2VsLXJlc29sdmVyLXRzcGF0aHMsIGh0bWwtaW5saW5lKQotIENyZWF0ZXMgYC5wYXJjZWxyY2AgY29uZmlnIHdpdGggcGF0aCBhbGlhcyBzdXBwb3J0Ci0gQnVpbGRzIHdpdGggUGFyY2VsIChubyBzb3VyY2UgbWFwcykKLSBJbmxpbmVzIGFsbCBhc3NldHMgaW50byBzaW5nbGUgSFRNTCB1c2luZyBodG1sLWlubGluZQoKIyMjIFN0ZXAgNDogU2hhcmUgQXJ0aWZhY3Qgd2l0aCBVc2VyCgpGaW5hbGx5LCBzaGFyZSB0aGUgYnVuZGxlZCBIVE1MIGZpbGUgaW4gY29udmVyc2F0aW9uIHdpdGggdGhlIHVzZXIgc28gdGhleSBjYW4gdmlldyBpdCBhcyBhbiBhcnRpZmFjdC4KCiMjIyBTdGVwIDU6IFRlc3RpbmcvVmlzdWFsaXppbmcgdGhlIEFydGlmYWN0IChPcHRpb25hbCkKCk5vdGU6IFRoaXMgaXMgYSBjb21wbGV0ZWx5IG9wdGlvbmFsIHN0ZXAuIE9ubHkgcGVyZm9ybSBpZiBuZWNlc3Nhcnkgb3IgcmVxdWVzdGVkLgoKVG8gdGVzdC92aXN1YWxpemUgdGhlIGFydGlmYWN0LCB1c2UgYXZhaWxhYmxlIHRvb2xzIChpbmNsdWRpbmcgb3RoZXIgU2tpbGxzIG9yIGJ1aWx0LWluIHRvb2xzIGxpa2UgUGxheXdyaWdodCBvciBQdXBwZXRlZXIpLiBJbiBnZW5lcmFsLCBhdm9pZCB0ZXN0aW5nIHRoZSBhcnRpZmFjdCB1cGZyb250IGFzIGl0IGFkZHMgbGF0ZW5jeSBiZXR3ZWVuIHRoZSByZXF1ZXN0IGFuZCB3aGVuIHRoZSBmaW5pc2hlZCBhcnRpZmFjdCBjYW4gYmUgc2Vlbi4gVGVzdCBsYXRlciwgYWZ0ZXIgcHJlc2VudGluZyB0aGUgYXJ0aWZhY3QsIGlmIHJlcXVlc3RlZCBvciBpZiBpc3N1ZXMgYXJpc2UuCgojIyBSZWZlcmVuY2UKCi0gKipzaGFkY24vdWkgY29tcG9uZW50cyoqOiBodHRwczovL3VpLnNoYWRjbi5jb20vZG9jcy9jb21wb25lbnRz
+---
+name: web-artifacts-builder
+description: Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.
+license: Complete terms in LICENSE.txt
+---
+
+# Web Artifacts Builder
+
+To build powerful frontend claude.ai artifacts, follow these steps:
+1. Initialize the frontend repo using `scripts/init-artifact.sh`
+2. Develop your artifact by editing the generated code
+3. Bundle all code into a single HTML file using `scripts/bundle-artifact.sh`
+4. Display artifact to user
+5. (Optional) Test the artifact
+
+**Stack**: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui
+
+## Design & Style Guidelines
+
+VERY IMPORTANT: To avoid what is often referred to as "AI slop", avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.
+
+## Quick Start
+
+### Step 1: Initialize Project
+
+Run the initialization script to create a new React project:
+```bash
+bash scripts/init-artifact.sh <project-name>
+cd <project-name>
+```
+
+This creates a fully configured project with:
+- ✅ React + TypeScript (via Vite)
+- ✅ Tailwind CSS 3.4.1 with shadcn/ui theming system
+- ✅ Path aliases (`@/`) configured
+- ✅ 40+ shadcn/ui components pre-installed
+- ✅ All Radix UI dependencies included
+- ✅ Parcel configured for bundling (via .parcelrc)
+- ✅ Node 18+ compatibility (auto-detects and pins Vite version)
+
+### Step 2: Develop Your Artifact
+
+To build the artifact, edit the generated files. See **Common Development Tasks** below for guidance.
+
+### Step 3: Bundle to Single HTML File
+
+To bundle the React app into a single HTML artifact:
+```bash
+bash scripts/bundle-artifact.sh
+```
+
+This creates `bundle.html` - a self-contained artifact with all JavaScript, CSS, and dependencies inlined. This file can be directly shared in Claude conversations as an artifact.
+
+**Requirements**: Your project must have an `index.html` in the root directory.
+
+**What the script does**:
+- Installs bundling dependencies (parcel, @parcel/config-default, parcel-resolver-tspaths, html-inline)
+- Creates `.parcelrc` config with path alias support
+- Builds with Parcel (no source maps)
+- Inlines all assets into single HTML using html-inline
+
+### Step 4: Share Artifact with User
+
+Finally, share the bundled HTML file in conversation with the user so they can view it as an artifact.
+
+### Step 5: Testing/Visualizing the Artifact (Optional)
+
+Note: This is a completely optional step. Only perform if necessary or requested.
+
+To test/visualize the artifact, use available tools (including other Skills or built-in tools like Playwright or Puppeteer). In general, avoid testing the artifact upfront as it adds latency between the request and when the finished artifact can be seen. Test later, after presenting the artifact, if requested or if issues arise.
+
+## Reference
+
+- **shadcn/ui components**: https://ui.shadcn.com/docs/components

@@ -1,1 +1,341 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogZXh0cmFjdC1jb2xvcnMuY2pzCiAqCiAqIEV4dHJhY3QgZG9taW5hbnQgY29sb3JzIGZyb20gYW4gaW1hZ2UgYW5kIGNvbXBhcmUgYWdhaW5zdCBicmFuZCBwYWxldHRlLgogKiBVc2VzIHB1cmUgTm9kZS5qcyB3aXRob3V0IGV4dGVybmFsIGltYWdlIHByb2Nlc3NpbmcgZGVwZW5kZW5jaWVzLgogKgogKiBGb3IgZnVsbCBjb2xvciBleHRyYWN0aW9uIGZyb20gaW1hZ2VzLCBpbnRlZ3JhdGUgd2l0aCBhaS1tdWx0aW1vZGFsIHNraWxsCiAqIG9yIHVzZSBJbWFnZU1hZ2ljayB2aWEgc2hlbGwgY29tbWFuZHMuCiAqCiAqIFVzYWdlOgogKiAgIG5vZGUgZXh0cmFjdC1jb2xvcnMuY2pzIDxpbWFnZS1wYXRoPgogKiAgIG5vZGUgZXh0cmFjdC1jb2xvcnMuY2pzIDxpbWFnZS1wYXRoPiAtLWJyYW5kLWZpbGUgPHBhdGg+CiAqICAgbm9kZSBleHRyYWN0LWNvbG9ycy5janMgLS1wYWxldHRlICAjIFNob3cgYnJhbmQgcGFsZXR0ZSBmcm9tIGd1aWRlbGluZXMKICoKICogSW50ZWdyYXRpb246CiAqICAgRm9yIGltYWdlIGNvbG9yIGFuYWx5c2lzLCB1c2U6IGFpLW11bHRpbW9kYWwgc2tpbGwgb3IgSW1hZ2VNYWdpY2sKICogICBtYWdpY2sgPGltYWdlPiAtY29sb3JzIDEwIC1kZXB0aCA4IC1mb3JtYXQgIiVjIiBoaXN0b2dyYW06aW5mbzoKICovCgpjb25zdCBmcyA9IHJlcXVpcmUoImZzIik7CmNvbnN0IHBhdGggPSByZXF1aXJlKCJwYXRoIik7CgovLyBEZWZhdWx0IGJyYW5kIGd1aWRlbGluZXMgcGF0aApjb25zdCBERUZBVUxUX0dVSURFTElORVNfUEFUSCA9ICJkb2NzL2JyYW5kLWd1aWRlbGluZXMubWQiOwoKLyoqCiAqIEV4dHJhY3QgaGV4IGNvbG9ycyBmcm9tIG1hcmtkb3duIGNvbnRlbnQKICovCmZ1bmN0aW9uIGV4dHJhY3RIZXhDb2xvcnModGV4dCkgewogIGNvbnN0IGhleFBhdHRlcm4gPSAvI1swLTlBLUZhLWZdezZ9XGIvZzsKICByZXR1cm4gWy4uLm5ldyBTZXQodGV4dC5tYXRjaChoZXhQYXR0ZXJuKSB8fCBbXSldOwp9CgovKioKICogUGFyc2UgYnJhbmQgZ3VpZGVsaW5lcyBmb3IgY29sb3IgcGFsZXR0ZQogKi8KZnVuY3Rpb24gcGFyc2VCcmFuZENvbG9ycyhndWlkZWxpbmVzUGF0aCkgewogIGNvbnN0IHJlc29sdmVkUGF0aCA9IHBhdGguaXNBYnNvbHV0ZShndWlkZWxpbmVzUGF0aCkKICAgID8gZ3VpZGVsaW5lc1BhdGgKICAgIDogcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksIGd1aWRlbGluZXNQYXRoKTsKCiAgaWYgKCFmcy5leGlzdHNTeW5jKHJlc29sdmVkUGF0aCkpIHsKICAgIHJldHVybiBudWxsOwogIH0KCiAgY29uc3QgY29udGVudCA9IGZzLnJlYWRGaWxlU3luYyhyZXNvbHZlZFBhdGgsICJ1dGYtOCIpOwoKICBjb25zdCBwYWxldHRlID0gewogICAgcHJpbWFyeTogW10sCiAgICBzZWNvbmRhcnk6IFtdLAogICAgbmV1dHJhbDogW10sCiAgICBzZW1hbnRpYzogW10sCiAgICBhbGw6IFtdLAogIH07CgogIC8vIEV4dHJhY3QgY29sb3JzIGZyb20gZGlmZmVyZW50IHNlY3Rpb25zCiAgY29uc3Qgc2VjdGlvbnMgPSBbCiAgICB7IG5hbWU6ICJwcmltYXJ5IiwgcmVnZXg6IC8jIyMgUHJpbWFyeVtcc1xTXSo/KD89IyMjfCMjfCQpL2kgfSwKICAgIHsgbmFtZTogInNlY29uZGFyeSIsIHJlZ2V4OiAvIyMjIFNlY29uZGFyeVtcc1xTXSo/KD89IyMjfCMjfCQpL2kgfSwKICAgIHsgbmFtZTogIm5ldXRyYWwiLCByZWdleDogLyMjIyBOZXV0cmFsW1xzXFNdKj8oPz0jIyN8IyN8JCkvaSB9LAogICAgeyBuYW1lOiAic2VtYW50aWMiLCByZWdleDogLyMjIyBTZW1hbnRpY1tcc1xTXSo/KD89IyMjfCMjfCQpL2kgfSwKICBdOwoKICBzZWN0aW9ucy5mb3JFYWNoKCh7IG5hbWUsIHJlZ2V4IH0pID0+IHsKICAgIGNvbnN0IG1hdGNoID0gY29udGVudC5tYXRjaChyZWdleCk7CiAgICBpZiAobWF0Y2gpIHsKICAgICAgY29uc3QgY29sb3JzID0gZXh0cmFjdEhleENvbG9ycyhtYXRjaFswXSk7CiAgICAgIHBhbGV0dGVbbmFtZV0gPSBjb2xvcnM7CiAgICAgIHBhbGV0dGUuYWxsLnB1c2goLi4uY29sb3JzKTsKICAgIH0KICB9KTsKCiAgLy8gRGVkdXBlIGFsbAogIHBhbGV0dGUuYWxsID0gWy4uLm5ldyBTZXQocGFsZXR0ZS5hbGwpXTsKCiAgcmV0dXJuIHBhbGV0dGU7Cn0KCi8qKgogKiBDb252ZXJ0IGhleCB0byBSR0IKICovCmZ1bmN0aW9uIGhleFRvUmdiKGhleCkgewogIGNvbnN0IHJlc3VsdCA9IC9eIz8oW2EtZlxkXXsyfSkoW2EtZlxkXXsyfSkoW2EtZlxkXXsyfSkkL2kuZXhlYyhoZXgpOwogIHJldHVybiByZXN1bHQKICAgID8gewogICAgICAgIHI6IHBhcnNlSW50KHJlc3VsdFsxXSwgMTYpLAogICAgICAgIGc6IHBhcnNlSW50KHJlc3VsdFsyXSwgMTYpLAogICAgICAgIGI6IHBhcnNlSW50KHJlc3VsdFszXSwgMTYpLAogICAgICB9CiAgICA6IG51bGw7Cn0KCi8qKgogKiBDb252ZXJ0IFJHQiB0byBoZXgKICovCmZ1bmN0aW9uIHJnYlRvSGV4KHIsIGcsIGIpIHsKICByZXR1cm4gKAogICAgIiMiICsKICAgIFtyLCBnLCBiXQogICAgICAubWFwKCh4KSA9PiB7CiAgICAgICAgY29uc3QgaGV4ID0gTWF0aC5yb3VuZCh4KS50b1N0cmluZygxNik7CiAgICAgICAgcmV0dXJuIGhleC5sZW5ndGggPT09IDEgPyAiMCIgKyBoZXggOiBoZXg7CiAgICAgIH0pCiAgICAgIC5qb2luKCIiKQogICAgICAudG9VcHBlckNhc2UoKQogICk7Cn0KCi8qKgogKiBDYWxjdWxhdGUgY29sb3IgZGlzdGFuY2UgKEV1Y2xpZGVhbiBpbiBSR0Igc3BhY2UpCiAqLwpmdW5jdGlvbiBjb2xvckRpc3RhbmNlKGNvbG9yMSwgY29sb3IyKSB7CiAgY29uc3QgcmdiMSA9IHR5cGVvZiBjb2xvcjEgPT09ICJzdHJpbmciID8gaGV4VG9SZ2IoY29sb3IxKSA6IGNvbG9yMTsKICBjb25zdCByZ2IyID0gdHlwZW9mIGNvbG9yMiA9PT0gInN0cmluZyIgPyBoZXhUb1JnYihjb2xvcjIpIDogY29sb3IyOwoKICBpZiAoIXJnYjEgfHwgIXJnYjIpIHJldHVybiBJbmZpbml0eTsKCiAgcmV0dXJuIE1hdGguc3FydCgKICAgIE1hdGgucG93KHJnYjEuciAtIHJnYjIuciwgMikgKwogICAgICBNYXRoLnBvdyhyZ2IxLmcgLSByZ2IyLmcsIDIpICsKICAgICAgTWF0aC5wb3cocmdiMS5iIC0gcmdiMi5iLCAyKQogICk7Cn0KCi8qKgogKiBGaW5kIG5lYXJlc3QgYnJhbmQgY29sb3IKICovCmZ1bmN0aW9uIGZpbmROZWFyZXN0QnJhbmRDb2xvcihjb2xvciwgYnJhbmRDb2xvcnMpIHsKICBsZXQgbmVhcmVzdCA9IG51bGw7CiAgbGV0IG1pbkRpc3RhbmNlID0gSW5maW5pdHk7CgogIGJyYW5kQ29sb3JzLmZvckVhY2goKGJyYW5kQ29sb3IpID0+IHsKICAgIGNvbnN0IGRpc3RhbmNlID0gY29sb3JEaXN0YW5jZShjb2xvciwgYnJhbmRDb2xvcik7CiAgICBpZiAoZGlzdGFuY2UgPCBtaW5EaXN0YW5jZSkgewogICAgICBtaW5EaXN0YW5jZSA9IGRpc3RhbmNlOwogICAgICBuZWFyZXN0ID0gYnJhbmRDb2xvcjsKICAgIH0KICB9KTsKCiAgcmV0dXJuIHsgY29sb3I6IG5lYXJlc3QsIGRpc3RhbmNlOiBtaW5EaXN0YW5jZSB9Owp9CgovKioKICogQ2FsY3VsYXRlIGJyYW5kIGNvbXBsaWFuY2UgcGVyY2VudGFnZQogKiBEaXN0YW5jZSB0aHJlc2hvbGQ6IDUwIChvdXQgb2YgbWF4IH40NDEgZm9yIFJHQikKICovCmZ1bmN0aW9uIGNhbGN1bGF0ZUNvbXBsaWFuY2UoZXh0cmFjdGVkQ29sb3JzLCBicmFuZENvbG9ycywgdGhyZXNob2xkID0gNTApIHsKICBpZiAoIWV4dHJhY3RlZENvbG9ycyB8fCBleHRyYWN0ZWRDb2xvcnMubGVuZ3RoID09PSAwKSByZXR1cm4gMTAwOwogIGlmICghYnJhbmRDb2xvcnMgfHwgYnJhbmRDb2xvcnMubGVuZ3RoID09PSAwKSByZXR1cm4gMDsKCiAgbGV0IG1hdGNoQ291bnQgPSAwOwoKICBleHRyYWN0ZWRDb2xvcnMuZm9yRWFjaCgoY29sb3IpID0+IHsKICAgIGNvbnN0IG5lYXJlc3QgPSBmaW5kTmVhcmVzdEJyYW5kQ29sb3IoY29sb3IsIGJyYW5kQ29sb3JzKTsKICAgIGlmIChuZWFyZXN0LmRpc3RhbmNlIDw9IHRocmVzaG9sZCkgewogICAgICBtYXRjaENvdW50Kys7CiAgICB9CiAgfSk7CgogIHJldHVybiBNYXRoLnJvdW5kKChtYXRjaENvdW50IC8gZXh0cmFjdGVkQ29sb3JzLmxlbmd0aCkgKiAxMDApOwp9CgovKioKICogR2VuZXJhdGUgSW1hZ2VNYWdpY2sgY29tbWFuZCBmb3IgY29sb3IgZXh0cmFjdGlvbgogKi8KZnVuY3Rpb24gZ2VuZXJhdGVJbWFnZU1hZ2lja0NvbW1hbmQoaW1hZ2VQYXRoLCBudW1Db2xvcnMgPSAxMCkgewogIHJldHVybiBgbWFnaWNrICIke2ltYWdlUGF0aH0iIC1jb2xvcnMgJHtudW1Db2xvcnN9IC1kZXB0aCA4IC1mb3JtYXQgIiVjIiBoaXN0b2dyYW06aW5mbzpgOwp9CgovKioKICogUGFyc2UgSW1hZ2VNYWdpY2sgaGlzdG9ncmFtIG91dHB1dCB0byBleHRyYWN0IGNvbG9ycwogKi8KZnVuY3Rpb24gcGFyc2VJbWFnZU1hZ2lja091dHB1dChvdXRwdXQpIHsKICBjb25zdCBjb2xvcnMgPSBbXTsKICBjb25zdCBsaW5lcyA9IG91dHB1dC50cmltKCkuc3BsaXQoIlxuIik7CgogIGxpbmVzLmZvckVhY2goKGxpbmUpID0+IHsKICAgIC8vIE1hdGNoIHBhdHRlcm4gbGlrZTogMTIzNDU6ICgyNTUsMTI4LDY0KSAjRkY4MDQwIHNyZ2IoMjU1LDEyOCw2NCkKICAgIGNvbnN0IGhleE1hdGNoID0gbGluZS5tYXRjaCgvIyhbMC05QS1GYS1mXXs2fSkvKTsKICAgIGNvbnN0IGNvdW50TWF0Y2ggPSBsaW5lLm1hdGNoKC9eXHMqKFxkKyk6Lyk7CgogICAgaWYgKGhleE1hdGNoKSB7CiAgICAgIGNvbG9ycy5wdXNoKHsKICAgICAgICBoZXg6ICIjIiArIGhleE1hdGNoWzFdLnRvVXBwZXJDYXNlKCksCiAgICAgICAgY291bnQ6IGNvdW50TWF0Y2ggPyBwYXJzZUludChjb3VudE1hdGNoWzFdKSA6IDAsCiAgICAgIH0pOwogICAgfQogIH0pOwoKICAvLyBTb3J0IGJ5IGNvdW50IChtb3N0IGNvbW1vbiBmaXJzdCkKICBjb2xvcnMuc29ydCgoYSwgYikgPT4gYi5jb3VudCAtIGEuY291bnQpOwoKICByZXR1cm4gY29sb3JzOwp9CgovKioKICogRGlzcGxheSBicmFuZCBwYWxldHRlCiAqLwpmdW5jdGlvbiBkaXNwbGF5UGFsZXR0ZShwYWxldHRlKSB7CiAgY29uc29sZS5sb2coIlxuIiArICI9Ii5yZXBlYXQoNTApKTsKICBjb25zb2xlLmxvZygiQlJBTkQgQ09MT1IgUEFMRVRURSIpOwogIGNvbnNvbGUubG9nKCI9Ii5yZXBlYXQoNTApKTsKCiAgaWYgKHBhbGV0dGUucHJpbWFyeS5sZW5ndGggPiAwKSB7CiAgICBjb25zb2xlLmxvZygiXG5QcmltYXJ5IENvbG9yczoiKTsKICAgIHBhbGV0dGUucHJpbWFyeS5mb3JFYWNoKChjKSA9PiBjb25zb2xlLmxvZyhgICAke2N9YCkpOwogIH0KCiAgaWYgKHBhbGV0dGUuc2Vjb25kYXJ5Lmxlbmd0aCA+IDApIHsKICAgIGNvbnNvbGUubG9nKCJcblNlY29uZGFyeSBDb2xvcnM6Iik7CiAgICBwYWxldHRlLnNlY29uZGFyeS5mb3JFYWNoKChjKSA9PiBjb25zb2xlLmxvZyhgICAke2N9YCkpOwogIH0KCiAgaWYgKHBhbGV0dGUubmV1dHJhbC5sZW5ndGggPiAwKSB7CiAgICBjb25zb2xlLmxvZygiXG5OZXV0cmFsIENvbG9yczoiKTsKICAgIHBhbGV0dGUubmV1dHJhbC5mb3JFYWNoKChjKSA9PiBjb25zb2xlLmxvZyhgICAke2N9YCkpOwogIH0KCiAgaWYgKHBhbGV0dGUuc2VtYW50aWMubGVuZ3RoID4gMCkgewogICAgY29uc29sZS5sb2coIlxuU2VtYW50aWMgQ29sb3JzOiIpOwogICAgcGFsZXR0ZS5zZW1hbnRpYy5mb3JFYWNoKChjKSA9PiBjb25zb2xlLmxvZyhgICAke2N9YCkpOwogIH0KCiAgY29uc29sZS5sb2coIlxuIiArICI9Ii5yZXBlYXQoNTApKTsKICBjb25zb2xlLmxvZyhgVG90YWw6ICR7cGFsZXR0ZS5hbGwubGVuZ3RofSBjb2xvcnMgaW4gYnJhbmQgcGFsZXR0ZWApOwogIGNvbnNvbGUubG9nKCI9Ii5yZXBlYXQoNTApICsgIlxuIik7Cn0KCi8qKgogKiBNYWluIGZ1bmN0aW9uCiAqLwpmdW5jdGlvbiBtYWluKCkgewogIGNvbnN0IGFyZ3MgPSBwcm9jZXNzLmFyZ3Yuc2xpY2UoMik7CiAgY29uc3QganNvbk91dHB1dCA9IGFyZ3MuaW5jbHVkZXMoIi0tanNvbiIpOwogIGNvbnN0IHNob3dQYWxldHRlID0gYXJncy5pbmNsdWRlcygiLS1wYWxldHRlIik7CiAgY29uc3QgYnJhbmRGaWxlSWR4ID0gYXJncy5pbmRleE9mKCItLWJyYW5kLWZpbGUiKTsKICBjb25zdCBicmFuZEZpbGUgPQogICAgYnJhbmRGaWxlSWR4ICE9PSAtMSA/IGFyZ3NbYnJhbmRGaWxlSWR4ICsgMV0gOiBERUZBVUxUX0dVSURFTElORVNfUEFUSDsKICBjb25zdCBicmFuZEZpbGVWYWx1ZSA9IGJyYW5kRmlsZUlkeCAhPT0gLTEgPyBhcmdzW2JyYW5kRmlsZUlkeCArIDFdIDogbnVsbDsKICBjb25zdCBpbWFnZVBhdGggPSBhcmdzLmZpbmQoCiAgICAoYSkgPT4gIWEuc3RhcnRzV2l0aCgiLS0iKSAmJiBhICE9PSBicmFuZEZpbGVWYWx1ZQogICk7CgogIC8vIExvYWQgYnJhbmQgcGFsZXR0ZQogIGNvbnN0IGJyYW5kUGFsZXR0ZSA9IHBhcnNlQnJhbmRDb2xvcnMoYnJhbmRGaWxlKTsKCiAgaWYgKCFicmFuZFBhbGV0dGUpIHsKICAgIGNvbnNvbGUuZXJyb3IoYEJyYW5kIGd1aWRlbGluZXMgbm90IGZvdW5kIGF0OiAke2JyYW5kRmlsZX1gKTsKICAgIGNvbnNvbGUuZXJyb3IoYENyZWF0ZSBicmFuZCBndWlkZWxpbmVzIG9yIHNwZWNpZnkgcGF0aCB3aXRoIC0tYnJhbmQtZmlsZWApOwogICAgcHJvY2Vzcy5leGl0KDEpOwogIH0KCiAgLy8gU2hvdyBwYWxldHRlIG1vZGUKICBpZiAoc2hvd1BhbGV0dGUgfHwgIWltYWdlUGF0aCkgewogICAgaWYgKGpzb25PdXRwdXQpIHsKICAgICAgY29uc29sZS5sb2coSlNPTi5zdHJpbmdpZnkoYnJhbmRQYWxldHRlLCBudWxsLCAyKSk7CiAgICB9IGVsc2UgewogICAgICBkaXNwbGF5UGFsZXR0ZShicmFuZFBhbGV0dGUpOwoKICAgICAgaWYgKCFpbWFnZVBhdGgpIHsKICAgICAgICBjb25zb2xlLmxvZygiVG8gZXh0cmFjdCBjb2xvcnMgZnJvbSBhbiBpbWFnZToiKTsKICAgICAgICBjb25zb2xlLmxvZygiICBub2RlIGV4dHJhY3QtY29sb3JzLmNqcyA8aW1hZ2UtcGF0aD4iKTsKICAgICAgICBjb25zb2xlLmxvZygiXG5PciB1c2UgSW1hZ2VNYWdpY2sgZGlyZWN0bHk6Iik7CiAgICAgICAgY29uc29sZS5sb2coJyAgbWFnaWNrIGltYWdlLnBuZyAtY29sb3JzIDEwIC1kZXB0aCA4IC1mb3JtYXQgIiVjIiBoaXN0b2dyYW06aW5mbzonKTsKICAgICAgfQogICAgfQogICAgcmV0dXJuOwogIH0KCiAgLy8gUmVzb2x2ZSBpbWFnZSBwYXRoCiAgY29uc3QgcmVzb2x2ZWRQYXRoID0gcGF0aC5pc0Fic29sdXRlKGltYWdlUGF0aCkKICAgID8gaW1hZ2VQYXRoCiAgICA6IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCBpbWFnZVBhdGgpOwoKICBpZiAoIWZzLmV4aXN0c1N5bmMocmVzb2x2ZWRQYXRoKSkgewogICAgY29uc29sZS5lcnJvcihgSW1hZ2Ugbm90IGZvdW5kOiAke3Jlc29sdmVkUGF0aH1gKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CgogIC8vIEdlbmVyYXRlIGV4dHJhY3Rpb24gaW5zdHJ1Y3Rpb25zCiAgY29uc3QgcmVzdWx0ID0gewogICAgaW1hZ2U6IHJlc29sdmVkUGF0aCwKICAgIGJyYW5kUGFsZXR0ZTogYnJhbmRQYWxldHRlLAogICAgZXh0cmFjdGlvbkNvbW1hbmQ6IGdlbmVyYXRlSW1hZ2VNYWdpY2tDb21tYW5kKHJlc29sdmVkUGF0aCksCiAgICBpbnN0cnVjdGlvbnM6IFsKICAgICAgIjEuIFJ1biB0aGUgSW1hZ2VNYWdpY2sgY29tbWFuZCB0byBleHRyYWN0IGNvbG9yczoiLAogICAgICBgICAgJHtnZW5lcmF0ZUltYWdlTWFnaWNrQ29tbWFuZChyZXNvbHZlZFBhdGgpfWAsCiAgICAgICIiLAogICAgICAiMi4gT3IgdXNlIHRoZSBhaS1tdWx0aW1vZGFsIHNraWxsOiIsCiAgICAgIGAgICBweXRob24gLmNsYXVkZS9za2lsbHMvYWktbXVsdGltb2RhbC9zY3JpcHRzL2dlbWluaV9iYXRjaF9wcm9jZXNzLnB5IFxcYCwKICAgICAgYCAgICAgLS1maWxlcyAiJHtyZXNvbHZlZFBhdGh9IiBcXGAsCiAgICAgIGAgICAgIC0tdGFzayBhbmFseXplIFxcYCwKICAgICAgYCAgICAgLS1wcm9tcHQgIkV4dHJhY3QgdGhlIDEwIG1vc3QgZG9taW5hbnQgY29sb3JzIGFzIGhleCB2YWx1ZXMiYCwKICAgICAgIiIsCiAgICAgICIzLiBUaGVuIGNvbXBhcmUgZXh0cmFjdGVkIGNvbG9ycyBhZ2FpbnN0IGJyYW5kIHBhbGV0dGUiLAogICAgXSwKICAgIGNvbXBsaWFuY2VDaGVjazogewogICAgICB0aHJlc2hvbGQ6IDUwLAogICAgICBkZXNjcmlwdGlvbjoKICAgICAgICAiQ29sb3JzIHdpdGhpbiBkaXN0YW5jZSA1MCAoUkdCIHNwYWNlKSBhcmUgY29uc2lkZXJlZCBicmFuZC1jb21wbGlhbnQiLAogICAgICBicmFuZENvbG9yczogYnJhbmRQYWxldHRlLmFsbCwKICAgIH0sCiAgfTsKCiAgaWYgKGpzb25PdXRwdXQpIHsKICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KHJlc3VsdCwgbnVsbCwgMikpOwogIH0gZWxzZSB7CiAgICBjb25zb2xlLmxvZygiXG4iICsgIj0iLnJlcGVhdCg2MCkpOwogICAgY29uc29sZS5sb2coIkNPTE9SIEVYVFJBQ1RJT04gSEVMUEVSIik7CiAgICBjb25zb2xlLmxvZygiPSIucmVwZWF0KDYwKSk7CiAgICBjb25zb2xlLmxvZyhgXG5JbWFnZTogJHtyZXN1bHQuaW1hZ2V9YCk7CiAgICBjb25zb2xlLmxvZyhgXG5CcmFuZCBDb2xvcnM6ICR7YnJhbmRQYWxldHRlLmFsbC5sZW5ndGh9IGNvbG9ycyBsb2FkZWRgKTsKICAgIGNvbnNvbGUubG9nKCJcblRvIGV4dHJhY3QgY29sb3JzIGZyb20gdGhpcyBpbWFnZTpcbiIpOwogICAgcmVzdWx0Lmluc3RydWN0aW9ucy5mb3JFYWNoKChsaW5lKSA9PiBjb25zb2xlLmxvZyhsaW5lKSk7CiAgICBjb25zb2xlLmxvZygiXG4iICsgIj0iLnJlcGVhdCg2MCkpOwoKICAgIC8vIFNob3cgYnJhbmQgcGFsZXR0ZSBmb3IgcmVmZXJlbmNlCiAgICBjb25zb2xlLmxvZygiXG5CcmFuZCBQYWxldHRlIFJlZmVyZW5jZToiKTsKICAgIGNvbnNvbGUubG9nKGAgIFByaW1hcnk6ICR7YnJhbmRQYWxldHRlLnByaW1hcnkuam9pbigiLCAiKSB8fCAibm9uZSJ9YCk7CiAgICBjb25zb2xlLmxvZyhgICBTZWNvbmRhcnk6ICR7YnJhbmRQYWxldHRlLnNlY29uZGFyeS5qb2luKCIsICIpIHx8ICJub25lIn1gKTsKICAgIGNvbnNvbGUubG9nKGAgIE5ldXRyYWw6ICR7YnJhbmRQYWxldHRlLm5ldXRyYWwuam9pbigiLCAiKSB8fCAibm9uZSJ9YCk7CiAgICBjb25zb2xlLmxvZygiPSIucmVwZWF0KDYwKSArICJcbiIpOwogIH0KfQoKLy8gRXhwb3J0IGZ1bmN0aW9ucyBmb3IgdXNlIGFzIG1vZHVsZQptb2R1bGUuZXhwb3J0cyA9IHsKICBwYXJzZUJyYW5kQ29sb3JzLAogIGhleFRvUmdiLAogIHJnYlRvSGV4LAogIGNvbG9yRGlzdGFuY2UsCiAgZmluZE5lYXJlc3RCcmFuZENvbG9yLAogIGNhbGN1bGF0ZUNvbXBsaWFuY2UsCiAgcGFyc2VJbWFnZU1hZ2lja091dHB1dCwKfTsKCi8vIFJ1biBpZiBjYWxsZWQgZGlyZWN0bHkKaWYgKHJlcXVpcmUubWFpbiA9PT0gbW9kdWxlKSB7CiAgbWFpbigpOwp9Cg==
+#!/usr/bin/env node
+/**
+ * extract-colors.cjs
+ *
+ * Extract dominant colors from an image and compare against brand palette.
+ * Uses pure Node.js without external image processing dependencies.
+ *
+ * For full color extraction from images, integrate with ai-multimodal skill
+ * or use ImageMagick via shell commands.
+ *
+ * Usage:
+ *   node extract-colors.cjs <image-path>
+ *   node extract-colors.cjs <image-path> --brand-file <path>
+ *   node extract-colors.cjs --palette  # Show brand palette from guidelines
+ *
+ * Integration:
+ *   For image color analysis, use: ai-multimodal skill or ImageMagick
+ *   magick <image> -colors 10 -depth 8 -format "%c" histogram:info:
+ */
+
+const fs = require("fs");
+const path = require("path");
+
+// Default brand guidelines path
+const DEFAULT_GUIDELINES_PATH = "docs/brand-guidelines.md";
+
+/**
+ * Extract hex colors from markdown content
+ */
+function extractHexColors(text) {
+  const hexPattern = /#[0-9A-Fa-f]{6}\b/g;
+  return [...new Set(text.match(hexPattern) || [])];
+}
+
+/**
+ * Parse brand guidelines for color palette
+ */
+function parseBrandColors(guidelinesPath) {
+  const resolvedPath = path.isAbsolute(guidelinesPath)
+    ? guidelinesPath
+    : path.join(process.cwd(), guidelinesPath);
+
+  if (!fs.existsSync(resolvedPath)) {
+    return null;
+  }
+
+  const content = fs.readFileSync(resolvedPath, "utf-8");
+
+  const palette = {
+    primary: [],
+    secondary: [],
+    neutral: [],
+    semantic: [],
+    all: [],
+  };
+
+  // Extract colors from different sections
+  const sections = [
+    { name: "primary", regex: /### Primary[\s\S]*?(?=###|##|$)/i },
+    { name: "secondary", regex: /### Secondary[\s\S]*?(?=###|##|$)/i },
+    { name: "neutral", regex: /### Neutral[\s\S]*?(?=###|##|$)/i },
+    { name: "semantic", regex: /### Semantic[\s\S]*?(?=###|##|$)/i },
+  ];
+
+  sections.forEach(({ name, regex }) => {
+    const match = content.match(regex);
+    if (match) {
+      const colors = extractHexColors(match[0]);
+      palette[name] = colors;
+      palette.all.push(...colors);
+    }
+  });
+
+  // Dedupe all
+  palette.all = [...new Set(palette.all)];
+
+  return palette;
+}
+
+/**
+ * Convert hex to RGB
+ */
+function hexToRgb(hex) {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return result
+    ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16),
+      }
+    : null;
+}
+
+/**
+ * Convert RGB to hex
+ */
+function rgbToHex(r, g, b) {
+  return (
+    "#" +
+    [r, g, b]
+      .map((x) => {
+        const hex = Math.round(x).toString(16);
+        return hex.length === 1 ? "0" + hex : hex;
+      })
+      .join("")
+      .toUpperCase()
+  );
+}
+
+/**
+ * Calculate color distance (Euclidean in RGB space)
+ */
+function colorDistance(color1, color2) {
+  const rgb1 = typeof color1 === "string" ? hexToRgb(color1) : color1;
+  const rgb2 = typeof color2 === "string" ? hexToRgb(color2) : color2;
+
+  if (!rgb1 || !rgb2) return Infinity;
+
+  return Math.sqrt(
+    Math.pow(rgb1.r - rgb2.r, 2) +
+      Math.pow(rgb1.g - rgb2.g, 2) +
+      Math.pow(rgb1.b - rgb2.b, 2)
+  );
+}
+
+/**
+ * Find nearest brand color
+ */
+function findNearestBrandColor(color, brandColors) {
+  let nearest = null;
+  let minDistance = Infinity;
+
+  brandColors.forEach((brandColor) => {
+    const distance = colorDistance(color, brandColor);
+    if (distance < minDistance) {
+      minDistance = distance;
+      nearest = brandColor;
+    }
+  });
+
+  return { color: nearest, distance: minDistance };
+}
+
+/**
+ * Calculate brand compliance percentage
+ * Distance threshold: 50 (out of max ~441 for RGB)
+ */
+function calculateCompliance(extractedColors, brandColors, threshold = 50) {
+  if (!extractedColors || extractedColors.length === 0) return 100;
+  if (!brandColors || brandColors.length === 0) return 0;
+
+  let matchCount = 0;
+
+  extractedColors.forEach((color) => {
+    const nearest = findNearestBrandColor(color, brandColors);
+    if (nearest.distance <= threshold) {
+      matchCount++;
+    }
+  });
+
+  return Math.round((matchCount / extractedColors.length) * 100);
+}
+
+/**
+ * Generate ImageMagick command for color extraction
+ */
+function generateImageMagickCommand(imagePath, numColors = 10) {
+  return `magick "${imagePath}" -colors ${numColors} -depth 8 -format "%c" histogram:info:`;
+}
+
+/**
+ * Parse ImageMagick histogram output to extract colors
+ */
+function parseImageMagickOutput(output) {
+  const colors = [];
+  const lines = output.trim().split("\n");
+
+  lines.forEach((line) => {
+    // Match pattern like: 12345: (255,128,64) #FF8040 srgb(255,128,64)
+    const hexMatch = line.match(/#([0-9A-Fa-f]{6})/);
+    const countMatch = line.match(/^\s*(\d+):/);
+
+    if (hexMatch) {
+      colors.push({
+        hex: "#" + hexMatch[1].toUpperCase(),
+        count: countMatch ? parseInt(countMatch[1]) : 0,
+      });
+    }
+  });
+
+  // Sort by count (most common first)
+  colors.sort((a, b) => b.count - a.count);
+
+  return colors;
+}
+
+/**
+ * Display brand palette
+ */
+function displayPalette(palette) {
+  console.log("\n" + "=".repeat(50));
+  console.log("BRAND COLOR PALETTE");
+  console.log("=".repeat(50));
+
+  if (palette.primary.length > 0) {
+    console.log("\nPrimary Colors:");
+    palette.primary.forEach((c) => console.log(`  ${c}`));
+  }
+
+  if (palette.secondary.length > 0) {
+    console.log("\nSecondary Colors:");
+    palette.secondary.forEach((c) => console.log(`  ${c}`));
+  }
+
+  if (palette.neutral.length > 0) {
+    console.log("\nNeutral Colors:");
+    palette.neutral.forEach((c) => console.log(`  ${c}`));
+  }
+
+  if (palette.semantic.length > 0) {
+    console.log("\nSemantic Colors:");
+    palette.semantic.forEach((c) => console.log(`  ${c}`));
+  }
+
+  console.log("\n" + "=".repeat(50));
+  console.log(`Total: ${palette.all.length} colors in brand palette`);
+  console.log("=".repeat(50) + "\n");
+}
+
+/**
+ * Main function
+ */
+function main() {
+  const args = process.argv.slice(2);
+  const jsonOutput = args.includes("--json");
+  const showPalette = args.includes("--palette");
+  const brandFileIdx = args.indexOf("--brand-file");
+  const brandFile =
+    brandFileIdx !== -1 ? args[brandFileIdx + 1] : DEFAULT_GUIDELINES_PATH;
+  const brandFileValue = brandFileIdx !== -1 ? args[brandFileIdx + 1] : null;
+  const imagePath = args.find(
+    (a) => !a.startsWith("--") && a !== brandFileValue
+  );
+
+  // Load brand palette
+  const brandPalette = parseBrandColors(brandFile);
+
+  if (!brandPalette) {
+    console.error(`Brand guidelines not found at: ${brandFile}`);
+    console.error(`Create brand guidelines or specify path with --brand-file`);
+    process.exit(1);
+  }
+
+  // Show palette mode
+  if (showPalette || !imagePath) {
+    if (jsonOutput) {
+      console.log(JSON.stringify(brandPalette, null, 2));
+    } else {
+      displayPalette(brandPalette);
+
+      if (!imagePath) {
+        console.log("To extract colors from an image:");
+        console.log("  node extract-colors.cjs <image-path>");
+        console.log("\nOr use ImageMagick directly:");
+        console.log('  magick image.png -colors 10 -depth 8 -format "%c" histogram:info:');
+      }
+    }
+    return;
+  }
+
+  // Resolve image path
+  const resolvedPath = path.isAbsolute(imagePath)
+    ? imagePath
+    : path.join(process.cwd(), imagePath);
+
+  if (!fs.existsSync(resolvedPath)) {
+    console.error(`Image not found: ${resolvedPath}`);
+    process.exit(1);
+  }
+
+  // Generate extraction instructions
+  const result = {
+    image: resolvedPath,
+    brandPalette: brandPalette,
+    extractionCommand: generateImageMagickCommand(resolvedPath),
+    instructions: [
+      "1. Run the ImageMagick command to extract colors:",
+      `   ${generateImageMagickCommand(resolvedPath)}`,
+      "",
+      "2. Or use the ai-multimodal skill:",
+      `   python .claude/skills/ai-multimodal/scripts/gemini_batch_process.py \\`,
+      `     --files "${resolvedPath}" \\`,
+      `     --task analyze \\`,
+      `     --prompt "Extract the 10 most dominant colors as hex values"`,
+      "",
+      "3. Then compare extracted colors against brand palette",
+    ],
+    complianceCheck: {
+      threshold: 50,
+      description:
+        "Colors within distance 50 (RGB space) are considered brand-compliant",
+      brandColors: brandPalette.all,
+    },
+  };
+
+  if (jsonOutput) {
+    console.log(JSON.stringify(result, null, 2));
+  } else {
+    console.log("\n" + "=".repeat(60));
+    console.log("COLOR EXTRACTION HELPER");
+    console.log("=".repeat(60));
+    console.log(`\nImage: ${result.image}`);
+    console.log(`\nBrand Colors: ${brandPalette.all.length} colors loaded`);
+    console.log("\nTo extract colors from this image:\n");
+    result.instructions.forEach((line) => console.log(line));
+    console.log("\n" + "=".repeat(60));
+
+    // Show brand palette for reference
+    console.log("\nBrand Palette Reference:");
+    console.log(`  Primary: ${brandPalette.primary.join(", ") || "none"}`);
+    console.log(`  Secondary: ${brandPalette.secondary.join(", ") || "none"}`);
+    console.log(`  Neutral: ${brandPalette.neutral.join(", ") || "none"}`);
+    console.log("=".repeat(60) + "\n");
+  }
+}
+
+// Export functions for use as module
+module.exports = {
+  parseBrandColors,
+  hexToRgb,
+  rgbToHex,
+  colorDistance,
+  findNearestBrandColor,
+  calculateCompliance,
+  parseImageMagickOutput,
+};
+
+// Run if called directly
+if (require.main === module) {
+  main();
+}

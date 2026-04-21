@@ -1,1 +1,430 @@
-IyBKU09OIFNjaGVtYXMKClRoaXMgZG9jdW1lbnQgZGVmaW5lcyB0aGUgSlNPTiBzY2hlbWFzIHVzZWQgYnkgc2tpbGwtY3JlYXRvci4KCi0tLQoKIyMgZXZhbHMuanNvbgoKRGVmaW5lcyB0aGUgZXZhbHMgZm9yIGEgc2tpbGwuIExvY2F0ZWQgYXQgYGV2YWxzL2V2YWxzLmpzb25gIHdpdGhpbiB0aGUgc2tpbGwgZGlyZWN0b3J5LgoKYGBganNvbgp7CiAgInNraWxsX25hbWUiOiAiZXhhbXBsZS1za2lsbCIsCiAgImV2YWxzIjogWwogICAgewogICAgICAiaWQiOiAxLAogICAgICAicHJvbXB0IjogIlVzZXIncyBleGFtcGxlIHByb21wdCIsCiAgICAgICJleHBlY3RlZF9vdXRwdXQiOiAiRGVzY3JpcHRpb24gb2YgZXhwZWN0ZWQgcmVzdWx0IiwKICAgICAgImZpbGVzIjogWyJldmFscy9maWxlcy9zYW1wbGUxLnBkZiJdLAogICAgICAiZXhwZWN0YXRpb25zIjogWwogICAgICAgICJUaGUgb3V0cHV0IGluY2x1ZGVzIFgiLAogICAgICAgICJUaGUgc2tpbGwgdXNlZCBzY3JpcHQgWSIKICAgICAgXQogICAgfQogIF0KfQpgYGAKCioqRmllbGRzOioqCi0gYHNraWxsX25hbWVgOiBOYW1lIG1hdGNoaW5nIHRoZSBza2lsbCdzIGZyb250bWF0dGVyCi0gYGV2YWxzW10uaWRgOiBVbmlxdWUgaW50ZWdlciBpZGVudGlmaWVyCi0gYGV2YWxzW10ucHJvbXB0YDogVGhlIHRhc2sgdG8gZXhlY3V0ZQotIGBldmFsc1tdLmV4cGVjdGVkX291dHB1dGA6IEh1bWFuLXJlYWRhYmxlIGRlc2NyaXB0aW9uIG9mIHN1Y2Nlc3MKLSBgZXZhbHNbXS5maWxlc2A6IE9wdGlvbmFsIGxpc3Qgb2YgaW5wdXQgZmlsZSBwYXRocyAocmVsYXRpdmUgdG8gc2tpbGwgcm9vdCkKLSBgZXZhbHNbXS5leHBlY3RhdGlvbnNgOiBMaXN0IG9mIHZlcmlmaWFibGUgc3RhdGVtZW50cwoKLS0tCgojIyBoaXN0b3J5Lmpzb24KClRyYWNrcyB2ZXJzaW9uIHByb2dyZXNzaW9uIGluIEltcHJvdmUgbW9kZS4gTG9jYXRlZCBhdCB3b3Jrc3BhY2Ugcm9vdC4KCmBgYGpzb24KewogICJzdGFydGVkX2F0IjogIjIwMjYtMDEtMTVUMTA6MzA6MDBaIiwKICAic2tpbGxfbmFtZSI6ICJwZGYiLAogICJjdXJyZW50X2Jlc3QiOiAidjIiLAogICJpdGVyYXRpb25zIjogWwogICAgewogICAgICAidmVyc2lvbiI6ICJ2MCIsCiAgICAgICJwYXJlbnQiOiBudWxsLAogICAgICAiZXhwZWN0YXRpb25fcGFzc19yYXRlIjogMC42NSwKICAgICAgImdyYWRpbmdfcmVzdWx0IjogImJhc2VsaW5lIiwKICAgICAgImlzX2N1cnJlbnRfYmVzdCI6IGZhbHNlCiAgICB9LAogICAgewogICAgICAidmVyc2lvbiI6ICJ2MSIsCiAgICAgICJwYXJlbnQiOiAidjAiLAogICAgICAiZXhwZWN0YXRpb25fcGFzc19yYXRlIjogMC43NSwKICAgICAgImdyYWRpbmdfcmVzdWx0IjogIndvbiIsCiAgICAgICJpc19jdXJyZW50X2Jlc3QiOiBmYWxzZQogICAgfSwKICAgIHsKICAgICAgInZlcnNpb24iOiAidjIiLAogICAgICAicGFyZW50IjogInYxIiwKICAgICAgImV4cGVjdGF0aW9uX3Bhc3NfcmF0ZSI6IDAuODUsCiAgICAgICJncmFkaW5nX3Jlc3VsdCI6ICJ3b24iLAogICAgICAiaXNfY3VycmVudF9iZXN0IjogdHJ1ZQogICAgfQogIF0KfQpgYGAKCioqRmllbGRzOioqCi0gYHN0YXJ0ZWRfYXRgOiBJU08gdGltZXN0YW1wIG9mIHdoZW4gaW1wcm92ZW1lbnQgc3RhcnRlZAotIGBza2lsbF9uYW1lYDogTmFtZSBvZiB0aGUgc2tpbGwgYmVpbmcgaW1wcm92ZWQKLSBgY3VycmVudF9iZXN0YDogVmVyc2lvbiBpZGVudGlmaWVyIG9mIHRoZSBiZXN0IHBlcmZvcm1lcgotIGBpdGVyYXRpb25zW10udmVyc2lvbmA6IFZlcnNpb24gaWRlbnRpZmllciAodjAsIHYxLCAuLi4pCi0gYGl0ZXJhdGlvbnNbXS5wYXJlbnRgOiBQYXJlbnQgdmVyc2lvbiB0aGlzIHdhcyBkZXJpdmVkIGZyb20KLSBgaXRlcmF0aW9uc1tdLmV4cGVjdGF0aW9uX3Bhc3NfcmF0ZWA6IFBhc3MgcmF0ZSBmcm9tIGdyYWRpbmcKLSBgaXRlcmF0aW9uc1tdLmdyYWRpbmdfcmVzdWx0YDogImJhc2VsaW5lIiwgIndvbiIsICJsb3N0Iiwgb3IgInRpZSIKLSBgaXRlcmF0aW9uc1tdLmlzX2N1cnJlbnRfYmVzdGA6IFdoZXRoZXIgdGhpcyBpcyB0aGUgY3VycmVudCBiZXN0IHZlcnNpb24KCi0tLQoKIyMgZ3JhZGluZy5qc29uCgpPdXRwdXQgZnJvbSB0aGUgZ3JhZGVyIGFnZW50LiBMb2NhdGVkIGF0IGA8cnVuLWRpcj4vZ3JhZGluZy5qc29uYC4KCmBgYGpzb24KewogICJleHBlY3RhdGlvbnMiOiBbCiAgICB7CiAgICAgICJ0ZXh0IjogIlRoZSBvdXRwdXQgaW5jbHVkZXMgdGhlIG5hbWUgJ0pvaG4gU21pdGgnIiwKICAgICAgInBhc3NlZCI6IHRydWUsCiAgICAgICJldmlkZW5jZSI6ICJGb3VuZCBpbiB0cmFuc2NyaXB0IFN0ZXAgMzogJ0V4dHJhY3RlZCBuYW1lczogSm9obiBTbWl0aCwgU2FyYWggSm9obnNvbiciCiAgICB9LAogICAgewogICAgICAidGV4dCI6ICJUaGUgc3ByZWFkc2hlZXQgaGFzIGEgU1VNIGZvcm11bGEgaW4gY2VsbCBCMTAiLAogICAgICAicGFzc2VkIjogZmFsc2UsCiAgICAgICJldmlkZW5jZSI6ICJObyBzcHJlYWRzaGVldCB3YXMgY3JlYXRlZC4gVGhlIG91dHB1dCB3YXMgYSB0ZXh0IGZpbGUuIgogICAgfQogIF0sCiAgInN1bW1hcnkiOiB7CiAgICAicGFzc2VkIjogMiwKICAgICJmYWlsZWQiOiAxLAogICAgInRvdGFsIjogMywKICAgICJwYXNzX3JhdGUiOiAwLjY3CiAgfSwKICAiZXhlY3V0aW9uX21ldHJpY3MiOiB7CiAgICAidG9vbF9jYWxscyI6IHsKICAgICAgIlJlYWQiOiA1LAogICAgICAiV3JpdGUiOiAyLAogICAgICAiQmFzaCI6IDgKICAgIH0sCiAgICAidG90YWxfdG9vbF9jYWxscyI6IDE1LAogICAgInRvdGFsX3N0ZXBzIjogNiwKICAgICJlcnJvcnNfZW5jb3VudGVyZWQiOiAwLAogICAgIm91dHB1dF9jaGFycyI6IDEyNDUwLAogICAgInRyYW5zY3JpcHRfY2hhcnMiOiAzMjAwCiAgfSwKICAidGltaW5nIjogewogICAgImV4ZWN1dG9yX2R1cmF0aW9uX3NlY29uZHMiOiAxNjUuMCwKICAgICJncmFkZXJfZHVyYXRpb25fc2Vjb25kcyI6IDI2LjAsCiAgICAidG90YWxfZHVyYXRpb25fc2Vjb25kcyI6IDE5MS4wCiAgfSwKICAiY2xhaW1zIjogWwogICAgewogICAgICAiY2xhaW0iOiAiVGhlIGZvcm0gaGFzIDEyIGZpbGxhYmxlIGZpZWxkcyIsCiAgICAgICJ0eXBlIjogImZhY3R1YWwiLAogICAgICAidmVyaWZpZWQiOiB0cnVlLAogICAgICAiZXZpZGVuY2UiOiAiQ291bnRlZCAxMiBmaWVsZHMgaW4gZmllbGRfaW5mby5qc29uIgogICAgfQogIF0sCiAgInVzZXJfbm90ZXNfc3VtbWFyeSI6IHsKICAgICJ1bmNlcnRhaW50aWVzIjogWyJVc2VkIDIwMjMgZGF0YSwgbWF5IGJlIHN0YWxlIl0sCiAgICAibmVlZHNfcmV2aWV3IjogW10sCiAgICAid29ya2Fyb3VuZHMiOiBbIkZlbGwgYmFjayB0byB0ZXh0IG92ZXJsYXkgZm9yIG5vbi1maWxsYWJsZSBmaWVsZHMiXQogIH0sCiAgImV2YWxfZmVlZGJhY2siOiB7CiAgICAic3VnZ2VzdGlvbnMiOiBbCiAgICAgIHsKICAgICAgICAiYXNzZXJ0aW9uIjogIlRoZSBvdXRwdXQgaW5jbHVkZXMgdGhlIG5hbWUgJ0pvaG4gU21pdGgnIiwKICAgICAgICAicmVhc29uIjogIkEgaGFsbHVjaW5hdGVkIGRvY3VtZW50IHRoYXQgbWVudGlvbnMgdGhlIG5hbWUgd291bGQgYWxzbyBwYXNzIgogICAgICB9CiAgICBdLAogICAgIm92ZXJhbGwiOiAiQXNzZXJ0aW9ucyBjaGVjayBwcmVzZW5jZSBidXQgbm90IGNvcnJlY3RuZXNzLiIKICB9Cn0KYGBgCgoqKkZpZWxkczoqKgotIGBleHBlY3RhdGlvbnNbXWA6IEdyYWRlZCBleHBlY3RhdGlvbnMgd2l0aCBldmlkZW5jZQotIGBzdW1tYXJ5YDogQWdncmVnYXRlIHBhc3MvZmFpbCBjb3VudHMKLSBgZXhlY3V0aW9uX21ldHJpY3NgOiBUb29sIHVzYWdlIGFuZCBvdXRwdXQgc2l6ZSAoZnJvbSBleGVjdXRvcidzIG1ldHJpY3MuanNvbikKLSBgdGltaW5nYDogV2FsbCBjbG9jayB0aW1pbmcgKGZyb20gdGltaW5nLmpzb24pCi0gYGNsYWltc2A6IEV4dHJhY3RlZCBhbmQgdmVyaWZpZWQgY2xhaW1zIGZyb20gdGhlIG91dHB1dAotIGB1c2VyX25vdGVzX3N1bW1hcnlgOiBJc3N1ZXMgZmxhZ2dlZCBieSB0aGUgZXhlY3V0b3IKLSBgZXZhbF9mZWVkYmFja2A6IChvcHRpb25hbCkgSW1wcm92ZW1lbnQgc3VnZ2VzdGlvbnMgZm9yIHRoZSBldmFscywgb25seSBwcmVzZW50IHdoZW4gdGhlIGdyYWRlciBpZGVudGlmaWVzIGlzc3VlcyB3b3J0aCByYWlzaW5nCgotLS0KCiMjIG1ldHJpY3MuanNvbgoKT3V0cHV0IGZyb20gdGhlIGV4ZWN1dG9yIGFnZW50LiBMb2NhdGVkIGF0IGA8cnVuLWRpcj4vb3V0cHV0cy9tZXRyaWNzLmpzb25gLgoKYGBganNvbgp7CiAgInRvb2xfY2FsbHMiOiB7CiAgICAiUmVhZCI6IDUsCiAgICAiV3JpdGUiOiAyLAogICAgIkJhc2giOiA4LAogICAgIkVkaXQiOiAxLAogICAgIkdsb2IiOiAyLAogICAgIkdyZXAiOiAwCiAgfSwKICAidG90YWxfdG9vbF9jYWxscyI6IDE4LAogICJ0b3RhbF9zdGVwcyI6IDYsCiAgImZpbGVzX2NyZWF0ZWQiOiBbImZpbGxlZF9mb3JtLnBkZiIsICJmaWVsZF92YWx1ZXMuanNvbiJdLAogICJlcnJvcnNfZW5jb3VudGVyZWQiOiAwLAogICJvdXRwdXRfY2hhcnMiOiAxMjQ1MCwKICAidHJhbnNjcmlwdF9jaGFycyI6IDMyMDAKfQpgYGAKCioqRmllbGRzOioqCi0gYHRvb2xfY2FsbHNgOiBDb3VudCBwZXIgdG9vbCB0eXBlCi0gYHRvdGFsX3Rvb2xfY2FsbHNgOiBTdW0gb2YgYWxsIHRvb2wgY2FsbHMKLSBgdG90YWxfc3RlcHNgOiBOdW1iZXIgb2YgbWFqb3IgZXhlY3V0aW9uIHN0ZXBzCi0gYGZpbGVzX2NyZWF0ZWRgOiBMaXN0IG9mIG91dHB1dCBmaWxlcyBjcmVhdGVkCi0gYGVycm9yc19lbmNvdW50ZXJlZGA6IE51bWJlciBvZiBlcnJvcnMgZHVyaW5nIGV4ZWN1dGlvbgotIGBvdXRwdXRfY2hhcnNgOiBUb3RhbCBjaGFyYWN0ZXIgY291bnQgb2Ygb3V0cHV0IGZpbGVzCi0gYHRyYW5zY3JpcHRfY2hhcnNgOiBDaGFyYWN0ZXIgY291bnQgb2YgdHJhbnNjcmlwdAoKLS0tCgojIyB0aW1pbmcuanNvbgoKV2FsbCBjbG9jayB0aW1pbmcgZm9yIGEgcnVuLiBMb2NhdGVkIGF0IGA8cnVuLWRpcj4vdGltaW5nLmpzb25gLgoKKipIb3cgdG8gY2FwdHVyZToqKiBXaGVuIGEgc3ViYWdlbnQgdGFzayBjb21wbGV0ZXMsIHRoZSB0YXNrIG5vdGlmaWNhdGlvbiBpbmNsdWRlcyBgdG90YWxfdG9rZW5zYCBhbmQgYGR1cmF0aW9uX21zYC4gU2F2ZSB0aGVzZSBpbW1lZGlhdGVseSDigJQgdGhleSBhcmUgbm90IHBlcnNpc3RlZCBhbnl3aGVyZSBlbHNlIGFuZCBjYW5ub3QgYmUgcmVjb3ZlcmVkIGFmdGVyIHRoZSBmYWN0LgoKYGBganNvbgp7CiAgInRvdGFsX3Rva2VucyI6IDg0ODUyLAogICJkdXJhdGlvbl9tcyI6IDIzMzMyLAogICJ0b3RhbF9kdXJhdGlvbl9zZWNvbmRzIjogMjMuMywKICAiZXhlY3V0b3Jfc3RhcnQiOiAiMjAyNi0wMS0xNVQxMDozMDowMFoiLAogICJleGVjdXRvcl9lbmQiOiAiMjAyNi0wMS0xNVQxMDozMjo0NVoiLAogICJleGVjdXRvcl9kdXJhdGlvbl9zZWNvbmRzIjogMTY1LjAsCiAgImdyYWRlcl9zdGFydCI6ICIyMDI2LTAxLTE1VDEwOjMyOjQ2WiIsCiAgImdyYWRlcl9lbmQiOiAiMjAyNi0wMS0xNVQxMDozMzoxMloiLAogICJncmFkZXJfZHVyYXRpb25fc2Vjb25kcyI6IDI2LjAKfQpgYGAKCi0tLQoKIyMgYmVuY2htYXJrLmpzb24KCk91dHB1dCBmcm9tIEJlbmNobWFyayBtb2RlLiBMb2NhdGVkIGF0IGBiZW5jaG1hcmtzLzx0aW1lc3RhbXA+L2JlbmNobWFyay5qc29uYC4KCmBgYGpzb24KewogICJtZXRhZGF0YSI6IHsKICAgICJza2lsbF9uYW1lIjogInBkZiIsCiAgICAic2tpbGxfcGF0aCI6ICIvcGF0aC90by9wZGYiLAogICAgImV4ZWN1dG9yX21vZGVsIjogImNsYXVkZS1zb25uZXQtNC0yMDI1MDUxNCIsCiAgICAiYW5hbHl6ZXJfbW9kZWwiOiAibW9zdC1jYXBhYmxlLW1vZGVsIiwKICAgICJ0aW1lc3RhbXAiOiAiMjAyNi0wMS0xNVQxMDozMDowMFoiLAogICAgImV2YWxzX3J1biI6IFsxLCAyLCAzXSwKICAgICJydW5zX3Blcl9jb25maWd1cmF0aW9uIjogMwogIH0sCgogICJydW5zIjogWwogICAgewogICAgICAiZXZhbF9pZCI6IDEsCiAgICAgICJldmFsX25hbWUiOiAiT2NlYW4iLAogICAgICAiY29uZmlndXJhdGlvbiI6ICJ3aXRoX3NraWxsIiwKICAgICAgInJ1bl9udW1iZXIiOiAxLAogICAgICAicmVzdWx0IjogewogICAgICAgICJwYXNzX3JhdGUiOiAwLjg1LAogICAgICAgICJwYXNzZWQiOiA2LAogICAgICAgICJmYWlsZWQiOiAxLAogICAgICAgICJ0b3RhbCI6IDcsCiAgICAgICAgInRpbWVfc2Vjb25kcyI6IDQyLjUsCiAgICAgICAgInRva2VucyI6IDM4MDAsCiAgICAgICAgInRvb2xfY2FsbHMiOiAxOCwKICAgICAgICAiZXJyb3JzIjogMAogICAgICB9LAogICAgICAiZXhwZWN0YXRpb25zIjogWwogICAgICAgIHsidGV4dCI6ICIuLi4iLCAicGFzc2VkIjogdHJ1ZSwgImV2aWRlbmNlIjogIi4uLiJ9CiAgICAgIF0sCiAgICAgICJub3RlcyI6IFsKICAgICAgICAiVXNlZCAyMDIzIGRhdGEsIG1heSBiZSBzdGFsZSIsCiAgICAgICAgIkZlbGwgYmFjayB0byB0ZXh0IG92ZXJsYXkgZm9yIG5vbi1maWxsYWJsZSBmaWVsZHMiCiAgICAgIF0KICAgIH0KICBdLAoKICAicnVuX3N1bW1hcnkiOiB7CiAgICAid2l0aF9za2lsbCI6IHsKICAgICAgInBhc3NfcmF0ZSI6IHsibWVhbiI6IDAuODUsICJzdGRkZXYiOiAwLjA1LCAibWluIjogMC44MCwgIm1heCI6IDAuOTB9LAogICAgICAidGltZV9zZWNvbmRzIjogeyJtZWFuIjogNDUuMCwgInN0ZGRldiI6IDEyLjAsICJtaW4iOiAzMi4wLCAibWF4IjogNTguMH0sCiAgICAgICJ0b2tlbnMiOiB7Im1lYW4iOiAzODAwLCAic3RkZGV2IjogNDAwLCAibWluIjogMzIwMCwgIm1heCI6IDQxMDB9CiAgICB9LAogICAgIndpdGhvdXRfc2tpbGwiOiB7CiAgICAgICJwYXNzX3JhdGUiOiB7Im1lYW4iOiAwLjM1LCAic3RkZGV2IjogMC4wOCwgIm1pbiI6IDAuMjgsICJtYXgiOiAwLjQ1fSwKICAgICAgInRpbWVfc2Vjb25kcyI6IHsibWVhbiI6IDMyLjAsICJzdGRkZXYiOiA4LjAsICJtaW4iOiAyNC4wLCAibWF4IjogNDIuMH0sCiAgICAgICJ0b2tlbnMiOiB7Im1lYW4iOiAyMTAwLCAic3RkZGV2IjogMzAwLCAibWluIjogMTgwMCwgIm1heCI6IDI1MDB9CiAgICB9LAogICAgImRlbHRhIjogewogICAgICAicGFzc19yYXRlIjogIiswLjUwIiwKICAgICAgInRpbWVfc2Vjb25kcyI6ICIrMTMuMCIsCiAgICAgICJ0b2tlbnMiOiAiKzE3MDAiCiAgICB9CiAgfSwKCiAgIm5vdGVzIjogWwogICAgIkFzc2VydGlvbiAnT3V0cHV0IGlzIGEgUERGIGZpbGUnIHBhc3NlcyAxMDAlIGluIGJvdGggY29uZmlndXJhdGlvbnMgLSBtYXkgbm90IGRpZmZlcmVudGlhdGUgc2tpbGwgdmFsdWUiLAogICAgIkV2YWwgMyBzaG93cyBoaWdoIHZhcmlhbmNlICg1MCUgwrEgNDAlKSAtIG1heSBiZSBmbGFreSBvciBtb2RlbC1kZXBlbmRlbnQiLAogICAgIldpdGhvdXQtc2tpbGwgcnVucyBjb25zaXN0ZW50bHkgZmFpbCBvbiB0YWJsZSBleHRyYWN0aW9uIGV4cGVjdGF0aW9ucyIsCiAgICAiU2tpbGwgYWRkcyAxM3MgYXZlcmFnZSBleGVjdXRpb24gdGltZSBidXQgaW1wcm92ZXMgcGFzcyByYXRlIGJ5IDUwJSIKICBdCn0KYGBgCgoqKkZpZWxkczoqKgotIGBtZXRhZGF0YWA6IEluZm9ybWF0aW9uIGFib3V0IHRoZSBiZW5jaG1hcmsgcnVuCiAgLSBgc2tpbGxfbmFtZWA6IE5hbWUgb2YgdGhlIHNraWxsCiAgLSBgdGltZXN0YW1wYDogV2hlbiB0aGUgYmVuY2htYXJrIHdhcyBydW4KICAtIGBldmFsc19ydW5gOiBMaXN0IG9mIGV2YWwgbmFtZXMgb3IgSURzCiAgLSBgcnVuc19wZXJfY29uZmlndXJhdGlvbmA6IE51bWJlciBvZiBydW5zIHBlciBjb25maWcgKGUuZy4gMykKLSBgcnVuc1tdYDogSW5kaXZpZHVhbCBydW4gcmVzdWx0cwogIC0gYGV2YWxfaWRgOiBOdW1lcmljIGV2YWwgaWRlbnRpZmllcgogIC0gYGV2YWxfbmFtZWA6IEh1bWFuLXJlYWRhYmxlIGV2YWwgbmFtZSAodXNlZCBhcyBzZWN0aW9uIGhlYWRlciBpbiB0aGUgdmlld2VyKQogIC0gYGNvbmZpZ3VyYXRpb25gOiBNdXN0IGJlIGAid2l0aF9za2lsbCJgIG9yIGAid2l0aG91dF9za2lsbCJgICh0aGUgdmlld2VyIHVzZXMgdGhpcyBleGFjdCBzdHJpbmcgZm9yIGdyb3VwaW5nIGFuZCBjb2xvciBjb2RpbmcpCiAgLSBgcnVuX251bWJlcmA6IEludGVnZXIgcnVuIG51bWJlciAoMSwgMiwgMy4uLikKICAtIGByZXN1bHRgOiBOZXN0ZWQgb2JqZWN0IHdpdGggYHBhc3NfcmF0ZWAsIGBwYXNzZWRgLCBgdG90YWxgLCBgdGltZV9zZWNvbmRzYCwgYHRva2Vuc2AsIGBlcnJvcnNgCi0gYHJ1bl9zdW1tYXJ5YDogU3RhdGlzdGljYWwgYWdncmVnYXRlcyBwZXIgY29uZmlndXJhdGlvbgogIC0gYHdpdGhfc2tpbGxgIC8gYHdpdGhvdXRfc2tpbGxgOiBFYWNoIGNvbnRhaW5zIGBwYXNzX3JhdGVgLCBgdGltZV9zZWNvbmRzYCwgYHRva2Vuc2Agb2JqZWN0cyB3aXRoIGBtZWFuYCBhbmQgYHN0ZGRldmAgZmllbGRzCiAgLSBgZGVsdGFgOiBEaWZmZXJlbmNlIHN0cmluZ3MgbGlrZSBgIiswLjUwImAsIGAiKzEzLjAiYCwgYCIrMTcwMCJgCi0gYG5vdGVzYDogRnJlZWZvcm0gb2JzZXJ2YXRpb25zIGZyb20gdGhlIGFuYWx5emVyCgoqKkltcG9ydGFudDoqKiBUaGUgdmlld2VyIHJlYWRzIHRoZXNlIGZpZWxkIG5hbWVzIGV4YWN0bHkuIFVzaW5nIGBjb25maWdgIGluc3RlYWQgb2YgYGNvbmZpZ3VyYXRpb25gLCBvciBwdXR0aW5nIGBwYXNzX3JhdGVgIGF0IHRoZSB0b3AgbGV2ZWwgb2YgYSBydW4gaW5zdGVhZCBvZiBuZXN0ZWQgdW5kZXIgYHJlc3VsdGAsIHdpbGwgY2F1c2UgdGhlIHZpZXdlciB0byBzaG93IGVtcHR5L3plcm8gdmFsdWVzLiBBbHdheXMgcmVmZXJlbmNlIHRoaXMgc2NoZW1hIHdoZW4gZ2VuZXJhdGluZyBiZW5jaG1hcmsuanNvbiBtYW51YWxseS4KCi0tLQoKIyMgY29tcGFyaXNvbi5qc29uCgpPdXRwdXQgZnJvbSBibGluZCBjb21wYXJhdG9yLiBMb2NhdGVkIGF0IGA8Z3JhZGluZy1kaXI+L2NvbXBhcmlzb24tTi5qc29uYC4KCmBgYGpzb24KewogICJ3aW5uZXIiOiAiQSIsCiAgInJlYXNvbmluZyI6ICJPdXRwdXQgQSBwcm92aWRlcyBhIGNvbXBsZXRlIHNvbHV0aW9uIHdpdGggcHJvcGVyIGZvcm1hdHRpbmcgYW5kIGFsbCByZXF1aXJlZCBmaWVsZHMuIE91dHB1dCBCIGlzIG1pc3NpbmcgdGhlIGRhdGUgZmllbGQgYW5kIGhhcyBmb3JtYXR0aW5nIGluY29uc2lzdGVuY2llcy4iLAogICJydWJyaWMiOiB7CiAgICAiQSI6IHsKICAgICAgImNvbnRlbnQiOiB7CiAgICAgICAgImNvcnJlY3RuZXNzIjogNSwKICAgICAgICAiY29tcGxldGVuZXNzIjogNSwKICAgICAgICAiYWNjdXJhY3kiOiA0CiAgICAgIH0sCiAgICAgICJzdHJ1Y3R1cmUiOiB7CiAgICAgICAgIm9yZ2FuaXphdGlvbiI6IDQsCiAgICAgICAgImZvcm1hdHRpbmciOiA1LAogICAgICAgICJ1c2FiaWxpdHkiOiA0CiAgICAgIH0sCiAgICAgICJjb250ZW50X3Njb3JlIjogNC43LAogICAgICAic3RydWN0dXJlX3Njb3JlIjogNC4zLAogICAgICAib3ZlcmFsbF9zY29yZSI6IDkuMAogICAgfSwKICAgICJCIjogewogICAgICAiY29udGVudCI6IHsKICAgICAgICAiY29ycmVjdG5lc3MiOiAzLAogICAgICAgICJjb21wbGV0ZW5lc3MiOiAyLAogICAgICAgICJhY2N1cmFjeSI6IDMKICAgICAgfSwKICAgICAgInN0cnVjdHVyZSI6IHsKICAgICAgICAib3JnYW5pemF0aW9uIjogMywKICAgICAgICAiZm9ybWF0dGluZyI6IDIsCiAgICAgICAgInVzYWJpbGl0eSI6IDMKICAgICAgfSwKICAgICAgImNvbnRlbnRfc2NvcmUiOiAyLjcsCiAgICAgICJzdHJ1Y3R1cmVfc2NvcmUiOiAyLjcsCiAgICAgICJvdmVyYWxsX3Njb3JlIjogNS40CiAgICB9CiAgfSwKICAib3V0cHV0X3F1YWxpdHkiOiB7CiAgICAiQSI6IHsKICAgICAgInNjb3JlIjogOSwKICAgICAgInN0cmVuZ3RocyI6IFsiQ29tcGxldGUgc29sdXRpb24iLCAiV2VsbC1mb3JtYXR0ZWQiLCAiQWxsIGZpZWxkcyBwcmVzZW50Il0sCiAgICAgICJ3ZWFrbmVzc2VzIjogWyJNaW5vciBzdHlsZSBpbmNvbnNpc3RlbmN5IGluIGhlYWRlciJdCiAgICB9LAogICAgIkIiOiB7CiAgICAgICJzY29yZSI6IDUsCiAgICAgICJzdHJlbmd0aHMiOiBbIlJlYWRhYmxlIG91dHB1dCIsICJDb3JyZWN0IGJhc2ljIHN0cnVjdHVyZSJdLAogICAgICAid2Vha25lc3NlcyI6IFsiTWlzc2luZyBkYXRlIGZpZWxkIiwgIkZvcm1hdHRpbmcgaW5jb25zaXN0ZW5jaWVzIiwgIlBhcnRpYWwgZGF0YSBleHRyYWN0aW9uIl0KICAgIH0KICB9LAogICJleHBlY3RhdGlvbl9yZXN1bHRzIjogewogICAgIkEiOiB7CiAgICAgICJwYXNzZWQiOiA0LAogICAgICAidG90YWwiOiA1LAogICAgICAicGFzc19yYXRlIjogMC44MCwKICAgICAgImRldGFpbHMiOiBbCiAgICAgICAgeyJ0ZXh0IjogIk91dHB1dCBpbmNsdWRlcyBuYW1lIiwgInBhc3NlZCI6IHRydWV9CiAgICAgIF0KICAgIH0sCiAgICAiQiI6IHsKICAgICAgInBhc3NlZCI6IDMsCiAgICAgICJ0b3RhbCI6IDUsCiAgICAgICJwYXNzX3JhdGUiOiAwLjYwLAogICAgICAiZGV0YWlscyI6IFsKICAgICAgICB7InRleHQiOiAiT3V0cHV0IGluY2x1ZGVzIG5hbWUiLCAicGFzc2VkIjogdHJ1ZX0KICAgICAgXQogICAgfQogIH0KfQpgYGAKCi0tLQoKIyMgYW5hbHlzaXMuanNvbgoKT3V0cHV0IGZyb20gcG9zdC1ob2MgYW5hbHl6ZXIuIExvY2F0ZWQgYXQgYDxncmFkaW5nLWRpcj4vYW5hbHlzaXMuanNvbmAuCgpgYGBqc29uCnsKICAiY29tcGFyaXNvbl9zdW1tYXJ5IjogewogICAgIndpbm5lciI6ICJBIiwKICAgICJ3aW5uZXJfc2tpbGwiOiAicGF0aC90by93aW5uZXIvc2tpbGwiLAogICAgImxvc2VyX3NraWxsIjogInBhdGgvdG8vbG9zZXIvc2tpbGwiLAogICAgImNvbXBhcmF0b3JfcmVhc29uaW5nIjogIkJyaWVmIHN1bW1hcnkgb2Ygd2h5IGNvbXBhcmF0b3IgY2hvc2Ugd2lubmVyIgogIH0sCiAgIndpbm5lcl9zdHJlbmd0aHMiOiBbCiAgICAiQ2xlYXIgc3RlcC1ieS1zdGVwIGluc3RydWN0aW9ucyBmb3IgaGFuZGxpbmcgbXVsdGktcGFnZSBkb2N1bWVudHMiLAogICAgIkluY2x1ZGVkIHZhbGlkYXRpb24gc2NyaXB0IHRoYXQgY2F1Z2h0IGZvcm1hdHRpbmcgZXJyb3JzIgogIF0sCiAgImxvc2VyX3dlYWtuZXNzZXMiOiBbCiAgICAiVmFndWUgaW5zdHJ1Y3Rpb24gJ3Byb2Nlc3MgdGhlIGRvY3VtZW50IGFwcHJvcHJpYXRlbHknIGxlZCB0byBpbmNvbnNpc3RlbnQgYmVoYXZpb3IiLAogICAgIk5vIHNjcmlwdCBmb3IgdmFsaWRhdGlvbiwgYWdlbnQgaGFkIHRvIGltcHJvdmlzZSIKICBdLAogICJpbnN0cnVjdGlvbl9mb2xsb3dpbmciOiB7CiAgICAid2lubmVyIjogewogICAgICAic2NvcmUiOiA5LAogICAgICAiaXNzdWVzIjogWyJNaW5vcjogc2tpcHBlZCBvcHRpb25hbCBsb2dnaW5nIHN0ZXAiXQogICAgfSwKICAgICJsb3NlciI6IHsKICAgICAgInNjb3JlIjogNiwKICAgICAgImlzc3VlcyI6IFsKICAgICAgICAiRGlkIG5vdCB1c2UgdGhlIHNraWxsJ3MgZm9ybWF0dGluZyB0ZW1wbGF0ZSIsCiAgICAgICAgIkludmVudGVkIG93biBhcHByb2FjaCBpbnN0ZWFkIG9mIGZvbGxvd2luZyBzdGVwIDMiCiAgICAgIF0KICAgIH0KICB9LAogICJpbXByb3ZlbWVudF9zdWdnZXN0aW9ucyI6IFsKICAgIHsKICAgICAgInByaW9yaXR5IjogImhpZ2giLAogICAgICAiY2F0ZWdvcnkiOiAiaW5zdHJ1Y3Rpb25zIiwKICAgICAgInN1Z2dlc3Rpb24iOiAiUmVwbGFjZSAncHJvY2VzcyB0aGUgZG9jdW1lbnQgYXBwcm9wcmlhdGVseScgd2l0aCBleHBsaWNpdCBzdGVwcyIsCiAgICAgICJleHBlY3RlZF9pbXBhY3QiOiAiV291bGQgZWxpbWluYXRlIGFtYmlndWl0eSB0aGF0IGNhdXNlZCBpbmNvbnNpc3RlbnQgYmVoYXZpb3IiCiAgICB9CiAgXSwKICAidHJhbnNjcmlwdF9pbnNpZ2h0cyI6IHsKICAgICJ3aW5uZXJfZXhlY3V0aW9uX3BhdHRlcm4iOiAiUmVhZCBza2lsbCAtPiBGb2xsb3dlZCA1LXN0ZXAgcHJvY2VzcyAtPiBVc2VkIHZhbGlkYXRpb24gc2NyaXB0IiwKICAgICJsb3Nlcl9leGVjdXRpb25fcGF0dGVybiI6ICJSZWFkIHNraWxsIC0+IFVuY2xlYXIgb24gYXBwcm9hY2ggLT4gVHJpZWQgMyBkaWZmZXJlbnQgbWV0aG9kcyIKICB9Cn0KYGBgCg==
+# JSON Schemas
+
+This document defines the JSON schemas used by skill-creator.
+
+---
+
+## evals.json
+
+Defines the evals for a skill. Located at `evals/evals.json` within the skill directory.
+
+```json
+{
+  "skill_name": "example-skill",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "User's example prompt",
+      "expected_output": "Description of expected result",
+      "files": ["evals/files/sample1.pdf"],
+      "expectations": [
+        "The output includes X",
+        "The skill used script Y"
+      ]
+    }
+  ]
+}
+```
+
+**Fields:**
+- `skill_name`: Name matching the skill's frontmatter
+- `evals[].id`: Unique integer identifier
+- `evals[].prompt`: The task to execute
+- `evals[].expected_output`: Human-readable description of success
+- `evals[].files`: Optional list of input file paths (relative to skill root)
+- `evals[].expectations`: List of verifiable statements
+
+---
+
+## history.json
+
+Tracks version progression in Improve mode. Located at workspace root.
+
+```json
+{
+  "started_at": "2026-01-15T10:30:00Z",
+  "skill_name": "pdf",
+  "current_best": "v2",
+  "iterations": [
+    {
+      "version": "v0",
+      "parent": null,
+      "expectation_pass_rate": 0.65,
+      "grading_result": "baseline",
+      "is_current_best": false
+    },
+    {
+      "version": "v1",
+      "parent": "v0",
+      "expectation_pass_rate": 0.75,
+      "grading_result": "won",
+      "is_current_best": false
+    },
+    {
+      "version": "v2",
+      "parent": "v1",
+      "expectation_pass_rate": 0.85,
+      "grading_result": "won",
+      "is_current_best": true
+    }
+  ]
+}
+```
+
+**Fields:**
+- `started_at`: ISO timestamp of when improvement started
+- `skill_name`: Name of the skill being improved
+- `current_best`: Version identifier of the best performer
+- `iterations[].version`: Version identifier (v0, v1, ...)
+- `iterations[].parent`: Parent version this was derived from
+- `iterations[].expectation_pass_rate`: Pass rate from grading
+- `iterations[].grading_result`: "baseline", "won", "lost", or "tie"
+- `iterations[].is_current_best`: Whether this is the current best version
+
+---
+
+## grading.json
+
+Output from the grader agent. Located at `<run-dir>/grading.json`.
+
+```json
+{
+  "expectations": [
+    {
+      "text": "The output includes the name 'John Smith'",
+      "passed": true,
+      "evidence": "Found in transcript Step 3: 'Extracted names: John Smith, Sarah Johnson'"
+    },
+    {
+      "text": "The spreadsheet has a SUM formula in cell B10",
+      "passed": false,
+      "evidence": "No spreadsheet was created. The output was a text file."
+    }
+  ],
+  "summary": {
+    "passed": 2,
+    "failed": 1,
+    "total": 3,
+    "pass_rate": 0.67
+  },
+  "execution_metrics": {
+    "tool_calls": {
+      "Read": 5,
+      "Write": 2,
+      "Bash": 8
+    },
+    "total_tool_calls": 15,
+    "total_steps": 6,
+    "errors_encountered": 0,
+    "output_chars": 12450,
+    "transcript_chars": 3200
+  },
+  "timing": {
+    "executor_duration_seconds": 165.0,
+    "grader_duration_seconds": 26.0,
+    "total_duration_seconds": 191.0
+  },
+  "claims": [
+    {
+      "claim": "The form has 12 fillable fields",
+      "type": "factual",
+      "verified": true,
+      "evidence": "Counted 12 fields in field_info.json"
+    }
+  ],
+  "user_notes_summary": {
+    "uncertainties": ["Used 2023 data, may be stale"],
+    "needs_review": [],
+    "workarounds": ["Fell back to text overlay for non-fillable fields"]
+  },
+  "eval_feedback": {
+    "suggestions": [
+      {
+        "assertion": "The output includes the name 'John Smith'",
+        "reason": "A hallucinated document that mentions the name would also pass"
+      }
+    ],
+    "overall": "Assertions check presence but not correctness."
+  }
+}
+```
+
+**Fields:**
+- `expectations[]`: Graded expectations with evidence
+- `summary`: Aggregate pass/fail counts
+- `execution_metrics`: Tool usage and output size (from executor's metrics.json)
+- `timing`: Wall clock timing (from timing.json)
+- `claims`: Extracted and verified claims from the output
+- `user_notes_summary`: Issues flagged by the executor
+- `eval_feedback`: (optional) Improvement suggestions for the evals, only present when the grader identifies issues worth raising
+
+---
+
+## metrics.json
+
+Output from the executor agent. Located at `<run-dir>/outputs/metrics.json`.
+
+```json
+{
+  "tool_calls": {
+    "Read": 5,
+    "Write": 2,
+    "Bash": 8,
+    "Edit": 1,
+    "Glob": 2,
+    "Grep": 0
+  },
+  "total_tool_calls": 18,
+  "total_steps": 6,
+  "files_created": ["filled_form.pdf", "field_values.json"],
+  "errors_encountered": 0,
+  "output_chars": 12450,
+  "transcript_chars": 3200
+}
+```
+
+**Fields:**
+- `tool_calls`: Count per tool type
+- `total_tool_calls`: Sum of all tool calls
+- `total_steps`: Number of major execution steps
+- `files_created`: List of output files created
+- `errors_encountered`: Number of errors during execution
+- `output_chars`: Total character count of output files
+- `transcript_chars`: Character count of transcript
+
+---
+
+## timing.json
+
+Wall clock timing for a run. Located at `<run-dir>/timing.json`.
+
+**How to capture:** When a subagent task completes, the task notification includes `total_tokens` and `duration_ms`. Save these immediately — they are not persisted anywhere else and cannot be recovered after the fact.
+
+```json
+{
+  "total_tokens": 84852,
+  "duration_ms": 23332,
+  "total_duration_seconds": 23.3,
+  "executor_start": "2026-01-15T10:30:00Z",
+  "executor_end": "2026-01-15T10:32:45Z",
+  "executor_duration_seconds": 165.0,
+  "grader_start": "2026-01-15T10:32:46Z",
+  "grader_end": "2026-01-15T10:33:12Z",
+  "grader_duration_seconds": 26.0
+}
+```
+
+---
+
+## benchmark.json
+
+Output from Benchmark mode. Located at `benchmarks/<timestamp>/benchmark.json`.
+
+```json
+{
+  "metadata": {
+    "skill_name": "pdf",
+    "skill_path": "/path/to/pdf",
+    "executor_model": "claude-sonnet-4-20250514",
+    "analyzer_model": "most-capable-model",
+    "timestamp": "2026-01-15T10:30:00Z",
+    "evals_run": [1, 2, 3],
+    "runs_per_configuration": 3
+  },
+
+  "runs": [
+    {
+      "eval_id": 1,
+      "eval_name": "Ocean",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.85,
+        "passed": 6,
+        "failed": 1,
+        "total": 7,
+        "time_seconds": 42.5,
+        "tokens": 3800,
+        "tool_calls": 18,
+        "errors": 0
+      },
+      "expectations": [
+        {"text": "...", "passed": true, "evidence": "..."}
+      ],
+      "notes": [
+        "Used 2023 data, may be stale",
+        "Fell back to text overlay for non-fillable fields"
+      ]
+    }
+  ],
+
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {"mean": 0.85, "stddev": 0.05, "min": 0.80, "max": 0.90},
+      "time_seconds": {"mean": 45.0, "stddev": 12.0, "min": 32.0, "max": 58.0},
+      "tokens": {"mean": 3800, "stddev": 400, "min": 3200, "max": 4100}
+    },
+    "without_skill": {
+      "pass_rate": {"mean": 0.35, "stddev": 0.08, "min": 0.28, "max": 0.45},
+      "time_seconds": {"mean": 32.0, "stddev": 8.0, "min": 24.0, "max": 42.0},
+      "tokens": {"mean": 2100, "stddev": 300, "min": 1800, "max": 2500}
+    },
+    "delta": {
+      "pass_rate": "+0.50",
+      "time_seconds": "+13.0",
+      "tokens": "+1700"
+    }
+  },
+
+  "notes": [
+    "Assertion 'Output is a PDF file' passes 100% in both configurations - may not differentiate skill value",
+    "Eval 3 shows high variance (50% ± 40%) - may be flaky or model-dependent",
+    "Without-skill runs consistently fail on table extraction expectations",
+    "Skill adds 13s average execution time but improves pass rate by 50%"
+  ]
+}
+```
+
+**Fields:**
+- `metadata`: Information about the benchmark run
+  - `skill_name`: Name of the skill
+  - `timestamp`: When the benchmark was run
+  - `evals_run`: List of eval names or IDs
+  - `runs_per_configuration`: Number of runs per config (e.g. 3)
+- `runs[]`: Individual run results
+  - `eval_id`: Numeric eval identifier
+  - `eval_name`: Human-readable eval name (used as section header in the viewer)
+  - `configuration`: Must be `"with_skill"` or `"without_skill"` (the viewer uses this exact string for grouping and color coding)
+  - `run_number`: Integer run number (1, 2, 3...)
+  - `result`: Nested object with `pass_rate`, `passed`, `total`, `time_seconds`, `tokens`, `errors`
+- `run_summary`: Statistical aggregates per configuration
+  - `with_skill` / `without_skill`: Each contains `pass_rate`, `time_seconds`, `tokens` objects with `mean` and `stddev` fields
+  - `delta`: Difference strings like `"+0.50"`, `"+13.0"`, `"+1700"`
+- `notes`: Freeform observations from the analyzer
+
+**Important:** The viewer reads these field names exactly. Using `config` instead of `configuration`, or putting `pass_rate` at the top level of a run instead of nested under `result`, will cause the viewer to show empty/zero values. Always reference this schema when generating benchmark.json manually.
+
+---
+
+## comparison.json
+
+Output from blind comparator. Located at `<grading-dir>/comparison-N.json`.
+
+```json
+{
+  "winner": "A",
+  "reasoning": "Output A provides a complete solution with proper formatting and all required fields. Output B is missing the date field and has formatting inconsistencies.",
+  "rubric": {
+    "A": {
+      "content": {
+        "correctness": 5,
+        "completeness": 5,
+        "accuracy": 4
+      },
+      "structure": {
+        "organization": 4,
+        "formatting": 5,
+        "usability": 4
+      },
+      "content_score": 4.7,
+      "structure_score": 4.3,
+      "overall_score": 9.0
+    },
+    "B": {
+      "content": {
+        "correctness": 3,
+        "completeness": 2,
+        "accuracy": 3
+      },
+      "structure": {
+        "organization": 3,
+        "formatting": 2,
+        "usability": 3
+      },
+      "content_score": 2.7,
+      "structure_score": 2.7,
+      "overall_score": 5.4
+    }
+  },
+  "output_quality": {
+    "A": {
+      "score": 9,
+      "strengths": ["Complete solution", "Well-formatted", "All fields present"],
+      "weaknesses": ["Minor style inconsistency in header"]
+    },
+    "B": {
+      "score": 5,
+      "strengths": ["Readable output", "Correct basic structure"],
+      "weaknesses": ["Missing date field", "Formatting inconsistencies", "Partial data extraction"]
+    }
+  },
+  "expectation_results": {
+    "A": {
+      "passed": 4,
+      "total": 5,
+      "pass_rate": 0.80,
+      "details": [
+        {"text": "Output includes name", "passed": true}
+      ]
+    },
+    "B": {
+      "passed": 3,
+      "total": 5,
+      "pass_rate": 0.60,
+      "details": [
+        {"text": "Output includes name", "passed": true}
+      ]
+    }
+  }
+}
+```
+
+---
+
+## analysis.json
+
+Output from post-hoc analyzer. Located at `<grading-dir>/analysis.json`.
+
+```json
+{
+  "comparison_summary": {
+    "winner": "A",
+    "winner_skill": "path/to/winner/skill",
+    "loser_skill": "path/to/loser/skill",
+    "comparator_reasoning": "Brief summary of why comparator chose winner"
+  },
+  "winner_strengths": [
+    "Clear step-by-step instructions for handling multi-page documents",
+    "Included validation script that caught formatting errors"
+  ],
+  "loser_weaknesses": [
+    "Vague instruction 'process the document appropriately' led to inconsistent behavior",
+    "No script for validation, agent had to improvise"
+  ],
+  "instruction_following": {
+    "winner": {
+      "score": 9,
+      "issues": ["Minor: skipped optional logging step"]
+    },
+    "loser": {
+      "score": 6,
+      "issues": [
+        "Did not use the skill's formatting template",
+        "Invented own approach instead of following step 3"
+      ]
+    }
+  },
+  "improvement_suggestions": [
+    {
+      "priority": "high",
+      "category": "instructions",
+      "suggestion": "Replace 'process the document appropriately' with explicit steps",
+      "expected_impact": "Would eliminate ambiguity that caused inconsistent behavior"
+    }
+  ],
+  "transcript_insights": {
+    "winner_execution_pattern": "Read skill -> Followed 5-step process -> Used validation script",
+    "loser_execution_pattern": "Read skill -> Unclear on approach -> Tried 3 different methods"
+  }
+}
+```

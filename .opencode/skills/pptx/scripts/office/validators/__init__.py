@@ -1,1 +1,15 @@
-IiIiClZhbGlkYXRpb24gbW9kdWxlcyBmb3IgV29yZCBkb2N1bWVudCBwcm9jZXNzaW5nLgoiIiIKCmZyb20gLmJhc2UgaW1wb3J0IEJhc2VTY2hlbWFWYWxpZGF0b3IKZnJvbSAuZG9jeCBpbXBvcnQgRE9DWFNjaGVtYVZhbGlkYXRvcgpmcm9tIC5wcHR4IGltcG9ydCBQUFRYU2NoZW1hVmFsaWRhdG9yCmZyb20gLnJlZGxpbmluZyBpbXBvcnQgUmVkbGluaW5nVmFsaWRhdG9yCgpfX2FsbF9fID0gWwogICAgIkJhc2VTY2hlbWFWYWxpZGF0b3IiLAogICAgIkRPQ1hTY2hlbWFWYWxpZGF0b3IiLAogICAgIlBQVFhTY2hlbWFWYWxpZGF0b3IiLAogICAgIlJlZGxpbmluZ1ZhbGlkYXRvciIsCl0K
+"""
+Validation modules for Word document processing.
+"""
+
+from .base import BaseSchemaValidator
+from .docx import DOCXSchemaValidator
+from .pptx import PPTXSchemaValidator
+from .redlining import RedliningValidator
+
+__all__ = [
+    "BaseSchemaValidator",
+    "DOCXSchemaValidator",
+    "PPTXSchemaValidator",
+    "RedliningValidator",
+]

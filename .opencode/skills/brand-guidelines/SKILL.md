@@ -1,1 +1,73 @@
-LS0tCm5hbWU6IGJyYW5kLWd1aWRlbGluZXMKZGVzY3JpcHRpb246IEFwcGxpZXMgQW50aHJvcGljJ3Mgb2ZmaWNpYWwgYnJhbmQgY29sb3JzIGFuZCB0eXBvZ3JhcGh5IHRvIGFueSBzb3J0IG9mIGFydGlmYWN0IHRoYXQgbWF5IGJlbmVmaXQgZnJvbSBoYXZpbmcgQW50aHJvcGljJ3MgbG9vay1hbmQtZmVlbC4gVXNlIGl0IHdoZW4gYnJhbmQgY29sb3JzIG9yIHN0eWxlIGd1aWRlbGluZXMsIHZpc3VhbCBmb3JtYXR0aW5nLCBvciBjb21wYW55IGRlc2lnbiBzdGFuZGFyZHMgYXBwbHkuCmxpY2Vuc2U6IENvbXBsZXRlIHRlcm1zIGluIExJQ0VOU0UudHh0Ci0tLQoKIyBBbnRocm9waWMgQnJhbmQgU3R5bGluZwoKIyMgT3ZlcnZpZXcKClRvIGFjY2VzcyBBbnRocm9waWMncyBvZmZpY2lhbCBicmFuZCBpZGVudGl0eSBhbmQgc3R5bGUgcmVzb3VyY2VzLCB1c2UgdGhpcyBza2lsbC4KCioqS2V5d29yZHMqKjogYnJhbmRpbmcsIGNvcnBvcmF0ZSBpZGVudGl0eSwgdmlzdWFsIGlkZW50aXR5LCBwb3N0LXByb2Nlc3NpbmcsIHN0eWxpbmcsIGJyYW5kIGNvbG9ycywgdHlwb2dyYXBoeSwgQW50aHJvcGljIGJyYW5kLCB2aXN1YWwgZm9ybWF0dGluZywgdmlzdWFsIGRlc2lnbgoKIyMgQnJhbmQgR3VpZGVsaW5lcwoKIyMjIENvbG9ycwoKKipNYWluIENvbG9yczoqKgoKLSBEYXJrOiBgIzE0MTQxM2AgLSBQcmltYXJ5IHRleHQgYW5kIGRhcmsgYmFja2dyb3VuZHMKLSBMaWdodDogYCNmYWY5ZjVgIC0gTGlnaHQgYmFja2dyb3VuZHMgYW5kIHRleHQgb24gZGFyawotIE1pZCBHcmF5OiBgI2IwYWVhNWAgLSBTZWNvbmRhcnkgZWxlbWVudHMKLSBMaWdodCBHcmF5OiBgI2U4ZTZkY2AgLSBTdWJ0bGUgYmFja2dyb3VuZHMKCioqQWNjZW50IENvbG9yczoqKgoKLSBPcmFuZ2U6IGAjZDk3NzU3YCAtIFByaW1hcnkgYWNjZW50Ci0gQmx1ZTogYCM2YTliY2NgIC0gU2Vjb25kYXJ5IGFjY2VudAotIEdyZWVuOiBgIzc4OGM1ZGAgLSBUZXJ0aWFyeSBhY2NlbnQKCiMjIyBUeXBvZ3JhcGh5CgotICoqSGVhZGluZ3MqKjogUG9wcGlucyAod2l0aCBBcmlhbCBmYWxsYmFjaykKLSAqKkJvZHkgVGV4dCoqOiBMb3JhICh3aXRoIEdlb3JnaWEgZmFsbGJhY2spCi0gKipOb3RlKio6IEZvbnRzIHNob3VsZCBiZSBwcmUtaW5zdGFsbGVkIGluIHlvdXIgZW52aXJvbm1lbnQgZm9yIGJlc3QgcmVzdWx0cwoKIyMgRmVhdHVyZXMKCiMjIyBTbWFydCBGb250IEFwcGxpY2F0aW9uCgotIEFwcGxpZXMgUG9wcGlucyBmb250IHRvIGhlYWRpbmdzICgyNHB0IGFuZCBsYXJnZXIpCi0gQXBwbGllcyBMb3JhIGZvbnQgdG8gYm9keSB0ZXh0Ci0gQXV0b21hdGljYWxseSBmYWxscyBiYWNrIHRvIEFyaWFsL0dlb3JnaWEgaWYgY3VzdG9tIGZvbnRzIHVuYXZhaWxhYmxlCi0gUHJlc2VydmVzIHJlYWRhYmlsaXR5IGFjcm9zcyBhbGwgc3lzdGVtcwoKIyMjIFRleHQgU3R5bGluZwoKLSBIZWFkaW5ncyAoMjRwdCspOiBQb3BwaW5zIGZvbnQKLSBCb2R5IHRleHQ6IExvcmEgZm9udAotIFNtYXJ0IGNvbG9yIHNlbGVjdGlvbiBiYXNlZCBvbiBiYWNrZ3JvdW5kCi0gUHJlc2VydmVzIHRleHQgaGllcmFyY2h5IGFuZCBmb3JtYXR0aW5nCgojIyMgU2hhcGUgYW5kIEFjY2VudCBDb2xvcnMKCi0gTm9uLXRleHQgc2hhcGVzIHVzZSBhY2NlbnQgY29sb3JzCi0gQ3ljbGVzIHRocm91Z2ggb3JhbmdlLCBibHVlLCBhbmQgZ3JlZW4gYWNjZW50cwotIE1haW50YWlucyB2aXN1YWwgaW50ZXJlc3Qgd2hpbGUgc3RheWluZyBvbi1icmFuZAoKIyMgVGVjaG5pY2FsIERldGFpbHMKCiMjIyBGb250IE1hbmFnZW1lbnQKCi0gVXNlcyBzeXN0ZW0taW5zdGFsbGVkIFBvcHBpbnMgYW5kIExvcmEgZm9udHMgd2hlbiBhdmFpbGFibGUKLSBQcm92aWRlcyBhdXRvbWF0aWMgZmFsbGJhY2sgdG8gQXJpYWwgKGhlYWRpbmdzKSBhbmQgR2VvcmdpYSAoYm9keSkKLSBObyBmb250IGluc3RhbGxhdGlvbiByZXF1aXJlZCAtIHdvcmtzIHdpdGggZXhpc3Rpbmcgc3lzdGVtIGZvbnRzCi0gRm9yIGJlc3QgcmVzdWx0cywgcHJlLWluc3RhbGwgUG9wcGlucyBhbmQgTG9yYSBmb250cyBpbiB5b3VyIGVudmlyb25tZW50CgojIyMgQ29sb3IgQXBwbGljYXRpb24KCi0gVXNlcyBSR0IgY29sb3IgdmFsdWVzIGZvciBwcmVjaXNlIGJyYW5kIG1hdGNoaW5nCi0gQXBwbGllZCB2aWEgcHl0aG9uLXBwdHgncyBSR0JDb2xvciBjbGFzcwotIE1haW50YWlucyBjb2xvciBmaWRlbGl0eSBhY3Jvc3MgZGlmZmVyZW50IHN5c3RlbXMK
+---
+name: brand-guidelines
+description: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+license: Complete terms in LICENSE.txt
+---
+
+# Anthropic Brand Styling
+
+## Overview
+
+To access Anthropic's official brand identity and style resources, use this skill.
+
+**Keywords**: branding, corporate identity, visual identity, post-processing, styling, brand colors, typography, Anthropic brand, visual formatting, visual design
+
+## Brand Guidelines
+
+### Colors
+
+**Main Colors:**
+
+- Dark: `#141413` - Primary text and dark backgrounds
+- Light: `#faf9f5` - Light backgrounds and text on dark
+- Mid Gray: `#b0aea5` - Secondary elements
+- Light Gray: `#e8e6dc` - Subtle backgrounds
+
+**Accent Colors:**
+
+- Orange: `#d97757` - Primary accent
+- Blue: `#6a9bcc` - Secondary accent
+- Green: `#788c5d` - Tertiary accent
+
+### Typography
+
+- **Headings**: Poppins (with Arial fallback)
+- **Body Text**: Lora (with Georgia fallback)
+- **Note**: Fonts should be pre-installed in your environment for best results
+
+## Features
+
+### Smart Font Application
+
+- Applies Poppins font to headings (24pt and larger)
+- Applies Lora font to body text
+- Automatically falls back to Arial/Georgia if custom fonts unavailable
+- Preserves readability across all systems
+
+### Text Styling
+
+- Headings (24pt+): Poppins font
+- Body text: Lora font
+- Smart color selection based on background
+- Preserves text hierarchy and formatting
+
+### Shape and Accent Colors
+
+- Non-text shapes use accent colors
+- Cycles through orange, blue, and green accents
+- Maintains visual interest while staying on-brand
+
+## Technical Details
+
+### Font Management
+
+- Uses system-installed Poppins and Lora fonts when available
+- Provides automatic fallback to Arial (headings) and Georgia (body)
+- No font installation required - works with existing system fonts
+- For best results, pre-install Poppins and Lora fonts in your environment
+
+### Color Application
+
+- Uses RGB color values for precise brand matching
+- Applied via python-pptx's RGBColor class
+- Maintains color fidelity across different systems

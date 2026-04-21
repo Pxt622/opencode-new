@@ -1,1 +1,314 @@
-LS0tCm5hbWU6IHBkZgpkZXNjcmlwdGlvbjogVXNlIHRoaXMgc2tpbGwgd2hlbmV2ZXIgdGhlIHVzZXIgd2FudHMgdG8gZG8gYW55dGhpbmcgd2l0aCBQREYgZmlsZXMuIFRoaXMgaW5jbHVkZXMgcmVhZGluZyBvciBleHRyYWN0aW5nIHRleHQvdGFibGVzIGZyb20gUERGcywgY29tYmluaW5nIG9yIG1lcmdpbmcgbXVsdGlwbGUgUERGcyBpbnRvIG9uZSwgc3BsaXR0aW5nIFBERnMgYXBhcnQsIHJvdGF0aW5nIHBhZ2VzLCBhZGRpbmcgd2F0ZXJtYXJrcywgY3JlYXRpbmcgbmV3IFBERnMsIGZpbGxpbmcgUERGIGZvcm1zLCBlbmNyeXB0aW5nL2RlY3J5cHRpbmcgUERGcywgZXh0cmFjdGluZyBpbWFnZXMsIGFuZCBPQ1Igb24gc2Nhbm5lZCBQREZzIHRvIG1ha2UgdGhlbSBzZWFyY2hhYmxlLiBJZiB0aGUgdXNlciBtZW50aW9ucyBhIC5wZGYgZmlsZSBvciBhc2tzIHRvIHByb2R1Y2Ugb25lLCB1c2UgdGhpcyBza2lsbC4KbGljZW5zZTogUHJvcHJpZXRhcnkuIExJQ0VOU0UudHh0IGhhcyBjb21wbGV0ZSB0ZXJtcwotLS0KCiMgUERGIFByb2Nlc3NpbmcgR3VpZGUKCiMjIE92ZXJ2aWV3CgpUaGlzIGd1aWRlIGNvdmVycyBlc3NlbnRpYWwgUERGIHByb2Nlc3Npbmcgb3BlcmF0aW9ucyB1c2luZyBQeXRob24gbGlicmFyaWVzIGFuZCBjb21tYW5kLWxpbmUgdG9vbHMuIEZvciBhZHZhbmNlZCBmZWF0dXJlcywgSmF2YVNjcmlwdCBsaWJyYXJpZXMsIGFuZCBkZXRhaWxlZCBleGFtcGxlcywgc2VlIFJFRkVSRU5DRS5tZC4gSWYgeW91IG5lZWQgdG8gZmlsbCBvdXQgYSBQREYgZm9ybSwgcmVhZCBGT1JNUy5tZCBhbmQgZm9sbG93IGl0cyBpbnN0cnVjdGlvbnMuCgojIyBRdWljayBTdGFydAoKYGBgcHl0aG9uCmZyb20gcHlwZGYgaW1wb3J0IFBkZlJlYWRlciwgUGRmV3JpdGVyCgojIFJlYWQgYSBQREYKcmVhZGVyID0gUGRmUmVhZGVyKCJkb2N1bWVudC5wZGYiKQpwcmludChmIlBhZ2VzOiB7bGVuKHJlYWRlci5wYWdlcyl9IikKCiMgRXh0cmFjdCB0ZXh0CnRleHQgPSAiIgpmb3IgcGFnZSBpbiByZWFkZXIucGFnZXM6CiAgICB0ZXh0ICs9IHBhZ2UuZXh0cmFjdF90ZXh0KCkKYGBgCgojIyBQeXRob24gTGlicmFyaWVzCgojIyMgcHlwZGYgLSBCYXNpYyBPcGVyYXRpb25zCgojIyMjIE1lcmdlIFBERnMKYGBgcHl0aG9uCmZyb20gcHlwZGYgaW1wb3J0IFBkZldyaXRlciwgUGRmUmVhZGVyCgp3cml0ZXIgPSBQZGZXcml0ZXIoKQpmb3IgcGRmX2ZpbGUgaW4gWyJkb2MxLnBkZiIsICJkb2MyLnBkZiIsICJkb2MzLnBkZiJdOgogICAgcmVhZGVyID0gUGRmUmVhZGVyKHBkZl9maWxlKQogICAgZm9yIHBhZ2UgaW4gcmVhZGVyLnBhZ2VzOgogICAgICAgIHdyaXRlci5hZGRfcGFnZShwYWdlKQoKd2l0aCBvcGVuKCJtZXJnZWQucGRmIiwgIndiIikgYXMgb3V0cHV0OgogICAgd3JpdGVyLndyaXRlKG91dHB1dCkKYGBgCgojIyMjIFNwbGl0IFBERgpgYGBweXRob24KcmVhZGVyID0gUGRmUmVhZGVyKCJpbnB1dC5wZGYiKQpmb3IgaSwgcGFnZSBpbiBlbnVtZXJhdGUocmVhZGVyLnBhZ2VzKToKICAgIHdyaXRlciA9IFBkZldyaXRlcigpCiAgICB3cml0ZXIuYWRkX3BhZ2UocGFnZSkKICAgIHdpdGggb3BlbihmInBhZ2Vfe2krMX0ucGRmIiwgIndiIikgYXMgb3V0cHV0OgogICAgICAgIHdyaXRlci53cml0ZShvdXRwdXQpCmBgYAoKIyMjIyBFeHRyYWN0IE1ldGFkYXRhCmBgYHB5dGhvbgpyZWFkZXIgPSBQZGZSZWFkZXIoImRvY3VtZW50LnBkZiIpCm1ldGEgPSByZWFkZXIubWV0YWRhdGEKcHJpbnQoZiJUaXRsZToge21ldGEudGl0bGV9IikKcHJpbnQoZiJBdXRob3I6IHttZXRhLmF1dGhvcn0iKQpwcmludChmIlN1YmplY3Q6IHttZXRhLnN1YmplY3R9IikKcHJpbnQoZiJDcmVhdG9yOiB7bWV0YS5jcmVhdG9yfSIpCmBgYAoKIyMjIyBSb3RhdGUgUGFnZXMKYGBgcHl0aG9uCnJlYWRlciA9IFBkZlJlYWRlcigiaW5wdXQucGRmIikKd3JpdGVyID0gUGRmV3JpdGVyKCkKCnBhZ2UgPSByZWFkZXIucGFnZXNbMF0KcGFnZS5yb3RhdGUoOTApICAjIFJvdGF0ZSA5MCBkZWdyZWVzIGNsb2Nrd2lzZQp3cml0ZXIuYWRkX3BhZ2UocGFnZSkKCndpdGggb3Blbigicm90YXRlZC5wZGYiLCAid2IiKSBhcyBvdXRwdXQ6CiAgICB3cml0ZXIud3JpdGUob3V0cHV0KQpgYGAKCiMjIyBwZGZwbHVtYmVyIC0gVGV4dCBhbmQgVGFibGUgRXh0cmFjdGlvbgoKIyMjIyBFeHRyYWN0IFRleHQgd2l0aCBMYXlvdXQKYGBgcHl0aG9uCmltcG9ydCBwZGZwbHVtYmVyCgp3aXRoIHBkZnBsdW1iZXIub3BlbigiZG9jdW1lbnQucGRmIikgYXMgcGRmOgogICAgZm9yIHBhZ2UgaW4gcGRmLnBhZ2VzOgogICAgICAgIHRleHQgPSBwYWdlLmV4dHJhY3RfdGV4dCgpCiAgICAgICAgcHJpbnQodGV4dCkKYGBgCgojIyMjIEV4dHJhY3QgVGFibGVzCmBgYHB5dGhvbgp3aXRoIHBkZnBsdW1iZXIub3BlbigiZG9jdW1lbnQucGRmIikgYXMgcGRmOgogICAgZm9yIGksIHBhZ2UgaW4gZW51bWVyYXRlKHBkZi5wYWdlcyk6CiAgICAgICAgdGFibGVzID0gcGFnZS5leHRyYWN0X3RhYmxlcygpCiAgICAgICAgZm9yIGosIHRhYmxlIGluIGVudW1lcmF0ZSh0YWJsZXMpOgogICAgICAgICAgICBwcmludChmIlRhYmxlIHtqKzF9IG9uIHBhZ2Uge2krMX06IikKICAgICAgICAgICAgZm9yIHJvdyBpbiB0YWJsZToKICAgICAgICAgICAgICAgIHByaW50KHJvdykKYGBgCgojIyMjIEFkdmFuY2VkIFRhYmxlIEV4dHJhY3Rpb24KYGBgcHl0aG9uCmltcG9ydCBwYW5kYXMgYXMgcGQKCndpdGggcGRmcGx1bWJlci5vcGVuKCJkb2N1bWVudC5wZGYiKSBhcyBwZGY6CiAgICBhbGxfdGFibGVzID0gW10KICAgIGZvciBwYWdlIGluIHBkZi5wYWdlczoKICAgICAgICB0YWJsZXMgPSBwYWdlLmV4dHJhY3RfdGFibGVzKCkKICAgICAgICBmb3IgdGFibGUgaW4gdGFibGVzOgogICAgICAgICAgICBpZiB0YWJsZTogICMgQ2hlY2sgaWYgdGFibGUgaXMgbm90IGVtcHR5CiAgICAgICAgICAgICAgICBkZiA9IHBkLkRhdGFGcmFtZSh0YWJsZVsxOl0sIGNvbHVtbnM9dGFibGVbMF0pCiAgICAgICAgICAgICAgICBhbGxfdGFibGVzLmFwcGVuZChkZikKCiMgQ29tYmluZSBhbGwgdGFibGVzCmlmIGFsbF90YWJsZXM6CiAgICBjb21iaW5lZF9kZiA9IHBkLmNvbmNhdChhbGxfdGFibGVzLCBpZ25vcmVfaW5kZXg9VHJ1ZSkKICAgIGNvbWJpbmVkX2RmLnRvX2V4Y2VsKCJleHRyYWN0ZWRfdGFibGVzLnhsc3giLCBpbmRleD1GYWxzZSkKYGBgCgojIyMgcmVwb3J0bGFiIC0gQ3JlYXRlIFBERnMKCiMjIyMgQmFzaWMgUERGIENyZWF0aW9uCmBgYHB5dGhvbgpmcm9tIHJlcG9ydGxhYi5saWIucGFnZXNpemVzIGltcG9ydCBsZXR0ZXIKZnJvbSByZXBvcnRsYWIucGRmZ2VuIGltcG9ydCBjYW52YXMKCmMgPSBjYW52YXMuQ2FudmFzKCJoZWxsby5wZGYiLCBwYWdlc2l6ZT1sZXR0ZXIpCndpZHRoLCBoZWlnaHQgPSBsZXR0ZXIKCiMgQWRkIHRleHQKYy5kcmF3U3RyaW5nKDEwMCwgaGVpZ2h0IC0gMTAwLCAiSGVsbG8gV29ybGQhIikKYy5kcmF3U3RyaW5nKDEwMCwgaGVpZ2h0IC0gMTIwLCAiVGhpcyBpcyBhIFBERiBjcmVhdGVkIHdpdGggcmVwb3J0bGFiIikKCiMgQWRkIGEgbGluZQpjLmxpbmUoMTAwLCBoZWlnaHQgLSAxNDAsIDQwMCwgaGVpZ2h0IC0gMTQwKQoKIyBTYXZlCmMuc2F2ZSgpCmBgYAoKIyMjIyBDcmVhdGUgUERGIHdpdGggTXVsdGlwbGUgUGFnZXMKYGBgcHl0aG9uCmZyb20gcmVwb3J0bGFiLmxpYi5wYWdlc2l6ZXMgaW1wb3J0IGxldHRlcgpmcm9tIHJlcG9ydGxhYi5wbGF0eXB1cyBpbXBvcnQgU2ltcGxlRG9jVGVtcGxhdGUsIFBhcmFncmFwaCwgU3BhY2VyLCBQYWdlQnJlYWsKZnJvbSByZXBvcnRsYWIubGliLnN0eWxlcyBpbXBvcnQgZ2V0U2FtcGxlU3R5bGVTaGVldAoKZG9jID0gU2ltcGxlRG9jVGVtcGxhdGUoInJlcG9ydC5wZGYiLCBwYWdlc2l6ZT1sZXR0ZXIpCnN0eWxlcyA9IGdldFNhbXBsZVN0eWxlU2hlZXQoKQpzdG9yeSA9IFtdCgojIEFkZCBjb250ZW50CnRpdGxlID0gUGFyYWdyYXBoKCJSZXBvcnQgVGl0bGUiLCBzdHlsZXNbJ1RpdGxlJ10pCnN0b3J5LmFwcGVuZCh0aXRsZSkKc3RvcnkuYXBwZW5kKFNwYWNlcigxLCAxMikpCgpib2R5ID0gUGFyYWdyYXBoKCJUaGlzIGlzIHRoZSBib2R5IG9mIHRoZSByZXBvcnQuICIgKiAyMCwgc3R5bGVzWydOb3JtYWwnXSkKc3RvcnkuYXBwZW5kKGJvZHkpCnN0b3J5LmFwcGVuZChQYWdlQnJlYWsoKSkKCiMgUGFnZSAyCnN0b3J5LmFwcGVuZChQYXJhZ3JhcGgoIlBhZ2UgMiIsIHN0eWxlc1snSGVhZGluZzEnXSkpCnN0b3J5LmFwcGVuZChQYXJhZ3JhcGgoIkNvbnRlbnQgZm9yIHBhZ2UgMiIsIHN0eWxlc1snTm9ybWFsJ10pKQoKIyBCdWlsZCBQREYKZG9jLmJ1aWxkKHN0b3J5KQpgYGAKCiMjIyMgU3Vic2NyaXB0cyBhbmQgU3VwZXJzY3JpcHRzCgoqKklNUE9SVEFOVCoqOiBOZXZlciB1c2UgVW5pY29kZSBzdWJzY3JpcHQvc3VwZXJzY3JpcHQgY2hhcmFjdGVycyAo4oKA4oKB4oKC4oKD4oKE4oKF4oKG4oKH4oKI4oKJLCDigbDCucKywrPigbTigbXigbbigbfigbjigbkpIGluIFJlcG9ydExhYiBQREZzLiBUaGUgYnVpbHQtaW4gZm9udHMgZG8gbm90IGluY2x1ZGUgdGhlc2UgZ2x5cGhzLCBjYXVzaW5nIHRoZW0gdG8gcmVuZGVyIGFzIHNvbGlkIGJsYWNrIGJveGVzLgoKSW5zdGVhZCwgdXNlIFJlcG9ydExhYidzIFhNTCBtYXJrdXAgdGFncyBpbiBQYXJhZ3JhcGggb2JqZWN0czoKYGBgcHl0aG9uCmZyb20gcmVwb3J0bGFiLnBsYXR5cHVzIGltcG9ydCBQYXJhZ3JhcGgKZnJvbSByZXBvcnRsYWIubGliLnN0eWxlcyBpbXBvcnQgZ2V0U2FtcGxlU3R5bGVTaGVldAoKc3R5bGVzID0gZ2V0U2FtcGxlU3R5bGVTaGVldCgpCgojIFN1YnNjcmlwdHM6IHVzZSA8c3ViPiB0YWcKY2hlbWljYWwgPSBQYXJhZ3JhcGgoIkg8c3ViPjI8L3N1Yj5PIiwgc3R5bGVzWydOb3JtYWwnXSkKCiMgU3VwZXJzY3JpcHRzOiB1c2UgPHN1cGVyPiB0YWcKc3F1YXJlZCA9IFBhcmFncmFwaCgieDxzdXBlcj4yPC9zdXBlcj4gKyB5PHN1cGVyPjI8L3N1cGVyPiIsIHN0eWxlc1snTm9ybWFsJ10pCmBgYAoKRm9yIGNhbnZhcy1kcmF3biB0ZXh0IChub3QgUGFyYWdyYXBoIG9iamVjdHMpLCBtYW51YWxseSBhZGp1c3QgZm9udCB0aGUgc2l6ZSBhbmQgcG9zaXRpb24gcmF0aGVyIHRoYW4gdXNpbmcgVW5pY29kZSBzdWJzY3JpcHRzL3N1cGVyc2NyaXB0cy4KCiMjIENvbW1hbmQtTGluZSBUb29scwoKIyMjIHBkZnRvdGV4dCAocG9wcGxlci11dGlscykKYGBgYmFzaAojIEV4dHJhY3QgdGV4dApwZGZ0b3RleHQgaW5wdXQucGRmIG91dHB1dC50eHQKCiMgRXh0cmFjdCB0ZXh0IHByZXNlcnZpbmcgbGF5b3V0CnBkZnRvdGV4dCAtbGF5b3V0IGlucHV0LnBkZiBvdXRwdXQudHh0CgojIEV4dHJhY3Qgc3BlY2lmaWMgcGFnZXMKcGRmdG90ZXh0IC1mIDEgLWwgNSBpbnB1dC5wZGYgb3V0cHV0LnR4dCAgIyBQYWdlcyAxLTUKYGBgCgojIyMgcXBkZgpgYGBiYXNoCiMgTWVyZ2UgUERGcwpxcGRmIC0tZW1wdHkgLS1wYWdlcyBmaWxlMS5wZGYgZmlsZTIucGRmIC0tIG1lcmdlZC5wZGYKCiMgU3BsaXQgcGFnZXMKcXBkZiBpbnB1dC5wZGYgLS1wYWdlcyAuIDEtNSAtLSBwYWdlczEtNS5wZGYKcXBkZiBpbnB1dC5wZGYgLS1wYWdlcyAuIDYtMTAgLS0gcGFnZXM2LTEwLnBkZgoKIyBSb3RhdGUgcGFnZXMKcXBkZiBpbnB1dC5wZGYgb3V0cHV0LnBkZiAtLXJvdGF0ZT0rOTA6MSAgIyBSb3RhdGUgcGFnZSAxIGJ5IDkwIGRlZ3JlZXMKCiMgUmVtb3ZlIHBhc3N3b3JkCnFwZGYgLS1wYXNzd29yZD1teXBhc3N3b3JkIC0tZGVjcnlwdCBlbmNyeXB0ZWQucGRmIGRlY3J5cHRlZC5wZGYKYGBgCgojIyMgcGRmdGsgKGlmIGF2YWlsYWJsZSkKYGBgYmFzaAojIE1lcmdlCnBkZnRrIGZpbGUxLnBkZiBmaWxlMi5wZGYgY2F0IG91dHB1dCBtZXJnZWQucGRmCgojIFNwbGl0CnBkZnRrIGlucHV0LnBkZiBidXJzdAoKIyBSb3RhdGUKcGRmdGsgaW5wdXQucGRmIHJvdGF0ZSAxZWFzdCBvdXRwdXQgcm90YXRlZC5wZGYKYGBgCgojIyBDb21tb24gVGFza3MKCiMjIyBFeHRyYWN0IFRleHQgZnJvbSBTY2FubmVkIFBERnMKYGBgcHl0aG9uCiMgUmVxdWlyZXM6IHBpcCBpbnN0YWxsIHB5dGVzc2VyYWN0IHBkZjJpbWFnZQppbXBvcnQgcHl0ZXNzZXJhY3QKZnJvbSBwZGYyaW1hZ2UgaW1wb3J0IGNvbnZlcnRfZnJvbV9wYXRoCgojIENvbnZlcnQgUERGIHRvIGltYWdlcwppbWFnZXMgPSBjb252ZXJ0X2Zyb21fcGF0aCgnc2Nhbm5lZC5wZGYnKQoKIyBPQ1IgZWFjaCBwYWdlCnRleHQgPSAiIgpmb3IgaSwgaW1hZ2UgaW4gZW51bWVyYXRlKGltYWdlcyk6CiAgICB0ZXh0ICs9IGYiUGFnZSB7aSsxfTpcbiIKICAgIHRleHQgKz0gcHl0ZXNzZXJhY3QuaW1hZ2VfdG9fc3RyaW5nKGltYWdlKQogICAgdGV4dCArPSAiXG5cbiIKCnByaW50KHRleHQpCmBgYAoKIyMjIEFkZCBXYXRlcm1hcmsKYGBgcHl0aG9uCmZyb20gcHlwZGYgaW1wb3J0IFBkZlJlYWRlciwgUGRmV3JpdGVyCgojIENyZWF0ZSB3YXRlcm1hcmsgKG9yIGxvYWQgZXhpc3RpbmcpCndhdGVybWFyayA9IFBkZlJlYWRlcigid2F0ZXJtYXJrLnBkZiIpLnBhZ2VzWzBdCgojIEFwcGx5IHRvIGFsbCBwYWdlcwpyZWFkZXIgPSBQZGZSZWFkZXIoImRvY3VtZW50LnBkZiIpCndyaXRlciA9IFBkZldyaXRlcigpCgpmb3IgcGFnZSBpbiByZWFkZXIucGFnZXM6CiAgICBwYWdlLm1lcmdlX3BhZ2Uod2F0ZXJtYXJrKQogICAgd3JpdGVyLmFkZF9wYWdlKHBhZ2UpCgp3aXRoIG9wZW4oIndhdGVybWFya2VkLnBkZiIsICJ3YiIpIGFzIG91dHB1dDoKICAgIHdyaXRlci53cml0ZShvdXRwdXQpCmBgYAoKIyMjIEV4dHJhY3QgSW1hZ2VzCmBgYGJhc2gKIyBVc2luZyBwZGZpbWFnZXMgKHBvcHBsZXItdXRpbHMpCnBkZmltYWdlcyAtaiBpbnB1dC5wZGYgb3V0cHV0X3ByZWZpeAoKIyBUaGlzIGV4dHJhY3RzIGFsbCBpbWFnZXMgYXMgb3V0cHV0X3ByZWZpeC0wMDAuanBnLCBvdXRwdXRfcHJlZml4LTAwMS5qcGcsIGV0Yy4KYGBgCgojIyMgUGFzc3dvcmQgUHJvdGVjdGlvbgpgYGBweXRob24KZnJvbSBweXBkZiBpbXBvcnQgUGRmUmVhZGVyLCBQZGZXcml0ZXIKCnJlYWRlciA9IFBkZlJlYWRlcigiaW5wdXQucGRmIikKd3JpdGVyID0gUGRmV3JpdGVyKCkKCmZvciBwYWdlIGluIHJlYWRlci5wYWdlczoKICAgIHdyaXRlci5hZGRfcGFnZShwYWdlKQoKIyBBZGQgcGFzc3dvcmQKd3JpdGVyLmVuY3J5cHQoInVzZXJwYXNzd29yZCIsICJvd25lcnBhc3N3b3JkIikKCndpdGggb3BlbigiZW5jcnlwdGVkLnBkZiIsICJ3YiIpIGFzIG91dHB1dDoKICAgIHdyaXRlci53cml0ZShvdXRwdXQpCmBgYAoKIyMgUXVpY2sgUmVmZXJlbmNlCgp8IFRhc2sgfCBCZXN0IFRvb2wgfCBDb21tYW5kL0NvZGUgfAp8LS0tLS0tfC0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tfAp8IE1lcmdlIFBERnMgfCBweXBkZiB8IGB3cml0ZXIuYWRkX3BhZ2UocGFnZSlgIHwKfCBTcGxpdCBQREZzIHwgcHlwZGYgfCBPbmUgcGFnZSBwZXIgZmlsZSB8CnwgRXh0cmFjdCB0ZXh0IHwgcGRmcGx1bWJlciB8IGBwYWdlLmV4dHJhY3RfdGV4dCgpYCB8CnwgRXh0cmFjdCB0YWJsZXMgfCBwZGZwbHVtYmVyIHwgYHBhZ2UuZXh0cmFjdF90YWJsZXMoKWAgfAp8IENyZWF0ZSBQREZzIHwgcmVwb3J0bGFiIHwgQ2FudmFzIG9yIFBsYXR5cHVzIHwKfCBDb21tYW5kIGxpbmUgbWVyZ2UgfCBxcGRmIHwgYHFwZGYgLS1lbXB0eSAtLXBhZ2VzIC4uLmAgfAp8IE9DUiBzY2FubmVkIFBERnMgfCBweXRlc3NlcmFjdCB8IENvbnZlcnQgdG8gaW1hZ2UgZmlyc3QgfAp8IEZpbGwgUERGIGZvcm1zIHwgcGRmLWxpYiBvciBweXBkZiAoc2VlIEZPUk1TLm1kKSB8IFNlZSBGT1JNUy5tZCB8CgojIyBOZXh0IFN0ZXBzCgotIEZvciBhZHZhbmNlZCBweXBkZml1bTIgdXNhZ2UsIHNlZSBSRUZFUkVOQ0UubWQKLSBGb3IgSmF2YVNjcmlwdCBsaWJyYXJpZXMgKHBkZi1saWIpLCBzZWUgUkVGRVJFTkNFLm1kCi0gSWYgeW91IG5lZWQgdG8gZmlsbCBvdXQgYSBQREYgZm9ybSwgZm9sbG93IHRoZSBpbnN0cnVjdGlvbnMgaW4gRk9STVMubWQKLSBGb3IgdHJvdWJsZXNob290aW5nIGd1aWRlcywgc2VlIFJFRkVSRU5DRS5tZAo=
+---
+name: pdf
+description: Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.
+license: Proprietary. LICENSE.txt has complete terms
+---
+
+# PDF Processing Guide
+
+## Overview
+
+This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see REFERENCE.md. If you need to fill out a PDF form, read FORMS.md and follow its instructions.
+
+## Quick Start
+
+```python
+from pypdf import PdfReader, PdfWriter
+
+# Read a PDF
+reader = PdfReader("document.pdf")
+print(f"Pages: {len(reader.pages)}")
+
+# Extract text
+text = ""
+for page in reader.pages:
+    text += page.extract_text()
+```
+
+## Python Libraries
+
+### pypdf - Basic Operations
+
+#### Merge PDFs
+```python
+from pypdf import PdfWriter, PdfReader
+
+writer = PdfWriter()
+for pdf_file in ["doc1.pdf", "doc2.pdf", "doc3.pdf"]:
+    reader = PdfReader(pdf_file)
+    for page in reader.pages:
+        writer.add_page(page)
+
+with open("merged.pdf", "wb") as output:
+    writer.write(output)
+```
+
+#### Split PDF
+```python
+reader = PdfReader("input.pdf")
+for i, page in enumerate(reader.pages):
+    writer = PdfWriter()
+    writer.add_page(page)
+    with open(f"page_{i+1}.pdf", "wb") as output:
+        writer.write(output)
+```
+
+#### Extract Metadata
+```python
+reader = PdfReader("document.pdf")
+meta = reader.metadata
+print(f"Title: {meta.title}")
+print(f"Author: {meta.author}")
+print(f"Subject: {meta.subject}")
+print(f"Creator: {meta.creator}")
+```
+
+#### Rotate Pages
+```python
+reader = PdfReader("input.pdf")
+writer = PdfWriter()
+
+page = reader.pages[0]
+page.rotate(90)  # Rotate 90 degrees clockwise
+writer.add_page(page)
+
+with open("rotated.pdf", "wb") as output:
+    writer.write(output)
+```
+
+### pdfplumber - Text and Table Extraction
+
+#### Extract Text with Layout
+```python
+import pdfplumber
+
+with pdfplumber.open("document.pdf") as pdf:
+    for page in pdf.pages:
+        text = page.extract_text()
+        print(text)
+```
+
+#### Extract Tables
+```python
+with pdfplumber.open("document.pdf") as pdf:
+    for i, page in enumerate(pdf.pages):
+        tables = page.extract_tables()
+        for j, table in enumerate(tables):
+            print(f"Table {j+1} on page {i+1}:")
+            for row in table:
+                print(row)
+```
+
+#### Advanced Table Extraction
+```python
+import pandas as pd
+
+with pdfplumber.open("document.pdf") as pdf:
+    all_tables = []
+    for page in pdf.pages:
+        tables = page.extract_tables()
+        for table in tables:
+            if table:  # Check if table is not empty
+                df = pd.DataFrame(table[1:], columns=table[0])
+                all_tables.append(df)
+
+# Combine all tables
+if all_tables:
+    combined_df = pd.concat(all_tables, ignore_index=True)
+    combined_df.to_excel("extracted_tables.xlsx", index=False)
+```
+
+### reportlab - Create PDFs
+
+#### Basic PDF Creation
+```python
+from reportlab.lib.pagesizes import letter
+from reportlab.pdfgen import canvas
+
+c = canvas.Canvas("hello.pdf", pagesize=letter)
+width, height = letter
+
+# Add text
+c.drawString(100, height - 100, "Hello World!")
+c.drawString(100, height - 120, "This is a PDF created with reportlab")
+
+# Add a line
+c.line(100, height - 140, 400, height - 140)
+
+# Save
+c.save()
+```
+
+#### Create PDF with Multiple Pages
+```python
+from reportlab.lib.pagesizes import letter
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
+from reportlab.lib.styles import getSampleStyleSheet
+
+doc = SimpleDocTemplate("report.pdf", pagesize=letter)
+styles = getSampleStyleSheet()
+story = []
+
+# Add content
+title = Paragraph("Report Title", styles['Title'])
+story.append(title)
+story.append(Spacer(1, 12))
+
+body = Paragraph("This is the body of the report. " * 20, styles['Normal'])
+story.append(body)
+story.append(PageBreak())
+
+# Page 2
+story.append(Paragraph("Page 2", styles['Heading1']))
+story.append(Paragraph("Content for page 2", styles['Normal']))
+
+# Build PDF
+doc.build(story)
+```
+
+#### Subscripts and Superscripts
+
+**IMPORTANT**: Never use Unicode subscript/superscript characters (₀₁₂₃₄₅₆₇₈₉, ⁰¹²³⁴⁵⁶⁷⁸⁹) in ReportLab PDFs. The built-in fonts do not include these glyphs, causing them to render as solid black boxes.
+
+Instead, use ReportLab's XML markup tags in Paragraph objects:
+```python
+from reportlab.platypus import Paragraph
+from reportlab.lib.styles import getSampleStyleSheet
+
+styles = getSampleStyleSheet()
+
+# Subscripts: use <sub> tag
+chemical = Paragraph("H<sub>2</sub>O", styles['Normal'])
+
+# Superscripts: use <super> tag
+squared = Paragraph("x<super>2</super> + y<super>2</super>", styles['Normal'])
+```
+
+For canvas-drawn text (not Paragraph objects), manually adjust font the size and position rather than using Unicode subscripts/superscripts.
+
+## Command-Line Tools
+
+### pdftotext (poppler-utils)
+```bash
+# Extract text
+pdftotext input.pdf output.txt
+
+# Extract text preserving layout
+pdftotext -layout input.pdf output.txt
+
+# Extract specific pages
+pdftotext -f 1 -l 5 input.pdf output.txt  # Pages 1-5
+```
+
+### qpdf
+```bash
+# Merge PDFs
+qpdf --empty --pages file1.pdf file2.pdf -- merged.pdf
+
+# Split pages
+qpdf input.pdf --pages . 1-5 -- pages1-5.pdf
+qpdf input.pdf --pages . 6-10 -- pages6-10.pdf
+
+# Rotate pages
+qpdf input.pdf output.pdf --rotate=+90:1  # Rotate page 1 by 90 degrees
+
+# Remove password
+qpdf --password=mypassword --decrypt encrypted.pdf decrypted.pdf
+```
+
+### pdftk (if available)
+```bash
+# Merge
+pdftk file1.pdf file2.pdf cat output merged.pdf
+
+# Split
+pdftk input.pdf burst
+
+# Rotate
+pdftk input.pdf rotate 1east output rotated.pdf
+```
+
+## Common Tasks
+
+### Extract Text from Scanned PDFs
+```python
+# Requires: pip install pytesseract pdf2image
+import pytesseract
+from pdf2image import convert_from_path
+
+# Convert PDF to images
+images = convert_from_path('scanned.pdf')
+
+# OCR each page
+text = ""
+for i, image in enumerate(images):
+    text += f"Page {i+1}:\n"
+    text += pytesseract.image_to_string(image)
+    text += "\n\n"
+
+print(text)
+```
+
+### Add Watermark
+```python
+from pypdf import PdfReader, PdfWriter
+
+# Create watermark (or load existing)
+watermark = PdfReader("watermark.pdf").pages[0]
+
+# Apply to all pages
+reader = PdfReader("document.pdf")
+writer = PdfWriter()
+
+for page in reader.pages:
+    page.merge_page(watermark)
+    writer.add_page(page)
+
+with open("watermarked.pdf", "wb") as output:
+    writer.write(output)
+```
+
+### Extract Images
+```bash
+# Using pdfimages (poppler-utils)
+pdfimages -j input.pdf output_prefix
+
+# This extracts all images as output_prefix-000.jpg, output_prefix-001.jpg, etc.
+```
+
+### Password Protection
+```python
+from pypdf import PdfReader, PdfWriter
+
+reader = PdfReader("input.pdf")
+writer = PdfWriter()
+
+for page in reader.pages:
+    writer.add_page(page)
+
+# Add password
+writer.encrypt("userpassword", "ownerpassword")
+
+with open("encrypted.pdf", "wb") as output:
+    writer.write(output)
+```
+
+## Quick Reference
+
+| Task | Best Tool | Command/Code |
+|------|-----------|--------------|
+| Merge PDFs | pypdf | `writer.add_page(page)` |
+| Split PDFs | pypdf | One page per file |
+| Extract text | pdfplumber | `page.extract_text()` |
+| Extract tables | pdfplumber | `page.extract_tables()` |
+| Create PDFs | reportlab | Canvas or Platypus |
+| Command line merge | qpdf | `qpdf --empty --pages ...` |
+| OCR scanned PDFs | pytesseract | Convert to image first |
+| Fill PDF forms | pdf-lib or pypdf (see FORMS.md) | See FORMS.md |
+
+## Next Steps
+
+- For advanced pypdfium2 usage, see REFERENCE.md
+- For JavaScript libraries (pdf-lib), see REFERENCE.md
+- If you need to fill out a PDF form, follow the instructions in FORMS.md
+- For troubleshooting guides, see REFERENCE.md

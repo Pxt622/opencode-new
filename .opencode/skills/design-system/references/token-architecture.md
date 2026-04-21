@@ -1,1 +1,224 @@
-IyBUb2tlbiBBcmNoaXRlY3R1cmUKClRocmVlLWxheWVyIHRva2VuIHN5c3RlbSBmb3Igc2NhbGFibGUsIHRoZW1lYWJsZSBkZXNpZ24gc3lzdGVtcy4KCiMjIExheWVyIE92ZXJ2aWV3CgpgYGAK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiAgQ29tcG9uZW50IFRva2VucyAgICAgICAgICAgICAgICAgICAgICAg4pSCICBQZXItY29tcG9uZW50IG92ZXJyaWRlcwrilIIgIC0tYnV0dG9uLWJnLCAtLWNhcmQtcGFkZGluZyAgICAgICAgICAgIOKUggrilJzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilKQK4pSCICBTZW1hbnRpYyBUb2tlbnMgICAgICAgICAgICAgICAgICAgICAgICDilIIgIFB1cnBvc2UtYmFzZWQgYWxpYXNlcwrilIIgIC0tY29sb3ItcHJpbWFyeSwgLS1zcGFjaW5nLXNlY3Rpb24gICAgIOKUggrilJzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilKQK4pSCICBQcmltaXRpdmUgVG9rZW5zICAgICAgICAgICAgICAgICAgICAgICDilIIgIFJhdyBkZXNpZ24gdmFsdWVzCuKUgiAgLS1jb2xvci1ibHVlLTYwMCwgLS1zcGFjZS00ICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmApgYGAKCiMjIFdoeSBUaHJlZSBMYXllcnM/Cgp8IExheWVyIHwgUHVycG9zZSB8IFdoZW4gdG8gQ2hhbmdlIHwKfC0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS18CnwgUHJpbWl0aXZlIHwgQmFzZSB2YWx1ZXMgKGNvbG9ycywgc2l6ZXMpIHwgUmFyZWx5IC0gZm91bmRhdGlvbmFsIHwKfCBTZW1hbnRpYyB8IE1lYW5pbmcgYXNzaWdubWVudCB8IFRoZW1lIHN3aXRjaGluZyB8CnwgQ29tcG9uZW50IHwgQ29tcG9uZW50IGN1c3RvbWl6YXRpb24gfCBQZXItY29tcG9uZW50IG5lZWRzIHwKCiMjIExheWVyIDE6IFByaW1pdGl2ZSBUb2tlbnMKClJhdyBkZXNpZ24gdmFsdWVzIHdpdGhvdXQgc2VtYW50aWMgbWVhbmluZy4KCmBgYGNzcwo6cm9vdCB7CiAgLyogQ29sb3JzICovCiAgLS1jb2xvci1ncmF5LTUwOiAjRjlGQUZCOwogIC0tY29sb3ItZ3JheS05MDA6ICMxMTE4Mjc7CiAgLS1jb2xvci1ibHVlLTUwMDogIzNCODJGNjsKICAtLWNvbG9yLWJsdWUtNjAwOiAjMjU2M0VCOwoKICAvKiBTcGFjaW5nICg0cHggYmFzZSkgKi8KICAtLXNwYWNlLTE6IDAuMjVyZW07ICAvKiA0cHggKi8KICAtLXNwYWNlLTI6IDAuNXJlbTsgICAvKiA4cHggKi8KICAtLXNwYWNlLTQ6IDFyZW07ICAgICAvKiAxNnB4ICovCiAgLS1zcGFjZS02OiAxLjVyZW07ICAgLyogMjRweCAqLwoKICAvKiBUeXBvZ3JhcGh5ICovCiAgLS1mb250LXNpemUtc206IDAuODc1cmVtOwogIC0tZm9udC1zaXplLWJhc2U6IDFyZW07CiAgLS1mb250LXNpemUtbGc6IDEuMTI1cmVtOwoKICAvKiBSYWRpdXMgKi8KICAtLXJhZGl1cy1zbTogMC4yNXJlbTsKICAtLXJhZGl1cy1kZWZhdWx0OiAwLjVyZW07CiAgLS1yYWRpdXMtbGc6IDAuNzVyZW07CgogIC8qIFNoYWRvd3MgKi8KICAtLXNoYWRvdy1zbTogMCAxcHggMnB4IHJnYigwIDAgMCAvIDAuMDUpOwogIC0tc2hhZG93LWRlZmF1bHQ6IDAgMXB4IDNweCByZ2IoMCAwIDAgLyAwLjEpOwp9CmBgYAoKIyMgTGF5ZXIgMjogU2VtYW50aWMgVG9rZW5zCgpQdXJwb3NlLWJhc2VkIGFsaWFzZXMgdGhhdCByZWZlcmVuY2UgcHJpbWl0aXZlcy4KCmBgYGNzcwo6cm9vdCB7CiAgLyogQmFja2dyb3VuZCAqLwogIC0tY29sb3ItYmFja2dyb3VuZDogdmFyKC0tY29sb3ItZ3JheS01MCk7CiAgLS1jb2xvci1mb3JlZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTkwMCk7CgogIC8qIFByaW1hcnkgKi8KICAtLWNvbG9yLXByaW1hcnk6IHZhcigtLWNvbG9yLWJsdWUtNjAwKTsKICAtLWNvbG9yLXByaW1hcnktaG92ZXI6IHZhcigtLWNvbG9yLWJsdWUtNzAwKTsKCiAgLyogU2Vjb25kYXJ5ICovCiAgLS1jb2xvci1zZWNvbmRhcnk6IHZhcigtLWNvbG9yLWdyYXktMTAwKTsKICAtLWNvbG9yLXNlY29uZGFyeS1mb3JlZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTkwMCk7CgogIC8qIE11dGVkICovCiAgLS1jb2xvci1tdXRlZDogdmFyKC0tY29sb3ItZ3JheS0xMDApOwogIC0tY29sb3ItbXV0ZWQtZm9yZWdyb3VuZDogdmFyKC0tY29sb3ItZ3JheS01MDApOwoKICAvKiBEZXN0cnVjdGl2ZSAqLwogIC0tY29sb3ItZGVzdHJ1Y3RpdmU6IHZhcigtLWNvbG9yLXJlZC02MDApOwogIC0tY29sb3ItZGVzdHJ1Y3RpdmUtZm9yZWdyb3VuZDogd2hpdGU7CgogIC8qIFNwYWNpbmcgKi8KICAtLXNwYWNpbmctY29tcG9uZW50OiB2YXIoLS1zcGFjZS00KTsKICAtLXNwYWNpbmctc2VjdGlvbjogdmFyKC0tc3BhY2UtNik7Cn0KYGBgCgojIyBMYXllciAzOiBDb21wb25lbnQgVG9rZW5zCgpDb21wb25lbnQtc3BlY2lmaWMgdG9rZW5zIHJlZmVyZW5jaW5nIHNlbWFudGljIGxheWVyLgoKYGBgY3NzCjpyb290IHsKICAvKiBCdXR0b24gKi8KICAtLWJ1dHRvbi1iZzogdmFyKC0tY29sb3ItcHJpbWFyeSk7CiAgLS1idXR0b24tZmc6IHdoaXRlOwogIC0tYnV0dG9uLWhvdmVyLWJnOiB2YXIoLS1jb2xvci1wcmltYXJ5LWhvdmVyKTsKICAtLWJ1dHRvbi1wYWRkaW5nLXg6IHZhcigtLXNwYWNlLTQpOwogIC0tYnV0dG9uLXBhZGRpbmcteTogdmFyKC0tc3BhY2UtMik7CiAgLS1idXR0b24tcmFkaXVzOiB2YXIoLS1yYWRpdXMtZGVmYXVsdCk7CgogIC8qIElucHV0ICovCiAgLS1pbnB1dC1iZzogdmFyKC0tY29sb3ItYmFja2dyb3VuZCk7CiAgLS1pbnB1dC1ib3JkZXI6IHZhcigtLWNvbG9yLWdyYXktMzAwKTsKICAtLWlucHV0LWZvY3VzLXJpbmc6IHZhcigtLWNvbG9yLXByaW1hcnkpOwogIC0taW5wdXQtcGFkZGluZzogdmFyKC0tc3BhY2UtMikgdmFyKC0tc3BhY2UtMyk7CgogIC8qIENhcmQgKi8KICAtLWNhcmQtYmc6IHZhcigtLWNvbG9yLWJhY2tncm91bmQpOwogIC0tY2FyZC1ib3JkZXI6IHZhcigtLWNvbG9yLWdyYXktMjAwKTsKICAtLWNhcmQtcGFkZGluZzogdmFyKC0tc3BhY2UtNCk7CiAgLS1jYXJkLXJhZGl1czogdmFyKC0tcmFkaXVzLWxnKTsKICAtLWNhcmQtc2hhZG93OiB2YXIoLS1zaGFkb3ctZGVmYXVsdCk7Cn0KYGBgCgojIyBEYXJrIE1vZGUKCk92ZXJyaWRlIHNlbWFudGljIHRva2VucyBmb3IgZGFyayB0aGVtZToKCmBgYGNzcwouZGFyayB7CiAgLS1jb2xvci1iYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTkwMCk7CiAgLS1jb2xvci1mb3JlZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTUwKTsKICAtLWNvbG9yLW11dGVkOiB2YXIoLS1jb2xvci1ncmF5LTgwMCk7CiAgLS1jb2xvci1tdXRlZC1mb3JlZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTQwMCk7CiAgLS1jb2xvci1zZWNvbmRhcnk6IHZhcigtLWNvbG9yLWdyYXktODAwKTsKfQpgYGAKCiMjIE5hbWluZyBDb252ZW50aW9uCgpgYGAKLS17Y2F0ZWdvcnl9LXtpdGVtfS17dmFyaWFudH0te3N0YXRlfQoKRXhhbXBsZXM6Ci0tY29sb3ItcHJpbWFyeSAgICAgICAgICAgIyBjYXRlZ29yeS1pdGVtCi0tY29sb3ItcHJpbWFyeS1ob3ZlciAgICAgIyBjYXRlZ29yeS1pdGVtLXN0YXRlCi0tYnV0dG9uLWJnLWhvdmVyICAgICAgICAgIyBjb21wb25lbnQtcHJvcGVydHktc3RhdGUKLS1zcGFjZS1zZWN0aW9uLXNtICAgICAgICAjIGNhdGVnb3J5LXNlbWFudGljLXZhcmlhbnQKYGBgCgojIyBDYXRlZ29yaWVzCgp8IENhdGVnb3J5IHwgRXhhbXBsZXMgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS0tfAp8IGNvbG9yIHwgcHJpbWFyeSwgc2Vjb25kYXJ5LCBtdXRlZCwgZGVzdHJ1Y3RpdmUgfAp8IHNwYWNlIHwgMSwgMiwgNCwgOCwgc2VjdGlvbiwgY29tcG9uZW50IHwKfCBmb250LXNpemUgfCB4cywgc20sIGJhc2UsIGxnLCB4bCB8CnwgcmFkaXVzIHwgc20sIGRlZmF1bHQsIGxnLCBmdWxsIHwKfCBzaGFkb3cgfCBzbSwgZGVmYXVsdCwgbGcgfAp8IGR1cmF0aW9uIHwgZmFzdCwgbm9ybWFsLCBzbG93IHwKCiMjIEZpbGUgT3JnYW5pemF0aW9uCgpgYGAKdG9rZW5zLwrilJzilIDilIAgcHJpbWl0aXZlcy5jc3MgICAgICMgUmF3IHZhbHVlcwrilJzilIDilIAgc2VtYW50aWMuY3NzICAgICAgICMgUHVycG9zZSBhbGlhc2VzCuKUnOKUgOKUgCBjb21wb25lbnRzLmNzcyAgICAgIyBDb21wb25lbnQgdG9rZW5zCuKUlOKUgOKUgCBpbmRleC5jc3MgICAgICAgICAgIyBJbXBvcnRzIGFsbApgYGAKCk9yIHNpbmdsZSBmaWxlIHdpdGggbGF5ZXIgY29tbWVudHM6CgpgYGBjc3MKLyogPT09IFBSSU1JVElWRVMgPT09ICovCjpyb290IHsgLi4uIH0KCi8qID09PSBTRU1BTlRJQyA9PT0gKi8KOnJvb3QgeyAuLi4gfQoKLyogPT09IENPTVBPTkVOVFMgPT09ICovCjpyb290IHsgLi4uIH0KCi8qID09PSBEQVJLIE1PREUgPT09ICovCi5kYXJrIHsgLi4uIH0KYGBgCgojIyBNaWdyYXRpb24gZnJvbSBGbGF0IFRva2VucwoKQmVmb3JlIChmbGF0KToKYGBgY3NzCi0tYnV0dG9uLXByaW1hcnktYmc6ICMyNTYzRUI7Ci0tYnV0dG9uLXNlY29uZGFyeS1iZzogI0YzRjRGNjsKYGBgCgpBZnRlciAodGhyZWUtbGF5ZXIpOgpgYGBjc3MKLyogUHJpbWl0aXZlICovCi0tY29sb3ItYmx1ZS02MDA6ICMyNTYzRUI7Ci0tY29sb3ItZ3JheS0xMDA6ICNGM0Y0RjY7CgovKiBTZW1hbnRpYyAqLwotLWNvbG9yLXByaW1hcnk6IHZhcigtLWNvbG9yLWJsdWUtNjAwKTsKLS1jb2xvci1zZWNvbmRhcnk6IHZhcigtLWNvbG9yLWdyYXktMTAwKTsKCi8qIENvbXBvbmVudCAqLwotLWJ1dHRvbi1iZzogdmFyKC0tY29sb3ItcHJpbWFyeSk7Ci0tYnV0dG9uLXNlY29uZGFyeS1iZzogdmFyKC0tY29sb3Itc2Vjb25kYXJ5KTsKYGBgCgojIyBXM0MgRFRDRyBBbGlnbm1lbnQKClRva2VuIEpTT04gZm9ybWF0IChXM0MgRGVzaWduIFRva2VucyBDb21tdW5pdHkgR3JvdXApOgoKYGBganNvbgp7CiAgImNvbG9yIjogewogICAgImJsdWUiOiB7CiAgICAgICI2MDAiOiB7CiAgICAgICAgIiR2YWx1ZSI6ICIjMjU2M0VCIiwKICAgICAgICAiJHR5cGUiOiAiY29sb3IiCiAgICAgIH0KICAgIH0KICB9Cn0KYGBgCg==
+# Token Architecture
+
+Three-layer token system for scalable, themeable design systems.
+
+## Layer Overview
+
+```
+┌─────────────────────────────────────────┐
+│  Component Tokens                       │  Per-component overrides
+│  --button-bg, --card-padding            │
+├─────────────────────────────────────────┤
+│  Semantic Tokens                        │  Purpose-based aliases
+│  --color-primary, --spacing-section     │
+├─────────────────────────────────────────┤
+│  Primitive Tokens                       │  Raw design values
+│  --color-blue-600, --space-4            │
+└─────────────────────────────────────────┘
+```
+
+## Why Three Layers?
+
+| Layer | Purpose | When to Change |
+|-------|---------|----------------|
+| Primitive | Base values (colors, sizes) | Rarely - foundational |
+| Semantic | Meaning assignment | Theme switching |
+| Component | Component customization | Per-component needs |
+
+## Layer 1: Primitive Tokens
+
+Raw design values without semantic meaning.
+
+```css
+:root {
+  /* Colors */
+  --color-gray-50: #F9FAFB;
+  --color-gray-900: #111827;
+  --color-blue-500: #3B82F6;
+  --color-blue-600: #2563EB;
+
+  /* Spacing (4px base) */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-4: 1rem;     /* 16px */
+  --space-6: 1.5rem;   /* 24px */
+
+  /* Typography */
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+
+  /* Radius */
+  --radius-sm: 0.25rem;
+  --radius-default: 0.5rem;
+  --radius-lg: 0.75rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.05);
+  --shadow-default: 0 1px 3px rgb(0 0 0 / 0.1);
+}
+```
+
+## Layer 2: Semantic Tokens
+
+Purpose-based aliases that reference primitives.
+
+```css
+:root {
+  /* Background */
+  --color-background: var(--color-gray-50);
+  --color-foreground: var(--color-gray-900);
+
+  /* Primary */
+  --color-primary: var(--color-blue-600);
+  --color-primary-hover: var(--color-blue-700);
+
+  /* Secondary */
+  --color-secondary: var(--color-gray-100);
+  --color-secondary-foreground: var(--color-gray-900);
+
+  /* Muted */
+  --color-muted: var(--color-gray-100);
+  --color-muted-foreground: var(--color-gray-500);
+
+  /* Destructive */
+  --color-destructive: var(--color-red-600);
+  --color-destructive-foreground: white;
+
+  /* Spacing */
+  --spacing-component: var(--space-4);
+  --spacing-section: var(--space-6);
+}
+```
+
+## Layer 3: Component Tokens
+
+Component-specific tokens referencing semantic layer.
+
+```css
+:root {
+  /* Button */
+  --button-bg: var(--color-primary);
+  --button-fg: white;
+  --button-hover-bg: var(--color-primary-hover);
+  --button-padding-x: var(--space-4);
+  --button-padding-y: var(--space-2);
+  --button-radius: var(--radius-default);
+
+  /* Input */
+  --input-bg: var(--color-background);
+  --input-border: var(--color-gray-300);
+  --input-focus-ring: var(--color-primary);
+  --input-padding: var(--space-2) var(--space-3);
+
+  /* Card */
+  --card-bg: var(--color-background);
+  --card-border: var(--color-gray-200);
+  --card-padding: var(--space-4);
+  --card-radius: var(--radius-lg);
+  --card-shadow: var(--shadow-default);
+}
+```
+
+## Dark Mode
+
+Override semantic tokens for dark theme:
+
+```css
+.dark {
+  --color-background: var(--color-gray-900);
+  --color-foreground: var(--color-gray-50);
+  --color-muted: var(--color-gray-800);
+  --color-muted-foreground: var(--color-gray-400);
+  --color-secondary: var(--color-gray-800);
+}
+```
+
+## Naming Convention
+
+```
+--{category}-{item}-{variant}-{state}
+
+Examples:
+--color-primary           # category-item
+--color-primary-hover     # category-item-state
+--button-bg-hover         # component-property-state
+--space-section-sm        # category-semantic-variant
+```
+
+## Categories
+
+| Category | Examples |
+|----------|----------|
+| color | primary, secondary, muted, destructive |
+| space | 1, 2, 4, 8, section, component |
+| font-size | xs, sm, base, lg, xl |
+| radius | sm, default, lg, full |
+| shadow | sm, default, lg |
+| duration | fast, normal, slow |
+
+## File Organization
+
+```
+tokens/
+├── primitives.css     # Raw values
+├── semantic.css       # Purpose aliases
+├── components.css     # Component tokens
+└── index.css          # Imports all
+```
+
+Or single file with layer comments:
+
+```css
+/* === PRIMITIVES === */
+:root { ... }
+
+/* === SEMANTIC === */
+:root { ... }
+
+/* === COMPONENTS === */
+:root { ... }
+
+/* === DARK MODE === */
+.dark { ... }
+```
+
+## Migration from Flat Tokens
+
+Before (flat):
+```css
+--button-primary-bg: #2563EB;
+--button-secondary-bg: #F3F4F6;
+```
+
+After (three-layer):
+```css
+/* Primitive */
+--color-blue-600: #2563EB;
+--color-gray-100: #F3F4F6;
+
+/* Semantic */
+--color-primary: var(--color-blue-600);
+--color-secondary: var(--color-gray-100);
+
+/* Component */
+--button-bg: var(--color-primary);
+--button-secondary-bg: var(--color-secondary);
+```
+
+## W3C DTCG Alignment
+
+Token JSON format (W3C Design Tokens Community Group):
+
+```json
+{
+  "color": {
+    "blue": {
+      "600": {
+        "$value": "#2563EB",
+        "$type": "color"
+      }
+    }
+  }
+}
+```

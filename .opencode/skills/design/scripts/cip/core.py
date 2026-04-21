@@ -1,1 +1,215 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKQ0lQIERlc2lnbiBDb3JlIC0gQk0yNSBzZWFyY2ggZW5naW5lIGZvciBDb3Jwb3JhdGUgSWRlbnRpdHkgUHJvZ3JhbSBkZXNpZ24gZ3VpZGVsaW5lcwoiIiIKCmltcG9ydCBjc3YKaW1wb3J0IHJlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIG1hdGggaW1wb3J0IGxvZwpmcm9tIGNvbGxlY3Rpb25zIGltcG9ydCBkZWZhdWx0ZGljdAoKIyA9PT09PT09PT09PT0gQ09ORklHVVJBVElPTiA9PT09PT09PT09PT0KREFUQV9ESVIgPSBQYXRoKF9fZmlsZV9fKS5wYXJlbnQucGFyZW50LnBhcmVudCAvICJkYXRhIiAvICJjaXAiCk1BWF9SRVNVTFRTID0gMwoKQ1NWX0NPTkZJRyA9IHsKICAgICJkZWxpdmVyYWJsZSI6IHsKICAgICAgICAiZmlsZSI6ICJkZWxpdmVyYWJsZXMuY3N2IiwKICAgICAgICAic2VhcmNoX2NvbHMiOiBbIkRlbGl2ZXJhYmxlIiwgIkNhdGVnb3J5IiwgIktleXdvcmRzIiwgIkRlc2NyaXB0aW9uIiwgIk1vY2t1cCBDb250ZXh0Il0sCiAgICAgICAgIm91dHB1dF9jb2xzIjogWyJEZWxpdmVyYWJsZSIsICJDYXRlZ29yeSIsICJLZXl3b3JkcyIsICJEZXNjcmlwdGlvbiIsICJEaW1lbnNpb25zIiwgIkZpbGUgRm9ybWF0IiwgIkxvZ28gUGxhY2VtZW50IiwgIkNvbG9yIFVzYWdlIiwgIlR5cG9ncmFwaHkgTm90ZXMiLCAiTW9ja3VwIENvbnRleHQiLCAiQmVzdCBQcmFjdGljZXMiLCAiQXZvaWQiXQogICAgfSwKICAgICJzdHlsZSI6IHsKICAgICAgICAiZmlsZSI6ICJzdHlsZXMuY3N2IiwKICAgICAgICAic2VhcmNoX2NvbHMiOiBbIlN0eWxlIE5hbWUiLCAiQ2F0ZWdvcnkiLCAiS2V5d29yZHMiLCAiRGVzY3JpcHRpb24iLCAiTW9vZCJdLAogICAgICAgICJvdXRwdXRfY29scyI6IFsiU3R5bGUgTmFtZSIsICJDYXRlZ29yeSIsICJLZXl3b3JkcyIsICJEZXNjcmlwdGlvbiIsICJQcmltYXJ5IENvbG9ycyIsICJTZWNvbmRhcnkgQ29sb3JzIiwgIlR5cG9ncmFwaHkiLCAiTWF0ZXJpYWxzIiwgIkZpbmlzaGVzIiwgIk1vb2QiLCAiQmVzdCBGb3IiLCAiQXZvaWQgRm9yIl0KICAgIH0sCiAgICAiaW5kdXN0cnkiOiB7CiAgICAgICAgImZpbGUiOiAiaW5kdXN0cmllcy5jc3YiLAogICAgICAgICJzZWFyY2hfY29scyI6IFsiSW5kdXN0cnkiLCAiS2V5d29yZHMiLCAiQ0lQIFN0eWxlIiwgIk1vb2QiXSwKICAgICAgICAib3V0cHV0X2NvbHMiOiBbIkluZHVzdHJ5IiwgIktleXdvcmRzIiwgIkNJUCBTdHlsZSIsICJQcmltYXJ5IENvbG9ycyIsICJTZWNvbmRhcnkgQ29sb3JzIiwgIlR5cG9ncmFwaHkiLCAiS2V5IERlbGl2ZXJhYmxlcyIsICJNb29kIiwgIkJlc3QgUHJhY3RpY2VzIiwgIkF2b2lkIl0KICAgIH0sCiAgICAibW9ja3VwIjogewogICAgICAgICJmaWxlIjogIm1vY2t1cC1jb250ZXh0cy5jc3YiLAogICAgICAgICJzZWFyY2hfY29scyI6IFsiQ29udGV4dCBOYW1lIiwgIkNhdGVnb3J5IiwgIktleXdvcmRzIiwgIlNjZW5lIERlc2NyaXB0aW9uIl0sCiAgICAgICAgIm91dHB1dF9jb2xzIjogWyJDb250ZXh0IE5hbWUiLCAiQ2F0ZWdvcnkiLCAiS2V5d29yZHMiLCAiU2NlbmUgRGVzY3JpcHRpb24iLCAiTGlnaHRpbmciLCAiRW52aXJvbm1lbnQiLCAiUHJvcHMiLCAiQ2FtZXJhIEFuZ2xlIiwgIkJhY2tncm91bmQiLCAiU3R5bGUgTm90ZXMiLCAiQmVzdCBGb3IiLCAiUHJvbXB0IE1vZGlmaWVycyJdCiAgICB9Cn0KCgojID09PT09PT09PT09PSBCTTI1IElNUExFTUVOVEFUSU9OID09PT09PT09PT09PQpjbGFzcyBCTTI1OgogICAgIiIiQk0yNSByYW5raW5nIGFsZ29yaXRobSBmb3IgdGV4dCBzZWFyY2giIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgazE9MS41LCBiPTAuNzUpOgogICAgICAgIHNlbGYuazEgPSBrMQogICAgICAgIHNlbGYuYiA9IGIKICAgICAgICBzZWxmLmNvcnB1cyA9IFtdCiAgICAgICAgc2VsZi5kb2NfbGVuZ3RocyA9IFtdCiAgICAgICAgc2VsZi5hdmdkbCA9IDAKICAgICAgICBzZWxmLmlkZiA9IHt9CiAgICAgICAgc2VsZi5kb2NfZnJlcXMgPSBkZWZhdWx0ZGljdChpbnQpCiAgICAgICAgc2VsZi5OID0gMAoKICAgIGRlZiB0b2tlbml6ZShzZWxmLCB0ZXh0KToKICAgICAgICAiIiJMb3dlcmNhc2UsIHNwbGl0LCByZW1vdmUgcHVuY3R1YXRpb24sIGZpbHRlciBzaG9ydCB3b3JkcyIiIgogICAgICAgIHRleHQgPSByZS5zdWIocidbXlx3XHNdJywgJyAnLCBzdHIodGV4dCkubG93ZXIoKSkKICAgICAgICByZXR1cm4gW3cgZm9yIHcgaW4gdGV4dC5zcGxpdCgpIGlmIGxlbih3KSA+IDJdCgogICAgZGVmIGZpdChzZWxmLCBkb2N1bWVudHMpOgogICAgICAgICIiIkJ1aWxkIEJNMjUgaW5kZXggZnJvbSBkb2N1bWVudHMiIiIKICAgICAgICBzZWxmLmNvcnB1cyA9IFtzZWxmLnRva2VuaXplKGRvYykgZm9yIGRvYyBpbiBkb2N1bWVudHNdCiAgICAgICAgc2VsZi5OID0gbGVuKHNlbGYuY29ycHVzKQogICAgICAgIGlmIHNlbGYuTiA9PSAwOgogICAgICAgICAgICByZXR1cm4KICAgICAgICBzZWxmLmRvY19sZW5ndGhzID0gW2xlbihkb2MpIGZvciBkb2MgaW4gc2VsZi5jb3JwdXNdCiAgICAgICAgc2VsZi5hdmdkbCA9IHN1bShzZWxmLmRvY19sZW5ndGhzKSAvIHNlbGYuTgoKICAgICAgICBmb3IgZG9jIGluIHNlbGYuY29ycHVzOgogICAgICAgICAgICBzZWVuID0gc2V0KCkKICAgICAgICAgICAgZm9yIHdvcmQgaW4gZG9jOgogICAgICAgICAgICAgICAgaWYgd29yZCBub3QgaW4gc2VlbjoKICAgICAgICAgICAgICAgICAgICBzZWxmLmRvY19mcmVxc1t3b3JkXSArPSAxCiAgICAgICAgICAgICAgICAgICAgc2Vlbi5hZGQod29yZCkKCiAgICAgICAgZm9yIHdvcmQsIGZyZXEgaW4gc2VsZi5kb2NfZnJlcXMuaXRlbXMoKToKICAgICAgICAgICAgc2VsZi5pZGZbd29yZF0gPSBsb2coKHNlbGYuTiAtIGZyZXEgKyAwLjUpIC8gKGZyZXEgKyAwLjUpICsgMSkKCiAgICBkZWYgc2NvcmUoc2VsZiwgcXVlcnkpOgogICAgICAgICIiIlNjb3JlIGFsbCBkb2N1bWVudHMgYWdhaW5zdCBxdWVyeSIiIgogICAgICAgIHF1ZXJ5X3Rva2VucyA9IHNlbGYudG9rZW5pemUocXVlcnkpCiAgICAgICAgc2NvcmVzID0gW10KCiAgICAgICAgZm9yIGlkeCwgZG9jIGluIGVudW1lcmF0ZShzZWxmLmNvcnB1cyk6CiAgICAgICAgICAgIHNjb3JlID0gMAogICAgICAgICAgICBkb2NfbGVuID0gc2VsZi5kb2NfbGVuZ3Roc1tpZHhdCiAgICAgICAgICAgIHRlcm1fZnJlcXMgPSBkZWZhdWx0ZGljdChpbnQpCiAgICAgICAgICAgIGZvciB3b3JkIGluIGRvYzoKICAgICAgICAgICAgICAgIHRlcm1fZnJlcXNbd29yZF0gKz0gMQoKICAgICAgICAgICAgZm9yIHRva2VuIGluIHF1ZXJ5X3Rva2VuczoKICAgICAgICAgICAgICAgIGlmIHRva2VuIGluIHNlbGYuaWRmOgogICAgICAgICAgICAgICAgICAgIHRmID0gdGVybV9mcmVxc1t0b2tlbl0KICAgICAgICAgICAgICAgICAgICBpZGYgPSBzZWxmLmlkZlt0b2tlbl0KICAgICAgICAgICAgICAgICAgICBudW1lcmF0b3IgPSB0ZiAqIChzZWxmLmsxICsgMSkKICAgICAgICAgICAgICAgICAgICBkZW5vbWluYXRvciA9IHRmICsgc2VsZi5rMSAqICgxIC0gc2VsZi5iICsgc2VsZi5iICogZG9jX2xlbiAvIHNlbGYuYXZnZGwpCiAgICAgICAgICAgICAgICAgICAgc2NvcmUgKz0gaWRmICogbnVtZXJhdG9yIC8gZGVub21pbmF0b3IKCiAgICAgICAgICAgIHNjb3Jlcy5hcHBlbmQoKGlkeCwgc2NvcmUpKQoKICAgICAgICByZXR1cm4gc29ydGVkKHNjb3Jlcywga2V5PWxhbWJkYSB4OiB4WzFdLCByZXZlcnNlPVRydWUpCgoKIyA9PT09PT09PT09PT0gU0VBUkNIIEZVTkNUSU9OUyA9PT09PT09PT09PT0KZGVmIF9sb2FkX2NzdihmaWxlcGF0aCk6CiAgICAiIiJMb2FkIENTViBhbmQgcmV0dXJuIGxpc3Qgb2YgZGljdHMiIiIKICAgIHdpdGggb3BlbihmaWxlcGF0aCwgJ3InLCBlbmNvZGluZz0ndXRmLTgnKSBhcyBmOgogICAgICAgIHJldHVybiBsaXN0KGNzdi5EaWN0UmVhZGVyKGYpKQoKCmRlZiBfc2VhcmNoX2NzdihmaWxlcGF0aCwgc2VhcmNoX2NvbHMsIG91dHB1dF9jb2xzLCBxdWVyeSwgbWF4X3Jlc3VsdHMpOgogICAgIiIiQ29yZSBzZWFyY2ggZnVuY3Rpb24gdXNpbmcgQk0yNSIiIgogICAgaWYgbm90IGZpbGVwYXRoLmV4aXN0cygpOgogICAgICAgIHJldHVybiBbXQoKICAgIGRhdGEgPSBfbG9hZF9jc3YoZmlsZXBhdGgpCgogICAgIyBCdWlsZCBkb2N1bWVudHMgZnJvbSBzZWFyY2ggY29sdW1ucwogICAgZG9jdW1lbnRzID0gWyIgIi5qb2luKHN0cihyb3cuZ2V0KGNvbCwgIiIpKSBmb3IgY29sIGluIHNlYXJjaF9jb2xzKSBmb3Igcm93IGluIGRhdGFdCgogICAgIyBCTTI1IHNlYXJjaAogICAgYm0yNSA9IEJNMjUoKQogICAgYm0yNS5maXQoZG9jdW1lbnRzKQogICAgcmFua2VkID0gYm0yNS5zY29yZShxdWVyeSkKCiAgICAjIEdldCB0b3AgcmVzdWx0cyB3aXRoIHNjb3JlID4gMAogICAgcmVzdWx0cyA9IFtdCiAgICBmb3IgaWR4LCBzY29yZSBpbiByYW5rZWRbOm1heF9yZXN1bHRzXToKICAgICAgICBpZiBzY29yZSA+IDA6CiAgICAgICAgICAgIHJvdyA9IGRhdGFbaWR4XQogICAgICAgICAgICByZXN1bHRzLmFwcGVuZCh7Y29sOiByb3cuZ2V0KGNvbCwgIiIpIGZvciBjb2wgaW4gb3V0cHV0X2NvbHMgaWYgY29sIGluIHJvd30pCgogICAgcmV0dXJuIHJlc3VsdHMKCgpkZWYgZGV0ZWN0X2RvbWFpbihxdWVyeSk6CiAgICAiIiJBdXRvLWRldGVjdCB0aGUgbW9zdCByZWxldmFudCBkb21haW4gZnJvbSBxdWVyeSIiIgogICAgcXVlcnlfbG93ZXIgPSBxdWVyeS5sb3dlcigpCgogICAgZG9tYWluX2tleXdvcmRzID0gewogICAgICAgICJkZWxpdmVyYWJsZSI6IFsiY2FyZCIsICJsZXR0ZXJoZWFkIiwgImVudmVsb3BlIiwgImZvbGRlciIsICJzaGlydCIsICJjYXAiLCAiYmFkZ2UiLCAic2lnbmFnZSIsICJ2ZWhpY2xlIiwgImNhciIsICJ2YW4iLCAic3RhdGlvbmVyeSIsICJ1bmlmb3JtIiwgIm1lcmNoYW5kaXNlIiwgInBhY2thZ2luZyIsICJiYW5uZXIiLCAiYm9vdGgiXSwKICAgICAgICAic3R5bGUiOiBbInN0eWxlIiwgIm1pbmltYWwiLCAibW9kZXJuIiwgImx1eHVyeSIsICJ2aW50YWdlIiwgImluZHVzdHJpYWwiLCAiZWxlZ2FudCIsICJib2xkIiwgImNvcnBvcmF0ZSIsICJvcmdhbmljIiwgInBsYXlmdWwiXSwKICAgICAgICAiaW5kdXN0cnkiOiBbInRlY2giLCAiZmluYW5jZSIsICJsZWdhbCIsICJoZWFsdGhjYXJlIiwgImhvc3BpdGFsaXR5IiwgImZvb2QiLCAiZmFzaGlvbiIsICJyZXRhaWwiLCAiY29uc3RydWN0aW9uIiwgImxvZ2lzdGljcyJdLAogICAgICAgICJtb2NrdXAiOiBbIm1vY2t1cCIsICJzY2VuZSIsICJjb250ZXh0IiwgInBob3RvIiwgInNob3QiLCAibGlnaHRpbmciLCAiYmFja2dyb3VuZCIsICJzdHVkaW8iLCAibGlmZXN0eWxlIl0KICAgIH0KCiAgICBzY29yZXMgPSB7ZG9tYWluOiBzdW0oMSBmb3Iga3cgaW4ga2V5d29yZHMgaWYga3cgaW4gcXVlcnlfbG93ZXIpIGZvciBkb21haW4sIGtleXdvcmRzIGluIGRvbWFpbl9rZXl3b3Jkcy5pdGVtcygpfQogICAgYmVzdCA9IG1heChzY29yZXMsIGtleT1zY29yZXMuZ2V0KQogICAgcmV0dXJuIGJlc3QgaWYgc2NvcmVzW2Jlc3RdID4gMCBlbHNlICJkZWxpdmVyYWJsZSIKCgpkZWYgc2VhcmNoKHF1ZXJ5LCBkb21haW49Tm9uZSwgbWF4X3Jlc3VsdHM9TUFYX1JFU1VMVFMpOgogICAgIiIiTWFpbiBzZWFyY2ggZnVuY3Rpb24gd2l0aCBhdXRvLWRvbWFpbiBkZXRlY3Rpb24iIiIKICAgIGlmIGRvbWFpbiBpcyBOb25lOgogICAgICAgIGRvbWFpbiA9IGRldGVjdF9kb21haW4ocXVlcnkpCgogICAgY29uZmlnID0gQ1NWX0NPTkZJRy5nZXQoZG9tYWluLCBDU1ZfQ09ORklHWyJkZWxpdmVyYWJsZSJdKQogICAgZmlsZXBhdGggPSBEQVRBX0RJUiAvIGNvbmZpZ1siZmlsZSJdCgogICAgaWYgbm90IGZpbGVwYXRoLmV4aXN0cygpOgogICAgICAgIHJldHVybiB7ImVycm9yIjogZiJGaWxlIG5vdCBmb3VuZDoge2ZpbGVwYXRofSIsICJkb21haW4iOiBkb21haW59CgogICAgcmVzdWx0cyA9IF9zZWFyY2hfY3N2KGZpbGVwYXRoLCBjb25maWdbInNlYXJjaF9jb2xzIl0sIGNvbmZpZ1sib3V0cHV0X2NvbHMiXSwgcXVlcnksIG1heF9yZXN1bHRzKQoKICAgIHJldHVybiB7CiAgICAgICAgImRvbWFpbiI6IGRvbWFpbiwKICAgICAgICAicXVlcnkiOiBxdWVyeSwKICAgICAgICAiZmlsZSI6IGNvbmZpZ1siZmlsZSJdLAogICAgICAgICJjb3VudCI6IGxlbihyZXN1bHRzKSwKICAgICAgICAicmVzdWx0cyI6IHJlc3VsdHMKICAgIH0KCgpkZWYgc2VhcmNoX2FsbChxdWVyeSwgbWF4X3Jlc3VsdHM9Mik6CiAgICAiIiJTZWFyY2ggYWNyb3NzIGFsbCBkb21haW5zIGFuZCBjb21iaW5lIHJlc3VsdHMiIiIKICAgIGFsbF9yZXN1bHRzID0ge30KICAgIGZvciBkb21haW4gaW4gQ1NWX0NPTkZJRy5rZXlzKCk6CiAgICAgICAgcmVzdWx0ID0gc2VhcmNoKHF1ZXJ5LCBkb21haW4sIG1heF9yZXN1bHRzKQogICAgICAgIGlmIHJlc3VsdC5nZXQoInJlc3VsdHMiKToKICAgICAgICAgICAgYWxsX3Jlc3VsdHNbZG9tYWluXSA9IHJlc3VsdFsicmVzdWx0cyJdCiAgICByZXR1cm4gYWxsX3Jlc3VsdHMKCgpkZWYgZ2V0X2NpcF9icmllZihicmFuZF9uYW1lLCBpbmR1c3RyeV9xdWVyeSwgc3R5bGVfcXVlcnk9Tm9uZSk6CiAgICAiIiJHZW5lcmF0ZSBhIGNvbXByZWhlbnNpdmUgQ0lQIGJyaWVmIGZvciBhIGJyYW5kIiIiCiAgICAjIFNlYXJjaCBpbmR1c3RyeQogICAgaW5kdXN0cnlfcmVzdWx0cyA9IHNlYXJjaChpbmR1c3RyeV9xdWVyeSwgImluZHVzdHJ5IiwgMSkKICAgIGluZHVzdHJ5ID0gaW5kdXN0cnlfcmVzdWx0cy5nZXQoInJlc3VsdHMiLCBbe31dKVswXSBpZiBpbmR1c3RyeV9yZXN1bHRzLmdldCgicmVzdWx0cyIpIGVsc2Uge30KCiAgICAjIFNlYXJjaCBzdHlsZSAodXNlIGluZHVzdHJ5IHN0eWxlIGlmIG5vdCBzcGVjaWZpZWQpCiAgICBzdHlsZV9xdWVyeSA9IHN0eWxlX3F1ZXJ5IG9yIGluZHVzdHJ5LmdldCgiQ0lQIFN0eWxlIiwgImNvcnBvcmF0ZSBtaW5pbWFsIikKICAgIHN0eWxlX3Jlc3VsdHMgPSBzZWFyY2goc3R5bGVfcXVlcnksICJzdHlsZSIsIDEpCiAgICBzdHlsZSA9IHN0eWxlX3Jlc3VsdHMuZ2V0KCJyZXN1bHRzIiwgW3t9XSlbMF0gaWYgc3R5bGVfcmVzdWx0cy5nZXQoInJlc3VsdHMiKSBlbHNlIHt9CgogICAgIyBHZXQgcmVjb21tZW5kZWQgZGVsaXZlcmFibGVzIGZvciB0aGUgaW5kdXN0cnkKICAgIGtleV9kZWxpdmVyYWJsZXMgPSBpbmR1c3RyeS5nZXQoIktleSBEZWxpdmVyYWJsZXMiLCAiIikuc3BsaXQoKQogICAgZGVsaXZlcmFibGVfcmVzdWx0cyA9IFtdCiAgICBmb3IgZCBpbiBrZXlfZGVsaXZlcmFibGVzWzo1XToKICAgICAgICByZXN1bHQgPSBzZWFyY2goZCwgImRlbGl2ZXJhYmxlIiwgMSkKICAgICAgICBpZiByZXN1bHQuZ2V0KCJyZXN1bHRzIik6CiAgICAgICAgICAgIGRlbGl2ZXJhYmxlX3Jlc3VsdHMuYXBwZW5kKHJlc3VsdFsicmVzdWx0cyJdWzBdKQoKICAgIHJldHVybiB7CiAgICAgICAgImJyYW5kX25hbWUiOiBicmFuZF9uYW1lLAogICAgICAgICJpbmR1c3RyeSI6IGluZHVzdHJ5LAogICAgICAgICJzdHlsZSI6IHN0eWxlLAogICAgICAgICJyZWNvbW1lbmRlZF9kZWxpdmVyYWJsZXMiOiBkZWxpdmVyYWJsZV9yZXN1bHRzLAogICAgICAgICJjb2xvcl9zeXN0ZW0iOiB7CiAgICAgICAgICAgICJwcmltYXJ5Ijogc3R5bGUuZ2V0KCJQcmltYXJ5IENvbG9ycyIsIGluZHVzdHJ5LmdldCgiUHJpbWFyeSBDb2xvcnMiLCAiIikpLAogICAgICAgICAgICAic2Vjb25kYXJ5Ijogc3R5bGUuZ2V0KCJTZWNvbmRhcnkgQ29sb3JzIiwgaW5kdXN0cnkuZ2V0KCJTZWNvbmRhcnkgQ29sb3JzIiwgIiIpKQogICAgICAgIH0sCiAgICAgICAgInR5cG9ncmFwaHkiOiBzdHlsZS5nZXQoIlR5cG9ncmFwaHkiLCBpbmR1c3RyeS5nZXQoIlR5cG9ncmFwaHkiLCAiIikpLAogICAgICAgICJtYXRlcmlhbHMiOiBzdHlsZS5nZXQoIk1hdGVyaWFscyIsICIiKSwKICAgICAgICAiZmluaXNoZXMiOiBzdHlsZS5nZXQoIkZpbmlzaGVzIiwgIiIpCiAgICB9Cg==
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+CIP Design Core - BM25 search engine for Corporate Identity Program design guidelines
+"""
+
+import csv
+import re
+from pathlib import Path
+from math import log
+from collections import defaultdict
+
+# ============ CONFIGURATION ============
+DATA_DIR = Path(__file__).parent.parent.parent / "data" / "cip"
+MAX_RESULTS = 3
+
+CSV_CONFIG = {
+    "deliverable": {
+        "file": "deliverables.csv",
+        "search_cols": ["Deliverable", "Category", "Keywords", "Description", "Mockup Context"],
+        "output_cols": ["Deliverable", "Category", "Keywords", "Description", "Dimensions", "File Format", "Logo Placement", "Color Usage", "Typography Notes", "Mockup Context", "Best Practices", "Avoid"]
+    },
+    "style": {
+        "file": "styles.csv",
+        "search_cols": ["Style Name", "Category", "Keywords", "Description", "Mood"],
+        "output_cols": ["Style Name", "Category", "Keywords", "Description", "Primary Colors", "Secondary Colors", "Typography", "Materials", "Finishes", "Mood", "Best For", "Avoid For"]
+    },
+    "industry": {
+        "file": "industries.csv",
+        "search_cols": ["Industry", "Keywords", "CIP Style", "Mood"],
+        "output_cols": ["Industry", "Keywords", "CIP Style", "Primary Colors", "Secondary Colors", "Typography", "Key Deliverables", "Mood", "Best Practices", "Avoid"]
+    },
+    "mockup": {
+        "file": "mockup-contexts.csv",
+        "search_cols": ["Context Name", "Category", "Keywords", "Scene Description"],
+        "output_cols": ["Context Name", "Category", "Keywords", "Scene Description", "Lighting", "Environment", "Props", "Camera Angle", "Background", "Style Notes", "Best For", "Prompt Modifiers"]
+    }
+}
+
+
+# ============ BM25 IMPLEMENTATION ============
+class BM25:
+    """BM25 ranking algorithm for text search"""
+
+    def __init__(self, k1=1.5, b=0.75):
+        self.k1 = k1
+        self.b = b
+        self.corpus = []
+        self.doc_lengths = []
+        self.avgdl = 0
+        self.idf = {}
+        self.doc_freqs = defaultdict(int)
+        self.N = 0
+
+    def tokenize(self, text):
+        """Lowercase, split, remove punctuation, filter short words"""
+        text = re.sub(r'[^\w\s]', ' ', str(text).lower())
+        return [w for w in text.split() if len(w) > 2]
+
+    def fit(self, documents):
+        """Build BM25 index from documents"""
+        self.corpus = [self.tokenize(doc) for doc in documents]
+        self.N = len(self.corpus)
+        if self.N == 0:
+            return
+        self.doc_lengths = [len(doc) for doc in self.corpus]
+        self.avgdl = sum(self.doc_lengths) / self.N
+
+        for doc in self.corpus:
+            seen = set()
+            for word in doc:
+                if word not in seen:
+                    self.doc_freqs[word] += 1
+                    seen.add(word)
+
+        for word, freq in self.doc_freqs.items():
+            self.idf[word] = log((self.N - freq + 0.5) / (freq + 0.5) + 1)
+
+    def score(self, query):
+        """Score all documents against query"""
+        query_tokens = self.tokenize(query)
+        scores = []
+
+        for idx, doc in enumerate(self.corpus):
+            score = 0
+            doc_len = self.doc_lengths[idx]
+            term_freqs = defaultdict(int)
+            for word in doc:
+                term_freqs[word] += 1
+
+            for token in query_tokens:
+                if token in self.idf:
+                    tf = term_freqs[token]
+                    idf = self.idf[token]
+                    numerator = tf * (self.k1 + 1)
+                    denominator = tf + self.k1 * (1 - self.b + self.b * doc_len / self.avgdl)
+                    score += idf * numerator / denominator
+
+            scores.append((idx, score))
+
+        return sorted(scores, key=lambda x: x[1], reverse=True)
+
+
+# ============ SEARCH FUNCTIONS ============
+def _load_csv(filepath):
+    """Load CSV and return list of dicts"""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return list(csv.DictReader(f))
+
+
+def _search_csv(filepath, search_cols, output_cols, query, max_results):
+    """Core search function using BM25"""
+    if not filepath.exists():
+        return []
+
+    data = _load_csv(filepath)
+
+    # Build documents from search columns
+    documents = [" ".join(str(row.get(col, "")) for col in search_cols) for row in data]
+
+    # BM25 search
+    bm25 = BM25()
+    bm25.fit(documents)
+    ranked = bm25.score(query)
+
+    # Get top results with score > 0
+    results = []
+    for idx, score in ranked[:max_results]:
+        if score > 0:
+            row = data[idx]
+            results.append({col: row.get(col, "") for col in output_cols if col in row})
+
+    return results
+
+
+def detect_domain(query):
+    """Auto-detect the most relevant domain from query"""
+    query_lower = query.lower()
+
+    domain_keywords = {
+        "deliverable": ["card", "letterhead", "envelope", "folder", "shirt", "cap", "badge", "signage", "vehicle", "car", "van", "stationery", "uniform", "merchandise", "packaging", "banner", "booth"],
+        "style": ["style", "minimal", "modern", "luxury", "vintage", "industrial", "elegant", "bold", "corporate", "organic", "playful"],
+        "industry": ["tech", "finance", "legal", "healthcare", "hospitality", "food", "fashion", "retail", "construction", "logistics"],
+        "mockup": ["mockup", "scene", "context", "photo", "shot", "lighting", "background", "studio", "lifestyle"]
+    }
+
+    scores = {domain: sum(1 for kw in keywords if kw in query_lower) for domain, keywords in domain_keywords.items()}
+    best = max(scores, key=scores.get)
+    return best if scores[best] > 0 else "deliverable"
+
+
+def search(query, domain=None, max_results=MAX_RESULTS):
+    """Main search function with auto-domain detection"""
+    if domain is None:
+        domain = detect_domain(query)
+
+    config = CSV_CONFIG.get(domain, CSV_CONFIG["deliverable"])
+    filepath = DATA_DIR / config["file"]
+
+    if not filepath.exists():
+        return {"error": f"File not found: {filepath}", "domain": domain}
+
+    results = _search_csv(filepath, config["search_cols"], config["output_cols"], query, max_results)
+
+    return {
+        "domain": domain,
+        "query": query,
+        "file": config["file"],
+        "count": len(results),
+        "results": results
+    }
+
+
+def search_all(query, max_results=2):
+    """Search across all domains and combine results"""
+    all_results = {}
+    for domain in CSV_CONFIG.keys():
+        result = search(query, domain, max_results)
+        if result.get("results"):
+            all_results[domain] = result["results"]
+    return all_results
+
+
+def get_cip_brief(brand_name, industry_query, style_query=None):
+    """Generate a comprehensive CIP brief for a brand"""
+    # Search industry
+    industry_results = search(industry_query, "industry", 1)
+    industry = industry_results.get("results", [{}])[0] if industry_results.get("results") else {}
+
+    # Search style (use industry style if not specified)
+    style_query = style_query or industry.get("CIP Style", "corporate minimal")
+    style_results = search(style_query, "style", 1)
+    style = style_results.get("results", [{}])[0] if style_results.get("results") else {}
+
+    # Get recommended deliverables for the industry
+    key_deliverables = industry.get("Key Deliverables", "").split()
+    deliverable_results = []
+    for d in key_deliverables[:5]:
+        result = search(d, "deliverable", 1)
+        if result.get("results"):
+            deliverable_results.append(result["results"][0])
+
+    return {
+        "brand_name": brand_name,
+        "industry": industry,
+        "style": style,
+        "recommended_deliverables": deliverable_results,
+        "color_system": {
+            "primary": style.get("Primary Colors", industry.get("Primary Colors", "")),
+            "secondary": style.get("Secondary Colors", industry.get("Secondary Colors", ""))
+        },
+        "typography": style.get("Typography", industry.get("Typography", "")),
+        "materials": style.get("Materials", ""),
+        "finishes": style.get("Finishes", "")
+    }

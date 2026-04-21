@@ -1,1 +1,101 @@
-IyBMb2dvIENvbG9yIFBzeWNob2xvZ3kKCiMjIFByaW1hcnkgQ29sb3IgTWVhbmluZ3MKCiMjIyBCbHVlCi0gKipQc3ljaG9sb2d5OioqIFRydXN0LCBzdGFiaWxpdHksIHByb2Zlc3Npb25hbGlzbSwgY2FsbQotICoqSW5kdXN0cmllczoqKiBGaW5hbmNlLCBoZWFsdGhjYXJlLCB0ZWNoLCBjb3Jwb3JhdGUKLSAqKkhleCBFeGFtcGxlczoqKiBOYXZ5ICMwMDMzNjYsIFJveWFsICMwMDU1QTQsIFNreSAjMEVBNUU5Ci0gKipQYWlyaW5nczoqKiBXaGl0ZSwgZ29sZCwgbGlnaHQgZ3JheQoKIyMjIFJlZAotICoqUHN5Y2hvbG9neToqKiBFbmVyZ3ksIHBhc3Npb24sIHVyZ2VuY3ksIGV4Y2l0ZW1lbnQKLSAqKkluZHVzdHJpZXM6KiogRm9vZCwgc3BvcnRzLCBlbnRlcnRhaW5tZW50LCBzYWxlcwotICoqSGV4IEV4YW1wbGVzOioqIENyaW1zb24gI0RDMjYyNiwgU2NhcmxldCAjRUY0NDQ0LCBCdXJndW5keSAjOUYxMjM5Ci0gKipQYWlyaW5nczoqKiBXaGl0ZSwgYmxhY2ssIGdvbGQKLSAqKkNhdXRpb246KiogQXZvaWQgZm9yIGhlYWx0aGNhcmUgKGJsb29kIGNvbm5vdGF0aW9uKQoKIyMjIEdyZWVuCi0gKipQc3ljaG9sb2d5OioqIEdyb3d0aCwgbmF0dXJlLCBoZWFsdGgsIHN1c3RhaW5hYmlsaXR5Ci0gKipJbmR1c3RyaWVzOioqIEVjbywgd2VsbG5lc3MsIG9yZ2FuaWMsIGZpbmFuY2UgKGdyb3d0aCkKLSAqKkhleCBFeGFtcGxlczoqKiBGb3Jlc3QgIzIyOEIyMiwgU2FnZSAjMkU4QjU3LCBNaW50ICMxMEI5ODEKLSAqKlBhaXJpbmdzOioqIFdoaXRlLCBicm93biwgYmx1ZQoKIyMjIFllbGxvdy9Hb2xkCi0gKipQc3ljaG9sb2d5OioqIE9wdGltaXNtLCB3YXJtdGgsIGx1eHVyeSwgYXR0ZW50aW9uCi0gKipJbmR1c3RyaWVzOioqIEZvb2QsIGNoaWxkcmVuLCBsdXh1cnkgKGdvbGQpLCBlbmVyZ3kKLSAqKkhleCBFeGFtcGxlczoqKiBHb2xkICNENEFGMzcsIEFtYmVyICNGNTlFMEIsIExlbW9uICNGQUNDMTUKLSAqKlBhaXJpbmdzOioqIEJsYWNrLCBuYXZ5LCBkYXJrIGJyb3duCgojIyMgUHVycGxlCi0gKipQc3ljaG9sb2d5OioqIENyZWF0aXZpdHksIHdpc2RvbSwgbHV4dXJ5LCBteXN0ZXJ5Ci0gKipJbmR1c3RyaWVzOioqIEJlYXV0eSwgY3JlYXRpdmUsIHNwaXJpdHVhbCwgcHJlbWl1bQotICoqSGV4IEV4YW1wbGVzOioqIFJveWFsICM3QzNBRUQsIExhdmVuZGVyICNBNzhCRkEsIERlZXAgIzU4MUM4NwotICoqUGFpcmluZ3M6KiogR29sZCwgd2hpdGUsIHBpbmsKCiMjIyBPcmFuZ2UKLSAqKlBzeWNob2xvZ3k6KiogRnJpZW5kbHksIGVuZXJnZXRpYywgY29uZmlkZW50LCB5b3V0aGZ1bAotICoqSW5kdXN0cmllczoqKiBGb29kLCBzcG9ydHMsIGVudGVydGFpbm1lbnQsIHJldGFpbAotICoqSGV4IEV4YW1wbGVzOioqIFRhbmdlcmluZSAjRjk3MzE2LCBDb3JhbCAjRkI5MjNDLCBCdXJudCAjRUE1ODBDCi0gKipQYWlyaW5nczoqKiBXaGl0ZSwgbmF2eSwgZGFyayBncmF5CgojIyMgQmxhY2sKLSAqKlBzeWNob2xvZ3k6KiogU29waGlzdGljYXRpb24sIHBvd2VyLCBlbGVnYW5jZSwgYXV0aG9yaXR5Ci0gKipJbmR1c3RyaWVzOioqIEx1eHVyeSwgZmFzaGlvbiwgdGVjaCwgcHJlbWl1bQotICoqUGFpcmluZ3M6KiogV2hpdGUsIGdvbGQsIHNpbHZlcgotICoqTm90ZToqKiBVc2UgZm9yIGhpZ2gtZW5kIHBvc2l0aW9uaW5nCgojIyMgV2hpdGUKLSAqKlBzeWNob2xvZ3k6KiogUHVyaXR5LCBzaW1wbGljaXR5LCBjbGVhbmxpbmVzcywgbW9kZXJuCi0gKipVc2U6KiogQmFja2dyb3VuZHMsIG5lZ2F0aXZlIHNwYWNlLCBjb250cmFzdAotICoqUGFpcmluZ3M6KiogQW55IGNvbG9yICh1bml2ZXJzYWwgbmV1dHJhbCkKCiMjIENvbG9yIENvbWJpbmF0aW9ucyBieSBJbmR1c3RyeQoKfCBJbmR1c3RyeSB8IFByaW1hcnkgfCBTZWNvbmRhcnkgfCBBY2NlbnQgfCBBdm9pZCB8CnwtLS0tLS0tLS0tfC0tLS0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tfAp8IFRlY2ggfCBCbHVlLCBQdXJwbGUgfCBHcmF5LCBXaGl0ZSB8IFRlYWwsIEdyZWVuIHwgQnJvd24sIEJlaWdlIHwKfCBIZWFsdGhjYXJlIHwgQmx1ZSwgR3JlZW4gfCBUZWFsLCBXaGl0ZSB8IExpZ2h0IFB1cnBsZSB8IFJlZCwgQmxhY2sgfAp8IEZpbmFuY2UgfCBOYXZ5LCBCbHVlIHwgR29sZCwgR3JheSB8IEdyZWVuIHwgQnJpZ2h0IGNvbG9ycyB8CnwgRm9vZCB8IFJlZCwgT3JhbmdlIHwgWWVsbG93LCBCcm93biB8IEdyZWVuIHwgQmx1ZSAoYXBwZXRpdGUgc3VwcHJlc3NhbnQpIHwKfCBGYXNoaW9uIHwgQmxhY2ssIFdoaXRlIHwgR29sZCwgQmx1c2ggfCBOYXZ5IHwgTmVvbiAodW5sZXNzIGludGVudGlvbmFsKSB8CnwgRWNvIHwgR3JlZW4sIEJyb3duIHwgQmVpZ2UsIEJsdWUgfCBZZWxsb3cgfCBOZW9uLCBCbGFjayB8CnwgQ2hpbGRyZW4gfCBNdWx0aS1jb2xvciB8IFBhc3RlbHMgfCBCcmlnaHQgYWNjZW50cyB8IERhcmssIG11dGVkIHwKCiMjIENvbG9yIEhhcm1vbnkgVHlwZXMKCiMjIyBNb25vY2hyb21hdGljClNpbmdsZSBjb2xvciB3aXRoIHRpbnRzL3NoYWRlcy4gU2FmZSwgY29oZXNpdmUuCgojIyMgQ29tcGxlbWVudGFyeQpPcHBvc2l0ZSBjb2xvcnMgKGJsdWUtb3JhbmdlKS4gSGlnaCBjb250cmFzdCwgdmlicmFudC4KCiMjIyBBbmFsb2dvdXMKQWRqYWNlbnQgY29sb3JzIChibHVlLXRlYWwtZ3JlZW4pLiBIYXJtb25pb3VzLCBuYXR1cmFsLgoKIyMjIFRyaWFkaWMKVGhyZWUgZXZlbmx5IHNwYWNlZCBjb2xvcnMuIEJhbGFuY2VkLCBkeW5hbWljLgoKIyMgQWNjZXNzaWJpbGl0eSBDb25zaWRlcmF0aW9ucwoKLSBNaW5pbXVtIGNvbnRyYXN0IHJhdGlvOiA0LjU6MSAoV0NBRyBBQSkKLSBBdm9pZCByZWQtZ3JlZW4gb25seSBpbmRpY2F0b3JzCi0gVGVzdCBpbiBncmF5c2NhbGUgZm9yIGNsYXJpdHkKLSBDb25zaWRlciBjb2xvcmJsaW5kIHVzZXJzICh+OCUgb2YgbWFsZXMpCgojIyBRdWljayBSZWZlcmVuY2UgUGFsZXR0ZXMKCioqVGVjaCBQcm9mZXNzaW9uYWw6KioKUHJpbWFyeTogIzYzNjZGMSB8IFNlY29uZGFyeTogIzhCNUNGNiB8IEFjY2VudDogIzA2QjZENAoKKipFY28gU3VzdGFpbmFibGU6KioKUHJpbWFyeTogIzIyOEIyMiB8IFNlY29uZGFyeTogIzJFOEI1NyB8IEFjY2VudDogI0RFQjg4NwoKKipMdXh1cnkgUHJlbWl1bToqKgpQcmltYXJ5OiAjMUMxOTE3IHwgU2Vjb25kYXJ5OiAjRDRBRjM3IHwgQWNjZW50OiAjRkZGRkZGCgoqKkhlYWx0aGNhcmUgVHJ1c3Q6KioKUHJpbWFyeTogIzAwNzdCNiB8IFNlY29uZGFyeTogIzAwQTg5NiB8IEFjY2VudDogI0ZGRkZGRgoKKipGb29kIFdhcm06KioKUHJpbWFyeTogI0RDMjYyNiB8IFNlY29uZGFyeTogI0Y5NzMxNiB8IEFjY2VudDogI0NBOEEwNAo=
+# Logo Color Psychology
+
+## Primary Color Meanings
+
+### Blue
+- **Psychology:** Trust, stability, professionalism, calm
+- **Industries:** Finance, healthcare, tech, corporate
+- **Hex Examples:** Navy #003366, Royal #0055A4, Sky #0EA5E9
+- **Pairings:** White, gold, light gray
+
+### Red
+- **Psychology:** Energy, passion, urgency, excitement
+- **Industries:** Food, sports, entertainment, sales
+- **Hex Examples:** Crimson #DC2626, Scarlet #EF4444, Burgundy #9F1239
+- **Pairings:** White, black, gold
+- **Caution:** Avoid for healthcare (blood connotation)
+
+### Green
+- **Psychology:** Growth, nature, health, sustainability
+- **Industries:** Eco, wellness, organic, finance (growth)
+- **Hex Examples:** Forest #228B22, Sage #2E8B57, Mint #10B981
+- **Pairings:** White, brown, blue
+
+### Yellow/Gold
+- **Psychology:** Optimism, warmth, luxury, attention
+- **Industries:** Food, children, luxury (gold), energy
+- **Hex Examples:** Gold #D4AF37, Amber #F59E0B, Lemon #FACC15
+- **Pairings:** Black, navy, dark brown
+
+### Purple
+- **Psychology:** Creativity, wisdom, luxury, mystery
+- **Industries:** Beauty, creative, spiritual, premium
+- **Hex Examples:** Royal #7C3AED, Lavender #A78BFA, Deep #581C87
+- **Pairings:** Gold, white, pink
+
+### Orange
+- **Psychology:** Friendly, energetic, confident, youthful
+- **Industries:** Food, sports, entertainment, retail
+- **Hex Examples:** Tangerine #F97316, Coral #FB923C, Burnt #EA580C
+- **Pairings:** White, navy, dark gray
+
+### Black
+- **Psychology:** Sophistication, power, elegance, authority
+- **Industries:** Luxury, fashion, tech, premium
+- **Pairings:** White, gold, silver
+- **Note:** Use for high-end positioning
+
+### White
+- **Psychology:** Purity, simplicity, cleanliness, modern
+- **Use:** Backgrounds, negative space, contrast
+- **Pairings:** Any color (universal neutral)
+
+## Color Combinations by Industry
+
+| Industry | Primary | Secondary | Accent | Avoid |
+|----------|---------|-----------|--------|-------|
+| Tech | Blue, Purple | Gray, White | Teal, Green | Brown, Beige |
+| Healthcare | Blue, Green | Teal, White | Light Purple | Red, Black |
+| Finance | Navy, Blue | Gold, Gray | Green | Bright colors |
+| Food | Red, Orange | Yellow, Brown | Green | Blue (appetite suppressant) |
+| Fashion | Black, White | Gold, Blush | Navy | Neon (unless intentional) |
+| Eco | Green, Brown | Beige, Blue | Yellow | Neon, Black |
+| Children | Multi-color | Pastels | Bright accents | Dark, muted |
+
+## Color Harmony Types
+
+### Monochromatic
+Single color with tints/shades. Safe, cohesive.
+
+### Complementary
+Opposite colors (blue-orange). High contrast, vibrant.
+
+### Analogous
+Adjacent colors (blue-teal-green). Harmonious, natural.
+
+### Triadic
+Three evenly spaced colors. Balanced, dynamic.
+
+## Accessibility Considerations
+
+- Minimum contrast ratio: 4.5:1 (WCAG AA)
+- Avoid red-green only indicators
+- Test in grayscale for clarity
+- Consider colorblind users (~8% of males)
+
+## Quick Reference Palettes
+
+**Tech Professional:**
+Primary: #6366F1 | Secondary: #8B5CF6 | Accent: #06B6D4
+
+**Eco Sustainable:**
+Primary: #228B22 | Secondary: #2E8B57 | Accent: #DEB887
+
+**Luxury Premium:**
+Primary: #1C1917 | Secondary: #D4AF37 | Accent: #FFFFFF
+
+**Healthcare Trust:**
+Primary: #0077B6 | Secondary: #00A896 | Accent: #FFFFFF
+
+**Food Warm:**
+Primary: #DC2626 | Secondary: #F97316 | Accent: #CA8A04

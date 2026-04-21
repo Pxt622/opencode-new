@@ -1,1 +1,94 @@
-IyBTbGlkZSBTdHJhdGVnaWVzCgoxNSBwcm92ZW4gZGVjayBzdHJ1Y3R1cmVzIHdpdGggZW1vdGlvbiBhcmNzLgoKIyMgU3RyYXRlZ3kgU2VsZWN0aW9uCgp8IFN0cmF0ZWd5IHwgU2xpZGVzIHwgR29hbCB8IEF1ZGllbmNlIHwKfC0tLS0tLS0tLS18LS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLS18CnwgWUMgU2VlZCBEZWNrIHwgMTAtMTIgfCBSYWlzZSBzZWVkIGZ1bmRpbmcgfCBWQ3MgfAp8IEd1eSBLYXdhc2FraSB8IDEwIHwgUGl0Y2ggaW4gMjAgbWluIHwgSW52ZXN0b3JzIHwKfCBTZXJpZXMgQSB8IDEyLTE1IHwgUmFpc2UgU2VyaWVzIEEgfCBHcm93dGggVkNzIHwKfCBQcm9kdWN0IERlbW8gfCA1LTggfCBEZW1vbnN0cmF0ZSB2YWx1ZSB8IFByb3NwZWN0cyB8CnwgU2FsZXMgUGl0Y2ggfCA3LTEwIHwgQ2xvc2UgZGVhbCB8IFF1YWxpZmllZCBsZWFkcyB8CnwgTmFuY3kgRHVhcnRlIFNwYXJrbGluZSB8IFZhcmllcyB8IFRyYW5zZm9ybSBwZXJzcGVjdGl2ZSB8IEFueSB8CnwgUHJvYmxlbS1Tb2x1dGlvbi1CZW5lZml0IHwgMy01IHwgUXVpY2sgcGVyc3Vhc2lvbiB8IFRpbWUtcHJlc3NlZCB8CnwgUUJSIHwgMTAtMTUgfCBVcGRhdGUgc3Rha2Vob2xkZXJzIHwgTGVhZGVyc2hpcCB8CnwgVGVhbSBBbGwtSGFuZHMgfCA4LTEyIHwgQWxpZ24gdGVhbSB8IEVtcGxveWVlcyB8CnwgQ29uZmVyZW5jZSBUYWxrIHwgMTUtMjUgfCBUaG91Z2h0IGxlYWRlcnNoaXAgfCBBdHRlbmRlZXMgfAp8IFdvcmtzaG9wIHwgMjAtNDAgfCBUZWFjaCBza2lsbHMgfCBMZWFybmVycyB8CnwgQ2FzZSBTdHVkeSB8IDgtMTIgfCBQcm92ZSB2YWx1ZSB8IFByb3NwZWN0cyB8CnwgQ29tcGV0aXRpdmUgQW5hbHlzaXMgfCA2LTEwIHwgU3RyYXRlZ2ljIGRlY2lzaW9ucyB8IEludGVybmFsIHwKfCBCb2FyZCBNZWV0aW5nIHwgMTUtMjAgfCBVcGRhdGUgYm9hcmQgfCBEaXJlY3RvcnMgfAp8IFdlYmluYXIgfCAyMC0zMCB8IEdlbmVyYXRlIGxlYWRzIHwgUmVnaXN0cmFudHMgfAoKIyMgQ29tbW9uIFN0cnVjdHVyZXMKCiMjIyBZQyBTZWVkIERlY2sgKDEwIHNsaWRlcykKMS4gVGl0bGUvSG9vawoyLiBQcm9ibGVtCjMuIFNvbHV0aW9uCjQuIFRyYWN0aW9uCjUuIE1hcmtldAo2LiBQcm9kdWN0CjcuIEJ1c2luZXNzIE1vZGVsCjguIFRlYW0KOS4gRmluYW5jaWFscwoxMC4gVGhlIEFzawoKKipFbW90aW9uIGFyYzoqKiBjdXJpb3NpdHnihpJmcnVzdHJhdGlvbuKGkmhvcGXihpJjb25maWRlbmNl4oaSdHJ1c3TihpJ1cmdlbmN5CgojIyMgU2FsZXMgUGl0Y2ggKDkgc2xpZGVzKQoxLiBQZXJzb25hbGl6ZWQgSG9vawoyLiBUaGVpciBQcm9ibGVtCjMuIENvc3Qgb2YgSW5hY3Rpb24KNC4gWW91ciBTb2x1dGlvbgo1LiBQcm9vZi9DYXNlIFN0dWRpZXMKNi4gRGlmZmVyZW50aWF0b3JzCjcuIFByaWNpbmcvUk9JCjguIE9iamVjdGlvbiBIYW5kbGluZwo5LiBDVEEgKyBOZXh0IFN0ZXBzCgoqKkVtb3Rpb24gYXJjOioqIGNvbm5lY3Rpb27ihpJmcnVzdHJhdGlvbuKGkmZlYXLihpJob3Bl4oaSdHJ1c3TihpJjb25maWRlbmNl4oaSdXJnZW5jeQoKIyMjIFByb2R1Y3QgRGVtbyAoNiBzbGlkZXMpCjEuIEhvb2svUHJvYmxlbQoyLiBTb2x1dGlvbiBPdmVydmlldwozLiBMaXZlIERlbW8vU2NyZWVuc2hvdHMKNC4gS2V5IEZlYXR1cmVzCjUuIEJlbmVmaXRzL1ByaWNpbmcKNi4gQ1RBCgoqKkVtb3Rpb24gYXJjOioqIGN1cmlvc2l0eeKGkmZydXN0cmF0aW9u4oaSaG9wZeKGkmNvbmZpZGVuY2XihpJ1cmdlbmN5CgojIyBEdWFydGUgU3BhcmtsaW5lIFBhdHRlcm4KCkFsdGVybmF0ZSBiZXR3ZWVuICJXaGF0IElzIiAoY3VycmVudCBwYWluKSBhbmQgIldoYXQgQ291bGQgQmUiIChiZXR0ZXIgZnV0dXJlKToKCmBgYApXaGF0IElzIOKGkiBXaGF0IENvdWxkIEJlIOKGkiBXaGF0IElzIOKGkiBXaGF0IENvdWxkIEJlIOKGkiBOZXcgQmxpc3MKKHBhaW4pICAgICAoaG9wZSkgICAgICAgICAocGFpbikgICAgIChob3BlKSAgICAgICAgIChyZXNvbHV0aW9uKQpgYGAKClBhdHRlcm4gYnJlYWtzIGF0IDEvMyBhbmQgMi8zIHBvc2l0aW9ucyBjcmVhdGUgZW5nYWdlbWVudCBwZWFrcy4KCiMjIFNlYXJjaCBDb21tYW5kcwoKYGBgYmFzaAojIEZpbmQgc3RyYXRlZ3kgYnkgZ29hbApweXRob24gLmNsYXVkZS9za2lsbHMvZGVzaWduLXN5c3RlbS9zY3JpcHRzL3NlYXJjaC1zbGlkZXMucHkgImludmVzdG9yIHBpdGNoIiAtZCBzdHJhdGVneQoKIyBHZXQgZW1vdGlvbiBhcmMKcHl0aG9uIC5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi1zeXN0ZW0vc2NyaXB0cy9zZWFyY2gtc2xpZGVzLnB5ICJzZXJpZXMgYSBmdW5kaW5nIiAtZCBzdHJhdGVneSAtLWpzb24KYGBgCgojIyBNYXRjaGluZyBTdHJhdGVneSB0byBDb250ZXh0Cgp8IENvbnRleHQgfCBSZWNvbW1lbmRlZCBTdHJhdGVneSB8CnwtLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLS0tfAp8IFJhaXNpbmcgbW9uZXkgfCBZQyBTZWVkLCBTZXJpZXMgQSwgR3V5IEthd2FzYWtpIHwKfCBTZWxsaW5nIHByb2R1Y3QgfCBTYWxlcyBQaXRjaCwgUHJvZHVjdCBEZW1vIHwKfCBJbnRlcm5hbCB1cGRhdGUgfCBRQlIsIEFsbC1IYW5kcywgQm9hcmQgTWVldGluZyB8CnwgUHVibGljIHNwZWFraW5nIHwgQ29uZmVyZW5jZSBUYWxrLCBXb3Jrc2hvcCB8CnwgUHJvdmluZyB2YWx1ZSB8IENhc2UgU3R1ZHksIENvbXBldGl0aXZlIEFuYWx5c2lzIHwKfCBMZWFkIGdlbmVyYXRpb24gfCBXZWJpbmFyIHwK
+# Slide Strategies
+
+15 proven deck structures with emotion arcs.
+
+## Strategy Selection
+
+| Strategy | Slides | Goal | Audience |
+|----------|--------|------|----------|
+| YC Seed Deck | 10-12 | Raise seed funding | VCs |
+| Guy Kawasaki | 10 | Pitch in 20 min | Investors |
+| Series A | 12-15 | Raise Series A | Growth VCs |
+| Product Demo | 5-8 | Demonstrate value | Prospects |
+| Sales Pitch | 7-10 | Close deal | Qualified leads |
+| Nancy Duarte Sparkline | Varies | Transform perspective | Any |
+| Problem-Solution-Benefit | 3-5 | Quick persuasion | Time-pressed |
+| QBR | 10-15 | Update stakeholders | Leadership |
+| Team All-Hands | 8-12 | Align team | Employees |
+| Conference Talk | 15-25 | Thought leadership | Attendees |
+| Workshop | 20-40 | Teach skills | Learners |
+| Case Study | 8-12 | Prove value | Prospects |
+| Competitive Analysis | 6-10 | Strategic decisions | Internal |
+| Board Meeting | 15-20 | Update board | Directors |
+| Webinar | 20-30 | Generate leads | Registrants |
+
+## Common Structures
+
+### YC Seed Deck (10 slides)
+1. Title/Hook
+2. Problem
+3. Solution
+4. Traction
+5. Market
+6. Product
+7. Business Model
+8. Team
+9. Financials
+10. The Ask
+
+**Emotion arc:** curiosity→frustration→hope→confidence→trust→urgency
+
+### Sales Pitch (9 slides)
+1. Personalized Hook
+2. Their Problem
+3. Cost of Inaction
+4. Your Solution
+5. Proof/Case Studies
+6. Differentiators
+7. Pricing/ROI
+8. Objection Handling
+9. CTA + Next Steps
+
+**Emotion arc:** connection→frustration→fear→hope→trust→confidence→urgency
+
+### Product Demo (6 slides)
+1. Hook/Problem
+2. Solution Overview
+3. Live Demo/Screenshots
+4. Key Features
+5. Benefits/Pricing
+6. CTA
+
+**Emotion arc:** curiosity→frustration→hope→confidence→urgency
+
+## Duarte Sparkline Pattern
+
+Alternate between "What Is" (current pain) and "What Could Be" (better future):
+
+```
+What Is → What Could Be → What Is → What Could Be → New Bliss
+(pain)     (hope)         (pain)     (hope)         (resolution)
+```
+
+Pattern breaks at 1/3 and 2/3 positions create engagement peaks.
+
+## Search Commands
+
+```bash
+# Find strategy by goal
+python .claude/skills/design-system/scripts/search-slides.py "investor pitch" -d strategy
+
+# Get emotion arc
+python .claude/skills/design-system/scripts/search-slides.py "series a funding" -d strategy --json
+```
+
+## Matching Strategy to Context
+
+| Context | Recommended Strategy |
+|---------|---------------------|
+| Raising money | YC Seed, Series A, Guy Kawasaki |
+| Selling product | Sales Pitch, Product Demo |
+| Internal update | QBR, All-Hands, Board Meeting |
+| Public speaking | Conference Talk, Workshop |
+| Proving value | Case Study, Competitive Analysis |
+| Lead generation | Webinar |

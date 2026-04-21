@@ -1,1 +1,184 @@
-IiIiCkV4Y2VsIEZvcm11bGEgUmVjYWxjdWxhdGlvbiBTY3JpcHQKUmVjYWxjdWxhdGVzIGFsbCBmb3JtdWxhcyBpbiBhbiBFeGNlbCBmaWxlIHVzaW5nIExpYnJlT2ZmaWNlCiIiIgoKaW1wb3J0IGpzb24KaW1wb3J0IG9zCmltcG9ydCBwbGF0Zm9ybQppbXBvcnQgc3VicHJvY2VzcwppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKZnJvbSBvZmZpY2Uuc29mZmljZSBpbXBvcnQgZ2V0X3NvZmZpY2VfZW52Cgpmcm9tIG9wZW5weXhsIGltcG9ydCBsb2FkX3dvcmtib29rCgpNQUNST19ESVJfTUFDT1MgPSAifi9MaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvTGlicmVPZmZpY2UvNC91c2VyL2Jhc2ljL1N0YW5kYXJkIgpNQUNST19ESVJfTElOVVggPSAifi8uY29uZmlnL2xpYnJlb2ZmaWNlLzQvdXNlci9iYXNpYy9TdGFuZGFyZCIKTUFDUk9fRklMRU5BTUUgPSAiTW9kdWxlMS54YmEiCgpSRUNBTENVTEFURV9NQUNSTyA9ICIiIjw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+CjwhRE9DVFlQRSBzY3JpcHQ6bW9kdWxlIFBVQkxJQyAiLS8vT3Blbk9mZmljZS5vcmcvL0RURCBPZmZpY2VEb2N1bWVudCAxLjAvL0VOIiAibW9kdWxlLmR0ZCI+CjxzY3JpcHQ6bW9kdWxlIHhtbG5zOnNjcmlwdD0iaHR0cDovL29wZW5vZmZpY2Uub3JnLzIwMDAvc2NyaXB0IiBzY3JpcHQ6bmFtZT0iTW9kdWxlMSIgc2NyaXB0Omxhbmd1YWdlPSJTdGFyQmFzaWMiPgogICAgU3ViIFJlY2FsY3VsYXRlQW5kU2F2ZSgpCiAgICAgIFRoaXNDb21wb25lbnQuY2FsY3VsYXRlQWxsKCkKICAgICAgVGhpc0NvbXBvbmVudC5zdG9yZSgpCiAgICAgIFRoaXNDb21wb25lbnQuY2xvc2UoVHJ1ZSkKICAgIEVuZCBTdWIKPC9zY3JpcHQ6bW9kdWxlPiIiIgoKCmRlZiBoYXNfZ3RpbWVvdXQoKToKICAgIHRyeToKICAgICAgICBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgWyJndGltZW91dCIsICItLXZlcnNpb24iXSwgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwgdGltZW91dD0xLCBjaGVjaz1GYWxzZQogICAgICAgICkKICAgICAgICByZXR1cm4gVHJ1ZQogICAgZXhjZXB0IChGaWxlTm90Rm91bmRFcnJvciwgc3VicHJvY2Vzcy5UaW1lb3V0RXhwaXJlZCk6CiAgICAgICAgcmV0dXJuIEZhbHNlCgoKZGVmIHNldHVwX2xpYnJlb2ZmaWNlX21hY3JvKCk6CiAgICBtYWNyb19kaXIgPSBvcy5wYXRoLmV4cGFuZHVzZXIoCiAgICAgICAgTUFDUk9fRElSX01BQ09TIGlmIHBsYXRmb3JtLnN5c3RlbSgpID09ICJEYXJ3aW4iIGVsc2UgTUFDUk9fRElSX0xJTlVYCiAgICApCiAgICBtYWNyb19maWxlID0gb3MucGF0aC5qb2luKG1hY3JvX2RpciwgTUFDUk9fRklMRU5BTUUpCgogICAgaWYgKAogICAgICAgIG9zLnBhdGguZXhpc3RzKG1hY3JvX2ZpbGUpCiAgICAgICAgYW5kICJSZWNhbGN1bGF0ZUFuZFNhdmUiIGluIFBhdGgobWFjcm9fZmlsZSkucmVhZF90ZXh0KCkKICAgICk6CiAgICAgICAgcmV0dXJuIFRydWUKCiAgICBpZiBub3Qgb3MucGF0aC5leGlzdHMobWFjcm9fZGlyKToKICAgICAgICBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgWyJzb2ZmaWNlIiwgIi0taGVhZGxlc3MiLCAiLS10ZXJtaW5hdGVfYWZ0ZXJfaW5pdCJdLAogICAgICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLAogICAgICAgICAgICB0aW1lb3V0PTEwLAogICAgICAgICAgICBlbnY9Z2V0X3NvZmZpY2VfZW52KCksCiAgICAgICAgKQogICAgICAgIG9zLm1ha2VkaXJzKG1hY3JvX2RpciwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICB0cnk6CiAgICAgICAgUGF0aChtYWNyb19maWxlKS53cml0ZV90ZXh0KFJFQ0FMQ1VMQVRFX01BQ1JPKQogICAgICAgIHJldHVybiBUcnVlCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiBGYWxzZQoKCmRlZiByZWNhbGMoZmlsZW5hbWUsIHRpbWVvdXQ9MzApOgogICAgaWYgbm90IFBhdGgoZmlsZW5hbWUpLmV4aXN0cygpOgogICAgICAgIHJldHVybiB7ImVycm9yIjogZiJGaWxlIHtmaWxlbmFtZX0gZG9lcyBub3QgZXhpc3QifQoKICAgIGFic19wYXRoID0gc3RyKFBhdGgoZmlsZW5hbWUpLmFic29sdXRlKCkpCgogICAgaWYgbm90IHNldHVwX2xpYnJlb2ZmaWNlX21hY3JvKCk6CiAgICAgICAgcmV0dXJuIHsiZXJyb3IiOiAiRmFpbGVkIHRvIHNldHVwIExpYnJlT2ZmaWNlIG1hY3JvIn0KCiAgICBjbWQgPSBbCiAgICAgICAgInNvZmZpY2UiLAogICAgICAgICItLWhlYWRsZXNzIiwKICAgICAgICAiLS1ub3Jlc3RvcmUiLAogICAgICAgICJ2bmQuc3VuLnN0YXIuc2NyaXB0OlN0YW5kYXJkLk1vZHVsZTEuUmVjYWxjdWxhdGVBbmRTYXZlP2xhbmd1YWdlPUJhc2ljJmxvY2F0aW9uPWFwcGxpY2F0aW9uIiwKICAgICAgICBhYnNfcGF0aCwKICAgIF0KCiAgICBpZiBwbGF0Zm9ybS5zeXN0ZW0oKSA9PSAiTGludXgiOgogICAgICAgIGNtZCA9IFsidGltZW91dCIsIHN0cih0aW1lb3V0KV0gKyBjbWQKICAgIGVsaWYgcGxhdGZvcm0uc3lzdGVtKCkgPT0gIkRhcndpbiIgYW5kIGhhc19ndGltZW91dCgpOgogICAgICAgIGNtZCA9IFsiZ3RpbWVvdXQiLCBzdHIodGltZW91dCldICsgY21kCgogICAgcmVzdWx0ID0gc3VicHJvY2Vzcy5ydW4oY21kLCBjYXB0dXJlX291dHB1dD1UcnVlLCB0ZXh0PVRydWUsIGVudj1nZXRfc29mZmljZV9lbnYoKSkKCiAgICBpZiByZXN1bHQucmV0dXJuY29kZSAhPSAwIGFuZCByZXN1bHQucmV0dXJuY29kZSAhPSAxMjQ6ICAKICAgICAgICBlcnJvcl9tc2cgPSByZXN1bHQuc3RkZXJyIG9yICJVbmtub3duIGVycm9yIGR1cmluZyByZWNhbGN1bGF0aW9uIgogICAgICAgIGlmICJNb2R1bGUxIiBpbiBlcnJvcl9tc2cgb3IgIlJlY2FsY3VsYXRlQW5kU2F2ZSIgbm90IGluIGVycm9yX21zZzoKICAgICAgICAgICAgcmV0dXJuIHsiZXJyb3IiOiAiTGlicmVPZmZpY2UgbWFjcm8gbm90IGNvbmZpZ3VyZWQgcHJvcGVybHkifQogICAgICAgIHJldHVybiB7ImVycm9yIjogZXJyb3JfbXNnfQoKICAgIHRyeToKICAgICAgICB3YiA9IGxvYWRfd29ya2Jvb2soZmlsZW5hbWUsIGRhdGFfb25seT1UcnVlKQoKICAgICAgICBleGNlbF9lcnJvcnMgPSBbCiAgICAgICAgICAgICIjVkFMVUUhIiwKICAgICAgICAgICAgIiNESVYvMCEiLAogICAgICAgICAgICAiI1JFRiEiLAogICAgICAgICAgICAiI05BTUU/IiwKICAgICAgICAgICAgIiNOVUxMISIsCiAgICAgICAgICAgICIjTlVNISIsCiAgICAgICAgICAgICIjTi9BIiwKICAgICAgICBdCiAgICAgICAgZXJyb3JfZGV0YWlscyA9IHtlcnI6IFtdIGZvciBlcnIgaW4gZXhjZWxfZXJyb3JzfQogICAgICAgIHRvdGFsX2Vycm9ycyA9IDAKCiAgICAgICAgZm9yIHNoZWV0X25hbWUgaW4gd2Iuc2hlZXRuYW1lczoKICAgICAgICAgICAgd3MgPSB3YltzaGVldF9uYW1lXQogICAgICAgICAgICBmb3Igcm93IGluIHdzLml0ZXJfcm93cygpOgogICAgICAgICAgICAgICAgZm9yIGNlbGwgaW4gcm93OgogICAgICAgICAgICAgICAgICAgIGlmIGNlbGwudmFsdWUgaXMgbm90IE5vbmUgYW5kIGlzaW5zdGFuY2UoY2VsbC52YWx1ZSwgc3RyKToKICAgICAgICAgICAgICAgICAgICAgICAgZm9yIGVyciBpbiBleGNlbF9lcnJvcnM6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiBlcnIgaW4gY2VsbC52YWx1ZToKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb2NhdGlvbiA9IGYie3NoZWV0X25hbWV9IXtjZWxsLmNvb3JkaW5hdGV9IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGVycm9yX2RldGFpbHNbZXJyXS5hcHBlbmQobG9jYXRpb24pCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG90YWxfZXJyb3JzICs9IDEKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICB3Yi5jbG9zZSgpCgogICAgICAgIHJlc3VsdCA9IHsKICAgICAgICAgICAgInN0YXR1cyI6ICJzdWNjZXNzIiBpZiB0b3RhbF9lcnJvcnMgPT0gMCBlbHNlICJlcnJvcnNfZm91bmQiLAogICAgICAgICAgICAidG90YWxfZXJyb3JzIjogdG90YWxfZXJyb3JzLAogICAgICAgICAgICAiZXJyb3Jfc3VtbWFyeSI6IHt9LAogICAgICAgIH0KCiAgICAgICAgZm9yIGVycl90eXBlLCBsb2NhdGlvbnMgaW4gZXJyb3JfZGV0YWlscy5pdGVtcygpOgogICAgICAgICAgICBpZiBsb2NhdGlvbnM6CiAgICAgICAgICAgICAgICByZXN1bHRbImVycm9yX3N1bW1hcnkiXVtlcnJfdHlwZV0gPSB7CiAgICAgICAgICAgICAgICAgICAgImNvdW50IjogbGVuKGxvY2F0aW9ucyksCiAgICAgICAgICAgICAgICAgICAgImxvY2F0aW9ucyI6IGxvY2F0aW9uc1s6MjBdLCAgCiAgICAgICAgICAgICAgICB9CgogICAgICAgIHdiX2Zvcm11bGFzID0gbG9hZF93b3JrYm9vayhmaWxlbmFtZSwgZGF0YV9vbmx5PUZhbHNlKQogICAgICAgIGZvcm11bGFfY291bnQgPSAwCiAgICAgICAgZm9yIHNoZWV0X25hbWUgaW4gd2JfZm9ybXVsYXMuc2hlZXRuYW1lczoKICAgICAgICAgICAgd3MgPSB3Yl9mb3JtdWxhc1tzaGVldF9uYW1lXQogICAgICAgICAgICBmb3Igcm93IGluIHdzLml0ZXJfcm93cygpOgogICAgICAgICAgICAgICAgZm9yIGNlbGwgaW4gcm93OgogICAgICAgICAgICAgICAgICAgIGlmICgKICAgICAgICAgICAgICAgICAgICAgICAgY2VsbC52YWx1ZQogICAgICAgICAgICAgICAgICAgICAgICBhbmQgaXNpbnN0YW5jZShjZWxsLnZhbHVlLCBzdHIpCiAgICAgICAgICAgICAgICAgICAgICAgIGFuZCBjZWxsLnZhbHVlLnN0YXJ0c3dpdGgoIj0iKQogICAgICAgICAgICAgICAgICAgICk6CiAgICAgICAgICAgICAgICAgICAgICAgIGZvcm11bGFfY291bnQgKz0gMQogICAgICAgIHdiX2Zvcm11bGFzLmNsb3NlKCkKCiAgICAgICAgcmVzdWx0WyJ0b3RhbF9mb3JtdWxhcyJdID0gZm9ybXVsYV9jb3VudAoKICAgICAgICByZXR1cm4gcmVzdWx0CgogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiB7ImVycm9yIjogc3RyKGUpfQoKCmRlZiBtYWluKCk6CiAgICBpZiBsZW4oc3lzLmFyZ3YpIDwgMjoKICAgICAgICBwcmludCgiVXNhZ2U6IHB5dGhvbiByZWNhbGMucHkgPGV4Y2VsX2ZpbGU+IFt0aW1lb3V0X3NlY29uZHNdIikKICAgICAgICBwcmludCgiXG5SZWNhbGN1bGF0ZXMgYWxsIGZvcm11bGFzIGluIGFuIEV4Y2VsIGZpbGUgdXNpbmcgTGlicmVPZmZpY2UiKQogICAgICAgIHByaW50KCJcblJldHVybnMgSlNPTiB3aXRoIGVycm9yIGRldGFpbHM6IikKICAgICAgICBwcmludCgiICAtIHN0YXR1czogJ3N1Y2Nlc3MnIG9yICdlcnJvcnNfZm91bmQnIikKICAgICAgICBwcmludCgiICAtIHRvdGFsX2Vycm9yczogVG90YWwgbnVtYmVyIG9mIEV4Y2VsIGVycm9ycyBmb3VuZCIpCiAgICAgICAgcHJpbnQoIiAgLSB0b3RhbF9mb3JtdWxhczogTnVtYmVyIG9mIGZvcm11bGFzIGluIHRoZSBmaWxlIikKICAgICAgICBwcmludCgiICAtIGVycm9yX3N1bW1hcnk6IEJyZWFrZG93biBieSBlcnJvciB0eXBlIHdpdGggbG9jYXRpb25zIikKICAgICAgICBwcmludCgiICAgIC0gI1ZBTFVFISwgI0RJVi8wISwgI1JFRiEsICNOQU1FPywgI05VTEwhLCAjTlVNISwgI04vQSIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBmaWxlbmFtZSA9IHN5cy5hcmd2WzFdCiAgICB0aW1lb3V0ID0gaW50KHN5cy5hcmd2WzJdKSBpZiBsZW4oc3lzLmFyZ3YpID4gMiBlbHNlIDMwCgogICAgcmVzdWx0ID0gcmVjYWxjKGZpbGVuYW1lLCB0aW1lb3V0KQogICAgcHJpbnQoanNvbi5kdW1wcyhyZXN1bHQsIGluZGVudD0yKSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+"""
+Excel Formula Recalculation Script
+Recalculates all formulas in an Excel file using LibreOffice
+"""
+
+import json
+import os
+import platform
+import subprocess
+import sys
+from pathlib import Path
+
+from office.soffice import get_soffice_env
+
+from openpyxl import load_workbook
+
+MACRO_DIR_MACOS = "~/Library/Application Support/LibreOffice/4/user/basic/Standard"
+MACRO_DIR_LINUX = "~/.config/libreoffice/4/user/basic/Standard"
+MACRO_FILENAME = "Module1.xba"
+
+RECALCULATE_MACRO = """<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">
+    Sub RecalculateAndSave()
+      ThisComponent.calculateAll()
+      ThisComponent.store()
+      ThisComponent.close(True)
+    End Sub
+</script:module>"""
+
+
+def has_gtimeout():
+    try:
+        subprocess.run(
+            ["gtimeout", "--version"], capture_output=True, timeout=1, check=False
+        )
+        return True
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        return False
+
+
+def setup_libreoffice_macro():
+    macro_dir = os.path.expanduser(
+        MACRO_DIR_MACOS if platform.system() == "Darwin" else MACRO_DIR_LINUX
+    )
+    macro_file = os.path.join(macro_dir, MACRO_FILENAME)
+
+    if (
+        os.path.exists(macro_file)
+        and "RecalculateAndSave" in Path(macro_file).read_text()
+    ):
+        return True
+
+    if not os.path.exists(macro_dir):
+        subprocess.run(
+            ["soffice", "--headless", "--terminate_after_init"],
+            capture_output=True,
+            timeout=10,
+            env=get_soffice_env(),
+        )
+        os.makedirs(macro_dir, exist_ok=True)
+
+    try:
+        Path(macro_file).write_text(RECALCULATE_MACRO)
+        return True
+    except Exception:
+        return False
+
+
+def recalc(filename, timeout=30):
+    if not Path(filename).exists():
+        return {"error": f"File {filename} does not exist"}
+
+    abs_path = str(Path(filename).absolute())
+
+    if not setup_libreoffice_macro():
+        return {"error": "Failed to setup LibreOffice macro"}
+
+    cmd = [
+        "soffice",
+        "--headless",
+        "--norestore",
+        "vnd.sun.star.script:Standard.Module1.RecalculateAndSave?language=Basic&location=application",
+        abs_path,
+    ]
+
+    if platform.system() == "Linux":
+        cmd = ["timeout", str(timeout)] + cmd
+    elif platform.system() == "Darwin" and has_gtimeout():
+        cmd = ["gtimeout", str(timeout)] + cmd
+
+    result = subprocess.run(cmd, capture_output=True, text=True, env=get_soffice_env())
+
+    if result.returncode != 0 and result.returncode != 124:  
+        error_msg = result.stderr or "Unknown error during recalculation"
+        if "Module1" in error_msg or "RecalculateAndSave" not in error_msg:
+            return {"error": "LibreOffice macro not configured properly"}
+        return {"error": error_msg}
+
+    try:
+        wb = load_workbook(filename, data_only=True)
+
+        excel_errors = [
+            "#VALUE!",
+            "#DIV/0!",
+            "#REF!",
+            "#NAME?",
+            "#NULL!",
+            "#NUM!",
+            "#N/A",
+        ]
+        error_details = {err: [] for err in excel_errors}
+        total_errors = 0
+
+        for sheet_name in wb.sheetnames:
+            ws = wb[sheet_name]
+            for row in ws.iter_rows():
+                for cell in row:
+                    if cell.value is not None and isinstance(cell.value, str):
+                        for err in excel_errors:
+                            if err in cell.value:
+                                location = f"{sheet_name}!{cell.coordinate}"
+                                error_details[err].append(location)
+                                total_errors += 1
+                                break
+
+        wb.close()
+
+        result = {
+            "status": "success" if total_errors == 0 else "errors_found",
+            "total_errors": total_errors,
+            "error_summary": {},
+        }
+
+        for err_type, locations in error_details.items():
+            if locations:
+                result["error_summary"][err_type] = {
+                    "count": len(locations),
+                    "locations": locations[:20],  
+                }
+
+        wb_formulas = load_workbook(filename, data_only=False)
+        formula_count = 0
+        for sheet_name in wb_formulas.sheetnames:
+            ws = wb_formulas[sheet_name]
+            for row in ws.iter_rows():
+                for cell in row:
+                    if (
+                        cell.value
+                        and isinstance(cell.value, str)
+                        and cell.value.startswith("=")
+                    ):
+                        formula_count += 1
+        wb_formulas.close()
+
+        result["total_formulas"] = formula_count
+
+        return result
+
+    except Exception as e:
+        return {"error": str(e)}
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python recalc.py <excel_file> [timeout_seconds]")
+        print("\nRecalculates all formulas in an Excel file using LibreOffice")
+        print("\nReturns JSON with error details:")
+        print("  - status: 'success' or 'errors_found'")
+        print("  - total_errors: Total number of Excel errors found")
+        print("  - total_formulas: Number of formulas in the file")
+        print("  - error_summary: Breakdown by error type with locations")
+        print("    - #VALUE!, #DIV/0!, #REF!, #NAME?, #NULL!, #NUM!, #N/A")
+        sys.exit(1)
+
+    filename = sys.argv[1]
+    timeout = int(sys.argv[2]) if len(sys.argv) > 2 else 30
+
+    result = recalc(filename, timeout)
+    print(json.dumps(result, indent=2))
+
+
+if __name__ == "__main__":
+    main()

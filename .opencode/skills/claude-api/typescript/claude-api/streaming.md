@@ -1,1 +1,178 @@
-IyBTdHJlYW1pbmcg4oCUIFR5cGVTY3JpcHQKCiMjIFF1aWNrIFN0YXJ0CgpgYGB0eXBlc2NyaXB0CmNvbnN0IHN0cmVhbSA9IGNsaWVudC5tZXNzYWdlcy5zdHJlYW0oewogIG1vZGVsOiAiY2xhdWRlLW9wdXMtNC02IiwKICBtYXhfdG9rZW5zOiA2NDAwMCwKICBtZXNzYWdlczogW3sgcm9sZTogInVzZXIiLCBjb250ZW50OiAiV3JpdGUgYSBzdG9yeSIgfV0sCn0pOwoKZm9yIGF3YWl0IChjb25zdCBldmVudCBvZiBzdHJlYW0pIHsKICBpZiAoCiAgICBldmVudC50eXBlID09PSAiY29udGVudF9ibG9ja19kZWx0YSIgJiYKICAgIGV2ZW50LmRlbHRhLnR5cGUgPT09ICJ0ZXh0X2RlbHRhIgogICkgewogICAgcHJvY2Vzcy5zdGRvdXQud3JpdGUoZXZlbnQuZGVsdGEudGV4dCk7CiAgfQp9CmBgYAoKLS0tCgojIyBIYW5kbGluZyBEaWZmZXJlbnQgQ29udGVudCBUeXBlcwoKPiAqKk9wdXMgNC42OioqIFVzZSBgdGhpbmtpbmc6IHt0eXBlOiAiYWRhcHRpdmUifWAuIE9uIG9sZGVyIG1vZGVscywgdXNlIGB0aGlua2luZzoge3R5cGU6ICJlbmFibGVkIiwgYnVkZ2V0X3Rva2VuczogTn1gIGluc3RlYWQuCgpgYGB0eXBlc2NyaXB0CmNvbnN0IHN0cmVhbSA9IGNsaWVudC5tZXNzYWdlcy5zdHJlYW0oewogIG1vZGVsOiAiY2xhdWRlLW9wdXMtNC02IiwKICBtYXhfdG9rZW5zOiA2NDAwMCwKICB0aGlua2luZzogeyB0eXBlOiAiYWRhcHRpdmUiIH0sCiAgbWVzc2FnZXM6IFt7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogIkFuYWx5emUgdGhpcyBwcm9ibGVtIiB9XSwKfSk7Cgpmb3IgYXdhaXQgKGNvbnN0IGV2ZW50IG9mIHN0cmVhbSkgewogIHN3aXRjaCAoZXZlbnQudHlwZSkgewogICAgY2FzZSAiY29udGVudF9ibG9ja19zdGFydCI6CiAgICAgIHN3aXRjaCAoZXZlbnQuY29udGVudF9ibG9jay50eXBlKSB7CiAgICAgICAgY2FzZSAidGhpbmtpbmciOgogICAgICAgICAgY29uc29sZS5sb2coIlxuW1RoaW5raW5nLi4uXSIpOwogICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAidGV4dCI6CiAgICAgICAgICBjb25zb2xlLmxvZygiXG5bUmVzcG9uc2U6XSIpOwogICAgICAgICAgYnJlYWs7CiAgICAgIH0KICAgICAgYnJlYWs7CiAgICBjYXNlICJjb250ZW50X2Jsb2NrX2RlbHRhIjoKICAgICAgc3dpdGNoIChldmVudC5kZWx0YS50eXBlKSB7CiAgICAgICAgY2FzZSAidGhpbmtpbmdfZGVsdGEiOgogICAgICAgICAgcHJvY2Vzcy5zdGRvdXQud3JpdGUoZXZlbnQuZGVsdGEudGhpbmtpbmcpOwogICAgICAgICAgYnJlYWs7CiAgICAgICAgY2FzZSAidGV4dF9kZWx0YSI6CiAgICAgICAgICBwcm9jZXNzLnN0ZG91dC53cml0ZShldmVudC5kZWx0YS50ZXh0KTsKICAgICAgICAgIGJyZWFrOwogICAgICB9CiAgICAgIGJyZWFrOwogIH0KfQpgYGAKCi0tLQoKIyMgU3RyZWFtaW5nIHdpdGggVG9vbCBVc2UgKFRvb2wgUnVubmVyKQoKVXNlIHRoZSB0b29sIHJ1bm5lciB3aXRoIGBzdHJlYW06IHRydWVgLiBUaGUgb3V0ZXIgbG9vcCBpdGVyYXRlcyBvdmVyIHRvb2wgcnVubmVyIGl0ZXJhdGlvbnMgKG1lc3NhZ2VzKSwgdGhlIGlubmVyIGxvb3AgcHJvY2Vzc2VzIHN0cmVhbSBldmVudHM6CgpgYGB0eXBlc2NyaXB0CmltcG9ydCBBbnRocm9waWMgZnJvbSAiQGFudGhyb3BpYy1haS9zZGsiOwppbXBvcnQgeyBiZXRhWm9kVG9vbCB9IGZyb20gIkBhbnRocm9waWMtYWkvc2RrL2hlbHBlcnMvYmV0YS96b2QiOwppbXBvcnQgeyB6IH0gZnJvbSAiem9kIjsKCmNvbnN0IGNsaWVudCA9IG5ldyBBbnRocm9waWMoKTsKCmNvbnN0IGdldFdlYXRoZXIgPSBiZXRhWm9kVG9vbCh7CiAgbmFtZTogImdldF93ZWF0aGVyIiwKICBkZXNjcmlwdGlvbjogIkdldCBjdXJyZW50IHdlYXRoZXIgZm9yIGEgbG9jYXRpb24iLAogIGlucHV0U2NoZW1hOiB6Lm9iamVjdCh7CiAgICBsb2NhdGlvbjogei5zdHJpbmcoKS5kZXNjcmliZSgiQ2l0eSBhbmQgc3RhdGUsIGUuZy4sIFNhbiBGcmFuY2lzY28sIENBIiksCiAgfSksCiAgcnVuOiBhc3luYyAoeyBsb2NhdGlvbiB9KSA9PiBgNzLCsEYgYW5kIHN1bm55IGluICR7bG9jYXRpb259YCwKfSk7Cgpjb25zdCBydW5uZXIgPSBjbGllbnQuYmV0YS5tZXNzYWdlcy50b29sUnVubmVyKHsKICBtb2RlbDogImNsYXVkZS1vcHVzLTQtNiIsCiAgbWF4X3Rva2VuczogNjQwMDAsCiAgdG9vbHM6IFtnZXRXZWF0aGVyXSwKICBtZXNzYWdlczogWwogICAgeyByb2xlOiAidXNlciIsIGNvbnRlbnQ6ICJXaGF0J3MgdGhlIHdlYXRoZXIgaW4gUGFyaXMgYW5kIExvbmRvbj8iIH0sCiAgXSwKICBzdHJlYW06IHRydWUsCn0pOwoKLy8gT3V0ZXIgbG9vcDogZWFjaCB0b29sIHJ1bm5lciBpdGVyYXRpb24KZm9yIGF3YWl0IChjb25zdCBtZXNzYWdlU3RyZWFtIG9mIHJ1bm5lcikgewogIC8vIElubmVyIGxvb3A6IHN0cmVhbSBldmVudHMgZm9yIHRoaXMgaXRlcmF0aW9uCiAgZm9yIGF3YWl0IChjb25zdCBldmVudCBvZiBtZXNzYWdlU3RyZWFtKSB7CiAgICBzd2l0Y2ggKGV2ZW50LnR5cGUpIHsKICAgICAgY2FzZSAiY29udGVudF9ibG9ja19kZWx0YSI6CiAgICAgICAgc3dpdGNoIChldmVudC5kZWx0YS50eXBlKSB7CiAgICAgICAgICBjYXNlICJ0ZXh0X2RlbHRhIjoKICAgICAgICAgICAgcHJvY2Vzcy5zdGRvdXQud3JpdGUoZXZlbnQuZGVsdGEudGV4dCk7CiAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgY2FzZSAiaW5wdXRfanNvbl9kZWx0YSI6CiAgICAgICAgICAgIC8vIFRvb2wgaW5wdXQgYmVpbmcgc3RyZWFtZWQKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgICAgIGJyZWFrOwogICAgfQogIH0KfQpgYGAKCi0tLQoKIyMgR2V0dGluZyB0aGUgRmluYWwgTWVzc2FnZQoKYGBgdHlwZXNjcmlwdApjb25zdCBzdHJlYW0gPSBjbGllbnQubWVzc2FnZXMuc3RyZWFtKHsKICBtb2RlbDogImNsYXVkZS1vcHVzLTQtNiIsCiAgbWF4X3Rva2VuczogNjQwMDAsCiAgbWVzc2FnZXM6IFt7IHJvbGU6ICJ1c2VyIiwgY29udGVudDogIkhlbGxvIiB9XSwKfSk7Cgpmb3IgYXdhaXQgKGNvbnN0IGV2ZW50IG9mIHN0cmVhbSkgewogIC8vIFByb2Nlc3MgZXZlbnRzLi4uCn0KCmNvbnN0IGZpbmFsTWVzc2FnZSA9IGF3YWl0IHN0cmVhbS5maW5hbE1lc3NhZ2UoKTsKY29uc29sZS5sb2coYFRva2VucyB1c2VkOiAke2ZpbmFsTWVzc2FnZS51c2FnZS5vdXRwdXRfdG9rZW5zfWApOwpgYGAKCi0tLQoKIyMgU3RyZWFtIEV2ZW50IFR5cGVzCgp8IEV2ZW50IFR5cGUgICAgICAgICAgICB8IERlc2NyaXB0aW9uICAgICAgICAgICAgICAgICB8IFdoZW4gaXQgZmlyZXMgICAgICAgICAgICAgICAgICAgICB8CnwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgbWVzc2FnZV9zdGFydGAgICAgICAgfCBDb250YWlucyBtZXNzYWdlIG1ldGFkYXRhICAgfCBPbmNlIGF0IHRoZSBiZWdpbm5pbmcgICAgICAgICAgICAgfAp8IGBjb250ZW50X2Jsb2NrX3N0YXJ0YCB8IE5ldyBjb250ZW50IGJsb2NrIGJlZ2lubmluZyB8IFdoZW4gYSB0ZXh0L3Rvb2xfdXNlIGJsb2NrIHN0YXJ0cyB8CnwgYGNvbnRlbnRfYmxvY2tfZGVsdGFgIHwgSW5jcmVtZW50YWwgY29udGVudCB1cGRhdGUgIHwgRm9yIGVhY2ggdG9rZW4vY2h1bmsgICAgICAgICAgICAgIHwKfCBgY29udGVudF9ibG9ja19zdG9wYCAgfCBDb250ZW50IGJsb2NrIGNvbXBsZXRlICAgICAgfCBXaGVuIGEgYmxvY2sgZmluaXNoZXMgICAgICAgICAgICAgfAp8IGBtZXNzYWdlX2RlbHRhYCAgICAgICB8IE1lc3NhZ2UtbGV2ZWwgdXBkYXRlcyAgICAgICB8IENvbnRhaW5zIGBzdG9wX3JlYXNvbmAsIHVzYWdlICAgICB8CnwgYG1lc3NhZ2Vfc3RvcGAgICAgICAgIHwgTWVzc2FnZSBjb21wbGV0ZSAgICAgICAgICAgIHwgT25jZSBhdCB0aGUgZW5kICAgICAgICAgICAgICAgICAgIHwKCiMjIEJlc3QgUHJhY3RpY2VzCgoxLiAqKkFsd2F5cyBmbHVzaCBvdXRwdXQqKiDigJQgVXNlIGBwcm9jZXNzLnN0ZG91dC53cml0ZSgpYCBmb3IgaW1tZWRpYXRlIGRpc3BsYXkKMi4gKipIYW5kbGUgcGFydGlhbCByZXNwb25zZXMqKiDigJQgSWYgdGhlIHN0cmVhbSBpcyBpbnRlcnJ1cHRlZCwgeW91IG1heSBoYXZlIGluY29tcGxldGUgY29udGVudAozLiAqKlRyYWNrIHRva2VuIHVzYWdlKiog4oCUIFRoZSBgbWVzc2FnZV9kZWx0YWAgZXZlbnQgY29udGFpbnMgdXNhZ2UgaW5mb3JtYXRpb24KNC4gKipVc2UgYGZpbmFsTWVzc2FnZSgpYCoqIOKAlCBHZXQgdGhlIGNvbXBsZXRlIGBBbnRocm9waWMuTWVzc2FnZWAgb2JqZWN0IGV2ZW4gd2hlbiBzdHJlYW1pbmcuIERvbid0IHdyYXAgYC5vbigpYCBldmVudHMgaW4gYG5ldyBQcm9taXNlKClgIOKAlCBgZmluYWxNZXNzYWdlKClgIGhhbmRsZXMgYWxsIGNvbXBsZXRpb24vZXJyb3IvYWJvcnQgc3RhdGVzIGludGVybmFsbHkKNS4gKipCdWZmZXIgZm9yIHdlYiBVSXMqKiDigJQgQ29uc2lkZXIgYnVmZmVyaW5nIGEgZmV3IHRva2VucyBiZWZvcmUgcmVuZGVyaW5nIHRvIGF2b2lkIGV4Y2Vzc2l2ZSBET00gdXBkYXRlcwo2LiAqKlVzZSBgc3RyZWFtLm9uKCJ0ZXh0IiwgLi4uKWAgZm9yIGRlbHRhcyoqIOKAlCBUaGUgYHRleHRgIGV2ZW50IHByb3ZpZGVzIGp1c3QgdGhlIGRlbHRhIHN0cmluZywgc2ltcGxlciB0aGFuIG1hbnVhbGx5IGZpbHRlcmluZyBgY29udGVudF9ibG9ja19kZWx0YWAgZXZlbnRzCjcuICoqRm9yIGFnZW50aWMgbG9vcHMgd2l0aCBzdHJlYW1pbmcqKiDigJQgU2VlIHRoZSBbU3RyZWFtaW5nIE1hbnVhbCBMb29wXSguL3Rvb2wtdXNlLm1kI3N0cmVhbWluZy1tYW51YWwtbG9vcCkgc2VjdGlvbiBpbiB0b29sLXVzZS5tZCBmb3IgY29tYmluaW5nIGBzdHJlYW0oKWAgKyBgZmluYWxNZXNzYWdlKClgIHdpdGggYSB0b29sLXVzZSBsb29wCgojIyBSYXcgU1NFIEZvcm1hdAoKSWYgdXNpbmcgcmF3IEhUVFAgKG5vdCBTREtzKSwgdGhlIHN0cmVhbSByZXR1cm5zIFNlcnZlci1TZW50IEV2ZW50czoKCmBgYApldmVudDogbWVzc2FnZV9zdGFydApkYXRhOiB7InR5cGUiOiJtZXNzYWdlX3N0YXJ0IiwibWVzc2FnZSI6eyJpZCI6Im1zZ18uLi4iLCJ0eXBlIjoibWVzc2FnZSIsLi4ufX0KCmV2ZW50OiBjb250ZW50X2Jsb2NrX3N0YXJ0CmRhdGE6IHsidHlwZSI6ImNvbnRlbnRfYmxvY2tfc3RhcnQiLCJpbmRleCI6MCwiY29udGVudF9ibG9jayI6eyJ0eXBlIjoidGV4dCIsInRleHQiOiIifX0KCmV2ZW50OiBjb250ZW50X2Jsb2NrX2RlbHRhCmRhdGE6IHsidHlwZSI6ImNvbnRlbnRfYmxvY2tfZGVsdGEiLCJpbmRleCI6MCwiZGVsdGEiOnsidHlwZSI6InRleHRfZGVsdGEiLCJ0ZXh0IjoiSGVsbG8ifX0KCmV2ZW50OiBjb250ZW50X2Jsb2NrX3N0b3AKZGF0YTogeyJ0eXBlIjoiY29udGVudF9ibG9ja19zdG9wIiwiaW5kZXgiOjB9CgpldmVudDogbWVzc2FnZV9kZWx0YQpkYXRhOiB7InR5cGUiOiJtZXNzYWdlX2RlbHRhIiwiZGVsdGEiOnsic3RvcF9yZWFzb24iOiJlbmRfdHVybiJ9LCJ1c2FnZSI6eyJvdXRwdXRfdG9rZW5zIjoxMn19CgpldmVudDogbWVzc2FnZV9zdG9wCmRhdGE6IHsidHlwZSI6Im1lc3NhZ2Vfc3RvcCJ9CmBgYAo=
+# Streaming — TypeScript
+
+## Quick Start
+
+```typescript
+const stream = client.messages.stream({
+  model: "claude-opus-4-6",
+  max_tokens: 64000,
+  messages: [{ role: "user", content: "Write a story" }],
+});
+
+for await (const event of stream) {
+  if (
+    event.type === "content_block_delta" &&
+    event.delta.type === "text_delta"
+  ) {
+    process.stdout.write(event.delta.text);
+  }
+}
+```
+
+---
+
+## Handling Different Content Types
+
+> **Opus 4.6:** Use `thinking: {type: "adaptive"}`. On older models, use `thinking: {type: "enabled", budget_tokens: N}` instead.
+
+```typescript
+const stream = client.messages.stream({
+  model: "claude-opus-4-6",
+  max_tokens: 64000,
+  thinking: { type: "adaptive" },
+  messages: [{ role: "user", content: "Analyze this problem" }],
+});
+
+for await (const event of stream) {
+  switch (event.type) {
+    case "content_block_start":
+      switch (event.content_block.type) {
+        case "thinking":
+          console.log("\n[Thinking...]");
+          break;
+        case "text":
+          console.log("\n[Response:]");
+          break;
+      }
+      break;
+    case "content_block_delta":
+      switch (event.delta.type) {
+        case "thinking_delta":
+          process.stdout.write(event.delta.thinking);
+          break;
+        case "text_delta":
+          process.stdout.write(event.delta.text);
+          break;
+      }
+      break;
+  }
+}
+```
+
+---
+
+## Streaming with Tool Use (Tool Runner)
+
+Use the tool runner with `stream: true`. The outer loop iterates over tool runner iterations (messages), the inner loop processes stream events:
+
+```typescript
+import Anthropic from "@anthropic-ai/sdk";
+import { betaZodTool } from "@anthropic-ai/sdk/helpers/beta/zod";
+import { z } from "zod";
+
+const client = new Anthropic();
+
+const getWeather = betaZodTool({
+  name: "get_weather",
+  description: "Get current weather for a location",
+  inputSchema: z.object({
+    location: z.string().describe("City and state, e.g., San Francisco, CA"),
+  }),
+  run: async ({ location }) => `72°F and sunny in ${location}`,
+});
+
+const runner = client.beta.messages.toolRunner({
+  model: "claude-opus-4-6",
+  max_tokens: 64000,
+  tools: [getWeather],
+  messages: [
+    { role: "user", content: "What's the weather in Paris and London?" },
+  ],
+  stream: true,
+});
+
+// Outer loop: each tool runner iteration
+for await (const messageStream of runner) {
+  // Inner loop: stream events for this iteration
+  for await (const event of messageStream) {
+    switch (event.type) {
+      case "content_block_delta":
+        switch (event.delta.type) {
+          case "text_delta":
+            process.stdout.write(event.delta.text);
+            break;
+          case "input_json_delta":
+            // Tool input being streamed
+            break;
+        }
+        break;
+    }
+  }
+}
+```
+
+---
+
+## Getting the Final Message
+
+```typescript
+const stream = client.messages.stream({
+  model: "claude-opus-4-6",
+  max_tokens: 64000,
+  messages: [{ role: "user", content: "Hello" }],
+});
+
+for await (const event of stream) {
+  // Process events...
+}
+
+const finalMessage = await stream.finalMessage();
+console.log(`Tokens used: ${finalMessage.usage.output_tokens}`);
+```
+
+---
+
+## Stream Event Types
+
+| Event Type            | Description                 | When it fires                     |
+| --------------------- | --------------------------- | --------------------------------- |
+| `message_start`       | Contains message metadata   | Once at the beginning             |
+| `content_block_start` | New content block beginning | When a text/tool_use block starts |
+| `content_block_delta` | Incremental content update  | For each token/chunk              |
+| `content_block_stop`  | Content block complete      | When a block finishes             |
+| `message_delta`       | Message-level updates       | Contains `stop_reason`, usage     |
+| `message_stop`        | Message complete            | Once at the end                   |
+
+## Best Practices
+
+1. **Always flush output** — Use `process.stdout.write()` for immediate display
+2. **Handle partial responses** — If the stream is interrupted, you may have incomplete content
+3. **Track token usage** — The `message_delta` event contains usage information
+4. **Use `finalMessage()`** — Get the complete `Anthropic.Message` object even when streaming. Don't wrap `.on()` events in `new Promise()` — `finalMessage()` handles all completion/error/abort states internally
+5. **Buffer for web UIs** — Consider buffering a few tokens before rendering to avoid excessive DOM updates
+6. **Use `stream.on("text", ...)` for deltas** — The `text` event provides just the delta string, simpler than manually filtering `content_block_delta` events
+7. **For agentic loops with streaming** — See the [Streaming Manual Loop](./tool-use.md#streaming-manual-loop) section in tool-use.md for combining `stream()` + `finalMessage()` with a tool-use loop
+
+## Raw SSE Format
+
+If using raw HTTP (not SDKs), the stream returns Server-Sent Events:
+
+```
+event: message_start
+data: {"type":"message_start","message":{"id":"msg_...","type":"message",...}}
+
+event: content_block_start
+data: {"type":"content_block_start","index":0,"content_block":{"type":"text","text":""}}
+
+event: content_block_delta
+data: {"type":"content_block_delta","index":0,"delta":{"type":"text_delta","text":"Hello"}}
+
+event: content_block_stop
+data: {"type":"content_block_stop","index":0}
+
+event: message_delta
+data: {"type":"message_delta","delta":{"stop_reason":"end_turn"},"usage":{"output_tokens":12}}
+
+event: message_stop
+data: {"type":"message_stop"}
+```

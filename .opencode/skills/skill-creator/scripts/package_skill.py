@@ -1,1 +1,136 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKU2tpbGwgUGFja2FnZXIgLSBDcmVhdGVzIGEgZGlzdHJpYnV0YWJsZSAuc2tpbGwgZmlsZSBvZiBhIHNraWxsIGZvbGRlcgoKVXNhZ2U6CiAgICBweXRob24gdXRpbHMvcGFja2FnZV9za2lsbC5weSA8cGF0aC90by9za2lsbC1mb2xkZXI+IFtvdXRwdXQtZGlyZWN0b3J5XQoKRXhhbXBsZToKICAgIHB5dGhvbiB1dGlscy9wYWNrYWdlX3NraWxsLnB5IHNraWxscy9wdWJsaWMvbXktc2tpbGwKICAgIHB5dGhvbiB1dGlscy9wYWNrYWdlX3NraWxsLnB5IHNraWxscy9wdWJsaWMvbXktc2tpbGwgLi9kaXN0CiIiIgoKaW1wb3J0IGZubWF0Y2gKaW1wb3J0IHN5cwppbXBvcnQgemlwZmlsZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSBzY3JpcHRzLnF1aWNrX3ZhbGlkYXRlIGltcG9ydCB2YWxpZGF0ZV9za2lsbAoKIyBQYXR0ZXJucyB0byBleGNsdWRlIHdoZW4gcGFja2FnaW5nIHNraWxscy4KRVhDTFVERV9ESVJTID0geyJfX3B5Y2FjaGVfXyIsICJub2RlX21vZHVsZXMifQpFWENMVURFX0dMT0JTID0geyIqLnB5YyJ9CkVYQ0xVREVfRklMRVMgPSB7Ii5EU19TdG9yZSJ9CiMgRGlyZWN0b3JpZXMgZXhjbHVkZWQgb25seSBhdCB0aGUgc2tpbGwgcm9vdCAobm90IHdoZW4gbmVzdGVkIGRlZXBlcikuClJPT1RfRVhDTFVERV9ESVJTID0geyJldmFscyJ9CgoKZGVmIHNob3VsZF9leGNsdWRlKHJlbF9wYXRoOiBQYXRoKSAtPiBib29sOgogICAgIiIiQ2hlY2sgaWYgYSBwYXRoIHNob3VsZCBiZSBleGNsdWRlZCBmcm9tIHBhY2thZ2luZy4iIiIKICAgIHBhcnRzID0gcmVsX3BhdGgucGFydHMKICAgIGlmIGFueShwYXJ0IGluIEVYQ0xVREVfRElSUyBmb3IgcGFydCBpbiBwYXJ0cyk6CiAgICAgICAgcmV0dXJuIFRydWUKICAgICMgcmVsX3BhdGggaXMgcmVsYXRpdmUgdG8gc2tpbGxfcGF0aC5wYXJlbnQsIHNvIHBhcnRzWzBdIGlzIHRoZSBza2lsbAogICAgIyBmb2xkZXIgbmFtZSBhbmQgcGFydHNbMV0gKGlmIHByZXNlbnQpIGlzIHRoZSBmaXJzdCBzdWJkaXIuCiAgICBpZiBsZW4ocGFydHMpID4gMSBhbmQgcGFydHNbMV0gaW4gUk9PVF9FWENMVURFX0RJUlM6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIG5hbWUgPSByZWxfcGF0aC5uYW1lCiAgICBpZiBuYW1lIGluIEVYQ0xVREVfRklMRVM6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIHJldHVybiBhbnkoZm5tYXRjaC5mbm1hdGNoKG5hbWUsIHBhdCkgZm9yIHBhdCBpbiBFWENMVURFX0dMT0JTKQoKCmRlZiBwYWNrYWdlX3NraWxsKHNraWxsX3BhdGgsIG91dHB1dF9kaXI9Tm9uZSk6CiAgICAiIiIKICAgIFBhY2thZ2UgYSBza2lsbCBmb2xkZXIgaW50byBhIC5za2lsbCBmaWxlLgoKICAgIEFyZ3M6CiAgICAgICAgc2tpbGxfcGF0aDogUGF0aCB0byB0aGUgc2tpbGwgZm9sZGVyCiAgICAgICAgb3V0cHV0X2RpcjogT3B0aW9uYWwgb3V0cHV0IGRpcmVjdG9yeSBmb3IgdGhlIC5za2lsbCBmaWxlIChkZWZhdWx0cyB0byBjdXJyZW50IGRpcmVjdG9yeSkKCiAgICBSZXR1cm5zOgogICAgICAgIFBhdGggdG8gdGhlIGNyZWF0ZWQgLnNraWxsIGZpbGUsIG9yIE5vbmUgaWYgZXJyb3IKICAgICIiIgogICAgc2tpbGxfcGF0aCA9IFBhdGgoc2tpbGxfcGF0aCkucmVzb2x2ZSgpCgogICAgIyBWYWxpZGF0ZSBza2lsbCBmb2xkZXIgZXhpc3RzCiAgICBpZiBub3Qgc2tpbGxfcGF0aC5leGlzdHMoKToKICAgICAgICBwcmludChmIuKdjCBFcnJvcjogU2tpbGwgZm9sZGVyIG5vdCBmb3VuZDoge3NraWxsX3BhdGh9IikKICAgICAgICByZXR1cm4gTm9uZQoKICAgIGlmIG5vdCBza2lsbF9wYXRoLmlzX2RpcigpOgogICAgICAgIHByaW50KGYi4p2MIEVycm9yOiBQYXRoIGlzIG5vdCBhIGRpcmVjdG9yeToge3NraWxsX3BhdGh9IikKICAgICAgICByZXR1cm4gTm9uZQoKICAgICMgVmFsaWRhdGUgU0tJTEwubWQgZXhpc3RzCiAgICBza2lsbF9tZCA9IHNraWxsX3BhdGggLyAiU0tJTEwubWQiCiAgICBpZiBub3Qgc2tpbGxfbWQuZXhpc3RzKCk6CiAgICAgICAgcHJpbnQoZiLinYwgRXJyb3I6IFNLSUxMLm1kIG5vdCBmb3VuZCBpbiB7c2tpbGxfcGF0aH0iKQogICAgICAgIHJldHVybiBOb25lCgogICAgIyBSdW4gdmFsaWRhdGlvbiBiZWZvcmUgcGFja2FnaW5nCiAgICBwcmludCgi8J+UjSBWYWxpZGF0aW5nIHNraWxsLi4uIikKICAgIHZhbGlkLCBtZXNzYWdlID0gdmFsaWRhdGVfc2tpbGwoc2tpbGxfcGF0aCkKICAgIGlmIG5vdCB2YWxpZDoKICAgICAgICBwcmludChmIuKdjCBWYWxpZGF0aW9uIGZhaWxlZDoge21lc3NhZ2V9IikKICAgICAgICBwcmludCgiICAgUGxlYXNlIGZpeCB0aGUgdmFsaWRhdGlvbiBlcnJvcnMgYmVmb3JlIHBhY2thZ2luZy4iKQogICAgICAgIHJldHVybiBOb25lCiAgICBwcmludChmIuKchSB7bWVzc2FnZX1cbiIpCgogICAgIyBEZXRlcm1pbmUgb3V0cHV0IGxvY2F0aW9uCiAgICBza2lsbF9uYW1lID0gc2tpbGxfcGF0aC5uYW1lCiAgICBpZiBvdXRwdXRfZGlyOgogICAgICAgIG91dHB1dF9wYXRoID0gUGF0aChvdXRwdXRfZGlyKS5yZXNvbHZlKCkKICAgICAgICBvdXRwdXRfcGF0aC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICBlbHNlOgogICAgICAgIG91dHB1dF9wYXRoID0gUGF0aC5jd2QoKQoKICAgIHNraWxsX2ZpbGVuYW1lID0gb3V0cHV0X3BhdGggLyBmIntza2lsbF9uYW1lfS5za2lsbCIKCiAgICAjIENyZWF0ZSB0aGUgLnNraWxsIGZpbGUgKHppcCBmb3JtYXQpCiAgICB0cnk6CiAgICAgICAgd2l0aCB6aXBmaWxlLlppcEZpbGUoc2tpbGxfZmlsZW5hbWUsICd3JywgemlwZmlsZS5aSVBfREVGTEFURUQpIGFzIHppcGY6CiAgICAgICAgICAgICMgV2FsayB0aHJvdWdoIHRoZSBza2lsbCBkaXJlY3RvcnksIGV4Y2x1ZGluZyBidWlsZCBhcnRpZmFjdHMKICAgICAgICAgICAgZm9yIGZpbGVfcGF0aCBpbiBza2lsbF9wYXRoLnJnbG9iKCcqJyk6CiAgICAgICAgICAgICAgICBpZiBub3QgZmlsZV9wYXRoLmlzX2ZpbGUoKToKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgYXJjbmFtZSA9IGZpbGVfcGF0aC5yZWxhdGl2ZV90byhza2lsbF9wYXRoLnBhcmVudCkKICAgICAgICAgICAgICAgIGlmIHNob3VsZF9leGNsdWRlKGFyY25hbWUpOgogICAgICAgICAgICAgICAgICAgIHByaW50KGYiICBTa2lwcGVkOiB7YXJjbmFtZX0iKQogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICB6aXBmLndyaXRlKGZpbGVfcGF0aCwgYXJjbmFtZSkKICAgICAgICAgICAgICAgIHByaW50KGYiICBBZGRlZDoge2FyY25hbWV9IikKCiAgICAgICAgcHJpbnQoZiJcbuKchSBTdWNjZXNzZnVsbHkgcGFja2FnZWQgc2tpbGwgdG86IHtza2lsbF9maWxlbmFtZX0iKQogICAgICAgIHJldHVybiBza2lsbF9maWxlbmFtZQoKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChmIuKdjCBFcnJvciBjcmVhdGluZyAuc2tpbGwgZmlsZToge2V9IikKICAgICAgICByZXR1cm4gTm9uZQoKCmRlZiBtYWluKCk6CiAgICBpZiBsZW4oc3lzLmFyZ3YpIDwgMjoKICAgICAgICBwcmludCgiVXNhZ2U6IHB5dGhvbiB1dGlscy9wYWNrYWdlX3NraWxsLnB5IDxwYXRoL3RvL3NraWxsLWZvbGRlcj4gW291dHB1dC1kaXJlY3RvcnldIikKICAgICAgICBwcmludCgiXG5FeGFtcGxlOiIpCiAgICAgICAgcHJpbnQoIiAgcHl0aG9uIHV0aWxzL3BhY2thZ2Vfc2tpbGwucHkgc2tpbGxzL3B1YmxpYy9teS1za2lsbCIpCiAgICAgICAgcHJpbnQoIiAgcHl0aG9uIHV0aWxzL3BhY2thZ2Vfc2tpbGwucHkgc2tpbGxzL3B1YmxpYy9teS1za2lsbCAuL2Rpc3QiKQogICAgICAgIHN5cy5leGl0KDEpCgogICAgc2tpbGxfcGF0aCA9IHN5cy5hcmd2WzFdCiAgICBvdXRwdXRfZGlyID0gc3lzLmFyZ3ZbMl0gaWYgbGVuKHN5cy5hcmd2KSA+IDIgZWxzZSBOb25lCgogICAgcHJpbnQoZiLwn5OmIFBhY2thZ2luZyBza2lsbDoge3NraWxsX3BhdGh9IikKICAgIGlmIG91dHB1dF9kaXI6CiAgICAgICAgcHJpbnQoZiIgICBPdXRwdXQgZGlyZWN0b3J5OiB7b3V0cHV0X2Rpcn0iKQogICAgcHJpbnQoKQoKICAgIHJlc3VsdCA9IHBhY2thZ2Vfc2tpbGwoc2tpbGxfcGF0aCwgb3V0cHV0X2RpcikKCiAgICBpZiByZXN1bHQ6CiAgICAgICAgc3lzLmV4aXQoMCkKICAgIGVsc2U6CiAgICAgICAgc3lzLmV4aXQoMSkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""
+Skill Packager - Creates a distributable .skill file of a skill folder
+
+Usage:
+    python utils/package_skill.py <path/to/skill-folder> [output-directory]
+
+Example:
+    python utils/package_skill.py skills/public/my-skill
+    python utils/package_skill.py skills/public/my-skill ./dist
+"""
+
+import fnmatch
+import sys
+import zipfile
+from pathlib import Path
+from scripts.quick_validate import validate_skill
+
+# Patterns to exclude when packaging skills.
+EXCLUDE_DIRS = {"__pycache__", "node_modules"}
+EXCLUDE_GLOBS = {"*.pyc"}
+EXCLUDE_FILES = {".DS_Store"}
+# Directories excluded only at the skill root (not when nested deeper).
+ROOT_EXCLUDE_DIRS = {"evals"}
+
+
+def should_exclude(rel_path: Path) -> bool:
+    """Check if a path should be excluded from packaging."""
+    parts = rel_path.parts
+    if any(part in EXCLUDE_DIRS for part in parts):
+        return True
+    # rel_path is relative to skill_path.parent, so parts[0] is the skill
+    # folder name and parts[1] (if present) is the first subdir.
+    if len(parts) > 1 and parts[1] in ROOT_EXCLUDE_DIRS:
+        return True
+    name = rel_path.name
+    if name in EXCLUDE_FILES:
+        return True
+    return any(fnmatch.fnmatch(name, pat) for pat in EXCLUDE_GLOBS)
+
+
+def package_skill(skill_path, output_dir=None):
+    """
+    Package a skill folder into a .skill file.
+
+    Args:
+        skill_path: Path to the skill folder
+        output_dir: Optional output directory for the .skill file (defaults to current directory)
+
+    Returns:
+        Path to the created .skill file, or None if error
+    """
+    skill_path = Path(skill_path).resolve()
+
+    # Validate skill folder exists
+    if not skill_path.exists():
+        print(f"❌ Error: Skill folder not found: {skill_path}")
+        return None
+
+    if not skill_path.is_dir():
+        print(f"❌ Error: Path is not a directory: {skill_path}")
+        return None
+
+    # Validate SKILL.md exists
+    skill_md = skill_path / "SKILL.md"
+    if not skill_md.exists():
+        print(f"❌ Error: SKILL.md not found in {skill_path}")
+        return None
+
+    # Run validation before packaging
+    print("🔍 Validating skill...")
+    valid, message = validate_skill(skill_path)
+    if not valid:
+        print(f"❌ Validation failed: {message}")
+        print("   Please fix the validation errors before packaging.")
+        return None
+    print(f"✅ {message}\n")
+
+    # Determine output location
+    skill_name = skill_path.name
+    if output_dir:
+        output_path = Path(output_dir).resolve()
+        output_path.mkdir(parents=True, exist_ok=True)
+    else:
+        output_path = Path.cwd()
+
+    skill_filename = output_path / f"{skill_name}.skill"
+
+    # Create the .skill file (zip format)
+    try:
+        with zipfile.ZipFile(skill_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
+            # Walk through the skill directory, excluding build artifacts
+            for file_path in skill_path.rglob('*'):
+                if not file_path.is_file():
+                    continue
+                arcname = file_path.relative_to(skill_path.parent)
+                if should_exclude(arcname):
+                    print(f"  Skipped: {arcname}")
+                    continue
+                zipf.write(file_path, arcname)
+                print(f"  Added: {arcname}")
+
+        print(f"\n✅ Successfully packaged skill to: {skill_filename}")
+        return skill_filename
+
+    except Exception as e:
+        print(f"❌ Error creating .skill file: {e}")
+        return None
+
+
+def main():
+    if len(sys.argv) < 2:
+        print("Usage: python utils/package_skill.py <path/to/skill-folder> [output-directory]")
+        print("\nExample:")
+        print("  python utils/package_skill.py skills/public/my-skill")
+        print("  python utils/package_skill.py skills/public/my-skill ./dist")
+        sys.exit(1)
+
+    skill_path = sys.argv[1]
+    output_dir = sys.argv[2] if len(sys.argv) > 2 else None
+
+    print(f"📦 Packaging skill: {skill_path}")
+    if output_dir:
+        print(f"   Output directory: {output_dir}")
+    print()
+
+    result = package_skill(skill_path, output_dir)
+
+    if result:
+        sys.exit(0)
+    else:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()

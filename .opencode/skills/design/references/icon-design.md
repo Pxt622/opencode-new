@@ -1,1 +1,122 @@
-IyBJY29uIERlc2lnbiBSZWZlcmVuY2UKCkFJLXBvd2VyZWQgU1ZHIGljb24gZ2VuZXJhdGlvbiB1c2luZyBHZW1pbmkgMy4xIFBybyBQcmV2aWV3LiAxNSBzdHlsZXMsIDEyIGNhdGVnb3JpZXMsIG11bHRpLXNpemUgZXhwb3J0LgoKIyMgU2NyaXB0cwoKfCBTY3JpcHQgfCBQdXJwb3NlIHwKfC0tLS0tLS0tfC0tLS0tLS0tLXwKfCBgc2NyaXB0cy9pY29uL2dlbmVyYXRlLnB5YCB8IEdlbmVyYXRlIFNWRyBpY29ucyB3aXRoIEdlbWluaSAzLjEgUHJvIFByZXZpZXcgfAoKIyMgQ29tbWFuZHMKCiMjIyBHZW5lcmF0ZSBTaW5nbGUgSWNvbgoKYGBgYmFzaApweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvaWNvbi9nZW5lcmF0ZS5weSAtLXByb21wdCAic2V0dGluZ3MgZ2VhciIgLS1zdHlsZSBvdXRsaW5lZApweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvaWNvbi9nZW5lcmF0ZS5weSAtLXByb21wdCAic2hvcHBpbmcgY2FydCIgLS1zdHlsZSBmaWxsZWQgLS1jb2xvciAiIzYzNjZGMSIKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2ljb24vZ2VuZXJhdGUucHkgLS1uYW1lICJkYXNoYm9hcmQiIC0tY2F0ZWdvcnkgbmF2aWdhdGlvbiAtLXN0eWxlIGR1b3RvbmUKYGBgCgojIyMgR2VuZXJhdGUgQmF0Y2ggVmFyaWF0aW9ucwoKYGBgYmFzaApweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvaWNvbi9nZW5lcmF0ZS5weSAtLXByb21wdCAiY2xvdWQgdXBsb2FkIiAtLWJhdGNoIDQgLS1vdXRwdXQtZGlyIC4vaWNvbnMKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2ljb24vZ2VuZXJhdGUucHkgLS1wcm9tcHQgIm5vdGlmaWNhdGlvbiBiZWxsIiAtLWJhdGNoIDYgLS1zdHlsZSBvdXRsaW5lZCAtLW91dHB1dC1kaXIgLi9pY29ucwpgYGAKCiMjIyBHZW5lcmF0ZSBNdWx0aXBsZSBTaXplcwoKYGBgYmFzaApweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvaWNvbi9nZW5lcmF0ZS5weSAtLXByb21wdCAidXNlciBwcm9maWxlIiAtLXNpemVzICIxNiwyNCwzMiw0OCIgLS1vdXRwdXQtZGlyIC4vaWNvbnMKYGBgCgojIyMgTGlzdCBTdHlsZXMvQ2F0ZWdvcmllcwoKYGBgYmFzaApweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvaWNvbi9nZW5lcmF0ZS5weSAtLWxpc3Qtc3R5bGVzCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9pY29uL2dlbmVyYXRlLnB5IC0tbGlzdC1jYXRlZ29yaWVzCmBgYAoKIyMgQ0xJIE9wdGlvbnMKCnwgT3B0aW9uIHwgRGVzY3JpcHRpb24gfCBEZWZhdWx0IHwKfC0tLS0tLS0tfC0tLS0tLS0tLS0tLS18LS0tLS0tLS0tfAp8IGAtLXByb21wdCwgLXBgIHwgSWNvbiBkZXNjcmlwdGlvbiB8IHJlcXVpcmVkIHwKfCBgLS1uYW1lLCAtbmAgfCBJY29uIG5hbWUgKGZvciBmaWxlbmFtZSkgfCAtIHwKfCBgLS1zdHlsZSwgLXNgIHwgSWNvbiBzdHlsZSAoMTUgb3B0aW9ucykgfCAtIHwKfCBgLS1jYXRlZ29yeSwgLWNgIHwgSWNvbiBjYXRlZ29yeSBmb3IgY29udGV4dCB8IC0gfAp8IGAtLWNvbG9yYCB8IFByaW1hcnkgaGV4IGNvbG9yIHwgY3VycmVudENvbG9yIHwKfCBgLS1zaXplYCB8IERpc3BsYXkgc2l6ZSBpbiBweCB8IDI0IHwKfCBgLS12aWV3Ym94YCB8IFNWRyB2aWV3Qm94IHNpemUgfCAyNCB8CnwgYC0tb3V0cHV0LCAtb2AgfCBPdXRwdXQgZmlsZSBwYXRoIHwgYXV0byB8CnwgYC0tb3V0cHV0LWRpcmAgfCBPdXRwdXQgZGlyZWN0b3J5IChiYXRjaCkgfCAuL2ljb25zIHwKfCBgLS1iYXRjaGAgfCBOdW1iZXIgb2YgdmFyaWF0aW9ucyB8IC0gfAp8IGAtLXNpemVzYCB8IENvbW1hLXNlcGFyYXRlZCBzaXplcyB8IC0gfAoKIyMgQXZhaWxhYmxlIFN0eWxlcwoKfCBTdHlsZSB8IFN0cm9rZSB8IEZpbGwgfCBCZXN0IEZvciB8CnwtLS0tLS0tfC0tLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tfAp8IG91dGxpbmVkIHwgMnB4IHwgbm9uZSB8IFVJIGludGVyZmFjZXMsIHdlYiBhcHBzIHwKfCBmaWxsZWQgfCAwIHwgc29saWQgfCBNb2JpbGUgYXBwcywgbmF2IGJhcnMgfAp8IGR1b3RvbmUgfCAwIHwgZHVhbCB8IE1hcmtldGluZywgbGFuZGluZyBwYWdlcyB8CnwgdGhpbiB8IDEtMS41cHggfCBub25lIHwgTHV4dXJ5IGJyYW5kcywgZWRpdG9yaWFsIHwKfCBib2xkIHwgM3B4IHwgbm9uZSB8IEhlYWRlcnMsIGhlcm8gc2VjdGlvbnMgfAp8IHJvdW5kZWQgfCAycHggfCBub25lIHwgRnJpZW5kbHkgYXBwcywgaGVhbHRoIHwKfCBzaGFycCB8IDJweCB8IG5vbmUgfCBUZWNoLCBmaW50ZWNoLCBlbnRlcnByaXNlIHwKfCBmbGF0IHwgMCB8IHNvbGlkIHwgTWF0ZXJpYWwgZGVzaWduLCBHb29nbGUtc3R5bGUgfAp8IGdyYWRpZW50IHwgMCB8IGdyYWRpZW50IHwgTW9kZXJuIGJyYW5kcywgU2FhUyB8CnwgZ2xhc3Ntb3JwaGlzbSB8IDFweCB8IHNlbWkgfCBNb2Rlcm4gVUksIG92ZXJsYXlzIHwKfCBwaXhlbCB8IDAgfCBzb2xpZCB8IEdhbWluZywgcmV0cm8gfAp8IGhhbmQtZHJhd24gfCB2YXJpZXMgfCBub25lIHwgQXJ0aXNhbiwgY3JlYXRpdmUgfAp8IGlzb21ldHJpYyB8IDEtMnB4IHwgcGFydGlhbCB8IFRlY2ggZG9jcywgaW5mb2dyYXBoaWNzIHwKfCBnbHlwaCB8IDAgfCBzb2xpZCB8IFN5c3RlbSBVSSwgY29tcGFjdCB8CnwgYW5pbWF0ZWQtcmVhZHkgfCAycHggfCB2YXJpZXMgfCBJbnRlcmFjdGl2ZSBVSSwgb25ib2FyZGluZyB8CgojIyBJY29uIENhdGVnb3JpZXMKCnwgQ2F0ZWdvcnkgfCBJY29ucyB8CnwtLS0tLS0tLS0tfC0tLS0tLS18CnwgbmF2aWdhdGlvbiB8IGFycm93cywgbWVudXMsIGhvbWUsIGNoZXZyb25zIHwKfCBhY3Rpb24gfCBlZGl0LCBkZWxldGUsIHNhdmUsIGRvd25sb2FkLCB1cGxvYWQgfAp8IGNvbW11bmljYXRpb24gfCBlbWFpbCwgY2hhdCwgcGhvbmUsIG5vdGlmaWNhdGlvbiB8CnwgbWVkaWEgfCBwbGF5LCBwYXVzZSwgdm9sdW1lLCBjYW1lcmEgfAp8IGZpbGUgfCBkb2N1bWVudCwgZm9sZGVyLCBhcmNoaXZlLCBjbG91ZCB8CnwgdXNlciB8IHBlcnNvbiwgZ3JvdXAsIHByb2ZpbGUsIHNldHRpbmdzIHwKfCBjb21tZXJjZSB8IGNhcnQsIGJhZywgd2FsbGV0LCBjcmVkaXQgY2FyZCB8CnwgZGF0YSB8IGNoYXJ0LCBncmFwaCwgYW5hbHl0aWNzLCBkYXNoYm9hcmQgfAp8IGRldmVsb3BtZW50IHwgY29kZSwgdGVybWluYWwsIGJ1ZywgZ2l0LCBBUEkgfAp8IHNvY2lhbCB8IGhlYXJ0LCBzdGFyLCBib29rbWFyaywgdHJvcGh5IHwKfCB3ZWF0aGVyIHwgc3VuLCBtb29uLCBjbG91ZCwgcmFpbiB8CnwgbWFwIHwgcGluLCBsb2NhdGlvbiwgY29tcGFzcywgZ2xvYmUgfAoKIyMgU1ZHIEJlc3QgUHJhY3RpY2VzCgotICoqVmlld0JveCoqOiBVc2UgYDAgMCAyNCAyNGAgKHN0YW5kYXJkKSBvciBgMCAwIDE2IDE2YCAoY29tcGFjdCkKLSAqKkNvbG9ycyoqOiBVc2UgYGN1cnJlbnRDb2xvcmAgZm9yIENTUyBpbmhlcml0YW5jZSwgYXZvaWQgaGFyZGNvZGVkIGNvbG9ycwotICoqQWNjZXNzaWJpbGl0eSoqOiBBbHdheXMgaW5jbHVkZSBgPHRpdGxlPmAgZWxlbWVudAotICoqT3B0aW1pemF0aW9uKio6IE1pbmltYWwgcGF0aCBub2Rlcywgbm8gZW1iZWRkZWQgZm9udHMgb3IgcmFzdGVyIGltYWdlcwotICoqU2l6aW5nKio6IERlc2lnbiBhdCAyNHB4LCB0ZXN0IGF0IDE2cHggYW5kIDQ4cHggZm9yIGNsYXJpdHkKLSAqKlN0cm9rZSoqOiBVc2UgYHN0cm9rZS1saW5lY2FwPSJyb3VuZCJgIGFuZCBgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCJgIGZvciBvdXRsaW5lZCBzdHlsZXMKCiMjIE1vZGVsCgotICoqZ2VtaW5pLTMuMS1wcm8tcHJldmlldyoqOiBCZXN0IHRoaW5raW5nLCB0b2tlbiBlZmZpY2llbmN5LCBmYWN0dWFsIGNvbnNpc3RlbmN5Ci0gVGV4dC1vbmx5IG91dHB1dCAoU1ZHIGlzIFhNTCB0ZXh0KSDigJQgbm8gaW1hZ2UgZ2VuZXJhdGlvbiBBUEkgbmVlZGVkCi0gU3VwcG9ydHMgc3RydWN0dXJlZCBvdXRwdXQgZm9yIGNvbnNpc3RlbnQgU1ZHIGZvcm1hdHRpbmcKCiMjIFdvcmtmbG93CgoxLiBEZXNjcmliZSBpY29uIOKGkiBgLS1wcm9tcHQgInNldHRpbmdzIGdlYXIiYAoyLiBDaG9vc2Ugc3R5bGUg4oaSIGAtLXN0eWxlIG91dGxpbmVkYAozLiBHZW5lcmF0ZSDihpIgc2NyaXB0IG91dHB1dHMgLnN2ZyBmaWxlCjQuIE9wdGlvbmFsbHkgYmF0Y2gg4oaSIGAtLWJhdGNoIDRgIGZvciB2YXJpYXRpb25zCjUuIE11bHRpLXNpemUgZXhwb3J0IOKGkiBgLS1zaXplcyAiMTYsMjQsMzIsNDgiYAoKIyMgU2V0dXAKCmBgYGJhc2gKZXhwb3J0IEdFTUlOSV9BUElfS0VZPSJ5b3VyLWtleSIKcGlwIGluc3RhbGwgZ29vZ2xlLWdlbmFpCmBgYAo=
+# Icon Design Reference
+
+AI-powered SVG icon generation using Gemini 3.1 Pro Preview. 15 styles, 12 categories, multi-size export.
+
+## Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/icon/generate.py` | Generate SVG icons with Gemini 3.1 Pro Preview |
+
+## Commands
+
+### Generate Single Icon
+
+```bash
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "settings gear" --style outlined
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "shopping cart" --style filled --color "#6366F1"
+python3 ~/.claude/skills/design/scripts/icon/generate.py --name "dashboard" --category navigation --style duotone
+```
+
+### Generate Batch Variations
+
+```bash
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "cloud upload" --batch 4 --output-dir ./icons
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "notification bell" --batch 6 --style outlined --output-dir ./icons
+```
+
+### Generate Multiple Sizes
+
+```bash
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "user profile" --sizes "16,24,32,48" --output-dir ./icons
+```
+
+### List Styles/Categories
+
+```bash
+python3 ~/.claude/skills/design/scripts/icon/generate.py --list-styles
+python3 ~/.claude/skills/design/scripts/icon/generate.py --list-categories
+```
+
+## CLI Options
+
+| Option | Description | Default |
+|--------|-------------|---------|
+| `--prompt, -p` | Icon description | required |
+| `--name, -n` | Icon name (for filename) | - |
+| `--style, -s` | Icon style (15 options) | - |
+| `--category, -c` | Icon category for context | - |
+| `--color` | Primary hex color | currentColor |
+| `--size` | Display size in px | 24 |
+| `--viewbox` | SVG viewBox size | 24 |
+| `--output, -o` | Output file path | auto |
+| `--output-dir` | Output directory (batch) | ./icons |
+| `--batch` | Number of variations | - |
+| `--sizes` | Comma-separated sizes | - |
+
+## Available Styles
+
+| Style | Stroke | Fill | Best For |
+|-------|--------|------|----------|
+| outlined | 2px | none | UI interfaces, web apps |
+| filled | 0 | solid | Mobile apps, nav bars |
+| duotone | 0 | dual | Marketing, landing pages |
+| thin | 1-1.5px | none | Luxury brands, editorial |
+| bold | 3px | none | Headers, hero sections |
+| rounded | 2px | none | Friendly apps, health |
+| sharp | 2px | none | Tech, fintech, enterprise |
+| flat | 0 | solid | Material design, Google-style |
+| gradient | 0 | gradient | Modern brands, SaaS |
+| glassmorphism | 1px | semi | Modern UI, overlays |
+| pixel | 0 | solid | Gaming, retro |
+| hand-drawn | varies | none | Artisan, creative |
+| isometric | 1-2px | partial | Tech docs, infographics |
+| glyph | 0 | solid | System UI, compact |
+| animated-ready | 2px | varies | Interactive UI, onboarding |
+
+## Icon Categories
+
+| Category | Icons |
+|----------|-------|
+| navigation | arrows, menus, home, chevrons |
+| action | edit, delete, save, download, upload |
+| communication | email, chat, phone, notification |
+| media | play, pause, volume, camera |
+| file | document, folder, archive, cloud |
+| user | person, group, profile, settings |
+| commerce | cart, bag, wallet, credit card |
+| data | chart, graph, analytics, dashboard |
+| development | code, terminal, bug, git, API |
+| social | heart, star, bookmark, trophy |
+| weather | sun, moon, cloud, rain |
+| map | pin, location, compass, globe |
+
+## SVG Best Practices
+
+- **ViewBox**: Use `0 0 24 24` (standard) or `0 0 16 16` (compact)
+- **Colors**: Use `currentColor` for CSS inheritance, avoid hardcoded colors
+- **Accessibility**: Always include `<title>` element
+- **Optimization**: Minimal path nodes, no embedded fonts or raster images
+- **Sizing**: Design at 24px, test at 16px and 48px for clarity
+- **Stroke**: Use `stroke-linecap="round"` and `stroke-linejoin="round"` for outlined styles
+
+## Model
+
+- **gemini-3.1-pro-preview**: Best thinking, token efficiency, factual consistency
+- Text-only output (SVG is XML text) — no image generation API needed
+- Supports structured output for consistent SVG formatting
+
+## Workflow
+
+1. Describe icon → `--prompt "settings gear"`
+2. Choose style → `--style outlined`
+3. Generate → script outputs .svg file
+4. Optionally batch → `--batch 4` for variations
+5. Multi-size export → `--sizes "16,24,32,48"`
+
+## Setup
+
+```bash
+export GEMINI_API_KEY="your-key"
+pip install google-genai
+```

@@ -1,1 +1,54 @@
-IyEvYmluL2Jhc2gKc2V0IC1lCgplY2hvICLwn5OmIEJ1bmRsaW5nIFJlYWN0IGFwcCB0byBzaW5nbGUgSFRNTCBhcnRpZmFjdC4uLiIKCiMgQ2hlY2sgaWYgd2UncmUgaW4gYSBwcm9qZWN0IGRpcmVjdG9yeQppZiBbICEgLWYgInBhY2thZ2UuanNvbiIgXTsgdGhlbgogIGVjaG8gIuKdjCBFcnJvcjogTm8gcGFja2FnZS5qc29uIGZvdW5kLiBSdW4gdGhpcyBzY3JpcHQgZnJvbSB5b3VyIHByb2plY3Qgcm9vdC4iCiAgZXhpdCAxCmZpCgojIENoZWNrIGlmIGluZGV4Lmh0bWwgZXhpc3RzCmlmIFsgISAtZiAiaW5kZXguaHRtbCIgXTsgdGhlbgogIGVjaG8gIuKdjCBFcnJvcjogTm8gaW5kZXguaHRtbCBmb3VuZCBpbiBwcm9qZWN0IHJvb3QuIgogIGVjaG8gIiAgIFRoaXMgc2NyaXB0IHJlcXVpcmVzIGFuIGluZGV4Lmh0bWwgZW50cnkgcG9pbnQuIgogIGV4aXQgMQpmaQoKIyBJbnN0YWxsIGJ1bmRsaW5nIGRlcGVuZGVuY2llcwplY2hvICLwn5OmIEluc3RhbGxpbmcgYnVuZGxpbmcgZGVwZW5kZW5jaWVzLi4uIgpwbnBtIGFkZCAtRCBwYXJjZWwgQHBhcmNlbC9jb25maWctZGVmYXVsdCBwYXJjZWwtcmVzb2x2ZXItdHNwYXRocyBodG1sLWlubGluZQoKIyBDcmVhdGUgUGFyY2VsIGNvbmZpZyB3aXRoIHRzcGF0aHMgcmVzb2x2ZXIKaWYgWyAhIC1mICIucGFyY2VscmMiIF07IHRoZW4KICBlY2hvICLwn5SnIENyZWF0aW5nIFBhcmNlbCBjb25maWd1cmF0aW9uIHdpdGggcGF0aCBhbGlhcyBzdXBwb3J0Li4uIgogIGNhdCA+IC5wYXJjZWxyYyA8PCAnRU9GJwp7CiAgImV4dGVuZHMiOiAiQHBhcmNlbC9jb25maWctZGVmYXVsdCIsCiAgInJlc29sdmVycyI6IFsicGFyY2VsLXJlc29sdmVyLXRzcGF0aHMiLCAiLi4uIl0KfQpFT0YKZmkKCiMgQ2xlYW4gcHJldmlvdXMgYnVpbGQKZWNobyAi8J+nuSBDbGVhbmluZyBwcmV2aW91cyBidWlsZC4uLiIKcm0gLXJmIGRpc3QgYnVuZGxlLmh0bWwKCiMgQnVpbGQgd2l0aCBQYXJjZWwKZWNobyAi8J+UqCBCdWlsZGluZyB3aXRoIFBhcmNlbC4uLiIKcG5wbSBleGVjIHBhcmNlbCBidWlsZCBpbmRleC5odG1sIC0tZGlzdC1kaXIgZGlzdCAtLW5vLXNvdXJjZS1tYXBzCgojIElubGluZSBldmVyeXRoaW5nIGludG8gc2luZ2xlIEhUTUwKZWNobyAi8J+OryBJbmxpbmluZyBhbGwgYXNzZXRzIGludG8gc2luZ2xlIEhUTUwgZmlsZS4uLiIKcG5wbSBleGVjIGh0bWwtaW5saW5lIGRpc3QvaW5kZXguaHRtbCA+IGJ1bmRsZS5odG1sCgojIEdldCBmaWxlIHNpemUKRklMRV9TSVpFPSQoZHUgLWggYnVuZGxlLmh0bWwgfCBjdXQgLWYxKQoKZWNobyAiIgplY2hvICLinIUgQnVuZGxlIGNvbXBsZXRlISIKZWNobyAi8J+ThCBPdXRwdXQ6IGJ1bmRsZS5odG1sICgkRklMRV9TSVpFKSIKZWNobyAiIgplY2hvICJZb3UgY2FuIG5vdyB1c2UgdGhpcyBzaW5nbGUgSFRNTCBmaWxlIGFzIGFuIGFydGlmYWN0IGluIENsYXVkZSBjb252ZXJzYXRpb25zLiIKZWNobyAiVG8gdGVzdCBsb2NhbGx5OiBvcGVuIGJ1bmRsZS5odG1sIGluIHlvdXIgYnJvd3NlciI=
+#!/bin/bash
+set -e
+
+echo "📦 Bundling React app to single HTML artifact..."
+
+# Check if we're in a project directory
+if [ ! -f "package.json" ]; then
+  echo "❌ Error: No package.json found. Run this script from your project root."
+  exit 1
+fi
+
+# Check if index.html exists
+if [ ! -f "index.html" ]; then
+  echo "❌ Error: No index.html found in project root."
+  echo "   This script requires an index.html entry point."
+  exit 1
+fi
+
+# Install bundling dependencies
+echo "📦 Installing bundling dependencies..."
+pnpm add -D parcel @parcel/config-default parcel-resolver-tspaths html-inline
+
+# Create Parcel config with tspaths resolver
+if [ ! -f ".parcelrc" ]; then
+  echo "🔧 Creating Parcel configuration with path alias support..."
+  cat > .parcelrc << 'EOF'
+{
+  "extends": "@parcel/config-default",
+  "resolvers": ["parcel-resolver-tspaths", "..."]
+}
+EOF
+fi
+
+# Clean previous build
+echo "🧹 Cleaning previous build..."
+rm -rf dist bundle.html
+
+# Build with Parcel
+echo "🔨 Building with Parcel..."
+pnpm exec parcel build index.html --dist-dir dist --no-source-maps
+
+# Inline everything into single HTML
+echo "🎯 Inlining all assets into single HTML file..."
+pnpm exec html-inline dist/index.html > bundle.html
+
+# Get file size
+FILE_SIZE=$(du -h bundle.html | cut -f1)
+
+echo ""
+echo "✅ Bundle complete!"
+echo "📄 Output: bundle.html ($FILE_SIZE)"
+echo ""
+echo "You can now use this single HTML file as an artifact in Claude conversations."
+echo "To test locally: open bundle.html in your browser"

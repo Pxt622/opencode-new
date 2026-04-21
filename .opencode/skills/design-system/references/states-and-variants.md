@@ -1,1 +1,241 @@
-IyBTdGF0ZXMgYW5kIFZhcmlhbnRzCgpDb21wb25lbnQgc3RhdGUgZGVmaW5pdGlvbnMgYW5kIHZhcmlhbnQgcGF0dGVybnMuCgojIyBJbnRlcmFjdGl2ZSBTdGF0ZXMKCiMjIyBTdGF0ZSBEZWZpbml0aW9ucwoKfCBTdGF0ZSB8IFRyaWdnZXIgfCBWaXN1YWwgQ2hhbmdlIHwKfC0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLXwKfCBkZWZhdWx0IHwgTm9uZSB8IEJhc2UgYXBwZWFyYW5jZSB8CnwgaG92ZXIgfCBNb3VzZSBvdmVyIHwgU2xpZ2h0IGNvbG9yIHNoaWZ0IHwKfCBmb2N1cyB8IFRhYi9jbGljayB8IEZvY3VzIHJpbmcgfAp8IGFjdGl2ZSB8IE1vdXNlIGRvd24gfCBEYXJrZXN0IGNvbG9yIHwKfCBkaXNhYmxlZCB8IGRpc2FibGVkIGF0dHIgfCBSZWR1Y2VkIG9wYWNpdHkgfAp8IGxvYWRpbmcgfCBBc3luYyBhY3Rpb24gfCBTcGlubmVyICsgb3BhY2l0eSB8CgojIyMgU3RhdGUgUHJpb3JpdHkKCldoZW4gbXVsdGlwbGUgc3RhdGVzIGFwcGx5LCBwcmlvcml0eSAoaGlnaGVzdCB0byBsb3dlc3QpOgoKMS4gZGlzYWJsZWQKMi4gbG9hZGluZwozLiBhY3RpdmUKNC4gZm9jdXMKNS4gaG92ZXIKNi4gZGVmYXVsdAoKIyMjIFN0YXRlIFRyYW5zaXRpb25zCgpgYGBjc3MKLyogU3RhbmRhcmQgdHJhbnNpdGlvbiBmb3IgaW50ZXJhY3RpdmUgZWxlbWVudHMgKi8KLmludGVyYWN0aXZlIHsKICB0cmFuc2l0aW9uLXByb3BlcnR5OiBjb2xvciwgYmFja2dyb3VuZC1jb2xvciwgYm9yZGVyLWNvbG9yLCBib3gtc2hhZG93OwogIHRyYW5zaXRpb24tZHVyYXRpb246IHZhcigtLWR1cmF0aW9uLWZhc3QpOwogIHRyYW5zaXRpb24tdGltaW5nLWZ1bmN0aW9uOiBlYXNlLWluLW91dDsKfQpgYGAKCnwgVHJhbnNpdGlvbiB8IER1cmF0aW9uIHwgRWFzaW5nIHwKfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tfC0tLS0tLS0tfAp8IENvbG9yIGNoYW5nZXMgfCAxNTBtcyB8IGVhc2UtaW4tb3V0IHwKfCBCYWNrZ3JvdW5kIHwgMTUwbXMgfCBlYXNlLWluLW91dCB8CnwgVHJhbnNmb3JtIHwgMjAwbXMgfCBlYXNlLW91dCB8CnwgT3BhY2l0eSB8IDE1MG1zIHwgZWFzZSB8CnwgU2hhZG93IHwgMjAwbXMgfCBlYXNlLW91dCB8CgojIyBGb2N1cyBTdGF0ZXMKCiMjIyBGb2N1cyBSaW5nIFNwZWMKCmBgYGNzcwovKiBTdGFuZGFyZCBmb2N1cyByaW5nICovCi5mb2N1c2FibGU6Zm9jdXMtdmlzaWJsZSB7CiAgb3V0bGluZTogbm9uZTsKICBib3gtc2hhZG93OiAwIDAgMCB2YXIoLS1yaW5nLW9mZnNldCkgdmFyKC0tY29sb3ItYmFja2dyb3VuZCksCiAgICAgICAgICAgICAgMCAwIDAgY2FsYyh2YXIoLS1yaW5nLW9mZnNldCkgKyB2YXIoLS1yaW5nLXdpZHRoKSkgdmFyKC0tcmluZy1jb2xvcik7Cn0KYGBgCgp8IFByb3BlcnR5IHwgVmFsdWUgfAp8LS0tLS0tLS0tLXwtLS0tLS0tfAp8IFJpbmcgd2lkdGggfCAycHggfAp8IFJpbmcgb2Zmc2V0IHwgMnB4IHwKfCBSaW5nIGNvbG9yIHwgcHJpbWFyeSAoYmx1ZS01MDApIHwKfCBPZmZzZXQgY29sb3IgfCBiYWNrZ3JvdW5kIHwKCiMjIyBGb2N1cyBXaXRoaW4KCmBgYGNzcwovKiBDb250YWluZXIgZm9jdXMgd2hlbiBjaGlsZCBpcyBmb2N1c2VkICovCi5jb250YWluZXI6Zm9jdXMtd2l0aGluIHsKICBib3JkZXItY29sb3I6IHZhcigtLWNvbG9yLXJpbmcpOwp9CmBgYAoKIyMgRGlzYWJsZWQgU3RhdGVzCgojIyMgVmlzdWFsIFRyZWF0bWVudAoKYGBgY3NzCi5kaXNhYmxlZCB7CiAgb3BhY2l0eTogdmFyKC0tb3BhY2l0eS1kaXNhYmxlZCk7IC8qIDAuNSAqLwogIHBvaW50ZXItZXZlbnRzOiBub25lOwogIGN1cnNvcjogbm90LWFsbG93ZWQ7Cn0KYGBgCgp8IFByb3BlcnR5IHwgRGlzYWJsZWQgVmFsdWUgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tfAp8IE9wYWNpdHkgfCA1MCUgfAp8IFBvaW50ZXIgZXZlbnRzIHwgbm9uZSB8CnwgQ3Vyc29yIHwgbm90LWFsbG93ZWQgfAp8IEJhY2tncm91bmQgfCBtdXRlZCB8CnwgQ29sb3IgfCBtdXRlZC1mb3JlZ3JvdW5kIHwKCiMjIyBBY2Nlc3NpYmlsaXR5CgotIFVzZSBgYXJpYS1kaXNhYmxlZD0idHJ1ZSJgIGZvciBzZW1hbnRpYyBkaXNhYmxlZAotIFVzZSBgZGlzYWJsZWRgIGF0dHJpYnV0ZSBmb3IgZm9ybSBlbGVtZW50cwotIE1haW50YWluIHN1ZmZpY2llbnQgY29udHJhc3QgKDM6MSBtaW5pbXVtKQoKIyMgTG9hZGluZyBTdGF0ZXMKCiMjIyBTcGlubmVyIFBsYWNlbWVudAoKfCBDb21wb25lbnQgfCBTcGlubmVyIFBvc2l0aW9uIHwKfC0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLXwKfCBCdXR0b24gfCBSZXBsYWNlIGljb24gb3IgY2VudGVyIHwKfCBJbnB1dCB8IFRyYWlsaW5nIHBvc2l0aW9uIHwKfCBDYXJkIHwgQ2VudGVyIG92ZXJsYXkgfAp8IFBhZ2UgfCBDZW50ZXIgb2Ygdmlld3BvcnQgfAoKIyMjIExvYWRpbmcgVHJlYXRtZW50CgpgYGBjc3MKLmxvYWRpbmcgewogIHBvc2l0aW9uOiByZWxhdGl2ZTsKICBwb2ludGVyLWV2ZW50czogbm9uZTsKfQoKLmxvYWRpbmc6OmFmdGVyIHsKICBjb250ZW50OiAnJzsKICAvKiBzcGlubmVyIHN0eWxlcyAqLwp9CgoubG9hZGluZyA+ICogewogIG9wYWNpdHk6IDAuNzsKfQpgYGAKCiMjIEVycm9yIFN0YXRlcwoKIyMjIFZpc3VhbCBJbmRpY2F0b3JzCgpgYGBjc3MKLmVycm9yIHsKICBib3JkZXItY29sb3I6IHZhcigtLWNvbG9yLWVycm9yKTsKICBjb2xvcjogdmFyKC0tY29sb3ItZXJyb3IpOwp9CgouZXJyb3I6Zm9jdXMtdmlzaWJsZSB7CiAgYm94LXNoYWRvdzogMCAwIDAgMnB4IHZhcigtLWNvbG9yLWJhY2tncm91bmQpLAogICAgICAgICAgICAgIDAgMCAwIDRweCB2YXIoLS1jb2xvci1lcnJvcik7Cn0KYGBgCgp8IEVsZW1lbnQgfCBFcnJvciBUcmVhdG1lbnQgfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tfAp8IElucHV0IGJvcmRlciB8IHJlZC01MDAgfAp8IElucHV0IGZvY3VzIHJpbmcgfCByZWQvMjAlIHwKfCBIZWxwZXIgdGV4dCB8IHJlZC02MDAgfAp8IEljb24gfCByZWQtNTAwIHwKCiMjIyBFcnJvciBNZXNzYWdlcwoKLSBQb3NpdGlvbiBiZWxvdyBpbnB1dAotIFVzZSBlcnJvciBjb2xvcgotIEluY2x1ZGUgaWNvbiBmb3IgYWNjZXNzaWJpbGl0eQotIENsZWFyIG9uIHZhbGlkIGlucHV0CgojIyBWYXJpYW50IFBhdHRlcm5zCgojIyMgQ29sb3IgVmFyaWFudHMKCmBgYGNzcwovKiBQYXR0ZXJuIGZvciBjb2xvciB2YXJpYW50cyAqLwouY29tcG9uZW50IHsKICAtLWNvbXBvbmVudC1iZzogdmFyKC0tY29sb3ItcHJpbWFyeSk7CiAgLS1jb21wb25lbnQtZmc6IHZhcigtLWNvbG9yLXByaW1hcnktZm9yZWdyb3VuZCk7CiAgYmFja2dyb3VuZDogdmFyKC0tY29tcG9uZW50LWJnKTsKICBjb2xvcjogdmFyKC0tY29tcG9uZW50LWZnKTsKfQoKLmNvbXBvbmVudC5zZWNvbmRhcnkgewogIC0tY29tcG9uZW50LWJnOiB2YXIoLS1jb2xvci1zZWNvbmRhcnkpOwogIC0tY29tcG9uZW50LWZnOiB2YXIoLS1jb2xvci1zZWNvbmRhcnktZm9yZWdyb3VuZCk7Cn0KCi5jb21wb25lbnQuZGVzdHJ1Y3RpdmUgewogIC0tY29tcG9uZW50LWJnOiB2YXIoLS1jb2xvci1kZXN0cnVjdGl2ZSk7CiAgLS1jb21wb25lbnQtZmc6IHZhcigtLWNvbG9yLWRlc3RydWN0aXZlLWZvcmVncm91bmQpOwp9CmBgYAoKIyMjIFNpemUgVmFyaWFudHMKCmBgYGNzcwovKiBQYXR0ZXJuIGZvciBzaXplIHZhcmlhbnRzICovCi5jb21wb25lbnQgewogIC0tY29tcG9uZW50LWhlaWdodDogNDBweDsKICAtLWNvbXBvbmVudC1wYWRkaW5nOiB2YXIoLS1zcGFjZS00KTsKICAtLWNvbXBvbmVudC1mb250OiB2YXIoLS1mb250LXNpemUtc20pOwp9CgouY29tcG9uZW50LnNtIHsKICAtLWNvbXBvbmVudC1oZWlnaHQ6IDMycHg7CiAgLS1jb21wb25lbnQtcGFkZGluZzogdmFyKC0tc3BhY2UtMyk7CiAgLS1jb21wb25lbnQtZm9udDogdmFyKC0tZm9udC1zaXplLXhzKTsKfQoKLmNvbXBvbmVudC5sZyB7CiAgLS1jb21wb25lbnQtaGVpZ2h0OiA0OHB4OwogIC0tY29tcG9uZW50LXBhZGRpbmc6IHZhcigtLXNwYWNlLTYpOwogIC0tY29tcG9uZW50LWZvbnQ6IHZhcigtLWZvbnQtc2l6ZS1iYXNlKTsKfQpgYGAKCiMjIEFjY2Vzc2liaWxpdHkgUmVxdWlyZW1lbnRzCgojIyMgQ29sb3IgQ29udHJhc3QKCnwgRWxlbWVudCB8IE1pbmltdW0gUmF0aW8gfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLXwKfCBOb3JtYWwgdGV4dCB8IDQuNToxIHwKfCBMYXJnZSB0ZXh0ICgxOHB4KykgfCAzOjEgfAp8IFVJIGNvbXBvbmVudHMgfCAzOjEgfAp8IEZvY3VzIGluZGljYXRvciB8IDM6MSB8CgojIyMgU3RhdGUgSW5kaWNhdG9ycwoKLSBOZXZlciByZWx5IG9uIGNvbG9yIGFsb25lCi0gVXNlIGljb25zLCB0ZXh0LCBvciBwYXR0ZXJucwotIEVuc3VyZSBmb2N1cyBpcyB2aXNpYmxlCi0gUHJvdmlkZSBsb2FkaW5nIGFubm91bmNlbWVudHMKCiMjIyBBUklBIFN0YXRlcwoKYGBgaHRtbAo8IS0tIERpc2FibGVkIC0tPgo8YnV0dG9uIGRpc2FibGVkIGFyaWEtZGlzYWJsZWQ9InRydWUiPlN1Ym1pdDwvYnV0dG9uPgoKPCEtLSBMb2FkaW5nIC0tPgo8YnV0dG9uIGFyaWEtYnVzeT0idHJ1ZSIgYXJpYS1kZXNjcmliZWRieT0ibG9hZGluZy10ZXh0Ij4KICA8c3BhbiBpZD0ibG9hZGluZy10ZXh0IiBjbGFzcz0ic3Itb25seSI+TG9hZGluZy4uLjwvc3Bhbj4KPC9idXR0b24+Cgo8IS0tIEVycm9yIC0tPgo8aW5wdXQgYXJpYS1pbnZhbGlkPSJ0cnVlIiBhcmlhLWRlc2NyaWJlZGJ5PSJlcnJvci1tc2ciPgo8c3BhbiBpZD0iZXJyb3ItbXNnIiByb2xlPSJhbGVydCI+RXJyb3IgbWVzc2FnZTwvc3Bhbj4KYGBgCg==
+# States and Variants
+
+Component state definitions and variant patterns.
+
+## Interactive States
+
+### State Definitions
+
+| State | Trigger | Visual Change |
+|-------|---------|---------------|
+| default | None | Base appearance |
+| hover | Mouse over | Slight color shift |
+| focus | Tab/click | Focus ring |
+| active | Mouse down | Darkest color |
+| disabled | disabled attr | Reduced opacity |
+| loading | Async action | Spinner + opacity |
+
+### State Priority
+
+When multiple states apply, priority (highest to lowest):
+
+1. disabled
+2. loading
+3. active
+4. focus
+5. hover
+6. default
+
+### State Transitions
+
+```css
+/* Standard transition for interactive elements */
+.interactive {
+  transition-property: color, background-color, border-color, box-shadow;
+  transition-duration: var(--duration-fast);
+  transition-timing-function: ease-in-out;
+}
+```
+
+| Transition | Duration | Easing |
+|------------|----------|--------|
+| Color changes | 150ms | ease-in-out |
+| Background | 150ms | ease-in-out |
+| Transform | 200ms | ease-out |
+| Opacity | 150ms | ease |
+| Shadow | 200ms | ease-out |
+
+## Focus States
+
+### Focus Ring Spec
+
+```css
+/* Standard focus ring */
+.focusable:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 var(--ring-offset) var(--color-background),
+              0 0 0 calc(var(--ring-offset) + var(--ring-width)) var(--ring-color);
+}
+```
+
+| Property | Value |
+|----------|-------|
+| Ring width | 2px |
+| Ring offset | 2px |
+| Ring color | primary (blue-500) |
+| Offset color | background |
+
+### Focus Within
+
+```css
+/* Container focus when child is focused */
+.container:focus-within {
+  border-color: var(--color-ring);
+}
+```
+
+## Disabled States
+
+### Visual Treatment
+
+```css
+.disabled {
+  opacity: var(--opacity-disabled); /* 0.5 */
+  pointer-events: none;
+  cursor: not-allowed;
+}
+```
+
+| Property | Disabled Value |
+|----------|----------------|
+| Opacity | 50% |
+| Pointer events | none |
+| Cursor | not-allowed |
+| Background | muted |
+| Color | muted-foreground |
+
+### Accessibility
+
+- Use `aria-disabled="true"` for semantic disabled
+- Use `disabled` attribute for form elements
+- Maintain sufficient contrast (3:1 minimum)
+
+## Loading States
+
+### Spinner Placement
+
+| Component | Spinner Position |
+|-----------|------------------|
+| Button | Replace icon or center |
+| Input | Trailing position |
+| Card | Center overlay |
+| Page | Center of viewport |
+
+### Loading Treatment
+
+```css
+.loading {
+  position: relative;
+  pointer-events: none;
+}
+
+.loading::after {
+  content: '';
+  /* spinner styles */
+}
+
+.loading > * {
+  opacity: 0.7;
+}
+```
+
+## Error States
+
+### Visual Indicators
+
+```css
+.error {
+  border-color: var(--color-error);
+  color: var(--color-error);
+}
+
+.error:focus-visible {
+  box-shadow: 0 0 0 2px var(--color-background),
+              0 0 0 4px var(--color-error);
+}
+```
+
+| Element | Error Treatment |
+|---------|-----------------|
+| Input border | red-500 |
+| Input focus ring | red/20% |
+| Helper text | red-600 |
+| Icon | red-500 |
+
+### Error Messages
+
+- Position below input
+- Use error color
+- Include icon for accessibility
+- Clear on valid input
+
+## Variant Patterns
+
+### Color Variants
+
+```css
+/* Pattern for color variants */
+.component {
+  --component-bg: var(--color-primary);
+  --component-fg: var(--color-primary-foreground);
+  background: var(--component-bg);
+  color: var(--component-fg);
+}
+
+.component.secondary {
+  --component-bg: var(--color-secondary);
+  --component-fg: var(--color-secondary-foreground);
+}
+
+.component.destructive {
+  --component-bg: var(--color-destructive);
+  --component-fg: var(--color-destructive-foreground);
+}
+```
+
+### Size Variants
+
+```css
+/* Pattern for size variants */
+.component {
+  --component-height: 40px;
+  --component-padding: var(--space-4);
+  --component-font: var(--font-size-sm);
+}
+
+.component.sm {
+  --component-height: 32px;
+  --component-padding: var(--space-3);
+  --component-font: var(--font-size-xs);
+}
+
+.component.lg {
+  --component-height: 48px;
+  --component-padding: var(--space-6);
+  --component-font: var(--font-size-base);
+}
+```
+
+## Accessibility Requirements
+
+### Color Contrast
+
+| Element | Minimum Ratio |
+|---------|---------------|
+| Normal text | 4.5:1 |
+| Large text (18px+) | 3:1 |
+| UI components | 3:1 |
+| Focus indicator | 3:1 |
+
+### State Indicators
+
+- Never rely on color alone
+- Use icons, text, or patterns
+- Ensure focus is visible
+- Provide loading announcements
+
+### ARIA States
+
+```html
+<!-- Disabled -->
+<button disabled aria-disabled="true">Submit</button>
+
+<!-- Loading -->
+<button aria-busy="true" aria-describedby="loading-text">
+  <span id="loading-text" class="sr-only">Loading...</span>
+</button>
+
+<!-- Error -->
+<input aria-invalid="true" aria-describedby="error-msg">
+<span id="error-msg" role="alert">Error message</span>
+```

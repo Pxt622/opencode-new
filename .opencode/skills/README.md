@@ -1,1 +1,105 @@
-IyBPcGVuQ29kZSBTa2lsbHMgQ29sbGVjdGlvbgoK5pys5LuT5bqT5pS26ZuG5LqG6YCC55So5LqOIE9wZW5Db2RlIOeahOaJgOaciSBTa2lsbHPvvIzkvr/kuo7liIbkuqvlkoznrqHnkIbjgIIKCiMjIFNraWxscyDnm67lvZUKCuacrOS7k+W6k+eahCBgc2tpbGxzL2Ag55uu5b2V5LiL5YyF5ZCr5Lul5LiLIFNraWxsc++8mgoKIyMjIE9wZW5Db2RlIOWOn+eUnyBTa2lsbHMKfCBTa2lsbCDlkI3np7AgfCDmj4/ov7AgfAp8LS0tLS0tLS0tLS18LS0tLS0tfAp8IGBvcGVuc3BlYy1hcHBseS1jaGFuZ2VgIHwg5a6e546wIE9wZW5TcGVjIOWPmOabtOS7u+WKoSB8CnwgYG9wZW5zcGVjLWFyY2hpdmUtY2hhbmdlYCB8IOW9kuaho+W3suWujOaIkOeahCBPcGVuU3BlYyDlj5jmm7QgfAp8IGBvcGVuc3BlYy1leHBsb3JlYCB8IOaOoue0ouaooeW8jyAtIOaAneiAg+S8meS8tCB8CnwgYG9wZW5zcGVjLXByb3Bvc2VgIHwg5o+Q5Ye65paw5Y+Y5pu0IC0g5LiA56uZ5byP55Sf5oiQ5o+Q5qGIIHwKfCBgc2tpbGwtc2Vla2Vyc2AgfCDmioDog73lj5HnjrDlkoznrqHnkIYgfAp8IGB3ZWItYWNjZXNzYCB8IOe9kemhteiuv+mXruWSjOaKk+WPliB8CnwgYGF1dG9tYXRpb24td29ya2Zsb3dzYCB8IOiHquWKqOWMluW3peS9nOa1gSB8CgojIyMgSGFybW9ueU9TIOW8gOWPkSBTa2lsbHMKfCBTa2lsbCDlkI3np7AgfCDmj4/ov7AgfAp8LS0tLS0tLS0tLS18LS0tLS0tfAp8IGBoYXJtb255LWFya3RzYCB8IEhhcm1vbnlPUyBBcmtUUy9BcmtVSSDlvIDlj5HmioDog70gfAoKIyMjIOiuvuiuoeS4jiBVSS9VWCBTa2lsbHMKfCBTa2lsbCDlkI3np7AgfCDmj4/ov7AgfAp8LS0tLS0tLS0tLS18LS0tLS0tfAp8IGBhbGdvcml0aG1pYy1hcnRgIHwg566X5rOV6Im65pyv55Sf5oiQIHwKfCBgYmFubmVyLWRlc2lnbmAgfCBCYW5uZXIg6K6+6K6hIHwKfCBgYnJhbmRgIHwg5ZOB54mM6K6+6K6hIHwKfCBgYnJhbmQtZ3VpZGVsaW5lc2AgfCDlk4HniYzmjIfljZcgfAp8IGBjYW52YXMtZGVzaWduYCB8IENhbnZhcyDorr7orqEgfAp8IGBkZXNpZ25gIHwg6K6+6K6h5oqA6IO9IHwKfCBgZGVzaWduLXN5c3RlbWAgfCDorr7orqHns7vnu58gfAp8IGBmcm9udGVuZC1kZXNpZ25gIHwg5YmN56uv6K6+6K6hIHwKfCBgc2xpZGVzYCB8IOW5u+eBr+eJh+iuvuiuoSB8CnwgYHVpLXN0eWxpbmdgIHwgVUkg5qC35byP6K6+6K6hIHwKfCBgdWktdXgtcHJvLW1heGAgfCBVSS9VWCBQcm8gTWF4IHwKCiMjIyDmlofmoaPkuI7lhoXlrrkgU2tpbGxzCnwgU2tpbGwg5ZCN56ewIHwg5o+P6L+wIHwKfC0tLS0tLS0tLS0tfC0tLS0tLXwKfCBgZG9jLWNvYXV0aG9yaW5nYCB8IOaWh+aho+WNj+S9nCB8CnwgYGRvY3hgIHwgV29yZCDmlofmoaPlpITnkIYgfAp8IGBpbnRlcm5hbC1jb21tc2AgfCDlhoXpg6jmsp/pgJogfAp8IGBwZGZgIHwgUERGIOWkhOeQhiB8CgojIyMg5Yqe5YWs5paH5qGjIFNraWxscwp8IFNraWxsIOWQjeensCB8IOaPj+i/sCB8CnwtLS0tLS0tLS0tLXwtLS0tLS18CnwgYHBwdHhgIHwgUG93ZXJQb2ludCDlpITnkIYgfAp8IGB4bHN4YCB8IEV4Y2VsIOWkhOeQhiB8CgojIyMg5byA5Y+R5bel5YW3IFNraWxscwp8IFNraWxsIOWQjeensCB8IOaPj+i/sCB8CnwtLS0tLS0tLS0tLXwtLS0tLS18CnwgYGNsYXVkZS1hcGlgIHwgQ2xhdWRlIEFQSSDkvb/nlKggfAp8IGBtY3AtYnVpbGRlcmAgfCBNQ1Ag5pyN5Yqh5Zmo5p6E5bu6IHwKfCBgc2tpbGwtY3JlYXRvcmAgfCBTa2lsbCDliJvlu7rlt6XlhbcgfAp8IGB3ZWItYXJ0aWZhY3RzLWJ1aWxkZXJgIHwgV2ViIOaehOW7uuW3peWFtyB8CnwgYHdlYmFwcC10ZXN0aW5nYCB8IFdlYiDlupTnlKjmtYvor5UgfAoKIyMjIOWIm+aEjyBTa2lsbHMKfCBTa2lsbCDlkI3np7AgfCDmj4/ov7AgfAp8LS0tLS0tLS0tLS18LS0tLS0tfAp8IGBzbGFjay1naWYtY3JlYXRvcmAgfCBTbGFjayBHSUYg5Yib5bu6IHwKfCBgdGhlbWUtZmFjdG9yeWAgfCDkuLvpopjlt6XljoIgfAoKIyMg5a6J6KOFCgrlsIYgYHNraWxscy9gIOebruW9leWkjeWItuWIsOS9oOeahCBPcGVuQ29kZSDphY3nva7nm67lvZXvvJoKCmBgYGJhc2gKIyDlr7nkuo4gV2luZG93cwpjcCAtciBza2lsbHMvICIkZW52OlVTRVJQUk9GSUxFLy5vcGVuY29kZS8iCgojIOWvueS6jiBtYWNPUy9MaW51eApjcCAtciBza2lsbHMvIH4vLm9wZW5jb2RlLwpgYGAKCiMjIOS9v+eUqOaWueazlQoK5ZyoIE9wZW5Db2RlIOS4reWKoOi9vSBTa2lsbO+8mgoKYGBgCi9za2lsbCA8c2tpbGwtbmFtZT4KYGBgCgrkvovlpoLvvJoKYGBgCi9za2lsbCBoYXJtb255LWFya3RzCi9za2lsbCB3ZWItYWNjZXNzCi9za2lsbCBkZXNpZ24tc3lzdGVtCmBgYAoKIyMg6LSh54yuCgrmrKLov47mj5DkuqTmlrDnmoQgU2tpbGxz77yB6K+356Gu5L+d77yaCjEuIOavj+S4qiBTa2lsbCDljIXlkKsgYFNLSUxMLm1kYCDmlofku7YKMi4gU2tpbGwg5o+P6L+w5riF5pmw5piO56GuCjMuIOWMheWQq+W/heimgeeahOiEmuacrOWSjOWPguiAg+i1hOaWmQoKIyMg6K645Y+v6K+BCgrlkITkuKogU2tpbGwg5Y+v6IO95YW35pyJ5LiN5ZCM55qE6K645Y+v6K+B77yM6K+35Y+C6ICD5ZCE6Ieq55uu5b2V5Lit55qEIGBMSUNFTlNFLnR4dGAg5paH5Lu244CCCg==
+# OpenCode Skills Collection
+
+本仓库收集了适用于 OpenCode 的所有 Skills，便于分享和管理。
+
+## Skills 目录
+
+本仓库的 `skills/` 目录下包含以下 Skills：
+
+### OpenCode 原生 Skills
+| Skill 名称 | 描述 |
+|-----------|------|
+| `openspec-apply-change` | 实现 OpenSpec 变更任务 |
+| `openspec-archive-change` | 归档已完成的 OpenSpec 变更 |
+| `openspec-explore` | 探索模式 - 思考伙伴 |
+| `openspec-propose` | 提出新变更 - 一站式生成提案 |
+| `skill-seekers` | 技能发现和管理 |
+| `web-access` | 网页访问和抓取 |
+| `automation-workflows` | 自动化工作流 |
+
+### HarmonyOS 开发 Skills
+| Skill 名称 | 描述 |
+|-----------|------|
+| `harmony-arkts` | HarmonyOS ArkTS/ArkUI 开发技能 |
+
+### 设计与 UI/UX Skills
+| Skill 名称 | 描述 |
+|-----------|------|
+| `algorithmic-art` | 算法艺术生成 |
+| `banner-design` | Banner 设计 |
+| `brand` | 品牌设计 |
+| `brand-guidelines` | 品牌指南 |
+| `canvas-design` | Canvas 设计 |
+| `design` | 设计技能 |
+| `design-system` | 设计系统 |
+| `frontend-design` | 前端设计 |
+| `slides` | 幻灯片设计 |
+| `ui-styling` | UI 样式设计 |
+| `ui-ux-pro-max` | UI/UX Pro Max |
+
+### 文档与内容 Skills
+| Skill 名称 | 描述 |
+|-----------|------|
+| `doc-coauthoring` | 文档协作 |
+| `docx` | Word 文档处理 |
+| `internal-comms` | 内部沟通 |
+| `pdf` | PDF 处理 |
+
+### 办公文档 Skills
+| Skill 名称 | 描述 |
+|-----------|------|
+| `pptx` | PowerPoint 处理 |
+| `xlsx` | Excel 处理 |
+
+### 开发工具 Skills
+| Skill 名称 | 描述 |
+|-----------|------|
+| `claude-api` | Claude API 使用 |
+| `mcp-builder` | MCP 服务器构建 |
+| `skill-creator` | Skill 创建工具 |
+| `web-artifacts-builder` | Web 构建工具 |
+| `webapp-testing` | Web 应用测试 |
+
+### 创意 Skills
+| Skill 名称 | 描述 |
+|-----------|------|
+| `slack-gif-creator` | Slack GIF 创建 |
+| `theme-factory` | 主题工厂 |
+
+## 安装
+
+将 `skills/` 目录复制到你的 OpenCode 配置目录：
+
+```bash
+# 对于 Windows
+cp -r skills/ "$env:USERPROFILE/.opencode/"
+
+# 对于 macOS/Linux
+cp -r skills/ ~/.opencode/
+```
+
+## 使用方法
+
+在 OpenCode 中加载 Skill：
+
+```
+/skill <skill-name>
+```
+
+例如：
+```
+/skill harmony-arkts
+/skill web-access
+/skill design-system
+```
+
+## 贡献
+
+欢迎提交新的 Skills！请确保：
+1. 每个 Skill 包含 `SKILL.md` 文件
+2. Skill 描述清晰明确
+3. 包含必要的脚本和参考资料
+
+## 许可证
+
+各个 Skill 可能具有不同的许可证，请参考各自目录中的 `LICENSE.txt` 文件。

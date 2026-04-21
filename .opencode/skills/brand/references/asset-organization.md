@@ -1,1 +1,157 @@
-IyBBc3NldCBPcmdhbml6YXRpb24gR3VpZGUKCkd1aWRlbGluZXMgZm9yIG9yZ2FuaXppbmcgbWFya2V0aW5nIGFzc2V0cyBpbiBhIHN0cnVjdHVyZWQsIHNlYXJjaGFibGUgc3lzdGVtLgoKIyMgRGlyZWN0b3J5IFN0cnVjdHVyZQoKYGBgCnByb2plY3Qtcm9vdC8K4pSc4pSA4pSAIC5hc3NldHMvICAgICAgICAgICAgICAgICAgICAgICAgICAjIEdpdC10cmFja2VkIG1ldGFkYXRhCuKUgiAgIOKUnOKUgOKUgCBtYW5pZmVzdC5qc29uICAgICAgICAgICAgICAgICAjIENlbnRyYWwgYXNzZXQgcmVnaXN0cnkK4pSCICAg4pSc4pSA4pSAIHRhZ3MuanNvbiAgICAgICAgICAgICAgICAgICAgICMgVGFnZ2luZyBzeXN0ZW0K4pSCICAg4pSc4pSA4pSAIHZlcnNpb25zLyAgICAgICAgICAgICAgICAgICAgICMgVmVyc2lvbiBoaXN0b3J5CuKUgiAgIOKUgiAgIOKUlOKUgOKUgCB7YXNzZXQtaWR9LwrilIIgICDilIIgICAgICAg4pSU4pSA4pSAIHZ7bn0uanNvbgrilIIgICDilJTilIDilIAgbWV0YWRhdGEvICAgICAgICAgICAgICAgICAgICAgIyBUeXBlLXNwZWNpZmljIG1ldGFkYXRhCuKUgiAgICAgICDilJzilIDilIAgZGVzaWducy5qc29uCuKUgiAgICAgICDilJzilIDilIAgYmFubmVycy5qc29uCuKUgiAgICAgICDilJzilIDilIAgbG9nb3MuanNvbgrilIIgICAgICAg4pSU4pSA4pSAIHZpZGVvcy5qc29uCuKUnOKUgOKUgCBhc3NldHMvICAgICAgICAgICAgICAgICAgICAgICAgICAgIyBSYXcgZmlsZXMK4pSCICAg4pSc4pSA4pSAIGRlc2lnbnMvCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBjYW1wYWlnbnMvICAgICAgICAgICAgICAgICMgQ2FtcGFpZ24tc3BlY2lmaWMgZGVzaWducwrilIIgICDilIIgICDilJzilIDilIAgd2ViLyAgICAgICAgICAgICAgICAgICAgICAjIFdlYnNpdGUgZ3JhcGhpY3MK4pSCICAg4pSCICAg4pSU4pSA4pSAIHByaW50LyAgICAgICAgICAgICAgICAgICAgIyBQcmludCBtYXRlcmlhbHMK4pSCICAg4pSc4pSA4pSAIGJhbm5lcnMvCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBzb2NpYWwtbWVkaWEvICAgICAgICAgICAgICMgUGxhdGZvcm0gYmFubmVycwrilIIgICDilIIgICDilJzilIDilIAgZW1haWwtaGVhZGVycy8gICAgICAgICAgICAjIEVtYWlsIHRlbXBsYXRlIGhlYWRlcnMK4pSCICAg4pSCICAg4pSU4pSA4pSAIGxhbmRpbmctcGFnZXMvICAgICAgICAgICAgIyBIZXJvL3NlY3Rpb24gaW1hZ2VzCuKUgiAgIOKUnOKUgOKUgCBsb2dvcy8K4pSCICAg4pSCICAg4pSc4pSA4pSAIGZ1bGwtaG9yaXpvbnRhbC8gICAgICAgICAgIyBGdWxsIGxvZ28gd2l0aCB3b3JkbWFyawrilIIgICDilIIgICDilJzilIDilIAgaWNvbi1vbmx5LyAgICAgICAgICAgICAgICAjIFN5bWJvbCBvbmx5CuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBtb25vY2hyb21lLyAgICAgICAgICAgICAgICMgU2luZ2xlIGNvbG9yIHZlcnNpb25zCuKUgiAgIOKUgiAgIOKUlOKUgOKUgCB2YXJpYXRpb25zLyAgICAgICAgICAgICAgICMgU3BlY2lhbCB2ZXJzaW9ucwrilIIgICDilJzilIDilIAgdmlkZW9zLwrilIIgICDilIIgICDilJzilIDilIAgYWRzLyAgICAgICAgICAgICAgICAgICAgICAjIFByb21vdGlvbmFsIHZpZGVvcwrilIIgICDilIIgICDilJzilIDilIAgdHV0b3JpYWxzLyAgICAgICAgICAgICAgICAjIEhvdy10byBjb250ZW50CuKUgiAgIOKUgiAgIOKUlOKUgOKUgCB0ZXN0aW1vbmlhbHMvICAgICAgICAgICAgICMgQ3VzdG9tZXIgdmlkZW9zCuKUgiAgIOKUnOKUgOKUgCBpbmZvZ3JhcGhpY3MvICAgICAgICAgICAgICAgICAjIERhdGEgdmlzdWFsaXphdGlvbnMK4pSCICAg4pSU4pSA4pSAIGdlbmVyYXRlZC8gICAgICAgICAgICAgICAgICAgICMgQUktZ2VuZXJhdGVkIGFzc2V0cwrilIIgICAgICAg4pSU4pSA4pSAIHtZWVlZTU1ERH0vICAgICAgICAgICAgICAgIyBEYXRlLW9yZ2FuaXplZApgYGAKCiMjIE5hbWluZyBDb252ZW50aW9uCgojIyMgRm9ybWF0CmBgYAp7dHlwZX1fe2NhbXBhaWdufV97ZGVzY3JpcHRpb259X3t0aW1lc3RhbXB9X3t2YXJpYW50fS57ZXh0fQpgYGAKCiMjIyBDb21wb25lbnRzCnwgQ29tcG9uZW50IHwgRm9ybWF0IHwgUmVxdWlyZWQgfCBFeGFtcGxlcyB8CnwtLS0tLS0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLS0tfC0tLS0tLS0tLS18CnwgdHlwZSB8IGxvd2VyY2FzZSB8IFllcyB8IGJhbm5lciwgbG9nbywgZGVzaWduLCB2aWRlbyB8CnwgY2FtcGFpZ24gfCBrZWJhYi1jYXNlIHwgWWVzKiB8IGNsYXVkZS1sYXVuY2gsIHExLXByb21vLCBldmVyZ3JlZW4gfAp8IGRlc2NyaXB0aW9uIHwga2ViYWItY2FzZSB8IFllcyB8IGhlcm8taW1hZ2UsIGVtYWlsLWhlYWRlciB8CnwgdGltZXN0YW1wIHwgWVlZWU1NREQgfCBZZXMgfCAyMDI1MTIwOSB8CnwgdmFyaWFudCB8IGtlYmFiLWNhc2UgfCBObyB8IGRhcmstbW9kZSwgMXgxLCBtb2JpbGUgfAoKKlVzZSAiZXZlcmdyZWVuIiBmb3Igbm9uLWNhbXBhaWduIGFzc2V0cwoKIyMjIEV4YW1wbGVzCmBgYApiYW5uZXJfY2xhdWRlLWxhdW5jaF9oZXJvLWltYWdlXzIwMjUxMjA5XzE2LTkucG5nCmxvZ29fYnJhbmQtcmVmcmVzaF9ob3Jpem9udGFsLWZ1bGwtY29sb3JfMjAyNTEyMDkuc3ZnCmRlc2lnbl9ob2xpZGF5LWNhbXBhaWduX2VtYWlsLWhlcm9fMjAyNTEyMDlfZGFyay1tb2RlLnBzZAp2aWRlb19wcm9kdWN0LWRlbW9fZmVhdHVyZS13YWxrdGhyb3VnaF8yMDI1MTIwOS5tcDQKaW5mb2dyYXBoaWNfZXZlcmdyZWVuX3ByaWNpbmctY29tcGFyaXNvbl8yMDI1MTIwOS5wbmcKYGBgCgojIyBNZXRhZGF0YSBTY2hlbWEKCiMjIyBBc3NldCBFbnRyeSAobWFuaWZlc3QuanNvbikKYGBganNvbgp7CiAgImlkIjogInV1aWQtdjQiLAogICJuYW1lIjogIkNhbXBhaWduIEhlcm8gQmFubmVyIiwKICAidHlwZSI6ICJiYW5uZXIiLAogICJwYXRoIjogImFzc2V0cy9iYW5uZXJzL2xhbmRpbmctcGFnZXMvYmFubmVyX2NsYXVkZS1sYXVuY2hfaGVyby1pbWFnZV8yMDI1MTIwOS5wbmciLAogICJkaW1lbnNpb25zIjogeyAid2lkdGgiOiAxOTIwLCAiaGVpZ2h0IjogMTA4MCB9LAogICJmaWxlU2l6ZSI6IDI0NTc2MCwKICAibWltZVR5cGUiOiAiaW1hZ2UvcG5nIiwKICAidGFncyI6IFsiY2FtcGFpZ24iLCAiaGVybyIsICJsYXVuY2giXSwKICAic3RhdHVzIjogImFwcHJvdmVkIiwKICAic291cmNlIjogewogICAgIm1vZGVsIjogImltYWdlbi00IiwKICAgICJwcm9tcHQiOiAiLi4uIiwKICAgICJjcmVhdGVkQXQiOiAiMjAyNS0xMi0wOVQxMDozMDowMFoiCiAgfSwKICAidmVyc2lvbiI6IDIsCiAgImNyZWF0ZWRCeSI6ICJhZ2VudDpjb250ZW50LWNyZWF0b3IiLAogICJhcHByb3ZlZEJ5IjogInVzZXI6am9obiIsCiAgImFwcHJvdmVkQXQiOiAiMjAyNS0xMi0wOVQxNDowMDowMFoiCn0KYGBgCgojIyMgVmVyc2lvbiBFbnRyeSAodmVyc2lvbnMve2lkfS92e259Lmpzb24pCmBgYGpzb24KewogICJ2ZXJzaW9uIjogMiwKICAicHJldmlvdXNWZXJzaW9uIjogMSwKICAicGF0aCI6ICJhc3NldHMvYmFubmVycy9sYW5kaW5nLXBhZ2VzL2Jhbm5lcl9jbGF1ZGUtbGF1bmNoX2hlcm8taW1hZ2VfMjAyNTEyMDlfdjIucG5nIiwKICAiY2hhbmdlcyI6ICJVcGRhdGVkIENUQSBidXR0b24gY29sb3IgdG8gbWF0Y2ggYnJhbmQgcmVmcmVzaCIsCiAgImNyZWF0ZWRBdCI6ICIyMDI1LTEyLTA5VDEyOjAwOjAwWiIsCiAgImNyZWF0ZWRCeSI6ICJhZ2VudDp1aS1kZXNpZ25lciIKfQpgYGAKCiMjIFRhZ2dpbmcgU3lzdGVtCgojIyMgU3RhbmRhcmQgVGFncwp8IENhdGVnb3J5IHwgVmFsdWVzIHwKfC0tLS0tLS0tLS18LS0tLS0tLS18Cnwgc3RhdHVzIHwgZHJhZnQsIHJldmlldywgYXBwcm92ZWQsIGFyY2hpdmVkIHwKfCBwbGF0Zm9ybSB8IGluc3RhZ3JhbSwgdHdpdHRlciwgbGlua2VkaW4sIGZhY2Vib29rLCB5b3V0dWJlLCBlbWFpbCwgd2ViIHwKfCBjb250ZW50LXR5cGUgfCBwcm9tb3Rpb25hbCwgZWR1Y2F0aW9uYWwsIGJyYW5kLCBwcm9kdWN0LCB0ZXN0aW1vbmlhbCB8CnwgZm9ybWF0IHwgMXgxLCA0eDUsIDl4MTYsIDE2eDksIHN0b3J5LCByZWVsLCBiYW5uZXIgfAp8IHNvdXJjZSB8IGltYWdlbi00LCB2ZW8tMywgdXNlci11cGxvYWQsIGNhbnZhLCBmaWdtYSB8CgojIyMgVGFnIFVzYWdlCi0gRWFjaCBhc3NldCBzaG91bGQgaGF2ZTogc3RhdHVzICsgcGxhdGZvcm0gKyBjb250ZW50LXR5cGUKLSBPcHRpb25hbDogZm9ybWF0LCBzb3VyY2UsIGNhbXBhaWduCgojIyBGaWxlIE9yZ2FuaXphdGlvbiBCZXN0IFByYWN0aWNlcwoKMS4gKipPbmUgZmlsZSBwZXIgdmFyaWFudCoqIC0gRG9uJ3QgY29tYmluZSBkYXJrL2xpZ2h0IGluIG9uZSBmaWxlCjIuICoqU291cmNlIGZpbGVzIHNlcGFyYXRlKiogLSBLZWVwIC5wc2QvLmZpZyBpbiBzYW1lIHN0cnVjdHVyZQozLiAqKkFJIGFzc2V0cyB0aW1lc3RhbXBlZCoqIC0gQXV0by1vcmdhbml6ZSBieSBnZW5lcmF0aW9uIGRhdGUKNC4gKipBcmNoaXZlIGRvbid0IGRlbGV0ZSoqIC0gTW92ZSB0byBgYXJjaGl2ZWQvYCB3aXRoIGRhdGUgcHJlZml4CjUuICoqTGFyZ2UgZmlsZXMgZXh0ZXJuYWwqKiAtIFZpZGVvcyA+IDEwME1CIHVzZSBjbG91ZCBzdG9yYWdlIGxpbmtzCgojIyBTZWFyY2ggUGF0dGVybnMKCiMjIyBCeSBUeXBlCmBgYGJhc2gKIyBGaW5kIGFsbCBiYW5uZXJzCmxzIGFzc2V0cy9iYW5uZXJzLyoqLyoKYGBgCgojIyMgQnkgQ2FtcGFpZ24KYGBgYmFzaAojIEZpbmQgYWxsIGFzc2V0cyBmb3Igc3BlY2lmaWMgY2FtcGFpZ24KZ3JlcCAtbCAiY2xhdWRlLWxhdW5jaCIgLmFzc2V0cy9tYW5pZmVzdC5qc29uCmBgYAoKIyMjIEJ5IFN0YXR1cwpgYGBiYXNoCiMgRmluZCBhcHByb3ZlZCBhc3NldHMgb25seQpqcSAnLmFzc2V0c1tdIHwgc2VsZWN0KC5zdGF0dXMgPT0gImFwcHJvdmVkIiknIC5hc3NldHMvbWFuaWZlc3QuanNvbgpgYGAKCiMjIENsZWFudXAgV29ya2Zsb3cKCjEuIFJ1biBgZXh0cmFjdC1jb2xvcnMuY2pzYCBvbiBuZXcgYXNzZXRzCjIuIFZhbGlkYXRlIGFnYWluc3QgYnJhbmQgZ3VpZGVsaW5lcwozLiBVcGRhdGUgbWFuaWZlc3QuanNvbiB3aXRoIG5ldyBlbnRyaWVzCjQuIFRhZyBhcHByb3ByaWF0ZWx5CjUuIFJlbW92ZSBkdXBsaWNhdGVzL291dGRhdGVkIHZlcnNpb25zCg==
+# Asset Organization Guide
+
+Guidelines for organizing marketing assets in a structured, searchable system.
+
+## Directory Structure
+
+```
+project-root/
+├── .assets/                          # Git-tracked metadata
+│   ├── manifest.json                 # Central asset registry
+│   ├── tags.json                     # Tagging system
+│   ├── versions/                     # Version history
+│   │   └── {asset-id}/
+│   │       └── v{n}.json
+│   └── metadata/                     # Type-specific metadata
+│       ├── designs.json
+│       ├── banners.json
+│       ├── logos.json
+│       └── videos.json
+├── assets/                           # Raw files
+│   ├── designs/
+│   │   ├── campaigns/                # Campaign-specific designs
+│   │   ├── web/                      # Website graphics
+│   │   └── print/                    # Print materials
+│   ├── banners/
+│   │   ├── social-media/             # Platform banners
+│   │   ├── email-headers/            # Email template headers
+│   │   └── landing-pages/            # Hero/section images
+│   ├── logos/
+│   │   ├── full-horizontal/          # Full logo with wordmark
+│   │   ├── icon-only/                # Symbol only
+│   │   ├── monochrome/               # Single color versions
+│   │   └── variations/               # Special versions
+│   ├── videos/
+│   │   ├── ads/                      # Promotional videos
+│   │   ├── tutorials/                # How-to content
+│   │   └── testimonials/             # Customer videos
+│   ├── infographics/                 # Data visualizations
+│   └── generated/                    # AI-generated assets
+│       └── {YYYYMMDD}/               # Date-organized
+```
+
+## Naming Convention
+
+### Format
+```
+{type}_{campaign}_{description}_{timestamp}_{variant}.{ext}
+```
+
+### Components
+| Component | Format | Required | Examples |
+|-----------|--------|----------|----------|
+| type | lowercase | Yes | banner, logo, design, video |
+| campaign | kebab-case | Yes* | claude-launch, q1-promo, evergreen |
+| description | kebab-case | Yes | hero-image, email-header |
+| timestamp | YYYYMMDD | Yes | 20251209 |
+| variant | kebab-case | No | dark-mode, 1x1, mobile |
+
+*Use "evergreen" for non-campaign assets
+
+### Examples
+```
+banner_claude-launch_hero-image_20251209_16-9.png
+logo_brand-refresh_horizontal-full-color_20251209.svg
+design_holiday-campaign_email-hero_20251209_dark-mode.psd
+video_product-demo_feature-walkthrough_20251209.mp4
+infographic_evergreen_pricing-comparison_20251209.png
+```
+
+## Metadata Schema
+
+### Asset Entry (manifest.json)
+```json
+{
+  "id": "uuid-v4",
+  "name": "Campaign Hero Banner",
+  "type": "banner",
+  "path": "assets/banners/landing-pages/banner_claude-launch_hero-image_20251209.png",
+  "dimensions": { "width": 1920, "height": 1080 },
+  "fileSize": 245760,
+  "mimeType": "image/png",
+  "tags": ["campaign", "hero", "launch"],
+  "status": "approved",
+  "source": {
+    "model": "imagen-4",
+    "prompt": "...",
+    "createdAt": "2025-12-09T10:30:00Z"
+  },
+  "version": 2,
+  "createdBy": "agent:content-creator",
+  "approvedBy": "user:john",
+  "approvedAt": "2025-12-09T14:00:00Z"
+}
+```
+
+### Version Entry (versions/{id}/v{n}.json)
+```json
+{
+  "version": 2,
+  "previousVersion": 1,
+  "path": "assets/banners/landing-pages/banner_claude-launch_hero-image_20251209_v2.png",
+  "changes": "Updated CTA button color to match brand refresh",
+  "createdAt": "2025-12-09T12:00:00Z",
+  "createdBy": "agent:ui-designer"
+}
+```
+
+## Tagging System
+
+### Standard Tags
+| Category | Values |
+|----------|--------|
+| status | draft, review, approved, archived |
+| platform | instagram, twitter, linkedin, facebook, youtube, email, web |
+| content-type | promotional, educational, brand, product, testimonial |
+| format | 1x1, 4x5, 9x16, 16x9, story, reel, banner |
+| source | imagen-4, veo-3, user-upload, canva, figma |
+
+### Tag Usage
+- Each asset should have: status + platform + content-type
+- Optional: format, source, campaign
+
+## File Organization Best Practices
+
+1. **One file per variant** - Don't combine dark/light in one file
+2. **Source files separate** - Keep .psd/.fig in same structure
+3. **AI assets timestamped** - Auto-organize by generation date
+4. **Archive don't delete** - Move to `archived/` with date prefix
+5. **Large files external** - Videos > 100MB use cloud storage links
+
+## Search Patterns
+
+### By Type
+```bash
+# Find all banners
+ls assets/banners/**/*
+```
+
+### By Campaign
+```bash
+# Find all assets for specific campaign
+grep -l "claude-launch" .assets/manifest.json
+```
+
+### By Status
+```bash
+# Find approved assets only
+jq '.assets[] | select(.status == "approved")' .assets/manifest.json
+```
+
+## Cleanup Workflow
+
+1. Run `extract-colors.cjs` on new assets
+2. Validate against brand guidelines
+3. Update manifest.json with new entries
+4. Tag appropriately
+5. Remove duplicates/outdated versions

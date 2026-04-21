@@ -1,1 +1,106 @@
-IyBDRFAgUHJveHkgQVBJIOWPguiAgw0KDQojIyDln7rnoYDkv6Hmga8NCg0KLSDlnLDlnYDvvJpgaHR0cDovL2xvY2FsaG9zdDozNDU2YA0KLSDlkK/liqjvvJpgbm9kZSB+Ly5jbGF1ZGUvc2tpbGxzL3dlYi1hY2Nlc3Mvc2NyaXB0cy9jZHAtcHJveHkubWpzICZgDQotIOWQr+WKqOWQjuaMgee7rei/kOihjO+8jOS4jeW7uuiuruS4u+WKqOWBnOatou+8iOmHjeWQr+mcgCBDaHJvbWUg6YeN5paw5o6I5p2D77yJDQotIOW8uuWItuWBnOatou+8mmBwa2lsbCAtZiBjZHAtcHJveHkubWpzYA0KDQojIyBBUEkg56uv54K5DQoNCiMjIyBHRVQgL2hlYWx0aA0K5YGl5bq35qOA5p+l77yM6L+U5Zue6L+e5o6l54q25oCB44CCDQpgYGBiYXNoDQpjdXJsIC1zIGh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9oZWFsdGgNCmBgYA0KDQojIyMgR0VUIC90YXJnZXRzDQrliJflh7rmiYDmnInlt7LmiZPlvIDnmoTpobXpnaIgdGFi44CC6L+U5Zue5pWw57uE77yM5q+P6aG55ZCrIGB0YXJnZXRJZGDjgIFgdGl0bGVg44CBYHVybGDjgIINCmBgYGJhc2gNCmN1cmwgLXMgaHR0cDovL2xvY2FsaG9zdDozNDU2L3RhcmdldHMNCmBgYA0KDQojIyMgR0VUIC9uZXc/dXJsPVVSTA0K5Yib5bu65paw5ZCO5Y+wIHRhYu+8jOiHquWKqOetieW+hemhtemdouWKoOi9veWujOaIkOOAgui/lOWbniBgeyB0YXJnZXRJZCB9YC4NCmBgYGJhc2gNCmN1cmwgLXMgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9uZXc/dXJsPWh0dHBzOi8vZXhhbXBsZS5jb20iDQpgYGANCg0KIyMjIEdFVCAvY2xvc2U/dGFyZ2V0PUlEDQrlhbPpl63mjIflrpogdGFi44CCDQpgYGBiYXNoDQpjdXJsIC1zICJodHRwOi8vbG9jYWxob3N0OjM0NTYvY2xvc2U/dGFyZ2V0PVRBUkdFVF9JRCINCmBgYA0KDQojIyMgR0VUIC9uYXZpZ2F0ZT90YXJnZXQ9SUQmdXJsPVVSTA0K5Zyo5bey5pyJIHRhYiDkuK3lr7zoiKrliLDmlrAgVVJM77yM6Ieq5Yqo562J5b6F5Yqg6L2944CCDQpgYGBiYXNoDQpjdXJsIC1zICJodHRwOi8vbG9jYWxob3N0OjM0NTYvbmF2aWdhdGU/dGFyZ2V0PUlEJnVybD1odHRwczovL2V4YW1wbGUuY29tIg0KYGBgDQoNCiMjIyBHRVQgL2JhY2s/dGFyZ2V0PUlEDQrlkI7pgIDkuIDpobXjgIINCmBgYGJhc2gNCmN1cmwgLXMgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9iYWNrP3RhcmdldD1JRCINCmBgYA0KDQojIyMgR0VUIC9pbmZvP3RhcmdldD1JRA0K6I635Y+W6aG16Z2i5Z+656GA5L+h5oGv77yIdGl0bGXjgIF1cmzjgIFyZWFkeVN0YXRl77yJ44CCDQpgYGBiYXNoDQpjdXJsIC1zICJodHRwOi8vbG9jYWxob3N0OjM0NTYvaW5mbz90YXJnZXQ9SUQiDQpgYGANCg0KIyMjIFBPU1QgL2V2YWw/dGFyZ2V0PUlEDQrmiafooYwgSmF2YVNjcmlwdCDooajovr7lvI/vvIxQT1NUIGJvZHkg5Li6IEpTIOS7o+eggeOAgg0KYGBgYmFzaA0KY3VybCAtcyAtWCBQT1NUICJodHRwOi8vbG9jYWxob3N0OjM0NTYvZXZhbD90YXJnZXQ9SUQiIC1kICdkb2N1bWVudC50aXRsZScNCmBgYA0KDQojIyMgUE9TVCAvY2xpY2s/dGFyZ2V0PUlEDQpKUyDlsYLpnaLngrnlh7vvvIhgZWwuY2xpY2soKWDvvInvvIxQT1NUIGJvZHkg5Li6IENTUyDpgInmi6nlmajjgILoh6rliqggc2Nyb2xsSW50b1ZpZXcg5ZCO54K55Ye744CC566A5Y2V5b+r6YCf77yM6KaG55uW5aSn5aSa5pWw5Zy65pmv44CCDQpgYGBiYXNoDQpjdXJsIC1zIC1YIFBPU1QgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9jbGljaz90YXJnZXQ9SUQiIC1kICdidXR0b24uc3VibWl0Jw0KYGBgDQoNCiMjIyBQT1NUIC9jbGlja0F0P3RhcmdldD1JRA0KQ0RQIOa1j+iniOWZqOe6p+ecn+Wunum8oOagh+eCueWHu++8iGBJbnB1dC5kaXNwYXRjaE1vdXNlRXZlbnRg77yJ77yMUE9TVCBib2R5IOS4uiBDU1Mg6YCJ5oup5Zmo44CC5YWI6I635Y+W5YWD57Sg5Z2Q5qCH77yM5YaN5qih5ouf6byg5qCH5oyJ5LiLL+mHiuaUvuOAgueul+ecn+WunueUqOaIt+aJi+WKv++8jOiDveinpuWPkeaWh+S7tuWvueivneahhuOAgee7lei/h+mDqOWIhuWPjeiHquWKqOWMluajgOa1i+OAgg0KYGBgYmFzaA0KY3VybCAtcyAtWCBQT1NUICJodHRwOi8vbG9jYWxob3N0OjM0NTYvY2xpY2tBdD90YXJnZXQ9SUQiIC1kICdidXR0b24udXBsb2FkJw0KYGBgDQoNCiMjIyBQT1NUIC9zZXRGaWxlcz90YXJnZXQ9SUQNCue7mSBmaWxlIGlucHV0IOiuvue9ruacrOWcsOaWh+S7tui3r+W+hO+8iGBET00uc2V0RmlsZUlucHV0RmlsZXNg77yJ77yM5a6M5YWo57uV6L+H5paH5Lu25a+56K+d5qGG44CCUE9TVCBib2R5IOS4uiBKU09O44CCDQpgYGBiYXNoDQpjdXJsIC1zIC1YIFBPU1QgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9zZXRGaWxlcz90YXJnZXQ9SUQiIC1kICd7InNlbGVjdG9yIjoiaW5wdXRbdHlwZT1maWxlXSIsImZpbGVzIjpbIi9wYXRoL3RvL2ZpbGUxLnBuZyIsIi9wYXRoL3RvL2ZpbGUyLnBuZyJdfScNCmBgYA0KDQojIyMgR0VUIC9zY3JvbGw/dGFyZ2V0PUlEJnk9MzAwMCZkaXJlY3Rpb249ZG93bg0K5rua5Yqo6aG16Z2i44CCYGRpcmVjdGlvbmAg5Y+v6YCJIGBkb3duYO+8iOm7mOiupO+8ieOAgWB1cGDjgIFgdG9wYOOAgWBib3R0b21g44CC5rua5Yqo5ZCO6Ieq5Yqo562J5b6FIDgwMG1zIOS+m+aHkuWKoOi9veinpuWPkeOAgg0KYGBgYmFzaA0KY3VybCAtcyAiaHR0cDovL2xvY2FsaG9zdDozNDU2L3Njcm9sbD90YXJnZXQ9SUQmeT0zMDAwIg0KY3VybCAtcyAiaHR0cDovL2xvY2FsaG9zdDozNDU2L3Njcm9sbD90YXJnZXQ9SUQmZGlyZWN0aW9uPWJvdHRvbSINCmBgYA0KDQojIyMgR0VUIC9zY3JlZW5zaG90P3RhcmdldD1JRCZmaWxlPS90bXAvc2hvdC5wbmcNCuaIquWbvuOAguaMh+WumiBgZmlsZWAg5Y+C5pWw5L+d5a2Y5Yiw5pys5Zyw5paH5Lu277yb5LiN5oyH5a6a5YiZ6L+U5Zue5Zu+54mH5LqM6L+b5Yi244CC5Y+v6YCJIGBmb3JtYXQ9anBlZ2DjgIINCmBgYGJhc2gNCmN1cmwgLXMgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9zY3JlZW5zaG90P3RhcmdldD1JRCZmaWxlPS90bXAvc2hvdC5wbmciDQpgYGANCg0KIyMgL2V2YWwg5L2/55So5o+Q56S6DQoNCi0gUE9TVCBib2R5IOS4uuS7u+aEjyBKUyDooajovr7lvI/vvIzov5Tlm54gYHsgdmFsdWUgfWAg5oiWIGB7IGVycm9yIH1gDQotIOaUr+aMgSBgYXdhaXRQcm9taXNlYO+8muWPr+S7peWGmSBhc3luYyDooajovr7lvI8NCi0g6L+U5Zue5YC85b+F6aG75piv5Y+v5bqP5YiX5YyW55qE77yI5a2X56ym5Liy44CB5pWw5a2X44CB5a+56LGh77yJ77yMRE9NIOiKgueCueS4jeiDveebtOaOpei/lOWbnu+8jOmcgOimgeaPkOWPluWxnuaApw0KLSDmj5Dlj5blpKfph4/mlbDmja7ml7bnlKggYEpTT04uc3RyaW5naWZ5KClgIOWMheijue+8jOehruS/nei/lOWbnuWtl+espuS4sg0KLSDmoLnmja7pobXpnaLlrp7pmYUgRE9NIOe7k+aehOe8luWGmemAieaLqeWZqO+8jOS4jeimgeWll+eUqOWbuuWumuaooeadvw0KDQojIyDplJnor6/lpITnkIYNCg0KfCDplJnor68gfCDljp/lm6AgfCDop6PlhrMgfA0KfC0tLS0tLXwtLS0tLS18LS0tLS0tfA0KfCBgQ2hyb21lIOacquW8gOWQr+i/nOeoi+iwg+ivleerr+WPo2AgfCBDaHJvbWUg5pyq5byA5ZCv6L+c56iL6LCD6K+VIHwg5o+Q56S655So5oi35omT5byAIGBjaHJvbWU6Ly9pbnNwZWN0LyNyZW1vdGUtZGVidWdnaW5nYCDlubbli77pgIkgQWxsb3cgfA0KfCBgYXR0YWNoIOWksei0pWAgfCB0YXJnZXRJZCDml6DmlYjmiJYgdGFiIOW3suWFs+mXrSB8IOeUqCBgL3RhcmdldHNgIOiOt+WPluacgOaWsOWIl+ihqCB8DQp8IGBDRFAg5ZG95Luk6LaF5pe2YCB8IOmhtemdoumVv+aXtumXtOacquWTjeW6lCB8IOmHjeivleaIluajgOafpSB0YWIg54q25oCBIHwNCnwgYOerr+WPo+W3suiiq+WNoOeUqGAgfCDlj6bkuIDkuKogcHJveHkg5bey5Zyo6L+Q6KGMIHwg5bey5pyJ5a6e5L6L5Y+v55u05o6l5aSN55SoIHwNCg==
+# CDP Proxy API 参考
+
+## 基础信息
+
+- 地址：`http://localhost:3456`
+- 启动：`node ~/.claude/skills/web-access/scripts/cdp-proxy.mjs &`
+- 启动后持续运行，不建议主动停止（重启需 Chrome 重新授权）
+- 强制停止：`pkill -f cdp-proxy.mjs`
+
+## API 端点
+
+### GET /health
+健康检查，返回连接状态。
+```bash
+curl -s http://localhost:3456/health
+```
+
+### GET /targets
+列出所有已打开的页面 tab。返回数组，每项含 `targetId`、`title`、`url`。
+```bash
+curl -s http://localhost:3456/targets
+```
+
+### GET /new?url=URL
+创建新后台 tab，自动等待页面加载完成。返回 `{ targetId }`.
+```bash
+curl -s "http://localhost:3456/new?url=https://example.com"
+```
+
+### GET /close?target=ID
+关闭指定 tab。
+```bash
+curl -s "http://localhost:3456/close?target=TARGET_ID"
+```
+
+### GET /navigate?target=ID&url=URL
+在已有 tab 中导航到新 URL，自动等待加载。
+```bash
+curl -s "http://localhost:3456/navigate?target=ID&url=https://example.com"
+```
+
+### GET /back?target=ID
+后退一页。
+```bash
+curl -s "http://localhost:3456/back?target=ID"
+```
+
+### GET /info?target=ID
+获取页面基础信息（title、url、readyState）。
+```bash
+curl -s "http://localhost:3456/info?target=ID"
+```
+
+### POST /eval?target=ID
+执行 JavaScript 表达式，POST body 为 JS 代码。
+```bash
+curl -s -X POST "http://localhost:3456/eval?target=ID" -d 'document.title'
+```
+
+### POST /click?target=ID
+JS 层面点击（`el.click()`），POST body 为 CSS 选择器。自动 scrollIntoView 后点击。简单快速，覆盖大多数场景。
+```bash
+curl -s -X POST "http://localhost:3456/click?target=ID" -d 'button.submit'
+```
+
+### POST /clickAt?target=ID
+CDP 浏览器级真实鼠标点击（`Input.dispatchMouseEvent`），POST body 为 CSS 选择器。先获取元素坐标，再模拟鼠标按下/释放。算真实用户手势，能触发文件对话框、绕过部分反自动化检测。
+```bash
+curl -s -X POST "http://localhost:3456/clickAt?target=ID" -d 'button.upload'
+```
+
+### POST /setFiles?target=ID
+给 file input 设置本地文件路径（`DOM.setFileInputFiles`），完全绕过文件对话框。POST body 为 JSON。
+```bash
+curl -s -X POST "http://localhost:3456/setFiles?target=ID" -d '{"selector":"input[type=file]","files":["/path/to/file1.png","/path/to/file2.png"]}'
+```
+
+### GET /scroll?target=ID&y=3000&direction=down
+滚动页面。`direction` 可选 `down`（默认）、`up`、`top`、`bottom`。滚动后自动等待 800ms 供懒加载触发。
+```bash
+curl -s "http://localhost:3456/scroll?target=ID&y=3000"
+curl -s "http://localhost:3456/scroll?target=ID&direction=bottom"
+```
+
+### GET /screenshot?target=ID&file=/tmp/shot.png
+截图。指定 `file` 参数保存到本地文件；不指定则返回图片二进制。可选 `format=jpeg`。
+```bash
+curl -s "http://localhost:3456/screenshot?target=ID&file=/tmp/shot.png"
+```
+
+## /eval 使用提示
+
+- POST body 为任意 JS 表达式，返回 `{ value }` 或 `{ error }`
+- 支持 `awaitPromise`：可以写 async 表达式
+- 返回值必须是可序列化的（字符串、数字、对象），DOM 节点不能直接返回，需要提取属性
+- 提取大量数据时用 `JSON.stringify()` 包裹，确保返回字符串
+- 根据页面实际 DOM 结构编写选择器，不要套用固定模板
+
+## 错误处理
+
+| 错误 | 原因 | 解决 |
+|------|------|------|
+| `Chrome 未开启远程调试端口` | Chrome 未开启远程调试 | 提示用户打开 `chrome://inspect/#remote-debugging` 并勾选 Allow |
+| `attach 失败` | targetId 无效或 tab 已关闭 | 用 `/targets` 获取最新列表 |
+| `CDP 命令超时` | 页面长时间未响应 | 重试或检查 tab 状态 |
+| `端口已被占用` | 另一个 proxy 已在运行 | 已有实例可直接复用 |

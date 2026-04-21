@@ -1,1 +1,128 @@
-IyBQcm9tcHQgQ2FjaGluZyDigJQgRGVzaWduICYgT3B0aW1pemF0aW9uCgpUaGlzIGZpbGUgY292ZXJzIGhvdyB0byBkZXNpZ24gcHJvbXB0LWJ1aWxkaW5nIGNvZGUgZm9yIGVmZmVjdGl2ZSBjYWNoaW5nLiBGb3IgbGFuZ3VhZ2Utc3BlY2lmaWMgc3ludGF4LCBzZWUgdGhlIGAjIyBQcm9tcHQgQ2FjaGluZ2Agc2VjdGlvbiBpbiBlYWNoIGxhbmd1YWdlJ3MgUkVBRE1FIG9yIHNpbmdsZS1maWxlIGRvYy4KCiMjIFRoZSBvbmUgaW52YXJpYW50IGV2ZXJ5dGhpbmcgZm9sbG93cyBmcm9tCgoqKlByb21wdCBjYWNoaW5nIGlzIGEgcHJlZml4IG1hdGNoLiBBbnkgY2hhbmdlIGFueXdoZXJlIGluIHRoZSBwcmVmaXggaW52YWxpZGF0ZXMgZXZlcnl0aGluZyBhZnRlciBpdC4qKgoKVGhlIGNhY2hlIGtleSBpcyBkZXJpdmVkIGZyb20gdGhlIGV4YWN0IGJ5dGVzIG9mIHRoZSByZW5kZXJlZCBwcm9tcHQgdXAgdG8gZWFjaCBgY2FjaGVfY29udHJvbGAgYnJlYWtwb2ludC4gQSBzaW5nbGUgYnl0ZSBkaWZmZXJlbmNlIGF0IHBvc2l0aW9uIE4g4oCUIGEgdGltZXN0YW1wLCBhIHJlb3JkZXJlZCBKU09OIGtleSwgYSBkaWZmZXJlbnQgdG9vbCBpbiB0aGUgbGlzdCDigJQgaW52YWxpZGF0ZXMgdGhlIGNhY2hlIGZvciBhbGwgYnJlYWtwb2ludHMgYXQgcG9zaXRpb25zIOKJpSBOLgoKUmVuZGVyIG9yZGVyIGlzOiBgdG9vbHNgIOKGkiBgc3lzdGVtYCDihpIgYG1lc3NhZ2VzYC4gQSBicmVha3BvaW50IG9uIHRoZSBsYXN0IHN5c3RlbSBibG9jayBjYWNoZXMgYm90aCB0b29scyBhbmQgc3lzdGVtIHRvZ2V0aGVyLgoKRGVzaWduIHRoZSBwcm9tcHQtYnVpbGRpbmcgcGF0aCBhcm91bmQgdGhpcyBjb25zdHJhaW50LiBHZXQgdGhlIG9yZGVyaW5nIHJpZ2h0IGFuZCBtb3N0IGNhY2hpbmcgd29ya3MgZm9yIGZyZWUuIEdldCBpdCB3cm9uZyBhbmQgbm8gYW1vdW50IG9mIGBjYWNoZV9jb250cm9sYCBtYXJrZXJzIHdpbGwgaGVscC4KCi0tLQoKIyMgV29ya2Zsb3cgZm9yIG9wdGltaXppbmcgZXhpc3RpbmcgY29kZQoKV2hlbiBhc2tlZCB0byBhZGQgb3Igb3B0aW1pemUgY2FjaGluZzoKCjEuICoqVHJhY2UgdGhlIHByb21wdCBhc3NlbWJseSBwYXRoLioqIEZpbmQgd2hlcmUgYHN5c3RlbWAsIGB0b29sc2AsIGFuZCBgbWVzc2FnZXNgIGFyZSBjb25zdHJ1Y3RlZC4gSWRlbnRpZnkgZXZlcnkgaW5wdXQgdGhhdCBmbG93cyBpbnRvIHRoZW0uCjIuICoqQ2xhc3NpZnkgZWFjaCBpbnB1dCBieSBzdGFiaWxpdHk6KioKICAgLSBOZXZlciBjaGFuZ2VzIOKGkiBiZWxvbmdzIGVhcmx5IGluIHRoZSBwcm9tcHQsIGJlZm9yZSBhbnkgYnJlYWtwb2ludAogICAtIENoYW5nZXMgcGVyLXNlc3Npb24g4oaSIGJlbG9uZ3MgYWZ0ZXIgdGhlIGdsb2JhbCBwcmVmaXgsIGNhY2hlIHBlci1zZXNzaW9uCiAgIC0gQ2hhbmdlcyBwZXItdHVybiDihpIgYmVsb25ncyBhdCB0aGUgZW5kLCBhZnRlciB0aGUgbGFzdCBicmVha3BvaW50CiAgIC0gQ2hhbmdlcyBwZXItcmVxdWVzdCAodGltZXN0YW1wcywgVVVJRHMsIHJhbmRvbSBJRHMpIOKGkiAqKmVsaW1pbmF0ZSBvciBtb3ZlIHRvIHRoZSB2ZXJ5IGVuZCoqCjMuICoqQ2hlY2sgcmVuZGVyZWQgb3JkZXIgbWF0Y2hlcyBzdGFiaWxpdHkgb3JkZXIuKiogU3RhYmxlIGNvbnRlbnQgbXVzdCBwaHlzaWNhbGx5IHByZWNlZGUgdm9sYXRpbGUgY29udGVudC4gSWYgYSB0aW1lc3RhbXAgaXMgaW50ZXJwb2xhdGVkIGludG8gdGhlIHN5c3RlbSBwcm9tcHQgaGVhZGVyLCBldmVyeXRoaW5nIGFmdGVyIGl0IGlzIHVuY2FjaGVhYmxlIHJlZ2FyZGxlc3Mgb2YgbWFya2Vycy4KNC4gKipQbGFjZSBicmVha3BvaW50cyBhdCBzdGFiaWxpdHkgYm91bmRhcmllcy4qKiBTZWUgcGxhY2VtZW50IHBhdHRlcm5zIGJlbG93Lgo1LiAqKkF1ZGl0IGZvciBzaWxlbnQgaW52YWxpZGF0b3JzLioqIFNlZSBhbnRpLXBhdHRlcm5zIHRhYmxlLgoKLS0tCgojIyBQbGFjZW1lbnQgcGF0dGVybnMKCiMjIyBMYXJnZSBzeXN0ZW0gcHJvbXB0IHNoYXJlZCBhY3Jvc3MgbWFueSByZXF1ZXN0cwoKUHV0IGEgYnJlYWtwb2ludCBvbiB0aGUgbGFzdCBzeXN0ZW0gdGV4dCBibG9jay4gSWYgdGhlcmUgYXJlIHRvb2xzLCB0aGV5IHJlbmRlciBiZWZvcmUgc3lzdGVtIOKAlCB0aGUgbWFya2VyIG9uIHRoZSBsYXN0IHN5c3RlbSBibG9jayBjYWNoZXMgdG9vbHMgKyBzeXN0ZW0gdG9nZXRoZXIuCgpgYGBqc29uCiJzeXN0ZW0iOiBbCiAgeyJ0eXBlIjogInRleHQiLCAidGV4dCI6ICI8bGFyZ2Ugc2hhcmVkIHByb21wdD4iLCAiY2FjaGVfY29udHJvbCI6IHsidHlwZSI6ICJlcGhlbWVyYWwifX0KXQpgYGAKCiMjIyBNdWx0aS10dXJuIGNvbnZlcnNhdGlvbnMKClB1dCBhIGJyZWFrcG9pbnQgb24gdGhlIGxhc3QgY29udGVudCBibG9jayBvZiB0aGUgbW9zdC1yZWNlbnRseS1hcHBlbmRlZCB0dXJuLiBFYWNoIHN1YnNlcXVlbnQgcmVxdWVzdCByZXVzZXMgdGhlIGVudGlyZSBwcmlvciBjb252ZXJzYXRpb24gcHJlZml4LiBFYXJsaWVyIGJyZWFrcG9pbnRzIHJlbWFpbiB2YWxpZCByZWFkIHBvaW50cywgc28gaGl0cyBhY2NydWUgaW5jcmVtZW50YWxseSBhcyB0aGUgY29udmVyc2F0aW9uIGdyb3dzLgoKYGBganNvbgovLyBMYXN0IGNvbnRlbnQgYmxvY2sgb2YgdGhlIGxhc3QgdXNlciB0dXJuCm1lc3NhZ2VzWy0xXS5jb250ZW50Wy0xXS5jYWNoZV9jb250cm9sID0geyJ0eXBlIjogImVwaGVtZXJhbCJ9CmBgYAoKIyMjIFNoYXJlZCBwcmVmaXgsIHZhcnlpbmcgc3VmZml4CgpNYW55IHJlcXVlc3RzIHNoYXJlIGEgbGFyZ2UgZml4ZWQgcHJlYW1ibGUgKGZldy1zaG90IGV4YW1wbGVzLCByZXRyaWV2ZWQgZG9jcywgaW5zdHJ1Y3Rpb25zKSBidXQgZGlmZmVyIGluIHRoZSBmaW5hbCBxdWVzdGlvbi4gUHV0IHRoZSBicmVha3BvaW50IGF0IHRoZSBlbmQgb2YgdGhlICoqc2hhcmVkKiogcG9ydGlvbiwgbm90IGF0IHRoZSBlbmQgb2YgdGhlIHdob2xlIHByb21wdCDigJQgb3RoZXJ3aXNlIGV2ZXJ5IHJlcXVlc3Qgd3JpdGVzIGEgZGlzdGluY3QgY2FjaGUgZW50cnkgYW5kIG5vdGhpbmcgaXMgZXZlciByZWFkLgoKYGBganNvbgoibWVzc2FnZXMiOiBbeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6IFsKICB7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogIjxzaGFyZWQgY29udGV4dD4iLCAiY2FjaGVfY29udHJvbCI6IHsidHlwZSI6ICJlcGhlbWVyYWwifX0sCiAgeyJ0eXBlIjogInRleHQiLCAidGV4dCI6ICI8dmFyeWluZyBxdWVzdGlvbj4ifSAgLy8gbm8gbWFya2VyIOKAlCBkaWZmZXJzIGV2ZXJ5IHRpbWUKXX1dCmBgYAoKIyMjIFByb21wdHMgdGhhdCBjaGFuZ2UgZnJvbSB0aGUgYmVnaW5uaW5nIGV2ZXJ5IHRpbWUKCkRvbid0IGNhY2hlLiBJZiB0aGUgZmlyc3QgMUsgdG9rZW5zIGRpZmZlciBwZXIgcmVxdWVzdCwgdGhlcmUgaXMgbm8gcmV1c2FibGUgcHJlZml4LiBBZGRpbmcgYGNhY2hlX2NvbnRyb2xgIG9ubHkgcGF5cyB0aGUgY2FjaGUtd3JpdGUgcHJlbWl1bSB3aXRoIHplcm8gcmVhZHMuIExlYXZlIGl0IG9mZi4KCi0tLQoKIyMgQXJjaGl0ZWN0dXJhbCBndWlkYW5jZQoKVGhlc2UgYXJlIHRoZSBkZWNpc2lvbnMgdGhhdCBtYXR0ZXIgbW9yZSB0aGFuIG1hcmtlciBwbGFjZW1lbnQuIEZpeCB0aGVzZSBmaXJzdC4KCioqS2VlcCB0aGUgc3lzdGVtIHByb21wdCBmcm96ZW4uKiogRG9uJ3QgaW50ZXJwb2xhdGUgImN1cnJlbnQgZGF0ZTogWCIsICJtb2RlOiBZIiwgInVzZXIgbmFtZTogWiIgaW50byB0aGUgc3lzdGVtIHByb21wdCDigJQgdGhvc2Ugc2l0IGF0IHRoZSBmcm9udCBvZiB0aGUgcHJlZml4IGFuZCBpbnZhbGlkYXRlIGV2ZXJ5dGhpbmcgZG93bnN0cmVhbS4gSW5qZWN0IGR5bmFtaWMgY29udGV4dCBhcyBhIHVzZXIgb3IgYXNzaXN0YW50IG1lc3NhZ2UgbGF0ZXIgaW4gYG1lc3NhZ2VzYC4gQSBtZXNzYWdlIGF0IHR1cm4gNSBpbnZhbGlkYXRlcyBub3RoaW5nIGJlZm9yZSB0dXJuIDUuCgoqKkRvbid0IGNoYW5nZSB0b29scyBvciBtb2RlbCBtaWQtY29udmVyc2F0aW9uLioqIFRvb2xzIHJlbmRlciBhdCBwb3NpdGlvbiAwOyBhZGRpbmcsIHJlbW92aW5nLCBvciByZW9yZGVyaW5nIGEgdG9vbCBpbnZhbGlkYXRlcyB0aGUgZW50aXJlIGNhY2hlLiBTYW1lIGZvciBzd2l0Y2hpbmcgbW9kZWxzIChjYWNoZXMgYXJlIG1vZGVsLXNjb3BlZCkuIElmIHlvdSBuZWVkICJtb2RlcyIsIGRvbid0IHN3YXAgdGhlIHRvb2wgc2V0IOKAlCBnaXZlIENsYXVkZSBhIHRvb2wgdGhhdCByZWNvcmRzIHRoZSBtb2RlIHRyYW5zaXRpb24sIG9yIHBhc3MgdGhlIG1vZGUgYXMgbWVzc2FnZSBjb250ZW50LiBTZXJpYWxpemUgdG9vbHMgZGV0ZXJtaW5pc3RpY2FsbHkgKHNvcnQgYnkgbmFtZSkuCgoqKkZvcmsgb3BlcmF0aW9ucyBtdXN0IHJldXNlIHRoZSBwYXJlbnQncyBleGFjdCBwcmVmaXguKiogU2lkZSBjb21wdXRhdGlvbnMgKHN1bW1hcml6YXRpb24sIGNvbXBhY3Rpb24sIHN1Yi1hZ2VudHMpIG9mdGVuIHNwaW4gdXAgYSBzZXBhcmF0ZSBBUEkgY2FsbC4gSWYgdGhlIGZvcmsgcmVidWlsZHMgYHN5c3RlbWAgLyBgdG9vbHNgIC8gYG1vZGVsYCB3aXRoIGFueSBkaWZmZXJlbmNlLCBpdCBtaXNzZXMgdGhlIHBhcmVudCdzIGNhY2hlIGVudGlyZWx5LiBDb3B5IHRoZSBwYXJlbnQncyBgc3lzdGVtYCwgYHRvb2xzYCwgYW5kIGBtb2RlbGAgdmVyYmF0aW0sIHRoZW4gYXBwZW5kIGZvcmstc3BlY2lmaWMgY29udGVudCBhdCB0aGUgZW5kLgoKLS0tCgojIyBTaWxlbnQgaW52YWxpZGF0b3JzCgpXaGVuIHJldmlld2luZyBjb2RlLCBncmVwIGZvciB0aGVzZSBpbnNpZGUgYW55dGhpbmcgdGhhdCBmZWVkcyB0aGUgcHJvbXB0IHByZWZpeDoKCnwgUGF0dGVybiB8IFdoeSBpdCBicmVha3MgY2FjaGluZyB8CnwtLS18LS0tfAp8IGBkYXRldGltZS5ub3coKWAgLyBgRGF0ZS5ub3coKWAgLyBgdGltZS50aW1lKClgIGluIHN5c3RlbSBwcm9tcHQgfCBQcmVmaXggY2hhbmdlcyBldmVyeSByZXF1ZXN0IHwKfCBgdXVpZDQoKWAgLyBgY3J5cHRvLnJhbmRvbVVVSUQoKWAgLyByZXF1ZXN0IElEcyBlYXJseSBpbiBjb250ZW50IHwgU2FtZSDigJQgZXZlcnkgcmVxdWVzdCBpcyB1bmlxdWUgfAp8IGBqc29uLmR1bXBzKGQpYCB3aXRob3V0IGBzb3J0X2tleXM9VHJ1ZWAgLyBpdGVyYXRpbmcgYSBgc2V0YCB8IE5vbi1kZXRlcm1pbmlzdGljIHNlcmlhbGl6YXRpb24g4oaSIHByZWZpeCBieXRlcyBkaWZmZXIgfAp8IGYtc3RyaW5nIGludGVycG9sYXRpbmcgc2Vzc2lvbi91c2VyIElEIGludG8gc3lzdGVtIHByb21wdCB8IFBlci11c2VyIHByZWZpeDsgbm8gY3Jvc3MtdXNlciBzaGFyaW5nIHwKfCBDb25kaXRpb25hbCBzeXN0ZW0gc2VjdGlvbnMgKGBpZiBmbGFnOiBzeXN0ZW0gKz0gLi4uYCkgfCBFdmVyeSBmbGFnIGNvbWJpbmF0aW9uIGlzIGEgZGlzdGluY3QgcHJlZml4IHwKfCBgdG9vbHM9YnVpbGRfdG9vbHModXNlcilgIHdoZXJlIHNldCB2YXJpZXMgcGVyIHVzZXIgfCBUb29scyByZW5kZXIgYXQgcG9zaXRpb24gMDsgbm90aGluZyBjYWNoZXMgYWNyb3NzIHVzZXJzIHwKCkZpeCBieSBtb3ZpbmcgdGhlIGR5bmFtaWMgcGllY2UgYWZ0ZXIgdGhlIGxhc3QgYnJlYWtwb2ludCwgbWFraW5nIGl0IGRldGVybWluaXN0aWMsIG9yIGRlbGV0aW5nIGl0IGlmIGl0J3Mgbm90IGxvYWQtYmVhcmluZy4KCi0tLQoKIyMgQVBJIHJlZmVyZW5jZQoKYGBganNvbgoiY2FjaGVfY29udHJvbCI6IHsidHlwZSI6ICJlcGhlbWVyYWwifSAgICAgICAgICAgICAgLy8gNS1taW51dGUgVFRMIChkZWZhdWx0KQoiY2FjaGVfY29udHJvbCI6IHsidHlwZSI6ICJlcGhlbWVyYWwiLCAidHRsIjogIjFoIn0gLy8gMS1ob3VyIFRUTApgYGAKCi0gTWF4ICoqNCoqIGBjYWNoZV9jb250cm9sYCBicmVha3BvaW50cyBwZXIgcmVxdWVzdC4KLSBHb2VzIG9uIGFueSBjb250ZW50IGJsb2NrOiBzeXN0ZW0gdGV4dCBibG9ja3MsIHRvb2wgZGVmaW5pdGlvbnMsIG1lc3NhZ2UgY29udGVudCBibG9ja3MgKGB0ZXh0YCwgYGltYWdlYCwgYHRvb2xfdXNlYCwgYHRvb2xfcmVzdWx0YCwgYGRvY3VtZW50YCkuCi0gVG9wLWxldmVsIGBjYWNoZV9jb250cm9sYCBvbiBgbWVzc2FnZXMuY3JlYXRlKClgIGF1dG8tcGxhY2VzIG9uIHRoZSBsYXN0IGNhY2hlYWJsZSBibG9jayDigJQgc2ltcGxlc3Qgb3B0aW9uIHdoZW4geW91IGRvbid0IG5lZWQgZmluZS1ncmFpbmVkIHBsYWNlbWVudC4KLSBNaW5pbXVtIGNhY2hlYWJsZSBwcmVmaXggaXMgbW9kZWwtZGVwZW5kZW50ICh0eXBpY2FsbHkgMTAyNOKAkzIwNDggdG9rZW5zKS4gU2hvcnRlciBwcmVmaXhlcyBzaWxlbnRseSB3b24ndCBjYWNoZSBldmVuIHdpdGggYSBtYXJrZXIuCgoqKkVjb25vbWljczoqKiBDYWNoZSB3cml0ZXMgY29zdCB+MS4yNcOXIGJhc2UgaW5wdXQgcHJpY2U7IHJlYWRzIGNvc3QgfjAuMcOXLiBBIHByZWZpeCBtdXN0IGJlIHVzZWQgaW4gYXQgbGVhc3QgdHdvIHJlcXVlc3RzIHdpdGhpbiBUVEwgdG8gYnJlYWsgZXZlbiAob25lIHdyaXRlcyB0aGUgY2FjaGUsIHN1YnNlcXVlbnQgb25lcyByZWFkIGl0KS4gRm9yIGJ1cnN0eSB0cmFmZmljLCB0aGUgMS1ob3VyIFRUTCBrZWVwcyBlbnRyaWVzIGFsaXZlIGFjcm9zcyBnYXBzLgoKLS0tCgojIyBWZXJpZnlpbmcgY2FjaGUgaGl0cwoKVGhlIHJlc3BvbnNlIGB1c2FnZWAgb2JqZWN0IHJlcG9ydHMgY2FjaGUgYWN0aXZpdHk6Cgp8IEZpZWxkIHwgTWVhbmluZyB8CnwtLS18LS0tfAp8IGBjYWNoZV9jcmVhdGlvbl9pbnB1dF90b2tlbnNgIHwgVG9rZW5zIHdyaXR0ZW4gdG8gY2FjaGUgdGhpcyByZXF1ZXN0ICh5b3UgcGFpZCB0aGUgfjEuMjXDlyB3cml0ZSBwcmVtaXVtKSB8CnwgYGNhY2hlX3JlYWRfaW5wdXRfdG9rZW5zYCB8IFRva2VucyBzZXJ2ZWQgZnJvbSBjYWNoZSB0aGlzIHJlcXVlc3QgKHlvdSBwYWlkIH4wLjHDlykgfAp8IGBpbnB1dF90b2tlbnNgIHwgVG9rZW5zIHByb2Nlc3NlZCBhdCBmdWxsIHByaWNlIChub3QgY2FjaGVkKSB8CgpJZiBgY2FjaGVfcmVhZF9pbnB1dF90b2tlbnNgIGlzIHplcm8gYWNyb3NzIHJlcGVhdGVkIHJlcXVlc3RzIHdpdGggaWRlbnRpY2FsIHByZWZpeGVzLCBhIHNpbGVudCBpbnZhbGlkYXRvciBpcyBhdCB3b3JrIOKAlCBkaWZmIHRoZSByZW5kZXJlZCBwcm9tcHQgYnl0ZXMgYmV0d2VlbiB0d28gcmVxdWVzdHMgdG8gZmluZCBpdC4KCkxhbmd1YWdlLXNwZWNpZmljIGFjY2VzczogYHJlc3BvbnNlLnVzYWdlLmNhY2hlX3JlYWRfaW5wdXRfdG9rZW5zYCAoUHl0aG9uL1RTL1J1YnkpLCBgJG1lc3NhZ2UtPnVzYWdlLT5jYWNoZVJlYWRJbnB1dFRva2Vuc2AgKFBIUCksIGByZXNwLlVzYWdlLkNhY2hlUmVhZElucHV0VG9rZW5zYCAoR28vQyMpLCBgLnVzYWdlKCkuY2FjaGVSZWFkSW5wdXRUb2tlbnMoKWAgKEphdmEpLgo=
+# Prompt Caching — Design & Optimization
+
+This file covers how to design prompt-building code for effective caching. For language-specific syntax, see the `## Prompt Caching` section in each language's README or single-file doc.
+
+## The one invariant everything follows from
+
+**Prompt caching is a prefix match. Any change anywhere in the prefix invalidates everything after it.**
+
+The cache key is derived from the exact bytes of the rendered prompt up to each `cache_control` breakpoint. A single byte difference at position N — a timestamp, a reordered JSON key, a different tool in the list — invalidates the cache for all breakpoints at positions ≥ N.
+
+Render order is: `tools` → `system` → `messages`. A breakpoint on the last system block caches both tools and system together.
+
+Design the prompt-building path around this constraint. Get the ordering right and most caching works for free. Get it wrong and no amount of `cache_control` markers will help.
+
+---
+
+## Workflow for optimizing existing code
+
+When asked to add or optimize caching:
+
+1. **Trace the prompt assembly path.** Find where `system`, `tools`, and `messages` are constructed. Identify every input that flows into them.
+2. **Classify each input by stability:**
+   - Never changes → belongs early in the prompt, before any breakpoint
+   - Changes per-session → belongs after the global prefix, cache per-session
+   - Changes per-turn → belongs at the end, after the last breakpoint
+   - Changes per-request (timestamps, UUIDs, random IDs) → **eliminate or move to the very end**
+3. **Check rendered order matches stability order.** Stable content must physically precede volatile content. If a timestamp is interpolated into the system prompt header, everything after it is uncacheable regardless of markers.
+4. **Place breakpoints at stability boundaries.** See placement patterns below.
+5. **Audit for silent invalidators.** See anti-patterns table.
+
+---
+
+## Placement patterns
+
+### Large system prompt shared across many requests
+
+Put a breakpoint on the last system text block. If there are tools, they render before system — the marker on the last system block caches tools + system together.
+
+```json
+"system": [
+  {"type": "text", "text": "<large shared prompt>", "cache_control": {"type": "ephemeral"}}
+]
+```
+
+### Multi-turn conversations
+
+Put a breakpoint on the last content block of the most-recently-appended turn. Each subsequent request reuses the entire prior conversation prefix. Earlier breakpoints remain valid read points, so hits accrue incrementally as the conversation grows.
+
+```json
+// Last content block of the last user turn
+messages[-1].content[-1].cache_control = {"type": "ephemeral"}
+```
+
+### Shared prefix, varying suffix
+
+Many requests share a large fixed preamble (few-shot examples, retrieved docs, instructions) but differ in the final question. Put the breakpoint at the end of the **shared** portion, not at the end of the whole prompt — otherwise every request writes a distinct cache entry and nothing is ever read.
+
+```json
+"messages": [{"role": "user", "content": [
+  {"type": "text", "text": "<shared context>", "cache_control": {"type": "ephemeral"}},
+  {"type": "text", "text": "<varying question>"}  // no marker — differs every time
+]}]
+```
+
+### Prompts that change from the beginning every time
+
+Don't cache. If the first 1K tokens differ per request, there is no reusable prefix. Adding `cache_control` only pays the cache-write premium with zero reads. Leave it off.
+
+---
+
+## Architectural guidance
+
+These are the decisions that matter more than marker placement. Fix these first.
+
+**Keep the system prompt frozen.** Don't interpolate "current date: X", "mode: Y", "user name: Z" into the system prompt — those sit at the front of the prefix and invalidate everything downstream. Inject dynamic context as a user or assistant message later in `messages`. A message at turn 5 invalidates nothing before turn 5.
+
+**Don't change tools or model mid-conversation.** Tools render at position 0; adding, removing, or reordering a tool invalidates the entire cache. Same for switching models (caches are model-scoped). If you need "modes", don't swap the tool set — give Claude a tool that records the mode transition, or pass the mode as message content. Serialize tools deterministically (sort by name).
+
+**Fork operations must reuse the parent's exact prefix.** Side computations (summarization, compaction, sub-agents) often spin up a separate API call. If the fork rebuilds `system` / `tools` / `model` with any difference, it misses the parent's cache entirely. Copy the parent's `system`, `tools`, and `model` verbatim, then append fork-specific content at the end.
+
+---
+
+## Silent invalidators
+
+When reviewing code, grep for these inside anything that feeds the prompt prefix:
+
+| Pattern | Why it breaks caching |
+|---|---|
+| `datetime.now()` / `Date.now()` / `time.time()` in system prompt | Prefix changes every request |
+| `uuid4()` / `crypto.randomUUID()` / request IDs early in content | Same — every request is unique |
+| `json.dumps(d)` without `sort_keys=True` / iterating a `set` | Non-deterministic serialization → prefix bytes differ |
+| f-string interpolating session/user ID into system prompt | Per-user prefix; no cross-user sharing |
+| Conditional system sections (`if flag: system += ...`) | Every flag combination is a distinct prefix |
+| `tools=build_tools(user)` where set varies per user | Tools render at position 0; nothing caches across users |
+
+Fix by moving the dynamic piece after the last breakpoint, making it deterministic, or deleting it if it's not load-bearing.
+
+---
+
+## API reference
+
+```json
+"cache_control": {"type": "ephemeral"}              // 5-minute TTL (default)
+"cache_control": {"type": "ephemeral", "ttl": "1h"} // 1-hour TTL
+```
+
+- Max **4** `cache_control` breakpoints per request.
+- Goes on any content block: system text blocks, tool definitions, message content blocks (`text`, `image`, `tool_use`, `tool_result`, `document`).
+- Top-level `cache_control` on `messages.create()` auto-places on the last cacheable block — simplest option when you don't need fine-grained placement.
+- Minimum cacheable prefix is model-dependent (typically 1024–2048 tokens). Shorter prefixes silently won't cache even with a marker.
+
+**Economics:** Cache writes cost ~1.25× base input price; reads cost ~0.1×. A prefix must be used in at least two requests within TTL to break even (one writes the cache, subsequent ones read it). For bursty traffic, the 1-hour TTL keeps entries alive across gaps.
+
+---
+
+## Verifying cache hits
+
+The response `usage` object reports cache activity:
+
+| Field | Meaning |
+|---|---|
+| `cache_creation_input_tokens` | Tokens written to cache this request (you paid the ~1.25× write premium) |
+| `cache_read_input_tokens` | Tokens served from cache this request (you paid ~0.1×) |
+| `input_tokens` | Tokens processed at full price (not cached) |
+
+If `cache_read_input_tokens` is zero across repeated requests with identical prefixes, a silent invalidator is at work — diff the rendered prompt bytes between two requests to find it.
+
+Language-specific access: `response.usage.cache_read_input_tokens` (Python/TS/Ruby), `$message->usage->cacheReadInputTokens` (PHP), `resp.Usage.CacheReadInputTokens` (Go/C#), `.usage().cacheReadInputTokens()` (Java).

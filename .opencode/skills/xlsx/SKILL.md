@@ -1,1 +1,292 @@
-LS0tCm5hbWU6IHhsc3gKZGVzY3JpcHRpb246ICJVc2UgdGhpcyBza2lsbCBhbnkgdGltZSBhIHNwcmVhZHNoZWV0IGZpbGUgaXMgdGhlIHByaW1hcnkgaW5wdXQgb3Igb3V0cHV0LiBUaGlzIG1lYW5zIGFueSB0YXNrIHdoZXJlIHRoZSB1c2VyIHdhbnRzIHRvOiBvcGVuLCByZWFkLCBlZGl0LCBvciBmaXggYW4gZXhpc3RpbmcgLnhsc3gsIC54bHNtLCAuY3N2LCBvciAudHN2IGZpbGUgKGUuZy4sIGFkZGluZyBjb2x1bW5zLCBjb21wdXRpbmcgZm9ybXVsYXMsIGZvcm1hdHRpbmcsIGNoYXJ0aW5nLCBjbGVhbmluZyBtZXNzeSBkYXRhKTsgY3JlYXRlIGEgbmV3IHNwcmVhZHNoZWV0IGZyb20gc2NyYXRjaCBvciBmcm9tIG90aGVyIGRhdGEgc291cmNlczsgb3IgY29udmVydCBiZXR3ZWVuIHRhYnVsYXIgZmlsZSBmb3JtYXRzLiBUcmlnZ2VyIGVzcGVjaWFsbHkgd2hlbiB0aGUgdXNlciByZWZlcmVuY2VzIGEgc3ByZWFkc2hlZXQgZmlsZSBieSBuYW1lIG9yIHBhdGgg4oCUIGV2ZW4gY2FzdWFsbHkgKGxpa2UgXCJ0aGUgeGxzeCBpbiBteSBkb3dubG9hZHNcIikg4oCUIGFuZCB3YW50cyBzb21ldGhpbmcgZG9uZSB0byBpdCBvciBwcm9kdWNlZCBmcm9tIGl0LiBBbHNvIHRyaWdnZXIgZm9yIGNsZWFuaW5nIG9yIHJlc3RydWN0dXJpbmcgbWVzc3kgdGFidWxhciBkYXRhIGZpbGVzIChtYWxmb3JtZWQgcm93cywgbWlzcGxhY2VkIGhlYWRlcnMsIGp1bmsgZGF0YSkgaW50byBwcm9wZXIgc3ByZWFkc2hlZXRzLiBUaGUgZGVsaXZlcmFibGUgbXVzdCBiZSBhIHNwcmVhZHNoZWV0IGZpbGUuIERvIE5PVCB0cmlnZ2VyIHdoZW4gdGhlIHByaW1hcnkgZGVsaXZlcmFibGUgaXMgYSBXb3JkIGRvY3VtZW50LCBIVE1MIHJlcG9ydCwgc3RhbmRhbG9uZSBQeXRob24gc2NyaXB0LCBkYXRhYmFzZSBwaXBlbGluZSwgb3IgR29vZ2xlIFNoZWV0cyBBUEkgaW50ZWdyYXRpb24sIGV2ZW4gaWYgdGFidWxhciBkYXRhIGlzIGludm9sdmVkLiIKbGljZW5zZTogUHJvcHJpZXRhcnkuIExJQ0VOU0UudHh0IGhhcyBjb21wbGV0ZSB0ZXJtcwotLS0KCiMgUmVxdWlyZW1lbnRzIGZvciBPdXRwdXRzCgojIyBBbGwgRXhjZWwgZmlsZXMKCiMjIyBQcm9mZXNzaW9uYWwgRm9udAotIFVzZSBhIGNvbnNpc3RlbnQsIHByb2Zlc3Npb25hbCBmb250IChlLmcuLCBBcmlhbCwgVGltZXMgTmV3IFJvbWFuKSBmb3IgYWxsIGRlbGl2ZXJhYmxlcyB1bmxlc3Mgb3RoZXJ3aXNlIGluc3RydWN0ZWQgYnkgdGhlIHVzZXIKCiMjIyBaZXJvIEZvcm11bGEgRXJyb3JzCi0gRXZlcnkgRXhjZWwgbW9kZWwgTVVTVCBiZSBkZWxpdmVyZWQgd2l0aCBaRVJPIGZvcm11bGEgZXJyb3JzICgjUkVGISwgI0RJVi8wISwgI1ZBTFVFISwgI04vQSwgI05BTUU/KQoKIyMjIFByZXNlcnZlIEV4aXN0aW5nIFRlbXBsYXRlcyAod2hlbiB1cGRhdGluZyB0ZW1wbGF0ZXMpCi0gU3R1ZHkgYW5kIEVYQUNUTFkgbWF0Y2ggZXhpc3RpbmcgZm9ybWF0LCBzdHlsZSwgYW5kIGNvbnZlbnRpb25zIHdoZW4gbW9kaWZ5aW5nIGZpbGVzCi0gTmV2ZXIgaW1wb3NlIHN0YW5kYXJkaXplZCBmb3JtYXR0aW5nIG9uIGZpbGVzIHdpdGggZXN0YWJsaXNoZWQgcGF0dGVybnMKLSBFeGlzdGluZyB0ZW1wbGF0ZSBjb252ZW50aW9ucyBBTFdBWVMgb3ZlcnJpZGUgdGhlc2UgZ3VpZGVsaW5lcwoKIyMgRmluYW5jaWFsIG1vZGVscwoKIyMjIENvbG9yIENvZGluZyBTdGFuZGFyZHMKVW5sZXNzIG90aGVyd2lzZSBzdGF0ZWQgYnkgdGhlIHVzZXIgb3IgZXhpc3RpbmcgdGVtcGxhdGUKCiMjIyMgSW5kdXN0cnktU3RhbmRhcmQgQ29sb3IgQ29udmVudGlvbnMKLSAqKkJsdWUgdGV4dCAoUkdCOiAwLDAsMjU1KSoqOiBIYXJkY29kZWQgaW5wdXRzLCBhbmQgbnVtYmVycyB1c2VycyB3aWxsIGNoYW5nZSBmb3Igc2NlbmFyaW9zCi0gKipCbGFjayB0ZXh0IChSR0I6IDAsMCwwKSoqOiBBTEwgZm9ybXVsYXMgYW5kIGNhbGN1bGF0aW9ucwotICoqR3JlZW4gdGV4dCAoUkdCOiAwLDEyOCwwKSoqOiBMaW5rcyBwdWxsaW5nIGZyb20gb3RoZXIgd29ya3NoZWV0cyB3aXRoaW4gc2FtZSB3b3JrYm9vawotICoqUmVkIHRleHQgKFJHQjogMjU1LDAsMCkqKjogRXh0ZXJuYWwgbGlua3MgdG8gb3RoZXIgZmlsZXMKLSAqKlllbGxvdyBiYWNrZ3JvdW5kIChSR0I6IDI1NSwyNTUsMCkqKjogS2V5IGFzc3VtcHRpb25zIG5lZWRpbmcgYXR0ZW50aW9uIG9yIGNlbGxzIHRoYXQgbmVlZCB0byBiZSB1cGRhdGVkCgojIyMgTnVtYmVyIEZvcm1hdHRpbmcgU3RhbmRhcmRzCgojIyMjIFJlcXVpcmVkIEZvcm1hdCBSdWxlcwotICoqWWVhcnMqKjogRm9ybWF0IGFzIHRleHQgc3RyaW5ncyAoZS5nLiwgIjIwMjQiIG5vdCAiMiwwMjQiKQotICoqQ3VycmVuY3kqKjogVXNlICQjLCMjMCBmb3JtYXQ7IEFMV0FZUyBzcGVjaWZ5IHVuaXRzIGluIGhlYWRlcnMgKCJSZXZlbnVlICgkbW0pIikKLSAqKlplcm9zKio6IFVzZSBudW1iZXIgZm9ybWF0dGluZyB0byBtYWtlIGFsbCB6ZXJvcyAiLSIsIGluY2x1ZGluZyBwZXJjZW50YWdlcyAoZS5nLiwgIiQjLCMjMDsoJCMsIyMwKTstIikKLSAqKlBlcmNlbnRhZ2VzKio6IERlZmF1bHQgdG8gMC4wJSBmb3JtYXQgKG9uZSBkZWNpbWFsKQotICoqTXVsdGlwbGVzKio6IEZvcm1hdCBhcyAwLjB4IGZvciB2YWx1YXRpb24gbXVsdGlwbGVzIChFVi9FQklUREEsIFAvRSkKLSAqKk5lZ2F0aXZlIG51bWJlcnMqKjogVXNlIHBhcmVudGhlc2VzICgxMjMpIG5vdCBtaW51cyAtMTIzCgojIyMgRm9ybXVsYSBDb25zdHJ1Y3Rpb24gUnVsZXMKCiMjIyMgQXNzdW1wdGlvbnMgUGxhY2VtZW50Ci0gUGxhY2UgQUxMIGFzc3VtcHRpb25zIChncm93dGggcmF0ZXMsIG1hcmdpbnMsIG11bHRpcGxlcywgZXRjLikgaW4gc2VwYXJhdGUgYXNzdW1wdGlvbiBjZWxscwotIFVzZSBjZWxsIHJlZmVyZW5jZXMgaW5zdGVhZCBvZiBoYXJkY29kZWQgdmFsdWVzIGluIGZvcm11bGFzCi0gRXhhbXBsZTogVXNlID1CNSooMSskQiQ2KSBpbnN0ZWFkIG9mID1CNSoxLjA1CgojIyMjIEZvcm11bGEgRXJyb3IgUHJldmVudGlvbgotIFZlcmlmeSBhbGwgY2VsbCByZWZlcmVuY2VzIGFyZSBjb3JyZWN0Ci0gQ2hlY2sgZm9yIG9mZi1ieS1vbmUgZXJyb3JzIGluIHJhbmdlcwotIEVuc3VyZSBjb25zaXN0ZW50IGZvcm11bGFzIGFjcm9zcyBhbGwgcHJvamVjdGlvbiBwZXJpb2RzCi0gVGVzdCB3aXRoIGVkZ2UgY2FzZXMgKHplcm8gdmFsdWVzLCBuZWdhdGl2ZSBudW1iZXJzKQotIFZlcmlmeSBubyB1bmludGVuZGVkIGNpcmN1bGFyIHJlZmVyZW5jZXMKCiMjIyMgRG9jdW1lbnRhdGlvbiBSZXF1aXJlbWVudHMgZm9yIEhhcmRjb2RlcwotIENvbW1lbnQgb3IgaW4gY2VsbHMgYmVzaWRlIChpZiBlbmQgb2YgdGFibGUpLiBGb3JtYXQ6ICJTb3VyY2U6IFtTeXN0ZW0vRG9jdW1lbnRdLCBbRGF0ZV0sIFtTcGVjaWZpYyBSZWZlcmVuY2VdLCBbVVJMIGlmIGFwcGxpY2FibGVdIgotIEV4YW1wbGVzOgogIC0gIlNvdXJjZTogQ29tcGFueSAxMC1LLCBGWTIwMjQsIFBhZ2UgNDUsIFJldmVudWUgTm90ZSwgW1NFQyBFREdBUiBVUkxdIgogIC0gIlNvdXJjZTogQ29tcGFueSAxMC1RLCBRMiAyMDI1LCBFeGhpYml0IDk5LjEsIFtTRUMgRURHQVIgVVJMXSIKICAtICJTb3VyY2U6IEJsb29tYmVyZyBUZXJtaW5hbCwgOC8xNS8yMDI1LCBBQVBMIFVTIEVxdWl0eSIKICAtICJTb3VyY2U6IEZhY3RTZXQsIDgvMjAvMjAyNSwgQ29uc2Vuc3VzIEVzdGltYXRlcyBTY3JlZW4iCgojIFhMU1ggY3JlYXRpb24sIGVkaXRpbmcsIGFuZCBhbmFseXNpcwoKIyMgT3ZlcnZpZXcKCkEgdXNlciBtYXkgYXNrIHlvdSB0byBjcmVhdGUsIGVkaXQsIG9yIGFuYWx5emUgdGhlIGNvbnRlbnRzIG9mIGFuIC54bHN4IGZpbGUuIFlvdSBoYXZlIGRpZmZlcmVudCB0b29scyBhbmQgd29ya2Zsb3dzIGF2YWlsYWJsZSBmb3IgZGlmZmVyZW50IHRhc2tzLgoKIyMgSW1wb3J0YW50IFJlcXVpcmVtZW50cwoKKipMaWJyZU9mZmljZSBSZXF1aXJlZCBmb3IgRm9ybXVsYSBSZWNhbGN1bGF0aW9uKio6IFlvdSBjYW4gYXNzdW1lIExpYnJlT2ZmaWNlIGlzIGluc3RhbGxlZCBmb3IgcmVjYWxjdWxhdGluZyBmb3JtdWxhIHZhbHVlcyB1c2luZyB0aGUgYHNjcmlwdHMvcmVjYWxjLnB5YCBzY3JpcHQuIFRoZSBzY3JpcHQgYXV0b21hdGljYWxseSBjb25maWd1cmVzIExpYnJlT2ZmaWNlIG9uIGZpcnN0IHJ1biwgaW5jbHVkaW5nIGluIHNhbmRib3hlZCBlbnZpcm9ubWVudHMgd2hlcmUgVW5peCBzb2NrZXRzIGFyZSByZXN0cmljdGVkIChoYW5kbGVkIGJ5IGBzY3JpcHRzL29mZmljZS9zb2ZmaWNlLnB5YCkKCiMjIFJlYWRpbmcgYW5kIGFuYWx5emluZyBkYXRhCgojIyMgRGF0YSBhbmFseXNpcyB3aXRoIHBhbmRhcwpGb3IgZGF0YSBhbmFseXNpcywgdmlzdWFsaXphdGlvbiwgYW5kIGJhc2ljIG9wZXJhdGlvbnMsIHVzZSAqKnBhbmRhcyoqIHdoaWNoIHByb3ZpZGVzIHBvd2VyZnVsIGRhdGEgbWFuaXB1bGF0aW9uIGNhcGFiaWxpdGllczoKCmBgYHB5dGhvbgppbXBvcnQgcGFuZGFzIGFzIHBkCgojIFJlYWQgRXhjZWwKZGYgPSBwZC5yZWFkX2V4Y2VsKCdmaWxlLnhsc3gnKSAgIyBEZWZhdWx0OiBmaXJzdCBzaGVldAphbGxfc2hlZXRzID0gcGQucmVhZF9leGNlbCgnZmlsZS54bHN4Jywgc2hlZXRfbmFtZT1Ob25lKSAgIyBBbGwgc2hlZXRzIGFzIGRpY3QKCiMgQW5hbHl6ZQpkZi5oZWFkKCkgICAgICAjIFByZXZpZXcgZGF0YQpkZi5pbmZvKCkgICAgICAjIENvbHVtbiBpbmZvCmRmLmRlc2NyaWJlKCkgICMgU3RhdGlzdGljcwoKIyBXcml0ZSBFeGNlbApkZi50b19leGNlbCgnb3V0cHV0Lnhsc3gnLCBpbmRleD1GYWxzZSkKYGBgCgojIyBFeGNlbCBGaWxlIFdvcmtmbG93cwoKIyMgQ1JJVElDQUw6IFVzZSBGb3JtdWxhcywgTm90IEhhcmRjb2RlZCBWYWx1ZXMKCioqQWx3YXlzIHVzZSBFeGNlbCBmb3JtdWxhcyBpbnN0ZWFkIG9mIGNhbGN1bGF0aW5nIHZhbHVlcyBpbiBQeXRob24gYW5kIGhhcmRjb2RpbmcgdGhlbS4qKiBUaGlzIGVuc3VyZXMgdGhlIHNwcmVhZHNoZWV0IHJlbWFpbnMgZHluYW1pYyBhbmQgdXBkYXRlYWJsZS4KCiMjIyDinYwgV1JPTkcgLSBIYXJkY29kaW5nIENhbGN1bGF0ZWQgVmFsdWVzCmBgYHB5dGhvbgojIEJhZDogQ2FsY3VsYXRpbmcgaW4gUHl0aG9uIGFuZCBoYXJkY29kaW5nIHJlc3VsdAp0b3RhbCA9IGRmWydTYWxlcyddLnN1bSgpCnNoZWV0WydCMTAnXSA9IHRvdGFsICAjIEhhcmRjb2RlcyA1MDAwCgojIEJhZDogQ29tcHV0aW5nIGdyb3d0aCByYXRlIGluIFB5dGhvbgpncm93dGggPSAoZGYuaWxvY1stMV1bJ1JldmVudWUnXSAtIGRmLmlsb2NbMF1bJ1JldmVudWUnXSkgLyBkZi5pbG9jWzBdWydSZXZlbnVlJ10Kc2hlZXRbJ0M1J10gPSBncm93dGggICMgSGFyZGNvZGVzIDAuMTUKCiMgQmFkOiBQeXRob24gY2FsY3VsYXRpb24gZm9yIGF2ZXJhZ2UKYXZnID0gc3VtKHZhbHVlcykgLyBsZW4odmFsdWVzKQpzaGVldFsnRDIwJ10gPSBhdmcgICMgSGFyZGNvZGVzIDQyLjUKYGBgCgojIyMg4pyFIENPUlJFQ1QgLSBVc2luZyBFeGNlbCBGb3JtdWxhcwpgYGBweXRob24KIyBHb29kOiBMZXQgRXhjZWwgY2FsY3VsYXRlIHRoZSBzdW0Kc2hlZXRbJ0IxMCddID0gJz1TVU0oQjI6QjkpJwoKIyBHb29kOiBHcm93dGggcmF0ZSBhcyBFeGNlbCBmb3JtdWxhCnNoZWV0WydDNSddID0gJz0oQzQtQzIpL0MyJwoKIyBHb29kOiBBdmVyYWdlIHVzaW5nIEV4Y2VsIGZ1bmN0aW9uCnNoZWV0WydEMjAnXSA9ICc9QVZFUkFHRShEMjpEMTkpJwpgYGAKClRoaXMgYXBwbGllcyB0byBBTEwgY2FsY3VsYXRpb25zIC0gdG90YWxzLCBwZXJjZW50YWdlcywgcmF0aW9zLCBkaWZmZXJlbmNlcywgZXRjLiBUaGUgc3ByZWFkc2hlZXQgc2hvdWxkIGJlIGFibGUgdG8gcmVjYWxjdWxhdGUgd2hlbiBzb3VyY2UgZGF0YSBjaGFuZ2VzLgoKIyMgQ29tbW9uIFdvcmtmbG93CjEuICoqQ2hvb3NlIHRvb2wqKjogcGFuZGFzIGZvciBkYXRhLCBvcGVucHl4bCBmb3IgZm9ybXVsYXMvZm9ybWF0dGluZwoyLiAqKkNyZWF0ZS9Mb2FkKio6IENyZWF0ZSBuZXcgd29ya2Jvb2sgb3IgbG9hZCBleGlzdGluZyBmaWxlCjMuICoqTW9kaWZ5Kio6IEFkZC9lZGl0IGRhdGEsIGZvcm11bGFzLCBhbmQgZm9ybWF0dGluZwo0LiAqKlNhdmUqKjogV3JpdGUgdG8gZmlsZQo1LiAqKlJlY2FsY3VsYXRlIGZvcm11bGFzIChNQU5EQVRPUlkgSUYgVVNJTkcgRk9STVVMQVMpKio6IFVzZSB0aGUgc2NyaXB0cy9yZWNhbGMucHkgc2NyaXB0CiAgIGBgYGJhc2gKICAgcHl0aG9uIHNjcmlwdHMvcmVjYWxjLnB5IG91dHB1dC54bHN4CiAgIGBgYAo2LiAqKlZlcmlmeSBhbmQgZml4IGFueSBlcnJvcnMqKjogCiAgIC0gVGhlIHNjcmlwdCByZXR1cm5zIEpTT04gd2l0aCBlcnJvciBkZXRhaWxzCiAgIC0gSWYgYHN0YXR1c2AgaXMgYGVycm9yc19mb3VuZGAsIGNoZWNrIGBlcnJvcl9zdW1tYXJ5YCBmb3Igc3BlY2lmaWMgZXJyb3IgdHlwZXMgYW5kIGxvY2F0aW9ucwogICAtIEZpeCB0aGUgaWRlbnRpZmllZCBlcnJvcnMgYW5kIHJlY2FsY3VsYXRlIGFnYWluCiAgIC0gQ29tbW9uIGVycm9ycyB0byBmaXg6CiAgICAgLSBgI1JFRiFgOiBJbnZhbGlkIGNlbGwgcmVmZXJlbmNlcwogICAgIC0gYCNESVYvMCFgOiBEaXZpc2lvbiBieSB6ZXJvCiAgICAgLSBgI1ZBTFVFIWA6IFdyb25nIGRhdGEgdHlwZSBpbiBmb3JtdWxhCiAgICAgLSBgI05BTUU/YDogVW5yZWNvZ25pemVkIGZvcm11bGEgbmFtZQoKIyMjIENyZWF0aW5nIG5ldyBFeGNlbCBmaWxlcwoKYGBgcHl0aG9uCiMgVXNpbmcgb3BlbnB5eGwgZm9yIGZvcm11bGFzIGFuZCBmb3JtYXR0aW5nCmZyb20gb3BlbnB5eGwgaW1wb3J0IFdvcmtib29rCmZyb20gb3BlbnB5eGwuc3R5bGVzIGltcG9ydCBGb250LCBQYXR0ZXJuRmlsbCwgQWxpZ25tZW50Cgp3YiA9IFdvcmtib29rKCkKc2hlZXQgPSB3Yi5hY3RpdmUKCiMgQWRkIGRhdGEKc2hlZXRbJ0ExJ10gPSAnSGVsbG8nCnNoZWV0WydCMSddID0gJ1dvcmxkJwpzaGVldC5hcHBlbmQoWydSb3cnLCAnb2YnLCAnZGF0YSddKQoKIyBBZGQgZm9ybXVsYQpzaGVldFsnQjInXSA9ICc9U1VNKEExOkExMCknCgojIEZvcm1hdHRpbmcKc2hlZXRbJ0ExJ10uZm9udCA9IEZvbnQoYm9sZD1UcnVlLCBjb2xvcj0nRkYwMDAwJykKc2hlZXRbJ0ExJ10uZmlsbCA9IFBhdHRlcm5GaWxsKCdzb2xpZCcsIHN0YXJ0X2NvbG9yPSdGRkZGMDAnKQpzaGVldFsnQTEnXS5hbGlnbm1lbnQgPSBBbGlnbm1lbnQoaG9yaXpvbnRhbD0nY2VudGVyJykKCiMgQ29sdW1uIHdpZHRoCnNoZWV0LmNvbHVtbl9kaW1lbnNpb25zWydBJ10ud2lkdGggPSAyMAoKd2Iuc2F2ZSgnb3V0cHV0Lnhsc3gnKQpgYGAKCiMjIyBFZGl0aW5nIGV4aXN0aW5nIEV4Y2VsIGZpbGVzCgpgYGBweXRob24KIyBVc2luZyBvcGVucHl4bCB0byBwcmVzZXJ2ZSBmb3JtdWxhcyBhbmQgZm9ybWF0dGluZwpmcm9tIG9wZW5weXhsIGltcG9ydCBsb2FkX3dvcmtib29rCgojIExvYWQgZXhpc3RpbmcgZmlsZQp3YiA9IGxvYWRfd29ya2Jvb2soJ2V4aXN0aW5nLnhsc3gnKQpzaGVldCA9IHdiLmFjdGl2ZSAgIyBvciB3YlsnU2hlZXROYW1lJ10gZm9yIHNwZWNpZmljIHNoZWV0CgojIFdvcmtpbmcgd2l0aCBtdWx0aXBsZSBzaGVldHMKZm9yIHNoZWV0X25hbWUgaW4gd2Iuc2hlZXRuYW1lczoKICAgIHNoZWV0ID0gd2Jbc2hlZXRfbmFtZV0KICAgIHByaW50KGYiU2hlZXQ6IHtzaGVldF9uYW1lfSIpCgojIE1vZGlmeSBjZWxscwpzaGVldFsnQTEnXSA9ICdOZXcgVmFsdWUnCnNoZWV0Lmluc2VydF9yb3dzKDIpICAjIEluc2VydCByb3cgYXQgcG9zaXRpb24gMgpzaGVldC5kZWxldGVfY29scygzKSAgIyBEZWxldGUgY29sdW1uIDMKCiMgQWRkIG5ldyBzaGVldApuZXdfc2hlZXQgPSB3Yi5jcmVhdGVfc2hlZXQoJ05ld1NoZWV0JykKbmV3X3NoZWV0WydBMSddID0gJ0RhdGEnCgp3Yi5zYXZlKCdtb2RpZmllZC54bHN4JykKYGBgCgojIyBSZWNhbGN1bGF0aW5nIGZvcm11bGFzCgpFeGNlbCBmaWxlcyBjcmVhdGVkIG9yIG1vZGlmaWVkIGJ5IG9wZW5weXhsIGNvbnRhaW4gZm9ybXVsYXMgYXMgc3RyaW5ncyBidXQgbm90IGNhbGN1bGF0ZWQgdmFsdWVzLiBVc2UgdGhlIHByb3ZpZGVkIGBzY3JpcHRzL3JlY2FsYy5weWAgc2NyaXB0IHRvIHJlY2FsY3VsYXRlIGZvcm11bGFzOgoKYGBgYmFzaApweXRob24gc2NyaXB0cy9yZWNhbGMucHkgPGV4Y2VsX2ZpbGU+IFt0aW1lb3V0X3NlY29uZHNdCmBgYAoKRXhhbXBsZToKYGBgYmFzaApweXRob24gc2NyaXB0cy9yZWNhbGMucHkgb3V0cHV0Lnhsc3ggMzAKYGBgCgpUaGUgc2NyaXB0OgotIEF1dG9tYXRpY2FsbHkgc2V0cyB1cCBMaWJyZU9mZmljZSBtYWNybyBvbiBmaXJzdCBydW4KLSBSZWNhbGN1bGF0ZXMgYWxsIGZvcm11bGFzIGluIGFsbCBzaGVldHMKLSBTY2FucyBBTEwgY2VsbHMgZm9yIEV4Y2VsIGVycm9ycyAoI1JFRiEsICNESVYvMCEsIGV0Yy4pCi0gUmV0dXJucyBKU09OIHdpdGggZGV0YWlsZWQgZXJyb3IgbG9jYXRpb25zIGFuZCBjb3VudHMKLSBXb3JrcyBvbiBib3RoIExpbnV4IGFuZCBtYWNPUwoKIyMgRm9ybXVsYSBWZXJpZmljYXRpb24gQ2hlY2tsaXN0CgpRdWljayBjaGVja3MgdG8gZW5zdXJlIGZvcm11bGFzIHdvcmsgY29ycmVjdGx5OgoKIyMjIEVzc2VudGlhbCBWZXJpZmljYXRpb24KLSBbIF0gKipUZXN0IDItMyBzYW1wbGUgcmVmZXJlbmNlcyoqOiBWZXJpZnkgdGhleSBwdWxsIGNvcnJlY3QgdmFsdWVzIGJlZm9yZSBidWlsZGluZyBmdWxsIG1vZGVsCi0gWyBdICoqQ29sdW1uIG1hcHBpbmcqKjogQ29uZmlybSBFeGNlbCBjb2x1bW5zIG1hdGNoIChlLmcuLCBjb2x1bW4gNjQgPSBCTCwgbm90IEJLKQotIFsgXSAqKlJvdyBvZmZzZXQqKjogUmVtZW1iZXIgRXhjZWwgcm93cyBhcmUgMS1pbmRleGVkIChEYXRhRnJhbWUgcm93IDUgPSBFeGNlbCByb3cgNikKCiMjIyBDb21tb24gUGl0ZmFsbHMKLSBbIF0gKipOYU4gaGFuZGxpbmcqKjogQ2hlY2sgZm9yIG51bGwgdmFsdWVzIHdpdGggYHBkLm5vdG5hKClgCi0gWyBdICoqRmFyLXJpZ2h0IGNvbHVtbnMqKjogRlkgZGF0YSBvZnRlbiBpbiBjb2x1bW5zIDUwKyAKLSBbIF0gKipNdWx0aXBsZSBtYXRjaGVzKio6IFNlYXJjaCBhbGwgb2NjdXJyZW5jZXMsIG5vdCBqdXN0IGZpcnN0Ci0gWyBdICoqRGl2aXNpb24gYnkgemVybyoqOiBDaGVjayBkZW5vbWluYXRvcnMgYmVmb3JlIHVzaW5nIGAvYCBpbiBmb3JtdWxhcyAoI0RJVi8wISkKLSBbIF0gKipXcm9uZyByZWZlcmVuY2VzKio6IFZlcmlmeSBhbGwgY2VsbCByZWZlcmVuY2VzIHBvaW50IHRvIGludGVuZGVkIGNlbGxzICgjUkVGISkKLSBbIF0gKipDcm9zcy1zaGVldCByZWZlcmVuY2VzKio6IFVzZSBjb3JyZWN0IGZvcm1hdCAoU2hlZXQxIUExKSBmb3IgbGlua2luZyBzaGVldHMKCiMjIyBGb3JtdWxhIFRlc3RpbmcgU3RyYXRlZ3kKLSBbIF0gKipTdGFydCBzbWFsbCoqOiBUZXN0IGZvcm11bGFzIG9uIDItMyBjZWxscyBiZWZvcmUgYXBwbHlpbmcgYnJvYWRseQotIFsgXSAqKlZlcmlmeSBkZXBlbmRlbmNpZXMqKjogQ2hlY2sgYWxsIGNlbGxzIHJlZmVyZW5jZWQgaW4gZm9ybXVsYXMgZXhpc3QKLSBbIF0gKipUZXN0IGVkZ2UgY2FzZXMqKjogSW5jbHVkZSB6ZXJvLCBuZWdhdGl2ZSwgYW5kIHZlcnkgbGFyZ2UgdmFsdWVzCgojIyMgSW50ZXJwcmV0aW5nIHNjcmlwdHMvcmVjYWxjLnB5IE91dHB1dApUaGUgc2NyaXB0IHJldHVybnMgSlNPTiB3aXRoIGVycm9yIGRldGFpbHM6CmBgYGpzb24KewogICJzdGF0dXMiOiAic3VjY2VzcyIsICAgICAgICAgICAvLyBvciAiZXJyb3JzX2ZvdW5kIgogICJ0b3RhbF9lcnJvcnMiOiAwLCAgICAgICAgICAgICAgLy8gVG90YWwgZXJyb3IgY291bnQKICAidG90YWxfZm9ybXVsYXMiOiA0MiwgICAgICAgICAgIC8vIE51bWJlciBvZiBmb3JtdWxhcyBpbiBmaWxlCiAgImVycm9yX3N1bW1hcnkiOiB7ICAgICAgICAgICAgICAvLyBPbmx5IHByZXNlbnQgaWYgZXJyb3JzIGZvdW5kCiAgICAiI1JFRiEiOiB7CiAgICAgICJjb3VudCI6IDIsCiAgICAgICJsb2NhdGlvbnMiOiBbIlNoZWV0MSFCNSIsICJTaGVldDEhQzEwIl0KICAgIH0KICB9Cn0KYGBgCgojIyBCZXN0IFByYWN0aWNlcwoKIyMjIExpYnJhcnkgU2VsZWN0aW9uCi0gKipwYW5kYXMqKjogQmVzdCBmb3IgZGF0YSBhbmFseXNpcywgYnVsayBvcGVyYXRpb25zLCBhbmQgc2ltcGxlIGRhdGEgZXhwb3J0Ci0gKipvcGVucHl4bCoqOiBCZXN0IGZvciBjb21wbGV4IGZvcm1hdHRpbmcsIGZvcm11bGFzLCBhbmQgRXhjZWwtc3BlY2lmaWMgZmVhdHVyZXMKCiMjIyBXb3JraW5nIHdpdGggb3BlbnB5eGwKLSBDZWxsIGluZGljZXMgYXJlIDEtYmFzZWQgKHJvdz0xLCBjb2x1bW49MSByZWZlcnMgdG8gY2VsbCBBMSkKLSBVc2UgYGRhdGFfb25seT1UcnVlYCB0byByZWFkIGNhbGN1bGF0ZWQgdmFsdWVzOiBgbG9hZF93b3JrYm9vaygnZmlsZS54bHN4JywgZGF0YV9vbmx5PVRydWUpYAotICoqV2FybmluZyoqOiBJZiBvcGVuZWQgd2l0aCBgZGF0YV9vbmx5PVRydWVgIGFuZCBzYXZlZCwgZm9ybXVsYXMgYXJlIHJlcGxhY2VkIHdpdGggdmFsdWVzIGFuZCBwZXJtYW5lbnRseSBsb3N0Ci0gRm9yIGxhcmdlIGZpbGVzOiBVc2UgYHJlYWRfb25seT1UcnVlYCBmb3IgcmVhZGluZyBvciBgd3JpdGVfb25seT1UcnVlYCBmb3Igd3JpdGluZwotIEZvcm11bGFzIGFyZSBwcmVzZXJ2ZWQgYnV0IG5vdCBldmFsdWF0ZWQgLSB1c2Ugc2NyaXB0cy9yZWNhbGMucHkgdG8gdXBkYXRlIHZhbHVlcwoKIyMjIFdvcmtpbmcgd2l0aCBwYW5kYXMKLSBTcGVjaWZ5IGRhdGEgdHlwZXMgdG8gYXZvaWQgaW5mZXJlbmNlIGlzc3VlczogYHBkLnJlYWRfZXhjZWwoJ2ZpbGUueGxzeCcsIGR0eXBlPXsnaWQnOiBzdHJ9KWAKLSBGb3IgbGFyZ2UgZmlsZXMsIHJlYWQgc3BlY2lmaWMgY29sdW1uczogYHBkLnJlYWRfZXhjZWwoJ2ZpbGUueGxzeCcsIHVzZWNvbHM9WydBJywgJ0MnLCAnRSddKWAKLSBIYW5kbGUgZGF0ZXMgcHJvcGVybHk6IGBwZC5yZWFkX2V4Y2VsKCdmaWxlLnhsc3gnLCBwYXJzZV9kYXRlcz1bJ2RhdGVfY29sdW1uJ10pYAoKIyMgQ29kZSBTdHlsZSBHdWlkZWxpbmVzCioqSU1QT1JUQU5UKio6IFdoZW4gZ2VuZXJhdGluZyBQeXRob24gY29kZSBmb3IgRXhjZWwgb3BlcmF0aW9uczoKLSBXcml0ZSBtaW5pbWFsLCBjb25jaXNlIFB5dGhvbiBjb2RlIHdpdGhvdXQgdW5uZWNlc3NhcnkgY29tbWVudHMKLSBBdm9pZCB2ZXJib3NlIHZhcmlhYmxlIG5hbWVzIGFuZCByZWR1bmRhbnQgb3BlcmF0aW9ucwotIEF2b2lkIHVubmVjZXNzYXJ5IHByaW50IHN0YXRlbWVudHMKCioqRm9yIEV4Y2VsIGZpbGVzIHRoZW1zZWx2ZXMqKjoKLSBBZGQgY29tbWVudHMgdG8gY2VsbHMgd2l0aCBjb21wbGV4IGZvcm11bGFzIG9yIGltcG9ydGFudCBhc3N1bXB0aW9ucwotIERvY3VtZW50IGRhdGEgc291cmNlcyBmb3IgaGFyZGNvZGVkIHZhbHVlcwotIEluY2x1ZGUgbm90ZXMgZm9yIGtleSBjYWxjdWxhdGlvbnMgYW5kIG1vZGVsIHNlY3Rpb25z
+---
+name: xlsx
+description: "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved."
+license: Proprietary. LICENSE.txt has complete terms
+---
+
+# Requirements for Outputs
+
+## All Excel files
+
+### Professional Font
+- Use a consistent, professional font (e.g., Arial, Times New Roman) for all deliverables unless otherwise instructed by the user
+
+### Zero Formula Errors
+- Every Excel model MUST be delivered with ZERO formula errors (#REF!, #DIV/0!, #VALUE!, #N/A, #NAME?)
+
+### Preserve Existing Templates (when updating templates)
+- Study and EXACTLY match existing format, style, and conventions when modifying files
+- Never impose standardized formatting on files with established patterns
+- Existing template conventions ALWAYS override these guidelines
+
+## Financial models
+
+### Color Coding Standards
+Unless otherwise stated by the user or existing template
+
+#### Industry-Standard Color Conventions
+- **Blue text (RGB: 0,0,255)**: Hardcoded inputs, and numbers users will change for scenarios
+- **Black text (RGB: 0,0,0)**: ALL formulas and calculations
+- **Green text (RGB: 0,128,0)**: Links pulling from other worksheets within same workbook
+- **Red text (RGB: 255,0,0)**: External links to other files
+- **Yellow background (RGB: 255,255,0)**: Key assumptions needing attention or cells that need to be updated
+
+### Number Formatting Standards
+
+#### Required Format Rules
+- **Years**: Format as text strings (e.g., "2024" not "2,024")
+- **Currency**: Use $#,##0 format; ALWAYS specify units in headers ("Revenue ($mm)")
+- **Zeros**: Use number formatting to make all zeros "-", including percentages (e.g., "$#,##0;($#,##0);-")
+- **Percentages**: Default to 0.0% format (one decimal)
+- **Multiples**: Format as 0.0x for valuation multiples (EV/EBITDA, P/E)
+- **Negative numbers**: Use parentheses (123) not minus -123
+
+### Formula Construction Rules
+
+#### Assumptions Placement
+- Place ALL assumptions (growth rates, margins, multiples, etc.) in separate assumption cells
+- Use cell references instead of hardcoded values in formulas
+- Example: Use =B5*(1+$B$6) instead of =B5*1.05
+
+#### Formula Error Prevention
+- Verify all cell references are correct
+- Check for off-by-one errors in ranges
+- Ensure consistent formulas across all projection periods
+- Test with edge cases (zero values, negative numbers)
+- Verify no unintended circular references
+
+#### Documentation Requirements for Hardcodes
+- Comment or in cells beside (if end of table). Format: "Source: [System/Document], [Date], [Specific Reference], [URL if applicable]"
+- Examples:
+  - "Source: Company 10-K, FY2024, Page 45, Revenue Note, [SEC EDGAR URL]"
+  - "Source: Company 10-Q, Q2 2025, Exhibit 99.1, [SEC EDGAR URL]"
+  - "Source: Bloomberg Terminal, 8/15/2025, AAPL US Equity"
+  - "Source: FactSet, 8/20/2025, Consensus Estimates Screen"
+
+# XLSX creation, editing, and analysis
+
+## Overview
+
+A user may ask you to create, edit, or analyze the contents of an .xlsx file. You have different tools and workflows available for different tasks.
+
+## Important Requirements
+
+**LibreOffice Required for Formula Recalculation**: You can assume LibreOffice is installed for recalculating formula values using the `scripts/recalc.py` script. The script automatically configures LibreOffice on first run, including in sandboxed environments where Unix sockets are restricted (handled by `scripts/office/soffice.py`)
+
+## Reading and analyzing data
+
+### Data analysis with pandas
+For data analysis, visualization, and basic operations, use **pandas** which provides powerful data manipulation capabilities:
+
+```python
+import pandas as pd
+
+# Read Excel
+df = pd.read_excel('file.xlsx')  # Default: first sheet
+all_sheets = pd.read_excel('file.xlsx', sheet_name=None)  # All sheets as dict
+
+# Analyze
+df.head()      # Preview data
+df.info()      # Column info
+df.describe()  # Statistics
+
+# Write Excel
+df.to_excel('output.xlsx', index=False)
+```
+
+## Excel File Workflows
+
+## CRITICAL: Use Formulas, Not Hardcoded Values
+
+**Always use Excel formulas instead of calculating values in Python and hardcoding them.** This ensures the spreadsheet remains dynamic and updateable.
+
+### ❌ WRONG - Hardcoding Calculated Values
+```python
+# Bad: Calculating in Python and hardcoding result
+total = df['Sales'].sum()
+sheet['B10'] = total  # Hardcodes 5000
+
+# Bad: Computing growth rate in Python
+growth = (df.iloc[-1]['Revenue'] - df.iloc[0]['Revenue']) / df.iloc[0]['Revenue']
+sheet['C5'] = growth  # Hardcodes 0.15
+
+# Bad: Python calculation for average
+avg = sum(values) / len(values)
+sheet['D20'] = avg  # Hardcodes 42.5
+```
+
+### ✅ CORRECT - Using Excel Formulas
+```python
+# Good: Let Excel calculate the sum
+sheet['B10'] = '=SUM(B2:B9)'
+
+# Good: Growth rate as Excel formula
+sheet['C5'] = '=(C4-C2)/C2'
+
+# Good: Average using Excel function
+sheet['D20'] = '=AVERAGE(D2:D19)'
+```
+
+This applies to ALL calculations - totals, percentages, ratios, differences, etc. The spreadsheet should be able to recalculate when source data changes.
+
+## Common Workflow
+1. **Choose tool**: pandas for data, openpyxl for formulas/formatting
+2. **Create/Load**: Create new workbook or load existing file
+3. **Modify**: Add/edit data, formulas, and formatting
+4. **Save**: Write to file
+5. **Recalculate formulas (MANDATORY IF USING FORMULAS)**: Use the scripts/recalc.py script
+   ```bash
+   python scripts/recalc.py output.xlsx
+   ```
+6. **Verify and fix any errors**: 
+   - The script returns JSON with error details
+   - If `status` is `errors_found`, check `error_summary` for specific error types and locations
+   - Fix the identified errors and recalculate again
+   - Common errors to fix:
+     - `#REF!`: Invalid cell references
+     - `#DIV/0!`: Division by zero
+     - `#VALUE!`: Wrong data type in formula
+     - `#NAME?`: Unrecognized formula name
+
+### Creating new Excel files
+
+```python
+# Using openpyxl for formulas and formatting
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill, Alignment
+
+wb = Workbook()
+sheet = wb.active
+
+# Add data
+sheet['A1'] = 'Hello'
+sheet['B1'] = 'World'
+sheet.append(['Row', 'of', 'data'])
+
+# Add formula
+sheet['B2'] = '=SUM(A1:A10)'
+
+# Formatting
+sheet['A1'].font = Font(bold=True, color='FF0000')
+sheet['A1'].fill = PatternFill('solid', start_color='FFFF00')
+sheet['A1'].alignment = Alignment(horizontal='center')
+
+# Column width
+sheet.column_dimensions['A'].width = 20
+
+wb.save('output.xlsx')
+```
+
+### Editing existing Excel files
+
+```python
+# Using openpyxl to preserve formulas and formatting
+from openpyxl import load_workbook
+
+# Load existing file
+wb = load_workbook('existing.xlsx')
+sheet = wb.active  # or wb['SheetName'] for specific sheet
+
+# Working with multiple sheets
+for sheet_name in wb.sheetnames:
+    sheet = wb[sheet_name]
+    print(f"Sheet: {sheet_name}")
+
+# Modify cells
+sheet['A1'] = 'New Value'
+sheet.insert_rows(2)  # Insert row at position 2
+sheet.delete_cols(3)  # Delete column 3
+
+# Add new sheet
+new_sheet = wb.create_sheet('NewSheet')
+new_sheet['A1'] = 'Data'
+
+wb.save('modified.xlsx')
+```
+
+## Recalculating formulas
+
+Excel files created or modified by openpyxl contain formulas as strings but not calculated values. Use the provided `scripts/recalc.py` script to recalculate formulas:
+
+```bash
+python scripts/recalc.py <excel_file> [timeout_seconds]
+```
+
+Example:
+```bash
+python scripts/recalc.py output.xlsx 30
+```
+
+The script:
+- Automatically sets up LibreOffice macro on first run
+- Recalculates all formulas in all sheets
+- Scans ALL cells for Excel errors (#REF!, #DIV/0!, etc.)
+- Returns JSON with detailed error locations and counts
+- Works on both Linux and macOS
+
+## Formula Verification Checklist
+
+Quick checks to ensure formulas work correctly:
+
+### Essential Verification
+- [ ] **Test 2-3 sample references**: Verify they pull correct values before building full model
+- [ ] **Column mapping**: Confirm Excel columns match (e.g., column 64 = BL, not BK)
+- [ ] **Row offset**: Remember Excel rows are 1-indexed (DataFrame row 5 = Excel row 6)
+
+### Common Pitfalls
+- [ ] **NaN handling**: Check for null values with `pd.notna()`
+- [ ] **Far-right columns**: FY data often in columns 50+ 
+- [ ] **Multiple matches**: Search all occurrences, not just first
+- [ ] **Division by zero**: Check denominators before using `/` in formulas (#DIV/0!)
+- [ ] **Wrong references**: Verify all cell references point to intended cells (#REF!)
+- [ ] **Cross-sheet references**: Use correct format (Sheet1!A1) for linking sheets
+
+### Formula Testing Strategy
+- [ ] **Start small**: Test formulas on 2-3 cells before applying broadly
+- [ ] **Verify dependencies**: Check all cells referenced in formulas exist
+- [ ] **Test edge cases**: Include zero, negative, and very large values
+
+### Interpreting scripts/recalc.py Output
+The script returns JSON with error details:
+```json
+{
+  "status": "success",           // or "errors_found"
+  "total_errors": 0,              // Total error count
+  "total_formulas": 42,           // Number of formulas in file
+  "error_summary": {              // Only present if errors found
+    "#REF!": {
+      "count": 2,
+      "locations": ["Sheet1!B5", "Sheet1!C10"]
+    }
+  }
+}
+```
+
+## Best Practices
+
+### Library Selection
+- **pandas**: Best for data analysis, bulk operations, and simple data export
+- **openpyxl**: Best for complex formatting, formulas, and Excel-specific features
+
+### Working with openpyxl
+- Cell indices are 1-based (row=1, column=1 refers to cell A1)
+- Use `data_only=True` to read calculated values: `load_workbook('file.xlsx', data_only=True)`
+- **Warning**: If opened with `data_only=True` and saved, formulas are replaced with values and permanently lost
+- For large files: Use `read_only=True` for reading or `write_only=True` for writing
+- Formulas are preserved but not evaluated - use scripts/recalc.py to update values
+
+### Working with pandas
+- Specify data types to avoid inference issues: `pd.read_excel('file.xlsx', dtype={'id': str})`
+- For large files, read specific columns: `pd.read_excel('file.xlsx', usecols=['A', 'C', 'E'])`
+- Handle dates properly: `pd.read_excel('file.xlsx', parse_dates=['date_column'])`
+
+## Code Style Guidelines
+**IMPORTANT**: When generating Python code for Excel operations:
+- Write minimal, concise Python code without unnecessary comments
+- Avoid verbose variable names and redundant operations
+- Avoid unnecessary print statements
+
+**For Excel files themselves**:
+- Add comments to cells with complex formulas or important assumptions
+- Document data sources for hardcoded values
+- Include notes for key calculations and model sections

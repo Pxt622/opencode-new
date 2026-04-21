@@ -1,1 +1,165 @@
-IyBGaWxlcyBBUEkg4oCUIFB5dGhvbgoKVGhlIEZpbGVzIEFQSSB1cGxvYWRzIGZpbGVzIGZvciB1c2UgaW4gTWVzc2FnZXMgQVBJIHJlcXVlc3RzLiBSZWZlcmVuY2UgZmlsZXMgdmlhIGBmaWxlX2lkYCBpbiBjb250ZW50IGJsb2NrcywgYXZvaWRpbmcgcmUtdXBsb2FkcyBhY3Jvc3MgbXVsdGlwbGUgQVBJIGNhbGxzLgoKKipCZXRhOioqIFBhc3MgYGJldGFzPVsiZmlsZXMtYXBpLTIwMjUtMDQtMTQiXWAgaW4geW91ciBBUEkgY2FsbHMgKHRoZSBTREsgc2V0cyB0aGUgcmVxdWlyZWQgaGVhZGVyIGF1dG9tYXRpY2FsbHkpLgoKIyMgS2V5IEZhY3RzCgotIE1heGltdW0gZmlsZSBzaXplOiA1MDAgTUIKLSBUb3RhbCBzdG9yYWdlOiAxMDAgR0IgcGVyIG9yZ2FuaXphdGlvbgotIEZpbGVzIHBlcnNpc3QgdW50aWwgZGVsZXRlZAotIEZpbGUgb3BlcmF0aW9ucyAodXBsb2FkLCBsaXN0LCBkZWxldGUpIGFyZSBmcmVlOyBjb250ZW50IHVzZWQgaW4gbWVzc2FnZXMgaXMgYmlsbGVkIGFzIGlucHV0IHRva2VucwotIE5vdCBhdmFpbGFibGUgb24gQW1hem9uIEJlZHJvY2sgb3IgR29vZ2xlIFZlcnRleCBBSQoKLS0tCgojIyBVcGxvYWQgYSBGaWxlCgpgYGBweXRob24KaW1wb3J0IGFudGhyb3BpYwoKY2xpZW50ID0gYW50aHJvcGljLkFudGhyb3BpYygpCgp1cGxvYWRlZCA9IGNsaWVudC5iZXRhLmZpbGVzLnVwbG9hZCgKICAgIGZpbGU9KCJyZXBvcnQucGRmIiwgb3BlbigicmVwb3J0LnBkZiIsICJyYiIpLCAiYXBwbGljYXRpb24vcGRmIiksCikKcHJpbnQoZiJGaWxlIElEOiB7dXBsb2FkZWQuaWR9IikKcHJpbnQoZiJTaXplOiB7dXBsb2FkZWQuc2l6ZV9ieXRlc30gYnl0ZXMiKQpgYGAKCi0tLQoKIyMgVXNlIGEgRmlsZSBpbiBNZXNzYWdlcwoKIyMjIFBERiAvIFRleHQgRG9jdW1lbnQKCmBgYHB5dGhvbgpyZXNwb25zZSA9IGNsaWVudC5iZXRhLm1lc3NhZ2VzLmNyZWF0ZSgKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIG1lc3NhZ2VzPVt7CiAgICAgICAgInJvbGUiOiAidXNlciIsCiAgICAgICAgImNvbnRlbnQiOiBbCiAgICAgICAgICAgIHsidHlwZSI6ICJ0ZXh0IiwgInRleHQiOiAiU3VtbWFyaXplIHRoZSBrZXkgZmluZGluZ3MgaW4gdGhpcyByZXBvcnQuIn0sCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJ0eXBlIjogImRvY3VtZW50IiwKICAgICAgICAgICAgICAgICJzb3VyY2UiOiB7InR5cGUiOiAiZmlsZSIsICJmaWxlX2lkIjogdXBsb2FkZWQuaWR9LAogICAgICAgICAgICAgICAgInRpdGxlIjogIlE0IFJlcG9ydCIsICAgICAgICAgICAjIG9wdGlvbmFsCiAgICAgICAgICAgICAgICAiY2l0YXRpb25zIjogeyJlbmFibGVkIjogVHJ1ZX0gICAjIG9wdGlvbmFsLCBlbmFibGVzIGNpdGF0aW9ucwogICAgICAgICAgICB9CiAgICAgICAgXQogICAgfV0sCiAgICBiZXRhcz1bImZpbGVzLWFwaS0yMDI1LTA0LTE0Il0sCikKZm9yIGJsb2NrIGluIHJlc3BvbnNlLmNvbnRlbnQ6CiAgICBpZiBibG9jay50eXBlID09ICJ0ZXh0IjoKICAgICAgICBwcmludChibG9jay50ZXh0KQpgYGAKCiMjIyBJbWFnZQoKYGBgcHl0aG9uCmltYWdlX2ZpbGUgPSBjbGllbnQuYmV0YS5maWxlcy51cGxvYWQoCiAgICBmaWxlPSgicGhvdG8ucG5nIiwgb3BlbigicGhvdG8ucG5nIiwgInJiIiksICJpbWFnZS9wbmciKSwKKQoKcmVzcG9uc2UgPSBjbGllbnQuYmV0YS5tZXNzYWdlcy5jcmVhdGUoCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICBtZXNzYWdlcz1bewogICAgICAgICJyb2xlIjogInVzZXIiLAogICAgICAgICJjb250ZW50IjogWwogICAgICAgICAgICB7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogIldoYXQncyBpbiB0aGlzIGltYWdlPyJ9LAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAidHlwZSI6ICJpbWFnZSIsCiAgICAgICAgICAgICAgICAic291cmNlIjogeyJ0eXBlIjogImZpbGUiLCAiZmlsZV9pZCI6IGltYWdlX2ZpbGUuaWR9CiAgICAgICAgICAgIH0KICAgICAgICBdCiAgICB9XSwKICAgIGJldGFzPVsiZmlsZXMtYXBpLTIwMjUtMDQtMTQiXSwKKQpgYGAKCi0tLQoKIyMgTWFuYWdlIEZpbGVzCgojIyMgTGlzdCBGaWxlcwoKYGBgcHl0aG9uCmZpbGVzID0gY2xpZW50LmJldGEuZmlsZXMubGlzdCgpCmZvciBmIGluIGZpbGVzLmRhdGE6CiAgICBwcmludChmIntmLmlkfToge2YuZmlsZW5hbWV9ICh7Zi5zaXplX2J5dGVzfSBieXRlcykiKQpgYGAKCiMjIyBHZXQgRmlsZSBNZXRhZGF0YQoKYGBgcHl0aG9uCmZpbGVfaW5mbyA9IGNsaWVudC5iZXRhLmZpbGVzLnJldHJpZXZlX21ldGFkYXRhKCJmaWxlXzAxMUNOaGE4aUNKY1Uxd1hOUjZxNFY4dyIpCnByaW50KGYiRmlsZW5hbWU6IHtmaWxlX2luZm8uZmlsZW5hbWV9IikKcHJpbnQoZiJNSU1FIHR5cGU6IHtmaWxlX2luZm8ubWltZV90eXBlfSIpCmBgYAoKIyMjIERlbGV0ZSBhIEZpbGUKCmBgYHB5dGhvbgpjbGllbnQuYmV0YS5maWxlcy5kZWxldGUoImZpbGVfMDExQ05oYThpQ0pjVTF3WE5SNnE0Vjh3IikKYGBgCgojIyMgRG93bmxvYWQgYSBGaWxlCgpPbmx5IGZpbGVzIGNyZWF0ZWQgYnkgdGhlIGNvZGUgZXhlY3V0aW9uIHRvb2wgb3Igc2tpbGxzIGNhbiBiZSBkb3dubG9hZGVkIChub3QgdXNlci11cGxvYWRlZCBmaWxlcykuCgpgYGBweXRob24KZmlsZV9jb250ZW50ID0gY2xpZW50LmJldGEuZmlsZXMuZG93bmxvYWQoImZpbGVfMDExQ05oYThpQ0pjVTF3WE5SNnE0Vjh3IikKZmlsZV9jb250ZW50LndyaXRlX3RvX2ZpbGUoIm91dHB1dC50eHQiKQpgYGAKCi0tLQoKIyMgRnVsbCBFbmQtdG8tRW5kIEV4YW1wbGUKClVwbG9hZCBhIGRvY3VtZW50IG9uY2UsIGFzayBtdWx0aXBsZSBxdWVzdGlvbnMgYWJvdXQgaXQ6CgpgYGBweXRob24KaW1wb3J0IGFudGhyb3BpYwoKY2xpZW50ID0gYW50aHJvcGljLkFudGhyb3BpYygpCgojIDEuIFVwbG9hZCBvbmNlCnVwbG9hZGVkID0gY2xpZW50LmJldGEuZmlsZXMudXBsb2FkKAogICAgZmlsZT0oImNvbnRyYWN0LnBkZiIsIG9wZW4oImNvbnRyYWN0LnBkZiIsICJyYiIpLCAiYXBwbGljYXRpb24vcGRmIiksCikKcHJpbnQoZiJVcGxvYWRlZDoge3VwbG9hZGVkLmlkfSIpCgojIDIuIEFzayBtdWx0aXBsZSBxdWVzdGlvbnMgdXNpbmcgdGhlIHNhbWUgZmlsZV9pZApxdWVzdGlvbnMgPSBbCiAgICAiV2hhdCBhcmUgdGhlIGtleSB0ZXJtcyBhbmQgY29uZGl0aW9ucz8iLAogICAgIldoYXQgaXMgdGhlIHRlcm1pbmF0aW9uIGNsYXVzZT8iLAogICAgIlN1bW1hcml6ZSB0aGUgcGF5bWVudCBzY2hlZHVsZS4iLApdCgpmb3IgcXVlc3Rpb24gaW4gcXVlc3Rpb25zOgogICAgcmVzcG9uc2UgPSBjbGllbnQuYmV0YS5tZXNzYWdlcy5jcmVhdGUoCiAgICAgICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICAgICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgICAgICBtZXNzYWdlcz1bewogICAgICAgICAgICAicm9sZSI6ICJ1c2VyIiwKICAgICAgICAgICAgImNvbnRlbnQiOiBbCiAgICAgICAgICAgICAgICB7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogcXVlc3Rpb259LAogICAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgICAgICJ0eXBlIjogImRvY3VtZW50IiwKICAgICAgICAgICAgICAgICAgICAic291cmNlIjogeyJ0eXBlIjogImZpbGUiLCAiZmlsZV9pZCI6IHVwbG9hZGVkLmlkfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICBdCiAgICAgICAgfV0sCiAgICAgICAgYmV0YXM9WyJmaWxlcy1hcGktMjAyNS0wNC0xNCJdLAogICAgKQogICAgcHJpbnQoZiJcblE6IHtxdWVzdGlvbn0iKQogICAgdGV4dCA9IG5leHQoKGIudGV4dCBmb3IgYiBpbiByZXNwb25zZS5jb250ZW50IGlmIGIudHlwZSA9PSAidGV4dCIpLCAiIikKICAgIHByaW50KGYiQToge3RleHRbOjIwMF19IikKCiMgMy4gQ2xlYW4gdXAgd2hlbiBkb25lCmNsaWVudC5iZXRhLmZpbGVzLmRlbGV0ZSh1cGxvYWRlZC5pZCkKYGBgCg==
+# Files API — Python
+
+The Files API uploads files for use in Messages API requests. Reference files via `file_id` in content blocks, avoiding re-uploads across multiple API calls.
+
+**Beta:** Pass `betas=["files-api-2025-04-14"]` in your API calls (the SDK sets the required header automatically).
+
+## Key Facts
+
+- Maximum file size: 500 MB
+- Total storage: 100 GB per organization
+- Files persist until deleted
+- File operations (upload, list, delete) are free; content used in messages is billed as input tokens
+- Not available on Amazon Bedrock or Google Vertex AI
+
+---
+
+## Upload a File
+
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+
+uploaded = client.beta.files.upload(
+    file=("report.pdf", open("report.pdf", "rb"), "application/pdf"),
+)
+print(f"File ID: {uploaded.id}")
+print(f"Size: {uploaded.size_bytes} bytes")
+```
+
+---
+
+## Use a File in Messages
+
+### PDF / Text Document
+
+```python
+response = client.beta.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{
+        "role": "user",
+        "content": [
+            {"type": "text", "text": "Summarize the key findings in this report."},
+            {
+                "type": "document",
+                "source": {"type": "file", "file_id": uploaded.id},
+                "title": "Q4 Report",           # optional
+                "citations": {"enabled": True}   # optional, enables citations
+            }
+        ]
+    }],
+    betas=["files-api-2025-04-14"],
+)
+for block in response.content:
+    if block.type == "text":
+        print(block.text)
+```
+
+### Image
+
+```python
+image_file = client.beta.files.upload(
+    file=("photo.png", open("photo.png", "rb"), "image/png"),
+)
+
+response = client.beta.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{
+        "role": "user",
+        "content": [
+            {"type": "text", "text": "What's in this image?"},
+            {
+                "type": "image",
+                "source": {"type": "file", "file_id": image_file.id}
+            }
+        ]
+    }],
+    betas=["files-api-2025-04-14"],
+)
+```
+
+---
+
+## Manage Files
+
+### List Files
+
+```python
+files = client.beta.files.list()
+for f in files.data:
+    print(f"{f.id}: {f.filename} ({f.size_bytes} bytes)")
+```
+
+### Get File Metadata
+
+```python
+file_info = client.beta.files.retrieve_metadata("file_011CNha8iCJcU1wXNR6q4V8w")
+print(f"Filename: {file_info.filename}")
+print(f"MIME type: {file_info.mime_type}")
+```
+
+### Delete a File
+
+```python
+client.beta.files.delete("file_011CNha8iCJcU1wXNR6q4V8w")
+```
+
+### Download a File
+
+Only files created by the code execution tool or skills can be downloaded (not user-uploaded files).
+
+```python
+file_content = client.beta.files.download("file_011CNha8iCJcU1wXNR6q4V8w")
+file_content.write_to_file("output.txt")
+```
+
+---
+
+## Full End-to-End Example
+
+Upload a document once, ask multiple questions about it:
+
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+
+# 1. Upload once
+uploaded = client.beta.files.upload(
+    file=("contract.pdf", open("contract.pdf", "rb"), "application/pdf"),
+)
+print(f"Uploaded: {uploaded.id}")
+
+# 2. Ask multiple questions using the same file_id
+questions = [
+    "What are the key terms and conditions?",
+    "What is the termination clause?",
+    "Summarize the payment schedule.",
+]
+
+for question in questions:
+    response = client.beta.messages.create(
+        model="claude-opus-4-6",
+        max_tokens=16000,
+        messages=[{
+            "role": "user",
+            "content": [
+                {"type": "text", "text": question},
+                {
+                    "type": "document",
+                    "source": {"type": "file", "file_id": uploaded.id}
+                }
+            ]
+        }],
+        betas=["files-api-2025-04-14"],
+    )
+    print(f"\nQ: {question}")
+    text = next((b.text for b in response.content if b.type == "text"), "")
+    print(f"A: {text[:200]}")
+
+# 3. Clean up when done
+client.beta.files.delete(uploaded.id)
+```

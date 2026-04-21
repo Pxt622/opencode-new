@@ -1,1 +1,387 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogdmFsaWRhdGUtYXNzZXQuY2pzCiAqCiAqIFZhbGlkYXRlcyBtYXJrZXRpbmcgYXNzZXRzIGFnYWluc3QgYnJhbmQgZ3VpZGVsaW5lcy4KICogQ2hlY2tzOiBmaWxlIG5hbWluZywgZGltZW5zaW9ucywgZmlsZSBzaXplLCBtZXRhZGF0YS4KICoKICogVXNhZ2U6CiAqICAgbm9kZSB2YWxpZGF0ZS1hc3NldC5janMgPGFzc2V0LXBhdGg+CiAqICAgbm9kZSB2YWxpZGF0ZS1hc3NldC5janMgPGFzc2V0LXBhdGg+IC0tanNvbgogKiAgIG5vZGUgdmFsaWRhdGUtYXNzZXQuY2pzIDxhc3NldC1wYXRoPiAtLWZpeAogKgogKiBGb3IgY29sb3IgdmFsaWRhdGlvbiBvZiBpbWFnZXMsIHVzZSB3aXRoIGV4dHJhY3QtY29sb3JzLmNqcwogKi8KCmNvbnN0IGZzID0gcmVxdWlyZSgiZnMiKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoInBhdGgiKTsKCi8vIFZhbGlkYXRpb24gcnVsZXMKY29uc3QgUlVMRVMgPSB7CiAgbmFtaW5nOiB7CiAgICBwYXR0ZXJuOiAvXlthLXpdK19bYS16MC05LV0rX1thLXowLTktXStfXGR7OH0oX1thLXowLTktXSspP1wuW2Etel0rJC8sCiAgICBkZXNjcmlwdGlvbjoKICAgICAgInt0eXBlfV97Y2FtcGFpZ259X3tkZXNjcmlwdGlvbn1fe3RpbWVzdGFtcH1fe3ZhcmlhbnR9LntleHR9IiwKICAgIGV4YW1wbGVzOiBbCiAgICAgICJiYW5uZXJfY2xhdWRlLWxhdW5jaF9oZXJvLWltYWdlXzIwMjUxMjA5LnBuZyIsCiAgICAgICJsb2dvX2JyYW5kLXJlZnJlc2hfaG9yaXpvbnRhbF8yMDI1MTIwOV9kYXJrLnN2ZyIsCiAgICBdLAogIH0sCiAgZGltZW5zaW9uczogewogICAgYmFubmVyOiB7IG1pbldpZHRoOiA2MDAsIG1pbkhlaWdodDogMzAwIH0sCiAgICBsb2dvOiB7IG1pbldpZHRoOiAxMDAsIG1pbkhlaWdodDogMTAwIH0sCiAgICBkZXNpZ246IHsgbWluV2lkdGg6IDgwMCwgbWluSGVpZ2h0OiA2MDAgfSwKICAgIHZpZGVvOiB7IG1pbldpZHRoOiA2NDAsIG1pbkhlaWdodDogNDgwIH0sCiAgICBkZWZhdWx0OiB7IG1pbldpZHRoOiAxMDAsIG1pbkhlaWdodDogMTAwIH0sCiAgfSwKICBmaWxlU2l6ZTogewogICAgaW1hZ2U6IHsgbWF4OiA1ICogMTAyNCAqIDEwMjQsIHJlY29tbWVuZGVkOiAxICogMTAyNCAqIDEwMjQgfSwKICAgIHZpZGVvOiB7IG1heDogMTAwICogMTAyNCAqIDEwMjQsIHJlY29tbWVuZGVkOiA1MCAqIDEwMjQgKiAxMDI0IH0sCiAgICBzdmc6IHsgbWF4OiA1MDAgKiAxMDI0LCByZWNvbW1lbmRlZDogMTAwICogMTAyNCB9LAogIH0sCiAgZm9ybWF0czogewogICAgaW1hZ2U6IFsicG5nIiwgImpwZyIsICJqcGVnIiwgIndlYnAiLCAiZ2lmIl0sCiAgICB2ZWN0b3I6IFsic3ZnIl0sCiAgICB2aWRlbzogWyJtcDQiLCAibW92IiwgIndlYm0iXSwKICAgIGRvY3VtZW50OiBbInBkZiIsICJwc2QiLCAiYWkiLCAiZmlnIl0sCiAgfSwKfTsKCi8qKgogKiBQYXJzZSBhc3NldCBmaWxlbmFtZQogKi8KZnVuY3Rpb24gcGFyc2VGaWxlbmFtZShmaWxlbmFtZSkgewogIGNvbnN0IHBhcnRzID0gZmlsZW5hbWUucmVwbGFjZSgvXC5bXi5dKyQvLCAiIikuc3BsaXQoIl8iKTsKCiAgaWYgKHBhcnRzLmxlbmd0aCA8IDQpIHsKICAgIHJldHVybiBudWxsOwogIH0KCiAgcmV0dXJuIHsKICAgIHR5cGU6IHBhcnRzWzBdLAogICAgY2FtcGFpZ246IHBhcnRzWzFdLAogICAgZGVzY3JpcHRpb246IHBhcnRzWzJdLAogICAgdGltZXN0YW1wOiBwYXJ0c1szXSwKICAgIHZhcmlhbnQ6IHBhcnRzLmxlbmd0aCA+IDQgPyBwYXJ0c1s0XSA6IG51bGwsCiAgICBleHRlbnNpb246IHBhdGguZXh0bmFtZShmaWxlbmFtZSkuc2xpY2UoMSkudG9Mb3dlckNhc2UoKSwKICB9Owp9CgovKioKICogVmFsaWRhdGUgZmlsZW5hbWUgY29udmVudGlvbgogKi8KZnVuY3Rpb24gdmFsaWRhdGVGaWxlbmFtZShmaWxlbmFtZSkgewogIGNvbnN0IGlzc3VlcyA9IFtdOwogIGNvbnN0IHN1Z2dlc3Rpb25zID0gW107CgogIC8vIENoZWNrIHBhdHRlcm4gbWF0Y2gKICBpZiAoIVJVTEVTLm5hbWluZy5wYXR0ZXJuLnRlc3QoZmlsZW5hbWUpKSB7CiAgICBpc3N1ZXMucHVzaCgiRmlsZW5hbWUgZG9lcyBub3QgbWF0Y2ggbmFtaW5nIGNvbnZlbnRpb24iKTsKICAgIHN1Z2dlc3Rpb25zLnB1c2goYEV4cGVjdGVkIGZvcm1hdDogJHtSVUxFUy5uYW1pbmcuZGVzY3JpcHRpb259YCk7CiAgICBzdWdnZXN0aW9ucy5wdXNoKGBFeGFtcGxlczogJHtSVUxFUy5uYW1pbmcuZXhhbXBsZXMuam9pbigiLCAiKX1gKTsKICB9CgogIC8vIFBhcnNlIGFuZCBjaGVjayBjb21wb25lbnRzCiAgY29uc3QgcGFyc2VkID0gcGFyc2VGaWxlbmFtZShmaWxlbmFtZSk7CiAgaWYgKHBhcnNlZCkgewogICAgLy8gQ2hlY2sgdGltZXN0YW1wIGZvcm1hdAogICAgaWYgKCEvXlxkezh9JC8udGVzdChwYXJzZWQudGltZXN0YW1wKSkgewogICAgICBpc3N1ZXMucHVzaCgiVGltZXN0YW1wIHNob3VsZCBiZSBZWVlZTU1ERCBmb3JtYXQiKTsKICAgIH0KCiAgICAvLyBDaGVjayBrZWJhYi1jYXNlIGZvciBjYW1wYWlnbiBhbmQgZGVzY3JpcHRpb24KICAgIGlmIChwYXJzZWQuY2FtcGFpZ24gJiYgIS9eW2EtejAtOS1dKyQvLnRlc3QocGFyc2VkLmNhbXBhaWduKSkgewogICAgICBpc3N1ZXMucHVzaCgiQ2FtcGFpZ24gbmFtZSBzaG91bGQgYmUga2ViYWItY2FzZSIpOwogICAgfQoKICAgIGlmIChwYXJzZWQuZGVzY3JpcHRpb24gJiYgIS9eW2EtejAtOS1dKyQvLnRlc3QocGFyc2VkLmRlc2NyaXB0aW9uKSkgewogICAgICBpc3N1ZXMucHVzaCgiRGVzY3JpcHRpb24gc2hvdWxkIGJlIGtlYmFiLWNhc2UiKTsKICAgIH0KCiAgICAvLyBDaGVjayB2YWxpZCB0eXBlCiAgICBjb25zdCB2YWxpZFR5cGVzID0gWwogICAgICAiYmFubmVyIiwKICAgICAgImxvZ28iLAogICAgICAiZGVzaWduIiwKICAgICAgInZpZGVvIiwKICAgICAgImluZm9ncmFwaGljIiwKICAgICAgImljb24iLAogICAgICAicGhvdG8iLAogICAgXTsKICAgIGlmICghdmFsaWRUeXBlcy5pbmNsdWRlcyhwYXJzZWQudHlwZSkpIHsKICAgICAgc3VnZ2VzdGlvbnMucHVzaChgQ29uc2lkZXIgdXNpbmcgdHlwZTogJHt2YWxpZFR5cGVzLmpvaW4oIiwgIil9YCk7CiAgICB9CiAgfQoKICByZXR1cm4geyB2YWxpZDogaXNzdWVzLmxlbmd0aCA9PT0gMCwgaXNzdWVzLCBzdWdnZXN0aW9ucywgcGFyc2VkIH07Cn0KCi8qKgogKiBWYWxpZGF0ZSBmaWxlIHNpemUKICovCmZ1bmN0aW9uIHZhbGlkYXRlRmlsZVNpemUoZmlsZXBhdGgsIGV4dGVuc2lvbikgewogIGNvbnN0IGlzc3VlcyA9IFtdOwogIGNvbnN0IHdhcm5pbmdzID0gW107CgogIGNvbnN0IHN0YXRzID0gZnMuc3RhdFN5bmMoZmlsZXBhdGgpOwogIGNvbnN0IHNpemUgPSBzdGF0cy5zaXplOwoKICBsZXQgbGltaXRzOwogIGlmIChSVUxFUy5mb3JtYXRzLnZpZGVvLmluY2x1ZGVzKGV4dGVuc2lvbikpIHsKICAgIGxpbWl0cyA9IFJVTEVTLmZpbGVTaXplLnZpZGVvOwogIH0gZWxzZSBpZiAoZXh0ZW5zaW9uID09PSAic3ZnIikgewogICAgbGltaXRzID0gUlVMRVMuZmlsZVNpemUuc3ZnOwogIH0gZWxzZSB7CiAgICBsaW1pdHMgPSBSVUxFUy5maWxlU2l6ZS5pbWFnZTsKICB9CgogIGlmIChzaXplID4gbGltaXRzLm1heCkgewogICAgaXNzdWVzLnB1c2goCiAgICAgIGBGaWxlIHNpemUgKCR7Zm9ybWF0Qnl0ZXMoc2l6ZSl9KSBleGNlZWRzIG1heGltdW0gKCR7Zm9ybWF0Qnl0ZXMoCiAgICAgICAgbGltaXRzLm1heAogICAgICApfSlgCiAgICApOwogIH0gZWxzZSBpZiAoc2l6ZSA+IGxpbWl0cy5yZWNvbW1lbmRlZCkgewogICAgd2FybmluZ3MucHVzaCgKICAgICAgYEZpbGUgc2l6ZSAoJHtmb3JtYXRCeXRlcyhzaXplKX0pIGV4Y2VlZHMgcmVjb21tZW5kZWQgKCR7Zm9ybWF0Qnl0ZXMoCiAgICAgICAgbGltaXRzLnJlY29tbWVuZGVkCiAgICAgICl9KWAKICAgICk7CiAgfQoKICByZXR1cm4geyB2YWxpZDogaXNzdWVzLmxlbmd0aCA9PT0gMCwgaXNzdWVzLCB3YXJuaW5ncywgc2l6ZSB9Owp9CgovKioKICogVmFsaWRhdGUgZmlsZSBmb3JtYXQKICovCmZ1bmN0aW9uIHZhbGlkYXRlRm9ybWF0KGV4dGVuc2lvbikgewogIGNvbnN0IGlzc3VlcyA9IFtdOwogIGNvbnN0IGluZm8gPSB7IGNhdGVnb3J5OiBudWxsIH07CgogIGNvbnN0IGFsbEZvcm1hdHMgPSBbCiAgICAuLi5SVUxFUy5mb3JtYXRzLmltYWdlLAogICAgLi4uUlVMRVMuZm9ybWF0cy52ZWN0b3IsCiAgICAuLi5SVUxFUy5mb3JtYXRzLnZpZGVvLAogICAgLi4uUlVMRVMuZm9ybWF0cy5kb2N1bWVudCwKICBdOwoKICBpZiAoIWFsbEZvcm1hdHMuaW5jbHVkZXMoZXh0ZW5zaW9uKSkgewogICAgaXNzdWVzLnB1c2goYFVuc3VwcG9ydGVkIGZpbGUgZm9ybWF0OiAuJHtleHRlbnNpb259YCk7CiAgICByZXR1cm4geyB2YWxpZDogZmFsc2UsIGlzc3VlcywgaW5mbyB9OwogIH0KCiAgLy8gRGV0ZXJtaW5lIGNhdGVnb3J5CiAgaWYgKFJVTEVTLmZvcm1hdHMuaW1hZ2UuaW5jbHVkZXMoZXh0ZW5zaW9uKSkgaW5mby5jYXRlZ29yeSA9ICJpbWFnZSI7CiAgZWxzZSBpZiAoUlVMRVMuZm9ybWF0cy52ZWN0b3IuaW5jbHVkZXMoZXh0ZW5zaW9uKSkgaW5mby5jYXRlZ29yeSA9ICJ2ZWN0b3IiOwogIGVsc2UgaWYgKFJVTEVTLmZvcm1hdHMudmlkZW8uaW5jbHVkZXMoZXh0ZW5zaW9uKSkgaW5mby5jYXRlZ29yeSA9ICJ2aWRlbyI7CiAgZWxzZSBpZiAoUlVMRVMuZm9ybWF0cy5kb2N1bWVudC5pbmNsdWRlcyhleHRlbnNpb24pKQogICAgaW5mby5jYXRlZ29yeSA9ICJkb2N1bWVudCI7CgogIHJldHVybiB7IHZhbGlkOiB0cnVlLCBpc3N1ZXMsIGluZm8gfTsKfQoKLyoqCiAqIENoZWNrIGlmIGFzc2V0IGV4aXN0cyBpbiBtYW5pZmVzdAogKi8KZnVuY3Rpb24gY2hlY2tNYW5pZmVzdChmaWxlcGF0aCkgewogIGNvbnN0IG1hbmlmZXN0UGF0aCA9IHBhdGguam9pbihwcm9jZXNzLmN3ZCgpLCAiLmFzc2V0cyIsICJtYW5pZmVzdC5qc29uIik7CgogIGlmICghZnMuZXhpc3RzU3luYyhtYW5pZmVzdFBhdGgpKSB7CiAgICByZXR1cm4geyByZWdpc3RlcmVkOiBmYWxzZSwgbWVzc2FnZTogIk1hbmlmZXN0IG5vdCBmb3VuZCIgfTsKICB9CgogIHRyeSB7CiAgICBjb25zdCBtYW5pZmVzdCA9IEpTT04ucGFyc2UoZnMucmVhZEZpbGVTeW5jKG1hbmlmZXN0UGF0aCwgInV0Zi04IikpOwogICAgY29uc3QgcmVsYXRpdmVQYXRoID0gcGF0aC5yZWxhdGl2ZShwcm9jZXNzLmN3ZCgpLCBmaWxlcGF0aCk7CiAgICBjb25zdCBmb3VuZCA9IG1hbmlmZXN0LmFzc2V0cz8uZmluZCgKICAgICAgKGEpID0+IGEucGF0aCA9PT0gcmVsYXRpdmVQYXRoIHx8IGEucGF0aCA9PT0gZmlsZXBhdGgKICAgICk7CgogICAgcmV0dXJuIHsKICAgICAgcmVnaXN0ZXJlZDogISFmb3VuZCwKICAgICAgbWVzc2FnZTogZm91bmQgPyAiQXNzZXQgcmVnaXN0ZXJlZCBpbiBtYW5pZmVzdCIgOiAiQXNzZXQgbm90IGluIG1hbmlmZXN0IiwKICAgICAgYXNzZXQ6IGZvdW5kLAogICAgfTsKICB9IGNhdGNoIHsKICAgIHJldHVybiB7IHJlZ2lzdGVyZWQ6IGZhbHNlLCBtZXNzYWdlOiAiRXJyb3IgcmVhZGluZyBtYW5pZmVzdCIgfTsKICB9Cn0KCi8qKgogKiBHZW5lcmF0ZSBzdWdnZXN0ZWQgZmlsZW5hbWUKICovCmZ1bmN0aW9uIHN1Z2dlc3RGaWxlbmFtZShvcmlnaW5hbCwgcGFyc2VkKSB7CiAgaWYgKCFwYXJzZWQpIHJldHVybiBudWxsOwoKICBjb25zdCB0b2RheSA9IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKS5zbGljZSgwLCAxMCkucmVwbGFjZSgvLS9nLCAiIik7CiAgY29uc3QgdHlwZSA9IHBhcnNlZC50eXBlIHx8ICJhc3NldCI7CiAgY29uc3QgY2FtcGFpZ24gPSBwYXJzZWQuY2FtcGFpZ24gfHwgImdlbmVyYWwiOwogIGNvbnN0IGRlc2NyaXB0aW9uID0gcGFyc2VkLmRlc2NyaXB0aW9uIHx8ICJ1bnRpdGxlZCI7CiAgY29uc3QgZXh0ID0gcGFyc2VkLmV4dGVuc2lvbiB8fCAicG5nIjsKCiAgcmV0dXJuIGAke3R5cGV9XyR7Y2FtcGFpZ259XyR7ZGVzY3JpcHRpb259XyR7dG9kYXl9LiR7ZXh0fWA7Cn0KCi8qKgogKiBGb3JtYXQgYnl0ZXMgdG8gaHVtYW4gcmVhZGFibGUKICovCmZ1bmN0aW9uIGZvcm1hdEJ5dGVzKGJ5dGVzKSB7CiAgaWYgKGJ5dGVzID09PSAwKSByZXR1cm4gIjAgQnl0ZXMiOwogIGNvbnN0IGsgPSAxMDI0OwogIGNvbnN0IHNpemVzID0gWyJCeXRlcyIsICJLQiIsICJNQiIsICJHQiJdOwogIGNvbnN0IGkgPSBNYXRoLmZsb29yKE1hdGgubG9nKGJ5dGVzKSAvIE1hdGgubG9nKGspKTsKICByZXR1cm4gcGFyc2VGbG9hdCgoYnl0ZXMgLyBNYXRoLnBvdyhrLCBpKSkudG9GaXhlZCgyKSkgKyAiICIgKyBzaXplc1tpXTsKfQoKLyoqCiAqIE1haW4gdmFsaWRhdGlvbiBmdW5jdGlvbgogKi8KZnVuY3Rpb24gdmFsaWRhdGVBc3NldChhc3NldFBhdGgpIHsKICBjb25zdCByZXN1bHRzID0gewogICAgcGF0aDogYXNzZXRQYXRoLAogICAgZmlsZW5hbWU6IHBhdGguYmFzZW5hbWUoYXNzZXRQYXRoKSwKICAgIHZhbGlkOiB0cnVlLAogICAgaXNzdWVzOiBbXSwKICAgIHdhcm5pbmdzOiBbXSwKICAgIHN1Z2dlc3Rpb25zOiBbXSwKICAgIGNoZWNrczoge30sCiAgfTsKCiAgLy8gQ2hlY2sgZmlsZSBleGlzdHMKICBpZiAoIWZzLmV4aXN0c1N5bmMoYXNzZXRQYXRoKSkgewogICAgcmVzdWx0cy52YWxpZCA9IGZhbHNlOwogICAgcmVzdWx0cy5pc3N1ZXMucHVzaChgRmlsZSBub3QgZm91bmQ6ICR7YXNzZXRQYXRofWApOwogICAgcmV0dXJuIHJlc3VsdHM7CiAgfQoKICBjb25zdCBmaWxlbmFtZSA9IHBhdGguYmFzZW5hbWUoYXNzZXRQYXRoKTsKICBjb25zdCBleHRlbnNpb24gPSBwYXRoLmV4dG5hbWUoZmlsZW5hbWUpLnNsaWNlKDEpLnRvTG93ZXJDYXNlKCk7CgogIC8vIDEuIFZhbGlkYXRlIGZpbGVuYW1lCiAgY29uc3QgZmlsZW5hbWVSZXN1bHQgPSB2YWxpZGF0ZUZpbGVuYW1lKGZpbGVuYW1lKTsKICByZXN1bHRzLmNoZWNrcy5maWxlbmFtZSA9IGZpbGVuYW1lUmVzdWx0OwogIGlmICghZmlsZW5hbWVSZXN1bHQudmFsaWQpIHsKICAgIHJlc3VsdHMuaXNzdWVzLnB1c2goLi4uZmlsZW5hbWVSZXN1bHQuaXNzdWVzKTsKICAgIHJlc3VsdHMuc3VnZ2VzdGlvbnMucHVzaCguLi5maWxlbmFtZVJlc3VsdC5zdWdnZXN0aW9ucyk7CiAgfQoKICAvLyAyLiBWYWxpZGF0ZSBmb3JtYXQKICBjb25zdCBmb3JtYXRSZXN1bHQgPSB2YWxpZGF0ZUZvcm1hdChleHRlbnNpb24pOwogIHJlc3VsdHMuY2hlY2tzLmZvcm1hdCA9IGZvcm1hdFJlc3VsdDsKICBpZiAoIWZvcm1hdFJlc3VsdC52YWxpZCkgewogICAgcmVzdWx0cy5pc3N1ZXMucHVzaCguLi5mb3JtYXRSZXN1bHQuaXNzdWVzKTsKICB9CgogIC8vIDMuIFZhbGlkYXRlIGZpbGUgc2l6ZQogIGNvbnN0IHNpemVSZXN1bHQgPSB2YWxpZGF0ZUZpbGVTaXplKGFzc2V0UGF0aCwgZXh0ZW5zaW9uKTsKICByZXN1bHRzLmNoZWNrcy5maWxlU2l6ZSA9IHNpemVSZXN1bHQ7CiAgaWYgKCFzaXplUmVzdWx0LnZhbGlkKSB7CiAgICByZXN1bHRzLmlzc3Vlcy5wdXNoKC4uLnNpemVSZXN1bHQuaXNzdWVzKTsKICB9CiAgcmVzdWx0cy53YXJuaW5ncy5wdXNoKC4uLnNpemVSZXN1bHQud2FybmluZ3MpOwoKICAvLyA0LiBDaGVjayBtYW5pZmVzdCByZWdpc3RyYXRpb24KICBjb25zdCBtYW5pZmVzdFJlc3VsdCA9IGNoZWNrTWFuaWZlc3QoYXNzZXRQYXRoKTsKICByZXN1bHRzLmNoZWNrcy5tYW5pZmVzdCA9IG1hbmlmZXN0UmVzdWx0OwogIGlmICghbWFuaWZlc3RSZXN1bHQucmVnaXN0ZXJlZCkgewogICAgcmVzdWx0cy53YXJuaW5ncy5wdXNoKCJBc3NldCBub3QgcmVnaXN0ZXJlZCBpbiBtYW5pZmVzdC5qc29uIik7CiAgICByZXN1bHRzLnN1Z2dlc3Rpb25zLnB1c2goCiAgICAgICJSZWdpc3RlciBhc3NldCBpbiAuYXNzZXRzL21hbmlmZXN0Lmpzb24gZm9yIHRyYWNraW5nIgogICAgKTsKICB9CgogIC8vIDUuIFN1Z2dlc3QgY29ycmVjdGVkIGZpbGVuYW1lIGlmIG5lZWRlZAogIGlmICghZmlsZW5hbWVSZXN1bHQudmFsaWQgJiYgZmlsZW5hbWVSZXN1bHQucGFyc2VkKSB7CiAgICBjb25zdCBzdWdnZXN0ZWQgPSBzdWdnZXN0RmlsZW5hbWUoZmlsZW5hbWUsIGZpbGVuYW1lUmVzdWx0LnBhcnNlZCk7CiAgICBpZiAoc3VnZ2VzdGVkKSB7CiAgICAgIHJlc3VsdHMuc3VnZ2VzdGlvbnMucHVzaChgU3VnZ2VzdGVkIGZpbGVuYW1lOiAke3N1Z2dlc3RlZH1gKTsKICAgIH0KICB9CgogIC8vIE92ZXJhbGwgdmFsaWRpdHkKICByZXN1bHRzLnZhbGlkID0gcmVzdWx0cy5pc3N1ZXMubGVuZ3RoID09PSAwOwoKICByZXR1cm4gcmVzdWx0czsKfQoKLyoqCiAqIEZvcm1hdCBvdXRwdXQgZm9yIGNvbnNvbGUKICovCmZ1bmN0aW9uIGZvcm1hdE91dHB1dChyZXN1bHRzKSB7CiAgY29uc3QgbGluZXMgPSBbXTsKCiAgbGluZXMucHVzaCgiXG4iICsgIj0iLnJlcGVhdCg2MCkpOwogIGxpbmVzLnB1c2goYEFTU0VUIFZBTElEQVRJT046ICR7cmVzdWx0cy5maWxlbmFtZX1gKTsKICBsaW5lcy5wdXNoKCI9Ii5yZXBlYXQoNjApKTsKCiAgbGluZXMucHVzaChgXG5TdGF0dXM6ICR7cmVzdWx0cy52YWxpZCA/ICJQQVNTIiA6ICJGQUlMIn1gKTsKICBsaW5lcy5wdXNoKGBQYXRoOiAke3Jlc3VsdHMucGF0aH1gKTsKCiAgaWYgKHJlc3VsdHMuaXNzdWVzLmxlbmd0aCA+IDApIHsKICAgIGxpbmVzLnB1c2goIlxuSVNTVUVTOiIpOwogICAgcmVzdWx0cy5pc3N1ZXMuZm9yRWFjaCgoaXNzdWUpID0+IGxpbmVzLnB1c2goYCAgLSAke2lzc3VlfWApKTsKICB9CgogIGlmIChyZXN1bHRzLndhcm5pbmdzLmxlbmd0aCA+IDApIHsKICAgIGxpbmVzLnB1c2goIlxuV0FSTklOR1M6Iik7CiAgICByZXN1bHRzLndhcm5pbmdzLmZvckVhY2goKHdhcm5pbmcpID0+IGxpbmVzLnB1c2goYCAgLSAke3dhcm5pbmd9YCkpOwogIH0KCiAgaWYgKHJlc3VsdHMuc3VnZ2VzdGlvbnMubGVuZ3RoID4gMCkgewogICAgbGluZXMucHVzaCgiXG5TVUdHRVNUSU9OUzoiKTsKICAgIHJlc3VsdHMuc3VnZ2VzdGlvbnMuZm9yRWFjaCgoc3VnZ2VzdGlvbikgPT4KICAgICAgbGluZXMucHVzaChgICAtICR7c3VnZ2VzdGlvbn1gKQogICAgKTsKICB9CgogIC8vIEZpbGUgc2l6ZSBpbmZvCiAgaWYgKHJlc3VsdHMuY2hlY2tzLmZpbGVTaXplPy5zaXplKSB7CiAgICBsaW5lcy5wdXNoKGBcbkZpbGUgU2l6ZTogJHtmb3JtYXRCeXRlcyhyZXN1bHRzLmNoZWNrcy5maWxlU2l6ZS5zaXplKX1gKTsKICB9CgogIGxpbmVzLnB1c2goIlxuIiArICI9Ii5yZXBlYXQoNjApKTsKCiAgcmV0dXJuIGxpbmVzLmpvaW4oIlxuIik7Cn0KCi8qKgogKiBNYWluCiAqLwpmdW5jdGlvbiBtYWluKCkgewogIGNvbnN0IGFyZ3MgPSBwcm9jZXNzLmFyZ3Yuc2xpY2UoMik7CiAgY29uc3QganNvbk91dHB1dCA9IGFyZ3MuaW5jbHVkZXMoIi0tanNvbiIpOwogIGNvbnN0IGFzc2V0UGF0aCA9IGFyZ3MuZmluZCgoYSkgPT4gIWEuc3RhcnRzV2l0aCgiLS0iKSk7CgogIGlmICghYXNzZXRQYXRoKSB7CiAgICBjb25zb2xlLmVycm9yKCJVc2FnZTogbm9kZSB2YWxpZGF0ZS1hc3NldC5janMgPGFzc2V0LXBhdGg+IFstLWpzb25dIik7CiAgICBjb25zb2xlLmVycm9yKCJcbkV4YW1wbGVzOiIpOwogICAgY29uc29sZS5lcnJvcigKICAgICAgIiAgbm9kZSB2YWxpZGF0ZS1hc3NldC5janMgYXNzZXRzL2Jhbm5lcnMvc29jaWFsLW1lZGlhL2Jhbm5lcl9sYXVuY2hfaGVyb18yMDI1MTIwOS5wbmciCiAgICApOwogICAgY29uc29sZS5lcnJvcigKICAgICAgIiAgbm9kZSB2YWxpZGF0ZS1hc3NldC5janMgYXNzZXRzL2xvZ29zL2ljb24tb25seS9sb2dvLWljb24uc3ZnIC0tanNvbiIKICAgICk7CiAgICBwcm9jZXNzLmV4aXQoMSk7CiAgfQoKICAvLyBSZXNvbHZlIHBhdGgKICBjb25zdCByZXNvbHZlZFBhdGggPSBwYXRoLmlzQWJzb2x1dGUoYXNzZXRQYXRoKQogICAgPyBhc3NldFBhdGgKICAgIDogcGF0aC5qb2luKHByb2Nlc3MuY3dkKCksIGFzc2V0UGF0aCk7CgogIC8vIFZhbGlkYXRlCiAgY29uc3QgcmVzdWx0cyA9IHZhbGlkYXRlQXNzZXQocmVzb2x2ZWRQYXRoKTsKCiAgLy8gT3V0cHV0CiAgaWYgKGpzb25PdXRwdXQpIHsKICAgIGNvbnNvbGUubG9nKEpTT04uc3RyaW5naWZ5KHJlc3VsdHMsIG51bGwsIDIpKTsKICB9IGVsc2UgewogICAgY29uc29sZS5sb2coZm9ybWF0T3V0cHV0KHJlc3VsdHMpKTsKICB9CgogIC8vIEV4aXQgd2l0aCBhcHByb3ByaWF0ZSBjb2RlCiAgcHJvY2Vzcy5leGl0KHJlc3VsdHMudmFsaWQgPyAwIDogMSk7Cn0KCm1haW4oKTsK
+#!/usr/bin/env node
+/**
+ * validate-asset.cjs
+ *
+ * Validates marketing assets against brand guidelines.
+ * Checks: file naming, dimensions, file size, metadata.
+ *
+ * Usage:
+ *   node validate-asset.cjs <asset-path>
+ *   node validate-asset.cjs <asset-path> --json
+ *   node validate-asset.cjs <asset-path> --fix
+ *
+ * For color validation of images, use with extract-colors.cjs
+ */
+
+const fs = require("fs");
+const path = require("path");
+
+// Validation rules
+const RULES = {
+  naming: {
+    pattern: /^[a-z]+_[a-z0-9-]+_[a-z0-9-]+_\d{8}(_[a-z0-9-]+)?\.[a-z]+$/,
+    description:
+      "{type}_{campaign}_{description}_{timestamp}_{variant}.{ext}",
+    examples: [
+      "banner_claude-launch_hero-image_20251209.png",
+      "logo_brand-refresh_horizontal_20251209_dark.svg",
+    ],
+  },
+  dimensions: {
+    banner: { minWidth: 600, minHeight: 300 },
+    logo: { minWidth: 100, minHeight: 100 },
+    design: { minWidth: 800, minHeight: 600 },
+    video: { minWidth: 640, minHeight: 480 },
+    default: { minWidth: 100, minHeight: 100 },
+  },
+  fileSize: {
+    image: { max: 5 * 1024 * 1024, recommended: 1 * 1024 * 1024 },
+    video: { max: 100 * 1024 * 1024, recommended: 50 * 1024 * 1024 },
+    svg: { max: 500 * 1024, recommended: 100 * 1024 },
+  },
+  formats: {
+    image: ["png", "jpg", "jpeg", "webp", "gif"],
+    vector: ["svg"],
+    video: ["mp4", "mov", "webm"],
+    document: ["pdf", "psd", "ai", "fig"],
+  },
+};
+
+/**
+ * Parse asset filename
+ */
+function parseFilename(filename) {
+  const parts = filename.replace(/\.[^.]+$/, "").split("_");
+
+  if (parts.length < 4) {
+    return null;
+  }
+
+  return {
+    type: parts[0],
+    campaign: parts[1],
+    description: parts[2],
+    timestamp: parts[3],
+    variant: parts.length > 4 ? parts[4] : null,
+    extension: path.extname(filename).slice(1).toLowerCase(),
+  };
+}
+
+/**
+ * Validate filename convention
+ */
+function validateFilename(filename) {
+  const issues = [];
+  const suggestions = [];
+
+  // Check pattern match
+  if (!RULES.naming.pattern.test(filename)) {
+    issues.push("Filename does not match naming convention");
+    suggestions.push(`Expected format: ${RULES.naming.description}`);
+    suggestions.push(`Examples: ${RULES.naming.examples.join(", ")}`);
+  }
+
+  // Parse and check components
+  const parsed = parseFilename(filename);
+  if (parsed) {
+    // Check timestamp format
+    if (!/^\d{8}$/.test(parsed.timestamp)) {
+      issues.push("Timestamp should be YYYYMMDD format");
+    }
+
+    // Check kebab-case for campaign and description
+    if (parsed.campaign && !/^[a-z0-9-]+$/.test(parsed.campaign)) {
+      issues.push("Campaign name should be kebab-case");
+    }
+
+    if (parsed.description && !/^[a-z0-9-]+$/.test(parsed.description)) {
+      issues.push("Description should be kebab-case");
+    }
+
+    // Check valid type
+    const validTypes = [
+      "banner",
+      "logo",
+      "design",
+      "video",
+      "infographic",
+      "icon",
+      "photo",
+    ];
+    if (!validTypes.includes(parsed.type)) {
+      suggestions.push(`Consider using type: ${validTypes.join(", ")}`);
+    }
+  }
+
+  return { valid: issues.length === 0, issues, suggestions, parsed };
+}
+
+/**
+ * Validate file size
+ */
+function validateFileSize(filepath, extension) {
+  const issues = [];
+  const warnings = [];
+
+  const stats = fs.statSync(filepath);
+  const size = stats.size;
+
+  let limits;
+  if (RULES.formats.video.includes(extension)) {
+    limits = RULES.fileSize.video;
+  } else if (extension === "svg") {
+    limits = RULES.fileSize.svg;
+  } else {
+    limits = RULES.fileSize.image;
+  }
+
+  if (size > limits.max) {
+    issues.push(
+      `File size (${formatBytes(size)}) exceeds maximum (${formatBytes(
+        limits.max
+      )})`
+    );
+  } else if (size > limits.recommended) {
+    warnings.push(
+      `File size (${formatBytes(size)}) exceeds recommended (${formatBytes(
+        limits.recommended
+      )})`
+    );
+  }
+
+  return { valid: issues.length === 0, issues, warnings, size };
+}
+
+/**
+ * Validate file format
+ */
+function validateFormat(extension) {
+  const issues = [];
+  const info = { category: null };
+
+  const allFormats = [
+    ...RULES.formats.image,
+    ...RULES.formats.vector,
+    ...RULES.formats.video,
+    ...RULES.formats.document,
+  ];
+
+  if (!allFormats.includes(extension)) {
+    issues.push(`Unsupported file format: .${extension}`);
+    return { valid: false, issues, info };
+  }
+
+  // Determine category
+  if (RULES.formats.image.includes(extension)) info.category = "image";
+  else if (RULES.formats.vector.includes(extension)) info.category = "vector";
+  else if (RULES.formats.video.includes(extension)) info.category = "video";
+  else if (RULES.formats.document.includes(extension))
+    info.category = "document";
+
+  return { valid: true, issues, info };
+}
+
+/**
+ * Check if asset exists in manifest
+ */
+function checkManifest(filepath) {
+  const manifestPath = path.join(process.cwd(), ".assets", "manifest.json");
+
+  if (!fs.existsSync(manifestPath)) {
+    return { registered: false, message: "Manifest not found" };
+  }
+
+  try {
+    const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf-8"));
+    const relativePath = path.relative(process.cwd(), filepath);
+    const found = manifest.assets?.find(
+      (a) => a.path === relativePath || a.path === filepath
+    );
+
+    return {
+      registered: !!found,
+      message: found ? "Asset registered in manifest" : "Asset not in manifest",
+      asset: found,
+    };
+  } catch {
+    return { registered: false, message: "Error reading manifest" };
+  }
+}
+
+/**
+ * Generate suggested filename
+ */
+function suggestFilename(original, parsed) {
+  if (!parsed) return null;
+
+  const today = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+  const type = parsed.type || "asset";
+  const campaign = parsed.campaign || "general";
+  const description = parsed.description || "untitled";
+  const ext = parsed.extension || "png";
+
+  return `${type}_${campaign}_${description}_${today}.${ext}`;
+}
+
+/**
+ * Format bytes to human readable
+ */
+function formatBytes(bytes) {
+  if (bytes === 0) return "0 Bytes";
+  const k = 1024;
+  const sizes = ["Bytes", "KB", "MB", "GB"];
+  const i = Math.floor(Math.log(bytes) / Math.log(k));
+  return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
+}
+
+/**
+ * Main validation function
+ */
+function validateAsset(assetPath) {
+  const results = {
+    path: assetPath,
+    filename: path.basename(assetPath),
+    valid: true,
+    issues: [],
+    warnings: [],
+    suggestions: [],
+    checks: {},
+  };
+
+  // Check file exists
+  if (!fs.existsSync(assetPath)) {
+    results.valid = false;
+    results.issues.push(`File not found: ${assetPath}`);
+    return results;
+  }
+
+  const filename = path.basename(assetPath);
+  const extension = path.extname(filename).slice(1).toLowerCase();
+
+  // 1. Validate filename
+  const filenameResult = validateFilename(filename);
+  results.checks.filename = filenameResult;
+  if (!filenameResult.valid) {
+    results.issues.push(...filenameResult.issues);
+    results.suggestions.push(...filenameResult.suggestions);
+  }
+
+  // 2. Validate format
+  const formatResult = validateFormat(extension);
+  results.checks.format = formatResult;
+  if (!formatResult.valid) {
+    results.issues.push(...formatResult.issues);
+  }
+
+  // 3. Validate file size
+  const sizeResult = validateFileSize(assetPath, extension);
+  results.checks.fileSize = sizeResult;
+  if (!sizeResult.valid) {
+    results.issues.push(...sizeResult.issues);
+  }
+  results.warnings.push(...sizeResult.warnings);
+
+  // 4. Check manifest registration
+  const manifestResult = checkManifest(assetPath);
+  results.checks.manifest = manifestResult;
+  if (!manifestResult.registered) {
+    results.warnings.push("Asset not registered in manifest.json");
+    results.suggestions.push(
+      "Register asset in .assets/manifest.json for tracking"
+    );
+  }
+
+  // 5. Suggest corrected filename if needed
+  if (!filenameResult.valid && filenameResult.parsed) {
+    const suggested = suggestFilename(filename, filenameResult.parsed);
+    if (suggested) {
+      results.suggestions.push(`Suggested filename: ${suggested}`);
+    }
+  }
+
+  // Overall validity
+  results.valid = results.issues.length === 0;
+
+  return results;
+}
+
+/**
+ * Format output for console
+ */
+function formatOutput(results) {
+  const lines = [];
+
+  lines.push("\n" + "=".repeat(60));
+  lines.push(`ASSET VALIDATION: ${results.filename}`);
+  lines.push("=".repeat(60));
+
+  lines.push(`\nStatus: ${results.valid ? "PASS" : "FAIL"}`);
+  lines.push(`Path: ${results.path}`);
+
+  if (results.issues.length > 0) {
+    lines.push("\nISSUES:");
+    results.issues.forEach((issue) => lines.push(`  - ${issue}`));
+  }
+
+  if (results.warnings.length > 0) {
+    lines.push("\nWARNINGS:");
+    results.warnings.forEach((warning) => lines.push(`  - ${warning}`));
+  }
+
+  if (results.suggestions.length > 0) {
+    lines.push("\nSUGGESTIONS:");
+    results.suggestions.forEach((suggestion) =>
+      lines.push(`  - ${suggestion}`)
+    );
+  }
+
+  // File size info
+  if (results.checks.fileSize?.size) {
+    lines.push(`\nFile Size: ${formatBytes(results.checks.fileSize.size)}`);
+  }
+
+  lines.push("\n" + "=".repeat(60));
+
+  return lines.join("\n");
+}
+
+/**
+ * Main
+ */
+function main() {
+  const args = process.argv.slice(2);
+  const jsonOutput = args.includes("--json");
+  const assetPath = args.find((a) => !a.startsWith("--"));
+
+  if (!assetPath) {
+    console.error("Usage: node validate-asset.cjs <asset-path> [--json]");
+    console.error("\nExamples:");
+    console.error(
+      "  node validate-asset.cjs assets/banners/social-media/banner_launch_hero_20251209.png"
+    );
+    console.error(
+      "  node validate-asset.cjs assets/logos/icon-only/logo-icon.svg --json"
+    );
+    process.exit(1);
+  }
+
+  // Resolve path
+  const resolvedPath = path.isAbsolute(assetPath)
+    ? assetPath
+    : path.join(process.cwd(), assetPath);
+
+  // Validate
+  const results = validateAsset(resolvedPath);
+
+  // Output
+  if (jsonOutput) {
+    console.log(JSON.stringify(results, null, 2));
+  } else {
+    console.log(formatOutput(results));
+  }
+
+  // Exit with appropriate code
+  process.exit(results.valid ? 0 : 1);
+}
+
+main();

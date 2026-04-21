@@ -1,1 +1,453 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKU2xpZGUgU2VhcmNoIENvcmUgLSBCTTI1IHNlYXJjaCBlbmdpbmUgZm9yIHNsaWRlIGRlc2lnbiBkYXRhYmFzZXMKIiIiCgppbXBvcnQgY3N2CmltcG9ydCByZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSBtYXRoIGltcG9ydCBsb2cKZnJvbSBjb2xsZWN0aW9ucyBpbXBvcnQgZGVmYXVsdGRpY3QKCiMgPT09PT09PT09PT09IENPTkZJR1VSQVRJT04gPT09PT09PT09PT09CkRBVEFfRElSID0gUGF0aChfX2ZpbGVfXykucGFyZW50LnBhcmVudCAvICJkYXRhIgpNQVhfUkVTVUxUUyA9IDMKCkNTVl9DT05GSUcgPSB7CiAgICAic3RyYXRlZ3kiOiB7CiAgICAgICAgImZpbGUiOiAic2xpZGUtc3RyYXRlZ2llcy5jc3YiLAogICAgICAgICJzZWFyY2hfY29scyI6IFsic3RyYXRlZ3lfbmFtZSIsICJrZXl3b3JkcyIsICJnb2FsIiwgImF1ZGllbmNlIiwgIm5hcnJhdGl2ZV9hcmMiXSwKICAgICAgICAib3V0cHV0X2NvbHMiOiBbInN0cmF0ZWd5X25hbWUiLCAia2V5d29yZHMiLCAic2xpZGVfY291bnQiLCAic3RydWN0dXJlIiwgImdvYWwiLCAiYXVkaWVuY2UiLCAidG9uZSIsICJuYXJyYXRpdmVfYXJjIiwgInNvdXJjZXMiXQogICAgfSwKICAgICJsYXlvdXQiOiB7CiAgICAgICAgImZpbGUiOiAic2xpZGUtbGF5b3V0cy5jc3YiLAogICAgICAgICJzZWFyY2hfY29scyI6IFsibGF5b3V0X25hbWUiLCAia2V5d29yZHMiLCAidXNlX2Nhc2UiLCAicmVjb21tZW5kZWRfZm9yIl0sCiAgICAgICAgIm91dHB1dF9jb2xzIjogWyJsYXlvdXRfbmFtZSIsICJrZXl3b3JkcyIsICJ1c2VfY2FzZSIsICJjb250ZW50X3pvbmVzIiwgInZpc3VhbF93ZWlnaHQiLCAiY3RhX3BsYWNlbWVudCIsICJyZWNvbW1lbmRlZF9mb3IiLCAiYXZvaWRfZm9yIiwgImNzc19zdHJ1Y3R1cmUiXQogICAgfSwKICAgICJjb3B5IjogewogICAgICAgICJmaWxlIjogInNsaWRlLWNvcHkuY3N2IiwKICAgICAgICAic2VhcmNoX2NvbHMiOiBbImZvcm11bGFfbmFtZSIsICJrZXl3b3JkcyIsICJ1c2VfY2FzZSIsICJlbW90aW9uX3RyaWdnZXIiLCAic2xpZGVfdHlwZSJdLAogICAgICAgICJvdXRwdXRfY29scyI6IFsiZm9ybXVsYV9uYW1lIiwgImtleXdvcmRzIiwgImNvbXBvbmVudHMiLCAidXNlX2Nhc2UiLCAiZXhhbXBsZV90ZW1wbGF0ZSIsICJlbW90aW9uX3RyaWdnZXIiLCAic2xpZGVfdHlwZSIsICJzb3VyY2UiXQogICAgfSwKICAgICJjaGFydCI6IHsKICAgICAgICAiZmlsZSI6ICJzbGlkZS1jaGFydHMuY3N2IiwKICAgICAgICAic2VhcmNoX2NvbHMiOiBbImNoYXJ0X3R5cGUiLCAia2V5d29yZHMiLCAiYmVzdF9mb3IiLCAid2hlbl90b191c2UiLCAic2xpZGVfY29udGV4dCJdLAogICAgICAgICJvdXRwdXRfY29scyI6IFsiY2hhcnRfdHlwZSIsICJrZXl3b3JkcyIsICJiZXN0X2ZvciIsICJkYXRhX3R5cGUiLCAid2hlbl90b191c2UiLCAid2hlbl90b19hdm9pZCIsICJtYXhfY2F0ZWdvcmllcyIsICJzbGlkZV9jb250ZXh0IiwgImNzc19pbXBsZW1lbnRhdGlvbiIsICJhY2Nlc3NpYmlsaXR5X25vdGVzIl0KICAgIH0KfQoKQVZBSUxBQkxFX0RPTUFJTlMgPSBsaXN0KENTVl9DT05GSUcua2V5cygpKQoKCiMgPT09PT09PT09PT09IEJNMjUgSU1QTEVNRU5UQVRJT04gPT09PT09PT09PT09CmNsYXNzIEJNMjU6CiAgICAiIiJCTTI1IHJhbmtpbmcgYWxnb3JpdGhtIGZvciB0ZXh0IHNlYXJjaCIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBrMT0xLjUsIGI9MC43NSk6CiAgICAgICAgc2VsZi5rMSA9IGsxCiAgICAgICAgc2VsZi5iID0gYgogICAgICAgIHNlbGYuY29ycHVzID0gW10KICAgICAgICBzZWxmLmRvY19sZW5ndGhzID0gW10KICAgICAgICBzZWxmLmF2Z2RsID0gMAogICAgICAgIHNlbGYuaWRmID0ge30KICAgICAgICBzZWxmLmRvY19mcmVxcyA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICBzZWxmLk4gPSAwCgogICAgZGVmIHRva2VuaXplKHNlbGYsIHRleHQpOgogICAgICAgICIiIkxvd2VyY2FzZSwgc3BsaXQsIHJlbW92ZSBwdW5jdHVhdGlvbiwgZmlsdGVyIHNob3J0IHdvcmRzIiIiCiAgICAgICAgdGV4dCA9IHJlLnN1YihyJ1teXHdcc10nLCAnICcsIHN0cih0ZXh0KS5sb3dlcigpKQogICAgICAgIHJldHVybiBbdyBmb3IgdyBpbiB0ZXh0LnNwbGl0KCkgaWYgbGVuKHcpID4gMl0KCiAgICBkZWYgZml0KHNlbGYsIGRvY3VtZW50cyk6CiAgICAgICAgIiIiQnVpbGQgQk0yNSBpbmRleCBmcm9tIGRvY3VtZW50cyIiIgogICAgICAgIHNlbGYuY29ycHVzID0gW3NlbGYudG9rZW5pemUoZG9jKSBmb3IgZG9jIGluIGRvY3VtZW50c10KICAgICAgICBzZWxmLk4gPSBsZW4oc2VsZi5jb3JwdXMpCiAgICAgICAgaWYgc2VsZi5OID09IDA6CiAgICAgICAgICAgIHJldHVybgogICAgICAgIHNlbGYuZG9jX2xlbmd0aHMgPSBbbGVuKGRvYykgZm9yIGRvYyBpbiBzZWxmLmNvcnB1c10KICAgICAgICBzZWxmLmF2Z2RsID0gc3VtKHNlbGYuZG9jX2xlbmd0aHMpIC8gc2VsZi5OCgogICAgICAgIGZvciBkb2MgaW4gc2VsZi5jb3JwdXM6CiAgICAgICAgICAgIHNlZW4gPSBzZXQoKQogICAgICAgICAgICBmb3Igd29yZCBpbiBkb2M6CiAgICAgICAgICAgICAgICBpZiB3b3JkIG5vdCBpbiBzZWVuOgogICAgICAgICAgICAgICAgICAgIHNlbGYuZG9jX2ZyZXFzW3dvcmRdICs9IDEKICAgICAgICAgICAgICAgICAgICBzZWVuLmFkZCh3b3JkKQoKICAgICAgICBmb3Igd29yZCwgZnJlcSBpbiBzZWxmLmRvY19mcmVxcy5pdGVtcygpOgogICAgICAgICAgICBzZWxmLmlkZlt3b3JkXSA9IGxvZygoc2VsZi5OIC0gZnJlcSArIDAuNSkgLyAoZnJlcSArIDAuNSkgKyAxKQoKICAgIGRlZiBzY29yZShzZWxmLCBxdWVyeSk6CiAgICAgICAgIiIiU2NvcmUgYWxsIGRvY3VtZW50cyBhZ2FpbnN0IHF1ZXJ5IiIiCiAgICAgICAgcXVlcnlfdG9rZW5zID0gc2VsZi50b2tlbml6ZShxdWVyeSkKICAgICAgICBzY29yZXMgPSBbXQoKICAgICAgICBmb3IgaWR4LCBkb2MgaW4gZW51bWVyYXRlKHNlbGYuY29ycHVzKToKICAgICAgICAgICAgc2NvcmUgPSAwCiAgICAgICAgICAgIGRvY19sZW4gPSBzZWxmLmRvY19sZW5ndGhzW2lkeF0KICAgICAgICAgICAgdGVybV9mcmVxcyA9IGRlZmF1bHRkaWN0KGludCkKICAgICAgICAgICAgZm9yIHdvcmQgaW4gZG9jOgogICAgICAgICAgICAgICAgdGVybV9mcmVxc1t3b3JkXSArPSAxCgogICAgICAgICAgICBmb3IgdG9rZW4gaW4gcXVlcnlfdG9rZW5zOgogICAgICAgICAgICAgICAgaWYgdG9rZW4gaW4gc2VsZi5pZGY6CiAgICAgICAgICAgICAgICAgICAgdGYgPSB0ZXJtX2ZyZXFzW3Rva2VuXQogICAgICAgICAgICAgICAgICAgIGlkZiA9IHNlbGYuaWRmW3Rva2VuXQogICAgICAgICAgICAgICAgICAgIG51bWVyYXRvciA9IHRmICogKHNlbGYuazEgKyAxKQogICAgICAgICAgICAgICAgICAgIGRlbm9taW5hdG9yID0gdGYgKyBzZWxmLmsxICogKDEgLSBzZWxmLmIgKyBzZWxmLmIgKiBkb2NfbGVuIC8gc2VsZi5hdmdkbCkKICAgICAgICAgICAgICAgICAgICBzY29yZSArPSBpZGYgKiBudW1lcmF0b3IgLyBkZW5vbWluYXRvcgoKICAgICAgICAgICAgc2NvcmVzLmFwcGVuZCgoaWR4LCBzY29yZSkpCgogICAgICAgIHJldHVybiBzb3J0ZWQoc2NvcmVzLCBrZXk9bGFtYmRhIHg6IHhbMV0sIHJldmVyc2U9VHJ1ZSkKCgojID09PT09PT09PT09PSBTRUFSQ0ggRlVOQ1RJT05TID09PT09PT09PT09PQpkZWYgX2xvYWRfY3N2KGZpbGVwYXRoKToKICAgICIiIkxvYWQgQ1NWIGFuZCByZXR1cm4gbGlzdCBvZiBkaWN0cyIiIgogICAgd2l0aCBvcGVuKGZpbGVwYXRoLCAncicsIGVuY29kaW5nPSd1dGYtOCcpIGFzIGY6CiAgICAgICAgcmV0dXJuIGxpc3QoY3N2LkRpY3RSZWFkZXIoZikpCgoKZGVmIF9zZWFyY2hfY3N2KGZpbGVwYXRoLCBzZWFyY2hfY29scywgb3V0cHV0X2NvbHMsIHF1ZXJ5LCBtYXhfcmVzdWx0cyk6CiAgICAiIiJDb3JlIHNlYXJjaCBmdW5jdGlvbiB1c2luZyBCTTI1IiIiCiAgICBpZiBub3QgZmlsZXBhdGguZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIFtdCgogICAgZGF0YSA9IF9sb2FkX2NzdihmaWxlcGF0aCkKCiAgICAjIEJ1aWxkIGRvY3VtZW50cyBmcm9tIHNlYXJjaCBjb2x1bW5zCiAgICBkb2N1bWVudHMgPSBbIiAiLmpvaW4oc3RyKHJvdy5nZXQoY29sLCAiIikpIGZvciBjb2wgaW4gc2VhcmNoX2NvbHMpIGZvciByb3cgaW4gZGF0YV0KCiAgICAjIEJNMjUgc2VhcmNoCiAgICBibTI1ID0gQk0yNSgpCiAgICBibTI1LmZpdChkb2N1bWVudHMpCiAgICByYW5rZWQgPSBibTI1LnNjb3JlKHF1ZXJ5KQoKICAgICMgR2V0IHRvcCByZXN1bHRzIHdpdGggc2NvcmUgPiAwCiAgICByZXN1bHRzID0gW10KICAgIGZvciBpZHgsIHNjb3JlIGluIHJhbmtlZFs6bWF4X3Jlc3VsdHNdOgogICAgICAgIGlmIHNjb3JlID4gMDoKICAgICAgICAgICAgcm93ID0gZGF0YVtpZHhdCiAgICAgICAgICAgIHJlc3VsdHMuYXBwZW5kKHtjb2w6IHJvdy5nZXQoY29sLCAiIikgZm9yIGNvbCBpbiBvdXRwdXRfY29scyBpZiBjb2wgaW4gcm93fSkKCiAgICByZXR1cm4gcmVzdWx0cwoKCmRlZiBkZXRlY3RfZG9tYWluKHF1ZXJ5KToKICAgICIiIkF1dG8tZGV0ZWN0IHRoZSBtb3N0IHJlbGV2YW50IGRvbWFpbiBmcm9tIHF1ZXJ5IiIiCiAgICBxdWVyeV9sb3dlciA9IHF1ZXJ5Lmxvd2VyKCkKCiAgICBkb21haW5fa2V5d29yZHMgPSB7CiAgICAgICAgInN0cmF0ZWd5IjogWyJwaXRjaCIsICJkZWNrIiwgImludmVzdG9yIiwgInljIiwgInNlZWQiLCAic2VyaWVzIiwgImRlbW8iLCAic2FsZXMiLCAid2ViaW5hciIsCiAgICAgICAgICAgICAgICAgICAgICJjb25mZXJlbmNlIiwgImJvYXJkIiwgInFiciIsICJhbGwtaGFuZHMiLCAiZHVhcnRlIiwgImthd2FzYWtpIiwgInN0cnVjdHVyZSJdLAogICAgICAgICJsYXlvdXQiOiBbInNsaWRlIiwgImxheW91dCIsICJncmlkIiwgImNvbHVtbiIsICJ0aXRsZSIsICJoZXJvIiwgInNlY3Rpb24iLCAiY3RhIiwKICAgICAgICAgICAgICAgICAgICJzY3JlZW5zaG90IiwgInF1b3RlIiwgInRpbWVsaW5lIiwgImNvbXBhcmlzb24iLCAicHJpY2luZyIsICJ0ZWFtIl0sCiAgICAgICAgImNvcHkiOiBbImhlYWRsaW5lIiwgImNvcHkiLCAiZm9ybXVsYSIsICJhaWRhIiwgInBhcyIsICJob29rIiwgImN0YSIsICJiZW5lZml0IiwKICAgICAgICAgICAgICAgICAib2JqZWN0aW9uIiwgInByb29mIiwgInRlc3RpbW9uaWFsIiwgInVyZ2VuY3kiLCAic2NhcmNpdHkiXSwKICAgICAgICAiY2hhcnQiOiBbImNoYXJ0IiwgImdyYXBoIiwgImJhciIsICJsaW5lIiwgInBpZSIsICJmdW5uZWwiLCAibWV0cmljcyIsICJkYXRhIiwKICAgICAgICAgICAgICAgICAgInZpc3VhbGl6YXRpb24iLCAia3BpIiwgInRyZW5kIiwgImNvbXBhcmlzb24iLCAiaGVhdG1hcCIsICJnYXVnZSJdCiAgICB9CgogICAgc2NvcmVzID0ge2RvbWFpbjogc3VtKDEgZm9yIGt3IGluIGtleXdvcmRzIGlmIGt3IGluIHF1ZXJ5X2xvd2VyKSBmb3IgZG9tYWluLCBrZXl3b3JkcyBpbiBkb21haW5fa2V5d29yZHMuaXRlbXMoKX0KICAgIGJlc3QgPSBtYXgoc2NvcmVzLCBrZXk9c2NvcmVzLmdldCkKICAgIHJldHVybiBiZXN0IGlmIHNjb3Jlc1tiZXN0XSA+IDAgZWxzZSAic3RyYXRlZ3kiCgoKZGVmIHNlYXJjaChxdWVyeSwgZG9tYWluPU5vbmUsIG1heF9yZXN1bHRzPU1BWF9SRVNVTFRTKToKICAgICIiIk1haW4gc2VhcmNoIGZ1bmN0aW9uIHdpdGggYXV0by1kb21haW4gZGV0ZWN0aW9uIiIiCiAgICBpZiBkb21haW4gaXMgTm9uZToKICAgICAgICBkb21haW4gPSBkZXRlY3RfZG9tYWluKHF1ZXJ5KQoKICAgIGNvbmZpZyA9IENTVl9DT05GSUcuZ2V0KGRvbWFpbiwgQ1NWX0NPTkZJR1sic3RyYXRlZ3kiXSkKICAgIGZpbGVwYXRoID0gREFUQV9ESVIgLyBjb25maWdbImZpbGUiXQoKICAgIGlmIG5vdCBmaWxlcGF0aC5leGlzdHMoKToKICAgICAgICByZXR1cm4geyJlcnJvciI6IGYiRmlsZSBub3QgZm91bmQ6IHtmaWxlcGF0aH0iLCAiZG9tYWluIjogZG9tYWlufQoKICAgIHJlc3VsdHMgPSBfc2VhcmNoX2NzdihmaWxlcGF0aCwgY29uZmlnWyJzZWFyY2hfY29scyJdLCBjb25maWdbIm91dHB1dF9jb2xzIl0sIHF1ZXJ5LCBtYXhfcmVzdWx0cykKCiAgICByZXR1cm4gewogICAgICAgICJkb21haW4iOiBkb21haW4sCiAgICAgICAgInF1ZXJ5IjogcXVlcnksCiAgICAgICAgImZpbGUiOiBjb25maWdbImZpbGUiXSwKICAgICAgICAiY291bnQiOiBsZW4ocmVzdWx0cyksCiAgICAgICAgInJlc3VsdHMiOiByZXN1bHRzCiAgICB9CgoKZGVmIHNlYXJjaF9hbGwocXVlcnksIG1heF9yZXN1bHRzPTIpOgogICAgIiIiU2VhcmNoIGFjcm9zcyBhbGwgZG9tYWlucyBmb3IgY29tcHJlaGVuc2l2ZSByZXN1bHRzIiIiCiAgICBhbGxfcmVzdWx0cyA9IHt9CgogICAgZm9yIGRvbWFpbiBpbiBBVkFJTEFCTEVfRE9NQUlOUzoKICAgICAgICByZXN1bHQgPSBzZWFyY2gocXVlcnksIGRvbWFpbiwgbWF4X3Jlc3VsdHMpCiAgICAgICAgaWYgcmVzdWx0LmdldCgiY291bnQiLCAwKSA+IDA6CiAgICAgICAgICAgIGFsbF9yZXN1bHRzW2RvbWFpbl0gPSByZXN1bHQKCiAgICByZXR1cm4gYWxsX3Jlc3VsdHMKCgojID09PT09PT09PT09PSBDT05URVhUVUFMIFNFQVJDSCAoUHJlbWl1bSBTbGlkZSBTeXN0ZW0pID09PT09PT09PT09PQoKIyBOZXcgQ1NWIGNvbmZpZ3VyYXRpb25zIGZvciBkZWNpc2lvbiBzeXN0ZW0KREVDSVNJT05fQ1NWX0NPTkZJRyA9IHsKICAgICJsYXlvdXQtbG9naWMiOiB7CiAgICAgICAgImZpbGUiOiAic2xpZGUtbGF5b3V0LWxvZ2ljLmNzdiIsCiAgICAgICAgImtleV9jb2wiOiAiZ29hbCIKICAgIH0sCiAgICAidHlwb2dyYXBoeSI6IHsKICAgICAgICAiZmlsZSI6ICJzbGlkZS10eXBvZ3JhcGh5LmNzdiIsCiAgICAgICAgImtleV9jb2wiOiAiY29udGVudF90eXBlIgogICAgfSwKICAgICJjb2xvci1sb2dpYyI6IHsKICAgICAgICAiZmlsZSI6ICJzbGlkZS1jb2xvci1sb2dpYy5jc3YiLAogICAgICAgICJrZXlfY29sIjogImVtb3Rpb24iCiAgICB9LAogICAgImJhY2tncm91bmRzIjogewogICAgICAgICJmaWxlIjogInNsaWRlLWJhY2tncm91bmRzLmNzdiIsCiAgICAgICAgImtleV9jb2wiOiAic2xpZGVfdHlwZSIKICAgIH0KfQoKCmRlZiBfbG9hZF9kZWNpc2lvbl9jc3YoY3N2X3R5cGUpOgogICAgIiIiTG9hZCBhIGRlY2lzaW9uIENTViBhbmQgcmV0dXJuIGFzIGRpY3Qga2V5ZWQgYnkgcHJpbWFyeSBjb2x1bW4uIiIiCiAgICBjb25maWcgPSBERUNJU0lPTl9DU1ZfQ09ORklHLmdldChjc3ZfdHlwZSkKICAgIGlmIG5vdCBjb25maWc6CiAgICAgICAgcmV0dXJuIHt9CgogICAgZmlsZXBhdGggPSBEQVRBX0RJUiAvIGNvbmZpZ1siZmlsZSJdCiAgICBpZiBub3QgZmlsZXBhdGguZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIHt9CgogICAgZGF0YSA9IF9sb2FkX2NzdihmaWxlcGF0aCkKICAgIHJldHVybiB7cm93W2NvbmZpZ1sia2V5X2NvbCJdXTogcm93IGZvciByb3cgaW4gZGF0YSBpZiBjb25maWdbImtleV9jb2wiXSBpbiByb3d9CgoKZGVmIGdldF9sYXlvdXRfZm9yX2dvYWwoZ29hbCwgcHJldmlvdXNfZW1vdGlvbj1Ob25lKToKICAgICIiIgogICAgR2V0IGxheW91dCByZWNvbW1lbmRhdGlvbiBiYXNlZCBvbiBzbGlkZSBnb2FsLgogICAgVXNlcyBzbGlkZS1sYXlvdXQtbG9naWMuY3N2IGZvciBkZWNpc2lvbi4KICAgICIiIgogICAgbGF5b3V0cyA9IF9sb2FkX2RlY2lzaW9uX2NzdigibGF5b3V0LWxvZ2ljIikKICAgIHJvdyA9IGxheW91dHMuZ2V0KGdvYWwsIGxheW91dHMuZ2V0KCJmZWF0dXJlcyIsIHt9KSkKCiAgICByZXN1bHQgPSBkaWN0KHJvdykgaWYgcm93IGVsc2Uge30KCiAgICAjIEFwcGx5IHBhdHRlcm4tYnJlYWtpbmcgbG9naWMKICAgIGlmIHJlc3VsdC5nZXQoImJyZWFrX3BhdHRlcm4iKSA9PSAidHJ1ZSIgYW5kIHByZXZpb3VzX2Vtb3Rpb246CiAgICAgICAgcmVzdWx0WyJfcGF0dGVybl9icmVhayJdID0gVHJ1ZQogICAgICAgIHJlc3VsdFsiX2NvbnRyYXN0X3dpdGgiXSA9IHByZXZpb3VzX2Vtb3Rpb24KCiAgICByZXR1cm4gcmVzdWx0CgoKZGVmIGdldF90eXBvZ3JhcGh5X2Zvcl9zbGlkZShzbGlkZV90eXBlLCBoYXNfbWV0cmljcz1GYWxzZSwgaGFzX3F1b3RlPUZhbHNlKToKICAgICIiIgogICAgR2V0IHR5cG9ncmFwaHkgcmVjb21tZW5kYXRpb24gYmFzZWQgb24gc2xpZGUgY29udGVudC4KICAgIFVzZXMgc2xpZGUtdHlwb2dyYXBoeS5jc3YgZm9yIGRlY2lzaW9uLgogICAgIiIiCiAgICB0eXBvZ3JhcGh5ID0gX2xvYWRfZGVjaXNpb25fY3N2KCJ0eXBvZ3JhcGh5IikKCiAgICBpZiBoYXNfbWV0cmljczoKICAgICAgICByZXR1cm4gdHlwb2dyYXBoeS5nZXQoIm1ldHJpYy1jYWxsb3V0Iiwge30pCiAgICBpZiBoYXNfcXVvdGU6CiAgICAgICAgcmV0dXJuIHR5cG9ncmFwaHkuZ2V0KCJxdW90ZS1ibG9jayIsIHt9KQoKICAgICMgTWFwIHNsaWRlIHR5cGVzIHRvIHR5cG9ncmFwaHkKICAgIHR5cGVfbWFwID0gewogICAgICAgICJoZXJvIjogImhlcm8tc3RhdGVtZW50IiwKICAgICAgICAiaG9vayI6ICJoZXJvLXN0YXRlbWVudCIsCiAgICAgICAgInRpdGxlIjogInRpdGxlLW9ubHkiLAogICAgICAgICJwcm9ibGVtIjogInN1YnRpdGxlLWhlYXZ5IiwKICAgICAgICAiYWdpdGF0aW9uIjogIm1ldHJpYy1jYWxsb3V0IiwKICAgICAgICAic29sdXRpb24iOiAic3VidGl0bGUtaGVhdnkiLAogICAgICAgICJmZWF0dXJlcyI6ICJmZWF0dXJlLWdyaWQiLAogICAgICAgICJwcm9vZiI6ICJtZXRyaWMtY2FsbG91dCIsCiAgICAgICAgInRyYWN0aW9uIjogImRhdGEtaW5zaWdodCIsCiAgICAgICAgInNvY2lhbCI6ICJxdW90ZS1ibG9jayIsCiAgICAgICAgInRlc3RpbW9uaWFsIjogInRlc3RpbW9uaWFsIiwKICAgICAgICAicHJpY2luZyI6ICJwcmljaW5nIiwKICAgICAgICAidGVhbSI6ICJ0ZWFtIiwKICAgICAgICAiY3RhIjogImN0YS1hY3Rpb24iLAogICAgICAgICJjb21wYXJpc29uIjogImNvbXBhcmlzb24iLAogICAgICAgICJ0aW1lbGluZSI6ICJ0aW1lbGluZSIsCiAgICB9CgogICAgY29udGVudF90eXBlID0gdHlwZV9tYXAuZ2V0KHNsaWRlX3R5cGUsICJmZWF0dXJlLWdyaWQiKQogICAgcmV0dXJuIHR5cG9ncmFwaHkuZ2V0KGNvbnRlbnRfdHlwZSwge30pCgoKZGVmIGdldF9jb2xvcl9mb3JfZW1vdGlvbihlbW90aW9uKToKICAgICIiIgogICAgR2V0IGNvbG9yIHRyZWF0bWVudCBiYXNlZCBvbiBlbW90aW9uYWwgYmVhdC4KICAgIFVzZXMgc2xpZGUtY29sb3ItbG9naWMuY3N2IGZvciBkZWNpc2lvbi4KICAgICIiIgogICAgY29sb3JzID0gX2xvYWRfZGVjaXNpb25fY3N2KCJjb2xvci1sb2dpYyIpCiAgICByZXR1cm4gY29sb3JzLmdldChlbW90aW9uLCBjb2xvcnMuZ2V0KCJjbGFyaXR5Iiwge30pKQoKCmRlZiBnZXRfYmFja2dyb3VuZF9jb25maWcoc2xpZGVfdHlwZSk6CiAgICAiIiIKICAgIEdldCBiYWNrZ3JvdW5kIGltYWdlIGNvbmZpZ3VyYXRpb24uCiAgICBVc2VzIHNsaWRlLWJhY2tncm91bmRzLmNzdiBmb3IgZGVjaXNpb24uCiAgICAiIiIKICAgIGJhY2tncm91bmRzID0gX2xvYWRfZGVjaXNpb25fY3N2KCJiYWNrZ3JvdW5kcyIpCiAgICByZXR1cm4gYmFja2dyb3VuZHMuZ2V0KHNsaWRlX3R5cGUsIHt9KQoKCmRlZiBzaG91bGRfdXNlX2Z1bGxfYmxlZWQoc2xpZGVfaW5kZXgsIHRvdGFsX3NsaWRlcywgZW1vdGlvbik6CiAgICAiIiIKICAgIERldGVybWluZSBpZiBzbGlkZSBzaG91bGQgdXNlIGZ1bGwtYmxlZWQgYmFja2dyb3VuZC4KICAgIFByZW1pdW0gZGVja3MgdXNlIDItMyBmdWxsLWJsZWVkIHNsaWRlcyBzdHJhdGVnaWNhbGx5LgoKICAgIFJ1bGVzOgogICAgMS4gTmV2ZXIgY29uc2VjdXRpdmUgZnVsbC1ibGVlZAogICAgMi4gT25lIGluIGZpcnN0IHRoaXJkLCBvbmUgaW4gbWlkZGxlLCBvbmUgYXQgZW5kCiAgICAzLiBSZXNlcnZlZCBmb3IgaGlnaC1lbW90aW9uIGJlYXRzIChob3BlLCB1cmdlbmN5LCBmZWFyKQogICAgIiIiCiAgICBoaWdoX2Vtb3Rpb25fYmVhdHMgPSBbImhvcGUiLCAidXJnZW5jeSIsICJmZWFyIiwgImN1cmlvc2l0eSJdCgogICAgaWYgZW1vdGlvbiBub3QgaW4gaGlnaF9lbW90aW9uX2JlYXRzOgogICAgICAgIHJldHVybiBGYWxzZQoKICAgIGlmIHRvdGFsX3NsaWRlcyA8IDM6CiAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgdGhpcmQgPSB0b3RhbF9zbGlkZXMgLy8gMwogICAgc3RyYXRlZ2ljX3Bvc2l0aW9ucyA9IFsxLCB0aGlyZCwgdGhpcmQgKiAyLCB0b3RhbF9zbGlkZXMgLSAxXQoKICAgIHJldHVybiBzbGlkZV9pbmRleCBpbiBzdHJhdGVnaWNfcG9zaXRpb25zCgoKZGVmIGNhbGN1bGF0ZV9wYXR0ZXJuX2JyZWFrKHNsaWRlX2luZGV4LCB0b3RhbF9zbGlkZXMsIHByZXZpb3VzX2Vtb3Rpb249Tm9uZSk6CiAgICAiIiIKICAgIERldGVybWluZSBpZiB0aGlzIHNsaWRlIHNob3VsZCBicmVhayB0aGUgdmlzdWFsIHBhdHRlcm4uCiAgICBVc2VkIGZvciBlbW90aW9uYWwgY29udHJhc3QgKER1YXJ0ZSBTcGFya2xpbmUgdGVjaG5pcXVlKS4KICAgICIiIgogICAgIyBQYXR0ZXJuIGJyZWFrcyBhdCBzdHJhdGVnaWMgcG9zaXRpb25zCiAgICBpZiB0b3RhbF9zbGlkZXMgPCA1OgogICAgICAgIHJldHVybiBGYWxzZQoKICAgICMgQnJlYWsgYXQgMS8zIGFuZCAyLzMgcG9pbnRzCiAgICB0aGlyZCA9IHRvdGFsX3NsaWRlcyAvLyAzCiAgICBpZiBzbGlkZV9pbmRleCBpbiBbdGhpcmQsIHRoaXJkICogMl06CiAgICAgICAgcmV0dXJuIFRydWUKCiAgICAjIEJyZWFrIHdoZW4gc3dpdGNoaW5nIGJldHdlZW4gZnJ1c3RyYXRpb24gYW5kIGhvcGUKICAgIGNvbnRyYXN0aW5nX2Vtb3Rpb25zID0gewogICAgICAgICJmcnVzdHJhdGlvbiI6IFsiaG9wZSIsICJyZWxpZWYiXSwKICAgICAgICAiaG9wZSI6IFsiZnJ1c3RyYXRpb24iLCAiZmVhciJdLAogICAgICAgICJmZWFyIjogWyJob3BlIiwgInJlbGllZiJdLAogICAgfQoKICAgIGlmIHByZXZpb3VzX2Vtb3Rpb24gaW4gY29udHJhc3RpbmdfZW1vdGlvbnM6CiAgICAgICAgcmV0dXJuIFRydWUKCiAgICByZXR1cm4gRmFsc2UKCgpkZWYgc2VhcmNoX3dpdGhfY29udGV4dChxdWVyeSwgc2xpZGVfcG9zaXRpb249MSwgdG90YWxfc2xpZGVzPTksIHByZXZpb3VzX2Vtb3Rpb249Tm9uZSk6CiAgICAiIiIKICAgIEVuaGFuY2VkIHNlYXJjaCB0aGF0IGNvbnNpZGVycyBkZWNrIGNvbnRleHQuCgogICAgQXJnczoKICAgICAgICBxdWVyeTogU2VhcmNoIHF1ZXJ5CiAgICAgICAgc2xpZGVfcG9zaXRpb246IEN1cnJlbnQgc2xpZGUgaW5kZXggKDEtYmFzZWQpCiAgICAgICAgdG90YWxfc2xpZGVzOiBUb3RhbCBzbGlkZXMgaW4gZGVjawogICAgICAgIHByZXZpb3VzX2Vtb3Rpb246IEVtb3Rpb24gb2YgcHJldmlvdXMgc2xpZGUgKGZvciBjb250cmFzdCkKCiAgICBSZXR1cm5zOgogICAgICAgIFNlYXJjaCByZXN1bHRzIGVucmljaGVkIHdpdGggY29udGV4dHVhbCByZWNvbW1lbmRhdGlvbnMKICAgICIiIgogICAgIyBHZXQgYmFzZSByZXN1bHRzIGZyb20gZXhpc3RpbmcgQk0yNSBzZWFyY2gKICAgIGJhc2VfcmVzdWx0cyA9IHNlYXJjaF9hbGwocXVlcnksIG1heF9yZXN1bHRzPTIpCgogICAgIyBEZXRlY3QgbGlrZWx5IHNsaWRlIGdvYWwgZnJvbSBxdWVyeQogICAgZ29hbCA9IGRldGVjdF9kb21haW4ocXVlcnkubG93ZXIoKSkKICAgIGlmICJwcm9ibGVtIiBpbiBxdWVyeS5sb3dlcigpOgogICAgICAgIGdvYWwgPSAicHJvYmxlbSIKICAgIGVsaWYgInNvbHV0aW9uIiBpbiBxdWVyeS5sb3dlcigpOgogICAgICAgIGdvYWwgPSAic29sdXRpb24iCiAgICBlbGlmICJjdGEiIGluIHF1ZXJ5Lmxvd2VyKCkgb3IgImNhbGwgdG8gYWN0aW9uIiBpbiBxdWVyeS5sb3dlcigpOgogICAgICAgIGdvYWwgPSAiY3RhIgogICAgZWxpZiAiaG9vayIgaW4gcXVlcnkubG93ZXIoKSBvciAidGl0bGUiIGluIHF1ZXJ5Lmxvd2VyKCk6CiAgICAgICAgZ29hbCA9ICJob29rIgogICAgZWxpZiAidHJhY3Rpb24iIGluIHF1ZXJ5Lmxvd2VyKCkgb3IgIm1ldHJpYyIgaW4gcXVlcnkubG93ZXIoKToKICAgICAgICBnb2FsID0gInRyYWN0aW9uIgoKICAgICMgRW5yaWNoIHdpdGggY29udGV4dHVhbCByZWNvbW1lbmRhdGlvbnMKICAgIGNvbnRleHQgPSB7CiAgICAgICAgInNsaWRlX3Bvc2l0aW9uIjogc2xpZGVfcG9zaXRpb24sCiAgICAgICAgInRvdGFsX3NsaWRlcyI6IHRvdGFsX3NsaWRlcywKICAgICAgICAicHJldmlvdXNfZW1vdGlvbiI6IHByZXZpb3VzX2Vtb3Rpb24sCiAgICAgICAgImluZmVycmVkX2dvYWwiOiBnb2FsLAogICAgfQoKICAgICMgR2V0IGxheW91dCByZWNvbW1lbmRhdGlvbgogICAgbGF5b3V0ID0gZ2V0X2xheW91dF9mb3JfZ29hbChnb2FsLCBwcmV2aW91c19lbW90aW9uKQogICAgaWYgbGF5b3V0OgogICAgICAgIGNvbnRleHRbInJlY29tbWVuZGVkX2xheW91dCJdID0gbGF5b3V0LmdldCgibGF5b3V0X3BhdHRlcm4iKQogICAgICAgIGNvbnRleHRbImxheW91dF9kaXJlY3Rpb24iXSA9IGxheW91dC5nZXQoImRpcmVjdGlvbiIpCiAgICAgICAgY29udGV4dFsidmlzdWFsX3dlaWdodCJdID0gbGF5b3V0LmdldCgidmlzdWFsX3dlaWdodCIpCiAgICAgICAgY29udGV4dFsidXNlX2JhY2tncm91bmRfaW1hZ2UiXSA9IGxheW91dC5nZXQoInVzZV9iZ19pbWFnZSIpID09ICJ0cnVlIgoKICAgICMgR2V0IHR5cG9ncmFwaHkgcmVjb21tZW5kYXRpb24KICAgIHR5cG9ncmFwaHkgPSBnZXRfdHlwb2dyYXBoeV9mb3Jfc2xpZGUoZ29hbCkKICAgIGlmIHR5cG9ncmFwaHk6CiAgICAgICAgY29udGV4dFsidHlwb2dyYXBoeSJdID0gewogICAgICAgICAgICAicHJpbWFyeV9zaXplIjogdHlwb2dyYXBoeS5nZXQoInByaW1hcnlfc2l6ZSIpLAogICAgICAgICAgICAic2Vjb25kYXJ5X3NpemUiOiB0eXBvZ3JhcGh5LmdldCgic2Vjb25kYXJ5X3NpemUiKSwKICAgICAgICAgICAgIndlaWdodF9jb250cmFzdCI6IHR5cG9ncmFwaHkuZ2V0KCJ3ZWlnaHRfY29udHJhc3QiKSwKICAgICAgICB9CgogICAgIyBHZXQgY29sb3IgdHJlYXRtZW50CiAgICBlbW90aW9uID0gbGF5b3V0LmdldCgiZW1vdGlvbiIsICJjbGFyaXR5IikgaWYgbGF5b3V0IGVsc2UgImNsYXJpdHkiCiAgICBjb2xvciA9IGdldF9jb2xvcl9mb3JfZW1vdGlvbihlbW90aW9uKQogICAgaWYgY29sb3I6CiAgICAgICAgY29udGV4dFsiY29sb3JfdHJlYXRtZW50Il0gPSB7CiAgICAgICAgICAgICJiYWNrZ3JvdW5kIjogY29sb3IuZ2V0KCJiYWNrZ3JvdW5kIiksCiAgICAgICAgICAgICJ0ZXh0X2NvbG9yIjogY29sb3IuZ2V0KCJ0ZXh0X2NvbG9yIiksCiAgICAgICAgICAgICJhY2NlbnRfdXNhZ2UiOiBjb2xvci5nZXQoImFjY2VudF91c2FnZSIpLAogICAgICAgICAgICAiY2FyZF9zdHlsZSI6IGNvbG9yLmdldCgiY2FyZF9zdHlsZSIpLAogICAgICAgIH0KCiAgICAjIENhbGN1bGF0ZSBwYXR0ZXJuIGJyZWFraW5nCiAgICBjb250ZXh0WyJzaG91bGRfYnJlYWtfcGF0dGVybiJdID0gY2FsY3VsYXRlX3BhdHRlcm5fYnJlYWsoCiAgICAgICAgc2xpZGVfcG9zaXRpb24sIHRvdGFsX3NsaWRlcywgcHJldmlvdXNfZW1vdGlvbgogICAgKQogICAgY29udGV4dFsic2hvdWxkX3VzZV9mdWxsX2JsZWVkIl0gPSBzaG91bGRfdXNlX2Z1bGxfYmxlZWQoCiAgICAgICAgc2xpZGVfcG9zaXRpb24sIHRvdGFsX3NsaWRlcywgZW1vdGlvbgogICAgKQoKICAgICMgR2V0IGJhY2tncm91bmQgY29uZmlnIGlmIG5lZWRlZAogICAgaWYgY29udGV4dC5nZXQoInVzZV9iYWNrZ3JvdW5kX2ltYWdlIik6CiAgICAgICAgYmdfY29uZmlnID0gZ2V0X2JhY2tncm91bmRfY29uZmlnKGdvYWwpCiAgICAgICAgaWYgYmdfY29uZmlnOgogICAgICAgICAgICBjb250ZXh0WyJiYWNrZ3JvdW5kIl0gPSB7CiAgICAgICAgICAgICAgICAiaW1hZ2VfY2F0ZWdvcnkiOiBiZ19jb25maWcuZ2V0KCJpbWFnZV9jYXRlZ29yeSIpLAogICAgICAgICAgICAgICAgIm92ZXJsYXlfc3R5bGUiOiBiZ19jb25maWcuZ2V0KCJvdmVybGF5X3N0eWxlIiksCiAgICAgICAgICAgICAgICAic2VhcmNoX2tleXdvcmRzIjogYmdfY29uZmlnLmdldCgic2VhcmNoX2tleXdvcmRzIiksCiAgICAgICAgICAgIH0KCiAgICAjIFN1Z2dlc3RlZCBhbmltYXRpb24gY2xhc3NlcwogICAgYW5pbWF0aW9uX21hcCA9IHsKICAgICAgICAiaG9vayI6ICJhbmltYXRlLWZhZGUtdXAiLAogICAgICAgICJwcm9ibGVtIjogImFuaW1hdGUtZmFkZS11cCIsCiAgICAgICAgImFnaXRhdGlvbiI6ICJhbmltYXRlLWNvdW50IGFuaW1hdGUtc3RhZ2dlciIsCiAgICAgICAgInNvbHV0aW9uIjogImFuaW1hdGUtc2NhbGUiLAogICAgICAgICJmZWF0dXJlcyI6ICJhbmltYXRlLXN0YWdnZXIiLAogICAgICAgICJ0cmFjdGlvbiI6ICJhbmltYXRlLWNoYXJ0IGFuaW1hdGUtY291bnQiLAogICAgICAgICJwcm9vZiI6ICJhbmltYXRlLXN0YWdnZXItc2NhbGUiLAogICAgICAgICJzb2NpYWwiOiAiYW5pbWF0ZS1mYWRlLXVwIiwKICAgICAgICAiY3RhIjogImFuaW1hdGUtcHVsc2UiLAogICAgfQogICAgY29udGV4dFsiYW5pbWF0aW9uX2NsYXNzIl0gPSBhbmltYXRpb25fbWFwLmdldChnb2FsLCAiYW5pbWF0ZS1mYWRlLXVwIikKCiAgICByZXR1cm4gewogICAgICAgICJxdWVyeSI6IHF1ZXJ5LAogICAgICAgICJjb250ZXh0IjogY29udGV4dCwKICAgICAgICAiYmFzZV9yZXN1bHRzIjogYmFzZV9yZXN1bHRzLAogICAgfQo=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Slide Search Core - BM25 search engine for slide design databases
+"""
+
+import csv
+import re
+from pathlib import Path
+from math import log
+from collections import defaultdict
+
+# ============ CONFIGURATION ============
+DATA_DIR = Path(__file__).parent.parent / "data"
+MAX_RESULTS = 3
+
+CSV_CONFIG = {
+    "strategy": {
+        "file": "slide-strategies.csv",
+        "search_cols": ["strategy_name", "keywords", "goal", "audience", "narrative_arc"],
+        "output_cols": ["strategy_name", "keywords", "slide_count", "structure", "goal", "audience", "tone", "narrative_arc", "sources"]
+    },
+    "layout": {
+        "file": "slide-layouts.csv",
+        "search_cols": ["layout_name", "keywords", "use_case", "recommended_for"],
+        "output_cols": ["layout_name", "keywords", "use_case", "content_zones", "visual_weight", "cta_placement", "recommended_for", "avoid_for", "css_structure"]
+    },
+    "copy": {
+        "file": "slide-copy.csv",
+        "search_cols": ["formula_name", "keywords", "use_case", "emotion_trigger", "slide_type"],
+        "output_cols": ["formula_name", "keywords", "components", "use_case", "example_template", "emotion_trigger", "slide_type", "source"]
+    },
+    "chart": {
+        "file": "slide-charts.csv",
+        "search_cols": ["chart_type", "keywords", "best_for", "when_to_use", "slide_context"],
+        "output_cols": ["chart_type", "keywords", "best_for", "data_type", "when_to_use", "when_to_avoid", "max_categories", "slide_context", "css_implementation", "accessibility_notes"]
+    }
+}
+
+AVAILABLE_DOMAINS = list(CSV_CONFIG.keys())
+
+
+# ============ BM25 IMPLEMENTATION ============
+class BM25:
+    """BM25 ranking algorithm for text search"""
+
+    def __init__(self, k1=1.5, b=0.75):
+        self.k1 = k1
+        self.b = b
+        self.corpus = []
+        self.doc_lengths = []
+        self.avgdl = 0
+        self.idf = {}
+        self.doc_freqs = defaultdict(int)
+        self.N = 0
+
+    def tokenize(self, text):
+        """Lowercase, split, remove punctuation, filter short words"""
+        text = re.sub(r'[^\w\s]', ' ', str(text).lower())
+        return [w for w in text.split() if len(w) > 2]
+
+    def fit(self, documents):
+        """Build BM25 index from documents"""
+        self.corpus = [self.tokenize(doc) for doc in documents]
+        self.N = len(self.corpus)
+        if self.N == 0:
+            return
+        self.doc_lengths = [len(doc) for doc in self.corpus]
+        self.avgdl = sum(self.doc_lengths) / self.N
+
+        for doc in self.corpus:
+            seen = set()
+            for word in doc:
+                if word not in seen:
+                    self.doc_freqs[word] += 1
+                    seen.add(word)
+
+        for word, freq in self.doc_freqs.items():
+            self.idf[word] = log((self.N - freq + 0.5) / (freq + 0.5) + 1)
+
+    def score(self, query):
+        """Score all documents against query"""
+        query_tokens = self.tokenize(query)
+        scores = []
+
+        for idx, doc in enumerate(self.corpus):
+            score = 0
+            doc_len = self.doc_lengths[idx]
+            term_freqs = defaultdict(int)
+            for word in doc:
+                term_freqs[word] += 1
+
+            for token in query_tokens:
+                if token in self.idf:
+                    tf = term_freqs[token]
+                    idf = self.idf[token]
+                    numerator = tf * (self.k1 + 1)
+                    denominator = tf + self.k1 * (1 - self.b + self.b * doc_len / self.avgdl)
+                    score += idf * numerator / denominator
+
+            scores.append((idx, score))
+
+        return sorted(scores, key=lambda x: x[1], reverse=True)
+
+
+# ============ SEARCH FUNCTIONS ============
+def _load_csv(filepath):
+    """Load CSV and return list of dicts"""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return list(csv.DictReader(f))
+
+
+def _search_csv(filepath, search_cols, output_cols, query, max_results):
+    """Core search function using BM25"""
+    if not filepath.exists():
+        return []
+
+    data = _load_csv(filepath)
+
+    # Build documents from search columns
+    documents = [" ".join(str(row.get(col, "")) for col in search_cols) for row in data]
+
+    # BM25 search
+    bm25 = BM25()
+    bm25.fit(documents)
+    ranked = bm25.score(query)
+
+    # Get top results with score > 0
+    results = []
+    for idx, score in ranked[:max_results]:
+        if score > 0:
+            row = data[idx]
+            results.append({col: row.get(col, "") for col in output_cols if col in row})
+
+    return results
+
+
+def detect_domain(query):
+    """Auto-detect the most relevant domain from query"""
+    query_lower = query.lower()
+
+    domain_keywords = {
+        "strategy": ["pitch", "deck", "investor", "yc", "seed", "series", "demo", "sales", "webinar",
+                     "conference", "board", "qbr", "all-hands", "duarte", "kawasaki", "structure"],
+        "layout": ["slide", "layout", "grid", "column", "title", "hero", "section", "cta",
+                   "screenshot", "quote", "timeline", "comparison", "pricing", "team"],
+        "copy": ["headline", "copy", "formula", "aida", "pas", "hook", "cta", "benefit",
+                 "objection", "proof", "testimonial", "urgency", "scarcity"],
+        "chart": ["chart", "graph", "bar", "line", "pie", "funnel", "metrics", "data",
+                  "visualization", "kpi", "trend", "comparison", "heatmap", "gauge"]
+    }
+
+    scores = {domain: sum(1 for kw in keywords if kw in query_lower) for domain, keywords in domain_keywords.items()}
+    best = max(scores, key=scores.get)
+    return best if scores[best] > 0 else "strategy"
+
+
+def search(query, domain=None, max_results=MAX_RESULTS):
+    """Main search function with auto-domain detection"""
+    if domain is None:
+        domain = detect_domain(query)
+
+    config = CSV_CONFIG.get(domain, CSV_CONFIG["strategy"])
+    filepath = DATA_DIR / config["file"]
+
+    if not filepath.exists():
+        return {"error": f"File not found: {filepath}", "domain": domain}
+
+    results = _search_csv(filepath, config["search_cols"], config["output_cols"], query, max_results)
+
+    return {
+        "domain": domain,
+        "query": query,
+        "file": config["file"],
+        "count": len(results),
+        "results": results
+    }
+
+
+def search_all(query, max_results=2):
+    """Search across all domains for comprehensive results"""
+    all_results = {}
+
+    for domain in AVAILABLE_DOMAINS:
+        result = search(query, domain, max_results)
+        if result.get("count", 0) > 0:
+            all_results[domain] = result
+
+    return all_results
+
+
+# ============ CONTEXTUAL SEARCH (Premium Slide System) ============
+
+# New CSV configurations for decision system
+DECISION_CSV_CONFIG = {
+    "layout-logic": {
+        "file": "slide-layout-logic.csv",
+        "key_col": "goal"
+    },
+    "typography": {
+        "file": "slide-typography.csv",
+        "key_col": "content_type"
+    },
+    "color-logic": {
+        "file": "slide-color-logic.csv",
+        "key_col": "emotion"
+    },
+    "backgrounds": {
+        "file": "slide-backgrounds.csv",
+        "key_col": "slide_type"
+    }
+}
+
+
+def _load_decision_csv(csv_type):
+    """Load a decision CSV and return as dict keyed by primary column."""
+    config = DECISION_CSV_CONFIG.get(csv_type)
+    if not config:
+        return {}
+
+    filepath = DATA_DIR / config["file"]
+    if not filepath.exists():
+        return {}
+
+    data = _load_csv(filepath)
+    return {row[config["key_col"]]: row for row in data if config["key_col"] in row}
+
+
+def get_layout_for_goal(goal, previous_emotion=None):
+    """
+    Get layout recommendation based on slide goal.
+    Uses slide-layout-logic.csv for decision.
+    """
+    layouts = _load_decision_csv("layout-logic")
+    row = layouts.get(goal, layouts.get("features", {}))
+
+    result = dict(row) if row else {}
+
+    # Apply pattern-breaking logic
+    if result.get("break_pattern") == "true" and previous_emotion:
+        result["_pattern_break"] = True
+        result["_contrast_with"] = previous_emotion
+
+    return result
+
+
+def get_typography_for_slide(slide_type, has_metrics=False, has_quote=False):
+    """
+    Get typography recommendation based on slide content.
+    Uses slide-typography.csv for decision.
+    """
+    typography = _load_decision_csv("typography")
+
+    if has_metrics:
+        return typography.get("metric-callout", {})
+    if has_quote:
+        return typography.get("quote-block", {})
+
+    # Map slide types to typography
+    type_map = {
+        "hero": "hero-statement",
+        "hook": "hero-statement",
+        "title": "title-only",
+        "problem": "subtitle-heavy",
+        "agitation": "metric-callout",
+        "solution": "subtitle-heavy",
+        "features": "feature-grid",
+        "proof": "metric-callout",
+        "traction": "data-insight",
+        "social": "quote-block",
+        "testimonial": "testimonial",
+        "pricing": "pricing",
+        "team": "team",
+        "cta": "cta-action",
+        "comparison": "comparison",
+        "timeline": "timeline",
+    }
+
+    content_type = type_map.get(slide_type, "feature-grid")
+    return typography.get(content_type, {})
+
+
+def get_color_for_emotion(emotion):
+    """
+    Get color treatment based on emotional beat.
+    Uses slide-color-logic.csv for decision.
+    """
+    colors = _load_decision_csv("color-logic")
+    return colors.get(emotion, colors.get("clarity", {}))
+
+
+def get_background_config(slide_type):
+    """
+    Get background image configuration.
+    Uses slide-backgrounds.csv for decision.
+    """
+    backgrounds = _load_decision_csv("backgrounds")
+    return backgrounds.get(slide_type, {})
+
+
+def should_use_full_bleed(slide_index, total_slides, emotion):
+    """
+    Determine if slide should use full-bleed background.
+    Premium decks use 2-3 full-bleed slides strategically.
+
+    Rules:
+    1. Never consecutive full-bleed
+    2. One in first third, one in middle, one at end
+    3. Reserved for high-emotion beats (hope, urgency, fear)
+    """
+    high_emotion_beats = ["hope", "urgency", "fear", "curiosity"]
+
+    if emotion not in high_emotion_beats:
+        return False
+
+    if total_slides < 3:
+        return False
+
+    third = total_slides // 3
+    strategic_positions = [1, third, third * 2, total_slides - 1]
+
+    return slide_index in strategic_positions
+
+
+def calculate_pattern_break(slide_index, total_slides, previous_emotion=None):
+    """
+    Determine if this slide should break the visual pattern.
+    Used for emotional contrast (Duarte Sparkline technique).
+    """
+    # Pattern breaks at strategic positions
+    if total_slides < 5:
+        return False
+
+    # Break at 1/3 and 2/3 points
+    third = total_slides // 3
+    if slide_index in [third, third * 2]:
+        return True
+
+    # Break when switching between frustration and hope
+    contrasting_emotions = {
+        "frustration": ["hope", "relief"],
+        "hope": ["frustration", "fear"],
+        "fear": ["hope", "relief"],
+    }
+
+    if previous_emotion in contrasting_emotions:
+        return True
+
+    return False
+
+
+def search_with_context(query, slide_position=1, total_slides=9, previous_emotion=None):
+    """
+    Enhanced search that considers deck context.
+
+    Args:
+        query: Search query
+        slide_position: Current slide index (1-based)
+        total_slides: Total slides in deck
+        previous_emotion: Emotion of previous slide (for contrast)
+
+    Returns:
+        Search results enriched with contextual recommendations
+    """
+    # Get base results from existing BM25 search
+    base_results = search_all(query, max_results=2)
+
+    # Detect likely slide goal from query
+    goal = detect_domain(query.lower())
+    if "problem" in query.lower():
+        goal = "problem"
+    elif "solution" in query.lower():
+        goal = "solution"
+    elif "cta" in query.lower() or "call to action" in query.lower():
+        goal = "cta"
+    elif "hook" in query.lower() or "title" in query.lower():
+        goal = "hook"
+    elif "traction" in query.lower() or "metric" in query.lower():
+        goal = "traction"
+
+    # Enrich with contextual recommendations
+    context = {
+        "slide_position": slide_position,
+        "total_slides": total_slides,
+        "previous_emotion": previous_emotion,
+        "inferred_goal": goal,
+    }
+
+    # Get layout recommendation
+    layout = get_layout_for_goal(goal, previous_emotion)
+    if layout:
+        context["recommended_layout"] = layout.get("layout_pattern")
+        context["layout_direction"] = layout.get("direction")
+        context["visual_weight"] = layout.get("visual_weight")
+        context["use_background_image"] = layout.get("use_bg_image") == "true"
+
+    # Get typography recommendation
+    typography = get_typography_for_slide(goal)
+    if typography:
+        context["typography"] = {
+            "primary_size": typography.get("primary_size"),
+            "secondary_size": typography.get("secondary_size"),
+            "weight_contrast": typography.get("weight_contrast"),
+        }
+
+    # Get color treatment
+    emotion = layout.get("emotion", "clarity") if layout else "clarity"
+    color = get_color_for_emotion(emotion)
+    if color:
+        context["color_treatment"] = {
+            "background": color.get("background"),
+            "text_color": color.get("text_color"),
+            "accent_usage": color.get("accent_usage"),
+            "card_style": color.get("card_style"),
+        }
+
+    # Calculate pattern breaking
+    context["should_break_pattern"] = calculate_pattern_break(
+        slide_position, total_slides, previous_emotion
+    )
+    context["should_use_full_bleed"] = should_use_full_bleed(
+        slide_position, total_slides, emotion
+    )
+
+    # Get background config if needed
+    if context.get("use_background_image"):
+        bg_config = get_background_config(goal)
+        if bg_config:
+            context["background"] = {
+                "image_category": bg_config.get("image_category"),
+                "overlay_style": bg_config.get("overlay_style"),
+                "search_keywords": bg_config.get("search_keywords"),
+            }
+
+    # Suggested animation classes
+    animation_map = {
+        "hook": "animate-fade-up",
+        "problem": "animate-fade-up",
+        "agitation": "animate-count animate-stagger",
+        "solution": "animate-scale",
+        "features": "animate-stagger",
+        "traction": "animate-chart animate-count",
+        "proof": "animate-stagger-scale",
+        "social": "animate-fade-up",
+        "cta": "animate-pulse",
+    }
+    context["animation_class"] = animation_map.get(goal, "animate-fade-up")
+
+    return {
+        "query": query,
+        "context": context,
+        "base_results": base_results,
+    }

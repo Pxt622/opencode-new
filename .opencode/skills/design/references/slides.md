@@ -1,1 +1,42 @@
-IyBTbGlkZXMgUmVmZXJlbmNlCgpTdHJhdGVnaWMgSFRNTCBwcmVzZW50YXRpb24gZGVzaWduIHdpdGggQ2hhcnQuanMgZGF0YSB2aXN1YWxpemF0aW9uLCBkZXNpZ24gdG9rZW5zLCByZXNwb25zaXZlIGxheW91dHMsIGFuZCBjb3B5d3JpdGluZyBmb3JtdWxhcy4KCiMjIFVzYWdlCgpBY3RpdmF0ZSB0aGUgYGRlc2lnbmAgc2tpbGwgYW5kIHNwZWNpZnkgc2xpZGVzIHRhc2ssIGUuZy4gImNyZWF0ZSBhIHBpdGNoIGRlY2siLgoKIyMgS25vd2xlZGdlIEJhc2UKCnwgVG9waWMgfCBGaWxlIHwgUHVycG9zZSB8CnwtLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS18CnwgQ3JlYXRpb24gR3VpZGUgfCBgcmVmZXJlbmNlcy9zbGlkZXMtY3JlYXRlLm1kYCB8IFN0ZXAtYnktc3RlcCBzbGlkZSBjcmVhdGlvbiB3b3JrZmxvdyB8CnwgTGF5b3V0IFBhdHRlcm5zIHwgYHJlZmVyZW5jZXMvc2xpZGVzLWxheW91dC1wYXR0ZXJucy5tZGAgfCBTbGlkZSBsYXlvdXQgdGVtcGxhdGVzIGFuZCBncmlkIHN5c3RlbXMgfAp8IEhUTUwgVGVtcGxhdGUgfCBgcmVmZXJlbmNlcy9zbGlkZXMtaHRtbC10ZW1wbGF0ZS5tZGAgfCBCYXNlIEhUTUwgc3RydWN0dXJlIGZvciBwcmVzZW50YXRpb25zIHwKfCBDb3B5d3JpdGluZyB8IGByZWZlcmVuY2VzL3NsaWRlcy1jb3B5d3JpdGluZy1mb3JtdWxhcy5tZGAgfCBBSURBLCBQQVMsIEZBQiBmb3Igc2xpZGUgY29udGVudCB8CnwgU3RyYXRlZ2llcyB8IGByZWZlcmVuY2VzL3NsaWRlcy1zdHJhdGVnaWVzLm1kYCB8IENvbnRleHR1YWwgc3RyYXRlZ2llcyBieSBwcmVzZW50YXRpb24gdHlwZSB8CgojIyBXaGVuIHRvIFVzZQoKLSBNYXJrZXRpbmcgcHJlc2VudGF0aW9ucyBhbmQgcGl0Y2ggZGVja3MKLSBEYXRhLWRyaXZlbiBzbGlkZXMgd2l0aCBDaGFydC5qcyB2aXN1YWxpemF0aW9ucwotIFN0cmF0ZWdpYyBzbGlkZSBkZXNpZ24gd2l0aCBsYXlvdXQgcGF0dGVybnMKLSBDb3B5d3JpdGluZy1vcHRpbWl6ZWQgcHJlc2VudGF0aW9uIGNvbnRlbnQKLSBJbnZlc3RvciBkZWNrcywgc2FsZXMgcHJlc2VudGF0aW9ucywgdGVhbSB1cGRhdGVzCgojIyBLZXkgRmVhdHVyZXMKCi0gKipDaGFydC5qcyBJbnRlZ3JhdGlvbioqOiBCYXIsIGxpbmUsIHBpZSwgZG91Z2hudXQsIHJhZGFyIGNoYXJ0cwotICoqRGVzaWduIFRva2VucyoqOiBDb25zaXN0ZW50IHNwYWNpbmcsIGNvbG9ycywgdHlwb2dyYXBoeQotICoqUmVzcG9uc2l2ZSoqOiBXb3JrcyBvbiBkZXNrdG9wIGFuZCBtb2JpbGUKLSAqKkNvcHl3cml0aW5nKio6IEJ1aWx0LWluIEFJREEsIFBBUywgRkFCIGZvcm11bGFzCi0gKipMYXlvdXQgUGF0dGVybnMqKjogSGVybywgc3BsaXQsIGdyaWQsIGNvbXBhcmlzb24sIHRpbWVsaW5lCgojIyBXb3JrZmxvdwoKMS4gUGFyc2UgcHJlc2VudGF0aW9uIHR5cGUgZnJvbSB1c2VyIHJlcXVlc3QKMi4gTG9hZCBgcmVmZXJlbmNlcy9zbGlkZXMtY3JlYXRlLm1kYCBmb3IgY3JlYXRpb24gZ3VpZGUKMy4gU2VsZWN0IGxheW91dCBwYXR0ZXJucyBmcm9tIGByZWZlcmVuY2VzL3NsaWRlcy1sYXlvdXQtcGF0dGVybnMubWRgCjQuIEFwcGx5IGNvcHl3cml0aW5nIGZvcm11bGFzIGZyb20gYHJlZmVyZW5jZXMvc2xpZGVzLWNvcHl3cml0aW5nLWZvcm11bGFzLm1kYAo1LiBVc2UgSFRNTCB0ZW1wbGF0ZSBmcm9tIGByZWZlcmVuY2VzL3NsaWRlcy1odG1sLXRlbXBsYXRlLm1kYAo2LiBBcHBseSBzdHJhdGVneSBmcm9tIGByZWZlcmVuY2VzL3NsaWRlcy1zdHJhdGVnaWVzLm1kYAo=
+# Slides Reference
+
+Strategic HTML presentation design with Chart.js data visualization, design tokens, responsive layouts, and copywriting formulas.
+
+## Usage
+
+Activate the `design` skill and specify slides task, e.g. "create a pitch deck".
+
+## Knowledge Base
+
+| Topic | File | Purpose |
+|-------|------|---------|
+| Creation Guide | `references/slides-create.md` | Step-by-step slide creation workflow |
+| Layout Patterns | `references/slides-layout-patterns.md` | Slide layout templates and grid systems |
+| HTML Template | `references/slides-html-template.md` | Base HTML structure for presentations |
+| Copywriting | `references/slides-copywriting-formulas.md` | AIDA, PAS, FAB for slide content |
+| Strategies | `references/slides-strategies.md` | Contextual strategies by presentation type |
+
+## When to Use
+
+- Marketing presentations and pitch decks
+- Data-driven slides with Chart.js visualizations
+- Strategic slide design with layout patterns
+- Copywriting-optimized presentation content
+- Investor decks, sales presentations, team updates
+
+## Key Features
+
+- **Chart.js Integration**: Bar, line, pie, doughnut, radar charts
+- **Design Tokens**: Consistent spacing, colors, typography
+- **Responsive**: Works on desktop and mobile
+- **Copywriting**: Built-in AIDA, PAS, FAB formulas
+- **Layout Patterns**: Hero, split, grid, comparison, timeline
+
+## Workflow
+
+1. Parse presentation type from user request
+2. Load `references/slides-create.md` for creation guide
+3. Select layout patterns from `references/slides-layout-patterns.md`
+4. Apply copywriting formulas from `references/slides-copywriting-formulas.md`
+5. Use HTML template from `references/slides-html-template.md`
+6. Apply strategy from `references/slides-strategies.md`

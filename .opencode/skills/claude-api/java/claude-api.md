@@ -1,1 +1,432 @@
-IyBDbGF1ZGUgQVBJIOKAlCBKYXZhCgo+ICoqTm90ZToqKiBUaGUgSmF2YSBTREsgc3VwcG9ydHMgdGhlIENsYXVkZSBBUEkgYW5kIGJldGEgdG9vbCB1c2Ugd2l0aCBhbm5vdGF0ZWQgY2xhc3Nlcy4gQWdlbnQgU0RLIGlzIG5vdCB5ZXQgYXZhaWxhYmxlIGZvciBKYXZhLgoKIyMgSW5zdGFsbGF0aW9uCgpNYXZlbjoKCmBgYHhtbAo8ZGVwZW5kZW5jeT4KICAgIDxncm91cElkPmNvbS5hbnRocm9waWM8L2dyb3VwSWQ+CiAgICA8YXJ0aWZhY3RJZD5hbnRocm9waWMtamF2YTwvYXJ0aWZhY3RJZD4KICAgIDx2ZXJzaW9uPjIuMTcuMDwvdmVyc2lvbj4KPC9kZXBlbmRlbmN5PgpgYGAKCkdyYWRsZToKCmBgYGdyb292eQppbXBsZW1lbnRhdGlvbigiY29tLmFudGhyb3BpYzphbnRocm9waWMtamF2YToyLjE3LjAiKQpgYGAKCiMjIENsaWVudCBJbml0aWFsaXphdGlvbgoKYGBgamF2YQppbXBvcnQgY29tLmFudGhyb3BpYy5jbGllbnQuQW50aHJvcGljQ2xpZW50OwppbXBvcnQgY29tLmFudGhyb3BpYy5jbGllbnQub2todHRwLkFudGhyb3BpY09rSHR0cENsaWVudDsKCi8vIERlZmF1bHQgKHJlYWRzIEFOVEhST1BJQ19BUElfS0VZIGZyb20gZW52aXJvbm1lbnQpCkFudGhyb3BpY0NsaWVudCBjbGllbnQgPSBBbnRocm9waWNPa0h0dHBDbGllbnQuZnJvbUVudigpOwoKLy8gRXhwbGljaXQgQVBJIGtleQpBbnRocm9waWNDbGllbnQgY2xpZW50ID0gQW50aHJvcGljT2tIdHRwQ2xpZW50LmJ1aWxkZXIoKQogICAgLmFwaUtleSgieW91ci1hcGkta2V5IikKICAgIC5idWlsZCgpOwpgYGAKCi0tLQoKIyMgQmFzaWMgTWVzc2FnZSBSZXF1ZXN0CgpgYGBqYXZhCmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5tZXNzYWdlcy5NZXNzYWdlQ3JlYXRlUGFyYW1zOwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuTWVzc2FnZTsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLk1vZGVsOwoKTWVzc2FnZUNyZWF0ZVBhcmFtcyBwYXJhbXMgPSBNZXNzYWdlQ3JlYXRlUGFyYW1zLmJ1aWxkZXIoKQogICAgLm1vZGVsKE1vZGVsLkNMQVVERV9PUFVTXzRfNikKICAgIC5tYXhUb2tlbnMoMTYwMDBMKQogICAgLmFkZFVzZXJNZXNzYWdlKCJXaGF0IGlzIHRoZSBjYXBpdGFsIG9mIEZyYW5jZT8iKQogICAgLmJ1aWxkKCk7CgpNZXNzYWdlIHJlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzKCkuY3JlYXRlKHBhcmFtcyk7CnJlc3BvbnNlLmNvbnRlbnQoKS5zdHJlYW0oKQogICAgLmZsYXRNYXAoYmxvY2sgLT4gYmxvY2sudGV4dCgpLnN0cmVhbSgpKQogICAgLmZvckVhY2godGV4dEJsb2NrIC0+IFN5c3RlbS5vdXQucHJpbnRsbih0ZXh0QmxvY2sudGV4dCgpKSk7CmBgYAoKLS0tCgojIyBTdHJlYW1pbmcKCmBgYGphdmEKaW1wb3J0IGNvbS5hbnRocm9waWMuY29yZS5odHRwLlN0cmVhbVJlc3BvbnNlOwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuUmF3TWVzc2FnZVN0cmVhbUV2ZW50OwoKTWVzc2FnZUNyZWF0ZVBhcmFtcyBwYXJhbXMgPSBNZXNzYWdlQ3JlYXRlUGFyYW1zLmJ1aWxkZXIoKQogICAgLm1vZGVsKE1vZGVsLkNMQVVERV9PUFVTXzRfNikKICAgIC5tYXhUb2tlbnMoNjQwMDBMKQogICAgLmFkZFVzZXJNZXNzYWdlKCJXcml0ZSBhIGhhaWt1IikKICAgIC5idWlsZCgpOwoKdHJ5IChTdHJlYW1SZXNwb25zZTxSYXdNZXNzYWdlU3RyZWFtRXZlbnQ+IHN0cmVhbVJlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzKCkuY3JlYXRlU3RyZWFtaW5nKHBhcmFtcykpIHsKICAgIHN0cmVhbVJlc3BvbnNlLnN0cmVhbSgpCiAgICAgICAgLmZsYXRNYXAoZXZlbnQgLT4gZXZlbnQuY29udGVudEJsb2NrRGVsdGEoKS5zdHJlYW0oKSkKICAgICAgICAuZmxhdE1hcChkZWx0YUV2ZW50IC0+IGRlbHRhRXZlbnQuZGVsdGEoKS50ZXh0KCkuc3RyZWFtKCkpCiAgICAgICAgLmZvckVhY2godGV4dERlbHRhIC0+IFN5c3RlbS5vdXQucHJpbnQodGV4dERlbHRhLnRleHQoKSkpOwp9CmBgYAoKLS0tCgojIyBUaGlua2luZwoKKipBZGFwdGl2ZSB0aGlua2luZyBpcyB0aGUgcmVjb21tZW5kZWQgbW9kZSBmb3IgQ2xhdWRlIDQuNisgbW9kZWxzLioqIENsYXVkZSBkZWNpZGVzIGR5bmFtaWNhbGx5IHdoZW4gYW5kIGhvdyBtdWNoIHRvIHRoaW5rLiBUaGUgYnVpbGRlciBoYXMgYSBkaXJlY3QgYC50aGlua2luZyhUaGlua2luZ0NvbmZpZ0FkYXB0aXZlKWAgb3ZlcmxvYWQg4oCUIG5vIG1hbnVhbCB1bmlvbiB3cmFwcGluZy4KCmBgYGphdmEKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLkNvbnRlbnRCbG9jazsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLk1lc3NhZ2VDcmVhdGVQYXJhbXM7CmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5tZXNzYWdlcy5Nb2RlbDsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLlRoaW5raW5nQ29uZmlnQWRhcHRpdmU7CgpNZXNzYWdlQ3JlYXRlUGFyYW1zIHBhcmFtcyA9IE1lc3NhZ2VDcmVhdGVQYXJhbXMuYnVpbGRlcigpCiAgICAubW9kZWwoTW9kZWwuQ0xBVURFX1NPTk5FVF80XzYpCiAgICAubWF4VG9rZW5zKDE2MDAwTCkKICAgIC50aGlua2luZyhUaGlua2luZ0NvbmZpZ0FkYXB0aXZlLmJ1aWxkZXIoKS5idWlsZCgpKQogICAgLmFkZFVzZXJNZXNzYWdlKCJTb2x2ZSB0aGlzIHN0ZXAgYnkgc3RlcDogMjcgKiA0NTMiKQogICAgLmJ1aWxkKCk7Cgpmb3IgKENvbnRlbnRCbG9jayBibG9jayA6IGNsaWVudC5tZXNzYWdlcygpLmNyZWF0ZShwYXJhbXMpLmNvbnRlbnQoKSkgewogICAgYmxvY2sudGhpbmtpbmcoKS5pZlByZXNlbnQodCAtPiBTeXN0ZW0ub3V0LnByaW50bG4oIlt0aGlua2luZ10gIiArIHQudGhpbmtpbmcoKSkpOwogICAgYmxvY2sudGV4dCgpLmlmUHJlc2VudCh0IC0+IFN5c3RlbS5vdXQucHJpbnRsbih0LnRleHQoKSkpOwp9CmBgYAoKPiAqKkRlcHJlY2F0ZWQ6KiogYFRoaW5raW5nQ29uZmlnRW5hYmxlZC5idWlsZGVyKCkuYnVkZ2V0VG9rZW5zKE4pYCAoYW5kIHRoZSBgLmVuYWJsZWRUaGlua2luZyhOKWAgc2hvcnRjdXQpIHN0aWxsIHdvcmtzIG9uIENsYXVkZSA0LjYgYnV0IGlzIGRlcHJlY2F0ZWQuIFVzZSBhZGFwdGl2ZSB0aGlua2luZyBhYm92ZS4KCmBDb250ZW50QmxvY2tgIG5hcnJvd2luZzogYC50aGlua2luZygpYCAvIGAudGV4dCgpYCByZXR1cm4gYE9wdGlvbmFsPFQ+YCDigJQgdXNlIGAuaWZQcmVzZW50KC4uLilgIG9yIGAuc3RyZWFtKCkuZmxhdE1hcCguLi4pYC4gQWx0ZXJuYXRpdmU6IGBpc1RoaW5raW5nKClgIC8gYGFzVGhpbmtpbmcoKWAgYm9vbGVhbit1bndyYXAgcGFpcnMgKHRocm93cyBvbiB3cm9uZyB2YXJpYW50KS4KCi0tLQoKIyMgVG9vbCBVc2UgKEJldGEpCgpUaGUgSmF2YSBTREsgc3VwcG9ydHMgYmV0YSB0b29sIHVzZSB3aXRoIGFubm90YXRlZCBjbGFzc2VzLiBUb29sIGNsYXNzZXMgaW1wbGVtZW50IGBTdXBwbGllcjxTdHJpbmc+YCBmb3IgYXV0b21hdGljIGV4ZWN1dGlvbiB2aWEgYEJldGFUb29sUnVubmVyYC4KCiMjIyBUb29sIFJ1bm5lciAoYXV0b21hdGljIGxvb3ApCgpgYGBqYXZhCmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5iZXRhLm1lc3NhZ2VzLk1lc3NhZ2VDcmVhdGVQYXJhbXM7CmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5iZXRhLm1lc3NhZ2VzLkJldGFNZXNzYWdlOwppbXBvcnQgY29tLmFudGhyb3BpYy5oZWxwZXJzLkJldGFUb29sUnVubmVyOwppbXBvcnQgY29tLmZhc3RlcnhtbC5qYWNrc29uLmFubm90YXRpb24uSnNvbkNsYXNzRGVzY3JpcHRpb247CmltcG9ydCBjb20uZmFzdGVyeG1sLmphY2tzb24uYW5ub3RhdGlvbi5Kc29uUHJvcGVydHlEZXNjcmlwdGlvbjsKaW1wb3J0IGphdmEudXRpbC5mdW5jdGlvbi5TdXBwbGllcjsKCkBKc29uQ2xhc3NEZXNjcmlwdGlvbigiR2V0IHRoZSB3ZWF0aGVyIGluIGEgZ2l2ZW4gbG9jYXRpb24iKQpzdGF0aWMgY2xhc3MgR2V0V2VhdGhlciBpbXBsZW1lbnRzIFN1cHBsaWVyPFN0cmluZz4gewogICAgQEpzb25Qcm9wZXJ0eURlc2NyaXB0aW9uKCJUaGUgY2l0eSBhbmQgc3RhdGUsIGUuZy4gU2FuIEZyYW5jaXNjbywgQ0EiKQogICAgcHVibGljIFN0cmluZyBsb2NhdGlvbjsKCiAgICBAT3ZlcnJpZGUKICAgIHB1YmxpYyBTdHJpbmcgZ2V0KCkgewogICAgICAgIHJldHVybiAiVGhlIHdlYXRoZXIgaW4gIiArIGxvY2F0aW9uICsgIiBpcyBzdW5ueSBhbmQgNzLCsEYiOwogICAgfQp9CgpCZXRhVG9vbFJ1bm5lciB0b29sUnVubmVyID0gY2xpZW50LmJldGEoKS5tZXNzYWdlcygpLnRvb2xSdW5uZXIoCiAgICBNZXNzYWdlQ3JlYXRlUGFyYW1zLmJ1aWxkZXIoKQogICAgICAgIC5tb2RlbCgiY2xhdWRlLW9wdXMtNC02IikKICAgICAgICAubWF4VG9rZW5zKDE2MDAwTCkKICAgICAgICAucHV0QWRkaXRpb25hbEhlYWRlcigiYW50aHJvcGljLWJldGEiLCAic3RydWN0dXJlZC1vdXRwdXRzLTIwMjUtMTEtMTMiKQogICAgICAgIC5hZGRUb29sKEdldFdlYXRoZXIuY2xhc3MpCiAgICAgICAgLmFkZFVzZXJNZXNzYWdlKCJXaGF0J3MgdGhlIHdlYXRoZXIgaW4gU2FuIEZyYW5jaXNjbz8iKQogICAgICAgIC5idWlsZCgpKTsKCmZvciAoQmV0YU1lc3NhZ2UgbWVzc2FnZSA6IHRvb2xSdW5uZXIpIHsKICAgIFN5c3RlbS5vdXQucHJpbnRsbihtZXNzYWdlKTsKfQpgYGAKCiMjIyBNZW1vcnkgVG9vbAoKVGhlIEphdmEgU0RLIHByb3ZpZGVzIGBCZXRhTWVtb3J5VG9vbEhhbmRsZXJgIGZvciBpbXBsZW1lbnRpbmcgdGhlIG1lbW9yeSB0b29sIGJhY2tlbmQuIFlvdSBzdXBwbHkgYSBoYW5kbGVyIHRoYXQgbWFuYWdlcyBmaWxlIHN0b3JhZ2UsIGFuZCB0aGUgYEJldGFUb29sUnVubmVyYCBoYW5kbGVzIG1lbW9yeSB0b29sIGNhbGxzIGF1dG9tYXRpY2FsbHkuCgpgYGBqYXZhCmltcG9ydCBjb20uYW50aHJvcGljLmhlbHBlcnMuQmV0YU1lbW9yeVRvb2xIYW5kbGVyOwppbXBvcnQgY29tLmFudGhyb3BpYy5oZWxwZXJzLkJldGFUb29sUnVubmVyOwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMuYmV0YS5tZXNzYWdlcy5CZXRhTWVtb3J5VG9vbDIwMjUwODE4OwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMuYmV0YS5tZXNzYWdlcy5CZXRhTWVzc2FnZTsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLmJldGEubWVzc2FnZXMuTWVzc2FnZUNyZWF0ZVBhcmFtczsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLmJldGEubWVzc2FnZXMuVG9vbFJ1bm5lckNyZWF0ZVBhcmFtczsKCi8vIEltcGxlbWVudCBCZXRhTWVtb3J5VG9vbEhhbmRsZXIgd2l0aCB5b3VyIHN0b3JhZ2UgYmFja2VuZCAoZS5nLiwgZmlsZXN5c3RlbSkKQmV0YU1lbW9yeVRvb2xIYW5kbGVyIG1lbW9yeUhhbmRsZXIgPSBuZXcgRmlsZVN5c3RlbU1lbW9yeVRvb2xIYW5kbGVyKHNhbmRib3hSb290KTsKCk1lc3NhZ2VDcmVhdGVQYXJhbXMgY3JlYXRlUGFyYW1zID0gTWVzc2FnZUNyZWF0ZVBhcmFtcy5idWlsZGVyKCkKICAgIC5tb2RlbCgiY2xhdWRlLW9wdXMtNC02IikKICAgIC5tYXhUb2tlbnMoNDA5NkwpCiAgICAuYWRkVG9vbChCZXRhTWVtb3J5VG9vbDIwMjUwODE4LmJ1aWxkZXIoKS5idWlsZCgpKQogICAgLmFkZFVzZXJNZXNzYWdlKCJSZW1lbWJlciB0aGF0IG15IGZhdm9yaXRlIGNvbG9yIGlzIGJsdWUiKQogICAgLmJ1aWxkKCk7CgpCZXRhVG9vbFJ1bm5lciB0b29sUnVubmVyID0gY2xpZW50LmJldGEoKS5tZXNzYWdlcygpLnRvb2xSdW5uZXIoCiAgICBUb29sUnVubmVyQ3JlYXRlUGFyYW1zLmJ1aWxkZXIoKQogICAgICAgIC5iZXRhTWVtb3J5VG9vbEhhbmRsZXIobWVtb3J5SGFuZGxlcikKICAgICAgICAuaW5pdGlhbE1lc3NhZ2VQYXJhbXMoY3JlYXRlUGFyYW1zKQogICAgICAgIC5idWlsZCgpKTsKCmZvciAoQmV0YU1lc3NhZ2UgbWVzc2FnZSA6IHRvb2xSdW5uZXIpIHsKICAgIFN5c3RlbS5vdXQucHJpbnRsbihtZXNzYWdlKTsKfQpgYGAKClNlZSB0aGUgW3NoYXJlZCBtZW1vcnkgdG9vbCBjb25jZXB0c10oLi4vc2hhcmVkL3Rvb2wtdXNlLWNvbmNlcHRzLm1kKSBmb3IgbW9yZSBkZXRhaWxzIG9uIHRoZSBtZW1vcnkgdG9vbC4KCiMjIyBOb24tQmV0YSBUb29sIERlY2xhcmF0aW9uIChtYW51YWwgSlNPTiBzY2hlbWEpCgpgVG9vbC5JbnB1dFNjaGVtYS5Qcm9wZXJ0aWVzYCBpcyBhIGZyZWVmb3JtIGBNYXA8U3RyaW5nLCBKc29uVmFsdWU+YCB3cmFwcGVyIOKAlCBidWlsZCBwcm9wZXJ0eSBzY2hlbWFzIHZpYSBgcHV0QWRkaXRpb25hbFByb3BlcnR5YC4gYHR5cGU6ICJvYmplY3QiYCBpcyB0aGUgZGVmYXVsdC4gVGhlIGJ1aWxkZXIgaGFzIGEgZGlyZWN0IGAuYWRkVG9vbChUb29sKWAgb3ZlcmxvYWQgdGhhdCB3cmFwcyBpbiBgVG9vbFVuaW9uYCBhdXRvbWF0aWNhbGx5LgoKYGBgamF2YQppbXBvcnQgY29tLmFudGhyb3BpYy5jb3JlLkpzb25WYWx1ZTsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLlRvb2w7CgpUb29sIHRvb2wgPSBUb29sLmJ1aWxkZXIoKQogICAgLm5hbWUoImdldF93ZWF0aGVyIikKICAgIC5kZXNjcmlwdGlvbigiR2V0IHRoZSBjdXJyZW50IHdlYXRoZXIgaW4gYSBnaXZlbiBsb2NhdGlvbiIpCiAgICAuaW5wdXRTY2hlbWEoVG9vbC5JbnB1dFNjaGVtYS5idWlsZGVyKCkKICAgICAgICAucHJvcGVydGllcyhUb29sLklucHV0U2NoZW1hLlByb3BlcnRpZXMuYnVpbGRlcigpCiAgICAgICAgICAgIC5wdXRBZGRpdGlvbmFsUHJvcGVydHkoImxvY2F0aW9uIiwgSnNvblZhbHVlLmZyb20oTWFwLm9mKCJ0eXBlIiwgInN0cmluZyIpKSkKICAgICAgICAgICAgLmJ1aWxkKCkpCiAgICAgICAgLnJlcXVpcmVkKExpc3Qub2YoImxvY2F0aW9uIikpCiAgICAgICAgLmJ1aWxkKCkpCiAgICAuYnVpbGQoKTsKCk1lc3NhZ2VDcmVhdGVQYXJhbXMgcGFyYW1zID0gTWVzc2FnZUNyZWF0ZVBhcmFtcy5idWlsZGVyKCkKICAgIC5tb2RlbChNb2RlbC5DTEFVREVfU09OTkVUXzRfNikKICAgIC5tYXhUb2tlbnMoMTYwMDBMKQogICAgLmFkZFRvb2wodG9vbCkKICAgIC5hZGRVc2VyTWVzc2FnZSgiV2VhdGhlciBpbiBQYXJpcz8iKQogICAgLmJ1aWxkKCk7CmBgYAoKRm9yIG1hbnVhbCB0b29sIGxvb3BzLCBoYW5kbGUgYHRvb2xfdXNlYCBibG9ja3MgaW4gdGhlIHJlc3BvbnNlLCBzZW5kIGB0b29sX3Jlc3VsdGAgYmFjaywgbG9vcCB1bnRpbCBgc3RvcF9yZWFzb25gIGlzIGAiZW5kX3R1cm4iYC4gU2VlIFtzaGFyZWQgdG9vbCB1c2UgY29uY2VwdHNdKC4uL3NoYXJlZC90b29sLXVzZS1jb25jZXB0cy5tZCkuCgojIyMgQnVpbGRpbmcgYE1lc3NhZ2VQYXJhbWAgd2l0aCBDb250ZW50IEJsb2NrcyAoVG9vbCBSZXN1bHQgUm91bmQtVHJpcCkKCmBNZXNzYWdlUGFyYW0uQ29udGVudGAgaXMgYW4gaW5uZXIgdW5pb24gY2xhc3MgKHN0cmluZyB8IGxpc3QpLiBVc2UgdGhlIGJ1aWxkZXIncyBgLmNvbnRlbnRPZkJsb2NrUGFyYW1zKExpc3Q8Q29udGVudEJsb2NrUGFyYW0+KWAgYWxpYXMg4oCUIHRoZXJlIGlzIE5PIHNlcGFyYXRlIGBNZXNzYWdlUGFyYW1Db250ZW50YCBjbGFzcyB3aXRoIGEgc3RhdGljIGBvZkJsb2NrUGFyYW1zYDoKCmBgYGphdmEKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLk1lc3NhZ2VQYXJhbTsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLkNvbnRlbnRCbG9ja1BhcmFtOwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuVG9vbFJlc3VsdEJsb2NrUGFyYW07CgpMaXN0PENvbnRlbnRCbG9ja1BhcmFtPiByZXN1bHRzID0gTGlzdC5vZigKICAgIENvbnRlbnRCbG9ja1BhcmFtLm9mVG9vbFJlc3VsdChUb29sUmVzdWx0QmxvY2tQYXJhbS5idWlsZGVyKCkKICAgICAgICAudG9vbFVzZUlkKHRvb2xVc2VCbG9jay5pZCgpKQogICAgICAgIC5jb250ZW50KHlvdXJSZXN1bHRTdHJpbmcpCiAgICAgICAgLmJ1aWxkKCkpCik7CgpNZXNzYWdlUGFyYW0gdG9vbFJlc3VsdE1zZyA9IE1lc3NhZ2VQYXJhbS5idWlsZGVyKCkKICAgIC5yb2xlKE1lc3NhZ2VQYXJhbS5Sb2xlLlVTRVIpCiAgICAuY29udGVudE9mQmxvY2tQYXJhbXMocmVzdWx0cykgICAvLyBidWlsZGVyIGFsaWFzIGZvciBDb250ZW50Lm9mQmxvY2tQYXJhbXMoLi4uKQogICAgLmJ1aWxkKCk7CmBgYAoKLS0tCgojIyBFZmZvcnQgUGFyYW1ldGVyCgpFZmZvcnQgaXMgbmVzdGVkIGluc2lkZSBgT3V0cHV0Q29uZmlnYCDigJQgdGhlcmUgaXMgTk8gYC5lZmZvcnQoKWAgZGlyZWN0bHkgb24gYE1lc3NhZ2VDcmVhdGVQYXJhbXMuQnVpbGRlcmAuCgpgYGBqYXZhCmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5tZXNzYWdlcy5PdXRwdXRDb25maWc7Cgoub3V0cHV0Q29uZmlnKE91dHB1dENvbmZpZy5idWlsZGVyKCkKICAgIC5lZmZvcnQoT3V0cHV0Q29uZmlnLkVmZm9ydC5ISUdIKSAgLy8gb3IgTE9XLCBNRURJVU0sIE1BWAogICAgLmJ1aWxkKCkpCmBgYAoKQ29tYmluZSB3aXRoIGBUaGlua2luZyA9IFRoaW5raW5nQ29uZmlnQWRhcHRpdmVgIGZvciBjb3N0LXF1YWxpdHkgY29udHJvbC4KCi0tLQoKIyMgUHJvbXB0IENhY2hpbmcKClN5c3RlbSBtZXNzYWdlIGFzIGEgbGlzdCBvZiBgVGV4dEJsb2NrUGFyYW1gIHdpdGggYENhY2hlQ29udHJvbEVwaGVtZXJhbGAuIFVzZSBgLnN5c3RlbU9mVGV4dEJsb2NrUGFyYW1zKC4uLilgIOKAlCB0aGUgcGxhaW4gYC5zeXN0ZW0oU3RyaW5nKWAgb3ZlcmxvYWQgY2FuJ3QgY2FycnkgY2FjaGUgY29udHJvbC4gRm9yIHBsYWNlbWVudCBwYXR0ZXJucyBhbmQgdGhlIHNpbGVudC1pbnZhbGlkYXRvciBhdWRpdCBjaGVja2xpc3QsIHNlZSBgc2hhcmVkL3Byb21wdC1jYWNoaW5nLm1kYC4KCmBgYGphdmEKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLlRleHRCbG9ja1BhcmFtOwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuQ2FjaGVDb250cm9sRXBoZW1lcmFsOwoKLnN5c3RlbU9mVGV4dEJsb2NrUGFyYW1zKExpc3Qub2YoCiAgICBUZXh0QmxvY2tQYXJhbS5idWlsZGVyKCkKICAgICAgICAudGV4dChsb25nU3lzdGVtUHJvbXB0KQogICAgICAgIC5jYWNoZUNvbnRyb2woQ2FjaGVDb250cm9sRXBoZW1lcmFsLmJ1aWxkZXIoKQogICAgICAgICAgICAudHRsKENhY2hlQ29udHJvbEVwaGVtZXJhbC5UdGwuVFRMXzFIKSAgLy8gb3B0aW9uYWw7IGFsc28gVFRMXzVNCiAgICAgICAgICAgIC5idWlsZCgpKQogICAgICAgIC5idWlsZCgpKSkKYGBgCgpUaGVyZSdzIGFsc28gYSB0b3AtbGV2ZWwgYC5jYWNoZUNvbnRyb2woQ2FjaGVDb250cm9sRXBoZW1lcmFsKWAgb24gYE1lc3NhZ2VDcmVhdGVQYXJhbXMuQnVpbGRlcmAgYW5kIG9uIGBUb29sLmJ1aWxkZXIoKWAuCgpWZXJpZnkgaGl0cyB2aWEgYHJlc3BvbnNlLnVzYWdlKCkuY2FjaGVDcmVhdGlvbklucHV0VG9rZW5zKClgIC8gYHJlc3BvbnNlLnVzYWdlKCkuY2FjaGVSZWFkSW5wdXRUb2tlbnMoKWAuCgotLS0KCiMjIFRva2VuIENvdW50aW5nCgpgYGBqYXZhCmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5tZXNzYWdlcy5NZXNzYWdlQ291bnRUb2tlbnNQYXJhbXM7Cgpsb25nIHRva2VucyA9IGNsaWVudC5tZXNzYWdlcygpLmNvdW50VG9rZW5zKAogICAgTWVzc2FnZUNvdW50VG9rZW5zUGFyYW1zLmJ1aWxkZXIoKQogICAgICAgIC5tb2RlbChNb2RlbC5DTEFVREVfU09OTkVUXzRfNikKICAgICAgICAuYWRkVXNlck1lc3NhZ2UoIkhlbGxvIikKICAgICAgICAuYnVpbGQoKQopLmlucHV0VG9rZW5zKCk7CmBgYAoKLS0tCgojIyBTdHJ1Y3R1cmVkIE91dHB1dAoKVGhlIGNsYXNzLWJhc2VkIG92ZXJsb2FkIGF1dG8tZGVyaXZlcyB0aGUgSlNPTiBzY2hlbWEgZnJvbSB5b3VyIFBPSk8gYW5kIGdpdmVzIHlvdSBhIHR5cGVkIGAudGV4dCgpYCByZXR1cm4g4oCUIG5vIG1hbnVhbCBzY2hlbWEsIG5vIG1hbnVhbCBwYXJzaW5nLgoKYGBgamF2YQppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuU3RydWN0dXJlZE1lc3NhZ2VDcmVhdGVQYXJhbXM7CgpyZWNvcmQgQm9vayhTdHJpbmcgdGl0bGUsIFN0cmluZyBhdXRob3IpIHt9CnJlY29yZCBCb29rTGlzdChMaXN0PEJvb2s+IGJvb2tzKSB7fQoKU3RydWN0dXJlZE1lc3NhZ2VDcmVhdGVQYXJhbXM8Qm9va0xpc3Q+IHBhcmFtcyA9IE1lc3NhZ2VDcmVhdGVQYXJhbXMuYnVpbGRlcigpCiAgICAubW9kZWwoTW9kZWwuQ0xBVURFX1NPTk5FVF80XzYpCiAgICAubWF4VG9rZW5zKDE2MDAwTCkKICAgIC5vdXRwdXRDb25maWcoQm9va0xpc3QuY2xhc3MpICAvLyByZXR1cm5zIGEgdHlwZWQgYnVpbGRlcgogICAgLmFkZFVzZXJNZXNzYWdlKCJMaXN0IDMgY2xhc3NpYyBub3ZlbHMiKQogICAgLmJ1aWxkKCk7CgpjbGllbnQubWVzc2FnZXMoKS5jcmVhdGUocGFyYW1zKS5jb250ZW50KCkuc3RyZWFtKCkKICAgIC5mbGF0TWFwKGNiIC0+IGNiLnRleHQoKS5zdHJlYW0oKSkKICAgIC5mb3JFYWNoKHR5cGVkIC0+IHsKICAgICAgICAvLyB0eXBlZC50ZXh0KCkgcmV0dXJucyBCb29rTGlzdCwgbm90IFN0cmluZwogICAgICAgIGZvciAoQm9vayBiIDogdHlwZWQudGV4dCgpLmJvb2tzKCkpIFN5c3RlbS5vdXQucHJpbnRsbihiLnRpdGxlKCkpOwogICAgfSk7CmBgYAoKU3VwcG9ydHMgSmFja3NvbiBhbm5vdGF0aW9uczogYEBKc29uUHJvcGVydHlEZXNjcmlwdGlvbmAsIGBASnNvbklnbm9yZWAsIGBAQXJyYXlTY2hlbWEobWluSXRlbXM9Li4uKWAuIE1hbnVhbCBzY2hlbWEgcGF0aDogYE91dHB1dENvbmZpZy5idWlsZGVyKCkuZm9ybWF0KEpzb25PdXRwdXRGb3JtYXQuYnVpbGRlcigpLnNjaGVtYSguLi4pLmJ1aWxkKCkpYC4KCi0tLQoKIyMgUERGIC8gRG9jdW1lbnQgSW5wdXQKCmBEb2N1bWVudEJsb2NrUGFyYW1gIGJ1aWxkZXIgaGFzIHNvdXJjZSBzaG9ydGN1dHMuIFdyYXAgaW4gYENvbnRlbnRCbG9ja1BhcmFtLm9mRG9jdW1lbnQoKWAgYW5kIHBhc3MgdmlhIGAuYWRkVXNlck1lc3NhZ2VPZkJsb2NrUGFyYW1zKClgLgoKYGBgamF2YQppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuRG9jdW1lbnRCbG9ja1BhcmFtOwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuQ29udGVudEJsb2NrUGFyYW07CmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5tZXNzYWdlcy5UZXh0QmxvY2tQYXJhbTsKCkRvY3VtZW50QmxvY2tQYXJhbSBkb2MgPSBEb2N1bWVudEJsb2NrUGFyYW0uYnVpbGRlcigpCiAgICAuYmFzZTY0U291cmNlKGJhc2U2NFN0cmluZykgIC8vIG9yIC51cmxTb3VyY2UoImh0dHBzOi8vLi4uIikgb3IgLnRleHRTb3VyY2UoIi4uLiIpCiAgICAudGl0bGUoIk15IERvY3VtZW50IikgICAgICAgIC8vIG9wdGlvbmFsCiAgICAuYnVpbGQoKTsKCi5hZGRVc2VyTWVzc2FnZU9mQmxvY2tQYXJhbXMoTGlzdC5vZigKICAgIENvbnRlbnRCbG9ja1BhcmFtLm9mRG9jdW1lbnQoZG9jKSwKICAgIENvbnRlbnRCbG9ja1BhcmFtLm9mVGV4dChUZXh0QmxvY2tQYXJhbS5idWlsZGVyKCkudGV4dCgiU3VtbWFyaXplIHRoaXMiKS5idWlsZCgpKSkpCmBgYAoKLS0tCgojIyBTZXJ2ZXItU2lkZSBUb29scwoKVmVyc2lvbi1zdWZmaXhlZCB0eXBlczsgYG5hbWVgL2B0eXBlYCBhdXRvLXNldCBieSBidWlsZGVyLiBEaXJlY3QgYC5hZGRUb29sKClgIG92ZXJsb2FkcyBleGlzdCBmb3IgZXZlcnkgdHlwZSDigJQgbm8gbWFudWFsIGBUb29sVW5pb25gIHdyYXBwaW5nLgoKYGBgamF2YQppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuV2ViU2VhcmNoVG9vbDIwMjYwMjA5OwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMubWVzc2FnZXMuVG9vbEJhc2gyMDI1MDEyNDsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLm1lc3NhZ2VzLlRvb2xUZXh0RWRpdG9yMjAyNTA3Mjg7CmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5tZXNzYWdlcy5Db2RlRXhlY3V0aW9uVG9vbDIwMjYwMTIwOwoKLmFkZFRvb2woV2ViU2VhcmNoVG9vbDIwMjYwMjA5LmJ1aWxkZXIoKQogICAgLm1heFVzZXMoNUwpICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLy8gb3B0aW9uYWwKICAgIC5hbGxvd2VkRG9tYWlucyhMaXN0Lm9mKCJleGFtcGxlLmNvbSIpKSAgIC8vIG9wdGlvbmFsCiAgICAuYnVpbGQoKSkKLmFkZFRvb2woVG9vbEJhc2gyMDI1MDEyNC5idWlsZGVyKCkuYnVpbGQoKSkKLmFkZFRvb2woVG9vbFRleHRFZGl0b3IyMDI1MDcyOC5idWlsZGVyKCkuYnVpbGQoKSkKLmFkZFRvb2woQ29kZUV4ZWN1dGlvblRvb2wyMDI2MDEyMC5idWlsZGVyKCkuYnVpbGQoKSkKYGBgCgpBbHNvIGF2YWlsYWJsZTogYFdlYkZldGNoVG9vbDIwMjYwMjA5YCwgYE1lbW9yeVRvb2wyMDI1MDgxOGAsIGBUb29sU2VhcmNoVG9vbEJtMjVfMjAyNTExMTlgLgoKIyMjIEJldGEgbmFtZXNwYWNlIChNQ1AsIGNvbXBhY3Rpb24pCgpGb3IgYmV0YS1vbmx5IGZlYXR1cmVzIHVzZSBgY29tLmFudGhyb3BpYy5tb2RlbHMuYmV0YS5tZXNzYWdlcy4qYCDigJQgY2xhc3MgbmFtZXMgaGF2ZSBhIGBCZXRhYCBwcmVmaXggQU5EIGxpdmUgaW4gdGhlIGJldGEgcGFja2FnZS4gVGhlIGJldGEgYE1lc3NhZ2VDcmVhdGVQYXJhbXMuQnVpbGRlcmAgaGFzIGRpcmVjdCBgLmFkZFRvb2woQmV0YVRvb2xCYXNoMjAyNTAxMjQpYCBvdmVybG9hZHMgQU5EIGAuYWRkTWNwU2VydmVyKClgOgoKYGBgamF2YQppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMuYmV0YS5tZXNzYWdlcy5NZXNzYWdlQ3JlYXRlUGFyYW1zOwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMuYmV0YS5tZXNzYWdlcy5CZXRhVG9vbEJhc2gyMDI1MDEyNDsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLmJldGEubWVzc2FnZXMuQmV0YUNvZGVFeGVjdXRpb25Ub29sMjAyNjAxMjA7CmltcG9ydCBjb20uYW50aHJvcGljLm1vZGVscy5iZXRhLm1lc3NhZ2VzLkJldGFSZXF1ZXN0TWNwU2VydmVyVXJsRGVmaW5pdGlvbjsKCk1lc3NhZ2VDcmVhdGVQYXJhbXMgcGFyYW1zID0gTWVzc2FnZUNyZWF0ZVBhcmFtcy5idWlsZGVyKCkKICAgIC5tb2RlbChNb2RlbC5DTEFVREVfT1BVU180XzYpCiAgICAubWF4VG9rZW5zKDE2MDAwTCkKICAgIC5hZGRCZXRhKCJtY3AtY2xpZW50LTIwMjUtMTEtMjAiKQogICAgLmFkZFRvb2woQmV0YVRvb2xCYXNoMjAyNTAxMjQuYnVpbGRlcigpLmJ1aWxkKCkpCiAgICAuYWRkVG9vbChCZXRhQ29kZUV4ZWN1dGlvblRvb2wyMDI2MDEyMC5idWlsZGVyKCkuYnVpbGQoKSkKICAgIC5hZGRNY3BTZXJ2ZXIoQmV0YVJlcXVlc3RNY3BTZXJ2ZXJVcmxEZWZpbml0aW9uLmJ1aWxkZXIoKQogICAgICAgIC5uYW1lKCJteS1zZXJ2ZXIiKQogICAgICAgIC51cmwoImh0dHBzOi8vZXhhbXBsZS5jb20vbWNwIikKICAgICAgICAuYnVpbGQoKSkKICAgIC5hZGRVc2VyTWVzc2FnZSgiLi4uIikKICAgIC5idWlsZCgpOwoKY2xpZW50LmJldGEoKS5tZXNzYWdlcygpLmNyZWF0ZShwYXJhbXMpOwpgYGAKCmBCZXRhVG9vbCpgIHR5cGVzIGFyZSBOT1QgaW50ZXJjaGFuZ2VhYmxlIHdpdGggbm9uLWJldGEgYFRvb2wqYCDigJQgcGljayBvbmUgbmFtZXNwYWNlIHBlciByZXF1ZXN0LgoKKipSZWFkaW5nIHNlcnZlci10b29sIGJsb2NrcyBpbiB0aGUgcmVzcG9uc2U6KiogYFNlcnZlclRvb2xVc2VCbG9ja2AgaGFzIGAuaWQoKWAsIGAubmFtZSgpYCAoZW51bSksIGFuZCBgLl9pbnB1dCgpYCByZXR1cm5pbmcgcmF3IGBKc29uVmFsdWVgIOKAlCB0aGVyZSBpcyBOTyB0eXBlZCBgLmlucHV0KClgLiBGb3IgY29kZSBleGVjdXRpb24gcmVzdWx0cywgdW53cmFwIHR3byBsZXZlbHM6CgpgYGBqYXZhCmZvciAoQ29udGVudEJsb2NrIGJsb2NrIDogcmVzcG9uc2UuY29udGVudCgpKSB7CiAgICBibG9jay5zZXJ2ZXJUb29sVXNlKCkuaWZQcmVzZW50KHN0dSAtPiB7CiAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJ0b29sOiAiICsgc3R1Lm5hbWUoKSArICIgaW5wdXQ6ICIgKyBzdHUuX2lucHV0KCkpOwogICAgfSk7CiAgICBibG9jay5jb2RlRXhlY3V0aW9uVG9vbFJlc3VsdCgpLmlmUHJlc2VudChyIC0+IHsKICAgICAgICByLmNvbnRlbnQoKS5yZXN1bHRCbG9jaygpLmlmUHJlc2VudChyZXN1bHQgLT4gewogICAgICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oInN0ZG91dDogIiArIHJlc3VsdC5zdGRvdXQoKSk7CiAgICAgICAgICAgIFN5c3RlbS5vdXQucHJpbnRsbigic3RkZXJyOiAiICsgcmVzdWx0LnN0ZGVycigpKTsKICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludGxuKCJleGl0OiAiICsgcmVzdWx0LnJldHVybkNvZGUoKSk7CiAgICAgICAgfSk7CiAgICB9KTsKfQpgYGAKCi0tLQoKIyMgRmlsZXMgQVBJIChCZXRhKQoKVW5kZXIgYGNsaWVudC5iZXRhKCkuZmlsZXMoKWAuIEZpbGUgcmVmZXJlbmNlcyBpbiBtZXNzYWdlcyBuZWVkIHRoZSBiZXRhIG1lc3NhZ2UgdHlwZXMgKG5vbi1iZXRhIGBEb2N1bWVudEJsb2NrUGFyYW0uU291cmNlYCBoYXMgbm8gZmlsZS1JRCB2YXJpYW50KS4KCmBgYGphdmEKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLmJldGEuZmlsZXMuRmlsZVVwbG9hZFBhcmFtczsKaW1wb3J0IGNvbS5hbnRocm9waWMubW9kZWxzLmJldGEuZmlsZXMuRmlsZU1ldGFkYXRhOwppbXBvcnQgY29tLmFudGhyb3BpYy5tb2RlbHMuYmV0YS5tZXNzYWdlcy5CZXRhUmVxdWVzdERvY3VtZW50QmxvY2s7CmltcG9ydCBqYXZhLm5pby5maWxlLlBhdGhzOwoKRmlsZU1ldGFkYXRhIG1ldGEgPSBjbGllbnQuYmV0YSgpLmZpbGVzKCkudXBsb2FkKAogICAgRmlsZVVwbG9hZFBhcmFtcy5idWlsZGVyKCkKICAgICAgICAuZmlsZShQYXRocy5nZXQoIi9wYXRoL3RvL2RvYy5wZGYiKSkgIC8vIG9yIC5maWxlKElucHV0U3RyZWFtKSBvciAuZmlsZShieXRlW10pCiAgICAgICAgLmJ1aWxkKCkpOwoKLy8gUmVmZXJlbmNlIGluIGEgYmV0YSBtZXNzYWdlOgpCZXRhUmVxdWVzdERvY3VtZW50QmxvY2sgZG9jID0gQmV0YVJlcXVlc3REb2N1bWVudEJsb2NrLmJ1aWxkZXIoKQogICAgLmZpbGVTb3VyY2UobWV0YS5pZCgpKQogICAgLmJ1aWxkKCk7CmBgYAoKT3RoZXIgbWV0aG9kczogYC5saXN0KClgLCBgLmRlbGV0ZShTdHJpbmcgZmlsZUlkKWAsIGAuZG93bmxvYWQoU3RyaW5nIGZpbGVJZClgLCBgLnJldHJpZXZlTWV0YWRhdGEoU3RyaW5nIGZpbGVJZClgLgo=
+# Claude API — Java
+
+> **Note:** The Java SDK supports the Claude API and beta tool use with annotated classes. Agent SDK is not yet available for Java.
+
+## Installation
+
+Maven:
+
+```xml
+<dependency>
+    <groupId>com.anthropic</groupId>
+    <artifactId>anthropic-java</artifactId>
+    <version>2.17.0</version>
+</dependency>
+```
+
+Gradle:
+
+```groovy
+implementation("com.anthropic:anthropic-java:2.17.0")
+```
+
+## Client Initialization
+
+```java
+import com.anthropic.client.AnthropicClient;
+import com.anthropic.client.okhttp.AnthropicOkHttpClient;
+
+// Default (reads ANTHROPIC_API_KEY from environment)
+AnthropicClient client = AnthropicOkHttpClient.fromEnv();
+
+// Explicit API key
+AnthropicClient client = AnthropicOkHttpClient.builder()
+    .apiKey("your-api-key")
+    .build();
+```
+
+---
+
+## Basic Message Request
+
+```java
+import com.anthropic.models.messages.MessageCreateParams;
+import com.anthropic.models.messages.Message;
+import com.anthropic.models.messages.Model;
+
+MessageCreateParams params = MessageCreateParams.builder()
+    .model(Model.CLAUDE_OPUS_4_6)
+    .maxTokens(16000L)
+    .addUserMessage("What is the capital of France?")
+    .build();
+
+Message response = client.messages().create(params);
+response.content().stream()
+    .flatMap(block -> block.text().stream())
+    .forEach(textBlock -> System.out.println(textBlock.text()));
+```
+
+---
+
+## Streaming
+
+```java
+import com.anthropic.core.http.StreamResponse;
+import com.anthropic.models.messages.RawMessageStreamEvent;
+
+MessageCreateParams params = MessageCreateParams.builder()
+    .model(Model.CLAUDE_OPUS_4_6)
+    .maxTokens(64000L)
+    .addUserMessage("Write a haiku")
+    .build();
+
+try (StreamResponse<RawMessageStreamEvent> streamResponse = client.messages().createStreaming(params)) {
+    streamResponse.stream()
+        .flatMap(event -> event.contentBlockDelta().stream())
+        .flatMap(deltaEvent -> deltaEvent.delta().text().stream())
+        .forEach(textDelta -> System.out.print(textDelta.text()));
+}
+```
+
+---
+
+## Thinking
+
+**Adaptive thinking is the recommended mode for Claude 4.6+ models.** Claude decides dynamically when and how much to think. The builder has a direct `.thinking(ThinkingConfigAdaptive)` overload — no manual union wrapping.
+
+```java
+import com.anthropic.models.messages.ContentBlock;
+import com.anthropic.models.messages.MessageCreateParams;
+import com.anthropic.models.messages.Model;
+import com.anthropic.models.messages.ThinkingConfigAdaptive;
+
+MessageCreateParams params = MessageCreateParams.builder()
+    .model(Model.CLAUDE_SONNET_4_6)
+    .maxTokens(16000L)
+    .thinking(ThinkingConfigAdaptive.builder().build())
+    .addUserMessage("Solve this step by step: 27 * 453")
+    .build();
+
+for (ContentBlock block : client.messages().create(params).content()) {
+    block.thinking().ifPresent(t -> System.out.println("[thinking] " + t.thinking()));
+    block.text().ifPresent(t -> System.out.println(t.text()));
+}
+```
+
+> **Deprecated:** `ThinkingConfigEnabled.builder().budgetTokens(N)` (and the `.enabledThinking(N)` shortcut) still works on Claude 4.6 but is deprecated. Use adaptive thinking above.
+
+`ContentBlock` narrowing: `.thinking()` / `.text()` return `Optional<T>` — use `.ifPresent(...)` or `.stream().flatMap(...)`. Alternative: `isThinking()` / `asThinking()` boolean+unwrap pairs (throws on wrong variant).
+
+---
+
+## Tool Use (Beta)
+
+The Java SDK supports beta tool use with annotated classes. Tool classes implement `Supplier<String>` for automatic execution via `BetaToolRunner`.
+
+### Tool Runner (automatic loop)
+
+```java
+import com.anthropic.models.beta.messages.MessageCreateParams;
+import com.anthropic.models.beta.messages.BetaMessage;
+import com.anthropic.helpers.BetaToolRunner;
+import com.fasterxml.jackson.annotation.JsonClassDescription;
+import com.fasterxml.jackson.annotation.JsonPropertyDescription;
+import java.util.function.Supplier;
+
+@JsonClassDescription("Get the weather in a given location")
+static class GetWeather implements Supplier<String> {
+    @JsonPropertyDescription("The city and state, e.g. San Francisco, CA")
+    public String location;
+
+    @Override
+    public String get() {
+        return "The weather in " + location + " is sunny and 72°F";
+    }
+}
+
+BetaToolRunner toolRunner = client.beta().messages().toolRunner(
+    MessageCreateParams.builder()
+        .model("claude-opus-4-6")
+        .maxTokens(16000L)
+        .putAdditionalHeader("anthropic-beta", "structured-outputs-2025-11-13")
+        .addTool(GetWeather.class)
+        .addUserMessage("What's the weather in San Francisco?")
+        .build());
+
+for (BetaMessage message : toolRunner) {
+    System.out.println(message);
+}
+```
+
+### Memory Tool
+
+The Java SDK provides `BetaMemoryToolHandler` for implementing the memory tool backend. You supply a handler that manages file storage, and the `BetaToolRunner` handles memory tool calls automatically.
+
+```java
+import com.anthropic.helpers.BetaMemoryToolHandler;
+import com.anthropic.helpers.BetaToolRunner;
+import com.anthropic.models.beta.messages.BetaMemoryTool20250818;
+import com.anthropic.models.beta.messages.BetaMessage;
+import com.anthropic.models.beta.messages.MessageCreateParams;
+import com.anthropic.models.beta.messages.ToolRunnerCreateParams;
+
+// Implement BetaMemoryToolHandler with your storage backend (e.g., filesystem)
+BetaMemoryToolHandler memoryHandler = new FileSystemMemoryToolHandler(sandboxRoot);
+
+MessageCreateParams createParams = MessageCreateParams.builder()
+    .model("claude-opus-4-6")
+    .maxTokens(4096L)
+    .addTool(BetaMemoryTool20250818.builder().build())
+    .addUserMessage("Remember that my favorite color is blue")
+    .build();
+
+BetaToolRunner toolRunner = client.beta().messages().toolRunner(
+    ToolRunnerCreateParams.builder()
+        .betaMemoryToolHandler(memoryHandler)
+        .initialMessageParams(createParams)
+        .build());
+
+for (BetaMessage message : toolRunner) {
+    System.out.println(message);
+}
+```
+
+See the [shared memory tool concepts](../shared/tool-use-concepts.md) for more details on the memory tool.
+
+### Non-Beta Tool Declaration (manual JSON schema)
+
+`Tool.InputSchema.Properties` is a freeform `Map<String, JsonValue>` wrapper — build property schemas via `putAdditionalProperty`. `type: "object"` is the default. The builder has a direct `.addTool(Tool)` overload that wraps in `ToolUnion` automatically.
+
+```java
+import com.anthropic.core.JsonValue;
+import com.anthropic.models.messages.Tool;
+
+Tool tool = Tool.builder()
+    .name("get_weather")
+    .description("Get the current weather in a given location")
+    .inputSchema(Tool.InputSchema.builder()
+        .properties(Tool.InputSchema.Properties.builder()
+            .putAdditionalProperty("location", JsonValue.from(Map.of("type", "string")))
+            .build())
+        .required(List.of("location"))
+        .build())
+    .build();
+
+MessageCreateParams params = MessageCreateParams.builder()
+    .model(Model.CLAUDE_SONNET_4_6)
+    .maxTokens(16000L)
+    .addTool(tool)
+    .addUserMessage("Weather in Paris?")
+    .build();
+```
+
+For manual tool loops, handle `tool_use` blocks in the response, send `tool_result` back, loop until `stop_reason` is `"end_turn"`. See [shared tool use concepts](../shared/tool-use-concepts.md).
+
+### Building `MessageParam` with Content Blocks (Tool Result Round-Trip)
+
+`MessageParam.Content` is an inner union class (string | list). Use the builder's `.contentOfBlockParams(List<ContentBlockParam>)` alias — there is NO separate `MessageParamContent` class with a static `ofBlockParams`:
+
+```java
+import com.anthropic.models.messages.MessageParam;
+import com.anthropic.models.messages.ContentBlockParam;
+import com.anthropic.models.messages.ToolResultBlockParam;
+
+List<ContentBlockParam> results = List.of(
+    ContentBlockParam.ofToolResult(ToolResultBlockParam.builder()
+        .toolUseId(toolUseBlock.id())
+        .content(yourResultString)
+        .build())
+);
+
+MessageParam toolResultMsg = MessageParam.builder()
+    .role(MessageParam.Role.USER)
+    .contentOfBlockParams(results)   // builder alias for Content.ofBlockParams(...)
+    .build();
+```
+
+---
+
+## Effort Parameter
+
+Effort is nested inside `OutputConfig` — there is NO `.effort()` directly on `MessageCreateParams.Builder`.
+
+```java
+import com.anthropic.models.messages.OutputConfig;
+
+.outputConfig(OutputConfig.builder()
+    .effort(OutputConfig.Effort.HIGH)  // or LOW, MEDIUM, MAX
+    .build())
+```
+
+Combine with `Thinking = ThinkingConfigAdaptive` for cost-quality control.
+
+---
+
+## Prompt Caching
+
+System message as a list of `TextBlockParam` with `CacheControlEphemeral`. Use `.systemOfTextBlockParams(...)` — the plain `.system(String)` overload can't carry cache control. For placement patterns and the silent-invalidator audit checklist, see `shared/prompt-caching.md`.
+
+```java
+import com.anthropic.models.messages.TextBlockParam;
+import com.anthropic.models.messages.CacheControlEphemeral;
+
+.systemOfTextBlockParams(List.of(
+    TextBlockParam.builder()
+        .text(longSystemPrompt)
+        .cacheControl(CacheControlEphemeral.builder()
+            .ttl(CacheControlEphemeral.Ttl.TTL_1H)  // optional; also TTL_5M
+            .build())
+        .build()))
+```
+
+There's also a top-level `.cacheControl(CacheControlEphemeral)` on `MessageCreateParams.Builder` and on `Tool.builder()`.
+
+Verify hits via `response.usage().cacheCreationInputTokens()` / `response.usage().cacheReadInputTokens()`.
+
+---
+
+## Token Counting
+
+```java
+import com.anthropic.models.messages.MessageCountTokensParams;
+
+long tokens = client.messages().countTokens(
+    MessageCountTokensParams.builder()
+        .model(Model.CLAUDE_SONNET_4_6)
+        .addUserMessage("Hello")
+        .build()
+).inputTokens();
+```
+
+---
+
+## Structured Output
+
+The class-based overload auto-derives the JSON schema from your POJO and gives you a typed `.text()` return — no manual schema, no manual parsing.
+
+```java
+import com.anthropic.models.messages.StructuredMessageCreateParams;
+
+record Book(String title, String author) {}
+record BookList(List<Book> books) {}
+
+StructuredMessageCreateParams<BookList> params = MessageCreateParams.builder()
+    .model(Model.CLAUDE_SONNET_4_6)
+    .maxTokens(16000L)
+    .outputConfig(BookList.class)  // returns a typed builder
+    .addUserMessage("List 3 classic novels")
+    .build();
+
+client.messages().create(params).content().stream()
+    .flatMap(cb -> cb.text().stream())
+    .forEach(typed -> {
+        // typed.text() returns BookList, not String
+        for (Book b : typed.text().books()) System.out.println(b.title());
+    });
+```
+
+Supports Jackson annotations: `@JsonPropertyDescription`, `@JsonIgnore`, `@ArraySchema(minItems=...)`. Manual schema path: `OutputConfig.builder().format(JsonOutputFormat.builder().schema(...).build())`.
+
+---
+
+## PDF / Document Input
+
+`DocumentBlockParam` builder has source shortcuts. Wrap in `ContentBlockParam.ofDocument()` and pass via `.addUserMessageOfBlockParams()`.
+
+```java
+import com.anthropic.models.messages.DocumentBlockParam;
+import com.anthropic.models.messages.ContentBlockParam;
+import com.anthropic.models.messages.TextBlockParam;
+
+DocumentBlockParam doc = DocumentBlockParam.builder()
+    .base64Source(base64String)  // or .urlSource("https://...") or .textSource("...")
+    .title("My Document")        // optional
+    .build();
+
+.addUserMessageOfBlockParams(List.of(
+    ContentBlockParam.ofDocument(doc),
+    ContentBlockParam.ofText(TextBlockParam.builder().text("Summarize this").build())))
+```
+
+---
+
+## Server-Side Tools
+
+Version-suffixed types; `name`/`type` auto-set by builder. Direct `.addTool()` overloads exist for every type — no manual `ToolUnion` wrapping.
+
+```java
+import com.anthropic.models.messages.WebSearchTool20260209;
+import com.anthropic.models.messages.ToolBash20250124;
+import com.anthropic.models.messages.ToolTextEditor20250728;
+import com.anthropic.models.messages.CodeExecutionTool20260120;
+
+.addTool(WebSearchTool20260209.builder()
+    .maxUses(5L)                              // optional
+    .allowedDomains(List.of("example.com"))   // optional
+    .build())
+.addTool(ToolBash20250124.builder().build())
+.addTool(ToolTextEditor20250728.builder().build())
+.addTool(CodeExecutionTool20260120.builder().build())
+```
+
+Also available: `WebFetchTool20260209`, `MemoryTool20250818`, `ToolSearchToolBm25_20251119`.
+
+### Beta namespace (MCP, compaction)
+
+For beta-only features use `com.anthropic.models.beta.messages.*` — class names have a `Beta` prefix AND live in the beta package. The beta `MessageCreateParams.Builder` has direct `.addTool(BetaToolBash20250124)` overloads AND `.addMcpServer()`:
+
+```java
+import com.anthropic.models.beta.messages.MessageCreateParams;
+import com.anthropic.models.beta.messages.BetaToolBash20250124;
+import com.anthropic.models.beta.messages.BetaCodeExecutionTool20260120;
+import com.anthropic.models.beta.messages.BetaRequestMcpServerUrlDefinition;
+
+MessageCreateParams params = MessageCreateParams.builder()
+    .model(Model.CLAUDE_OPUS_4_6)
+    .maxTokens(16000L)
+    .addBeta("mcp-client-2025-11-20")
+    .addTool(BetaToolBash20250124.builder().build())
+    .addTool(BetaCodeExecutionTool20260120.builder().build())
+    .addMcpServer(BetaRequestMcpServerUrlDefinition.builder()
+        .name("my-server")
+        .url("https://example.com/mcp")
+        .build())
+    .addUserMessage("...")
+    .build();
+
+client.beta().messages().create(params);
+```
+
+`BetaTool*` types are NOT interchangeable with non-beta `Tool*` — pick one namespace per request.
+
+**Reading server-tool blocks in the response:** `ServerToolUseBlock` has `.id()`, `.name()` (enum), and `._input()` returning raw `JsonValue` — there is NO typed `.input()`. For code execution results, unwrap two levels:
+
+```java
+for (ContentBlock block : response.content()) {
+    block.serverToolUse().ifPresent(stu -> {
+        System.out.println("tool: " + stu.name() + " input: " + stu._input());
+    });
+    block.codeExecutionToolResult().ifPresent(r -> {
+        r.content().resultBlock().ifPresent(result -> {
+            System.out.println("stdout: " + result.stdout());
+            System.out.println("stderr: " + result.stderr());
+            System.out.println("exit: " + result.returnCode());
+        });
+    });
+}
+```
+
+---
+
+## Files API (Beta)
+
+Under `client.beta().files()`. File references in messages need the beta message types (non-beta `DocumentBlockParam.Source` has no file-ID variant).
+
+```java
+import com.anthropic.models.beta.files.FileUploadParams;
+import com.anthropic.models.beta.files.FileMetadata;
+import com.anthropic.models.beta.messages.BetaRequestDocumentBlock;
+import java.nio.file.Paths;
+
+FileMetadata meta = client.beta().files().upload(
+    FileUploadParams.builder()
+        .file(Paths.get("/path/to/doc.pdf"))  // or .file(InputStream) or .file(byte[])
+        .build());
+
+// Reference in a beta message:
+BetaRequestDocumentBlock doc = BetaRequestDocumentBlock.builder()
+    .fileSource(meta.id())
+    .build();
+```
+
+Other methods: `.list()`, `.delete(String fileId)`, `.download(String fileId)`, `.retrieveMetadata(String fileId)`.

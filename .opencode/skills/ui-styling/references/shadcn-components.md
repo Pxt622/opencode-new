@@ -1,1 +1,424 @@
-IyBzaGFkY24vdWkgQ29tcG9uZW50IFJlZmVyZW5jZQoKQ29tcGxldGUgY2F0YWxvZyBvZiBzaGFkY24vdWkgY29tcG9uZW50cyB3aXRoIHVzYWdlIHBhdHRlcm5zIGFuZCBpbnN0YWxsYXRpb24uCgojIyBJbnN0YWxsYXRpb24KCioqQWRkIHNwZWNpZmljIGNvbXBvbmVudHM6KioKYGBgYmFzaApucHggc2hhZGNuQGxhdGVzdCBhZGQgYnV0dG9uCm5weCBzaGFkY25AbGF0ZXN0IGFkZCBidXR0b24gY2FyZCBkaWFsb2cgICMgTXVsdGlwbGUKbnB4IHNoYWRjbkBsYXRlc3QgYWRkIC0tYWxsICAgICAgICAgICAgICAjIEFsbCBjb21wb25lbnRzCmBgYAoKQ29tcG9uZW50cyBpbnN0YWxsIHRvIGBjb21wb25lbnRzL3VpL2Agd2l0aCBhdXRvbWF0aWMgZGVwZW5kZW5jeSBtYW5hZ2VtZW50LgoKIyMgRm9ybSAmIElucHV0IENvbXBvbmVudHMKCiMjIyBCdXR0b24KYGBgdHN4CmltcG9ydCB7IEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aS9idXR0b24iCgo8QnV0dG9uIHZhcmlhbnQ9ImRlZmF1bHQiPkRlZmF1bHQ8L0J1dHRvbj4KPEJ1dHRvbiB2YXJpYW50PSJkZXN0cnVjdGl2ZSI+RGVsZXRlPC9CdXR0b24+CjxCdXR0b24gdmFyaWFudD0ib3V0bGluZSIgc2l6ZT0ic20iPlNtYWxsIE91dGxpbmU8L0J1dHRvbj4KPEJ1dHRvbiB2YXJpYW50PSJnaG9zdCIgc2l6ZT0iaWNvbiI+PEljb24gLz48L0J1dHRvbj4KPEJ1dHRvbiB2YXJpYW50PSJsaW5rIj5MaW5rIFN0eWxlPC9CdXR0b24+CmBgYAoKVmFyaWFudHM6IGBkZWZhdWx0IHwgZGVzdHJ1Y3RpdmUgfCBvdXRsaW5lIHwgc2Vjb25kYXJ5IHwgZ2hvc3QgfCBsaW5rYApTaXplczogYGRlZmF1bHQgfCBzbSB8IGxnIHwgaWNvbmAKCiMjIyBJbnB1dApgYGB0c3gKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiCmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIgoKPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgPExhYmVsIGh0bWxGb3I9ImVtYWlsIj5FbWFpbDwvTGFiZWw+CiAgPElucHV0IGlkPSJlbWFpbCIgdHlwZT0iZW1haWwiIHBsYWNlaG9sZGVyPSJ5b3VAZXhhbXBsZS5jb20iIC8+CjwvZGl2PgpgYGAKCiMjIyBGb3JtICh3aXRoIFJlYWN0IEhvb2sgRm9ybSArIFpvZCkKYGBgdHN4CmltcG9ydCB7IHVzZUZvcm0gfSBmcm9tICJyZWFjdC1ob29rLWZvcm0iCmltcG9ydCB7IHpvZFJlc29sdmVyIH0gZnJvbSAiQGhvb2tmb3JtL3Jlc29sdmVycy96b2QiCmltcG9ydCAqIGFzIHogZnJvbSAiem9kIgppbXBvcnQgeyBGb3JtLCBGb3JtQ29udHJvbCwgRm9ybUZpZWxkLCBGb3JtSXRlbSwgRm9ybUxhYmVsLCBGb3JtTWVzc2FnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9mb3JtIgppbXBvcnQgeyBJbnB1dCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9pbnB1dCIKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiIKCmNvbnN0IHNjaGVtYSA9IHoub2JqZWN0KHsKICB1c2VybmFtZTogei5zdHJpbmcoKS5taW4oMikubWF4KDUwKSwKICBlbWFpbDogei5zdHJpbmcoKS5lbWFpbCgpCn0pCgpmdW5jdGlvbiBQcm9maWxlRm9ybSgpIHsKICBjb25zdCBmb3JtID0gdXNlRm9ybSh7CiAgICByZXNvbHZlcjogem9kUmVzb2x2ZXIoc2NoZW1hKSwKICAgIGRlZmF1bHRWYWx1ZXM6IHsgdXNlcm5hbWU6ICIiLCBlbWFpbDogIiIgfQogIH0pCgogIHJldHVybiAoCiAgICA8Rm9ybSB7Li4uZm9ybX0+CiAgICAgIDxmb3JtIG9uU3VibWl0PXtmb3JtLmhhbmRsZVN1Ym1pdChjb25zb2xlLmxvZyl9IGNsYXNzTmFtZT0ic3BhY2UteS04Ij4KICAgICAgICA8Rm9ybUZpZWxkIGNvbnRyb2w9e2Zvcm0uY29udHJvbH0gbmFtZT0idXNlcm5hbWUiIHJlbmRlcj17KHsgZmllbGQgfSkgPT4gKAogICAgICAgICAgPEZvcm1JdGVtPgogICAgICAgICAgICA8Rm9ybUxhYmVsPlVzZXJuYW1lPC9Gb3JtTGFiZWw+CiAgICAgICAgICAgIDxGb3JtQ29udHJvbD4KICAgICAgICAgICAgICA8SW5wdXQgcGxhY2Vob2xkZXI9InNoYWRjbiIgey4uLmZpZWxkfSAvPgogICAgICAgICAgICA8L0Zvcm1Db250cm9sPgogICAgICAgICAgICA8Rm9ybU1lc3NhZ2UgLz4KICAgICAgICAgIDwvRm9ybUl0ZW0+CiAgICAgICAgKX0gLz4KICAgICAgICA8QnV0dG9uIHR5cGU9InN1Ym1pdCI+U3VibWl0PC9CdXR0b24+CiAgICAgIDwvZm9ybT4KICAgIDwvRm9ybT4KICApCn0KYGBgCgojIyMgU2VsZWN0CmBgYHRzeAppbXBvcnQgeyBTZWxlY3QsIFNlbGVjdENvbnRlbnQsIFNlbGVjdEl0ZW0sIFNlbGVjdFRyaWdnZXIsIFNlbGVjdFZhbHVlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NlbGVjdCIKCjxTZWxlY3Q+CiAgPFNlbGVjdFRyaWdnZXIgY2xhc3NOYW1lPSJ3LVsxODBweF0iPgogICAgPFNlbGVjdFZhbHVlIHBsYWNlaG9sZGVyPSJUaGVtZSIgLz4KICA8L1NlbGVjdFRyaWdnZXI+CiAgPFNlbGVjdENvbnRlbnQ+CiAgICA8U2VsZWN0SXRlbSB2YWx1ZT0ibGlnaHQiPkxpZ2h0PC9TZWxlY3RJdGVtPgogICAgPFNlbGVjdEl0ZW0gdmFsdWU9ImRhcmsiPkRhcms8L1NlbGVjdEl0ZW0+CiAgICA8U2VsZWN0SXRlbSB2YWx1ZT0ic3lzdGVtIj5TeXN0ZW08L1NlbGVjdEl0ZW0+CiAgPC9TZWxlY3RDb250ZW50Pgo8L1NlbGVjdD4KYGBgCgojIyMgQ2hlY2tib3gKYGBgdHN4CmltcG9ydCB7IENoZWNrYm94IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NoZWNrYm94IgppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCIKCjxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBzcGFjZS14LTIiPgogIDxDaGVja2JveCBpZD0idGVybXMiIC8+CiAgPExhYmVsIGh0bWxGb3I9InRlcm1zIj5BY2NlcHQgdGVybXM8L0xhYmVsPgo8L2Rpdj4KYGBgCgojIyMgUmFkaW8gR3JvdXAKYGBgdHN4CmltcG9ydCB7IFJhZGlvR3JvdXAsIFJhZGlvR3JvdXBJdGVtIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3JhZGlvLWdyb3VwIgppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCIKCjxSYWRpb0dyb3VwIGRlZmF1bHRWYWx1ZT0ib3B0aW9uLW9uZSI+CiAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMiI+CiAgICA8UmFkaW9Hcm91cEl0ZW0gdmFsdWU9Im9wdGlvbi1vbmUiIGlkPSJvcHRpb24tb25lIiAvPgogICAgPExhYmVsIGh0bWxGb3I9Im9wdGlvbi1vbmUiPk9wdGlvbiBPbmU8L0xhYmVsPgogIDwvZGl2PgogIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBzcGFjZS14LTIiPgogICAgPFJhZGlvR3JvdXBJdGVtIHZhbHVlPSJvcHRpb24tdHdvIiBpZD0ib3B0aW9uLXR3byIgLz4KICAgIDxMYWJlbCBodG1sRm9yPSJvcHRpb24tdHdvIj5PcHRpb24gVHdvPC9MYWJlbD4KICA8L2Rpdj4KPC9SYWRpb0dyb3VwPgpgYGAKCiMjIyBUZXh0YXJlYQpgYGB0c3gKaW1wb3J0IHsgVGV4dGFyZWEgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGV4dGFyZWEiCgo8VGV4dGFyZWEgcGxhY2Vob2xkZXI9IlR5cGUgeW91ciBtZXNzYWdlIGhlcmUuIiAvPgpgYGAKCiMjIyBTd2l0Y2gKYGBgdHN4CmltcG9ydCB7IFN3aXRjaCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9zd2l0Y2giCmltcG9ydCB7IExhYmVsIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2xhYmVsIgoKPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtMiI+CiAgPFN3aXRjaCBpZD0iYWlycGxhbmUtbW9kZSIgLz4KICA8TGFiZWwgaHRtbEZvcj0iYWlycGxhbmUtbW9kZSI+QWlycGxhbmUgTW9kZTwvTGFiZWw+CjwvZGl2PgpgYGAKCiMjIyBEYXRlIFBpY2tlcgpgYGB0c3gKaW1wb3J0IHsgQ2FsZW5kYXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY2FsZW5kYXIiCmltcG9ydCB7IFBvcG92ZXIsIFBvcG92ZXJDb250ZW50LCBQb3BvdmVyVHJpZ2dlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9wb3BvdmVyIgppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIgppbXBvcnQgeyBDYWxlbmRhckljb24gfSBmcm9tICJsdWNpZGUtcmVhY3QiCmltcG9ydCB7IGZvcm1hdCB9IGZyb20gImRhdGUtZm5zIgppbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IgoKY29uc3QgW2RhdGUsIHNldERhdGVdID0gdXNlU3RhdGU8RGF0ZT4oKQoKPFBvcG92ZXI+CiAgPFBvcG92ZXJUcmlnZ2VyIGFzQ2hpbGQ+CiAgICA8QnV0dG9uIHZhcmlhbnQ9Im91dGxpbmUiPgogICAgICA8Q2FsZW5kYXJJY29uIGNsYXNzTmFtZT0ibXItMiBoLTQgdy00IiAvPgogICAgICB7ZGF0ZSA/IGZvcm1hdChkYXRlLCAiUFBQIikgOiAiUGljayBhIGRhdGUifQogICAgPC9CdXR0b24+CiAgPC9Qb3BvdmVyVHJpZ2dlcj4KICA8UG9wb3ZlckNvbnRlbnQgY2xhc3NOYW1lPSJ3LWF1dG8gcC0wIj4KICAgIDxDYWxlbmRhciBtb2RlPSJzaW5nbGUiIHNlbGVjdGVkPXtkYXRlfSBvblNlbGVjdD17c2V0RGF0ZX0gLz4KICA8L1BvcG92ZXJDb250ZW50Pgo8L1BvcG92ZXI+CmBgYAoKIyMgTGF5b3V0ICYgTmF2aWdhdGlvbgoKIyMjIENhcmQKYGBgdHN4CmltcG9ydCB7IENhcmQsIENhcmRDb250ZW50LCBDYXJkRGVzY3JpcHRpb24sIENhcmRGb290ZXIsIENhcmRIZWFkZXIsIENhcmRUaXRsZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9jYXJkIgoKPENhcmQ+CiAgPENhcmRIZWFkZXI+CiAgICA8Q2FyZFRpdGxlPkNhcmQgVGl0bGU8L0NhcmRUaXRsZT4KICAgIDxDYXJkRGVzY3JpcHRpb24+Q2FyZCBEZXNjcmlwdGlvbjwvQ2FyZERlc2NyaXB0aW9uPgogIDwvQ2FyZEhlYWRlcj4KICA8Q2FyZENvbnRlbnQ+CiAgICA8cD5DYXJkIENvbnRlbnQ8L3A+CiAgPC9DYXJkQ29udGVudD4KICA8Q2FyZEZvb3Rlcj4KICAgIDxCdXR0b24+QWN0aW9uPC9CdXR0b24+CiAgPC9DYXJkRm9vdGVyPgo8L0NhcmQ+CmBgYAoKIyMjIFRhYnMKYGBgdHN4CmltcG9ydCB7IFRhYnMsIFRhYnNDb250ZW50LCBUYWJzTGlzdCwgVGFic1RyaWdnZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvdGFicyIKCjxUYWJzIGRlZmF1bHRWYWx1ZT0iYWNjb3VudCI+CiAgPFRhYnNMaXN0PgogICAgPFRhYnNUcmlnZ2VyIHZhbHVlPSJhY2NvdW50Ij5BY2NvdW50PC9UYWJzVHJpZ2dlcj4KICAgIDxUYWJzVHJpZ2dlciB2YWx1ZT0icGFzc3dvcmQiPlBhc3N3b3JkPC9UYWJzVHJpZ2dlcj4KICA8L1RhYnNMaXN0PgogIDxUYWJzQ29udGVudCB2YWx1ZT0iYWNjb3VudCI+QWNjb3VudCBzZXR0aW5nczwvVGFic0NvbnRlbnQ+CiAgPFRhYnNDb250ZW50IHZhbHVlPSJwYXNzd29yZCI+UGFzc3dvcmQgc2V0dGluZ3M8L1RhYnNDb250ZW50Pgo8L1RhYnM+CmBgYAoKIyMjIEFjY29yZGlvbgpgYGB0c3gKaW1wb3J0IHsgQWNjb3JkaW9uLCBBY2NvcmRpb25Db250ZW50LCBBY2NvcmRpb25JdGVtLCBBY2NvcmRpb25UcmlnZ2VyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FjY29yZGlvbiIKCjxBY2NvcmRpb24gdHlwZT0ic2luZ2xlIiBjb2xsYXBzaWJsZT4KICA8QWNjb3JkaW9uSXRlbSB2YWx1ZT0iaXRlbS0xIj4KICAgIDxBY2NvcmRpb25UcmlnZ2VyPklzIGl0IGFjY2Vzc2libGU/PC9BY2NvcmRpb25UcmlnZ2VyPgogICAgPEFjY29yZGlvbkNvbnRlbnQ+CiAgICAgIFllcy4gSXQgYWRoZXJlcyB0byBXQUktQVJJQSBkZXNpZ24gcGF0dGVybi4KICAgIDwvQWNjb3JkaW9uQ29udGVudD4KICA8L0FjY29yZGlvbkl0ZW0+CiAgPEFjY29yZGlvbkl0ZW0gdmFsdWU9Iml0ZW0tMiI+CiAgICA8QWNjb3JkaW9uVHJpZ2dlcj5JcyBpdCBzdHlsZWQ/PC9BY2NvcmRpb25UcmlnZ2VyPgogICAgPEFjY29yZGlvbkNvbnRlbnQ+CiAgICAgIFllcy4gQ29tZXMgd2l0aCBkZWZhdWx0IHN0eWxlcyBjdXN0b21pemFibGUgd2l0aCBUYWlsd2luZC4KICAgIDwvQWNjb3JkaW9uQ29udGVudD4KICA8L0FjY29yZGlvbkl0ZW0+CjwvQWNjb3JkaW9uPgpgYGAKCiMjIyBOYXZpZ2F0aW9uIE1lbnUKYGBgdHN4CmltcG9ydCB7IE5hdmlnYXRpb25NZW51LCBOYXZpZ2F0aW9uTWVudUNvbnRlbnQsIE5hdmlnYXRpb25NZW51SXRlbSwgTmF2aWdhdGlvbk1lbnVMaW5rLCBOYXZpZ2F0aW9uTWVudUxpc3QsIE5hdmlnYXRpb25NZW51VHJpZ2dlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9uYXZpZ2F0aW9uLW1lbnUiCgo8TmF2aWdhdGlvbk1lbnU+CiAgPE5hdmlnYXRpb25NZW51TGlzdD4KICAgIDxOYXZpZ2F0aW9uTWVudUl0ZW0+CiAgICAgIDxOYXZpZ2F0aW9uTWVudVRyaWdnZXI+R2V0dGluZyBTdGFydGVkPC9OYXZpZ2F0aW9uTWVudVRyaWdnZXI+CiAgICAgIDxOYXZpZ2F0aW9uTWVudUNvbnRlbnQ+CiAgICAgICAgPE5hdmlnYXRpb25NZW51TGluaz5JbnRyb2R1Y3Rpb248L05hdmlnYXRpb25NZW51TGluaz4KICAgICAgICA8TmF2aWdhdGlvbk1lbnVMaW5rPkluc3RhbGxhdGlvbjwvTmF2aWdhdGlvbk1lbnVMaW5rPgogICAgICA8L05hdmlnYXRpb25NZW51Q29udGVudD4KICAgIDwvTmF2aWdhdGlvbk1lbnVJdGVtPgogIDwvTmF2aWdhdGlvbk1lbnVMaXN0Pgo8L05hdmlnYXRpb25NZW51PgpgYGAKCiMjIE92ZXJsYXlzICYgRGlhbG9ncwoKIyMjIERpYWxvZwpgYGB0c3gKaW1wb3J0IHsgRGlhbG9nLCBEaWFsb2dDb250ZW50LCBEaWFsb2dEZXNjcmlwdGlvbiwgRGlhbG9nSGVhZGVyLCBEaWFsb2dUaXRsZSwgRGlhbG9nVHJpZ2dlciB9IGZyb20gIkAvY29tcG9uZW50cy91aS9kaWFsb2ciCgo8RGlhbG9nPgogIDxEaWFsb2dUcmlnZ2VyIGFzQ2hpbGQ+CiAgICA8QnV0dG9uPk9wZW48L0J1dHRvbj4KICA8L0RpYWxvZ1RyaWdnZXI+CiAgPERpYWxvZ0NvbnRlbnQ+CiAgICA8RGlhbG9nSGVhZGVyPgogICAgICA8RGlhbG9nVGl0bGU+QXJlIHlvdSBzdXJlPzwvRGlhbG9nVGl0bGU+CiAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj5UaGlzIGFjdGlvbiBjYW5ub3QgYmUgdW5kb25lLjwvRGlhbG9nRGVzY3JpcHRpb24+CiAgICA8L0RpYWxvZ0hlYWRlcj4KICA8L0RpYWxvZ0NvbnRlbnQ+CjwvRGlhbG9nPgpgYGAKCiMjIyBEcmF3ZXIKYGBgdHN4CmltcG9ydCB7IERyYXdlciwgRHJhd2VyQ2xvc2UsIERyYXdlckNvbnRlbnQsIERyYXdlckRlc2NyaXB0aW9uLCBEcmF3ZXJGb290ZXIsIERyYXdlckhlYWRlciwgRHJhd2VyVGl0bGUsIERyYXdlclRyaWdnZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZHJhd2VyIgoKPERyYXdlcj4KICA8RHJhd2VyVHJpZ2dlcj5PcGVuPC9EcmF3ZXJUcmlnZ2VyPgogIDxEcmF3ZXJDb250ZW50PgogICAgPERyYXdlckhlYWRlcj4KICAgICAgPERyYXdlclRpdGxlPlRpdGxlPC9EcmF3ZXJUaXRsZT4KICAgICAgPERyYXdlckRlc2NyaXB0aW9uPkRlc2NyaXB0aW9uPC9EcmF3ZXJEZXNjcmlwdGlvbj4KICAgIDwvRHJhd2VySGVhZGVyPgogICAgPERyYXdlckZvb3Rlcj4KICAgICAgPEJ1dHRvbj5TdWJtaXQ8L0J1dHRvbj4KICAgICAgPERyYXdlckNsb3NlPkNhbmNlbDwvRHJhd2VyQ2xvc2U+CiAgICA8L0RyYXdlckZvb3Rlcj4KICA8L0RyYXdlckNvbnRlbnQ+CjwvRHJhd2VyPgpgYGAKCiMjIyBQb3BvdmVyCmBgYHRzeAppbXBvcnQgeyBQb3BvdmVyLCBQb3BvdmVyQ29udGVudCwgUG9wb3ZlclRyaWdnZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvcG9wb3ZlciIKCjxQb3BvdmVyPgogIDxQb3BvdmVyVHJpZ2dlcj5PcGVuPC9Qb3BvdmVyVHJpZ2dlcj4KICA8UG9wb3ZlckNvbnRlbnQ+Q29udGVudCBoZXJlPC9Qb3BvdmVyQ29udGVudD4KPC9Qb3BvdmVyPgpgYGAKCiMjIyBUb2FzdApgYGB0c3gKaW1wb3J0IHsgdXNlVG9hc3QgfSBmcm9tICJAL2hvb2tzL3VzZS10b2FzdCIKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiIKCmNvbnN0IHsgdG9hc3QgfSA9IHVzZVRvYXN0KCkKCjxCdXR0b24gb25DbGljaz17KCkgPT4gewogIHRvYXN0KHsKICAgIHRpdGxlOiAiU2NoZWR1bGVkOiBDYXRjaCB1cCIsCiAgICBkZXNjcmlwdGlvbjogIkZyaWRheSwgRmVicnVhcnkgMTAsIDIwMjMgYXQgNTo1NyBQTSIKICB9KQp9fT4KICBTaG93IFRvYXN0CjwvQnV0dG9uPgpgYGAKCiMjIyBDb21tYW5kCmBgYHRzeAppbXBvcnQgeyBDb21tYW5kLCBDb21tYW5kRW1wdHksIENvbW1hbmRHcm91cCwgQ29tbWFuZElucHV0LCBDb21tYW5kSXRlbSwgQ29tbWFuZExpc3QgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvY29tbWFuZCIKCjxDb21tYW5kPgogIDxDb21tYW5kSW5wdXQgcGxhY2Vob2xkZXI9IlR5cGUgYSBjb21tYW5kIG9yIHNlYXJjaC4uLiIgLz4KICA8Q29tbWFuZExpc3Q+CiAgICA8Q29tbWFuZEVtcHR5Pk5vIHJlc3VsdHMgZm91bmQuPC9Db21tYW5kRW1wdHk+CiAgICA8Q29tbWFuZEdyb3VwIGhlYWRpbmc9IlN1Z2dlc3Rpb25zIj4KICAgICAgPENvbW1hbmRJdGVtPkNhbGVuZGFyPC9Db21tYW5kSXRlbT4KICAgICAgPENvbW1hbmRJdGVtPlNlYXJjaCBFbW9qaTwvQ29tbWFuZEl0ZW0+CiAgICAgIDxDb21tYW5kSXRlbT5DYWxjdWxhdG9yPC9Db21tYW5kSXRlbT4KICAgIDwvQ29tbWFuZEdyb3VwPgogIDwvQ29tbWFuZExpc3Q+CjwvQ29tbWFuZD4KYGBgCgojIyMgQWxlcnQgRGlhbG9nCmBgYHRzeAppbXBvcnQgeyBBbGVydERpYWxvZywgQWxlcnREaWFsb2dBY3Rpb24sIEFsZXJ0RGlhbG9nQ2FuY2VsLCBBbGVydERpYWxvZ0NvbnRlbnQsIEFsZXJ0RGlhbG9nRGVzY3JpcHRpb24sIEFsZXJ0RGlhbG9nRm9vdGVyLCBBbGVydERpYWxvZ0hlYWRlciwgQWxlcnREaWFsb2dUaXRsZSwgQWxlcnREaWFsb2dUcmlnZ2VyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2FsZXJ0LWRpYWxvZyIKCjxBbGVydERpYWxvZz4KICA8QWxlcnREaWFsb2dUcmlnZ2VyIGFzQ2hpbGQ+CiAgICA8QnV0dG9uIHZhcmlhbnQ9ImRlc3RydWN0aXZlIj5EZWxldGU8L0J1dHRvbj4KICA8L0FsZXJ0RGlhbG9nVHJpZ2dlcj4KICA8QWxlcnREaWFsb2dDb250ZW50PgogICAgPEFsZXJ0RGlhbG9nSGVhZGVyPgogICAgICA8QWxlcnREaWFsb2dUaXRsZT5BYnNvbHV0ZWx5IHN1cmU/PC9BbGVydERpYWxvZ1RpdGxlPgogICAgICA8QWxlcnREaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICBUaGlzIHBlcm1hbmVudGx5IGRlbGV0ZXMgeW91ciBhY2NvdW50IGFuZCByZW1vdmVzIGRhdGEgZnJvbSBzZXJ2ZXJzLgogICAgICA8L0FsZXJ0RGlhbG9nRGVzY3JpcHRpb24+CiAgICA8L0FsZXJ0RGlhbG9nSGVhZGVyPgogICAgPEFsZXJ0RGlhbG9nRm9vdGVyPgogICAgICA8QWxlcnREaWFsb2dDYW5jZWw+Q2FuY2VsPC9BbGVydERpYWxvZ0NhbmNlbD4KICAgICAgPEFsZXJ0RGlhbG9nQWN0aW9uPkNvbnRpbnVlPC9BbGVydERpYWxvZ0FjdGlvbj4KICAgIDwvQWxlcnREaWFsb2dGb290ZXI+CiAgPC9BbGVydERpYWxvZ0NvbnRlbnQ+CjwvQWxlcnREaWFsb2c+CmBgYAoKIyMgRmVlZGJhY2sgJiBTdGF0dXMKCiMjIyBBbGVydApgYGB0c3gKaW1wb3J0IHsgQWxlcnQsIEFsZXJ0RGVzY3JpcHRpb24sIEFsZXJ0VGl0bGUgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYWxlcnQiCgo8QWxlcnQ+CiAgPEFsZXJ0VGl0bGU+SGVhZHMgdXAhPC9BbGVydFRpdGxlPgogIDxBbGVydERlc2NyaXB0aW9uPllvdSBjYW4gYWRkIGNvbXBvbmVudHMgdXNpbmcgQ0xJLjwvQWxlcnREZXNjcmlwdGlvbj4KPC9BbGVydD4KCjxBbGVydCB2YXJpYW50PSJkZXN0cnVjdGl2ZSI+CiAgPEFsZXJ0VGl0bGU+RXJyb3I8L0FsZXJ0VGl0bGU+CiAgPEFsZXJ0RGVzY3JpcHRpb24+U2Vzc2lvbiBleHBpcmVkLiBQbGVhc2UgbG9nIGluLjwvQWxlcnREZXNjcmlwdGlvbj4KPC9BbGVydD4KYGBgCgojIyMgUHJvZ3Jlc3MKYGBgdHN4CmltcG9ydCB7IFByb2dyZXNzIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3Byb2dyZXNzIgoKPFByb2dyZXNzIHZhbHVlPXszM30gLz4KYGBgCgojIyMgU2tlbGV0b24KYGBgdHN4CmltcG9ydCB7IFNrZWxldG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3NrZWxldG9uIgoKPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtNCI+CiAgPFNrZWxldG9uIGNsYXNzTmFtZT0iaC0xMiB3LTEyIHJvdW5kZWQtZnVsbCIgLz4KICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgIDxTa2VsZXRvbiBjbGFzc05hbWU9ImgtNCB3LVsyNTBweF0iIC8+CiAgICA8U2tlbGV0b24gY2xhc3NOYW1lPSJoLTQgdy1bMjAwcHhdIiAvPgogIDwvZGl2Pgo8L2Rpdj4KYGBgCgojIyBEaXNwbGF5IENvbXBvbmVudHMKCiMjIyBUYWJsZQpgYGB0c3gKaW1wb3J0IHsgVGFibGUsIFRhYmxlQm9keSwgVGFibGVDYXB0aW9uLCBUYWJsZUNlbGwsIFRhYmxlSGVhZCwgVGFibGVIZWFkZXIsIFRhYmxlUm93IH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL3RhYmxlIgoKPFRhYmxlPgogIDxUYWJsZUNhcHRpb24+UmVjZW50IGludm9pY2VzPC9UYWJsZUNhcHRpb24+CiAgPFRhYmxlSGVhZGVyPgogICAgPFRhYmxlUm93PgogICAgICA8VGFibGVIZWFkPkludm9pY2U8L1RhYmxlSGVhZD4KICAgICAgPFRhYmxlSGVhZD5TdGF0dXM8L1RhYmxlSGVhZD4KICAgICAgPFRhYmxlSGVhZD5BbW91bnQ8L1RhYmxlSGVhZD4KICAgIDwvVGFibGVSb3c+CiAgPC9UYWJsZUhlYWRlcj4KICA8VGFibGVCb2R5PgogICAgPFRhYmxlUm93PgogICAgICA8VGFibGVDZWxsPklOVjAwMTwvVGFibGVDZWxsPgogICAgICA8VGFibGVDZWxsPlBhaWQ8L1RhYmxlQ2VsbD4KICAgICAgPFRhYmxlQ2VsbD4kMjUwLjAwPC9UYWJsZUNlbGw+CiAgICA8L1RhYmxlUm93PgogIDwvVGFibGVCb2R5Pgo8L1RhYmxlPgpgYGAKCiMjIyBBdmF0YXIKYGBgdHN4CmltcG9ydCB7IEF2YXRhciwgQXZhdGFyRmFsbGJhY2ssIEF2YXRhckltYWdlIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2F2YXRhciIKCjxBdmF0YXI+CiAgPEF2YXRhckltYWdlIHNyYz0iaHR0cHM6Ly9naXRodWIuY29tL3NoYWRjbi5wbmciIC8+CiAgPEF2YXRhckZhbGxiYWNrPkNOPC9BdmF0YXJGYWxsYmFjaz4KPC9BdmF0YXI+CmBgYAoKIyMjIEJhZGdlCmBgYHRzeAppbXBvcnQgeyBCYWRnZSB9IGZyb20gIkAvY29tcG9uZW50cy91aS9iYWRnZSIKCjxCYWRnZT5EZWZhdWx0PC9CYWRnZT4KPEJhZGdlIHZhcmlhbnQ9InNlY29uZGFyeSI+U2Vjb25kYXJ5PC9CYWRnZT4KPEJhZGdlIHZhcmlhbnQ9ImRlc3RydWN0aXZlIj5EZXN0cnVjdGl2ZTwvQmFkZ2U+CjxCYWRnZSB2YXJpYW50PSJvdXRsaW5lIj5PdXRsaW5lPC9CYWRnZT4KYGBgCg==
+# shadcn/ui Component Reference
+
+Complete catalog of shadcn/ui components with usage patterns and installation.
+
+## Installation
+
+**Add specific components:**
+```bash
+npx shadcn@latest add button
+npx shadcn@latest add button card dialog  # Multiple
+npx shadcn@latest add --all              # All components
+```
+
+Components install to `components/ui/` with automatic dependency management.
+
+## Form & Input Components
+
+### Button
+```tsx
+import { Button } from "@/components/ui/button"
+
+<Button variant="default">Default</Button>
+<Button variant="destructive">Delete</Button>
+<Button variant="outline" size="sm">Small Outline</Button>
+<Button variant="ghost" size="icon"><Icon /></Button>
+<Button variant="link">Link Style</Button>
+```
+
+Variants: `default | destructive | outline | secondary | ghost | link`
+Sizes: `default | sm | lg | icon`
+
+### Input
+```tsx
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+
+<div className="space-y-2">
+  <Label htmlFor="email">Email</Label>
+  <Input id="email" type="email" placeholder="you@example.com" />
+</div>
+```
+
+### Form (with React Hook Form + Zod)
+```tsx
+import { useForm } from "react-hook-form"
+import { zodResolver } from "@hookform/resolvers/zod"
+import * as z from "zod"
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
+
+const schema = z.object({
+  username: z.string().min(2).max(50),
+  email: z.string().email()
+})
+
+function ProfileForm() {
+  const form = useForm({
+    resolver: zodResolver(schema),
+    defaultValues: { username: "", email: "" }
+  })
+
+  return (
+    <Form {...form}>
+      <form onSubmit={form.handleSubmit(console.log)} className="space-y-8">
+        <FormField control={form.control} name="username" render={({ field }) => (
+          <FormItem>
+            <FormLabel>Username</FormLabel>
+            <FormControl>
+              <Input placeholder="shadcn" {...field} />
+            </FormControl>
+            <FormMessage />
+          </FormItem>
+        )} />
+        <Button type="submit">Submit</Button>
+      </form>
+    </Form>
+  )
+}
+```
+
+### Select
+```tsx
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+
+<Select>
+  <SelectTrigger className="w-[180px]">
+    <SelectValue placeholder="Theme" />
+  </SelectTrigger>
+  <SelectContent>
+    <SelectItem value="light">Light</SelectItem>
+    <SelectItem value="dark">Dark</SelectItem>
+    <SelectItem value="system">System</SelectItem>
+  </SelectContent>
+</Select>
+```
+
+### Checkbox
+```tsx
+import { Checkbox } from "@/components/ui/checkbox"
+import { Label } from "@/components/ui/label"
+
+<div className="flex items-center space-x-2">
+  <Checkbox id="terms" />
+  <Label htmlFor="terms">Accept terms</Label>
+</div>
+```
+
+### Radio Group
+```tsx
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
+import { Label } from "@/components/ui/label"
+
+<RadioGroup defaultValue="option-one">
+  <div className="flex items-center space-x-2">
+    <RadioGroupItem value="option-one" id="option-one" />
+    <Label htmlFor="option-one">Option One</Label>
+  </div>
+  <div className="flex items-center space-x-2">
+    <RadioGroupItem value="option-two" id="option-two" />
+    <Label htmlFor="option-two">Option Two</Label>
+  </div>
+</RadioGroup>
+```
+
+### Textarea
+```tsx
+import { Textarea } from "@/components/ui/textarea"
+
+<Textarea placeholder="Type your message here." />
+```
+
+### Switch
+```tsx
+import { Switch } from "@/components/ui/switch"
+import { Label } from "@/components/ui/label"
+
+<div className="flex items-center space-x-2">
+  <Switch id="airplane-mode" />
+  <Label htmlFor="airplane-mode">Airplane Mode</Label>
+</div>
+```
+
+### Date Picker
+```tsx
+import { Calendar } from "@/components/ui/calendar"
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
+import { Button } from "@/components/ui/button"
+import { CalendarIcon } from "lucide-react"
+import { format } from "date-fns"
+import { useState } from "react"
+
+const [date, setDate] = useState<Date>()
+
+<Popover>
+  <PopoverTrigger asChild>
+    <Button variant="outline">
+      <CalendarIcon className="mr-2 h-4 w-4" />
+      {date ? format(date, "PPP") : "Pick a date"}
+    </Button>
+  </PopoverTrigger>
+  <PopoverContent className="w-auto p-0">
+    <Calendar mode="single" selected={date} onSelect={setDate} />
+  </PopoverContent>
+</Popover>
+```
+
+## Layout & Navigation
+
+### Card
+```tsx
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+
+<Card>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    <CardDescription>Card Description</CardDescription>
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <Button>Action</Button>
+  </CardFooter>
+</Card>
+```
+
+### Tabs
+```tsx
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+
+<Tabs defaultValue="account">
+  <TabsList>
+    <TabsTrigger value="account">Account</TabsTrigger>
+    <TabsTrigger value="password">Password</TabsTrigger>
+  </TabsList>
+  <TabsContent value="account">Account settings</TabsContent>
+  <TabsContent value="password">Password settings</TabsContent>
+</Tabs>
+```
+
+### Accordion
+```tsx
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
+
+<Accordion type="single" collapsible>
+  <AccordionItem value="item-1">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+  <AccordionItem value="item-2">
+    <AccordionTrigger>Is it styled?</AccordionTrigger>
+    <AccordionContent>
+      Yes. Comes with default styles customizable with Tailwind.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+```
+
+### Navigation Menu
+```tsx
+import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu"
+
+<NavigationMenu>
+  <NavigationMenuList>
+    <NavigationMenuItem>
+      <NavigationMenuTrigger>Getting Started</NavigationMenuTrigger>
+      <NavigationMenuContent>
+        <NavigationMenuLink>Introduction</NavigationMenuLink>
+        <NavigationMenuLink>Installation</NavigationMenuLink>
+      </NavigationMenuContent>
+    </NavigationMenuItem>
+  </NavigationMenuList>
+</NavigationMenu>
+```
+
+## Overlays & Dialogs
+
+### Dialog
+```tsx
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+
+<Dialog>
+  <DialogTrigger asChild>
+    <Button>Open</Button>
+  </DialogTrigger>
+  <DialogContent>
+    <DialogHeader>
+      <DialogTitle>Are you sure?</DialogTitle>
+      <DialogDescription>This action cannot be undone.</DialogDescription>
+    </DialogHeader>
+  </DialogContent>
+</Dialog>
+```
+
+### Drawer
+```tsx
+import { Drawer, DrawerClose, DrawerContent, DrawerDescription, DrawerFooter, DrawerHeader, DrawerTitle, DrawerTrigger } from "@/components/ui/drawer"
+
+<Drawer>
+  <DrawerTrigger>Open</DrawerTrigger>
+  <DrawerContent>
+    <DrawerHeader>
+      <DrawerTitle>Title</DrawerTitle>
+      <DrawerDescription>Description</DrawerDescription>
+    </DrawerHeader>
+    <DrawerFooter>
+      <Button>Submit</Button>
+      <DrawerClose>Cancel</DrawerClose>
+    </DrawerFooter>
+  </DrawerContent>
+</Drawer>
+```
+
+### Popover
+```tsx
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
+
+<Popover>
+  <PopoverTrigger>Open</PopoverTrigger>
+  <PopoverContent>Content here</PopoverContent>
+</Popover>
+```
+
+### Toast
+```tsx
+import { useToast } from "@/hooks/use-toast"
+import { Button } from "@/components/ui/button"
+
+const { toast } = useToast()
+
+<Button onClick={() => {
+  toast({
+    title: "Scheduled: Catch up",
+    description: "Friday, February 10, 2023 at 5:57 PM"
+  })
+}}>
+  Show Toast
+</Button>
+```
+
+### Command
+```tsx
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@/components/ui/command"
+
+<Command>
+  <CommandInput placeholder="Type a command or search..." />
+  <CommandList>
+    <CommandEmpty>No results found.</CommandEmpty>
+    <CommandGroup heading="Suggestions">
+      <CommandItem>Calendar</CommandItem>
+      <CommandItem>Search Emoji</CommandItem>
+      <CommandItem>Calculator</CommandItem>
+    </CommandGroup>
+  </CommandList>
+</Command>
+```
+
+### Alert Dialog
+```tsx
+import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog"
+
+<AlertDialog>
+  <AlertDialogTrigger asChild>
+    <Button variant="destructive">Delete</Button>
+  </AlertDialogTrigger>
+  <AlertDialogContent>
+    <AlertDialogHeader>
+      <AlertDialogTitle>Absolutely sure?</AlertDialogTitle>
+      <AlertDialogDescription>
+        This permanently deletes your account and removes data from servers.
+      </AlertDialogDescription>
+    </AlertDialogHeader>
+    <AlertDialogFooter>
+      <AlertDialogCancel>Cancel</AlertDialogCancel>
+      <AlertDialogAction>Continue</AlertDialogAction>
+    </AlertDialogFooter>
+  </AlertDialogContent>
+</AlertDialog>
+```
+
+## Feedback & Status
+
+### Alert
+```tsx
+import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
+
+<Alert>
+  <AlertTitle>Heads up!</AlertTitle>
+  <AlertDescription>You can add components using CLI.</AlertDescription>
+</Alert>
+
+<Alert variant="destructive">
+  <AlertTitle>Error</AlertTitle>
+  <AlertDescription>Session expired. Please log in.</AlertDescription>
+</Alert>
+```
+
+### Progress
+```tsx
+import { Progress } from "@/components/ui/progress"
+
+<Progress value={33} />
+```
+
+### Skeleton
+```tsx
+import { Skeleton } from "@/components/ui/skeleton"
+
+<div className="flex items-center space-x-4">
+  <Skeleton className="h-12 w-12 rounded-full" />
+  <div className="space-y-2">
+    <Skeleton className="h-4 w-[250px]" />
+    <Skeleton className="h-4 w-[200px]" />
+  </div>
+</div>
+```
+
+## Display Components
+
+### Table
+```tsx
+import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
+
+<Table>
+  <TableCaption>Recent invoices</TableCaption>
+  <TableHeader>
+    <TableRow>
+      <TableHead>Invoice</TableHead>
+      <TableHead>Status</TableHead>
+      <TableHead>Amount</TableHead>
+    </TableRow>
+  </TableHeader>
+  <TableBody>
+    <TableRow>
+      <TableCell>INV001</TableCell>
+      <TableCell>Paid</TableCell>
+      <TableCell>$250.00</TableCell>
+    </TableRow>
+  </TableBody>
+</Table>
+```
+
+### Avatar
+```tsx
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
+
+<Avatar>
+  <AvatarImage src="https://github.com/shadcn.png" />
+  <AvatarFallback>CN</AvatarFallback>
+</Avatar>
+```
+
+### Badge
+```tsx
+import { Badge } from "@/components/ui/badge"
+
+<Badge>Default</Badge>
+<Badge variant="secondary">Secondary</Badge>
+<Badge variant="destructive">Destructive</Badge>
+<Badge variant="outline">Outline</Badge>
+```

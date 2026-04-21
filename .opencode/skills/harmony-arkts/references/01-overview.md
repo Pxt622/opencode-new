@@ -1,1 +1,79 @@
-IyBIYXJtb255T1Mg57O757uf5qaC6L+w5LiO5bqU55So5Z+656GACgojIyDns7vnu5/lrprkuYkKCkhhcm1vbnlPUyDmmK/kuIDmrL4i6Z2i5ZCR5pyq5p2lIuOAgemdouWQkeWFqOWcuuaZr++8iOenu+WKqOWKnuWFrOOAgei/kOWKqOWBpeW6t+OAgeekvuS6pOmAmuS/oeOAgeWqkuS9k+WoseS5kOetie+8ieeahOWIhuW4g+W8j+aTjeS9nOezu+e7n+OAguWcqOS8oOe7n+eahOWNleiuvuWkh+ezu+e7n+iDveWKm+eahOWfuuehgOS4iu+8jEhhcm1vbnlPUyDmj5Dlh7rkuobln7rkuo7lkIzkuIDlpZfns7vnu5/og73lipvjgIHpgILphY3lpJrnp43nu4jnq6/lvaLmgIHnmoTliIbluIPlvI/nkIblv7XvvIzog73lpJ/mlK/mjIHlpJrnp43nu4jnq6/orr7lpIfjgIIKCioq5a+55raI6LS56ICF6ICM6KiAKirvvJpIYXJtb255T1Mg6IO95aSf5bCG55Sf5rS75Zy65pmv5Lit55qE5ZCE57G757uI56uv6L+b6KGM6IO95Yqb5pW05ZCI77yM5b2i5oiQ5LiA5LiqIui2hee6p+iZmuaLn+e7iOerryLvvIzlrp7njrDkuI3lkIznu4jnq6/orr7lpIfkuYvpl7TnmoTlv6vpgJ/ov57mjqXjgIHog73lipvkupLliqnjgIHotYTmupDlhbHkuqvjgIIKCioq5a+55bqU55So5byA5Y+R6ICF6ICM6KiAKirvvJpIYXJtb255T1Mg6YeH55So5LqG5aSa56eN5YiG5biD5byP5oqA5pyv77yM5L2/5bqU55So56iL5bqP55qE5byA5Y+R5a6e546w5LiO5LiN5ZCM57uI56uv6K6+5aSH55qE5b2i5oCB5beu5byC5peg5YWz77yM6ZmN5L2O5LqG5byA5Y+R6Zq+5bqm5ZKM5oiQ5pys44CCCgoqKuWvueiuvuWkh+W8gOWPkeiAheiAjOiogCoq77yaSGFybW9ueU9TIOmHh+eUqOS6hue7hOS7tuWMlueahOiuvuiuoeaWueahiO+8jOWPr+S7peagueaNruiuvuWkh+eahOi1hOa6kOiDveWKm+WSjOS4muWKoeeJueW+gei/m+ihjOeBtea0u+ijgeWJquOAggoKIyMg5oqA5pyv5p625p6ECgpIYXJtb255T1Mg5pW05L2T6YG15LuO5YiG5bGC6K6+6K6h77yM5LuO5LiL5ZCR5LiK5L6d5qyh5Li677yaKirlhoXmoLjlsYIg4oaSIOezu+e7n+acjeWKoeWxgiDihpIg5qGG5p625bGCIOKGkiDlupTnlKjlsYIqKuOAggoKYGBgCuKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgICAgICAgICAgICDlupTnlKjlsYIgICAgICAgICAgICAgICAgICAgICDilIIK4pSCICAgKOezu+e7n+W6lOeUqCAvIOesrOS4ieaWueW6lOeUqCAvIEZBIC8gUEEpICDilIIK4pSc4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSkCuKUgiAgICAgICAgICAgIOahhuaetuWxgiAgICAgICAgICAgICAgICAgICAgIOKUggrilIIgIChKYXZhIFVJ5qGG5p62IC8gSlMgVUnmoYbmnrYgLyBBYmlsaXR5KSDilIIK4pSc4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSkCuKUgiAgICAgICAgICAg57O757uf5pyN5Yqh5bGCICAgICAgICAgICAgICAgICAgIOKUggrilIIgKOWIhuW4g+W8j+i9r+aAu+e6vyAvIOaVsOaNrueuoeeQhiAvIOS7u+WKoeiwg+W6puetiSkg4pSCCuKUnOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUpArilIIgICAgICAgICAgICDlhoXmoLjlsYIgICAgICAgICAgICAgICAgICAgICDilIIK4pSCICAgIChMaW51eOWGheaguCAvIExpdGVPUyAvIEhERumpseWKqCkgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCmBgYAoKIyMg5oqA5pyv54m55oCnCgojIyMg56Gs5Lu25LqS5Yqp77yM6LWE5rqQ5YWx5LqrCgp8IOaKgOacryB8IOivtOaYjiB8CnwtLS0tLS18LS0tLS0tfAp8ICoq5YiG5biD5byP6L2v5oC757q/KiogfCDorr7lpIfkupLogZTkupLpgJrnmoTln7rnoYDvvIzmj5Dkvpvnu5/kuIDnmoTliIbluIPlvI/pgJrkv6Hog73lipsgfAp8ICoq5YiG5biD5byP6K6+5aSH6Jma5ouf5YyWKiogfCDlpJrorr7lpIflvaLmiJDotoXnuqfomZrmi5/nu4jnq6/vvIzlj5HmjKXlkITorr7lpIfog73lipvkvJjlir8gfAp8ICoq5YiG5biD5byP5pWw5o2u566h55CGKiogfCDnlKjmiLfmlbDmja7kuI3lho3kuI7ljZXkuIDniannkIborr7lpIfnu5HlrprvvIzkuJrliqHpgLvovpHkuI7mlbDmja7liIbnprsgfAp8ICoq5YiG5biD5byP5Lu75Yqh6LCD5bqmKiogfCDot6jorr7lpIfnmoTlupTnlKjlkK/liqjjgIHosIPnlKjjgIHov4Hnp7vnrYnmk43kvZwgfAoKIyMjIOS4gOasoeW8gOWPke+8jOWkmuerr+mDqOe9sgoKSGFybW9ueU9TIOaPkOS+m+S6hueUqOaIt+eoi+W6j+ahhuaetuOAgUFiaWxpdHkg5qGG5p625Lul5Y+KIFVJIOahhuaetu+8jOaUr+aMgeW6lOeUqOW8gOWPkei/h+eoi+S4reWkmue7iOerr+eahOS4muWKoemAu+i+keWSjOeVjOmdoumAu+i+keWkjeeUqO+8jOWunueOsOW6lOeUqOeahOS4gOasoeW8gOWPkeOAgeWkmuerr+mDqOe9suOAggoKIyMjIOe7n+S4gCBPU++8jOW8ueaAp+mDqOe9sgoK6YCa6L+H57uE5Lu25YyW5ZKM5bCP5Z6L5YyW6K6+6K6h5pa55rOV77yM5pSv5oyB5aSa56eN57uI56uv6K6+5aSH5oyJ6ZyA5by55oCn6YOo572y77yM6YCC6YWN5LiN5ZCM57G75Yir55qE56Gs5Lu26LWE5rqQ5ZKM5Yqf6IO96ZyA5rGC44CCCgojIyDlupTnlKjln7rnoYDnn6Xor4YKCiMjIyDlupTnlKjlvaLmgIEKCkhhcm1vbnlPUyDkuIrnmoTlupTnlKjmnInkuKTnp43lvaLmgIHvvJoKMS4gKirkvKDnu5/mlrnlvI/nmoTpnIDopoHlronoo4XnmoTlupTnlKgqKgoyLiAqKuaPkOS+m+eJueWumuWKn+iDve+8jOWFjeWuieijheeahOW6lOeUqO+8iOWOn+WtkOWMluacjeWKoe+8iSoqCgojIyMg5bqU55So5YyF57uT5p6ECgpIYXJtb255T1Mg55qE55So5oi35bqU55So56iL5bqP5YyF5LulICoqQVBQS2l0Kiog5b2i5byP5Y+R5biD77yM55Sx5LiA5Liq5oiW5aSa5LiqICoqSEFQKirvvIhIYXJtb255T1MgQWJpbGl0eSBQYWNrYWdl77yJ5Lul5Y+K5o+P6L+w5q+P5LiqIEhBUCDlsZ7mgKfnmoQgcGFjay5pbmZvIOe7hOaIkOOAggoKfCDmnK/or60gfCDor7TmmI4gfAp8LS0tLS0tfC0tLS0tLXwKfCAqKkFQUEtpdCoqIHwg5bqU55So5a6J6KOF5YyFIHwKfCAqKkhBUCoqIHwgQWJpbGl0eSDpg6jnvbLljIXvvIxIYXJtb255T1Mg5bqU55So5Luj56CB5Zu057uVIEFiaWxpdHkg57uE5Lu25bGV5byAIHwKfCAqKmVudHJ5KiogfCDlupTnlKjnmoTkuLvmqKHlnZfvvIzlj6/ni6znq4vlronoo4Xov5DooYwgfAp8ICoqZmVhdHVyZSoqIHwg5bqU55So55qE5Yqo5oCB54m55oCn5qih5Z2X77yM5LiN6IO954us56uL6L+Q6KGMIHwKfCAqKkhBUioqIHwgSGFybW9ueU9TIEFiaWxpdHkgUmVzb3VyY2Vz77yM5Y+v5L2c5Li65bqU55So5qih5Z2X55qE5L6d6LWW6aG56KKr5byV55SoIHwKCiMjIyBBYmlsaXR5IOamgui/sAoKQWJpbGl0eSDmmK/lupTnlKjmiYDlhbflpIfnmoTog73lipvnmoTmir3osaHvvIzliIbkuLrkuKTnp43nsbvlnovvvJoKCnwg57G75Z6LIHwg6K+05piOIHwg54m554K5IHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tfAp8ICoqRkEgKEZlYXR1cmUgQWJpbGl0eSkqKiB8IFBhZ2Ug5qih5p2/IHwg5pyJIFVJIOeVjOmdou+8jOaPkOS+m+S4jueUqOaIt+S6pOS6kueahOiDveWKmyB8CnwgKipQQSAoUGFydGljbGUgQWJpbGl0eSkqKiB8IFNlcnZpY2UgLyBEYXRhIOaooeadvyB8IOaXoCBVSSDnlYzpnaLvvIzmj5DkvpvlkI7lj7Dov5DooYzku7vliqHmiJbmlbDmja7orr/pl67mir3osaEgfAo=
+# HarmonyOS 系统概述与应用基础
+
+## 系统定义
+
+HarmonyOS 是一款"面向未来"、面向全场景（移动办公、运动健康、社交通信、媒体娱乐等）的分布式操作系统。在传统的单设备系统能力的基础上，HarmonyOS 提出了基于同一套系统能力、适配多种终端形态的分布式理念，能够支持多种终端设备。
+
+**对消费者而言**：HarmonyOS 能够将生活场景中的各类终端进行能力整合，形成一个"超级虚拟终端"，实现不同终端设备之间的快速连接、能力互助、资源共享。
+
+**对应用开发者而言**：HarmonyOS 采用了多种分布式技术，使应用程序的开发实现与不同终端设备的形态差异无关，降低了开发难度和成本。
+
+**对设备开发者而言**：HarmonyOS 采用了组件化的设计方案，可以根据设备的资源能力和业务特征进行灵活裁剪。
+
+## 技术架构
+
+HarmonyOS 整体遵从分层设计，从下向上依次为：**内核层 → 系统服务层 → 框架层 → 应用层**。
+
+```
+┌─────────────────────────────────────┐
+│            应用层                     │
+│   (系统应用 / 第三方应用 / FA / PA)  │
+├─────────────────────────────────────┤
+│            框架层                     │
+│  (Java UI框架 / JS UI框架 / Ability) │
+├─────────────────────────────────────┤
+│           系统服务层                   │
+│ (分布式软总线 / 数据管理 / 任务调度等) │
+├─────────────────────────────────────┤
+│            内核层                     │
+│    (Linux内核 / LiteOS / HDF驱动)   │
+└─────────────────────────────────────┘
+```
+
+## 技术特性
+
+### 硬件互助，资源共享
+
+| 技术 | 说明 |
+|------|------|
+| **分布式软总线** | 设备互联互通的基础，提供统一的分布式通信能力 |
+| **分布式设备虚拟化** | 多设备形成超级虚拟终端，发挥各设备能力优势 |
+| **分布式数据管理** | 用户数据不再与单一物理设备绑定，业务逻辑与数据分离 |
+| **分布式任务调度** | 跨设备的应用启动、调用、迁移等操作 |
+
+### 一次开发，多端部署
+
+HarmonyOS 提供了用户程序框架、Ability 框架以及 UI 框架，支持应用开发过程中多终端的业务逻辑和界面逻辑复用，实现应用的一次开发、多端部署。
+
+### 统一 OS，弹性部署
+
+通过组件化和小型化设计方法，支持多种终端设备按需弹性部署，适配不同类别的硬件资源和功能需求。
+
+## 应用基础知识
+
+### 应用形态
+
+HarmonyOS 上的应用有两种形态：
+1. **传统方式的需要安装的应用**
+2. **提供特定功能，免安装的应用（原子化服务）**
+
+### 应用包结构
+
+HarmonyOS 的用户应用程序包以 **APPKit** 形式发布，由一个或多个 **HAP**（HarmonyOS Ability Package）以及描述每个 HAP 属性的 pack.info 组成。
+
+| 术语 | 说明 |
+|------|------|
+| **APPKit** | 应用安装包 |
+| **HAP** | Ability 部署包，HarmonyOS 应用代码围绕 Ability 组件展开 |
+| **entry** | 应用的主模块，可独立安装运行 |
+| **feature** | 应用的动态特性模块，不能独立运行 |
+| **HAR** | HarmonyOS Ability Resources，可作为应用模块的依赖项被引用 |
+
+### Ability 概述
+
+Ability 是应用所具备的能力的抽象，分为两种类型：
+
+| 类型 | 说明 | 特点 |
+|------|------|------|
+| **FA (Feature Ability)** | Page 模板 | 有 UI 界面，提供与用户交互的能力 |
+| **PA (Particle Ability)** | Service / Data 模板 | 无 UI 界面，提供后台运行任务或数据访问抽象 |

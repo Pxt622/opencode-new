@@ -1,1 +1,456 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKVGFpbHdpbmQgQ1NTIENvbmZpZ3VyYXRpb24gR2VuZXJhdG9yCgpHZW5lcmF0ZSB0YWlsd2luZC5jb25maWcuanMvdHMgd2l0aCBjdXN0b20gdGhlbWUgY29uZmlndXJhdGlvbi4KU3VwcG9ydHMgY29sb3JzLCBmb250cywgc3BhY2luZywgYnJlYWtwb2ludHMsIGFuZCBwbHVnaW4gcmVjb21tZW5kYXRpb25zLgoiIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgc3lzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHR5cGluZyBpbXBvcnQgQW55LCBEaWN0LCBMaXN0LCBPcHRpb25hbAoKCmNsYXNzIFRhaWx3aW5kQ29uZmlnR2VuZXJhdG9yOgogICAgIiIiR2VuZXJhdGUgVGFpbHdpbmQgQ1NTIGNvbmZpZ3VyYXRpb24gZmlsZXMuIiIiCgogICAgZGVmIF9faW5pdF9fKAogICAgICAgIHNlbGYsCiAgICAgICAgdHlwZXNjcmlwdDogYm9vbCA9IFRydWUsCiAgICAgICAgZnJhbWV3b3JrOiBzdHIgPSAicmVhY3QiLAogICAgICAgIG91dHB1dF9wYXRoOiBPcHRpb25hbFtQYXRoXSA9IE5vbmUsCiAgICApOgogICAgICAgICIiIgogICAgICAgIEluaXRpYWxpemUgZ2VuZXJhdG9yLgoKICAgICAgICBBcmdzOgogICAgICAgICAgICB0eXBlc2NyaXB0OiBJZiBUcnVlLCBnZW5lcmF0ZSAudHMgY29uZmlnLCBlbHNlIC5qcwogICAgICAgICAgICBmcmFtZXdvcms6IEZyYW1ld29yayBuYW1lIChyZWFjdCwgdnVlLCBzdmVsdGUsIG5leHRqcykKICAgICAgICAgICAgb3V0cHV0X3BhdGg6IE91dHB1dCBmaWxlIHBhdGggKGRlZmF1bHQ6IGF1dG8tZGV0ZWN0KQogICAgICAgICIiIgogICAgICAgIHNlbGYudHlwZXNjcmlwdCA9IHR5cGVzY3JpcHQKICAgICAgICBzZWxmLmZyYW1ld29yayA9IGZyYW1ld29yawogICAgICAgIHNlbGYub3V0cHV0X3BhdGggPSBvdXRwdXRfcGF0aCBvciBzZWxmLl9kZWZhdWx0X291dHB1dF9wYXRoKCkKICAgICAgICBzZWxmLmNvbmZpZzogRGljdFtzdHIsIEFueV0gPSBzZWxmLl9iYXNlX2NvbmZpZygpCgogICAgZGVmIF9kZWZhdWx0X291dHB1dF9wYXRoKHNlbGYpIC0+IFBhdGg6CiAgICAgICAgIiIiRGV0ZXJtaW5lIGRlZmF1bHQgb3V0cHV0IHBhdGguIiIiCiAgICAgICAgZXh0ID0gInRzIiBpZiBzZWxmLnR5cGVzY3JpcHQgZWxzZSAianMiCiAgICAgICAgcmV0dXJuIFBhdGguY3dkKCkgLyBmInRhaWx3aW5kLmNvbmZpZy57ZXh0fSIKCiAgICBkZWYgX2Jhc2VfY29uZmlnKHNlbGYpIC0+IERpY3Rbc3RyLCBBbnldOgogICAgICAgICIiIkNyZWF0ZSBiYXNlIGNvbmZpZ3VyYXRpb24gc3RydWN0dXJlLiIiIgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJkYXJrTW9kZSI6IFsiY2xhc3MiXSwKICAgICAgICAgICAgImNvbnRlbnQiOiBzZWxmLl9kZWZhdWx0X2NvbnRlbnRfcGF0aHMoKSwKICAgICAgICAgICAgInRoZW1lIjogewogICAgICAgICAgICAgICAgImV4dGVuZCI6IHt9CiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJwbHVnaW5zIjogW10KICAgICAgICB9CgogICAgZGVmIF9kZWZhdWx0X2NvbnRlbnRfcGF0aHMoc2VsZikgLT4gTGlzdFtzdHJdOgogICAgICAgICIiIkdldCBkZWZhdWx0IGNvbnRlbnQgcGF0aHMgZm9yIGZyYW1ld29yay4iIiIKICAgICAgICBwYXRocyA9IHsKICAgICAgICAgICAgInJlYWN0IjogWwogICAgICAgICAgICAgICAgIi4vc3JjLyoqLyoue2pzLGpzeCx0cyx0c3h9IiwKICAgICAgICAgICAgICAgICIuL2luZGV4Lmh0bWwiLAogICAgICAgICAgICBdLAogICAgICAgICAgICAidnVlIjogWwogICAgICAgICAgICAgICAgIi4vc3JjLyoqLyoue3Z1ZSxqcyx0cyxqc3gsdHN4fSIsCiAgICAgICAgICAgICAgICAiLi9pbmRleC5odG1sIiwKICAgICAgICAgICAgXSwKICAgICAgICAgICAgInN2ZWx0ZSI6IFsKICAgICAgICAgICAgICAgICIuL3NyYy8qKi8qLntzdmVsdGUsanMsdHN9IiwKICAgICAgICAgICAgICAgICIuL3NyYy9hcHAuaHRtbCIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICJuZXh0anMiOiBbCiAgICAgICAgICAgICAgICAiLi9hcHAvKiovKi57anMsdHMsanN4LHRzeH0iLAogICAgICAgICAgICAgICAgIi4vcGFnZXMvKiovKi57anMsdHMsanN4LHRzeH0iLAogICAgICAgICAgICAgICAgIi4vY29tcG9uZW50cy8qKi8qLntqcyx0cyxqc3gsdHN4fSIsCiAgICAgICAgICAgIF0sCiAgICAgICAgfQogICAgICAgIHJldHVybiBwYXRocy5nZXQoc2VsZi5mcmFtZXdvcmssIHBhdGhzWyJyZWFjdCJdKQoKICAgIGRlZiBhZGRfY29sb3JzKHNlbGYsIGNvbG9yczogRGljdFtzdHIsIHN0cl0pIC0+IE5vbmU6CiAgICAgICAgIiIiCiAgICAgICAgQWRkIGN1c3RvbSBjb2xvcnMgdG8gdGhlbWUuCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIGNvbG9yczogRGljdCBvZiBjb2xvcl9uYW1lOiBjb2xvcl92YWx1ZQogICAgICAgICAgICAgICAgICAgVmFsdWUgY2FuIGJlIGhleCAoIzNiODJmNikgb3IgdmFyaWFibGUgKGhzbCh2YXIoLS1wcmltYXJ5KSkpCiAgICAgICAgIiIiCiAgICAgICAgaWYgImNvbG9ycyIgbm90IGluIHNlbGYuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXToKICAgICAgICAgICAgc2VsZi5jb25maWdbInRoZW1lIl1bImV4dGVuZCJdWyJjb2xvcnMiXSA9IHt9CgogICAgICAgIHNlbGYuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXVsiY29sb3JzIl0udXBkYXRlKGNvbG9ycykKCiAgICBkZWYgYWRkX2NvbG9yX3BhbGV0dGUoc2VsZiwgbmFtZTogc3RyLCBiYXNlX2NvbG9yOiBzdHIpIC0+IE5vbmU6CiAgICAgICAgIiIiCiAgICAgICAgQWRkIGZ1bGwgY29sb3IgcGFsZXR0ZSAoNTAtOTUwIHNoYWRlcykgZm9yIGEgYmFzZSBjb2xvci4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgbmFtZTogQ29sb3IgbmFtZSAoZS5nLiwgJ2JyYW5kJywgJ3ByaW1hcnknKQogICAgICAgICAgICBiYXNlX2NvbG9yOiBCYXNlIGNvbG9yIGluIG9rbGNoIGZvcm1hdCBvciBoZXgKICAgICAgICAiIiIKICAgICAgICAjIEZvciBzaW1wbGljaXR5LCB1c2UgQ1NTIHZhcmlhYmxlIGFwcHJvYWNoCiAgICAgICAgaWYgImNvbG9ycyIgbm90IGluIHNlbGYuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXToKICAgICAgICAgICAgc2VsZi5jb25maWdbInRoZW1lIl1bImV4dGVuZCJdWyJjb2xvcnMiXSA9IHt9CgogICAgICAgIHNlbGYuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXVsiY29sb3JzIl1bbmFtZV0gPSB7CiAgICAgICAgICAgICI1MCI6IGYidmFyKC0tY29sb3Ite25hbWV9LTUwKSIsCiAgICAgICAgICAgICIxMDAiOiBmInZhcigtLWNvbG9yLXtuYW1lfS0xMDApIiwKICAgICAgICAgICAgIjIwMCI6IGYidmFyKC0tY29sb3Ite25hbWV9LTIwMCkiLAogICAgICAgICAgICAiMzAwIjogZiJ2YXIoLS1jb2xvci17bmFtZX0tMzAwKSIsCiAgICAgICAgICAgICI0MDAiOiBmInZhcigtLWNvbG9yLXtuYW1lfS00MDApIiwKICAgICAgICAgICAgIjUwMCI6IGYidmFyKC0tY29sb3Ite25hbWV9LTUwMCkiLAogICAgICAgICAgICAiNjAwIjogZiJ2YXIoLS1jb2xvci17bmFtZX0tNjAwKSIsCiAgICAgICAgICAgICI3MDAiOiBmInZhcigtLWNvbG9yLXtuYW1lfS03MDApIiwKICAgICAgICAgICAgIjgwMCI6IGYidmFyKC0tY29sb3Ite25hbWV9LTgwMCkiLAogICAgICAgICAgICAiOTAwIjogZiJ2YXIoLS1jb2xvci17bmFtZX0tOTAwKSIsCiAgICAgICAgICAgICI5NTAiOiBmInZhcigtLWNvbG9yLXtuYW1lfS05NTApIiwKICAgICAgICB9CgogICAgZGVmIGFkZF9mb250cyhzZWxmLCBmb250czogRGljdFtzdHIsIExpc3Rbc3RyXV0pIC0+IE5vbmU6CiAgICAgICAgIiIiCiAgICAgICAgQWRkIGN1c3RvbSBmb250IGZhbWlsaWVzLgoKICAgICAgICBBcmdzOgogICAgICAgICAgICBmb250czogRGljdCBvZiBmb250X3R5cGU6IFtmb250X25hbWVzXQogICAgICAgICAgICAgICAgICAgZS5nLiwgeydzYW5zJzogWydJbnRlcicsICdzeXN0ZW0tdWknLCAnc2Fucy1zZXJpZiddfQogICAgICAgICIiIgogICAgICAgIGlmICJmb250RmFtaWx5IiBub3QgaW4gc2VsZi5jb25maWdbInRoZW1lIl1bImV4dGVuZCJdOgogICAgICAgICAgICBzZWxmLmNvbmZpZ1sidGhlbWUiXVsiZXh0ZW5kIl1bImZvbnRGYW1pbHkiXSA9IHt9CgogICAgICAgIHNlbGYuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXVsiZm9udEZhbWlseSJdLnVwZGF0ZShmb250cykKCiAgICBkZWYgYWRkX3NwYWNpbmcoc2VsZiwgc3BhY2luZzogRGljdFtzdHIsIHN0cl0pIC0+IE5vbmU6CiAgICAgICAgIiIiCiAgICAgICAgQWRkIGN1c3RvbSBzcGFjaW5nIHZhbHVlcy4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgc3BhY2luZzogRGljdCBvZiBuYW1lOiB2YWx1ZQogICAgICAgICAgICAgICAgICAgICBlLmcuLCB7JzE4JzogJzQuNXJlbScsICduYXZiYXInOiAnNHJlbSd9CiAgICAgICAgIiIiCiAgICAgICAgaWYgInNwYWNpbmciIG5vdCBpbiBzZWxmLmNvbmZpZ1sidGhlbWUiXVsiZXh0ZW5kIl06CiAgICAgICAgICAgIHNlbGYuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXVsic3BhY2luZyJdID0ge30KCiAgICAgICAgc2VsZi5jb25maWdbInRoZW1lIl1bImV4dGVuZCJdWyJzcGFjaW5nIl0udXBkYXRlKHNwYWNpbmcpCgogICAgZGVmIGFkZF9icmVha3BvaW50cyhzZWxmLCBicmVha3BvaW50czogRGljdFtzdHIsIHN0cl0pIC0+IE5vbmU6CiAgICAgICAgIiIiCiAgICAgICAgQWRkIGN1c3RvbSBicmVha3BvaW50cy4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgYnJlYWtwb2ludHM6IERpY3Qgb2YgbmFtZTogd2lkdGgKICAgICAgICAgICAgICAgICAgICAgICAgZS5nLiwgeyczeGwnOiAnMTkyMHB4JywgJ3RhYmxldCc6ICc3NjhweCd9CiAgICAgICAgIiIiCiAgICAgICAgaWYgInNjcmVlbnMiIG5vdCBpbiBzZWxmLmNvbmZpZ1sidGhlbWUiXVsiZXh0ZW5kIl06CiAgICAgICAgICAgIHNlbGYuY29uZmlnWyJ0aGVtZSJdWyJleHRlbmQiXVsic2NyZWVucyJdID0ge30KCiAgICAgICAgc2VsZi5jb25maWdbInRoZW1lIl1bImV4dGVuZCJdWyJzY3JlZW5zIl0udXBkYXRlKGJyZWFrcG9pbnRzKQoKICAgIGRlZiBhZGRfcGx1Z2lucyhzZWxmLCBwbHVnaW5zOiBMaXN0W3N0cl0pIC0+IE5vbmU6CiAgICAgICAgIiIiCiAgICAgICAgQWRkIHBsdWdpbiByZXF1aXJlbWVudHMuCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIHBsdWdpbnM6IExpc3Qgb2YgcGx1Z2luIG5hbWVzCiAgICAgICAgICAgICAgICAgICAgZS5nLiwgWydAdGFpbHdpbmRjc3MvdHlwb2dyYXBoeScsICdAdGFpbHdpbmRjc3MvZm9ybXMnXQogICAgICAgICIiIgogICAgICAgIGZvciBwbHVnaW4gaW4gcGx1Z2luczoKICAgICAgICAgICAgaWYgcGx1Z2luIG5vdCBpbiBzZWxmLmNvbmZpZ1sicGx1Z2lucyJdOgogICAgICAgICAgICAgICAgc2VsZi5jb25maWdbInBsdWdpbnMiXS5hcHBlbmQocGx1Z2luKQoKICAgIGRlZiByZWNvbW1lbmRfcGx1Z2lucyhzZWxmKSAtPiBMaXN0W3N0cl06CiAgICAgICAgIiIiCiAgICAgICAgR2V0IHBsdWdpbiByZWNvbW1lbmRhdGlvbnMgYmFzZWQgb24gY29uZmlndXJhdGlvbi4KCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgTGlzdCBvZiByZWNvbW1lbmRlZCBwbHVnaW4gcGFja2FnZSBuYW1lcwogICAgICAgICIiIgogICAgICAgIHJlY29tbWVuZGF0aW9ucyA9IFtdCgogICAgICAgICMgQWx3YXlzIHJlY29tbWVuZCBhbmltYXRpb24gcGx1Z2luCiAgICAgICAgcmVjb21tZW5kYXRpb25zLmFwcGVuZCgidGFpbHdpbmRjc3MtYW5pbWF0ZSIpCgogICAgICAgICMgRnJhbWV3b3JrLXNwZWNpZmljIHJlY29tbWVuZGF0aW9ucwogICAgICAgIGlmIHNlbGYuZnJhbWV3b3JrID09ICJuZXh0anMiOgogICAgICAgICAgICByZWNvbW1lbmRhdGlvbnMuYXBwZW5kKCJAdGFpbHdpbmRjc3MvdHlwb2dyYXBoeSIpCgogICAgICAgIHJldHVybiByZWNvbW1lbmRhdGlvbnMKCiAgICBkZWYgZ2VuZXJhdGVfY29uZmlnX3N0cmluZyhzZWxmKSAtPiBzdHI6CiAgICAgICAgIiIiCiAgICAgICAgR2VuZXJhdGUgY29uZmlndXJhdGlvbiBmaWxlIGNvbnRlbnQuCgogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIENvbmZpZ3VyYXRpb24gZmlsZSBhcyBzdHJpbmcKICAgICAgICAiIiIKICAgICAgICBpZiBzZWxmLnR5cGVzY3JpcHQ6CiAgICAgICAgICAgIHJldHVybiBzZWxmLl9nZW5lcmF0ZV90eXBlc2NyaXB0KCkKICAgICAgICByZXR1cm4gc2VsZi5fZ2VuZXJhdGVfamF2YXNjcmlwdCgpCgogICAgZGVmIF9nZW5lcmF0ZV90eXBlc2NyaXB0KHNlbGYpIC0+IHN0cjoKICAgICAgICAiIiJHZW5lcmF0ZSBUeXBlU2NyaXB0IGNvbmZpZ3VyYXRpb24uIiIiCiAgICAgICAgcGx1Z2luc19zdHIgPSBzZWxmLl9mb3JtYXRfcGx1Z2lucygpCgogICAgICAgIGNvbmZpZ19qc29uID0ganNvbi5kdW1wcyhzZWxmLmNvbmZpZywgaW5kZW50PTIpCgogICAgICAgICMgUmVtb3ZlIHBsdWdpbiBhcnJheSBmcm9tIEpTT04gKHdlJ2xsIGFkZCBpdCB3aXRoIHJlcXVpcmUoKSkKICAgICAgICBjb25maWdfb2JqID0gc2VsZi5jb25maWcuY29weSgpCiAgICAgICAgY29uZmlnX29iai5wb3AoInBsdWdpbnMiLCBOb25lKQogICAgICAgIGNvbmZpZ19qc29uID0ganNvbi5kdW1wcyhjb25maWdfb2JqLCBpbmRlbnQ9MikKCiAgICAgICAgcmV0dXJuIGYiIiJpbXBvcnQgdHlwZSB7eyBDb25maWcgfX0gZnJvbSAndGFpbHdpbmRjc3MnCgpjb25zdCBjb25maWc6IENvbmZpZyA9IHt7CntzZWxmLl9pbmRlbnRfanNvbihjb25maWdfanNvbiwgMSl9CiAgcGx1Z2luczogW3twbHVnaW5zX3N0cn1dLAp9fQoKZXhwb3J0IGRlZmF1bHQgY29uZmlnCiIiIgoKICAgIGRlZiBfZ2VuZXJhdGVfamF2YXNjcmlwdChzZWxmKSAtPiBzdHI6CiAgICAgICAgIiIiR2VuZXJhdGUgSmF2YVNjcmlwdCBjb25maWd1cmF0aW9uLiIiIgogICAgICAgIHBsdWdpbnNfc3RyID0gc2VsZi5fZm9ybWF0X3BsdWdpbnMoKQoKICAgICAgICBjb25maWdfb2JqID0gc2VsZi5jb25maWcuY29weSgpCiAgICAgICAgY29uZmlnX29iai5wb3AoInBsdWdpbnMiLCBOb25lKQogICAgICAgIGNvbmZpZ19qc29uID0ganNvbi5kdW1wcyhjb25maWdfb2JqLCBpbmRlbnQ9MikKCiAgICAgICAgcmV0dXJuIGYiIiIvKiogQHR5cGUge3tpbXBvcnQoJ3RhaWx3aW5kY3NzJykuQ29uZmlnfX0gKi8KbW9kdWxlLmV4cG9ydHMgPSB7ewp7c2VsZi5faW5kZW50X2pzb24oY29uZmlnX2pzb24sIDEpfQogIHBsdWdpbnM6IFt7cGx1Z2luc19zdHJ9XSwKfX0KIiIiCgogICAgZGVmIF9mb3JtYXRfcGx1Z2lucyhzZWxmKSAtPiBzdHI6CiAgICAgICAgIiIiRm9ybWF0IHBsdWdpbnMgYXJyYXkgZm9yIGNvbmZpZy4iIiIKICAgICAgICBpZiBub3Qgc2VsZi5jb25maWdbInBsdWdpbnMiXToKICAgICAgICAgICAgcmV0dXJuICIiCgogICAgICAgIHBsdWdpbl9yZXF1aXJlcyA9IFsKICAgICAgICAgICAgZiJyZXF1aXJlKCd7cGx1Z2lufScpIiBmb3IgcGx1Z2luIGluIHNlbGYuY29uZmlnWyJwbHVnaW5zIl0KICAgICAgICBdCiAgICAgICAgcmV0dXJuICIsICIuam9pbihwbHVnaW5fcmVxdWlyZXMpCgogICAgZGVmIF9pbmRlbnRfanNvbihzZWxmLCBqc29uX3N0cjogc3RyLCBsZXZlbDogaW50KSAtPiBzdHI6CiAgICAgICAgIiIiQWRkIGluZGVudGF0aW9uIHRvIEpTT04gc3RyaW5nLiIiIgogICAgICAgIGluZGVudCA9ICIgICIgKiBsZXZlbAogICAgICAgIGxpbmVzID0ganNvbl9zdHIuc3BsaXQoIlxuIikKICAgICAgICAjIFNraXAgZmlyc3QgYW5kIGxhc3QgbGluZXMgKGJyYWNlcykKICAgICAgICBpbmRlbnRlZCA9IFtpbmRlbnQgKyBsaW5lIGZvciBsaW5lIGluIGxpbmVzWzE6LTFdXQogICAgICAgIHJldHVybiAiXG4iLmpvaW4oaW5kZW50ZWQpCgogICAgZGVmIHdyaXRlX2NvbmZpZyhzZWxmKSAtPiB0dXBsZVtib29sLCBzdHJdOgogICAgICAgICIiIgogICAgICAgIFdyaXRlIGNvbmZpZ3VyYXRpb24gdG8gZmlsZS4KCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgVHVwbGUgb2YgKHN1Y2Nlc3MsIG1lc3NhZ2UpCiAgICAgICAgIiIiCiAgICAgICAgdHJ5OgogICAgICAgICAgICBjb25maWdfY29udGVudCA9IHNlbGYuZ2VuZXJhdGVfY29uZmlnX3N0cmluZygpCgogICAgICAgICAgICBzZWxmLm91dHB1dF9wYXRoLndyaXRlX3RleHQoY29uZmlnX2NvbnRlbnQpCgogICAgICAgICAgICByZXR1cm4gVHJ1ZSwgZiJDb25maWd1cmF0aW9uIHdyaXR0ZW4gdG8ge3NlbGYub3V0cHV0X3BhdGh9IgoKICAgICAgICBleGNlcHQgT1NFcnJvciBhcyBlOgogICAgICAgICAgICByZXR1cm4gRmFsc2UsIGYiRmFpbGVkIHRvIHdyaXRlIGNvbmZpZzoge2V9IgoKICAgIGRlZiB2YWxpZGF0ZV9jb25maWcoc2VsZikgLT4gdHVwbGVbYm9vbCwgc3RyXToKICAgICAgICAiIiIKICAgICAgICBWYWxpZGF0ZSBjb25maWd1cmF0aW9uLgoKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICBUdXBsZSBvZiAodmFsaWQsIG1lc3NhZ2UpCiAgICAgICAgIiIiCiAgICAgICAgIyBDaGVjayBjb250ZW50IHBhdGhzIGV4aXN0CiAgICAgICAgaWYgbm90IHNlbGYuY29uZmlnWyJjb250ZW50Il06CiAgICAgICAgICAgIHJldHVybiBGYWxzZSwgIk5vIGNvbnRlbnQgcGF0aHMgc3BlY2lmaWVkIgoKICAgICAgICAjIENoZWNrIGlmIGV4dGVuZGluZyBlbXB0eSB0aGVtZQogICAgICAgIGlmIG5vdCBzZWxmLmNvbmZpZ1sidGhlbWUiXVsiZXh0ZW5kIl06CiAgICAgICAgICAgIHJldHVybiBUcnVlLCAiV2FybmluZzogTm8gdGhlbWUgZXh0ZW5zaW9ucyBkZWZpbmVkIgoKICAgICAgICByZXR1cm4gVHJ1ZSwgIkNvbmZpZ3VyYXRpb24gdmFsaWQiCgoKZGVmIG1haW4oKToKICAgICIiIkNMSSBlbnRyeSBwb2ludC4iIiIKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKAogICAgICAgIGRlc2NyaXB0aW9uPSJHZW5lcmF0ZSBUYWlsd2luZCBDU1MgY29uZmlndXJhdGlvbiIsCiAgICAgICAgZm9ybWF0dGVyX2NsYXNzPWFyZ3BhcnNlLlJhd0Rlc2NyaXB0aW9uSGVscEZvcm1hdHRlciwKICAgICAgICBlcGlsb2c9IiIiCkV4YW1wbGVzOgogICMgR2VuZXJhdGUgVHlwZVNjcmlwdCBjb25maWcgZm9yIE5leHQuanMKICBweXRob24gdGFpbHdpbmRfY29uZmlnX2dlbi5weSAtLWZyYW1ld29yayBuZXh0anMKCiAgIyBHZW5lcmF0ZSBKYXZhU2NyaXB0IGNvbmZpZyB3aXRoIGN1c3RvbSBjb2xvcnMKICBweXRob24gdGFpbHdpbmRfY29uZmlnX2dlbi5weSAtLWpzIC0tY29sb3JzIGJyYW5kOiMzYjgyZjYgYWNjZW50OiM4YjVjZjYKCiAgIyBBZGQgY3VzdG9tIGZvbnRzCiAgcHl0aG9uIHRhaWx3aW5kX2NvbmZpZ19nZW4ucHkgLS1mb250cyBkaXNwbGF5OiJQbGF5ZmFpciBEaXNwbGF5LHNlcmlmIgoKICAjIEFkZCBjdXN0b20gc3BhY2luZyBhbmQgYnJlYWtwb2ludHMKICBweXRob24gdGFpbHdpbmRfY29uZmlnX2dlbi5weSAtLXNwYWNpbmcgbmF2YmFyOjRyZW0gLS1icmVha3BvaW50cyAzeGw6MTkyMHB4CgogICMgQWRkIHJlY29tbWVuZGVkIHBsdWdpbnMKICBweXRob24gdGFpbHdpbmRfY29uZmlnX2dlbi5weSAtLXBsdWdpbnMKICAgICAgICAiIiIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1mcmFtZXdvcmsiLAogICAgICAgIGNob2ljZXM9WyJyZWFjdCIsICJ2dWUiLCAic3ZlbHRlIiwgIm5leHRqcyJdLAogICAgICAgIGRlZmF1bHQ9InJlYWN0IiwKICAgICAgICBoZWxwPSJUYXJnZXQgZnJhbWV3b3JrIChkZWZhdWx0OiByZWFjdCkiLAogICAgKQoKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tanMiLAogICAgICAgIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsCiAgICAgICAgaGVscD0iR2VuZXJhdGUgSmF2YVNjcmlwdCBjb25maWcgaW5zdGVhZCBvZiBUeXBlU2NyaXB0IiwKICAgICkKCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICItLW91dHB1dCIsCiAgICAgICAgdHlwZT1QYXRoLAogICAgICAgIGhlbHA9Ik91dHB1dCBmaWxlIHBhdGgiLAogICAgKQoKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tY29sb3JzIiwKICAgICAgICBuYXJncz0iKiIsCiAgICAgICAgbWV0YXZhcj0iTkFNRTpWQUxVRSIsCiAgICAgICAgaGVscD0iQ3VzdG9tIGNvbG9ycyAoZS5nLiwgYnJhbmQ6IzNiODJmNikiLAogICAgKQoKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tZm9udHMiLAogICAgICAgIG5hcmdzPSIqIiwKICAgICAgICBtZXRhdmFyPSJUWVBFOkZBTUlMWSIsCiAgICAgICAgaGVscD0iQ3VzdG9tIGZvbnRzIChlLmcuLCBzYW5zOidJbnRlcixzeXN0ZW0tdWknKSIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1zcGFjaW5nIiwKICAgICAgICBuYXJncz0iKiIsCiAgICAgICAgbWV0YXZhcj0iTkFNRTpWQUxVRSIsCiAgICAgICAgaGVscD0iQ3VzdG9tIHNwYWNpbmcgKGUuZy4sIG5hdmJhcjo0cmVtKSIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1icmVha3BvaW50cyIsCiAgICAgICAgbmFyZ3M9IioiLAogICAgICAgIG1ldGF2YXI9Ik5BTUU6V0lEVEgiLAogICAgICAgIGhlbHA9IkN1c3RvbSBicmVha3BvaW50cyAoZS5nLiwgM3hsOjE5MjBweCkiLAogICAgKQoKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tcGx1Z2lucyIsCiAgICAgICAgYWN0aW9uPSJzdG9yZV90cnVlIiwKICAgICAgICBoZWxwPSJBZGQgcmVjb21tZW5kZWQgcGx1Z2lucyIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS12YWxpZGF0ZS1vbmx5IiwKICAgICAgICBhY3Rpb249InN0b3JlX3RydWUiLAogICAgICAgIGhlbHA9IlZhbGlkYXRlIGNvbmZpZyB3aXRob3V0IHdyaXRpbmcgZmlsZSIsCiAgICApCgogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICAjIEluaXRpYWxpemUgZ2VuZXJhdG9yCiAgICBnZW5lcmF0b3IgPSBUYWlsd2luZENvbmZpZ0dlbmVyYXRvcigKICAgICAgICB0eXBlc2NyaXB0PW5vdCBhcmdzLmpzLAogICAgICAgIGZyYW1ld29yaz1hcmdzLmZyYW1ld29yaywKICAgICAgICBvdXRwdXRfcGF0aD1hcmdzLm91dHB1dCwKICAgICkKCiAgICAjIEFkZCBjdXN0b20gY29sb3JzCiAgICBpZiBhcmdzLmNvbG9yczoKICAgICAgICBjb2xvcnMgPSB7fQogICAgICAgIGZvciBjb2xvcl9zcGVjIGluIGFyZ3MuY29sb3JzOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBuYW1lLCB2YWx1ZSA9IGNvbG9yX3NwZWMuc3BsaXQoIjoiLCAxKQogICAgICAgICAgICAgICAgY29sb3JzW25hbWVdID0gdmFsdWUKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBwcmludChmIkludmFsaWQgY29sb3Igc3BlYzoge2NvbG9yX3NwZWN9IiwgZmlsZT1zeXMuc3RkZXJyKQogICAgICAgICAgICAgICAgc3lzLmV4aXQoMSkKICAgICAgICBnZW5lcmF0b3IuYWRkX2NvbG9ycyhjb2xvcnMpCgogICAgIyBBZGQgY3VzdG9tIGZvbnRzCiAgICBpZiBhcmdzLmZvbnRzOgogICAgICAgIGZvbnRzID0ge30KICAgICAgICBmb3IgZm9udF9zcGVjIGluIGFyZ3MuZm9udHM6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIGZvbnRfdHlwZSwgZmFtaWx5ID0gZm9udF9zcGVjLnNwbGl0KCI6IiwgMSkKICAgICAgICAgICAgICAgIGZvbnRzW2ZvbnRfdHlwZV0gPSBbZi5zdHJpcCgpLnN0cmlwKCInXCIiKSBmb3IgZiBpbiBmYW1pbHkuc3BsaXQoIiwiKV0KICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBwcmludChmIkludmFsaWQgZm9udCBzcGVjOiB7Zm9udF9zcGVjfSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICAgICAgICAgIHN5cy5leGl0KDEpCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9mb250cyhmb250cykKCiAgICAjIEFkZCBjdXN0b20gc3BhY2luZwogICAgaWYgYXJncy5zcGFjaW5nOgogICAgICAgIHNwYWNpbmcgPSB7fQogICAgICAgIGZvciBzcGFjaW5nX3NwZWMgaW4gYXJncy5zcGFjaW5nOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBuYW1lLCB2YWx1ZSA9IHNwYWNpbmdfc3BlYy5zcGxpdCgiOiIsIDEpCiAgICAgICAgICAgICAgICBzcGFjaW5nW25hbWVdID0gdmFsdWUKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBwcmludChmIkludmFsaWQgc3BhY2luZyBzcGVjOiB7c3BhY2luZ19zcGVjfSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICAgICAgICAgIHN5cy5leGl0KDEpCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9zcGFjaW5nKHNwYWNpbmcpCgogICAgIyBBZGQgY3VzdG9tIGJyZWFrcG9pbnRzCiAgICBpZiBhcmdzLmJyZWFrcG9pbnRzOgogICAgICAgIGJyZWFrcG9pbnRzID0ge30KICAgICAgICBmb3IgYnBfc3BlYyBpbiBhcmdzLmJyZWFrcG9pbnRzOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBuYW1lLCB3aWR0aCA9IGJwX3NwZWMuc3BsaXQoIjoiLCAxKQogICAgICAgICAgICAgICAgYnJlYWtwb2ludHNbbmFtZV0gPSB3aWR0aAogICAgICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgICAgIHByaW50KGYiSW52YWxpZCBicmVha3BvaW50IHNwZWM6IHticF9zcGVjfSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICAgICAgICAgIHN5cy5leGl0KDEpCiAgICAgICAgZ2VuZXJhdG9yLmFkZF9icmVha3BvaW50cyhicmVha3BvaW50cykKCiAgICAjIEFkZCByZWNvbW1lbmRlZCBwbHVnaW5zCiAgICBpZiBhcmdzLnBsdWdpbnM6CiAgICAgICAgcmVjb21tZW5kZWQgPSBnZW5lcmF0b3IucmVjb21tZW5kX3BsdWdpbnMoKQogICAgICAgIGdlbmVyYXRvci5hZGRfcGx1Z2lucyhyZWNvbW1lbmRlZCkKICAgICAgICBwcmludChmIkFkZGVkIHJlY29tbWVuZGVkIHBsdWdpbnM6IHsnLCAnLmpvaW4ocmVjb21tZW5kZWQpfSIpCiAgICAgICAgcHJpbnQoIlxuSW5zdGFsbCB3aXRoOiIpCiAgICAgICAgcHJpbnQoZiIgIG5wbSBpbnN0YWxsIC1EIHsnICcuam9pbihyZWNvbW1lbmRlZCl9IikKCiAgICAjIFZhbGlkYXRlCiAgICB2YWxpZCwgbWVzc2FnZSA9IGdlbmVyYXRvci52YWxpZGF0ZV9jb25maWcoKQogICAgaWYgbm90IHZhbGlkOgogICAgICAgIHByaW50KGYiVmFsaWRhdGlvbiBmYWlsZWQ6IHttZXNzYWdlfSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICBzeXMuZXhpdCgxKQoKICAgIGlmIG1lc3NhZ2Uuc3RhcnRzd2l0aCgiV2FybmluZyIpOgogICAgICAgIHByaW50KG1lc3NhZ2UpCgogICAgIyBWYWxpZGF0ZSBvbmx5IG1vZGUKICAgIGlmIGFyZ3MudmFsaWRhdGVfb25seToKICAgICAgICBwcmludCgiQ29uZmlndXJhdGlvbiB2YWxpZCIpCiAgICAgICAgcHJpbnQoIlxuR2VuZXJhdGVkIGNvbmZpZzoiKQogICAgICAgIHByaW50KGdlbmVyYXRvci5nZW5lcmF0ZV9jb25maWdfc3RyaW5nKCkpCiAgICAgICAgc3lzLmV4aXQoMCkKCiAgICAjIFdyaXRlIGNvbmZpZwogICAgc3VjY2VzcywgbWVzc2FnZSA9IGdlbmVyYXRvci53cml0ZV9jb25maWcoKQogICAgcHJpbnQobWVzc2FnZSkKICAgIHN5cy5leGl0KDAgaWYgc3VjY2VzcyBlbHNlIDEpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+"""
+Tailwind CSS Configuration Generator
+
+Generate tailwind.config.js/ts with custom theme configuration.
+Supports colors, fonts, spacing, breakpoints, and plugin recommendations.
+"""
+
+import argparse
+import json
+import sys
+from pathlib import Path
+from typing import Any, Dict, List, Optional
+
+
+class TailwindConfigGenerator:
+    """Generate Tailwind CSS configuration files."""
+
+    def __init__(
+        self,
+        typescript: bool = True,
+        framework: str = "react",
+        output_path: Optional[Path] = None,
+    ):
+        """
+        Initialize generator.
+
+        Args:
+            typescript: If True, generate .ts config, else .js
+            framework: Framework name (react, vue, svelte, nextjs)
+            output_path: Output file path (default: auto-detect)
+        """
+        self.typescript = typescript
+        self.framework = framework
+        self.output_path = output_path or self._default_output_path()
+        self.config: Dict[str, Any] = self._base_config()
+
+    def _default_output_path(self) -> Path:
+        """Determine default output path."""
+        ext = "ts" if self.typescript else "js"
+        return Path.cwd() / f"tailwind.config.{ext}"
+
+    def _base_config(self) -> Dict[str, Any]:
+        """Create base configuration structure."""
+        return {
+            "darkMode": ["class"],
+            "content": self._default_content_paths(),
+            "theme": {
+                "extend": {}
+            },
+            "plugins": []
+        }
+
+    def _default_content_paths(self) -> List[str]:
+        """Get default content paths for framework."""
+        paths = {
+            "react": [
+                "./src/**/*.{js,jsx,ts,tsx}",
+                "./index.html",
+            ],
+            "vue": [
+                "./src/**/*.{vue,js,ts,jsx,tsx}",
+                "./index.html",
+            ],
+            "svelte": [
+                "./src/**/*.{svelte,js,ts}",
+                "./src/app.html",
+            ],
+            "nextjs": [
+                "./app/**/*.{js,ts,jsx,tsx}",
+                "./pages/**/*.{js,ts,jsx,tsx}",
+                "./components/**/*.{js,ts,jsx,tsx}",
+            ],
+        }
+        return paths.get(self.framework, paths["react"])
+
+    def add_colors(self, colors: Dict[str, str]) -> None:
+        """
+        Add custom colors to theme.
+
+        Args:
+            colors: Dict of color_name: color_value
+                   Value can be hex (#3b82f6) or variable (hsl(var(--primary)))
+        """
+        if "colors" not in self.config["theme"]["extend"]:
+            self.config["theme"]["extend"]["colors"] = {}
+
+        self.config["theme"]["extend"]["colors"].update(colors)
+
+    def add_color_palette(self, name: str, base_color: str) -> None:
+        """
+        Add full color palette (50-950 shades) for a base color.
+
+        Args:
+            name: Color name (e.g., 'brand', 'primary')
+            base_color: Base color in oklch format or hex
+        """
+        # For simplicity, use CSS variable approach
+        if "colors" not in self.config["theme"]["extend"]:
+            self.config["theme"]["extend"]["colors"] = {}
+
+        self.config["theme"]["extend"]["colors"][name] = {
+            "50": f"var(--color-{name}-50)",
+            "100": f"var(--color-{name}-100)",
+            "200": f"var(--color-{name}-200)",
+            "300": f"var(--color-{name}-300)",
+            "400": f"var(--color-{name}-400)",
+            "500": f"var(--color-{name}-500)",
+            "600": f"var(--color-{name}-600)",
+            "700": f"var(--color-{name}-700)",
+            "800": f"var(--color-{name}-800)",
+            "900": f"var(--color-{name}-900)",
+            "950": f"var(--color-{name}-950)",
+        }
+
+    def add_fonts(self, fonts: Dict[str, List[str]]) -> None:
+        """
+        Add custom font families.
+
+        Args:
+            fonts: Dict of font_type: [font_names]
+                   e.g., {'sans': ['Inter', 'system-ui', 'sans-serif']}
+        """
+        if "fontFamily" not in self.config["theme"]["extend"]:
+            self.config["theme"]["extend"]["fontFamily"] = {}
+
+        self.config["theme"]["extend"]["fontFamily"].update(fonts)
+
+    def add_spacing(self, spacing: Dict[str, str]) -> None:
+        """
+        Add custom spacing values.
+
+        Args:
+            spacing: Dict of name: value
+                     e.g., {'18': '4.5rem', 'navbar': '4rem'}
+        """
+        if "spacing" not in self.config["theme"]["extend"]:
+            self.config["theme"]["extend"]["spacing"] = {}
+
+        self.config["theme"]["extend"]["spacing"].update(spacing)
+
+    def add_breakpoints(self, breakpoints: Dict[str, str]) -> None:
+        """
+        Add custom breakpoints.
+
+        Args:
+            breakpoints: Dict of name: width
+                        e.g., {'3xl': '1920px', 'tablet': '768px'}
+        """
+        if "screens" not in self.config["theme"]["extend"]:
+            self.config["theme"]["extend"]["screens"] = {}
+
+        self.config["theme"]["extend"]["screens"].update(breakpoints)
+
+    def add_plugins(self, plugins: List[str]) -> None:
+        """
+        Add plugin requirements.
+
+        Args:
+            plugins: List of plugin names
+                    e.g., ['@tailwindcss/typography', '@tailwindcss/forms']
+        """
+        for plugin in plugins:
+            if plugin not in self.config["plugins"]:
+                self.config["plugins"].append(plugin)
+
+    def recommend_plugins(self) -> List[str]:
+        """
+        Get plugin recommendations based on configuration.
+
+        Returns:
+            List of recommended plugin package names
+        """
+        recommendations = []
+
+        # Always recommend animation plugin
+        recommendations.append("tailwindcss-animate")
+
+        # Framework-specific recommendations
+        if self.framework == "nextjs":
+            recommendations.append("@tailwindcss/typography")
+
+        return recommendations
+
+    def generate_config_string(self) -> str:
+        """
+        Generate configuration file content.
+
+        Returns:
+            Configuration file as string
+        """
+        if self.typescript:
+            return self._generate_typescript()
+        return self._generate_javascript()
+
+    def _generate_typescript(self) -> str:
+        """Generate TypeScript configuration."""
+        plugins_str = self._format_plugins()
+
+        config_json = json.dumps(self.config, indent=2)
+
+        # Remove plugin array from JSON (we'll add it with require())
+        config_obj = self.config.copy()
+        config_obj.pop("plugins", None)
+        config_json = json.dumps(config_obj, indent=2)
+
+        return f"""import type {{ Config }} from 'tailwindcss'
+
+const config: Config = {{
+{self._indent_json(config_json, 1)}
+  plugins: [{plugins_str}],
+}}
+
+export default config
+"""
+
+    def _generate_javascript(self) -> str:
+        """Generate JavaScript configuration."""
+        plugins_str = self._format_plugins()
+
+        config_obj = self.config.copy()
+        config_obj.pop("plugins", None)
+        config_json = json.dumps(config_obj, indent=2)
+
+        return f"""/** @type {{import('tailwindcss').Config}} */
+module.exports = {{
+{self._indent_json(config_json, 1)}
+  plugins: [{plugins_str}],
+}}
+"""
+
+    def _format_plugins(self) -> str:
+        """Format plugins array for config."""
+        if not self.config["plugins"]:
+            return ""
+
+        plugin_requires = [
+            f"require('{plugin}')" for plugin in self.config["plugins"]
+        ]
+        return ", ".join(plugin_requires)
+
+    def _indent_json(self, json_str: str, level: int) -> str:
+        """Add indentation to JSON string."""
+        indent = "  " * level
+        lines = json_str.split("\n")
+        # Skip first and last lines (braces)
+        indented = [indent + line for line in lines[1:-1]]
+        return "\n".join(indented)
+
+    def write_config(self) -> tuple[bool, str]:
+        """
+        Write configuration to file.
+
+        Returns:
+            Tuple of (success, message)
+        """
+        try:
+            config_content = self.generate_config_string()
+
+            self.output_path.write_text(config_content)
+
+            return True, f"Configuration written to {self.output_path}"
+
+        except OSError as e:
+            return False, f"Failed to write config: {e}"
+
+    def validate_config(self) -> tuple[bool, str]:
+        """
+        Validate configuration.
+
+        Returns:
+            Tuple of (valid, message)
+        """
+        # Check content paths exist
+        if not self.config["content"]:
+            return False, "No content paths specified"
+
+        # Check if extending empty theme
+        if not self.config["theme"]["extend"]:
+            return True, "Warning: No theme extensions defined"
+
+        return True, "Configuration valid"
+
+
+def main():
+    """CLI entry point."""
+    parser = argparse.ArgumentParser(
+        description="Generate Tailwind CSS configuration",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Generate TypeScript config for Next.js
+  python tailwind_config_gen.py --framework nextjs
+
+  # Generate JavaScript config with custom colors
+  python tailwind_config_gen.py --js --colors brand:#3b82f6 accent:#8b5cf6
+
+  # Add custom fonts
+  python tailwind_config_gen.py --fonts display:"Playfair Display,serif"
+
+  # Add custom spacing and breakpoints
+  python tailwind_config_gen.py --spacing navbar:4rem --breakpoints 3xl:1920px
+
+  # Add recommended plugins
+  python tailwind_config_gen.py --plugins
+        """,
+    )
+
+    parser.add_argument(
+        "--framework",
+        choices=["react", "vue", "svelte", "nextjs"],
+        default="react",
+        help="Target framework (default: react)",
+    )
+
+    parser.add_argument(
+        "--js",
+        action="store_true",
+        help="Generate JavaScript config instead of TypeScript",
+    )
+
+    parser.add_argument(
+        "--output",
+        type=Path,
+        help="Output file path",
+    )
+
+    parser.add_argument(
+        "--colors",
+        nargs="*",
+        metavar="NAME:VALUE",
+        help="Custom colors (e.g., brand:#3b82f6)",
+    )
+
+    parser.add_argument(
+        "--fonts",
+        nargs="*",
+        metavar="TYPE:FAMILY",
+        help="Custom fonts (e.g., sans:'Inter,system-ui')",
+    )
+
+    parser.add_argument(
+        "--spacing",
+        nargs="*",
+        metavar="NAME:VALUE",
+        help="Custom spacing (e.g., navbar:4rem)",
+    )
+
+    parser.add_argument(
+        "--breakpoints",
+        nargs="*",
+        metavar="NAME:WIDTH",
+        help="Custom breakpoints (e.g., 3xl:1920px)",
+    )
+
+    parser.add_argument(
+        "--plugins",
+        action="store_true",
+        help="Add recommended plugins",
+    )
+
+    parser.add_argument(
+        "--validate-only",
+        action="store_true",
+        help="Validate config without writing file",
+    )
+
+    args = parser.parse_args()
+
+    # Initialize generator
+    generator = TailwindConfigGenerator(
+        typescript=not args.js,
+        framework=args.framework,
+        output_path=args.output,
+    )
+
+    # Add custom colors
+    if args.colors:
+        colors = {}
+        for color_spec in args.colors:
+            try:
+                name, value = color_spec.split(":", 1)
+                colors[name] = value
+            except ValueError:
+                print(f"Invalid color spec: {color_spec}", file=sys.stderr)
+                sys.exit(1)
+        generator.add_colors(colors)
+
+    # Add custom fonts
+    if args.fonts:
+        fonts = {}
+        for font_spec in args.fonts:
+            try:
+                font_type, family = font_spec.split(":", 1)
+                fonts[font_type] = [f.strip().strip("'\"") for f in family.split(",")]
+            except ValueError:
+                print(f"Invalid font spec: {font_spec}", file=sys.stderr)
+                sys.exit(1)
+        generator.add_fonts(fonts)
+
+    # Add custom spacing
+    if args.spacing:
+        spacing = {}
+        for spacing_spec in args.spacing:
+            try:
+                name, value = spacing_spec.split(":", 1)
+                spacing[name] = value
+            except ValueError:
+                print(f"Invalid spacing spec: {spacing_spec}", file=sys.stderr)
+                sys.exit(1)
+        generator.add_spacing(spacing)
+
+    # Add custom breakpoints
+    if args.breakpoints:
+        breakpoints = {}
+        for bp_spec in args.breakpoints:
+            try:
+                name, width = bp_spec.split(":", 1)
+                breakpoints[name] = width
+            except ValueError:
+                print(f"Invalid breakpoint spec: {bp_spec}", file=sys.stderr)
+                sys.exit(1)
+        generator.add_breakpoints(breakpoints)
+
+    # Add recommended plugins
+    if args.plugins:
+        recommended = generator.recommend_plugins()
+        generator.add_plugins(recommended)
+        print(f"Added recommended plugins: {', '.join(recommended)}")
+        print("\nInstall with:")
+        print(f"  npm install -D {' '.join(recommended)}")
+
+    # Validate
+    valid, message = generator.validate_config()
+    if not valid:
+        print(f"Validation failed: {message}", file=sys.stderr)
+        sys.exit(1)
+
+    if message.startswith("Warning"):
+        print(message)
+
+    # Validate only mode
+    if args.validate_only:
+        print("Configuration valid")
+        print("\nGenerated config:")
+        print(generator.generate_config_string())
+        sys.exit(0)
+
+    # Write config
+    success, message = generator.write_config()
+    print(message)
+    sys.exit(0 if success else 1)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,1 +1,33 @@
-ZnJvbSBwbGF5d3JpZ2h0LnN5bmNfYXBpIGltcG9ydCBzeW5jX3BsYXl3cmlnaHQKaW1wb3J0IG9zCgojIEV4YW1wbGU6IEF1dG9tYXRpbmcgaW50ZXJhY3Rpb24gd2l0aCBzdGF0aWMgSFRNTCBmaWxlcyB1c2luZyBmaWxlOi8vIFVSTHMKCmh0bWxfZmlsZV9wYXRoID0gb3MucGF0aC5hYnNwYXRoKCdwYXRoL3RvL3lvdXIvZmlsZS5odG1sJykKZmlsZV91cmwgPSBmJ2ZpbGU6Ly97aHRtbF9maWxlX3BhdGh9JwoKd2l0aCBzeW5jX3BsYXl3cmlnaHQoKSBhcyBwOgogICAgYnJvd3NlciA9IHAuY2hyb21pdW0ubGF1bmNoKGhlYWRsZXNzPVRydWUpCiAgICBwYWdlID0gYnJvd3Nlci5uZXdfcGFnZSh2aWV3cG9ydD17J3dpZHRoJzogMTkyMCwgJ2hlaWdodCc6IDEwODB9KQoKICAgICMgTmF2aWdhdGUgdG8gbG9jYWwgSFRNTCBmaWxlCiAgICBwYWdlLmdvdG8oZmlsZV91cmwpCgogICAgIyBUYWtlIHNjcmVlbnNob3QKICAgIHBhZ2Uuc2NyZWVuc2hvdChwYXRoPScvbW50L3VzZXItZGF0YS9vdXRwdXRzL3N0YXRpY19wYWdlLnBuZycsIGZ1bGxfcGFnZT1UcnVlKQoKICAgICMgSW50ZXJhY3Qgd2l0aCBlbGVtZW50cwogICAgcGFnZS5jbGljaygndGV4dD1DbGljayBNZScpCiAgICBwYWdlLmZpbGwoJyNuYW1lJywgJ0pvaG4gRG9lJykKICAgIHBhZ2UuZmlsbCgnI2VtYWlsJywgJ2pvaG5AZXhhbXBsZS5jb20nKQoKICAgICMgU3VibWl0IGZvcm0KICAgIHBhZ2UuY2xpY2soJ2J1dHRvblt0eXBlPSJzdWJtaXQiXScpCiAgICBwYWdlLndhaXRfZm9yX3RpbWVvdXQoNTAwKQoKICAgICMgVGFrZSBmaW5hbCBzY3JlZW5zaG90CiAgICBwYWdlLnNjcmVlbnNob3QocGF0aD0nL21udC91c2VyLWRhdGEvb3V0cHV0cy9hZnRlcl9zdWJtaXQucG5nJywgZnVsbF9wYWdlPVRydWUpCgogICAgYnJvd3Nlci5jbG9zZSgpCgpwcmludCgiU3RhdGljIEhUTUwgYXV0b21hdGlvbiBjb21wbGV0ZWQhIik=
+from playwright.sync_api import sync_playwright
+import os
+
+# Example: Automating interaction with static HTML files using file:// URLs
+
+html_file_path = os.path.abspath('path/to/your/file.html')
+file_url = f'file://{html_file_path}'
+
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+    page = browser.new_page(viewport={'width': 1920, 'height': 1080})
+
+    # Navigate to local HTML file
+    page.goto(file_url)
+
+    # Take screenshot
+    page.screenshot(path='/mnt/user-data/outputs/static_page.png', full_page=True)
+
+    # Interact with elements
+    page.click('text=Click Me')
+    page.fill('#name', 'John Doe')
+    page.fill('#email', 'john@example.com')
+
+    # Submit form
+    page.click('button[type="submit"]')
+    page.wait_for_timeout(500)
+
+    # Take final screenshot
+    page.screenshot(path='/mnt/user-data/outputs/after_submit.png', full_page=True)
+
+    browser.close()
+
+print("Static HTML automation completed!")

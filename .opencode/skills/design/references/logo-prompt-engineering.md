@@ -1,1 +1,158 @@
-IyBMb2dvIEFJIFByb21wdCBFbmdpbmVlcmluZwoKIyMgQ29yZSBQcm9tcHQgU3RydWN0dXJlCgpgYGAKUHJvZmVzc2lvbmFsIGxvZ28gZGVzaWduIGZvciBbYnJhbmQvaW5kdXN0cnldOgpbVmlzdWFsIGRlc2NyaXB0aW9uXQpTdHlsZTogW3N0eWxlIGtleXdvcmRzXQpDb2xvcnM6IFtjb2xvciBwYWxldHRlXQpSZXF1aXJlbWVudHM6IFt0ZWNobmljYWwgc3BlY3NdCmBgYAoKIyMgRWZmZWN0aXZlIEtleXdvcmRzIGJ5IFN0eWxlCgojIyMgTWluaW1hbGlzdApgYGAKbWluaW1hbGlzdCwgY2xlYW4gbGluZXMsIHNpbXBsZSBnZW9tZXRyaWMgc2hhcGVzLCBlc3NlbnRpYWwgZWxlbWVudHMgb25seSwKaGlnaCB3aGl0ZSBzcGFjZSwgZmxhdCBkZXNpZ24sIHNpbmdsZSBjb2xvciwgbW9kZXJuLCB1bmNsdXR0ZXJlZCwKbmVnYXRpdmUgc3BhY2UsIHN1YnRsZSwgcmVmaW5lZApgYGAKCiMjIyBWaW50YWdlL1JldHJvCmBgYAp2aW50YWdlLCByZXRybywgaGVyaXRhZ2UsIGVzdGFibGlzaGVkLCBjbGFzc2ljLCBub3N0YWxnaWMsIHdlYXRoZXJlZCwKZGlzdHJlc3NlZCB0ZXh0dXJlLCBiYWRnZSBzdHlsZSwgaGFuZC1sZXR0ZXJlZCwgY3JhZnQsIGFydGlzYW4sCnNlcGlhIHRvbmVzLCBtdXRlZCBjb2xvcnMsIGFnZWQgcGFwZXIgZWZmZWN0CmBgYAoKIyMjIEx1eHVyeS9QcmVtaXVtCmBgYApsdXh1cnksIGVsZWdhbnQsIHNvcGhpc3RpY2F0ZWQsIHByZW1pdW0sIHJlZmluZWQsIGV4Y2x1c2l2ZSwgaGlnaC1lbmQsCmdvbGQgYWNjZW50cywgbWV0YWxsaWMsIG1pbmltYWwsIHRhc3RlZnVsLCB1cHNjYWxlLCBwcmVzdGlnZSwKdGhpbiBsaW5lcywgc2VyaWYgdHlwb2dyYXBoeSwgZm9pbCBlZmZlY3QKYGBgCgojIyMgTW9kZXJuL1RlY2gKYGBgCm1vZGVybiwgaW5ub3ZhdGl2ZSwgZGlnaXRhbCwgdGVjaC1mb3J3YXJkLCBzbGVlaywgZnV0dXJpc3RpYywKZ3JhZGllbnQgY29sb3JzLCBnZW9tZXRyaWMsIGFic3RyYWN0LCBkeW5hbWljLCBjdXR0aW5nLWVkZ2UsCmNsZWFuIHNhbnMtc2VyaWYsIGNpcmN1aXQtbGlrZSwgZGF0YSB2aXN1YWxpemF0aW9uCmBgYAoKIyMjIFBsYXlmdWwvRnVuCmBgYApwbGF5ZnVsLCBmdW4sIGNvbG9yZnVsLCBmcmllbmRseSwgYXBwcm9hY2hhYmxlLCBjaGVlcmZ1bCwgd2hpbXNpY2FsLApib3VuY3ksIHJvdW5kZWQgc2hhcGVzLCBicmlnaHQgY29sb3JzLCBjYXJ0b29uLWxpa2UsIGVuZXJnZXRpYywKYnViYmx5LCBoYW5kLWRyYXduIGVsZW1lbnRzCmBgYAoKIyMjIE9yZ2FuaWMvTmF0dXJhbApgYGAKb3JnYW5pYywgbmF0dXJhbCwgZmxvd2luZywgYm90YW5pY2FsLCBlY28tZnJpZW5kbHksIHN1c3RhaW5hYmxlLAplYXJ0aCB0b25lcywgbGVhZiBlbGVtZW50cywgaGFuZC1kcmF3biwgaW1wZXJmZWN0IGxpbmVzLCBncm93dGgsCmdyZWVuLCBuYXR1cmUtaW5zcGlyZWQsIGJpb3BoaWxpYwpgYGAKCiMjIE5lZ2F0aXZlIFByb21wdHMgKFdoYXQgdG8gQXZvaWQpCgpBbHdheXMgaW5jbHVkZSB0byBwcmV2ZW50IHVud2FudGVkIHJlc3VsdHM6CmBgYApOT1Q6IHBob3RvcmVhbGlzdGljLCAzRCByZW5kZXIgd2l0aCByZWFsaXN0aWMgdGV4dHVyZXMsIHBob3RvZ3JhcGgsCnN0b2NrIGltYWdlLCBjbGlwIGFydCwgbXVsdGlwbGUgbG9nb3MsIGJ1c3kgYmFja2dyb3VuZCwgdGV4dCB3YXRlcm1hcmtzLApsb3cgcXVhbGl0eSwgYmx1cnJ5LCBkaXN0b3J0ZWQsIGNvbXBsZXggZGV0YWlsZWQgcGF0dGVybnMKYGBgCgojIyBJbmR1c3RyeS1TcGVjaWZpYyBQcm9tcHRzCgojIyMgVGVjaCBTdGFydHVwCmBgYApNb2Rlcm4gdGVjaCBjb21wYW55IGxvZ28sIGFic3RyYWN0IGdlb21ldHJpYyBtYXJrLCBncmFkaWVudCBibHVlIHRvIHB1cnBsZSwKY2xlYW4gbWluaW1hbCBkZXNpZ24sIGlubm92YXRpdmUgZmVlbCwgc2NhbGFibGUgdmVjdG9yIHN0eWxlLApwcm9mZXNzaW9uYWwgcXVhbGl0eSwgc2lsaWNvbiB2YWxsZXkgYWVzdGhldGljCmBgYAoKIyMjIEhlYWx0aGNhcmUKYGBgCkhlYWx0aGNhcmUgbWVkaWNhbCBsb2dvLCBjbGVhbiBwcm9mZXNzaW9uYWwgZGVzaWduLCBjcm9zcyBvciBoZWFydCBzeW1ib2wsCmNhbG1pbmcgYmx1ZSBhbmQgdGVhbCBjb2xvcnMsIHRydXN0d29ydGh5IGFwcGVhcmFuY2UsIGNhcmluZyBmZWVsLApzaW1wbGUgc2NhbGFibGUgbWFyaywgSElQQUEtYXBwcm9wcmlhdGUgY29uc2VydmF0aXZlIHN0eWxlCmBgYAoKIyMjIFJlc3RhdXJhbnQvRm9vZApgYGAKUmVzdGF1cmFudCBsb2dvLCB3YXJtIGludml0aW5nIGNvbG9ycywgYXBwZXRpemluZyBmZWVsLCB2aW50YWdlIGJhZGdlIHN0eWxlLApjaGVmIG9yIHV0ZW5zaWwgaWNvbm9ncmFwaHksIGZyaWVuZGx5IHdlbGNvbWluZyBkZXNpZ24sIHJ1c3RpYyBjaGFybSwKZXN0YWJsaXNoZWQgbG9vaywgcmVhZGFibGUgYXQgc21hbGwgc2l6ZXMKYGBgCgojIyMgRmFzaGlvbiBCcmFuZApgYGAKRmFzaGlvbiBicmFuZCBsb2dvLCBlbGVnYW50IHNvcGhpc3RpY2F0ZWQgd29yZG1hcmssIGx1eHVyeSBhZXN0aGV0aWMsCmJsYWNrIGFuZCBnb2xkIGNvbG9yIHNjaGVtZSwgdGhpbiByZWZpbmVkIHR5cG9ncmFwaHksIGhhdXRlIGNvdXR1cmUgZmVlbCwKbWluaW1hbCBleGNsdXNpdmUgZGVzaWduLCBoaWdoLWVuZCBwb3NpdGlvbmluZwpgYGAKCiMjIyBFY28vU3VzdGFpbmFibGUKYGBgCkVjby1mcmllbmRseSBzdXN0YWluYWJsZSBicmFuZCBsb2dvLCBvcmdhbmljIG5hdHVyYWwgZWxlbWVudHMsIGxlYWYgbW90aWYsCmVhcnRoIGdyZWVuIGFuZCBicm93biBjb2xvcnMsIGdyb3d0aCBzeW1ib2xpc20sIGVudmlyb25tZW50YWwgYXdhcmVuZXNzLApjbGVhbiBtb2Rlcm4geWV0IG5hdHVyYWwgZmVlbCwgcmVjeWNsYWJsZS1sb29rIGRlc2lnbgpgYGAKCiMjIFRlY2huaWNhbCBSZXF1aXJlbWVudHMgdG8gSW5jbHVkZQoKIyMjIFNjYWxhYmlsaXR5CmBgYAp2ZWN0b3Itc3R5bGUsIHNjYWxhYmxlIGF0IGFueSBzaXplLCBjbGVhciBzaWxob3VldHRlLAp3b3JrcyBhcyBmYXZpY29uLCByZWNvZ25pemFibGUgc21hbGwgc2NhbGUsIHNpbXBsZSBzaGFwZXMKYGBgCgojIyMgVmVyc2F0aWxpdHkKYGBgCndvcmtzIG9uIGxpZ2h0IGFuZCBkYXJrIGJhY2tncm91bmRzLCBzaW5nbGUgY29sb3IgdmVyc2lvbiBwb3NzaWJsZSwKaG9yaXpvbnRhbCBhbmQgc3RhY2tlZCBsYXlvdXRzLCBicmFuZCBtYXJrIGNhbiBzdGFuZCBhbG9uZQpgYGAKCiMjIyBRdWFsaXR5CmBgYApwcm9mZXNzaW9uYWwgcXVhbGl0eSwgcHJpbnQtcmVhZHksIGhpZ2ggcmVzb2x1dGlvbiwKY3Jpc3AgZWRnZXMsIGJhbGFuY2VkIGNvbXBvc2l0aW9uLCBjZW50ZXJlZCBkZXNpZ24KYGBgCgojIyBQcm9tcHQgVGVtcGxhdGVzCgojIyMgUXVpY2sgR2VuZXJhdGlvbgpgYGAKUHJvZmVzc2lvbmFsIFtpbmR1c3RyeV0gbG9nbywgW3N0eWxlXSBkZXNpZ24sIFtjb2xvcl0gY29sb3JzLApjbGVhbiBtb2Rlcm4gYWVzdGhldGljLCBzY2FsYWJsZSB2ZWN0b3Igc3R5bGUKYGBgCgojIyMgRGV0YWlsZWQgQnJpZWYKYGBgClByb2Zlc3Npb25hbCBsb2dvIGRlc2lnbiBmb3IgW2JyYW5kIG5hbWVdLCBhIFtpbmR1c3RyeV0gY29tcGFueS4KClZpc3VhbCBzdHlsZTogW3N0eWxlIGtleXdvcmRzXQpQcmltYXJ5IGNvbG9yczogW2hleCBjb2Rlc10KTW9vZDogW2Vtb3Rpb25hbCBrZXl3b3Jkc10KU3ltYm9sczogW2ljb25vZ3JhcGh5IGhpbnRzXQoKVGVjaG5pY2FsOiBWZWN0b3Itc3R5bGUgaWxsdXN0cmF0aW9uLCBzY2FsYWJsZSwgd29ya3MgaW4gc2luZ2xlIGNvbG9yLApjZW50ZXJlZCBvbiBwbGFpbiBiYWNrZ3JvdW5kLCBubyB0ZXh0IHVubGVzcyBzcGVjaWZpZWQuCmBgYAoKIyMjIFZhcmlhdGlvbiBSZXF1ZXN0CmBgYApBbHRlcm5hdGl2ZSB2ZXJzaW9uIG9mIFticmFuZF0gbG9nbzoKS2VlcDogW2VsZW1lbnRzIHRvIHByZXNlcnZlXQpDaGFuZ2U6IFtlbGVtZW50cyB0byBtb2RpZnldClN0eWxlIGRpcmVjdGlvbjogW25ldyBzdHlsZSBrZXl3b3Jkc10KYGBgCgojIyBDb21tb24gUGl0ZmFsbHMKCjEuICoqVG9vIGRldGFpbGVkKiogLSBBSSBnZW5lcmF0ZXMgY29tcGxleGl0eTsgcmVxdWVzdCAic2ltcGxlIgoyLiAqKlVuY2xlYXIgYmFja2dyb3VuZCoqIC0gU3BlY2lmeSAicGxhaW4gd2hpdGUgYmFja2dyb3VuZCIKMy4gKipUZXh0IGlzc3VlcyoqIC0gQUkgc3RydWdnbGVzIHdpdGggdGV4dDsgZ2VuZXJhdGUgbWFyayBzZXBhcmF0ZWx5CjQuICoqV3JvbmcgYXNwZWN0KiogLSBTcGVjaWZ5ICIxOjEgc3F1YXJlIiBvciAiaG9yaXpvbnRhbCIKNS4gKipSZWFsaXN0aWMgc3R5bGUqKiAtIEFkZCAiaWxsdXN0cmF0aW9uLCB2ZWN0b3Itc3R5bGUsIG5vdCBwaG90b3JlYWxpc3RpYyIK
+# Logo AI Prompt Engineering
+
+## Core Prompt Structure
+
+```
+Professional logo design for [brand/industry]:
+[Visual description]
+Style: [style keywords]
+Colors: [color palette]
+Requirements: [technical specs]
+```
+
+## Effective Keywords by Style
+
+### Minimalist
+```
+minimalist, clean lines, simple geometric shapes, essential elements only,
+high white space, flat design, single color, modern, uncluttered,
+negative space, subtle, refined
+```
+
+### Vintage/Retro
+```
+vintage, retro, heritage, established, classic, nostalgic, weathered,
+distressed texture, badge style, hand-lettered, craft, artisan,
+sepia tones, muted colors, aged paper effect
+```
+
+### Luxury/Premium
+```
+luxury, elegant, sophisticated, premium, refined, exclusive, high-end,
+gold accents, metallic, minimal, tasteful, upscale, prestige,
+thin lines, serif typography, foil effect
+```
+
+### Modern/Tech
+```
+modern, innovative, digital, tech-forward, sleek, futuristic,
+gradient colors, geometric, abstract, dynamic, cutting-edge,
+clean sans-serif, circuit-like, data visualization
+```
+
+### Playful/Fun
+```
+playful, fun, colorful, friendly, approachable, cheerful, whimsical,
+bouncy, rounded shapes, bright colors, cartoon-like, energetic,
+bubbly, hand-drawn elements
+```
+
+### Organic/Natural
+```
+organic, natural, flowing, botanical, eco-friendly, sustainable,
+earth tones, leaf elements, hand-drawn, imperfect lines, growth,
+green, nature-inspired, biophilic
+```
+
+## Negative Prompts (What to Avoid)
+
+Always include to prevent unwanted results:
+```
+NOT: photorealistic, 3D render with realistic textures, photograph,
+stock image, clip art, multiple logos, busy background, text watermarks,
+low quality, blurry, distorted, complex detailed patterns
+```
+
+## Industry-Specific Prompts
+
+### Tech Startup
+```
+Modern tech company logo, abstract geometric mark, gradient blue to purple,
+clean minimal design, innovative feel, scalable vector style,
+professional quality, silicon valley aesthetic
+```
+
+### Healthcare
+```
+Healthcare medical logo, clean professional design, cross or heart symbol,
+calming blue and teal colors, trustworthy appearance, caring feel,
+simple scalable mark, HIPAA-appropriate conservative style
+```
+
+### Restaurant/Food
+```
+Restaurant logo, warm inviting colors, appetizing feel, vintage badge style,
+chef or utensil iconography, friendly welcoming design, rustic charm,
+established look, readable at small sizes
+```
+
+### Fashion Brand
+```
+Fashion brand logo, elegant sophisticated wordmark, luxury aesthetic,
+black and gold color scheme, thin refined typography, haute couture feel,
+minimal exclusive design, high-end positioning
+```
+
+### Eco/Sustainable
+```
+Eco-friendly sustainable brand logo, organic natural elements, leaf motif,
+earth green and brown colors, growth symbolism, environmental awareness,
+clean modern yet natural feel, recyclable-look design
+```
+
+## Technical Requirements to Include
+
+### Scalability
+```
+vector-style, scalable at any size, clear silhouette,
+works as favicon, recognizable small scale, simple shapes
+```
+
+### Versatility
+```
+works on light and dark backgrounds, single color version possible,
+horizontal and stacked layouts, brand mark can stand alone
+```
+
+### Quality
+```
+professional quality, print-ready, high resolution,
+crisp edges, balanced composition, centered design
+```
+
+## Prompt Templates
+
+### Quick Generation
+```
+Professional [industry] logo, [style] design, [color] colors,
+clean modern aesthetic, scalable vector style
+```
+
+### Detailed Brief
+```
+Professional logo design for [brand name], a [industry] company.
+
+Visual style: [style keywords]
+Primary colors: [hex codes]
+Mood: [emotional keywords]
+Symbols: [iconography hints]
+
+Technical: Vector-style illustration, scalable, works in single color,
+centered on plain background, no text unless specified.
+```
+
+### Variation Request
+```
+Alternative version of [brand] logo:
+Keep: [elements to preserve]
+Change: [elements to modify]
+Style direction: [new style keywords]
+```
+
+## Common Pitfalls
+
+1. **Too detailed** - AI generates complexity; request "simple"
+2. **Unclear background** - Specify "plain white background"
+3. **Text issues** - AI struggles with text; generate mark separately
+4. **Wrong aspect** - Specify "1:1 square" or "horizontal"
+5. **Realistic style** - Add "illustration, vector-style, not photorealistic"

@@ -1,1 +1,302 @@
-LS0tCm5hbWU6IGNrbTpkZXNpZ24KZGVzY3JpcHRpb246ICJDb21wcmVoZW5zaXZlIGRlc2lnbiBza2lsbDogYnJhbmQgaWRlbnRpdHksIGRlc2lnbiB0b2tlbnMsIFVJIHN0eWxpbmcsIGxvZ28gZ2VuZXJhdGlvbiAoNTUgc3R5bGVzLCBHZW1pbmkgQUkpLCBjb3Jwb3JhdGUgaWRlbnRpdHkgcHJvZ3JhbSAoNTAgZGVsaXZlcmFibGVzLCBDSVAgbW9ja3VwcyksIEhUTUwgcHJlc2VudGF0aW9ucyAoQ2hhcnQuanMpLCBiYW5uZXIgZGVzaWduICgyMiBzdHlsZXMsIHNvY2lhbC9hZHMvd2ViL3ByaW50KSwgaWNvbiBkZXNpZ24gKDE1IHN0eWxlcywgU1ZHLCBHZW1pbmkgMy4xIFBybyksIHNvY2lhbCBwaG90b3MgKEhUTUzihpJzY3JlZW5zaG90LCBtdWx0aS1wbGF0Zm9ybSkuIEFjdGlvbnM6IGRlc2lnbiBsb2dvLCBjcmVhdGUgQ0lQLCBnZW5lcmF0ZSBtb2NrdXBzLCBidWlsZCBzbGlkZXMsIGRlc2lnbiBiYW5uZXIsIGdlbmVyYXRlIGljb24sIGNyZWF0ZSBzb2NpYWwgcGhvdG9zLCBzb2NpYWwgbWVkaWEgaW1hZ2VzLCBicmFuZCBpZGVudGl0eSwgZGVzaWduIHN5c3RlbS4gUGxhdGZvcm1zOiBGYWNlYm9vaywgVHdpdHRlciwgTGlua2VkSW4sIFlvdVR1YmUsIEluc3RhZ3JhbSwgUGludGVyZXN0LCBUaWtUb2ssIFRocmVhZHMsIEdvb2dsZSBBZHMuIgphcmd1bWVudC1oaW50OiAiW2Rlc2lnbi10eXBlXSBbY29udGV4dF0iCmxpY2Vuc2U6IE1JVAptZXRhZGF0YToKICBhdXRob3I6IGNsYXVkZWtpdAogIHZlcnNpb246ICIyLjEuMCIKLS0tCgojIERlc2lnbgoKVW5pZmllZCBkZXNpZ24gc2tpbGw6IGJyYW5kLCB0b2tlbnMsIFVJLCBsb2dvLCBDSVAsIHNsaWRlcywgYmFubmVycywgc29jaWFsIHBob3RvcywgaWNvbnMuCgojIyBXaGVuIHRvIFVzZQoKLSBCcmFuZCBpZGVudGl0eSwgdm9pY2UsIGFzc2V0cwotIERlc2lnbiBzeXN0ZW0gdG9rZW5zIGFuZCBzcGVjcwotIFVJIHN0eWxpbmcgd2l0aCBzaGFkY24vdWkgKyBUYWlsd2luZAotIExvZ28gZGVzaWduIGFuZCBBSSBnZW5lcmF0aW9uCi0gQ29ycG9yYXRlIGlkZW50aXR5IHByb2dyYW0gKENJUCkgZGVsaXZlcmFibGVzCi0gUHJlc2VudGF0aW9ucyBhbmQgcGl0Y2ggZGVja3MKLSBCYW5uZXIgZGVzaWduIGZvciBzb2NpYWwgbWVkaWEsIGFkcywgd2ViLCBwcmludAotIFNvY2lhbCBwaG90b3MgZm9yIEluc3RhZ3JhbSwgRmFjZWJvb2ssIExpbmtlZEluLCBUd2l0dGVyLCBQaW50ZXJlc3QsIFRpa1RvawoKIyMgU3ViLXNraWxsIFJvdXRpbmcKCnwgVGFzayB8IFN1Yi1za2lsbCB8IERldGFpbHMgfAp8LS0tLS0tfC0tLS0tLS0tLS0tfC0tLS0tLS0tLXwKfCBCcmFuZCBpZGVudGl0eSwgdm9pY2UsIGFzc2V0cyB8IGBicmFuZGAgfCBFeHRlcm5hbCBza2lsbCB8CnwgVG9rZW5zLCBzcGVjcywgQ1NTIHZhcnMgfCBgZGVzaWduLXN5c3RlbWAgfCBFeHRlcm5hbCBza2lsbCB8Cnwgc2hhZGNuL3VpLCBUYWlsd2luZCwgY29kZSB8IGB1aS1zdHlsaW5nYCB8IEV4dGVybmFsIHNraWxsIHwKfCBMb2dvIGNyZWF0aW9uLCBBSSBnZW5lcmF0aW9uIHwgTG9nbyAoYnVpbHQtaW4pIHwgYHJlZmVyZW5jZXMvbG9nby1kZXNpZ24ubWRgIHwKfCBDSVAgbW9ja3VwcywgZGVsaXZlcmFibGVzIHwgQ0lQIChidWlsdC1pbikgfCBgcmVmZXJlbmNlcy9jaXAtZGVzaWduLm1kYCB8CnwgUHJlc2VudGF0aW9ucywgcGl0Y2ggZGVja3MgfCBTbGlkZXMgKGJ1aWx0LWluKSB8IGByZWZlcmVuY2VzL3NsaWRlcy5tZGAgfAp8IEJhbm5lcnMsIGNvdmVycywgaGVhZGVycyB8IEJhbm5lciAoYnVpbHQtaW4pIHwgYHJlZmVyZW5jZXMvYmFubmVyLXNpemVzLWFuZC1zdHlsZXMubWRgIHwKfCBTb2NpYWwgbWVkaWEgaW1hZ2VzL3Bob3RvcyB8IFNvY2lhbCBQaG90b3MgKGJ1aWx0LWluKSB8IGByZWZlcmVuY2VzL3NvY2lhbC1waG90b3MtZGVzaWduLm1kYCB8CnwgU1ZHIGljb25zLCBpY29uIHNldHMgfCBJY29uIChidWlsdC1pbikgfCBgcmVmZXJlbmNlcy9pY29uLWRlc2lnbi5tZGAgfAoKIyMgTG9nbyBEZXNpZ24gKEJ1aWx0LWluKQoKNTUrIHN0eWxlcywgMzAgY29sb3IgcGFsZXR0ZXMsIDI1IGluZHVzdHJ5IGd1aWRlcy4gR2VtaW5pIE5hbm8gQmFuYW5hIG1vZGVscy4KCiMjIyBMb2dvOiBHZW5lcmF0ZSBEZXNpZ24gQnJpZWYKCmBgYGJhc2gKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2xvZ28vc2VhcmNoLnB5ICJ0ZWNoIHN0YXJ0dXAgbW9kZXJuIiAtLWRlc2lnbi1icmllZiAtcCAiQnJhbmROYW1lIgpgYGAKCiMjIyBMb2dvOiBTZWFyY2ggU3R5bGVzL0NvbG9ycy9JbmR1c3RyaWVzCgpgYGBiYXNoCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9sb2dvL3NlYXJjaC5weSAibWluaW1hbGlzdCBjbGVhbiIgLS1kb21haW4gc3R5bGUKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2xvZ28vc2VhcmNoLnB5ICJ0ZWNoIHByb2Zlc3Npb25hbCIgLS1kb21haW4gY29sb3IKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2xvZ28vc2VhcmNoLnB5ICJoZWFsdGhjYXJlIG1lZGljYWwiIC0tZG9tYWluIGluZHVzdHJ5CmBgYAoKIyMjIExvZ286IEdlbmVyYXRlIHdpdGggQUkKCioqQUxXQVlTKiogZ2VuZXJhdGUgb3V0cHV0IGxvZ28gaW1hZ2VzIHdpdGggd2hpdGUgYmFja2dyb3VuZC4KCmBgYGJhc2gKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2xvZ28vZ2VuZXJhdGUucHkgLS1icmFuZCAiVGVjaEZsb3ciIC0tc3R5bGUgbWluaW1hbGlzdCAtLWluZHVzdHJ5IHRlY2gKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2xvZ28vZ2VuZXJhdGUucHkgLS1wcm9tcHQgImNvZmZlZSBzaG9wIHZpbnRhZ2UgYmFkZ2UiIC0tc3R5bGUgdmludGFnZQpgYGAKCioqSU1QT1JUQU5UOioqIFdoZW4gc2NyaXB0cyBmYWlsLCB0cnkgdG8gZml4IHRoZW0gZGlyZWN0bHkuCgpBZnRlciBnZW5lcmF0aW9uLCAqKkFMV0FZUyoqIGFzayB1c2VyIGFib3V0IEhUTUwgcHJldmlldyB2aWEgYEFza1VzZXJRdWVzdGlvbmAuIElmIHllcywgaW52b2tlIGAvdWktdXgtcHJvLW1heGAgZm9yIGdhbGxlcnkuCgojIyBDSVAgRGVzaWduIChCdWlsdC1pbikKCjUwKyBkZWxpdmVyYWJsZXMsIDIwIHN0eWxlcywgMjAgaW5kdXN0cmllcy4gR2VtaW5pIE5hbm8gQmFuYW5hIChGbGFzaC9Qcm8pLgoKIyMjIENJUDogR2VuZXJhdGUgQnJpZWYKCmBgYGJhc2gKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9zZWFyY2gucHkgInRlY2ggc3RhcnR1cCIgLS1jaXAtYnJpZWYgLWIgIkJyYW5kTmFtZSIKYGBgCgojIyMgQ0lQOiBTZWFyY2ggRG9tYWlucwoKYGBgYmFzaApweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvY2lwL3NlYXJjaC5weSAiYnVzaW5lc3MgY2FyZCBsZXR0ZXJoZWFkIiAtLWRvbWFpbiBkZWxpdmVyYWJsZQpweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvY2lwL3NlYXJjaC5weSAibHV4dXJ5IHByZW1pdW0gZWxlZ2FudCIgLS1kb21haW4gc3R5bGUKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9zZWFyY2gucHkgImhvc3BpdGFsaXR5IGhvdGVsIiAtLWRvbWFpbiBpbmR1c3RyeQpweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvY2lwL3NlYXJjaC5weSAib2ZmaWNlIHJlY2VwdGlvbiIgLS1kb21haW4gbW9ja3VwCmBgYAoKIyMjIENJUDogR2VuZXJhdGUgTW9ja3VwcwoKYGBgYmFzaAojIFdpdGggbG9nbyAoUkVDT01NRU5ERUQpCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9jaXAvZ2VuZXJhdGUucHkgLS1icmFuZCAiVG9wR3JvdXAiIC0tbG9nbyAvcGF0aC90by9sb2dvLnBuZyAtLWRlbGl2ZXJhYmxlICJidXNpbmVzcyBjYXJkIiAtLWluZHVzdHJ5ICJjb25zdWx0aW5nIgoKIyBGdWxsIENJUCBzZXQKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9nZW5lcmF0ZS5weSAtLWJyYW5kICJUb3BHcm91cCIgLS1sb2dvIC9wYXRoL3RvL2xvZ28ucG5nIC0taW5kdXN0cnkgImNvbnN1bHRpbmciIC0tc2V0CgojIFBybyBtb2RlbCAoNEsgdGV4dCkKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9nZW5lcmF0ZS5weSAtLWJyYW5kICJUb3BHcm91cCIgLS1sb2dvIGxvZ28ucG5nIC0tZGVsaXZlcmFibGUgImJ1c2luZXNzIGNhcmQiIC0tbW9kZWwgcHJvCgojIFdpdGhvdXQgbG9nbwpweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvY2lwL2dlbmVyYXRlLnB5IC0tYnJhbmQgIlRlY2hGbG93IiAtLWRlbGl2ZXJhYmxlICJidXNpbmVzcyBjYXJkIiAtLW5vLWxvZ28tcHJvbXB0CmBgYAoKTW9kZWxzOiBgZmxhc2hgIChkZWZhdWx0LCBgZ2VtaW5pLTIuNS1mbGFzaC1pbWFnZWApLCBgcHJvYCAoYGdlbWluaS0zLXByby1pbWFnZS1wcmV2aWV3YCkKCiMjIyBDSVA6IFJlbmRlciBIVE1MIFByZXNlbnRhdGlvbgoKYGBgYmFzaApweXRob24zIH4vLmNsYXVkZS9za2lsbHMvZGVzaWduL3NjcmlwdHMvY2lwL3JlbmRlci1odG1sLnB5IC0tYnJhbmQgIlRvcEdyb3VwIiAtLWluZHVzdHJ5ICJjb25zdWx0aW5nIiAtLWltYWdlcyAvcGF0aC90by9jaXAtb3V0cHV0CmBgYAoKKipUaXA6KiogSWYgbm8gbG9nbyBleGlzdHMsIHVzZSBMb2dvIERlc2lnbiBzZWN0aW9uIGFib3ZlIGZpcnN0LgoKIyMgU2xpZGVzIChCdWlsdC1pbikKClN0cmF0ZWdpYyBIVE1MIHByZXNlbnRhdGlvbnMgd2l0aCBDaGFydC5qcywgZGVzaWduIHRva2VucywgY29weXdyaXRpbmcgZm9ybXVsYXMuCgpMb2FkIGByZWZlcmVuY2VzL3NsaWRlcy1jcmVhdGUubWRgIGZvciB0aGUgY3JlYXRpb24gd29ya2Zsb3cuCgojIyMgU2xpZGVzOiBLbm93bGVkZ2UgQmFzZQoKfCBUb3BpYyB8IEZpbGUgfAp8LS0tLS0tLXwtLS0tLS18CnwgQ3JlYXRpb24gR3VpZGUgfCBgcmVmZXJlbmNlcy9zbGlkZXMtY3JlYXRlLm1kYCB8CnwgTGF5b3V0IFBhdHRlcm5zIHwgYHJlZmVyZW5jZXMvc2xpZGVzLWxheW91dC1wYXR0ZXJucy5tZGAgfAp8IEhUTUwgVGVtcGxhdGUgfCBgcmVmZXJlbmNlcy9zbGlkZXMtaHRtbC10ZW1wbGF0ZS5tZGAgfAp8IENvcHl3cml0aW5nIHwgYHJlZmVyZW5jZXMvc2xpZGVzLWNvcHl3cml0aW5nLWZvcm11bGFzLm1kYCB8CnwgU3RyYXRlZ2llcyB8IGByZWZlcmVuY2VzL3NsaWRlcy1zdHJhdGVnaWVzLm1kYCB8CgojIyBCYW5uZXIgRGVzaWduIChCdWlsdC1pbikKCjIyIGFydCBkaXJlY3Rpb24gc3R5bGVzIGFjcm9zcyBzb2NpYWwsIGFkcywgd2ViLCBwcmludC4gVXNlcyBgZnJvbnRlbmQtZGVzaWduYCwgYGFpLWFydGlzdGAsIGBhaS1tdWx0aW1vZGFsYCwgYGNocm9tZS1kZXZ0b29sc2Agc2tpbGxzLgoKTG9hZCBgcmVmZXJlbmNlcy9iYW5uZXItc2l6ZXMtYW5kLXN0eWxlcy5tZGAgZm9yIGNvbXBsZXRlIHNpemVzIGFuZCBzdHlsZXMgcmVmZXJlbmNlLgoKIyMjIEJhbm5lcjogV29ya2Zsb3cKCjEuICoqR2F0aGVyIHJlcXVpcmVtZW50cyoqIHZpYSBgQXNrVXNlclF1ZXN0aW9uYCDigJQgcHVycG9zZSwgcGxhdGZvcm0sIGNvbnRlbnQsIGJyYW5kLCBzdHlsZSwgcXVhbnRpdHkKMi4gKipSZXNlYXJjaCoqIOKAlCBBY3RpdmF0ZSBgdWktdXgtcHJvLW1heGAsIGJyb3dzZSBQaW50ZXJlc3QgZm9yIHJlZmVyZW5jZXMKMy4gKipEZXNpZ24qKiDigJQgQ3JlYXRlIEhUTUwvQ1NTIGJhbm5lciB3aXRoIGBmcm9udGVuZC1kZXNpZ25gLCBnZW5lcmF0ZSB2aXN1YWxzIHdpdGggYGFpLWFydGlzdGAvYGFpLW11bHRpbW9kYWxgCjQuICoqRXhwb3J0Kiog4oCUIFNjcmVlbnNob3QgdG8gUE5HIGF0IGV4YWN0IGRpbWVuc2lvbnMgdmlhIGBjaHJvbWUtZGV2dG9vbHNgCjUuICoqUHJlc2VudCoqIOKAlCBTaG93IGFsbCBvcHRpb25zIHNpZGUtYnktc2lkZSwgaXRlcmF0ZSBvbiBmZWVkYmFjawoKIyMjIEJhbm5lcjogUXVpY2sgU2l6ZSBSZWZlcmVuY2UKCnwgUGxhdGZvcm0gfCBUeXBlIHwgU2l6ZSAocHgpIHwKfC0tLS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLS0tfAp8IEZhY2Vib29rIHwgQ292ZXIgfCA4MjAgeCAzMTIgfAp8IFR3aXR0ZXIvWCB8IEhlYWRlciB8IDE1MDAgeCA1MDAgfAp8IExpbmtlZEluIHwgUGVyc29uYWwgfCAxNTg0IHggMzk2IHwKfCBZb3VUdWJlIHwgQ2hhbm5lbCBhcnQgfCAyNTYwIHggMTQ0MCB8CnwgSW5zdGFncmFtIHwgU3RvcnkgfCAxMDgwIHggMTkyMCB8CnwgSW5zdGFncmFtIHwgUG9zdCB8IDEwODAgeCAxMDgwIHwKfCBHb29nbGUgQWRzIHwgTWVkIFJlY3RhbmdsZSB8IDMwMCB4IDI1MCB8CnwgV2Vic2l0ZSB8IEhlcm8gfCAxOTIwIHggNjAwLTEwODAgfAoKIyMjIEJhbm5lcjogVG9wIEFydCBTdHlsZXMKCnwgU3R5bGUgfCBCZXN0IEZvciB8CnwtLS0tLS0tfC0tLS0tLS0tLS18CnwgTWluaW1hbGlzdCB8IFNhYVMsIHRlY2ggfAp8IEJvbGQgVHlwb2dyYXBoeSB8IEFubm91bmNlbWVudHMgfAp8IEdyYWRpZW50IHwgTW9kZXJuIGJyYW5kcyB8CnwgUGhvdG8tQmFzZWQgfCBMaWZlc3R5bGUsIGUtY29tIHwKfCBHZW9tZXRyaWMgfCBUZWNoLCBmaW50ZWNoIHwKfCBHbGFzc21vcnBoaXNtIHwgU2FhUywgYXBwcyB8CnwgTmVvbi9DeWJlcnB1bmsgfCBHYW1pbmcsIGV2ZW50cyB8CgojIyMgQmFubmVyOiBEZXNpZ24gUnVsZXMKCi0gU2FmZSB6b25lczogY3JpdGljYWwgY29udGVudCBpbiBjZW50cmFsIDcwLTgwJQotIE9uZSBDVEEgcGVyIGJhbm5lciwgYm90dG9tLXJpZ2h0LCBtaW4gNDRweCBoZWlnaHQKLSBNYXggMiBmb250cywgbWluIDE2cHggYm9keSwg4omlMzJweCBoZWFkbGluZQotIFRleHQgdW5kZXIgMjAlIGZvciBhZHMgKE1ldGEgcGVuYWxpemVzKQotIFByaW50OiAzMDAgRFBJLCBDTVlLLCAzLTVtbSBibGVlZAoKIyMgSWNvbiBEZXNpZ24gKEJ1aWx0LWluKQoKMTUgc3R5bGVzLCAxMiBjYXRlZ29yaWVzLiBHZW1pbmkgMy4xIFBybyBQcmV2aWV3IGdlbmVyYXRlcyBTVkcgdGV4dCBvdXRwdXQuCgojIyMgSWNvbjogR2VuZXJhdGUgU2luZ2xlIEljb24KCmBgYGJhc2gKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2ljb24vZ2VuZXJhdGUucHkgLS1wcm9tcHQgInNldHRpbmdzIGdlYXIiIC0tc3R5bGUgb3V0bGluZWQKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2ljb24vZ2VuZXJhdGUucHkgLS1wcm9tcHQgInNob3BwaW5nIGNhcnQiIC0tc3R5bGUgZmlsbGVkIC0tY29sb3IgIiM2MzY2RjEiCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9pY29uL2dlbmVyYXRlLnB5IC0tbmFtZSAiZGFzaGJvYXJkIiAtLWNhdGVnb3J5IG5hdmlnYXRpb24gLS1zdHlsZSBkdW90b25lCmBgYAoKIyMjIEljb246IEdlbmVyYXRlIEJhdGNoIFZhcmlhdGlvbnMKCmBgYGJhc2gKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2ljb24vZ2VuZXJhdGUucHkgLS1wcm9tcHQgImNsb3VkIHVwbG9hZCIgLS1iYXRjaCA0IC0tb3V0cHV0LWRpciAuL2ljb25zCmBgYAoKIyMjIEljb246IE11bHRpLXNpemUgRXhwb3J0CgpgYGBiYXNoCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9pY29uL2dlbmVyYXRlLnB5IC0tcHJvbXB0ICJ1c2VyIHByb2ZpbGUiIC0tc2l6ZXMgIjE2LDI0LDMyLDQ4IiAtLW91dHB1dC1kaXIgLi9pY29ucwpgYGAKCiMjIyBJY29uOiBUb3AgU3R5bGVzCgp8IFN0eWxlIHwgQmVzdCBGb3IgfAp8LS0tLS0tLXwtLS0tLS0tLS0tfAp8IG91dGxpbmVkIHwgVUkgaW50ZXJmYWNlcywgd2ViIGFwcHMgfAp8IGZpbGxlZCB8IE1vYmlsZSBhcHBzLCBuYXYgYmFycyB8CnwgZHVvdG9uZSB8IE1hcmtldGluZywgbGFuZGluZyBwYWdlcyB8Cnwgcm91bmRlZCB8IEZyaWVuZGx5IGFwcHMsIGhlYWx0aCB8Cnwgc2hhcnAgfCBUZWNoLCBmaW50ZWNoLCBlbnRlcnByaXNlIHwKfCBmbGF0IHwgTWF0ZXJpYWwgZGVzaWduLCBHb29nbGUtc3R5bGUgfAp8IGdyYWRpZW50IHwgTW9kZXJuIGJyYW5kcywgU2FhUyB8CgoqKk1vZGVsOioqIGBnZW1pbmktMy4xLXByby1wcmV2aWV3YCDigJQgdGV4dC1vbmx5IG91dHB1dCAoU1ZHIGlzIFhNTCB0ZXh0KS4gTm8gaW1hZ2UgZ2VuZXJhdGlvbiBBUEkgbmVlZGVkLgoKIyMgU29jaWFsIFBob3RvcyAoQnVpbHQtaW4pCgpNdWx0aS1wbGF0Zm9ybSBzb2NpYWwgaW1hZ2UgZGVzaWduOiBIVE1ML0NTUyDihpIgc2NyZWVuc2hvdCBleHBvcnQuIFVzZXMgYHVpLXV4LXByby1tYXhgLCBgYnJhbmRgLCBgZGVzaWduLXN5c3RlbWAsIGBjaHJvbWUtZGV2dG9vbHNgIHNraWxscy4KCkxvYWQgYHJlZmVyZW5jZXMvc29jaWFsLXBob3Rvcy1kZXNpZ24ubWRgIGZvciBzaXplcywgdGVtcGxhdGVzLCBiZXN0IHByYWN0aWNlcy4KCiMjIyBTb2NpYWwgUGhvdG9zOiBXb3JrZmxvdwoKMS4gKipPcmNoZXN0cmF0ZSoqIOKAlCBgcHJvamVjdC1tYW5hZ2VtZW50YCBza2lsbCBmb3IgVE9ETyB0YXNrczsgcGFyYWxsZWwgc3ViYWdlbnRzIGZvciBpbmRlcGVuZGVudCB3b3JrCjIuICoqQW5hbHl6ZSoqIOKAlCBQYXJzZSBwcm9tcHQ6IHN1YmplY3QsIHBsYXRmb3Jtcywgc3R5bGUsIGJyYW5kIGNvbnRleHQsIGNvbnRlbnQgZWxlbWVudHMKMy4gKipJZGVhdGUqKiDigJQgMy01IGNvbmNlcHRzLCBwcmVzZW50IHZpYSBgQXNrVXNlclF1ZXN0aW9uYAo0LiAqKkRlc2lnbioqIOKAlCBgL2NrbTpicmFuZGAg4oaSIGAvY2ttOmRlc2lnbi1zeXN0ZW1gIOKGkiByYW5kb21seSBpbnZva2UgYC9jazp1aS11eC1wcm8tbWF4YCBPUiBgL2NrOmZyb250ZW5kLWRlc2lnbmA7IEhUTUwgcGVyIGlkZWEgw5cgc2l6ZQo1LiAqKkV4cG9ydCoqIOKAlCBgY2hyb21lLWRldnRvb2xzYCBvciBQbGF5d3JpZ2h0IHNjcmVlbnNob3QgYXQgZXhhY3QgcHggKDJ4IGRldmljZVNjYWxlRmFjdG9yKQo2LiAqKlZlcmlmeSoqIOKAlCBVc2UgQ2hyb21lIE1DUCBvciBgY2hyb21lLWRldnRvb2xzYCBza2lsbCB0byB2aXN1YWxseSBpbnNwZWN0IGV4cG9ydGVkIGRlc2lnbnM7IGZpeCBsYXlvdXQvc3R5bGluZyBpc3N1ZXMgYW5kIHJlLWV4cG9ydAo3LiAqKlJlcG9ydCoqIOKAlCBTdW1tYXJ5IHRvIGBwbGFucy9yZXBvcnRzL2Agd2l0aCBkZXNpZ24gZGVjaXNpb25zCjguICoqT3JnYW5pemUqKiDigJQgSW52b2tlIGBhc3NldHMtb3JnYW5pemluZ2Agc2tpbGwgdG8gc29ydCBvdXRwdXQgZmlsZXMgYW5kIHJlcG9ydHMKCiMjIyBTb2NpYWwgUGhvdG9zOiBLZXkgU2l6ZXMKCnwgUGxhdGZvcm0gfCBTaXplIChweCkgfCBQbGF0Zm9ybSB8IFNpemUgKHB4KSB8CnwtLS0tLS0tLS0tfC0tLS0tLS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLS0tLS18CnwgSUcgUG9zdCB8IDEwODDDlzEwODAgfCBGQiBQb3N0IHwgMTIwMMOXNjMwIHwKfCBJRyBTdG9yeSB8IDEwODDDlzE5MjAgfCBYIFBvc3QgfCAxMjAww5c2NzUgfAp8IElHIENhcm91c2VsIHwgMTA4MMOXMTM1MCB8IExpbmtlZEluIHwgMTIwMMOXNjI3IHwKfCBZVCBUaHVtYiB8IDEyODDDlzcyMCB8IFBpbnRlcmVzdCB8IDEwMDDDlzE1MDAgfAoKIyMgV29ya2Zsb3dzCgojIyMgQ29tcGxldGUgQnJhbmQgUGFja2FnZQoKMS4gKipMb2dvKiog4oaSIGBzY3JpcHRzL2xvZ28vZ2VuZXJhdGUucHlgIOKGkiBHZW5lcmF0ZSBsb2dvIHZhcmlhbnRzCjIuICoqQ0lQKiog4oaSIGBzY3JpcHRzL2NpcC9nZW5lcmF0ZS5weSAtLWxvZ28gLi4uYCDihpIgQ3JlYXRlIGRlbGl2ZXJhYmxlIG1vY2t1cHMKMy4gKipQcmVzZW50YXRpb24qKiDihpIgTG9hZCBgcmVmZXJlbmNlcy9zbGlkZXMtY3JlYXRlLm1kYCDihpIgQnVpbGQgcGl0Y2ggZGVjawoKIyMjIE5ldyBEZXNpZ24gU3lzdGVtCgoxLiAqKkJyYW5kKiogKGJyYW5kIHNraWxsKSDihpIgRGVmaW5lIGNvbG9ycywgdHlwb2dyYXBoeSwgdm9pY2UKMi4gKipUb2tlbnMqKiAoZGVzaWduLXN5c3RlbSBza2lsbCkg4oaSIENyZWF0ZSBzZW1hbnRpYyB0b2tlbiBsYXllcnMKMy4gKipJbXBsZW1lbnQqKiAodWktc3R5bGluZyBza2lsbCkg4oaSIENvbmZpZ3VyZSBUYWlsd2luZCwgc2hhZGNuL3VpCgojIyBSZWZlcmVuY2VzCgp8IFRvcGljIHwgRmlsZSB8CnwtLS0tLS0tfC0tLS0tLXwKfCBEZXNpZ24gUm91dGluZyB8IGByZWZlcmVuY2VzL2Rlc2lnbi1yb3V0aW5nLm1kYCB8CnwgTG9nbyBEZXNpZ24gR3VpZGUgfCBgcmVmZXJlbmNlcy9sb2dvLWRlc2lnbi5tZGAgfAp8IExvZ28gU3R5bGVzIHwgYHJlZmVyZW5jZXMvbG9nby1zdHlsZS1ndWlkZS5tZGAgfAp8IExvZ28gQ29sb3JzIHwgYHJlZmVyZW5jZXMvbG9nby1jb2xvci1wc3ljaG9sb2d5Lm1kYCB8CnwgTG9nbyBQcm9tcHRzIHwgYHJlZmVyZW5jZXMvbG9nby1wcm9tcHQtZW5naW5lZXJpbmcubWRgIHwKfCBDSVAgRGVzaWduIEd1aWRlIHwgYHJlZmVyZW5jZXMvY2lwLWRlc2lnbi5tZGAgfAp8IENJUCBEZWxpdmVyYWJsZXMgfCBgcmVmZXJlbmNlcy9jaXAtZGVsaXZlcmFibGUtZ3VpZGUubWRgIHwKfCBDSVAgU3R5bGVzIHwgYHJlZmVyZW5jZXMvY2lwLXN0eWxlLWd1aWRlLm1kYCB8CnwgQ0lQIFByb21wdHMgfCBgcmVmZXJlbmNlcy9jaXAtcHJvbXB0LWVuZ2luZWVyaW5nLm1kYCB8CnwgU2xpZGVzIENyZWF0ZSB8IGByZWZlcmVuY2VzL3NsaWRlcy1jcmVhdGUubWRgIHwKfCBTbGlkZXMgTGF5b3V0cyB8IGByZWZlcmVuY2VzL3NsaWRlcy1sYXlvdXQtcGF0dGVybnMubWRgIHwKfCBTbGlkZXMgVGVtcGxhdGUgfCBgcmVmZXJlbmNlcy9zbGlkZXMtaHRtbC10ZW1wbGF0ZS5tZGAgfAp8IFNsaWRlcyBDb3B5IHwgYHJlZmVyZW5jZXMvc2xpZGVzLWNvcHl3cml0aW5nLWZvcm11bGFzLm1kYCB8CnwgU2xpZGVzIFN0cmF0ZWd5IHwgYHJlZmVyZW5jZXMvc2xpZGVzLXN0cmF0ZWdpZXMubWRgIHwKfCBCYW5uZXIgU2l6ZXMgJiBTdHlsZXMgfCBgcmVmZXJlbmNlcy9iYW5uZXItc2l6ZXMtYW5kLXN0eWxlcy5tZGAgfAp8IFNvY2lhbCBQaG90b3MgR3VpZGUgfCBgcmVmZXJlbmNlcy9zb2NpYWwtcGhvdG9zLWRlc2lnbi5tZGAgfAp8IEljb24gRGVzaWduIEd1aWRlIHwgYHJlZmVyZW5jZXMvaWNvbi1kZXNpZ24ubWRgIHwKCiMjIFNjcmlwdHMKCnwgU2NyaXB0IHwgUHVycG9zZSB8CnwtLS0tLS0tLXwtLS0tLS0tLS18CnwgYHNjcmlwdHMvbG9nby9zZWFyY2gucHlgIHwgU2VhcmNoIGxvZ28gc3R5bGVzLCBjb2xvcnMsIGluZHVzdHJpZXMgfAp8IGBzY3JpcHRzL2xvZ28vZ2VuZXJhdGUucHlgIHwgR2VuZXJhdGUgbG9nb3Mgd2l0aCBHZW1pbmkgQUkgfAp8IGBzY3JpcHRzL2xvZ28vY29yZS5weWAgfCBCTTI1IHNlYXJjaCBlbmdpbmUgZm9yIGxvZ28gZGF0YSB8CnwgYHNjcmlwdHMvY2lwL3NlYXJjaC5weWAgfCBTZWFyY2ggQ0lQIGRlbGl2ZXJhYmxlcywgc3R5bGVzLCBpbmR1c3RyaWVzIHwKfCBgc2NyaXB0cy9jaXAvZ2VuZXJhdGUucHlgIHwgR2VuZXJhdGUgQ0lQIG1vY2t1cHMgd2l0aCBHZW1pbmkgfAp8IGBzY3JpcHRzL2NpcC9yZW5kZXItaHRtbC5weWAgfCBSZW5kZXIgSFRNTCBwcmVzZW50YXRpb24gZnJvbSBDSVAgbW9ja3VwcyB8CnwgYHNjcmlwdHMvY2lwL2NvcmUucHlgIHwgQk0yNSBzZWFyY2ggZW5naW5lIGZvciBDSVAgZGF0YSB8CnwgYHNjcmlwdHMvaWNvbi9nZW5lcmF0ZS5weWAgfCBHZW5lcmF0ZSBTVkcgaWNvbnMgd2l0aCBHZW1pbmkgMy4xIFBybyB8CgojIyBTZXR1cAoKYGBgYmFzaApleHBvcnQgR0VNSU5JX0FQSV9LRVk9InlvdXIta2V5IiAgIyBodHRwczovL2Fpc3R1ZGlvLmdvb2dsZS5jb20vYXBpa2V5CnBpcCBpbnN0YWxsIGdvb2dsZS1nZW5haSBwaWxsb3cKYGBgCgojIyBJbnRlZ3JhdGlvbgoKKipFeHRlcm5hbCBzdWItc2tpbGxzOioqIGJyYW5kLCBkZXNpZ24tc3lzdGVtLCB1aS1zdHlsaW5nCioqUmVsYXRlZCBTa2lsbHM6KiogZnJvbnRlbmQtZGVzaWduLCB1aS11eC1wcm8tbWF4LCBhaS1tdWx0aW1vZGFsLCBjaHJvbWUtZGV2dG9vbHMK
+---
+name: ckm:design
+description: "Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart.js), banner design (22 styles, social/ads/web/print), icon design (15 styles, SVG, Gemini 3.1 Pro), social photos (HTML→screenshot, multi-platform). Actions: design logo, create CIP, generate mockups, build slides, design banner, generate icon, create social photos, social media images, brand identity, design system. Platforms: Facebook, Twitter, LinkedIn, YouTube, Instagram, Pinterest, TikTok, Threads, Google Ads."
+argument-hint: "[design-type] [context]"
+license: MIT
+metadata:
+  author: claudekit
+  version: "2.1.0"
+---
+
+# Design
+
+Unified design skill: brand, tokens, UI, logo, CIP, slides, banners, social photos, icons.
+
+## When to Use
+
+- Brand identity, voice, assets
+- Design system tokens and specs
+- UI styling with shadcn/ui + Tailwind
+- Logo design and AI generation
+- Corporate identity program (CIP) deliverables
+- Presentations and pitch decks
+- Banner design for social media, ads, web, print
+- Social photos for Instagram, Facebook, LinkedIn, Twitter, Pinterest, TikTok
+
+## Sub-skill Routing
+
+| Task | Sub-skill | Details |
+|------|-----------|---------|
+| Brand identity, voice, assets | `brand` | External skill |
+| Tokens, specs, CSS vars | `design-system` | External skill |
+| shadcn/ui, Tailwind, code | `ui-styling` | External skill |
+| Logo creation, AI generation | Logo (built-in) | `references/logo-design.md` |
+| CIP mockups, deliverables | CIP (built-in) | `references/cip-design.md` |
+| Presentations, pitch decks | Slides (built-in) | `references/slides.md` |
+| Banners, covers, headers | Banner (built-in) | `references/banner-sizes-and-styles.md` |
+| Social media images/photos | Social Photos (built-in) | `references/social-photos-design.md` |
+| SVG icons, icon sets | Icon (built-in) | `references/icon-design.md` |
+
+## Logo Design (Built-in)
+
+55+ styles, 30 color palettes, 25 industry guides. Gemini Nano Banana models.
+
+### Logo: Generate Design Brief
+
+```bash
+python3 ~/.claude/skills/design/scripts/logo/search.py "tech startup modern" --design-brief -p "BrandName"
+```
+
+### Logo: Search Styles/Colors/Industries
+
+```bash
+python3 ~/.claude/skills/design/scripts/logo/search.py "minimalist clean" --domain style
+python3 ~/.claude/skills/design/scripts/logo/search.py "tech professional" --domain color
+python3 ~/.claude/skills/design/scripts/logo/search.py "healthcare medical" --domain industry
+```
+
+### Logo: Generate with AI
+
+**ALWAYS** generate output logo images with white background.
+
+```bash
+python3 ~/.claude/skills/design/scripts/logo/generate.py --brand "TechFlow" --style minimalist --industry tech
+python3 ~/.claude/skills/design/scripts/logo/generate.py --prompt "coffee shop vintage badge" --style vintage
+```
+
+**IMPORTANT:** When scripts fail, try to fix them directly.
+
+After generation, **ALWAYS** ask user about HTML preview via `AskUserQuestion`. If yes, invoke `/ui-ux-pro-max` for gallery.
+
+## CIP Design (Built-in)
+
+50+ deliverables, 20 styles, 20 industries. Gemini Nano Banana (Flash/Pro).
+
+### CIP: Generate Brief
+
+```bash
+python3 ~/.claude/skills/design/scripts/cip/search.py "tech startup" --cip-brief -b "BrandName"
+```
+
+### CIP: Search Domains
+
+```bash
+python3 ~/.claude/skills/design/scripts/cip/search.py "business card letterhead" --domain deliverable
+python3 ~/.claude/skills/design/scripts/cip/search.py "luxury premium elegant" --domain style
+python3 ~/.claude/skills/design/scripts/cip/search.py "hospitality hotel" --domain industry
+python3 ~/.claude/skills/design/scripts/cip/search.py "office reception" --domain mockup
+```
+
+### CIP: Generate Mockups
+
+```bash
+# With logo (RECOMMENDED)
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "TopGroup" --logo /path/to/logo.png --deliverable "business card" --industry "consulting"
+
+# Full CIP set
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "TopGroup" --logo /path/to/logo.png --industry "consulting" --set
+
+# Pro model (4K text)
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "TopGroup" --logo logo.png --deliverable "business card" --model pro
+
+# Without logo
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "TechFlow" --deliverable "business card" --no-logo-prompt
+```
+
+Models: `flash` (default, `gemini-2.5-flash-image`), `pro` (`gemini-3-pro-image-preview`)
+
+### CIP: Render HTML Presentation
+
+```bash
+python3 ~/.claude/skills/design/scripts/cip/render-html.py --brand "TopGroup" --industry "consulting" --images /path/to/cip-output
+```
+
+**Tip:** If no logo exists, use Logo Design section above first.
+
+## Slides (Built-in)
+
+Strategic HTML presentations with Chart.js, design tokens, copywriting formulas.
+
+Load `references/slides-create.md` for the creation workflow.
+
+### Slides: Knowledge Base
+
+| Topic | File |
+|-------|------|
+| Creation Guide | `references/slides-create.md` |
+| Layout Patterns | `references/slides-layout-patterns.md` |
+| HTML Template | `references/slides-html-template.md` |
+| Copywriting | `references/slides-copywriting-formulas.md` |
+| Strategies | `references/slides-strategies.md` |
+
+## Banner Design (Built-in)
+
+22 art direction styles across social, ads, web, print. Uses `frontend-design`, `ai-artist`, `ai-multimodal`, `chrome-devtools` skills.
+
+Load `references/banner-sizes-and-styles.md` for complete sizes and styles reference.
+
+### Banner: Workflow
+
+1. **Gather requirements** via `AskUserQuestion` — purpose, platform, content, brand, style, quantity
+2. **Research** — Activate `ui-ux-pro-max`, browse Pinterest for references
+3. **Design** — Create HTML/CSS banner with `frontend-design`, generate visuals with `ai-artist`/`ai-multimodal`
+4. **Export** — Screenshot to PNG at exact dimensions via `chrome-devtools`
+5. **Present** — Show all options side-by-side, iterate on feedback
+
+### Banner: Quick Size Reference
+
+| Platform | Type | Size (px) |
+|----------|------|-----------|
+| Facebook | Cover | 820 x 312 |
+| Twitter/X | Header | 1500 x 500 |
+| LinkedIn | Personal | 1584 x 396 |
+| YouTube | Channel art | 2560 x 1440 |
+| Instagram | Story | 1080 x 1920 |
+| Instagram | Post | 1080 x 1080 |
+| Google Ads | Med Rectangle | 300 x 250 |
+| Website | Hero | 1920 x 600-1080 |
+
+### Banner: Top Art Styles
+
+| Style | Best For |
+|-------|----------|
+| Minimalist | SaaS, tech |
+| Bold Typography | Announcements |
+| Gradient | Modern brands |
+| Photo-Based | Lifestyle, e-com |
+| Geometric | Tech, fintech |
+| Glassmorphism | SaaS, apps |
+| Neon/Cyberpunk | Gaming, events |
+
+### Banner: Design Rules
+
+- Safe zones: critical content in central 70-80%
+- One CTA per banner, bottom-right, min 44px height
+- Max 2 fonts, min 16px body, ≥32px headline
+- Text under 20% for ads (Meta penalizes)
+- Print: 300 DPI, CMYK, 3-5mm bleed
+
+## Icon Design (Built-in)
+
+15 styles, 12 categories. Gemini 3.1 Pro Preview generates SVG text output.
+
+### Icon: Generate Single Icon
+
+```bash
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "settings gear" --style outlined
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "shopping cart" --style filled --color "#6366F1"
+python3 ~/.claude/skills/design/scripts/icon/generate.py --name "dashboard" --category navigation --style duotone
+```
+
+### Icon: Generate Batch Variations
+
+```bash
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "cloud upload" --batch 4 --output-dir ./icons
+```
+
+### Icon: Multi-size Export
+
+```bash
+python3 ~/.claude/skills/design/scripts/icon/generate.py --prompt "user profile" --sizes "16,24,32,48" --output-dir ./icons
+```
+
+### Icon: Top Styles
+
+| Style | Best For |
+|-------|----------|
+| outlined | UI interfaces, web apps |
+| filled | Mobile apps, nav bars |
+| duotone | Marketing, landing pages |
+| rounded | Friendly apps, health |
+| sharp | Tech, fintech, enterprise |
+| flat | Material design, Google-style |
+| gradient | Modern brands, SaaS |
+
+**Model:** `gemini-3.1-pro-preview` — text-only output (SVG is XML text). No image generation API needed.
+
+## Social Photos (Built-in)
+
+Multi-platform social image design: HTML/CSS → screenshot export. Uses `ui-ux-pro-max`, `brand`, `design-system`, `chrome-devtools` skills.
+
+Load `references/social-photos-design.md` for sizes, templates, best practices.
+
+### Social Photos: Workflow
+
+1. **Orchestrate** — `project-management` skill for TODO tasks; parallel subagents for independent work
+2. **Analyze** — Parse prompt: subject, platforms, style, brand context, content elements
+3. **Ideate** — 3-5 concepts, present via `AskUserQuestion`
+4. **Design** — `/ckm:brand` → `/ckm:design-system` → randomly invoke `/ck:ui-ux-pro-max` OR `/ck:frontend-design`; HTML per idea × size
+5. **Export** — `chrome-devtools` or Playwright screenshot at exact px (2x deviceScaleFactor)
+6. **Verify** — Use Chrome MCP or `chrome-devtools` skill to visually inspect exported designs; fix layout/styling issues and re-export
+7. **Report** — Summary to `plans/reports/` with design decisions
+8. **Organize** — Invoke `assets-organizing` skill to sort output files and reports
+
+### Social Photos: Key Sizes
+
+| Platform | Size (px) | Platform | Size (px) |
+|----------|-----------|----------|-----------|
+| IG Post | 1080×1080 | FB Post | 1200×630 |
+| IG Story | 1080×1920 | X Post | 1200×675 |
+| IG Carousel | 1080×1350 | LinkedIn | 1200×627 |
+| YT Thumb | 1280×720 | Pinterest | 1000×1500 |
+
+## Workflows
+
+### Complete Brand Package
+
+1. **Logo** → `scripts/logo/generate.py` → Generate logo variants
+2. **CIP** → `scripts/cip/generate.py --logo ...` → Create deliverable mockups
+3. **Presentation** → Load `references/slides-create.md` → Build pitch deck
+
+### New Design System
+
+1. **Brand** (brand skill) → Define colors, typography, voice
+2. **Tokens** (design-system skill) → Create semantic token layers
+3. **Implement** (ui-styling skill) → Configure Tailwind, shadcn/ui
+
+## References
+
+| Topic | File |
+|-------|------|
+| Design Routing | `references/design-routing.md` |
+| Logo Design Guide | `references/logo-design.md` |
+| Logo Styles | `references/logo-style-guide.md` |
+| Logo Colors | `references/logo-color-psychology.md` |
+| Logo Prompts | `references/logo-prompt-engineering.md` |
+| CIP Design Guide | `references/cip-design.md` |
+| CIP Deliverables | `references/cip-deliverable-guide.md` |
+| CIP Styles | `references/cip-style-guide.md` |
+| CIP Prompts | `references/cip-prompt-engineering.md` |
+| Slides Create | `references/slides-create.md` |
+| Slides Layouts | `references/slides-layout-patterns.md` |
+| Slides Template | `references/slides-html-template.md` |
+| Slides Copy | `references/slides-copywriting-formulas.md` |
+| Slides Strategy | `references/slides-strategies.md` |
+| Banner Sizes & Styles | `references/banner-sizes-and-styles.md` |
+| Social Photos Guide | `references/social-photos-design.md` |
+| Icon Design Guide | `references/icon-design.md` |
+
+## Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/logo/search.py` | Search logo styles, colors, industries |
+| `scripts/logo/generate.py` | Generate logos with Gemini AI |
+| `scripts/logo/core.py` | BM25 search engine for logo data |
+| `scripts/cip/search.py` | Search CIP deliverables, styles, industries |
+| `scripts/cip/generate.py` | Generate CIP mockups with Gemini |
+| `scripts/cip/render-html.py` | Render HTML presentation from CIP mockups |
+| `scripts/cip/core.py` | BM25 search engine for CIP data |
+| `scripts/icon/generate.py` | Generate SVG icons with Gemini 3.1 Pro |
+
+## Setup
+
+```bash
+export GEMINI_API_KEY="your-key"  # https://aistudio.google.com/apikey
+pip install google-genai pillow
+```
+
+## Integration
+
+**External sub-skills:** brand, design-system, ui-styling
+**Related Skills:** frontend-design, ui-ux-pro-max, ai-multimodal, chrome-devtools

@@ -1,1 +1,275 @@
-IyBCcmFuZCBHdWlkZWxpbmVzIHYxLjAKCj4gTGFzdCB1cGRhdGVkOiB7REFURX0KPiBTdGF0dXM6IERyYWZ0CgojIyBRdWljayBSZWZlcmVuY2UKCnwgRWxlbWVudCB8IFZhbHVlIHwKfC0tLS0tLS0tLXwtLS0tLS0tfAp8IFByaW1hcnkgQ29sb3IgfCAjMjU2M0VCIHwKfCBTZWNvbmRhcnkgQ29sb3IgfCAjOEI1Q0Y2IHwKfCBQcmltYXJ5IEZvbnQgfCBJbnRlciB8CnwgVm9pY2UgfCBQcm9mZXNzaW9uYWwsIEhlbHBmdWwsIENsZWFyIHwKCi0tLQoKIyMgMS4gQ29sb3IgUGFsZXR0ZQoKIyMjIFByaW1hcnkgQ29sb3JzCgp8IE5hbWUgfCBIZXggfCBSR0IgfCBVc2FnZSB8CnwtLS0tLS18LS0tLS18LS0tLS18LS0tLS0tLXwKfCBQcmltYXJ5IEJsdWUgfCAjMjU2M0VCIHwgcmdiKDM3LDk5LDIzNSkgfCBDVEFzLCBoZWFkZXJzLCBsaW5rcyB8CnwgUHJpbWFyeSBEYXJrIHwgIzFENEVEOCB8IHJnYigyOSw3OCwyMTYpIHwgSG92ZXIgc3RhdGVzLCBlbXBoYXNpcyB8CgojIyMgU2Vjb25kYXJ5IENvbG9ycwoKfCBOYW1lIHwgSGV4IHwgUkdCIHwgVXNhZ2UgfAp8LS0tLS0tfC0tLS0tfC0tLS0tfC0tLS0tLS18CnwgU2Vjb25kYXJ5IFB1cnBsZSB8ICM4QjVDRjYgfCByZ2IoMTM5LDkyLDI0NikgfCBBY2NlbnRzLCBoaWdobGlnaHRzIHwKfCBBY2NlbnQgR3JlZW4gfCAjMTBCOTgxIHwgcmdiKDE2LDE4NSwxMjkpIHwgU3VjY2VzcywgcG9zaXRpdmUgc3RhdGVzIHwKCiMjIyBOZXV0cmFsIFBhbGV0dGUKCnwgTmFtZSB8IEhleCB8IFJHQiB8IFVzYWdlIHwKfC0tLS0tLXwtLS0tLXwtLS0tLXwtLS0tLS0tfAp8IEJhY2tncm91bmQgfCAjRkZGRkZGIHwgcmdiKDI1NSwyNTUsMjU1KSB8IFBhZ2UgYmFja2dyb3VuZHMgfAp8IFN1cmZhY2UgfCAjRjlGQUZCIHwgcmdiKDI0OSwyNTAsMjUxKSB8IENhcmRzLCBzZWN0aW9ucyB8CnwgVGV4dCBQcmltYXJ5IHwgIzExMTgyNyB8IHJnYigxNywyNCwzOSkgfCBIZWFkaW5ncywgYm9keSB0ZXh0IHwKfCBUZXh0IFNlY29uZGFyeSB8ICM2QjcyODAgfCByZ2IoMTA3LDExNCwxMjgpIHwgQ2FwdGlvbnMsIG11dGVkIHRleHQgfAp8IEJvcmRlciB8ICNFNUU3RUIgfCByZ2IoMjI5LDIzMSwyMzUpIHwgRGl2aWRlcnMsIGJvcmRlcnMgfAoKIyMjIFNlbWFudGljIENvbG9ycwoKfCBTdGF0ZSB8IEhleCB8IFVzYWdlIHwKfC0tLS0tLS18LS0tLS18LS0tLS0tLXwKfCBTdWNjZXNzIHwgIzIyQzU1RSB8IFBvc2l0aXZlIGFjdGlvbnMsIGNvbmZpcm1hdGlvbnMgfAp8IFdhcm5pbmcgfCAjRjU5RTBCIHwgQ2F1dGlvbnMsIHBlbmRpbmcgc3RhdGVzIHwKfCBFcnJvciB8ICNFRjQ0NDQgfCBFcnJvcnMsIGRlc3RydWN0aXZlIGFjdGlvbnMgfAp8IEluZm8gfCAjM0I4MkY2IHwgSW5mb3JtYXRpb25hbCBtZXNzYWdlcyB8CgojIyMgQWNjZXNzaWJpbGl0eQoKLSBUZXh0IG9uIHdoaXRlIGJhY2tncm91bmQ6IDcuMjoxIGNvbnRyYXN0IHJhdGlvIChBQUEpCi0gUHJpbWFyeSBvbiB3aGl0ZTogNC42OjEgY29udHJhc3QgcmF0aW8gKEFBKQotIEFsbCBpbnRlcmFjdGl2ZSBlbGVtZW50cyBtZWV0IFdDQUcgMi4xIEFBIHN0YW5kYXJkcwoKLS0tCgojIyAyLiBUeXBvZ3JhcGh5CgojIyMgRm9udCBTdGFjawoKYGBgY3NzCi0tZm9udC1oZWFkaW5nOiAnSW50ZXInLCBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIHNhbnMtc2VyaWY7Ci0tZm9udC1ib2R5OiAnSW50ZXInLCBzeXN0ZW0tdWksIC1hcHBsZS1zeXN0ZW0sIHNhbnMtc2VyaWY7Ci0tZm9udC1tb25vOiAnSmV0QnJhaW5zIE1vbm8nLCAnRmlyYSBDb2RlJywgbW9ub3NwYWNlOwpgYGAKCiMjIyBUeXBlIFNjYWxlCgp8IEVsZW1lbnQgfCBTaXplIChEZXNrdG9wKSB8IFNpemUgKE1vYmlsZSkgfCBXZWlnaHQgfCBMaW5lIEhlaWdodCB8CnwtLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS0tLS0tLXwKfCBIMSB8IDQ4cHggfCAzMnB4IHwgNzAwIHwgMS4yIHwKfCBIMiB8IDM2cHggfCAyOHB4IHwgNjAwIHwgMS4yNSB8CnwgSDMgfCAyOHB4IHwgMjRweCB8IDYwMCB8IDEuMyB8CnwgSDQgfCAyNHB4IHwgMjBweCB8IDYwMCB8IDEuMzUgfAp8IEJvZHkgfCAxNnB4IHwgMTZweCB8IDQwMCB8IDEuNSB8CnwgQm9keSBMYXJnZSB8IDE4cHggfCAxOHB4IHwgNDAwIHwgMS42IHwKfCBTbWFsbCB8IDE0cHggfCAxNHB4IHwgNDAwIHwgMS41IHwKfCBDYXB0aW9uIHwgMTJweCB8IDEycHggfCA0MDAgfCAxLjQgfAoKIyMjIEZvbnQgTG9hZGluZwoKYGBgaHRtbAo8bGluayByZWw9InByZWNvbm5lY3QiIGhyZWY9Imh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20iPgo8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PUludGVyOndnaHRANDAwOzUwMDs2MDA7NzAwJmRpc3BsYXk9c3dhcCIgcmVsPSJzdHlsZXNoZWV0Ij4KYGBgCgotLS0KCiMjIDMuIExvZ28gVXNhZ2UKCiMjIyBWYXJpYW50cwoKfCBWYXJpYW50IHwgRmlsZSB8IFVzZSBDYXNlIHwKfC0tLS0tLS0tLXwtLS0tLS18LS0tLS0tLS0tLXwKfCBGdWxsIEhvcml6b250YWwgfCBsb2dvLWZ1bGwtaG9yaXpvbnRhbC5zdmcgfCBIZWFkZXJzLCBkb2N1bWVudHMgfAp8IFN0YWNrZWQgfCBsb2dvLXN0YWNrZWQuc3ZnIHwgU3F1YXJlIHNwYWNlcyB8CnwgSWNvbiBPbmx5IHwgbG9nby1pY29uLnN2ZyB8IEZhdmljb25zLCBzbWFsbCBzcGFjZXMgfAp8IE1vbm9jaHJvbWUgfCBsb2dvLW1vbm8uc3ZnIHwgTGltaXRlZCBjb2xvciBjb250ZXh0cyB8CgojIyMgQ2xlYXIgU3BhY2UKCk1pbmltdW0gY2xlYXIgc3BhY2UgPSBoZWlnaHQgb2YgdGhlIGxvZ28gaWNvbiAobWFyaykKCiMjIyBNaW5pbXVtIFNpemUKCnwgQ29udGV4dCB8IE1pbmltdW0gV2lkdGggfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLXwKfCBEaWdpdGFsIC0gRnVsbCBMb2dvIHwgMTIwcHggfAp8IERpZ2l0YWwgLSBJY29uIHwgMjRweCB8CnwgUHJpbnQgLSBGdWxsIExvZ28gfCAzNW1tIHwKfCBQcmludCAtIEljb24gfCAxMG1tIHwKCiMjIyBEb24ndHMKCi0gRG9uJ3Qgcm90YXRlIG9yIHNrZXcgdGhlIGxvZ28KLSBEb24ndCBjaGFuZ2UgY29sb3JzIG91dHNpZGUgYXBwcm92ZWQgcGFsZXR0ZQotIERvbid0IGFkZCBzaGFkb3dzIG9yIGVmZmVjdHMKLSBEb24ndCBjcm9wIG9yIG1vZGlmeSBwcm9wb3J0aW9ucwotIERvbid0IHBsYWNlIG9uIGJ1c3kgYmFja2dyb3VuZHMgd2l0aG91dCBzdWZmaWNpZW50IGNvbnRyYXN0CgotLS0KCiMjIDQuIFZvaWNlICYgVG9uZQoKIyMjIEJyYW5kIFBlcnNvbmFsaXR5Cgp8IFRyYWl0IHwgRGVzY3JpcHRpb24gfAp8LS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8ICoqUHJvZmVzc2lvbmFsKiogfCBFeHBlcnQga25vd2xlZGdlLCBhdXRob3JpdGF0aXZlIHlldCBhcHByb2FjaGFibGUgfAp8ICoqSGVscGZ1bCoqIHwgU29sdXRpb24tZm9jdXNlZCwgYWN0aW9uYWJsZSBndWlkYW5jZSB8CnwgKipDbGVhcioqIHwgRGlyZWN0IGNvbW11bmljYXRpb24sIGphcmdvbi1mcmVlIHwKfCAqKkNvbmZpZGVudCoqIHwgQXNzdXJlZCB3aXRob3V0IGJlaW5nIGFycm9nYW50IHwKCiMjIyBWb2ljZSBDaGFydAoKfCBUcmFpdCB8IFdlIEFyZSB8IFdlIEFyZSBOb3QgfAp8LS0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLS0tLS18CnwgUHJvZmVzc2lvbmFsIHwgRXhwZXJ0LCBrbm93bGVkZ2VhYmxlIHwgU3R1ZmZ5LCBjb3Jwb3JhdGUgfAp8IEhlbHBmdWwgfCBTdXBwb3J0aXZlLCBlbXBvd2VyaW5nIHwgUGF0cm9uaXppbmcgfAp8IENsZWFyIHwgRGlyZWN0LCBjb25jaXNlIHwgVmFndWUsIHdvcmR5IHwKfCBDb25maWRlbnQgfCBBc3N1cmVkLCB0cnVzdHdvcnRoeSB8IEFycm9nYW50LCBvdmVyc2VsbGluZyB8CgojIyMgVG9uZSBieSBDb250ZXh0Cgp8IENvbnRleHQgfCBUb25lIHwgRXhhbXBsZSB8CnwtLS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLXwKfCBNYXJrZXRpbmcgfCBFbmdhZ2luZywgYmVuZWZpdC1mb2N1c2VkIHwgIkNyZWF0ZSBjYW1wYWlnbnMgdGhhdCBjb252ZXJ0LiIgfAp8IERvY3VtZW50YXRpb24gfCBDbGVhciwgaW5zdHJ1Y3Rpb25hbCB8ICJSdW4gdGhlIGNvbW1hbmQgdG8gc3RhcnQuIiB8CnwgRXJyb3IgbWVzc2FnZXMgfCBDYWxtLCBzb2x1dGlvbi1mb2N1c2VkIHwgIlRyeSByZWZyZXNoaW5nIHRoZSBwYWdlLiIgfAp8IFN1Y2Nlc3MgfCBCcmllZiwgY2VsZWJyYXRvcnkgfCAiQ2FtcGFpZ24gcHVibGlzaGVkISIgfAoKIyMjIFByb2hpYml0ZWQgVGVybXMKCnwgQXZvaWQgfCBSZWFzb24gfAp8LS0tLS0tLXwtLS0tLS0tLXwKfCBSZXZvbHV0aW9uYXJ5IHwgT3ZlcnVzZWQgfAp8IEJlc3QtaW4tY2xhc3MgfCBWYWd1ZSBjbGFpbSB8CnwgU2VhbWxlc3MgfCBPdmVydXNlZCB8CnwgU3luZXJneSB8IENvcnBvcmF0ZSBqYXJnb24gfAp8IExldmVyYWdlIHwgVXNlICJ1c2UiIGluc3RlYWQgfAoKLS0tCgojIyA1LiBJbWFnZXJ5IEd1aWRlbGluZXMKCiMjIyBQaG90b2dyYXBoeSBTdHlsZQoKLSAqKkxpZ2h0aW5nOioqIE5hdHVyYWwsIHNvZnQgbGlnaHRpbmcgcHJlZmVycmVkCi0gKipTdWJqZWN0czoqKiBSZWFsIHBlb3BsZSwgYXV0aGVudGljIHNjZW5hcmlvcwotICoqQ29sb3IgdHJlYXRtZW50OioqIE1haW50YWluIGJyYW5kIGNvbG9ycyBpbiBwb3N0Ci0gKipDb21wb3NpdGlvbjoqKiBDbGVhbiwgZm9jdXNlZCBzdWJqZWN0cwoKIyMjIElsbHVzdHJhdGlvbnMKCi0gU3R5bGU6IE1vZGVybiwgZmxhdCBkZXNpZ24gd2l0aCBzdWJ0bGUgZ3JhZGllbnRzCi0gQ29sb3JzOiBCcmFuZCBwYWxldHRlIG9ubHkKLSBMaW5lIHdlaWdodDogMnB4IGNvbnNpc3RlbnQgc3Ryb2tlCi0gQ29ybmVyczogNHB4IHJvdW5kZWQKCiMjIyBJY29ucwoKLSBTdHlsZTogT3V0bGluZWQsIDI0cHggYmFzZSBncmlkCi0gU3Ryb2tlOiAxLjVweCBjb25zaXN0ZW50Ci0gQ29ybmVyIHJhZGl1czogMnB4Ci0gRmlsbDogTm9uZSAob3V0bGluZSBvbmx5KQoKLS0tCgojIyA2LiBEZXNpZ24gQ29tcG9uZW50cwoKIyMjIEJ1dHRvbnMKCnwgVHlwZSB8IEJhY2tncm91bmQgfCBUZXh0IHwgQm9yZGVyIFJhZGl1cyB8CnwtLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tLS0tLS18CnwgUHJpbWFyeSB8ICMyNTYzRUIgfCAjRkZGRkZGIHwgOHB4IHwKfCBTZWNvbmRhcnkgfCBUcmFuc3BhcmVudCB8ICMyNTYzRUIgfCA4cHggfAp8IFRlcnRpYXJ5IHwgVHJhbnNwYXJlbnQgfCAjNkI3MjgwIHwgOHB4IHwKCiMjIyBTcGFjaW5nIFNjYWxlCgp8IFRva2VuIHwgVmFsdWUgfCBVc2FnZSB8CnwtLS0tLS0tfC0tLS0tLS18LS0tLS0tLXwKfCB4cyB8IDRweCB8IFRpZ2h0IHNwYWNpbmcgfAp8IHNtIHwgOHB4IHwgQ29tcGFjdCBlbGVtZW50cyB8CnwgbWQgfCAxNnB4IHwgU3RhbmRhcmQgc3BhY2luZyB8CnwgbGcgfCAyNHB4IHwgU2VjdGlvbiBzcGFjaW5nIHwKfCB4bCB8IDMycHggfCBMYXJnZSBnYXBzIHwKfCAyeGwgfCA0OHB4IHwgU2VjdGlvbiBkaXZpZGVycyB8CgojIyMgQm9yZGVyIFJhZGl1cwoKfCBFbGVtZW50IHwgUmFkaXVzIHwKfC0tLS0tLS0tLXwtLS0tLS0tLXwKfCBCdXR0b25zIHwgOHB4IHwKfCBDYXJkcyB8IDEycHggfAp8IElucHV0cyB8IDhweCB8CnwgTW9kYWxzIHwgMTZweCB8CnwgUGlsbHMvVGFncyB8IDk5OTlweCB8CgotLS0KCiMjIEFJIEltYWdlIEdlbmVyYXRpb24KCiMjIyBCYXNlIFByb21wdCBUZW1wbGF0ZQoKQWx3YXlzIHByZXBlbmQgdG8gaW1hZ2UgZ2VuZXJhdGlvbiBwcm9tcHRzOgoKYGBgCntERVNDUklCRSBZT1VSIFZJU1VBTCBTVFlMRSBIRVJFIC0gbW9vZCwgY29sb3JzIHdpdGggaGV4IGNvZGVzLCBsaWdodGluZywgYXRtb3NwaGVyZX0KYGBgCgojIyMgU3R5bGUgS2V5d29yZHMKCnwgQ2F0ZWdvcnkgfCBLZXl3b3JkcyB8CnwtLS0tLS0tLS0tfC0tLS0tLS0tLS18CnwgKipMaWdodGluZyoqIHwge2UuZy4sIHNvZnQgbGlnaHRpbmcsIGRyYW1hdGljLCBuYXR1cmFsfSB8CnwgKipNb29kKiogfCB7ZS5nLiwgcHJvZmVzc2lvbmFsLCBlbmVyZ2V0aWMsIGNhbG19IHwKfCAqKkNvbXBvc2l0aW9uKiogfCB7ZS5nLiwgY2VudGVyZWQsIHJ1bGUgb2YgdGhpcmRzLCBtaW5pbWFsfSB8CnwgKipUcmVhdG1lbnQqKiB8IHtlLmcuLCBoaWdoIGNvbnRyYXN0LCBtdXRlZCwgdmlicmFudH0gfAp8ICoqQWVzdGhldGljKiogfCB7ZS5nLiwgbW9kZXJuLCB2aW50YWdlLCBtaW5pbWFsaXN0fSB8CgojIyMgVmlzdWFsIE1vb2QgRGVzY3JpcHRvcnMKCi0ge01vb2QgZGVzY3JpcHRvciAxfQotIHtNb29kIGRlc2NyaXB0b3IgMn0KLSB7TW9vZCBkZXNjcmlwdG9yIDN9CgojIyMgVmlzdWFsIERvbid0cwoKfCBBdm9pZCB8IFJlYXNvbiB8CnwtLS0tLS0tfC0tLS0tLS0tfAp8IHtJdGVtIHRvIGF2b2lkfSB8IHtXaHkgdG8gYXZvaWQgaXR9IHwKCiMjIyBFeGFtcGxlIFByb21wdHMKCioqSGVybyBCYW5uZXI6KioKYGBgCntFeGFtcGxlIHByb21wdCBmb3IgaGVybyBiYW5uZXJzfQpgYGAKCioqU29jaWFsIE1lZGlhIFBvc3Q6KioKYGBgCntFeGFtcGxlIHByb21wdCBmb3Igc29jaWFsIGdyYXBoaWNzfQpgYGAKCi0tLQoKIyMgQ2hhbmdlbG9nCgp8IFZlcnNpb24gfCBEYXRlIHwgQ2hhbmdlcyB8CnwtLS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLXwKfCAxLjAgfCB7REFURX0gfCBJbml0aWFsIGd1aWRlbGluZXMgfAo=
+# Brand Guidelines v1.0
+
+> Last updated: {DATE}
+> Status: Draft
+
+## Quick Reference
+
+| Element | Value |
+|---------|-------|
+| Primary Color | #2563EB |
+| Secondary Color | #8B5CF6 |
+| Primary Font | Inter |
+| Voice | Professional, Helpful, Clear |
+
+---
+
+## 1. Color Palette
+
+### Primary Colors
+
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| Primary Blue | #2563EB | rgb(37,99,235) | CTAs, headers, links |
+| Primary Dark | #1D4ED8 | rgb(29,78,216) | Hover states, emphasis |
+
+### Secondary Colors
+
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| Secondary Purple | #8B5CF6 | rgb(139,92,246) | Accents, highlights |
+| Accent Green | #10B981 | rgb(16,185,129) | Success, positive states |
+
+### Neutral Palette
+
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| Background | #FFFFFF | rgb(255,255,255) | Page backgrounds |
+| Surface | #F9FAFB | rgb(249,250,251) | Cards, sections |
+| Text Primary | #111827 | rgb(17,24,39) | Headings, body text |
+| Text Secondary | #6B7280 | rgb(107,114,128) | Captions, muted text |
+| Border | #E5E7EB | rgb(229,231,235) | Dividers, borders |
+
+### Semantic Colors
+
+| State | Hex | Usage |
+|-------|-----|-------|
+| Success | #22C55E | Positive actions, confirmations |
+| Warning | #F59E0B | Cautions, pending states |
+| Error | #EF4444 | Errors, destructive actions |
+| Info | #3B82F6 | Informational messages |
+
+### Accessibility
+
+- Text on white background: 7.2:1 contrast ratio (AAA)
+- Primary on white: 4.6:1 contrast ratio (AA)
+- All interactive elements meet WCAG 2.1 AA standards
+
+---
+
+## 2. Typography
+
+### Font Stack
+
+```css
+--font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+--font-body: 'Inter', system-ui, -apple-system, sans-serif;
+--font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+```
+
+### Type Scale
+
+| Element | Size (Desktop) | Size (Mobile) | Weight | Line Height |
+|---------|----------------|---------------|--------|-------------|
+| H1 | 48px | 32px | 700 | 1.2 |
+| H2 | 36px | 28px | 600 | 1.25 |
+| H3 | 28px | 24px | 600 | 1.3 |
+| H4 | 24px | 20px | 600 | 1.35 |
+| Body | 16px | 16px | 400 | 1.5 |
+| Body Large | 18px | 18px | 400 | 1.6 |
+| Small | 14px | 14px | 400 | 1.5 |
+| Caption | 12px | 12px | 400 | 1.4 |
+
+### Font Loading
+
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
+
+---
+
+## 3. Logo Usage
+
+### Variants
+
+| Variant | File | Use Case |
+|---------|------|----------|
+| Full Horizontal | logo-full-horizontal.svg | Headers, documents |
+| Stacked | logo-stacked.svg | Square spaces |
+| Icon Only | logo-icon.svg | Favicons, small spaces |
+| Monochrome | logo-mono.svg | Limited color contexts |
+
+### Clear Space
+
+Minimum clear space = height of the logo icon (mark)
+
+### Minimum Size
+
+| Context | Minimum Width |
+|---------|---------------|
+| Digital - Full Logo | 120px |
+| Digital - Icon | 24px |
+| Print - Full Logo | 35mm |
+| Print - Icon | 10mm |
+
+### Don'ts
+
+- Don't rotate or skew the logo
+- Don't change colors outside approved palette
+- Don't add shadows or effects
+- Don't crop or modify proportions
+- Don't place on busy backgrounds without sufficient contrast
+
+---
+
+## 4. Voice & Tone
+
+### Brand Personality
+
+| Trait | Description |
+|-------|-------------|
+| **Professional** | Expert knowledge, authoritative yet approachable |
+| **Helpful** | Solution-focused, actionable guidance |
+| **Clear** | Direct communication, jargon-free |
+| **Confident** | Assured without being arrogant |
+
+### Voice Chart
+
+| Trait | We Are | We Are Not |
+|-------|--------|------------|
+| Professional | Expert, knowledgeable | Stuffy, corporate |
+| Helpful | Supportive, empowering | Patronizing |
+| Clear | Direct, concise | Vague, wordy |
+| Confident | Assured, trustworthy | Arrogant, overselling |
+
+### Tone by Context
+
+| Context | Tone | Example |
+|---------|------|---------|
+| Marketing | Engaging, benefit-focused | "Create campaigns that convert." |
+| Documentation | Clear, instructional | "Run the command to start." |
+| Error messages | Calm, solution-focused | "Try refreshing the page." |
+| Success | Brief, celebratory | "Campaign published!" |
+
+### Prohibited Terms
+
+| Avoid | Reason |
+|-------|--------|
+| Revolutionary | Overused |
+| Best-in-class | Vague claim |
+| Seamless | Overused |
+| Synergy | Corporate jargon |
+| Leverage | Use "use" instead |
+
+---
+
+## 5. Imagery Guidelines
+
+### Photography Style
+
+- **Lighting:** Natural, soft lighting preferred
+- **Subjects:** Real people, authentic scenarios
+- **Color treatment:** Maintain brand colors in post
+- **Composition:** Clean, focused subjects
+
+### Illustrations
+
+- Style: Modern, flat design with subtle gradients
+- Colors: Brand palette only
+- Line weight: 2px consistent stroke
+- Corners: 4px rounded
+
+### Icons
+
+- Style: Outlined, 24px base grid
+- Stroke: 1.5px consistent
+- Corner radius: 2px
+- Fill: None (outline only)
+
+---
+
+## 6. Design Components
+
+### Buttons
+
+| Type | Background | Text | Border Radius |
+|------|------------|------|---------------|
+| Primary | #2563EB | #FFFFFF | 8px |
+| Secondary | Transparent | #2563EB | 8px |
+| Tertiary | Transparent | #6B7280 | 8px |
+
+### Spacing Scale
+
+| Token | Value | Usage |
+|-------|-------|-------|
+| xs | 4px | Tight spacing |
+| sm | 8px | Compact elements |
+| md | 16px | Standard spacing |
+| lg | 24px | Section spacing |
+| xl | 32px | Large gaps |
+| 2xl | 48px | Section dividers |
+
+### Border Radius
+
+| Element | Radius |
+|---------|--------|
+| Buttons | 8px |
+| Cards | 12px |
+| Inputs | 8px |
+| Modals | 16px |
+| Pills/Tags | 9999px |
+
+---
+
+## AI Image Generation
+
+### Base Prompt Template
+
+Always prepend to image generation prompts:
+
+```
+{DESCRIBE YOUR VISUAL STYLE HERE - mood, colors with hex codes, lighting, atmosphere}
+```
+
+### Style Keywords
+
+| Category | Keywords |
+|----------|----------|
+| **Lighting** | {e.g., soft lighting, dramatic, natural} |
+| **Mood** | {e.g., professional, energetic, calm} |
+| **Composition** | {e.g., centered, rule of thirds, minimal} |
+| **Treatment** | {e.g., high contrast, muted, vibrant} |
+| **Aesthetic** | {e.g., modern, vintage, minimalist} |
+
+### Visual Mood Descriptors
+
+- {Mood descriptor 1}
+- {Mood descriptor 2}
+- {Mood descriptor 3}
+
+### Visual Don'ts
+
+| Avoid | Reason |
+|-------|--------|
+| {Item to avoid} | {Why to avoid it} |
+
+### Example Prompts
+
+**Hero Banner:**
+```
+{Example prompt for hero banners}
+```
+
+**Social Media Post:**
+```
+{Example prompt for social graphics}
+```
+
+---
+
+## Changelog
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0 | {DATE} | Initial guidelines |

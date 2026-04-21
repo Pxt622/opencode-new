@@ -1,1 +1,19 @@
-IyBEZXNlcnQgUm9zZQoKQSBzb2Z0IGFuZCBzb3BoaXN0aWNhdGVkIHRoZW1lIHdpdGggZHVzdHksIG11dGVkIHRvbmVzIHBlcmZlY3QgZm9yIGVsZWdhbnQgcHJlc2VudGF0aW9ucy4KCiMjIENvbG9yIFBhbGV0dGUKCi0gKipEdXN0eSBSb3NlKio6IGAjZDRhNWE1YCAtIFNvZnQgcHJpbWFyeSBjb2xvcgotICoqQ2xheSoqOiBgI2I4N2Q2ZGAgLSBFYXJ0aHkgYWNjZW50Ci0gKipTYW5kKio6IGAjZThkNWM0YCAtIFdhcm0gbmV1dHJhbCBiYWNrZ3JvdW5kcwotICoqRGVlcCBCdXJndW5keSoqOiBgIzVkMmU0NmAgLSBSaWNoIGRhcmsgY29udHJhc3QKCiMjIFR5cG9ncmFwaHkKCi0gKipIZWFkZXJzKio6IEZyZWVTYW5zIEJvbGQKLSAqKkJvZHkgVGV4dCoqOiBGcmVlU2FucwoKIyMgQmVzdCBVc2VkIEZvcgoKRmFzaGlvbiBwcmVzZW50YXRpb25zLCBiZWF1dHkgYnJhbmRzLCB3ZWRkaW5nIHBsYW5uaW5nLCBpbnRlcmlvciBkZXNpZ24sIGJvdXRpcXVlIGJ1c2luZXNzZXMuCg==
+# Desert Rose
+
+A soft and sophisticated theme with dusty, muted tones perfect for elegant presentations.
+
+## Color Palette
+
+- **Dusty Rose**: `#d4a5a5` - Soft primary color
+- **Clay**: `#b87d6d` - Earthy accent
+- **Sand**: `#e8d5c4` - Warm neutral backgrounds
+- **Deep Burgundy**: `#5d2e46` - Rich dark contrast
+
+## Typography
+
+- **Headers**: FreeSans Bold
+- **Body Text**: FreeSans
+
+## Best Used For
+
+Fashion presentations, beauty brands, wedding planning, interior design, boutique businesses.

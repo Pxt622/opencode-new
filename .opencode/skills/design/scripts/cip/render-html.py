@@ -1,1 +1,424 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKQ0lQIEhUTUwgUHJlc2VudGF0aW9uIFJlbmRlcmVyCgpHZW5lcmF0ZXMgYSBwcm9mZXNzaW9uYWwgSFRNTCBwcmVzZW50YXRpb24gZnJvbSBDSVAgbW9ja3VwIGltYWdlcwp3aXRoIGRldGFpbGVkIGRlc2NyaXB0aW9ucywgY29uY2VwdHMsIGFuZCBicmFuZCBndWlkZWxpbmVzLgoiIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHN5cwppbXBvcnQgYmFzZTY0CmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQoKIyBBZGQgcGFyZW50IGRpcmVjdG9yeSBmb3IgaW1wb3J0cwpzeXMucGF0aC5pbnNlcnQoMCwgc3RyKFBhdGgoX19maWxlX18pLnBhcmVudCkpCmZyb20gY29yZSBpbXBvcnQgc2VhcmNoLCBnZXRfY2lwX2JyaWVmCgojIERlbGl2ZXJhYmxlIGRlc2NyaXB0aW9ucyBmb3IgcHJlc2VudGF0aW9uCkRFTElWRVJBQkxFX0lORk8gPSB7CiAgICAiYnVzaW5lc3MgY2FyZCI6IHsKICAgICAgICAidGl0bGUiOiAiQnVzaW5lc3MgQ2FyZCIsCiAgICAgICAgImNvbmNlcHQiOiAiRmlyc3QgaW1wcmVzc2lvbiB0b3VjaHBvaW50IGZvciBwcm9mZXNzaW9uYWwgbmV0d29ya2luZyIsCiAgICAgICAgInB1cnBvc2UiOiAiQ3JlYXRlcyBtZW1vcmFibGUgYnJhbmQgcmVjYWxsIGR1cmluZyBidXNpbmVzcyBleGNoYW5nZXMiLAogICAgICAgICJzcGVjcyI6ICJTdGFuZGFyZCAzLjUgeCAyIGluY2hlcywgcHJlbWl1bSBwYXBlciBzdG9jayIKICAgIH0sCiAgICAibGV0dGVyaGVhZCI6IHsKICAgICAgICAidGl0bGUiOiAiTGV0dGVyaGVhZCIsCiAgICAgICAgImNvbmNlcHQiOiAiT2ZmaWNpYWwgY29ycmVzcG9uZGVuY2UgaWRlbnRpdHkiLAogICAgICAgICJwdXJwb3NlIjogIkVzdGFibGlzaGVzIGNyZWRpYmlsaXR5IGFuZCBwcm9mZXNzaW9uYWxpc20gaW4gd3JpdHRlbiBjb21tdW5pY2F0aW9ucyIsCiAgICAgICAgInNwZWNzIjogIkE0L0xldHRlciBzaXplLCBkaWdpdGFsIGFuZCBwcmludCB2ZXJzaW9ucyIKICAgIH0sCiAgICAiZG9jdW1lbnQgdGVtcGxhdGUiOiB7CiAgICAgICAgInRpdGxlIjogIkRvY3VtZW50IFRlbXBsYXRlIiwKICAgICAgICAiY29uY2VwdCI6ICJCcmFuZGVkIGRvY3VtZW50IHN5c3RlbSBmb3IgaW50ZXJuYWwgYW5kIGV4dGVybmFsIHVzZSIsCiAgICAgICAgInB1cnBvc2UiOiAiRW5zdXJlcyBjb25zaXN0ZW50IGJyYW5kIHJlcHJlc2VudGF0aW9uIGFjcm9zcyBhbGwgZG9jdW1lbnRzIiwKICAgICAgICAic3BlY3MiOiAiTXVsdGlwbGUgZm9ybWF0czogV29yZCwgUERGLCBHb29nbGUgRG9jcyBjb21wYXRpYmxlIgogICAgfSwKICAgICJyZWNlcHRpb24gc2lnbmFnZSI6IHsKICAgICAgICAidGl0bGUiOiAiUmVjZXB0aW9uIFNpZ25hZ2UiLAogICAgICAgICJjb25jZXB0IjogIkJyYW5kIHByZXNlbmNlIGluIHBoeXNpY2FsIG9mZmljZSBlbnZpcm9ubWVudCIsCiAgICAgICAgInB1cnBvc2UiOiAiQ3JlYXRlcyBzdHJvbmcgZmlyc3QgaW1wcmVzc2lvbiBmb3IgdmlzaXRvcnMgYW5kIHJlaW5mb3JjZXMgYnJhbmQgaWRlbnRpdHkiLAogICAgICAgICJzcGVjcyI6ICIzRCBkaW1lbnNpb25hbCBsZXR0ZXJzLCBiYWNrbGl0IExFRCBvcHRpb25zLCBwcmVtaXVtIG1hdGVyaWFscyIKICAgIH0sCiAgICAib2ZmaWNlIHNpZ25hZ2UiOiB7CiAgICAgICAgInRpdGxlIjogIk9mZmljZSBTaWduYWdlIiwKICAgICAgICAiY29uY2VwdCI6ICJXYXlmaW5kaW5nIGFuZCBicmFuZCBwcmVzZW5jZSBzeXN0ZW0iLAogICAgICAgICJwdXJwb3NlIjogIkd1aWRlcyB2aXNpdG9ycyB3aGlsZSBtYWludGFpbmluZyBjb25zaXN0ZW50IGJyYW5kIGV4cGVyaWVuY2UiLAogICAgICAgICJzcGVjcyI6ICJNb2R1bGFyIHN5c3RlbSB3aXRoIGRpcmVjdGlvbmFsIGFuZCBpbmZvcm1hdGlvbmFsIHNpZ25zIgogICAgfSwKICAgICJwb2xvIHNoaXJ0IjogewogICAgICAgICJ0aXRsZSI6ICJQb2xvIFNoaXJ0IiwKICAgICAgICAiY29uY2VwdCI6ICJQcm9mZXNzaW9uYWwgdGVhbSBhcHBhcmVsIiwKICAgICAgICAicHVycG9zZSI6ICJDcmVhdGVzIHVuaWZpZWQgdGVhbSBpZGVudGl0eSBhbmQgYnJhbmQgYW1iYXNzYWRvcnNoaXAiLAogICAgICAgICJzcGVjcyI6ICJQcmVtaXVtIHBpcXVlIGNvdHRvbiwgZW1icm9pZGVyZWQgbG9nbyBvbiBsZWZ0IGNoZXN0IgogICAgfSwKICAgICJ0LXNoaXJ0IjogewogICAgICAgICJ0aXRsZSI6ICJULVNoaXJ0IiwKICAgICAgICAiY29uY2VwdCI6ICJDYXN1YWwgYnJhbmQgYXBwYXJlbCIsCiAgICAgICAgInB1cnBvc2UiOiAiRXh0ZW5kcyBicmFuZCByZWFjaCB0aHJvdWdoIGV2ZXJ5ZGF5IHdlYXIgYW5kIHByb21vdGlvbmFsIGV2ZW50cyIsCiAgICAgICAgInNwZWNzIjogIkhpZ2gtcXVhbGl0eSBjb3R0b24sIHNjcmVlbiBwcmludCBvciBlbWJyb2lkZXJ5IG9wdGlvbnMiCiAgICB9LAogICAgInZlaGljbGUiOiB7CiAgICAgICAgInRpdGxlIjogIlZlaGljbGUgQnJhbmRpbmciLAogICAgICAgICJjb25jZXB0IjogIk1vYmlsZSBicmFuZCBhZHZlcnRpc2luZyIsCiAgICAgICAgInB1cnBvc2UiOiAiVHJhbnNmb3JtcyBmbGVldCBpbnRvIG1vdmluZyBiaWxsYm9hcmRzIGZvciBtYXhpbXVtIHZpc2liaWxpdHkiLAogICAgICAgICJzcGVjcyI6ICJQYXJ0aWFsIG9yIGZ1bGwgd3JhcCwgdmlueWwgZ3JhcGhpY3MsIHdlYXRoZXItcmVzaXN0YW50IgogICAgfSwKICAgICJ2YW4iOiB7CiAgICAgICAgInRpdGxlIjogIlZhbiBCcmFuZGluZyIsCiAgICAgICAgImNvbmNlcHQiOiAiQ29tbWVyY2lhbCB2ZWhpY2xlIGlkZW50aXR5IiwKICAgICAgICAicHVycG9zZSI6ICJQcm9mZXNzaW9uYWwgZmxlZXQgcHJlc2VuY2UgZm9yIHNlcnZpY2UgYW5kIGRlbGl2ZXJ5IG9wZXJhdGlvbnMiLAogICAgICAgICJzcGVjcyI6ICJGdWxsIHdyYXAgZGVzaWduLCBoaWdoLXZpc2liaWxpdHkgY29udGFjdCBpbmZvcm1hdGlvbiIKICAgIH0sCiAgICAiY2FyIjogewogICAgICAgICJ0aXRsZSI6ICJDYXIgQnJhbmRpbmciLAogICAgICAgICJjb25jZXB0IjogIkV4ZWN1dGl2ZSB2ZWhpY2xlIGlkZW50aXR5IiwKICAgICAgICAicHVycG9zZSI6ICJQcm9mZXNzaW9uYWwgcHJlc2VuY2UgZm9yIGNvcnBvcmF0ZSBhbmQgc2FsZXMgdGVhbXMiLAogICAgICAgICJzcGVjcyI6ICJTdWJ0bGUgYnJhbmRpbmcsIGRvb3IgcGFuZWxzIGFuZCByZWFyIHdpbmRvdyIKICAgIH0sCiAgICAiZW52ZWxvcGUiOiB7CiAgICAgICAgInRpdGxlIjogIkVudmVsb3BlIiwKICAgICAgICAiY29uY2VwdCI6ICJCcmFuZGVkIG1haWwgY29ycmVzcG9uZGVuY2UiLAogICAgICAgICJwdXJwb3NlIjogIkV4dGVuZHMgYnJhbmQgaWRlbnRpdHkgdG8gYWxsIG91dGdvaW5nIG1haWwiLAogICAgICAgICJzcGVjcyI6ICJETCwgQzQsIEM1IHNpemVzIHdpdGggbG9nbyBwbGFjZW1lbnQiCiAgICB9LAogICAgImZvbGRlciI6IHsKICAgICAgICAidGl0bGUiOiAiUHJlc2VudGF0aW9uIEZvbGRlciIsCiAgICAgICAgImNvbmNlcHQiOiAiRG9jdW1lbnQgb3JnYW5pemF0aW9uIHdpdGggYnJhbmQgaWRlbnRpdHkiLAogICAgICAgICJwdXJwb3NlIjogIlByb2Zlc3Npb25hbCBwcmVzZW50YXRpb24gb2YgcHJvcG9zYWxzIGFuZCBtYXRlcmlhbHMiLAogICAgICAgICJzcGVjcyI6ICJBNC9MZXR0ZXIgcG9ja2V0IGZvbGRlciB3aXRoIGRpZS1jdXQgZGVzaWduIgogICAgfQp9CgoKZGVmIGdldF9pbWFnZV9iYXNlNjQoaW1hZ2VfcGF0aCk6CiAgICAiIiJDb252ZXJ0IGltYWdlIHRvIGJhc2U2NCBmb3IgZW1iZWRkaW5nIGluIEhUTUwiIiIKICAgIHRyeToKICAgICAgICB3aXRoIG9wZW4oaW1hZ2VfcGF0aCwgInJiIikgYXMgZjoKICAgICAgICAgICAgcmV0dXJuIGJhc2U2NC5iNjRlbmNvZGUoZi5yZWFkKCkpLmRlY29kZSgndXRmLTgnKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KGYiV2FybmluZzogQ291bGQgbm90IGxvYWQgaW1hZ2Uge2ltYWdlX3BhdGh9OiB7ZX0iKQogICAgICAgIHJldHVybiBOb25lCgoKZGVmIGdldF9kZWxpdmVyYWJsZV9pbmZvKGZpbGVuYW1lKToKICAgICIiIkV4dHJhY3QgZGVsaXZlcmFibGUgdHlwZSBmcm9tIGZpbGVuYW1lIGFuZCBnZXQgaW5mbyIiIgogICAgZmlsZW5hbWVfbG93ZXIgPSBmaWxlbmFtZS5sb3dlcigpCiAgICBmb3Iga2V5LCBpbmZvIGluIERFTElWRVJBQkxFX0lORk8uaXRlbXMoKToKICAgICAgICBpZiBrZXkucmVwbGFjZSgiICIsICItIikgaW4gZmlsZW5hbWVfbG93ZXIgb3Iga2V5LnJlcGxhY2UoIiAiLCAiXyIpIGluIGZpbGVuYW1lX2xvd2VyOgogICAgICAgICAgICByZXR1cm4gaW5mbwogICAgIyBEZWZhdWx0IGluZm8KICAgIHJldHVybiB7CiAgICAgICAgInRpdGxlIjogZmlsZW5hbWUucmVwbGFjZSgiLSIsICIgIikucmVwbGFjZSgiXyIsICIgIikudGl0bGUoKSwKICAgICAgICAiY29uY2VwdCI6ICJCcmFuZCBpZGVudGl0eSBhcHBsaWNhdGlvbiIsCiAgICAgICAgInB1cnBvc2UiOiAiRXh0ZW5kcyBicmFuZCBwcmVzZW5jZSBhY3Jvc3MgdG91Y2hwb2ludHMiLAogICAgICAgICJzcGVjcyI6ICJDdXN0b20gc3BlY2lmaWNhdGlvbnMiCiAgICB9CgoKZGVmIGdlbmVyYXRlX2h0bWwoYnJhbmRfbmFtZSwgaW5kdXN0cnksIGltYWdlc19kaXIsIG91dHB1dF9wYXRoPU5vbmUsIHN0eWxlPU5vbmUpOgogICAgIiIiR2VuZXJhdGUgSFRNTCBwcmVzZW50YXRpb24gZnJvbSBDSVAgaW1hZ2VzIiIiCgogICAgaW1hZ2VzX2RpciA9IFBhdGgoaW1hZ2VzX2RpcikKICAgIGlmIG5vdCBpbWFnZXNfZGlyLmV4aXN0cygpOgogICAgICAgIHByaW50KGYiRXJyb3I6IERpcmVjdG9yeSBub3QgZm91bmQ6IHtpbWFnZXNfZGlyfSIpCiAgICAgICAgcmV0dXJuIE5vbmUKCiAgICAjIEdldCBhbGwgUE5HIGltYWdlcwogICAgaW1hZ2VzID0gc29ydGVkKGltYWdlc19kaXIuZ2xvYigiKi5wbmciKSkKICAgIGlmIG5vdCBpbWFnZXM6CiAgICAgICAgcHJpbnQoZiJFcnJvcjogTm8gUE5HIGltYWdlcyBmb3VuZCBpbiB7aW1hZ2VzX2Rpcn0iKQogICAgICAgIHJldHVybiBOb25lCgogICAgIyBHZXQgQ0lQIGJyaWVmIGZvciBicmFuZCBpbmZvCiAgICBicmllZiA9IGdldF9jaXBfYnJpZWYoYnJhbmRfbmFtZSwgaW5kdXN0cnksIHN0eWxlKQogICAgc3R5bGVfaW5mbyA9IGJyaWVmLmdldCgic3R5bGUiLCB7fSkKICAgIGluZHVzdHJ5X2luZm8gPSBicmllZi5nZXQoImluZHVzdHJ5Iiwge30pCgogICAgIyBCdWlsZCBIVE1MCiAgICBodG1sX3BhcnRzID0gW2YnJyc8IURPQ1RZUEUgaHRtbD4KPGh0bWwgbGFuZz0iZW4iPgo8aGVhZD4KICAgIDxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KICAgIDxtZXRhIG5hbWU9InZpZXdwb3J0IiBjb250ZW50PSJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wIj4KICAgIDx0aXRsZT57YnJhbmRfbmFtZX0gLSBDb3Jwb3JhdGUgSWRlbnRpdHkgUHJvZ3JhbTwvdGl0bGU+CiAgICA8c3R5bGU+CiAgICAgICAgKiB7ewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgfX0KICAgICAgICBib2R5IHt7CiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsIFJvYm90bywgT3h5Z2VuLCBVYnVudHUsIHNhbnMtc2VyaWY7CiAgICAgICAgICAgIGJhY2tncm91bmQ6ICMwYTBhMGE7CiAgICAgICAgICAgIGNvbG9yOiAjZmZmZmZmOwogICAgICAgICAgICBsaW5lLWhlaWdodDogMS42OwogICAgICAgIH19CiAgICAgICAgLmhlcm8ge3sKICAgICAgICAgICAgbWluLWhlaWdodDogMTAwdmg7CiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgICAgICAgIHBhZGRpbmc6IDRyZW0gMnJlbTsKICAgICAgICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDEzNWRlZywgIzFhMWEyZSAwJSwgIzBhMGEwYSAxMDAlKTsKICAgICAgICB9fQogICAgICAgIC5oZXJvIGgxIHt7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogNHJlbTsKICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDcwMDsKICAgICAgICAgICAgbGV0dGVyLXNwYWNpbmc6IC0wLjAyZW07CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDFyZW07CiAgICAgICAgICAgIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgxMzVkZWcsICNmZmZmZmYgMCUsICM4ODg4ODggMTAwJSk7CiAgICAgICAgICAgIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiB0ZXh0OwogICAgICAgICAgICAtd2Via2l0LXRleHQtZmlsbC1jb2xvcjogdHJhbnNwYXJlbnQ7CiAgICAgICAgfX0KICAgICAgICAuaGVybyAuc3VidGl0bGUge3sKICAgICAgICAgICAgZm9udC1zaXplOiAxLjVyZW07CiAgICAgICAgICAgIGNvbG9yOiAjODg4OwogICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAzcmVtOwogICAgICAgIH19CiAgICAgICAgLmhlcm8gLm1ldGEge3sKICAgICAgICAgICAgZGlzcGxheTogZmxleDsKICAgICAgICAgICAgZ2FwOiAzcmVtOwogICAgICAgICAgICBmbGV4LXdyYXA6IHdyYXA7CiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICAgIH19CiAgICAgICAgLmhlcm8gLm1ldGEtaXRlbSB7ewogICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgICAgfX0KICAgICAgICAuaGVybyAubWV0YS1sYWJlbCB7ewogICAgICAgICAgICBmb250LXNpemU6IDAuNzVyZW07CiAgICAgICAgICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7CiAgICAgICAgICAgIGxldHRlci1zcGFjaW5nOiAwLjFlbTsKICAgICAgICAgICAgY29sb3I6ICM2NjY7CiAgICAgICAgICAgIG1hcmdpbi1ib3R0b206IDAuNXJlbTsKICAgICAgICB9fQogICAgICAgIC5oZXJvIC5tZXRhLXZhbHVlIHt7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMXJlbTsKICAgICAgICAgICAgY29sb3I6ICNjY2M7CiAgICAgICAgfX0KICAgICAgICAuc2VjdGlvbiB7ewogICAgICAgICAgICBwYWRkaW5nOiA2cmVtIDJyZW07CiAgICAgICAgICAgIG1heC13aWR0aDogMTQwMHB4OwogICAgICAgICAgICBtYXJnaW46IDAgYXV0bzsKICAgICAgICB9fQogICAgICAgIC5zZWN0aW9uLXRpdGxlIHt7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMi41cmVtOwogICAgICAgICAgICBmb250LXdlaWdodDogNjAwOwogICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtOwogICAgICAgICAgICBjb2xvcjogI2ZmZjsKICAgICAgICB9fQogICAgICAgIC5zZWN0aW9uLXN1YnRpdGxlIHt7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMS4xcmVtOwogICAgICAgICAgICBjb2xvcjogIzg4ODsKICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogNHJlbTsKICAgICAgICAgICAgbWF4LXdpZHRoOiA2MDBweDsKICAgICAgICB9fQogICAgICAgIC5kZWxpdmVyYWJsZSB7ewogICAgICAgICAgICBkaXNwbGF5OiBncmlkOwogICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7CiAgICAgICAgICAgIGdhcDogNHJlbTsKICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogOHJlbTsKICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICAgICAgICB9fQogICAgICAgIC5kZWxpdmVyYWJsZTpudGgtY2hpbGQoZXZlbikge3sKICAgICAgICAgICAgZGlyZWN0aW9uOiBydGw7CiAgICAgICAgfX0KICAgICAgICAuZGVsaXZlcmFibGU6bnRoLWNoaWxkKGV2ZW4pID4gKiB7ewogICAgICAgICAgICBkaXJlY3Rpb246IGx0cjsKICAgICAgICB9fQogICAgICAgIC5kZWxpdmVyYWJsZS1pbWFnZSB7ewogICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDE2cHg7CiAgICAgICAgICAgIG92ZXJmbG93OiBoaWRkZW47CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMjVweCA1MHB4IC0xMnB4IHJnYmEoMCwgMCwgMCwgMC41KTsKICAgICAgICB9fQogICAgICAgIC5kZWxpdmVyYWJsZS1pbWFnZSBpbWcge3sKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgICAgIGhlaWdodDogYXV0bzsKICAgICAgICAgICAgZGlzcGxheTogYmxvY2s7CiAgICAgICAgfX0KICAgICAgICAuZGVsaXZlcmFibGUtY29udGVudCB7ewogICAgICAgICAgICBwYWRkaW5nOiAycmVtIDA7CiAgICAgICAgfX0KICAgICAgICAuZGVsaXZlcmFibGUtdGl0bGUge3sKICAgICAgICAgICAgZm9udC1zaXplOiAycmVtOwogICAgICAgICAgICBmb250LXdlaWdodDogNjAwOwogICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxcmVtOwogICAgICAgICAgICBjb2xvcjogI2ZmZjsKICAgICAgICB9fQogICAgICAgIC5kZWxpdmVyYWJsZS1jb25jZXB0IHt7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMS4xcmVtOwogICAgICAgICAgICBjb2xvcjogI2FhYTsKICAgICAgICAgICAgbWFyZ2luLWJvdHRvbTogMS41cmVtOwogICAgICAgICAgICBmb250LXN0eWxlOiBpdGFsaWM7CiAgICAgICAgfX0KICAgICAgICAuZGVsaXZlcmFibGUtcHVycG9zZSB7ewogICAgICAgICAgICBmb250LXNpemU6IDFyZW07CiAgICAgICAgICAgIGNvbG9yOiAjODg4OwogICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAxLjVyZW07CiAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjg7CiAgICAgICAgfX0KICAgICAgICAuZGVsaXZlcmFibGUtc3BlY3Mge3sKICAgICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrOwogICAgICAgICAgICBwYWRkaW5nOiAwLjVyZW0gMXJlbTsKICAgICAgICAgICAgYmFja2dyb3VuZDogcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjA1KTsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogOHB4OwogICAgICAgICAgICBmb250LXNpemU6IDAuODVyZW07CiAgICAgICAgICAgIGNvbG9yOiAjNjY2OwogICAgICAgIH19CiAgICAgICAgLmNvbG9yLXBhbGV0dGUge3sKICAgICAgICAgICAgZGlzcGxheTogZmxleDsKICAgICAgICAgICAgZ2FwOiAxcmVtOwogICAgICAgICAgICBtYXJnaW4tdG9wOiAycmVtOwogICAgICAgIH19CiAgICAgICAgLmNvbG9yLXN3YXRjaCB7ewogICAgICAgICAgICB3aWR0aDogNjBweDsKICAgICAgICAgICAgaGVpZ2h0OiA2MHB4OwogICAgICAgICAgICBib3JkZXItcmFkaXVzOiAxMnB4OwogICAgICAgICAgICBib3gtc2hhZG93OiAwIDRweCAxMnB4IHJnYmEoMCwgMCwgMCwgMC4zKTsKICAgICAgICB9fQogICAgICAgIC5mb290ZXIge3sKICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgICAgICAgICBwYWRkaW5nOiA0cmVtIDJyZW07CiAgICAgICAgICAgIGJvcmRlci10b3A6IDFweCBzb2xpZCAjMjIyOwogICAgICAgICAgICBjb2xvcjogIzY2NjsKICAgICAgICB9fQogICAgICAgIC5mb290ZXIgcCB7ewogICAgICAgICAgICBtYXJnaW4tYm90dG9tOiAwLjVyZW07CiAgICAgICAgfX0KICAgICAgICBAbWVkaWEgKG1heC13aWR0aDogOTAwcHgpIHt7CiAgICAgICAgICAgIC5oZXJvIGgxIHt7CiAgICAgICAgICAgICAgICBmb250LXNpemU6IDIuNXJlbTsKICAgICAgICAgICAgfX0KICAgICAgICAgICAgLmRlbGl2ZXJhYmxlIHt7CiAgICAgICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsKICAgICAgICAgICAgICAgIGdhcDogMnJlbTsKICAgICAgICAgICAgfX0KICAgICAgICAgICAgLmRlbGl2ZXJhYmxlOm50aC1jaGlsZChldmVuKSB7ewogICAgICAgICAgICAgICAgZGlyZWN0aW9uOiBsdHI7CiAgICAgICAgICAgIH19CiAgICAgICAgfX0KICAgIDwvc3R5bGU+CjwvaGVhZD4KPGJvZHk+CiAgICA8c2VjdGlvbiBjbGFzcz0iaGVybyI+CiAgICAgICAgPGgxPnticmFuZF9uYW1lfTwvaDE+CiAgICAgICAgPHAgY2xhc3M9InN1YnRpdGxlIj5Db3Jwb3JhdGUgSWRlbnRpdHkgUHJvZ3JhbTwvcD4KICAgICAgICA8ZGl2IGNsYXNzPSJtZXRhIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWV0YS1pdGVtIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1ldGEtbGFiZWwiPkluZHVzdHJ5PC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRhLXZhbHVlIj57aW5kdXN0cnlfaW5mby5nZXQoIkluZHVzdHJ5IiwgaW5kdXN0cnkudGl0bGUoKSl9PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRhLWl0ZW0iPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWV0YS1sYWJlbCI+U3R5bGU8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1ldGEtdmFsdWUiPntzdHlsZV9pbmZvLmdldCgiU3R5bGUgTmFtZSIsICJDb3Jwb3JhdGUiKX08L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1ldGEtaXRlbSI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRhLWxhYmVsIj5Nb29kPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRhLXZhbHVlIj57c3R5bGVfaW5mby5nZXQoIk1vb2QiLCAiUHJvZmVzc2lvbmFsIil9PC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRhLWl0ZW0iPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWV0YS1sYWJlbCI+RGVsaXZlcmFibGVzPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRhLXZhbHVlIj57bGVuKGltYWdlcyl9IEl0ZW1zPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgoKICAgIDxzZWN0aW9uIGNsYXNzPSJzZWN0aW9uIj4KICAgICAgICA8aDIgY2xhc3M9InNlY3Rpb24tdGl0bGUiPkJyYW5kIEFwcGxpY2F0aW9uczwvaDI+CiAgICAgICAgPHAgY2xhc3M9InNlY3Rpb24tc3VidGl0bGUiPgogICAgICAgICAgICBDb21wcmVoZW5zaXZlIGlkZW50aXR5IHN5c3RlbSBkZXNpZ25lZCB0byBtYWludGFpbiBjb25zaXN0ZW5jeQogICAgICAgICAgICBhY3Jvc3MgYWxsIGJyYW5kIHRvdWNocG9pbnRzIGFuZCBjb21tdW5pY2F0aW9ucy4KICAgICAgICA8L3A+CicnJ10KCiAgICAjIEFkZCBlYWNoIGRlbGl2ZXJhYmxlCiAgICBmb3IgaSwgaW1hZ2VfcGF0aCBpbiBlbnVtZXJhdGUoaW1hZ2VzKToKICAgICAgICBpbmZvID0gZ2V0X2RlbGl2ZXJhYmxlX2luZm8oaW1hZ2VfcGF0aC5zdGVtKQogICAgICAgIGltZ19iYXNlNjQgPSBnZXRfaW1hZ2VfYmFzZTY0KGltYWdlX3BhdGgpCgogICAgICAgIGlmIGltZ19iYXNlNjQ6CiAgICAgICAgICAgIGltZ19zcmMgPSBmImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCx7aW1nX2Jhc2U2NH0iCiAgICAgICAgZWxzZToKICAgICAgICAgICAgaW1nX3NyYyA9IHN0cihpbWFnZV9wYXRoKQoKICAgICAgICBodG1sX3BhcnRzLmFwcGVuZChmJycnCiAgICAgICAgPGRpdiBjbGFzcz0iZGVsaXZlcmFibGUiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJkZWxpdmVyYWJsZS1pbWFnZSI+CiAgICAgICAgICAgICAgICA8aW1nIHNyYz0ie2ltZ19zcmN9IiBhbHQ9IntpbmZvWyd0aXRsZSddfSIgbG9hZGluZz0ibGF6eSI+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJkZWxpdmVyYWJsZS1jb250ZW50Ij4KICAgICAgICAgICAgICAgIDxoMyBjbGFzcz0iZGVsaXZlcmFibGUtdGl0bGUiPntpbmZvWyd0aXRsZSddfTwvaDM+CiAgICAgICAgICAgICAgICA8cCBjbGFzcz0iZGVsaXZlcmFibGUtY29uY2VwdCI+e2luZm9bJ2NvbmNlcHQnXX08L3A+CiAgICAgICAgICAgICAgICA8cCBjbGFzcz0iZGVsaXZlcmFibGUtcHVycG9zZSI+e2luZm9bJ3B1cnBvc2UnXX08L3A+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGVsaXZlcmFibGUtc3BlY3MiPntpbmZvWydzcGVjcyddfTwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CicnJykKCiAgICAjIENsb3NlIEhUTUwKICAgIGh0bWxfcGFydHMuYXBwZW5kKGYnJycKICAgIDwvc2VjdGlvbj4KCiAgICA8Zm9vdGVyIGNsYXNzPSJmb290ZXIiPgogICAgICAgIDxwPjxzdHJvbmc+e2JyYW5kX25hbWV9PC9zdHJvbmc+IENvcnBvcmF0ZSBJZGVudGl0eSBQcm9ncmFtPC9wPgogICAgICAgIDxwPkdlbmVyYXRlZCBvbiB7ZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVCICVkLCAlWSIpfTwvcD4KICAgICAgICA8cCBzdHlsZT0ibWFyZ2luLXRvcDogMXJlbTsgZm9udC1zaXplOiAwLjhyZW07Ij5Qb3dlcmVkIGJ5IENJUCBEZXNpZ24gU2tpbGw8L3A+CiAgICA8L2Zvb3Rlcj4KPC9ib2R5Pgo8L2h0bWw+CicnJykKCiAgICBodG1sX2NvbnRlbnQgPSAiIi5qb2luKGh0bWxfcGFydHMpCgogICAgIyBTYXZlIEhUTUwKICAgIG91dHB1dF9wYXRoID0gb3V0cHV0X3BhdGggb3IgaW1hZ2VzX2RpciAvIGYie2JyYW5kX25hbWUubG93ZXIoKS5yZXBsYWNlKCcgJywgJy0nKX0tY2lwLXByZXNlbnRhdGlvbi5odG1sIgogICAgb3V0cHV0X3BhdGggPSBQYXRoKG91dHB1dF9wYXRoKQoKICAgIHdpdGggb3BlbihvdXRwdXRfcGF0aCwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgIGYud3JpdGUoaHRtbF9jb250ZW50KQoKICAgIHByaW50KGYi4pyFIEhUTUwgcHJlc2VudGF0aW9uIGdlbmVyYXRlZDoge291dHB1dF9wYXRofSIpCiAgICByZXR1cm4gc3RyKG91dHB1dF9wYXRoKQoKCmRlZiBtYWluKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigKICAgICAgICBkZXNjcmlwdGlvbj0iR2VuZXJhdGUgSFRNTCBwcmVzZW50YXRpb24gZnJvbSBDSVAgbW9ja3VwcyIsCiAgICAgICAgZm9ybWF0dGVyX2NsYXNzPWFyZ3BhcnNlLlJhd0Rlc2NyaXB0aW9uSGVscEZvcm1hdHRlciwKICAgICAgICBlcGlsb2c9IiIiCkV4YW1wbGVzOgogICMgR2VuZXJhdGUgSFRNTCBmcm9tIENJUCBpbWFnZXMgZGlyZWN0b3J5CiAgcHl0aG9uIHJlbmRlci1odG1sLnB5IC0tYnJhbmQgIlRvcEdyb3VwIiAtLWluZHVzdHJ5ICJjb25zdWx0aW5nIiAtLWltYWdlcyAuL3RvcGdyb3VwLWNpcAoKICAjIFNwZWNpZnkgb3V0cHV0IHBhdGgKICBweXRob24gcmVuZGVyLWh0bWwucHkgLS1icmFuZCAiVG9wR3JvdXAiIC0taW5kdXN0cnkgImNvbnN1bHRpbmciIC0taW1hZ2VzIC4vY2lwIC0tb3V0cHV0IHByZXNlbnRhdGlvbi5odG1sCiAgICAgICAgIiIiCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1icmFuZCIsICItYiIsIHJlcXVpcmVkPVRydWUsIGhlbHA9IkJyYW5kIG5hbWUiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1pbmR1c3RyeSIsICItaSIsIGRlZmF1bHQ9InRlY2hub2xvZ3kiLCBoZWxwPSJJbmR1c3RyeSB0eXBlIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tc3R5bGUiLCAiLXMiLCBoZWxwPSJEZXNpZ24gc3R5bGUiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1pbWFnZXMiLCByZXF1aXJlZD1UcnVlLCBoZWxwPSJEaXJlY3RvcnkgY29udGFpbmluZyBDSVAgbW9ja3VwIGltYWdlcyIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIsIGhlbHA9Ik91dHB1dCBIVE1MIGZpbGUgcGF0aCIpCgogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICBnZW5lcmF0ZV9odG1sKAogICAgICAgIGJyYW5kX25hbWU9YXJncy5icmFuZCwKICAgICAgICBpbmR1c3RyeT1hcmdzLmluZHVzdHJ5LAogICAgICAgIGltYWdlc19kaXI9YXJncy5pbWFnZXMsCiAgICAgICAgb3V0cHV0X3BhdGg9YXJncy5vdXRwdXQsCiAgICAgICAgc3R5bGU9YXJncy5zdHlsZQogICAgKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+CIP HTML Presentation Renderer
+
+Generates a professional HTML presentation from CIP mockup images
+with detailed descriptions, concepts, and brand guidelines.
+"""
+
+import argparse
+import json
+import os
+import sys
+import base64
+from pathlib import Path
+from datetime import datetime
+
+# Add parent directory for imports
+sys.path.insert(0, str(Path(__file__).parent))
+from core import search, get_cip_brief
+
+# Deliverable descriptions for presentation
+DELIVERABLE_INFO = {
+    "business card": {
+        "title": "Business Card",
+        "concept": "First impression touchpoint for professional networking",
+        "purpose": "Creates memorable brand recall during business exchanges",
+        "specs": "Standard 3.5 x 2 inches, premium paper stock"
+    },
+    "letterhead": {
+        "title": "Letterhead",
+        "concept": "Official correspondence identity",
+        "purpose": "Establishes credibility and professionalism in written communications",
+        "specs": "A4/Letter size, digital and print versions"
+    },
+    "document template": {
+        "title": "Document Template",
+        "concept": "Branded document system for internal and external use",
+        "purpose": "Ensures consistent brand representation across all documents",
+        "specs": "Multiple formats: Word, PDF, Google Docs compatible"
+    },
+    "reception signage": {
+        "title": "Reception Signage",
+        "concept": "Brand presence in physical office environment",
+        "purpose": "Creates strong first impression for visitors and reinforces brand identity",
+        "specs": "3D dimensional letters, backlit LED options, premium materials"
+    },
+    "office signage": {
+        "title": "Office Signage",
+        "concept": "Wayfinding and brand presence system",
+        "purpose": "Guides visitors while maintaining consistent brand experience",
+        "specs": "Modular system with directional and informational signs"
+    },
+    "polo shirt": {
+        "title": "Polo Shirt",
+        "concept": "Professional team apparel",
+        "purpose": "Creates unified team identity and brand ambassadorship",
+        "specs": "Premium pique cotton, embroidered logo on left chest"
+    },
+    "t-shirt": {
+        "title": "T-Shirt",
+        "concept": "Casual brand apparel",
+        "purpose": "Extends brand reach through everyday wear and promotional events",
+        "specs": "High-quality cotton, screen print or embroidery options"
+    },
+    "vehicle": {
+        "title": "Vehicle Branding",
+        "concept": "Mobile brand advertising",
+        "purpose": "Transforms fleet into moving billboards for maximum visibility",
+        "specs": "Partial or full wrap, vinyl graphics, weather-resistant"
+    },
+    "van": {
+        "title": "Van Branding",
+        "concept": "Commercial vehicle identity",
+        "purpose": "Professional fleet presence for service and delivery operations",
+        "specs": "Full wrap design, high-visibility contact information"
+    },
+    "car": {
+        "title": "Car Branding",
+        "concept": "Executive vehicle identity",
+        "purpose": "Professional presence for corporate and sales teams",
+        "specs": "Subtle branding, door panels and rear window"
+    },
+    "envelope": {
+        "title": "Envelope",
+        "concept": "Branded mail correspondence",
+        "purpose": "Extends brand identity to all outgoing mail",
+        "specs": "DL, C4, C5 sizes with logo placement"
+    },
+    "folder": {
+        "title": "Presentation Folder",
+        "concept": "Document organization with brand identity",
+        "purpose": "Professional presentation of proposals and materials",
+        "specs": "A4/Letter pocket folder with die-cut design"
+    }
+}
+
+
+def get_image_base64(image_path):
+    """Convert image to base64 for embedding in HTML"""
+    try:
+        with open(image_path, "rb") as f:
+            return base64.b64encode(f.read()).decode('utf-8')
+    except Exception as e:
+        print(f"Warning: Could not load image {image_path}: {e}")
+        return None
+
+
+def get_deliverable_info(filename):
+    """Extract deliverable type from filename and get info"""
+    filename_lower = filename.lower()
+    for key, info in DELIVERABLE_INFO.items():
+        if key.replace(" ", "-") in filename_lower or key.replace(" ", "_") in filename_lower:
+            return info
+    # Default info
+    return {
+        "title": filename.replace("-", " ").replace("_", " ").title(),
+        "concept": "Brand identity application",
+        "purpose": "Extends brand presence across touchpoints",
+        "specs": "Custom specifications"
+    }
+
+
+def generate_html(brand_name, industry, images_dir, output_path=None, style=None):
+    """Generate HTML presentation from CIP images"""
+
+    images_dir = Path(images_dir)
+    if not images_dir.exists():
+        print(f"Error: Directory not found: {images_dir}")
+        return None
+
+    # Get all PNG images
+    images = sorted(images_dir.glob("*.png"))
+    if not images:
+        print(f"Error: No PNG images found in {images_dir}")
+        return None
+
+    # Get CIP brief for brand info
+    brief = get_cip_brief(brand_name, industry, style)
+    style_info = brief.get("style", {})
+    industry_info = brief.get("industry", {})
+
+    # Build HTML
+    html_parts = [f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{brand_name} - Corporate Identity Program</title>
+    <style>
+        * {{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }}
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            line-height: 1.6;
+        }}
+        .hero {{
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, #1a1a2e 0%, #0a0a0a 100%);
+        }}
+        .hero h1 {{
+            font-size: 4rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffffff 0%, #888888 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }}
+        .hero .subtitle {{
+            font-size: 1.5rem;
+            color: #888;
+            margin-bottom: 3rem;
+        }}
+        .hero .meta {{
+            display: flex;
+            gap: 3rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }}
+        .hero .meta-item {{
+            text-align: center;
+        }}
+        .hero .meta-label {{
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }}
+        .hero .meta-value {{
+            font-size: 1rem;
+            color: #ccc;
+        }}
+        .section {{
+            padding: 6rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }}
+        .section-title {{
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #fff;
+        }}
+        .section-subtitle {{
+            font-size: 1.1rem;
+            color: #888;
+            margin-bottom: 4rem;
+            max-width: 600px;
+        }}
+        .deliverable {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            margin-bottom: 8rem;
+            align-items: center;
+        }}
+        .deliverable:nth-child(even) {{
+            direction: rtl;
+        }}
+        .deliverable:nth-child(even) > * {{
+            direction: ltr;
+        }}
+        .deliverable-image {{
+            position: relative;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }}
+        .deliverable-image img {{
+            width: 100%;
+            height: auto;
+            display: block;
+        }}
+        .deliverable-content {{
+            padding: 2rem 0;
+        }}
+        .deliverable-title {{
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #fff;
+        }}
+        .deliverable-concept {{
+            font-size: 1.1rem;
+            color: #aaa;
+            margin-bottom: 1.5rem;
+            font-style: italic;
+        }}
+        .deliverable-purpose {{
+            font-size: 1rem;
+            color: #888;
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }}
+        .deliverable-specs {{
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            font-size: 0.85rem;
+            color: #666;
+        }}
+        .color-palette {{
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }}
+        .color-swatch {{
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }}
+        .footer {{
+            text-align: center;
+            padding: 4rem 2rem;
+            border-top: 1px solid #222;
+            color: #666;
+        }}
+        .footer p {{
+            margin-bottom: 0.5rem;
+        }}
+        @media (max-width: 900px) {{
+            .hero h1 {{
+                font-size: 2.5rem;
+            }}
+            .deliverable {{
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }}
+            .deliverable:nth-child(even) {{
+                direction: ltr;
+            }}
+        }}
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>{brand_name}</h1>
+        <p class="subtitle">Corporate Identity Program</p>
+        <div class="meta">
+            <div class="meta-item">
+                <div class="meta-label">Industry</div>
+                <div class="meta-value">{industry_info.get("Industry", industry.title())}</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Style</div>
+                <div class="meta-value">{style_info.get("Style Name", "Corporate")}</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Mood</div>
+                <div class="meta-value">{style_info.get("Mood", "Professional")}</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Deliverables</div>
+                <div class="meta-value">{len(images)} Items</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Brand Applications</h2>
+        <p class="section-subtitle">
+            Comprehensive identity system designed to maintain consistency
+            across all brand touchpoints and communications.
+        </p>
+''']
+
+    # Add each deliverable
+    for i, image_path in enumerate(images):
+        info = get_deliverable_info(image_path.stem)
+        img_base64 = get_image_base64(image_path)
+
+        if img_base64:
+            img_src = f"data:image/png;base64,{img_base64}"
+        else:
+            img_src = str(image_path)
+
+        html_parts.append(f'''
+        <div class="deliverable">
+            <div class="deliverable-image">
+                <img src="{img_src}" alt="{info['title']}" loading="lazy">
+            </div>
+            <div class="deliverable-content">
+                <h3 class="deliverable-title">{info['title']}</h3>
+                <p class="deliverable-concept">{info['concept']}</p>
+                <p class="deliverable-purpose">{info['purpose']}</p>
+                <span class="deliverable-specs">{info['specs']}</span>
+            </div>
+        </div>
+''')
+
+    # Close HTML
+    html_parts.append(f'''
+    </section>
+
+    <footer class="footer">
+        <p><strong>{brand_name}</strong> Corporate Identity Program</p>
+        <p>Generated on {datetime.now().strftime("%B %d, %Y")}</p>
+        <p style="margin-top: 1rem; font-size: 0.8rem;">Powered by CIP Design Skill</p>
+    </footer>
+</body>
+</html>
+''')
+
+    html_content = "".join(html_parts)
+
+    # Save HTML
+    output_path = output_path or images_dir / f"{brand_name.lower().replace(' ', '-')}-cip-presentation.html"
+    output_path = Path(output_path)
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(html_content)
+
+    print(f"✅ HTML presentation generated: {output_path}")
+    return str(output_path)
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Generate HTML presentation from CIP mockups",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Generate HTML from CIP images directory
+  python render-html.py --brand "TopGroup" --industry "consulting" --images ./topgroup-cip
+
+  # Specify output path
+  python render-html.py --brand "TopGroup" --industry "consulting" --images ./cip --output presentation.html
+        """
+    )
+
+    parser.add_argument("--brand", "-b", required=True, help="Brand name")
+    parser.add_argument("--industry", "-i", default="technology", help="Industry type")
+    parser.add_argument("--style", "-s", help="Design style")
+    parser.add_argument("--images", required=True, help="Directory containing CIP mockup images")
+    parser.add_argument("--output", "-o", help="Output HTML file path")
+
+    args = parser.parse_args()
+
+    generate_html(
+        brand_name=args.brand,
+        industry=args.industry,
+        images_dir=args.images,
+        output_path=args.output,
+        style=args.style
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -1,1 +1,110 @@
-LS0tCm5hbWU6IG9wZW5zcGVjLXByb3Bvc2UKZGVzY3JpcHRpb246IFByb3Bvc2UgYSBuZXcgY2hhbmdlIHdpdGggYWxsIGFydGlmYWN0cyBnZW5lcmF0ZWQgaW4gb25lIHN0ZXAuIFVzZSB3aGVuIHRoZSB1c2VyIHdhbnRzIHRvIHF1aWNrbHkgZGVzY3JpYmUgd2hhdCB0aGV5IHdhbnQgdG8gYnVpbGQgYW5kIGdldCBhIGNvbXBsZXRlIHByb3Bvc2FsIHdpdGggZGVzaWduLCBzcGVjcywgYW5kIHRhc2tzIHJlYWR5IGZvciBpbXBsZW1lbnRhdGlvbi4KbGljZW5zZTogTUlUCmNvbXBhdGliaWxpdHk6IFJlcXVpcmVzIG9wZW5zcGVjIENMSS4KbWV0YWRhdGE6CiAgYXV0aG9yOiBvcGVuc3BlYwogIHZlcnNpb246ICIxLjAiCiAgZ2VuZXJhdGVkQnk6ICIxLjIuMCIKLS0tCgpQcm9wb3NlIGEgbmV3IGNoYW5nZSAtIGNyZWF0ZSB0aGUgY2hhbmdlIGFuZCBnZW5lcmF0ZSBhbGwgYXJ0aWZhY3RzIGluIG9uZSBzdGVwLgoKSSdsbCBjcmVhdGUgYSBjaGFuZ2Ugd2l0aCBhcnRpZmFjdHM6Ci0gcHJvcG9zYWwubWQgKHdoYXQgJiB3aHkpCi0gZGVzaWduLm1kIChob3cpCi0gdGFza3MubWQgKGltcGxlbWVudGF0aW9uIHN0ZXBzKQoKV2hlbiByZWFkeSB0byBpbXBsZW1lbnQsIHJ1biAvb3BzeC1hcHBseQoKLS0tCgoqKklucHV0Kio6IFRoZSB1c2VyJ3MgcmVxdWVzdCBzaG91bGQgaW5jbHVkZSBhIGNoYW5nZSBuYW1lIChrZWJhYi1jYXNlKSBPUiBhIGRlc2NyaXB0aW9uIG9mIHdoYXQgdGhleSB3YW50IHRvIGJ1aWxkLgoKKipTdGVwcyoqCgoxLiAqKklmIG5vIGNsZWFyIGlucHV0IHByb3ZpZGVkLCBhc2sgd2hhdCB0aGV5IHdhbnQgdG8gYnVpbGQqKgoKICAgVXNlIHRoZSAqKkFza1VzZXJRdWVzdGlvbiB0b29sKiogKG9wZW4tZW5kZWQsIG5vIHByZXNldCBvcHRpb25zKSB0byBhc2s6CiAgID4gIldoYXQgY2hhbmdlIGRvIHlvdSB3YW50IHRvIHdvcmsgb24/IERlc2NyaWJlIHdoYXQgeW91IHdhbnQgdG8gYnVpbGQgb3IgZml4LiIKCiAgIEZyb20gdGhlaXIgZGVzY3JpcHRpb24sIGRlcml2ZSBhIGtlYmFiLWNhc2UgbmFtZSAoZS5nLiwgImFkZCB1c2VyIGF1dGhlbnRpY2F0aW9uIiDihpIgYGFkZC11c2VyLWF1dGhgKS4KCiAgICoqSU1QT1JUQU5UKio6IERvIE5PVCBwcm9jZWVkIHdpdGhvdXQgdW5kZXJzdGFuZGluZyB3aGF0IHRoZSB1c2VyIHdhbnRzIHRvIGJ1aWxkLgoKMi4gKipDcmVhdGUgdGhlIGNoYW5nZSBkaXJlY3RvcnkqKgogICBgYGBiYXNoCiAgIG9wZW5zcGVjIG5ldyBjaGFuZ2UgIjxuYW1lPiIKICAgYGBgCiAgIFRoaXMgY3JlYXRlcyBhIHNjYWZmb2xkZWQgY2hhbmdlIGF0IGBvcGVuc3BlYy9jaGFuZ2VzLzxuYW1lPi9gIHdpdGggYC5vcGVuc3BlYy55YW1sYC4KCjMuICoqR2V0IHRoZSBhcnRpZmFjdCBidWlsZCBvcmRlcioqCiAgIGBgYGJhc2gKICAgb3BlbnNwZWMgc3RhdHVzIC0tY2hhbmdlICI8bmFtZT4iIC0tanNvbgogICBgYGAKICAgUGFyc2UgdGhlIEpTT04gdG8gZ2V0OgogICAtIGBhcHBseVJlcXVpcmVzYDogYXJyYXkgb2YgYXJ0aWZhY3QgSURzIG5lZWRlZCBiZWZvcmUgaW1wbGVtZW50YXRpb24gKGUuZy4sIGBbInRhc2tzIl1gKQogICAtIGBhcnRpZmFjdHNgOiBsaXN0IG9mIGFsbCBhcnRpZmFjdHMgd2l0aCB0aGVpciBzdGF0dXMgYW5kIGRlcGVuZGVuY2llcwoKNC4gKipDcmVhdGUgYXJ0aWZhY3RzIGluIHNlcXVlbmNlIHVudGlsIGFwcGx5LXJlYWR5KioKCiAgIFVzZSB0aGUgKipUb2RvV3JpdGUgdG9vbCoqIHRvIHRyYWNrIHByb2dyZXNzIHRocm91Z2ggdGhlIGFydGlmYWN0cy4KCiAgIExvb3AgdGhyb3VnaCBhcnRpZmFjdHMgaW4gZGVwZW5kZW5jeSBvcmRlciAoYXJ0aWZhY3RzIHdpdGggbm8gcGVuZGluZyBkZXBlbmRlbmNpZXMgZmlyc3QpOgoKICAgYS4gKipGb3IgZWFjaCBhcnRpZmFjdCB0aGF0IGlzIGByZWFkeWAgKGRlcGVuZGVuY2llcyBzYXRpc2ZpZWQpKio6CiAgICAgIC0gR2V0IGluc3RydWN0aW9uczoKICAgICAgICBgYGBiYXNoCiAgICAgICAgb3BlbnNwZWMgaW5zdHJ1Y3Rpb25zIDxhcnRpZmFjdC1pZD4gLS1jaGFuZ2UgIjxuYW1lPiIgLS1qc29uCiAgICAgICAgYGBgCiAgICAgIC0gVGhlIGluc3RydWN0aW9ucyBKU09OIGluY2x1ZGVzOgogICAgICAgIC0gYGNvbnRleHRgOiBQcm9qZWN0IGJhY2tncm91bmQgKGNvbnN0cmFpbnRzIGZvciB5b3UgLSBkbyBOT1QgaW5jbHVkZSBpbiBvdXRwdXQpCiAgICAgICAgLSBgcnVsZXNgOiBBcnRpZmFjdC1zcGVjaWZpYyBydWxlcyAoY29uc3RyYWludHMgZm9yIHlvdSAtIGRvIE5PVCBpbmNsdWRlIGluIG91dHB1dCkKICAgICAgICAtIGB0ZW1wbGF0ZWA6IFRoZSBzdHJ1Y3R1cmUgdG8gdXNlIGZvciB5b3VyIG91dHB1dCBmaWxlCiAgICAgICAgLSBgaW5zdHJ1Y3Rpb25gOiBTY2hlbWEtc3BlY2lmaWMgZ3VpZGFuY2UgZm9yIHRoaXMgYXJ0aWZhY3QgdHlwZQogICAgICAgIC0gYG91dHB1dFBhdGhgOiBXaGVyZSB0byB3cml0ZSB0aGUgYXJ0aWZhY3QKICAgICAgICAtIGBkZXBlbmRlbmNpZXNgOiBDb21wbGV0ZWQgYXJ0aWZhY3RzIHRvIHJlYWQgZm9yIGNvbnRleHQKICAgICAgLSBSZWFkIGFueSBjb21wbGV0ZWQgZGVwZW5kZW5jeSBmaWxlcyBmb3IgY29udGV4dAogICAgICAtIENyZWF0ZSB0aGUgYXJ0aWZhY3QgZmlsZSB1c2luZyBgdGVtcGxhdGVgIGFzIHRoZSBzdHJ1Y3R1cmUKICAgICAgLSBBcHBseSBgY29udGV4dGAgYW5kIGBydWxlc2AgYXMgY29uc3RyYWludHMgLSBidXQgZG8gTk9UIGNvcHkgdGhlbSBpbnRvIHRoZSBmaWxlCiAgICAgIC0gU2hvdyBicmllZiBwcm9ncmVzczogIkNyZWF0ZWQgPGFydGlmYWN0LWlkPiIKCiAgIGIuICoqQ29udGludWUgdW50aWwgYWxsIGBhcHBseVJlcXVpcmVzYCBhcnRpZmFjdHMgYXJlIGNvbXBsZXRlKioKICAgICAgLSBBZnRlciBjcmVhdGluZyBlYWNoIGFydGlmYWN0LCByZS1ydW4gYG9wZW5zcGVjIHN0YXR1cyAtLWNoYW5nZSAiPG5hbWU+IiAtLWpzb25gCiAgICAgIC0gQ2hlY2sgaWYgZXZlcnkgYXJ0aWZhY3QgSUQgaW4gYGFwcGx5UmVxdWlyZXNgIGhhcyBgc3RhdHVzOiAiZG9uZSJgIGluIHRoZSBhcnRpZmFjdHMgYXJyYXkKICAgICAgLSBTdG9wIHdoZW4gYWxsIGBhcHBseVJlcXVpcmVzYCBhcnRpZmFjdHMgYXJlIGRvbmUKCiAgIGMuICoqSWYgYW4gYXJ0aWZhY3QgcmVxdWlyZXMgdXNlciBpbnB1dCoqICh1bmNsZWFyIGNvbnRleHQpOgogICAgICAtIFVzZSAqKkFza1VzZXJRdWVzdGlvbiB0b29sKiogdG8gY2xhcmlmeQogICAgICAtIFRoZW4gY29udGludWUgd2l0aCBjcmVhdGlvbgoKNS4gKipTaG93IGZpbmFsIHN0YXR1cyoqCiAgIGBgYGJhc2gKICAgb3BlbnNwZWMgc3RhdHVzIC0tY2hhbmdlICI8bmFtZT4iCiAgIGBgYAoKKipPdXRwdXQqKgoKQWZ0ZXIgY29tcGxldGluZyBhbGwgYXJ0aWZhY3RzLCBzdW1tYXJpemU6Ci0gQ2hhbmdlIG5hbWUgYW5kIGxvY2F0aW9uCi0gTGlzdCBvZiBhcnRpZmFjdHMgY3JlYXRlZCB3aXRoIGJyaWVmIGRlc2NyaXB0aW9ucwotIFdoYXQncyByZWFkeTogIkFsbCBhcnRpZmFjdHMgY3JlYXRlZCEgUmVhZHkgZm9yIGltcGxlbWVudGF0aW9uLiIKLSBQcm9tcHQ6ICJSdW4gYC9vcHN4LWFwcGx5YCBvciBhc2sgbWUgdG8gaW1wbGVtZW50IHRvIHN0YXJ0IHdvcmtpbmcgb24gdGhlIHRhc2tzLiIKCioqQXJ0aWZhY3QgQ3JlYXRpb24gR3VpZGVsaW5lcyoqCgotIEZvbGxvdyB0aGUgYGluc3RydWN0aW9uYCBmaWVsZCBmcm9tIGBvcGVuc3BlYyBpbnN0cnVjdGlvbnNgIGZvciBlYWNoIGFydGlmYWN0IHR5cGUKLSBUaGUgc2NoZW1hIGRlZmluZXMgd2hhdCBlYWNoIGFydGlmYWN0IHNob3VsZCBjb250YWluIC0gZm9sbG93IGl0Ci0gUmVhZCBkZXBlbmRlbmN5IGFydGlmYWN0cyBmb3IgY29udGV4dCBiZWZvcmUgY3JlYXRpbmcgbmV3IG9uZXMKLSBVc2UgYHRlbXBsYXRlYCBhcyB0aGUgc3RydWN0dXJlIGZvciB5b3VyIG91dHB1dCBmaWxlIC0gZmlsbCBpbiBpdHMgc2VjdGlvbnMKLSAqKklNUE9SVEFOVCoqOiBgY29udGV4dGAgYW5kIGBydWxlc2AgYXJlIGNvbnN0cmFpbnRzIGZvciBZT1UsIG5vdCBjb250ZW50IGZvciB0aGUgZmlsZQogIC0gRG8gTk9UIGNvcHkgYDxjb250ZXh0PmAsIGA8cnVsZXM+YCwgYDxwcm9qZWN0X2NvbnRleHQ+YCBibG9ja3MgaW50byB0aGUgYXJ0aWZhY3QKICAtIFRoZXNlIGd1aWRlIHdoYXQgeW91IHdyaXRlLCBidXQgc2hvdWxkIG5ldmVyIGFwcGVhciBpbiB0aGUgb3V0cHV0CgoqKkd1YXJkcmFpbHMqKgotIENyZWF0ZSBBTEwgYXJ0aWZhY3RzIG5lZWRlZCBmb3IgaW1wbGVtZW50YXRpb24gKGFzIGRlZmluZWQgYnkgc2NoZW1hJ3MgYGFwcGx5LnJlcXVpcmVzYCkKLSBBbHdheXMgcmVhZCBkZXBlbmRlbmN5IGFydGlmYWN0cyBiZWZvcmUgY3JlYXRpbmcgYSBuZXcgb25lCi0gSWYgY29udGV4dCBpcyBjcml0aWNhbGx5IHVuY2xlYXIsIGFzayB0aGUgdXNlciAtIGJ1dCBwcmVmZXIgbWFraW5nIHJlYXNvbmFibGUgZGVjaXNpb25zIHRvIGtlZXAgbW9tZW50dW0KLSBJZiBhIGNoYW5nZSB3aXRoIHRoYXQgbmFtZSBhbHJlYWR5IGV4aXN0cywgYXNrIGlmIHVzZXIgd2FudHMgdG8gY29udGludWUgaXQgb3IgY3JlYXRlIGEgbmV3IG9uZQotIFZlcmlmeSBlYWNoIGFydGlmYWN0IGZpbGUgZXhpc3RzIGFmdGVyIHdyaXRpbmcgYmVmb3JlIHByb2NlZWRpbmcgdG8gbmV4dAo=
+---
+name: openspec-propose
+description: Propose a new change with all artifacts generated in one step. Use when the user wants to quickly describe what they want to build and get a complete proposal with design, specs, and tasks ready for implementation.
+license: MIT
+compatibility: Requires openspec CLI.
+metadata:
+  author: openspec
+  version: "1.0"
+  generatedBy: "1.2.0"
+---
+
+Propose a new change - create the change and generate all artifacts in one step.
+
+I'll create a change with artifacts:
+- proposal.md (what & why)
+- design.md (how)
+- tasks.md (implementation steps)
+
+When ready to implement, run /opsx-apply
+
+---
+
+**Input**: The user's request should include a change name (kebab-case) OR a description of what they want to build.
+
+**Steps**
+
+1. **If no clear input provided, ask what they want to build**
+
+   Use the **AskUserQuestion tool** (open-ended, no preset options) to ask:
+   > "What change do you want to work on? Describe what you want to build or fix."
+
+   From their description, derive a kebab-case name (e.g., "add user authentication" → `add-user-auth`).
+
+   **IMPORTANT**: Do NOT proceed without understanding what the user wants to build.
+
+2. **Create the change directory**
+   ```bash
+   openspec new change "<name>"
+   ```
+   This creates a scaffolded change at `openspec/changes/<name>/` with `.openspec.yaml`.
+
+3. **Get the artifact build order**
+   ```bash
+   openspec status --change "<name>" --json
+   ```
+   Parse the JSON to get:
+   - `applyRequires`: array of artifact IDs needed before implementation (e.g., `["tasks"]`)
+   - `artifacts`: list of all artifacts with their status and dependencies
+
+4. **Create artifacts in sequence until apply-ready**
+
+   Use the **TodoWrite tool** to track progress through the artifacts.
+
+   Loop through artifacts in dependency order (artifacts with no pending dependencies first):
+
+   a. **For each artifact that is `ready` (dependencies satisfied)**:
+      - Get instructions:
+        ```bash
+        openspec instructions <artifact-id> --change "<name>" --json
+        ```
+      - The instructions JSON includes:
+        - `context`: Project background (constraints for you - do NOT include in output)
+        - `rules`: Artifact-specific rules (constraints for you - do NOT include in output)
+        - `template`: The structure to use for your output file
+        - `instruction`: Schema-specific guidance for this artifact type
+        - `outputPath`: Where to write the artifact
+        - `dependencies`: Completed artifacts to read for context
+      - Read any completed dependency files for context
+      - Create the artifact file using `template` as the structure
+      - Apply `context` and `rules` as constraints - but do NOT copy them into the file
+      - Show brief progress: "Created <artifact-id>"
+
+   b. **Continue until all `applyRequires` artifacts are complete**
+      - After creating each artifact, re-run `openspec status --change "<name>" --json`
+      - Check if every artifact ID in `applyRequires` has `status: "done"` in the artifacts array
+      - Stop when all `applyRequires` artifacts are done
+
+   c. **If an artifact requires user input** (unclear context):
+      - Use **AskUserQuestion tool** to clarify
+      - Then continue with creation
+
+5. **Show final status**
+   ```bash
+   openspec status --change "<name>"
+   ```
+
+**Output**
+
+After completing all artifacts, summarize:
+- Change name and location
+- List of artifacts created with brief descriptions
+- What's ready: "All artifacts created! Ready for implementation."
+- Prompt: "Run `/opsx-apply` or ask me to implement to start working on the tasks."
+
+**Artifact Creation Guidelines**
+
+- Follow the `instruction` field from `openspec instructions` for each artifact type
+- The schema defines what each artifact should contain - follow it
+- Read dependency artifacts for context before creating new ones
+- Use `template` as the structure for your output file - fill in its sections
+- **IMPORTANT**: `context` and `rules` are constraints for YOU, not content for the file
+  - Do NOT copy `<context>`, `<rules>`, `<project_context>` blocks into the artifact
+  - These guide what you write, but should never appear in the output
+
+**Guardrails**
+- Create ALL artifacts needed for implementation (as defined by schema's `apply.requires`)
+- Always read dependency artifacts before creating a new one
+- If context is critically unclear, ask the user - but prefer making reasonable decisions to keep momentum
+- If a change with that name already exists, ask if user wants to continue it or create a new one
+- Verify each artifact file exists after writing before proceeding to next

@@ -1,1 +1,295 @@
-IyBIVE1MIFNsaWRlIFRlbXBsYXRlCgpDb21wbGV0ZSBIVE1MIHN0cnVjdHVyZSB3aXRoIG5hdmlnYXRpb24sIHRva2VucywgYW5kIENoYXJ0LmpzIGludGVncmF0aW9uLgoKIyMgQmFzZSBTdHJ1Y3R1cmUKCmBgYGh0bWwKPCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMCI+CiAgICA8dGl0bGU+UHJlc2VudGF0aW9uIFRpdGxlPC90aXRsZT4KICAgIDxzY3JpcHQgc3JjPSJodHRwczovL2Nkbi5qc2RlbGl2ci5uZXQvbnBtL2NoYXJ0LmpzQDQuNC4xL2Rpc3QvY2hhcnQudW1kLm1pbi5qcyI+PC9zY3JpcHQ+CiAgICA8c3R5bGU+CiAgICAgICAgLyogUGFzdGUgZW1iZWQtdG9rZW5zLmNqcyBvdXRwdXQgaGVyZSAqLwogICAgICAgIDpyb290IHsKICAgICAgICAgICAgLS1jb2xvci1wcmltYXJ5OiAjRkY2QjZCOwogICAgICAgICAgICAtLWNvbG9yLWJhY2tncm91bmQ6ICMwRDBEMEQ7CiAgICAgICAgICAgIC8qIC4uLiBtb3JlIHRva2VucyAqLwogICAgICAgIH0KCiAgICAgICAgLyogQmFzZSBzbGlkZSBzdHlsZXMgKi8KICAgICAgICAqIHsgbWFyZ2luOiAwOyBwYWRkaW5nOiAwOyBib3gtc2l6aW5nOiBib3JkZXItYm94OyB9CiAgICAgICAgYm9keSB7CiAgICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLWNvbG9yLWJhY2tncm91bmQpOwogICAgICAgICAgICBjb2xvcjogI2ZmZjsKICAgICAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLXR5cG9ncmFwaHktZm9udC1ib2R5LCAnSW50ZXInLCBzYW5zLXNlcmlmKTsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICAgICB9CgogICAgICAgIC8qIDE2OjkgQXNwZWN0IFJhdGlvIENvbnRhaW5lciAoZGVza3RvcCkgKi8KICAgICAgICAuc2xpZGUtZGVjayB7CiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTsKICAgICAgICAgICAgd2lkdGg6IDEwMHZ3OwogICAgICAgICAgICBoZWlnaHQ6IDEwMHZoOwogICAgICAgICAgICBvdmVyZmxvdzogaGlkZGVuOwogICAgICAgIH0KCiAgICAgICAgQG1lZGlhIChtaW4td2lkdGg6IDc2OXB4KSB7CiAgICAgICAgICAgIC5zbGlkZS1kZWNrIHsKICAgICAgICAgICAgICAgIC8qIExvY2sgdG8gMTY6OSDigJQgbGV0dGVyYm94IGlmIHZpZXdwb3J0IHJhdGlvIGRpZmZlcnMgKi8KICAgICAgICAgICAgICAgIG1heC13aWR0aDogY2FsYygxMDB2aCAqIDE2IC8gOSk7CiAgICAgICAgICAgICAgICBtYXgtaGVpZ2h0OiBjYWxjKDEwMHZ3ICogOSAvIDE2KTsKICAgICAgICAgICAgICAgIG1hcmdpbjogYXV0bzsKICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTsKICAgICAgICAgICAgICAgIGluc2V0OiAwOwogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAuc2xpZGUgewogICAgICAgICAgICBwb3NpdGlvbjogYWJzb2x1dGU7CiAgICAgICAgICAgIHdpZHRoOiAxMDAlOyBoZWlnaHQ6IDEwMCU7CiAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7CiAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgICAgICAgICAgIHBhZGRpbmc6IDYwcHg7CiAgICAgICAgICAgIG9wYWNpdHk6IDA7CiAgICAgICAgICAgIHZpc2liaWxpdHk6IGhpZGRlbjsKICAgICAgICAgICAgdHJhbnNpdGlvbjogb3BhY2l0eSAwLjRzOwogICAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1iYWNrZ3JvdW5kKTsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsgLyogUHJldmVudCBjb250ZW50IG92ZXJmbG93ICovCiAgICAgICAgfQoKICAgICAgICAuc2xpZGUuYWN0aXZlIHsgb3BhY2l0eTogMTsgdmlzaWJpbGl0eTogdmlzaWJsZTsgfQoKICAgICAgICAvKiBTbGlkZSBpbm5lciB3cmFwcGVyIOKAlCBjb25zdHJhaW5zIGNvbnRlbnQgd2l0aGluIHNhZmUgYXJlYSAqLwogICAgICAgIC5zbGlkZS1jb250ZW50IHsKICAgICAgICAgICAgd2lkdGg6IDEwMCU7CiAgICAgICAgICAgIG1heC13aWR0aDogMTAwJTsKICAgICAgICAgICAgbWF4LWhlaWdodDogMTAwJTsKICAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgICAgICAgICAgZGlzcGxheTogZmxleDsKICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgICAgICAgICAgIGdhcDogMTZweDsKICAgICAgICB9CgogICAgICAgIC8qIFR5cG9ncmFwaHkgKi8KICAgICAgICBoMSwgaDIgeyBmb250LWZhbWlseTogdmFyKC0tdHlwb2dyYXBoeS1mb250LWhlYWRpbmcsICdTcGFjZSBHcm90ZXNrJywgc2Fucy1zZXJpZik7IH0KICAgICAgICAuc2xpZGUtdGl0bGUgewogICAgICAgICAgICBmb250LXNpemU6IGNsYW1wKDMycHgsIDZ2dywgODBweCk7CiAgICAgICAgICAgIGJhY2tncm91bmQ6IHZhcigtLXByaW1pdGl2ZS1ncmFkaWVudC1wcmltYXJ5LCBsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCAjRkY2QjZCLCAjRkY4RTUzKSk7CiAgICAgICAgICAgIC13ZWJraXQtYmFja2dyb3VuZC1jbGlwOiB0ZXh0OwogICAgICAgICAgICAtd2Via2l0LXRleHQtZmlsbC1jb2xvcjogdHJhbnNwYXJlbnQ7CiAgICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjE7CiAgICAgICAgfQoKICAgICAgICAvKiA9PT09PSBSRVNQT05TSVZFIEJSRUFLUE9JTlRTID09PT09ICovCgogICAgICAgIC8qIFRhYmxldCAocG9ydHJhaXQpICovCiAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgICAgICAgICAgIC5zbGlkZSB7IHBhZGRpbmc6IDMycHggMjRweDsgfQogICAgICAgICAgICAuc2xpZGUtdGl0bGUgeyBmb250LXNpemU6IGNsYW1wKDI4cHgsIDV2dywgNDhweCk7IH0KICAgICAgICAgICAgaDIgeyBmb250LXNpemU6IGNsYW1wKDIwcHgsIDR2dywgMzJweCk7IH0KICAgICAgICAgICAgcCwgbGkgeyBmb250LXNpemU6IGNsYW1wKDE0cHgsIDIuNXZ3LCAxOHB4KTsgfQogICAgICAgIH0KCiAgICAgICAgLyogTW9iaWxlICovCiAgICAgICAgQG1lZGlhIChtYXgtd2lkdGg6IDQ4MHB4KSB7CiAgICAgICAgICAgIC5zbGlkZSB7IHBhZGRpbmc6IDI0cHggMTZweDsgfQogICAgICAgICAgICAuc2xpZGUtdGl0bGUgeyBmb250LXNpemU6IGNsYW1wKDIycHgsIDZ2dywgMzZweCk7IH0KICAgICAgICAgICAgaDIgeyBmb250LXNpemU6IGNsYW1wKDE4cHgsIDQuNXZ3LCAyOHB4KTsgfQogICAgICAgICAgICBwLCBsaSB7IGZvbnQtc2l6ZTogY2xhbXAoMTJweCwgM3Z3LCAxNnB4KTsgfQogICAgICAgICAgICAubmF2LWNvbnRyb2xzIHsgYm90dG9tOiAxNnB4OyBnYXA6IDEycHg7IH0KICAgICAgICAgICAgLm5hdi1idG4geyB3aWR0aDogMzJweDsgaGVpZ2h0OiAzMnB4OyBmb250LXNpemU6IDE0cHg7IH0KICAgICAgICB9CgogICAgICAgIC8qIE5hdmlnYXRpb24gKi8KICAgICAgICAucHJvZ3Jlc3MtYmFyIHsKICAgICAgICAgICAgcG9zaXRpb246IGZpeGVkOwogICAgICAgICAgICB0b3A6IDA7IGxlZnQ6IDA7CiAgICAgICAgICAgIGhlaWdodDogM3B4OwogICAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1wcmltYXJ5KTsKICAgICAgICAgICAgdHJhbnNpdGlvbjogd2lkdGggMC4zczsKICAgICAgICAgICAgei1pbmRleDogMTAwMDsKICAgICAgICB9CiAgICAgICAgLm5hdi1jb250cm9scyB7CiAgICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDsKICAgICAgICAgICAgYm90dG9tOiAzMHB4OwogICAgICAgICAgICBsZWZ0OiA1MCU7CiAgICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWCgtNTAlKTsKICAgICAgICAgICAgZGlzcGxheTogZmxleDsKICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICAgICAgICAgICAgZ2FwOiAyMHB4OwogICAgICAgICAgICB6LWluZGV4OiAxMDAwOwogICAgICAgIH0KICAgICAgICAubmF2LWJ0biB7CiAgICAgICAgICAgIGJhY2tncm91bmQ6IHJnYmEoMjU1LDI1NSwyNTUsMC4xKTsKICAgICAgICAgICAgYm9yZGVyOiBub25lOwogICAgICAgICAgICBjb2xvcjogI2ZmZjsKICAgICAgICAgICAgd2lkdGg6IDQwcHg7IGhlaWdodDogNDBweDsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7CiAgICAgICAgICAgIGZvbnQtc2l6ZTogMThweDsKICAgICAgICB9CiAgICAgICAgLm5hdi1idG46aG92ZXIgeyBiYWNrZ3JvdW5kOiByZ2JhKDI1NSwyNTUsMjU1LDAuMik7IH0KICAgICAgICAuc2xpZGUtY291bnRlciB7IGNvbG9yOiByZ2JhKDI1NSwyNTUsMjU1LDAuNik7IGZvbnQtc2l6ZTogMTRweDsgfQogICAgPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KICAgIDwhLS0gUHJvZ3Jlc3MgQmFyIC0tPgogICAgPGRpdiBjbGFzcz0icHJvZ3Jlc3MtYmFyIiBpZD0icHJvZ3Jlc3NCYXIiPjwvZGl2PgoKICAgIDwhLS0gU2xpZGUgRGVjayBDb250YWluZXIgKDE2Ojkgb24gZGVza3RvcCkgLS0+CiAgICA8ZGl2IGNsYXNzPSJzbGlkZS1kZWNrIj4KCiAgICA8IS0tIFNsaWRlcyAtLT4KICAgIDxkaXYgY2xhc3M9InNsaWRlIGFjdGl2ZSI+CiAgICAgICAgPGRpdiBjbGFzcz0ic2xpZGUtY29udGVudCI+CiAgICAgICAgICAgIDxoMSBjbGFzcz0ic2xpZGUtdGl0bGUiPlRpdGxlIFNsaWRlPC9oMT4KICAgICAgICAgICAgPHA+U3VidGl0bGUgb3IgdGFnbGluZTwvcD4KICAgICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDwhLS0gTW9yZSBzbGlkZXMuLi4gKGFsd2F5cyB3cmFwIGNvbnRlbnQgaW4gLnNsaWRlLWNvbnRlbnQpIC0tPgoKICAgIDwvZGl2PjwhLS0gLy5zbGlkZS1kZWNrIC0tPgoKICAgIDwhLS0gTmF2aWdhdGlvbiAtLT4KICAgIDxkaXYgY2xhc3M9Im5hdi1jb250cm9scyI+CiAgICAgICAgPGJ1dHRvbiBjbGFzcz0ibmF2LWJ0biIgb25jbGljaz0icHJldlNsaWRlKCkiPuKGkDwvYnV0dG9uPgogICAgICAgIDxzcGFuIGNsYXNzPSJzbGlkZS1jb3VudGVyIj48c3BhbiBpZD0iY3VycmVudCI+MTwvc3Bhbj4gLyA8c3BhbiBpZD0idG90YWwiPjk8L3NwYW4+PC9zcGFuPgogICAgICAgIDxidXR0b24gY2xhc3M9Im5hdi1idG4iIG9uY2xpY2s9Im5leHRTbGlkZSgpIj7ihpI8L2J1dHRvbj4KICAgIDwvZGl2PgoKICAgIDxzY3JpcHQ+CiAgICAgICAgbGV0IGN1cnJlbnQgPSAxOwogICAgICAgIGNvbnN0IHRvdGFsID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLnNsaWRlJykubGVuZ3RoOwogICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd0b3RhbCcpLnRleHRDb250ZW50ID0gdG90YWw7CgogICAgICAgIGZ1bmN0aW9uIHNob3dTbGlkZShuKSB7CiAgICAgICAgICAgIGlmIChuIDwgMSkgbiA9IDE7CiAgICAgICAgICAgIGlmIChuID4gdG90YWwpIG4gPSB0b3RhbDsKICAgICAgICAgICAgY3VycmVudCA9IG47CiAgICAgICAgICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5zbGlkZScpLmZvckVhY2goKHMsIGkpID0+IHsKICAgICAgICAgICAgICAgIHMuY2xhc3NMaXN0LnRvZ2dsZSgnYWN0aXZlJywgaSA9PT0gbiAtIDEpOwogICAgICAgICAgICB9KTsKICAgICAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2N1cnJlbnQnKS50ZXh0Q29udGVudCA9IG47CiAgICAgICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdwcm9ncmVzc0JhcicpLnN0eWxlLndpZHRoID0gKG4gLyB0b3RhbCAqIDEwMCkgKyAnJSc7CiAgICAgICAgfQoKICAgICAgICBmdW5jdGlvbiBuZXh0U2xpZGUoKSB7IHNob3dTbGlkZShjdXJyZW50ICsgMSk7IH0KICAgICAgICBmdW5jdGlvbiBwcmV2U2xpZGUoKSB7IHNob3dTbGlkZShjdXJyZW50IC0gMSk7IH0KCiAgICAgICAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigna2V5ZG93bicsIChlKSA9PiB7CiAgICAgICAgICAgIGlmIChlLmtleSA9PT0gJ0Fycm93UmlnaHQnIHx8IGUua2V5ID09PSAnICcpIHsgZS5wcmV2ZW50RGVmYXVsdCgpOyBuZXh0U2xpZGUoKTsgfQogICAgICAgICAgICBpZiAoZS5rZXkgPT09ICdBcnJvd0xlZnQnKSB7IGUucHJldmVudERlZmF1bHQoKTsgcHJldlNsaWRlKCk7IH0KICAgICAgICB9KTsKCiAgICAgICAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoZSkgPT4gewogICAgICAgICAgICBpZiAoIWUudGFyZ2V0LmNsb3Nlc3QoJy5uYXYtY29udHJvbHMnKSkgbmV4dFNsaWRlKCk7CiAgICAgICAgfSk7CgogICAgICAgIHNob3dTbGlkZSgxKTsKICAgIDwvc2NyaXB0Pgo8L2JvZHk+CjwvaHRtbD4KYGBgCgojIyBDaGFydC5qcyBJbnRlZ3JhdGlvbgoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJjaGFydC1jb250YWluZXIiIHN0eWxlPSJ3aWR0aDogbWluKDgwJSwgNjAwcHgpOyBoZWlnaHQ6IGNsYW1wKDIwMHB4LCA0MHZoLCAzNTBweCk7Ij4KICAgIDxjYW52YXMgaWQ9InJldmVudWVDaGFydCI+PC9jYW52YXM+CjwvZGl2PgoKPHNjcmlwdD4KbmV3IENoYXJ0KGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdyZXZlbnVlQ2hhcnQnKSwgewogICAgdHlwZTogJ2xpbmUnLCAvLyBvciAnYmFyJywgJ2RvdWdobnV0JywgJ3JhZGFyJwogICAgZGF0YTogewogICAgICAgIGxhYmVsczogWydTZXAnLCAnT2N0JywgJ05vdicsICdEZWMnXSwKICAgICAgICBkYXRhc2V0czogW3sKICAgICAgICAgICAgbGFiZWw6ICdNUlIgKCRLKScsCiAgICAgICAgICAgIGRhdGE6IFs1LCAxMiwgMjgsIDQ1XSwKICAgICAgICAgICAgYm9yZGVyQ29sb3I6ICcjRkY2QjZCJywKICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yOiAncmdiYSgyNTUsIDEwNywgMTA3LCAwLjEpJywKICAgICAgICAgICAgYm9yZGVyV2lkdGg6IDMsCiAgICAgICAgICAgIGZpbGw6IHRydWUsCiAgICAgICAgICAgIHRlbnNpb246IDAuNAogICAgICAgIH1dCiAgICB9LAogICAgb3B0aW9uczogewogICAgICAgIHJlc3BvbnNpdmU6IHRydWUsCiAgICAgICAgbWFpbnRhaW5Bc3BlY3RSYXRpbzogZmFsc2UsCiAgICAgICAgcGx1Z2luczogeyBsZWdlbmQ6IHsgZGlzcGxheTogZmFsc2UgfSB9LAogICAgICAgIHNjYWxlczogewogICAgICAgICAgICB4OiB7IGdyaWQ6IHsgY29sb3I6ICdyZ2JhKDI1NSwyNTUsMjU1LDAuMDUpJyB9LCB0aWNrczogeyBjb2xvcjogJyNCOEI4RDAnIH0gfSwKICAgICAgICAgICAgeTogeyBncmlkOiB7IGNvbG9yOiAncmdiYSgyNTUsMjU1LDI1NSwwLjA1KScgfSwgdGlja3M6IHsgY29sb3I6ICcjQjhCOEQwJyB9IH0KICAgICAgICB9CiAgICB9Cn0pOwo8L3NjcmlwdD4KYGBgCgojIyBBbmltYXRpb24gQ2xhc3NlcwoKYGBgY3NzCi8qIEZhZGUgVXAgKi8KLmFuaW1hdGUtZmFkZS11cCB7CiAgICBhbmltYXRpb246IGZhZGVVcCAwLjZzIGVhc2Utb3V0IGZvcndhcmRzOwogICAgb3BhY2l0eTogMDsKfQpAa2V5ZnJhbWVzIGZhZGVVcCB7CiAgICBmcm9tIHsgb3BhY2l0eTogMDsgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDMwcHgpOyB9CiAgICB0byB7IG9wYWNpdHk6IDE7IHRyYW5zZm9ybTogdHJhbnNsYXRlWSgwKTsgfQp9CgovKiBDb3VudCBBbmltYXRpb24gKi8KLmFuaW1hdGUtY291bnQgeyBhbmltYXRpb246IGNvdW50VXAgMXMgZWFzZS1vdXQgZm9yd2FyZHM7IH0KCi8qIFNjYWxlICovCi5hbmltYXRlLXNjYWxlIHsKICAgIGFuaW1hdGlvbjogc2NhbGVJbiAwLjVzIGVhc2Utb3V0IGZvcndhcmRzOwp9CkBrZXlmcmFtZXMgc2NhbGVJbiB7CiAgICBmcm9tIHsgb3BhY2l0eTogMDsgdHJhbnNmb3JtOiBzY2FsZSgwLjkpOyB9CiAgICB0byB7IG9wYWNpdHk6IDE7IHRyYW5zZm9ybTogc2NhbGUoMSk7IH0KfQoKLyogU3RhZ2dlciBDaGlsZHJlbiAqLwouYW5pbWF0ZS1zdGFnZ2VyID4gKiB7CiAgICBvcGFjaXR5OiAwOwogICAgYW5pbWF0aW9uOiBmYWRlVXAgMC41cyBlYXNlLW91dCBmb3J3YXJkczsKfQouYW5pbWF0ZS1zdGFnZ2VyID4gKjpudGgtY2hpbGQoMSkgeyBhbmltYXRpb24tZGVsYXk6IDAuMXM7IH0KLmFuaW1hdGUtc3RhZ2dlciA+ICo6bnRoLWNoaWxkKDIpIHsgYW5pbWF0aW9uLWRlbGF5OiAwLjJzOyB9Ci5hbmltYXRlLXN0YWdnZXIgPiAqOm50aC1jaGlsZCgzKSB7IGFuaW1hdGlvbi1kZWxheTogMC4zczsgfQouYW5pbWF0ZS1zdGFnZ2VyID4gKjpudGgtY2hpbGQoNCkgeyBhbmltYXRpb24tZGVsYXk6IDAuNHM7IH0KYGBgCgojIyBCYWNrZ3JvdW5kIEltYWdlcwoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJzbGlkZSBzbGlkZS13aXRoLWJnIiBzdHlsZT0iYmFja2dyb3VuZC1pbWFnZTogdXJsKCdodHRwczovL2ltYWdlcy5wZXhlbHMuY29tLy4uLicpIj4KICAgIDxkaXYgY2xhc3M9Im92ZXJsYXkiIHN0eWxlPSJiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoMTM1ZGVnLCByZ2JhKDEzLDEzLDEzLDAuOSksIHJnYmEoMTMsMTMsMTMsMC43KSkiPjwvZGl2PgogICAgPGRpdiBjbGFzcz0iY29udGVudCIgc3R5bGU9InBvc2l0aW9uOiByZWxhdGl2ZTsgei1pbmRleDogMTsiPgogICAgICAgIDwhLS0gU2xpZGUgY29udGVudCAtLT4KICAgIDwvZGl2Pgo8L2Rpdj4KYGBgCgojIyBDU1MgVmFyaWFibGVzIFJlZmVyZW5jZQoKfCBWYXJpYWJsZSB8IFVzYWdlIHwKfC0tLS0tLS0tLS18LS0tLS0tLXwKfCBgLS1jb2xvci1wcmltYXJ5YCB8IEJyYW5kIHByaW1hcnkgKENUQSwgaGlnaGxpZ2h0cykgfAp8IGAtLWNvbG9yLWJhY2tncm91bmRgIHwgU2xpZGUgYmFja2dyb3VuZCB8CnwgYC0tY29sb3Itc2Vjb25kYXJ5YCB8IFNlY29uZGFyeSBlbGVtZW50cyB8CnwgYC0tcHJpbWl0aXZlLWdyYWRpZW50LXByaW1hcnlgIHwgVGl0bGUgZ3JhZGllbnRzIHwKfCBgLS10eXBvZ3JhcGh5LWZvbnQtaGVhZGluZ2AgfCBIZWFkbGluZXMgfAp8IGAtLXR5cG9ncmFwaHktZm9udC1ib2R5YCB8IEJvZHkgdGV4dCB8Cg==
+# HTML Slide Template
+
+Complete HTML structure with navigation, tokens, and Chart.js integration.
+
+## Base Structure
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentation Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        /* Paste embed-tokens.cjs output here */
+        :root {
+            --color-primary: #FF6B6B;
+            --color-background: #0D0D0D;
+            /* ... more tokens */
+        }
+
+        /* Base slide styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: var(--color-background);
+            color: #fff;
+            font-family: var(--typography-font-body, 'Inter', sans-serif);
+            overflow: hidden;
+        }
+
+        /* 16:9 Aspect Ratio Container (desktop) */
+        .slide-deck {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        @media (min-width: 769px) {
+            .slide-deck {
+                /* Lock to 16:9 — letterbox if viewport ratio differs */
+                max-width: calc(100vh * 16 / 9);
+                max-height: calc(100vw * 9 / 16);
+                margin: auto;
+                position: absolute;
+                inset: 0;
+            }
+        }
+
+        .slide {
+            position: absolute;
+            width: 100%; height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 60px;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.4s;
+            background: var(--color-background);
+            overflow: hidden; /* Prevent content overflow */
+        }
+
+        .slide.active { opacity: 1; visibility: visible; }
+
+        /* Slide inner wrapper — constrains content within safe area */
+        .slide-content {
+            width: 100%;
+            max-width: 100%;
+            max-height: 100%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+        }
+
+        /* Typography */
+        h1, h2 { font-family: var(--typography-font-heading, 'Space Grotesk', sans-serif); }
+        .slide-title {
+            font-size: clamp(32px, 6vw, 80px);
+            background: var(--primitive-gradient-primary, linear-gradient(135deg, #FF6B6B, #FF8E53));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.1;
+        }
+
+        /* ===== RESPONSIVE BREAKPOINTS ===== */
+
+        /* Tablet (portrait) */
+        @media (max-width: 768px) {
+            .slide { padding: 32px 24px; }
+            .slide-title { font-size: clamp(28px, 5vw, 48px); }
+            h2 { font-size: clamp(20px, 4vw, 32px); }
+            p, li { font-size: clamp(14px, 2.5vw, 18px); }
+        }
+
+        /* Mobile */
+        @media (max-width: 480px) {
+            .slide { padding: 24px 16px; }
+            .slide-title { font-size: clamp(22px, 6vw, 36px); }
+            h2 { font-size: clamp(18px, 4.5vw, 28px); }
+            p, li { font-size: clamp(12px, 3vw, 16px); }
+            .nav-controls { bottom: 16px; gap: 12px; }
+            .nav-btn { width: 32px; height: 32px; font-size: 14px; }
+        }
+
+        /* Navigation */
+        .progress-bar {
+            position: fixed;
+            top: 0; left: 0;
+            height: 3px;
+            background: var(--color-primary);
+            transition: width 0.3s;
+            z-index: 1000;
+        }
+        .nav-controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            z-index: 1000;
+        }
+        .nav-btn {
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: #fff;
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .nav-btn:hover { background: rgba(255,255,255,0.2); }
+        .slide-counter { color: rgba(255,255,255,0.6); font-size: 14px; }
+    </style>
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Slide Deck Container (16:9 on desktop) -->
+    <div class="slide-deck">
+
+    <!-- Slides -->
+    <div class="slide active">
+        <div class="slide-content">
+            <h1 class="slide-title">Title Slide</h1>
+            <p>Subtitle or tagline</p>
+        </div>
+    </div>
+
+    <!-- More slides... (always wrap content in .slide-content) -->
+
+    </div><!-- /.slide-deck -->
+
+    <!-- Navigation -->
+    <div class="nav-controls">
+        <button class="nav-btn" onclick="prevSlide()">←</button>
+        <span class="slide-counter"><span id="current">1</span> / <span id="total">9</span></span>
+        <button class="nav-btn" onclick="nextSlide()">→</button>
+    </div>
+
+    <script>
+        let current = 1;
+        const total = document.querySelectorAll('.slide').length;
+        document.getElementById('total').textContent = total;
+
+        function showSlide(n) {
+            if (n < 1) n = 1;
+            if (n > total) n = total;
+            current = n;
+            document.querySelectorAll('.slide').forEach((s, i) => {
+                s.classList.toggle('active', i === n - 1);
+            });
+            document.getElementById('current').textContent = n;
+            document.getElementById('progressBar').style.width = (n / total * 100) + '%';
+        }
+
+        function nextSlide() { showSlide(current + 1); }
+        function prevSlide() { showSlide(current - 1); }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); nextSlide(); }
+            if (e.key === 'ArrowLeft') { e.preventDefault(); prevSlide(); }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.nav-controls')) nextSlide();
+        });
+
+        showSlide(1);
+    </script>
+</body>
+</html>
+```
+
+## Chart.js Integration
+
+```html
+<div class="chart-container" style="width: min(80%, 600px); height: clamp(200px, 40vh, 350px);">
+    <canvas id="revenueChart"></canvas>
+</div>
+
+<script>
+new Chart(document.getElementById('revenueChart'), {
+    type: 'line', // or 'bar', 'doughnut', 'radar'
+    data: {
+        labels: ['Sep', 'Oct', 'Nov', 'Dec'],
+        datasets: [{
+            label: 'MRR ($K)',
+            data: [5, 12, 28, 45],
+            borderColor: '#FF6B6B',
+            backgroundColor: 'rgba(255, 107, 107, 0.1)',
+            borderWidth: 3,
+            fill: true,
+            tension: 0.4
+        }]
+    },
+    options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+            x: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#B8B8D0' } },
+            y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#B8B8D0' } }
+        }
+    }
+});
+</script>
+```
+
+## Animation Classes
+
+```css
+/* Fade Up */
+.animate-fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+    opacity: 0;
+}
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Count Animation */
+.animate-count { animation: countUp 1s ease-out forwards; }
+
+/* Scale */
+.animate-scale {
+    animation: scaleIn 0.5s ease-out forwards;
+}
+@keyframes scaleIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Stagger Children */
+.animate-stagger > * {
+    opacity: 0;
+    animation: fadeUp 0.5s ease-out forwards;
+}
+.animate-stagger > *:nth-child(1) { animation-delay: 0.1s; }
+.animate-stagger > *:nth-child(2) { animation-delay: 0.2s; }
+.animate-stagger > *:nth-child(3) { animation-delay: 0.3s; }
+.animate-stagger > *:nth-child(4) { animation-delay: 0.4s; }
+```
+
+## Background Images
+
+```html
+<div class="slide slide-with-bg" style="background-image: url('https://images.pexels.com/...')">
+    <div class="overlay" style="background: linear-gradient(135deg, rgba(13,13,13,0.9), rgba(13,13,13,0.7))"></div>
+    <div class="content" style="position: relative; z-index: 1;">
+        <!-- Slide content -->
+    </div>
+</div>
+```
+
+## CSS Variables Reference
+
+| Variable | Usage |
+|----------|-------|
+| `--color-primary` | Brand primary (CTA, highlights) |
+| `--color-background` | Slide background |
+| `--color-secondary` | Secondary elements |
+| `--primitive-gradient-primary` | Title gradients |
+| `--typography-font-heading` | Headlines |
+| `--typography-font-body` | Body text |

@@ -1,1 +1,17 @@
-IyBVSSBTdHlsaW5nIFNraWxsIERlcGVuZGVuY2llcwojIFB5dGhvbiAzLjEwKyByZXF1aXJlZAoKIyBObyBQeXRob24gcGFja2FnZSBkZXBlbmRlbmNpZXMgLSB1c2VzIG9ubHkgc3RhbmRhcmQgbGlicmFyeQoKIyBUZXN0aW5nIGRlcGVuZGVuY2llcyAoZGV2KQpweXRlc3Q+PTguMC4wCnB5dGVzdC1jb3Y+PTQuMS4wCnB5dGVzdC1tb2NrPj0zLjEyLjAKCiMgTm90ZTogVGhpcyBza2lsbCB3b3JrcyB3aXRoIHNoYWRjbi91aSBhbmQgVGFpbHdpbmQgQ1NTCiMgUmVxdWlyZXMgTm9kZS5qcyBhbmQgcGFja2FnZSBtYW5hZ2VyczoKIyAgIC0gTm9kZS5qcyAxOCs6IGh0dHBzOi8vbm9kZWpzLm9yZy8KIyAgIC0gbnBtIChjb21lcyB3aXRoIE5vZGUuanMpCiMKIyBzaGFkY24vdWkgQ0xJIGlzIGluc3RhbGxlZCBwZXItcHJvamVjdDoKIyAgIG5weCBzaGFkY24tdWlAbGF0ZXN0IGluaXQK
+# UI Styling Skill Dependencies
+# Python 3.10+ required
+
+# No Python package dependencies - uses only standard library
+
+# Testing dependencies (dev)
+pytest>=8.0.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Note: This skill works with shadcn/ui and Tailwind CSS
+# Requires Node.js and package managers:
+#   - Node.js 18+: https://nodejs.org/
+#   - npm (comes with Node.js)
+#
+# shadcn/ui CLI is installed per-project:
+#   npx shadcn-ui@latest init

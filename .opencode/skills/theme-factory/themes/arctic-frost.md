@@ -1,1 +1,19 @@
-IyBBcmN0aWMgRnJvc3QKCkEgY29vbCBhbmQgY3Jpc3Agd2ludGVyLWluc3BpcmVkIHRoZW1lIHRoYXQgY29udmV5cyBjbGFyaXR5LCBwcmVjaXNpb24sIGFuZCBwcm9mZXNzaW9uYWxpc20uCgojIyBDb2xvciBQYWxldHRlCgotICoqSWNlIEJsdWUqKjogYCNkNGU0ZjdgIC0gTGlnaHQgYmFja2dyb3VuZHMgYW5kIGhpZ2hsaWdodHMKLSAqKlN0ZWVsIEJsdWUqKjogYCM0YTZmYTVgIC0gUHJpbWFyeSBhY2NlbnQgY29sb3IKLSAqKlNpbHZlcioqOiBgI2MwYzBjMGAgLSBNZXRhbGxpYyBhY2NlbnQgZWxlbWVudHMKLSAqKkNyaXNwIFdoaXRlKio6IGAjZmFmYWZhYCAtIENsZWFuIGJhY2tncm91bmRzIGFuZCB0ZXh0CgojIyBUeXBvZ3JhcGh5CgotICoqSGVhZGVycyoqOiBEZWphVnUgU2FucyBCb2xkCi0gKipCb2R5IFRleHQqKjogRGVqYVZ1IFNhbnMKCiMjIEJlc3QgVXNlZCBGb3IKCkhlYWx0aGNhcmUgcHJlc2VudGF0aW9ucywgdGVjaG5vbG9neSBzb2x1dGlvbnMsIHdpbnRlciBzcG9ydHMsIGNsZWFuIHRlY2gsIHBoYXJtYWNldXRpY2FsIGNvbnRlbnQuCg==
+# Arctic Frost
+
+A cool and crisp winter-inspired theme that conveys clarity, precision, and professionalism.
+
+## Color Palette
+
+- **Ice Blue**: `#d4e4f7` - Light backgrounds and highlights
+- **Steel Blue**: `#4a6fa5` - Primary accent color
+- **Silver**: `#c0c0c0` - Metallic accent elements
+- **Crisp White**: `#fafafa` - Clean backgrounds and text
+
+## Typography
+
+- **Headers**: DejaVu Sans Bold
+- **Body Text**: DejaVu Sans
+
+## Best Used For
+
+Healthcare presentations, technology solutions, winter sports, clean tech, pharmaceutical content.

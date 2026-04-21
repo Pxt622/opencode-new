@@ -1,1 +1,59 @@
-LS0tCm5hbWU6IHRoZW1lLWZhY3RvcnkKZGVzY3JpcHRpb246IFRvb2xraXQgZm9yIHN0eWxpbmcgYXJ0aWZhY3RzIHdpdGggYSB0aGVtZS4gVGhlc2UgYXJ0aWZhY3RzIGNhbiBiZSBzbGlkZXMsIGRvY3MsIHJlcG9ydGluZ3MsIEhUTUwgbGFuZGluZyBwYWdlcywgZXRjLiBUaGVyZSBhcmUgMTAgcHJlLXNldCB0aGVtZXMgd2l0aCBjb2xvcnMvZm9udHMgdGhhdCB5b3UgY2FuIGFwcGx5IHRvIGFueSBhcnRpZmFjdCB0aGF0IGhhcyBiZWVuIGNyZWF0aW5nLCBvciBjYW4gZ2VuZXJhdGUgYSBuZXcgdGhlbWUgb24tdGhlLWZseS4KbGljZW5zZTogQ29tcGxldGUgdGVybXMgaW4gTElDRU5TRS50eHQKLS0tCgoKIyBUaGVtZSBGYWN0b3J5IFNraWxsCgpUaGlzIHNraWxsIHByb3ZpZGVzIGEgY3VyYXRlZCBjb2xsZWN0aW9uIG9mIHByb2Zlc3Npb25hbCBmb250IGFuZCBjb2xvciB0aGVtZXMgdGhlbWVzLCBlYWNoIHdpdGggY2FyZWZ1bGx5IHNlbGVjdGVkIGNvbG9yIHBhbGV0dGVzIGFuZCBmb250IHBhaXJpbmdzLiBPbmNlIGEgdGhlbWUgaXMgY2hvc2VuLCBpdCBjYW4gYmUgYXBwbGllZCB0byBhbnkgYXJ0aWZhY3QuCgojIyBQdXJwb3NlCgpUbyBhcHBseSBjb25zaXN0ZW50LCBwcm9mZXNzaW9uYWwgc3R5bGluZyB0byBwcmVzZW50YXRpb24gc2xpZGUgZGVja3MsIHVzZSB0aGlzIHNraWxsLiBFYWNoIHRoZW1lIGluY2x1ZGVzOgotIEEgY29oZXNpdmUgY29sb3IgcGFsZXR0ZSB3aXRoIGhleCBjb2RlcwotIENvbXBsZW1lbnRhcnkgZm9udCBwYWlyaW5ncyBmb3IgaGVhZGVycyBhbmQgYm9keSB0ZXh0Ci0gQSBkaXN0aW5jdCB2aXN1YWwgaWRlbnRpdHkgc3VpdGFibGUgZm9yIGRpZmZlcmVudCBjb250ZXh0cyBhbmQgYXVkaWVuY2VzCgojIyBVc2FnZSBJbnN0cnVjdGlvbnMKClRvIGFwcGx5IHN0eWxpbmcgdG8gYSBzbGlkZSBkZWNrIG9yIG90aGVyIGFydGlmYWN0OgoKMS4gKipTaG93IHRoZSB0aGVtZSBzaG93Y2FzZSoqOiBEaXNwbGF5IHRoZSBgdGhlbWUtc2hvd2Nhc2UucGRmYCBmaWxlIHRvIGFsbG93IHVzZXJzIHRvIHNlZSBhbGwgYXZhaWxhYmxlIHRoZW1lcyB2aXN1YWxseS4gRG8gbm90IG1ha2UgYW55IG1vZGlmaWNhdGlvbnMgdG8gaXQ7IHNpbXBseSBzaG93IHRoZSBmaWxlIGZvciB2aWV3aW5nLgoyLiAqKkFzayBmb3IgdGhlaXIgY2hvaWNlKio6IEFzayB3aGljaCB0aGVtZSB0byBhcHBseSB0byB0aGUgZGVjawozLiAqKldhaXQgZm9yIHNlbGVjdGlvbioqOiBHZXQgZXhwbGljaXQgY29uZmlybWF0aW9uIGFib3V0IHRoZSBjaG9zZW4gdGhlbWUKNC4gKipBcHBseSB0aGUgdGhlbWUqKjogT25jZSBhIHRoZW1lIGhhcyBiZWVuIGNob3NlbiwgYXBwbHkgdGhlIHNlbGVjdGVkIHRoZW1lJ3MgY29sb3JzIGFuZCBmb250cyB0byB0aGUgZGVjay9hcnRpZmFjdAoKIyMgVGhlbWVzIEF2YWlsYWJsZQoKVGhlIGZvbGxvd2luZyAxMCB0aGVtZXMgYXJlIGF2YWlsYWJsZSwgZWFjaCBzaG93Y2FzZWQgaW4gYHRoZW1lLXNob3djYXNlLnBkZmA6CgoxLiAqKk9jZWFuIERlcHRocyoqIC0gUHJvZmVzc2lvbmFsIGFuZCBjYWxtaW5nIG1hcml0aW1lIHRoZW1lCjIuICoqU3Vuc2V0IEJvdWxldmFyZCoqIC0gV2FybSBhbmQgdmlicmFudCBzdW5zZXQgY29sb3JzCjMuICoqRm9yZXN0IENhbm9weSoqIC0gTmF0dXJhbCBhbmQgZ3JvdW5kZWQgZWFydGggdG9uZXMKNC4gKipNb2Rlcm4gTWluaW1hbGlzdCoqIC0gQ2xlYW4gYW5kIGNvbnRlbXBvcmFyeSBncmF5c2NhbGUKNS4gKipHb2xkZW4gSG91cioqIC0gUmljaCBhbmQgd2FybSBhdXR1bW5hbCBwYWxldHRlCjYuICoqQXJjdGljIEZyb3N0KiogLSBDb29sIGFuZCBjcmlzcCB3aW50ZXItaW5zcGlyZWQgdGhlbWUKNy4gKipEZXNlcnQgUm9zZSoqIC0gU29mdCBhbmQgc29waGlzdGljYXRlZCBkdXN0eSB0b25lcwo4LiAqKlRlY2ggSW5ub3ZhdGlvbioqIC0gQm9sZCBhbmQgbW9kZXJuIHRlY2ggYWVzdGhldGljCjkuICoqQm90YW5pY2FsIEdhcmRlbioqIC0gRnJlc2ggYW5kIG9yZ2FuaWMgZ2FyZGVuIGNvbG9ycwoxMC4gKipNaWRuaWdodCBHYWxheHkqKiAtIERyYW1hdGljIGFuZCBjb3NtaWMgZGVlcCB0b25lcwoKIyMgVGhlbWUgRGV0YWlscwoKRWFjaCB0aGVtZSBpcyBkZWZpbmVkIGluIHRoZSBgdGhlbWVzL2AgZGlyZWN0b3J5IHdpdGggY29tcGxldGUgc3BlY2lmaWNhdGlvbnMgaW5jbHVkaW5nOgotIENvaGVzaXZlIGNvbG9yIHBhbGV0dGUgd2l0aCBoZXggY29kZXMKLSBDb21wbGVtZW50YXJ5IGZvbnQgcGFpcmluZ3MgZm9yIGhlYWRlcnMgYW5kIGJvZHkgdGV4dAotIERpc3RpbmN0IHZpc3VhbCBpZGVudGl0eSBzdWl0YWJsZSBmb3IgZGlmZmVyZW50IGNvbnRleHRzIGFuZCBhdWRpZW5jZXMKCiMjIEFwcGxpY2F0aW9uIFByb2Nlc3MKCkFmdGVyIGEgcHJlZmVycmVkIHRoZW1lIGlzIHNlbGVjdGVkOgoxLiBSZWFkIHRoZSBjb3JyZXNwb25kaW5nIHRoZW1lIGZpbGUgZnJvbSB0aGUgYHRoZW1lcy9gIGRpcmVjdG9yeQoyLiBBcHBseSB0aGUgc3BlY2lmaWVkIGNvbG9ycyBhbmQgZm9udHMgY29uc2lzdGVudGx5IHRocm91Z2hvdXQgdGhlIGRlY2sKMy4gRW5zdXJlIHByb3BlciBjb250cmFzdCBhbmQgcmVhZGFiaWxpdHkKNC4gTWFpbnRhaW4gdGhlIHRoZW1lJ3MgdmlzdWFsIGlkZW50aXR5IGFjcm9zcyBhbGwgc2xpZGVzCgojIyBDcmVhdGUgeW91ciBPd24gVGhlbWUKVG8gaGFuZGxlIGNhc2VzIHdoZXJlIG5vbmUgb2YgdGhlIGV4aXN0aW5nIHRoZW1lcyB3b3JrIGZvciBhbiBhcnRpZmFjdCwgY3JlYXRlIGEgY3VzdG9tIHRoZW1lLiBCYXNlZCBvbiBwcm92aWRlZCBpbnB1dHMsIGdlbmVyYXRlIGEgbmV3IHRoZW1lIHNpbWlsYXIgdG8gdGhlIG9uZXMgYWJvdmUuIEdpdmUgdGhlIHRoZW1lIGEgc2ltaWxhciBuYW1lIGRlc2NyaWJpbmcgd2hhdCB0aGUgZm9udC9jb2xvciBjb21iaW5hdGlvbnMgcmVwcmVzZW50LiBVc2UgYW55IGJhc2ljIGRlc2NyaXB0aW9uIHByb3ZpZGVkIHRvIGNob29zZSBhcHByb3ByaWF0ZSBjb2xvcnMvZm9udHMuIEFmdGVyIGdlbmVyYXRpbmcgdGhlIHRoZW1lLCBzaG93IGl0IGZvciByZXZpZXcgYW5kIHZlcmlmaWNhdGlvbi4gRm9sbG93aW5nIHRoYXQsIGFwcGx5IHRoZSB0aGVtZSBhcyBkZXNjcmliZWQgYWJvdmUuCg==
+---
+name: theme-factory
+description: Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.
+license: Complete terms in LICENSE.txt
+---
+
+
+# Theme Factory Skill
+
+This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.
+
+## Purpose
+
+To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes:
+- A cohesive color palette with hex codes
+- Complementary font pairings for headers and body text
+- A distinct visual identity suitable for different contexts and audiences
+
+## Usage Instructions
+
+To apply styling to a slide deck or other artifact:
+
+1. **Show the theme showcase**: Display the `theme-showcase.pdf` file to allow users to see all available themes visually. Do not make any modifications to it; simply show the file for viewing.
+2. **Ask for their choice**: Ask which theme to apply to the deck
+3. **Wait for selection**: Get explicit confirmation about the chosen theme
+4. **Apply the theme**: Once a theme has been chosen, apply the selected theme's colors and fonts to the deck/artifact
+
+## Themes Available
+
+The following 10 themes are available, each showcased in `theme-showcase.pdf`:
+
+1. **Ocean Depths** - Professional and calming maritime theme
+2. **Sunset Boulevard** - Warm and vibrant sunset colors
+3. **Forest Canopy** - Natural and grounded earth tones
+4. **Modern Minimalist** - Clean and contemporary grayscale
+5. **Golden Hour** - Rich and warm autumnal palette
+6. **Arctic Frost** - Cool and crisp winter-inspired theme
+7. **Desert Rose** - Soft and sophisticated dusty tones
+8. **Tech Innovation** - Bold and modern tech aesthetic
+9. **Botanical Garden** - Fresh and organic garden colors
+10. **Midnight Galaxy** - Dramatic and cosmic deep tones
+
+## Theme Details
+
+Each theme is defined in the `themes/` directory with complete specifications including:
+- Cohesive color palette with hex codes
+- Complementary font pairings for headers and body text
+- Distinct visual identity suitable for different contexts and audiences
+
+## Application Process
+
+After a preferred theme is selected:
+1. Read the corresponding theme file from the `themes/` directory
+2. Apply the specified colors and fonts consistently throughout the deck
+3. Ensure proper contrast and readability
+4. Maintain the theme's visual identity across all slides
+
+## Create your Own Theme
+To handle cases where none of the existing themes work for an artifact, create a custom theme. Based on provided inputs, generate a new theme similar to the ones above. Give the theme a similar name describing what the font/color combinations represent. Use any basic description provided to choose appropriate colors/fonts. After generating the theme, show it for review and verification. Following that, apply the theme as described above.

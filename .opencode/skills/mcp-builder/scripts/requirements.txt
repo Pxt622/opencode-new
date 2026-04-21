@@ -1,1 +1,2 @@
-YW50aHJvcGljPj0wLjM5LjAKbWNwPj0xLjEuMAo=
+anthropic>=0.39.0
+mcp>=1.1.0

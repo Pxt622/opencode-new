@@ -1,1 +1,362 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKTG9nbyBHZW5lcmF0aW9uIFNjcmlwdCB1c2luZyBHZW1pbmkgTmFubyBCYW5hbmEgQVBJClVzZXMgR2VtaW5pIDIuNSBGbGFzaCBJbWFnZSBhbmQgR2VtaW5pIDMgUHJvIEltYWdlIFByZXZpZXcgbW9kZWxzCgpNb2RlbHM6Ci0gTmFubyBCYW5hbmEgKGRlZmF1bHQpOiBnZW1pbmktMi41LWZsYXNoLWltYWdlIC0gZmFzdCwgaGlnaC12b2x1bWUsIGxvdy1sYXRlbmN5Ci0gTmFubyBCYW5hbmEgUHJvICgtLXBybyk6IGdlbWluaS0zLXByby1pbWFnZS1wcmV2aWV3IC0gcHJvZmVzc2lvbmFsIHF1YWxpdHksIGFkdmFuY2VkIHJlYXNvbmluZwoKVXNhZ2U6CiAgICBweXRob24gZ2VuZXJhdGUucHkgLS1wcm9tcHQgInRlY2ggc3RhcnR1cCBsb2dvIG1pbmltYWxpc3QgYmx1ZSIKICAgIHB5dGhvbiBnZW5lcmF0ZS5weSAtLXByb21wdCAiY29mZmVlIHNob3AgdmludGFnZSBiYWRnZSIgLS1zdHlsZSB2aW50YWdlIC0tb3V0cHV0IGxvZ28ucG5nCiAgICBweXRob24gZ2VuZXJhdGUucHkgLS1icmFuZCAiVGVjaEZsb3ciIC0taW5kdXN0cnkgdGVjaCAtLXN0eWxlIG1pbmltYWxpc3QKICAgIHB5dGhvbiBnZW5lcmF0ZS5weSAtLWJyYW5kICJUZWNoRmxvdyIgLS1wcm8gICMgVXNlIE5hbm8gQmFuYW5hIFBybyBtb2RlbAoKQmF0Y2ggbW9kZSAoZ2VuZXJhdGVzIG11bHRpcGxlIHZhcmlhbnRzKToKICAgIHB5dGhvbiBnZW5lcmF0ZS5weSAtLWJyYW5kICJVbmlrb3JuIiAtLWJhdGNoIDkgLS1vdXRwdXQtZGlyIC4vbG9nb3MgLS1wcm8KIiIiCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IG9zCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgojIExvYWQgZW52aXJvbm1lbnQgdmFyaWFibGVzCmRlZiBsb2FkX2VudigpOgogICAgIiIiTG9hZCAuZW52IGZpbGVzIGluIHByaW9yaXR5IG9yZGVyIiIiCiAgICBlbnZfcGF0aHMgPSBbCiAgICAgICAgUGF0aChfX2ZpbGVfXykucGFyZW50LnBhcmVudC5wYXJlbnQgLyAiLmVudiIsCiAgICAgICAgUGF0aC5ob21lKCkgLyAiLmNsYXVkZSIgLyAic2tpbGxzIiAvICIuZW52IiwKICAgICAgICBQYXRoLmhvbWUoKSAvICIuY2xhdWRlIiAvICIuZW52IgogICAgXQoKICAgIGZvciBlbnZfcGF0aCBpbiBlbnZfcGF0aHM6CiAgICAgICAgaWYgZW52X3BhdGguZXhpc3RzKCk6CiAgICAgICAgICAgIHdpdGggb3BlbihlbnZfcGF0aCkgYXMgZjoKICAgICAgICAgICAgICAgIGZvciBsaW5lIGluIGY6CiAgICAgICAgICAgICAgICAgICAgbGluZSA9IGxpbmUuc3RyaXAoKQogICAgICAgICAgICAgICAgICAgIGlmIGxpbmUgYW5kIG5vdCBsaW5lLnN0YXJ0c3dpdGgoJyMnKSBhbmQgJz0nIGluIGxpbmU6CiAgICAgICAgICAgICAgICAgICAgICAgIGtleSwgdmFsdWUgPSBsaW5lLnNwbGl0KCc9JywgMSkKICAgICAgICAgICAgICAgICAgICAgICAgaWYga2V5IG5vdCBpbiBvcy5lbnZpcm9uOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgb3MuZW52aXJvbltrZXldID0gdmFsdWUuc3RyaXAoJyJcJycpCgpsb2FkX2VudigpCgp0cnk6CiAgICBmcm9tIGdvb2dsZSBpbXBvcnQgZ2VuYWkKICAgIGZyb20gZ29vZ2xlLmdlbmFpIGltcG9ydCB0eXBlcwpleGNlcHQgSW1wb3J0RXJyb3I6CiAgICBwcmludCgiRXJyb3I6IGdvb2dsZS1nZW5haSBwYWNrYWdlIG5vdCBpbnN0YWxsZWQuIikKICAgIHByaW50KCJJbnN0YWxsIHdpdGg6IHBpcCBpbnN0YWxsIGdvb2dsZS1nZW5haSIpCiAgICBzeXMuZXhpdCgxKQoKCiMgPT09PT09PT09PT09IENPTkZJR1VSQVRJT04gPT09PT09PT09PT09CkdFTUlOSV9BUElfS0VZID0gb3MuZW52aXJvbi5nZXQoIkdFTUlOSV9BUElfS0VZIikKCiMgR2VtaW5pICJOYW5vIEJhbmFuYSIgbW9kZWwgY29uZmlndXJhdGlvbnMgZm9yIGltYWdlIGdlbmVyYXRpb24KR0VNSU5JX0ZMQVNIID0gImdlbWluaS0yLjUtZmxhc2gtaW1hZ2UiICAjIE5hbm8gQmFuYW5hOiBmYXN0LCBoaWdoLXZvbHVtZSwgbG93LWxhdGVuY3kKR0VNSU5JX1BSTyA9ICJnZW1pbmktMy1wcm8taW1hZ2UtcHJldmlldyIgICMgTmFubyBCYW5hbmEgUHJvOiBwcm9mZXNzaW9uYWwgcXVhbGl0eSwgYWR2YW5jZWQgcmVhc29uaW5nCgojIFN1cHBvcnRlZCBhc3BlY3QgcmF0aW9zCkFTUEVDVF9SQVRJT1MgPSBbIjE6MSIsICIxNjo5IiwgIjk6MTYiLCAiNDozIiwgIjM6NCJdCkRFRkFVTFRfQVNQRUNUX1JBVElPID0gIjE6MSIgICMgU3F1YXJlIGlzIGlkZWFsIGZvciBsb2dvcwoKIyBMb2dvLXNwZWNpZmljIHByb21wdCB0ZW1wbGF0ZXMKTE9HT19QUk9NUFRfVEVNUExBVEUgPSAiIiJHZW5lcmF0ZSBhIHByb2Zlc3Npb25hbCBsb2dvIGltYWdlOiB7cHJvbXB0fQoKU3R5bGUgcmVxdWlyZW1lbnRzOgotIENsZWFuIHZlY3Rvci1zdHlsZSBpbGx1c3RyYXRpb24gc3VpdGFibGUgZm9yIGEgbG9nbwotIFNpbXBsZSwgc2NhbGFibGUgZGVzaWduIHRoYXQgd29ya3MgYXQgYW55IHNpemUKLSBDbGVhciBzaWxob3VldHRlIGFuZCByZWNvZ25pemFibGUgc2hhcGUKLSBQcm9mZXNzaW9uYWwgcXVhbGl0eSBzdWl0YWJsZSBmb3IgYnVzaW5lc3MgdXNlCi0gQ2VudGVyZWQgY29tcG9zaXRpb24gb24gcGxhaW4gd2hpdGUgb3IgdHJhbnNwYXJlbnQgYmFja2dyb3VuZAotIE5vIHRleHQgdW5sZXNzIHNwZWNpZmljYWxseSByZXF1ZXN0ZWQKLSBIaWdoIGNvbnRyYXN0IGFuZCBjbGVhciBlZGdlcwotIFNxdWFyZSBmb3JtYXQsIHBlcmZlY3RseSBjZW50ZXJlZAotIE91dHB1dCBhcyBhIGNsZWFuLCBoaWdoLXF1YWxpdHkgbG9nbyBpbWFnZQoiIiIKClNUWUxFX01PRElGSUVSUyA9IHsKICAgICJtaW5pbWFsaXN0IjogIm1pbmltYWxpc3QsIHNpbXBsZSBnZW9tZXRyaWMgc2hhcGVzLCBjbGVhbiBsaW5lcywgbG90cyBvZiB3aGl0ZSBzcGFjZSwgc2luZ2xlIGNvbG9yIG9yIGxpbWl0ZWQgcGFsZXR0ZSIsCiAgICAidmludGFnZSI6ICJ2aW50YWdlLCByZXRybywgYmFkZ2Ugc3R5bGUsIGRpc3RyZXNzZWQgdGV4dHVyZSwgaGVyaXRhZ2UgZmVlbCwgd2FybSBlYXJ0aCB0b25lcyIsCiAgICAibW9kZXJuIjogIm1vZGVybiwgc2xlZWssIGdyYWRpZW50IGNvbG9ycywgdGVjaC1mb3J3YXJkLCBpbm5vdmF0aXZlIGZlZWwiLAogICAgImx1eHVyeSI6ICJsdXh1cnksIGVsZWdhbnQsIGdvbGQgYWNjZW50cywgcmVmaW5lZCwgcHJlbWl1bSBmZWVsLCBzZXJpZiB0eXBvZ3JhcGh5IiwKICAgICJwbGF5ZnVsIjogInBsYXlmdWwsIGZ1biwgY29sb3JmdWwsIGZyaWVuZGx5LCBhcHByb2FjaGFibGUsIHJvdW5kZWQgc2hhcGVzIiwKICAgICJjb3Jwb3JhdGUiOiAiY29ycG9yYXRlLCBwcm9mZXNzaW9uYWwsIHRydXN0d29ydGh5LCBzdGFibGUsIGNvbnNlcnZhdGl2ZSBjb2xvcnMiLAogICAgIm9yZ2FuaWMiOiAib3JnYW5pYywgbmF0dXJhbCwgZmxvd2luZyBsaW5lcywgZWFydGggdG9uZXMsIHN1c3RhaW5hYmxlIGZlZWwiLAogICAgImdlb21ldHJpYyI6ICJnZW9tZXRyaWMsIGFic3RyYWN0LCBtYXRoZW1hdGljYWwgcHJlY2lzaW9uLCBzeW1tZXRyaWNhbCIsCiAgICAiaGFuZC1kcmF3biI6ICJoYW5kLWRyYXduLCBhcnRpc2FuLCBza2V0Y2gtbGlrZSwgYXV0aGVudGljLCBpbXBlcmZlY3QgbGluZXMiLAogICAgIjNkIjogIjNELCBkaW1lbnNpb25hbCwgZGVwdGgsIHNoYWRvd3MsIGlzb21ldHJpYyBwZXJzcGVjdGl2ZSIsCiAgICAiYWJzdHJhY3QiOiAiYWJzdHJhY3QgbWFyaywgY29uY2VwdHVhbCwgc3ltYm9saWMsIG5vbi1saXRlcmFsIHJlcHJlc2VudGF0aW9uLCBhcnRpc3RpYyBpbnRlcnByZXRhdGlvbiIsCiAgICAibGV0dGVybWFyayI6ICJsZXR0ZXJtYXJrLCBzaW5nbGUgbGV0dGVyIG9yIGluaXRpYWxzLCB0eXBvZ3JhcGhpYywgbW9ub2dyYW0gc3R5bGUsIGRpc3RpbmN0aXZlIGNoYXJhY3RlciIsCiAgICAid29yZG1hcmsiOiAid29yZG1hcmssIGxvZ290eXBlLCBjdXN0b20gdHlwb2dyYXBoeSwgYnJhbmQgbmFtZSBhcyBsb2dvLCBkaXN0aW5jdGl2ZSBsZXR0ZXJpbmciLAogICAgImVtYmxlbSI6ICJlbWJsZW0sIGJhZGdlLCBjcmVzdCBzdHlsZSwgZW5jbG9zZWQgZGVzaWduLCB0cmFkaXRpb25hbCwgYXV0aG9yaXRhdGl2ZSBmZWVsIiwKICAgICJtYXNjb3QiOiAibWFzY290LCBjaGFyYWN0ZXIsIGZyaWVuZGx5IGZhY2UsIHBlcnNvbmlmaWVkLCBtZW1vcmFibGUgZmlndXJlIiwKICAgICJncmFkaWVudCI6ICJncmFkaWVudCwgY29sb3IgdHJhbnNpdGlvbiwgdmlicmFudCwgbW9kZXJuIGRpZ2l0YWwgZmVlbCwgc21vb3RoIGNvbG9yIGZsb3ciLAogICAgImxpbmVhcnQiOiAibGluZSBhcnQsIHNpbmdsZSBzdHJva2UsIGNvbnRpbnVvdXMgbGluZSwgZWxlZ2FudCBzaW1wbGljaXR5LCB3aXJlLWZyYW1lIHN0eWxlIiwKICAgICJuZWdhdGl2ZS1zcGFjZSI6ICJuZWdhdGl2ZSBzcGFjZSwgY2xldmVyIHVzZSBvZiB3aGl0ZSBzcGFjZSwgaGlkZGVuIG1lYW5pbmcsIGR1YWwgaW1hZ2VyeSwgb3B0aWNhbCBpbGx1c2lvbiIKfQoKSU5EVVNUUllfUFJPTVBUUyA9IHsKICAgICJ0ZWNoIjogInRlY2hub2xvZ3kgY29tcGFueSwgZGlnaXRhbCwgaW5ub3ZhdGl2ZSwgbW9kZXJuLCBjaXJjdWl0LWxpa2UgZWxlbWVudHMiLAogICAgImhlYWx0aGNhcmUiOiAiaGVhbHRoY2FyZSwgbWVkaWNhbCwgY2FyaW5nLCB0cnVzdCwgY3Jvc3Mgb3IgaGVhcnQgc3ltYm9sIiwKICAgICJmaW5hbmNlIjogImZpbmFuY2lhbCBzZXJ2aWNlcywgc3RhYmxlLCB0cnVzdHdvcnRoeSwgZ3Jvd3RoLCB1cHdhcmQgZWxlbWVudHMiLAogICAgImZvb2QiOiAiZm9vZCBhbmQgYmV2ZXJhZ2UsIGFwcGV0aXppbmcsIHdhcm0gY29sb3JzLCB3ZWxjb21pbmciLAogICAgImZhc2hpb24iOiAiZmFzaGlvbiBicmFuZCwgZWxlZ2FudCwgc3R5bGlzaCwgcmVmaW5lZCwgYXJ0aXN0aWMiLAogICAgImZpdG5lc3MiOiAiZml0bmVzcyBhbmQgc3BvcnRzLCBkeW5hbWljLCBlbmVyZ2V0aWMsIHBvd2VyZnVsLCBtb3ZlbWVudCIsCiAgICAiZWNvIjogImVjby1mcmllbmRseSwgc3VzdGFpbmFibGUsIG5hdHVyYWwsIGdyZWVuLCBsZWFmIG9yIGVhcnRoIGVsZW1lbnRzIiwKICAgICJlZHVjYXRpb24iOiAiZWR1Y2F0aW9uLCBrbm93bGVkZ2UsIGdyb3d0aCwgbGVhcm5pbmcsIGJvb2sgb3IgY2FwIHN5bWJvbCIsCiAgICAicmVhbC1lc3RhdGUiOiAicmVhbCBlc3RhdGUsIHByb3BlcnR5LCBob21lLCByb29mIG9yIGJ1aWxkaW5nIHNpbGhvdWV0dGUiLAogICAgImNyZWF0aXZlIjogImNyZWF0aXZlIGFnZW5jeSwgYXJ0aXN0aWMsIHVuaXF1ZSwgZXhwcmVzc2l2ZSwgY29sb3JmdWwiCn0KCgpkZWYgZW5oYW5jZV9wcm9tcHQoYmFzZV9wcm9tcHQsIHN0eWxlPU5vbmUsIGluZHVzdHJ5PU5vbmUsIGJyYW5kX25hbWU9Tm9uZSk6CiAgICAiIiJFbmhhbmNlIHRoZSBsb2dvIHByb21wdCB3aXRoIHN0eWxlIGFuZCBpbmR1c3RyeSBtb2RpZmllcnMiIiIKICAgIHByb21wdF9wYXJ0cyA9IFtiYXNlX3Byb21wdF0KCiAgICBpZiBzdHlsZSBhbmQgc3R5bGUgaW4gU1RZTEVfTU9ESUZJRVJTOgogICAgICAgIHByb21wdF9wYXJ0cy5hcHBlbmQoU1RZTEVfTU9ESUZJRVJTW3N0eWxlXSkKCiAgICBpZiBpbmR1c3RyeSBhbmQgaW5kdXN0cnkgaW4gSU5EVVNUUllfUFJPTVBUUzoKICAgICAgICBwcm9tcHRfcGFydHMuYXBwZW5kKElORFVTVFJZX1BST01QVFNbaW5kdXN0cnldKQoKICAgIGlmIGJyYW5kX25hbWU6CiAgICAgICAgcHJvbXB0X3BhcnRzLmluc2VydCgwLCBmIkxvZ28gZm9yICd7YnJhbmRfbmFtZX0nOiIpCgogICAgY29tYmluZWQgPSAiLCAiLmpvaW4ocHJvbXB0X3BhcnRzKQogICAgcmV0dXJuIExPR09fUFJPTVBUX1RFTVBMQVRFLmZvcm1hdChwcm9tcHQ9Y29tYmluZWQpCgoKZGVmIGdlbmVyYXRlX2xvZ28ocHJvbXB0LCBzdHlsZT1Ob25lLCBpbmR1c3RyeT1Ob25lLCBicmFuZF9uYW1lPU5vbmUsCiAgICAgICAgICAgICAgICAgIG91dHB1dF9wYXRoPU5vbmUsIHVzZV9wcm89RmFsc2UsIGFzcGVjdF9yYXRpbz1Ob25lKToKICAgICIiIkdlbmVyYXRlIGEgbG9nbyB1c2luZyBHZW1pbmkgbW9kZWxzIHdpdGggaW1hZ2UgZ2VuZXJhdGlvbgoKICAgIEFyZ3M6CiAgICAgICAgYXNwZWN0X3JhdGlvOiBJbWFnZSBhc3BlY3QgcmF0aW8uIE9wdGlvbnM6ICIxOjEiLCAiMTY6OSIsICI5OjE2IiwgIjQ6MyIsICIzOjQiCiAgICAgICAgICAgICAgICAgICAgICBEZWZhdWx0IGlzICIxOjEiIChzcXVhcmUpIGZvciBsb2dvcy4KICAgICIiIgoKICAgIGlmIG5vdCBHRU1JTklfQVBJX0tFWToKICAgICAgICBwcmludCgiRXJyb3I6IEdFTUlOSV9BUElfS0VZIG5vdCBzZXQiKQogICAgICAgIHByaW50KCJTZXQgaXQgd2l0aDogZXhwb3J0IEdFTUlOSV9BUElfS0VZPSd5b3VyLWtleSciKQogICAgICAgIHJldHVybiBOb25lCgogICAgIyBJbml0aWFsaXplIGNsaWVudAogICAgY2xpZW50ID0gZ2VuYWkuQ2xpZW50KGFwaV9rZXk9R0VNSU5JX0FQSV9LRVkpCgogICAgIyBFbmhhbmNlIHRoZSBwcm9tcHQKICAgIGZ1bGxfcHJvbXB0ID0gZW5oYW5jZV9wcm9tcHQocHJvbXB0LCBzdHlsZSwgaW5kdXN0cnksIGJyYW5kX25hbWUpCgogICAgIyBTZWxlY3QgbW9kZWwKICAgIG1vZGVsID0gR0VNSU5JX1BSTyBpZiB1c2VfcHJvIGVsc2UgR0VNSU5JX0ZMQVNICiAgICBtb2RlbF9sYWJlbCA9ICJOYW5vIEJhbmFuYSBQcm8gKGdlbWluaS0zLXByby1pbWFnZS1wcmV2aWV3KSIgaWYgdXNlX3BybyBlbHNlICJOYW5vIEJhbmFuYSAoZ2VtaW5pLTIuNS1mbGFzaC1pbWFnZSkiCgogICAgIyBTZXQgYXNwZWN0IHJhdGlvIChkZWZhdWx0IHRvIDE6MSBmb3IgbG9nb3MpCiAgICByYXRpbyA9IGFzcGVjdF9yYXRpbyBpZiBhc3BlY3RfcmF0aW8gaW4gQVNQRUNUX1JBVElPUyBlbHNlIERFRkFVTFRfQVNQRUNUX1JBVElPCgogICAgcHJpbnQoZiJHZW5lcmF0aW5nIGxvZ28gd2l0aCB7bW9kZWxfbGFiZWx9Li4uIikKICAgIHByaW50KGYiQXNwZWN0IHJhdGlvOiB7cmF0aW99IikKICAgIHByaW50KGYiUHJvbXB0OiB7ZnVsbF9wcm9tcHRbOjE1MF19Li4uIikKICAgIHByaW50KCkKCiAgICB0cnk6CiAgICAgICAgIyBHZW5lcmF0ZSBpbWFnZSB1c2luZyBHZW1pbmkgd2l0aCBpbWFnZSBnZW5lcmF0aW9uIGNhcGFiaWxpdHkKICAgICAgICByZXNwb25zZSA9IGNsaWVudC5tb2RlbHMuZ2VuZXJhdGVfY29udGVudCgKICAgICAgICAgICAgbW9kZWw9bW9kZWwsCiAgICAgICAgICAgIGNvbnRlbnRzPWZ1bGxfcHJvbXB0LAogICAgICAgICAgICBjb25maWc9dHlwZXMuR2VuZXJhdGVDb250ZW50Q29uZmlnKAogICAgICAgICAgICAgICAgcmVzcG9uc2VfbW9kYWxpdGllcz1bIklNQUdFIiwgIlRFWFQiXSwKICAgICAgICAgICAgICAgIGltYWdlX2NvbmZpZz10eXBlcy5JbWFnZUNvbmZpZygKICAgICAgICAgICAgICAgICAgICBhc3BlY3RfcmF0aW89cmF0aW8KICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICBzYWZldHlfc2V0dGluZ3M9WwogICAgICAgICAgICAgICAgICAgIHR5cGVzLlNhZmV0eVNldHRpbmcoCiAgICAgICAgICAgICAgICAgICAgICAgIGNhdGVnb3J5PSJIQVJNX0NBVEVHT1JZX0hBVEVfU1BFRUNIIiwKICAgICAgICAgICAgICAgICAgICAgICAgdGhyZXNob2xkPSJCTE9DS19MT1dfQU5EX0FCT1ZFIgogICAgICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgICAgICAgICAgdHlwZXMuU2FmZXR5U2V0dGluZygKICAgICAgICAgICAgICAgICAgICAgICAgY2F0ZWdvcnk9IkhBUk1fQ0FURUdPUllfREFOR0VST1VTX0NPTlRFTlQiLAogICAgICAgICAgICAgICAgICAgICAgICB0aHJlc2hvbGQ9IkJMT0NLX0xPV19BTkRfQUJPVkUiCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgICAgICB0eXBlcy5TYWZldHlTZXR0aW5nKAogICAgICAgICAgICAgICAgICAgICAgICBjYXRlZ29yeT0iSEFSTV9DQVRFR09SWV9TRVhVQUxMWV9FWFBMSUNJVCIsCiAgICAgICAgICAgICAgICAgICAgICAgIHRocmVzaG9sZD0iQkxPQ0tfTE9XX0FORF9BQk9WRSIKICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgIHR5cGVzLlNhZmV0eVNldHRpbmcoCiAgICAgICAgICAgICAgICAgICAgICAgIGNhdGVnb3J5PSJIQVJNX0NBVEVHT1JZX0hBUkFTU01FTlQiLAogICAgICAgICAgICAgICAgICAgICAgICB0aHJlc2hvbGQ9IkJMT0NLX0xPV19BTkRfQUJPVkUiCiAgICAgICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgKQogICAgICAgICkKCiAgICAgICAgIyBFeHRyYWN0IGltYWdlIGZyb20gcmVzcG9uc2UKICAgICAgICBpbWFnZV9kYXRhID0gTm9uZQogICAgICAgIGZvciBwYXJ0IGluIHJlc3BvbnNlLmNhbmRpZGF0ZXNbMF0uY29udGVudC5wYXJ0czoKICAgICAgICAgICAgaWYgaGFzYXR0cihwYXJ0LCAnaW5saW5lX2RhdGEnKSBhbmQgcGFydC5pbmxpbmVfZGF0YToKICAgICAgICAgICAgICAgIGlmIHBhcnQuaW5saW5lX2RhdGEubWltZV90eXBlLnN0YXJ0c3dpdGgoJ2ltYWdlLycpOgogICAgICAgICAgICAgICAgICAgIGltYWdlX2RhdGEgPSBwYXJ0LmlubGluZV9kYXRhLmRhdGEKICAgICAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICBpZiBub3QgaW1hZ2VfZGF0YToKICAgICAgICAgICAgcHJpbnQoIk5vIGltYWdlIGdlbmVyYXRlZC4gVGhlIG1vZGVsIG1heSBub3QgaGF2ZSBwcm9kdWNlZCBhbiBpbWFnZS4iKQogICAgICAgICAgICBwcmludCgiVHJ5IGEgZGlmZmVyZW50IHByb21wdCBvciBjaGVjayBpZiB0aGUgbW9kZWwgc3VwcG9ydHMgaW1hZ2UgZ2VuZXJhdGlvbi4iKQogICAgICAgICAgICByZXR1cm4gTm9uZQoKICAgICAgICAjIERldGVybWluZSBvdXRwdXQgcGF0aAogICAgICAgIGlmIG91dHB1dF9wYXRoIGlzIE5vbmU6CiAgICAgICAgICAgIHRpbWVzdGFtcCA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWSVtJWRfJUglTSVTIikKICAgICAgICAgICAgYnJhbmRfc2x1ZyA9IGJyYW5kX25hbWUubG93ZXIoKS5yZXBsYWNlKCIgIiwgIl8iKSBpZiBicmFuZF9uYW1lIGVsc2UgImxvZ28iCiAgICAgICAgICAgIG91dHB1dF9wYXRoID0gZiJ7YnJhbmRfc2x1Z31fe3RpbWVzdGFtcH0ucG5nIgoKICAgICAgICAjIFNhdmUgaW1hZ2UKICAgICAgICB3aXRoIG9wZW4ob3V0cHV0X3BhdGgsICJ3YiIpIGFzIGY6CiAgICAgICAgICAgIGYud3JpdGUoaW1hZ2VfZGF0YSkKCiAgICAgICAgcHJpbnQoZiJMb2dvIHNhdmVkIHRvOiB7b3V0cHV0X3BhdGh9IikKICAgICAgICByZXR1cm4gb3V0cHV0X3BhdGgKCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgcHJpbnQoZiJFcnJvciBnZW5lcmF0aW5nIGxvZ286IHtlfSIpCiAgICAgICAgcmV0dXJuIE5vbmUKCgpkZWYgZ2VuZXJhdGVfYmF0Y2gocHJvbXB0LCBicmFuZF9uYW1lLCBjb3VudCwgb3V0cHV0X2RpciwgdXNlX3Bybz1GYWxzZSwgYnJhbmRfY29udGV4dD1Ob25lLCBhc3BlY3RfcmF0aW89Tm9uZSk6CiAgICAiIiJHZW5lcmF0ZSBtdWx0aXBsZSBsb2dvIHZhcmlhbnRzIHdpdGggZGlmZmVyZW50IHN0eWxlcyIiIgoKICAgICMgU2VsZWN0IGFwcHJvcHJpYXRlIHN0eWxlcyBmb3IgYmF0Y2ggZ2VuZXJhdGlvbgogICAgYmF0Y2hfc3R5bGVzID0gWwogICAgICAgICgibWluaW1hbGlzdCIsICJDbGVhbiwgc2ltcGxlIGdlb21ldHJpYyBzaGFwZSB3aXRoIG1pbmltYWwgZGV0YWlscyIpLAogICAgICAgICgibW9kZXJuIiwgIlNsZWVrIGdyYWRpZW50IHdpdGggdGVjaC1mb3J3YXJkIGFlc3RoZXRpYyIpLAogICAgICAgICgiZ2VvbWV0cmljIiwgIkFic3RyYWN0IGdlb21ldHJpYyBwYXR0ZXJucywgbWF0aGVtYXRpY2FsIHByZWNpc2lvbiIpLAogICAgICAgICgiZ3JhZGllbnQiLCAiVmlicmFudCBjb2xvciB0cmFuc2l0aW9ucywgbW9kZXJuIGRpZ2l0YWwgZmVlbCIpLAogICAgICAgICgiYWJzdHJhY3QiLCAiQ29uY2VwdHVhbCBzeW1ib2xpYyByZXByZXNlbnRhdGlvbiIpLAogICAgICAgICgibGV0dGVybWFyayIsICJTdHlsaXplZCBsZXR0ZXIgJ1UnIGFzIG1vbm9ncmFtIiksCiAgICAgICAgKCJuZWdhdGl2ZS1zcGFjZSIsICJDbGV2ZXIgdXNlIG9mIG5lZ2F0aXZlIHNwYWNlLCBoaWRkZW4gbWVhbmluZyIpLAogICAgICAgICgibGluZWFydCIsICJTaW5nbGUgc3Ryb2tlIGNvbnRpbnVvdXMgbGluZSBkZXNpZ24iKSwKICAgICAgICAoIjNkIiwgIkRpbWVuc2lvbmFsIGRlc2lnbiB3aXRoIGRlcHRoIGFuZCBzaGFkb3dzIiksCiAgICBdCgogICAgIyBFbnN1cmUgb3V0cHV0IGRpcmVjdG9yeSBleGlzdHMKICAgIG9zLm1ha2VkaXJzKG91dHB1dF9kaXIsIGV4aXN0X29rPVRydWUpCgogICAgcmVzdWx0cyA9IFtdCiAgICBtb2RlbF9sYWJlbCA9ICJQcm8iIGlmIHVzZV9wcm8gZWxzZSAiRmxhc2giCiAgICByYXRpbyA9IGFzcGVjdF9yYXRpbyBpZiBhc3BlY3RfcmF0aW8gaW4gQVNQRUNUX1JBVElPUyBlbHNlIERFRkFVTFRfQVNQRUNUX1JBVElPCgogICAgcHJpbnQoZiJcbnsnPScqNjB9IikKICAgIHByaW50KGYiICBCQVRDSCBMT0dPIEdFTkVSQVRJT046IHticmFuZF9uYW1lfSIpCiAgICBwcmludChmIiAgTW9kZWw6IE5hbm8gQmFuYW5hIHttb2RlbF9sYWJlbH0iKQogICAgcHJpbnQoZiIgIEFzcGVjdCBSYXRpbzoge3JhdGlvfSIpCiAgICBwcmludChmIiAgVmFyaWFudHM6IHtjb3VudH0iKQogICAgcHJpbnQoZiIgIE91dHB1dDoge291dHB1dF9kaXJ9IikKICAgIHByaW50KGYieyc9Jyo2MH1cbiIpCgogICAgZm9yIGkgaW4gcmFuZ2UobWluKGNvdW50LCBsZW4oYmF0Y2hfc3R5bGVzKSkpOgogICAgICAgIHN0eWxlX2tleSwgc3R5bGVfZGVzYyA9IGJhdGNoX3N0eWxlc1tpXQoKICAgICAgICAjIEJ1aWxkIGVuaGFuY2VkIHByb21wdCB3aXRoIGJyYW5kIGNvbnRleHQKICAgICAgICBlbmhhbmNlZF9wcm9tcHQgPSBmIntwcm9tcHR9LCB7c3R5bGVfZGVzY30iCiAgICAgICAgaWYgYnJhbmRfY29udGV4dDoKICAgICAgICAgICAgZW5oYW5jZWRfcHJvbXB0ID0gZiJ7YnJhbmRfY29udGV4dH0sIHtlbmhhbmNlZF9wcm9tcHR9IgoKICAgICAgICAjIEdlbmVyYXRlIGZpbGVuYW1lCiAgICAgICAgZmlsZW5hbWUgPSBmInticmFuZF9uYW1lLmxvd2VyKCkucmVwbGFjZSgnICcsICdfJyl9X3tzdHlsZV9rZXl9X3tpKzE6MDJkfS5wbmciCiAgICAgICAgb3V0cHV0X3BhdGggPSBvcy5wYXRoLmpvaW4ob3V0cHV0X2RpciwgZmlsZW5hbWUpCgogICAgICAgIHByaW50KGYiW3tpKzF9L3tjb3VudH1dIEdlbmVyYXRpbmcge3N0eWxlX2tleX0gdmFyaWFudC4uLiIpCgogICAgICAgIHJlc3VsdCA9IGdlbmVyYXRlX2xvZ28oCiAgICAgICAgICAgIHByb21wdD1lbmhhbmNlZF9wcm9tcHQsCiAgICAgICAgICAgIHN0eWxlPXN0eWxlX2tleSwKICAgICAgICAgICAgaW5kdXN0cnk9InRlY2giLAogICAgICAgICAgICBicmFuZF9uYW1lPWJyYW5kX25hbWUsCiAgICAgICAgICAgIG91dHB1dF9wYXRoPW91dHB1dF9wYXRoLAogICAgICAgICAgICB1c2VfcHJvPXVzZV9wcm8sCiAgICAgICAgICAgIGFzcGVjdF9yYXRpbz1hc3BlY3RfcmF0aW8KICAgICAgICApCgogICAgICAgIGlmIHJlc3VsdDoKICAgICAgICAgICAgcmVzdWx0cy5hcHBlbmQocmVzdWx0KQogICAgICAgICAgICBwcmludChmIiAg4pyTIFNhdmVkOiB7ZmlsZW5hbWV9XG4iKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHByaW50KGYiICDinJcgRmFpbGVkOiB7c3R5bGVfa2V5fVxuIikKCiAgICAgICAgIyBSYXRlIGxpbWl0aW5nIGJldHdlZW4gcmVxdWVzdHMKICAgICAgICBpZiBpIDwgY291bnQgLSAxOgogICAgICAgICAgICB0aW1lLnNsZWVwKDIpCgogICAgcHJpbnQoZiJcbnsnPScqNjB9IikKICAgIHByaW50KGYiICBCQVRDSCBDT01QTEVURToge2xlbihyZXN1bHRzKX0ve2NvdW50fSBsb2dvcyBnZW5lcmF0ZWQiKQogICAgcHJpbnQoZiJ7Jz0nKjYwfVxuIikKCiAgICByZXR1cm4gcmVzdWx0cwoKCmRlZiBtYWluKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0iR2VuZXJhdGUgbG9nb3MgdXNpbmcgR2VtaW5pIE5hbm8gQmFuYW5hIG1vZGVscyIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXByb21wdCIsICItcCIsIHR5cGU9c3RyLCBoZWxwPSJMb2dvIGRlc2NyaXB0aW9uIHByb21wdCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWJyYW5kIiwgIi1iIiwgdHlwZT1zdHIsIGhlbHA9IkJyYW5kIG5hbWUiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1zdHlsZSIsICItcyIsIGNob2ljZXM9bGlzdChTVFlMRV9NT0RJRklFUlMua2V5cygpKSwgaGVscD0iTG9nbyBzdHlsZSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWluZHVzdHJ5IiwgIi1pIiwgY2hvaWNlcz1saXN0KElORFVTVFJZX1BST01QVFMua2V5cygpKSwgaGVscD0iSW5kdXN0cnkgdHlwZSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIsIHR5cGU9c3RyLCBoZWxwPSJPdXRwdXQgZmlsZSBwYXRoIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tb3V0cHV0LWRpciIsIHR5cGU9c3RyLCBoZWxwPSJPdXRwdXQgZGlyZWN0b3J5IGZvciBiYXRjaCBnZW5lcmF0aW9uIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tYmF0Y2giLCB0eXBlPWludCwgaGVscD0iTnVtYmVyIG9mIGxvZ28gdmFyaWFudHMgdG8gZ2VuZXJhdGUgKGJhdGNoIG1vZGUpIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tYnJhbmQtY29udGV4dCIsIHR5cGU9c3RyLCBoZWxwPSJBZGRpdGlvbmFsIGJyYW5kIGNvbnRleHQgZm9yIHByb21wdHMiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1wcm8iLCBhY3Rpb249InN0b3JlX3RydWUiLCBoZWxwPSJVc2UgTmFubyBCYW5hbmEgUHJvIChnZW1pbmktMy1wcm8taW1hZ2UtcHJldmlldykgZm9yIHByb2Zlc3Npb25hbCBxdWFsaXR5IikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tYXNwZWN0LXJhdGlvIiwgIi1yIiwgY2hvaWNlcz1BU1BFQ1RfUkFUSU9TLCBkZWZhdWx0PURFRkFVTFRfQVNQRUNUX1JBVElPLAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPWYiSW1hZ2UgYXNwZWN0IHJhdGlvIChkZWZhdWx0OiB7REVGQVVMVF9BU1BFQ1RfUkFUSU99IGZvciBsb2dvcykiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1saXN0LXN0eWxlcyIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsIGhlbHA9Ikxpc3QgYXZhaWxhYmxlIHN0eWxlcyIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWxpc3QtaW5kdXN0cmllcyIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsIGhlbHA9Ikxpc3QgYXZhaWxhYmxlIGluZHVzdHJpZXMiKQoKICAgIGFyZ3MgPSBwYXJzZXIucGFyc2VfYXJncygpCgogICAgaWYgYXJncy5saXN0X3N0eWxlczoKICAgICAgICBwcmludCgiQXZhaWxhYmxlIHN0eWxlczoiKQogICAgICAgIGZvciBzdHlsZSwgZGVzYyBpbiBTVFlMRV9NT0RJRklFUlMuaXRlbXMoKToKICAgICAgICAgICAgcHJpbnQoZiIgIHtzdHlsZX06IHtkZXNjWzo2MF19Li4uIikKICAgICAgICByZXR1cm4KCiAgICBpZiBhcmdzLmxpc3RfaW5kdXN0cmllczoKICAgICAgICBwcmludCgiQXZhaWxhYmxlIGluZHVzdHJpZXM6IikKICAgICAgICBmb3IgaW5kdXN0cnksIGRlc2MgaW4gSU5EVVNUUllfUFJPTVBUUy5pdGVtcygpOgogICAgICAgICAgICBwcmludChmIiAge2luZHVzdHJ5fToge2Rlc2NbOjYwXX0uLi4iKQogICAgICAgIHJldHVybgoKICAgIGlmIG5vdCBhcmdzLnByb21wdCBhbmQgbm90IGFyZ3MuYnJhbmQ6CiAgICAgICAgcGFyc2VyLmVycm9yKCJFaXRoZXIgLS1wcm9tcHQgb3IgLS1icmFuZCBpcyByZXF1aXJlZCIpCgogICAgcHJvbXB0ID0gYXJncy5wcm9tcHQgb3IgInByb2Zlc3Npb25hbCBsb2dvIgoKICAgICMgQmF0Y2ggbW9kZQogICAgaWYgYXJncy5iYXRjaDoKICAgICAgICBvdXRwdXRfZGlyID0gYXJncy5vdXRwdXRfZGlyIG9yIGYiLi97YXJncy5icmFuZC5sb3dlcigpLnJlcGxhY2UoJyAnLCAnXycpfV9sb2dvcyIKICAgICAgICBnZW5lcmF0ZV9iYXRjaCgKICAgICAgICAgICAgcHJvbXB0PXByb21wdCwKICAgICAgICAgICAgYnJhbmRfbmFtZT1hcmdzLmJyYW5kIG9yICJMb2dvIiwKICAgICAgICAgICAgY291bnQ9YXJncy5iYXRjaCwKICAgICAgICAgICAgb3V0cHV0X2Rpcj1vdXRwdXRfZGlyLAogICAgICAgICAgICB1c2VfcHJvPWFyZ3MucHJvLAogICAgICAgICAgICBicmFuZF9jb250ZXh0PWFyZ3MuYnJhbmRfY29udGV4dCwKICAgICAgICAgICAgYXNwZWN0X3JhdGlvPWFyZ3MuYXNwZWN0X3JhdGlvCiAgICAgICAgKQogICAgZWxzZToKICAgICAgICBnZW5lcmF0ZV9sb2dvKAogICAgICAgICAgICBwcm9tcHQ9cHJvbXB0LAogICAgICAgICAgICBzdHlsZT1hcmdzLnN0eWxlLAogICAgICAgICAgICBpbmR1c3RyeT1hcmdzLmluZHVzdHJ5LAogICAgICAgICAgICBicmFuZF9uYW1lPWFyZ3MuYnJhbmQsCiAgICAgICAgICAgIG91dHB1dF9wYXRoPWFyZ3Mub3V0cHV0LAogICAgICAgICAgICB1c2VfcHJvPWFyZ3MucHJvLAogICAgICAgICAgICBhc3BlY3RfcmF0aW89YXJncy5hc3BlY3RfcmF0aW8KICAgICAgICApCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Logo Generation Script using Gemini Nano Banana API
+Uses Gemini 2.5 Flash Image and Gemini 3 Pro Image Preview models
+
+Models:
+- Nano Banana (default): gemini-2.5-flash-image - fast, high-volume, low-latency
+- Nano Banana Pro (--pro): gemini-3-pro-image-preview - professional quality, advanced reasoning
+
+Usage:
+    python generate.py --prompt "tech startup logo minimalist blue"
+    python generate.py --prompt "coffee shop vintage badge" --style vintage --output logo.png
+    python generate.py --brand "TechFlow" --industry tech --style minimalist
+    python generate.py --brand "TechFlow" --pro  # Use Nano Banana Pro model
+
+Batch mode (generates multiple variants):
+    python generate.py --brand "Unikorn" --batch 9 --output-dir ./logos --pro
+"""
+
+import argparse
+import os
+import sys
+import time
+from pathlib import Path
+from datetime import datetime
+
+# Load environment variables
+def load_env():
+    """Load .env files in priority order"""
+    env_paths = [
+        Path(__file__).parent.parent.parent / ".env",
+        Path.home() / ".claude" / "skills" / ".env",
+        Path.home() / ".claude" / ".env"
+    ]
+
+    for env_path in env_paths:
+        if env_path.exists():
+            with open(env_path) as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and '=' in line:
+                        key, value = line.split('=', 1)
+                        if key not in os.environ:
+                            os.environ[key] = value.strip('"\'')
+
+load_env()
+
+try:
+    from google import genai
+    from google.genai import types
+except ImportError:
+    print("Error: google-genai package not installed.")
+    print("Install with: pip install google-genai")
+    sys.exit(1)
+
+
+# ============ CONFIGURATION ============
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+
+# Gemini "Nano Banana" model configurations for image generation
+GEMINI_FLASH = "gemini-2.5-flash-image"  # Nano Banana: fast, high-volume, low-latency
+GEMINI_PRO = "gemini-3-pro-image-preview"  # Nano Banana Pro: professional quality, advanced reasoning
+
+# Supported aspect ratios
+ASPECT_RATIOS = ["1:1", "16:9", "9:16", "4:3", "3:4"]
+DEFAULT_ASPECT_RATIO = "1:1"  # Square is ideal for logos
+
+# Logo-specific prompt templates
+LOGO_PROMPT_TEMPLATE = """Generate a professional logo image: {prompt}
+
+Style requirements:
+- Clean vector-style illustration suitable for a logo
+- Simple, scalable design that works at any size
+- Clear silhouette and recognizable shape
+- Professional quality suitable for business use
+- Centered composition on plain white or transparent background
+- No text unless specifically requested
+- High contrast and clear edges
+- Square format, perfectly centered
+- Output as a clean, high-quality logo image
+"""
+
+STYLE_MODIFIERS = {
+    "minimalist": "minimalist, simple geometric shapes, clean lines, lots of white space, single color or limited palette",
+    "vintage": "vintage, retro, badge style, distressed texture, heritage feel, warm earth tones",
+    "modern": "modern, sleek, gradient colors, tech-forward, innovative feel",
+    "luxury": "luxury, elegant, gold accents, refined, premium feel, serif typography",
+    "playful": "playful, fun, colorful, friendly, approachable, rounded shapes",
+    "corporate": "corporate, professional, trustworthy, stable, conservative colors",
+    "organic": "organic, natural, flowing lines, earth tones, sustainable feel",
+    "geometric": "geometric, abstract, mathematical precision, symmetrical",
+    "hand-drawn": "hand-drawn, artisan, sketch-like, authentic, imperfect lines",
+    "3d": "3D, dimensional, depth, shadows, isometric perspective",
+    "abstract": "abstract mark, conceptual, symbolic, non-literal representation, artistic interpretation",
+    "lettermark": "lettermark, single letter or initials, typographic, monogram style, distinctive character",
+    "wordmark": "wordmark, logotype, custom typography, brand name as logo, distinctive lettering",
+    "emblem": "emblem, badge, crest style, enclosed design, traditional, authoritative feel",
+    "mascot": "mascot, character, friendly face, personified, memorable figure",
+    "gradient": "gradient, color transition, vibrant, modern digital feel, smooth color flow",
+    "lineart": "line art, single stroke, continuous line, elegant simplicity, wire-frame style",
+    "negative-space": "negative space, clever use of white space, hidden meaning, dual imagery, optical illusion"
+}
+
+INDUSTRY_PROMPTS = {
+    "tech": "technology company, digital, innovative, modern, circuit-like elements",
+    "healthcare": "healthcare, medical, caring, trust, cross or heart symbol",
+    "finance": "financial services, stable, trustworthy, growth, upward elements",
+    "food": "food and beverage, appetizing, warm colors, welcoming",
+    "fashion": "fashion brand, elegant, stylish, refined, artistic",
+    "fitness": "fitness and sports, dynamic, energetic, powerful, movement",
+    "eco": "eco-friendly, sustainable, natural, green, leaf or earth elements",
+    "education": "education, knowledge, growth, learning, book or cap symbol",
+    "real-estate": "real estate, property, home, roof or building silhouette",
+    "creative": "creative agency, artistic, unique, expressive, colorful"
+}
+
+
+def enhance_prompt(base_prompt, style=None, industry=None, brand_name=None):
+    """Enhance the logo prompt with style and industry modifiers"""
+    prompt_parts = [base_prompt]
+
+    if style and style in STYLE_MODIFIERS:
+        prompt_parts.append(STYLE_MODIFIERS[style])
+
+    if industry and industry in INDUSTRY_PROMPTS:
+        prompt_parts.append(INDUSTRY_PROMPTS[industry])
+
+    if brand_name:
+        prompt_parts.insert(0, f"Logo for '{brand_name}':")
+
+    combined = ", ".join(prompt_parts)
+    return LOGO_PROMPT_TEMPLATE.format(prompt=combined)
+
+
+def generate_logo(prompt, style=None, industry=None, brand_name=None,
+                  output_path=None, use_pro=False, aspect_ratio=None):
+    """Generate a logo using Gemini models with image generation
+
+    Args:
+        aspect_ratio: Image aspect ratio. Options: "1:1", "16:9", "9:16", "4:3", "3:4"
+                      Default is "1:1" (square) for logos.
+    """
+
+    if not GEMINI_API_KEY:
+        print("Error: GEMINI_API_KEY not set")
+        print("Set it with: export GEMINI_API_KEY='your-key'")
+        return None
+
+    # Initialize client
+    client = genai.Client(api_key=GEMINI_API_KEY)
+
+    # Enhance the prompt
+    full_prompt = enhance_prompt(prompt, style, industry, brand_name)
+
+    # Select model
+    model = GEMINI_PRO if use_pro else GEMINI_FLASH
+    model_label = "Nano Banana Pro (gemini-3-pro-image-preview)" if use_pro else "Nano Banana (gemini-2.5-flash-image)"
+
+    # Set aspect ratio (default to 1:1 for logos)
+    ratio = aspect_ratio if aspect_ratio in ASPECT_RATIOS else DEFAULT_ASPECT_RATIO
+
+    print(f"Generating logo with {model_label}...")
+    print(f"Aspect ratio: {ratio}")
+    print(f"Prompt: {full_prompt[:150]}...")
+    print()
+
+    try:
+        # Generate image using Gemini with image generation capability
+        response = client.models.generate_content(
+            model=model,
+            contents=full_prompt,
+            config=types.GenerateContentConfig(
+                response_modalities=["IMAGE", "TEXT"],
+                image_config=types.ImageConfig(
+                    aspect_ratio=ratio
+                ),
+                safety_settings=[
+                    types.SafetySetting(
+                        category="HARM_CATEGORY_HATE_SPEECH",
+                        threshold="BLOCK_LOW_AND_ABOVE"
+                    ),
+                    types.SafetySetting(
+                        category="HARM_CATEGORY_DANGEROUS_CONTENT",
+                        threshold="BLOCK_LOW_AND_ABOVE"
+                    ),
+                    types.SafetySetting(
+                        category="HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                        threshold="BLOCK_LOW_AND_ABOVE"
+                    ),
+                    types.SafetySetting(
+                        category="HARM_CATEGORY_HARASSMENT",
+                        threshold="BLOCK_LOW_AND_ABOVE"
+                    ),
+                ]
+            )
+        )
+
+        # Extract image from response
+        image_data = None
+        for part in response.candidates[0].content.parts:
+            if hasattr(part, 'inline_data') and part.inline_data:
+                if part.inline_data.mime_type.startswith('image/'):
+                    image_data = part.inline_data.data
+                    break
+
+        if not image_data:
+            print("No image generated. The model may not have produced an image.")
+            print("Try a different prompt or check if the model supports image generation.")
+            return None
+
+        # Determine output path
+        if output_path is None:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            brand_slug = brand_name.lower().replace(" ", "_") if brand_name else "logo"
+            output_path = f"{brand_slug}_{timestamp}.png"
+
+        # Save image
+        with open(output_path, "wb") as f:
+            f.write(image_data)
+
+        print(f"Logo saved to: {output_path}")
+        return output_path
+
+    except Exception as e:
+        print(f"Error generating logo: {e}")
+        return None
+
+
+def generate_batch(prompt, brand_name, count, output_dir, use_pro=False, brand_context=None, aspect_ratio=None):
+    """Generate multiple logo variants with different styles"""
+
+    # Select appropriate styles for batch generation
+    batch_styles = [
+        ("minimalist", "Clean, simple geometric shape with minimal details"),
+        ("modern", "Sleek gradient with tech-forward aesthetic"),
+        ("geometric", "Abstract geometric patterns, mathematical precision"),
+        ("gradient", "Vibrant color transitions, modern digital feel"),
+        ("abstract", "Conceptual symbolic representation"),
+        ("lettermark", "Stylized letter 'U' as monogram"),
+        ("negative-space", "Clever use of negative space, hidden meaning"),
+        ("lineart", "Single stroke continuous line design"),
+        ("3d", "Dimensional design with depth and shadows"),
+    ]
+
+    # Ensure output directory exists
+    os.makedirs(output_dir, exist_ok=True)
+
+    results = []
+    model_label = "Pro" if use_pro else "Flash"
+    ratio = aspect_ratio if aspect_ratio in ASPECT_RATIOS else DEFAULT_ASPECT_RATIO
+
+    print(f"\n{'='*60}")
+    print(f"  BATCH LOGO GENERATION: {brand_name}")
+    print(f"  Model: Nano Banana {model_label}")
+    print(f"  Aspect Ratio: {ratio}")
+    print(f"  Variants: {count}")
+    print(f"  Output: {output_dir}")
+    print(f"{'='*60}\n")
+
+    for i in range(min(count, len(batch_styles))):
+        style_key, style_desc = batch_styles[i]
+
+        # Build enhanced prompt with brand context
+        enhanced_prompt = f"{prompt}, {style_desc}"
+        if brand_context:
+            enhanced_prompt = f"{brand_context}, {enhanced_prompt}"
+
+        # Generate filename
+        filename = f"{brand_name.lower().replace(' ', '_')}_{style_key}_{i+1:02d}.png"
+        output_path = os.path.join(output_dir, filename)
+
+        print(f"[{i+1}/{count}] Generating {style_key} variant...")
+
+        result = generate_logo(
+            prompt=enhanced_prompt,
+            style=style_key,
+            industry="tech",
+            brand_name=brand_name,
+            output_path=output_path,
+            use_pro=use_pro,
+            aspect_ratio=aspect_ratio
+        )
+
+        if result:
+            results.append(result)
+            print(f"  ✓ Saved: {filename}\n")
+        else:
+            print(f"  ✗ Failed: {style_key}\n")
+
+        # Rate limiting between requests
+        if i < count - 1:
+            time.sleep(2)
+
+    print(f"\n{'='*60}")
+    print(f"  BATCH COMPLETE: {len(results)}/{count} logos generated")
+    print(f"{'='*60}\n")
+
+    return results
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Generate logos using Gemini Nano Banana models")
+    parser.add_argument("--prompt", "-p", type=str, help="Logo description prompt")
+    parser.add_argument("--brand", "-b", type=str, help="Brand name")
+    parser.add_argument("--style", "-s", choices=list(STYLE_MODIFIERS.keys()), help="Logo style")
+    parser.add_argument("--industry", "-i", choices=list(INDUSTRY_PROMPTS.keys()), help="Industry type")
+    parser.add_argument("--output", "-o", type=str, help="Output file path")
+    parser.add_argument("--output-dir", type=str, help="Output directory for batch generation")
+    parser.add_argument("--batch", type=int, help="Number of logo variants to generate (batch mode)")
+    parser.add_argument("--brand-context", type=str, help="Additional brand context for prompts")
+    parser.add_argument("--pro", action="store_true", help="Use Nano Banana Pro (gemini-3-pro-image-preview) for professional quality")
+    parser.add_argument("--aspect-ratio", "-r", choices=ASPECT_RATIOS, default=DEFAULT_ASPECT_RATIO,
+                        help=f"Image aspect ratio (default: {DEFAULT_ASPECT_RATIO} for logos)")
+    parser.add_argument("--list-styles", action="store_true", help="List available styles")
+    parser.add_argument("--list-industries", action="store_true", help="List available industries")
+
+    args = parser.parse_args()
+
+    if args.list_styles:
+        print("Available styles:")
+        for style, desc in STYLE_MODIFIERS.items():
+            print(f"  {style}: {desc[:60]}...")
+        return
+
+    if args.list_industries:
+        print("Available industries:")
+        for industry, desc in INDUSTRY_PROMPTS.items():
+            print(f"  {industry}: {desc[:60]}...")
+        return
+
+    if not args.prompt and not args.brand:
+        parser.error("Either --prompt or --brand is required")
+
+    prompt = args.prompt or "professional logo"
+
+    # Batch mode
+    if args.batch:
+        output_dir = args.output_dir or f"./{args.brand.lower().replace(' ', '_')}_logos"
+        generate_batch(
+            prompt=prompt,
+            brand_name=args.brand or "Logo",
+            count=args.batch,
+            output_dir=output_dir,
+            use_pro=args.pro,
+            brand_context=args.brand_context,
+            aspect_ratio=args.aspect_ratio
+        )
+    else:
+        generate_logo(
+            prompt=prompt,
+            style=args.style,
+            industry=args.industry,
+            brand_name=args.brand,
+            output_path=args.output,
+            use_pro=args.pro,
+            aspect_ratio=args.aspect_ratio
+        )
+
+
+if __name__ == "__main__":
+    main()

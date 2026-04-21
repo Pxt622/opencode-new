@@ -1,1 +1,94 @@
-IyBCcmFuZCBDb25zaXN0ZW5jeSBDaGVja2xpc3QKCiMjIFZpc3VhbCBDb25zaXN0ZW5jeQoKIyMjIExvZ28KLSBbIF0gQ29ycmVjdCBsb2dvIHZlcnNpb24gdXNlZAotIFsgXSBQcm9wZXIgY2xlYXIgc3BhY2UgbWFpbnRhaW5lZAotIFsgXSBBcHByb3ZlZCBjb2xvcnMgb25seQotIFsgXSBMZWdpYmxlIGF0IGFsbCBzaXplcwotIFsgXSBObyB1bmF1dGhvcml6ZWQgbW9kaWZpY2F0aW9ucwoKIyMjIENvbG9ycwotIFsgXSBPbmx5IGJyYW5kIHBhbGV0dGUgY29sb3JzCi0gWyBdIENvbnNpc3RlbnQgY29sb3IgYXBwbGljYXRpb24KLSBbIF0gUHJvcGVyIGNvbnRyYXN0IGZvciBhY2Nlc3NpYmlsaXR5Ci0gWyBdIENvbG9yIHJhdGlvcyBtYWludGFpbmVkCgojIyMgVHlwb2dyYXBoeQotIFsgXSBCcmFuZCBmb250cyB1c2VkCi0gWyBdIENvcnJlY3Qgd2VpZ2h0cy9zdHlsZXMKLSBbIF0gUHJvcGVyIGhpZXJhcmNoeQotIFsgXSBDb25zaXN0ZW50IGZvcm1hdHRpbmcKCiMjIyBJbWFnZXJ5Ci0gWyBdIE1hdGNoZXMgYnJhbmQgc3R5bGUKLSBbIF0gQ29uc2lzdGVudCBlZGl0aW5nL2ZpbHRlcnMKLSBbIF0gQXBwcm9wcmlhdGUgc3ViamVjdHMKLSBbIF0gUXVhbGl0eSBzdGFuZGFyZHMgbWV0CgojIyBWb2ljZSBDb25zaXN0ZW5jeQoKIyMjIFRvbmUKLSBbIF0gTWF0Y2hlcyBicmFuZCBwZXJzb25hbGl0eQotIFsgXSBBcHByb3ByaWF0ZSBmb3IgY29udGV4dAotIFsgXSBDb25zaXN0ZW50IGFjcm9zcyBjaGFubmVscwotIFsgXSBObyBjb25mbGljdGluZyBtZXNzYWdlcwoKIyMjIExhbmd1YWdlCi0gWyBdIEJyYW5kIHRlcm1pbm9sb2d5IHVzZWQKLSBbIF0gQ29uc2lzdGVudCBjYXBpdGFsaXphdGlvbgotIFsgXSBQcm9wZXIgYWJicmV2aWF0aW9ucwotIFsgXSBKYXJnb24gbGV2ZWwgYXBwcm9wcmlhdGUKCiMjIyBNZXNzYWdpbmcKLSBbIF0gQWxpZ25zIHdpdGgga2V5IG1lc3NhZ2VzCi0gWyBdIFZhbHVlIHByb3AgY2xlYXIKLSBbIF0gRGlmZmVyZW50aWF0b3JzIGhpZ2hsaWdodGVkCi0gWyBdIENUQXMgY29uc2lzdGVudAoKIyMgQ2hhbm5lbCBBdWRpdAoKIyMjIFdlYnNpdGUKLSBbIF0gSG9tZXBhZ2UKLSBbIF0gUHJvZHVjdCBwYWdlcwotIFsgXSBCbG9nL2NvbnRlbnQKLSBbIF0gRm9vdGVyL25hdmlnYXRpb24KCiMjIyBTb2NpYWwgTWVkaWEKLSBbIF0gUHJvZmlsZSBpbWFnZXMKLSBbIF0gQ292ZXIgaW1hZ2VzCi0gWyBdIEJpby9hYm91dCBzZWN0aW9ucwotIFsgXSBQb3N0IHRlbXBsYXRlcwoKIyMjIEVtYWlsCi0gWyBdIEhlYWRlci9mb290ZXIKLSBbIF0gVGVtcGxhdGVzCi0gWyBdIFNpZ25hdHVyZXMKLSBbIF0gQXV0b21hdGVkIG1lc3NhZ2VzCgojIyMgQ29sbGF0ZXJhbAotIFsgXSBQcmVzZW50YXRpb25zCi0gWyBdIE9uZS1wYWdlcnMKLSBbIF0gQnVzaW5lc3MgY2FyZHMKLSBbIF0gUHJvbW90aW9uYWwgbWF0ZXJpYWxzCgojIyBDb21tb24gSXNzdWVzCgp8IElzc3VlIHwgRml4IHwKfC0tLS0tLS18LS0tLS18CnwgT3V0ZGF0ZWQgbG9nbyB8IFJlcGxhY2Ugd2l0aCBjdXJyZW50IHZlcnNpb24gfAp8IE9mZi1icmFuZCBjb2xvcnMgfCBVcGRhdGUgdG8gcGFsZXR0ZSB8CnwgV3JvbmcgZm9udCB8IFJlcGxhY2Ugd2l0aCBicmFuZCBmb250IHwKfCBJbmNvbnNpc3RlbnQgdm9pY2UgfCBBcHBseSBzdHlsZSBndWlkZSB8CnwgTWl4ZWQgbWVzc2FnaW5nIHwgQWxpZ24gdG8gZnJhbWV3b3JrIHwKCiMjIEF1ZGl0IEZyZXF1ZW5jeQoKfCBBc3NldCBUeXBlIHwgRnJlcXVlbmN5IHwKfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCBXZWJzaXRlIHwgTW9udGhseSB8CnwgU29jaWFsIHByb2ZpbGVzIHwgUXVhcnRlcmx5IHwKfCBFbWFpbCB0ZW1wbGF0ZXMgfCBRdWFydGVybHkgfAp8IFNhbGVzIG1hdGVyaWFscyB8IFF1YXJ0ZXJseSB8CnwgRnVsbCBicmFuZCBhdWRpdCB8IEFubnVhbGx5IHwK
+# Brand Consistency Checklist
+
+## Visual Consistency
+
+### Logo
+- [ ] Correct logo version used
+- [ ] Proper clear space maintained
+- [ ] Approved colors only
+- [ ] Legible at all sizes
+- [ ] No unauthorized modifications
+
+### Colors
+- [ ] Only brand palette colors
+- [ ] Consistent color application
+- [ ] Proper contrast for accessibility
+- [ ] Color ratios maintained
+
+### Typography
+- [ ] Brand fonts used
+- [ ] Correct weights/styles
+- [ ] Proper hierarchy
+- [ ] Consistent formatting
+
+### Imagery
+- [ ] Matches brand style
+- [ ] Consistent editing/filters
+- [ ] Appropriate subjects
+- [ ] Quality standards met
+
+## Voice Consistency
+
+### Tone
+- [ ] Matches brand personality
+- [ ] Appropriate for context
+- [ ] Consistent across channels
+- [ ] No conflicting messages
+
+### Language
+- [ ] Brand terminology used
+- [ ] Consistent capitalization
+- [ ] Proper abbreviations
+- [ ] Jargon level appropriate
+
+### Messaging
+- [ ] Aligns with key messages
+- [ ] Value prop clear
+- [ ] Differentiators highlighted
+- [ ] CTAs consistent
+
+## Channel Audit
+
+### Website
+- [ ] Homepage
+- [ ] Product pages
+- [ ] Blog/content
+- [ ] Footer/navigation
+
+### Social Media
+- [ ] Profile images
+- [ ] Cover images
+- [ ] Bio/about sections
+- [ ] Post templates
+
+### Email
+- [ ] Header/footer
+- [ ] Templates
+- [ ] Signatures
+- [ ] Automated messages
+
+### Collateral
+- [ ] Presentations
+- [ ] One-pagers
+- [ ] Business cards
+- [ ] Promotional materials
+
+## Common Issues
+
+| Issue | Fix |
+|-------|-----|
+| Outdated logo | Replace with current version |
+| Off-brand colors | Update to palette |
+| Wrong font | Replace with brand font |
+| Inconsistent voice | Apply style guide |
+| Mixed messaging | Align to framework |
+
+## Audit Frequency
+
+| Asset Type | Frequency |
+|------------|-----------|
+| Website | Monthly |
+| Social profiles | Quarterly |
+| Email templates | Quarterly |
+| Sales materials | Quarterly |
+| Full brand audit | Annually |

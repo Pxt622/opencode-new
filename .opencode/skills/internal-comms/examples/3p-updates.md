@@ -1,1 +1,47 @@
-IyMgSW5zdHJ1Y3Rpb25zCllvdSBhcmUgYmVpbmcgYXNrZWQgdG8gd3JpdGUgYSAzUCB1cGRhdGUuIDNQIHVwZGF0ZXMgc3RhbmQgZm9yICJQcm9ncmVzcywgUGxhbnMsIFByb2JsZW1zLiIgVGhlIG1haW4gYXVkaWVuY2UgaXMgZm9yIGV4ZWN1dGl2ZXMsIGxlYWRlcnNoaXAsIG90aGVyIHRlYW1tYXRlcywgZXRjLiBUaGV5J3JlIG1lYW50IHRvIGJlIHZlcnkgc3VjY2luY3QgYW5kIHRvLXRoZS1wb2ludDogdGhpbmsgc29tZXRoaW5nIHlvdSBjYW4gcmVhZCBpbiAzMC02MHNlYyBvciBsZXNzLiBUaGV5J3JlIGFsc28gZm9yIHBlb3BsZSB3aXRoIHNvbWUsIGJ1dCBub3QgYSBsb3Qgb2YgY29udGV4dCBvbiB3aGF0IHRoZSB0ZWFtIGRvZXMuCgozUHMgY2FuIGNvdmVyIGEgdGVhbSBvZiBhbnkgc2l6ZSwgcmFuZ2luZyBhbGwgdGhlIHdheSB1cCB0byB0aGUgZW50aXJlIGNvbXBhbnkuIFRoZSBiaWdnZXIgdGhlIHRlYW0sIHRoZSBsZXNzIGdyYW51bGFyIHRoZSB0YXNrcyBzaG91bGQgYmUuIEZvciBleGFtcGxlLCAibW9iaWxlIHRlYW0iIG1pZ2h0IGhhdmUgInNoaXBwZWQgZmVhdHVyZSIgb3IgImZpeGVkIGJ1Z3MsIiB3aGVyZWFzIHRoZSBjb21wYW55IG1pZ2h0IGhhdmUgcmVhbGx5IG1lYXR5IDNQcywgbGlrZSAiaGlyZWQgMjAgbmV3IHBlb3BsZSIgb3IgImNsb3NlZCAxMCBuZXcgZGVhbHMuIiAKClRoZXkgcmVwcmVzZW50IHRoZSB3b3JrIG9mIHRoZSB0ZWFtIGFjcm9zcyBhIHRpbWUgcGVyaW9kLCBhbG1vc3QgYWx3YXlzIG9uZSB3ZWVrLiBUaGV5IGluY2x1ZGUgdGhyZWUgc2VjdGlvbnM6CjEpIFByb2dyZXNzOiB3aGF0IHRoZSB0ZWFtIGhhcyBhY2NvbXBsaXNoZWQgb3ZlciB0aGUgbmV4dCB0aW1lIHBlcmlvZC4gRm9jdXMgbWFpbmx5IG9uIHRoaW5ncyBzaGlwcGVkLCBtaWxlc3RvbmVzIGFjaGlldmVkLCB0YXNrcyBjcmVhdGVkLCBldGMuCjIpIFBsYW5zOiB3aGF0IHRoZSB0ZWFtIHBsYW5zIHRvIGRvIG92ZXIgdGhlIG5leHQgdGltZSBwZXJpb2QuIEZvY3VzIG9uIHdoYXQgdGhpbmdzIGFyZSB0b3Atb2YtbWluZCwgcmVhbGx5IGhpZ2ggcHJpb3JpdHksIGV0Yy4gZm9yIHRoZSB0ZWFtLgozKSBQcm9ibGVtczogYW55dGhpbmcgdGhhdCBpcyBzbG93aW5nIHRoZSB0ZWFtIGRvd24uIFRoaXMgY291bGQgYmUgdGhpbmdzIGxpa2UgdG9vIGZldyBwZW9wbGUsIGJ1Z3Mgb3IgYmxvY2tlcnMgdGhhdCBhcmUgcHJldmVudGluZyB0aGUgdGVhbSBmcm9tIG1vdmluZyBmb3J3YXJkLCBzb21lIGRlYWwgdGhhdCBmZWxsIHRocm91Z2gsIGV0Yy4KCkJlZm9yZSB3cml0aW5nIHRoZW0sIG1ha2Ugc3VyZSB0aGF0IHlvdSBrbm93IHRoZSB0ZWFtIG5hbWUuIElmIGl0J3Mgbm90IHNwZWNpZmllZCwgeW91IGNhbiBhc2sgZXhwbGljaXRseSB3aGF0IHRoZSB0ZWFtIG5hbWUgeW91J3JlIHdyaXRpbmcgZm9yIGlzLgoKCiMjIFRvb2xzIEF2YWlsYWJsZQpXaGVuZXZlciBwb3NzaWJsZSwgdHJ5IHRvIHB1bGwgZnJvbSBhdmFpbGFibGUgc291cmNlcyB0byBnZXQgdGhlIGluZm9ybWF0aW9uIHlvdSBuZWVkOgotIFNsYWNrOiBwb3N0cyBmcm9tIHRlYW0gbWVtYmVycyB3aXRoIHRoZWlyIHVwZGF0ZXMgLSBpZGVhbGx5IGxvb2sgZm9yIHBvc3RzIGluIGxhcmdlIGNoYW5uZWxzIHdpdGggbG90cyBvZiByZWFjdGlvbnMKLSBHb29nbGUgRHJpdmU6IGRvY3Mgd3JpdHRlbiBmcm9tIGNyaXRpY2FsIHRlYW0gbWVtYmVycyB3aXRoIGxvdHMgb2Ygdmlld3MKLSBFbWFpbDogZW1haWxzIHdpdGggbG90cyBvZiByZXNwb25zZXMgb2YgbG90cyBvZiBjb250ZW50IHRoYXQgc2VlbXMgcmVsZXZhbnQKLSBDYWxlbmRhcjogbm9uLXJlY3VycmluZyBtZWV0aW5ncyB0aGF0IGhhdmUgYSBsb3Qgb2YgaW1wb3J0YW5jZSwgbGlrZSBwcm9kdWN0IHJldmlld3MsIGV0Yy4KCgpUcnkgdG8gZ2F0aGVyIGFzIG11Y2ggY29udGV4dCBhcyB5b3UgY2FuLCBmb2N1c2luZyBvbiB0aGUgdGhpbmdzIHRoYXQgY292ZXJlZCB0aGUgdGltZSBwZXJpb2QgeW91J3JlIHdyaXRpbmcgZm9yOgotIFByb2dyZXNzOiBhbnl0aGluZyBiZXR3ZWVuIGEgd2VlayBhZ28gYW5kIHRvZGF5Ci0gUGxhbnM6IGFueXRoaW5nIGZyb20gdG9kYXkgdG8gdGhlIG5leHQgd2VlawotIFByb2JsZW1zOiBhbnl0aGluZyBiZXR3ZWVuIGEgd2VlayBhZ28gYW5kIHRvZGF5CgoKSWYgeW91IGRvbid0IGhhdmUgYWNjZXNzLCB5b3UgY2FuIGFzayB0aGUgdXNlciBmb3IgdGhpbmdzIHRoZXkgd2FudCB0byBjb3Zlci4gVGhleSBtaWdodCBhbHNvIGluY2x1ZGUgdGhlc2UgdGhpbmdzIHRvIHlvdSBkaXJlY3RseSwgaW4gd2hpY2ggY2FzZSB5b3UncmUgbW9zdGx5IGp1c3QgZm9ybWF0dGluZyBmb3IgdGhpcyBwYXJ0aWN1bGFyIGZvcm1hdC4KCiMjIFdvcmtmbG93CgoxLiAqKkNsYXJpZnkgc2NvcGUqKjogQ29uZmlybSB0aGUgdGVhbSBuYW1lIGFuZCB0aW1lIHBlcmlvZCAodXN1YWxseSBwYXN0IHdlZWsgZm9yIFByb2dyZXNzL1Byb2JsZW1zLCBuZXh0CndlZWsgZm9yIFBsYW5zKQoyLiAqKkdhdGhlciBpbmZvcm1hdGlvbioqOiBVc2UgYXZhaWxhYmxlIHRvb2xzIG9yIGFzayB0aGUgdXNlciBkaXJlY3RseQozLiAqKkRyYWZ0IHRoZSB1cGRhdGUqKjogRm9sbG93IHRoZSBzdHJpY3QgZm9ybWF0dGluZyBndWlkZWxpbmVzCjQuICoqUmV2aWV3Kio6IEVuc3VyZSBpdCdzIGNvbmNpc2UgKDMwLTYwIHNlY29uZHMgdG8gcmVhZCkgYW5kIGRhdGEtZHJpdmVuCgojIyBGb3JtYXR0aW5nCgpUaGUgZm9ybWF0IGlzIGFsd2F5cyB0aGUgc2FtZSwgdmVyeSBzdHJpY3QgZm9ybWF0dGluZy4gTmV2ZXIgdXNlIGFueSBmb3JtYXR0aW5nIG90aGVyIHRoYW4gdGhpcy4gUGljayBhbiBlbW9qaSB0aGF0IGlzIGZ1biBhbmQgY2FwdHVyZXMgdGhlIHZpYmUgb2YgdGhlIHRlYW0gYW5kIHVwZGF0ZS4KCltwaWNrIGFuIGVtb2ppXSBbVGVhbSBOYW1lXSAoRGF0ZXMgQ292ZXJlZCwgdXN1YWxseSBhIHdlZWspClByb2dyZXNzOiBbMS0zIHNlbnRlbmNlcyBvZiBjb250ZW50XQpQbGFuczogWzEtMyBzZW50ZW5jZXMgb2YgY29udGVudF0KUHJvYmxlbXM6IFsxLTMgc2VudGVuY2VzIG9mIGNvbnRlbnRdCgpFYWNoIHNlY3Rpb24gc2hvdWxkIGJlIG5vIG1vcmUgdGhhbiAxLTMgc2VudGVuY2VzOiBjbGVhciwgdG8gdGhlIHBvaW50LiBJdCBzaG91bGQgYmUgZGF0YS1kcml2ZW4sIGFuZCBnZW5lcmFsbHkgaW5jbHVkZSBtZXRyaWNzIHdoZXJlIHBvc3NpYmxlLiBUaGUgdG9uZSBzaG91bGQgYmUgdmVyeSBtYXR0ZXItb2YtZmFjdCwgbm90IHN1cGVyIHByb3NlLWhlYXZ5Lg==
+## Instructions
+You are being asked to write a 3P update. 3P updates stand for "Progress, Plans, Problems." The main audience is for executives, leadership, other teammates, etc. They're meant to be very succinct and to-the-point: think something you can read in 30-60sec or less. They're also for people with some, but not a lot of context on what the team does.
+
+3Ps can cover a team of any size, ranging all the way up to the entire company. The bigger the team, the less granular the tasks should be. For example, "mobile team" might have "shipped feature" or "fixed bugs," whereas the company might have really meaty 3Ps, like "hired 20 new people" or "closed 10 new deals." 
+
+They represent the work of the team across a time period, almost always one week. They include three sections:
+1) Progress: what the team has accomplished over the next time period. Focus mainly on things shipped, milestones achieved, tasks created, etc.
+2) Plans: what the team plans to do over the next time period. Focus on what things are top-of-mind, really high priority, etc. for the team.
+3) Problems: anything that is slowing the team down. This could be things like too few people, bugs or blockers that are preventing the team from moving forward, some deal that fell through, etc.
+
+Before writing them, make sure that you know the team name. If it's not specified, you can ask explicitly what the team name you're writing for is.
+
+
+## Tools Available
+Whenever possible, try to pull from available sources to get the information you need:
+- Slack: posts from team members with their updates - ideally look for posts in large channels with lots of reactions
+- Google Drive: docs written from critical team members with lots of views
+- Email: emails with lots of responses of lots of content that seems relevant
+- Calendar: non-recurring meetings that have a lot of importance, like product reviews, etc.
+
+
+Try to gather as much context as you can, focusing on the things that covered the time period you're writing for:
+- Progress: anything between a week ago and today
+- Plans: anything from today to the next week
+- Problems: anything between a week ago and today
+
+
+If you don't have access, you can ask the user for things they want to cover. They might also include these things to you directly, in which case you're mostly just formatting for this particular format.
+
+## Workflow
+
+1. **Clarify scope**: Confirm the team name and time period (usually past week for Progress/Problems, next
+week for Plans)
+2. **Gather information**: Use available tools or ask the user directly
+3. **Draft the update**: Follow the strict formatting guidelines
+4. **Review**: Ensure it's concise (30-60 seconds to read) and data-driven
+
+## Formatting
+
+The format is always the same, very strict formatting. Never use any formatting other than this. Pick an emoji that is fun and captures the vibe of the team and update.
+
+[pick an emoji] [Team Name] (Dates Covered, usually a week)
+Progress: [1-3 sentences of content]
+Plans: [1-3 sentences of content]
+Problems: [1-3 sentences of content]
+
+Each section should be no more than 1-3 sentences: clear, to the point. It should be data-driven, and generally include metrics where possible. The tone should be very matter-of-fact, not super prose-heavy.

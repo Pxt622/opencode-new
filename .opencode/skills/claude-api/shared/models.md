@@ -1,1 +1,119 @@
-IyBDbGF1ZGUgTW9kZWwgQ2F0YWxvZwoKKipPbmx5IHVzZSBleGFjdCBtb2RlbCBJRHMgbGlzdGVkIGluIHRoaXMgZmlsZS4qKiBOZXZlciBndWVzcyBvciBjb25zdHJ1Y3QgbW9kZWwgSURzIOKAlCBpbmNvcnJlY3QgSURzIHdpbGwgY2F1c2UgQVBJIGVycm9ycy4gVXNlIGFsaWFzZXMgd2hlcmV2ZXIgYXZhaWxhYmxlLiBGb3IgdGhlIGxhdGVzdCBpbmZvcm1hdGlvbiwgV2ViRmV0Y2ggdGhlIE1vZGVscyBPdmVydmlldyBVUkwgaW4gYHNoYXJlZC9saXZlLXNvdXJjZXMubWRgLCBvciBxdWVyeSB0aGUgTW9kZWxzIEFQSSBkaXJlY3RseSAoc2VlIFByb2dyYW1tYXRpYyBNb2RlbCBEaXNjb3ZlcnkgYmVsb3cpLgoKIyMgUHJvZ3JhbW1hdGljIE1vZGVsIERpc2NvdmVyeQoKRm9yICoqbGl2ZSoqIGNhcGFiaWxpdHkgZGF0YSDigJQgY29udGV4dCB3aW5kb3csIG1heCBvdXRwdXQgdG9rZW5zLCBmZWF0dXJlIHN1cHBvcnQgKHRoaW5raW5nLCB2aXNpb24sIGVmZm9ydCwgc3RydWN0dXJlZCBvdXRwdXRzLCBldGMuKSDigJQgcXVlcnkgdGhlIE1vZGVscyBBUEkgaW5zdGVhZCBvZiByZWx5aW5nIG9uIHRoZSBjYWNoZWQgdGFibGVzIGJlbG93LiBVc2UgdGhpcyB3aGVuIHRoZSB1c2VyIGFza3MgIndoYXQncyB0aGUgY29udGV4dCB3aW5kb3cgZm9yIFgiLCAiZG9lcyBtb2RlbCBYIHN1cHBvcnQgdmlzaW9uL3RoaW5raW5nL2VmZm9ydCIsICJ3aGljaCBtb2RlbHMgc3VwcG9ydCBmZWF0dXJlIFkiLCBvciB3YW50cyB0byBzZWxlY3QgYSBtb2RlbCBieSBjYXBhYmlsaXR5IGF0IHJ1bnRpbWUuCgpgYGBweXRob24KbSA9IGNsaWVudC5tb2RlbHMucmV0cmlldmUoImNsYXVkZS1vcHVzLTQtNiIpCm0uaWQgICAgICAgICAgICAgICAgICMgImNsYXVkZS1vcHVzLTQtNiIKbS5kaXNwbGF5X25hbWUgICAgICAgIyAiQ2xhdWRlIE9wdXMgNC42IgptLm1heF9pbnB1dF90b2tlbnMgICAjIGNvbnRleHQgd2luZG93IChpbnQpCm0ubWF4X3Rva2VucyAgICAgICAgICMgbWF4IG91dHB1dCB0b2tlbnMgKGludCkKCiMgY2FwYWJpbGl0aWVzIGlzIGFuIHVudHlwZWQgbmVzdGVkIGRpY3Qg4oCUIGJyYWNrZXQgYWNjZXNzLCBjaGVjayBbInN1cHBvcnRlZCJdIGF0IHRoZSBsZWFmCmNhcHMgPSBtLmNhcGFiaWxpdGllcwpjYXBzWyJpbWFnZV9pbnB1dCJdWyJzdXBwb3J0ZWQiXSAgICAgICAgICAgICAgICAgICAgICAgIyB2aXNpb24KY2Fwc1sidGhpbmtpbmciXVsidHlwZXMiXVsiYWRhcHRpdmUiXVsic3VwcG9ydGVkIl0gICAgICMgYWRhcHRpdmUgdGhpbmtpbmcKY2Fwc1siZWZmb3J0Il1bIm1heCJdWyJzdXBwb3J0ZWQiXSAgICAgICAgICAgICAgICAgICAgICMgZWZmb3J0OiBtYXggKGFsc28gbG93L21lZGl1bS9oaWdoKQpjYXBzWyJzdHJ1Y3R1cmVkX291dHB1dHMiXVsic3VwcG9ydGVkIl0KY2Fwc1siY29udGV4dF9tYW5hZ2VtZW50Il1bImNvbXBhY3RfMjAyNjAxMTIiXVsic3VwcG9ydGVkIl0KCiMgZmlsdGVyIGFjcm9zcyBhbGwgbW9kZWxzIOKAlCBpdGVyYXRlIHRoZSBwYWdlIG9iamVjdCBkaXJlY3RseSAoYXV0by1wYWdpbmF0ZXMpOyBkbyBOT1QgdXNlIC5kYXRhClttIGZvciBtIGluIGNsaWVudC5tb2RlbHMubGlzdCgpCiBpZiBtLmNhcGFiaWxpdGllc1sidGhpbmtpbmciXVsidHlwZXMiXVsiYWRhcHRpdmUiXVsic3VwcG9ydGVkIl0KIGFuZCBtLm1heF9pbnB1dF90b2tlbnMgPj0gMjAwXzAwMF0KYGBgCgpUb3AtbGV2ZWwgZmllbGRzIChgaWRgLCBgZGlzcGxheV9uYW1lYCwgYG1heF9pbnB1dF90b2tlbnNgLCBgbWF4X3Rva2Vuc2ApIGFyZSB0eXBlZCBhdHRyaWJ1dGVzLiBgY2FwYWJpbGl0aWVzYCBpcyBhIGRpY3Qg4oCUIHVzZSBicmFja2V0IGFjY2Vzcywgbm90IGF0dHJpYnV0ZSBhY2Nlc3MuIFRoZSBBUEkgcmV0dXJucyB0aGUgZnVsbCBjYXBhYmlsaXR5IHRyZWUgZm9yIGV2ZXJ5IG1vZGVsIHdpdGggYHN1cHBvcnRlZDogdHJ1ZS9mYWxzZWAgYXQgZWFjaCBsZWFmLCBzbyBicmFja2V0IGNoYWlucyBhcmUgc2FmZSB3aXRob3V0IGAuZ2V0KClgIGd1YXJkcy4gVHlwZVNjcmlwdCBTREs6IHNhbWUgbWV0aG9kIG5hbWVzLCBhbHNvIGF1dG8tcGFnaW5hdGVzIG9uIGl0ZXJhdGlvbi4KCiMjIyBSYXcgSFRUUAoKYGBgYmFzaApjdXJsIGh0dHBzOi8vYXBpLmFudGhyb3BpYy5jb20vdjEvbW9kZWxzL2NsYXVkZS1vcHVzLTQtNiBcCiAgLUggIngtYXBpLWtleTogJEFOVEhST1BJQ19BUElfS0VZIiBcCiAgLUggImFudGhyb3BpYy12ZXJzaW9uOiAyMDIzLTA2LTAxIgpgYGAKCmBgYGpzb24KewogICJpZCI6ICJjbGF1ZGUtb3B1cy00LTYiLAogICJkaXNwbGF5X25hbWUiOiAiQ2xhdWRlIE9wdXMgNC42IiwKICAibWF4X2lucHV0X3Rva2VucyI6IDEwMDAwMDAsCiAgIm1heF90b2tlbnMiOiAxMjgwMDAsCiAgImNhcGFiaWxpdGllcyI6IHsKICAgICJpbWFnZV9pbnB1dCI6IHsic3VwcG9ydGVkIjogdHJ1ZX0sCiAgICAic3RydWN0dXJlZF9vdXRwdXRzIjogeyJzdXBwb3J0ZWQiOiB0cnVlfSwKICAgICJ0aGlua2luZyI6IHsic3VwcG9ydGVkIjogdHJ1ZSwgInR5cGVzIjogeyJlbmFibGVkIjogeyJzdXBwb3J0ZWQiOiB0cnVlfSwgImFkYXB0aXZlIjogeyJzdXBwb3J0ZWQiOiB0cnVlfX19LAogICAgImVmZm9ydCI6IHsic3VwcG9ydGVkIjogdHJ1ZSwgImxvdyI6IHsic3VwcG9ydGVkIjogdHJ1ZX0sIOKApiwgIm1heCI6IHsic3VwcG9ydGVkIjogdHJ1ZX19LAogICAg4oCmCiAgfQp9CmBgYAoKIyMgQ3VycmVudCBNb2RlbHMgKHJlY29tbWVuZGVkKQoKfCBGcmllbmRseSBOYW1lICAgICB8IEFsaWFzICh1c2UgdGhpcykgICAgfCBGdWxsIElEICAgICAgICAgICAgICAgICAgICAgICB8IENvbnRleHQgICAgICAgIHwgTWF4IE91dHB1dCB8IFN0YXR1cyB8CnwtLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLS0tfAp8IENsYXVkZSBPcHVzIDQuNiAgIHwgYGNsYXVkZS1vcHVzLTQtNmAgICB8IOKAlCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCAyMDBLICgxTSBiZXRhKSB8IDEyOEsgICAgICAgfCBBY3RpdmUgfAp8IENsYXVkZSBTb25uZXQgNC42IHwgYGNsYXVkZS1zb25uZXQtNC02YCB8IC0gICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgMjAwSyAoMU0gYmV0YSkgfCA2NEsgICAgICAgIHwgQWN0aXZlIHwKfCBDbGF1ZGUgSGFpa3UgNC41ICB8IGBjbGF1ZGUtaGFpa3UtNC01YCAgfCBgY2xhdWRlLWhhaWt1LTQtNS0yMDI1MTAwMWAgICB8IDIwMEsgICAgICAgICAgIHwgNjRLICAgICAgICB8IEFjdGl2ZSB8CgojIyMgTW9kZWwgRGVzY3JpcHRpb25zCgotICoqQ2xhdWRlIE9wdXMgNC42Kiog4oCUIE91ciBtb3N0IGludGVsbGlnZW50IG1vZGVsIGZvciBidWlsZGluZyBhZ2VudHMgYW5kIGNvZGluZy4gU3VwcG9ydHMgYWRhcHRpdmUgdGhpbmtpbmcgKHJlY29tbWVuZGVkKSwgMTI4SyBtYXggb3V0cHV0IHRva2VucyAocmVxdWlyZXMgc3RyZWFtaW5nIGZvciBsYXJnZSBvdXRwdXRzKS4gMU0gY29udGV4dCB3aW5kb3cgYXZhaWxhYmxlIGluIGJldGEgdmlhIGBjb250ZXh0LTFtLTIwMjUtMDgtMDdgIGhlYWRlci4KLSAqKkNsYXVkZSBTb25uZXQgNC42Kiog4oCUIE91ciBiZXN0IGNvbWJpbmF0aW9uIG9mIHNwZWVkIGFuZCBpbnRlbGxpZ2VuY2UuIFN1cHBvcnRzIGFkYXB0aXZlIHRoaW5raW5nIChyZWNvbW1lbmRlZCkuIDFNIGNvbnRleHQgd2luZG93IGF2YWlsYWJsZSBpbiBiZXRhIHZpYSBgY29udGV4dC0xbS0yMDI1LTA4LTA3YCBoZWFkZXIuIDY0SyBtYXggb3V0cHV0IHRva2Vucy4KLSAqKkNsYXVkZSBIYWlrdSA0LjUqKiDigJQgRmFzdGVzdCBhbmQgbW9zdCBjb3N0LWVmZmVjdGl2ZSBtb2RlbCBmb3Igc2ltcGxlIHRhc2tzLgoKIyMgTGVnYWN5IE1vZGVscyAoc3RpbGwgYWN0aXZlKQoKfCBGcmllbmRseSBOYW1lICAgICB8IEFsaWFzICh1c2UgdGhpcykgICAgfCBGdWxsIElEICAgICAgICAgICAgICAgICAgICAgICB8IFN0YXR1cyB8CnwtLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tfAp8IENsYXVkZSBPcHVzIDQuNSAgIHwgYGNsYXVkZS1vcHVzLTQtNWAgICB8IGBjbGF1ZGUtb3B1cy00LTUtMjAyNTExMDFgICAgIHwgQWN0aXZlIHwKfCBDbGF1ZGUgT3B1cyA0LjEgICB8IGBjbGF1ZGUtb3B1cy00LTFgICAgfCBgY2xhdWRlLW9wdXMtNC0xLTIwMjUwODA1YCAgICB8IEFjdGl2ZSB8CnwgQ2xhdWRlIFNvbm5ldCA0LjUgfCBgY2xhdWRlLXNvbm5ldC00LTVgIHwgYGNsYXVkZS1zb25uZXQtNC01LTIwMjUwOTI5YCAgfCBBY3RpdmUgfAp8IENsYXVkZSBTb25uZXQgNCAgIHwgYGNsYXVkZS1zb25uZXQtNC0wYCB8IGBjbGF1ZGUtc29ubmV0LTQtMjAyNTA1MTRgICAgIHwgQWN0aXZlIHwKfCBDbGF1ZGUgT3B1cyA0ICAgICB8IGBjbGF1ZGUtb3B1cy00LTBgICAgfCBgY2xhdWRlLW9wdXMtNC0yMDI1MDUxNGAgICAgICB8IEFjdGl2ZSB8CgojIyBEZXByZWNhdGVkIE1vZGVscyAocmV0aXJpbmcgc29vbikKCnwgRnJpZW5kbHkgTmFtZSAgICAgfCBBbGlhcyAodXNlIHRoaXMpICAgIHwgRnVsbCBJRCAgICAgICAgICAgICAgICAgICAgICAgfCBTdGF0dXMgICAgIHwgUmV0aXJlcyAgICAgIHwKfC0tLS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tfAp8IENsYXVkZSBIYWlrdSAzICAgIHwg4oCUICAgICAgICAgICAgICAgICAgIHwgYGNsYXVkZS0zLWhhaWt1LTIwMjQwMzA3YCAgICAgfCBEZXByZWNhdGVkIHwgQXByIDE5LCAyMDI2IHwKCiMjIFJldGlyZWQgTW9kZWxzIChubyBsb25nZXIgYXZhaWxhYmxlKQoKfCBGcmllbmRseSBOYW1lICAgICB8IEZ1bGwgSUQgICAgICAgICAgICAgICAgICAgICAgIHwgUmV0aXJlZCAgICAgfAp8LS0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS18CnwgQ2xhdWRlIFNvbm5ldCAzLjcgfCBgY2xhdWRlLTMtNy1zb25uZXQtMjAyNTAyMTlgICB8IEZlYiAxOSwgMjAyNiB8CnwgQ2xhdWRlIEhhaWt1IDMuNSAgfCBgY2xhdWRlLTMtNS1oYWlrdS0yMDI0MTAyMmAgICB8IEZlYiAxOSwgMjAyNiB8CnwgQ2xhdWRlIE9wdXMgMyAgICAgfCBgY2xhdWRlLTMtb3B1cy0yMDI0MDIyOWAgICAgICB8IEphbiA1LCAyMDI2IHwKfCBDbGF1ZGUgU29ubmV0IDMuNSB8IGBjbGF1ZGUtMy01LXNvbm5ldC0yMDI0MTAyMmAgIHwgT2N0IDI4LCAyMDI1IHwKfCBDbGF1ZGUgU29ubmV0IDMuNSB8IGBjbGF1ZGUtMy01LXNvbm5ldC0yMDI0MDYyMGAgIHwgT2N0IDI4LCAyMDI1IHwKfCBDbGF1ZGUgU29ubmV0IDMgICB8IGBjbGF1ZGUtMy1zb25uZXQtMjAyNDAyMjlgICAgIHwgSnVsIDIxLCAyMDI1IHwKfCBDbGF1ZGUgMi4xICAgICAgICB8IGBjbGF1ZGUtMi4xYCAgICAgICAgICAgICAgICAgIHwgSnVsIDIxLCAyMDI1IHwKfCBDbGF1ZGUgMi4wICAgICAgICB8IGBjbGF1ZGUtMi4wYCAgICAgICAgICAgICAgICAgIHwgSnVsIDIxLCAyMDI1IHwKCiMjIFJlc29sdmluZyBVc2VyIFJlcXVlc3RzCgpXaGVuIGEgdXNlciBhc2tzIGZvciBhIG1vZGVsIGJ5IG5hbWUsIHVzZSB0aGlzIHRhYmxlIHRvIGZpbmQgdGhlIGNvcnJlY3QgbW9kZWwgSUQ6Cgp8IFVzZXIgc2F5cy4uLiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgVXNlIHRoaXMgbW9kZWwgSUQgICAgICAgICAgICAgIHwKfC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS18CnwgIm9wdXMiLCAibW9zdCBwb3dlcmZ1bCIgICAgICAgICAgICAgICAgICAgfCBgY2xhdWRlLW9wdXMtNC02YCAgICAgICAgICAgICAgfAp8ICJvcHVzIDQuNiIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgYGNsYXVkZS1vcHVzLTQtNmAgICAgICAgICAgICAgIHwKfCAib3B1cyA0LjUiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IGBjbGF1ZGUtb3B1cy00LTVgICAgICAgICAgICAgICB8CnwgIm9wdXMgNC4xIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBgY2xhdWRlLW9wdXMtNC0xYCAgICAgICAgICAgICAgfAp8ICJvcHVzIDQiLCAib3B1cyA0LjAiICAgICAgICAgICAgICAgICAgICAgIHwgYGNsYXVkZS1vcHVzLTQtMGAgICAgICAgICAgICAgIHwKfCAic29ubmV0IiwgImJhbGFuY2VkIiAgICAgICAgICAgICAgICAgICAgICB8IGBjbGF1ZGUtc29ubmV0LTQtNmAgICAgICAgICAgICB8CnwgInNvbm5ldCA0LjYiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBgY2xhdWRlLXNvbm5ldC00LTZgICAgICAgICAgICAgfAp8ICJzb25uZXQgNC41IiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgYGNsYXVkZS1zb25uZXQtNC01YCAgICAgICAgICAgIHwKfCAic29ubmV0IDQiLCAic29ubmV0IDQuMCIgICAgICAgICAgICAgICAgICB8IGBjbGF1ZGUtc29ubmV0LTQtMGAgICAgICAgICAgICB8CnwgInNvbm5ldCAzLjciICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBSZXRpcmVkIOKAlCBzdWdnZXN0IGBjbGF1ZGUtc29ubmV0LTQtNWAgfAp8ICJzb25uZXQgMy41IiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgUmV0aXJlZCDigJQgc3VnZ2VzdCBgY2xhdWRlLXNvbm5ldC00LTVgIHwKfCAiaGFpa3UiLCAiZmFzdCIsICJjaGVhcCIgICAgICAgICAgICAgICAgICB8IGBjbGF1ZGUtaGFpa3UtNC01YCAgICAgICAgICAgICB8CnwgImhhaWt1IDQuNSIgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBgY2xhdWRlLWhhaWt1LTQtNWAgICAgICAgICAgICAgfAp8ICJoYWlrdSAzLjUiICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgUmV0aXJlZCDigJQgc3VnZ2VzdCBgY2xhdWRlLWhhaWt1LTQtNWAgfAp8ICJoYWlrdSAzIiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgRGVwcmVjYXRlZCDigJQgc3VnZ2VzdCBgY2xhdWRlLWhhaWt1LTQtNWAgfAo=
+# Claude Model Catalog
+
+**Only use exact model IDs listed in this file.** Never guess or construct model IDs — incorrect IDs will cause API errors. Use aliases wherever available. For the latest information, WebFetch the Models Overview URL in `shared/live-sources.md`, or query the Models API directly (see Programmatic Model Discovery below).
+
+## Programmatic Model Discovery
+
+For **live** capability data — context window, max output tokens, feature support (thinking, vision, effort, structured outputs, etc.) — query the Models API instead of relying on the cached tables below. Use this when the user asks "what's the context window for X", "does model X support vision/thinking/effort", "which models support feature Y", or wants to select a model by capability at runtime.
+
+```python
+m = client.models.retrieve("claude-opus-4-6")
+m.id                 # "claude-opus-4-6"
+m.display_name       # "Claude Opus 4.6"
+m.max_input_tokens   # context window (int)
+m.max_tokens         # max output tokens (int)
+
+# capabilities is an untyped nested dict — bracket access, check ["supported"] at the leaf
+caps = m.capabilities
+caps["image_input"]["supported"]                       # vision
+caps["thinking"]["types"]["adaptive"]["supported"]     # adaptive thinking
+caps["effort"]["max"]["supported"]                     # effort: max (also low/medium/high)
+caps["structured_outputs"]["supported"]
+caps["context_management"]["compact_20260112"]["supported"]
+
+# filter across all models — iterate the page object directly (auto-paginates); do NOT use .data
+[m for m in client.models.list()
+ if m.capabilities["thinking"]["types"]["adaptive"]["supported"]
+ and m.max_input_tokens >= 200_000]
+```
+
+Top-level fields (`id`, `display_name`, `max_input_tokens`, `max_tokens`) are typed attributes. `capabilities` is a dict — use bracket access, not attribute access. The API returns the full capability tree for every model with `supported: true/false` at each leaf, so bracket chains are safe without `.get()` guards. TypeScript SDK: same method names, also auto-paginates on iteration.
+
+### Raw HTTP
+
+```bash
+curl https://api.anthropic.com/v1/models/claude-opus-4-6 \
+  -H "x-api-key: $ANTHROPIC_API_KEY" \
+  -H "anthropic-version: 2023-06-01"
+```
+
+```json
+{
+  "id": "claude-opus-4-6",
+  "display_name": "Claude Opus 4.6",
+  "max_input_tokens": 1000000,
+  "max_tokens": 128000,
+  "capabilities": {
+    "image_input": {"supported": true},
+    "structured_outputs": {"supported": true},
+    "thinking": {"supported": true, "types": {"enabled": {"supported": true}, "adaptive": {"supported": true}}},
+    "effort": {"supported": true, "low": {"supported": true}, …, "max": {"supported": true}},
+    …
+  }
+}
+```
+
+## Current Models (recommended)
+
+| Friendly Name     | Alias (use this)    | Full ID                       | Context        | Max Output | Status |
+|-------------------|---------------------|-------------------------------|----------------|------------|--------|
+| Claude Opus 4.6   | `claude-opus-4-6`   | —                             | 200K (1M beta) | 128K       | Active |
+| Claude Sonnet 4.6 | `claude-sonnet-4-6` | -                             | 200K (1M beta) | 64K        | Active |
+| Claude Haiku 4.5  | `claude-haiku-4-5`  | `claude-haiku-4-5-20251001`   | 200K           | 64K        | Active |
+
+### Model Descriptions
+
+- **Claude Opus 4.6** — Our most intelligent model for building agents and coding. Supports adaptive thinking (recommended), 128K max output tokens (requires streaming for large outputs). 1M context window available in beta via `context-1m-2025-08-07` header.
+- **Claude Sonnet 4.6** — Our best combination of speed and intelligence. Supports adaptive thinking (recommended). 1M context window available in beta via `context-1m-2025-08-07` header. 64K max output tokens.
+- **Claude Haiku 4.5** — Fastest and most cost-effective model for simple tasks.
+
+## Legacy Models (still active)
+
+| Friendly Name     | Alias (use this)    | Full ID                       | Status |
+|-------------------|---------------------|-------------------------------|--------|
+| Claude Opus 4.5   | `claude-opus-4-5`   | `claude-opus-4-5-20251101`    | Active |
+| Claude Opus 4.1   | `claude-opus-4-1`   | `claude-opus-4-1-20250805`    | Active |
+| Claude Sonnet 4.5 | `claude-sonnet-4-5` | `claude-sonnet-4-5-20250929`  | Active |
+| Claude Sonnet 4   | `claude-sonnet-4-0` | `claude-sonnet-4-20250514`    | Active |
+| Claude Opus 4     | `claude-opus-4-0`   | `claude-opus-4-20250514`      | Active |
+
+## Deprecated Models (retiring soon)
+
+| Friendly Name     | Alias (use this)    | Full ID                       | Status     | Retires      |
+|-------------------|---------------------|-------------------------------|------------|--------------|
+| Claude Haiku 3    | —                   | `claude-3-haiku-20240307`     | Deprecated | Apr 19, 2026 |
+
+## Retired Models (no longer available)
+
+| Friendly Name     | Full ID                       | Retired     |
+|-------------------|-------------------------------|-------------|
+| Claude Sonnet 3.7 | `claude-3-7-sonnet-20250219`  | Feb 19, 2026 |
+| Claude Haiku 3.5  | `claude-3-5-haiku-20241022`   | Feb 19, 2026 |
+| Claude Opus 3     | `claude-3-opus-20240229`      | Jan 5, 2026 |
+| Claude Sonnet 3.5 | `claude-3-5-sonnet-20241022`  | Oct 28, 2025 |
+| Claude Sonnet 3.5 | `claude-3-5-sonnet-20240620`  | Oct 28, 2025 |
+| Claude Sonnet 3   | `claude-3-sonnet-20240229`    | Jul 21, 2025 |
+| Claude 2.1        | `claude-2.1`                  | Jul 21, 2025 |
+| Claude 2.0        | `claude-2.0`                  | Jul 21, 2025 |
+
+## Resolving User Requests
+
+When a user asks for a model by name, use this table to find the correct model ID:
+
+| User says...                              | Use this model ID              |
+|-------------------------------------------|--------------------------------|
+| "opus", "most powerful"                   | `claude-opus-4-6`              |
+| "opus 4.6"                                | `claude-opus-4-6`              |
+| "opus 4.5"                                | `claude-opus-4-5`              |
+| "opus 4.1"                                | `claude-opus-4-1`              |
+| "opus 4", "opus 4.0"                      | `claude-opus-4-0`              |
+| "sonnet", "balanced"                      | `claude-sonnet-4-6`            |
+| "sonnet 4.6"                              | `claude-sonnet-4-6`            |
+| "sonnet 4.5"                              | `claude-sonnet-4-5`            |
+| "sonnet 4", "sonnet 4.0"                  | `claude-sonnet-4-0`            |
+| "sonnet 3.7"                              | Retired — suggest `claude-sonnet-4-5` |
+| "sonnet 3.5"                              | Retired — suggest `claude-sonnet-4-5` |
+| "haiku", "fast", "cheap"                  | `claude-haiku-4-5`             |
+| "haiku 4.5"                               | `claude-haiku-4-5`             |
+| "haiku 3.5"                               | Retired — suggest `claude-haiku-4-5` |
+| "haiku 3"                                 | Deprecated — suggest `claude-haiku-4-5` |

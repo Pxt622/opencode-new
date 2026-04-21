@@ -1,1 +1,267 @@
-LS0tCm5hbWU6IGF1dG9tYXRpb24td29ya2Zsb3dzCmRlc2NyaXB0aW9uOiBEZXNpZ24gYW5kIGltcGxlbWVudCBhdXRvbWF0aW9uIHdvcmtmbG93cyB0byBzYXZlIHRpbWUgYW5kIHNjYWxlIG9wZXJhdGlvbnMgYXMgYSBzb2xvcHJlbmV1ci4gVXNlIHdoZW4gaWRlbnRpZnlpbmcgcmVwZXRpdGl2ZSB0YXNrcyB0byBhdXRvbWF0ZSwgYnVpbGRpbmcgd29ya2Zsb3dzIGFjcm9zcyB0b29scywgc2V0dGluZyB1cCB0cmlnZ2VycyBhbmQgYWN0aW9ucywgb3Igb3B0aW1pemluZyBleGlzdGluZyBhdXRvbWF0aW9ucy4gQ292ZXJzIGF1dG9tYXRpb24gb3Bwb3J0dW5pdHkgaWRlbnRpZmljYXRpb24sIHdvcmtmbG93IGRlc2lnbiwgdG9vbCBzZWxlY3Rpb24gKFphcGllciwgTWFrZSwgbjhuKSwgdGVzdGluZywgYW5kIG1haW50ZW5hbmNlLiBUcmlnZ2VyIG9uICJhdXRvbWF0ZSIsICJhdXRvbWF0aW9uIiwgIndvcmtmbG93IGF1dG9tYXRpb24iLCAic2F2ZSB0aW1lIiwgInJlZHVjZSBtYW51YWwgd29yayIsICJhdXRvbWF0ZSBteSBidXNpbmVzcyIsICJuby1jb2RlIGF1dG9tYXRpb24iLgotLS0KCiMgQXV0b21hdGlvbiBXb3JrZmxvd3MKCiMjIE92ZXJ2aWV3CkFzIGEgc29sb3ByZW5ldXIsIHlvdXIgdGltZSBpcyB5b3VyIG1vc3QgdmFsdWFibGUgYXNzZXQuIEF1dG9tYXRpb24gbGV0cyB5b3Ugc2NhbGUgd2l0aG91dCBoaXJpbmcuIFRoZSBnb2FsIGlzIHNpbXBsZTogYXV0b21hdGUgYW55dGhpbmcgeW91IGRvIG1vcmUgdGhhbiB0d2ljZSBhIHdlZWsgdGhhdCBkb2Vzbid0IHJlcXVpcmUgY3JlYXRpdmUgdGhpbmtpbmcuIFRoaXMgcGxheWJvb2sgc2hvd3MgeW91IGhvdyB0byBpZGVudGlmeSBhdXRvbWF0aW9uIG9wcG9ydHVuaXRpZXMsIGRlc2lnbiB3b3JrZmxvd3MsIGFuZCBpbXBsZW1lbnQgdGhlbSB3aXRob3V0IHdyaXRpbmcgY29kZS4KCi0tLQoKIyMgU3RlcCAxOiBJZGVudGlmeSBXaGF0IHRvIEF1dG9tYXRlCgpOb3QgZXZlcnkgdGFzayBzaG91bGQgYmUgYXV0b21hdGVkLiBTdGFydCBieSBmaW5kaW5nIHRoZSBoaWdoZXN0LXZhbHVlIG9wcG9ydHVuaXRpZXMuCgoqKkF1dG9tYXRpb24gYXVkaXQgKHNwZW5kIDEgaG91ciBvbiB0aGlzKToqKgoKMS4gVHJhY2sgZXZlcnkgdGFzayB5b3UgZG8gZm9yIGEgd2VlayAodXNlIGEgbm90ZWJvb2sgb3Igc2ltcGxlIHNwcmVhZHNoZWV0KQoyLiBGb3IgZWFjaCB0YXNrLCBub3RlOgogICAtIEhvdyBsb25nIGl0IHRha2VzCiAgIC0gSG93IG9mdGVuIHlvdSBkbyBpdCAoZGFpbHksIHdlZWtseSwgbW9udGhseSkKICAgLSBXaGV0aGVyIGl0J3MgcmVwZXRpdGl2ZSBvciByZXF1aXJlcyBqdWRnbWVudAoKMy4gQ2FsY3VsYXRlIHRpbWUgY29zdCBwZXIgdGFzazoKICAgYGBgCiAgIFRpbWUgQ29zdCA9IChNaW51dGVzIHBlciB0YXNrIMOXIEZyZXF1ZW5jeSBwZXIgbW9udGgpIC8gNjAKICAgYGBgCiAgIEV4YW1wbGU6IDE1IG1pbiB0YXNrIGRvbmUgMjB4L21vbnRoID0gNSBob3Vycy9tb250aAoKNC4gU29ydCBieSB0aW1lIGNvc3QgKGhpZ2hlc3QgdG8gbG93ZXN0KQoKKipHb29kIGNhbmRpZGF0ZXMgZm9yIGF1dG9tYXRpb246KioKLSBSZXBldGl0aXZlIChzYW1lIHN0ZXBzIGV2ZXJ5IHRpbWUpCi0gUnVsZS1iYXNlZCAobm8gY29tcGxleCBqdWRnbWVudCBjYWxscykKLSBIaWdoLWZyZXF1ZW5jeSAoZGFpbHkgb3Igd2Vla2x5KQotIFRpbWUtY29uc3VtaW5nICh0YWtlcyAxMCsgbWludXRlcykKCioqRXhhbXBsZXM6KioKLSDinIUgU2VuZGluZyB3ZWVrbHkgcmVwb3J0cyB0byBjbGllbnRzIChzYW1lIGZvcm1hdCwgc2FtZSBzY2hlZHVsZSkKLSDinIUgQ3JlYXRpbmcgaW52b2ljZXMgYWZ0ZXIgcGF5bWVudAotIOKchSBBZGRpbmcgbmV3IGxlYWRzIHRvIENSTSBmcm9tIGZvcm0gc3VibWlzc2lvbnMKLSDinIUgUG9zdGluZyBzb2NpYWwgbWVkaWEgY29udGVudCBvbiBhIHNjaGVkdWxlCi0g4p2MIENvbmR1Y3RpbmcgY3VzdG9tZXIgZGlzY292ZXJ5IGludGVydmlld3MgKHJlcXVpcmVzIG51YW5jZSkKLSDinYwgV3JpdGluZyBjdXN0b20gcHJvcG9zYWxzIGZvciBjbGllbnRzIChyZXF1aXJlcyBjcmVhdGl2aXR5KQoKKipMb3ctaGFuZ2luZyBmcnVpdCBjaGVja2xpc3QgKHN0YXJ0IGhlcmUpOioqCi0gWyBdIEVtYWlsIG5vdGlmaWNhdGlvbnMgZm9yIGZvcm0gc3VibWlzc2lvbnMKLSBbIF0gQXV0by1zYXZlIGZvcm0gcmVzcG9uc2VzIHRvIHNwcmVhZHNoZWV0Ci0gWyBdIFNjaGVkdWxlIHNvY2lhbCBwb3N0cyBpbiBhZHZhbmNlCi0gWyBdIEF1dG8tY3JlYXRlIGludm9pY2VzIGZyb20gcGF5bWVudCBjb25maXJtYXRpb25zCi0gWyBdIFN5bmMgZGF0YSBiZXR3ZWVuIHRvb2xzIChDUk0g4oaUIGVtYWlsIHRvb2wg4oaUIHNwcmVhZHNoZWV0KQoKLS0tCgojIyBTdGVwIDI6IENob29zZSBZb3VyIEF1dG9tYXRpb24gVG9vbAoKVGhyZWUgbWFpbiBvcHRpb25zIGZvciBuby1jb2RlIGF1dG9tYXRpb24uIFBpY2sgYmFzZWQgb24gY29tcGxleGl0eSBhbmQgYnVkZ2V0LgoKKipUb29sIGNvbXBhcmlzb246KioKCnwgVG9vbCB8IEJlc3QgRm9yIHwgUHJpY2luZyB8IExlYXJuaW5nIEN1cnZlIHwgUG93ZXIgTGV2ZWwgfAp8LS0tfC0tLXwtLS18LS0tfC0tLXwKfCAqKlphcGllcioqIHwgU2ltcGxlLCAyLTMgc3RlcCB3b3JrZmxvd3MgfCAkMjAtNTAvbW9udGggfCBFYXN5IHwgTG93LU1lZGl1bSB8CnwgKipNYWtlIChJbnRlZ3JvbWF0KSoqIHwgVmlzdWFsLCBtdWx0aS1zdGVwIHdvcmtmbG93cyB8ICQ5LTMwL21vbnRoIHwgTWVkaXVtIHwgTWVkaXVtLUhpZ2ggfAp8ICoqbjhuKiogfCBDb21wbGV4LCBkZXZlbG9wZXItZnJpZW5kbHksIHNlbGYtaG9zdGVkIHwgRnJlZSAoc2VsZi1ob3N0ZWQpIG9yICQyMC9tb250aCB8IE1lZGl1bS1IYXJkIHwgSGlnaCB8CgoqKlNlbGVjdGlvbiBndWlkZToqKgotIEJ1ZGdldCA8ICQyMC9tb250aCDihpIgVHJ5IFphcGllciBmcmVlIHRpZXIgb3IgbjhuIHNlbGYtaG9zdGVkCi0gTmVlZCB2aXN1YWwgd29ya2Zsb3cgYnVpbGRlciDihpIgTWFrZQotIFNpbXBsZSAyLXN0ZXAgd29ya2Zsb3dzIOKGkiBaYXBpZXIKLSBDb21wbGV4IHdvcmtmbG93cyB3aXRoIGJyYW5jaGluZyBsb2dpYyDihpIgTWFrZSBvciBuOG4KLSBXYW50IGZ1bGwgY29udHJvbCBhbmQgY3VzdG9taXphdGlvbiDihpIgbjhuCgoqKlJlY29tbWVuZGF0aW9uIGZvciBzb2xvcHJlbmV1cnM6KiogU3RhcnQgd2l0aCBaYXBpZXIgKGVhc2llc3QgdG8gbGVhcm4pLiBHcmFkdWF0ZSB0byBNYWtlIG9yIG44biB3aGVuIHlvdSBoaXQgWmFwaWVyJ3MgbGltaXRzLgoKLS0tCgojIyBTdGVwIDM6IERlc2lnbiBZb3VyIFdvcmtmbG93CgpCZWZvcmUgYnVpbGRpbmcsIG1hcCBvdXQgdGhlIHdvcmtmbG93IG9uIHBhcGVyIG9yIGEgd2hpdGVib2FyZC4KCioqV29ya2Zsb3cgZGVzaWduIHRlbXBsYXRlOioqCgpgYGAKVFJJR0dFUjogV2hhdCBldmVudCBzdGFydHMgdGhlIHdvcmtmbG93PwogIEV4YW1wbGU6ICJOZXcgcm93IGFkZGVkIHRvIEdvb2dsZSBTaGVldCIKCkNPTkRJVElPTlMgKG9wdGlvbmFsKTogU2hvdWxkIHRoaXMgd29ya2Zsb3cgcnVuIGV2ZXJ5IHRpbWUsIG9yIG9ubHkgd2hlbiBjZXJ0YWluIGNvbmRpdGlvbnMgYXJlIG1ldD8KICBFeGFtcGxlOiAiT25seSBpZiBTdGF0dXMgY29sdW1uID0gJ0FwcHJvdmVkJyIKCkFDVElPTlM6IFdoYXQgc2hvdWxkIGhhcHBlbiBhcyBhIHJlc3VsdD8KICBTdGVwIDE6IFthY3Rpb25dCiAgU3RlcCAyOiBbYWN0aW9uXQogIFN0ZXAgMzogW2FjdGlvbl0KCkVSUk9SIEhBTkRMSU5HOiBXaGF0IGhhcHBlbnMgaWYgc29tZXRoaW5nIGZhaWxzPwogIEV4YW1wbGU6ICJTZW5kIG1lIGEgU2xhY2sgbWVzc2FnZSBpZiBhY3Rpb24gZmFpbHMiCmBgYAoKKipFeGFtcGxlIHdvcmtmbG93IChsZWFkIGNhcHR1cmUg4oaSIENSTSDihpIgZW1haWwpOioqCmBgYApUUklHR0VSOiBOZXcgZm9ybSBzdWJtaXNzaW9uIG9uIHdlYnNpdGUKCkNPTkRJVElPTlM6IEVtYWlsIGZpZWxkIGlzIG5vdCBlbXB0eQoKQUNUSU9OUzoKICBTdGVwIDE6IEFkZCBsZWFkIHRvIENSTSAoZS5nLiwgQWlydGFibGUgb3IgSHViU3BvdCkKICBTdGVwIDI6IFNlbmQgd2VsY29tZSBlbWFpbCB2aWEgZW1haWwgdG9vbCAoZS5nLiwgQ29udmVydEtpdCkKICBTdGVwIDM6IENyZWF0ZSB0YXNrIGluIHByb2plY3QgbWFuYWdlbWVudCB0b29sIChlLmcuLCBOb3Rpb24pIHRvIGZvbGxvdyB1cCBpbiAzIGRheXMKICBTdGVwIDQ6IFNlbmQgbWUgYSBTbGFjayBub3RpZmljYXRpb246ICJOZXcgbGVhZDogW05hbWVdIgoKRVJST1IgSEFORExJTkc6IElmIFN0ZXAgMSBmYWlscywgc2VuZCBlbWFpbCBhbGVydCB0byBtZQpgYGAKCioqRGVzaWduIHByaW5jaXBsZXM6KioKLSBLZWVwIGl0IHNpbXBsZSDigJQgc3RhcnQgd2l0aCAyLTMgc3RlcHMsIGFkZCBjb21wbGV4aXR5IGxhdGVyCi0gVGVzdCBlYWNoIHN0ZXAgaW5kaXZpZHVhbGx5IGJlZm9yZSBjaGFpbmluZyB0aGVtIHRvZ2V0aGVyCi0gQWRkIGRlbGF5cyBiZXR3ZWVuIGFjdGlvbnMgaWYgbmVlZGVkIChzb21lIEFQSXMgYXJlIHNsb3cpCi0gQWx3YXlzIGluY2x1ZGUgZXJyb3Igbm90aWZpY2F0aW9ucyBzbyB5b3Uga25vdyB3aGVuIHRoaW5ncyBicmVhawoKLS0tCgojIyBTdGVwIDQ6IEJ1aWxkIGFuZCBUZXN0IFlvdXIgV29ya2Zsb3cKCk5vdyBpbXBsZW1lbnQgaXQgaW4geW91ciBjaG9zZW4gdG9vbC4KCioqQnVpbGQgd29ya2Zsb3cgKFphcGllciBleGFtcGxlKToqKgoxLiAqKkNob29zZSB0cmlnZ2VyIGFwcCoqIChlLmcuLCBHb29nbGUgRm9ybXMsIFR5cGVmb3JtLCB3ZWJzaXRlIGZvcm0pCjIuICoqQ29ubmVjdCB5b3VyIGFjY291bnQqKiAoYXV0aGVudGljYXRlIHZpYSBPQXV0aCkKMy4gKipUZXN0IHRyaWdnZXIqKiAoc3VibWl0IGEgdGVzdCBmb3JtIHRvIG1ha2Ugc3VyZSBkYXRhIGNvbWVzIHRocm91Z2gpCjQuICoqQWRkIGFjdGlvbioqIChlLmcuLCAiQWRkIHJvdyB0byBHb29nbGUgU2hlZXRzIikKNS4gKipNYXAgZmllbGRzKiogKG1hdGNoIGZvcm0gZmllbGRzIHRvIHNwcmVhZHNoZWV0IGNvbHVtbnMpCjYuICoqVGVzdCBhY3Rpb24qKiAocnVuIHRlc3QgdG8gdmVyaWZ5IHJvdyBpcyBhZGRlZCBjb3JyZWN0bHkpCjcuICoqUmVwZWF0IGZvciBhZGRpdGlvbmFsIGFjdGlvbnMqKgo4LiAqKlR1cm4gb24gd29ya2Zsb3cqKiAoWmFwaWVyIGNhbGxzIHRoaXMgInR1cm4gb24gWmFwIikKCioqVGVzdGluZyBjaGVja2xpc3Q6KioKLSBbIF0gU3VibWl0IHRlc3QgZGF0YSB0aHJvdWdoIHRoZSB0cmlnZ2VyCi0gWyBdIFZlcmlmeSBlYWNoIGFjdGlvbiBleGVjdXRlcyBjb3JyZWN0bHkKLSBbIF0gQ2hlY2sgdGhhdCBkYXRhIG1hcHMgdG8gdGhlIHJpZ2h0IGZpZWxkcwotIFsgXSBUZXN0IHdpdGggZWRnZSBjYXNlcyAoZW1wdHkgZmllbGRzLCBzcGVjaWFsIGNoYXJhY3RlcnMsIGxvbmcgdGV4dCkKLSBbIF0gVGVzdCBlcnJvciBoYW5kbGluZyAoaW50ZW50aW9uYWxseSBjYXVzZSBhIGZhaWx1cmUgdG8gc2VlIGlmIGFsZXJ0cyB3b3JrKQoKKipDb21tb24gaXNzdWVzIGFuZCBmaXhlczoqKgoKfCBJc3N1ZSB8IENhdXNlIHwgRml4IHwKfC0tLXwtLS18LS0tfAp8IFdvcmtmbG93IGRvZXNuJ3QgdHJpZ2dlciB8IFRyaWdnZXIgY29uZGl0aW9ucyB0b28gbmFycm93IHwgQ2hlY2sgZmlsdGVyIHNldHRpbmdzLCBicm9hZGVuIGNyaXRlcmlhIHwKfCBBY3Rpb24gZmFpbHMgfCBBUEkgcmF0ZSBsaW1pdCBvciBwZXJtaXNzaW9ucyB8IEFkZCBkZWxheSBiZXR3ZWVuIGFjdGlvbnMsIHJlLWF1dGhlbnRpY2F0ZSB8CnwgRGF0YSBtaXNzaW5nIG9yIGluY29ycmVjdCB8IEZpZWxkIG1hcHBpbmcgd3JvbmcgfCBEb3VibGUtY2hlY2sgd2hpY2ggZmllbGRzIGFyZSBtYXBwZWQgfAp8IFdvcmtmbG93IHJ1bnMgbXVsdGlwbGUgdGltZXMgfCBEdXBsaWNhdGUgdHJpZ2dlcnMgfCBEZS1kdXBsaWNhdGUgYmFzZWQgb24gdW5pcXVlIElEIHwKCioqUnVsZToqKiBUZXN0IHdpdGggcmVhbCBkYXRhIGJlZm9yZSByZWx5aW5nIG9uIGFuIGF1dG9tYXRpb24uIERvbid0IGRpc2NvdmVyIGJ1Z3Mgd2hlbiBhIHJlYWwgY3VzdG9tZXIgaXMgaW52b2x2ZWQuCgotLS0KCiMjIFN0ZXAgNTogTW9uaXRvciBhbmQgTWFpbnRhaW4gQXV0b21hdGlvbnMKCkF1dG9tYXRpb25zIGFyZW4ndCBzZXQtaXQtYW5kLWZvcmdldC1pdC4gVGhleSBicmVhay4gVG9vbHMgY2hhbmdlLiBBUElzIHVwZGF0ZS4gWW91IG5lZWQgYSBtYWludGVuYW5jZSBwbGFuLgoKKipXZWVrbHkgY2hlY2sgKDUgbWluKToqKgotIFNjYW4gd29ya2Zsb3cgbG9ncyBmb3IgZXJyb3JzIChtb3N0IHRvb2xzIHNob3cgYSBsb2cgb2YgcnVucyArIGZhaWx1cmVzKQotIEFkZHJlc3MgYW55IGZhaWx1cmVzIGltbWVkaWF0ZWx5CgoqKk1vbnRobHkgYXVkaXQgKDE1IG1pbik6KioKLSBSZXZpZXcgYWxsIGFjdGl2ZSB3b3JrZmxvd3MKLSBDaGVjazogSXMgdGhpcyBzdGlsbCBiZWluZyB1c2VkPyBJcyBpdCBzdGlsbCBzYXZpbmcgdGltZT8KLSBEaXNhYmxlIG9yIGRlbGV0ZSB1bnVzZWQgd29ya2Zsb3dzICh0aGV5IGNsdXR0ZXIgeW91ciBkYXNoYm9hcmQgYW5kIGNhbiBjYXVzZSBjb25mdXNpb24pCi0gVXBkYXRlIGFueSB3b3JrZmxvd3MgdGhhdCBkZXBlbmQgb24gdG9vbHMgeW91J3ZlIHN3aXRjaGVkIGF3YXkgZnJvbQoKKipXaGVyZSB0byBzdG9yZSB3b3JrZmxvdyBkb2N1bWVudGF0aW9uOioqCi0gQ3JlYXRlIGEgc2ltcGxlIGRvYyAoTm90aW9uLCBHb29nbGUgRG9jKSBmb3IgZWFjaCB3b3JrZmxvdwotIEluY2x1ZGU6IFdoYXQgaXQgZG9lcywgd2hlbiBpdCBydW5zLCB3aGF0IGFwcHMgaXQgY29ubmVjdHMsIGhvdyB0byB0cm91Ymxlc2hvb3QKLSBJZiB5b3UgaGF2ZSAxMCsgd29ya2Zsb3dzLCB0aGlzIGRvYyB3aWxsIHNhdmUgeW91IGhvdXJzIHdoZW4gc29tZXRoaW5nIGJyZWFrcwoKKipFcnJvciBoYW5kbGluZyBzZXR1cDoqKgotIFJvdXRlIGFsbCBlcnJvciBub3RpZmljYXRpb25zIHRvIG9uZSBwbGFjZSAoU2xhY2sgY2hhbm5lbCwgZW1haWwgaW5ib3gsIG9yIHRhc2sgbWFuYWdlcikKLSBTZXQgdXA6ICJJZiBhbnkgd29ya2Zsb3cgZmFpbHMsIHNlbmQgYSBtZXNzYWdlIHRvIFt5b3VyIGVycm9yIGNoYW5uZWxdIgotIFJldmlldyBlcnJvcnMgd2Vla2x5IGFuZCBmaXggcm9vdCBjYXVzZXMKCi0tLQoKIyMgU3RlcCA2OiBBZHZhbmNlZCBBdXRvbWF0aW9uIElkZWFzCgpPbmNlIHlvdSd2ZSBhdXRvbWF0ZWQgdGhlIGJhc2ljcywgY29uc2lkZXIgdGhlc2UgaGlnaGVyLWxldmVyYWdlIHdvcmtmbG93czoKCiMjIyBDbGllbnQgb25ib2FyZGluZyBhdXRvbWF0aW9uCmBgYApUUklHR0VSOiBOZXcgY2xpZW50IHNpZ25zIGNvbnRyYWN0ICh2aWEgRG9jdVNpZ24sIEhlbGxvU2lnbikKQUNUSU9OUzoKICAxLiBDcmVhdGUgcHJvamVjdCBpbiBwcm9qZWN0IG1hbmFnZW1lbnQgdG9vbAogIDIuIEFkZCBjbGllbnQgdG8gQ1JNIHdpdGggIkFjdGl2ZSIgc3RhdHVzCiAgMy4gU2VuZCBvbmJvYXJkaW5nIGVtYWlsIHNlcXVlbmNlCiAgNC4gQ3JlYXRlIGludm9pY2UgaW4gYWNjb3VudGluZyBzb2Z0d2FyZQogIDUuIFNjaGVkdWxlIGtpY2tvZmYgY2FsbCBvbiBjYWxlbmRhcgogIDYuIEFkZCBjbGllbnQgdG8gU2xhY2sgd29ya3NwYWNlIChpZiBhcHBsaWNhYmxlKQpgYGAKCiMjIyBDb250ZW50IGRpc3RyaWJ1dGlvbiBhdXRvbWF0aW9uCmBgYApUUklHR0VSOiBOZXcgYmxvZyBwb3N0IHB1Ymxpc2hlZCBvbiB3ZWJzaXRlICh2aWEgUlNTIG9yIHdlYmhvb2spCkFDVElPTlM6CiAgMS4gUG9zdCBsaW5rIHRvIExpbmtlZEluIHdpdGggYXV0by1nZW5lcmF0ZWQgY2FwdGlvbgogIDIuIFBvc3QgbGluayB0byBUd2l0dGVyIGFzIGEgdGhyZWFkCiAgMy4gQWRkIHBvc3QgdG8gZW1haWwgbmV3c2xldHRlciBkcmFmdCAoaW4gZW1haWwgdG9vbCkKICA0LiBBZGQgdG8gY29udGVudCBjYWxlbmRhciAoTm90aW9uIG9yIEFpcnRhYmxlKQogIDUuIFNlbmQgbm90aWZpY2F0aW9uIHRvIHRlYW0gKFNsYWNrKSB0aGF0IHBvc3QgaXMgbGl2ZQpgYGAKCiMjIyBDdXN0b21lciBoZWFsdGggbW9uaXRvcmluZwpgYGAKVFJJR0dFUjogRXZlcnkgTW9uZGF5IGF0IDlhbSAoc2NoZWR1bGVkIHRyaWdnZXIpCkFDVElPTlM6CiAgMS4gUHVsbCB1c2FnZSBkYXRhIGZvciBhbGwgY3VzdG9tZXJzIGZyb20gZGF0YWJhc2UgKHZpYSBBUEkpCiAgMi4gRmxhZyBjdXN0b21lcnMgd2l0aCA8NTAlIG9mIGF2ZXJhZ2UgdXNhZ2UKICAzLiBBZGQgZmxhZ2dlZCBjdXN0b21lcnMgdG8gIkF0IFJpc2siIHNlZ21lbnQgaW4gQ1JNCiAgNC4gU2VuZCByZS1lbmdhZ2VtZW50IGVtYWlsIGNhbXBhaWduIHRvIGF0LXJpc2sgY3VzdG9tZXJzCiAgNS4gQ3JlYXRlIHRhc2sgZm9yIG1lIHRvIHBlcnNvbmFsbHkgcmVhY2ggb3V0IHRvIHRvcCAxMCBhdC1yaXNrIGN1c3RvbWVycwpgYGAKCiMjIyBJbnZvaWNlIGFuZCBwYXltZW50IHRyYWNraW5nCmBgYApUUklHR0VSOiBQYXltZW50IHJlY2VpdmVkIChTdHJpcGUgd2ViaG9vaykKQUNUSU9OUzoKICAxLiBNYXJrIGludm9pY2UgYXMgcGFpZCBpbiBhY2NvdW50aW5nIHNvZnR3YXJlCiAgMi4gU2VuZCByZWNlaXB0IGVtYWlsIHRvIGN1c3RvbWVyCiAgMy4gVXBkYXRlIENSTTogY3VzdG9tZXIgc3RhdHVzID0gIlBhaWQiCiAgNC4gQWRkIHJldmVudWUgdG8gbW9udGhseSBkYXNoYm9hcmQgKEdvb2dsZSBTaGVldHMgb3IgQWlydGFibGUpCiAgNS4gU2VuZCBtZSBhIFNsYWNrIG5vdGlmaWNhdGlvbjogIlBheW1lbnQgcmVjZWl2ZWQ6ICRYIGZyb20gW0N1c3RvbWVyXSIKYGBgCgotLS0KCiMjIFN0ZXAgNzogQ2FsY3VsYXRlIEF1dG9tYXRpb24gUk9JCgpOb3QgZXZlcnkgYXV0b21hdGlvbiBpcyB3b3J0aCB0aGUgdGltZSBpbnZlc3RtZW50LiBDYWxjdWxhdGUgUk9JIHRvIHByaW9yaXRpemUuCgoqKlJPSSBmb3JtdWxhOioqCmBgYApUaW1lIFNhdmVkIHBlciBNb250aCAoaG91cnMpID0gKE1pbnV0ZXMgcGVyIHRhc2sgLyA2MCkgw5cgRnJlcXVlbmN5IHBlciBtb250aApDb3N0ID0gKFNldHVwIHRpbWUgaW4gaG91cnMgw5cgJDUwL2hvdXIpICsgVG9vbCBjb3N0IHBlciBtb250aApQYXliYWNrIFBlcmlvZCAobW9udGhzKSA9IFNldHVwIGNvc3QgLyBNb250aGx5IHRpbWUgc2F2ZWQgdmFsdWUKCklmIHBheWJhY2sgcGVyaW9kIDwgMyBtb250aHMg4oaSIFdvcnRoIGl0CklmIHBheWJhY2sgcGVyaW9kID4gNiBtb250aHMg4oaSIFByb2JhYmx5IG5vdCB3b3J0aCBpdCAodW5sZXNzIGl0IHVubG9ja3Mgb3RoZXIgdmFsdWUpCmBgYAoKKipFeGFtcGxlOioqCmBgYApUYXNrOiBNYW51YWxseSBjb3B5aW5nIGZvcm0gc3VibWlzc2lvbnMgdG8gQ1JNICgxNSBtaW4sIDIweC9tb250aCA9IDUgaG91cnMvbW9udGggc2F2ZWQpClNldHVwIHRpbWU6IDEgaG91cgpUb29sIGNvc3Q6ICQyMC9tb250aCAoWmFwaWVyKQpQYXliYWNrOiAoJDUwIHNldHVwIGNvc3QpIC8gKCQyNTAvbW9udGggdmFsdWUgc2F2ZWQpID0gMC4yIG1vbnRocyDihpIgQWJzb2x1dGVseSB3b3J0aCBpdApgYGAKCioqUnVsZToqKiBGb2N1cyBvbiBhdXRvbWF0aW9ucyB3aXRoIHBheWJhY2sgPCAzIG1vbnRocy4gVGhvc2UgYXJlIHlvdXIgaGlnaGVzdC1sZXZlcmFnZSBpbnZlc3RtZW50cy4KCi0tLQoKIyMgQXV0b21hdGlvbiBNaXN0YWtlcyB0byBBdm9pZAotICoqQXV0b21hdGluZyBiZWZvcmUgb3B0aW1pemluZy4qKiBEb24ndCBhdXRvbWF0ZSBhIGJhZCBwcm9jZXNzLiBGaXggdGhlIHByb2Nlc3MgZmlyc3QsIHRoZW4gYXV0b21hdGUgaXQuCi0gKipPdmVyLWF1dG9tYXRpbmcuKiogTm90IGV2ZXJ5dGhpbmcgbmVlZHMgdG8gYmUgYXV0b21hdGVkLiBJZiBhIHRhc2sgaXMgcmFyZSBvciByZXF1aXJlcyBqdWRnbWVudCwgZG8gaXQgbWFudWFsbHkuCi0gKipObyBlcnJvciBoYW5kbGluZy4qKiBJZiBhbiBhdXRvbWF0aW9uIGJyZWFrcyBhbmQgeW91IGRvbid0IGtub3csIGl0IGNhdXNlcyBzaWxlbnQgZmFpbHVyZXMuIEFsd2F5cyBzZXQgdXAgZXJyb3IgYWxlcnRzLgotICoqTm90IHRlc3RpbmcgdGhvcm91Z2hseS4qKiBBIGJyb2tlbiBhdXRvbWF0aW9uIGlzIHdvcnNlIHRoYW4gbm8gYXV0b21hdGlvbiDigJQgaXQgY3JlYXRlcyBpbmNvcnJlY3QgZGF0YSBvciBtaXNzZWQgdGFza3MuCi0gKipCdWlsZGluZyB0b28gY29tcGxleCB0b28gZmFzdC4qKiBTdGFydCB3aXRoIHNpbXBsZSAyLTMgc3RlcCB3b3JrZmxvd3MuIEFkZCBjb21wbGV4aXR5IG9ubHkgd2hlbiB0aGUgc2ltcGxlIHZlcnNpb24gd29ya3MgcGVyZmVjdGx5LgotICoqTm90IGRvY3VtZW50aW5nIHdvcmtmbG93cy4qKiBGdXR1cmUgeW91IHdpbGwgZm9yZ2V0IGhvdyB0aGlzIHdvcmtzLiBXcml0ZSBpdCBkb3duLgo=
+---
+name: automation-workflows
+description: Design and implement automation workflows to save time and scale operations as a solopreneur. Use when identifying repetitive tasks to automate, building workflows across tools, setting up triggers and actions, or optimizing existing automations. Covers automation opportunity identification, workflow design, tool selection (Zapier, Make, n8n), testing, and maintenance. Trigger on "automate", "automation", "workflow automation", "save time", "reduce manual work", "automate my business", "no-code automation".
+---
+
+# Automation Workflows
+
+## Overview
+As a solopreneur, your time is your most valuable asset. Automation lets you scale without hiring. The goal is simple: automate anything you do more than twice a week that doesn't require creative thinking. This playbook shows you how to identify automation opportunities, design workflows, and implement them without writing code.
+
+---
+
+## Step 1: Identify What to Automate
+
+Not every task should be automated. Start by finding the highest-value opportunities.
+
+**Automation audit (spend 1 hour on this):**
+
+1. Track every task you do for a week (use a notebook or simple spreadsheet)
+2. For each task, note:
+   - How long it takes
+   - How often you do it (daily, weekly, monthly)
+   - Whether it's repetitive or requires judgment
+
+3. Calculate time cost per task:
+   ```
+   Time Cost = (Minutes per task × Frequency per month) / 60
+   ```
+   Example: 15 min task done 20x/month = 5 hours/month
+
+4. Sort by time cost (highest to lowest)
+
+**Good candidates for automation:**
+- Repetitive (same steps every time)
+- Rule-based (no complex judgment calls)
+- High-frequency (daily or weekly)
+- Time-consuming (takes 10+ minutes)
+
+**Examples:**
+- ✅ Sending weekly reports to clients (same format, same schedule)
+- ✅ Creating invoices after payment
+- ✅ Adding new leads to CRM from form submissions
+- ✅ Posting social media content on a schedule
+- ❌ Conducting customer discovery interviews (requires nuance)
+- ❌ Writing custom proposals for clients (requires creativity)
+
+**Low-hanging fruit checklist (start here):**
+- [ ] Email notifications for form submissions
+- [ ] Auto-save form responses to spreadsheet
+- [ ] Schedule social posts in advance
+- [ ] Auto-create invoices from payment confirmations
+- [ ] Sync data between tools (CRM ↔ email tool ↔ spreadsheet)
+
+---
+
+## Step 2: Choose Your Automation Tool
+
+Three main options for no-code automation. Pick based on complexity and budget.
+
+**Tool comparison:**
+
+| Tool | Best For | Pricing | Learning Curve | Power Level |
+|---|---|---|---|---|
+| **Zapier** | Simple, 2-3 step workflows | $20-50/month | Easy | Low-Medium |
+| **Make (Integromat)** | Visual, multi-step workflows | $9-30/month | Medium | Medium-High |
+| **n8n** | Complex, developer-friendly, self-hosted | Free (self-hosted) or $20/month | Medium-Hard | High |
+
+**Selection guide:**
+- Budget < $20/month → Try Zapier free tier or n8n self-hosted
+- Need visual workflow builder → Make
+- Simple 2-step workflows → Zapier
+- Complex workflows with branching logic → Make or n8n
+- Want full control and customization → n8n
+
+**Recommendation for solopreneurs:** Start with Zapier (easiest to learn). Graduate to Make or n8n when you hit Zapier's limits.
+
+---
+
+## Step 3: Design Your Workflow
+
+Before building, map out the workflow on paper or a whiteboard.
+
+**Workflow design template:**
+
+```
+TRIGGER: What event starts the workflow?
+  Example: "New row added to Google Sheet"
+
+CONDITIONS (optional): Should this workflow run every time, or only when certain conditions are met?
+  Example: "Only if Status column = 'Approved'"
+
+ACTIONS: What should happen as a result?
+  Step 1: [action]
+  Step 2: [action]
+  Step 3: [action]
+
+ERROR HANDLING: What happens if something fails?
+  Example: "Send me a Slack message if action fails"
+```
+
+**Example workflow (lead capture → CRM → email):**
+```
+TRIGGER: New form submission on website
+
+CONDITIONS: Email field is not empty
+
+ACTIONS:
+  Step 1: Add lead to CRM (e.g., Airtable or HubSpot)
+  Step 2: Send welcome email via email tool (e.g., ConvertKit)
+  Step 3: Create task in project management tool (e.g., Notion) to follow up in 3 days
+  Step 4: Send me a Slack notification: "New lead: [Name]"
+
+ERROR HANDLING: If Step 1 fails, send email alert to me
+```
+
+**Design principles:**
+- Keep it simple — start with 2-3 steps, add complexity later
+- Test each step individually before chaining them together
+- Add delays between actions if needed (some APIs are slow)
+- Always include error notifications so you know when things break
+
+---
+
+## Step 4: Build and Test Your Workflow
+
+Now implement it in your chosen tool.
+
+**Build workflow (Zapier example):**
+1. **Choose trigger app** (e.g., Google Forms, Typeform, website form)
+2. **Connect your account** (authenticate via OAuth)
+3. **Test trigger** (submit a test form to make sure data comes through)
+4. **Add action** (e.g., "Add row to Google Sheets")
+5. **Map fields** (match form fields to spreadsheet columns)
+6. **Test action** (run test to verify row is added correctly)
+7. **Repeat for additional actions**
+8. **Turn on workflow** (Zapier calls this "turn on Zap")
+
+**Testing checklist:**
+- [ ] Submit test data through the trigger
+- [ ] Verify each action executes correctly
+- [ ] Check that data maps to the right fields
+- [ ] Test with edge cases (empty fields, special characters, long text)
+- [ ] Test error handling (intentionally cause a failure to see if alerts work)
+
+**Common issues and fixes:**
+
+| Issue | Cause | Fix |
+|---|---|---|
+| Workflow doesn't trigger | Trigger conditions too narrow | Check filter settings, broaden criteria |
+| Action fails | API rate limit or permissions | Add delay between actions, re-authenticate |
+| Data missing or incorrect | Field mapping wrong | Double-check which fields are mapped |
+| Workflow runs multiple times | Duplicate triggers | De-duplicate based on unique ID |
+
+**Rule:** Test with real data before relying on an automation. Don't discover bugs when a real customer is involved.
+
+---
+
+## Step 5: Monitor and Maintain Automations
+
+Automations aren't set-it-and-forget-it. They break. Tools change. APIs update. You need a maintenance plan.
+
+**Weekly check (5 min):**
+- Scan workflow logs for errors (most tools show a log of runs + failures)
+- Address any failures immediately
+
+**Monthly audit (15 min):**
+- Review all active workflows
+- Check: Is this still being used? Is it still saving time?
+- Disable or delete unused workflows (they clutter your dashboard and can cause confusion)
+- Update any workflows that depend on tools you've switched away from
+
+**Where to store workflow documentation:**
+- Create a simple doc (Notion, Google Doc) for each workflow
+- Include: What it does, when it runs, what apps it connects, how to troubleshoot
+- If you have 10+ workflows, this doc will save you hours when something breaks
+
+**Error handling setup:**
+- Route all error notifications to one place (Slack channel, email inbox, or task manager)
+- Set up: "If any workflow fails, send a message to [your error channel]"
+- Review errors weekly and fix root causes
+
+---
+
+## Step 6: Advanced Automation Ideas
+
+Once you've automated the basics, consider these higher-leverage workflows:
+
+### Client onboarding automation
+```
+TRIGGER: New client signs contract (via DocuSign, HelloSign)
+ACTIONS:
+  1. Create project in project management tool
+  2. Add client to CRM with "Active" status
+  3. Send onboarding email sequence
+  4. Create invoice in accounting software
+  5. Schedule kickoff call on calendar
+  6. Add client to Slack workspace (if applicable)
+```
+
+### Content distribution automation
+```
+TRIGGER: New blog post published on website (via RSS or webhook)
+ACTIONS:
+  1. Post link to LinkedIn with auto-generated caption
+  2. Post link to Twitter as a thread
+  3. Add post to email newsletter draft (in email tool)
+  4. Add to content calendar (Notion or Airtable)
+  5. Send notification to team (Slack) that post is live
+```
+
+### Customer health monitoring
+```
+TRIGGER: Every Monday at 9am (scheduled trigger)
+ACTIONS:
+  1. Pull usage data for all customers from database (via API)
+  2. Flag customers with <50% of average usage
+  3. Add flagged customers to "At Risk" segment in CRM
+  4. Send re-engagement email campaign to at-risk customers
+  5. Create task for me to personally reach out to top 10 at-risk customers
+```
+
+### Invoice and payment tracking
+```
+TRIGGER: Payment received (Stripe webhook)
+ACTIONS:
+  1. Mark invoice as paid in accounting software
+  2. Send receipt email to customer
+  3. Update CRM: customer status = "Paid"
+  4. Add revenue to monthly dashboard (Google Sheets or Airtable)
+  5. Send me a Slack notification: "Payment received: $X from [Customer]"
+```
+
+---
+
+## Step 7: Calculate Automation ROI
+
+Not every automation is worth the time investment. Calculate ROI to prioritize.
+
+**ROI formula:**
+```
+Time Saved per Month (hours) = (Minutes per task / 60) × Frequency per month
+Cost = (Setup time in hours × $50/hour) + Tool cost per month
+Payback Period (months) = Setup cost / Monthly time saved value
+
+If payback period < 3 months → Worth it
+If payback period > 6 months → Probably not worth it (unless it unlocks other value)
+```
+
+**Example:**
+```
+Task: Manually copying form submissions to CRM (15 min, 20x/month = 5 hours/month saved)
+Setup time: 1 hour
+Tool cost: $20/month (Zapier)
+Payback: ($50 setup cost) / ($250/month value saved) = 0.2 months → Absolutely worth it
+```
+
+**Rule:** Focus on automations with payback < 3 months. Those are your highest-leverage investments.
+
+---
+
+## Automation Mistakes to Avoid
+- **Automating before optimizing.** Don't automate a bad process. Fix the process first, then automate it.
+- **Over-automating.** Not everything needs to be automated. If a task is rare or requires judgment, do it manually.
+- **No error handling.** If an automation breaks and you don't know, it causes silent failures. Always set up error alerts.
+- **Not testing thoroughly.** A broken automation is worse than no automation — it creates incorrect data or missed tasks.
+- **Building too complex too fast.** Start with simple 2-3 step workflows. Add complexity only when the simple version works perfectly.
+- **Not documenting workflows.** Future you will forget how this works. Write it down.

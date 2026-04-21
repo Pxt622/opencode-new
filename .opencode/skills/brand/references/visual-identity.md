@@ -1,1 +1,96 @@
-IyBWaXN1YWwgSWRlbnRpdHkgQmFzaWNzCgojIyBDb3JlIFZpc3VhbCBFbGVtZW50cwoKIyMjIExvZ28KLSAqKlByaW1hcnk6KiogRnVsbCBsb2dvIChob3Jpem9udGFsL3N0YWNrZWQpCi0gKipTZWNvbmRhcnk6KiogQWJicmV2aWF0ZWQgdmVyc2lvbgotICoqSWNvbi9NYXJrOioqIFN5bWJvbCBvbmx5Ci0gKipDbGVhciBzcGFjZToqKiBNaW5pbXVtIHBhZGRpbmcgYXJvdW5kIGxvZ28KLSAqKk1pbmltdW0gc2l6ZToqKiBTbWFsbGVzdCByZWFkYWJsZSBzaXplCgojIyMgQ29sb3IgUGFsZXR0ZQpgYGAKUHJpbWFyeSBDb2xvcnMgKDEtMikK4pSc4pSA4pSAIE1haW4gYnJhbmQgY29sb3IK4pSU4pSA4pSAIFN1cHBvcnRpbmcgcHJpbWFyeQoKU2Vjb25kYXJ5IENvbG9ycyAoMi0zKQrilJzilIDilIAgQWNjZW50IGNvbG9ycwrilJTilIDilIAgU3VwcG9ydGluZyB2aXN1YWxzCgpOZXV0cmFscyAoMy00KQrilJzilIDilIAgVGV4dCBjb2xvcnMK4pSc4pSA4pSAIEJhY2tncm91bmQgY29sb3JzCuKUlOKUgOKUgCBVSSBlbGVtZW50cwpgYGAKCiMjIyBUeXBvZ3JhcGh5CnwgVXNhZ2UgfCBGb250IHwgV2VpZ2h0IHwgU2l6ZSB8CnwtLS0tLS0tfC0tLS0tLXwtLS0tLS0tLXwtLS0tLS18CnwgSDEgfCBbRm9udF0gfCBCb2xkIHwgMzItNDhweCB8CnwgSDIgfCBbRm9udF0gfCBTZW1pYm9sZCB8IDI0LTMycHggfAp8IEJvZHkgfCBbRm9udF0gfCBSZWd1bGFyIHwgMTYtMThweCB8CnwgQ2FwdGlvbiB8IFtGb250XSB8IFJlZ3VsYXIgfCAxMi0xNHB4IHwKCiMjIFZpc3VhbCBHdWlkZWxpbmVzIFRlbXBsYXRlCgpgYGBtYXJrZG93bgojIyBMb2dvIFVzYWdlCgojIyMgQ29ycmVjdCBVc2FnZQotIFtHdWlkZWxpbmVzIGZvciBwcm9wZXIgbG9nbyB1c2VdCgojIyMgSW5jb3JyZWN0IFVzYWdlCi0gRG9uJ3Qgc3RyZXRjaCBvciBkaXN0b3J0Ci0gRG9uJ3QgY2hhbmdlIGNvbG9ycyAodW5sZXNzIGFwcHJvdmVkKQotIERvbid0IGFkZCBlZmZlY3RzCi0gRG9uJ3QgcGxhY2Ugb24gYnVzeSBiYWNrZ3JvdW5kcwoKIyMgQ29sb3IgU3BlY2lmaWNhdGlvbnMKCiMjIyBQcmltYXJ5IFBhbGV0dGUKfCBDb2xvciB8IEhleCB8IFJHQiB8IFVzYWdlIHwKfC0tLS0tLS18LS0tLS18LS0tLS18LS0tLS0tLXwKfCBbTmFtZV0gfCAjWFhYWFhYIHwgcixnLGIgfCBbV2hlcmUgdG8gdXNlXSB8CgojIyMgQWNjZXNzaWJpbGl0eQotIFRleHQgY29udHJhc3QgcmF0aW86IDQuNToxIG1pbmltdW0KLSBCdXR0b24gY29udHJhc3Q6IFdDQUcgQUEgY29tcGxpYW50CgojIyBJbWFnZXJ5IFN0eWxlCgojIyMgUGhvdG9ncmFwaHkKLSBbTGlnaHRpbmcgcHJlZmVyZW5jZXNdCi0gW1N1YmplY3QgZ3VpZGVsaW5lc10KLSBbQ29tcG9zaXRpb24gcnVsZXNdCi0gW0VkaXRpbmcgc3R5bGVdCgojIyMgSWxsdXN0cmF0aW9ucwotIFtTdHlsZSBkZXNjcmlwdGlvbl0KLSBbQ29sb3IgdXNhZ2VdCi0gW0NvbXBsZXhpdHkgbGV2ZWxdCgojIyMgSWNvbnMKLSBbU3R5bGU6IG91dGxpbmVkL2ZpbGxlZC9kdW90b25lXQotIFtTdHJva2Ugd2VpZ2h0XQotIFtDb3JuZXIgcmFkaXVzXQpgYGAKCiMjIFF1aWNrIENoZWNrcwoKIyMjIExvZ28KLSBbIF0gQ29ycmVjdCB2ZXJzaW9uIGZvciBjb250ZXh0Ci0gWyBdIFN1ZmZpY2llbnQgY2xlYXIgc3BhY2UKLSBbIF0gTGVnaWJsZSBhdCBzaXplIHVzZWQKLSBbIF0gQ29ycmVjdCBjb2xvciBmb3IgYmFja2dyb3VuZAoKIyMjIENvbG9ycwotIFsgXSBGcm9tIGFwcHJvdmVkIHBhbGV0dGUKLSBbIF0gQWNjZXNzaWJsZSBjb250cmFzdAotIFsgXSBDb25zaXN0ZW50IGFjcm9zcyBtYXRlcmlhbHMKCiMjIyBUeXBvZ3JhcGh5Ci0gWyBdIENvcnJlY3QgZm9udHMKLSBbIF0gQXBwcm9wcmlhdGUgaGllcmFyY2h5Ci0gWyBdIFJlYWRhYmxlIHNpemUK
+# Visual Identity Basics
+
+## Core Visual Elements
+
+### Logo
+- **Primary:** Full logo (horizontal/stacked)
+- **Secondary:** Abbreviated version
+- **Icon/Mark:** Symbol only
+- **Clear space:** Minimum padding around logo
+- **Minimum size:** Smallest readable size
+
+### Color Palette
+```
+Primary Colors (1-2)
+├── Main brand color
+└── Supporting primary
+
+Secondary Colors (2-3)
+├── Accent colors
+└── Supporting visuals
+
+Neutrals (3-4)
+├── Text colors
+├── Background colors
+└── UI elements
+```
+
+### Typography
+| Usage | Font | Weight | Size |
+|-------|------|--------|------|
+| H1 | [Font] | Bold | 32-48px |
+| H2 | [Font] | Semibold | 24-32px |
+| Body | [Font] | Regular | 16-18px |
+| Caption | [Font] | Regular | 12-14px |
+
+## Visual Guidelines Template
+
+```markdown
+## Logo Usage
+
+### Correct Usage
+- [Guidelines for proper logo use]
+
+### Incorrect Usage
+- Don't stretch or distort
+- Don't change colors (unless approved)
+- Don't add effects
+- Don't place on busy backgrounds
+
+## Color Specifications
+
+### Primary Palette
+| Color | Hex | RGB | Usage |
+|-------|-----|-----|-------|
+| [Name] | #XXXXXX | r,g,b | [Where to use] |
+
+### Accessibility
+- Text contrast ratio: 4.5:1 minimum
+- Button contrast: WCAG AA compliant
+
+## Imagery Style
+
+### Photography
+- [Lighting preferences]
+- [Subject guidelines]
+- [Composition rules]
+- [Editing style]
+
+### Illustrations
+- [Style description]
+- [Color usage]
+- [Complexity level]
+
+### Icons
+- [Style: outlined/filled/duotone]
+- [Stroke weight]
+- [Corner radius]
+```
+
+## Quick Checks
+
+### Logo
+- [ ] Correct version for context
+- [ ] Sufficient clear space
+- [ ] Legible at size used
+- [ ] Correct color for background
+
+### Colors
+- [ ] From approved palette
+- [ ] Accessible contrast
+- [ ] Consistent across materials
+
+### Typography
+- [ ] Correct fonts
+- [ ] Appropriate hierarchy
+- [ ] Readable size

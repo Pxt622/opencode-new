@@ -1,1 +1,289 @@
-IiIiQ3JlYXRlIHRodW1ibmFpbCBncmlkcyBmcm9tIFBvd2VyUG9pbnQgcHJlc2VudGF0aW9uIHNsaWRlcy4KCkNyZWF0ZXMgYSBncmlkIGxheW91dCBvZiBzbGlkZSB0aHVtYm5haWxzIGZvciBxdWljayB2aXN1YWwgYW5hbHlzaXMuCkxhYmVscyBlYWNoIHRodW1ibmFpbCB3aXRoIGl0cyBYTUwgZmlsZW5hbWUgKGUuZy4sIHNsaWRlMS54bWwpLgpIaWRkZW4gc2xpZGVzIGFyZSBzaG93biB3aXRoIGEgcGxhY2Vob2xkZXIgcGF0dGVybi4KClVzYWdlOgogICAgcHl0aG9uIHRodW1ibmFpbC5weSBpbnB1dC5wcHR4IFtvdXRwdXRfcHJlZml4XSBbLS1jb2xzIE5dCgpFeGFtcGxlczoKICAgIHB5dGhvbiB0aHVtYm5haWwucHkgcHJlc2VudGF0aW9uLnBwdHgKICAgICMgQ3JlYXRlczogdGh1bWJuYWlscy5qcGcKCiAgICBweXRob24gdGh1bWJuYWlsLnB5IHRlbXBsYXRlLnBwdHggZ3JpZCAtLWNvbHMgNAogICAgIyBDcmVhdGVzOiBncmlkLmpwZyAob3IgZ3JpZC0xLmpwZywgZ3JpZC0yLmpwZyBmb3IgbGFyZ2UgZGVja3MpCiIiIgoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCBzeXMKaW1wb3J0IHRlbXBmaWxlCmltcG9ydCB6aXBmaWxlCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IGRlZnVzZWR4bWwubWluaWRvbQpmcm9tIG9mZmljZS5zb2ZmaWNlIGltcG9ydCBnZXRfc29mZmljZV9lbnYKZnJvbSBQSUwgaW1wb3J0IEltYWdlLCBJbWFnZURyYXcsIEltYWdlRm9udAoKVEhVTUJOQUlMX1dJRFRIID0gMzAwCkNPTlZFUlNJT05fRFBJID0gMTAwCk1BWF9DT0xTID0gNgpERUZBVUxUX0NPTFMgPSAzCkpQRUdfUVVBTElUWSA9IDk1CkdSSURfUEFERElORyA9IDIwCkJPUkRFUl9XSURUSCA9IDIKRk9OVF9TSVpFX1JBVElPID0gMC4xMApMQUJFTF9QQURESU5HX1JBVElPID0gMC40CgoKZGVmIG1haW4oKToKICAgIHBhcnNlciA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKAogICAgICAgIGRlc2NyaXB0aW9uPSJDcmVhdGUgdGh1bWJuYWlsIGdyaWRzIGZyb20gUG93ZXJQb2ludCBzbGlkZXMuIgogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiaW5wdXQiLCBoZWxwPSJJbnB1dCBQb3dlclBvaW50IGZpbGUgKC5wcHR4KSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KAogICAgICAgICJvdXRwdXRfcHJlZml4IiwKICAgICAgICBuYXJncz0iPyIsCiAgICAgICAgZGVmYXVsdD0idGh1bWJuYWlscyIsCiAgICAgICAgaGVscD0iT3V0cHV0IHByZWZpeCBmb3IgaW1hZ2UgZmlsZXMgKGRlZmF1bHQ6IHRodW1ibmFpbHMpIiwKICAgICkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIi0tY29scyIsCiAgICAgICAgdHlwZT1pbnQsCiAgICAgICAgZGVmYXVsdD1ERUZBVUxUX0NPTFMsCiAgICAgICAgaGVscD1mIk51bWJlciBvZiBjb2x1bW5zIChkZWZhdWx0OiB7REVGQVVMVF9DT0xTfSwgbWF4OiB7TUFYX0NPTFN9KSIsCiAgICApCgogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICBjb2xzID0gbWluKGFyZ3MuY29scywgTUFYX0NPTFMpCiAgICBpZiBhcmdzLmNvbHMgPiBNQVhfQ09MUzoKICAgICAgICBwcmludChmIldhcm5pbmc6IENvbHVtbnMgbGltaXRlZCB0byB7TUFYX0NPTFN9IikKCiAgICBpbnB1dF9wYXRoID0gUGF0aChhcmdzLmlucHV0KQogICAgaWYgbm90IGlucHV0X3BhdGguZXhpc3RzKCkgb3IgaW5wdXRfcGF0aC5zdWZmaXgubG93ZXIoKSAhPSAiLnBwdHgiOgogICAgICAgIHByaW50KGYiRXJyb3I6IEludmFsaWQgUG93ZXJQb2ludCBmaWxlOiB7YXJncy5pbnB1dH0iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBvdXRwdXRfcGF0aCA9IFBhdGgoZiJ7YXJncy5vdXRwdXRfcHJlZml4fS5qcGciKQoKICAgIHRyeToKICAgICAgICBzbGlkZV9pbmZvID0gZ2V0X3NsaWRlX2luZm8oaW5wdXRfcGF0aCkKCiAgICAgICAgd2l0aCB0ZW1wZmlsZS5UZW1wb3JhcnlEaXJlY3RvcnkoKSBhcyB0ZW1wX2RpcjoKICAgICAgICAgICAgdGVtcF9wYXRoID0gUGF0aCh0ZW1wX2RpcikKICAgICAgICAgICAgdmlzaWJsZV9pbWFnZXMgPSBjb252ZXJ0X3RvX2ltYWdlcyhpbnB1dF9wYXRoLCB0ZW1wX3BhdGgpCgogICAgICAgICAgICBpZiBub3QgdmlzaWJsZV9pbWFnZXMgYW5kIG5vdCBhbnkoc1siaGlkZGVuIl0gZm9yIHMgaW4gc2xpZGVfaW5mbyk6CiAgICAgICAgICAgICAgICBwcmludCgiRXJyb3I6IE5vIHNsaWRlcyBmb3VuZCIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICAgICAgICAgIHN5cy5leGl0KDEpCgogICAgICAgICAgICBzbGlkZXMgPSBidWlsZF9zbGlkZV9saXN0KHNsaWRlX2luZm8sIHZpc2libGVfaW1hZ2VzLCB0ZW1wX3BhdGgpCgogICAgICAgICAgICBncmlkX2ZpbGVzID0gY3JlYXRlX2dyaWRzKHNsaWRlcywgY29scywgVEhVTUJOQUlMX1dJRFRILCBvdXRwdXRfcGF0aCkKCiAgICAgICAgICAgIHByaW50KGYiQ3JlYXRlZCB7bGVuKGdyaWRfZmlsZXMpfSBncmlkKHMpOiIpCiAgICAgICAgICAgIGZvciBncmlkX2ZpbGUgaW4gZ3JpZF9maWxlczoKICAgICAgICAgICAgICAgIHByaW50KGYiICB7Z3JpZF9maWxlfSIpCgogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KGYiRXJyb3I6IHtlfSIsIGZpbGU9c3lzLnN0ZGVycikKICAgICAgICBzeXMuZXhpdCgxKQoKCmRlZiBnZXRfc2xpZGVfaW5mbyhwcHR4X3BhdGg6IFBhdGgpIC0+IGxpc3RbZGljdF06CiAgICB3aXRoIHppcGZpbGUuWmlwRmlsZShwcHR4X3BhdGgsICJyIikgYXMgemY6CiAgICAgICAgcmVsc19jb250ZW50ID0gemYucmVhZCgicHB0L19yZWxzL3ByZXNlbnRhdGlvbi54bWwucmVscyIpLmRlY29kZSgidXRmLTgiKQogICAgICAgIHJlbHNfZG9tID0gZGVmdXNlZHhtbC5taW5pZG9tLnBhcnNlU3RyaW5nKHJlbHNfY29udGVudCkKCiAgICAgICAgcmlkX3RvX3NsaWRlID0ge30KICAgICAgICBmb3IgcmVsIGluIHJlbHNfZG9tLmdldEVsZW1lbnRzQnlUYWdOYW1lKCJSZWxhdGlvbnNoaXAiKToKICAgICAgICAgICAgcmlkID0gcmVsLmdldEF0dHJpYnV0ZSgiSWQiKQogICAgICAgICAgICB0YXJnZXQgPSByZWwuZ2V0QXR0cmlidXRlKCJUYXJnZXQiKQogICAgICAgICAgICByZWxfdHlwZSA9IHJlbC5nZXRBdHRyaWJ1dGUoIlR5cGUiKQogICAgICAgICAgICBpZiAic2xpZGUiIGluIHJlbF90eXBlIGFuZCB0YXJnZXQuc3RhcnRzd2l0aCgic2xpZGVzLyIpOgogICAgICAgICAgICAgICAgcmlkX3RvX3NsaWRlW3JpZF0gPSB0YXJnZXQucmVwbGFjZSgic2xpZGVzLyIsICIiKQoKICAgICAgICBwcmVzX2NvbnRlbnQgPSB6Zi5yZWFkKCJwcHQvcHJlc2VudGF0aW9uLnhtbCIpLmRlY29kZSgidXRmLTgiKQogICAgICAgIHByZXNfZG9tID0gZGVmdXNlZHhtbC5taW5pZG9tLnBhcnNlU3RyaW5nKHByZXNfY29udGVudCkKCiAgICAgICAgc2xpZGVzID0gW10KICAgICAgICBmb3Igc2xkX2lkIGluIHByZXNfZG9tLmdldEVsZW1lbnRzQnlUYWdOYW1lKCJwOnNsZElkIik6CiAgICAgICAgICAgIHJpZCA9IHNsZF9pZC5nZXRBdHRyaWJ1dGUoInI6aWQiKQogICAgICAgICAgICBpZiByaWQgaW4gcmlkX3RvX3NsaWRlOgogICAgICAgICAgICAgICAgaGlkZGVuID0gc2xkX2lkLmdldEF0dHJpYnV0ZSgic2hvdyIpID09ICIwIgogICAgICAgICAgICAgICAgc2xpZGVzLmFwcGVuZCh7Im5hbWUiOiByaWRfdG9fc2xpZGVbcmlkXSwgImhpZGRlbiI6IGhpZGRlbn0pCgogICAgICAgIHJldHVybiBzbGlkZXMKCgpkZWYgYnVpbGRfc2xpZGVfbGlzdCgKICAgIHNsaWRlX2luZm86IGxpc3RbZGljdF0sCiAgICB2aXNpYmxlX2ltYWdlczogbGlzdFtQYXRoXSwKICAgIHRlbXBfZGlyOiBQYXRoLAopIC0+IGxpc3RbdHVwbGVbUGF0aCwgc3RyXV06CiAgICBpZiB2aXNpYmxlX2ltYWdlczoKICAgICAgICB3aXRoIEltYWdlLm9wZW4odmlzaWJsZV9pbWFnZXNbMF0pIGFzIGltZzoKICAgICAgICAgICAgcGxhY2Vob2xkZXJfc2l6ZSA9IGltZy5zaXplCiAgICBlbHNlOgogICAgICAgIHBsYWNlaG9sZGVyX3NpemUgPSAoMTkyMCwgMTA4MCkKCiAgICBzbGlkZXMgPSBbXQogICAgdmlzaWJsZV9pZHggPSAwCgogICAgZm9yIGluZm8gaW4gc2xpZGVfaW5mbzoKICAgICAgICBpZiBpbmZvWyJoaWRkZW4iXToKICAgICAgICAgICAgcGxhY2Vob2xkZXJfcGF0aCA9IHRlbXBfZGlyIC8gZiJoaWRkZW4te2luZm9bJ25hbWUnXX0uanBnIgogICAgICAgICAgICBwbGFjZWhvbGRlcl9pbWcgPSBjcmVhdGVfaGlkZGVuX3BsYWNlaG9sZGVyKHBsYWNlaG9sZGVyX3NpemUpCiAgICAgICAgICAgIHBsYWNlaG9sZGVyX2ltZy5zYXZlKHBsYWNlaG9sZGVyX3BhdGgsICJKUEVHIikKICAgICAgICAgICAgc2xpZGVzLmFwcGVuZCgocGxhY2Vob2xkZXJfcGF0aCwgZiJ7aW5mb1snbmFtZSddfSAoaGlkZGVuKSIpKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGlmIHZpc2libGVfaWR4IDwgbGVuKHZpc2libGVfaW1hZ2VzKToKICAgICAgICAgICAgICAgIHNsaWRlcy5hcHBlbmQoKHZpc2libGVfaW1hZ2VzW3Zpc2libGVfaWR4XSwgaW5mb1sibmFtZSJdKSkKICAgICAgICAgICAgICAgIHZpc2libGVfaWR4ICs9IDEKCiAgICByZXR1cm4gc2xpZGVzCgoKZGVmIGNyZWF0ZV9oaWRkZW5fcGxhY2Vob2xkZXIoc2l6ZTogdHVwbGVbaW50LCBpbnRdKSAtPiBJbWFnZS5JbWFnZToKICAgIGltZyA9IEltYWdlLm5ldygiUkdCIiwgc2l6ZSwgY29sb3I9IiNGMEYwRjAiKQogICAgZHJhdyA9IEltYWdlRHJhdy5EcmF3KGltZykKICAgIGxpbmVfd2lkdGggPSBtYXgoNSwgbWluKHNpemUpIC8vIDEwMCkKICAgIGRyYXcubGluZShbKDAsIDApLCBzaXplXSwgZmlsbD0iI0NDQ0NDQyIsIHdpZHRoPWxpbmVfd2lkdGgpCiAgICBkcmF3LmxpbmUoWyhzaXplWzBdLCAwKSwgKDAsIHNpemVbMV0pXSwgZmlsbD0iI0NDQ0NDQyIsIHdpZHRoPWxpbmVfd2lkdGgpCiAgICByZXR1cm4gaW1nCgoKZGVmIGNvbnZlcnRfdG9faW1hZ2VzKHBwdHhfcGF0aDogUGF0aCwgdGVtcF9kaXI6IFBhdGgpIC0+IGxpc3RbUGF0aF06CiAgICBwZGZfcGF0aCA9IHRlbXBfZGlyIC8gZiJ7cHB0eF9wYXRoLnN0ZW19LnBkZiIKCiAgICByZXN1bHQgPSBzdWJwcm9jZXNzLnJ1bigKICAgICAgICBbCiAgICAgICAgICAgICJzb2ZmaWNlIiwKICAgICAgICAgICAgIi0taGVhZGxlc3MiLAogICAgICAgICAgICAiLS1jb252ZXJ0LXRvIiwKICAgICAgICAgICAgInBkZiIsCiAgICAgICAgICAgICItLW91dGRpciIsCiAgICAgICAgICAgIHN0cih0ZW1wX2RpciksCiAgICAgICAgICAgIHN0cihwcHR4X3BhdGgpLAogICAgICAgIF0sCiAgICAgICAgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwKICAgICAgICB0ZXh0PVRydWUsCiAgICAgICAgZW52PWdldF9zb2ZmaWNlX2VudigpLAogICAgKQogICAgaWYgcmVzdWx0LnJldHVybmNvZGUgIT0gMCBvciBub3QgcGRmX3BhdGguZXhpc3RzKCk6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJQREYgY29udmVyc2lvbiBmYWlsZWQiKQoKICAgIHJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgIFsKICAgICAgICAgICAgInBkZnRvcHBtIiwKICAgICAgICAgICAgIi1qcGVnIiwKICAgICAgICAgICAgIi1yIiwKICAgICAgICAgICAgc3RyKENPTlZFUlNJT05fRFBJKSwKICAgICAgICAgICAgc3RyKHBkZl9wYXRoKSwKICAgICAgICAgICAgc3RyKHRlbXBfZGlyIC8gInNsaWRlIiksCiAgICAgICAgXSwKICAgICAgICBjYXB0dXJlX291dHB1dD1UcnVlLAogICAgICAgIHRleHQ9VHJ1ZSwKICAgICkKICAgIGlmIHJlc3VsdC5yZXR1cm5jb2RlICE9IDA6CiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKCJJbWFnZSBjb252ZXJzaW9uIGZhaWxlZCIpCgogICAgcmV0dXJuIHNvcnRlZCh0ZW1wX2Rpci5nbG9iKCJzbGlkZS0qLmpwZyIpKQoKCmRlZiBjcmVhdGVfZ3JpZHMoCiAgICBzbGlkZXM6IGxpc3RbdHVwbGVbUGF0aCwgc3RyXV0sCiAgICBjb2xzOiBpbnQsCiAgICB3aWR0aDogaW50LAogICAgb3V0cHV0X3BhdGg6IFBhdGgsCikgLT4gbGlzdFtzdHJdOgogICAgbWF4X3Blcl9ncmlkID0gY29scyAqIChjb2xzICsgMSkKICAgIGdyaWRfZmlsZXMgPSBbXQoKICAgIGZvciBjaHVua19pZHgsIHN0YXJ0X2lkeCBpbiBlbnVtZXJhdGUocmFuZ2UoMCwgbGVuKHNsaWRlcyksIG1heF9wZXJfZ3JpZCkpOgogICAgICAgIGVuZF9pZHggPSBtaW4oc3RhcnRfaWR4ICsgbWF4X3Blcl9ncmlkLCBsZW4oc2xpZGVzKSkKICAgICAgICBjaHVua19zbGlkZXMgPSBzbGlkZXNbc3RhcnRfaWR4OmVuZF9pZHhdCgogICAgICAgIGdyaWQgPSBjcmVhdGVfZ3JpZChjaHVua19zbGlkZXMsIGNvbHMsIHdpZHRoKQoKICAgICAgICBpZiBsZW4oc2xpZGVzKSA8PSBtYXhfcGVyX2dyaWQ6CiAgICAgICAgICAgIGdyaWRfZmlsZW5hbWUgPSBvdXRwdXRfcGF0aAogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHN0ZW0gPSBvdXRwdXRfcGF0aC5zdGVtCiAgICAgICAgICAgIHN1ZmZpeCA9IG91dHB1dF9wYXRoLnN1ZmZpeAogICAgICAgICAgICBncmlkX2ZpbGVuYW1lID0gb3V0cHV0X3BhdGgucGFyZW50IC8gZiJ7c3RlbX0te2NodW5rX2lkeCArIDF9e3N1ZmZpeH0iCgogICAgICAgIGdyaWRfZmlsZW5hbWUucGFyZW50Lm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgICAgICBncmlkLnNhdmUoc3RyKGdyaWRfZmlsZW5hbWUpLCBxdWFsaXR5PUpQRUdfUVVBTElUWSkKICAgICAgICBncmlkX2ZpbGVzLmFwcGVuZChzdHIoZ3JpZF9maWxlbmFtZSkpCgogICAgcmV0dXJuIGdyaWRfZmlsZXMKCgpkZWYgY3JlYXRlX2dyaWQoCiAgICBzbGlkZXM6IGxpc3RbdHVwbGVbUGF0aCwgc3RyXV0sCiAgICBjb2xzOiBpbnQsCiAgICB3aWR0aDogaW50LAopIC0+IEltYWdlLkltYWdlOgogICAgZm9udF9zaXplID0gaW50KHdpZHRoICogRk9OVF9TSVpFX1JBVElPKQogICAgbGFiZWxfcGFkZGluZyA9IGludChmb250X3NpemUgKiBMQUJFTF9QQURESU5HX1JBVElPKQoKICAgIHdpdGggSW1hZ2Uub3BlbihzbGlkZXNbMF1bMF0pIGFzIGltZzoKICAgICAgICBhc3BlY3QgPSBpbWcuaGVpZ2h0IC8gaW1nLndpZHRoCiAgICBoZWlnaHQgPSBpbnQod2lkdGggKiBhc3BlY3QpCgogICAgcm93cyA9IChsZW4oc2xpZGVzKSArIGNvbHMgLSAxKSAvLyBjb2xzCiAgICBncmlkX3cgPSBjb2xzICogd2lkdGggKyAoY29scyArIDEpICogR1JJRF9QQURESU5HCiAgICBncmlkX2ggPSByb3dzICogKGhlaWdodCArIGZvbnRfc2l6ZSArIGxhYmVsX3BhZGRpbmcgKiAyKSArIChyb3dzICsgMSkgKiBHUklEX1BBRERJTkcKCiAgICBncmlkID0gSW1hZ2UubmV3KCJSR0IiLCAoZ3JpZF93LCBncmlkX2gpLCAid2hpdGUiKQogICAgZHJhdyA9IEltYWdlRHJhdy5EcmF3KGdyaWQpCgogICAgdHJ5OgogICAgICAgIGZvbnQgPSBJbWFnZUZvbnQubG9hZF9kZWZhdWx0KHNpemU9Zm9udF9zaXplKQogICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICBmb250ID0gSW1hZ2VGb250LmxvYWRfZGVmYXVsdCgpCgogICAgZm9yIGksIChpbWdfcGF0aCwgc2xpZGVfbmFtZSkgaW4gZW51bWVyYXRlKHNsaWRlcyk6CiAgICAgICAgcm93LCBjb2wgPSBpIC8vIGNvbHMsIGkgJSBjb2xzCiAgICAgICAgeCA9IGNvbCAqIHdpZHRoICsgKGNvbCArIDEpICogR1JJRF9QQURESU5HCiAgICAgICAgeV9iYXNlID0gKAogICAgICAgICAgICByb3cgKiAoaGVpZ2h0ICsgZm9udF9zaXplICsgbGFiZWxfcGFkZGluZyAqIDIpICsgKHJvdyArIDEpICogR1JJRF9QQURESU5HCiAgICAgICAgKQoKICAgICAgICBsYWJlbCA9IHNsaWRlX25hbWUKICAgICAgICBiYm94ID0gZHJhdy50ZXh0YmJveCgoMCwgMCksIGxhYmVsLCBmb250PWZvbnQpCiAgICAgICAgdGV4dF93ID0gYmJveFsyXSAtIGJib3hbMF0KICAgICAgICBkcmF3LnRleHQoCiAgICAgICAgICAgICh4ICsgKHdpZHRoIC0gdGV4dF93KSAvLyAyLCB5X2Jhc2UgKyBsYWJlbF9wYWRkaW5nKSwKICAgICAgICAgICAgbGFiZWwsCiAgICAgICAgICAgIGZpbGw9ImJsYWNrIiwKICAgICAgICAgICAgZm9udD1mb250LAogICAgICAgICkKCiAgICAgICAgeV90aHVtYm5haWwgPSB5X2Jhc2UgKyBsYWJlbF9wYWRkaW5nICsgZm9udF9zaXplICsgbGFiZWxfcGFkZGluZwoKICAgICAgICB3aXRoIEltYWdlLm9wZW4oaW1nX3BhdGgpIGFzIGltZzoKICAgICAgICAgICAgaW1nLnRodW1ibmFpbCgod2lkdGgsIGhlaWdodCksIEltYWdlLlJlc2FtcGxpbmcuTEFOQ1pPUykKICAgICAgICAgICAgdywgaCA9IGltZy5zaXplCiAgICAgICAgICAgIHR4ID0geCArICh3aWR0aCAtIHcpIC8vIDIKICAgICAgICAgICAgdHkgPSB5X3RodW1ibmFpbCArIChoZWlnaHQgLSBoKSAvLyAyCiAgICAgICAgICAgIGdyaWQucGFzdGUoaW1nLCAodHgsIHR5KSkKCiAgICAgICAgICAgIGlmIEJPUkRFUl9XSURUSCA+IDA6CiAgICAgICAgICAgICAgICBkcmF3LnJlY3RhbmdsZSgKICAgICAgICAgICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAgICAgICAgICh0eCAtIEJPUkRFUl9XSURUSCwgdHkgLSBCT1JERVJfV0lEVEgpLAogICAgICAgICAgICAgICAgICAgICAgICAodHggKyB3ICsgQk9SREVSX1dJRFRIIC0gMSwgdHkgKyBoICsgQk9SREVSX1dJRFRIIC0gMSksCiAgICAgICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICAgICBvdXRsaW5lPSJncmF5IiwKICAgICAgICAgICAgICAgICAgICB3aWR0aD1CT1JERVJfV0lEVEgsCiAgICAgICAgICAgICAgICApCgogICAgcmV0dXJuIGdyaWQKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+"""Create thumbnail grids from PowerPoint presentation slides.
+
+Creates a grid layout of slide thumbnails for quick visual analysis.
+Labels each thumbnail with its XML filename (e.g., slide1.xml).
+Hidden slides are shown with a placeholder pattern.
+
+Usage:
+    python thumbnail.py input.pptx [output_prefix] [--cols N]
+
+Examples:
+    python thumbnail.py presentation.pptx
+    # Creates: thumbnails.jpg
+
+    python thumbnail.py template.pptx grid --cols 4
+    # Creates: grid.jpg (or grid-1.jpg, grid-2.jpg for large decks)
+"""
+
+import argparse
+import subprocess
+import sys
+import tempfile
+import zipfile
+from pathlib import Path
+
+import defusedxml.minidom
+from office.soffice import get_soffice_env
+from PIL import Image, ImageDraw, ImageFont
+
+THUMBNAIL_WIDTH = 300
+CONVERSION_DPI = 100
+MAX_COLS = 6
+DEFAULT_COLS = 3
+JPEG_QUALITY = 95
+GRID_PADDING = 20
+BORDER_WIDTH = 2
+FONT_SIZE_RATIO = 0.10
+LABEL_PADDING_RATIO = 0.4
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Create thumbnail grids from PowerPoint slides."
+    )
+    parser.add_argument("input", help="Input PowerPoint file (.pptx)")
+    parser.add_argument(
+        "output_prefix",
+        nargs="?",
+        default="thumbnails",
+        help="Output prefix for image files (default: thumbnails)",
+    )
+    parser.add_argument(
+        "--cols",
+        type=int,
+        default=DEFAULT_COLS,
+        help=f"Number of columns (default: {DEFAULT_COLS}, max: {MAX_COLS})",
+    )
+
+    args = parser.parse_args()
+
+    cols = min(args.cols, MAX_COLS)
+    if args.cols > MAX_COLS:
+        print(f"Warning: Columns limited to {MAX_COLS}")
+
+    input_path = Path(args.input)
+    if not input_path.exists() or input_path.suffix.lower() != ".pptx":
+        print(f"Error: Invalid PowerPoint file: {args.input}", file=sys.stderr)
+        sys.exit(1)
+
+    output_path = Path(f"{args.output_prefix}.jpg")
+
+    try:
+        slide_info = get_slide_info(input_path)
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_path = Path(temp_dir)
+            visible_images = convert_to_images(input_path, temp_path)
+
+            if not visible_images and not any(s["hidden"] for s in slide_info):
+                print("Error: No slides found", file=sys.stderr)
+                sys.exit(1)
+
+            slides = build_slide_list(slide_info, visible_images, temp_path)
+
+            grid_files = create_grids(slides, cols, THUMBNAIL_WIDTH, output_path)
+
+            print(f"Created {len(grid_files)} grid(s):")
+            for grid_file in grid_files:
+                print(f"  {grid_file}")
+
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+
+def get_slide_info(pptx_path: Path) -> list[dict]:
+    with zipfile.ZipFile(pptx_path, "r") as zf:
+        rels_content = zf.read("ppt/_rels/presentation.xml.rels").decode("utf-8")
+        rels_dom = defusedxml.minidom.parseString(rels_content)
+
+        rid_to_slide = {}
+        for rel in rels_dom.getElementsByTagName("Relationship"):
+            rid = rel.getAttribute("Id")
+            target = rel.getAttribute("Target")
+            rel_type = rel.getAttribute("Type")
+            if "slide" in rel_type and target.startswith("slides/"):
+                rid_to_slide[rid] = target.replace("slides/", "")
+
+        pres_content = zf.read("ppt/presentation.xml").decode("utf-8")
+        pres_dom = defusedxml.minidom.parseString(pres_content)
+
+        slides = []
+        for sld_id in pres_dom.getElementsByTagName("p:sldId"):
+            rid = sld_id.getAttribute("r:id")
+            if rid in rid_to_slide:
+                hidden = sld_id.getAttribute("show") == "0"
+                slides.append({"name": rid_to_slide[rid], "hidden": hidden})
+
+        return slides
+
+
+def build_slide_list(
+    slide_info: list[dict],
+    visible_images: list[Path],
+    temp_dir: Path,
+) -> list[tuple[Path, str]]:
+    if visible_images:
+        with Image.open(visible_images[0]) as img:
+            placeholder_size = img.size
+    else:
+        placeholder_size = (1920, 1080)
+
+    slides = []
+    visible_idx = 0
+
+    for info in slide_info:
+        if info["hidden"]:
+            placeholder_path = temp_dir / f"hidden-{info['name']}.jpg"
+            placeholder_img = create_hidden_placeholder(placeholder_size)
+            placeholder_img.save(placeholder_path, "JPEG")
+            slides.append((placeholder_path, f"{info['name']} (hidden)"))
+        else:
+            if visible_idx < len(visible_images):
+                slides.append((visible_images[visible_idx], info["name"]))
+                visible_idx += 1
+
+    return slides
+
+
+def create_hidden_placeholder(size: tuple[int, int]) -> Image.Image:
+    img = Image.new("RGB", size, color="#F0F0F0")
+    draw = ImageDraw.Draw(img)
+    line_width = max(5, min(size) // 100)
+    draw.line([(0, 0), size], fill="#CCCCCC", width=line_width)
+    draw.line([(size[0], 0), (0, size[1])], fill="#CCCCCC", width=line_width)
+    return img
+
+
+def convert_to_images(pptx_path: Path, temp_dir: Path) -> list[Path]:
+    pdf_path = temp_dir / f"{pptx_path.stem}.pdf"
+
+    result = subprocess.run(
+        [
+            "soffice",
+            "--headless",
+            "--convert-to",
+            "pdf",
+            "--outdir",
+            str(temp_dir),
+            str(pptx_path),
+        ],
+        capture_output=True,
+        text=True,
+        env=get_soffice_env(),
+    )
+    if result.returncode != 0 or not pdf_path.exists():
+        raise RuntimeError("PDF conversion failed")
+
+    result = subprocess.run(
+        [
+            "pdftoppm",
+            "-jpeg",
+            "-r",
+            str(CONVERSION_DPI),
+            str(pdf_path),
+            str(temp_dir / "slide"),
+        ],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        raise RuntimeError("Image conversion failed")
+
+    return sorted(temp_dir.glob("slide-*.jpg"))
+
+
+def create_grids(
+    slides: list[tuple[Path, str]],
+    cols: int,
+    width: int,
+    output_path: Path,
+) -> list[str]:
+    max_per_grid = cols * (cols + 1)
+    grid_files = []
+
+    for chunk_idx, start_idx in enumerate(range(0, len(slides), max_per_grid)):
+        end_idx = min(start_idx + max_per_grid, len(slides))
+        chunk_slides = slides[start_idx:end_idx]
+
+        grid = create_grid(chunk_slides, cols, width)
+
+        if len(slides) <= max_per_grid:
+            grid_filename = output_path
+        else:
+            stem = output_path.stem
+            suffix = output_path.suffix
+            grid_filename = output_path.parent / f"{stem}-{chunk_idx + 1}{suffix}"
+
+        grid_filename.parent.mkdir(parents=True, exist_ok=True)
+        grid.save(str(grid_filename), quality=JPEG_QUALITY)
+        grid_files.append(str(grid_filename))
+
+    return grid_files
+
+
+def create_grid(
+    slides: list[tuple[Path, str]],
+    cols: int,
+    width: int,
+) -> Image.Image:
+    font_size = int(width * FONT_SIZE_RATIO)
+    label_padding = int(font_size * LABEL_PADDING_RATIO)
+
+    with Image.open(slides[0][0]) as img:
+        aspect = img.height / img.width
+    height = int(width * aspect)
+
+    rows = (len(slides) + cols - 1) // cols
+    grid_w = cols * width + (cols + 1) * GRID_PADDING
+    grid_h = rows * (height + font_size + label_padding * 2) + (rows + 1) * GRID_PADDING
+
+    grid = Image.new("RGB", (grid_w, grid_h), "white")
+    draw = ImageDraw.Draw(grid)
+
+    try:
+        font = ImageFont.load_default(size=font_size)
+    except Exception:
+        font = ImageFont.load_default()
+
+    for i, (img_path, slide_name) in enumerate(slides):
+        row, col = i // cols, i % cols
+        x = col * width + (col + 1) * GRID_PADDING
+        y_base = (
+            row * (height + font_size + label_padding * 2) + (row + 1) * GRID_PADDING
+        )
+
+        label = slide_name
+        bbox = draw.textbbox((0, 0), label, font=font)
+        text_w = bbox[2] - bbox[0]
+        draw.text(
+            (x + (width - text_w) // 2, y_base + label_padding),
+            label,
+            fill="black",
+            font=font,
+        )
+
+        y_thumbnail = y_base + label_padding + font_size + label_padding
+
+        with Image.open(img_path) as img:
+            img.thumbnail((width, height), Image.Resampling.LANCZOS)
+            w, h = img.size
+            tx = x + (width - w) // 2
+            ty = y_thumbnail + (height - h) // 2
+            grid.paste(img, (tx, ty))
+
+            if BORDER_WIDTH > 0:
+                draw.rectangle(
+                    [
+                        (tx - BORDER_WIDTH, ty - BORDER_WIDTH),
+                        (tx + w + BORDER_WIDTH - 1, ty + h + BORDER_WIDTH - 1),
+                    ],
+                    outline="gray",
+                    width=BORDER_WIDTH,
+                )
+
+    return grid
+
+
+if __name__ == "__main__":
+    main()

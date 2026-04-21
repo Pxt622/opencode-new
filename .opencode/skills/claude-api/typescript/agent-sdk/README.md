@@ -1,1 +1,297 @@
-IyBBZ2VudCBTREsg4oCUIFR5cGVTY3JpcHQKClRoZSBDbGF1ZGUgQWdlbnQgU0RLIHByb3ZpZGVzIGEgaGlnaGVyLWxldmVsIGludGVyZmFjZSBmb3IgYnVpbGRpbmcgQUkgYWdlbnRzIHdpdGggYnVpbHQtaW4gdG9vbHMsIHNhZmV0eSBmZWF0dXJlcywgYW5kIGFnZW50aWMgY2FwYWJpbGl0aWVzLgoKIyMgSW5zdGFsbGF0aW9uCgpgYGBiYXNoCm5wbSBpbnN0YWxsIEBhbnRocm9waWMtYWkvY2xhdWRlLWFnZW50LXNkawpgYGAKCi0tLQoKIyMgUXVpY2sgU3RhcnQKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IHsgcXVlcnkgfSBmcm9tICJAYW50aHJvcGljLWFpL2NsYXVkZS1hZ2VudC1zZGsiOwoKZm9yIGF3YWl0IChjb25zdCBtZXNzYWdlIG9mIHF1ZXJ5KHsKICBwcm9tcHQ6ICJFeHBsYWluIHRoaXMgY29kZWJhc2UiLAogIG9wdGlvbnM6IHsgYWxsb3dlZFRvb2xzOiBbIlJlYWQiLCAiR2xvYiIsICJHcmVwIl0gfSwKfSkpIHsKICBpZiAoInJlc3VsdCIgaW4gbWVzc2FnZSkgewogICAgY29uc29sZS5sb2cobWVzc2FnZS5yZXN1bHQpOwogIH0KfQpgYGAKCi0tLQoKIyMgQnVpbHQtaW4gVG9vbHMKCnwgVG9vbCAgICAgIHwgRGVzY3JpcHRpb24gICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IFJlYWQgICAgICB8IFJlYWQgZmlsZXMgaW4gdGhlIHdvcmtzcGFjZSAgICAgICAgICB8CnwgV3JpdGUgICAgIHwgQ3JlYXRlIG5ldyBmaWxlcyAgICAgICAgICAgICAgICAgICAgIHwKfCBFZGl0ICAgICAgfCBNYWtlIHByZWNpc2UgZWRpdHMgdG8gZXhpc3RpbmcgZmlsZXMgfAp8IEJhc2ggICAgICB8IEV4ZWN1dGUgc2hlbGwgY29tbWFuZHMgICAgICAgICAgICAgICB8CnwgR2xvYiAgICAgIHwgRmluZCBmaWxlcyBieSBwYXR0ZXJuICAgICAgICAgICAgICAgIHwKfCBHcmVwICAgICAgfCBTZWFyY2ggZmlsZXMgYnkgY29udGVudCAgICAgICAgICAgICAgfAp8IFdlYlNlYXJjaCB8IFNlYXJjaCB0aGUgd2ViIGZvciBpbmZvcm1hdGlvbiAgICAgICB8CnwgV2ViRmV0Y2ggICAgICAgIHwgRmV0Y2ggYW5kIGFuYWx5emUgd2ViIHBhZ2VzICAgICAgICAgIHwKfCBBc2tVc2VyUXVlc3Rpb24gfCBBc2sgdXNlciBjbGFyaWZ5aW5nIHF1ZXN0aW9ucyAgICAgICAgIHwKfCBBZ2VudCAgICAgICAgICAgfCBTcGF3biBzdWJhZ2VudHMgICAgICAgICAgICAgICAgICAgICAgfAoKLS0tCgojIyBQZXJtaXNzaW9uIFN5c3RlbQoKYGBgdHlwZXNjcmlwdApmb3IgYXdhaXQgKGNvbnN0IG1lc3NhZ2Ugb2YgcXVlcnkoewogIHByb21wdDogIlJlZmFjdG9yIHRoZSBhdXRoZW50aWNhdGlvbiBtb2R1bGUiLAogIG9wdGlvbnM6IHsKICAgIGFsbG93ZWRUb29sczogWyJSZWFkIiwgIkVkaXQiLCAiV3JpdGUiXSwKICAgIHBlcm1pc3Npb25Nb2RlOiAiYWNjZXB0RWRpdHMiLAogIH0sCn0pKSB7CiAgaWYgKCJyZXN1bHQiIGluIG1lc3NhZ2UpIGNvbnNvbGUubG9nKG1lc3NhZ2UucmVzdWx0KTsKfQpgYGAKClBlcm1pc3Npb24gbW9kZXM6CgotIGAiZGVmYXVsdCJgOiBQcm9tcHQgZm9yIGRhbmdlcm91cyBvcGVyYXRpb25zCi0gYCJwbGFuImA6IFBsYW5uaW5nIG9ubHksIG5vIGV4ZWN1dGlvbgotIGAiYWNjZXB0RWRpdHMiYDogQXV0by1hY2NlcHQgZmlsZSBlZGl0cwotIGAiZG9udEFzayJgOiBEb24ndCBwcm9tcHQg4oCUICoqZGVuaWVzKiogYW55dGhpbmcgbm90IHByZS1hcHByb3ZlZCAobm90IGFuIGF1dG8tYXBwcm92ZSBtb2RlKQotIGAiYnlwYXNzUGVybWlzc2lvbnMiYDogU2tpcCBhbGwgcHJvbXB0cyAocmVxdWlyZXMgYGFsbG93RGFuZ2Vyb3VzbHlTa2lwUGVybWlzc2lvbnM6IHRydWVgIGluIG9wdGlvbnMpCgotLS0KCiMjIE1DUCAoTW9kZWwgQ29udGV4dCBQcm90b2NvbCkgU3VwcG9ydAoKYGBgdHlwZXNjcmlwdApmb3IgYXdhaXQgKGNvbnN0IG1lc3NhZ2Ugb2YgcXVlcnkoewogIHByb21wdDogIk9wZW4gZXhhbXBsZS5jb20gYW5kIGRlc2NyaWJlIHdoYXQgeW91IHNlZSIsCiAgb3B0aW9uczogewogICAgbWNwU2VydmVyczogewogICAgICBwbGF5d3JpZ2h0OiB7IGNvbW1hbmQ6ICJucHgiLCBhcmdzOiBbIkBwbGF5d3JpZ2h0L21jcEBsYXRlc3QiXSB9LAogICAgfSwKICB9LAp9KSkgewogIGlmICgicmVzdWx0IiBpbiBtZXNzYWdlKSBjb25zb2xlLmxvZyhtZXNzYWdlLnJlc3VsdCk7Cn0KYGBgCgojIyMgSW4tUHJvY2VzcyBNQ1AgVG9vbHMKCllvdSBjYW4gZGVmaW5lIGN1c3RvbSB0b29scyB0aGF0IHJ1biBpbi1wcm9jZXNzIHVzaW5nIGB0b29sKClgIGFuZCBgY3JlYXRlU2RrTWNwU2VydmVyYDoKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IHsgcXVlcnksIHRvb2wsIGNyZWF0ZVNka01jcFNlcnZlciB9IGZyb20gIkBhbnRocm9waWMtYWkvY2xhdWRlLWFnZW50LXNkayI7CmltcG9ydCB7IHogfSBmcm9tICJ6b2QiOwoKY29uc3QgbXlUb29sID0gdG9vbCgibXktdG9vbCIsICJEZXNjcmlwdGlvbiIsIHsgaW5wdXQ6IHouc3RyaW5nKCkgfSwgYXN5bmMgKGFyZ3MpID0+IHsKICByZXR1cm4geyBjb250ZW50OiBbeyB0eXBlOiAidGV4dCIsIHRleHQ6ICJyZXN1bHQiIH1dIH07Cn0pOwoKY29uc3Qgc2VydmVyID0gY3JlYXRlU2RrTWNwU2VydmVyKHsgbmFtZTogIm15LXNlcnZlciIsIHRvb2xzOiBbbXlUb29sXSB9KTsKCi8vIFBhc3MgdG8gcXVlcnkKZm9yIGF3YWl0IChjb25zdCBtZXNzYWdlIG9mIHF1ZXJ5KHsKICBwcm9tcHQ6ICJVc2UgbXktdG9vbCB0byBkbyBzb21ldGhpbmciLAogIG9wdGlvbnM6IHsgbWNwU2VydmVyczogeyBteVNlcnZlcjogc2VydmVyIH0gfSwKfSkpIHsKICBpZiAoInJlc3VsdCIgaW4gbWVzc2FnZSkgY29uc29sZS5sb2cobWVzc2FnZS5yZXN1bHQpOwp9CmBgYAoKLS0tCgojIyBIb29rcwoKYGBgdHlwZXNjcmlwdAppbXBvcnQgeyBxdWVyeSwgSG9va0NhbGxiYWNrIH0gZnJvbSAiQGFudGhyb3BpYy1haS9jbGF1ZGUtYWdlbnQtc2RrIjsKaW1wb3J0IHsgYXBwZW5kRmlsZVN5bmMgfSBmcm9tICJmcyI7Cgpjb25zdCBsb2dGaWxlQ2hhbmdlOiBIb29rQ2FsbGJhY2sgPSBhc3luYyAoaW5wdXQpID0+IHsKICBjb25zdCBmaWxlUGF0aCA9IChpbnB1dCBhcyBhbnkpLnRvb2xfaW5wdXQ/LmZpbGVfcGF0aCA/PyAidW5rbm93biI7CiAgYXBwZW5kRmlsZVN5bmMoCiAgICAiLi9hdWRpdC5sb2ciLAogICAgYCR7bmV3IERhdGUoKS50b0lTT1N0cmluZygpfTogbW9kaWZpZWQgJHtmaWxlUGF0aH1cbmAsCiAgKTsKICByZXR1cm4ge307Cn07Cgpmb3IgYXdhaXQgKGNvbnN0IG1lc3NhZ2Ugb2YgcXVlcnkoewogIHByb21wdDogIlJlZmFjdG9yIHV0aWxzLnB5IHRvIGltcHJvdmUgcmVhZGFiaWxpdHkiLAogIG9wdGlvbnM6IHsKICAgIGFsbG93ZWRUb29sczogWyJSZWFkIiwgIkVkaXQiLCAiV3JpdGUiXSwKICAgIHBlcm1pc3Npb25Nb2RlOiAiYWNjZXB0RWRpdHMiLAogICAgaG9va3M6IHsKICAgICAgUG9zdFRvb2xVc2U6IFt7IG1hdGNoZXI6ICJFZGl0fFdyaXRlIiwgaG9va3M6IFtsb2dGaWxlQ2hhbmdlXSB9XSwKICAgIH0sCiAgfSwKfSkpIHsKICBpZiAoInJlc3VsdCIgaW4gbWVzc2FnZSkgY29uc29sZS5sb2cobWVzc2FnZS5yZXN1bHQpOwp9CmBgYAoKSG9vayBldmVudCBpbnB1dHMgZm9yIHRvb2wtbGlmZWN5Y2xlIGV2ZW50cyAoYFByZVRvb2xVc2VgLCBgUG9zdFRvb2xVc2VgLCBgUG9zdFRvb2xVc2VGYWlsdXJlYCkgaW5jbHVkZSBgYWdlbnRfaWRgIGFuZCBgYWdlbnRfdHlwZWAgZmllbGRzLCBhbGxvd2luZyBob29rcyB0byBpZGVudGlmeSB3aGljaCBhZ2VudCAobWFpbiBvciBzdWJhZ2VudCkgdHJpZ2dlcmVkIHRoZSB0b29sIGNhbGwuCgpBdmFpbGFibGUgaG9vayBldmVudHM6IGBQcmVUb29sVXNlYCwgYFBvc3RUb29sVXNlYCwgYFBvc3RUb29sVXNlRmFpbHVyZWAsIGBOb3RpZmljYXRpb25gLCBgVXNlclByb21wdFN1Ym1pdGAsIGBTZXNzaW9uU3RhcnRgLCBgU2Vzc2lvbkVuZGAsIGBTdG9wYCwgYFN1YmFnZW50U3RhcnRgLCBgU3ViYWdlbnRTdG9wYCwgYFByZUNvbXBhY3RgLCBgUGVybWlzc2lvblJlcXVlc3RgLCBgU2V0dXBgLCBgVGVhbW1hdGVJZGxlYCwgYFRhc2tDb21wbGV0ZWRgLCBgQ29uZmlnQ2hhbmdlYCwgYEVsaWNpdGF0aW9uYCwgYEVsaWNpdGF0aW9uUmVzdWx0YCwgYFdvcmt0cmVlQ3JlYXRlYCwgYFdvcmt0cmVlUmVtb3ZlYCwgYEluc3RydWN0aW9uc0xvYWRlZGAKCi0tLQoKIyMgQ29tbW9uIE9wdGlvbnMKCmBxdWVyeSgpYCB0YWtlcyBhIHRvcC1sZXZlbCBgcHJvbXB0YCAoc3RyaW5nKSBhbmQgYW4gYG9wdGlvbnNgIG9iamVjdDoKCmBgYHR5cGVzY3JpcHQKcXVlcnkoeyBwcm9tcHQ6ICIuLi4iLCBvcHRpb25zOiB7IC4uLiB9IH0pCmBgYAoKfCBPcHRpb24gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFR5cGUgICB8IERlc2NyaXB0aW9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgY3dkYCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IHN0cmluZyB8IFdvcmtpbmcgZGlyZWN0b3J5IGZvciBmaWxlIG9wZXJhdGlvbnMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgYWxsb3dlZFRvb2xzYCAgICAgICAgICAgICAgICAgICAgICB8IGFycmF5ICB8IFRvb2xzIHRoZSBhZ2VudCBjYW4gdXNlIChlLmcuLCBgWyJSZWFkIiwgIkVkaXQiLCAiQmFzaCJdYCkgICAgICAgICAgICAgICAgfAp8IGB0b29sc2AgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgYXJyYXkgXHwgcHJlc2V0IHwgQnVpbHQtaW4gdG9vbHMgdG8gbWFrZSBhdmFpbGFibGUgKGBzdHJpbmdbXWAgb3IgYHt0eXBlOidwcmVzZXQnLCBwcmVzZXQ6J2NsYXVkZV9jb2RlJ31gKSB8CnwgYGRpc2FsbG93ZWRUb29sc2AgICAgICAgICAgICAgICAgICAgfCBhcnJheSAgfCBUb29scyB0byBleHBsaWNpdGx5IGRpc2FsbG93ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYHBlcm1pc3Npb25Nb2RlYCAgICAgICAgICAgICAgICAgICAgfCBzdHJpbmcgfCBIb3cgdG8gaGFuZGxlIHBlcm1pc3Npb24gcHJvbXB0cyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYGFsbG93RGFuZ2Vyb3VzbHlTa2lwUGVybWlzc2lvbnNgICAgfCBib29sICAgfCBNdXN0IGJlIGB0cnVlYCB0byB1c2UgYHBlcm1pc3Npb25Nb2RlOiAiYnlwYXNzUGVybWlzc2lvbnMiYCAgICAgICAgICAgICAgICB8CnwgYG1jcFNlcnZlcnNgICAgICAgICAgICAgICAgICAgICAgICAgfCBvYmplY3QgfCBNQ1Agc2VydmVycyB0byBjb25uZWN0IHRvICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYGhvb2tzYCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBvYmplY3QgfCBIb29rcyBmb3IgY3VzdG9taXppbmcgYmVoYXZpb3IgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CnwgYHN5c3RlbVByb21wdGAgICAgICAgICAgICAgICAgICAgICAgfCBzdHJpbmcgXHwgcHJlc2V0IHwgQ3VzdG9tIHN5c3RlbSBwcm9tcHQgKGBzdHJpbmdgIG9yIGB7dHlwZToncHJlc2V0JywgcHJlc2V0OidjbGF1ZGVfY29kZScsIGFwcGVuZD86c3RyaW5nfWApIHwKfCBgbWF4VHVybnNgICAgICAgICAgICAgICAgICAgICAgICAgICB8IG51bWJlciB8IE1heGltdW0gYWdlbnQgdHVybnMgYmVmb3JlIHN0b3BwaW5nICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgbWF4QnVkZ2V0VXNkYCAgICAgICAgICAgICAgICAgICAgICB8IG51bWJlciB8IE1heGltdW0gYnVkZ2V0IGluIFVTRCBmb3IgdGhlIHF1ZXJ5ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgbW9kZWxgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IHN0cmluZyB8IE1vZGVsIElEIChkZWZhdWx0OiBkZXRlcm1pbmVkIGJ5IENMSSkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgYWdlbnRzYCAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IG9iamVjdCB8IFN1YmFnZW50IGRlZmluaXRpb25zIChgUmVjb3JkPHN0cmluZywgQWdlbnREZWZpbml0aW9uPmApICAgICAgICAgICAgICAgICAgIHwKfCBgb3V0cHV0Rm9ybWF0YCAgICAgICAgICAgICAgICAgICAgICB8IG9iamVjdCB8IFN0cnVjdHVyZWQgb3V0cHV0IHNjaGVtYSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgdGhpbmtpbmdgICAgICAgICAgICAgICAgICAgICAgICAgICB8IG9iamVjdCB8IFRoaW5raW5nL3JlYXNvbmluZyBjb250cm9sICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgYmV0YXNgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IGFycmF5ICB8IEJldGEgZmVhdHVyZXMgdG8gZW5hYmxlIChlLmcuLCBgWyJjb250ZXh0LTFtLTIwMjUtMDgtMDciXWApICAgICAgICAgICAgICAgfAp8IGBzZXR0aW5nU291cmNlc2AgICAgICAgICAgICAgICAgICAgIHwgYXJyYXkgIHwgU2V0dGluZ3MgdG8gbG9hZCAoZS5nLiwgYFsicHJvamVjdCJdYCkuIERlZmF1bHQ6IG5vbmUgKG5vIENMQVVERS5tZCBmaWxlcykgfAp8IGBlbnZgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgb2JqZWN0IHwgRW52aXJvbm1lbnQgdmFyaWFibGVzIHRvIHNldCBmb3IgdGhlIHNlc3Npb24gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBhZ2VudFByb2dyZXNzU3VtbWFyaWVzYCAgICAgICAgICAgIHwgYm9vbCAgIHwgRW5hYmxlIHBlcmlvZGljIEFJLWdlbmVyYXRlZCBwcm9ncmVzcyBzdW1tYXJpZXMgb24gYHRhc2tfcHJvZ3Jlc3NgIGV2ZW50cyAgfAoKLS0tCgojIyBTdWJhZ2VudHMKCmBgYHR5cGVzY3JpcHQKZm9yIGF3YWl0IChjb25zdCBtZXNzYWdlIG9mIHF1ZXJ5KHsKICBwcm9tcHQ6ICJVc2UgdGhlIGNvZGUtcmV2aWV3ZXIgYWdlbnQgdG8gcmV2aWV3IHRoaXMgY29kZWJhc2UiLAogIG9wdGlvbnM6IHsKICAgIGFsbG93ZWRUb29sczogWyJSZWFkIiwgIkdsb2IiLCAiR3JlcCIsICJBZ2VudCJdLAogICAgYWdlbnRzOiB7CiAgICAgICJjb2RlLXJldmlld2VyIjogewogICAgICAgIGRlc2NyaXB0aW9uOiAiRXhwZXJ0IGNvZGUgcmV2aWV3ZXIgZm9yIHF1YWxpdHkgYW5kIHNlY3VyaXR5IHJldmlld3MuIiwKICAgICAgICBwcm9tcHQ6ICJBbmFseXplIGNvZGUgcXVhbGl0eSBhbmQgc3VnZ2VzdCBpbXByb3ZlbWVudHMuIiwKICAgICAgICB0b29sczogWyJSZWFkIiwgIkdsb2IiLCAiR3JlcCJdLAogICAgICAgIC8vIE9wdGlvbmFsOiBza2lsbHMsIG1jcFNlcnZlcnMgZm9yIHN1YmFnZW50IGN1c3RvbWl6YXRpb24KICAgICAgfSwKICAgIH0sCiAgfSwKfSkpIHsKICBpZiAoInJlc3VsdCIgaW4gbWVzc2FnZSkgY29uc29sZS5sb2cobWVzc2FnZS5yZXN1bHQpOwp9CmBgYAoKLS0tCgojIyBNZXNzYWdlIFR5cGVzCgpgYGB0eXBlc2NyaXB0CmZvciBhd2FpdCAoY29uc3QgbWVzc2FnZSBvZiBxdWVyeSh7CiAgcHJvbXB0OiAiRmluZCBUT0RPIGNvbW1lbnRzIiwKICBvcHRpb25zOiB7IGFsbG93ZWRUb29sczogWyJSZWFkIiwgIkdsb2IiLCAiR3JlcCJdIH0sCn0pKSB7CiAgaWYgKCJyZXN1bHQiIGluIG1lc3NhZ2UpIHsKICAgIGNvbnNvbGUubG9nKG1lc3NhZ2UucmVzdWx0KTsKICAgIGNvbnNvbGUubG9nKGBTdG9wIHJlYXNvbjogJHttZXNzYWdlLnN0b3BfcmVhc29ufWApOyAvLyBlLmcuLCAiZW5kX3R1cm4iLCAidG9vbF91c2UiLCAibWF4X3Rva2VucyIKICB9IGVsc2UgaWYgKG1lc3NhZ2UudHlwZSA9PT0gInN5c3RlbSIgJiYgbWVzc2FnZS5zdWJ0eXBlID09PSAiaW5pdCIpIHsKICAgIGNvbnN0IHNlc3Npb25JZCA9IG1lc3NhZ2Uuc2Vzc2lvbl9pZDsgLy8gQ2FwdHVyZSBmb3IgcmVzdW1pbmcgbGF0ZXIKICB9Cn0KYGBgCgpUYXNrLXJlbGF0ZWQgc3lzdGVtIG1lc3NhZ2VzIGFyZSBhbHNvIGVtaXR0ZWQgZm9yIHN1YmFnZW50IG9wZXJhdGlvbnM6Ci0gYHRhc2tfc3RhcnRlZGAg4oCUIGVtaXR0ZWQgd2hlbiBhIHN1YmFnZW50IHRhc2sgaXMgcmVnaXN0ZXJlZAotIGB0YXNrX3Byb2dyZXNzYCDigJQgcmVhbC10aW1lIHByb2dyZXNzIHVwZGF0ZXMgd2l0aCBjdW11bGF0aXZlIHVzYWdlIG1ldHJpY3MsIHRvb2wgY291bnRzLCBhbmQgZHVyYXRpb24gKGVuYWJsZSBgYWdlbnRQcm9ncmVzc1N1bW1hcmllc2Agb3B0aW9uIGZvciBwZXJpb2RpYyBBSS1nZW5lcmF0ZWQgc3VtbWFyaWVzIHZpYSB0aGUgYHN1bW1hcnlgIGZpZWxkKQotIGB0YXNrX25vdGlmaWNhdGlvbmAg4oCUIHRhc2sgY29tcGxldGlvbiBub3RpZmljYXRpb25zIChpbmNsdWRlcyBgdG9vbF91c2VfaWRgIGZvciBjb3JyZWxhdGluZyB3aXRoIG9yaWdpbmF0aW5nIHRvb2wgY2FsbHMpCgotLS0KCiMjIFNlc3Npb24gSGlzdG9yeQoKUmV0cmlldmUgcGFzdCBzZXNzaW9uIGRhdGE6CgpgYGB0eXBlc2NyaXB0CmltcG9ydCB7IGxpc3RTZXNzaW9ucywgZ2V0U2Vzc2lvbk1lc3NhZ2VzLCBnZXRTZXNzaW9uSW5mbyB9IGZyb20gIkBhbnRocm9waWMtYWkvY2xhdWRlLWFnZW50LXNkayI7CgovLyBMaXN0IGFsbCBwYXN0IHNlc3Npb25zIChzdXBwb3J0cyBwYWdpbmF0aW9uIHZpYSBsaW1pdC9vZmZzZXQpCmNvbnN0IHNlc3Npb25zID0gYXdhaXQgbGlzdFNlc3Npb25zKHsgbGltaXQ6IDIwLCBvZmZzZXQ6IDAgfSk7CmZvciAoY29uc3Qgc2Vzc2lvbiBvZiBzZXNzaW9ucykgewogIGNvbnNvbGUubG9nKGAke3Nlc3Npb24uc2Vzc2lvbklkfTogJHtzZXNzaW9uLmN3ZH0gKHRhZzogJHtzZXNzaW9uLnRhZ30pYCk7Cn0KCi8vIEdldCBtZXRhZGF0YSBmb3IgYSBzaW5nbGUgc2Vzc2lvbgpjb25zdCBzZXNzaW9uSWQgPSBzZXNzaW9uc1swXT8uc2Vzc2lvbklkOwpjb25zdCBpbmZvID0gYXdhaXQgZ2V0U2Vzc2lvbkluZm8oc2Vzc2lvbklkKTsKY29uc29sZS5sb2coaW5mby50YWcsIGluZm8uY3JlYXRlZEF0KTsKCi8vIEdldCBtZXNzYWdlcyBmcm9tIGEgc3BlY2lmaWMgc2Vzc2lvbiAoc3VwcG9ydHMgcGFnaW5hdGlvbiB2aWEgbGltaXQvb2Zmc2V0KQpjb25zdCBtZXNzYWdlcyA9IGF3YWl0IGdldFNlc3Npb25NZXNzYWdlcyhzZXNzaW9uSWQsIHsgbGltaXQ6IDUwLCBvZmZzZXQ6IDAgfSk7CmZvciAoY29uc3QgbXNnIG9mIG1lc3NhZ2VzKSB7CiAgY29uc29sZS5sb2cobXNnKTsKfQpgYGAKCiMjIyBTZXNzaW9uIE11dGF0aW9ucwoKUmVuYW1lLCB0YWcsIG9yIGZvcmsgc2Vzc2lvbnM6CgpgYGB0eXBlc2NyaXB0CmltcG9ydCB7IHJlbmFtZVNlc3Npb24sIHRhZ1Nlc3Npb24sIGZvcmtTZXNzaW9uIH0gZnJvbSAiQGFudGhyb3BpYy1haS9jbGF1ZGUtYWdlbnQtc2RrIjsKCi8vIFJlbmFtZSBhIHNlc3Npb24KYXdhaXQgcmVuYW1lU2Vzc2lvbihzZXNzaW9uSWQsICJNeSByZWZhY3RvcmluZyBzZXNzaW9uIik7CgovLyBUYWcgYSBzZXNzaW9uCmF3YWl0IHRhZ1Nlc3Npb24oc2Vzc2lvbklkLCAiZXhwZXJpbWVudCIpOwoKLy8gQ2xlYXIgYSB0YWcKYXdhaXQgdGFnU2Vzc2lvbihzZXNzaW9uSWQsIG51bGwpOwoKLy8gRm9yayBhIHNlc3Npb24g4oCUIGJyYW5jaCBhIGNvbnZlcnNhdGlvbiBmcm9tIGEgc3BlY2lmaWMgcG9pbnQKY29uc3QgeyBzZXNzaW9uSWQ6IGZvcmtlZElkIH0gPSBhd2FpdCBmb3JrU2Vzc2lvbihzZXNzaW9uSWQpOwpgYGAKCi0tLQoKIyMgTUNQIFNlcnZlciBNYW5hZ2VtZW50CgpNYW5hZ2UgTUNQIHNlcnZlcnMgYXQgcnVudGltZSBvbiBhIHJ1bm5pbmcgcXVlcnk6CgpgYGB0eXBlc2NyaXB0Ci8vIFJlY29ubmVjdCBhIGRpc2Nvbm5lY3RlZCBNQ1Agc2VydmVyCmF3YWl0IHF1ZXJ5SGFuZGxlLnJlY29ubmVjdE1jcFNlcnZlcigibXktc2VydmVyIik7CgovLyBUb2dnbGUgYW4gTUNQIHNlcnZlciBvbi9vZmYKYXdhaXQgcXVlcnlIYW5kbGUudG9nZ2xlTWNwU2VydmVyKCJteS1zZXJ2ZXIiLCBmYWxzZSk7ICAvLyAobmFtZSwgZW5hYmxlZCkg4oCUIGJvdGggcmVxdWlyZWQKCi8vIEdldCBzdGF0dXMgb2YgQUxMIGNvbmZpZ3VyZWQgTUNQIHNlcnZlcnMg4oCUIHJldHVybnMgYW4gQVJSQVkKY29uc3Qgc3RhdHVzZXM6IE1jcFNlcnZlclN0YXR1c1tdID0gYXdhaXQgcXVlcnlIYW5kbGUubWNwU2VydmVyU3RhdHVzKCk7CmZvciAoY29uc3QgcyBvZiBzdGF0dXNlcykgewogIGNvbnNvbGUubG9nKHMubmFtZSwgcy5zY29wZSwgcy50b29scy5sZW5ndGgsIHMuZXJyb3IpOwp9CmBgYAoKLS0tCgojIyBCZXN0IFByYWN0aWNlcwoKMS4gKipBbHdheXMgc3BlY2lmeSBhbGxvd2VkVG9vbHMqKiDigJQgRXhwbGljaXRseSBsaXN0IHdoaWNoIHRvb2xzIHRoZSBhZ2VudCBjYW4gdXNlCjIuICoqU2V0IHdvcmtpbmcgZGlyZWN0b3J5Kiog4oCUIEFsd2F5cyBzcGVjaWZ5IGBjd2RgIGZvciBmaWxlIG9wZXJhdGlvbnMKMy4gKipVc2UgYXBwcm9wcmlhdGUgcGVybWlzc2lvbiBtb2RlcyoqIOKAlCBTdGFydCB3aXRoIGAiZGVmYXVsdCJgIGFuZCBvbmx5IGVzY2FsYXRlIHdoZW4gbmVlZGVkCjQuICoqSGFuZGxlIGFsbCBtZXNzYWdlIHR5cGVzKiog4oCUIENoZWNrIGZvciBgcmVzdWx0YCBwcm9wZXJ0eSB0byBnZXQgYWdlbnQgb3V0cHV0CjUuICoqTGltaXQgbWF4VHVybnMqKiDigJQgUHJldmVudCBydW5hd2F5IGFnZW50cyB3aXRoIHJlYXNvbmFibGUgbGltaXRzCg==
+# Agent SDK — TypeScript
+
+The Claude Agent SDK provides a higher-level interface for building AI agents with built-in tools, safety features, and agentic capabilities.
+
+## Installation
+
+```bash
+npm install @anthropic-ai/claude-agent-sdk
+```
+
+---
+
+## Quick Start
+
+```typescript
+import { query } from "@anthropic-ai/claude-agent-sdk";
+
+for await (const message of query({
+  prompt: "Explain this codebase",
+  options: { allowedTools: ["Read", "Glob", "Grep"] },
+})) {
+  if ("result" in message) {
+    console.log(message.result);
+  }
+}
+```
+
+---
+
+## Built-in Tools
+
+| Tool      | Description                          |
+| --------- | ------------------------------------ |
+| Read      | Read files in the workspace          |
+| Write     | Create new files                     |
+| Edit      | Make precise edits to existing files |
+| Bash      | Execute shell commands               |
+| Glob      | Find files by pattern                |
+| Grep      | Search files by content              |
+| WebSearch | Search the web for information       |
+| WebFetch        | Fetch and analyze web pages          |
+| AskUserQuestion | Ask user clarifying questions         |
+| Agent           | Spawn subagents                      |
+
+---
+
+## Permission System
+
+```typescript
+for await (const message of query({
+  prompt: "Refactor the authentication module",
+  options: {
+    allowedTools: ["Read", "Edit", "Write"],
+    permissionMode: "acceptEdits",
+  },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+Permission modes:
+
+- `"default"`: Prompt for dangerous operations
+- `"plan"`: Planning only, no execution
+- `"acceptEdits"`: Auto-accept file edits
+- `"dontAsk"`: Don't prompt — **denies** anything not pre-approved (not an auto-approve mode)
+- `"bypassPermissions"`: Skip all prompts (requires `allowDangerouslySkipPermissions: true` in options)
+
+---
+
+## MCP (Model Context Protocol) Support
+
+```typescript
+for await (const message of query({
+  prompt: "Open example.com and describe what you see",
+  options: {
+    mcpServers: {
+      playwright: { command: "npx", args: ["@playwright/mcp@latest"] },
+    },
+  },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+### In-Process MCP Tools
+
+You can define custom tools that run in-process using `tool()` and `createSdkMcpServer`:
+
+```typescript
+import { query, tool, createSdkMcpServer } from "@anthropic-ai/claude-agent-sdk";
+import { z } from "zod";
+
+const myTool = tool("my-tool", "Description", { input: z.string() }, async (args) => {
+  return { content: [{ type: "text", text: "result" }] };
+});
+
+const server = createSdkMcpServer({ name: "my-server", tools: [myTool] });
+
+// Pass to query
+for await (const message of query({
+  prompt: "Use my-tool to do something",
+  options: { mcpServers: { myServer: server } },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+---
+
+## Hooks
+
+```typescript
+import { query, HookCallback } from "@anthropic-ai/claude-agent-sdk";
+import { appendFileSync } from "fs";
+
+const logFileChange: HookCallback = async (input) => {
+  const filePath = (input as any).tool_input?.file_path ?? "unknown";
+  appendFileSync(
+    "./audit.log",
+    `${new Date().toISOString()}: modified ${filePath}\n`,
+  );
+  return {};
+};
+
+for await (const message of query({
+  prompt: "Refactor utils.py to improve readability",
+  options: {
+    allowedTools: ["Read", "Edit", "Write"],
+    permissionMode: "acceptEdits",
+    hooks: {
+      PostToolUse: [{ matcher: "Edit|Write", hooks: [logFileChange] }],
+    },
+  },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+Hook event inputs for tool-lifecycle events (`PreToolUse`, `PostToolUse`, `PostToolUseFailure`) include `agent_id` and `agent_type` fields, allowing hooks to identify which agent (main or subagent) triggered the tool call.
+
+Available hook events: `PreToolUse`, `PostToolUse`, `PostToolUseFailure`, `Notification`, `UserPromptSubmit`, `SessionStart`, `SessionEnd`, `Stop`, `SubagentStart`, `SubagentStop`, `PreCompact`, `PermissionRequest`, `Setup`, `TeammateIdle`, `TaskCompleted`, `ConfigChange`, `Elicitation`, `ElicitationResult`, `WorktreeCreate`, `WorktreeRemove`, `InstructionsLoaded`
+
+---
+
+## Common Options
+
+`query()` takes a top-level `prompt` (string) and an `options` object:
+
+```typescript
+query({ prompt: "...", options: { ... } })
+```
+
+| Option                              | Type   | Description                                                                |
+| ----------------------------------- | ------ | -------------------------------------------------------------------------- |
+| `cwd`                               | string | Working directory for file operations                                      |
+| `allowedTools`                      | array  | Tools the agent can use (e.g., `["Read", "Edit", "Bash"]`)                |
+| `tools`                             | array \| preset | Built-in tools to make available (`string[]` or `{type:'preset', preset:'claude_code'}`) |
+| `disallowedTools`                   | array  | Tools to explicitly disallow                                               |
+| `permissionMode`                    | string | How to handle permission prompts                                           |
+| `allowDangerouslySkipPermissions`   | bool   | Must be `true` to use `permissionMode: "bypassPermissions"`                |
+| `mcpServers`                        | object | MCP servers to connect to                                                  |
+| `hooks`                             | object | Hooks for customizing behavior                                             |
+| `systemPrompt`                      | string \| preset | Custom system prompt (`string` or `{type:'preset', preset:'claude_code', append?:string}`) |
+| `maxTurns`                          | number | Maximum agent turns before stopping                                        |
+| `maxBudgetUsd`                      | number | Maximum budget in USD for the query                                        |
+| `model`                             | string | Model ID (default: determined by CLI)                                      |
+| `agents`                            | object | Subagent definitions (`Record<string, AgentDefinition>`)                   |
+| `outputFormat`                      | object | Structured output schema                                                   |
+| `thinking`                          | object | Thinking/reasoning control                                                 |
+| `betas`                             | array  | Beta features to enable (e.g., `["context-1m-2025-08-07"]`)               |
+| `settingSources`                    | array  | Settings to load (e.g., `["project"]`). Default: none (no CLAUDE.md files) |
+| `env`                               | object | Environment variables to set for the session                               |
+| `agentProgressSummaries`            | bool   | Enable periodic AI-generated progress summaries on `task_progress` events  |
+
+---
+
+## Subagents
+
+```typescript
+for await (const message of query({
+  prompt: "Use the code-reviewer agent to review this codebase",
+  options: {
+    allowedTools: ["Read", "Glob", "Grep", "Agent"],
+    agents: {
+      "code-reviewer": {
+        description: "Expert code reviewer for quality and security reviews.",
+        prompt: "Analyze code quality and suggest improvements.",
+        tools: ["Read", "Glob", "Grep"],
+        // Optional: skills, mcpServers for subagent customization
+      },
+    },
+  },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+---
+
+## Message Types
+
+```typescript
+for await (const message of query({
+  prompt: "Find TODO comments",
+  options: { allowedTools: ["Read", "Glob", "Grep"] },
+})) {
+  if ("result" in message) {
+    console.log(message.result);
+    console.log(`Stop reason: ${message.stop_reason}`); // e.g., "end_turn", "tool_use", "max_tokens"
+  } else if (message.type === "system" && message.subtype === "init") {
+    const sessionId = message.session_id; // Capture for resuming later
+  }
+}
+```
+
+Task-related system messages are also emitted for subagent operations:
+- `task_started` — emitted when a subagent task is registered
+- `task_progress` — real-time progress updates with cumulative usage metrics, tool counts, and duration (enable `agentProgressSummaries` option for periodic AI-generated summaries via the `summary` field)
+- `task_notification` — task completion notifications (includes `tool_use_id` for correlating with originating tool calls)
+
+---
+
+## Session History
+
+Retrieve past session data:
+
+```typescript
+import { listSessions, getSessionMessages, getSessionInfo } from "@anthropic-ai/claude-agent-sdk";
+
+// List all past sessions (supports pagination via limit/offset)
+const sessions = await listSessions({ limit: 20, offset: 0 });
+for (const session of sessions) {
+  console.log(`${session.sessionId}: ${session.cwd} (tag: ${session.tag})`);
+}
+
+// Get metadata for a single session
+const sessionId = sessions[0]?.sessionId;
+const info = await getSessionInfo(sessionId);
+console.log(info.tag, info.createdAt);
+
+// Get messages from a specific session (supports pagination via limit/offset)
+const messages = await getSessionMessages(sessionId, { limit: 50, offset: 0 });
+for (const msg of messages) {
+  console.log(msg);
+}
+```
+
+### Session Mutations
+
+Rename, tag, or fork sessions:
+
+```typescript
+import { renameSession, tagSession, forkSession } from "@anthropic-ai/claude-agent-sdk";
+
+// Rename a session
+await renameSession(sessionId, "My refactoring session");
+
+// Tag a session
+await tagSession(sessionId, "experiment");
+
+// Clear a tag
+await tagSession(sessionId, null);
+
+// Fork a session — branch a conversation from a specific point
+const { sessionId: forkedId } = await forkSession(sessionId);
+```
+
+---
+
+## MCP Server Management
+
+Manage MCP servers at runtime on a running query:
+
+```typescript
+// Reconnect a disconnected MCP server
+await queryHandle.reconnectMcpServer("my-server");
+
+// Toggle an MCP server on/off
+await queryHandle.toggleMcpServer("my-server", false);  // (name, enabled) — both required
+
+// Get status of ALL configured MCP servers — returns an ARRAY
+const statuses: McpServerStatus[] = await queryHandle.mcpServerStatus();
+for (const s of statuses) {
+  console.log(s.name, s.scope, s.tools.length, s.error);
+}
+```
+
+---
+
+## Best Practices
+
+1. **Always specify allowedTools** — Explicitly list which tools the agent can use
+2. **Set working directory** — Always specify `cwd` for file operations
+3. **Use appropriate permission modes** — Start with `"default"` and only escalate when needed
+4. **Handle all message types** — Check for `result` property to get agent output
+5. **Limit maxTurns** — Prevent runaway agents with reasonable limits

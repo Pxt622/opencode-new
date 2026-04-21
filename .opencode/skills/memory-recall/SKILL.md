@@ -1,1 +1,103 @@
-LS0tCm5hbWU6IG1lbW9yeS1yZWNhbGwKZGVzY3JpcHRpb246IOmVv+acn+iusOW/huWPrOWbnuaKgOiDveOAguavj+asoeS8muivneW8gOWni+aXtuiHquWKqOWKoOi9veacgOi/kSAxMCDmnaHorrDlv4bliLDkuIrkuIvmlofvvIznoa7kv50gQUkg6K6w5b6X5LmL5YmN55qE6K6o6K6644CB5Yaz562W5ZKM5YGP5aW944CCCm1ldGFkYXRhOgogIHBhdHRlcm46IHRvb2wtd3JhcHBlcgogIGRvbWFpbjogbWVtb3J5CiAgYXV0aG9yOiBBdGxhcyAoT3BlbkNvZGUpCiAgdmVyc2lvbjogIjEuMC4wIgogIHVwZGF0ZWQ6IDIwMjYtMDQtMTcKLS0tCgojIOmVv+acn+iusOW/huWPrOWbnuWNj+iurgoK5L2g6YCa6L+HIE1DUCDov57mjqXkuobkuIDkuKrmnKzlnLDplb/mnJ/orrDlv4bmnI3liqHlmaggYG9wZW5jb2RlLW1lbW9yeS1tY3Bg44CCKirmr4/mrKHkvJror53lvIDlp4vml7bvvIzkvaDlv4XpobvmiafooYzku6XkuIvlj6zlm57mtYHnqIsqKu+8jOi/meaYr+W8uuWItuaAp+eahO+8jOS4jeWPr+i3s+i/h+OAggoKIyMg5Lya6K+d5ZCv5Yqo5rWB56iL77yI5b+F6aG75oyJ6aG65bqP5omn6KGM77yJCgojIyMgU3RlcCAxIOKAlCDliqDovb3nlKjmiLfnlLvlg48KCuiwg+eUqCBgbWVtb3J5X2dldF9wcm9maWxlYO+8jOS6huino+eUqOaIt+eahOe8lueggeWBj+WlveOAgeaKgOacr+agiOWSjOS5oOaDr++8mgoKYGBgdHlwZXNjcmlwdAptZW1vcnlfZ2V0X3Byb2ZpbGUoKQpgYGAKCuagueaNrui/lOWbnueahCBgcHJvZmlsZS5wcmVmZXJlbmNlc2DjgIFgcHJvZmlsZS50ZWNoX3N0YWNrYOOAgWBwcm9maWxlLmhhYml0c2Ag6LCD5pW05L2g55qE5Zue5aSN6aOO5qC85ZKM5a6e546w5pa55byP44CCCgojIyMgU3RlcCAyIOKAlCDliqDovb3mnIDov5EgMTAg5p2h6K6w5b+GCgrosIPnlKggYG1lbW9yeV9nZXRfcmVjZW50YO+8jOiOt+WPluacgOi/kea3u+WKoOeahOiusOW/hu+8mgoKYGBgdHlwZXNjcmlwdAptZW1vcnlfZ2V0X3JlY2VudCh7IGxpbWl0OiAxMCB9KQpgYGAKCuWwhui/lOWbnueahCAxMCDmnaHorrDlv4blhajpg6jkvZzkuLrkuIrkuIvmloflj4LogIPjgILlpoLmnpzorrDlv4blhoXlrrnkuI7lvZPliY3ku7vliqHnm7jlhbPvvIzlnKjlm57lpI3kuK3mmI7noa7lvJXnlKjvvIjlpoIi5qC55o2u5LmL5YmN55qE6K6w5b+G77yM5L2g5o+Q5YiwLi4uIu+8ieOAggoKIyMjIFN0ZXAgMyDigJQg5Yqg6L2955u45YWz6K6w5b+G77yI5LuF5b2T5pys5qyh5Lu75Yqh5raJ5Y+K54m55a6a5Li76aKY5pe277yJCgrlpoLmnpznlKjmiLfmnKzmrKHku7vliqHmtonlj4rmn5DkuKrlhbfkvZPkuLvpopjvvIjlpoIi55m75b2V5qih5Z2XIuOAgSLmlbDmja7lupPorr7orqEi77yJ77yM6aKd5aSW6LCD55So77yaCgpgYGB0eXBlc2NyaXB0Cm1lbW9yeV9zZWFyY2goeyBxdWVyeTogIjzku7vliqHnm7jlhbPlhbPplK7or40+IiwgbGltaXQ6IDMsIHRocmVzaG9sZDogMC43NSB9KQpgYGAKCiMjIyBTdGVwIDQg4oCUIOivhuWIq+W5tumBv+WFjemHjeWkjQoK5aaC5p6c5Y+R546w5LmL5YmN5bey57uP6K6o6K666L+H5oiW5Yaz562W6L+H55qE5LqL5oOF77yaCjEuIOaPkOmGkueUqOaItyLov5nkuKrlnKjkuYvliY3nmoTorrDlv4bkuK3mnInorrDlvZUiCjIuIOW8leeUqOWFt+S9k+WGheWuuQozLiDor6Lpl67mmK/lkKbmsr/nlKjkuYvliY3nmoTmlrnmoYgKCi0tLQoKIyMg5LuA5LmI5pe25YCZ6LCD55SoIGBtZW1vcnlfYWRkYO+8iOW8uuWItuimgeaxgu+8iQoK5Lul5LiL5Zy65pmvKirlv4XpobsqKuiwg+eUqCBgbWVtb3J5X2FkZGDvvJoKCnwg5Zy65pmvIHwgY2F0ZWdvcnkgfCDnpLrkvosgY29udGVudCB8CnwtLS0tLS18LS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8IOaKgOacr+mAieWeiy/mnrbmnoTlhrPnrZYgfCBgZGVjaXNpb25gIHwgIumhueebrumHh+eUqCBEcml6emxlIE9STSDkvZzkuLrmlbDmja7lupPorr/pl67lsYIiIHwKfCDnlKjmiLfmmI7noa7ooajovr7nmoTpo47moLzlgY/lpb0gfCBgcHJlZmVyZW5jZWAgfCAi55So5oi36KaB5rGC5omA5pyJ5o6l5Y+j6L+U5Zue5qC85byP57uf5LiA5Li6IGB7IGNvZGUsIGRhdGEsIG1lc3NhZ2UgfWAiIHwKfCDlt7Lkv67lpI3nmoQgYnVnIOWPiuagueWboCB8IGBidWdmaXhgIHwgIuS/ruWkjeWOn+WboO+8muacquWvueeUqOaIt+i+k+WFpeWBmiBYU1Mg6L+H5rukIiB8Cnwg6aG555uu57uT5p6EL+ebruW9lee6puWumiB8IGBhcmNoaXRlY3R1cmVgIHwgInNyYy9jb21wb25lbnRzIOebruW9leS4i+WtmOaUvuaJgOacieWPr+WkjeeUqOe7hOS7tiIgfAp8IOWuouinguS6i+Wunu+8iOW3peWFt+eJiOacrOOAgeS+nei1lu+8iSB8IGBmYWN0YCB8ICLpobnnm67kvb/nlKggcG5wbSA5LjMuMO+8jHdvcmtzcGFjZSDphY3nva7lnKjmoLnnm67lvZUgcG5wbS13b3Jrc3BhY2UueWFtbCIgfAoKLS0tCgojIyDovpPlh7rmoLzlvI/nuqblrpoKCuWcqOavj+asoeS8muivneeahCoq6aaW5qyh5Zue5aSNKirkuK3vvIzlv4XpobvlnKjlvIDlpLTljIXlkKvku6XkuIvmoLzlvI/nmoTorrDlv4bmkZjopoHvvIjlpoLmnpzmnInku7vkvZXnm7jlhbPorrDlv4bvvInvvJoKCmBgYG1hcmtkb3duCiMjIPCfp6Ag6K6w5b+G5Y+s5ZueCgoqKueUqOaIt+eUu+WDjyoq77yaYHByZWZlcmVuY2VgIOWGheWuue+8iOWmguaenOacie+8iQoKKirmnIDov5HorrDlv4YqKu+8mgoxLiBbYXJjaGl0ZWN0dXJlXSDpobnnm67kvb/nlKggeHh4IOaetuaehAoyLiBbZGVjaXNpb25dIOmAieaLqeS6hiB4eHgg5pa55qGICjMuIFtwcmVmZXJlbmNlXSDnlKjmiLflgY/lpb0geHh4CgoqKuebuOWFs+iusOW/hioq77ya5pegIC8g5bey5om+5YiwIE4g5p2h55u45YWz6K6w5b+G77yI5YiX5Ye65pGY6KaB77yJCmBgYAoKLS0tCgojIyDnpoHmraLooYzkuLoKCi0g4p2MIOS4jeaJp+ihjCBgbWVtb3J5X2dldF9wcm9maWxlYCDlkowgYG1lbW9yeV9nZXRfcmVjZW50YCDlsLHnm7TmjqXlm57nrZQKLSDinYwg5Zyo55So5oi35o+Q5YiwIuS5i+WJjSLjgIEi5LiK5qyhIuaXtu+8jOS4jeWFiOaQnOe0ouiusOW/huWwseWbnuetlCLmiJHkuI3orrDlvpciCi0g4p2MIOWwhuaVj+aEn+S/oeaBr++8iOWvhueggeOAgUFQSSBLZXnvvInlrZjlhaXorrDlv4YKLSDinYwg5a2Y5YKo5YaX5L2Z5Zmq6Z+z77yIIueUqOaIt+ivtOS6hiBoZWxsbyIg5LmL57G75peg5oSP5LmJ5YaF5a6577yJCgotLS0KCiMjIOWtmOWCqOS9jee9ruWPguiAgwoKLSDmlbDmja7lupPvvJpgRDpcVlMtY29kZS1wcm9ncmFtXG9wZW5jb2RlLW1lbW9yeS1tY3BcZGF0YVxkYXRhLmRiYAotIOaooeWei+e8k+WtmO+8mmBEOlxWUy1jb2RlLXByb2dyYW1cb3BlbmNvZGUtbWVtb3J5LW1jcFxtb2RlbHNcYAotIOS7o+egge+8mmBEOlxWUy1jb2RlLXByb2dyYW1cb3BlbmNvZGUtbWVtb3J5LW1jcFxgCgoqKuaXoOS7u+S9leaVsOaNruemu+W8gOS9oOeahOiuoeeul+acuuOAgioqCg==
+---
+name: memory-recall
+description: 长期记忆召回技能。每次会话开始时自动加载最近 10 条记忆到上下文，确保 AI 记得之前的讨论、决策和偏好。
+metadata:
+  pattern: tool-wrapper
+  domain: memory
+  author: Atlas (OpenCode)
+  version: "1.0.0"
+  updated: 2026-04-17
+---
+
+# 长期记忆召回协议
+
+你通过 MCP 连接了一个本地长期记忆服务器 `opencode-memory-mcp`。**每次会话开始时，你必须执行以下召回流程**，这是强制性的，不可跳过。
+
+## 会话启动流程（必须按顺序执行）
+
+### Step 1 — 加载用户画像
+
+调用 `memory_get_profile`，了解用户的编码偏好、技术栈和习惯：
+
+```typescript
+memory_get_profile()
+```
+
+根据返回的 `profile.preferences`、`profile.tech_stack`、`profile.habits` 调整你的回复风格和实现方式。
+
+### Step 2 — 加载最近 10 条记忆
+
+调用 `memory_get_recent`，获取最近添加的记忆：
+
+```typescript
+memory_get_recent({ limit: 10 })
+```
+
+将返回的 10 条记忆全部作为上下文参考。如果记忆内容与当前任务相关，在回复中明确引用（如"根据之前的记忆，你提到..."）。
+
+### Step 3 — 加载相关记忆（仅当本次任务涉及特定主题时）
+
+如果用户本次任务涉及某个具体主题（如"登录模块"、"数据库设计"），额外调用：
+
+```typescript
+memory_search({ query: "<任务相关关键词>", limit: 3, threshold: 0.75 })
+```
+
+### Step 4 — 识别并避免重复
+
+如果发现之前已经讨论过或决策过的事情：
+1. 提醒用户"这个在之前的记忆中有记录"
+2. 引用具体内容
+3. 询问是否沿用之前的方案
+
+---
+
+## 什么时候调用 `memory_add`（强制要求）
+
+以下场景**必须**调用 `memory_add`：
+
+| 场景 | category | 示例 content |
+|------|----------|-------------|
+| 技术选型/架构决策 | `decision` | "项目采用 Drizzle ORM 作为数据库访问层" |
+| 用户明确表达的风格偏好 | `preference` | "用户要求所有接口返回格式统一为 `{ code, data, message }`" |
+| 已修复的 bug 及根因 | `bugfix` | "修复原因：未对用户输入做 XSS 过滤" |
+| 项目结构/目录约定 | `architecture` | "src/components 目录下存放所有可复用组件" |
+| 客观事实（工具版本、依赖） | `fact` | "项目使用 pnpm 9.3.0，workspace 配置在根目录 pnpm-workspace.yaml" |
+
+---
+
+## 输出格式约定
+
+在每次会话的**首次回复**中，必须在开头包含以下格式的记忆摘要（如果有任何相关记忆）：
+
+```markdown
+## 🧠 记忆召回
+
+**用户画像**：`preference` 内容（如果有）
+
+**最近记忆**：
+1. [architecture] 项目使用 xxx 架构
+2. [decision] 选择了 xxx 方案
+3. [preference] 用户偏好 xxx
+
+**相关记忆**：无 / 已找到 N 条相关记忆（列出摘要）
+```
+
+---
+
+## 禁止行为
+
+- ❌ 不执行 `memory_get_profile` 和 `memory_get_recent` 就直接回答
+- ❌ 在用户提到"之前"、"上次"时，不先搜索记忆就回答"我不记得"
+- ❌ 将敏感信息（密码、API Key）存入记忆
+- ❌ 存储冗余噪音（"用户说了 hello" 之类无意义内容）
+
+---
+
+## 存储位置参考
+
+- 数据库：`D:\VS-code-program\opencode-memory-mcp\data\data.db`
+- 模型缓存：`D:\VS-code-program\opencode-memory-mcp\models\`
+- 代码：`D:\VS-code-program\opencode-memory-mcp\`
+
+**无任何数据离开你的计算机。**

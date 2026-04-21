@@ -1,1 +1,135 @@
-IiIiQWNjZXB0IGFsbCB0cmFja2VkIGNoYW5nZXMgaW4gYSBET0NYIGZpbGUgdXNpbmcgTGlicmVPZmZpY2UuCgpSZXF1aXJlcyBMaWJyZU9mZmljZSAoc29mZmljZSkgdG8gYmUgaW5zdGFsbGVkLgoiIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgbG9nZ2luZwppbXBvcnQgc2h1dGlsCmltcG9ydCBzdWJwcm9jZXNzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKZnJvbSBvZmZpY2Uuc29mZmljZSBpbXBvcnQgZ2V0X3NvZmZpY2VfZW52Cgpsb2dnZXIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykKCkxJQlJFT0ZGSUNFX1BST0ZJTEUgPSAiL3RtcC9saWJyZW9mZmljZV9kb2N4X3Byb2ZpbGUiCk1BQ1JPX0RJUiA9IGYie0xJQlJFT0ZGSUNFX1BST0ZJTEV9L3VzZXIvYmFzaWMvU3RhbmRhcmQiCgpBQ0NFUFRfQ0hBTkdFU19NQUNSTyA9ICIiIjw/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8+CjwhRE9DVFlQRSBzY3JpcHQ6bW9kdWxlIFBVQkxJQyAiLS8vT3Blbk9mZmljZS5vcmcvL0RURCBPZmZpY2VEb2N1bWVudCAxLjAvL0VOIiAibW9kdWxlLmR0ZCI+CjxzY3JpcHQ6bW9kdWxlIHhtbG5zOnNjcmlwdD0iaHR0cDovL29wZW5vZmZpY2Uub3JnLzIwMDAvc2NyaXB0IiBzY3JpcHQ6bmFtZT0iTW9kdWxlMSIgc2NyaXB0Omxhbmd1YWdlPSJTdGFyQmFzaWMiPgogICAgU3ViIEFjY2VwdEFsbFRyYWNrZWRDaGFuZ2VzKCkKICAgICAgICBEaW0gZG9jdW1lbnQgQXMgT2JqZWN0CiAgICAgICAgRGltIGRpc3BhdGNoZXIgQXMgT2JqZWN0CgogICAgICAgIGRvY3VtZW50ID0gVGhpc0NvbXBvbmVudC5DdXJyZW50Q29udHJvbGxlci5GcmFtZQogICAgICAgIGRpc3BhdGNoZXIgPSBjcmVhdGVVbm9TZXJ2aWNlKCJjb20uc3VuLnN0YXIuZnJhbWUuRGlzcGF0Y2hIZWxwZXIiKQoKICAgICAgICBkaXNwYXRjaGVyLmV4ZWN1dGVEaXNwYXRjaChkb2N1bWVudCwgIi51bm86QWNjZXB0QWxsVHJhY2tlZENoYW5nZXMiLCAiIiwgMCwgQXJyYXkoKSkKICAgICAgICBUaGlzQ29tcG9uZW50LnN0b3JlKCkKICAgICAgICBUaGlzQ29tcG9uZW50LmNsb3NlKFRydWUpCiAgICBFbmQgU3ViCjwvc2NyaXB0Om1vZHVsZT4iIiIKCgpkZWYgYWNjZXB0X2NoYW5nZXMoCiAgICBpbnB1dF9maWxlOiBzdHIsCiAgICBvdXRwdXRfZmlsZTogc3RyLAopIC0+IHR1cGxlW05vbmUsIHN0cl06CiAgICBpbnB1dF9wYXRoID0gUGF0aChpbnB1dF9maWxlKQogICAgb3V0cHV0X3BhdGggPSBQYXRoKG91dHB1dF9maWxlKQoKICAgIGlmIG5vdCBpbnB1dF9wYXRoLmV4aXN0cygpOgogICAgICAgIHJldHVybiBOb25lLCBmIkVycm9yOiBJbnB1dCBmaWxlIG5vdCBmb3VuZDoge2lucHV0X2ZpbGV9IgoKICAgIGlmIG5vdCBpbnB1dF9wYXRoLnN1ZmZpeC5sb3dlcigpID09ICIuZG9jeCI6CiAgICAgICAgcmV0dXJuIE5vbmUsIGYiRXJyb3I6IElucHV0IGZpbGUgaXMgbm90IGEgRE9DWCBmaWxlOiB7aW5wdXRfZmlsZX0iCgogICAgdHJ5OgogICAgICAgIG91dHB1dF9wYXRoLnBhcmVudC5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCiAgICAgICAgc2h1dGlsLmNvcHkyKGlucHV0X3BhdGgsIG91dHB1dF9wYXRoKQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiBOb25lLCBmIkVycm9yOiBGYWlsZWQgdG8gY29weSBpbnB1dCBmaWxlIHRvIG91dHB1dCBsb2NhdGlvbjoge2V9IgoKICAgIGlmIG5vdCBfc2V0dXBfbGlicmVvZmZpY2VfbWFjcm8oKToKICAgICAgICByZXR1cm4gTm9uZSwgIkVycm9yOiBGYWlsZWQgdG8gc2V0dXAgTGlicmVPZmZpY2UgbWFjcm8iCgogICAgY21kID0gWwogICAgICAgICJzb2ZmaWNlIiwKICAgICAgICAiLS1oZWFkbGVzcyIsCiAgICAgICAgZiItZW52OlVzZXJJbnN0YWxsYXRpb249ZmlsZTovL3tMSUJSRU9GRklDRV9QUk9GSUxFfSIsCiAgICAgICAgIi0tbm9yZXN0b3JlIiwKICAgICAgICAidm5kLnN1bi5zdGFyLnNjcmlwdDpTdGFuZGFyZC5Nb2R1bGUxLkFjY2VwdEFsbFRyYWNrZWRDaGFuZ2VzP2xhbmd1YWdlPUJhc2ljJmxvY2F0aW9uPWFwcGxpY2F0aW9uIiwKICAgICAgICBzdHIob3V0cHV0X3BhdGguYWJzb2x1dGUoKSksCiAgICBdCgogICAgdHJ5OgogICAgICAgIHJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgICAgICBjbWQsCiAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsCiAgICAgICAgICAgIHRleHQ9VHJ1ZSwKICAgICAgICAgICAgdGltZW91dD0zMCwKICAgICAgICAgICAgY2hlY2s9RmFsc2UsCiAgICAgICAgICAgIGVudj1nZXRfc29mZmljZV9lbnYoKSwKICAgICAgICApCiAgICBleGNlcHQgc3VicHJvY2Vzcy5UaW1lb3V0RXhwaXJlZDoKICAgICAgICByZXR1cm4gKAogICAgICAgICAgICBOb25lLAogICAgICAgICAgICBmIlN1Y2Nlc3NmdWxseSBhY2NlcHRlZCBhbGwgdHJhY2tlZCBjaGFuZ2VzOiB7aW5wdXRfZmlsZX0gLT4ge291dHB1dF9maWxlfSIsCiAgICAgICAgKQoKICAgIGlmIHJlc3VsdC5yZXR1cm5jb2RlICE9IDA6CiAgICAgICAgcmV0dXJuIE5vbmUsIGYiRXJyb3I6IExpYnJlT2ZmaWNlIGZhaWxlZDoge3Jlc3VsdC5zdGRlcnJ9IgoKICAgIHJldHVybiAoCiAgICAgICAgTm9uZSwKICAgICAgICBmIlN1Y2Nlc3NmdWxseSBhY2NlcHRlZCBhbGwgdHJhY2tlZCBjaGFuZ2VzOiB7aW5wdXRfZmlsZX0gLT4ge291dHB1dF9maWxlfSIsCiAgICApCgoKZGVmIF9zZXR1cF9saWJyZW9mZmljZV9tYWNybygpIC0+IGJvb2w6CiAgICBtYWNyb19kaXIgPSBQYXRoKE1BQ1JPX0RJUikKICAgIG1hY3JvX2ZpbGUgPSBtYWNyb19kaXIgLyAiTW9kdWxlMS54YmEiCgogICAgaWYgbWFjcm9fZmlsZS5leGlzdHMoKSBhbmQgIkFjY2VwdEFsbFRyYWNrZWRDaGFuZ2VzIiBpbiBtYWNyb19maWxlLnJlYWRfdGV4dCgpOgogICAgICAgIHJldHVybiBUcnVlCgogICAgaWYgbm90IG1hY3JvX2Rpci5leGlzdHMoKToKICAgICAgICBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgInNvZmZpY2UiLAogICAgICAgICAgICAgICAgIi0taGVhZGxlc3MiLAogICAgICAgICAgICAgICAgZiItZW52OlVzZXJJbnN0YWxsYXRpb249ZmlsZTovL3tMSUJSRU9GRklDRV9QUk9GSUxFfSIsCiAgICAgICAgICAgICAgICAiLS10ZXJtaW5hdGVfYWZ0ZXJfaW5pdCIsCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsCiAgICAgICAgICAgIHRpbWVvdXQ9MTAsCiAgICAgICAgICAgIGNoZWNrPUZhbHNlLAogICAgICAgICAgICBlbnY9Z2V0X3NvZmZpY2VfZW52KCksCiAgICAgICAgKQogICAgICAgIG1hY3JvX2Rpci5ta2RpcihwYXJlbnRzPVRydWUsIGV4aXN0X29rPVRydWUpCgogICAgdHJ5OgogICAgICAgIG1hY3JvX2ZpbGUud3JpdGVfdGV4dChBQ0NFUFRfQ0hBTkdFU19NQUNSTykKICAgICAgICByZXR1cm4gVHJ1ZQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIGxvZ2dlci53YXJuaW5nKGYiRmFpbGVkIHRvIHNldHVwIExpYnJlT2ZmaWNlIG1hY3JvOiB7ZX0iKQogICAgICAgIHJldHVybiBGYWxzZQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigKICAgICAgICBkZXNjcmlwdGlvbj0iQWNjZXB0IGFsbCB0cmFja2VkIGNoYW5nZXMgaW4gYSBET0NYIGZpbGUiCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCJpbnB1dF9maWxlIiwgaGVscD0iSW5wdXQgRE9DWCBmaWxlIHdpdGggdHJhY2tlZCBjaGFuZ2VzIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgIm91dHB1dF9maWxlIiwgaGVscD0iT3V0cHV0IERPQ1ggZmlsZSAoY2xlYW4sIG5vIHRyYWNrZWQgY2hhbmdlcykiCiAgICApCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQoKICAgIF8sIG1lc3NhZ2UgPSBhY2NlcHRfY2hhbmdlcyhhcmdzLmlucHV0X2ZpbGUsIGFyZ3Mub3V0cHV0X2ZpbGUpCiAgICBwcmludChtZXNzYWdlKQoKICAgIGlmICJFcnJvciIgaW4gbWVzc2FnZToKICAgICAgICByYWlzZSBTeXN0ZW1FeGl0KDEpCg==
+"""Accept all tracked changes in a DOCX file using LibreOffice.
+
+Requires LibreOffice (soffice) to be installed.
+"""
+
+import argparse
+import logging
+import shutil
+import subprocess
+from pathlib import Path
+
+from office.soffice import get_soffice_env
+
+logger = logging.getLogger(__name__)
+
+LIBREOFFICE_PROFILE = "/tmp/libreoffice_docx_profile"
+MACRO_DIR = f"{LIBREOFFICE_PROFILE}/user/basic/Standard"
+
+ACCEPT_CHANGES_MACRO = """<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Module1" script:language="StarBasic">
+    Sub AcceptAllTrackedChanges()
+        Dim document As Object
+        Dim dispatcher As Object
+
+        document = ThisComponent.CurrentController.Frame
+        dispatcher = createUnoService("com.sun.star.frame.DispatchHelper")
+
+        dispatcher.executeDispatch(document, ".uno:AcceptAllTrackedChanges", "", 0, Array())
+        ThisComponent.store()
+        ThisComponent.close(True)
+    End Sub
+</script:module>"""
+
+
+def accept_changes(
+    input_file: str,
+    output_file: str,
+) -> tuple[None, str]:
+    input_path = Path(input_file)
+    output_path = Path(output_file)
+
+    if not input_path.exists():
+        return None, f"Error: Input file not found: {input_file}"
+
+    if not input_path.suffix.lower() == ".docx":
+        return None, f"Error: Input file is not a DOCX file: {input_file}"
+
+    try:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(input_path, output_path)
+    except Exception as e:
+        return None, f"Error: Failed to copy input file to output location: {e}"
+
+    if not _setup_libreoffice_macro():
+        return None, "Error: Failed to setup LibreOffice macro"
+
+    cmd = [
+        "soffice",
+        "--headless",
+        f"-env:UserInstallation=file://{LIBREOFFICE_PROFILE}",
+        "--norestore",
+        "vnd.sun.star.script:Standard.Module1.AcceptAllTrackedChanges?language=Basic&location=application",
+        str(output_path.absolute()),
+    ]
+
+    try:
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=30,
+            check=False,
+            env=get_soffice_env(),
+        )
+    except subprocess.TimeoutExpired:
+        return (
+            None,
+            f"Successfully accepted all tracked changes: {input_file} -> {output_file}",
+        )
+
+    if result.returncode != 0:
+        return None, f"Error: LibreOffice failed: {result.stderr}"
+
+    return (
+        None,
+        f"Successfully accepted all tracked changes: {input_file} -> {output_file}",
+    )
+
+
+def _setup_libreoffice_macro() -> bool:
+    macro_dir = Path(MACRO_DIR)
+    macro_file = macro_dir / "Module1.xba"
+
+    if macro_file.exists() and "AcceptAllTrackedChanges" in macro_file.read_text():
+        return True
+
+    if not macro_dir.exists():
+        subprocess.run(
+            [
+                "soffice",
+                "--headless",
+                f"-env:UserInstallation=file://{LIBREOFFICE_PROFILE}",
+                "--terminate_after_init",
+            ],
+            capture_output=True,
+            timeout=10,
+            check=False,
+            env=get_soffice_env(),
+        )
+        macro_dir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        macro_file.write_text(ACCEPT_CHANGES_MACRO)
+        return True
+    except Exception as e:
+        logger.warning(f"Failed to setup LibreOffice macro: {e}")
+        return False
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Accept all tracked changes in a DOCX file"
+    )
+    parser.add_argument("input_file", help="Input DOCX file with tracked changes")
+    parser.add_argument(
+        "output_file", help="Output DOCX file (clean, no tracked changes)"
+    )
+    args = parser.parse_args()
+
+    _, message = accept_changes(args.input_file, args.output_file)
+    print(message)
+
+    if "Error" in message:
+        raise SystemExit(1)

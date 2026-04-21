@@ -1,1 +1,234 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKRWFzaW5nIEZ1bmN0aW9ucyAtIFRpbWluZyBmdW5jdGlvbnMgZm9yIHNtb290aCBhbmltYXRpb25zLgoKUHJvdmlkZXMgdmFyaW91cyBlYXNpbmcgZnVuY3Rpb25zIGZvciBuYXR1cmFsIG1vdGlvbiBhbmQgdGltaW5nLgpBbGwgZnVuY3Rpb25zIHRha2UgYSB2YWx1ZSB0ICgwLjAgdG8gMS4wKSBhbmQgcmV0dXJuIGVhc2VkIHZhbHVlICgwLjAgdG8gMS4wKS4KIiIiCgppbXBvcnQgbWF0aAoKCmRlZiBsaW5lYXIodDogZmxvYXQpIC0+IGZsb2F0OgogICAgIiIiTGluZWFyIGludGVycG9sYXRpb24gKG5vIGVhc2luZykuIiIiCiAgICByZXR1cm4gdAoKCmRlZiBlYXNlX2luX3F1YWQodDogZmxvYXQpIC0+IGZsb2F0OgogICAgIiIiUXVhZHJhdGljIGVhc2UtaW4gKHNsb3cgc3RhcnQsIGFjY2VsZXJhdGluZykuIiIiCiAgICByZXR1cm4gdCAqIHQKCgpkZWYgZWFzZV9vdXRfcXVhZCh0OiBmbG9hdCkgLT4gZmxvYXQ6CiAgICAiIiJRdWFkcmF0aWMgZWFzZS1vdXQgKGZhc3Qgc3RhcnQsIGRlY2VsZXJhdGluZykuIiIiCiAgICByZXR1cm4gdCAqICgyIC0gdCkKCgpkZWYgZWFzZV9pbl9vdXRfcXVhZCh0OiBmbG9hdCkgLT4gZmxvYXQ6CiAgICAiIiJRdWFkcmF0aWMgZWFzZS1pbi1vdXQgKHNsb3cgc3RhcnQgYW5kIGVuZCkuIiIiCiAgICBpZiB0IDwgMC41OgogICAgICAgIHJldHVybiAyICogdCAqIHQKICAgIHJldHVybiAtMSArICg0IC0gMiAqIHQpICogdAoKCmRlZiBlYXNlX2luX2N1YmljKHQ6IGZsb2F0KSAtPiBmbG9hdDoKICAgICIiIkN1YmljIGVhc2UtaW4gKHNsb3cgc3RhcnQpLiIiIgogICAgcmV0dXJuIHQgKiB0ICogdAoKCmRlZiBlYXNlX291dF9jdWJpYyh0OiBmbG9hdCkgLT4gZmxvYXQ6CiAgICAiIiJDdWJpYyBlYXNlLW91dCAoZmFzdCBzdGFydCkuIiIiCiAgICByZXR1cm4gKHQgLSAxKSAqICh0IC0gMSkgKiAodCAtIDEpICsgMQoKCmRlZiBlYXNlX2luX291dF9jdWJpYyh0OiBmbG9hdCkgLT4gZmxvYXQ6CiAgICAiIiJDdWJpYyBlYXNlLWluLW91dC4iIiIKICAgIGlmIHQgPCAwLjU6CiAgICAgICAgcmV0dXJuIDQgKiB0ICogdCAqIHQKICAgIHJldHVybiAodCAtIDEpICogKDIgKiB0IC0gMikgKiAoMiAqIHQgLSAyKSArIDEKCgpkZWYgZWFzZV9pbl9ib3VuY2UodDogZmxvYXQpIC0+IGZsb2F0OgogICAgIiIiQm91bmNlIGVhc2UtaW4gKGJvdW5jeSBzdGFydCkuIiIiCiAgICByZXR1cm4gMSAtIGVhc2Vfb3V0X2JvdW5jZSgxIC0gdCkKCgpkZWYgZWFzZV9vdXRfYm91bmNlKHQ6IGZsb2F0KSAtPiBmbG9hdDoKICAgICIiIkJvdW5jZSBlYXNlLW91dCAoYm91bmN5IGVuZCkuIiIiCiAgICBpZiB0IDwgMSAvIDIuNzU6CiAgICAgICAgcmV0dXJuIDcuNTYyNSAqIHQgKiB0CiAgICBlbGlmIHQgPCAyIC8gMi43NToKICAgICAgICB0IC09IDEuNSAvIDIuNzUKICAgICAgICByZXR1cm4gNy41NjI1ICogdCAqIHQgKyAwLjc1CiAgICBlbGlmIHQgPCAyLjUgLyAyLjc1OgogICAgICAgIHQgLT0gMi4yNSAvIDIuNzUKICAgICAgICByZXR1cm4gNy41NjI1ICogdCAqIHQgKyAwLjkzNzUKICAgIGVsc2U6CiAgICAgICAgdCAtPSAyLjYyNSAvIDIuNzUKICAgICAgICByZXR1cm4gNy41NjI1ICogdCAqIHQgKyAwLjk4NDM3NQoKCmRlZiBlYXNlX2luX291dF9ib3VuY2UodDogZmxvYXQpIC0+IGZsb2F0OgogICAgIiIiQm91bmNlIGVhc2UtaW4tb3V0LiIiIgogICAgaWYgdCA8IDAuNToKICAgICAgICByZXR1cm4gZWFzZV9pbl9ib3VuY2UodCAqIDIpICogMC41CiAgICByZXR1cm4gZWFzZV9vdXRfYm91bmNlKHQgKiAyIC0gMSkgKiAwLjUgKyAwLjUKCgpkZWYgZWFzZV9pbl9lbGFzdGljKHQ6IGZsb2F0KSAtPiBmbG9hdDoKICAgICIiIkVsYXN0aWMgZWFzZS1pbiAoc3ByaW5nIGVmZmVjdCkuIiIiCiAgICBpZiB0ID09IDAgb3IgdCA9PSAxOgogICAgICAgIHJldHVybiB0CiAgICByZXR1cm4gLW1hdGgucG93KDIsIDEwICogKHQgLSAxKSkgKiBtYXRoLnNpbigodCAtIDEuMSkgKiA1ICogbWF0aC5waSkKCgpkZWYgZWFzZV9vdXRfZWxhc3RpYyh0OiBmbG9hdCkgLT4gZmxvYXQ6CiAgICAiIiJFbGFzdGljIGVhc2Utb3V0IChzcHJpbmcgZWZmZWN0KS4iIiIKICAgIGlmIHQgPT0gMCBvciB0ID09IDE6CiAgICAgICAgcmV0dXJuIHQKICAgIHJldHVybiBtYXRoLnBvdygyLCAtMTAgKiB0KSAqIG1hdGguc2luKCh0IC0gMC4xKSAqIDUgKiBtYXRoLnBpKSArIDEKCgpkZWYgZWFzZV9pbl9vdXRfZWxhc3RpYyh0OiBmbG9hdCkgLT4gZmxvYXQ6CiAgICAiIiJFbGFzdGljIGVhc2UtaW4tb3V0LiIiIgogICAgaWYgdCA9PSAwIG9yIHQgPT0gMToKICAgICAgICByZXR1cm4gdAogICAgdCA9IHQgKiAyIC0gMQogICAgaWYgdCA8IDA6CiAgICAgICAgcmV0dXJuIC0wLjUgKiBtYXRoLnBvdygyLCAxMCAqIHQpICogbWF0aC5zaW4oKHQgLSAwLjEpICogNSAqIG1hdGgucGkpCiAgICByZXR1cm4gbWF0aC5wb3coMiwgLTEwICogdCkgKiBtYXRoLnNpbigodCAtIDAuMSkgKiA1ICogbWF0aC5waSkgKiAwLjUgKyAxCgoKIyBDb252ZW5pZW5jZSBtYXBwaW5nCkVBU0lOR19GVU5DVElPTlMgPSB7CiAgICAibGluZWFyIjogbGluZWFyLAogICAgImVhc2VfaW4iOiBlYXNlX2luX3F1YWQsCiAgICAiZWFzZV9vdXQiOiBlYXNlX291dF9xdWFkLAogICAgImVhc2VfaW5fb3V0IjogZWFzZV9pbl9vdXRfcXVhZCwKICAgICJib3VuY2VfaW4iOiBlYXNlX2luX2JvdW5jZSwKICAgICJib3VuY2Vfb3V0IjogZWFzZV9vdXRfYm91bmNlLAogICAgImJvdW5jZSI6IGVhc2VfaW5fb3V0X2JvdW5jZSwKICAgICJlbGFzdGljX2luIjogZWFzZV9pbl9lbGFzdGljLAogICAgImVsYXN0aWNfb3V0IjogZWFzZV9vdXRfZWxhc3RpYywKICAgICJlbGFzdGljIjogZWFzZV9pbl9vdXRfZWxhc3RpYywKfQoKCmRlZiBnZXRfZWFzaW5nKG5hbWU6IHN0ciA9ICJsaW5lYXIiKToKICAgICIiIkdldCBlYXNpbmcgZnVuY3Rpb24gYnkgbmFtZS4iIiIKICAgIHJldHVybiBFQVNJTkdfRlVOQ1RJT05TLmdldChuYW1lLCBsaW5lYXIpCgoKZGVmIGludGVycG9sYXRlKHN0YXJ0OiBmbG9hdCwgZW5kOiBmbG9hdCwgdDogZmxvYXQsIGVhc2luZzogc3RyID0gImxpbmVhciIpIC0+IGZsb2F0OgogICAgIiIiCiAgICBJbnRlcnBvbGF0ZSBiZXR3ZWVuIHR3byB2YWx1ZXMgd2l0aCBlYXNpbmcuCgogICAgQXJnczoKICAgICAgICBzdGFydDogU3RhcnQgdmFsdWUKICAgICAgICBlbmQ6IEVuZCB2YWx1ZQogICAgICAgIHQ6IFByb2dyZXNzIGZyb20gMC4wIHRvIDEuMAogICAgICAgIGVhc2luZzogTmFtZSBvZiBlYXNpbmcgZnVuY3Rpb24KCiAgICBSZXR1cm5zOgogICAgICAgIEludGVycG9sYXRlZCB2YWx1ZQogICAgIiIiCiAgICBlYXNlX2Z1bmMgPSBnZXRfZWFzaW5nKGVhc2luZykKICAgIGVhc2VkX3QgPSBlYXNlX2Z1bmModCkKICAgIHJldHVybiBzdGFydCArIChlbmQgLSBzdGFydCkgKiBlYXNlZF90CgoKZGVmIGVhc2VfYmFja19pbih0OiBmbG9hdCkgLT4gZmxvYXQ6CiAgICAiIiJCYWNrIGVhc2UtaW4gKHNsaWdodCBvdmVyc2hvb3QgYmFja3dhcmQgYmVmb3JlIGZvcndhcmQgbW90aW9uKS4iIiIKICAgIGMxID0gMS43MDE1OAogICAgYzMgPSBjMSArIDEKICAgIHJldHVybiBjMyAqIHQgKiB0ICogdCAtIGMxICogdCAqIHQKCgpkZWYgZWFzZV9iYWNrX291dCh0OiBmbG9hdCkgLT4gZmxvYXQ6CiAgICAiIiJCYWNrIGVhc2Utb3V0IChvdmVyc2hvb3QgZm9yd2FyZCB0aGVuIHNldHRsZSBiYWNrKS4iIiIKICAgIGMxID0gMS43MDE1OAogICAgYzMgPSBjMSArIDEKICAgIHJldHVybiAxICsgYzMgKiBwb3codCAtIDEsIDMpICsgYzEgKiBwb3codCAtIDEsIDIpCgoKZGVmIGVhc2VfYmFja19pbl9vdXQodDogZmxvYXQpIC0+IGZsb2F0OgogICAgIiIiQmFjayBlYXNlLWluLW91dCAob3ZlcnNob290IGF0IGJvdGggZW5kcykuIiIiCiAgICBjMSA9IDEuNzAxNTgKICAgIGMyID0gYzEgKiAxLjUyNQogICAgaWYgdCA8IDAuNToKICAgICAgICByZXR1cm4gKHBvdygyICogdCwgMikgKiAoKGMyICsgMSkgKiAyICogdCAtIGMyKSkgLyAyCiAgICByZXR1cm4gKHBvdygyICogdCAtIDIsIDIpICogKChjMiArIDEpICogKHQgKiAyIC0gMikgKyBjMikgKyAyKSAvIDIKCgpkZWYgYXBwbHlfc3F1YXNoX3N0cmV0Y2goCiAgICBiYXNlX3NjYWxlOiB0dXBsZVtmbG9hdCwgZmxvYXRdLCBpbnRlbnNpdHk6IGZsb2F0LCBkaXJlY3Rpb246IHN0ciA9ICJ2ZXJ0aWNhbCIKKSAtPiB0dXBsZVtmbG9hdCwgZmxvYXRdOgogICAgIiIiCiAgICBDYWxjdWxhdGUgc3F1YXNoIGFuZCBzdHJldGNoIHNjYWxlcyBmb3IgbW9yZSBkeW5hbWljIGFuaW1hdGlvbi4KCiAgICBBcmdzOgogICAgICAgIGJhc2Vfc2NhbGU6ICh3aWR0aF9zY2FsZSwgaGVpZ2h0X3NjYWxlKSBiYXNlIHNjYWxlcwogICAgICAgIGludGVuc2l0eTogU3F1YXNoL3N0cmV0Y2ggaW50ZW5zaXR5ICgwLjAtMS4wKQogICAgICAgIGRpcmVjdGlvbjogJ3ZlcnRpY2FsJywgJ2hvcml6b250YWwnLCBvciAnYm90aCcKCiAgICBSZXR1cm5zOgogICAgICAgICh3aWR0aF9zY2FsZSwgaGVpZ2h0X3NjYWxlKSB3aXRoIHNxdWFzaC9zdHJldGNoIGFwcGxpZWQKICAgICIiIgogICAgd2lkdGhfc2NhbGUsIGhlaWdodF9zY2FsZSA9IGJhc2Vfc2NhbGUKCiAgICBpZiBkaXJlY3Rpb24gPT0gInZlcnRpY2FsIjoKICAgICAgICAjIENvbXByZXNzIHZlcnRpY2FsbHksIGV4cGFuZCBob3Jpem9udGFsbHkgKHByZXNlcnZlIHZvbHVtZSkKICAgICAgICBoZWlnaHRfc2NhbGUgKj0gMSAtIGludGVuc2l0eSAqIDAuNQogICAgICAgIHdpZHRoX3NjYWxlICo9IDEgKyBpbnRlbnNpdHkgKiAwLjUKICAgIGVsaWYgZGlyZWN0aW9uID09ICJob3Jpem9udGFsIjoKICAgICAgICAjIENvbXByZXNzIGhvcml6b250YWxseSwgZXhwYW5kIHZlcnRpY2FsbHkKICAgICAgICB3aWR0aF9zY2FsZSAqPSAxIC0gaW50ZW5zaXR5ICogMC41CiAgICAgICAgaGVpZ2h0X3NjYWxlICo9IDEgKyBpbnRlbnNpdHkgKiAwLjUKICAgIGVsaWYgZGlyZWN0aW9uID09ICJib3RoIjoKICAgICAgICAjIEdlbmVyYWwgc3F1YXNoIChib3RoIGRpbWVuc2lvbnMpCiAgICAgICAgd2lkdGhfc2NhbGUgKj0gMSAtIGludGVuc2l0eSAqIDAuMwogICAgICAgIGhlaWdodF9zY2FsZSAqPSAxIC0gaW50ZW5zaXR5ICogMC4zCgogICAgcmV0dXJuICh3aWR0aF9zY2FsZSwgaGVpZ2h0X3NjYWxlKQoKCmRlZiBjYWxjdWxhdGVfYXJjX21vdGlvbigKICAgIHN0YXJ0OiB0dXBsZVtmbG9hdCwgZmxvYXRdLCBlbmQ6IHR1cGxlW2Zsb2F0LCBmbG9hdF0sIGhlaWdodDogZmxvYXQsIHQ6IGZsb2F0CikgLT4gdHVwbGVbZmxvYXQsIGZsb2F0XToKICAgICIiIgogICAgQ2FsY3VsYXRlIHBvc2l0aW9uIGFsb25nIGEgcGFyYWJvbGljIGFyYyAobmF0dXJhbCBtb3Rpb24gcGF0aCkuCgogICAgQXJnczoKICAgICAgICBzdGFydDogKHgsIHkpIHN0YXJ0aW5nIHBvc2l0aW9uCiAgICAgICAgZW5kOiAoeCwgeSkgZW5kaW5nIHBvc2l0aW9uCiAgICAgICAgaGVpZ2h0OiBBcmMgaGVpZ2h0IGF0IG1pZHBvaW50IChwb3NpdGl2ZSA9IHVwd2FyZCkKICAgICAgICB0OiBQcm9ncmVzcyAoMC4wLTEuMCkKCiAgICBSZXR1cm5zOgogICAgICAgICh4LCB5KSBwb3NpdGlvbiBhbG9uZyBhcmMKICAgICIiIgogICAgeDEsIHkxID0gc3RhcnQKICAgIHgyLCB5MiA9IGVuZAoKICAgICMgTGluZWFyIGludGVycG9sYXRpb24gZm9yIHgKICAgIHggPSB4MSArICh4MiAtIHgxKSAqIHQKCiAgICAjIFBhcmFib2xpYyBpbnRlcnBvbGF0aW9uIGZvciB5CiAgICAjIHkgPSBzdGFydCArIHByb2dyZXNzICogKGVuZCAtIHN0YXJ0KSArIGFyY19vZmZzZXQKICAgICMgQXJjIG9mZnNldCBwZWFrcyBhdCB0PTAuNQogICAgYXJjX29mZnNldCA9IDQgKiBoZWlnaHQgKiB0ICogKDEgLSB0KQogICAgeSA9IHkxICsgKHkyIC0geTEpICogdCAtIGFyY19vZmZzZXQKCiAgICByZXR1cm4gKHgsIHkpCgoKIyBBZGQgbmV3IGVhc2luZyBmdW5jdGlvbnMgdG8gdGhlIGNvbnZlbmllbmNlIG1hcHBpbmcKRUFTSU5HX0ZVTkNUSU9OUy51cGRhdGUoCiAgICB7CiAgICAgICAgImJhY2tfaW4iOiBlYXNlX2JhY2tfaW4sCiAgICAgICAgImJhY2tfb3V0IjogZWFzZV9iYWNrX291dCwKICAgICAgICAiYmFja19pbl9vdXQiOiBlYXNlX2JhY2tfaW5fb3V0LAogICAgICAgICJhbnRpY2lwYXRlIjogZWFzZV9iYWNrX2luLCAgIyBBbGlhcwogICAgICAgICJvdmVyc2hvb3QiOiBlYXNlX2JhY2tfb3V0LCAgIyBBbGlhcwogICAgfQopCg==
+#!/usr/bin/env python3
+"""
+Easing Functions - Timing functions for smooth animations.
+
+Provides various easing functions for natural motion and timing.
+All functions take a value t (0.0 to 1.0) and return eased value (0.0 to 1.0).
+"""
+
+import math
+
+
+def linear(t: float) -> float:
+    """Linear interpolation (no easing)."""
+    return t
+
+
+def ease_in_quad(t: float) -> float:
+    """Quadratic ease-in (slow start, accelerating)."""
+    return t * t
+
+
+def ease_out_quad(t: float) -> float:
+    """Quadratic ease-out (fast start, decelerating)."""
+    return t * (2 - t)
+
+
+def ease_in_out_quad(t: float) -> float:
+    """Quadratic ease-in-out (slow start and end)."""
+    if t < 0.5:
+        return 2 * t * t
+    return -1 + (4 - 2 * t) * t
+
+
+def ease_in_cubic(t: float) -> float:
+    """Cubic ease-in (slow start)."""
+    return t * t * t
+
+
+def ease_out_cubic(t: float) -> float:
+    """Cubic ease-out (fast start)."""
+    return (t - 1) * (t - 1) * (t - 1) + 1
+
+
+def ease_in_out_cubic(t: float) -> float:
+    """Cubic ease-in-out."""
+    if t < 0.5:
+        return 4 * t * t * t
+    return (t - 1) * (2 * t - 2) * (2 * t - 2) + 1
+
+
+def ease_in_bounce(t: float) -> float:
+    """Bounce ease-in (bouncy start)."""
+    return 1 - ease_out_bounce(1 - t)
+
+
+def ease_out_bounce(t: float) -> float:
+    """Bounce ease-out (bouncy end)."""
+    if t < 1 / 2.75:
+        return 7.5625 * t * t
+    elif t < 2 / 2.75:
+        t -= 1.5 / 2.75
+        return 7.5625 * t * t + 0.75
+    elif t < 2.5 / 2.75:
+        t -= 2.25 / 2.75
+        return 7.5625 * t * t + 0.9375
+    else:
+        t -= 2.625 / 2.75
+        return 7.5625 * t * t + 0.984375
+
+
+def ease_in_out_bounce(t: float) -> float:
+    """Bounce ease-in-out."""
+    if t < 0.5:
+        return ease_in_bounce(t * 2) * 0.5
+    return ease_out_bounce(t * 2 - 1) * 0.5 + 0.5
+
+
+def ease_in_elastic(t: float) -> float:
+    """Elastic ease-in (spring effect)."""
+    if t == 0 or t == 1:
+        return t
+    return -math.pow(2, 10 * (t - 1)) * math.sin((t - 1.1) * 5 * math.pi)
+
+
+def ease_out_elastic(t: float) -> float:
+    """Elastic ease-out (spring effect)."""
+    if t == 0 or t == 1:
+        return t
+    return math.pow(2, -10 * t) * math.sin((t - 0.1) * 5 * math.pi) + 1
+
+
+def ease_in_out_elastic(t: float) -> float:
+    """Elastic ease-in-out."""
+    if t == 0 or t == 1:
+        return t
+    t = t * 2 - 1
+    if t < 0:
+        return -0.5 * math.pow(2, 10 * t) * math.sin((t - 0.1) * 5 * math.pi)
+    return math.pow(2, -10 * t) * math.sin((t - 0.1) * 5 * math.pi) * 0.5 + 1
+
+
+# Convenience mapping
+EASING_FUNCTIONS = {
+    "linear": linear,
+    "ease_in": ease_in_quad,
+    "ease_out": ease_out_quad,
+    "ease_in_out": ease_in_out_quad,
+    "bounce_in": ease_in_bounce,
+    "bounce_out": ease_out_bounce,
+    "bounce": ease_in_out_bounce,
+    "elastic_in": ease_in_elastic,
+    "elastic_out": ease_out_elastic,
+    "elastic": ease_in_out_elastic,
+}
+
+
+def get_easing(name: str = "linear"):
+    """Get easing function by name."""
+    return EASING_FUNCTIONS.get(name, linear)
+
+
+def interpolate(start: float, end: float, t: float, easing: str = "linear") -> float:
+    """
+    Interpolate between two values with easing.
+
+    Args:
+        start: Start value
+        end: End value
+        t: Progress from 0.0 to 1.0
+        easing: Name of easing function
+
+    Returns:
+        Interpolated value
+    """
+    ease_func = get_easing(easing)
+    eased_t = ease_func(t)
+    return start + (end - start) * eased_t
+
+
+def ease_back_in(t: float) -> float:
+    """Back ease-in (slight overshoot backward before forward motion)."""
+    c1 = 1.70158
+    c3 = c1 + 1
+    return c3 * t * t * t - c1 * t * t
+
+
+def ease_back_out(t: float) -> float:
+    """Back ease-out (overshoot forward then settle back)."""
+    c1 = 1.70158
+    c3 = c1 + 1
+    return 1 + c3 * pow(t - 1, 3) + c1 * pow(t - 1, 2)
+
+
+def ease_back_in_out(t: float) -> float:
+    """Back ease-in-out (overshoot at both ends)."""
+    c1 = 1.70158
+    c2 = c1 * 1.525
+    if t < 0.5:
+        return (pow(2 * t, 2) * ((c2 + 1) * 2 * t - c2)) / 2
+    return (pow(2 * t - 2, 2) * ((c2 + 1) * (t * 2 - 2) + c2) + 2) / 2
+
+
+def apply_squash_stretch(
+    base_scale: tuple[float, float], intensity: float, direction: str = "vertical"
+) -> tuple[float, float]:
+    """
+    Calculate squash and stretch scales for more dynamic animation.
+
+    Args:
+        base_scale: (width_scale, height_scale) base scales
+        intensity: Squash/stretch intensity (0.0-1.0)
+        direction: 'vertical', 'horizontal', or 'both'
+
+    Returns:
+        (width_scale, height_scale) with squash/stretch applied
+    """
+    width_scale, height_scale = base_scale
+
+    if direction == "vertical":
+        # Compress vertically, expand horizontally (preserve volume)
+        height_scale *= 1 - intensity * 0.5
+        width_scale *= 1 + intensity * 0.5
+    elif direction == "horizontal":
+        # Compress horizontally, expand vertically
+        width_scale *= 1 - intensity * 0.5
+        height_scale *= 1 + intensity * 0.5
+    elif direction == "both":
+        # General squash (both dimensions)
+        width_scale *= 1 - intensity * 0.3
+        height_scale *= 1 - intensity * 0.3
+
+    return (width_scale, height_scale)
+
+
+def calculate_arc_motion(
+    start: tuple[float, float], end: tuple[float, float], height: float, t: float
+) -> tuple[float, float]:
+    """
+    Calculate position along a parabolic arc (natural motion path).
+
+    Args:
+        start: (x, y) starting position
+        end: (x, y) ending position
+        height: Arc height at midpoint (positive = upward)
+        t: Progress (0.0-1.0)
+
+    Returns:
+        (x, y) position along arc
+    """
+    x1, y1 = start
+    x2, y2 = end
+
+    # Linear interpolation for x
+    x = x1 + (x2 - x1) * t
+
+    # Parabolic interpolation for y
+    # y = start + progress * (end - start) + arc_offset
+    # Arc offset peaks at t=0.5
+    arc_offset = 4 * height * t * (1 - t)
+    y = y1 + (y2 - y1) * t - arc_offset
+
+    return (x, y)
+
+
+# Add new easing functions to the convenience mapping
+EASING_FUNCTIONS.update(
+    {
+        "back_in": ease_back_in,
+        "back_out": ease_back_out,
+        "back_in_out": ease_back_in_out,
+        "anticipate": ease_back_in,  # Alias
+        "overshoot": ease_back_out,  # Alias
+    }
+)

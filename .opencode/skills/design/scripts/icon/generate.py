@@ -1,1 +1,487 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKSWNvbiBHZW5lcmF0aW9uIFNjcmlwdCB1c2luZyBHZW1pbmkgMy4xIFBybyBQcmV2aWV3IEFQSQpHZW5lcmF0ZXMgU1ZHIGljb25zIHZpYSB0ZXh0IGdlbmVyYXRpb24gKFNWRyBpcyBYTUwgdGV4dCBmb3JtYXQpCgpNb2RlbDogZ2VtaW5pLTMuMS1wcm8tcHJldmlldyAtIGJlc3QgdGhpbmtpbmcsIHRva2VuIGVmZmljaWVuY3ksIGZhY3R1YWwgY29uc2lzdGVuY3kKClVzYWdlOgogICAgcHl0aG9uIGdlbmVyYXRlLnB5IC0tcHJvbXB0ICJzZXR0aW5ncyBnZWFyIGljb24iIC0tc3R5bGUgb3V0bGluZWQKICAgIHB5dGhvbiBnZW5lcmF0ZS5weSAtLXByb21wdCAic2hvcHBpbmcgY2FydCIgLS1zdHlsZSBmaWxsZWQgLS1jb2xvciAiIzYzNjZGMSIKICAgIHB5dGhvbiBnZW5lcmF0ZS5weSAtLW5hbWUgImRhc2hib2FyZCIgLS1jYXRlZ29yeSBuYXZpZ2F0aW9uIC0tc3R5bGUgZHVvdG9uZQogICAgcHl0aG9uIGdlbmVyYXRlLnB5IC0tcHJvbXB0ICJjbG91ZCB1cGxvYWQiIC0tYmF0Y2ggNCAtLW91dHB1dC1kaXIgLi9pY29ucwogICAgcHl0aG9uIGdlbmVyYXRlLnB5IC0tcHJvbXB0ICJ1c2VyIHByb2ZpbGUiIC0tc2l6ZXMgIjE2LDI0LDMyLDQ4IgoiIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQganNvbgppbXBvcnQgb3MKaW1wb3J0IHJlCmltcG9ydCBzeXMKaW1wb3J0IHRpbWUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCgoKZGVmIGxvYWRfZW52KCk6CiAgICAiIiJMb2FkIC5lbnYgZmlsZXMgaW4gcHJpb3JpdHkgb3JkZXIiIiIKICAgIGVudl9wYXRocyA9IFsKICAgICAgICBQYXRoKF9fZmlsZV9fKS5wYXJlbnQucGFyZW50LnBhcmVudCAvICIuZW52IiwKICAgICAgICBQYXRoLmhvbWUoKSAvICIuY2xhdWRlIiAvICJza2lsbHMiIC8gIi5lbnYiLAogICAgICAgIFBhdGguaG9tZSgpIC8gIi5jbGF1ZGUiIC8gIi5lbnYiCiAgICBdCiAgICBmb3IgZW52X3BhdGggaW4gZW52X3BhdGhzOgogICAgICAgIGlmIGVudl9wYXRoLmV4aXN0cygpOgogICAgICAgICAgICB3aXRoIG9wZW4oZW52X3BhdGgpIGFzIGY6CiAgICAgICAgICAgICAgICBmb3IgbGluZSBpbiBmOgogICAgICAgICAgICAgICAgICAgIGxpbmUgPSBsaW5lLnN0cmlwKCkKICAgICAgICAgICAgICAgICAgICBpZiBsaW5lIGFuZCBub3QgbGluZS5zdGFydHN3aXRoKCcjJykgYW5kICc9JyBpbiBsaW5lOgogICAgICAgICAgICAgICAgICAgICAgICBrZXksIHZhbHVlID0gbGluZS5zcGxpdCgnPScsIDEpCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIGtleSBub3QgaW4gb3MuZW52aXJvbjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9zLmVudmlyb25ba2V5XSA9IHZhbHVlLnN0cmlwKCciXCcnKQoKbG9hZF9lbnYoKQoKdHJ5OgogICAgZnJvbSBnb29nbGUgaW1wb3J0IGdlbmFpCiAgICBmcm9tIGdvb2dsZS5nZW5haSBpbXBvcnQgdHlwZXMKZXhjZXB0IEltcG9ydEVycm9yOgogICAgcHJpbnQoIkVycm9yOiBnb29nbGUtZ2VuYWkgcGFja2FnZSBub3QgaW5zdGFsbGVkLiIpCiAgICBwcmludCgiSW5zdGFsbCB3aXRoOiBwaXAgaW5zdGFsbCBnb29nbGUtZ2VuYWkiKQogICAgc3lzLmV4aXQoMSkKCgojID09PT09PT09PT09PSBDT05GSUdVUkFUSU9OID09PT09PT09PT09PQpHRU1JTklfQVBJX0tFWSA9IG9zLmVudmlyb24uZ2V0KCJHRU1JTklfQVBJX0tFWSIpCk1PREVMID0gImdlbWluaS0zLjEtcHJvLXByZXZpZXciCgojIEljb24gc3R5bGVzIHdpdGggU1ZHLXNwZWNpZmljIGluc3RydWN0aW9ucwpJQ09OX1NUWUxFUyA9IHsKICAgICJvdXRsaW5lZCI6ICJvdXRsaW5lZCBzdHJva2UgaWNvbnMsIDJweCBzdHJva2Ugd2lkdGgsIG5vIGZpbGwsIGNsZWFuIG9wZW4gcGF0aHMiLAogICAgImZpbGxlZCI6ICJzb2xpZCBmaWxsZWQgaWNvbnMsIG5vIHN0cm9rZSwgZmxhdCBjb2xvciBmaWxscywgYm9sZCBzaGFwZXMiLAogICAgImR1b3RvbmUiOiAiZHVvdG9uZSBzdHlsZSB3aXRoIHByaW1hcnkgY29sb3IgYXQgZnVsbCBvcGFjaXR5IGFuZCBzZWNvbmRhcnkgY29sb3IgYXQgMzAlIG9wYWNpdHksIGxheWVyZWQgc2hhcGVzIiwKICAgICJ0aGluIjogInRoaW4gbGluZSBpY29ucywgMXB4IG9yIDEuNXB4IHN0cm9rZSB3aWR0aCwgZGVsaWNhdGUgbWluaW1hbGlzdCBsaW5lcyIsCiAgICAiYm9sZCI6ICJib2xkIHRoaWNrIGxpbmUgaWNvbnMsIDNweCBzdHJva2Ugd2lkdGgsIGhlYXZ5IHdlaWdodCwgaW1wYWN0ZnVsIiwKICAgICJyb3VuZGVkIjogInJvdW5kZWQgaWNvbnMgd2l0aCByb3VuZCBsaW5lIGNhcHMgYW5kIGpvaW5zLCBzb2Z0IGNvcm5lcnMsIGZyaWVuZGx5IGZlZWwiLAogICAgInNoYXJwIjogInNoYXJwIGFuZ3VsYXIgaWNvbnMsIHNxdWFyZSBsaW5lIGNhcHMgYW5kIG1pdGVyZWQgam9pbnMsIHByZWNpc2UgZWRnZXMiLAogICAgImZsYXQiOiAiZmxhdCBkZXNpZ24gaWNvbnMsIHNvbGlkIGZpbGxzLCBubyBncmFkaWVudHMgb3Igc2hhZG93cywgZ2VvbWV0cmljIHNpbXBsaWNpdHkiLAogICAgImdyYWRpZW50IjogImxpbmVhciBvciByYWRpYWwgZ3JhZGllbnQgZmlsbHMsIG1vZGVybiB2aWJyYW50IGNvbG9yIHRyYW5zaXRpb25zIiwKICAgICJnbGFzc21vcnBoaXNtIjogImdsYXNzbW9ycGhpc20gc3R5bGUgd2l0aCBzZW1pLXRyYW5zcGFyZW50IGZpbGxzLCBibHVyIGJhY2tkcm9wIGVmZmVjdCBzaW11bGF0aW9uLCBmcm9zdGVkIGdsYXNzIiwKICAgICJwaXhlbCI6ICJwaXhlbCBhcnQgc3R5bGUgaWNvbnMgb24gYSBncmlkLCByZXRybyA4LWJpdCBhZXN0aGV0aWMsIGNyaXNwIGVkZ2VzIiwKICAgICJoYW5kLWRyYXduIjogImhhbmQtZHJhd24gc2tldGNoIHN0eWxlLCBzbGlnaHRseSBpcnJlZ3VsYXIgc3Ryb2tlcywgb3JnYW5pYyBmZWVsLCBpbXBlcmZlY3QgbGluZXMiLAogICAgImlzb21ldHJpYyI6ICJpc29tZXRyaWMgM0QgcHJvamVjdGlvbiwgMzAtZGVncmVlIGFuZ2xlcywgZGltZW5zaW9uYWwgZGVwdGgiLAogICAgImdseXBoIjogInNpbXBsZSBnbHlwaCBzdHlsZSwgc2luZ2xlIHNvbGlkIHNoYXBlLCBtaW5pbWFsIGRldGFpbCwgcGljdG9ncmFtIiwKICAgICJhbmltYXRlZC1yZWFkeSI6ICJhbmltYXRlZC1yZWFkeSBTVkcgd2l0aCBuYW1lZCBncm91cHMgYW5kIElEcyBmb3IgQ1NTL0pTIGFuaW1hdGlvbiB0YXJnZXRzIiwKfQoKSUNPTl9DQVRFR09SSUVTID0gewogICAgIm5hdmlnYXRpb24iOiAiYXJyb3dzLCBtZW51cywgaGFtYnVyZ2VyLCBjaGV2cm9ucywgaG9tZSwgYmFjaywgZm9yd2FyZCwgYnJlYWRjcnVtYiIsCiAgICAiYWN0aW9uIjogImVkaXQsIGRlbGV0ZSwgc2F2ZSwgZG93bmxvYWQsIHVwbG9hZCwgc2hhcmUsIGNvcHksIHBhc3RlLCBwcmludCwgc2VhcmNoIiwKICAgICJjb21tdW5pY2F0aW9uIjogImVtYWlsLCBjaGF0LCBwaG9uZSwgdmlkZW8gY2FsbCwgbm90aWZpY2F0aW9uLCBiZWxsLCBtZXNzYWdlIGJ1YmJsZSIsCiAgICAibWVkaWEiOiAicGxheSwgcGF1c2UsIHN0b3AsIHNraXAsIHZvbHVtZSwgbWljcm9waG9uZSwgY2FtZXJhLCBpbWFnZSwgZ2FsbGVyeSIsCiAgICAiZmlsZSI6ICJkb2N1bWVudCwgZm9sZGVyLCBhcmNoaXZlLCBhdHRhY2htZW50LCBjbG91ZCwgZGF0YWJhc2UsIHN0b3JhZ2UiLAogICAgInVzZXIiOiAicGVyc29uLCBncm91cCwgYXZhdGFyLCBwcm9maWxlLCBzZXR0aW5ncywgbG9jaywga2V5LCBzaGllbGQiLAogICAgImNvbW1lcmNlIjogImNhcnQsIGJhZywgd2FsbGV0LCBjcmVkaXQgY2FyZCwgcmVjZWlwdCwgdGFnLCBnaWZ0LCBzdG9yZSIsCiAgICAiZGF0YSI6ICJjaGFydCwgZ3JhcGgsIGFuYWx5dGljcywgZGFzaGJvYXJkLCB0YWJsZSwgZmlsdGVyLCBzb3J0LCBjYWxlbmRhciIsCiAgICAiZGV2ZWxvcG1lbnQiOiAiY29kZSwgdGVybWluYWwsIGJ1ZywgZ2l0LCBBUEksIHNlcnZlciwgZGF0YWJhc2UsIGRlcGxveSIsCiAgICAic29jaWFsIjogImhlYXJ0LCBzdGFyLCB0aHVtYnMgdXAsIGJvb2ttYXJrLCBmbGFnLCB0cm9waHksIGJhZGdlLCBjcm93biIsCiAgICAid2VhdGhlciI6ICJzdW4sIG1vb24sIGNsb3VkLCByYWluLCBzbm93LCB3aW5kLCB0aHVuZGVyLCB0ZW1wZXJhdHVyZSIsCiAgICAibWFwIjogInBpbiwgbG9jYXRpb24sIGNvbXBhc3MsIGdsb2JlLCByb3V0ZSwgZGlyZWN0aW9ucywgbWFwIG1hcmtlciIsCn0KCiMgU1ZHIGdlbmVyYXRpb24gcHJvbXB0IHRlbXBsYXRlClNWR19QUk9NUFRfVEVNUExBVEUgPSAiIiJHZW5lcmF0ZSBhIGNsZWFuLCBwcm9kdWN0aW9uLXJlYWR5IFNWRyBpY29uLgoKUmVxdWlyZW1lbnRzOgotIE91dHB1dCBPTkxZIHZhbGlkIFNWRyBjb2RlLCBub3RoaW5nIGVsc2UKLSBWaWV3Qm94OiAiMCAwIHt2aWV3Ym94fSB7dmlld2JveH0iCi0gVXNlIGN1cnJlbnRDb2xvciBmb3Igc3Ryb2tlcy9maWxscyAoaW5oZXJpdHMgQ1NTIGNvbG9yKQotIE5vIGVtYmVkZGVkIGZvbnRzIG9yIHRleHQgZWxlbWVudHMgdW5sZXNzIHNwZWNpZmljYWxseSByZXF1ZXN0ZWQKLSBObyByYXN0ZXIgaW1hZ2VzIG9yIGV4dGVybmFsIHJlZmVyZW5jZXMKLSBPcHRpbWl6ZWQgcGF0aHMgd2l0aCBtaW5pbWFsIG5vZGVzCi0gQWNjZXNzaWJsZTogaW5jbHVkZSA8dGl0bGU+IGVsZW1lbnQgd2l0aCBpY29uIGRlc2NyaXB0aW9uCntzdHlsZV9pbnN0cnVjdGlvbnN9Cntjb2xvcl9pbnN0cnVjdGlvbnN9CntzaXplX2luc3RydWN0aW9uc30KCkljb24gdG8gZ2VuZXJhdGU6IHtwcm9tcHR9CgpPdXRwdXQgdGhlIFNWRyBjb2RlIG9ubHksIHdyYXBwZWQgaW4gYGBgc3ZnYGBgIGNvZGUgYmxvY2suIiIiCgpTVkdfQkFUQ0hfUFJPTVBUX1RFTVBMQVRFID0gIiIiR2VuZXJhdGUge2NvdW50fSBkaXN0aW5jdCBTVkcgaWNvbiB2YXJpYXRpb25zIGZvcjoge3Byb21wdH0KClJlcXVpcmVtZW50cyBmb3IgRUFDSCBpY29uOgotIE91dHB1dCBPTkxZIHZhbGlkIFNWRyBjb2RlCi0gVmlld0JveDogIjAgMCB7dmlld2JveH0ge3ZpZXdib3h9IgotIFVzZSBjdXJyZW50Q29sb3IgZm9yIHN0cm9rZXMvZmlsbHMgKGluaGVyaXRzIENTUyBjb2xvcikKLSBObyBlbWJlZGRlZCBmb250cywgcmFzdGVyIGltYWdlcywgb3IgZXh0ZXJuYWwgcmVmZXJlbmNlcwotIE9wdGltaXplZCBwYXRocyB3aXRoIG1pbmltYWwgbm9kZXMKLSBJbmNsdWRlIDx0aXRsZT4gZWxlbWVudCB3aXRoIGljb24gZGVzY3JpcHRpb24Ke3N0eWxlX2luc3RydWN0aW9uc30Ke2NvbG9yX2luc3RydWN0aW9uc30KCkdlbmVyYXRlIHtjb3VudH0gZGlmZmVyZW50IHZpc3VhbCBpbnRlcnByZXRhdGlvbnMuIE91dHB1dCBlYWNoIFNWRyBpbiBhIHNlcGFyYXRlIGBgYHN2Z2BgYCBjb2RlIGJsb2NrLgpMYWJlbCBlYWNoIHZhcmlhdGlvbiAoZS5nLiwgIlZhcmlhdGlvbiAxOiBbYnJpZWYgZGVzY3JpcHRpb25dIikuIiIiCgoKZGVmIGV4dHJhY3Rfc3Zncyh0ZXh0KToKICAgICIiIkV4dHJhY3QgU1ZHIGNvZGUgYmxvY2tzIGZyb20gbW9kZWwgcmVzcG9uc2UiIiIKICAgIHN2Z3MgPSBbXQoKICAgICMgVHJ5IGBgYHN2ZyBjb2RlIGJsb2NrcyBmaXJzdAogICAgcGF0dGVybiA9IHInYGBgc3ZnXHMqXG4oLio/KWBgYCcKICAgIG1hdGNoZXMgPSByZS5maW5kYWxsKHBhdHRlcm4sIHRleHQsIHJlLkRPVEFMTCkKICAgIGlmIG1hdGNoZXM6CiAgICAgICAgc3Zncy5leHRlbmQobWF0Y2hlcykKCiAgICAjIEZhbGxiYWNrOiB0cnkgYGBgeG1sIGNvZGUgYmxvY2tzCiAgICBpZiBub3Qgc3ZnczoKICAgICAgICBwYXR0ZXJuID0gcidgYGB4bWxccypcbiguKj8pYGBgJwogICAgICAgIG1hdGNoZXMgPSByZS5maW5kYWxsKHBhdHRlcm4sIHRleHQsIHJlLkRPVEFMTCkKICAgICAgICBzdmdzLmV4dGVuZChtYXRjaGVzKQoKICAgICMgRmFsbGJhY2s6IHRyeSBiYXJlIDxzdmc+IHRhZ3MKICAgIGlmIG5vdCBzdmdzOgogICAgICAgIHBhdHRlcm4gPSByJyg8c3ZnW14+XSo+Lio/PC9zdmc+KScKICAgICAgICBtYXRjaGVzID0gcmUuZmluZGFsbChwYXR0ZXJuLCB0ZXh0LCByZS5ET1RBTEwpCiAgICAgICAgc3Zncy5leHRlbmQobWF0Y2hlcykKCiAgICAjIENsZWFuIHVwIGV4dHJhY3RlZCBTVkdzCiAgICBjbGVhbmVkID0gW10KICAgIGZvciBzdmcgaW4gc3ZnczoKICAgICAgICBzdmcgPSBzdmcuc3RyaXAoKQogICAgICAgIGlmIG5vdCBzdmcuc3RhcnRzd2l0aCgnPHN2ZycpOgogICAgICAgICAgICAjIFRyeSB0byBmaW5kIDxzdmc+IHdpdGhpbiB0aGUgZXh0cmFjdGVkIHRleHQKICAgICAgICAgICAgbWF0Y2ggPSByZS5zZWFyY2gocicoPHN2Z1tePl0qPi4qPzwvc3ZnPiknLCBzdmcsIHJlLkRPVEFMTCkKICAgICAgICAgICAgaWYgbWF0Y2g6CiAgICAgICAgICAgICAgICBzdmcgPSBtYXRjaC5ncm91cCgxKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICBjbGVhbmVkLmFwcGVuZChzdmcpCgogICAgcmV0dXJuIGNsZWFuZWQKCgpkZWYgYXBwbHlfY29sb3Ioc3ZnX2NvZGUsIGNvbG9yKToKICAgICIiIlJlcGxhY2UgY3VycmVudENvbG9yIHdpdGggc3BlY2lmaWMgY29sb3IgaWYgcHJvdmlkZWQiIiIKICAgIGlmIGNvbG9yOgogICAgICAgICMgUmVwbGFjZSBjdXJyZW50Q29sb3Igd2l0aCB0aGUgc3BlY2lmaWVkIGNvbG9yCiAgICAgICAgc3ZnX2NvZGUgPSBzdmdfY29kZS5yZXBsYWNlKCdjdXJyZW50Q29sb3InLCBjb2xvcikKICAgICAgICAjIElmIG5vIGN1cnJlbnRDb2xvciB3YXMgcHJlc2VudCwgYWRkIGZpbGwvc3Ryb2tlIGNvbG9yCiAgICAgICAgaWYgY29sb3Igbm90IGluIHN2Z19jb2RlOgogICAgICAgICAgICBzdmdfY29kZSA9IHN2Z19jb2RlLnJlcGxhY2UoJzxzdmcnLCBmJzxzdmcgY29sb3I9Intjb2xvcn0iJywgMSkKICAgIHJldHVybiBzdmdfY29kZQoKCmRlZiBhcHBseV92aWV3Ym94X3NpemUoc3ZnX2NvZGUsIHNpemUpOgogICAgIiIiQWRqdXN0IFNWRyB2aWV3Qm94IHRvIHRhcmdldCBzaXplIiIiCiAgICBpZiBzaXplOgogICAgICAgICMgVXBkYXRlIHdpZHRoL2hlaWdodCBhdHRyaWJ1dGVzIGlmIHByZXNlbnQKICAgICAgICBzdmdfY29kZSA9IHJlLnN1YihyJ3dpZHRoPSJbXiJdKiInLCBmJ3dpZHRoPSJ7c2l6ZX0iJywgc3ZnX2NvZGUpCiAgICAgICAgc3ZnX2NvZGUgPSByZS5zdWIocidoZWlnaHQ9IlteIl0qIicsIGYnaGVpZ2h0PSJ7c2l6ZX0iJywgc3ZnX2NvZGUpCiAgICAgICAgIyBBZGQgd2lkdGgvaGVpZ2h0IGlmIG5vdCBwcmVzZW50CiAgICAgICAgaWYgJ3dpZHRoPScgbm90IGluIHN2Z19jb2RlOgogICAgICAgICAgICBzdmdfY29kZSA9IHN2Z19jb2RlLnJlcGxhY2UoJzxzdmcnLCBmJzxzdmcgd2lkdGg9IntzaXplfSIgaGVpZ2h0PSJ7c2l6ZX0iJywgMSkKICAgIHJldHVybiBzdmdfY29kZQoKCmRlZiBnZW5lcmF0ZV9pY29uKHByb21wdCwgc3R5bGU9Tm9uZSwgY2F0ZWdvcnk9Tm9uZSwgbmFtZT1Ob25lLAogICAgICAgICAgICAgICAgICBjb2xvcj1Ob25lLCBzaXplPTI0LCBvdXRwdXRfcGF0aD1Ob25lLCB2aWV3Ym94PTI0KToKICAgICIiIkdlbmVyYXRlIGEgc2luZ2xlIFNWRyBpY29uIHVzaW5nIEdlbWluaSAzLjEgUHJvIFByZXZpZXciIiIKCiAgICBpZiBub3QgR0VNSU5JX0FQSV9LRVk6CiAgICAgICAgcHJpbnQoIkVycm9yOiBHRU1JTklfQVBJX0tFWSBub3Qgc2V0IikKICAgICAgICBwcmludCgiU2V0IGl0IHdpdGg6IGV4cG9ydCBHRU1JTklfQVBJX0tFWT0neW91ci1rZXknIikKICAgICAgICByZXR1cm4gTm9uZQoKICAgIGNsaWVudCA9IGdlbmFpLkNsaWVudChhcGlfa2V5PUdFTUlOSV9BUElfS0VZKQoKICAgICMgQnVpbGQgc3R5bGUgaW5zdHJ1Y3Rpb25zCiAgICBzdHlsZV9pbnN0cnVjdGlvbnMgPSAiIgogICAgaWYgc3R5bGUgYW5kIHN0eWxlIGluIElDT05fU1RZTEVTOgogICAgICAgIHN0eWxlX2luc3RydWN0aW9ucyA9IGYiLSBTdHlsZToge0lDT05fU1RZTEVTW3N0eWxlXX0iCgogICAgIyBCdWlsZCBjb2xvciBpbnN0cnVjdGlvbnMKICAgIGNvbG9yX2luc3RydWN0aW9ucyA9ICItIFVzZSBjdXJyZW50Q29sb3IgZm9yIGFsbCBzdHJva2VzIGFuZCBmaWxscyIKICAgIGlmIGNvbG9yOgogICAgICAgIGNvbG9yX2luc3RydWN0aW9ucyA9IGYiLSBVc2UgY29sb3I6IHtjb2xvcn0gZm9yIHByaW1hcnkgZWxlbWVudHMsIGN1cnJlbnRDb2xvciBmb3Igc2Vjb25kYXJ5IgoKICAgICMgQnVpbGQgc2l6ZSBpbnN0cnVjdGlvbnMKICAgIHNpemVfaW5zdHJ1Y3Rpb25zID0gZiItIERlc2lnbiBmb3Ige3NpemV9cHggZGlzcGxheSBzaXplLCBvcHRpbWl6ZSBkZXRhaWwgbGV2ZWwgYWNjb3JkaW5nbHkiCgogICAgIyBCdWlsZCBmaW5hbCBwcm9tcHQKICAgIGljb25fcHJvbXB0ID0gcHJvbXB0CiAgICBpZiBjYXRlZ29yeSBhbmQgY2F0ZWdvcnkgaW4gSUNPTl9DQVRFR09SSUVTOgogICAgICAgIGljb25fcHJvbXB0ID0gZiJ7cHJvbXB0fSAoY2F0ZWdvcnk6IHtJQ09OX0NBVEVHT1JJRVNbY2F0ZWdvcnldfSkiCiAgICBpZiBuYW1lOgogICAgICAgIGljb25fcHJvbXB0ID0gZiIne25hbWV9JyBpY29uOiB7aWNvbl9wcm9tcHR9IgoKICAgIGZ1bGxfcHJvbXB0ID0gU1ZHX1BST01QVF9URU1QTEFURS5mb3JtYXQoCiAgICAgICAgcHJvbXB0PWljb25fcHJvbXB0LAogICAgICAgIHZpZXdib3g9dmlld2JveCwKICAgICAgICBzdHlsZV9pbnN0cnVjdGlvbnM9c3R5bGVfaW5zdHJ1Y3Rpb25zLAogICAgICAgIGNvbG9yX2luc3RydWN0aW9ucz1jb2xvcl9pbnN0cnVjdGlvbnMsCiAgICAgICAgc2l6ZV9pbnN0cnVjdGlvbnM9c2l6ZV9pbnN0cnVjdGlvbnMKICAgICkKCiAgICBwcmludChmIkdlbmVyYXRpbmcgaWNvbiB3aXRoIHtNT0RFTH0uLi4iKQogICAgcHJpbnQoZiJQcm9tcHQ6IHtwcm9tcHR9IikKICAgIGlmIHN0eWxlOgogICAgICAgIHByaW50KGYiU3R5bGU6IHtzdHlsZX0iKQogICAgcHJpbnQoKQoKICAgIHRyeToKICAgICAgICByZXNwb25zZSA9IGNsaWVudC5tb2RlbHMuZ2VuZXJhdGVfY29udGVudCgKICAgICAgICAgICAgbW9kZWw9TU9ERUwsCiAgICAgICAgICAgIGNvbnRlbnRzPWZ1bGxfcHJvbXB0LAogICAgICAgICAgICBjb25maWc9dHlwZXMuR2VuZXJhdGVDb250ZW50Q29uZmlnKAogICAgICAgICAgICAgICAgdGVtcGVyYXR1cmU9MC43LAogICAgICAgICAgICAgICAgbWF4X291dHB1dF90b2tlbnM9NDA5NiwKICAgICAgICAgICAgKQogICAgICAgICkKCiAgICAgICAgIyBFeHRyYWN0IFNWRyBmcm9tIHJlc3BvbnNlCiAgICAgICAgcmVzcG9uc2VfdGV4dCA9IHJlc3BvbnNlLnRleHQgaWYgaGFzYXR0cihyZXNwb25zZSwgJ3RleHQnKSBlbHNlICIiCiAgICAgICAgaWYgbm90IHJlc3BvbnNlX3RleHQ6CiAgICAgICAgICAgIGZvciBwYXJ0IGluIHJlc3BvbnNlLmNhbmRpZGF0ZXNbMF0uY29udGVudC5wYXJ0czoKICAgICAgICAgICAgICAgIGlmIGhhc2F0dHIocGFydCwgJ3RleHQnKSBhbmQgcGFydC50ZXh0OgogICAgICAgICAgICAgICAgICAgIHJlc3BvbnNlX3RleHQgKz0gcGFydC50ZXh0CgogICAgICAgIHN2Z3MgPSBleHRyYWN0X3N2Z3MocmVzcG9uc2VfdGV4dCkKCiAgICAgICAgaWYgbm90IHN2Z3M6CiAgICAgICAgICAgIHByaW50KCJObyB2YWxpZCBTVkcgZ2VuZXJhdGVkLiBNb2RlbCByZXNwb25zZToiKQogICAgICAgICAgICBwcmludChyZXNwb25zZV90ZXh0Wzo1MDBdKQogICAgICAgICAgICByZXR1cm4gTm9uZQoKICAgICAgICBzdmdfY29kZSA9IHN2Z3NbMF0KCiAgICAgICAgIyBBcHBseSBjb2xvciBpZiBzcGVjaWZpZWQKICAgICAgICBzdmdfY29kZSA9IGFwcGx5X2NvbG9yKHN2Z19jb2RlLCBjb2xvcikKCiAgICAgICAgIyBBcHBseSBzaXplCiAgICAgICAgc3ZnX2NvZGUgPSBhcHBseV92aWV3Ym94X3NpemUoc3ZnX2NvZGUsIHNpemUpCgogICAgICAgICMgRGV0ZXJtaW5lIG91dHB1dCBwYXRoCiAgICAgICAgaWYgb3V0cHV0X3BhdGggaXMgTm9uZToKICAgICAgICAgICAgdGltZXN0YW1wID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZJW0lZF8lSCVNJVMiKQogICAgICAgICAgICBzbHVnID0gbmFtZSBvciBwcm9tcHQuc3BsaXQoKVswXSBpZiBwcm9tcHQgZWxzZSAiaWNvbiIKICAgICAgICAgICAgc2x1ZyA9IHJlLnN1YihyJ1teYS16QS1aMC05Xy1dJywgJ18nLCBzbHVnLmxvd2VyKCkpCiAgICAgICAgICAgIHN0eWxlX3N1ZmZpeCA9IGYiX3tzdHlsZX0iIGlmIHN0eWxlIGVsc2UgIiIKICAgICAgICAgICAgb3V0cHV0X3BhdGggPSBmIntzbHVnfXtzdHlsZV9zdWZmaXh9X3t0aW1lc3RhbXB9LnN2ZyIKCiAgICAgICAgIyBTYXZlIFNWRwogICAgICAgIHdpdGggb3BlbihvdXRwdXRfcGF0aCwgInciLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmOgogICAgICAgICAgICBmLndyaXRlKHN2Z19jb2RlKQoKICAgICAgICBwcmludChmIkljb24gc2F2ZWQgdG86IHtvdXRwdXRfcGF0aH0iKQogICAgICAgIHJldHVybiBvdXRwdXRfcGF0aAoKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChmIkVycm9yIGdlbmVyYXRpbmcgaWNvbjoge2V9IikKICAgICAgICByZXR1cm4gTm9uZQoKCmRlZiBnZW5lcmF0ZV9iYXRjaChwcm9tcHQsIGNvdW50LCBvdXRwdXRfZGlyLCBzdHlsZT1Ob25lLCBjb2xvcj1Ob25lLAogICAgICAgICAgICAgICAgICAgdmlld2JveD0yNCwgbmFtZT1Ob25lKToKICAgICIiIkdlbmVyYXRlIG11bHRpcGxlIGljb24gdmFyaWF0aW9ucyIiIgoKICAgIGlmIG5vdCBHRU1JTklfQVBJX0tFWToKICAgICAgICBwcmludCgiRXJyb3I6IEdFTUlOSV9BUElfS0VZIG5vdCBzZXQiKQogICAgICAgIHJldHVybiBbXQoKICAgIGNsaWVudCA9IGdlbmFpLkNsaWVudChhcGlfa2V5PUdFTUlOSV9BUElfS0VZKQogICAgb3MubWFrZWRpcnMob3V0cHV0X2RpciwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICAjIEJ1aWxkIGluc3RydWN0aW9ucwogICAgc3R5bGVfaW5zdHJ1Y3Rpb25zID0gIiIKICAgIGlmIHN0eWxlIGFuZCBzdHlsZSBpbiBJQ09OX1NUWUxFUzoKICAgICAgICBzdHlsZV9pbnN0cnVjdGlvbnMgPSBmIi0gU3R5bGU6IHtJQ09OX1NUWUxFU1tzdHlsZV19IgoKICAgIGNvbG9yX2luc3RydWN0aW9ucyA9ICItIFVzZSBjdXJyZW50Q29sb3IgZm9yIGFsbCBzdHJva2VzIGFuZCBmaWxscyIKICAgIGlmIGNvbG9yOgogICAgICAgIGNvbG9yX2luc3RydWN0aW9ucyA9IGYiLSBVc2UgY29sb3I6IHtjb2xvcn0gZm9yIHByaW1hcnkgZWxlbWVudHMiCgogICAgZnVsbF9wcm9tcHQgPSBTVkdfQkFUQ0hfUFJPTVBUX1RFTVBMQVRFLmZvcm1hdCgKICAgICAgICBwcm9tcHQ9cHJvbXB0LAogICAgICAgIGNvdW50PWNvdW50LAogICAgICAgIHZpZXdib3g9dmlld2JveCwKICAgICAgICBzdHlsZV9pbnN0cnVjdGlvbnM9c3R5bGVfaW5zdHJ1Y3Rpb25zLAogICAgICAgIGNvbG9yX2luc3RydWN0aW9ucz1jb2xvcl9pbnN0cnVjdGlvbnMKICAgICkKCiAgICBwcmludChmIlxueyc9Jyo2MH0iKQogICAgcHJpbnQoZiIgIEJBVENIIElDT04gR0VORVJBVElPTiIpCiAgICBwcmludChmIiAgTW9kZWw6IHtNT0RFTH0iKQogICAgcHJpbnQoZiIgIFByb21wdDoge3Byb21wdH0iKQogICAgcHJpbnQoZiIgIFZhcmlhbnRzOiB7Y291bnR9IikKICAgIHByaW50KGYiICBPdXRwdXQ6IHtvdXRwdXRfZGlyfSIpCiAgICBwcmludChmInsnPScqNjB9XG4iKQoKICAgIHRyeToKICAgICAgICByZXNwb25zZSA9IGNsaWVudC5tb2RlbHMuZ2VuZXJhdGVfY29udGVudCgKICAgICAgICAgICAgbW9kZWw9TU9ERUwsCiAgICAgICAgICAgIGNvbnRlbnRzPWZ1bGxfcHJvbXB0LAogICAgICAgICAgICBjb25maWc9dHlwZXMuR2VuZXJhdGVDb250ZW50Q29uZmlnKAogICAgICAgICAgICAgICAgdGVtcGVyYXR1cmU9MC45LAogICAgICAgICAgICAgICAgbWF4X291dHB1dF90b2tlbnM9MTYzODQsCiAgICAgICAgICAgICkKICAgICAgICApCgogICAgICAgIHJlc3BvbnNlX3RleHQgPSByZXNwb25zZS50ZXh0IGlmIGhhc2F0dHIocmVzcG9uc2UsICd0ZXh0JykgZWxzZSAiIgogICAgICAgIGlmIG5vdCByZXNwb25zZV90ZXh0OgogICAgICAgICAgICBmb3IgcGFydCBpbiByZXNwb25zZS5jYW5kaWRhdGVzWzBdLmNvbnRlbnQucGFydHM6CiAgICAgICAgICAgICAgICBpZiBoYXNhdHRyKHBhcnQsICd0ZXh0JykgYW5kIHBhcnQudGV4dDoKICAgICAgICAgICAgICAgICAgICByZXNwb25zZV90ZXh0ICs9IHBhcnQudGV4dAoKICAgICAgICBzdmdzID0gZXh0cmFjdF9zdmdzKHJlc3BvbnNlX3RleHQpCgogICAgICAgIGlmIG5vdCBzdmdzOgogICAgICAgICAgICBwcmludCgiTm8gdmFsaWQgU1ZHcyBnZW5lcmF0ZWQuIikKICAgICAgICAgICAgcHJpbnQocmVzcG9uc2VfdGV4dFs6NTAwXSkKICAgICAgICAgICAgcmV0dXJuIFtdCgogICAgICAgIHJlc3VsdHMgPSBbXQogICAgICAgIHNsdWcgPSBuYW1lIG9yIHJlLnN1YihyJ1teYS16QS1aMC05Xy1dJywgJ18nLCBwcm9tcHQuc3BsaXQoKVswXS5sb3dlcigpKQogICAgICAgIHN0eWxlX3N1ZmZpeCA9IGYiX3tzdHlsZX0iIGlmIHN0eWxlIGVsc2UgIiIKCiAgICAgICAgZm9yIGksIHN2Z19jb2RlIGluIGVudW1lcmF0ZShzdmdzWzpjb3VudF0pOgogICAgICAgICAgICBzdmdfY29kZSA9IGFwcGx5X2NvbG9yKHN2Z19jb2RlLCBjb2xvcikKICAgICAgICAgICAgZmlsZW5hbWUgPSBmIntzbHVnfXtzdHlsZV9zdWZmaXh9X3tpKzE6MDJkfS5zdmciCiAgICAgICAgICAgIGZpbGVwYXRoID0gb3MucGF0aC5qb2luKG91dHB1dF9kaXIsIGZpbGVuYW1lKQoKICAgICAgICAgICAgd2l0aCBvcGVuKGZpbGVwYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGY6CiAgICAgICAgICAgICAgICBmLndyaXRlKHN2Z19jb2RlKQoKICAgICAgICAgICAgcmVzdWx0cy5hcHBlbmQoZmlsZXBhdGgpCiAgICAgICAgICAgIHByaW50KGYiICBbe2krMX0ve2xlbihzdmdzWzpjb3VudF0pfV0gU2F2ZWQ6IHtmaWxlbmFtZX0iKQoKICAgICAgICBwcmludChmIlxueyc9Jyo2MH0iKQogICAgICAgIHByaW50KGYiICBCQVRDSCBDT01QTEVURToge2xlbihyZXN1bHRzKX0ve2NvdW50fSBpY29ucyBnZW5lcmF0ZWQiKQogICAgICAgIHByaW50KGYieyc9Jyo2MH1cbiIpCgogICAgICAgIHJldHVybiByZXN1bHRzCgogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KGYiRXJyb3IgZ2VuZXJhdGluZyBpY29uczoge2V9IikKICAgICAgICByZXR1cm4gW10KCgpkZWYgZ2VuZXJhdGVfc2l6ZXMocHJvbXB0LCBzaXplcywgc3R5bGU9Tm9uZSwgY29sb3I9Tm9uZSwgb3V0cHV0X2Rpcj1Ob25lLCBuYW1lPU5vbmUpOgogICAgIiIiR2VuZXJhdGUgc2FtZSBpY29uIGF0IG11bHRpcGxlIHNpemVzIiIiCiAgICBpZiBvdXRwdXRfZGlyIGlzIE5vbmU6CiAgICAgICAgb3V0cHV0X2RpciA9ICIuIgogICAgb3MubWFrZWRpcnMob3V0cHV0X2RpciwgZXhpc3Rfb2s9VHJ1ZSkKCiAgICByZXN1bHRzID0gW10KICAgIHNsdWcgPSBuYW1lIG9yIHJlLnN1YihyJ1teYS16QS1aMC05Xy1dJywgJ18nLCBwcm9tcHQuc3BsaXQoKVswXS5sb3dlcigpKQogICAgc3R5bGVfc3VmZml4ID0gZiJfe3N0eWxlfSIgaWYgc3R5bGUgZWxzZSAiIgoKICAgIGZvciBzaXplIGluIHNpemVzOgogICAgICAgIHByaW50KGYiR2VuZXJhdGluZyB7c2l6ZX1weCB2YXJpYW50Li4uIikKICAgICAgICBmaWxlbmFtZSA9IGYie3NsdWd9e3N0eWxlX3N1ZmZpeH1fe3NpemV9cHguc3ZnIgogICAgICAgIGZpbGVwYXRoID0gb3MucGF0aC5qb2luKG91dHB1dF9kaXIsIGZpbGVuYW1lKQoKICAgICAgICByZXN1bHQgPSBnZW5lcmF0ZV9pY29uKAogICAgICAgICAgICBwcm9tcHQ9cHJvbXB0LAogICAgICAgICAgICBzdHlsZT1zdHlsZSwKICAgICAgICAgICAgY29sb3I9Y29sb3IsCiAgICAgICAgICAgIHNpemU9c2l6ZSwKICAgICAgICAgICAgb3V0cHV0X3BhdGg9ZmlsZXBhdGgsCiAgICAgICAgICAgIHZpZXdib3g9c2l6ZQogICAgICAgICkKCiAgICAgICAgaWYgcmVzdWx0OgogICAgICAgICAgICByZXN1bHRzLmFwcGVuZChyZXN1bHQpCgogICAgICAgIHRpbWUuc2xlZXAoMSkKCiAgICByZXR1cm4gcmVzdWx0cwoKCmRlZiBtYWluKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigKICAgICAgICBkZXNjcmlwdGlvbj0iR2VuZXJhdGUgU1ZHIGljb25zIHVzaW5nIEdlbWluaSAzLjEgUHJvIFByZXZpZXciCiAgICApCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXByb21wdCIsICItcCIsIHR5cGU9c3RyLCBoZWxwPSJJY29uIGRlc2NyaXB0aW9uIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tbmFtZSIsICItbiIsIHR5cGU9c3RyLCBoZWxwPSJJY29uIG5hbWUgKGZvciBmaWxlbmFtZSkiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1zdHlsZSIsICItcyIsIGNob2ljZXM9bGlzdChJQ09OX1NUWUxFUy5rZXlzKCkpLAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSJJY29uIHN0eWxlIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tY2F0ZWdvcnkiLCAiLWMiLCBjaG9pY2VzPWxpc3QoSUNPTl9DQVRFR09SSUVTLmtleXMoKSksCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9Ikljb24gY2F0ZWdvcnkgZm9yIGNvbnRleHQiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1jb2xvciIsIHR5cGU9c3RyLAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSJQcmltYXJ5IGNvbG9yIChoZXgsIGUuZy4gIzYzNjZGMSkuIERlZmF1bHQ6IGN1cnJlbnRDb2xvciIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLXNpemUiLCB0eXBlPWludCwgZGVmYXVsdD0yNCwKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0iSWNvbiBzaXplIGluIHB4IChkZWZhdWx0OiAyNCkiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS12aWV3Ym94IiwgdHlwZT1pbnQsIGRlZmF1bHQ9MjQsCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9IlNWRyB2aWV3Qm94IHNpemUgKGRlZmF1bHQ6IDI0KSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLW91dHB1dCIsICItbyIsIHR5cGU9c3RyLCBoZWxwPSJPdXRwdXQgZmlsZSBwYXRoIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tb3V0cHV0LWRpciIsIHR5cGU9c3RyLCBoZWxwPSJPdXRwdXQgZGlyZWN0b3J5IGZvciBiYXRjaCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWJhdGNoIiwgdHlwZT1pbnQsCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9Ik51bWJlciBvZiBpY29uIHZhcmlhbnRzIHRvIGdlbmVyYXRlIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tc2l6ZXMiLCB0eXBlPXN0ciwKICAgICAgICAgICAgICAgICAgICAgICAgaGVscD0iQ29tbWEtc2VwYXJhdGVkIHNpemVzIChlLmcuICcxNiwyNCwzMiw0OCcpIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi0tbGlzdC1zdHlsZXMiLCBhY3Rpb249InN0b3JlX3RydWUiLAogICAgICAgICAgICAgICAgICAgICAgICBoZWxwPSJMaXN0IGF2YWlsYWJsZSBpY29uIHN0eWxlcyIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWxpc3QtY2F0ZWdvcmllcyIsIGFjdGlvbj0ic3RvcmVfdHJ1ZSIsCiAgICAgICAgICAgICAgICAgICAgICAgIGhlbHA9Ikxpc3QgYXZhaWxhYmxlIGljb24gY2F0ZWdvcmllcyIpCgogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICBpZiBhcmdzLmxpc3Rfc3R5bGVzOgogICAgICAgIHByaW50KCJBdmFpbGFibGUgaWNvbiBzdHlsZXM6IikKICAgICAgICBmb3Igc3R5bGUsIGRlc2MgaW4gSUNPTl9TVFlMRVMuaXRlbXMoKToKICAgICAgICAgICAgcHJpbnQoZiIgIHtzdHlsZX06IHtkZXNjWzo3MF19Li4uIikKICAgICAgICByZXR1cm4KCiAgICBpZiBhcmdzLmxpc3RfY2F0ZWdvcmllczoKICAgICAgICBwcmludCgiQXZhaWxhYmxlIGljb24gY2F0ZWdvcmllczoiKQogICAgICAgIGZvciBjYXQsIGRlc2MgaW4gSUNPTl9DQVRFR09SSUVTLml0ZW1zKCk6CiAgICAgICAgICAgIHByaW50KGYiICB7Y2F0fToge2Rlc2N9IikKICAgICAgICByZXR1cm4KCiAgICBpZiBub3QgYXJncy5wcm9tcHQgYW5kIG5vdCBhcmdzLm5hbWU6CiAgICAgICAgcGFyc2VyLmVycm9yKCJFaXRoZXIgLS1wcm9tcHQgb3IgLS1uYW1lIGlzIHJlcXVpcmVkIikKCiAgICBwcm9tcHQgPSBhcmdzLnByb21wdCBvciBhcmdzLm5hbWUKCiAgICAjIE11bHRpLXNpemUgbW9kZQogICAgaWYgYXJncy5zaXplczoKICAgICAgICBzaXplcyA9IFtpbnQocy5zdHJpcCgpKSBmb3IgcyBpbiBhcmdzLnNpemVzLnNwbGl0KCIsIildCiAgICAgICAgZ2VuZXJhdGVfc2l6ZXMoCiAgICAgICAgICAgIHByb21wdD1wcm9tcHQsCiAgICAgICAgICAgIHNpemVzPXNpemVzLAogICAgICAgICAgICBzdHlsZT1hcmdzLnN0eWxlLAogICAgICAgICAgICBjb2xvcj1hcmdzLmNvbG9yLAogICAgICAgICAgICBvdXRwdXRfZGlyPWFyZ3Mub3V0cHV0X2RpciBvciAiLi9pY29ucyIsCiAgICAgICAgICAgIG5hbWU9YXJncy5uYW1lCiAgICAgICAgKQogICAgIyBCYXRjaCBtb2RlCiAgICBlbGlmIGFyZ3MuYmF0Y2g6CiAgICAgICAgb3V0cHV0X2RpciA9IGFyZ3Mub3V0cHV0X2RpciBvciAiLi9pY29ucyIKICAgICAgICBnZW5lcmF0ZV9iYXRjaCgKICAgICAgICAgICAgcHJvbXB0PXByb21wdCwKICAgICAgICAgICAgY291bnQ9YXJncy5iYXRjaCwKICAgICAgICAgICAgb3V0cHV0X2Rpcj1vdXRwdXRfZGlyLAogICAgICAgICAgICBzdHlsZT1hcmdzLnN0eWxlLAogICAgICAgICAgICBjb2xvcj1hcmdzLmNvbG9yLAogICAgICAgICAgICB2aWV3Ym94PWFyZ3Mudmlld2JveCwKICAgICAgICAgICAgbmFtZT1hcmdzLm5hbWUKICAgICAgICApCiAgICAjIFNpbmdsZSBpY29uCiAgICBlbHNlOgogICAgICAgIGdlbmVyYXRlX2ljb24oCiAgICAgICAgICAgIHByb21wdD1wcm9tcHQsCiAgICAgICAgICAgIHN0eWxlPWFyZ3Muc3R5bGUsCiAgICAgICAgICAgIGNhdGVnb3J5PWFyZ3MuY2F0ZWdvcnksCiAgICAgICAgICAgIG5hbWU9YXJncy5uYW1lLAogICAgICAgICAgICBjb2xvcj1hcmdzLmNvbG9yLAogICAgICAgICAgICBzaXplPWFyZ3Muc2l6ZSwKICAgICAgICAgICAgb3V0cHV0X3BhdGg9YXJncy5vdXRwdXQsCiAgICAgICAgICAgIHZpZXdib3g9YXJncy52aWV3Ym94CiAgICAgICAgKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Icon Generation Script using Gemini 3.1 Pro Preview API
+Generates SVG icons via text generation (SVG is XML text format)
+
+Model: gemini-3.1-pro-preview - best thinking, token efficiency, factual consistency
+
+Usage:
+    python generate.py --prompt "settings gear icon" --style outlined
+    python generate.py --prompt "shopping cart" --style filled --color "#6366F1"
+    python generate.py --name "dashboard" --category navigation --style duotone
+    python generate.py --prompt "cloud upload" --batch 4 --output-dir ./icons
+    python generate.py --prompt "user profile" --sizes "16,24,32,48"
+"""
+
+import argparse
+import json
+import os
+import re
+import sys
+import time
+from pathlib import Path
+from datetime import datetime
+
+
+def load_env():
+    """Load .env files in priority order"""
+    env_paths = [
+        Path(__file__).parent.parent.parent / ".env",
+        Path.home() / ".claude" / "skills" / ".env",
+        Path.home() / ".claude" / ".env"
+    ]
+    for env_path in env_paths:
+        if env_path.exists():
+            with open(env_path) as f:
+                for line in f:
+                    line = line.strip()
+                    if line and not line.startswith('#') and '=' in line:
+                        key, value = line.split('=', 1)
+                        if key not in os.environ:
+                            os.environ[key] = value.strip('"\'')
+
+load_env()
+
+try:
+    from google import genai
+    from google.genai import types
+except ImportError:
+    print("Error: google-genai package not installed.")
+    print("Install with: pip install google-genai")
+    sys.exit(1)
+
+
+# ============ CONFIGURATION ============
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+MODEL = "gemini-3.1-pro-preview"
+
+# Icon styles with SVG-specific instructions
+ICON_STYLES = {
+    "outlined": "outlined stroke icons, 2px stroke width, no fill, clean open paths",
+    "filled": "solid filled icons, no stroke, flat color fills, bold shapes",
+    "duotone": "duotone style with primary color at full opacity and secondary color at 30% opacity, layered shapes",
+    "thin": "thin line icons, 1px or 1.5px stroke width, delicate minimalist lines",
+    "bold": "bold thick line icons, 3px stroke width, heavy weight, impactful",
+    "rounded": "rounded icons with round line caps and joins, soft corners, friendly feel",
+    "sharp": "sharp angular icons, square line caps and mitered joins, precise edges",
+    "flat": "flat design icons, solid fills, no gradients or shadows, geometric simplicity",
+    "gradient": "linear or radial gradient fills, modern vibrant color transitions",
+    "glassmorphism": "glassmorphism style with semi-transparent fills, blur backdrop effect simulation, frosted glass",
+    "pixel": "pixel art style icons on a grid, retro 8-bit aesthetic, crisp edges",
+    "hand-drawn": "hand-drawn sketch style, slightly irregular strokes, organic feel, imperfect lines",
+    "isometric": "isometric 3D projection, 30-degree angles, dimensional depth",
+    "glyph": "simple glyph style, single solid shape, minimal detail, pictogram",
+    "animated-ready": "animated-ready SVG with named groups and IDs for CSS/JS animation targets",
+}
+
+ICON_CATEGORIES = {
+    "navigation": "arrows, menus, hamburger, chevrons, home, back, forward, breadcrumb",
+    "action": "edit, delete, save, download, upload, share, copy, paste, print, search",
+    "communication": "email, chat, phone, video call, notification, bell, message bubble",
+    "media": "play, pause, stop, skip, volume, microphone, camera, image, gallery",
+    "file": "document, folder, archive, attachment, cloud, database, storage",
+    "user": "person, group, avatar, profile, settings, lock, key, shield",
+    "commerce": "cart, bag, wallet, credit card, receipt, tag, gift, store",
+    "data": "chart, graph, analytics, dashboard, table, filter, sort, calendar",
+    "development": "code, terminal, bug, git, API, server, database, deploy",
+    "social": "heart, star, thumbs up, bookmark, flag, trophy, badge, crown",
+    "weather": "sun, moon, cloud, rain, snow, wind, thunder, temperature",
+    "map": "pin, location, compass, globe, route, directions, map marker",
+}
+
+# SVG generation prompt template
+SVG_PROMPT_TEMPLATE = """Generate a clean, production-ready SVG icon.
+
+Requirements:
+- Output ONLY valid SVG code, nothing else
+- ViewBox: "0 0 {viewbox} {viewbox}"
+- Use currentColor for strokes/fills (inherits CSS color)
+- No embedded fonts or text elements unless specifically requested
+- No raster images or external references
+- Optimized paths with minimal nodes
+- Accessible: include <title> element with icon description
+{style_instructions}
+{color_instructions}
+{size_instructions}
+
+Icon to generate: {prompt}
+
+Output the SVG code only, wrapped in ```svg``` code block."""
+
+SVG_BATCH_PROMPT_TEMPLATE = """Generate {count} distinct SVG icon variations for: {prompt}
+
+Requirements for EACH icon:
+- Output ONLY valid SVG code
+- ViewBox: "0 0 {viewbox} {viewbox}"
+- Use currentColor for strokes/fills (inherits CSS color)
+- No embedded fonts, raster images, or external references
+- Optimized paths with minimal nodes
+- Include <title> element with icon description
+{style_instructions}
+{color_instructions}
+
+Generate {count} different visual interpretations. Output each SVG in a separate ```svg``` code block.
+Label each variation (e.g., "Variation 1: [brief description]")."""
+
+
+def extract_svgs(text):
+    """Extract SVG code blocks from model response"""
+    svgs = []
+
+    # Try ```svg code blocks first
+    pattern = r'```svg\s*\n(.*?)```'
+    matches = re.findall(pattern, text, re.DOTALL)
+    if matches:
+        svgs.extend(matches)
+
+    # Fallback: try ```xml code blocks
+    if not svgs:
+        pattern = r'```xml\s*\n(.*?)```'
+        matches = re.findall(pattern, text, re.DOTALL)
+        svgs.extend(matches)
+
+    # Fallback: try bare <svg> tags
+    if not svgs:
+        pattern = r'(<svg[^>]*>.*?</svg>)'
+        matches = re.findall(pattern, text, re.DOTALL)
+        svgs.extend(matches)
+
+    # Clean up extracted SVGs
+    cleaned = []
+    for svg in svgs:
+        svg = svg.strip()
+        if not svg.startswith('<svg'):
+            # Try to find <svg> within the extracted text
+            match = re.search(r'(<svg[^>]*>.*?</svg>)', svg, re.DOTALL)
+            if match:
+                svg = match.group(1)
+            else:
+                continue
+        cleaned.append(svg)
+
+    return cleaned
+
+
+def apply_color(svg_code, color):
+    """Replace currentColor with specific color if provided"""
+    if color:
+        # Replace currentColor with the specified color
+        svg_code = svg_code.replace('currentColor', color)
+        # If no currentColor was present, add fill/stroke color
+        if color not in svg_code:
+            svg_code = svg_code.replace('<svg', f'<svg color="{color}"', 1)
+    return svg_code
+
+
+def apply_viewbox_size(svg_code, size):
+    """Adjust SVG viewBox to target size"""
+    if size:
+        # Update width/height attributes if present
+        svg_code = re.sub(r'width="[^"]*"', f'width="{size}"', svg_code)
+        svg_code = re.sub(r'height="[^"]*"', f'height="{size}"', svg_code)
+        # Add width/height if not present
+        if 'width=' not in svg_code:
+            svg_code = svg_code.replace('<svg', f'<svg width="{size}" height="{size}"', 1)
+    return svg_code
+
+
+def generate_icon(prompt, style=None, category=None, name=None,
+                  color=None, size=24, output_path=None, viewbox=24):
+    """Generate a single SVG icon using Gemini 3.1 Pro Preview"""
+
+    if not GEMINI_API_KEY:
+        print("Error: GEMINI_API_KEY not set")
+        print("Set it with: export GEMINI_API_KEY='your-key'")
+        return None
+
+    client = genai.Client(api_key=GEMINI_API_KEY)
+
+    # Build style instructions
+    style_instructions = ""
+    if style and style in ICON_STYLES:
+        style_instructions = f"- Style: {ICON_STYLES[style]}"
+
+    # Build color instructions
+    color_instructions = "- Use currentColor for all strokes and fills"
+    if color:
+        color_instructions = f"- Use color: {color} for primary elements, currentColor for secondary"
+
+    # Build size instructions
+    size_instructions = f"- Design for {size}px display size, optimize detail level accordingly"
+
+    # Build final prompt
+    icon_prompt = prompt
+    if category and category in ICON_CATEGORIES:
+        icon_prompt = f"{prompt} (category: {ICON_CATEGORIES[category]})"
+    if name:
+        icon_prompt = f"'{name}' icon: {icon_prompt}"
+
+    full_prompt = SVG_PROMPT_TEMPLATE.format(
+        prompt=icon_prompt,
+        viewbox=viewbox,
+        style_instructions=style_instructions,
+        color_instructions=color_instructions,
+        size_instructions=size_instructions
+    )
+
+    print(f"Generating icon with {MODEL}...")
+    print(f"Prompt: {prompt}")
+    if style:
+        print(f"Style: {style}")
+    print()
+
+    try:
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=full_prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.7,
+                max_output_tokens=4096,
+            )
+        )
+
+        # Extract SVG from response
+        response_text = response.text if hasattr(response, 'text') else ""
+        if not response_text:
+            for part in response.candidates[0].content.parts:
+                if hasattr(part, 'text') and part.text:
+                    response_text += part.text
+
+        svgs = extract_svgs(response_text)
+
+        if not svgs:
+            print("No valid SVG generated. Model response:")
+            print(response_text[:500])
+            return None
+
+        svg_code = svgs[0]
+
+        # Apply color if specified
+        svg_code = apply_color(svg_code, color)
+
+        # Apply size
+        svg_code = apply_viewbox_size(svg_code, size)
+
+        # Determine output path
+        if output_path is None:
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            slug = name or prompt.split()[0] if prompt else "icon"
+            slug = re.sub(r'[^a-zA-Z0-9_-]', '_', slug.lower())
+            style_suffix = f"_{style}" if style else ""
+            output_path = f"{slug}{style_suffix}_{timestamp}.svg"
+
+        # Save SVG
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(svg_code)
+
+        print(f"Icon saved to: {output_path}")
+        return output_path
+
+    except Exception as e:
+        print(f"Error generating icon: {e}")
+        return None
+
+
+def generate_batch(prompt, count, output_dir, style=None, color=None,
+                   viewbox=24, name=None):
+    """Generate multiple icon variations"""
+
+    if not GEMINI_API_KEY:
+        print("Error: GEMINI_API_KEY not set")
+        return []
+
+    client = genai.Client(api_key=GEMINI_API_KEY)
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Build instructions
+    style_instructions = ""
+    if style and style in ICON_STYLES:
+        style_instructions = f"- Style: {ICON_STYLES[style]}"
+
+    color_instructions = "- Use currentColor for all strokes and fills"
+    if color:
+        color_instructions = f"- Use color: {color} for primary elements"
+
+    full_prompt = SVG_BATCH_PROMPT_TEMPLATE.format(
+        prompt=prompt,
+        count=count,
+        viewbox=viewbox,
+        style_instructions=style_instructions,
+        color_instructions=color_instructions
+    )
+
+    print(f"\n{'='*60}")
+    print(f"  BATCH ICON GENERATION")
+    print(f"  Model: {MODEL}")
+    print(f"  Prompt: {prompt}")
+    print(f"  Variants: {count}")
+    print(f"  Output: {output_dir}")
+    print(f"{'='*60}\n")
+
+    try:
+        response = client.models.generate_content(
+            model=MODEL,
+            contents=full_prompt,
+            config=types.GenerateContentConfig(
+                temperature=0.9,
+                max_output_tokens=16384,
+            )
+        )
+
+        response_text = response.text if hasattr(response, 'text') else ""
+        if not response_text:
+            for part in response.candidates[0].content.parts:
+                if hasattr(part, 'text') and part.text:
+                    response_text += part.text
+
+        svgs = extract_svgs(response_text)
+
+        if not svgs:
+            print("No valid SVGs generated.")
+            print(response_text[:500])
+            return []
+
+        results = []
+        slug = name or re.sub(r'[^a-zA-Z0-9_-]', '_', prompt.split()[0].lower())
+        style_suffix = f"_{style}" if style else ""
+
+        for i, svg_code in enumerate(svgs[:count]):
+            svg_code = apply_color(svg_code, color)
+            filename = f"{slug}{style_suffix}_{i+1:02d}.svg"
+            filepath = os.path.join(output_dir, filename)
+
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(svg_code)
+
+            results.append(filepath)
+            print(f"  [{i+1}/{len(svgs[:count])}] Saved: {filename}")
+
+        print(f"\n{'='*60}")
+        print(f"  BATCH COMPLETE: {len(results)}/{count} icons generated")
+        print(f"{'='*60}\n")
+
+        return results
+
+    except Exception as e:
+        print(f"Error generating icons: {e}")
+        return []
+
+
+def generate_sizes(prompt, sizes, style=None, color=None, output_dir=None, name=None):
+    """Generate same icon at multiple sizes"""
+    if output_dir is None:
+        output_dir = "."
+    os.makedirs(output_dir, exist_ok=True)
+
+    results = []
+    slug = name or re.sub(r'[^a-zA-Z0-9_-]', '_', prompt.split()[0].lower())
+    style_suffix = f"_{style}" if style else ""
+
+    for size in sizes:
+        print(f"Generating {size}px variant...")
+        filename = f"{slug}{style_suffix}_{size}px.svg"
+        filepath = os.path.join(output_dir, filename)
+
+        result = generate_icon(
+            prompt=prompt,
+            style=style,
+            color=color,
+            size=size,
+            output_path=filepath,
+            viewbox=size
+        )
+
+        if result:
+            results.append(result)
+
+        time.sleep(1)
+
+    return results
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Generate SVG icons using Gemini 3.1 Pro Preview"
+    )
+    parser.add_argument("--prompt", "-p", type=str, help="Icon description")
+    parser.add_argument("--name", "-n", type=str, help="Icon name (for filename)")
+    parser.add_argument("--style", "-s", choices=list(ICON_STYLES.keys()),
+                        help="Icon style")
+    parser.add_argument("--category", "-c", choices=list(ICON_CATEGORIES.keys()),
+                        help="Icon category for context")
+    parser.add_argument("--color", type=str,
+                        help="Primary color (hex, e.g. #6366F1). Default: currentColor")
+    parser.add_argument("--size", type=int, default=24,
+                        help="Icon size in px (default: 24)")
+    parser.add_argument("--viewbox", type=int, default=24,
+                        help="SVG viewBox size (default: 24)")
+    parser.add_argument("--output", "-o", type=str, help="Output file path")
+    parser.add_argument("--output-dir", type=str, help="Output directory for batch")
+    parser.add_argument("--batch", type=int,
+                        help="Number of icon variants to generate")
+    parser.add_argument("--sizes", type=str,
+                        help="Comma-separated sizes (e.g. '16,24,32,48')")
+    parser.add_argument("--list-styles", action="store_true",
+                        help="List available icon styles")
+    parser.add_argument("--list-categories", action="store_true",
+                        help="List available icon categories")
+
+    args = parser.parse_args()
+
+    if args.list_styles:
+        print("Available icon styles:")
+        for style, desc in ICON_STYLES.items():
+            print(f"  {style}: {desc[:70]}...")
+        return
+
+    if args.list_categories:
+        print("Available icon categories:")
+        for cat, desc in ICON_CATEGORIES.items():
+            print(f"  {cat}: {desc}")
+        return
+
+    if not args.prompt and not args.name:
+        parser.error("Either --prompt or --name is required")
+
+    prompt = args.prompt or args.name
+
+    # Multi-size mode
+    if args.sizes:
+        sizes = [int(s.strip()) for s in args.sizes.split(",")]
+        generate_sizes(
+            prompt=prompt,
+            sizes=sizes,
+            style=args.style,
+            color=args.color,
+            output_dir=args.output_dir or "./icons",
+            name=args.name
+        )
+    # Batch mode
+    elif args.batch:
+        output_dir = args.output_dir or "./icons"
+        generate_batch(
+            prompt=prompt,
+            count=args.batch,
+            output_dir=output_dir,
+            style=args.style,
+            color=args.color,
+            viewbox=args.viewbox,
+            name=args.name
+        )
+    # Single icon
+    else:
+        generate_icon(
+            prompt=prompt,
+            style=args.style,
+            category=args.category,
+            name=args.name,
+            color=args.color,
+            size=args.size,
+            output_path=args.output,
+            viewbox=args.viewbox
+        )
+
+
+if __name__ == "__main__":
+    main()

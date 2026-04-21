@@ -1,1 +1,214 @@
-IyBUeXBvZ3JhcGh5IFNwZWNpZmljYXRpb25zCgpHdWlkZWxpbmVzIGZvciBkZWZpbmluZyBhbmQgaW1wbGVtZW50aW5nIGJyYW5kIHR5cG9ncmFwaHkuCgojIyBGb250IFN0YWNrIFN0cnVjdHVyZQoKIyMjIFByaW1hcnkgRm9udHMKYGBgY3NzCi8qIEhlYWRpbmdzIC0gRGlzcGxheSBmb250IGZvciBpbXBhY3QgKi8KLS1mb250LWhlYWRpbmc6ICdJbnRlcicsIHN5c3RlbS11aSwgLWFwcGxlLXN5c3RlbSwgc2Fucy1zZXJpZjsKCi8qIEJvZHkgLSBSZWFkYWJsZSBmb3IgbG9uZy1mb3JtIGNvbnRlbnQgKi8KLS1mb250LWJvZHk6ICdJbnRlcicsIHN5c3RlbS11aSwgLWFwcGxlLXN5c3RlbSwgc2Fucy1zZXJpZjsKCi8qIE1vbm9zcGFjZSAtIENvZGUsIHRlY2huaWNhbCBjb250ZW50ICovCi0tZm9udC1tb25vOiAnSmV0QnJhaW5zIE1vbm8nLCAnRmlyYSBDb2RlJywgbW9ub3NwYWNlOwpgYGAKCiMjIyBGb250IExvYWRpbmcKYGBgaHRtbAo8IS0tIEdvb2dsZSBGb250cyAocmVjb21tZW5kZWQpIC0tPgo8bGluayByZWw9InByZWNvbm5lY3QiIGhyZWY9Imh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20iPgo8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PUludGVyOndnaHRANDAwOzUwMDs2MDA7NzAwJmRpc3BsYXk9c3dhcCIgcmVsPSJzdHlsZXNoZWV0Ij4KYGBgCgojIyBUeXBlIFNjYWxlCgojIyMgQmFzZSBTeXN0ZW0KLSBCYXNlIHNpemU6IDE2cHggKDFyZW0pCi0gU2NhbGUgcmF0aW86IDEuMjUgKE1ham9yIFRoaXJkKQoKIyMjIFNjYWxlIERlZmluaXRpb24KfCBFbGVtZW50IHwgU2l6ZSAocmVtKSB8IFNpemUgKHB4KSB8IFdlaWdodCB8IExpbmUgSGVpZ2h0IHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS0tLS0tLXwKfCBEaXNwbGF5IHwgMy44MTVyZW0gfCA2MXB4IHwgNzAwIHwgMS4xIHwKfCBIMSB8IDMuMDUycmVtIHwgNDlweCB8IDcwMCB8IDEuMiB8CnwgSDIgfCAyLjQ0MXJlbSB8IDM5cHggfCA2MDAgfCAxLjI1IHwKfCBIMyB8IDEuOTUzcmVtIHwgMzFweCB8IDYwMCB8IDEuMyB8CnwgSDQgfCAxLjU2M3JlbSB8IDI1cHggfCA2MDAgfCAxLjM1IHwKfCBINSB8IDEuMjVyZW0gfCAyMHB4IHwgNjAwIHwgMS40IHwKfCBCb2R5IExhcmdlIHwgMS4xMjVyZW0gfCAxOHB4IHwgNDAwIHwgMS42IHwKfCBCb2R5IHwgMXJlbSB8IDE2cHggfCA0MDAgfCAxLjUgfAp8IFNtYWxsIHwgMC44NzVyZW0gfCAxNHB4IHwgNDAwIHwgMS41IHwKfCBDYXB0aW9uIHwgMC43NXJlbSB8IDEycHggfCA0MDAgfCAxLjQgfAoKIyMjIFJlc3BvbnNpdmUgQWRqdXN0bWVudHMKYGBgY3NzCi8qIE1vYmlsZSAoPCA3NjhweCkgKi8KaDEgeyBmb250LXNpemU6IDJyZW07IH0gICAgLyogMzJweCAqLwpoMiB7IGZvbnQtc2l6ZTogMS41cmVtOyB9ICAvKiAyNHB4ICovCmgzIHsgZm9udC1zaXplOiAxLjI1cmVtOyB9IC8qIDIwcHggKi8KYm9keSB7IGZvbnQtc2l6ZTogMXJlbTsgfSAgLyogMTZweCAqLwoKLyogRGVza3RvcCAoPj0gNzY4cHgpICovCmgxIHsgZm9udC1zaXplOiAzcmVtOyB9ICAgIC8qIDQ4cHggKi8KaDIgeyBmb250LXNpemU6IDIuMjVyZW07IH0gLyogMzZweCAqLwpoMyB7IGZvbnQtc2l6ZTogMS43NXJlbTsgfSAvKiAyOHB4ICovCmJvZHkgeyBmb250LXNpemU6IDFyZW07IH0gIC8qIDE2cHggKi8KYGBgCgojIyBGb250IFdlaWdodHMKCiMjIyBXZWlnaHQgU2NhbGUKfCBOYW1lIHwgVmFsdWUgfCBVc2FnZSB8CnwtLS0tLS18LS0tLS0tLXwtLS0tLS0tfAp8IFJlZ3VsYXIgfCA0MDAgfCBCb2R5IHRleHQsIHBhcmFncmFwaHMgfAp8IE1lZGl1bSB8IDUwMCB8IEJ1dHRvbnMsIG5hdiBpdGVtcyB8CnwgU2VtaWJvbGQgfCA2MDAgfCBTdWJoZWFkaW5ncywgZW1waGFzaXMgfAp8IEJvbGQgfCA3MDAgfCBIZWFkaW5ncywgQ1RBcyB8CgojIyMgV2VpZ2h0IFBhaXJpbmcKLSBIZWFkaW5nczogNjAwLTcwMAotIEJvZHk6IDQwMAotIExpbmtzOiA1MDAKLSBCdXR0b25zOiA2MDAKCiMjIExpbmUgSGVpZ2h0IEd1aWRlbGluZXMKCiMjIyBSdWxlcwp8IENvbnRlbnQgVHlwZSB8IExpbmUgSGVpZ2h0IHwgTm90ZXMgfAp8LS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLXwtLS0tLS0tfAp8IEhlYWRpbmdzIHwgMS4xLTEuMyB8IFRpZ2h0ZXIgZm9yIHZpc3VhbCBpbXBhY3QgfAp8IEJvZHkgdGV4dCB8IDEuNS0xLjYgfCBPcHRpbWFsIHJlYWRhYmlsaXR5IHwKfCBTbWFsbCB0ZXh0IHwgMS40LTEuNSB8IFNsaWdodGx5IHRpZ2h0ZXIgfAp8IExvbmctZm9ybSB8IDEuNi0xLjc1IHwgRXh0cmEgY29tZm9ydGFibGUgfAoKIyMgTGV0dGVyIFNwYWNpbmcKCiMjIyBHdWlkZWxpbmVzCnwgRWxlbWVudCB8IFRyYWNraW5nIHwgVmFsdWUgfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLXwKfCBEaXNwbGF5IHwgVGlnaHRlciB8IC0wLjAyZW0gfAp8IEhlYWRpbmdzIHwgTm9ybWFsIHwgMCB8CnwgQm9keSB8IE5vcm1hbCB8IDAgfAp8IEFsbCBjYXBzIHwgV2lkZXIgfCAwLjA1ZW0gfAp8IFNtYWxsIGNhcHMgfCBXaWRlciB8IDAuMWVtIHwKCiMjIFBhcmFncmFwaCBTcGFjaW5nCgojIyMgTWFyZ2lucwpgYGBjc3MKLyogSGVhZGluZyBzcGFjaW5nICovCmgxLCBoMiB7IG1hcmdpbi10b3A6IDJyZW07IG1hcmdpbi1ib3R0b206IDFyZW07IH0KaDMsIGg0IHsgbWFyZ2luLXRvcDogMS41cmVtOyBtYXJnaW4tYm90dG9tOiAwLjc1cmVtOyB9CgovKiBQYXJhZ3JhcGggc3BhY2luZyAqLwpwIHsgbWFyZ2luLWJvdHRvbTogMXJlbTsgfQpwICsgcCB7IG1hcmdpbi10b3A6IDA7IH0KYGBgCgojIyMgTWF4aW11bSBMaW5lIExlbmd0aAotIEJvZHkgdGV4dDogNjUtNzUgY2hhcmFjdGVycyAob3B0aW1hbCkKLSBIZWFkaW5nczogQ2FuIGJlIHdpZGVyCi0gQ29kZSBibG9ja3M6IDgwLTEwMCBjaGFyYWN0ZXJzCgpgYGBjc3MKLnByb3NlIHsKICBtYXgtd2lkdGg6IDY1Y2g7Cn0KYGBgCgojIyBDU1MgSW1wbGVtZW50YXRpb24KCiMjIyBGdWxsIFZhcmlhYmxlcwpgYGBjc3MKOnJvb3QgewogIC8qIEZvbnQgRmFtaWxpZXMgKi8KICAtLWZvbnQtaGVhZGluZzogJ0ludGVyJywgc3lzdGVtLXVpLCBzYW5zLXNlcmlmOwogIC0tZm9udC1ib2R5OiAnSW50ZXInLCBzeXN0ZW0tdWksIHNhbnMtc2VyaWY7CiAgLS1mb250LW1vbm86ICdKZXRCcmFpbnMgTW9ubycsIG1vbm9zcGFjZTsKCiAgLyogRm9udCBTaXplcyAqLwogIC0tdGV4dC14czogMC43NXJlbTsKICAtLXRleHQtc206IDAuODc1cmVtOwogIC0tdGV4dC1iYXNlOiAxcmVtOwogIC0tdGV4dC1sZzogMS4xMjVyZW07CiAgLS10ZXh0LXhsOiAxLjI1cmVtOwogIC0tdGV4dC0yeGw6IDEuNXJlbTsKICAtLXRleHQtM3hsOiAxLjg3NXJlbTsKICAtLXRleHQtNHhsOiAyLjI1cmVtOwogIC0tdGV4dC01eGw6IDNyZW07CgogIC8qIEZvbnQgV2VpZ2h0cyAqLwogIC0tZm9udC1ub3JtYWw6IDQwMDsKICAtLWZvbnQtbWVkaXVtOiA1MDA7CiAgLS1mb250LXNlbWlib2xkOiA2MDA7CiAgLS1mb250LWJvbGQ6IDcwMDsKCiAgLyogTGluZSBIZWlnaHRzICovCiAgLS1sZWFkaW5nLW5vbmU6IDE7CiAgLS1sZWFkaW5nLXRpZ2h0OiAxLjI1OwogIC0tbGVhZGluZy1zbnVnOiAxLjM3NTsKICAtLWxlYWRpbmctbm9ybWFsOiAxLjU7CiAgLS1sZWFkaW5nLXJlbGF4ZWQ6IDEuNjI1OwogIC0tbGVhZGluZy1sb29zZTogMjsKfQpgYGAKCiMjIyBUYWlsd2luZCBDb25maWcKYGBgamF2YXNjcmlwdAp0aGVtZTogewogIGZvbnRGYW1pbHk6IHsKICAgIGhlYWRpbmc6IFsnSW50ZXInLCAnc3lzdGVtLXVpJywgJ3NhbnMtc2VyaWYnXSwKICAgIGJvZHk6IFsnSW50ZXInLCAnc3lzdGVtLXVpJywgJ3NhbnMtc2VyaWYnXSwKICAgIG1vbm86IFsnSmV0QnJhaW5zIE1vbm8nLCAnbW9ub3NwYWNlJ10sCiAgfSwKICBmb250U2l6ZTogewogICAgeHM6IFsnMC43NXJlbScsIHsgbGluZUhlaWdodDogJzFyZW0nIH1dLAogICAgc206IFsnMC44NzVyZW0nLCB7IGxpbmVIZWlnaHQ6ICcxLjI1cmVtJyB9XSwKICAgIGJhc2U6IFsnMXJlbScsIHsgbGluZUhlaWdodDogJzEuNXJlbScgfV0sCiAgICBsZzogWycxLjEyNXJlbScsIHsgbGluZUhlaWdodDogJzEuNzVyZW0nIH1dLAogICAgeGw6IFsnMS4yNXJlbScsIHsgbGluZUhlaWdodDogJzEuNzVyZW0nIH1dLAogICAgJzJ4bCc6IFsnMS41cmVtJywgeyBsaW5lSGVpZ2h0OiAnMnJlbScgfV0sCiAgICAnM3hsJzogWycxLjg3NXJlbScsIHsgbGluZUhlaWdodDogJzIuMjVyZW0nIH1dLAogICAgJzR4bCc6IFsnMi4yNXJlbScsIHsgbGluZUhlaWdodDogJzIuNXJlbScgfV0sCiAgICAnNXhsJzogWyczcmVtJywgeyBsaW5lSGVpZ2h0OiAnMS4xJyB9XSwKICB9Cn0KYGBgCgojIyBDb21tb24gRm9udCBQYWlyaW5ncwoKIyMjIENsZWFuICYgTW9kZXJuCi0gSGVhZGluZzogSW50ZXIKLSBCb2R5OiBJbnRlcgoKIyMjIFByb2Zlc3Npb25hbAotIEhlYWRpbmc6IFBsYXlmYWlyIERpc3BsYXkKLSBCb2R5OiBTb3VyY2UgU2FucyBQcm8KCiMjIyBTdGFydHVwL1RlY2gKLSBIZWFkaW5nOiBQb3BwaW5zCi0gQm9keTogT3BlbiBTYW5zCgojIyMgRWRpdG9yaWFsCi0gSGVhZGluZzogTWVycml3ZWF0aGVyCi0gQm9keTogTGF0bwoKIyMgQWNjZXNzaWJpbGl0eQoKIyMjIE1pbmltdW0gU2l6ZXMKLSBCb2R5IHRleHQ6IDE2cHggbWluaW11bQotIFNtYWxsIHRleHQ6IDE0cHggbWluaW11bSwgbm90IGZvciBsb25nIGNvbnRlbnQKLSBDYXB0aW9uOiAxMnB4IG1pbmltdW0sIHVzZSBzcGFyaW5nbHkKCiMjIyBDb250cmFzdCBSZXF1aXJlbWVudHMKLSBUZXh0IG9uIGJhY2tncm91bmQ6IDQuNToxIG1pbmltdW0gKEFBKQotIExhcmdlIHRleHQgKDE4cHgrKTogMzoxIG1pbmltdW0KCiMjIyBCZXN0IFByYWN0aWNlcwotIERvbid0IHVzZSBhbGwgY2FwcyBmb3IgbG9uZyB0ZXh0Ci0gQXZvaWQganVzdGlmaWVkIHRleHQgKHVzZSBsZWZ0LWFsaWduKQotIEVuc3VyZSBhZGVxdWF0ZSBsaW5lIHNwYWNpbmcKLSBEb24ndCB1c2UgdGhpbiB3ZWlnaHRzICg8NDAwKSBhdCBzbWFsbCBzaXplcwo=
+# Typography Specifications
+
+Guidelines for defining and implementing brand typography.
+
+## Font Stack Structure
+
+### Primary Fonts
+```css
+/* Headings - Display font for impact */
+--font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+
+/* Body - Readable for long-form content */
+--font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+/* Monospace - Code, technical content */
+--font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+```
+
+### Font Loading
+```html
+<!-- Google Fonts (recommended) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+```
+
+## Type Scale
+
+### Base System
+- Base size: 16px (1rem)
+- Scale ratio: 1.25 (Major Third)
+
+### Scale Definition
+| Element | Size (rem) | Size (px) | Weight | Line Height |
+|---------|------------|-----------|--------|-------------|
+| Display | 3.815rem | 61px | 700 | 1.1 |
+| H1 | 3.052rem | 49px | 700 | 1.2 |
+| H2 | 2.441rem | 39px | 600 | 1.25 |
+| H3 | 1.953rem | 31px | 600 | 1.3 |
+| H4 | 1.563rem | 25px | 600 | 1.35 |
+| H5 | 1.25rem | 20px | 600 | 1.4 |
+| Body Large | 1.125rem | 18px | 400 | 1.6 |
+| Body | 1rem | 16px | 400 | 1.5 |
+| Small | 0.875rem | 14px | 400 | 1.5 |
+| Caption | 0.75rem | 12px | 400 | 1.4 |
+
+### Responsive Adjustments
+```css
+/* Mobile (< 768px) */
+h1 { font-size: 2rem; }    /* 32px */
+h2 { font-size: 1.5rem; }  /* 24px */
+h3 { font-size: 1.25rem; } /* 20px */
+body { font-size: 1rem; }  /* 16px */
+
+/* Desktop (>= 768px) */
+h1 { font-size: 3rem; }    /* 48px */
+h2 { font-size: 2.25rem; } /* 36px */
+h3 { font-size: 1.75rem; } /* 28px */
+body { font-size: 1rem; }  /* 16px */
+```
+
+## Font Weights
+
+### Weight Scale
+| Name | Value | Usage |
+|------|-------|-------|
+| Regular | 400 | Body text, paragraphs |
+| Medium | 500 | Buttons, nav items |
+| Semibold | 600 | Subheadings, emphasis |
+| Bold | 700 | Headings, CTAs |
+
+### Weight Pairing
+- Headings: 600-700
+- Body: 400
+- Links: 500
+- Buttons: 600
+
+## Line Height Guidelines
+
+### Rules
+| Content Type | Line Height | Notes |
+|--------------|-------------|-------|
+| Headings | 1.1-1.3 | Tighter for visual impact |
+| Body text | 1.5-1.6 | Optimal readability |
+| Small text | 1.4-1.5 | Slightly tighter |
+| Long-form | 1.6-1.75 | Extra comfortable |
+
+## Letter Spacing
+
+### Guidelines
+| Element | Tracking | Value |
+|---------|----------|-------|
+| Display | Tighter | -0.02em |
+| Headings | Normal | 0 |
+| Body | Normal | 0 |
+| All caps | Wider | 0.05em |
+| Small caps | Wider | 0.1em |
+
+## Paragraph Spacing
+
+### Margins
+```css
+/* Heading spacing */
+h1, h2 { margin-top: 2rem; margin-bottom: 1rem; }
+h3, h4 { margin-top: 1.5rem; margin-bottom: 0.75rem; }
+
+/* Paragraph spacing */
+p { margin-bottom: 1rem; }
+p + p { margin-top: 0; }
+```
+
+### Maximum Line Length
+- Body text: 65-75 characters (optimal)
+- Headings: Can be wider
+- Code blocks: 80-100 characters
+
+```css
+.prose {
+  max-width: 65ch;
+}
+```
+
+## CSS Implementation
+
+### Full Variables
+```css
+:root {
+  /* Font Families */
+  --font-heading: 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Font Sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+
+  /* Font Weights */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* Line Heights */
+  --leading-none: 1;
+  --leading-tight: 1.25;
+  --leading-snug: 1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose: 2;
+}
+```
+
+### Tailwind Config
+```javascript
+theme: {
+  fontFamily: {
+    heading: ['Inter', 'system-ui', 'sans-serif'],
+    body: ['Inter', 'system-ui', 'sans-serif'],
+    mono: ['JetBrains Mono', 'monospace'],
+  },
+  fontSize: {
+    xs: ['0.75rem', { lineHeight: '1rem' }],
+    sm: ['0.875rem', { lineHeight: '1.25rem' }],
+    base: ['1rem', { lineHeight: '1.5rem' }],
+    lg: ['1.125rem', { lineHeight: '1.75rem' }],
+    xl: ['1.25rem', { lineHeight: '1.75rem' }],
+    '2xl': ['1.5rem', { lineHeight: '2rem' }],
+    '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
+    '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
+    '5xl': ['3rem', { lineHeight: '1.1' }],
+  }
+}
+```
+
+## Common Font Pairings
+
+### Clean & Modern
+- Heading: Inter
+- Body: Inter
+
+### Professional
+- Heading: Playfair Display
+- Body: Source Sans Pro
+
+### Startup/Tech
+- Heading: Poppins
+- Body: Open Sans
+
+### Editorial
+- Heading: Merriweather
+- Body: Lato
+
+## Accessibility
+
+### Minimum Sizes
+- Body text: 16px minimum
+- Small text: 14px minimum, not for long content
+- Caption: 12px minimum, use sparingly
+
+### Contrast Requirements
+- Text on background: 4.5:1 minimum (AA)
+- Large text (18px+): 3:1 minimum
+
+### Best Practices
+- Don't use all caps for long text
+- Avoid justified text (use left-align)
+- Ensure adequate line spacing
+- Don't use thin weights (<400) at small sizes

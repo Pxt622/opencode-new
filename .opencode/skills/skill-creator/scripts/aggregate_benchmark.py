@@ -1,1 +1,401 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKQWdncmVnYXRlIGluZGl2aWR1YWwgcnVuIHJlc3VsdHMgaW50byBiZW5jaG1hcmsgc3VtbWFyeSBzdGF0aXN0aWNzLgoKUmVhZHMgZ3JhZGluZy5qc29uIGZpbGVzIGZyb20gcnVuIGRpcmVjdG9yaWVzIGFuZCBwcm9kdWNlczoKLSBydW5fc3VtbWFyeSB3aXRoIG1lYW4sIHN0ZGRldiwgbWluLCBtYXggZm9yIGVhY2ggbWV0cmljCi0gZGVsdGEgYmV0d2VlbiB3aXRoX3NraWxsIGFuZCB3aXRob3V0X3NraWxsIGNvbmZpZ3VyYXRpb25zCgpVc2FnZToKICAgIHB5dGhvbiBhZ2dyZWdhdGVfYmVuY2htYXJrLnB5IDxiZW5jaG1hcmtfZGlyPgoKRXhhbXBsZToKICAgIHB5dGhvbiBhZ2dyZWdhdGVfYmVuY2htYXJrLnB5IGJlbmNobWFya3MvMjAyNi0wMS0xNVQxMC0zMC0wMC8KClRoZSBzY3JpcHQgc3VwcG9ydHMgdHdvIGRpcmVjdG9yeSBsYXlvdXRzOgoKICAgIFdvcmtzcGFjZSBsYXlvdXQgKGZyb20gc2tpbGwtY3JlYXRvciBpdGVyYXRpb25zKToKICAgIDxiZW5jaG1hcmtfZGlyPi8KICAgIOKUlOKUgOKUgCBldmFsLU4vCiAgICAgICAg4pSc4pSA4pSAIHdpdGhfc2tpbGwvCiAgICAgICAg4pSCICAg4pSc4pSA4pSAIHJ1bi0xL2dyYWRpbmcuanNvbgogICAgICAgIOKUgiAgIOKUlOKUgOKUgCBydW4tMi9ncmFkaW5nLmpzb24KICAgICAgICDilJTilIDilIAgd2l0aG91dF9za2lsbC8KICAgICAgICAgICAg4pSc4pSA4pSAIHJ1bi0xL2dyYWRpbmcuanNvbgogICAgICAgICAgICDilJTilIDilIAgcnVuLTIvZ3JhZGluZy5qc29uCgogICAgTGVnYWN5IGxheW91dCAod2l0aCBydW5zLyBzdWJkaXJlY3RvcnkpOgogICAgPGJlbmNobWFya19kaXI+LwogICAg4pSU4pSA4pSAIHJ1bnMvCiAgICAgICAg4pSU4pSA4pSAIGV2YWwtTi8KICAgICAgICAgICAg4pSc4pSA4pSAIHdpdGhfc2tpbGwvCiAgICAgICAgICAgIOKUgiAgIOKUlOKUgOKUgCBydW4tMS9ncmFkaW5nLmpzb24KICAgICAgICAgICAg4pSU4pSA4pSAIHdpdGhvdXRfc2tpbGwvCiAgICAgICAgICAgICAgICDilJTilIDilIAgcnVuLTEvZ3JhZGluZy5qc29uCiIiIgoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBqc29uCmltcG9ydCBtYXRoCmltcG9ydCBzeXMKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWV6b25lCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKCmRlZiBjYWxjdWxhdGVfc3RhdHModmFsdWVzOiBsaXN0W2Zsb2F0XSkgLT4gZGljdDoKICAgICIiIkNhbGN1bGF0ZSBtZWFuLCBzdGRkZXYsIG1pbiwgbWF4IGZvciBhIGxpc3Qgb2YgdmFsdWVzLiIiIgogICAgaWYgbm90IHZhbHVlczoKICAgICAgICByZXR1cm4geyJtZWFuIjogMC4wLCAic3RkZGV2IjogMC4wLCAibWluIjogMC4wLCAibWF4IjogMC4wfQoKICAgIG4gPSBsZW4odmFsdWVzKQogICAgbWVhbiA9IHN1bSh2YWx1ZXMpIC8gbgoKICAgIGlmIG4gPiAxOgogICAgICAgIHZhcmlhbmNlID0gc3VtKCh4IC0gbWVhbikgKiogMiBmb3IgeCBpbiB2YWx1ZXMpIC8gKG4gLSAxKQogICAgICAgIHN0ZGRldiA9IG1hdGguc3FydCh2YXJpYW5jZSkKICAgIGVsc2U6CiAgICAgICAgc3RkZGV2ID0gMC4wCgogICAgcmV0dXJuIHsKICAgICAgICAibWVhbiI6IHJvdW5kKG1lYW4sIDQpLAogICAgICAgICJzdGRkZXYiOiByb3VuZChzdGRkZXYsIDQpLAogICAgICAgICJtaW4iOiByb3VuZChtaW4odmFsdWVzKSwgNCksCiAgICAgICAgIm1heCI6IHJvdW5kKG1heCh2YWx1ZXMpLCA0KQogICAgfQoKCmRlZiBsb2FkX3J1bl9yZXN1bHRzKGJlbmNobWFya19kaXI6IFBhdGgpIC0+IGRpY3Q6CiAgICAiIiIKICAgIExvYWQgYWxsIHJ1biByZXN1bHRzIGZyb20gYSBiZW5jaG1hcmsgZGlyZWN0b3J5LgoKICAgIFJldHVybnMgZGljdCBrZXllZCBieSBjb25maWcgbmFtZSAoZS5nLiAid2l0aF9za2lsbCIvIndpdGhvdXRfc2tpbGwiLAogICAgb3IgIm5ld19za2lsbCIvIm9sZF9za2lsbCIpLCBlYWNoIGNvbnRhaW5pbmcgYSBsaXN0IG9mIHJ1biByZXN1bHRzLgogICAgIiIiCiAgICAjIFN1cHBvcnQgYm90aCBsYXlvdXRzOiBldmFsIGRpcnMgZGlyZWN0bHkgdW5kZXIgYmVuY2htYXJrX2Rpciwgb3IgdW5kZXIgcnVucy8KICAgIHJ1bnNfZGlyID0gYmVuY2htYXJrX2RpciAvICJydW5zIgogICAgaWYgcnVuc19kaXIuZXhpc3RzKCk6CiAgICAgICAgc2VhcmNoX2RpciA9IHJ1bnNfZGlyCiAgICBlbGlmIGxpc3QoYmVuY2htYXJrX2Rpci5nbG9iKCJldmFsLSoiKSk6CiAgICAgICAgc2VhcmNoX2RpciA9IGJlbmNobWFya19kaXIKICAgIGVsc2U6CiAgICAgICAgcHJpbnQoZiJObyBldmFsIGRpcmVjdG9yaWVzIGZvdW5kIGluIHtiZW5jaG1hcmtfZGlyfSBvciB7YmVuY2htYXJrX2RpciAvICdydW5zJ30iKQogICAgICAgIHJldHVybiB7fQoKICAgIHJlc3VsdHM6IGRpY3Rbc3RyLCBsaXN0XSA9IHt9CgogICAgZm9yIGV2YWxfaWR4LCBldmFsX2RpciBpbiBlbnVtZXJhdGUoc29ydGVkKHNlYXJjaF9kaXIuZ2xvYigiZXZhbC0qIikpKToKICAgICAgICBtZXRhZGF0YV9wYXRoID0gZXZhbF9kaXIgLyAiZXZhbF9tZXRhZGF0YS5qc29uIgogICAgICAgIGlmIG1ldGFkYXRhX3BhdGguZXhpc3RzKCk6CiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHdpdGggb3BlbihtZXRhZGF0YV9wYXRoKSBhcyBtZjoKICAgICAgICAgICAgICAgICAgICBldmFsX2lkID0ganNvbi5sb2FkKG1mKS5nZXQoImV2YWxfaWQiLCBldmFsX2lkeCkKICAgICAgICAgICAgZXhjZXB0IChqc29uLkpTT05EZWNvZGVFcnJvciwgT1NFcnJvcik6CiAgICAgICAgICAgICAgICBldmFsX2lkID0gZXZhbF9pZHgKICAgICAgICBlbHNlOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBldmFsX2lkID0gaW50KGV2YWxfZGlyLm5hbWUuc3BsaXQoIi0iKVsxXSkKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBldmFsX2lkID0gZXZhbF9pZHgKCiAgICAgICAgIyBEaXNjb3ZlciBjb25maWcgZGlyZWN0b3JpZXMgZHluYW1pY2FsbHkgcmF0aGVyIHRoYW4gaGFyZGNvZGluZyBuYW1lcwogICAgICAgIGZvciBjb25maWdfZGlyIGluIHNvcnRlZChldmFsX2Rpci5pdGVyZGlyKCkpOgogICAgICAgICAgICBpZiBub3QgY29uZmlnX2Rpci5pc19kaXIoKToKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICMgU2tpcCBub24tY29uZmlnIGRpcmVjdG9yaWVzIChpbnB1dHMsIG91dHB1dHMsIGV0Yy4pCiAgICAgICAgICAgIGlmIG5vdCBsaXN0KGNvbmZpZ19kaXIuZ2xvYigicnVuLSoiKSk6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICBjb25maWcgPSBjb25maWdfZGlyLm5hbWUKICAgICAgICAgICAgaWYgY29uZmlnIG5vdCBpbiByZXN1bHRzOgogICAgICAgICAgICAgICAgcmVzdWx0c1tjb25maWddID0gW10KCiAgICAgICAgICAgIGZvciBydW5fZGlyIGluIHNvcnRlZChjb25maWdfZGlyLmdsb2IoInJ1bi0qIikpOgogICAgICAgICAgICAgICAgcnVuX251bWJlciA9IGludChydW5fZGlyLm5hbWUuc3BsaXQoIi0iKVsxXSkKICAgICAgICAgICAgICAgIGdyYWRpbmdfZmlsZSA9IHJ1bl9kaXIgLyAiZ3JhZGluZy5qc29uIgoKICAgICAgICAgICAgICAgIGlmIG5vdCBncmFkaW5nX2ZpbGUuZXhpc3RzKCk6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQoZiJXYXJuaW5nOiBncmFkaW5nLmpzb24gbm90IGZvdW5kIGluIHtydW5fZGlyfSIpCiAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgd2l0aCBvcGVuKGdyYWRpbmdfZmlsZSkgYXMgZjoKICAgICAgICAgICAgICAgICAgICAgICAgZ3JhZGluZyA9IGpzb24ubG9hZChmKQogICAgICAgICAgICAgICAgZXhjZXB0IGpzb24uSlNPTkRlY29kZUVycm9yIGFzIGU6CiAgICAgICAgICAgICAgICAgICAgcHJpbnQoZiJXYXJuaW5nOiBJbnZhbGlkIEpTT04gaW4ge2dyYWRpbmdfZmlsZX06IHtlfSIpCiAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICAgICAjIEV4dHJhY3QgbWV0cmljcwogICAgICAgICAgICAgICAgcmVzdWx0ID0gewogICAgICAgICAgICAgICAgICAgICJldmFsX2lkIjogZXZhbF9pZCwKICAgICAgICAgICAgICAgICAgICAicnVuX251bWJlciI6IHJ1bl9udW1iZXIsCiAgICAgICAgICAgICAgICAgICAgInBhc3NfcmF0ZSI6IGdyYWRpbmcuZ2V0KCJzdW1tYXJ5Iiwge30pLmdldCgicGFzc19yYXRlIiwgMC4wKSwKICAgICAgICAgICAgICAgICAgICAicGFzc2VkIjogZ3JhZGluZy5nZXQoInN1bW1hcnkiLCB7fSkuZ2V0KCJwYXNzZWQiLCAwKSwKICAgICAgICAgICAgICAgICAgICAiZmFpbGVkIjogZ3JhZGluZy5nZXQoInN1bW1hcnkiLCB7fSkuZ2V0KCJmYWlsZWQiLCAwKSwKICAgICAgICAgICAgICAgICAgICAidG90YWwiOiBncmFkaW5nLmdldCgic3VtbWFyeSIsIHt9KS5nZXQoInRvdGFsIiwgMCksCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgIyBFeHRyYWN0IHRpbWluZyDigJQgY2hlY2sgZ3JhZGluZy5qc29uIGZpcnN0LCB0aGVuIHNpYmxpbmcgdGltaW5nLmpzb24KICAgICAgICAgICAgICAgIHRpbWluZyA9IGdyYWRpbmcuZ2V0KCJ0aW1pbmciLCB7fSkKICAgICAgICAgICAgICAgIHJlc3VsdFsidGltZV9zZWNvbmRzIl0gPSB0aW1pbmcuZ2V0KCJ0b3RhbF9kdXJhdGlvbl9zZWNvbmRzIiwgMC4wKQogICAgICAgICAgICAgICAgdGltaW5nX2ZpbGUgPSBydW5fZGlyIC8gInRpbWluZy5qc29uIgogICAgICAgICAgICAgICAgaWYgcmVzdWx0WyJ0aW1lX3NlY29uZHMiXSA9PSAwLjAgYW5kIHRpbWluZ19maWxlLmV4aXN0cygpOgogICAgICAgICAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgICAgICAgICAgd2l0aCBvcGVuKHRpbWluZ19maWxlKSBhcyB0ZjoKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRpbWluZ19kYXRhID0ganNvbi5sb2FkKHRmKQogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRbInRpbWVfc2Vjb25kcyJdID0gdGltaW5nX2RhdGEuZ2V0KCJ0b3RhbF9kdXJhdGlvbl9zZWNvbmRzIiwgMC4wKQogICAgICAgICAgICAgICAgICAgICAgICByZXN1bHRbInRva2VucyJdID0gdGltaW5nX2RhdGEuZ2V0KCJ0b3RhbF90b2tlbnMiLCAwKQogICAgICAgICAgICAgICAgICAgIGV4Y2VwdCBqc29uLkpTT05EZWNvZGVFcnJvcjoKICAgICAgICAgICAgICAgICAgICAgICAgcGFzcwoKICAgICAgICAgICAgICAgICMgRXh0cmFjdCBtZXRyaWNzIGlmIGF2YWlsYWJsZQogICAgICAgICAgICAgICAgbWV0cmljcyA9IGdyYWRpbmcuZ2V0KCJleGVjdXRpb25fbWV0cmljcyIsIHt9KQogICAgICAgICAgICAgICAgcmVzdWx0WyJ0b29sX2NhbGxzIl0gPSBtZXRyaWNzLmdldCgidG90YWxfdG9vbF9jYWxscyIsIDApCiAgICAgICAgICAgICAgICBpZiBub3QgcmVzdWx0LmdldCgidG9rZW5zIik6CiAgICAgICAgICAgICAgICAgICAgcmVzdWx0WyJ0b2tlbnMiXSA9IG1ldHJpY3MuZ2V0KCJvdXRwdXRfY2hhcnMiLCAwKQogICAgICAgICAgICAgICAgcmVzdWx0WyJlcnJvcnMiXSA9IG1ldHJpY3MuZ2V0KCJlcnJvcnNfZW5jb3VudGVyZWQiLCAwKQoKICAgICAgICAgICAgICAgICMgRXh0cmFjdCBleHBlY3RhdGlvbnMg4oCUIHZpZXdlciByZXF1aXJlcyBmaWVsZHM6IHRleHQsIHBhc3NlZCwgZXZpZGVuY2UKICAgICAgICAgICAgICAgIHJhd19leHBlY3RhdGlvbnMgPSBncmFkaW5nLmdldCgiZXhwZWN0YXRpb25zIiwgW10pCiAgICAgICAgICAgICAgICBmb3IgZXhwIGluIHJhd19leHBlY3RhdGlvbnM6CiAgICAgICAgICAgICAgICAgICAgaWYgInRleHQiIG5vdCBpbiBleHAgb3IgInBhc3NlZCIgbm90IGluIGV4cDoKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQoZiJXYXJuaW5nOiBleHBlY3RhdGlvbiBpbiB7Z3JhZGluZ19maWxlfSBtaXNzaW5nIHJlcXVpcmVkIGZpZWxkcyAodGV4dCwgcGFzc2VkLCBldmlkZW5jZSk6IHtleHB9IikKICAgICAgICAgICAgICAgIHJlc3VsdFsiZXhwZWN0YXRpb25zIl0gPSByYXdfZXhwZWN0YXRpb25zCgogICAgICAgICAgICAgICAgIyBFeHRyYWN0IG5vdGVzIGZyb20gdXNlcl9ub3Rlc19zdW1tYXJ5CiAgICAgICAgICAgICAgICBub3Rlc19zdW1tYXJ5ID0gZ3JhZGluZy5nZXQoInVzZXJfbm90ZXNfc3VtbWFyeSIsIHt9KQogICAgICAgICAgICAgICAgbm90ZXMgPSBbXQogICAgICAgICAgICAgICAgbm90ZXMuZXh0ZW5kKG5vdGVzX3N1bW1hcnkuZ2V0KCJ1bmNlcnRhaW50aWVzIiwgW10pKQogICAgICAgICAgICAgICAgbm90ZXMuZXh0ZW5kKG5vdGVzX3N1bW1hcnkuZ2V0KCJuZWVkc19yZXZpZXciLCBbXSkpCiAgICAgICAgICAgICAgICBub3Rlcy5leHRlbmQobm90ZXNfc3VtbWFyeS5nZXQoIndvcmthcm91bmRzIiwgW10pKQogICAgICAgICAgICAgICAgcmVzdWx0WyJub3RlcyJdID0gbm90ZXMKCiAgICAgICAgICAgICAgICByZXN1bHRzW2NvbmZpZ10uYXBwZW5kKHJlc3VsdCkKCiAgICByZXR1cm4gcmVzdWx0cwoKCmRlZiBhZ2dyZWdhdGVfcmVzdWx0cyhyZXN1bHRzOiBkaWN0KSAtPiBkaWN0OgogICAgIiIiCiAgICBBZ2dyZWdhdGUgcnVuIHJlc3VsdHMgaW50byBzdW1tYXJ5IHN0YXRpc3RpY3MuCgogICAgUmV0dXJucyBydW5fc3VtbWFyeSB3aXRoIHN0YXRzIGZvciBlYWNoIGNvbmZpZ3VyYXRpb24gYW5kIGRlbHRhLgogICAgIiIiCiAgICBydW5fc3VtbWFyeSA9IHt9CiAgICBjb25maWdzID0gbGlzdChyZXN1bHRzLmtleXMoKSkKCiAgICBmb3IgY29uZmlnIGluIGNvbmZpZ3M6CiAgICAgICAgcnVucyA9IHJlc3VsdHMuZ2V0KGNvbmZpZywgW10pCgogICAgICAgIGlmIG5vdCBydW5zOgogICAgICAgICAgICBydW5fc3VtbWFyeVtjb25maWddID0gewogICAgICAgICAgICAgICAgInBhc3NfcmF0ZSI6IHsibWVhbiI6IDAuMCwgInN0ZGRldiI6IDAuMCwgIm1pbiI6IDAuMCwgIm1heCI6IDAuMH0sCiAgICAgICAgICAgICAgICAidGltZV9zZWNvbmRzIjogeyJtZWFuIjogMC4wLCAic3RkZGV2IjogMC4wLCAibWluIjogMC4wLCAibWF4IjogMC4wfSwKICAgICAgICAgICAgICAgICJ0b2tlbnMiOiB7Im1lYW4iOiAwLCAic3RkZGV2IjogMCwgIm1pbiI6IDAsICJtYXgiOiAwfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIHBhc3NfcmF0ZXMgPSBbclsicGFzc19yYXRlIl0gZm9yIHIgaW4gcnVuc10KICAgICAgICB0aW1lcyA9IFtyWyJ0aW1lX3NlY29uZHMiXSBmb3IgciBpbiBydW5zXQogICAgICAgIHRva2VucyA9IFtyLmdldCgidG9rZW5zIiwgMCkgZm9yIHIgaW4gcnVuc10KCiAgICAgICAgcnVuX3N1bW1hcnlbY29uZmlnXSA9IHsKICAgICAgICAgICAgInBhc3NfcmF0ZSI6IGNhbGN1bGF0ZV9zdGF0cyhwYXNzX3JhdGVzKSwKICAgICAgICAgICAgInRpbWVfc2Vjb25kcyI6IGNhbGN1bGF0ZV9zdGF0cyh0aW1lcyksCiAgICAgICAgICAgICJ0b2tlbnMiOiBjYWxjdWxhdGVfc3RhdHModG9rZW5zKQogICAgICAgIH0KCiAgICAjIENhbGN1bGF0ZSBkZWx0YSBiZXR3ZWVuIHRoZSBmaXJzdCB0d28gY29uZmlncyAoaWYgdHdvIGV4aXN0KQogICAgaWYgbGVuKGNvbmZpZ3MpID49IDI6CiAgICAgICAgcHJpbWFyeSA9IHJ1bl9zdW1tYXJ5LmdldChjb25maWdzWzBdLCB7fSkKICAgICAgICBiYXNlbGluZSA9IHJ1bl9zdW1tYXJ5LmdldChjb25maWdzWzFdLCB7fSkKICAgIGVsc2U6CiAgICAgICAgcHJpbWFyeSA9IHJ1bl9zdW1tYXJ5LmdldChjb25maWdzWzBdLCB7fSkgaWYgY29uZmlncyBlbHNlIHt9CiAgICAgICAgYmFzZWxpbmUgPSB7fQoKICAgIGRlbHRhX3Bhc3NfcmF0ZSA9IHByaW1hcnkuZ2V0KCJwYXNzX3JhdGUiLCB7fSkuZ2V0KCJtZWFuIiwgMCkgLSBiYXNlbGluZS5nZXQoInBhc3NfcmF0ZSIsIHt9KS5nZXQoIm1lYW4iLCAwKQogICAgZGVsdGFfdGltZSA9IHByaW1hcnkuZ2V0KCJ0aW1lX3NlY29uZHMiLCB7fSkuZ2V0KCJtZWFuIiwgMCkgLSBiYXNlbGluZS5nZXQoInRpbWVfc2Vjb25kcyIsIHt9KS5nZXQoIm1lYW4iLCAwKQogICAgZGVsdGFfdG9rZW5zID0gcHJpbWFyeS5nZXQoInRva2VucyIsIHt9KS5nZXQoIm1lYW4iLCAwKSAtIGJhc2VsaW5lLmdldCgidG9rZW5zIiwge30pLmdldCgibWVhbiIsIDApCgogICAgcnVuX3N1bW1hcnlbImRlbHRhIl0gPSB7CiAgICAgICAgInBhc3NfcmF0ZSI6IGYie2RlbHRhX3Bhc3NfcmF0ZTorLjJmfSIsCiAgICAgICAgInRpbWVfc2Vjb25kcyI6IGYie2RlbHRhX3RpbWU6Ky4xZn0iLAogICAgICAgICJ0b2tlbnMiOiBmIntkZWx0YV90b2tlbnM6Ky4wZn0iCiAgICB9CgogICAgcmV0dXJuIHJ1bl9zdW1tYXJ5CgoKZGVmIGdlbmVyYXRlX2JlbmNobWFyayhiZW5jaG1hcmtfZGlyOiBQYXRoLCBza2lsbF9uYW1lOiBzdHIgPSAiIiwgc2tpbGxfcGF0aDogc3RyID0gIiIpIC0+IGRpY3Q6CiAgICAiIiIKICAgIEdlbmVyYXRlIGNvbXBsZXRlIGJlbmNobWFyay5qc29uIGZyb20gcnVuIHJlc3VsdHMuCiAgICAiIiIKICAgIHJlc3VsdHMgPSBsb2FkX3J1bl9yZXN1bHRzKGJlbmNobWFya19kaXIpCiAgICBydW5fc3VtbWFyeSA9IGFnZ3JlZ2F0ZV9yZXN1bHRzKHJlc3VsdHMpCgogICAgIyBCdWlsZCBydW5zIGFycmF5IGZvciBiZW5jaG1hcmsuanNvbgogICAgcnVucyA9IFtdCiAgICBmb3IgY29uZmlnIGluIHJlc3VsdHM6CiAgICAgICAgZm9yIHJlc3VsdCBpbiByZXN1bHRzW2NvbmZpZ106CiAgICAgICAgICAgIHJ1bnMuYXBwZW5kKHsKICAgICAgICAgICAgICAgICJldmFsX2lkIjogcmVzdWx0WyJldmFsX2lkIl0sCiAgICAgICAgICAgICAgICAiY29uZmlndXJhdGlvbiI6IGNvbmZpZywKICAgICAgICAgICAgICAgICJydW5fbnVtYmVyIjogcmVzdWx0WyJydW5fbnVtYmVyIl0sCiAgICAgICAgICAgICAgICAicmVzdWx0IjogewogICAgICAgICAgICAgICAgICAgICJwYXNzX3JhdGUiOiByZXN1bHRbInBhc3NfcmF0ZSJdLAogICAgICAgICAgICAgICAgICAgICJwYXNzZWQiOiByZXN1bHRbInBhc3NlZCJdLAogICAgICAgICAgICAgICAgICAgICJmYWlsZWQiOiByZXN1bHRbImZhaWxlZCJdLAogICAgICAgICAgICAgICAgICAgICJ0b3RhbCI6IHJlc3VsdFsidG90YWwiXSwKICAgICAgICAgICAgICAgICAgICAidGltZV9zZWNvbmRzIjogcmVzdWx0WyJ0aW1lX3NlY29uZHMiXSwKICAgICAgICAgICAgICAgICAgICAidG9rZW5zIjogcmVzdWx0LmdldCgidG9rZW5zIiwgMCksCiAgICAgICAgICAgICAgICAgICAgInRvb2xfY2FsbHMiOiByZXN1bHQuZ2V0KCJ0b29sX2NhbGxzIiwgMCksCiAgICAgICAgICAgICAgICAgICAgImVycm9ycyI6IHJlc3VsdC5nZXQoImVycm9ycyIsIDApCiAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgImV4cGVjdGF0aW9ucyI6IHJlc3VsdFsiZXhwZWN0YXRpb25zIl0sCiAgICAgICAgICAgICAgICAibm90ZXMiOiByZXN1bHRbIm5vdGVzIl0KICAgICAgICAgICAgfSkKCiAgICAjIERldGVybWluZSBldmFsIElEcyBmcm9tIHJlc3VsdHMKICAgIGV2YWxfaWRzID0gc29ydGVkKHNldCgKICAgICAgICByWyJldmFsX2lkIl0KICAgICAgICBmb3IgY29uZmlnIGluIHJlc3VsdHMudmFsdWVzKCkKICAgICAgICBmb3IgciBpbiBjb25maWcKICAgICkpCgogICAgYmVuY2htYXJrID0gewogICAgICAgICJtZXRhZGF0YSI6IHsKICAgICAgICAgICAgInNraWxsX25hbWUiOiBza2lsbF9uYW1lIG9yICI8c2tpbGwtbmFtZT4iLAogICAgICAgICAgICAic2tpbGxfcGF0aCI6IHNraWxsX3BhdGggb3IgIjxwYXRoL3RvL3NraWxsPiIsCiAgICAgICAgICAgICJleGVjdXRvcl9tb2RlbCI6ICI8bW9kZWwtbmFtZT4iLAogICAgICAgICAgICAiYW5hbHl6ZXJfbW9kZWwiOiAiPG1vZGVsLW5hbWU+IiwKICAgICAgICAgICAgInRpbWVzdGFtcCI6IGRhdGV0aW1lLm5vdyh0aW1lem9uZS51dGMpLnN0cmZ0aW1lKCIlWS0lbS0lZFQlSDolTTolU1oiKSwKICAgICAgICAgICAgImV2YWxzX3J1biI6IGV2YWxfaWRzLAogICAgICAgICAgICAicnVuc19wZXJfY29uZmlndXJhdGlvbiI6IDMKICAgICAgICB9LAogICAgICAgICJydW5zIjogcnVucywKICAgICAgICAicnVuX3N1bW1hcnkiOiBydW5fc3VtbWFyeSwKICAgICAgICAibm90ZXMiOiBbXSAgIyBUbyBiZSBmaWxsZWQgYnkgYW5hbHl6ZXIKICAgIH0KCiAgICByZXR1cm4gYmVuY2htYXJrCgoKZGVmIGdlbmVyYXRlX21hcmtkb3duKGJlbmNobWFyazogZGljdCkgLT4gc3RyOgogICAgIiIiR2VuZXJhdGUgaHVtYW4tcmVhZGFibGUgYmVuY2htYXJrLm1kIGZyb20gYmVuY2htYXJrIGRhdGEuIiIiCiAgICBtZXRhZGF0YSA9IGJlbmNobWFya1sibWV0YWRhdGEiXQogICAgcnVuX3N1bW1hcnkgPSBiZW5jaG1hcmtbInJ1bl9zdW1tYXJ5Il0KCiAgICAjIERldGVybWluZSBjb25maWcgbmFtZXMgKGV4Y2x1ZGluZyAiZGVsdGEiKQogICAgY29uZmlncyA9IFtrIGZvciBrIGluIHJ1bl9zdW1tYXJ5IGlmIGsgIT0gImRlbHRhIl0KICAgIGNvbmZpZ19hID0gY29uZmlnc1swXSBpZiBsZW4oY29uZmlncykgPj0gMSBlbHNlICJjb25maWdfYSIKICAgIGNvbmZpZ19iID0gY29uZmlnc1sxXSBpZiBsZW4oY29uZmlncykgPj0gMiBlbHNlICJjb25maWdfYiIKICAgIGxhYmVsX2EgPSBjb25maWdfYS5yZXBsYWNlKCJfIiwgIiAiKS50aXRsZSgpCiAgICBsYWJlbF9iID0gY29uZmlnX2IucmVwbGFjZSgiXyIsICIgIikudGl0bGUoKQoKICAgIGxpbmVzID0gWwogICAgICAgIGYiIyBTa2lsbCBCZW5jaG1hcms6IHttZXRhZGF0YVsnc2tpbGxfbmFtZSddfSIsCiAgICAgICAgIiIsCiAgICAgICAgZiIqKk1vZGVsKio6IHttZXRhZGF0YVsnZXhlY3V0b3JfbW9kZWwnXX0iLAogICAgICAgIGYiKipEYXRlKio6IHttZXRhZGF0YVsndGltZXN0YW1wJ119IiwKICAgICAgICBmIioqRXZhbHMqKjogeycsICcuam9pbihtYXAoc3RyLCBtZXRhZGF0YVsnZXZhbHNfcnVuJ10pKX0gKHttZXRhZGF0YVsncnVuc19wZXJfY29uZmlndXJhdGlvbiddfSBydW5zIGVhY2ggcGVyIGNvbmZpZ3VyYXRpb24pIiwKICAgICAgICAiIiwKICAgICAgICAiIyMgU3VtbWFyeSIsCiAgICAgICAgIiIsCiAgICAgICAgZiJ8IE1ldHJpYyB8IHtsYWJlbF9hfSB8IHtsYWJlbF9ifSB8IERlbHRhIHwiLAogICAgICAgICJ8LS0tLS0tLS18LS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tfCIsCiAgICBdCgogICAgYV9zdW1tYXJ5ID0gcnVuX3N1bW1hcnkuZ2V0KGNvbmZpZ19hLCB7fSkKICAgIGJfc3VtbWFyeSA9IHJ1bl9zdW1tYXJ5LmdldChjb25maWdfYiwge30pCiAgICBkZWx0YSA9IHJ1bl9zdW1tYXJ5LmdldCgiZGVsdGEiLCB7fSkKCiAgICAjIEZvcm1hdCBwYXNzIHJhdGUKICAgIGFfcHIgPSBhX3N1bW1hcnkuZ2V0KCJwYXNzX3JhdGUiLCB7fSkKICAgIGJfcHIgPSBiX3N1bW1hcnkuZ2V0KCJwYXNzX3JhdGUiLCB7fSkKICAgIGxpbmVzLmFwcGVuZChmInwgUGFzcyBSYXRlIHwge2FfcHIuZ2V0KCdtZWFuJywgMCkqMTAwOi4wZn0lIMKxIHthX3ByLmdldCgnc3RkZGV2JywgMCkqMTAwOi4wZn0lIHwge2JfcHIuZ2V0KCdtZWFuJywgMCkqMTAwOi4wZn0lIMKxIHtiX3ByLmdldCgnc3RkZGV2JywgMCkqMTAwOi4wZn0lIHwge2RlbHRhLmdldCgncGFzc19yYXRlJywgJ+KAlCcpfSB8IikKCiAgICAjIEZvcm1hdCB0aW1lCiAgICBhX3RpbWUgPSBhX3N1bW1hcnkuZ2V0KCJ0aW1lX3NlY29uZHMiLCB7fSkKICAgIGJfdGltZSA9IGJfc3VtbWFyeS5nZXQoInRpbWVfc2Vjb25kcyIsIHt9KQogICAgbGluZXMuYXBwZW5kKGYifCBUaW1lIHwge2FfdGltZS5nZXQoJ21lYW4nLCAwKTouMWZ9cyDCsSB7YV90aW1lLmdldCgnc3RkZGV2JywgMCk6LjFmfXMgfCB7Yl90aW1lLmdldCgnbWVhbicsIDApOi4xZn1zIMKxIHtiX3RpbWUuZ2V0KCdzdGRkZXYnLCAwKTouMWZ9cyB8IHtkZWx0YS5nZXQoJ3RpbWVfc2Vjb25kcycsICfigJQnKX1zIHwiKQoKICAgICMgRm9ybWF0IHRva2VucwogICAgYV90b2tlbnMgPSBhX3N1bW1hcnkuZ2V0KCJ0b2tlbnMiLCB7fSkKICAgIGJfdG9rZW5zID0gYl9zdW1tYXJ5LmdldCgidG9rZW5zIiwge30pCiAgICBsaW5lcy5hcHBlbmQoZiJ8IFRva2VucyB8IHthX3Rva2Vucy5nZXQoJ21lYW4nLCAwKTouMGZ9IMKxIHthX3Rva2Vucy5nZXQoJ3N0ZGRldicsIDApOi4wZn0gfCB7Yl90b2tlbnMuZ2V0KCdtZWFuJywgMCk6LjBmfSDCsSB7Yl90b2tlbnMuZ2V0KCdzdGRkZXYnLCAwKTouMGZ9IHwge2RlbHRhLmdldCgndG9rZW5zJywgJ+KAlCcpfSB8IikKCiAgICAjIE5vdGVzIHNlY3Rpb24KICAgIGlmIGJlbmNobWFyay5nZXQoIm5vdGVzIik6CiAgICAgICAgbGluZXMuZXh0ZW5kKFsKICAgICAgICAgICAgIiIsCiAgICAgICAgICAgICIjIyBOb3RlcyIsCiAgICAgICAgICAgICIiCiAgICAgICAgXSkKICAgICAgICBmb3Igbm90ZSBpbiBiZW5jaG1hcmtbIm5vdGVzIl06CiAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIi0ge25vdGV9IikKCiAgICByZXR1cm4gIlxuIi5qb2luKGxpbmVzKQoKCmRlZiBtYWluKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigKICAgICAgICBkZXNjcmlwdGlvbj0iQWdncmVnYXRlIGJlbmNobWFyayBydW4gcmVzdWx0cyBpbnRvIHN1bW1hcnkgc3RhdGlzdGljcyIKICAgICkKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoCiAgICAgICAgImJlbmNobWFya19kaXIiLAogICAgICAgIHR5cGU9UGF0aCwKICAgICAgICBoZWxwPSJQYXRoIHRvIHRoZSBiZW5jaG1hcmsgZGlyZWN0b3J5IgogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1za2lsbC1uYW1lIiwKICAgICAgICBkZWZhdWx0PSIiLAogICAgICAgIGhlbHA9Ik5hbWUgb2YgdGhlIHNraWxsIGJlaW5nIGJlbmNobWFya2VkIgogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1za2lsbC1wYXRoIiwKICAgICAgICBkZWZhdWx0PSIiLAogICAgICAgIGhlbHA9IlBhdGggdG8gdGhlIHNraWxsIGJlaW5nIGJlbmNobWFya2VkIgogICAgKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgKICAgICAgICAiLS1vdXRwdXQiLCAiLW8iLAogICAgICAgIHR5cGU9UGF0aCwKICAgICAgICBoZWxwPSJPdXRwdXQgcGF0aCBmb3IgYmVuY2htYXJrLmpzb24gKGRlZmF1bHQ6IDxiZW5jaG1hcmtfZGlyPi9iZW5jaG1hcmsuanNvbikiCiAgICApCgogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICBpZiBub3QgYXJncy5iZW5jaG1hcmtfZGlyLmV4aXN0cygpOgogICAgICAgIHByaW50KGYiRGlyZWN0b3J5IG5vdCBmb3VuZDoge2FyZ3MuYmVuY2htYXJrX2Rpcn0iKQogICAgICAgIHN5cy5leGl0KDEpCgogICAgIyBHZW5lcmF0ZSBiZW5jaG1hcmsKICAgIGJlbmNobWFyayA9IGdlbmVyYXRlX2JlbmNobWFyayhhcmdzLmJlbmNobWFya19kaXIsIGFyZ3Muc2tpbGxfbmFtZSwgYXJncy5za2lsbF9wYXRoKQoKICAgICMgRGV0ZXJtaW5lIG91dHB1dCBwYXRocwogICAgb3V0cHV0X2pzb24gPSBhcmdzLm91dHB1dCBvciAoYXJncy5iZW5jaG1hcmtfZGlyIC8gImJlbmNobWFyay5qc29uIikKICAgIG91dHB1dF9tZCA9IG91dHB1dF9qc29uLndpdGhfc3VmZml4KCIubWQiKQoKICAgICMgV3JpdGUgYmVuY2htYXJrLmpzb24KICAgIHdpdGggb3BlbihvdXRwdXRfanNvbiwgInciKSBhcyBmOgogICAgICAgIGpzb24uZHVtcChiZW5jaG1hcmssIGYsIGluZGVudD0yKQogICAgcHJpbnQoZiJHZW5lcmF0ZWQ6IHtvdXRwdXRfanNvbn0iKQoKICAgICMgV3JpdGUgYmVuY2htYXJrLm1kCiAgICBtYXJrZG93biA9IGdlbmVyYXRlX21hcmtkb3duKGJlbmNobWFyaykKICAgIHdpdGggb3BlbihvdXRwdXRfbWQsICJ3IikgYXMgZjoKICAgICAgICBmLndyaXRlKG1hcmtkb3duKQogICAgcHJpbnQoZiJHZW5lcmF0ZWQ6IHtvdXRwdXRfbWR9IikKCiAgICAjIFByaW50IHN1bW1hcnkKICAgIHJ1bl9zdW1tYXJ5ID0gYmVuY2htYXJrWyJydW5fc3VtbWFyeSJdCiAgICBjb25maWdzID0gW2sgZm9yIGsgaW4gcnVuX3N1bW1hcnkgaWYgayAhPSAiZGVsdGEiXQogICAgZGVsdGEgPSBydW5fc3VtbWFyeS5nZXQoImRlbHRhIiwge30pCgogICAgcHJpbnQoZiJcblN1bW1hcnk6IikKICAgIGZvciBjb25maWcgaW4gY29uZmlnczoKICAgICAgICBwciA9IHJ1bl9zdW1tYXJ5W2NvbmZpZ11bInBhc3NfcmF0ZSJdWyJtZWFuIl0KICAgICAgICBsYWJlbCA9IGNvbmZpZy5yZXBsYWNlKCJfIiwgIiAiKS50aXRsZSgpCiAgICAgICAgcHJpbnQoZiIgIHtsYWJlbH06IHtwcioxMDA6LjFmfSUgcGFzcyByYXRlIikKICAgIHByaW50KGYiICBEZWx0YTogICAgICAgICB7ZGVsdGEuZ2V0KCdwYXNzX3JhdGUnLCAn4oCUJyl9IikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgbWFpbigpCg==
+#!/usr/bin/env python3
+"""
+Aggregate individual run results into benchmark summary statistics.
+
+Reads grading.json files from run directories and produces:
+- run_summary with mean, stddev, min, max for each metric
+- delta between with_skill and without_skill configurations
+
+Usage:
+    python aggregate_benchmark.py <benchmark_dir>
+
+Example:
+    python aggregate_benchmark.py benchmarks/2026-01-15T10-30-00/
+
+The script supports two directory layouts:
+
+    Workspace layout (from skill-creator iterations):
+    <benchmark_dir>/
+    └── eval-N/
+        ├── with_skill/
+        │   ├── run-1/grading.json
+        │   └── run-2/grading.json
+        └── without_skill/
+            ├── run-1/grading.json
+            └── run-2/grading.json
+
+    Legacy layout (with runs/ subdirectory):
+    <benchmark_dir>/
+    └── runs/
+        └── eval-N/
+            ├── with_skill/
+            │   └── run-1/grading.json
+            └── without_skill/
+                └── run-1/grading.json
+"""
+
+import argparse
+import json
+import math
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+
+def calculate_stats(values: list[float]) -> dict:
+    """Calculate mean, stddev, min, max for a list of values."""
+    if not values:
+        return {"mean": 0.0, "stddev": 0.0, "min": 0.0, "max": 0.0}
+
+    n = len(values)
+    mean = sum(values) / n
+
+    if n > 1:
+        variance = sum((x - mean) ** 2 for x in values) / (n - 1)
+        stddev = math.sqrt(variance)
+    else:
+        stddev = 0.0
+
+    return {
+        "mean": round(mean, 4),
+        "stddev": round(stddev, 4),
+        "min": round(min(values), 4),
+        "max": round(max(values), 4)
+    }
+
+
+def load_run_results(benchmark_dir: Path) -> dict:
+    """
+    Load all run results from a benchmark directory.
+
+    Returns dict keyed by config name (e.g. "with_skill"/"without_skill",
+    or "new_skill"/"old_skill"), each containing a list of run results.
+    """
+    # Support both layouts: eval dirs directly under benchmark_dir, or under runs/
+    runs_dir = benchmark_dir / "runs"
+    if runs_dir.exists():
+        search_dir = runs_dir
+    elif list(benchmark_dir.glob("eval-*")):
+        search_dir = benchmark_dir
+    else:
+        print(f"No eval directories found in {benchmark_dir} or {benchmark_dir / 'runs'}")
+        return {}
+
+    results: dict[str, list] = {}
+
+    for eval_idx, eval_dir in enumerate(sorted(search_dir.glob("eval-*"))):
+        metadata_path = eval_dir / "eval_metadata.json"
+        if metadata_path.exists():
+            try:
+                with open(metadata_path) as mf:
+                    eval_id = json.load(mf).get("eval_id", eval_idx)
+            except (json.JSONDecodeError, OSError):
+                eval_id = eval_idx
+        else:
+            try:
+                eval_id = int(eval_dir.name.split("-")[1])
+            except ValueError:
+                eval_id = eval_idx
+
+        # Discover config directories dynamically rather than hardcoding names
+        for config_dir in sorted(eval_dir.iterdir()):
+            if not config_dir.is_dir():
+                continue
+            # Skip non-config directories (inputs, outputs, etc.)
+            if not list(config_dir.glob("run-*")):
+                continue
+            config = config_dir.name
+            if config not in results:
+                results[config] = []
+
+            for run_dir in sorted(config_dir.glob("run-*")):
+                run_number = int(run_dir.name.split("-")[1])
+                grading_file = run_dir / "grading.json"
+
+                if not grading_file.exists():
+                    print(f"Warning: grading.json not found in {run_dir}")
+                    continue
+
+                try:
+                    with open(grading_file) as f:
+                        grading = json.load(f)
+                except json.JSONDecodeError as e:
+                    print(f"Warning: Invalid JSON in {grading_file}: {e}")
+                    continue
+
+                # Extract metrics
+                result = {
+                    "eval_id": eval_id,
+                    "run_number": run_number,
+                    "pass_rate": grading.get("summary", {}).get("pass_rate", 0.0),
+                    "passed": grading.get("summary", {}).get("passed", 0),
+                    "failed": grading.get("summary", {}).get("failed", 0),
+                    "total": grading.get("summary", {}).get("total", 0),
+                }
+
+                # Extract timing — check grading.json first, then sibling timing.json
+                timing = grading.get("timing", {})
+                result["time_seconds"] = timing.get("total_duration_seconds", 0.0)
+                timing_file = run_dir / "timing.json"
+                if result["time_seconds"] == 0.0 and timing_file.exists():
+                    try:
+                        with open(timing_file) as tf:
+                            timing_data = json.load(tf)
+                        result["time_seconds"] = timing_data.get("total_duration_seconds", 0.0)
+                        result["tokens"] = timing_data.get("total_tokens", 0)
+                    except json.JSONDecodeError:
+                        pass
+
+                # Extract metrics if available
+                metrics = grading.get("execution_metrics", {})
+                result["tool_calls"] = metrics.get("total_tool_calls", 0)
+                if not result.get("tokens"):
+                    result["tokens"] = metrics.get("output_chars", 0)
+                result["errors"] = metrics.get("errors_encountered", 0)
+
+                # Extract expectations — viewer requires fields: text, passed, evidence
+                raw_expectations = grading.get("expectations", [])
+                for exp in raw_expectations:
+                    if "text" not in exp or "passed" not in exp:
+                        print(f"Warning: expectation in {grading_file} missing required fields (text, passed, evidence): {exp}")
+                result["expectations"] = raw_expectations
+
+                # Extract notes from user_notes_summary
+                notes_summary = grading.get("user_notes_summary", {})
+                notes = []
+                notes.extend(notes_summary.get("uncertainties", []))
+                notes.extend(notes_summary.get("needs_review", []))
+                notes.extend(notes_summary.get("workarounds", []))
+                result["notes"] = notes
+
+                results[config].append(result)
+
+    return results
+
+
+def aggregate_results(results: dict) -> dict:
+    """
+    Aggregate run results into summary statistics.
+
+    Returns run_summary with stats for each configuration and delta.
+    """
+    run_summary = {}
+    configs = list(results.keys())
+
+    for config in configs:
+        runs = results.get(config, [])
+
+        if not runs:
+            run_summary[config] = {
+                "pass_rate": {"mean": 0.0, "stddev": 0.0, "min": 0.0, "max": 0.0},
+                "time_seconds": {"mean": 0.0, "stddev": 0.0, "min": 0.0, "max": 0.0},
+                "tokens": {"mean": 0, "stddev": 0, "min": 0, "max": 0}
+            }
+            continue
+
+        pass_rates = [r["pass_rate"] for r in runs]
+        times = [r["time_seconds"] for r in runs]
+        tokens = [r.get("tokens", 0) for r in runs]
+
+        run_summary[config] = {
+            "pass_rate": calculate_stats(pass_rates),
+            "time_seconds": calculate_stats(times),
+            "tokens": calculate_stats(tokens)
+        }
+
+    # Calculate delta between the first two configs (if two exist)
+    if len(configs) >= 2:
+        primary = run_summary.get(configs[0], {})
+        baseline = run_summary.get(configs[1], {})
+    else:
+        primary = run_summary.get(configs[0], {}) if configs else {}
+        baseline = {}
+
+    delta_pass_rate = primary.get("pass_rate", {}).get("mean", 0) - baseline.get("pass_rate", {}).get("mean", 0)
+    delta_time = primary.get("time_seconds", {}).get("mean", 0) - baseline.get("time_seconds", {}).get("mean", 0)
+    delta_tokens = primary.get("tokens", {}).get("mean", 0) - baseline.get("tokens", {}).get("mean", 0)
+
+    run_summary["delta"] = {
+        "pass_rate": f"{delta_pass_rate:+.2f}",
+        "time_seconds": f"{delta_time:+.1f}",
+        "tokens": f"{delta_tokens:+.0f}"
+    }
+
+    return run_summary
+
+
+def generate_benchmark(benchmark_dir: Path, skill_name: str = "", skill_path: str = "") -> dict:
+    """
+    Generate complete benchmark.json from run results.
+    """
+    results = load_run_results(benchmark_dir)
+    run_summary = aggregate_results(results)
+
+    # Build runs array for benchmark.json
+    runs = []
+    for config in results:
+        for result in results[config]:
+            runs.append({
+                "eval_id": result["eval_id"],
+                "configuration": config,
+                "run_number": result["run_number"],
+                "result": {
+                    "pass_rate": result["pass_rate"],
+                    "passed": result["passed"],
+                    "failed": result["failed"],
+                    "total": result["total"],
+                    "time_seconds": result["time_seconds"],
+                    "tokens": result.get("tokens", 0),
+                    "tool_calls": result.get("tool_calls", 0),
+                    "errors": result.get("errors", 0)
+                },
+                "expectations": result["expectations"],
+                "notes": result["notes"]
+            })
+
+    # Determine eval IDs from results
+    eval_ids = sorted(set(
+        r["eval_id"]
+        for config in results.values()
+        for r in config
+    ))
+
+    benchmark = {
+        "metadata": {
+            "skill_name": skill_name or "<skill-name>",
+            "skill_path": skill_path or "<path/to/skill>",
+            "executor_model": "<model-name>",
+            "analyzer_model": "<model-name>",
+            "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "evals_run": eval_ids,
+            "runs_per_configuration": 3
+        },
+        "runs": runs,
+        "run_summary": run_summary,
+        "notes": []  # To be filled by analyzer
+    }
+
+    return benchmark
+
+
+def generate_markdown(benchmark: dict) -> str:
+    """Generate human-readable benchmark.md from benchmark data."""
+    metadata = benchmark["metadata"]
+    run_summary = benchmark["run_summary"]
+
+    # Determine config names (excluding "delta")
+    configs = [k for k in run_summary if k != "delta"]
+    config_a = configs[0] if len(configs) >= 1 else "config_a"
+    config_b = configs[1] if len(configs) >= 2 else "config_b"
+    label_a = config_a.replace("_", " ").title()
+    label_b = config_b.replace("_", " ").title()
+
+    lines = [
+        f"# Skill Benchmark: {metadata['skill_name']}",
+        "",
+        f"**Model**: {metadata['executor_model']}",
+        f"**Date**: {metadata['timestamp']}",
+        f"**Evals**: {', '.join(map(str, metadata['evals_run']))} ({metadata['runs_per_configuration']} runs each per configuration)",
+        "",
+        "## Summary",
+        "",
+        f"| Metric | {label_a} | {label_b} | Delta |",
+        "|--------|------------|---------------|-------|",
+    ]
+
+    a_summary = run_summary.get(config_a, {})
+    b_summary = run_summary.get(config_b, {})
+    delta = run_summary.get("delta", {})
+
+    # Format pass rate
+    a_pr = a_summary.get("pass_rate", {})
+    b_pr = b_summary.get("pass_rate", {})
+    lines.append(f"| Pass Rate | {a_pr.get('mean', 0)*100:.0f}% ± {a_pr.get('stddev', 0)*100:.0f}% | {b_pr.get('mean', 0)*100:.0f}% ± {b_pr.get('stddev', 0)*100:.0f}% | {delta.get('pass_rate', '—')} |")
+
+    # Format time
+    a_time = a_summary.get("time_seconds", {})
+    b_time = b_summary.get("time_seconds", {})
+    lines.append(f"| Time | {a_time.get('mean', 0):.1f}s ± {a_time.get('stddev', 0):.1f}s | {b_time.get('mean', 0):.1f}s ± {b_time.get('stddev', 0):.1f}s | {delta.get('time_seconds', '—')}s |")
+
+    # Format tokens
+    a_tokens = a_summary.get("tokens", {})
+    b_tokens = b_summary.get("tokens", {})
+    lines.append(f"| Tokens | {a_tokens.get('mean', 0):.0f} ± {a_tokens.get('stddev', 0):.0f} | {b_tokens.get('mean', 0):.0f} ± {b_tokens.get('stddev', 0):.0f} | {delta.get('tokens', '—')} |")
+
+    # Notes section
+    if benchmark.get("notes"):
+        lines.extend([
+            "",
+            "## Notes",
+            ""
+        ])
+        for note in benchmark["notes"]:
+            lines.append(f"- {note}")
+
+    return "\n".join(lines)
+
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Aggregate benchmark run results into summary statistics"
+    )
+    parser.add_argument(
+        "benchmark_dir",
+        type=Path,
+        help="Path to the benchmark directory"
+    )
+    parser.add_argument(
+        "--skill-name",
+        default="",
+        help="Name of the skill being benchmarked"
+    )
+    parser.add_argument(
+        "--skill-path",
+        default="",
+        help="Path to the skill being benchmarked"
+    )
+    parser.add_argument(
+        "--output", "-o",
+        type=Path,
+        help="Output path for benchmark.json (default: <benchmark_dir>/benchmark.json)"
+    )
+
+    args = parser.parse_args()
+
+    if not args.benchmark_dir.exists():
+        print(f"Directory not found: {args.benchmark_dir}")
+        sys.exit(1)
+
+    # Generate benchmark
+    benchmark = generate_benchmark(args.benchmark_dir, args.skill_name, args.skill_path)
+
+    # Determine output paths
+    output_json = args.output or (args.benchmark_dir / "benchmark.json")
+    output_md = output_json.with_suffix(".md")
+
+    # Write benchmark.json
+    with open(output_json, "w") as f:
+        json.dump(benchmark, f, indent=2)
+    print(f"Generated: {output_json}")
+
+    # Write benchmark.md
+    markdown = generate_markdown(benchmark)
+    with open(output_md, "w") as f:
+        f.write(markdown)
+    print(f"Generated: {output_md}")
+
+    # Print summary
+    run_summary = benchmark["run_summary"]
+    configs = [k for k in run_summary if k != "delta"]
+    delta = run_summary.get("delta", {})
+
+    print(f"\nSummary:")
+    for config in configs:
+        pr = run_summary[config]["pass_rate"]["mean"]
+        label = config.replace("_", " ").title()
+        print(f"  {label}: {pr*100:.1f}% pass rate")
+    print(f"  Delta:         {delta.get('pass_rate', '—')}")
+
+
+if __name__ == "__main__":
+    main()

@@ -1,1 +1,4 @@
-cGlsbG93Pj0xMC4wLjAKaW1hZ2Vpbz49Mi4zMS4wCmltYWdlaW8tZmZtcGVnPj0wLjQuOQpudW1weT49MS4yNC4w
+pillow>=10.0.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+numpy>=1.24.0

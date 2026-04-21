@@ -1,1 +1,69 @@
-LS0tDQpuYW1lOiBza2lsbC1idWlsZGVyDQpkZXNjcmlwdGlvbjogQXV0b21hdGljYWxseSBkZXRlY3Qgc291cmNlIHR5cGVzIGFuZCBidWlsZCBBSSBza2lsbHMgdXNpbmcgU2tpbGwgU2Vla2Vycy4gVXNlIHdoZW4gdGhlIHVzZXIgd2FudHMgdG8gY3JlYXRlIHNraWxscyBmcm9tIGRvY3VtZW50YXRpb24sIHJlcG9zLCBQREZzLCB2aWRlb3MsIG9yIG90aGVyIGtub3dsZWRnZSBzb3VyY2VzLg0KLS0tDQoNCiMgU2tpbGwgQnVpbGRlcg0KDQpZb3UgaGF2ZSBhY2Nlc3MgdG8gdGhlIFNraWxsIFNlZWtlcnMgTUNQIHNlcnZlciB3aGljaCBwcm92aWRlcyAzNSB0b29scyBmb3IgY29udmVydGluZyBrbm93bGVkZ2Ugc291cmNlcyBpbnRvIEFJLXJlYWR5IHNraWxscy4NCg0KIyMgV2hlbiB0byBVc2UgVGhpcyBTa2lsbA0KDQpVc2UgdGhpcyBza2lsbCB3aGVuIHRoZSB1c2VyOg0KLSBXYW50cyB0byBjcmVhdGUgYW4gQUkgc2tpbGwgZnJvbSBhIGRvY3VtZW50YXRpb24gc2l0ZSwgR2l0SHViIHJlcG8sIFBERiwgdmlkZW8sIG9yIG90aGVyIHNvdXJjZQ0KLSBOZWVkcyB0byBjb252ZXJ0IGRvY3VtZW50YXRpb24gaW50byBhIGZvcm1hdCBzdWl0YWJsZSBmb3IgTExNIGNvbnN1bXB0aW9uDQotIFdhbnRzIHRvIHVwZGF0ZSBvciBzeW5jIGV4aXN0aW5nIHNraWxscyB3aXRoIHRoZWlyIHNvdXJjZSBkb2N1bWVudGF0aW9uDQotIE5lZWRzIHRvIGV4cG9ydCBza2lsbHMgdG8gdmVjdG9yIGRhdGFiYXNlcyAoV2VhdmlhdGUsIENocm9tYSwgRkFJU1MsIFFkcmFudCkNCi0gQXNrcyBhYm91dCBzY3JhcGluZywgY29udmVydGluZywgb3IgcGFja2FnaW5nIGRvY3VtZW50YXRpb24gZm9yIEFJDQoNCiMjIFNvdXJjZSBUeXBlIERldGVjdGlvbg0KDQpBdXRvbWF0aWNhbGx5IGRldGVjdCB0aGUgc291cmNlIHR5cGUgZnJvbSB1c2VyIGlucHV0Og0KDQp8IElucHV0IFBhdHRlcm4gfCBTb3VyY2UgVHlwZSB8IFRvb2wgdG8gVXNlIHwNCnwtLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfA0KfCBgaHR0cHM6Ly8uLi5gIChub3QgR2l0SHViL1lvdVR1YmUpIHwgRG9jdW1lbnRhdGlvbiB8IGBzY3JhcGVfZG9jc2AgfA0KfCBgb3duZXIvcmVwb2Agb3IgYGdpdGh1Yi5jb20vLi4uYCB8IEdpdEh1YiB8IGBzY3JhcGVfZ2l0aHViYCB8DQp8IGAqLnBkZmAgfCBQREYgfCBgc2NyYXBlX3BkZmAgfA0KfCBZb3VUdWJlL1ZpbWVvIFVSTCBvciB2aWRlbyBmaWxlIHwgVmlkZW8gfCBgc2NyYXBlX3ZpZGVvYCB8DQp8IExvY2FsIGRpcmVjdG9yeSBwYXRoIHwgQ29kZWJhc2UgfCBgc2NyYXBlX2NvZGViYXNlYCB8DQp8IGAqLmlweW5iYCwgYCouaHRtbGAsIGAqLnlhbWxgIChPcGVuQVBJKSwgYCouYWRvY2AsIGAqLnBwdHhgLCBgKi5yc3NgLCBgKi4xYC1gLjhgIHwgVmFyaW91cyB8IGBzY3JhcGVfZ2VuZXJpY2AgfA0KfCBKU09OIGNvbmZpZyBmaWxlIHwgVW5pZmllZCB8IFVzZSBjb25maWcgd2l0aCBgc2NyYXBlX2RvY3NgIHwNCg0KIyMgUmVjb21tZW5kZWQgV29ya2Zsb3cNCg0KMS4gKipEZXRlY3Qgc291cmNlIHR5cGUqKiBmcm9tIHRoZSB1c2VyJ3MgaW5wdXQNCjIuICoqR2VuZXJhdGUgb3IgZmV0Y2ggY29uZmlnKiogdXNpbmcgYGdlbmVyYXRlX2NvbmZpZ2Agb3IgYGZldGNoX2NvbmZpZ2AgaWYgbmVlZGVkDQozLiAqKkVzdGltYXRlIHNjb3BlKiogd2l0aCBgZXN0aW1hdGVfcGFnZXNgIGZvciBkb2N1bWVudGF0aW9uIHNpdGVzDQo0LiAqKlNjcmFwZSB0aGUgc291cmNlKiogdXNpbmcgdGhlIGFwcHJvcHJpYXRlIHNjcmFwaW5nIHRvb2wNCjUuICoqRW5oYW5jZSoqIHdpdGggYGVuaGFuY2Vfc2tpbGxgIGlmIHRoZSB1c2VyIHdhbnRzIEFJLXBvd2VyZWQgaW1wcm92ZW1lbnRzDQo2LiAqKlBhY2thZ2UqKiB3aXRoIGBwYWNrYWdlX3NraWxsYCBmb3IgdGhlIHRhcmdldCBwbGF0Zm9ybQ0KNy4gKipFeHBvcnQgdG8gdmVjdG9yIERCKiogaWYgcmVxdWVzdGVkIHVzaW5nIGBleHBvcnRfdG9fKmAgdG9vbHMNCg0KIyMgQXZhaWxhYmxlIE1DUCBUb29scw0KDQojIyMgQ29uZmlnIE1hbmFnZW1lbnQNCi0gYGdlbmVyYXRlX2NvbmZpZ2Ag4oCUIEdlbmVyYXRlIGEgc2NyYXBpbmcgY29uZmlnIGZyb20gYSBVUkwNCi0gYGxpc3RfY29uZmlnc2Ag4oCUIExpc3QgYXZhaWxhYmxlIHByZXNldCBjb25maWdzDQotIGB2YWxpZGF0ZV9jb25maWdgIOKAlCBWYWxpZGF0ZSBhIGNvbmZpZyBmaWxlDQoNCiMjIyBTY3JhcGluZyAodXNlIGJhc2VkIG9uIHNvdXJjZSB0eXBlKQ0KLSBgc2NyYXBlX2RvY3NgIOKAlCBEb2N1bWVudGF0aW9uIHNpdGVzDQotIGBzY3JhcGVfZ2l0aHViYCDigJQgR2l0SHViIHJlcG9zaXRvcmllcw0KLSBgc2NyYXBlX3BkZmAg4oCUIFBERiBmaWxlcw0KLSBgc2NyYXBlX3ZpZGVvYCDigJQgVmlkZW8gdHJhbnNjcmlwdHMNCi0gYHNjcmFwZV9jb2RlYmFzZWAg4oCUIExvY2FsIGNvZGUgYW5hbHlzaXMNCi0gYHNjcmFwZV9nZW5lcmljYCDigJQgSnVweXRlciwgSFRNTCwgT3BlbkFQSSwgQXNjaWlEb2MsIFBQVFgsIFJTUywgbWFucGFnZSwgQ29uZmx1ZW5jZSwgTm90aW9uLCBjaGF0DQoNCiMjIyBQb3N0LXByb2Nlc3NpbmcNCi0gYGVuaGFuY2Vfc2tpbGxgIOKAlCBBSS1wb3dlcmVkIHNraWxsIGVuaGFuY2VtZW50DQotIGBwYWNrYWdlX3NraWxsYCDigJQgUGFja2FnZSBmb3IgdGFyZ2V0IHBsYXRmb3JtDQotIGB1cGxvYWRfc2tpbGxgIOKAlCBVcGxvYWQgdG8gcGxhdGZvcm0gQVBJDQotIGBpbnN0YWxsX3NraWxsYCDigJQgRW5kLXRvLWVuZCBpbnN0YWxsIHdvcmtmbG93DQoNCiMjIyBBZHZhbmNlZA0KLSBgZGV0ZWN0X3BhdHRlcm5zYCDigJQgRGVzaWduIHBhdHRlcm4gZGV0ZWN0aW9uIGluIGNvZGUNCi0gYGV4dHJhY3RfdGVzdF9leGFtcGxlc2Ag4oCUIEV4dHJhY3QgdXNhZ2UgZXhhbXBsZXMgZnJvbSB0ZXN0cw0KLSBgYnVpbGRfaG93X3RvX2d1aWRlc2Ag4oCUIEdlbmVyYXRlIGhvdy10byBndWlkZXMgZnJvbSB0ZXN0cw0KLSBgc3BsaXRfY29uZmlnYCDigJQgU3BsaXQgbGFyZ2UgY29uZmlncyBpbnRvIGZvY3VzZWQgc2tpbGxzDQotIGBleHBvcnRfdG9fd2VhdmlhdGVgLCBgZXhwb3J0X3RvX2Nocm9tYWAsIGBleHBvcnRfdG9fZmFpc3NgLCBgZXhwb3J0X3RvX3FkcmFudGAg4oCUIFZlY3RvciBEQiBleHBvcnQNCg==
+---
+name: skill-builder
+description: Automatically detect source types and build AI skills using Skill Seekers. Use when the user wants to create skills from documentation, repos, PDFs, videos, or other knowledge sources.
+---
+
+# Skill Builder
+
+You have access to the Skill Seekers MCP server which provides 35 tools for converting knowledge sources into AI-ready skills.
+
+## When to Use This Skill
+
+Use this skill when the user:
+- Wants to create an AI skill from a documentation site, GitHub repo, PDF, video, or other source
+- Needs to convert documentation into a format suitable for LLM consumption
+- Wants to update or sync existing skills with their source documentation
+- Needs to export skills to vector databases (Weaviate, Chroma, FAISS, Qdrant)
+- Asks about scraping, converting, or packaging documentation for AI
+
+## Source Type Detection
+
+Automatically detect the source type from user input:
+
+| Input Pattern | Source Type | Tool to Use |
+|---------------|-------------|-------------|
+| `https://...` (not GitHub/YouTube) | Documentation | `scrape_docs` |
+| `owner/repo` or `github.com/...` | GitHub | `scrape_github` |
+| `*.pdf` | PDF | `scrape_pdf` |
+| YouTube/Vimeo URL or video file | Video | `scrape_video` |
+| Local directory path | Codebase | `scrape_codebase` |
+| `*.ipynb`, `*.html`, `*.yaml` (OpenAPI), `*.adoc`, `*.pptx`, `*.rss`, `*.1`-`.8` | Various | `scrape_generic` |
+| JSON config file | Unified | Use config with `scrape_docs` |
+
+## Recommended Workflow
+
+1. **Detect source type** from the user's input
+2. **Generate or fetch config** using `generate_config` or `fetch_config` if needed
+3. **Estimate scope** with `estimate_pages` for documentation sites
+4. **Scrape the source** using the appropriate scraping tool
+5. **Enhance** with `enhance_skill` if the user wants AI-powered improvements
+6. **Package** with `package_skill` for the target platform
+7. **Export to vector DB** if requested using `export_to_*` tools
+
+## Available MCP Tools
+
+### Config Management
+- `generate_config` — Generate a scraping config from a URL
+- `list_configs` — List available preset configs
+- `validate_config` — Validate a config file
+
+### Scraping (use based on source type)
+- `scrape_docs` — Documentation sites
+- `scrape_github` — GitHub repositories
+- `scrape_pdf` — PDF files
+- `scrape_video` — Video transcripts
+- `scrape_codebase` — Local code analysis
+- `scrape_generic` — Jupyter, HTML, OpenAPI, AsciiDoc, PPTX, RSS, manpage, Confluence, Notion, chat
+
+### Post-processing
+- `enhance_skill` — AI-powered skill enhancement
+- `package_skill` — Package for target platform
+- `upload_skill` — Upload to platform API
+- `install_skill` — End-to-end install workflow
+
+### Advanced
+- `detect_patterns` — Design pattern detection in code
+- `extract_test_examples` — Extract usage examples from tests
+- `build_how_to_guides` — Generate how-to guides from tests
+- `split_config` — Split large configs into focused skills
+- `export_to_weaviate`, `export_to_chroma`, `export_to_faiss`, `export_to_qdrant` — Vector DB export

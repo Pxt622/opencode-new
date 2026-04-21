@@ -1,1 +1,373 @@
-IyBzaGFkY24vdWkgVGhlbWluZyAmIEN1c3RvbWl6YXRpb24KClRoZW1lIGNvbmZpZ3VyYXRpb24sIENTUyB2YXJpYWJsZXMsIGRhcmsgbW9kZSwgYW5kIGNvbXBvbmVudCBjdXN0b21pemF0aW9uLgoKIyMgRGFyayBNb2RlIFNldHVwCgojIyMgTmV4dC5qcyBBcHAgUm91dGVyCgoqKjEuIEluc3RhbGwgbmV4dC10aGVtZXM6KioKYGBgYmFzaApucG0gaW5zdGFsbCBuZXh0LXRoZW1lcwpgYGAKCioqMi4gQ3JlYXRlIHRoZW1lIHByb3ZpZGVyOioqCmBgYHRzeAovLyBjb21wb25lbnRzL3RoZW1lLXByb3ZpZGVyLnRzeAoidXNlIGNsaWVudCIKCmltcG9ydCAqIGFzIFJlYWN0IGZyb20gInJlYWN0IgppbXBvcnQgeyBUaGVtZVByb3ZpZGVyIGFzIE5leHRUaGVtZXNQcm92aWRlciB9IGZyb20gIm5leHQtdGhlbWVzIgoKZXhwb3J0IGZ1bmN0aW9uIFRoZW1lUHJvdmlkZXIoewogIGNoaWxkcmVuLAogIC4uLnByb3BzCn06IFJlYWN0LkNvbXBvbmVudFByb3BzPHR5cGVvZiBOZXh0VGhlbWVzUHJvdmlkZXI+KSB7CiAgcmV0dXJuIDxOZXh0VGhlbWVzUHJvdmlkZXIgey4uLnByb3BzfT57Y2hpbGRyZW59PC9OZXh0VGhlbWVzUHJvdmlkZXI+Cn0KYGBgCgoqKjMuIFdyYXAgYXBwOioqCmBgYHRzeAovLyBhcHAvbGF5b3V0LnRzeAppbXBvcnQgeyBUaGVtZVByb3ZpZGVyIH0gZnJvbSAiQC9jb21wb25lbnRzL3RoZW1lLXByb3ZpZGVyIgoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9vdExheW91dCh7IGNoaWxkcmVuIH0pIHsKICByZXR1cm4gKAogICAgPGh0bWwgbGFuZz0iZW4iIHN1cHByZXNzSHlkcmF0aW9uV2FybmluZz4KICAgICAgPGJvZHk+CiAgICAgICAgPFRoZW1lUHJvdmlkZXIKICAgICAgICAgIGF0dHJpYnV0ZT0iY2xhc3MiCiAgICAgICAgICBkZWZhdWx0VGhlbWU9InN5c3RlbSIKICAgICAgICAgIGVuYWJsZVN5c3RlbQogICAgICAgICAgZGlzYWJsZVRyYW5zaXRpb25PbkNoYW5nZQogICAgICAgID4KICAgICAgICAgIHtjaGlsZHJlbn0KICAgICAgICA8L1RoZW1lUHJvdmlkZXI+CiAgICAgIDwvYm9keT4KICAgIDwvaHRtbD4KICApCn0KYGBgCgoqKjQuIFRoZW1lIHRvZ2dsZSBjb21wb25lbnQ6KioKYGBgdHN4CmltcG9ydCB7IE1vb24sIFN1biB9IGZyb20gImx1Y2lkZS1yZWFjdCIKaW1wb3J0IHsgdXNlVGhlbWUgfSBmcm9tICJuZXh0LXRoZW1lcyIKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiIKCmV4cG9ydCBmdW5jdGlvbiBUaGVtZVRvZ2dsZSgpIHsKICBjb25zdCB7IHNldFRoZW1lLCB0aGVtZSB9ID0gdXNlVGhlbWUoKQoKICByZXR1cm4gKAogICAgPEJ1dHRvbgogICAgICB2YXJpYW50PSJnaG9zdCIKICAgICAgc2l6ZT0iaWNvbiIKICAgICAgb25DbGljaz17KCkgPT4gc2V0VGhlbWUodGhlbWUgPT09ICJsaWdodCIgPyAiZGFyayIgOiAibGlnaHQiKX0KICAgID4KICAgICAgPFN1biBjbGFzc05hbWU9ImgtWzEuMnJlbV0gdy1bMS4ycmVtXSByb3RhdGUtMCBzY2FsZS0xMDAgdHJhbnNpdGlvbi1hbGwgZGFyazotcm90YXRlLTkwIGRhcms6c2NhbGUtMCIgLz4KICAgICAgPE1vb24gY2xhc3NOYW1lPSJhYnNvbHV0ZSBoLVsxLjJyZW1dIHctWzEuMnJlbV0gcm90YXRlLTkwIHNjYWxlLTAgdHJhbnNpdGlvbi1hbGwgZGFyazpyb3RhdGUtMCBkYXJrOnNjYWxlLTEwMCIgLz4KICAgICAgPHNwYW4gY2xhc3NOYW1lPSJzci1vbmx5Ij5Ub2dnbGUgdGhlbWU8L3NwYW4+CiAgICA8L0J1dHRvbj4KICApCn0KYGBgCgojIyMgVml0ZSAvIE90aGVyIEZyYW1ld29ya3MKClVzZSBzaW1pbGFyIGFwcHJvYWNoIHdpdGggbmV4dC10aGVtZXMgb3IgaW1wbGVtZW50IGN1c3RvbSBzb2x1dGlvbjoKCmBgYGphdmFzY3JpcHQKLy8gU3RvcmUgcHJlZmVyZW5jZQpmdW5jdGlvbiB0b2dnbGVEYXJrTW9kZSgpIHsKICBjb25zdCBpc0RhcmsgPSBkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xhc3NMaXN0LnRvZ2dsZSgnZGFyaycpCiAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oJ3RoZW1lJywgaXNEYXJrID8gJ2RhcmsnIDogJ2xpZ2h0JykKfQoKLy8gSW5pdGlhbGl6ZSBvbiBsb2FkCmlmIChsb2NhbFN0b3JhZ2UudGhlbWUgPT09ICdkYXJrJyB8fAogICAgKCEoJ3RoZW1lJyBpbiBsb2NhbFN0b3JhZ2UpICYmCiAgICAgd2luZG93Lm1hdGNoTWVkaWEoJyhwcmVmZXJzLWNvbG9yLXNjaGVtZTogZGFyayknKS5tYXRjaGVzKSkgewogIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5jbGFzc0xpc3QuYWRkKCdkYXJrJykKfQpgYGAKCiMjIENTUyBWYXJpYWJsZSBTeXN0ZW0KCnNoYWRjbi91aSB1c2VzIENTUyB2YXJpYWJsZXMgZm9yIHRoZW1pbmcuIFZhcmlhYmxlcyBkZWZpbmVkIGluIGBnbG9iYWxzLmNzc2A6CgpgYGBjc3MKQGxheWVyIGJhc2UgewogIDpyb290IHsKICAgIC0tYmFja2dyb3VuZDogMCAwJSAxMDAlOwogICAgLS1mb3JlZ3JvdW5kOiAyMjIuMiA4NCUgNC45JTsKICAgIC0tcHJpbWFyeTogMjIyLjIgNDcuNCUgMTEuMiU7CiAgICAtLXByaW1hcnktZm9yZWdyb3VuZDogMjEwIDQwJSA5OCU7CiAgICAtLXNlY29uZGFyeTogMjEwIDQwJSA5Ni4xJTsKICAgIC0tc2Vjb25kYXJ5LWZvcmVncm91bmQ6IDIyMi4yIDQ3LjQlIDExLjIlOwogICAgLS1tdXRlZDogMjEwIDQwJSA5Ni4xJTsKICAgIC0tbXV0ZWQtZm9yZWdyb3VuZDogMjE1LjQgMTYuMyUgNDYuOSU7CiAgICAtLWFjY2VudDogMjEwIDQwJSA5Ni4xJTsKICAgIC0tYWNjZW50LWZvcmVncm91bmQ6IDIyMi4yIDQ3LjQlIDExLjIlOwogICAgLS1kZXN0cnVjdGl2ZTogMCA4NC4yJSA2MC4yJTsKICAgIC0tZGVzdHJ1Y3RpdmUtZm9yZWdyb3VuZDogMjEwIDQwJSA5OCU7CiAgICAtLWJvcmRlcjogMjE0LjMgMzEuOCUgOTEuNCU7CiAgICAtLWlucHV0OiAyMTQuMyAzMS44JSA5MS40JTsKICAgIC0tcmluZzogMjIyLjIgODQlIDQuOSU7CiAgICAtLXJhZGl1czogMC41cmVtOwogIH0KCiAgLmRhcmsgewogICAgLS1iYWNrZ3JvdW5kOiAyMjIuMiA4NCUgNC45JTsKICAgIC0tZm9yZWdyb3VuZDogMjEwIDQwJSA5OCU7CiAgICAtLXByaW1hcnk6IDIxMCA0MCUgOTglOwogICAgLS1wcmltYXJ5LWZvcmVncm91bmQ6IDIyMi4yIDQ3LjQlIDExLjIlOwogICAgLS1zZWNvbmRhcnk6IDIxNy4yIDMyLjYlIDE3LjUlOwogICAgLS1zZWNvbmRhcnktZm9yZWdyb3VuZDogMjEwIDQwJSA5OCU7CiAgICAtLW11dGVkOiAyMTcuMiAzMi42JSAxNy41JTsKICAgIC0tbXV0ZWQtZm9yZWdyb3VuZDogMjE1IDIwLjIlIDY1LjElOwogICAgLS1hY2NlbnQ6IDIxNy4yIDMyLjYlIDE3LjUlOwogICAgLS1hY2NlbnQtZm9yZWdyb3VuZDogMjEwIDQwJSA5OCU7CiAgICAtLWRlc3RydWN0aXZlOiAwIDYyLjglIDMwLjYlOwogICAgLS1kZXN0cnVjdGl2ZS1mb3JlZ3JvdW5kOiAyMTAgNDAlIDk4JTsKICAgIC0tYm9yZGVyOiAyMTcuMiAzMi42JSAxNy41JTsKICAgIC0taW5wdXQ6IDIxNy4yIDMyLjYlIDE3LjUlOwogICAgLS1yaW5nOiAyMTIuNyAyNi44JSA4My45JTsKICB9Cn0KYGBgCgojIyMgQ29sb3IgRm9ybWF0CgpWYWx1ZXMgdXNlIEhTTCBmb3JtYXQgd2l0aG91dCBgaHNsKClgIHdyYXBwZXIgZm9yIGJldHRlciBvcGFjaXR5IGNvbnRyb2w6CmBgYGNzcwotLXByaW1hcnk6IDIyMi4yIDQ3LjQlIDExLjIlOyAgLyogSCBTIEwgKi8KYGBgCgpVc2FnZSBpbiBUYWlsd2luZDoKYGBgY3NzCmJhY2tncm91bmQ6IGhzbCh2YXIoLS1wcmltYXJ5KSk7CmJhY2tncm91bmQ6IGhzbCh2YXIoLS1wcmltYXJ5KSAvIDAuNSk7ICAvKiA1MCUgb3BhY2l0eSAqLwpgYGAKCiMjIFRhaWx3aW5kIENvbmZpZ3VyYXRpb24KCk1hcCBDU1MgdmFyaWFibGVzIHRvIFRhaWx3aW5kIHV0aWxpdGllczoKCmBgYHRzCi8vIHRhaWx3aW5kLmNvbmZpZy50cwpleHBvcnQgZGVmYXVsdCB7CiAgZGFya01vZGU6IFsiY2xhc3MiXSwKICB0aGVtZTogewogICAgZXh0ZW5kOiB7CiAgICAgIGNvbG9yczogewogICAgICAgIGJvcmRlcjogImhzbCh2YXIoLS1ib3JkZXIpKSIsCiAgICAgICAgaW5wdXQ6ICJoc2wodmFyKC0taW5wdXQpKSIsCiAgICAgICAgcmluZzogImhzbCh2YXIoLS1yaW5nKSkiLAogICAgICAgIGJhY2tncm91bmQ6ICJoc2wodmFyKC0tYmFja2dyb3VuZCkpIiwKICAgICAgICBmb3JlZ3JvdW5kOiAiaHNsKHZhcigtLWZvcmVncm91bmQpKSIsCiAgICAgICAgcHJpbWFyeTogewogICAgICAgICAgREVGQVVMVDogImhzbCh2YXIoLS1wcmltYXJ5KSkiLAogICAgICAgICAgZm9yZWdyb3VuZDogImhzbCh2YXIoLS1wcmltYXJ5LWZvcmVncm91bmQpKSIsCiAgICAgICAgfSwKICAgICAgICBzZWNvbmRhcnk6IHsKICAgICAgICAgIERFRkFVTFQ6ICJoc2wodmFyKC0tc2Vjb25kYXJ5KSkiLAogICAgICAgICAgZm9yZWdyb3VuZDogImhzbCh2YXIoLS1zZWNvbmRhcnktZm9yZWdyb3VuZCkpIiwKICAgICAgICB9LAogICAgICAgIGRlc3RydWN0aXZlOiB7CiAgICAgICAgICBERUZBVUxUOiAiaHNsKHZhcigtLWRlc3RydWN0aXZlKSkiLAogICAgICAgICAgZm9yZWdyb3VuZDogImhzbCh2YXIoLS1kZXN0cnVjdGl2ZS1mb3JlZ3JvdW5kKSkiLAogICAgICAgIH0sCiAgICAgICAgbXV0ZWQ6IHsKICAgICAgICAgIERFRkFVTFQ6ICJoc2wodmFyKC0tbXV0ZWQpKSIsCiAgICAgICAgICBmb3JlZ3JvdW5kOiAiaHNsKHZhcigtLW11dGVkLWZvcmVncm91bmQpKSIsCiAgICAgICAgfSwKICAgICAgICBhY2NlbnQ6IHsKICAgICAgICAgIERFRkFVTFQ6ICJoc2wodmFyKC0tYWNjZW50KSkiLAogICAgICAgICAgZm9yZWdyb3VuZDogImhzbCh2YXIoLS1hY2NlbnQtZm9yZWdyb3VuZCkpIiwKICAgICAgICB9LAogICAgICB9LAogICAgICBib3JkZXJSYWRpdXM6IHsKICAgICAgICBsZzogInZhcigtLXJhZGl1cykiLAogICAgICAgIG1kOiAiY2FsYyh2YXIoLS1yYWRpdXMpIC0gMnB4KSIsCiAgICAgICAgc206ICJjYWxjKHZhcigtLXJhZGl1cykgLSA0cHgpIiwKICAgICAgfSwKICAgIH0sCiAgfSwKfQpgYGAKCiMjIENvbG9yIEN1c3RvbWl6YXRpb24KCiMjIyBNZXRob2QgMTogVXBkYXRlIENTUyBWYXJpYWJsZXMKCkNoYW5nZSBjb2xvcnMgYnkgbW9kaWZ5aW5nIENTUyB2YXJpYWJsZXMgaW4gYGdsb2JhbHMuY3NzYDoKCmBgYGNzcwo6cm9vdCB7CiAgLS1wcmltYXJ5OiAyNjIuMSA4My4zJSA1Ny44JTsgIC8qIFB1cnBsZSAqLwogIC0tcHJpbWFyeS1mb3JlZ3JvdW5kOiAyMTAgMjAlIDk4JTsKfQoKLmRhcmsgewogIC0tcHJpbWFyeTogMjYzLjQgNzAlIDUwLjQlOyAgLyogRGFya2VyIHB1cnBsZSAqLwogIC0tcHJpbWFyeS1mb3JlZ3JvdW5kOiAyMTAgMjAlIDk4JTsKfQpgYGAKCiMjIyBNZXRob2QgMjogVGhlbWUgR2VuZXJhdG9yCgpVc2Ugc2hhZGNuL3VpIHRoZW1lIGdlbmVyYXRvcjogaHR0cHM6Ly91aS5zaGFkY24uY29tL3RoZW1lcwoKU2VsZWN0IGJhc2UgY29sb3IsIGdlbmVyYXRlIHRoZW1lLCBjb3B5IENTUyB2YXJpYWJsZXMuCgojIyMgTWV0aG9kIDM6IE11bHRpcGxlIFRoZW1lcwoKQ3JlYXRlIHRoZW1lIHZhcmlhbnRzIHdpdGggZGF0YSBhdHRyaWJ1dGVzOgoKYGBgY3NzCltkYXRhLXRoZW1lPSJ2aW9sZXQiXSB7CiAgLS1wcmltYXJ5OiAyNjIuMSA4My4zJSA1Ny44JTsKICAtLXByaW1hcnktZm9yZWdyb3VuZDogMjEwIDIwJSA5OCU7Cn0KCltkYXRhLXRoZW1lPSJyb3NlIl0gewogIC0tcHJpbWFyeTogMzQ2LjggNzcuMiUgNDkuOCU7CiAgLS1wcmltYXJ5LWZvcmVncm91bmQ6IDM1NS43IDEwMCUgOTcuMyU7Cn0KYGBgCgpBcHBseSB0aGVtZToKYGBgdHN4CjxkaXYgZGF0YS10aGVtZT0idmlvbGV0Ij4KICA8QnV0dG9uPlZpb2xldCB0aGVtZTwvQnV0dG9uPgo8L2Rpdj4KYGBgCgojIyBDb21wb25lbnQgQ3VzdG9taXphdGlvbgoKQ29tcG9uZW50cyBsaXZlIGluIHlvdXIgY29kZWJhc2UgLSBtb2RpZnkgZGlyZWN0bHkuCgojIyMgQ3VzdG9taXplIFZhcmlhbnRzCgpgYGB0c3gKLy8gY29tcG9uZW50cy91aS9idXR0b24udHN4CmNvbnN0IGJ1dHRvblZhcmlhbnRzID0gY3ZhKAogICJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1tZCB0ZXh0LXNtIGZvbnQtbWVkaXVtIiwKICB7CiAgICB2YXJpYW50czogewogICAgICB2YXJpYW50OiB7CiAgICAgICAgZGVmYXVsdDogImJnLXByaW1hcnkgdGV4dC1wcmltYXJ5LWZvcmVncm91bmQiLAogICAgICAgIGRlc3RydWN0aXZlOiAiYmctZGVzdHJ1Y3RpdmUgdGV4dC1kZXN0cnVjdGl2ZS1mb3JlZ3JvdW5kIiwKICAgICAgICBvdXRsaW5lOiAiYm9yZGVyIGJvcmRlci1pbnB1dCBiZy1iYWNrZ3JvdW5kIiwKICAgICAgICAvLyBBZGQgY3VzdG9tIHZhcmlhbnQKICAgICAgICBncmFkaWVudDogImJnLWdyYWRpZW50LXRvLXIgZnJvbS1wdXJwbGUtNTAwIHRvLXBpbmstNTAwIHRleHQtd2hpdGUiLAogICAgICB9LAogICAgICBzaXplOiB7CiAgICAgICAgZGVmYXVsdDogImgtMTAgcHgtNCBweS0yIiwKICAgICAgICBzbTogImgtOSByb3VuZGVkLW1kIHB4LTMiLAogICAgICAgIGxnOiAiaC0xMSByb3VuZGVkLW1kIHB4LTgiLAogICAgICAgIC8vIEFkZCBjdXN0b20gc2l6ZQogICAgICAgIHhsOiAiaC0xNCByb3VuZGVkLW1kIHB4LTEwIHRleHQtbGciLAogICAgICB9LAogICAgfSwKICAgIGRlZmF1bHRWYXJpYW50czogewogICAgICB2YXJpYW50OiAiZGVmYXVsdCIsCiAgICAgIHNpemU6ICJkZWZhdWx0IiwKICAgIH0sCiAgfQopCmBgYAoKVXNhZ2U6CmBgYHRzeAo8QnV0dG9uIHZhcmlhbnQ9ImdyYWRpZW50IiBzaXplPSJ4bCI+Q3VzdG9tIEJ1dHRvbjwvQnV0dG9uPgpgYGAKCiMjIyBDdXN0b21pemUgU3R5bGVzCgpNb2RpZnkgYmFzZSBzdHlsZXMgaW4gY29tcG9uZW50OgoKYGBgdHN4Ci8vIGNvbXBvbmVudHMvdWkvY2FyZC50c3gKY29uc3QgQ2FyZCA9IFJlYWN0LmZvcndhcmRSZWY8CiAgSFRNTERpdkVsZW1lbnQsCiAgUmVhY3QuSFRNTEF0dHJpYnV0ZXM8SFRNTERpdkVsZW1lbnQ+Cj4oKHsgY2xhc3NOYW1lLCAuLi5wcm9wcyB9LCByZWYpID0+ICgKICA8ZGl2CiAgICByZWY9e3JlZn0KICAgIGNsYXNzTmFtZT17Y24oCiAgICAgICJyb3VuZGVkLXhsIGJvcmRlciBiZy1jYXJkIHRleHQtY2FyZC1mb3JlZ3JvdW5kIHNoYWRvdy1sZyIsICAvLyBNb2RpZmllZAogICAgICBjbGFzc05hbWUKICAgICl9CiAgICB7Li4ucHJvcHN9CiAgLz4KKSkKYGBgCgojIyMgT3ZlcnJpZGUgd2l0aCBjbGFzc05hbWUKClBhc3MgYWRkaXRpb25hbCBjbGFzc2VzIHRvIG92ZXJyaWRlOgoKYGBgdHN4CjxDYXJkIGNsYXNzTmFtZT0iYm9yZGVyLTIgYm9yZGVyLXB1cnBsZS01MDAgc2hhZG93LTJ4bCBob3ZlcjpzY2FsZS0xMDUgdHJhbnNpdGlvbi10cmFuc2Zvcm0iPgogIEN1c3RvbSBzdHlsZWQgY2FyZAo8L0NhcmQ+CmBgYAoKIyMgQmFzZSBDb2xvciBQcmVzZXRzCgpzaGFkY24vdWkgcHJvdmlkZXMgYmFzZSBjb2xvciBwcmVzZXRzIGR1cmluZyBgaW5pdGA6CgotICoqU2xhdGUqKjogQ29vbCBncmF5IHRvbmVzCi0gKipHcmF5Kio6IE5ldXRyYWwgZ3JheQotICoqWmluYyoqOiBXYXJtIGdyYXkKLSAqKk5ldXRyYWwqKjogQmFsYW5jZWQgZ3JheQotICoqU3RvbmUqKjogRWFydGh5IGdyYXkKClNlbGVjdCBkdXJpbmcgc2V0dXAgb3IgY2hhbmdlIGxhdGVyIGJ5IHVwZGF0aW5nIENTUyB2YXJpYWJsZXMuCgojIyBTdHlsZSBWYXJpYW50cwoKVHdvIGNvbXBvbmVudCBzdHlsZXMgYXZhaWxhYmxlOgoKLSAqKkRlZmF1bHQqKjogU29mdGVyLCBtb3JlIHJvdW5kZWQKLSAqKk5ldyBZb3JrKio6IFNoYXJwLCBtb3JlIGNvbnRyYXN0CgpTZWxlY3QgZHVyaW5nIGBpbml0YCBvciBpbiBgY29tcG9uZW50cy5qc29uYDoKCmBgYGpzb24KewogICJzdHlsZSI6ICJuZXcteW9yayIsCiAgInRhaWx3aW5kIjogewogICAgImNzc1ZhcmlhYmxlcyI6IHRydWUKICB9Cn0KYGBgCgojIyBSYWRpdXMgQ3VzdG9taXphdGlvbgoKQ29udHJvbCBib3JkZXIgcmFkaXVzIGdsb2JhbGx5OgoKYGBgY3NzCjpyb290IHsKICAtLXJhZGl1czogMC41cmVtOyAgLyogRGVmYXVsdCAqLwogIC0tcmFkaXVzOiAwcmVtOyAgICAvKiBTaGFycCBjb3JuZXJzICovCiAgLS1yYWRpdXM6IDFyZW07ICAgIC8qIFJvdW5kZWQgKi8KfQpgYGAKCkNvbXBvbmVudHMgdXNlIHJhZGl1cyB2YXJpYWJsZToKYGBgdHN4CmNsYXNzTmFtZT0icm91bmRlZC1sZyIgIC8qIFVzZXMgdmFyKC0tcmFkaXVzKSAqLwpgYGAKCiMjIEJlc3QgUHJhY3RpY2VzCgoxLiAqKlVzZSBDU1MgVmFyaWFibGVzKio6IEVuYWJsZXMgcnVudGltZSB0aGVtZSBzd2l0Y2hpbmcKMi4gKipDb25zaXN0ZW50IEZvcmVncm91bmQgQ29sb3JzKio6IFBhaXIgZWFjaCBjb2xvciB3aXRoIGFwcHJvcHJpYXRlIGZvcmVncm91bmQKMy4gKipUZXN0IEJvdGggVGhlbWVzKio6IFZlcmlmeSBjb21wb25lbnRzIGluIGxpZ2h0IGFuZCBkYXJrIG1vZGVzCjQuICoqU2VtYW50aWMgTmFtaW5nKio6IFVzZSBgZGVzdHJ1Y3RpdmVgIG5vdCBgcmVkYCwgYG11dGVkYCBub3QgYGdyYXlgCjUuICoqQWNjZXNzaWJpbGl0eSoqOiBNYWludGFpbiBzdWZmaWNpZW50IGNvbG9yIGNvbnRyYXN0IChXQ0FHIEFBIG1pbmltdW0pCjYuICoqQ29tcG9uZW50IE92ZXJyaWRlcyoqOiBVc2UgYGNsYXNzTmFtZWAgcHJvcCBmb3Igb25lLW9mZiBjdXN0b21pemF0aW9uCjcuICoqRXh0cmFjdCBQYXR0ZXJucyoqOiBDcmVhdGUgY3VzdG9tIHZhcmlhbnRzIGZvciByZXBlYXRlZCBjdXN0b21pemF0aW9ucwo=
+# shadcn/ui Theming & Customization
+
+Theme configuration, CSS variables, dark mode, and component customization.
+
+## Dark Mode Setup
+
+### Next.js App Router
+
+**1. Install next-themes:**
+```bash
+npm install next-themes
+```
+
+**2. Create theme provider:**
+```tsx
+// components/theme-provider.tsx
+"use client"
+
+import * as React from "react"
+import { ThemeProvider as NextThemesProvider } from "next-themes"
+
+export function ThemeProvider({
+  children,
+  ...props
+}: React.ComponentProps<typeof NextThemesProvider>) {
+  return <NextThemesProvider {...props}>{children}</NextThemesProvider>
+}
+```
+
+**3. Wrap app:**
+```tsx
+// app/layout.tsx
+import { ThemeProvider } from "@/components/theme-provider"
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <body>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
+      </body>
+    </html>
+  )
+}
+```
+
+**4. Theme toggle component:**
+```tsx
+import { Moon, Sun } from "lucide-react"
+import { useTheme } from "next-themes"
+import { Button } from "@/components/ui/button"
+
+export function ThemeToggle() {
+  const { setTheme, theme } = useTheme()
+
+  return (
+    <Button
+      variant="ghost"
+      size="icon"
+      onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+    >
+      <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+      <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+      <span className="sr-only">Toggle theme</span>
+    </Button>
+  )
+}
+```
+
+### Vite / Other Frameworks
+
+Use similar approach with next-themes or implement custom solution:
+
+```javascript
+// Store preference
+function toggleDarkMode() {
+  const isDark = document.documentElement.classList.toggle('dark')
+  localStorage.setItem('theme', isDark ? 'dark' : 'light')
+}
+
+// Initialize on load
+if (localStorage.theme === 'dark' ||
+    (!('theme' in localStorage) &&
+     window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+  document.documentElement.classList.add('dark')
+}
+```
+
+## CSS Variable System
+
+shadcn/ui uses CSS variables for theming. Variables defined in `globals.css`:
+
+```css
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+```
+
+### Color Format
+
+Values use HSL format without `hsl()` wrapper for better opacity control:
+```css
+--primary: 222.2 47.4% 11.2%;  /* H S L */
+```
+
+Usage in Tailwind:
+```css
+background: hsl(var(--primary));
+background: hsl(var(--primary) / 0.5);  /* 50% opacity */
+```
+
+## Tailwind Configuration
+
+Map CSS variables to Tailwind utilities:
+
+```ts
+// tailwind.config.ts
+export default {
+  darkMode: ["class"],
+  theme: {
+    extend: {
+      colors: {
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+    },
+  },
+}
+```
+
+## Color Customization
+
+### Method 1: Update CSS Variables
+
+Change colors by modifying CSS variables in `globals.css`:
+
+```css
+:root {
+  --primary: 262.1 83.3% 57.8%;  /* Purple */
+  --primary-foreground: 210 20% 98%;
+}
+
+.dark {
+  --primary: 263.4 70% 50.4%;  /* Darker purple */
+  --primary-foreground: 210 20% 98%;
+}
+```
+
+### Method 2: Theme Generator
+
+Use shadcn/ui theme generator: https://ui.shadcn.com/themes
+
+Select base color, generate theme, copy CSS variables.
+
+### Method 3: Multiple Themes
+
+Create theme variants with data attributes:
+
+```css
+[data-theme="violet"] {
+  --primary: 262.1 83.3% 57.8%;
+  --primary-foreground: 210 20% 98%;
+}
+
+[data-theme="rose"] {
+  --primary: 346.8 77.2% 49.8%;
+  --primary-foreground: 355.7 100% 97.3%;
+}
+```
+
+Apply theme:
+```tsx
+<div data-theme="violet">
+  <Button>Violet theme</Button>
+</div>
+```
+
+## Component Customization
+
+Components live in your codebase - modify directly.
+
+### Customize Variants
+
+```tsx
+// components/ui/button.tsx
+const buttonVariants = cva(
+  "inline-flex items-center justify-center rounded-md text-sm font-medium",
+  {
+    variants: {
+      variant: {
+        default: "bg-primary text-primary-foreground",
+        destructive: "bg-destructive text-destructive-foreground",
+        outline: "border border-input bg-background",
+        // Add custom variant
+        gradient: "bg-gradient-to-r from-purple-500 to-pink-500 text-white",
+      },
+      size: {
+        default: "h-10 px-4 py-2",
+        sm: "h-9 rounded-md px-3",
+        lg: "h-11 rounded-md px-8",
+        // Add custom size
+        xl: "h-14 rounded-md px-10 text-lg",
+      },
+    },
+    defaultVariants: {
+      variant: "default",
+      size: "default",
+    },
+  }
+)
+```
+
+Usage:
+```tsx
+<Button variant="gradient" size="xl">Custom Button</Button>
+```
+
+### Customize Styles
+
+Modify base styles in component:
+
+```tsx
+// components/ui/card.tsx
+const Card = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div
+    ref={ref}
+    className={cn(
+      "rounded-xl border bg-card text-card-foreground shadow-lg",  // Modified
+      className
+    )}
+    {...props}
+  />
+))
+```
+
+### Override with className
+
+Pass additional classes to override:
+
+```tsx
+<Card className="border-2 border-purple-500 shadow-2xl hover:scale-105 transition-transform">
+  Custom styled card
+</Card>
+```
+
+## Base Color Presets
+
+shadcn/ui provides base color presets during `init`:
+
+- **Slate**: Cool gray tones
+- **Gray**: Neutral gray
+- **Zinc**: Warm gray
+- **Neutral**: Balanced gray
+- **Stone**: Earthy gray
+
+Select during setup or change later by updating CSS variables.
+
+## Style Variants
+
+Two component styles available:
+
+- **Default**: Softer, more rounded
+- **New York**: Sharp, more contrast
+
+Select during `init` or in `components.json`:
+
+```json
+{
+  "style": "new-york",
+  "tailwind": {
+    "cssVariables": true
+  }
+}
+```
+
+## Radius Customization
+
+Control border radius globally:
+
+```css
+:root {
+  --radius: 0.5rem;  /* Default */
+  --radius: 0rem;    /* Sharp corners */
+  --radius: 1rem;    /* Rounded */
+}
+```
+
+Components use radius variable:
+```tsx
+className="rounded-lg"  /* Uses var(--radius) */
+```
+
+## Best Practices
+
+1. **Use CSS Variables**: Enables runtime theme switching
+2. **Consistent Foreground Colors**: Pair each color with appropriate foreground
+3. **Test Both Themes**: Verify components in light and dark modes
+4. **Semantic Naming**: Use `destructive` not `red`, `muted` not `gray`
+5. **Accessibility**: Maintain sufficient color contrast (WCAG AA minimum)
+6. **Component Overrides**: Use `className` prop for one-off customization
+7. **Extract Patterns**: Create custom variants for repeated customizations

@@ -1,1 +1,115 @@
-IiIiCkV4dHJhY3QgZm9ybSBzdHJ1Y3R1cmUgZnJvbSBhIG5vbi1maWxsYWJsZSBQREYuCgpUaGlzIHNjcmlwdCBhbmFseXplcyB0aGUgUERGIHRvIGZpbmQ6Ci0gVGV4dCBsYWJlbHMgd2l0aCB0aGVpciBleGFjdCBjb29yZGluYXRlcwotIEhvcml6b250YWwgbGluZXMgKHJvdyBib3VuZGFyaWVzKQotIENoZWNrYm94ZXMgKHNtYWxsIHJlY3RhbmdsZXMpCgpPdXRwdXQ6IEEgSlNPTiBmaWxlIHdpdGggdGhlIGZvcm0gc3RydWN0dXJlIHRoYXQgY2FuIGJlIHVzZWQgdG8gZ2VuZXJhdGUKYWNjdXJhdGUgZmllbGQgY29vcmRpbmF0ZXMgZm9yIGZpbGxpbmcuCgpVc2FnZTogcHl0aG9uIGV4dHJhY3RfZm9ybV9zdHJ1Y3R1cmUucHkgPGlucHV0LnBkZj4gPG91dHB1dC5qc29uPgoiIiIKCmltcG9ydCBqc29uCmltcG9ydCBzeXMKaW1wb3J0IHBkZnBsdW1iZXIKCgpkZWYgZXh0cmFjdF9mb3JtX3N0cnVjdHVyZShwZGZfcGF0aCk6CiAgICBzdHJ1Y3R1cmUgPSB7CiAgICAgICAgInBhZ2VzIjogW10sCiAgICAgICAgImxhYmVscyI6IFtdLAogICAgICAgICJsaW5lcyI6IFtdLAogICAgICAgICJjaGVja2JveGVzIjogW10sCiAgICAgICAgInJvd19ib3VuZGFyaWVzIjogW10KICAgIH0KCiAgICB3aXRoIHBkZnBsdW1iZXIub3BlbihwZGZfcGF0aCkgYXMgcGRmOgogICAgICAgIGZvciBwYWdlX251bSwgcGFnZSBpbiBlbnVtZXJhdGUocGRmLnBhZ2VzLCAxKToKICAgICAgICAgICAgc3RydWN0dXJlWyJwYWdlcyJdLmFwcGVuZCh7CiAgICAgICAgICAgICAgICAicGFnZV9udW1iZXIiOiBwYWdlX251bSwKICAgICAgICAgICAgICAgICJ3aWR0aCI6IGZsb2F0KHBhZ2Uud2lkdGgpLAogICAgICAgICAgICAgICAgImhlaWdodCI6IGZsb2F0KHBhZ2UuaGVpZ2h0KQogICAgICAgICAgICB9KQoKICAgICAgICAgICAgd29yZHMgPSBwYWdlLmV4dHJhY3Rfd29yZHMoKQogICAgICAgICAgICBmb3Igd29yZCBpbiB3b3JkczoKICAgICAgICAgICAgICAgIHN0cnVjdHVyZVsibGFiZWxzIl0uYXBwZW5kKHsKICAgICAgICAgICAgICAgICAgICAicGFnZSI6IHBhZ2VfbnVtLAogICAgICAgICAgICAgICAgICAgICJ0ZXh0Ijogd29yZFsidGV4dCJdLAogICAgICAgICAgICAgICAgICAgICJ4MCI6IHJvdW5kKGZsb2F0KHdvcmRbIngwIl0pLCAxKSwKICAgICAgICAgICAgICAgICAgICAidG9wIjogcm91bmQoZmxvYXQod29yZFsidG9wIl0pLCAxKSwKICAgICAgICAgICAgICAgICAgICAieDEiOiByb3VuZChmbG9hdCh3b3JkWyJ4MSJdKSwgMSksCiAgICAgICAgICAgICAgICAgICAgImJvdHRvbSI6IHJvdW5kKGZsb2F0KHdvcmRbImJvdHRvbSJdKSwgMSkKICAgICAgICAgICAgICAgIH0pCgogICAgICAgICAgICBmb3IgbGluZSBpbiBwYWdlLmxpbmVzOgogICAgICAgICAgICAgICAgaWYgYWJzKGZsb2F0KGxpbmVbIngxIl0pIC0gZmxvYXQobGluZVsieDAiXSkpID4gcGFnZS53aWR0aCAqIDAuNToKICAgICAgICAgICAgICAgICAgICBzdHJ1Y3R1cmVbImxpbmVzIl0uYXBwZW5kKHsKICAgICAgICAgICAgICAgICAgICAgICAgInBhZ2UiOiBwYWdlX251bSwKICAgICAgICAgICAgICAgICAgICAgICAgInkiOiByb3VuZChmbG9hdChsaW5lWyJ0b3AiXSksIDEpLAogICAgICAgICAgICAgICAgICAgICAgICAieDAiOiByb3VuZChmbG9hdChsaW5lWyJ4MCJdKSwgMSksCiAgICAgICAgICAgICAgICAgICAgICAgICJ4MSI6IHJvdW5kKGZsb2F0KGxpbmVbIngxIl0pLCAxKQogICAgICAgICAgICAgICAgICAgIH0pCgogICAgICAgICAgICBmb3IgcmVjdCBpbiBwYWdlLnJlY3RzOgogICAgICAgICAgICAgICAgd2lkdGggPSBmbG9hdChyZWN0WyJ4MSJdKSAtIGZsb2F0KHJlY3RbIngwIl0pCiAgICAgICAgICAgICAgICBoZWlnaHQgPSBmbG9hdChyZWN0WyJib3R0b20iXSkgLSBmbG9hdChyZWN0WyJ0b3AiXSkKICAgICAgICAgICAgICAgIGlmIDUgPD0gd2lkdGggPD0gMTUgYW5kIDUgPD0gaGVpZ2h0IDw9IDE1IGFuZCBhYnMod2lkdGggLSBoZWlnaHQpIDwgMjoKICAgICAgICAgICAgICAgICAgICBzdHJ1Y3R1cmVbImNoZWNrYm94ZXMiXS5hcHBlbmQoewogICAgICAgICAgICAgICAgICAgICAgICAicGFnZSI6IHBhZ2VfbnVtLAogICAgICAgICAgICAgICAgICAgICAgICAieDAiOiByb3VuZChmbG9hdChyZWN0WyJ4MCJdKSwgMSksCiAgICAgICAgICAgICAgICAgICAgICAgICJ0b3AiOiByb3VuZChmbG9hdChyZWN0WyJ0b3AiXSksIDEpLAogICAgICAgICAgICAgICAgICAgICAgICAieDEiOiByb3VuZChmbG9hdChyZWN0WyJ4MSJdKSwgMSksCiAgICAgICAgICAgICAgICAgICAgICAgICJib3R0b20iOiByb3VuZChmbG9hdChyZWN0WyJib3R0b20iXSksIDEpLAogICAgICAgICAgICAgICAgICAgICAgICAiY2VudGVyX3giOiByb3VuZCgoZmxvYXQocmVjdFsieDAiXSkgKyBmbG9hdChyZWN0WyJ4MSJdKSkgLyAyLCAxKSwKICAgICAgICAgICAgICAgICAgICAgICAgImNlbnRlcl95Ijogcm91bmQoKGZsb2F0KHJlY3RbInRvcCJdKSArIGZsb2F0KHJlY3RbImJvdHRvbSJdKSkgLyAyLCAxKQogICAgICAgICAgICAgICAgICAgIH0pCgogICAgbGluZXNfYnlfcGFnZSA9IHt9CiAgICBmb3IgbGluZSBpbiBzdHJ1Y3R1cmVbImxpbmVzIl06CiAgICAgICAgcGFnZSA9IGxpbmVbInBhZ2UiXQogICAgICAgIGlmIHBhZ2Ugbm90IGluIGxpbmVzX2J5X3BhZ2U6CiAgICAgICAgICAgIGxpbmVzX2J5X3BhZ2VbcGFnZV0gPSBbXQogICAgICAgIGxpbmVzX2J5X3BhZ2VbcGFnZV0uYXBwZW5kKGxpbmVbInkiXSkKCiAgICBmb3IgcGFnZSwgeV9jb29yZHMgaW4gbGluZXNfYnlfcGFnZS5pdGVtcygpOgogICAgICAgIHlfY29vcmRzID0gc29ydGVkKHNldCh5X2Nvb3JkcykpCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobGVuKHlfY29vcmRzKSAtIDEpOgogICAgICAgICAgICBzdHJ1Y3R1cmVbInJvd19ib3VuZGFyaWVzIl0uYXBwZW5kKHsKICAgICAgICAgICAgICAgICJwYWdlIjogcGFnZSwKICAgICAgICAgICAgICAgICJyb3dfdG9wIjogeV9jb29yZHNbaV0sCiAgICAgICAgICAgICAgICAicm93X2JvdHRvbSI6IHlfY29vcmRzW2kgKyAxXSwKICAgICAgICAgICAgICAgICJyb3dfaGVpZ2h0Ijogcm91bmQoeV9jb29yZHNbaSArIDFdIC0geV9jb29yZHNbaV0sIDEpCiAgICAgICAgICAgIH0pCgogICAgcmV0dXJuIHN0cnVjdHVyZQoKCmRlZiBtYWluKCk6CiAgICBpZiBsZW4oc3lzLmFyZ3YpICE9IDM6CiAgICAgICAgcHJpbnQoIlVzYWdlOiBleHRyYWN0X2Zvcm1fc3RydWN0dXJlLnB5IDxpbnB1dC5wZGY+IDxvdXRwdXQuanNvbj4iKQogICAgICAgIHN5cy5leGl0KDEpCgogICAgcGRmX3BhdGggPSBzeXMuYXJndlsxXQogICAgb3V0cHV0X3BhdGggPSBzeXMuYXJndlsyXQoKICAgIHByaW50KGYiRXh0cmFjdGluZyBzdHJ1Y3R1cmUgZnJvbSB7cGRmX3BhdGh9Li4uIikKICAgIHN0cnVjdHVyZSA9IGV4dHJhY3RfZm9ybV9zdHJ1Y3R1cmUocGRmX3BhdGgpCgogICAgd2l0aCBvcGVuKG91dHB1dF9wYXRoLCAidyIpIGFzIGY6CiAgICAgICAganNvbi5kdW1wKHN0cnVjdHVyZSwgZiwgaW5kZW50PTIpCgogICAgcHJpbnQoZiJGb3VuZDoiKQogICAgcHJpbnQoZiIgIC0ge2xlbihzdHJ1Y3R1cmVbJ3BhZ2VzJ10pfSBwYWdlcyIpCiAgICBwcmludChmIiAgLSB7bGVuKHN0cnVjdHVyZVsnbGFiZWxzJ10pfSB0ZXh0IGxhYmVscyIpCiAgICBwcmludChmIiAgLSB7bGVuKHN0cnVjdHVyZVsnbGluZXMnXSl9IGhvcml6b250YWwgbGluZXMiKQogICAgcHJpbnQoZiIgIC0ge2xlbihzdHJ1Y3R1cmVbJ2NoZWNrYm94ZXMnXSl9IGNoZWNrYm94ZXMiKQogICAgcHJpbnQoZiIgIC0ge2xlbihzdHJ1Y3R1cmVbJ3Jvd19ib3VuZGFyaWVzJ10pfSByb3cgYm91bmRhcmllcyIpCiAgICBwcmludChmIlNhdmVkIHRvIHtvdXRwdXRfcGF0aH0iKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBtYWluKCkK
+"""
+Extract form structure from a non-fillable PDF.
+
+This script analyzes the PDF to find:
+- Text labels with their exact coordinates
+- Horizontal lines (row boundaries)
+- Checkboxes (small rectangles)
+
+Output: A JSON file with the form structure that can be used to generate
+accurate field coordinates for filling.
+
+Usage: python extract_form_structure.py <input.pdf> <output.json>
+"""
+
+import json
+import sys
+import pdfplumber
+
+
+def extract_form_structure(pdf_path):
+    structure = {
+        "pages": [],
+        "labels": [],
+        "lines": [],
+        "checkboxes": [],
+        "row_boundaries": []
+    }
+
+    with pdfplumber.open(pdf_path) as pdf:
+        for page_num, page in enumerate(pdf.pages, 1):
+            structure["pages"].append({
+                "page_number": page_num,
+                "width": float(page.width),
+                "height": float(page.height)
+            })
+
+            words = page.extract_words()
+            for word in words:
+                structure["labels"].append({
+                    "page": page_num,
+                    "text": word["text"],
+                    "x0": round(float(word["x0"]), 1),
+                    "top": round(float(word["top"]), 1),
+                    "x1": round(float(word["x1"]), 1),
+                    "bottom": round(float(word["bottom"]), 1)
+                })
+
+            for line in page.lines:
+                if abs(float(line["x1"]) - float(line["x0"])) > page.width * 0.5:
+                    structure["lines"].append({
+                        "page": page_num,
+                        "y": round(float(line["top"]), 1),
+                        "x0": round(float(line["x0"]), 1),
+                        "x1": round(float(line["x1"]), 1)
+                    })
+
+            for rect in page.rects:
+                width = float(rect["x1"]) - float(rect["x0"])
+                height = float(rect["bottom"]) - float(rect["top"])
+                if 5 <= width <= 15 and 5 <= height <= 15 and abs(width - height) < 2:
+                    structure["checkboxes"].append({
+                        "page": page_num,
+                        "x0": round(float(rect["x0"]), 1),
+                        "top": round(float(rect["top"]), 1),
+                        "x1": round(float(rect["x1"]), 1),
+                        "bottom": round(float(rect["bottom"]), 1),
+                        "center_x": round((float(rect["x0"]) + float(rect["x1"])) / 2, 1),
+                        "center_y": round((float(rect["top"]) + float(rect["bottom"])) / 2, 1)
+                    })
+
+    lines_by_page = {}
+    for line in structure["lines"]:
+        page = line["page"]
+        if page not in lines_by_page:
+            lines_by_page[page] = []
+        lines_by_page[page].append(line["y"])
+
+    for page, y_coords in lines_by_page.items():
+        y_coords = sorted(set(y_coords))
+        for i in range(len(y_coords) - 1):
+            structure["row_boundaries"].append({
+                "page": page,
+                "row_top": y_coords[i],
+                "row_bottom": y_coords[i + 1],
+                "row_height": round(y_coords[i + 1] - y_coords[i], 1)
+            })
+
+    return structure
+
+
+def main():
+    if len(sys.argv) != 3:
+        print("Usage: extract_form_structure.py <input.pdf> <output.json>")
+        sys.exit(1)
+
+    pdf_path = sys.argv[1]
+    output_path = sys.argv[2]
+
+    print(f"Extracting structure from {pdf_path}...")
+    structure = extract_form_structure(pdf_path)
+
+    with open(output_path, "w") as f:
+        json.dump(structure, f, indent=2)
+
+    print(f"Found:")
+    print(f"  - {len(structure['pages'])} pages")
+    print(f"  - {len(structure['labels'])} text labels")
+    print(f"  - {len(structure['lines'])} horizontal lines")
+    print(f"  - {len(structure['checkboxes'])} checkboxes")
+    print(f"  - {len(structure['row_boundaries'])} row boundaries")
+    print(f"Saved to {output_path}")
+
+
+if __name__ == "__main__":
+    main()

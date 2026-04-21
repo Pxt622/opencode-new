@@ -1,1 +1,137 @@
-IyBMYXlvdXQgUGF0dGVybnMKCjI1IHNsaWRlIGxheW91dHMgd2l0aCBDU1Mgc3RydWN0dXJlcyBhbmQgYW5pbWF0aW9uIGNsYXNzZXMuCgojIyBMYXlvdXQgU2VsZWN0aW9uIGJ5IFVzZSBDYXNlCgp8IExheW91dCB8IFVzZSBDYXNlIHwgQW5pbWF0aW9uIHwKfC0tLS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tLS0tLS18CnwgVGl0bGUgU2xpZGUgfCBPcGVuaW5nL2ZpcnN0IGltcHJlc3Npb24gfCBgYW5pbWF0ZS1mYWRlLXVwYCB8CnwgUHJvYmxlbSBTdGF0ZW1lbnQgfCBFc3RhYmxpc2ggcGFpbiBwb2ludCB8IGBhbmltYXRlLXN0YWdnZXJgIHwKfCBTb2x1dGlvbiBPdmVydmlldyB8IEludHJvZHVjZSBzb2x1dGlvbiB8IGBhbmltYXRlLXNjYWxlYCB8CnwgRmVhdHVyZSBHcmlkIHwgU2hvdyBjYXBhYmlsaXRpZXMgKDMtNiBjYXJkcykgfCBgYW5pbWF0ZS1zdGFnZ2VyYCB8CnwgTWV0cmljcyBEYXNoYm9hcmQgfCBEaXNwbGF5IEtQSXMgKDMtNCBtZXRyaWNzKSB8IGBhbmltYXRlLXN0YWdnZXItc2NhbGVgIHwKfCBDb21wYXJpc29uIFRhYmxlIHwgQ29tcGFyZSBvcHRpb25zIHwgYGFuaW1hdGUtZmFkZS11cGAgfAp8IFRpbWVsaW5lIEZsb3cgfCBTaG93IHByb2dyZXNzaW9uIHwgYGFuaW1hdGUtc3RhZ2dlcmAgfAp8IFRlYW0gR3JpZCB8IEludHJvZHVjZSBwZW9wbGUgfCBgYW5pbWF0ZS1zdGFnZ2VyYCB8CnwgUXVvdGUgVGVzdGltb25pYWwgfCBDdXN0b21lciBlbmRvcnNlbWVudCB8IGBhbmltYXRlLWZhZGUtdXBgIHwKfCBUd28gQ29sdW1uIFNwbGl0IHwgQ29tcGFyZS9jb250cmFzdCB8IGBhbmltYXRlLWZhZGUtdXBgIHwKfCBCaWcgTnVtYmVyIEhlcm8gfCBTaW5nbGUgcG93ZXJmdWwgbWV0cmljIHwgYGFuaW1hdGUtY291bnRgIHwKfCBQcm9kdWN0IFNjcmVlbnNob3QgfCBTaG93IHByb2R1Y3QgVUkgfCBgYW5pbWF0ZS1zY2FsZWAgfAp8IFByaWNpbmcgQ2FyZHMgfCBQcmVzZW50IHRpZXJzIHwgYGFuaW1hdGUtc3RhZ2dlcmAgfAp8IENUQSBDbG9zaW5nIHwgRHJpdmUgYWN0aW9uIHwgYGFuaW1hdGUtcHVsc2VgIHwKCiMjIENTUyBTdHJ1Y3R1cmVzCgojIyMgVGl0bGUgU2xpZGUKYGBgY3NzCi5zbGlkZS10aXRsZSB7CiAgICBkaXNwbGF5OiBmbGV4OwogICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICAgIGp1c3RpZnktY29udGVudDogY2VudGVyOwogICAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKfQpgYGAKCiMjIyBUd28gQ29sdW1uIFNwbGl0CmBgYGNzcwouc2xpZGUtc3BsaXQgewogICAgZGlzcGxheTogZ3JpZDsKICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjsKICAgIGdhcDogNDhweDsKICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgICAuc2xpZGUtc3BsaXQgeyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsgZ2FwOiAyNHB4OyB9Cn0KYGBgCgojIyMgRmVhdHVyZSBHcmlkICgzIGNvbHVtbnMpCmBgYGNzcwouc2xpZGUtZmVhdHVyZXMgewogICAgZGlzcGxheTogZ3JpZDsKICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogcmVwZWF0KDMsIDFmcik7CiAgICBnYXA6IDI0cHg7Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgICAuc2xpZGUtZmVhdHVyZXMgeyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgyLCAxZnIpOyBnYXA6IDE2cHg7IH0KfQpAbWVkaWEgKG1heC13aWR0aDogNDgwcHgpIHsKICAgIC5zbGlkZS1mZWF0dXJlcyB7IGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyOyB9Cn0KYGBgCgojIyMgTWV0cmljcyBEYXNoYm9hcmQgKDQgY29sdW1ucykKYGBgY3NzCi5zbGlkZS1tZXRyaWNzIHsKICAgIGRpc3BsYXk6IGdyaWQ7CiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCg0LCAxZnIpOwogICAgZ2FwOiAxNnB4Owp9CkBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkgewogICAgLnNsaWRlLW1ldHJpY3MgeyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgyLCAxZnIpOyB9Cn0KQG1lZGlhIChtYXgtd2lkdGg6IDQ4MHB4KSB7CiAgICAuc2xpZGUtbWV0cmljcyB7IGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyOyB9Cn0KYGBgCgojIyBDb21wb25lbnQgVmFyaWFudHMKCiMjIyBDYXJkIFN0eWxlcwp8IFN0eWxlIHwgQ1NTIENsYXNzIHwgVXNlIEZvciB8CnwtLS0tLS0tfC0tLS0tLS0tLS0tfC0tLS0tLS0tLXwKfCBJY29uIExlZnQgfCBgLmNhcmQtaWNvbi1sZWZ0YCB8IEZlYXR1cmVzIHdpdGggaWNvbnMgfAp8IEFjY2VudCBCYXIgfCBgLmNhcmQtYWNjZW50LWJhcmAgfCBIaWdobGlnaHRlZCBmZWF0dXJlcyB8CnwgTWV0cmljIENhcmQgfCBgLmNhcmQtbWV0cmljYCB8IE51bWJlcnMvc3RhdHMgfAp8IEF2YXRhciBDYXJkIHwgYC5jYXJkLWF2YXRhcmAgfCBUZWFtIG1lbWJlcnMgfAp8IFByaWNpbmcgQ2FyZCB8IGAuY2FyZC1wcmljaW5nYCB8IFByaWNlIHRpZXJzIHwKCiMjIyBNZXRyaWMgU3R5bGVzCnwgU3R5bGUgfCBFZmZlY3QgfAp8LS0tLS0tLXwtLS0tLS0tLXwKfCBgZ3JhZGllbnQtbnVtYmVyYCB8IEdyYWRpZW50IHRleHQgb24gbnVtYmVycyB8CnwgYG92ZXJzaXplZGAgfCBFeHRyYSBsYXJnZSAoMTIwcHgrKSB8CnwgYHNwYXJrbGluZWAgfCBTbWFsbCBpbmxpbmUgY2hhcnQgfAp8IGBmdW5uZWwtbnVtYmVyc2AgfCBDb252ZXJzaW9uIHN0YWdlcyB8CgojIyBWaXN1YWwgVHJlYXRtZW50cwoKfCBUcmVhdG1lbnQgfCBXaGVuIHRvIFVzZSB8CnwtLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8IGBncmFkaWVudC1nbG93YCB8IFRpdGxlIHNsaWRlcywgQ1RBcyB8CnwgYHN1YnRsZS1ib3JkZXJgIHwgUHJvYmxlbSBzdGF0ZW1lbnRzIHwKfCBgaWNvbi10b3BgIHwgRmVhdHVyZSBncmlkcyB8CnwgYHNjcmVlbnNob3Qtc2hhZG93YCB8IFByb2R1Y3Qgc2NyZWVuc2hvdHMgfAp8IGBwb3B1bGFyLWhpZ2hsaWdodGAgfCBQcmljaW5nIChzY2FsZSAxLjA1KSB8CnwgYGJnLW92ZXJsYXlgIHwgQmFja2dyb3VuZCBpbWFnZXMgfAp8IGBjb250cmFzdC1wYWlyYCB8IEJlZm9yZS9hZnRlciB8CnwgYGxvZ28tZ3JheXNjYWxlYCB8IENsaWVudCBsb2dvcyB8CgojIyBTZWFyY2ggQ29tbWFuZHMKCmBgYGJhc2gKIyBGaW5kIGxheW91dCBmb3Igc3BlY2lmaWMgdXNlCnB5dGhvbiAuY2xhdWRlL3NraWxscy9kZXNpZ24tc3lzdGVtL3NjcmlwdHMvc2VhcmNoLXNsaWRlcy5weSAibWV0cmljcyBkYXNoYm9hcmQiIC1kIGxheW91dAoKIyBDb250ZXh0dWFsIHJlY29tbWVuZGF0aW9uCnB5dGhvbiAuY2xhdWRlL3NraWxscy9kZXNpZ24tc3lzdGVtL3NjcmlwdHMvc2VhcmNoLXNsaWRlcy5weSAidHJhY3Rpb24gc2xpZGUiIFwKICAtLWNvbnRleHQgLS1wb3NpdGlvbiA0IC0tdG90YWwgMTAKYGBgCgojIyBMYXlvdXQgRGVjaXNpb24gRmxvdwoKYGBgCjEuIFdoYXQncyB0aGUgc2xpZGUgZ29hbD8KICAg4pSU4pSAPiBTZWFyY2ggbGF5b3V0LWxvZ2ljLmNzdgoKMi4gV2hhdCBlbW90aW9uIHNob3VsZCBpdCB0cmlnZ2VyPwogICDilJTilIA+IFNlYXJjaCBjb2xvci1sb2dpYy5jc3YKCjMuIFdoYXQncyB0aGUgY29udGVudCB0eXBlPwogICDilJTilIA+IFNlYXJjaCB0eXBvZ3JhcGh5LmNzdgoKNC4gU2hvdWxkIGl0IGJyZWFrIHBhdHRlcm4/CiAgIOKUlOKUgD4gQ2hlY2sgcG9zaXRpb24gKDEvMywgMi8zKSDihpIgVXNlIGZ1bGwtYmxlZWQKYGBgCg==
+# Layout Patterns
+
+25 slide layouts with CSS structures and animation classes.
+
+## Layout Selection by Use Case
+
+| Layout | Use Case | Animation |
+|--------|----------|-----------|
+| Title Slide | Opening/first impression | `animate-fade-up` |
+| Problem Statement | Establish pain point | `animate-stagger` |
+| Solution Overview | Introduce solution | `animate-scale` |
+| Feature Grid | Show capabilities (3-6 cards) | `animate-stagger` |
+| Metrics Dashboard | Display KPIs (3-4 metrics) | `animate-stagger-scale` |
+| Comparison Table | Compare options | `animate-fade-up` |
+| Timeline Flow | Show progression | `animate-stagger` |
+| Team Grid | Introduce people | `animate-stagger` |
+| Quote Testimonial | Customer endorsement | `animate-fade-up` |
+| Two Column Split | Compare/contrast | `animate-fade-up` |
+| Big Number Hero | Single powerful metric | `animate-count` |
+| Product Screenshot | Show product UI | `animate-scale` |
+| Pricing Cards | Present tiers | `animate-stagger` |
+| CTA Closing | Drive action | `animate-pulse` |
+
+## CSS Structures
+
+### Title Slide
+```css
+.slide-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+```
+
+### Two Column Split
+```css
+.slide-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .slide-split { grid-template-columns: 1fr; gap: 24px; }
+}
+```
+
+### Feature Grid (3 columns)
+```css
+.slide-features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+@media (max-width: 768px) {
+    .slide-features { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+}
+@media (max-width: 480px) {
+    .slide-features { grid-template-columns: 1fr; }
+}
+```
+
+### Metrics Dashboard (4 columns)
+```css
+.slide-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+@media (max-width: 768px) {
+    .slide-metrics { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+    .slide-metrics { grid-template-columns: 1fr; }
+}
+```
+
+## Component Variants
+
+### Card Styles
+| Style | CSS Class | Use For |
+|-------|-----------|---------|
+| Icon Left | `.card-icon-left` | Features with icons |
+| Accent Bar | `.card-accent-bar` | Highlighted features |
+| Metric Card | `.card-metric` | Numbers/stats |
+| Avatar Card | `.card-avatar` | Team members |
+| Pricing Card | `.card-pricing` | Price tiers |
+
+### Metric Styles
+| Style | Effect |
+|-------|--------|
+| `gradient-number` | Gradient text on numbers |
+| `oversized` | Extra large (120px+) |
+| `sparkline` | Small inline chart |
+| `funnel-numbers` | Conversion stages |
+
+## Visual Treatments
+
+| Treatment | When to Use |
+|-----------|-------------|
+| `gradient-glow` | Title slides, CTAs |
+| `subtle-border` | Problem statements |
+| `icon-top` | Feature grids |
+| `screenshot-shadow` | Product screenshots |
+| `popular-highlight` | Pricing (scale 1.05) |
+| `bg-overlay` | Background images |
+| `contrast-pair` | Before/after |
+| `logo-grayscale` | Client logos |
+
+## Search Commands
+
+```bash
+# Find layout for specific use
+python .claude/skills/design-system/scripts/search-slides.py "metrics dashboard" -d layout
+
+# Contextual recommendation
+python .claude/skills/design-system/scripts/search-slides.py "traction slide" \
+  --context --position 4 --total 10
+```
+
+## Layout Decision Flow
+
+```
+1. What's the slide goal?
+   └─> Search layout-logic.csv
+
+2. What emotion should it trigger?
+   └─> Search color-logic.csv
+
+3. What's the content type?
+   └─> Search typography.csv
+
+4. Should it break pattern?
+   └─> Check position (1/3, 2/3) → Use full-bleed
+```

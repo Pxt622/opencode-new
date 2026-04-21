@@ -1,1 +1,185 @@
-IyBNZXNzYWdlIEJhdGNoZXMgQVBJIOKAlCBQeXRob24KClRoZSBCYXRjaGVzIEFQSSAoYFBPU1QgL3YxL21lc3NhZ2VzL2JhdGNoZXNgKSBwcm9jZXNzZXMgTWVzc2FnZXMgQVBJIHJlcXVlc3RzIGFzeW5jaHJvbm91c2x5IGF0IDUwJSBvZiBzdGFuZGFyZCBwcmljZXMuCgojIyBLZXkgRmFjdHMKCi0gVXAgdG8gMTAwLDAwMCByZXF1ZXN0cyBvciAyNTYgTUIgcGVyIGJhdGNoCi0gTW9zdCBiYXRjaGVzIGNvbXBsZXRlIHdpdGhpbiAxIGhvdXI7IG1heGltdW0gMjQgaG91cnMKLSBSZXN1bHRzIGF2YWlsYWJsZSBmb3IgMjkgZGF5cyBhZnRlciBjcmVhdGlvbgotIDUwJSBjb3N0IHJlZHVjdGlvbiBvbiBhbGwgdG9rZW4gdXNhZ2UKLSBBbGwgTWVzc2FnZXMgQVBJIGZlYXR1cmVzIHN1cHBvcnRlZCAodmlzaW9uLCB0b29scywgY2FjaGluZywgZXRjLikKCi0tLQoKIyMgQ3JlYXRlIGEgQmF0Y2gKCmBgYHB5dGhvbgppbXBvcnQgYW50aHJvcGljCmZyb20gYW50aHJvcGljLnR5cGVzLm1lc3NhZ2VfY3JlYXRlX3BhcmFtcyBpbXBvcnQgTWVzc2FnZUNyZWF0ZVBhcmFtc05vblN0cmVhbWluZwpmcm9tIGFudGhyb3BpYy50eXBlcy5tZXNzYWdlcy5iYXRjaF9jcmVhdGVfcGFyYW1zIGltcG9ydCBSZXF1ZXN0CgpjbGllbnQgPSBhbnRocm9waWMuQW50aHJvcGljKCkKCm1lc3NhZ2VfYmF0Y2ggPSBjbGllbnQubWVzc2FnZXMuYmF0Y2hlcy5jcmVhdGUoCiAgICByZXF1ZXN0cz1bCiAgICAgICAgUmVxdWVzdCgKICAgICAgICAgICAgY3VzdG9tX2lkPSJyZXF1ZXN0LTEiLAogICAgICAgICAgICBwYXJhbXM9TWVzc2FnZUNyZWF0ZVBhcmFtc05vblN0cmVhbWluZygKICAgICAgICAgICAgICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgICAgICAgICAgICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgICAgICAgICAgICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlN1bW1hcml6ZSBjbGltYXRlIGNoYW5nZSBpbXBhY3RzIn1dCiAgICAgICAgICAgICkKICAgICAgICApLAogICAgICAgIFJlcXVlc3QoCiAgICAgICAgICAgIGN1c3RvbV9pZD0icmVxdWVzdC0yIiwKICAgICAgICAgICAgcGFyYW1zPU1lc3NhZ2VDcmVhdGVQYXJhbXNOb25TdHJlYW1pbmcoCiAgICAgICAgICAgICAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgICAgICAgICAgICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICAgICAgICAgICAgICBtZXNzYWdlcz1beyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICJFeHBsYWluIHF1YW50dW0gY29tcHV0aW5nIGJhc2ljcyJ9XQogICAgICAgICAgICApCiAgICAgICAgKSwKICAgIF0KKQoKcHJpbnQoZiJCYXRjaCBJRDoge21lc3NhZ2VfYmF0Y2guaWR9IikKcHJpbnQoZiJTdGF0dXM6IHttZXNzYWdlX2JhdGNoLnByb2Nlc3Npbmdfc3RhdHVzfSIpCmBgYAoKLS0tCgojIyBQb2xsIGZvciBDb21wbGV0aW9uCgpgYGBweXRob24KaW1wb3J0IHRpbWUKCndoaWxlIFRydWU6CiAgICBiYXRjaCA9IGNsaWVudC5tZXNzYWdlcy5iYXRjaGVzLnJldHJpZXZlKG1lc3NhZ2VfYmF0Y2guaWQpCiAgICBpZiBiYXRjaC5wcm9jZXNzaW5nX3N0YXR1cyA9PSAiZW5kZWQiOgogICAgICAgIGJyZWFrCiAgICBwcmludChmIlN0YXR1czoge2JhdGNoLnByb2Nlc3Npbmdfc3RhdHVzfSwgcHJvY2Vzc2luZzoge2JhdGNoLnJlcXVlc3RfY291bnRzLnByb2Nlc3Npbmd9IikKICAgIHRpbWUuc2xlZXAoNjApCgpwcmludCgiQmF0Y2ggY29tcGxldGUhIikKcHJpbnQoZiJTdWNjZWVkZWQ6IHtiYXRjaC5yZXF1ZXN0X2NvdW50cy5zdWNjZWVkZWR9IikKcHJpbnQoZiJFcnJvcmVkOiB7YmF0Y2gucmVxdWVzdF9jb3VudHMuZXJyb3JlZH0iKQpgYGAKCi0tLQoKIyMgUmV0cmlldmUgUmVzdWx0cwoKPiAqKk5vdGU6KiogRXhhbXBsZXMgYmVsb3cgdXNlIGBtYXRjaC9jYXNlYCBzeW50YXgsIHJlcXVpcmluZyBQeXRob24gMy4xMCsuIEZvciBlYXJsaWVyIHZlcnNpb25zLCB1c2UgYGlmL2VsaWZgIGNoYWlucyBpbnN0ZWFkLgoKYGBgcHl0aG9uCmZvciByZXN1bHQgaW4gY2xpZW50Lm1lc3NhZ2VzLmJhdGNoZXMucmVzdWx0cyhtZXNzYWdlX2JhdGNoLmlkKToKICAgIG1hdGNoIHJlc3VsdC5yZXN1bHQudHlwZToKICAgICAgICBjYXNlICJzdWNjZWVkZWQiOgogICAgICAgICAgICBtc2cgPSByZXN1bHQucmVzdWx0Lm1lc3NhZ2UKICAgICAgICAgICAgdGV4dCA9IG5leHQoKGIudGV4dCBmb3IgYiBpbiBtc2cuY29udGVudCBpZiBiLnR5cGUgPT0gInRleHQiKSwgIiIpCiAgICAgICAgICAgIHByaW50KGYiW3tyZXN1bHQuY3VzdG9tX2lkfV0ge3RleHRbOjEwMF19IikKICAgICAgICBjYXNlICJlcnJvcmVkIjoKICAgICAgICAgICAgaWYgcmVzdWx0LnJlc3VsdC5lcnJvci50eXBlID09ICJpbnZhbGlkX3JlcXVlc3QiOgogICAgICAgICAgICAgICAgcHJpbnQoZiJbe3Jlc3VsdC5jdXN0b21faWR9XSBWYWxpZGF0aW9uIGVycm9yIC0gZml4IHJlcXVlc3QgYW5kIHJldHJ5IikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByaW50KGYiW3tyZXN1bHQuY3VzdG9tX2lkfV0gU2VydmVyIGVycm9yIC0gc2FmZSB0byByZXRyeSIpCiAgICAgICAgY2FzZSAiY2FuY2VsZWQiOgogICAgICAgICAgICBwcmludChmIlt7cmVzdWx0LmN1c3RvbV9pZH1dIENhbmNlbGVkIikKICAgICAgICBjYXNlICJleHBpcmVkIjoKICAgICAgICAgICAgcHJpbnQoZiJbe3Jlc3VsdC5jdXN0b21faWR9XSBFeHBpcmVkIC0gcmVzdWJtaXQiKQpgYGAKCi0tLQoKIyMgQ2FuY2VsIGEgQmF0Y2gKCmBgYHB5dGhvbgpjYW5jZWxsZWQgPSBjbGllbnQubWVzc2FnZXMuYmF0Y2hlcy5jYW5jZWwobWVzc2FnZV9iYXRjaC5pZCkKcHJpbnQoZiJTdGF0dXM6IHtjYW5jZWxsZWQucHJvY2Vzc2luZ19zdGF0dXN9IikgICMgImNhbmNlbGluZyIKYGBgCgotLS0KCiMjIEJhdGNoIHdpdGggUHJvbXB0IENhY2hpbmcKCmBgYHB5dGhvbgpzaGFyZWRfc3lzdGVtID0gWwogICAgeyJ0eXBlIjogInRleHQiLCAidGV4dCI6ICJZb3UgYXJlIGEgbGl0ZXJhcnkgYW5hbHlzdC4ifSwKICAgIHsKICAgICAgICAidHlwZSI6ICJ0ZXh0IiwKICAgICAgICAidGV4dCI6IGxhcmdlX2RvY3VtZW50X3RleHQsICAjIFNoYXJlZCBhY3Jvc3MgYWxsIHJlcXVlc3RzCiAgICAgICAgImNhY2hlX2NvbnRyb2wiOiB7InR5cGUiOiAiZXBoZW1lcmFsIn0KICAgIH0KXQoKbWVzc2FnZV9iYXRjaCA9IGNsaWVudC5tZXNzYWdlcy5iYXRjaGVzLmNyZWF0ZSgKICAgIHJlcXVlc3RzPVsKICAgICAgICBSZXF1ZXN0KAogICAgICAgICAgICBjdXN0b21faWQ9ZiJhbmFseXNpcy17aX0iLAogICAgICAgICAgICBwYXJhbXM9TWVzc2FnZUNyZWF0ZVBhcmFtc05vblN0cmVhbWluZygKICAgICAgICAgICAgICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgICAgICAgICAgICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgICAgICAgICAgICAgIHN5c3RlbT1zaGFyZWRfc3lzdGVtLAogICAgICAgICAgICAgICAgbWVzc2FnZXM9W3sicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiBxdWVzdGlvbn1dCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgZm9yIGksIHF1ZXN0aW9uIGluIGVudW1lcmF0ZShxdWVzdGlvbnMpCiAgICBdCikKYGBgCgotLS0KCiMjIEZ1bGwgRW5kLXRvLUVuZCBFeGFtcGxlCgpgYGBweXRob24KaW1wb3J0IGFudGhyb3BpYwppbXBvcnQgdGltZQpmcm9tIGFudGhyb3BpYy50eXBlcy5tZXNzYWdlX2NyZWF0ZV9wYXJhbXMgaW1wb3J0IE1lc3NhZ2VDcmVhdGVQYXJhbXNOb25TdHJlYW1pbmcKZnJvbSBhbnRocm9waWMudHlwZXMubWVzc2FnZXMuYmF0Y2hfY3JlYXRlX3BhcmFtcyBpbXBvcnQgUmVxdWVzdAoKY2xpZW50ID0gYW50aHJvcGljLkFudGhyb3BpYygpCgojIDEuIFByZXBhcmUgcmVxdWVzdHMKaXRlbXNfdG9fY2xhc3NpZnkgPSBbCiAgICAiVGhlIHByb2R1Y3QgcXVhbGl0eSBpcyBleGNlbGxlbnQhIiwKICAgICJUZXJyaWJsZSBjdXN0b21lciBzZXJ2aWNlLCBuZXZlciBhZ2Fpbi4iLAogICAgIkl0J3Mgb2theSwgbm90aGluZyBzcGVjaWFsLiIsCl0KCnJlcXVlc3RzID0gWwogICAgUmVxdWVzdCgKICAgICAgICBjdXN0b21faWQ9ZiJjbGFzc2lmeS17aX0iLAogICAgICAgIHBhcmFtcz1NZXNzYWdlQ3JlYXRlUGFyYW1zTm9uU3RyZWFtaW5nKAogICAgICAgICAgICBtb2RlbD0iY2xhdWRlLWhhaWt1LTQtNSIsCiAgICAgICAgICAgIG1heF90b2tlbnM9NTAsCiAgICAgICAgICAgIG1lc3NhZ2VzPVt7CiAgICAgICAgICAgICAgICAicm9sZSI6ICJ1c2VyIiwKICAgICAgICAgICAgICAgICJjb250ZW50IjogZiJDbGFzc2lmeSBhcyBwb3NpdGl2ZS9uZWdhdGl2ZS9uZXV0cmFsIChvbmUgd29yZCk6IHt0ZXh0fSIKICAgICAgICAgICAgfV0KICAgICAgICApCiAgICApCiAgICBmb3IgaSwgdGV4dCBpbiBlbnVtZXJhdGUoaXRlbXNfdG9fY2xhc3NpZnkpCl0KCiMgMi4gQ3JlYXRlIGJhdGNoCmJhdGNoID0gY2xpZW50Lm1lc3NhZ2VzLmJhdGNoZXMuY3JlYXRlKHJlcXVlc3RzPXJlcXVlc3RzKQpwcmludChmIkNyZWF0ZWQgYmF0Y2g6IHtiYXRjaC5pZH0iKQoKIyAzLiBXYWl0IGZvciBjb21wbGV0aW9uCndoaWxlIFRydWU6CiAgICBiYXRjaCA9IGNsaWVudC5tZXNzYWdlcy5iYXRjaGVzLnJldHJpZXZlKGJhdGNoLmlkKQogICAgaWYgYmF0Y2gucHJvY2Vzc2luZ19zdGF0dXMgPT0gImVuZGVkIjoKICAgICAgICBicmVhawogICAgdGltZS5zbGVlcCgxMCkKCiMgNC4gQ29sbGVjdCByZXN1bHRzCnJlc3VsdHMgPSB7fQpmb3IgcmVzdWx0IGluIGNsaWVudC5tZXNzYWdlcy5iYXRjaGVzLnJlc3VsdHMoYmF0Y2guaWQpOgogICAgaWYgcmVzdWx0LnJlc3VsdC50eXBlID09ICJzdWNjZWVkZWQiOgogICAgICAgIG1zZyA9IHJlc3VsdC5yZXN1bHQubWVzc2FnZQogICAgICAgIHJlc3VsdHNbcmVzdWx0LmN1c3RvbV9pZF0gPSBuZXh0KChiLnRleHQgZm9yIGIgaW4gbXNnLmNvbnRlbnQgaWYgYi50eXBlID09ICJ0ZXh0IiksICIiKQoKZm9yIGN1c3RvbV9pZCwgY2xhc3NpZmljYXRpb24gaW4gc29ydGVkKHJlc3VsdHMuaXRlbXMoKSk6CiAgICBwcmludChmIntjdXN0b21faWR9OiB7Y2xhc3NpZmljYXRpb259IikKYGBgCg==
+# Message Batches API — Python
+
+The Batches API (`POST /v1/messages/batches`) processes Messages API requests asynchronously at 50% of standard prices.
+
+## Key Facts
+
+- Up to 100,000 requests or 256 MB per batch
+- Most batches complete within 1 hour; maximum 24 hours
+- Results available for 29 days after creation
+- 50% cost reduction on all token usage
+- All Messages API features supported (vision, tools, caching, etc.)
+
+---
+
+## Create a Batch
+
+```python
+import anthropic
+from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
+from anthropic.types.messages.batch_create_params import Request
+
+client = anthropic.Anthropic()
+
+message_batch = client.messages.batches.create(
+    requests=[
+        Request(
+            custom_id="request-1",
+            params=MessageCreateParamsNonStreaming(
+                model="claude-opus-4-6",
+                max_tokens=16000,
+                messages=[{"role": "user", "content": "Summarize climate change impacts"}]
+            )
+        ),
+        Request(
+            custom_id="request-2",
+            params=MessageCreateParamsNonStreaming(
+                model="claude-opus-4-6",
+                max_tokens=16000,
+                messages=[{"role": "user", "content": "Explain quantum computing basics"}]
+            )
+        ),
+    ]
+)
+
+print(f"Batch ID: {message_batch.id}")
+print(f"Status: {message_batch.processing_status}")
+```
+
+---
+
+## Poll for Completion
+
+```python
+import time
+
+while True:
+    batch = client.messages.batches.retrieve(message_batch.id)
+    if batch.processing_status == "ended":
+        break
+    print(f"Status: {batch.processing_status}, processing: {batch.request_counts.processing}")
+    time.sleep(60)
+
+print("Batch complete!")
+print(f"Succeeded: {batch.request_counts.succeeded}")
+print(f"Errored: {batch.request_counts.errored}")
+```
+
+---
+
+## Retrieve Results
+
+> **Note:** Examples below use `match/case` syntax, requiring Python 3.10+. For earlier versions, use `if/elif` chains instead.
+
+```python
+for result in client.messages.batches.results(message_batch.id):
+    match result.result.type:
+        case "succeeded":
+            msg = result.result.message
+            text = next((b.text for b in msg.content if b.type == "text"), "")
+            print(f"[{result.custom_id}] {text[:100]}")
+        case "errored":
+            if result.result.error.type == "invalid_request":
+                print(f"[{result.custom_id}] Validation error - fix request and retry")
+            else:
+                print(f"[{result.custom_id}] Server error - safe to retry")
+        case "canceled":
+            print(f"[{result.custom_id}] Canceled")
+        case "expired":
+            print(f"[{result.custom_id}] Expired - resubmit")
+```
+
+---
+
+## Cancel a Batch
+
+```python
+cancelled = client.messages.batches.cancel(message_batch.id)
+print(f"Status: {cancelled.processing_status}")  # "canceling"
+```
+
+---
+
+## Batch with Prompt Caching
+
+```python
+shared_system = [
+    {"type": "text", "text": "You are a literary analyst."},
+    {
+        "type": "text",
+        "text": large_document_text,  # Shared across all requests
+        "cache_control": {"type": "ephemeral"}
+    }
+]
+
+message_batch = client.messages.batches.create(
+    requests=[
+        Request(
+            custom_id=f"analysis-{i}",
+            params=MessageCreateParamsNonStreaming(
+                model="claude-opus-4-6",
+                max_tokens=16000,
+                system=shared_system,
+                messages=[{"role": "user", "content": question}]
+            )
+        )
+        for i, question in enumerate(questions)
+    ]
+)
+```
+
+---
+
+## Full End-to-End Example
+
+```python
+import anthropic
+import time
+from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
+from anthropic.types.messages.batch_create_params import Request
+
+client = anthropic.Anthropic()
+
+# 1. Prepare requests
+items_to_classify = [
+    "The product quality is excellent!",
+    "Terrible customer service, never again.",
+    "It's okay, nothing special.",
+]
+
+requests = [
+    Request(
+        custom_id=f"classify-{i}",
+        params=MessageCreateParamsNonStreaming(
+            model="claude-haiku-4-5",
+            max_tokens=50,
+            messages=[{
+                "role": "user",
+                "content": f"Classify as positive/negative/neutral (one word): {text}"
+            }]
+        )
+    )
+    for i, text in enumerate(items_to_classify)
+]
+
+# 2. Create batch
+batch = client.messages.batches.create(requests=requests)
+print(f"Created batch: {batch.id}")
+
+# 3. Wait for completion
+while True:
+    batch = client.messages.batches.retrieve(batch.id)
+    if batch.processing_status == "ended":
+        break
+    time.sleep(10)
+
+# 4. Collect results
+results = {}
+for result in client.messages.batches.results(batch.id):
+    if result.result.type == "succeeded":
+        msg = result.result.message
+        results[result.custom_id] = next((b.text for b in msg.content if b.type == "text"), "")
+
+for custom_id, classification in sorted(results.items()):
+    print(f"{custom_id}: {classification}")
+```

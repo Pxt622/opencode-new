@@ -1,1 +1,99 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogZW1iZWQtdG9rZW5zLmNqcwogKiBSZWFkcyBkZXNpZ24tdG9rZW5zLmNzcyBhbmQgb3V0cHV0cyBlbWJlZGRhYmxlIGlubGluZSBDU1MuCiAqIFVzZSB3aGVuIGdlbmVyYXRpbmcgc3RhbmRhbG9uZSBIVE1MIGZpbGVzIChpbmZvZ3JhcGhpY3MsIHNsaWRlcywgZXRjLikKICoKICogVXNhZ2U6CiAqICAgbm9kZSBlbWJlZC10b2tlbnMuY2pzICAgICAgICAgICAjIE91dHB1dCBmdWxsIENTUwogKiAgIG5vZGUgZW1iZWQtdG9rZW5zLmNqcyAtLW1pbmltYWwgIyBPdXRwdXQgb25seSBjb21tb25seSB1c2VkIHRva2VucwogKiAgIG5vZGUgZW1iZWQtdG9rZW5zLmNqcyAtLXN0eWxlICAgIyBXcmFwIGluIDxzdHlsZT4gdGFncwogKi8KCmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKCi8vIEZpbmQgcHJvamVjdCByb290IChsb29rIGZvciBhc3NldHMvZGVzaWduLXRva2Vucy5jc3MpCmZ1bmN0aW9uIGZpbmRQcm9qZWN0Um9vdChzdGFydERpcikgewogIGxldCBkaXIgPSBzdGFydERpcjsKICB3aGlsZSAoZGlyICE9PSAnLycpIHsKICAgIGlmIChmcy5leGlzdHNTeW5jKHBhdGguam9pbihkaXIsICdhc3NldHMnLCAnZGVzaWduLXRva2Vucy5jc3MnKSkpIHsKICAgICAgcmV0dXJuIGRpcjsKICAgIH0KICAgIGRpciA9IHBhdGguZGlybmFtZShkaXIpOwogIH0KICByZXR1cm4gbnVsbDsKfQoKY29uc3QgcHJvamVjdFJvb3QgPSBmaW5kUHJvamVjdFJvb3QocHJvY2Vzcy5jd2QoKSk7CmlmICghcHJvamVjdFJvb3QpIHsKICBjb25zb2xlLmVycm9yKCdFcnJvcjogQ291bGQgbm90IGZpbmQgYXNzZXRzL2Rlc2lnbi10b2tlbnMuY3NzJyk7CiAgcHJvY2Vzcy5leGl0KDEpOwp9Cgpjb25zdCB0b2tlbnNQYXRoID0gcGF0aC5qb2luKHByb2plY3RSb290LCAnYXNzZXRzJywgJ2Rlc2lnbi10b2tlbnMuY3NzJyk7CgovLyBNaW5pbWFsIHRva2VucyBjb21tb25seSB1c2VkIGluIGluZm9ncmFwaGljcy9zbGlkZXMKY29uc3QgTUlOSU1BTF9UT0tFTlMgPSBbCiAgJy0tcHJpbWl0aXZlLXNwYWNpbmctJywKICAnLS1wcmltaXRpdmUtZm9udFNpemUtJywKICAnLS1wcmltaXRpdmUtZm9udFdlaWdodC0nLAogICctLXByaW1pdGl2ZS1saW5lSGVpZ2h0LScsCiAgJy0tcHJpbWl0aXZlLXJhZGl1cy0nLAogICctLXByaW1pdGl2ZS1zaGFkb3ctZ2xvdy0nLAogICctLXByaW1pdGl2ZS1ncmFkaWVudC0nLAogICctLXByaW1pdGl2ZS1kdXJhdGlvbi0nLAogICctLWNvbG9yLXByaW1hcnknLAogICctLWNvbG9yLXNlY29uZGFyeScsCiAgJy0tY29sb3ItYWNjZW50JywKICAnLS1jb2xvci1iYWNrZ3JvdW5kJywKICAnLS1jb2xvci1zdXJmYWNlJywKICAnLS1jb2xvci1mb3JlZ3JvdW5kJywKICAnLS1jb2xvci1ib3JkZXInLAogICctLXR5cG9ncmFwaHktZm9udC0nLAogICctLWNhcmQtJywKXTsKCmZ1bmN0aW9uIGV4dHJhY3RUb2tlbnMoY3NzLCBtaW5pbWFsID0gZmFsc2UpIHsKICAvLyBFeHRyYWN0IDpyb290IGJsb2NrCiAgY29uc3Qgcm9vdE1hdGNoID0gY3NzLm1hdGNoKC86cm9vdFxzKlx7KFtefV0rKVx9L2cpOwogIGlmICghcm9vdE1hdGNoKSByZXR1cm4gJyc7CgogIGxldCBhbGxWYXJzID0gW107CiAgZm9yIChjb25zdCBibG9jayBvZiByb290TWF0Y2gpIHsKICAgIGNvbnN0IHZhcnMgPSBibG9jay5tYXRjaCgvLS1bXHctXSs6XHMqW147XSs7L2cpIHx8IFtdOwogICAgYWxsVmFycyA9IGFsbFZhcnMuY29uY2F0KHZhcnMpOwogIH0KCiAgaWYgKG1pbmltYWwpIHsKICAgIGFsbFZhcnMgPSBhbGxWYXJzLmZpbHRlcih2ID0+CiAgICAgIE1JTklNQUxfVE9LRU5TLnNvbWUodG9rZW4gPT4gdi5pbmNsdWRlcyh0b2tlbikpCiAgICApOwogIH0KCiAgLy8gRGVkdXBlCiAgYWxsVmFycyA9IFsuLi5uZXcgU2V0KGFsbFZhcnMpXTsKCiAgcmV0dXJuIGA6cm9vdCB7XG4gICR7YWxsVmFycy5qb2luKCdcbiAgJyl9XG59YDsKfQoKLy8gUGFyc2UgYXJncwpjb25zdCBhcmdzID0gcHJvY2Vzcy5hcmd2LnNsaWNlKDIpOwpjb25zdCBtaW5pbWFsID0gYXJncy5pbmNsdWRlcygnLS1taW5pbWFsJyk7CmNvbnN0IHdyYXBTdHlsZSA9IGFyZ3MuaW5jbHVkZXMoJy0tc3R5bGUnKTsKCnRyeSB7CiAgY29uc3QgY3NzID0gZnMucmVhZEZpbGVTeW5jKHRva2Vuc1BhdGgsICd1dGYtOCcpOwogIGxldCBvdXRwdXQgPSBleHRyYWN0VG9rZW5zKGNzcywgbWluaW1hbCk7CgogIGlmICh3cmFwU3R5bGUpIHsKICAgIG91dHB1dCA9IGA8c3R5bGU+XG4vKiBEZXNpZ24gVG9rZW5zIChlbWJlZGRlZCBmb3Igc3RhbmRhbG9uZSBIVE1MKSAqL1xuJHtvdXRwdXR9XG48L3N0eWxlPmA7CiAgfSBlbHNlIHsKICAgIG91dHB1dCA9IGAvKiBEZXNpZ24gVG9rZW5zIChlbWJlZGRlZCBmb3Igc3RhbmRhbG9uZSBIVE1MKSAqL1xuJHtvdXRwdXR9YDsKICB9CgogIGNvbnNvbGUubG9nKG91dHB1dCk7Cn0gY2F0Y2ggKGVycikgewogIGNvbnNvbGUuZXJyb3IoYEVycm9yIHJlYWRpbmcgdG9rZW5zOiAke2Vyci5tZXNzYWdlfWApOwogIHByb2Nlc3MuZXhpdCgxKTsKfQo=
+#!/usr/bin/env node
+/**
+ * embed-tokens.cjs
+ * Reads design-tokens.css and outputs embeddable inline CSS.
+ * Use when generating standalone HTML files (infographics, slides, etc.)
+ *
+ * Usage:
+ *   node embed-tokens.cjs           # Output full CSS
+ *   node embed-tokens.cjs --minimal # Output only commonly used tokens
+ *   node embed-tokens.cjs --style   # Wrap in <style> tags
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+// Find project root (look for assets/design-tokens.css)
+function findProjectRoot(startDir) {
+  let dir = startDir;
+  while (dir !== '/') {
+    if (fs.existsSync(path.join(dir, 'assets', 'design-tokens.css'))) {
+      return dir;
+    }
+    dir = path.dirname(dir);
+  }
+  return null;
+}
+
+const projectRoot = findProjectRoot(process.cwd());
+if (!projectRoot) {
+  console.error('Error: Could not find assets/design-tokens.css');
+  process.exit(1);
+}
+
+const tokensPath = path.join(projectRoot, 'assets', 'design-tokens.css');
+
+// Minimal tokens commonly used in infographics/slides
+const MINIMAL_TOKENS = [
+  '--primitive-spacing-',
+  '--primitive-fontSize-',
+  '--primitive-fontWeight-',
+  '--primitive-lineHeight-',
+  '--primitive-radius-',
+  '--primitive-shadow-glow-',
+  '--primitive-gradient-',
+  '--primitive-duration-',
+  '--color-primary',
+  '--color-secondary',
+  '--color-accent',
+  '--color-background',
+  '--color-surface',
+  '--color-foreground',
+  '--color-border',
+  '--typography-font-',
+  '--card-',
+];
+
+function extractTokens(css, minimal = false) {
+  // Extract :root block
+  const rootMatch = css.match(/:root\s*\{([^}]+)\}/g);
+  if (!rootMatch) return '';
+
+  let allVars = [];
+  for (const block of rootMatch) {
+    const vars = block.match(/--[\w-]+:\s*[^;]+;/g) || [];
+    allVars = allVars.concat(vars);
+  }
+
+  if (minimal) {
+    allVars = allVars.filter(v =>
+      MINIMAL_TOKENS.some(token => v.includes(token))
+    );
+  }
+
+  // Dedupe
+  allVars = [...new Set(allVars)];
+
+  return `:root {\n  ${allVars.join('\n  ')}\n}`;
+}
+
+// Parse args
+const args = process.argv.slice(2);
+const minimal = args.includes('--minimal');
+const wrapStyle = args.includes('--style');
+
+try {
+  const css = fs.readFileSync(tokensPath, 'utf-8');
+  let output = extractTokens(css, minimal);
+
+  if (wrapStyle) {
+    output = `<style>\n/* Design Tokens (embedded for standalone HTML) */\n${output}\n</style>`;
+  } else {
+    output = `/* Design Tokens (embedded for standalone HTML) */\n${output}`;
+  }
+
+  console.log(output);
+} catch (err) {
+  console.error(`Error reading tokens: ${err.message}`);
+  process.exit(1);
+}

@@ -1,1 +1,209 @@
-IyBBZ2VudCBTREsgUGF0dGVybnMg4oCUIFR5cGVTY3JpcHQKCiMjIEJhc2ljIEFnZW50CgpgYGB0eXBlc2NyaXB0CmltcG9ydCB7IHF1ZXJ5IH0gZnJvbSAiQGFudGhyb3BpYy1haS9jbGF1ZGUtYWdlbnQtc2RrIjsKCmFzeW5jIGZ1bmN0aW9uIG1haW4oKSB7CiAgZm9yIGF3YWl0IChjb25zdCBtZXNzYWdlIG9mIHF1ZXJ5KHsKICAgIHByb21wdDogIkV4cGxhaW4gd2hhdCB0aGlzIHJlcG9zaXRvcnkgZG9lcyIsCiAgICBvcHRpb25zOiB7CiAgICAgIGN3ZDogIi9wYXRoL3RvL3Byb2plY3QiLAogICAgICBhbGxvd2VkVG9vbHM6IFsiUmVhZCIsICJHbG9iIiwgIkdyZXAiXSwKICAgIH0sCiAgfSkpIHsKICAgIGlmICgicmVzdWx0IiBpbiBtZXNzYWdlKSB7CiAgICAgIGNvbnNvbGUubG9nKG1lc3NhZ2UucmVzdWx0KTsKICAgIH0KICB9Cn0KCm1haW4oKTsKYGBgCgotLS0KCiMjIEhvb2tzCgojIyMgQWZ0ZXIgVG9vbCBVc2UgSG9vawoKYGBgdHlwZXNjcmlwdAppbXBvcnQgeyBxdWVyeSwgSG9va0NhbGxiYWNrIH0gZnJvbSAiQGFudGhyb3BpYy1haS9jbGF1ZGUtYWdlbnQtc2RrIjsKaW1wb3J0IHsgYXBwZW5kRmlsZVN5bmMgfSBmcm9tICJmcyI7Cgpjb25zdCBsb2dGaWxlQ2hhbmdlOiBIb29rQ2FsbGJhY2sgPSBhc3luYyAoaW5wdXQpID0+IHsKICBjb25zdCBmaWxlUGF0aCA9IChpbnB1dCBhcyBhbnkpLnRvb2xfaW5wdXQ/LmZpbGVfcGF0aCA/PyAidW5rbm93biI7CiAgYXBwZW5kRmlsZVN5bmMoCiAgICAiLi9hdWRpdC5sb2ciLAogICAgYCR7bmV3IERhdGUoKS50b0lTT1N0cmluZygpfTogbW9kaWZpZWQgJHtmaWxlUGF0aH1cbmAsCiAgKTsKICByZXR1cm4ge307Cn07Cgpmb3IgYXdhaXQgKGNvbnN0IG1lc3NhZ2Ugb2YgcXVlcnkoewogIHByb21wdDogIlJlZmFjdG9yIHV0aWxzLnB5IHRvIGltcHJvdmUgcmVhZGFiaWxpdHkiLAogIG9wdGlvbnM6IHsKICAgIGFsbG93ZWRUb29sczogWyJSZWFkIiwgIkVkaXQiLCAiV3JpdGUiXSwKICAgIHBlcm1pc3Npb25Nb2RlOiAiYWNjZXB0RWRpdHMiLAogICAgaG9va3M6IHsKICAgICAgUG9zdFRvb2xVc2U6IFt7IG1hdGNoZXI6ICJFZGl0fFdyaXRlIiwgaG9va3M6IFtsb2dGaWxlQ2hhbmdlXSB9XSwKICAgIH0sCiAgfSwKfSkpIHsKICBpZiAoInJlc3VsdCIgaW4gbWVzc2FnZSkgY29uc29sZS5sb2cobWVzc2FnZS5yZXN1bHQpOwp9CmBgYAoKLS0tCgojIyBTdWJhZ2VudHMKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IHsgcXVlcnkgfSBmcm9tICJAYW50aHJvcGljLWFpL2NsYXVkZS1hZ2VudC1zZGsiOwoKZm9yIGF3YWl0IChjb25zdCBtZXNzYWdlIG9mIHF1ZXJ5KHsKICBwcm9tcHQ6ICJVc2UgdGhlIGNvZGUtcmV2aWV3ZXIgYWdlbnQgdG8gcmV2aWV3IHRoaXMgY29kZWJhc2UiLAogIG9wdGlvbnM6IHsKICAgIGFsbG93ZWRUb29sczogWyJSZWFkIiwgIkdsb2IiLCAiR3JlcCIsICJBZ2VudCJdLAogICAgYWdlbnRzOiB7CiAgICAgICJjb2RlLXJldmlld2VyIjogewogICAgICAgIGRlc2NyaXB0aW9uOiAiRXhwZXJ0IGNvZGUgcmV2aWV3ZXIgZm9yIHF1YWxpdHkgYW5kIHNlY3VyaXR5IHJldmlld3MuIiwKICAgICAgICBwcm9tcHQ6ICJBbmFseXplIGNvZGUgcXVhbGl0eSBhbmQgc3VnZ2VzdCBpbXByb3ZlbWVudHMuIiwKICAgICAgICB0b29sczogWyJSZWFkIiwgIkdsb2IiLCAiR3JlcCJdLAogICAgICB9LAogICAgfSwKICB9LAp9KSkgewogIGlmICgicmVzdWx0IiBpbiBtZXNzYWdlKSBjb25zb2xlLmxvZyhtZXNzYWdlLnJlc3VsdCk7Cn0KYGBgCgotLS0KCiMjIE1DUCBTZXJ2ZXIgSW50ZWdyYXRpb24KCiMjIyBCcm93c2VyIEF1dG9tYXRpb24gKFBsYXl3cmlnaHQpCgpgYGB0eXBlc2NyaXB0CmZvciBhd2FpdCAoY29uc3QgbWVzc2FnZSBvZiBxdWVyeSh7CiAgcHJvbXB0OiAiT3BlbiBleGFtcGxlLmNvbSBhbmQgZGVzY3JpYmUgd2hhdCB5b3Ugc2VlIiwKICBvcHRpb25zOiB7CiAgICBtY3BTZXJ2ZXJzOiB7CiAgICAgIHBsYXl3cmlnaHQ6IHsgY29tbWFuZDogIm5weCIsIGFyZ3M6IFsiQHBsYXl3cmlnaHQvbWNwQGxhdGVzdCJdIH0sCiAgICB9LAogIH0sCn0pKSB7CiAgaWYgKCJyZXN1bHQiIGluIG1lc3NhZ2UpIGNvbnNvbGUubG9nKG1lc3NhZ2UucmVzdWx0KTsKfQpgYGAKCi0tLQoKIyMgU2Vzc2lvbiBSZXN1bXB0aW9uCgpgYGB0eXBlc2NyaXB0CmltcG9ydCB7IHF1ZXJ5IH0gZnJvbSAiQGFudGhyb3BpYy1haS9jbGF1ZGUtYWdlbnQtc2RrIjsKCmxldCBzZXNzaW9uSWQ6IHN0cmluZyB8IHVuZGVmaW5lZDsKCi8vIEZpcnN0IHF1ZXJ5OiBjYXB0dXJlIHRoZSBzZXNzaW9uIElECmZvciBhd2FpdCAoY29uc3QgbWVzc2FnZSBvZiBxdWVyeSh7CiAgcHJvbXB0OiAiUmVhZCB0aGUgYXV0aGVudGljYXRpb24gbW9kdWxlIiwKICBvcHRpb25zOiB7IGFsbG93ZWRUb29sczogWyJSZWFkIiwgIkdsb2IiXSB9LAp9KSkgewogIGlmIChtZXNzYWdlLnR5cGUgPT09ICJzeXN0ZW0iICYmIG1lc3NhZ2Uuc3VidHlwZSA9PT0gImluaXQiKSB7CiAgICBzZXNzaW9uSWQgPSBtZXNzYWdlLnNlc3Npb25faWQ7CiAgfQp9CgovLyBSZXN1bWUgd2l0aCBmdWxsIGNvbnRleHQgZnJvbSB0aGUgZmlyc3QgcXVlcnkKZm9yIGF3YWl0IChjb25zdCBtZXNzYWdlIG9mIHF1ZXJ5KHsKICBwcm9tcHQ6ICJOb3cgZmluZCBhbGwgcGxhY2VzIHRoYXQgY2FsbCBpdCIsCiAgb3B0aW9uczogeyByZXN1bWU6IHNlc3Npb25JZCB9LAp9KSkgewogIGlmICgicmVzdWx0IiBpbiBtZXNzYWdlKSBjb25zb2xlLmxvZyhtZXNzYWdlLnJlc3VsdCk7Cn0KYGBgCgotLS0KCiMjIFNlc3Npb24gSGlzdG9yeQoKYGBgdHlwZXNjcmlwdAppbXBvcnQgeyBsaXN0U2Vzc2lvbnMsIGdldFNlc3Npb25NZXNzYWdlcywgZ2V0U2Vzc2lvbkluZm8gfSBmcm9tICJAYW50aHJvcGljLWFpL2NsYXVkZS1hZ2VudC1zZGsiOwoKYXN5bmMgZnVuY3Rpb24gbWFpbigpIHsKICAvLyBMaXN0IHBhc3Qgc2Vzc2lvbnMgKHN1cHBvcnRzIHBhZ2luYXRpb24gdmlhIGxpbWl0L29mZnNldCkKICBjb25zdCBzZXNzaW9ucyA9IGF3YWl0IGxpc3RTZXNzaW9ucygpOwogIGZvciAoY29uc3Qgc2Vzc2lvbiBvZiBzZXNzaW9ucykgewogICAgY29uc29sZS5sb2coYFNlc3Npb24gJHtzZXNzaW9uLnNlc3Npb25JZH0gaW4gJHtzZXNzaW9uLmN3ZH0gKHRhZzogJHtzZXNzaW9uLnRhZ30pYCk7CiAgfQoKICAvLyBHZXQgbWV0YWRhdGEgZm9yIGEgc2luZ2xlIHNlc3Npb24KICBpZiAoc2Vzc2lvbnMubGVuZ3RoID4gMCkgewogICAgY29uc3QgaW5mbyA9IGF3YWl0IGdldFNlc3Npb25JbmZvKHNlc3Npb25zWzBdLnNlc3Npb25JZCk7CiAgICBjb25zb2xlLmxvZyhgQ3JlYXRlZDogJHtpbmZvLmNyZWF0ZWRBdH0sIFRhZzogJHtpbmZvLnRhZ31gKTsKICB9CgogIC8vIFJldHJpZXZlIG1lc3NhZ2VzIGZyb20gdGhlIG1vc3QgcmVjZW50IHNlc3Npb24KICBpZiAoc2Vzc2lvbnMubGVuZ3RoID4gMCkgewogICAgY29uc3QgbWVzc2FnZXMgPSBhd2FpdCBnZXRTZXNzaW9uTWVzc2FnZXMoc2Vzc2lvbnNbMF0uc2Vzc2lvbklkLCB7IGxpbWl0OiA1MCB9KTsKICAgIGZvciAoY29uc3QgbXNnIG9mIG1lc3NhZ2VzKSB7CiAgICAgIGNvbnNvbGUubG9nKG1zZyk7CiAgICB9CiAgfQp9CgptYWluKCk7CmBgYAoKLS0tCgojIyBTZXNzaW9uIE11dGF0aW9ucwoKYGBgdHlwZXNjcmlwdAppbXBvcnQgeyByZW5hbWVTZXNzaW9uLCB0YWdTZXNzaW9uLCBmb3JrU2Vzc2lvbiB9IGZyb20gIkBhbnRocm9waWMtYWkvY2xhdWRlLWFnZW50LXNkayI7Cgphc3luYyBmdW5jdGlvbiBtYWluKCkgewogIGNvbnN0IHNlc3Npb25JZCA9ICJ5b3VyLXNlc3Npb24taWQiOwoKICAvLyBSZW5hbWUgYSBzZXNzaW9uCiAgYXdhaXQgcmVuYW1lU2Vzc2lvbihzZXNzaW9uSWQsICJSZWZhY3RvcmluZyBhdXRoIG1vZHVsZSIpOwoKICAvLyBUYWcgYSBzZXNzaW9uIGZvciBmaWx0ZXJpbmcKICBhd2FpdCB0YWdTZXNzaW9uKHNlc3Npb25JZCwgImV4cGVyaW1lbnQtdjIiKTsKCiAgLy8gQ2xlYXIgYSB0YWcKICBhd2FpdCB0YWdTZXNzaW9uKHNlc3Npb25JZCwgbnVsbCk7CgogIC8vIEZvcmsgYSBjb252ZXJzYXRpb24gdG8gYnJhbmNoIGZyb20gYSBwb2ludAogIGNvbnN0IHsgc2Vzc2lvbklkOiBmb3JrZWRJZCB9ID0gYXdhaXQgZm9ya1Nlc3Npb24oc2Vzc2lvbklkKTsKICBjb25zb2xlLmxvZyhgRm9ya2VkIHNlc3Npb246ICR7Zm9ya2VkSWR9YCk7Cn0KCm1haW4oKTsKYGBgCgotLS0KCiMjIEN1c3RvbSBTeXN0ZW0gUHJvbXB0CgpgYGB0eXBlc2NyaXB0CmltcG9ydCB7IHF1ZXJ5IH0gZnJvbSAiQGFudGhyb3BpYy1haS9jbGF1ZGUtYWdlbnQtc2RrIjsKCmZvciBhd2FpdCAoY29uc3QgbWVzc2FnZSBvZiBxdWVyeSh7CiAgcHJvbXB0OiAiUmV2aWV3IHRoaXMgY29kZSIsCiAgb3B0aW9uczogewogICAgYWxsb3dlZFRvb2xzOiBbIlJlYWQiLCAiR2xvYiIsICJHcmVwIl0sCiAgICBzeXN0ZW1Qcm9tcHQ6IGBZb3UgYXJlIGEgc2VuaW9yIGNvZGUgcmV2aWV3ZXIgZm9jdXNlZCBvbjoKMS4gU2VjdXJpdHkgdnVsbmVyYWJpbGl0aWVzCjIuIFBlcmZvcm1hbmNlIGlzc3VlcwozLiBDb2RlIG1haW50YWluYWJpbGl0eQoKQWx3YXlzIHByb3ZpZGUgc3BlY2lmaWMgbGluZSBudW1iZXJzIGFuZCBzdWdnZXN0aW9ucyBmb3IgaW1wcm92ZW1lbnQuYCwKICB9LAp9KSkgewogIGlmICgicmVzdWx0IiBpbiBtZXNzYWdlKSBjb25zb2xlLmxvZyhtZXNzYWdlLnJlc3VsdCk7Cn0KYGBgCg==
+# Agent SDK Patterns — TypeScript
+
+## Basic Agent
+
+```typescript
+import { query } from "@anthropic-ai/claude-agent-sdk";
+
+async function main() {
+  for await (const message of query({
+    prompt: "Explain what this repository does",
+    options: {
+      cwd: "/path/to/project",
+      allowedTools: ["Read", "Glob", "Grep"],
+    },
+  })) {
+    if ("result" in message) {
+      console.log(message.result);
+    }
+  }
+}
+
+main();
+```
+
+---
+
+## Hooks
+
+### After Tool Use Hook
+
+```typescript
+import { query, HookCallback } from "@anthropic-ai/claude-agent-sdk";
+import { appendFileSync } from "fs";
+
+const logFileChange: HookCallback = async (input) => {
+  const filePath = (input as any).tool_input?.file_path ?? "unknown";
+  appendFileSync(
+    "./audit.log",
+    `${new Date().toISOString()}: modified ${filePath}\n`,
+  );
+  return {};
+};
+
+for await (const message of query({
+  prompt: "Refactor utils.py to improve readability",
+  options: {
+    allowedTools: ["Read", "Edit", "Write"],
+    permissionMode: "acceptEdits",
+    hooks: {
+      PostToolUse: [{ matcher: "Edit|Write", hooks: [logFileChange] }],
+    },
+  },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+---
+
+## Subagents
+
+```typescript
+import { query } from "@anthropic-ai/claude-agent-sdk";
+
+for await (const message of query({
+  prompt: "Use the code-reviewer agent to review this codebase",
+  options: {
+    allowedTools: ["Read", "Glob", "Grep", "Agent"],
+    agents: {
+      "code-reviewer": {
+        description: "Expert code reviewer for quality and security reviews.",
+        prompt: "Analyze code quality and suggest improvements.",
+        tools: ["Read", "Glob", "Grep"],
+      },
+    },
+  },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+---
+
+## MCP Server Integration
+
+### Browser Automation (Playwright)
+
+```typescript
+for await (const message of query({
+  prompt: "Open example.com and describe what you see",
+  options: {
+    mcpServers: {
+      playwright: { command: "npx", args: ["@playwright/mcp@latest"] },
+    },
+  },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+---
+
+## Session Resumption
+
+```typescript
+import { query } from "@anthropic-ai/claude-agent-sdk";
+
+let sessionId: string | undefined;
+
+// First query: capture the session ID
+for await (const message of query({
+  prompt: "Read the authentication module",
+  options: { allowedTools: ["Read", "Glob"] },
+})) {
+  if (message.type === "system" && message.subtype === "init") {
+    sessionId = message.session_id;
+  }
+}
+
+// Resume with full context from the first query
+for await (const message of query({
+  prompt: "Now find all places that call it",
+  options: { resume: sessionId },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```
+
+---
+
+## Session History
+
+```typescript
+import { listSessions, getSessionMessages, getSessionInfo } from "@anthropic-ai/claude-agent-sdk";
+
+async function main() {
+  // List past sessions (supports pagination via limit/offset)
+  const sessions = await listSessions();
+  for (const session of sessions) {
+    console.log(`Session ${session.sessionId} in ${session.cwd} (tag: ${session.tag})`);
+  }
+
+  // Get metadata for a single session
+  if (sessions.length > 0) {
+    const info = await getSessionInfo(sessions[0].sessionId);
+    console.log(`Created: ${info.createdAt}, Tag: ${info.tag}`);
+  }
+
+  // Retrieve messages from the most recent session
+  if (sessions.length > 0) {
+    const messages = await getSessionMessages(sessions[0].sessionId, { limit: 50 });
+    for (const msg of messages) {
+      console.log(msg);
+    }
+  }
+}
+
+main();
+```
+
+---
+
+## Session Mutations
+
+```typescript
+import { renameSession, tagSession, forkSession } from "@anthropic-ai/claude-agent-sdk";
+
+async function main() {
+  const sessionId = "your-session-id";
+
+  // Rename a session
+  await renameSession(sessionId, "Refactoring auth module");
+
+  // Tag a session for filtering
+  await tagSession(sessionId, "experiment-v2");
+
+  // Clear a tag
+  await tagSession(sessionId, null);
+
+  // Fork a conversation to branch from a point
+  const { sessionId: forkedId } = await forkSession(sessionId);
+  console.log(`Forked session: ${forkedId}`);
+}
+
+main();
+```
+
+---
+
+## Custom System Prompt
+
+```typescript
+import { query } from "@anthropic-ai/claude-agent-sdk";
+
+for await (const message of query({
+  prompt: "Review this code",
+  options: {
+    allowedTools: ["Read", "Glob", "Grep"],
+    systemPrompt: `You are a senior code reviewer focused on:
+1. Security vulnerabilities
+2. Performance issues
+3. Code maintainability
+
+Always provide specific line numbers and suggestions for improvement.`,
+  },
+})) {
+  if ("result" in message) console.log(message.result);
+}
+```

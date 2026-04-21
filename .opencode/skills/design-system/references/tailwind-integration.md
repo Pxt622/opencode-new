@@ -1,1 +1,251 @@
-IyBUYWlsd2luZCBJbnRlZ3JhdGlvbgoKTWFwIGRlc2lnbiBzeXN0ZW0gdG9rZW5zIHRvIFRhaWx3aW5kIENTUyBjb25maWd1cmF0aW9uLgoKIyMgQ1NTIFZhcmlhYmxlcyBTZXR1cAoKIyMjIEJhc2UgTGF5ZXIKCmBgYGNzcwovKiBnbG9iYWxzLmNzcyAqLwpAdGFpbHdpbmQgYmFzZTsKQHRhaWx3aW5kIGNvbXBvbmVudHM7CkB0YWlsd2luZCB1dGlsaXRpZXM7CgpAbGF5ZXIgYmFzZSB7CiAgOnJvb3QgewogICAgLyogUHJpbWl0aXZlcyAqLwogICAgLS1jb2xvci1ibHVlLTYwMDogMzcgOTkgMjM1OyAgLyogSFNMOiAyMTcgOTElIDYwJSAqLwoKICAgIC8qIFNlbWFudGljICovCiAgICAtLWJhY2tncm91bmQ6IDAgMCUgMTAwJTsKICAgIC0tZm9yZWdyb3VuZDogMjIyIDQ3JSAxMSU7CiAgICAtLXByaW1hcnk6IDIxNyA5MSUgNjAlOwogICAgLS1wcmltYXJ5LWZvcmVncm91bmQ6IDAgMCUgMTAwJTsKICAgIC0tc2Vjb25kYXJ5OiAyMjAgMTQlIDk2JTsKICAgIC0tc2Vjb25kYXJ5LWZvcmVncm91bmQ6IDIyMiA0NyUgMTElOwogICAgLS1tdXRlZDogMjIwIDE0JSA5NiU7CiAgICAtLW11dGVkLWZvcmVncm91bmQ6IDIyMCA5JSA0NiU7CiAgICAtLWFjY2VudDogMjIwIDE0JSA5NiU7CiAgICAtLWFjY2VudC1mb3JlZ3JvdW5kOiAyMjIgNDclIDExJTsKICAgIC0tZGVzdHJ1Y3RpdmU6IDAgODQlIDYwJTsKICAgIC0tZGVzdHJ1Y3RpdmUtZm9yZWdyb3VuZDogMCAwJSAxMDAlOwogICAgLS1ib3JkZXI6IDIyMCAxMyUgOTElOwogICAgLS1pbnB1dDogMjIwIDEzJSA5MSU7CiAgICAtLXJpbmc6IDIxNyA5MSUgNjAlOwogICAgLS1yYWRpdXM6IDAuNXJlbTsKICB9CgogIC5kYXJrIHsKICAgIC0tYmFja2dyb3VuZDogMjIyIDQ3JSA0JTsKICAgIC0tZm9yZWdyb3VuZDogMjEwIDQwJSA5OCU7CiAgICAtLXByaW1hcnk6IDIxNyA5MSUgNjAlOwogICAgLS1wcmltYXJ5LWZvcmVncm91bmQ6IDAgMCUgMTAwJTsKICAgIC0tc2Vjb25kYXJ5OiAyMTcgMzMlIDE3JTsKICAgIC0tc2Vjb25kYXJ5LWZvcmVncm91bmQ6IDIxMCA0MCUgOTglOwogICAgLS1tdXRlZDogMjE3IDMzJSAxNyU7CiAgICAtLW11dGVkLWZvcmVncm91bmQ6IDIxNSAyMCUgNjUlOwogICAgLS1hY2NlbnQ6IDIxNyAzMyUgMTclOwogICAgLS1hY2NlbnQtZm9yZWdyb3VuZDogMjEwIDQwJSA5OCU7CiAgICAtLWRlc3RydWN0aXZlOiAwIDYyJSAzMCU7CiAgICAtLWRlc3RydWN0aXZlLWZvcmVncm91bmQ6IDAgMCUgMTAwJTsKICAgIC0tYm9yZGVyOiAyMTcgMzMlIDE3JTsKICAgIC0taW5wdXQ6IDIxNyAzMyUgMTclOwogICAgLS1yaW5nOiAyMTcgOTElIDYwJTsKICB9Cn0KYGBgCgojIyBUYWlsd2luZCBDb25maWcKCiMjIyB0YWlsd2luZC5jb25maWcudHMKCmBgYHR5cGVzY3JpcHQKaW1wb3J0IHR5cGUgeyBDb25maWcgfSBmcm9tICd0YWlsd2luZGNzcycKCmNvbnN0IGNvbmZpZzogQ29uZmlnID0gewogIGRhcmtNb2RlOiBbJ2NsYXNzJ10sCiAgY29udGVudDogWycuL3NyYy8qKi8qLnt0cyx0c3h9J10sCiAgdGhlbWU6IHsKICAgIGV4dGVuZDogewogICAgICBjb2xvcnM6IHsKICAgICAgICBiYWNrZ3JvdW5kOiAnaHNsKHZhcigtLWJhY2tncm91bmQpKScsCiAgICAgICAgZm9yZWdyb3VuZDogJ2hzbCh2YXIoLS1mb3JlZ3JvdW5kKSknLAogICAgICAgIHByaW1hcnk6IHsKICAgICAgICAgIERFRkFVTFQ6ICdoc2wodmFyKC0tcHJpbWFyeSkpJywKICAgICAgICAgIGZvcmVncm91bmQ6ICdoc2wodmFyKC0tcHJpbWFyeS1mb3JlZ3JvdW5kKSknLAogICAgICAgIH0sCiAgICAgICAgc2Vjb25kYXJ5OiB7CiAgICAgICAgICBERUZBVUxUOiAnaHNsKHZhcigtLXNlY29uZGFyeSkpJywKICAgICAgICAgIGZvcmVncm91bmQ6ICdoc2wodmFyKC0tc2Vjb25kYXJ5LWZvcmVncm91bmQpKScsCiAgICAgICAgfSwKICAgICAgICBtdXRlZDogewogICAgICAgICAgREVGQVVMVDogJ2hzbCh2YXIoLS1tdXRlZCkpJywKICAgICAgICAgIGZvcmVncm91bmQ6ICdoc2wodmFyKC0tbXV0ZWQtZm9yZWdyb3VuZCkpJywKICAgICAgICB9LAogICAgICAgIGFjY2VudDogewogICAgICAgICAgREVGQVVMVDogJ2hzbCh2YXIoLS1hY2NlbnQpKScsCiAgICAgICAgICBmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLWFjY2VudC1mb3JlZ3JvdW5kKSknLAogICAgICAgIH0sCiAgICAgICAgZGVzdHJ1Y3RpdmU6IHsKICAgICAgICAgIERFRkFVTFQ6ICdoc2wodmFyKC0tZGVzdHJ1Y3RpdmUpKScsCiAgICAgICAgICBmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLWRlc3RydWN0aXZlLWZvcmVncm91bmQpKScsCiAgICAgICAgfSwKICAgICAgICBib3JkZXI6ICdoc2wodmFyKC0tYm9yZGVyKSknLAogICAgICAgIGlucHV0OiAnaHNsKHZhcigtLWlucHV0KSknLAogICAgICAgIHJpbmc6ICdoc2wodmFyKC0tcmluZykpJywKICAgICAgICBjYXJkOiB7CiAgICAgICAgICBERUZBVUxUOiAnaHNsKHZhcigtLWNhcmQpKScsCiAgICAgICAgICBmb3JlZ3JvdW5kOiAnaHNsKHZhcigtLWNhcmQtZm9yZWdyb3VuZCkpJywKICAgICAgICB9LAogICAgICB9LAogICAgICBib3JkZXJSYWRpdXM6IHsKICAgICAgICBsZzogJ3ZhcigtLXJhZGl1cyknLAogICAgICAgIG1kOiAnY2FsYyh2YXIoLS1yYWRpdXMpIC0gMnB4KScsCiAgICAgICAgc206ICdjYWxjKHZhcigtLXJhZGl1cykgLSA0cHgpJywKICAgICAgfSwKICAgIH0sCiAgfSwKICBwbHVnaW5zOiBbXSwKfQoKZXhwb3J0IGRlZmF1bHQgY29uZmlnCmBgYAoKIyMgSFNMIEZvcm1hdCBCZW5lZml0cwoKVXNpbmcgSFNMIHdpdGhvdXQgZnVuY3Rpb24gYWxsb3dzIG9wYWNpdHkgbW9kaWZpZXJzOgoKYGBgdHN4Ci8vIFdpdGggSFNMIGZvcm1hdCAoc3BhY2Utc2VwYXJhdGVkKQo8ZGl2IGNsYXNzTmFtZT0iYmctcHJpbWFyeS81MCI+ICAgLy8gNTAlIG9wYWNpdHkKPGRpdiBjbGFzc05hbWU9InRleHQtcHJpbWFyeS84MCI+IC8vIDgwJSBvcGFjaXR5CgovLyBDU1Mgb3V0cHV0CmJhY2tncm91bmQtY29sb3I6IGhzbCgyMTcgOTElIDYwJSAvIDAuNSk7CmBgYAoKIyMgQ29tcG9uZW50IENsYXNzZXMKCiMjIyBCdXR0b24gRXhhbXBsZQoKYGBgY3NzCkBsYXllciBjb21wb25lbnRzIHsKICAuYnRuIHsKICAgIEBhcHBseSBpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIKICAgICAgICAgICByb3VuZGVkLW1kIGZvbnQtbWVkaXVtCiAgICAgICAgICAgdHJhbnNpdGlvbi1jb2xvcnMKICAgICAgICAgICBmb2N1cy12aXNpYmxlOm91dGxpbmUtbm9uZSBmb2N1cy12aXNpYmxlOnJpbmctMgogICAgICAgICAgIGZvY3VzLXZpc2libGU6cmluZy1yaW5nIGZvY3VzLXZpc2libGU6cmluZy1vZmZzZXQtMgogICAgICAgICAgIGRpc2FibGVkOnBvaW50ZXItZXZlbnRzLW5vbmUgZGlzYWJsZWQ6b3BhY2l0eS01MDsKICB9CgogIC5idG4tZGVmYXVsdCB7CiAgICBAYXBwbHkgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZAogICAgICAgICAgIGhvdmVyOmJnLXByaW1hcnkvOTA7CiAgfQoKICAuYnRuLXNlY29uZGFyeSB7CiAgICBAYXBwbHkgYmctc2Vjb25kYXJ5IHRleHQtc2Vjb25kYXJ5LWZvcmVncm91bmQKICAgICAgICAgICBob3ZlcjpiZy1zZWNvbmRhcnkvODA7CiAgfQoKICAuYnRuLW91dGxpbmUgewogICAgQGFwcGx5IGJvcmRlciBib3JkZXItaW5wdXQgYmctYmFja2dyb3VuZAogICAgICAgICAgIGhvdmVyOmJnLWFjY2VudCBob3Zlcjp0ZXh0LWFjY2VudC1mb3JlZ3JvdW5kOwogIH0KCiAgLmJ0bi1naG9zdCB7CiAgICBAYXBwbHkgaG92ZXI6YmctYWNjZW50IGhvdmVyOnRleHQtYWNjZW50LWZvcmVncm91bmQ7CiAgfQoKICAuYnRuLWRlc3RydWN0aXZlIHsKICAgIEBhcHBseSBiZy1kZXN0cnVjdGl2ZSB0ZXh0LWRlc3RydWN0aXZlLWZvcmVncm91bmQKICAgICAgICAgICBob3ZlcjpiZy1kZXN0cnVjdGl2ZS85MDsKICB9CgogIC8qIFNpemVzICovCiAgLmJ0bi1zbSB7IEBhcHBseSBoLTggcHgtMyB0ZXh0LXhzOyB9CiAgLmJ0bi1tZCB7IEBhcHBseSBoLTEwIHB4LTQgdGV4dC1zbTsgfQogIC5idG4tbGcgeyBAYXBwbHkgaC0xMiBweC02IHRleHQtYmFzZTsgfQp9CmBgYAoKIyMgU3BhY2luZyBJbnRlZ3JhdGlvbgoKYGBgdHlwZXNjcmlwdAovLyB0YWlsd2luZC5jb25maWcudHMKdGhlbWU6IHsKICBleHRlbmQ6IHsKICAgIHNwYWNpbmc6IHsKICAgICAgLy8gTWFwIHRvIENTUyB2YXJpYWJsZXMgaWYgbmVlZGVkCiAgICAgICdzZWN0aW9uJzogJ3ZhcigtLXNwYWNpbmctc2VjdGlvbiknLAogICAgICAnY29tcG9uZW50JzogJ3ZhcigtLXNwYWNpbmctY29tcG9uZW50KScsCiAgICB9CiAgfQp9CmBgYAoKIyMgQW5pbWF0aW9uIFRva2VucwoKYGBgdHlwZXNjcmlwdAovLyB0YWlsd2luZC5jb25maWcudHMKdGhlbWU6IHsKICBleHRlbmQ6IHsKICAgIHRyYW5zaXRpb25EdXJhdGlvbjogewogICAgICBmYXN0OiAnMTUwbXMnLAogICAgICBub3JtYWw6ICcyMDBtcycsCiAgICAgIHNsb3c6ICczMDBtcycsCiAgICB9LAogICAga2V5ZnJhbWVzOiB7CiAgICAgICdhY2NvcmRpb24tZG93bic6IHsKICAgICAgICBmcm9tOiB7IGhlaWdodDogJzAnIH0sCiAgICAgICAgdG86IHsgaGVpZ2h0OiAndmFyKC0tcmFkaXgtYWNjb3JkaW9uLWNvbnRlbnQtaGVpZ2h0KScgfSwKICAgICAgfSwKICAgICAgJ2FjY29yZGlvbi11cCc6IHsKICAgICAgICBmcm9tOiB7IGhlaWdodDogJ3ZhcigtLXJhZGl4LWFjY29yZGlvbi1jb250ZW50LWhlaWdodCknIH0sCiAgICAgICAgdG86IHsgaGVpZ2h0OiAnMCcgfSwKICAgICAgfSwKICAgIH0sCiAgICBhbmltYXRpb246IHsKICAgICAgJ2FjY29yZGlvbi1kb3duJzogJ2FjY29yZGlvbi1kb3duIDAuMnMgZWFzZS1vdXQnLAogICAgICAnYWNjb3JkaW9uLXVwJzogJ2FjY29yZGlvbi11cCAwLjJzIGVhc2Utb3V0JywKICAgIH0sCiAgfQp9CmBgYAoKIyMgRGFyayBNb2RlIFRvZ2dsZQoKYGBgdHlwZXNjcmlwdAovLyBUb2dnbGUgZGFyayBtb2RlCmZ1bmN0aW9uIHRvZ2dsZURhcmtNb2RlKCkgewogIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5jbGFzc0xpc3QudG9nZ2xlKCdkYXJrJykKfQoKLy8gU3lzdGVtIHByZWZlcmVuY2UKaWYgKHdpbmRvdy5tYXRjaE1lZGlhKCcocHJlZmVycy1jb2xvci1zY2hlbWU6IGRhcmspJykubWF0Y2hlcykgewogIGRvY3VtZW50LmRvY3VtZW50RWxlbWVudC5jbGFzc0xpc3QuYWRkKCdkYXJrJykKfQpgYGAKCiMjIHNoYWRjbi91aSBBbGlnbm1lbnQKClRoaXMgY29uZmlndXJhdGlvbiBhbGlnbnMgd2l0aCBzaGFkY24vdWkgY29udmVudGlvbnM6CgotIFNhbWUgQ1NTIHZhcmlhYmxlIG5hbWluZwotIFNhbWUgSFNMIGZvcm1hdAotIFNhbWUgY29sb3Igc2NhbGUgc3RydWN0dXJlCi0gQ29tcGF0aWJsZSB3aXRoIGBucHggc2hhZGNuQGxhdGVzdCBhZGRgIGNvbW1hbmRzCgojIyMgVXNpbmcgd2l0aCBzaGFkY24vdWkKCmBgYGJhc2gKIyBJbml0aWFsaXplICh1c2VzIHNhbWUgdG9rZW4gc3RydWN0dXJlKQpucHggc2hhZGNuQGxhdGVzdCBpbml0CgojIEFkZCBjb21wb25lbnRzIChzdHlsZWQgd2l0aCB0aGVzZSB0b2tlbnMpCm5weCBzaGFkY25AbGF0ZXN0IGFkZCBidXR0b24gY2FyZCBpbnB1dApgYGAKCkNvbXBvbmVudHMgd2lsbCBhdXRvbWF0aWNhbGx5IHVzZSB5b3VyIGRlc2lnbiBzeXN0ZW0gdG9rZW5zLgo=
+# Tailwind Integration
+
+Map design system tokens to Tailwind CSS configuration.
+
+## CSS Variables Setup
+
+### Base Layer
+
+```css
+/* globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primitives */
+    --color-blue-600: 37 99 235;  /* HSL: 217 91% 60% */
+
+    /* Semantic */
+    --background: 0 0% 100%;
+    --foreground: 222 47% 11%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 222 47% 11%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 9% 46%;
+    --accent: 220 14% 96%;
+    --accent-foreground: 222 47% 11%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 217 91% 60%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222 47% 4%;
+    --foreground: 210 40% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 217 33% 17%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 217 91% 60%;
+  }
+}
+```
+
+## Tailwind Config
+
+### tailwind.config.ts
+
+```typescript
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  darkMode: ['class'],
+  content: ['./src/**/*.{ts,tsx}'],
+  theme: {
+    extend: {
+      colors: {
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        primary: {
+          DEFAULT: 'hsl(var(--primary))',
+          foreground: 'hsl(var(--primary-foreground))',
+        },
+        secondary: {
+          DEFAULT: 'hsl(var(--secondary))',
+          foreground: 'hsl(var(--secondary-foreground))',
+        },
+        muted: {
+          DEFAULT: 'hsl(var(--muted))',
+          foreground: 'hsl(var(--muted-foreground))',
+        },
+        accent: {
+          DEFAULT: 'hsl(var(--accent))',
+          foreground: 'hsl(var(--accent-foreground))',
+        },
+        destructive: {
+          DEFAULT: 'hsl(var(--destructive))',
+          foreground: 'hsl(var(--destructive-foreground))',
+        },
+        border: 'hsl(var(--border))',
+        input: 'hsl(var(--input))',
+        ring: 'hsl(var(--ring))',
+        card: {
+          DEFAULT: 'hsl(var(--card))',
+          foreground: 'hsl(var(--card-foreground))',
+        },
+      },
+      borderRadius: {
+        lg: 'var(--radius)',
+        md: 'calc(var(--radius) - 2px)',
+        sm: 'calc(var(--radius) - 4px)',
+      },
+    },
+  },
+  plugins: [],
+}
+
+export default config
+```
+
+## HSL Format Benefits
+
+Using HSL without function allows opacity modifiers:
+
+```tsx
+// With HSL format (space-separated)
+<div className="bg-primary/50">   // 50% opacity
+<div className="text-primary/80"> // 80% opacity
+
+// CSS output
+background-color: hsl(217 91% 60% / 0.5);
+```
+
+## Component Classes
+
+### Button Example
+
+```css
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center
+           rounded-md font-medium
+           transition-colors
+           focus-visible:outline-none focus-visible:ring-2
+           focus-visible:ring-ring focus-visible:ring-offset-2
+           disabled:pointer-events-none disabled:opacity-50;
+  }
+
+  .btn-default {
+    @apply bg-primary text-primary-foreground
+           hover:bg-primary/90;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground
+           hover:bg-secondary/80;
+  }
+
+  .btn-outline {
+    @apply border border-input bg-background
+           hover:bg-accent hover:text-accent-foreground;
+  }
+
+  .btn-ghost {
+    @apply hover:bg-accent hover:text-accent-foreground;
+  }
+
+  .btn-destructive {
+    @apply bg-destructive text-destructive-foreground
+           hover:bg-destructive/90;
+  }
+
+  /* Sizes */
+  .btn-sm { @apply h-8 px-3 text-xs; }
+  .btn-md { @apply h-10 px-4 text-sm; }
+  .btn-lg { @apply h-12 px-6 text-base; }
+}
+```
+
+## Spacing Integration
+
+```typescript
+// tailwind.config.ts
+theme: {
+  extend: {
+    spacing: {
+      // Map to CSS variables if needed
+      'section': 'var(--spacing-section)',
+      'component': 'var(--spacing-component)',
+    }
+  }
+}
+```
+
+## Animation Tokens
+
+```typescript
+// tailwind.config.ts
+theme: {
+  extend: {
+    transitionDuration: {
+      fast: '150ms',
+      normal: '200ms',
+      slow: '300ms',
+    },
+    keyframes: {
+      'accordion-down': {
+        from: { height: '0' },
+        to: { height: 'var(--radix-accordion-content-height)' },
+      },
+      'accordion-up': {
+        from: { height: 'var(--radix-accordion-content-height)' },
+        to: { height: '0' },
+      },
+    },
+    animation: {
+      'accordion-down': 'accordion-down 0.2s ease-out',
+      'accordion-up': 'accordion-up 0.2s ease-out',
+    },
+  }
+}
+```
+
+## Dark Mode Toggle
+
+```typescript
+// Toggle dark mode
+function toggleDarkMode() {
+  document.documentElement.classList.toggle('dark')
+}
+
+// System preference
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  document.documentElement.classList.add('dark')
+}
+```
+
+## shadcn/ui Alignment
+
+This configuration aligns with shadcn/ui conventions:
+
+- Same CSS variable naming
+- Same HSL format
+- Same color scale structure
+- Compatible with `npx shadcn@latest add` commands
+
+### Using with shadcn/ui
+
+```bash
+# Initialize (uses same token structure)
+npx shadcn@latest init
+
+# Add components (styled with these tokens)
+npx shadcn@latest add button card input
+```
+
+Components will automatically use your design system tokens.

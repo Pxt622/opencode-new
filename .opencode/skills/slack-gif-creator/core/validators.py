@@ -1,1 +1,136 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKVmFsaWRhdG9ycyAtIENoZWNrIGlmIEdJRnMgbWVldCBTbGFjaydzIHJlcXVpcmVtZW50cy4KClRoZXNlIHZhbGlkYXRvcnMgaGVscCBlbnN1cmUgeW91ciBHSUZzIG1lZXQgU2xhY2sncyBzaXplIGFuZCBkaW1lbnNpb24gY29uc3RyYWludHMuCiIiIgoKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgoKZGVmIHZhbGlkYXRlX2dpZigKICAgIGdpZl9wYXRoOiBzdHIgfCBQYXRoLCBpc19lbW9qaTogYm9vbCA9IFRydWUsIHZlcmJvc2U6IGJvb2wgPSBUcnVlCikgLT4gdHVwbGVbYm9vbCwgZGljdF06CiAgICAiIiIKICAgIFZhbGlkYXRlIEdJRiBmb3IgU2xhY2sgKGRpbWVuc2lvbnMsIHNpemUsIGZyYW1lIGNvdW50KS4KCiAgICBBcmdzOgogICAgICAgIGdpZl9wYXRoOiBQYXRoIHRvIEdJRiBmaWxlCiAgICAgICAgaXNfZW1vamk6IFRydWUgZm9yIGVtb2ppICgxMjh4MTI4IHJlY29tbWVuZGVkKSwgRmFsc2UgZm9yIG1lc3NhZ2UgR0lGCiAgICAgICAgdmVyYm9zZTogUHJpbnQgdmFsaWRhdGlvbiBkZXRhaWxzCgogICAgUmV0dXJuczoKICAgICAgICBUdXBsZSBvZiAocGFzc2VzOiBib29sLCByZXN1bHRzOiBkaWN0IHdpdGggYWxsIGRldGFpbHMpCiAgICAiIiIKICAgIGZyb20gUElMIGltcG9ydCBJbWFnZQoKICAgIGdpZl9wYXRoID0gUGF0aChnaWZfcGF0aCkKCiAgICBpZiBub3QgZ2lmX3BhdGguZXhpc3RzKCk6CiAgICAgICAgcmV0dXJuIEZhbHNlLCB7ImVycm9yIjogZiJGaWxlIG5vdCBmb3VuZDoge2dpZl9wYXRofSJ9CgogICAgIyBHZXQgZmlsZSBzaXplCiAgICBzaXplX2J5dGVzID0gZ2lmX3BhdGguc3RhdCgpLnN0X3NpemUKICAgIHNpemVfa2IgPSBzaXplX2J5dGVzIC8gMTAyNAogICAgc2l6ZV9tYiA9IHNpemVfa2IgLyAxMDI0CgogICAgIyBHZXQgZGltZW5zaW9ucyBhbmQgZnJhbWUgaW5mbwogICAgdHJ5OgogICAgICAgIHdpdGggSW1hZ2Uub3BlbihnaWZfcGF0aCkgYXMgaW1nOgogICAgICAgICAgICB3aWR0aCwgaGVpZ2h0ID0gaW1nLnNpemUKCiAgICAgICAgICAgICMgQ291bnQgZnJhbWVzCiAgICAgICAgICAgIGZyYW1lX2NvdW50ID0gMAogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICB3aGlsZSBUcnVlOgogICAgICAgICAgICAgICAgICAgIGltZy5zZWVrKGZyYW1lX2NvdW50KQogICAgICAgICAgICAgICAgICAgIGZyYW1lX2NvdW50ICs9IDEKICAgICAgICAgICAgZXhjZXB0IEVPRkVycm9yOgogICAgICAgICAgICAgICAgcGFzcwoKICAgICAgICAgICAgIyBHZXQgZHVyYXRpb24KICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgZHVyYXRpb25fbXMgPSBpbWcuaW5mby5nZXQoImR1cmF0aW9uIiwgMTAwKQogICAgICAgICAgICAgICAgdG90YWxfZHVyYXRpb24gPSAoZHVyYXRpb25fbXMgKiBmcmFtZV9jb3VudCkgLyAxMDAwCiAgICAgICAgICAgICAgICBmcHMgPSBmcmFtZV9jb3VudCAvIHRvdGFsX2R1cmF0aW9uIGlmIHRvdGFsX2R1cmF0aW9uID4gMCBlbHNlIDAKICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgdG90YWxfZHVyYXRpb24gPSBOb25lCiAgICAgICAgICAgICAgICBmcHMgPSBOb25lCgogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiBGYWxzZSwgeyJlcnJvciI6IGYiRmFpbGVkIHRvIHJlYWQgR0lGOiB7ZX0ifQoKICAgICMgVmFsaWRhdGUgZGltZW5zaW9ucwogICAgaWYgaXNfZW1vamk6CiAgICAgICAgb3B0aW1hbCA9IHdpZHRoID09IGhlaWdodCA9PSAxMjgKICAgICAgICBhY2NlcHRhYmxlID0gd2lkdGggPT0gaGVpZ2h0IGFuZCA2NCA8PSB3aWR0aCA8PSAxMjgKICAgICAgICBkaW1fcGFzcyA9IGFjY2VwdGFibGUKICAgIGVsc2U6CiAgICAgICAgYXNwZWN0X3JhdGlvID0gKAogICAgICAgICAgICBtYXgod2lkdGgsIGhlaWdodCkgLyBtaW4od2lkdGgsIGhlaWdodCkKICAgICAgICAgICAgaWYgbWluKHdpZHRoLCBoZWlnaHQpID4gMAogICAgICAgICAgICBlbHNlIGZsb2F0KCJpbmYiKQogICAgICAgICkKICAgICAgICBkaW1fcGFzcyA9IGFzcGVjdF9yYXRpbyA8PSAyLjAgYW5kIDMyMCA8PSBtaW4od2lkdGgsIGhlaWdodCkgPD0gNjQwCgogICAgcmVzdWx0cyA9IHsKICAgICAgICAiZmlsZSI6IHN0cihnaWZfcGF0aCksCiAgICAgICAgInBhc3NlcyI6IGRpbV9wYXNzLAogICAgICAgICJ3aWR0aCI6IHdpZHRoLAogICAgICAgICJoZWlnaHQiOiBoZWlnaHQsCiAgICAgICAgInNpemVfa2IiOiBzaXplX2tiLAogICAgICAgICJzaXplX21iIjogc2l6ZV9tYiwKICAgICAgICAiZnJhbWVfY291bnQiOiBmcmFtZV9jb3VudCwKICAgICAgICAiZHVyYXRpb25fc2Vjb25kcyI6IHRvdGFsX2R1cmF0aW9uLAogICAgICAgICJmcHMiOiBmcHMsCiAgICAgICAgImlzX2Vtb2ppIjogaXNfZW1vamksCiAgICAgICAgIm9wdGltYWwiOiBvcHRpbWFsIGlmIGlzX2Vtb2ppIGVsc2UgTm9uZSwKICAgIH0KCiAgICAjIFByaW50IGlmIHZlcmJvc2UKICAgIGlmIHZlcmJvc2U6CiAgICAgICAgcHJpbnQoZiJcblZhbGlkYXRpbmcge2dpZl9wYXRoLm5hbWV9OiIpCiAgICAgICAgcHJpbnQoCiAgICAgICAgICAgIGYiICBEaW1lbnNpb25zOiB7d2lkdGh9eHtoZWlnaHR9IgogICAgICAgICAgICArICgKICAgICAgICAgICAgICAgIGYiICh7J29wdGltYWwnIGlmIG9wdGltYWwgZWxzZSAnYWNjZXB0YWJsZSd9KSIKICAgICAgICAgICAgICAgIGlmIGlzX2Vtb2ppIGFuZCBhY2NlcHRhYmxlCiAgICAgICAgICAgICAgICBlbHNlICIiCiAgICAgICAgICAgICkKICAgICAgICApCiAgICAgICAgcHJpbnQoCiAgICAgICAgICAgIGYiICBTaXplOiB7c2l6ZV9rYjouMWZ9IEtCIgogICAgICAgICAgICArIChmIiAoe3NpemVfbWI6LjJmfSBNQikiIGlmIHNpemVfbWIgPj0gMS4wIGVsc2UgIiIpCiAgICAgICAgKQogICAgICAgIHByaW50KAogICAgICAgICAgICBmIiAgRnJhbWVzOiB7ZnJhbWVfY291bnR9IgogICAgICAgICAgICArIChmIiBAIHtmcHM6LjFmfSBmcHMgKHt0b3RhbF9kdXJhdGlvbjouMWZ9cykiIGlmIGZwcyBlbHNlICIiKQogICAgICAgICkKCiAgICAgICAgaWYgbm90IGRpbV9wYXNzOgogICAgICAgICAgICBwcmludCgKICAgICAgICAgICAgICAgIGYiICBOb3RlOiB7J0Vtb2ppIHNob3VsZCBiZSAxMjh4MTI4JyBpZiBpc19lbW9qaSBlbHNlICdVbnVzdWFsIGRpbWVuc2lvbnMgZm9yIFNsYWNrJ30iCiAgICAgICAgICAgICkKCiAgICAgICAgaWYgc2l6ZV9tYiA+IDUuMDoKICAgICAgICAgICAgcHJpbnQoZiIgIE5vdGU6IExhcmdlIGZpbGUgc2l6ZSAtIGNvbnNpZGVyIGZld2VyIGZyYW1lcy9jb2xvcnMiKQoKICAgIHJldHVybiBkaW1fcGFzcywgcmVzdWx0cwoKCmRlZiBpc19zbGFja19yZWFkeSgKICAgIGdpZl9wYXRoOiBzdHIgfCBQYXRoLCBpc19lbW9qaTogYm9vbCA9IFRydWUsIHZlcmJvc2U6IGJvb2wgPSBUcnVlCikgLT4gYm9vbDoKICAgICIiIgogICAgUXVpY2sgY2hlY2sgaWYgR0lGIGlzIHJlYWR5IGZvciBTbGFjay4KCiAgICBBcmdzOgogICAgICAgIGdpZl9wYXRoOiBQYXRoIHRvIEdJRiBmaWxlCiAgICAgICAgaXNfZW1vamk6IFRydWUgZm9yIGVtb2ppIEdJRiwgRmFsc2UgZm9yIG1lc3NhZ2UgR0lGCiAgICAgICAgdmVyYm9zZTogUHJpbnQgZmVlZGJhY2sKCiAgICBSZXR1cm5zOgogICAgICAgIFRydWUgaWYgZGltZW5zaW9ucyBhcmUgYWNjZXB0YWJsZQogICAgIiIiCiAgICBwYXNzZXMsIF8gPSB2YWxpZGF0ZV9naWYoZ2lmX3BhdGgsIGlzX2Vtb2ppLCB2ZXJib3NlKQogICAgcmV0dXJuIHBhc3Nlcwo=
+#!/usr/bin/env python3
+"""
+Validators - Check if GIFs meet Slack's requirements.
+
+These validators help ensure your GIFs meet Slack's size and dimension constraints.
+"""
+
+from pathlib import Path
+
+
+def validate_gif(
+    gif_path: str | Path, is_emoji: bool = True, verbose: bool = True
+) -> tuple[bool, dict]:
+    """
+    Validate GIF for Slack (dimensions, size, frame count).
+
+    Args:
+        gif_path: Path to GIF file
+        is_emoji: True for emoji (128x128 recommended), False for message GIF
+        verbose: Print validation details
+
+    Returns:
+        Tuple of (passes: bool, results: dict with all details)
+    """
+    from PIL import Image
+
+    gif_path = Path(gif_path)
+
+    if not gif_path.exists():
+        return False, {"error": f"File not found: {gif_path}"}
+
+    # Get file size
+    size_bytes = gif_path.stat().st_size
+    size_kb = size_bytes / 1024
+    size_mb = size_kb / 1024
+
+    # Get dimensions and frame info
+    try:
+        with Image.open(gif_path) as img:
+            width, height = img.size
+
+            # Count frames
+            frame_count = 0
+            try:
+                while True:
+                    img.seek(frame_count)
+                    frame_count += 1
+            except EOFError:
+                pass
+
+            # Get duration
+            try:
+                duration_ms = img.info.get("duration", 100)
+                total_duration = (duration_ms * frame_count) / 1000
+                fps = frame_count / total_duration if total_duration > 0 else 0
+            except:
+                total_duration = None
+                fps = None
+
+    except Exception as e:
+        return False, {"error": f"Failed to read GIF: {e}"}
+
+    # Validate dimensions
+    if is_emoji:
+        optimal = width == height == 128
+        acceptable = width == height and 64 <= width <= 128
+        dim_pass = acceptable
+    else:
+        aspect_ratio = (
+            max(width, height) / min(width, height)
+            if min(width, height) > 0
+            else float("inf")
+        )
+        dim_pass = aspect_ratio <= 2.0 and 320 <= min(width, height) <= 640
+
+    results = {
+        "file": str(gif_path),
+        "passes": dim_pass,
+        "width": width,
+        "height": height,
+        "size_kb": size_kb,
+        "size_mb": size_mb,
+        "frame_count": frame_count,
+        "duration_seconds": total_duration,
+        "fps": fps,
+        "is_emoji": is_emoji,
+        "optimal": optimal if is_emoji else None,
+    }
+
+    # Print if verbose
+    if verbose:
+        print(f"\nValidating {gif_path.name}:")
+        print(
+            f"  Dimensions: {width}x{height}"
+            + (
+                f" ({'optimal' if optimal else 'acceptable'})"
+                if is_emoji and acceptable
+                else ""
+            )
+        )
+        print(
+            f"  Size: {size_kb:.1f} KB"
+            + (f" ({size_mb:.2f} MB)" if size_mb >= 1.0 else "")
+        )
+        print(
+            f"  Frames: {frame_count}"
+            + (f" @ {fps:.1f} fps ({total_duration:.1f}s)" if fps else "")
+        )
+
+        if not dim_pass:
+            print(
+                f"  Note: {'Emoji should be 128x128' if is_emoji else 'Unusual dimensions for Slack'}"
+            )
+
+        if size_mb > 5.0:
+            print(f"  Note: Large file size - consider fewer frames/colors")
+
+    return dim_pass, results
+
+
+def is_slack_ready(
+    gif_path: str | Path, is_emoji: bool = True, verbose: bool = True
+) -> bool:
+    """
+    Quick check if GIF is ready for Slack.
+
+    Args:
+        gif_path: Path to GIF file
+        is_emoji: True for emoji GIF, False for message GIF
+        verbose: Print feedback
+
+    Returns:
+        True if dimensions are acceptable
+    """
+    passes, _ = validate_gif(gif_path, is_emoji, verbose)
+    return passes

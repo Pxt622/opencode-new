@@ -1,1 +1,122 @@
-aW1wb3J0IGpzb24KaW1wb3J0IHN5cwoKZnJvbSBweXBkZiBpbXBvcnQgUGRmUmVhZGVyCgoKCgpkZWYgZ2V0X2Z1bGxfYW5ub3RhdGlvbl9maWVsZF9pZChhbm5vdGF0aW9uKToKICAgIGNvbXBvbmVudHMgPSBbXQogICAgd2hpbGUgYW5ub3RhdGlvbjoKICAgICAgICBmaWVsZF9uYW1lID0gYW5ub3RhdGlvbi5nZXQoJy9UJykKICAgICAgICBpZiBmaWVsZF9uYW1lOgogICAgICAgICAgICBjb21wb25lbnRzLmFwcGVuZChmaWVsZF9uYW1lKQogICAgICAgIGFubm90YXRpb24gPSBhbm5vdGF0aW9uLmdldCgnL1BhcmVudCcpCiAgICByZXR1cm4gIi4iLmpvaW4ocmV2ZXJzZWQoY29tcG9uZW50cykpIGlmIGNvbXBvbmVudHMgZWxzZSBOb25lCgoKZGVmIG1ha2VfZmllbGRfZGljdChmaWVsZCwgZmllbGRfaWQpOgogICAgZmllbGRfZGljdCA9IHsiZmllbGRfaWQiOiBmaWVsZF9pZH0KICAgIGZ0ID0gZmllbGQuZ2V0KCcvRlQnKQogICAgaWYgZnQgPT0gIi9UeCI6CiAgICAgICAgZmllbGRfZGljdFsidHlwZSJdID0gInRleHQiCiAgICBlbGlmIGZ0ID09ICIvQnRuIjoKICAgICAgICBmaWVsZF9kaWN0WyJ0eXBlIl0gPSAiY2hlY2tib3giICAKICAgICAgICBzdGF0ZXMgPSBmaWVsZC5nZXQoIi9fU3RhdGVzXyIsIFtdKQogICAgICAgIGlmIGxlbihzdGF0ZXMpID09IDI6CiAgICAgICAgICAgIGlmICIvT2ZmIiBpbiBzdGF0ZXM6CiAgICAgICAgICAgICAgICBmaWVsZF9kaWN0WyJjaGVja2VkX3ZhbHVlIl0gPSBzdGF0ZXNbMF0gaWYgc3RhdGVzWzBdICE9ICIvT2ZmIiBlbHNlIHN0YXRlc1sxXQogICAgICAgICAgICAgICAgZmllbGRfZGljdFsidW5jaGVja2VkX3ZhbHVlIl0gPSAiL09mZiIKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByaW50KGYiVW5leHBlY3RlZCBzdGF0ZSB2YWx1ZXMgZm9yIGNoZWNrYm94IGAke2ZpZWxkX2lkfWAuIEl0cyBjaGVja2VkIGFuZCB1bmNoZWNrZWQgdmFsdWVzIG1heSBub3QgYmUgY29ycmVjdDsgaWYgeW91J3JlIHRyeWluZyB0byBjaGVjayBpdCwgdmlzdWFsbHkgdmVyaWZ5IHRoZSByZXN1bHRzLiIpCiAgICAgICAgICAgICAgICBmaWVsZF9kaWN0WyJjaGVja2VkX3ZhbHVlIl0gPSBzdGF0ZXNbMF0KICAgICAgICAgICAgICAgIGZpZWxkX2RpY3RbInVuY2hlY2tlZF92YWx1ZSJdID0gc3RhdGVzWzFdCiAgICBlbGlmIGZ0ID09ICIvQ2giOgogICAgICAgIGZpZWxkX2RpY3RbInR5cGUiXSA9ICJjaG9pY2UiCiAgICAgICAgc3RhdGVzID0gZmllbGQuZ2V0KCIvX1N0YXRlc18iLCBbXSkKICAgICAgICBmaWVsZF9kaWN0WyJjaG9pY2Vfb3B0aW9ucyJdID0gW3sKICAgICAgICAgICAgInZhbHVlIjogc3RhdGVbMF0sCiAgICAgICAgICAgICJ0ZXh0Ijogc3RhdGVbMV0sCiAgICAgICAgfSBmb3Igc3RhdGUgaW4gc3RhdGVzXQogICAgZWxzZToKICAgICAgICBmaWVsZF9kaWN0WyJ0eXBlIl0gPSBmInVua25vd24gKHtmdH0pIgogICAgcmV0dXJuIGZpZWxkX2RpY3QKCgpkZWYgZ2V0X2ZpZWxkX2luZm8ocmVhZGVyOiBQZGZSZWFkZXIpOgogICAgZmllbGRzID0gcmVhZGVyLmdldF9maWVsZHMoKQoKICAgIGZpZWxkX2luZm9fYnlfaWQgPSB7fQogICAgcG9zc2libGVfcmFkaW9fbmFtZXMgPSBzZXQoKQoKICAgIGZvciBmaWVsZF9pZCwgZmllbGQgaW4gZmllbGRzLml0ZW1zKCk6CiAgICAgICAgaWYgZmllbGQuZ2V0KCIvS2lkcyIpOgogICAgICAgICAgICBpZiBmaWVsZC5nZXQoIi9GVCIpID09ICIvQnRuIjoKICAgICAgICAgICAgICAgIHBvc3NpYmxlX3JhZGlvX25hbWVzLmFkZChmaWVsZF9pZCkKICAgICAgICAgICAgY29udGludWUKICAgICAgICBmaWVsZF9pbmZvX2J5X2lkW2ZpZWxkX2lkXSA9IG1ha2VfZmllbGRfZGljdChmaWVsZCwgZmllbGRfaWQpCgoKICAgIHJhZGlvX2ZpZWxkc19ieV9pZCA9IHt9CgogICAgZm9yIHBhZ2VfaW5kZXgsIHBhZ2UgaW4gZW51bWVyYXRlKHJlYWRlci5wYWdlcyk6CiAgICAgICAgYW5ub3RhdGlvbnMgPSBwYWdlLmdldCgnL0Fubm90cycsIFtdKQogICAgICAgIGZvciBhbm4gaW4gYW5ub3RhdGlvbnM6CiAgICAgICAgICAgIGZpZWxkX2lkID0gZ2V0X2Z1bGxfYW5ub3RhdGlvbl9maWVsZF9pZChhbm4pCiAgICAgICAgICAgIGlmIGZpZWxkX2lkIGluIGZpZWxkX2luZm9fYnlfaWQ6CiAgICAgICAgICAgICAgICBmaWVsZF9pbmZvX2J5X2lkW2ZpZWxkX2lkXVsicGFnZSJdID0gcGFnZV9pbmRleCArIDEKICAgICAgICAgICAgICAgIGZpZWxkX2luZm9fYnlfaWRbZmllbGRfaWRdWyJyZWN0Il0gPSBhbm4uZ2V0KCcvUmVjdCcpCiAgICAgICAgICAgIGVsaWYgZmllbGRfaWQgaW4gcG9zc2libGVfcmFkaW9fbmFtZXM6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgb25fdmFsdWVzID0gW3YgZm9yIHYgaW4gYW5uWyIvQVAiXVsiL04iXSBpZiB2ICE9ICIvT2ZmIl0KICAgICAgICAgICAgICAgIGV4Y2VwdCBLZXlFcnJvcjoKICAgICAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgICAgICAgICAgaWYgbGVuKG9uX3ZhbHVlcykgPT0gMToKICAgICAgICAgICAgICAgICAgICByZWN0ID0gYW5uLmdldCgiL1JlY3QiKQogICAgICAgICAgICAgICAgICAgIGlmIGZpZWxkX2lkIG5vdCBpbiByYWRpb19maWVsZHNfYnlfaWQ6CiAgICAgICAgICAgICAgICAgICAgICAgIHJhZGlvX2ZpZWxkc19ieV9pZFtmaWVsZF9pZF0gPSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiZmllbGRfaWQiOiBmaWVsZF9pZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0eXBlIjogInJhZGlvX2dyb3VwIiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJwYWdlIjogcGFnZV9pbmRleCArIDEsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAicmFkaW9fb3B0aW9ucyI6IFtdLAogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgcmFkaW9fZmllbGRzX2J5X2lkW2ZpZWxkX2lkXVsicmFkaW9fb3B0aW9ucyJdLmFwcGVuZCh7CiAgICAgICAgICAgICAgICAgICAgICAgICJ2YWx1ZSI6IG9uX3ZhbHVlc1swXSwKICAgICAgICAgICAgICAgICAgICAgICAgInJlY3QiOiByZWN0LAogICAgICAgICAgICAgICAgICAgIH0pCgogICAgZmllbGRzX3dpdGhfbG9jYXRpb24gPSBbXQogICAgZm9yIGZpZWxkX2luZm8gaW4gZmllbGRfaW5mb19ieV9pZC52YWx1ZXMoKToKICAgICAgICBpZiAicGFnZSIgaW4gZmllbGRfaW5mbzoKICAgICAgICAgICAgZmllbGRzX3dpdGhfbG9jYXRpb24uYXBwZW5kKGZpZWxkX2luZm8pCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcHJpbnQoZiJVbmFibGUgdG8gZGV0ZXJtaW5lIGxvY2F0aW9uIGZvciBmaWVsZCBpZDoge2ZpZWxkX2luZm8uZ2V0KCdmaWVsZF9pZCcpfSwgaWdub3JpbmciKQoKICAgIGRlZiBzb3J0X2tleShmKToKICAgICAgICBpZiAicmFkaW9fb3B0aW9ucyIgaW4gZjoKICAgICAgICAgICAgcmVjdCA9IGZbInJhZGlvX29wdGlvbnMiXVswXVsicmVjdCJdIG9yIFswLCAwLCAwLCAwXQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJlY3QgPSBmLmdldCgicmVjdCIpIG9yIFswLCAwLCAwLCAwXQogICAgICAgIGFkanVzdGVkX3Bvc2l0aW9uID0gWy1yZWN0WzFdLCByZWN0WzBdXQogICAgICAgIHJldHVybiBbZi5nZXQoInBhZ2UiKSwgYWRqdXN0ZWRfcG9zaXRpb25dCiAgICAKICAgIHNvcnRlZF9maWVsZHMgPSBmaWVsZHNfd2l0aF9sb2NhdGlvbiArIGxpc3QocmFkaW9fZmllbGRzX2J5X2lkLnZhbHVlcygpKQogICAgc29ydGVkX2ZpZWxkcy5zb3J0KGtleT1zb3J0X2tleSkKCiAgICByZXR1cm4gc29ydGVkX2ZpZWxkcwoKCmRlZiB3cml0ZV9maWVsZF9pbmZvKHBkZl9wYXRoOiBzdHIsIGpzb25fb3V0cHV0X3BhdGg6IHN0cik6CiAgICByZWFkZXIgPSBQZGZSZWFkZXIocGRmX3BhdGgpCiAgICBmaWVsZF9pbmZvID0gZ2V0X2ZpZWxkX2luZm8ocmVhZGVyKQogICAgd2l0aCBvcGVuKGpzb25fb3V0cHV0X3BhdGgsICJ3IikgYXMgZjoKICAgICAgICBqc29uLmR1bXAoZmllbGRfaW5mbywgZiwgaW5kZW50PTIpCiAgICBwcmludChmIldyb3RlIHtsZW4oZmllbGRfaW5mbyl9IGZpZWxkcyB0byB7anNvbl9vdXRwdXRfcGF0aH0iKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICBpZiBsZW4oc3lzLmFyZ3YpICE9IDM6CiAgICAgICAgcHJpbnQoIlVzYWdlOiBleHRyYWN0X2Zvcm1fZmllbGRfaW5mby5weSBbaW5wdXQgcGRmXSBbb3V0cHV0IGpzb25dIikKICAgICAgICBzeXMuZXhpdCgxKQogICAgd3JpdGVfZmllbGRfaW5mbyhzeXMuYXJndlsxXSwgc3lzLmFyZ3ZbMl0pCg==
+import json
+import sys
+
+from pypdf import PdfReader
+
+
+
+
+def get_full_annotation_field_id(annotation):
+    components = []
+    while annotation:
+        field_name = annotation.get('/T')
+        if field_name:
+            components.append(field_name)
+        annotation = annotation.get('/Parent')
+    return ".".join(reversed(components)) if components else None
+
+
+def make_field_dict(field, field_id):
+    field_dict = {"field_id": field_id}
+    ft = field.get('/FT')
+    if ft == "/Tx":
+        field_dict["type"] = "text"
+    elif ft == "/Btn":
+        field_dict["type"] = "checkbox"  
+        states = field.get("/_States_", [])
+        if len(states) == 2:
+            if "/Off" in states:
+                field_dict["checked_value"] = states[0] if states[0] != "/Off" else states[1]
+                field_dict["unchecked_value"] = "/Off"
+            else:
+                print(f"Unexpected state values for checkbox `${field_id}`. Its checked and unchecked values may not be correct; if you're trying to check it, visually verify the results.")
+                field_dict["checked_value"] = states[0]
+                field_dict["unchecked_value"] = states[1]
+    elif ft == "/Ch":
+        field_dict["type"] = "choice"
+        states = field.get("/_States_", [])
+        field_dict["choice_options"] = [{
+            "value": state[0],
+            "text": state[1],
+        } for state in states]
+    else:
+        field_dict["type"] = f"unknown ({ft})"
+    return field_dict
+
+
+def get_field_info(reader: PdfReader):
+    fields = reader.get_fields()
+
+    field_info_by_id = {}
+    possible_radio_names = set()
+
+    for field_id, field in fields.items():
+        if field.get("/Kids"):
+            if field.get("/FT") == "/Btn":
+                possible_radio_names.add(field_id)
+            continue
+        field_info_by_id[field_id] = make_field_dict(field, field_id)
+
+
+    radio_fields_by_id = {}
+
+    for page_index, page in enumerate(reader.pages):
+        annotations = page.get('/Annots', [])
+        for ann in annotations:
+            field_id = get_full_annotation_field_id(ann)
+            if field_id in field_info_by_id:
+                field_info_by_id[field_id]["page"] = page_index + 1
+                field_info_by_id[field_id]["rect"] = ann.get('/Rect')
+            elif field_id in possible_radio_names:
+                try:
+                    on_values = [v for v in ann["/AP"]["/N"] if v != "/Off"]
+                except KeyError:
+                    continue
+                if len(on_values) == 1:
+                    rect = ann.get("/Rect")
+                    if field_id not in radio_fields_by_id:
+                        radio_fields_by_id[field_id] = {
+                            "field_id": field_id,
+                            "type": "radio_group",
+                            "page": page_index + 1,
+                            "radio_options": [],
+                        }
+                    radio_fields_by_id[field_id]["radio_options"].append({
+                        "value": on_values[0],
+                        "rect": rect,
+                    })
+
+    fields_with_location = []
+    for field_info in field_info_by_id.values():
+        if "page" in field_info:
+            fields_with_location.append(field_info)
+        else:
+            print(f"Unable to determine location for field id: {field_info.get('field_id')}, ignoring")
+
+    def sort_key(f):
+        if "radio_options" in f:
+            rect = f["radio_options"][0]["rect"] or [0, 0, 0, 0]
+        else:
+            rect = f.get("rect") or [0, 0, 0, 0]
+        adjusted_position = [-rect[1], rect[0]]
+        return [f.get("page"), adjusted_position]
+    
+    sorted_fields = fields_with_location + list(radio_fields_by_id.values())
+    sorted_fields.sort(key=sort_key)
+
+    return sorted_fields
+
+
+def write_field_info(pdf_path: str, json_output_path: str):
+    reader = PdfReader(pdf_path)
+    field_info = get_field_info(reader)
+    with open(json_output_path, "w") as f:
+        json.dump(field_info, f, indent=2)
+    print(f"Wrote {len(field_info)} fields to {json_output_path}")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: extract_form_field_info.py [input pdf] [output json]")
+        sys.exit(1)
+    write_field_info(sys.argv[1], sys.argv[2])

@@ -1,1 +1,203 @@
-IyBQcmltaXRpdmUgVG9rZW5zCgpSYXcgZGVzaWduIHZhbHVlcyAtIGZvdW5kYXRpb24gb2YgdGhlIGRlc2lnbiBzeXN0ZW0uCgojIyBDb2xvciBTY2FsZXMKCiMjIyBHcmF5IFNjYWxlCgpgYGBjc3MKOnJvb3QgewogIC0tY29sb3ItZ3JheS01MDogICNGOUZBRkI7CiAgLS1jb2xvci1ncmF5LTEwMDogI0YzRjRGNjsKICAtLWNvbG9yLWdyYXktMjAwOiAjRTVFN0VCOwogIC0tY29sb3ItZ3JheS0zMDA6ICNEMUQ1REI7CiAgLS1jb2xvci1ncmF5LTQwMDogIzlDQTNBRjsKICAtLWNvbG9yLWdyYXktNTAwOiAjNkI3MjgwOwogIC0tY29sb3ItZ3JheS02MDA6ICM0QjU1NjM7CiAgLS1jb2xvci1ncmF5LTcwMDogIzM3NDE1MTsKICAtLWNvbG9yLWdyYXktODAwOiAjMUYyOTM3OwogIC0tY29sb3ItZ3JheS05MDA6ICMxMTE4Mjc7CiAgLS1jb2xvci1ncmF5LTk1MDogIzAzMDcxMjsKfQpgYGAKCiMjIyBQcmltYXJ5IENvbG9ycyAoQmx1ZSkKCmBgYGNzcwo6cm9vdCB7CiAgLS1jb2xvci1ibHVlLTUwOiAgI0VGRjZGRjsKICAtLWNvbG9yLWJsdWUtMTAwOiAjREJFQUZFOwogIC0tY29sb3ItYmx1ZS0yMDA6ICNCRkRCRkU7CiAgLS1jb2xvci1ibHVlLTMwMDogIzkzQzVGRDsKICAtLWNvbG9yLWJsdWUtNDAwOiAjNjBBNUZBOwogIC0tY29sb3ItYmx1ZS01MDA6ICMzQjgyRjY7CiAgLS1jb2xvci1ibHVlLTYwMDogIzI1NjNFQjsKICAtLWNvbG9yLWJsdWUtNzAwOiAjMUQ0RUQ4OwogIC0tY29sb3ItYmx1ZS04MDA6ICMxRTQwQUY7CiAgLS1jb2xvci1ibHVlLTkwMDogIzFFM0E4QTsKfQpgYGAKCiMjIyBTdGF0dXMgQ29sb3JzCgpgYGBjc3MKOnJvb3QgewogIC8qIFN1Y2Nlc3MgLSBHcmVlbiAqLwogIC0tY29sb3ItZ3JlZW4tNTAwOiAjMjJDNTVFOwogIC0tY29sb3ItZ3JlZW4tNjAwOiAjMTZBMzRBOwoKICAvKiBXYXJuaW5nIC0gWWVsbG93ICovCiAgLS1jb2xvci15ZWxsb3ctNTAwOiAjRUFCMzA4OwogIC0tY29sb3IteWVsbG93LTYwMDogI0NBOEEwNDsKCiAgLyogRXJyb3IgLSBSZWQgKi8KICAtLWNvbG9yLXJlZC01MDA6ICNFRjQ0NDQ7CiAgLS1jb2xvci1yZWQtNjAwOiAjREMyNjI2OwoKICAvKiBJbmZvIC0gQmx1ZSAqLwogIC0tY29sb3ItaW5mbzogdmFyKC0tY29sb3ItYmx1ZS01MDApOwp9CmBgYAoKIyMgU3BhY2luZyBTY2FsZQoKNHB4IGJhc2UgdW5pdCBzeXN0ZW0uCgpgYGBjc3MKOnJvb3QgewogIC0tc3BhY2UtMDogICAwOwogIC0tc3BhY2UtcHg6ICAxcHg7CiAgLS1zcGFjZS0wLTU6IDAuMTI1cmVtOyAgLyogMnB4ICovCiAgLS1zcGFjZS0xOiAgIDAuMjVyZW07ICAgLyogNHB4ICovCiAgLS1zcGFjZS0xLTU6IDAuMzc1cmVtOyAgLyogNnB4ICovCiAgLS1zcGFjZS0yOiAgIDAuNXJlbTsgICAgLyogOHB4ICovCiAgLS1zcGFjZS0yLTU6IDAuNjI1cmVtOyAgLyogMTBweCAqLwogIC0tc3BhY2UtMzogICAwLjc1cmVtOyAgIC8qIDEycHggKi8KICAtLXNwYWNlLTMtNTogMC44NzVyZW07ICAvKiAxNHB4ICovCiAgLS1zcGFjZS00OiAgIDFyZW07ICAgICAgLyogMTZweCAqLwogIC0tc3BhY2UtNTogICAxLjI1cmVtOyAgIC8qIDIwcHggKi8KICAtLXNwYWNlLTY6ICAgMS41cmVtOyAgICAvKiAyNHB4ICovCiAgLS1zcGFjZS03OiAgIDEuNzVyZW07ICAgLyogMjhweCAqLwogIC0tc3BhY2UtODogICAycmVtOyAgICAgIC8qIDMycHggKi8KICAtLXNwYWNlLTk6ICAgMi4yNXJlbTsgICAvKiAzNnB4ICovCiAgLS1zcGFjZS0xMDogIDIuNXJlbTsgICAgLyogNDBweCAqLwogIC0tc3BhY2UtMTI6ICAzcmVtOyAgICAgIC8qIDQ4cHggKi8KICAtLXNwYWNlLTE0OiAgMy41cmVtOyAgICAvKiA1NnB4ICovCiAgLS1zcGFjZS0xNjogIDRyZW07ICAgICAgLyogNjRweCAqLwogIC0tc3BhY2UtMjA6ICA1cmVtOyAgICAgIC8qIDgwcHggKi8KICAtLXNwYWNlLTI0OiAgNnJlbTsgICAgICAvKiA5NnB4ICovCn0KYGBgCgojIyBUeXBvZ3JhcGh5IFNjYWxlCgpgYGBjc3MKOnJvb3QgewogIC8qIEZvbnQgU2l6ZXMgKi8KICAtLWZvbnQtc2l6ZS14czogICAwLjc1cmVtOyAgIC8qIDEycHggKi8KICAtLWZvbnQtc2l6ZS1zbTogICAwLjg3NXJlbTsgIC8qIDE0cHggKi8KICAtLWZvbnQtc2l6ZS1iYXNlOiAxcmVtOyAgICAgIC8qIDE2cHggKi8KICAtLWZvbnQtc2l6ZS1sZzogICAxLjEyNXJlbTsgIC8qIDE4cHggKi8KICAtLWZvbnQtc2l6ZS14bDogICAxLjI1cmVtOyAgIC8qIDIwcHggKi8KICAtLWZvbnQtc2l6ZS0yeGw6ICAxLjVyZW07ICAgIC8qIDI0cHggKi8KICAtLWZvbnQtc2l6ZS0zeGw6ICAxLjg3NXJlbTsgIC8qIDMwcHggKi8KICAtLWZvbnQtc2l6ZS00eGw6ICAyLjI1cmVtOyAgIC8qIDM2cHggKi8KICAtLWZvbnQtc2l6ZS01eGw6ICAzcmVtOyAgICAgIC8qIDQ4cHggKi8KCiAgLyogTGluZSBIZWlnaHRzICovCiAgLS1sZWFkaW5nLW5vbmU6ICAgMTsKICAtLWxlYWRpbmctdGlnaHQ6ICAxLjI1OwogIC0tbGVhZGluZy1zbnVnOiAgIDEuMzc1OwogIC0tbGVhZGluZy1ub3JtYWw6IDEuNTsKICAtLWxlYWRpbmctcmVsYXhlZDogMS42MjU7CiAgLS1sZWFkaW5nLWxvb3NlOiAgMjsKCiAgLyogRm9udCBXZWlnaHRzICovCiAgLS1mb250LXdlaWdodC1ub3JtYWw6ICAgNDAwOwogIC0tZm9udC13ZWlnaHQtbWVkaXVtOiAgIDUwMDsKICAtLWZvbnQtd2VpZ2h0LXNlbWlib2xkOiA2MDA7CiAgLS1mb250LXdlaWdodC1ib2xkOiAgICAgNzAwOwoKICAvKiBMZXR0ZXIgU3BhY2luZyAqLwogIC0tdHJhY2tpbmctdGlnaHRlcjogLTAuMDVlbTsKICAtLXRyYWNraW5nLXRpZ2h0OiAgIC0wLjAyNWVtOwogIC0tdHJhY2tpbmctbm9ybWFsOiAgMDsKICAtLXRyYWNraW5nLXdpZGU6ICAgIDAuMDI1ZW07CiAgLS10cmFja2luZy13aWRlcjogICAwLjA1ZW07Cn0KYGBgCgojIyBCb3JkZXIgUmFkaXVzCgpgYGBjc3MKOnJvb3QgewogIC0tcmFkaXVzLW5vbmU6ICAgIDA7CiAgLS1yYWRpdXMtc206ICAgICAgMC4xMjVyZW07ICAvKiAycHggKi8KICAtLXJhZGl1cy1kZWZhdWx0OiAwLjI1cmVtOyAgIC8qIDRweCAqLwogIC0tcmFkaXVzLW1kOiAgICAgIDAuMzc1cmVtOyAgLyogNnB4ICovCiAgLS1yYWRpdXMtbGc6ICAgICAgMC41cmVtOyAgICAvKiA4cHggKi8KICAtLXJhZGl1cy14bDogICAgICAwLjc1cmVtOyAgIC8qIDEycHggKi8KICAtLXJhZGl1cy0yeGw6ICAgICAxcmVtOyAgICAgIC8qIDE2cHggKi8KICAtLXJhZGl1cy0zeGw6ICAgICAxLjVyZW07ICAgIC8qIDI0cHggKi8KICAtLXJhZGl1cy1mdWxsOiAgICA5OTk5cHg7Cn0KYGBgCgojIyBTaGFkb3dzCgpgYGBjc3MKOnJvb3QgewogIC0tc2hhZG93LW5vbmU6IG5vbmU7CiAgLS1zaGFkb3ctc206ICAgMCAxcHggMnB4IDAgcmdiKDAgMCAwIC8gMC4wNSk7CiAgLS1zaGFkb3ctZGVmYXVsdDogMCAxcHggM3B4IDAgcmdiKDAgMCAwIC8gMC4xKSwKICAgICAgICAgICAgICAgICAgICAwIDFweCAycHggLTFweCByZ2IoMCAwIDAgLyAwLjEpOwogIC0tc2hhZG93LW1kOiAgIDAgNHB4IDZweCAtMXB4IHJnYigwIDAgMCAvIDAuMSksCiAgICAgICAgICAgICAgICAgMCAycHggNHB4IC0ycHggcmdiKDAgMCAwIC8gMC4xKTsKICAtLXNoYWRvdy1sZzogICAwIDEwcHggMTVweCAtM3B4IHJnYigwIDAgMCAvIDAuMSksCiAgICAgICAgICAgICAgICAgMCA0cHggNnB4IC00cHggcmdiKDAgMCAwIC8gMC4xKTsKICAtLXNoYWRvdy14bDogICAwIDIwcHggMjVweCAtNXB4IHJnYigwIDAgMCAvIDAuMSksCiAgICAgICAgICAgICAgICAgMCA4cHggMTBweCAtNnB4IHJnYigwIDAgMCAvIDAuMSk7CiAgLS1zaGFkb3ctMnhsOiAgMCAyNXB4IDUwcHggLTEycHggcmdiKDAgMCAwIC8gMC4yNSk7CiAgLS1zaGFkb3ctaW5uZXI6IGluc2V0IDAgMnB4IDRweCAwIHJnYigwIDAgMCAvIDAuMDUpOwp9CmBgYAoKIyMgTW90aW9uIC8gRHVyYXRpb24KCmBgYGNzcwo6cm9vdCB7CiAgLS1kdXJhdGlvbi03NTogIDc1bXM7CiAgLS1kdXJhdGlvbi0xMDA6IDEwMG1zOwogIC0tZHVyYXRpb24tMTUwOiAxNTBtczsKICAtLWR1cmF0aW9uLTIwMDogMjAwbXM7CiAgLS1kdXJhdGlvbi0zMDA6IDMwMG1zOwogIC0tZHVyYXRpb24tNTAwOiA1MDBtczsKICAtLWR1cmF0aW9uLTcwMDogNzAwbXM7CiAgLS1kdXJhdGlvbi0xMDAwOiAxMDAwbXM7CgogIC8qIFNlbWFudGljIGR1cmF0aW9ucyAqLwogIC0tZHVyYXRpb24tZmFzdDogICB2YXIoLS1kdXJhdGlvbi0xNTApOwogIC0tZHVyYXRpb24tbm9ybWFsOiB2YXIoLS1kdXJhdGlvbi0yMDApOwogIC0tZHVyYXRpb24tc2xvdzogICB2YXIoLS1kdXJhdGlvbi0zMDApOwp9CmBgYAoKIyMgWi1JbmRleCBTY2FsZQoKYGBgY3NzCjpyb290IHsKICAtLXotYXV0bzogICAgIGF1dG87CiAgLS16LTA6ICAgICAgICAwOwogIC0tei0xMDogICAgICAgMTA7CiAgLS16LTIwOiAgICAgICAyMDsKICAtLXotMzA6ICAgICAgIDMwOwogIC0tei00MDogICAgICAgNDA7CiAgLS16LTUwOiAgICAgICA1MDsKICAtLXotZHJvcGRvd246IDEwMDA7CiAgLS16LXN0aWNreTogICAxMTAwOwogIC0tei1tb2RhbDogICAgMTIwMDsKICAtLXotcG9wb3ZlcjogIDEzMDA7CiAgLS16LXRvb2x0aXA6ICAxNDAwOwp9CmBgYAo=
+# Primitive Tokens
+
+Raw design values - foundation of the design system.
+
+## Color Scales
+
+### Gray Scale
+
+```css
+:root {
+  --color-gray-50:  #F9FAFB;
+  --color-gray-100: #F3F4F6;
+  --color-gray-200: #E5E7EB;
+  --color-gray-300: #D1D5DB;
+  --color-gray-400: #9CA3AF;
+  --color-gray-500: #6B7280;
+  --color-gray-600: #4B5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1F2937;
+  --color-gray-900: #111827;
+  --color-gray-950: #030712;
+}
+```
+
+### Primary Colors (Blue)
+
+```css
+:root {
+  --color-blue-50:  #EFF6FF;
+  --color-blue-100: #DBEAFE;
+  --color-blue-200: #BFDBFE;
+  --color-blue-300: #93C5FD;
+  --color-blue-400: #60A5FA;
+  --color-blue-500: #3B82F6;
+  --color-blue-600: #2563EB;
+  --color-blue-700: #1D4ED8;
+  --color-blue-800: #1E40AF;
+  --color-blue-900: #1E3A8A;
+}
+```
+
+### Status Colors
+
+```css
+:root {
+  /* Success - Green */
+  --color-green-500: #22C55E;
+  --color-green-600: #16A34A;
+
+  /* Warning - Yellow */
+  --color-yellow-500: #EAB308;
+  --color-yellow-600: #CA8A04;
+
+  /* Error - Red */
+  --color-red-500: #EF4444;
+  --color-red-600: #DC2626;
+
+  /* Info - Blue */
+  --color-info: var(--color-blue-500);
+}
+```
+
+## Spacing Scale
+
+4px base unit system.
+
+```css
+:root {
+  --space-0:   0;
+  --space-px:  1px;
+  --space-0-5: 0.125rem;  /* 2px */
+  --space-1:   0.25rem;   /* 4px */
+  --space-1-5: 0.375rem;  /* 6px */
+  --space-2:   0.5rem;    /* 8px */
+  --space-2-5: 0.625rem;  /* 10px */
+  --space-3:   0.75rem;   /* 12px */
+  --space-3-5: 0.875rem;  /* 14px */
+  --space-4:   1rem;      /* 16px */
+  --space-5:   1.25rem;   /* 20px */
+  --space-6:   1.5rem;    /* 24px */
+  --space-7:   1.75rem;   /* 28px */
+  --space-8:   2rem;      /* 32px */
+  --space-9:   2.25rem;   /* 36px */
+  --space-10:  2.5rem;    /* 40px */
+  --space-12:  3rem;      /* 48px */
+  --space-14:  3.5rem;    /* 56px */
+  --space-16:  4rem;      /* 64px */
+  --space-20:  5rem;      /* 80px */
+  --space-24:  6rem;      /* 96px */
+}
+```
+
+## Typography Scale
+
+```css
+:root {
+  /* Font Sizes */
+  --font-size-xs:   0.75rem;   /* 12px */
+  --font-size-sm:   0.875rem;  /* 14px */
+  --font-size-base: 1rem;      /* 16px */
+  --font-size-lg:   1.125rem;  /* 18px */
+  --font-size-xl:   1.25rem;   /* 20px */
+  --font-size-2xl:  1.5rem;    /* 24px */
+  --font-size-3xl:  1.875rem;  /* 30px */
+  --font-size-4xl:  2.25rem;   /* 36px */
+  --font-size-5xl:  3rem;      /* 48px */
+
+  /* Line Heights */
+  --leading-none:   1;
+  --leading-tight:  1.25;
+  --leading-snug:   1.375;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.625;
+  --leading-loose:  2;
+
+  /* Font Weights */
+  --font-weight-normal:   400;
+  --font-weight-medium:   500;
+  --font-weight-semibold: 600;
+  --font-weight-bold:     700;
+
+  /* Letter Spacing */
+  --tracking-tighter: -0.05em;
+  --tracking-tight:   -0.025em;
+  --tracking-normal:  0;
+  --tracking-wide:    0.025em;
+  --tracking-wider:   0.05em;
+}
+```
+
+## Border Radius
+
+```css
+:root {
+  --radius-none:    0;
+  --radius-sm:      0.125rem;  /* 2px */
+  --radius-default: 0.25rem;   /* 4px */
+  --radius-md:      0.375rem;  /* 6px */
+  --radius-lg:      0.5rem;    /* 8px */
+  --radius-xl:      0.75rem;   /* 12px */
+  --radius-2xl:     1rem;      /* 16px */
+  --radius-3xl:     1.5rem;    /* 24px */
+  --radius-full:    9999px;
+}
+```
+
+## Shadows
+
+```css
+:root {
+  --shadow-none: none;
+  --shadow-sm:   0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-default: 0 1px 3px 0 rgb(0 0 0 / 0.1),
+                    0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md:   0 4px 6px -1px rgb(0 0 0 / 0.1),
+                 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg:   0 10px 15px -3px rgb(0 0 0 / 0.1),
+                 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl:   0 20px 25px -5px rgb(0 0 0 / 0.1),
+                 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl:  0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+}
+```
+
+## Motion / Duration
+
+```css
+:root {
+  --duration-75:  75ms;
+  --duration-100: 100ms;
+  --duration-150: 150ms;
+  --duration-200: 200ms;
+  --duration-300: 300ms;
+  --duration-500: 500ms;
+  --duration-700: 700ms;
+  --duration-1000: 1000ms;
+
+  /* Semantic durations */
+  --duration-fast:   var(--duration-150);
+  --duration-normal: var(--duration-200);
+  --duration-slow:   var(--duration-300);
+}
+```
+
+## Z-Index Scale
+
+```css
+:root {
+  --z-auto:     auto;
+  --z-0:        0;
+  --z-10:       10;
+  --z-20:       20;
+  --z-30:       30;
+  --z-40:       40;
+  --z-50:       50;
+  --z-dropdown: 1000;
+  --z-sticky:   1100;
+  --z-modal:    1200;
+  --z-popover:  1300;
+  --z-tooltip:  1400;
+}
+```

@@ -1,1 +1,236 @@
-IyBDb21wb25lbnQgU3BlY2lmaWNhdGlvbnMKCkRldGFpbGVkIHNwZWNzIGZvciBjb3JlIGNvbXBvbmVudHMgd2l0aCBzdGF0ZXMgYW5kIHZhcmlhbnRzLgoKIyMgQnV0dG9uCgojIyMgVmFyaWFudHMKCnwgVmFyaWFudCB8IEJhY2tncm91bmQgfCBUZXh0IHwgQm9yZGVyIHwgVXNlIENhc2UgfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS18LS0tLS0tLS18LS0tLS0tLS0tLXwKfCBkZWZhdWx0IHwgcHJpbWFyeSB8IHdoaXRlIHwgbm9uZSB8IFByaW1hcnkgYWN0aW9ucyB8Cnwgc2Vjb25kYXJ5IHwgZ3JheS0xMDAgfCBncmF5LTkwMCB8IG5vbmUgfCBTZWNvbmRhcnkgYWN0aW9ucyB8Cnwgb3V0bGluZSB8IHRyYW5zcGFyZW50IHwgZm9yZWdyb3VuZCB8IGJvcmRlciB8IFRlcnRpYXJ5IGFjdGlvbnMgfAp8IGdob3N0IHwgdHJhbnNwYXJlbnQgfCBmb3JlZ3JvdW5kIHwgbm9uZSB8IFN1YnRsZSBhY3Rpb25zIHwKfCBsaW5rIHwgdHJhbnNwYXJlbnQgfCBwcmltYXJ5IHwgbm9uZSB8IE5hdmlnYXRpb24gfAp8IGRlc3RydWN0aXZlIHwgcmVkLTYwMCB8IHdoaXRlIHwgbm9uZSB8IERhbmdlcm91cyBhY3Rpb25zIHwKCiMjIyBTaXplcwoKfCBTaXplIHwgSGVpZ2h0IHwgUGFkZGluZyBYIHwgUGFkZGluZyBZIHwgRm9udCBTaXplIHwgSWNvbiBTaXplIHwKfC0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCBzbSB8IDMycHggfCAxMnB4IHwgNnB4IHwgMTRweCB8IDE2cHggfAp8IGRlZmF1bHQgfCA0MHB4IHwgMTZweCB8IDhweCB8IDE0cHggfCAxOHB4IHwKfCBsZyB8IDQ4cHggfCAyNHB4IHwgMTJweCB8IDE2cHggfCAyMHB4IHwKfCBpY29uIHwgNDBweCB8IDAgfCAwIHwgLSB8IDE4cHggfAoKIyMjIFN0YXRlcwoKfCBTdGF0ZSB8IEJhY2tncm91bmQgfCBUZXh0IHwgT3BhY2l0eSB8IEN1cnNvciB8CnwtLS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tfAp8IGRlZmF1bHQgfCB0b2tlbiB8IHRva2VuIHwgMSB8IHBvaW50ZXIgfAp8IGhvdmVyIHwgZGFya2VyIHwgdG9rZW4gfCAxIHwgcG9pbnRlciB8CnwgYWN0aXZlIHwgZGFya2VzdCB8IHRva2VuIHwgMSB8IHBvaW50ZXIgfAp8IGZvY3VzIHwgdG9rZW4gfCB0b2tlbiB8IDEgfCBwb2ludGVyIHwKfCBkaXNhYmxlZCB8IG11dGVkIHwgbXV0ZWQtZmcgfCAwLjUgfCBub3QtYWxsb3dlZCB8CnwgbG9hZGluZyB8IHRva2VuIHwgdG9rZW4gfCAwLjcgfCB3YWl0IHwKCiMjIyBBbmF0b215CgpgYGAK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiAgW2ljb25dICBMYWJlbCBUZXh0ICBbaWNvbl0gICAgICAgICDilIIK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCiAgICAg4oaRICAgICAgICAgICAgICAgICAgICAgIOKGkQogIGxlYWRpbmcgaWNvbiAgICAgICAgIHRyYWlsaW5nIGljb24KYGBgCgotLS0KCiMjIElucHV0CgojIyMgVmFyaWFudHMKCnwgVmFyaWFudCB8IERlc2NyaXB0aW9uIHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8IGRlZmF1bHQgfCBTdGFuZGFyZCB0ZXh0IGlucHV0IHwKfCB0ZXh0YXJlYSB8IE11bHRpLWxpbmUgdGV4dCB8Cnwgc2VsZWN0IHwgRHJvcGRvd24gc2VsZWN0aW9uIHwKfCBjaGVja2JveCB8IEJvb2xlYW4gdG9nZ2xlIHwKfCByYWRpbyB8IFNpbmdsZSBzZWxlY3Rpb24gfAp8IHN3aXRjaCB8IFRvZ2dsZSBzd2l0Y2ggfAoKIyMjIFNpemVzCgp8IFNpemUgfCBIZWlnaHQgfCBQYWRkaW5nIHwgRm9udCBTaXplIHwKfC0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLS18LS0tLS0tLS0tLS18Cnwgc20gfCAzMnB4IHwgOHB4IDEycHggfCAxNHB4IHwKfCBkZWZhdWx0IHwgNDBweCB8IDhweCAxMnB4IHwgMTRweCB8CnwgbGcgfCA0OHB4IHwgMTJweCAxNnB4IHwgMTZweCB8CgojIyMgU3RhdGVzCgp8IFN0YXRlIHwgQm9yZGVyIHwgQmFja2dyb3VuZCB8IFJpbmcgfAp8LS0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLS0tLS18LS0tLS0tfAp8IGRlZmF1bHQgfCBncmF5LTMwMCB8IHdoaXRlIHwgbm9uZSB8CnwgaG92ZXIgfCBncmF5LTQwMCB8IHdoaXRlIHwgbm9uZSB8CnwgZm9jdXMgfCBwcmltYXJ5IHwgd2hpdGUgfCBwcmltYXJ5LzIwJSB8CnwgZXJyb3IgfCByZWQtNTAwIHwgd2hpdGUgfCByZWQvMjAlIHwKfCBkaXNhYmxlZCB8IGdyYXktMjAwIHwgZ3JheS0xMDAgfCBub25lIHwKCiMjIyBBbmF0b215CgpgYGAKTGFiZWwgKG9wdGlvbmFsKQrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIFtpY29uXSBQbGFjZWhvbGRlci9WYWx1ZSAgIFthY3Rpb25dIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKSGVscGVyIHRleHQgb3IgZXJyb3IgbWVzc2FnZQpgYGAKCi0tLQoKIyMgQ2FyZAoKIyMjIFZhcmlhbnRzCgp8IFZhcmlhbnQgfCBTaGFkb3cgfCBCb3JkZXIgfCBVc2UgQ2FzZSB8CnwtLS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS0tLXwKfCBkZWZhdWx0IHwgc20gfCAxcHggfCBTdGFuZGFyZCBjYXJkIHwKfCBlbGV2YXRlZCB8IGxnIHwgbm9uZSB8IFByb21pbmVudCBjb250ZW50IHwKfCBvdXRsaW5lIHwgbm9uZSB8IDFweCB8IFN1YnRsZSBjb250YWluZXIgfAp8IGludGVyYWN0aXZlIHwgc23ihpJtZCB8IDFweCB8IENsaWNrYWJsZSBjYXJkIHwKCiMjIyBBbmF0b215CgpgYGAK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCuKUgiBDYXJkIEhlYWRlciAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSCICAgVGl0bGUgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilIIgICBEZXNjcmlwdGlvbiAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUnOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUpArilIIgQ2FyZCBDb250ZW50ICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAgIE1haW4gY29udGVudCBhcmVhICAgICAgICAgICAgICAgICDilIIK4pSCICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilKQK4pSCIENhcmQgRm9vdGVyICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilIIgICBBY3Rpb25zICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmApgYGAKCiMjIyBTcGFjaW5nCgp8IEFyZWEgfCBQYWRkaW5nIHwKfC0tLS0tLXwtLS0tLS0tLS18CnwgaGVhZGVyIHwgMjRweCAyNHB4IDAgfAp8IGNvbnRlbnQgfCAyNHB4IHwKfCBmb290ZXIgfCAwIDI0cHggMjRweCB8CnwgZ2FwIHwgMTZweCB8CgotLS0KCiMjIEJhZGdlCgojIyMgVmFyaWFudHMKCnwgVmFyaWFudCB8IEJhY2tncm91bmQgfCBUZXh0IHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS18LS0tLS0tfAp8IGRlZmF1bHQgfCBwcmltYXJ5IHwgd2hpdGUgfAp8IHNlY29uZGFyeSB8IGdyYXktMTAwIHwgZ3JheS05MDAgfAp8IG91dGxpbmUgfCB0cmFuc3BhcmVudCB8IGZvcmVncm91bmQgfAp8IGRlc3RydWN0aXZlIHwgcmVkLTYwMCB8IHdoaXRlIHwKfCBzdWNjZXNzIHwgZ3JlZW4tNjAwIHwgd2hpdGUgfAp8IHdhcm5pbmcgfCB5ZWxsb3ctNTAwIHwgZ3JheS05MDAgfAoKIyMjIFNpemVzCgp8IFNpemUgfCBQYWRkaW5nIHwgRm9udCBTaXplIHwgSGVpZ2h0IHwKfC0tLS0tLXwtLS0tLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS18Cnwgc20gfCA0cHggOHB4IHwgMTFweCB8IDIwcHggfAp8IGRlZmF1bHQgfCA0cHggMTBweCB8IDEycHggfCAyNHB4IHwKfCBsZyB8IDZweCAxMnB4IHwgMTRweCB8IDI4cHggfAoKLS0tCgojIyBBbGVydAoKIyMjIFZhcmlhbnRzCgp8IFZhcmlhbnQgfCBJY29uIHwgQmFja2dyb3VuZCB8IEJvcmRlciB8CnwtLS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS0tLXwKfCBkZWZhdWx0IHwgaW5mbyB8IGdyYXktNTAgfCBncmF5LTIwMCB8CnwgZGVzdHJ1Y3RpdmUgfCBhbGVydCB8IHJlZC01MCB8IHJlZC0yMDAgfAp8IHN1Y2Nlc3MgfCBjaGVjayB8IGdyZWVuLTUwIHwgZ3JlZW4tMjAwIHwKfCB3YXJuaW5nIHwgd2FybmluZyB8IHllbGxvdy01MCB8IHllbGxvdy0yMDAgfAoKIyMjIEFuYXRvbXkKCmBgYArilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIFtpY29uXSAgVGl0bGUgICAgICAgICAgICAgICAgICAgIFvDl13ilIIK4pSCICAgICAgICAgRGVzY3JpcHRpb24gdGV4dCAgICAgICAgICAgIOKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKYGBgCgotLS0KCiMjIERpYWxvZwoKIyMjIFNpemVzCgp8IFNpemUgfCBNYXggV2lkdGggfCBVc2UgQ2FzZSB8CnwtLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS0tLXwKfCBzbSB8IDM4NHB4IHwgU2ltcGxlIGNvbmZpcm1hdGlvbnMgfAp8IGRlZmF1bHQgfCA1MTJweCB8IFN0YW5kYXJkIGRpYWxvZ3MgfAp8IGxnIHwgNjQwcHggfCBDb21wbGV4IGZvcm1zIHwKfCB4bCB8IDc2OHB4IHwgRGF0YS1oZWF2eSBkaWFsb2dzIHwKfCBmdWxsIHwgMTAwJSAtIDMycHggfCBGdWxsLXNjcmVlbiBvbiBtb2JpbGUgfAoKIyMjIEFuYXRvbXkKCmBgYArilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAK4pSCIERpYWxvZyBIZWFkZXIgICAgICAgICAgICAgICAgICAgICAgW8OXXeKUggrilIIgICBUaXRsZSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSCICAgRGVzY3JpcHRpb24gICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUnOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUpArilIIgRGlhbG9nIENvbnRlbnQgICAgICAgICAgICAgICAgICAgICAgICDilIIK4pSCICAgU2Nyb2xsYWJsZSBpZiBuZWVkZWQgICAgICAgICAgICAgICAg4pSCCuKUgiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUggrilJzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilKQK4pSCIERpYWxvZyBGb290ZXIgICAgICAgICAgICAgICAgICAgICAgICAg4pSCCuKUgiAgICAgICAgICAgICAgICAgICAgIFtDYW5jZWxdIFtDb25maXJtXeKUggrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgKYGBgCgotLS0KCiMjIFRhYmxlCgojIyMgUm93IFN0YXRlcwoKfCBTdGF0ZSB8IEJhY2tncm91bmQgfCBVc2UgQ2FzZSB8CnwtLS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tfAp8IGRlZmF1bHQgfCB3aGl0ZSB8IE5vcm1hbCByb3cgfAp8IGhvdmVyIHwgZ3JheS01MCB8IE1vdXNlIG92ZXIgfAp8IHNlbGVjdGVkIHwgcHJpbWFyeS8xMCUgfCBTZWxlY3RlZCByb3cgfAp8IHN0cmlwZWQgfCBncmF5LTUwL3doaXRlIHwgQWx0ZXJuYXRpbmcgfAoKIyMjIENlbGwgQWxpZ25tZW50Cgp8IENvbnRlbnQgVHlwZSB8IEFsaWdubWVudCB8CnwtLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCBUZXh0IHwgTGVmdCB8CnwgTnVtYmVycyB8IFJpZ2h0IHwKfCBTdGF0dXMvQmFkZ2UgfCBDZW50ZXIgfAp8IEFjdGlvbnMgfCBSaWdodCB8CgojIyMgU3BhY2luZwoKfCBFbGVtZW50IHwgVmFsdWUgfAp8LS0tLS0tLS0tfC0tLS0tLS18CnwgY2VsbCBwYWRkaW5nIHwgMTJweCAxNnB4IHwKfCBoZWFkZXIgcGFkZGluZyB8IDEycHggMTZweCB8Cnwgcm93IGhlaWdodCAoY29tcGFjdCkgfCA0MHB4IHwKfCByb3cgaGVpZ2h0IChkZWZhdWx0KSB8IDQ4cHggfAp8IHJvdyBoZWlnaHQgKGNvbWZvcnRhYmxlKSB8IDU2cHggfAo=
+# Component Specifications
+
+Detailed specs for core components with states and variants.
+
+## Button
+
+### Variants
+
+| Variant | Background | Text | Border | Use Case |
+|---------|------------|------|--------|----------|
+| default | primary | white | none | Primary actions |
+| secondary | gray-100 | gray-900 | none | Secondary actions |
+| outline | transparent | foreground | border | Tertiary actions |
+| ghost | transparent | foreground | none | Subtle actions |
+| link | transparent | primary | none | Navigation |
+| destructive | red-600 | white | none | Dangerous actions |
+
+### Sizes
+
+| Size | Height | Padding X | Padding Y | Font Size | Icon Size |
+|------|--------|-----------|-----------|-----------|-----------|
+| sm | 32px | 12px | 6px | 14px | 16px |
+| default | 40px | 16px | 8px | 14px | 18px |
+| lg | 48px | 24px | 12px | 16px | 20px |
+| icon | 40px | 0 | 0 | - | 18px |
+
+### States
+
+| State | Background | Text | Opacity | Cursor |
+|-------|------------|------|---------|--------|
+| default | token | token | 1 | pointer |
+| hover | darker | token | 1 | pointer |
+| active | darkest | token | 1 | pointer |
+| focus | token | token | 1 | pointer |
+| disabled | muted | muted-fg | 0.5 | not-allowed |
+| loading | token | token | 0.7 | wait |
+
+### Anatomy
+
+```
+┌─────────────────────────────────────┐
+│  [icon]  Label Text  [icon]         │
+└─────────────────────────────────────┘
+     ↑                      ↑
+  leading icon         trailing icon
+```
+
+---
+
+## Input
+
+### Variants
+
+| Variant | Description |
+|---------|-------------|
+| default | Standard text input |
+| textarea | Multi-line text |
+| select | Dropdown selection |
+| checkbox | Boolean toggle |
+| radio | Single selection |
+| switch | Toggle switch |
+
+### Sizes
+
+| Size | Height | Padding | Font Size |
+|------|--------|---------|-----------|
+| sm | 32px | 8px 12px | 14px |
+| default | 40px | 8px 12px | 14px |
+| lg | 48px | 12px 16px | 16px |
+
+### States
+
+| State | Border | Background | Ring |
+|-------|--------|------------|------|
+| default | gray-300 | white | none |
+| hover | gray-400 | white | none |
+| focus | primary | white | primary/20% |
+| error | red-500 | white | red/20% |
+| disabled | gray-200 | gray-100 | none |
+
+### Anatomy
+
+```
+Label (optional)
+┌─────────────────────────────────────┐
+│ [icon] Placeholder/Value   [action] │
+└─────────────────────────────────────┘
+Helper text or error message
+```
+
+---
+
+## Card
+
+### Variants
+
+| Variant | Shadow | Border | Use Case |
+|---------|--------|--------|----------|
+| default | sm | 1px | Standard card |
+| elevated | lg | none | Prominent content |
+| outline | none | 1px | Subtle container |
+| interactive | sm→md | 1px | Clickable card |
+
+### Anatomy
+
+```
+┌─────────────────────────────────────┐
+│ Card Header                         │
+│   Title                             │
+│   Description                       │
+├─────────────────────────────────────┤
+│ Card Content                        │
+│   Main content area                 │
+│                                     │
+├─────────────────────────────────────┤
+│ Card Footer                         │
+│   Actions                           │
+└─────────────────────────────────────┘
+```
+
+### Spacing
+
+| Area | Padding |
+|------|---------|
+| header | 24px 24px 0 |
+| content | 24px |
+| footer | 0 24px 24px |
+| gap | 16px |
+
+---
+
+## Badge
+
+### Variants
+
+| Variant | Background | Text |
+|---------|------------|------|
+| default | primary | white |
+| secondary | gray-100 | gray-900 |
+| outline | transparent | foreground |
+| destructive | red-600 | white |
+| success | green-600 | white |
+| warning | yellow-500 | gray-900 |
+
+### Sizes
+
+| Size | Padding | Font Size | Height |
+|------|---------|-----------|--------|
+| sm | 4px 8px | 11px | 20px |
+| default | 4px 10px | 12px | 24px |
+| lg | 6px 12px | 14px | 28px |
+
+---
+
+## Alert
+
+### Variants
+
+| Variant | Icon | Background | Border |
+|---------|------|------------|--------|
+| default | info | gray-50 | gray-200 |
+| destructive | alert | red-50 | red-200 |
+| success | check | green-50 | green-200 |
+| warning | warning | yellow-50 | yellow-200 |
+
+### Anatomy
+
+```
+┌─────────────────────────────────────┐
+│ [icon]  Title                    [×]│
+│         Description text            │
+└─────────────────────────────────────┘
+```
+
+---
+
+## Dialog
+
+### Sizes
+
+| Size | Max Width | Use Case |
+|------|-----------|----------|
+| sm | 384px | Simple confirmations |
+| default | 512px | Standard dialogs |
+| lg | 640px | Complex forms |
+| xl | 768px | Data-heavy dialogs |
+| full | 100% - 32px | Full-screen on mobile |
+
+### Anatomy
+
+```
+┌───────────────────────────────────────┐
+│ Dialog Header                      [×]│
+│   Title                               │
+│   Description                         │
+├───────────────────────────────────────┤
+│ Dialog Content                        │
+│   Scrollable if needed                │
+│                                       │
+├───────────────────────────────────────┤
+│ Dialog Footer                         │
+│                     [Cancel] [Confirm]│
+└───────────────────────────────────────┘
+```
+
+---
+
+## Table
+
+### Row States
+
+| State | Background | Use Case |
+|-------|------------|----------|
+| default | white | Normal row |
+| hover | gray-50 | Mouse over |
+| selected | primary/10% | Selected row |
+| striped | gray-50/white | Alternating |
+
+### Cell Alignment
+
+| Content Type | Alignment |
+|--------------|-----------|
+| Text | Left |
+| Numbers | Right |
+| Status/Badge | Center |
+| Actions | Right |
+
+### Spacing
+
+| Element | Value |
+|---------|-------|
+| cell padding | 12px 16px |
+| header padding | 12px 16px |
+| row height (compact) | 40px |
+| row height (default) | 48px |
+| row height (comfortable) | 56px |

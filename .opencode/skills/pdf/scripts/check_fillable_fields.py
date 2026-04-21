@@ -1,1 +1,11 @@
-aW1wb3J0IHN5cwpmcm9tIHB5cGRmIGltcG9ydCBQZGZSZWFkZXIKCgoKCnJlYWRlciA9IFBkZlJlYWRlcihzeXMuYXJndlsxXSkKaWYgKHJlYWRlci5nZXRfZmllbGRzKCkpOgogICAgcHJpbnQoIlRoaXMgUERGIGhhcyBmaWxsYWJsZSBmb3JtIGZpZWxkcyIpCmVsc2U6CiAgICBwcmludCgiVGhpcyBQREYgZG9lcyBub3QgaGF2ZSBmaWxsYWJsZSBmb3JtIGZpZWxkczsgeW91IHdpbGwgbmVlZCB0byB2aXN1YWxseSBkZXRlcm1pbmUgd2hlcmUgdG8gZW50ZXIgZGF0YSIpCg==
+import sys
+from pypdf import PdfReader
+
+
+
+
+reader = PdfReader(sys.argv[1])
+if (reader.get_fields()):
+    print("This PDF has fillable form fields")
+else:
+    print("This PDF does not have fillable form fields; you will need to visually determine where to enter data")

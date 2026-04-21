@@ -1,1 +1,223 @@
-LyoqCiAqIOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkAogKiAgICAgICAgICAgICAgICAgIFA1LkpTIEdFTkVSQVRJVkUgQVJUIC0gQkVTVCBQUkFDVElDRVMKICog4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQCiAqCiAqIFRoaXMgZmlsZSBzaG93cyBTVFJVQ1RVUkUgYW5kIFBSSU5DSVBMRVMgZm9yIHA1LmpzIGdlbmVyYXRpdmUgYXJ0LgogKiBJdCBkb2VzIE5PVCBwcmVzY3JpYmUgd2hhdCBhcnQgeW91IHNob3VsZCBjcmVhdGUuCiAqCiAqIFlvdXIgYWxnb3JpdGhtaWMgcGhpbG9zb3BoeSBzaG91bGQgZ3VpZGUgd2hhdCB5b3UgYnVpbGQuCiAqIFRoZXNlIGFyZSBqdXN0IGJlc3QgcHJhY3RpY2VzIGZvciBob3cgdG8gc3RydWN0dXJlIHlvdXIgY29kZS4KICoKICog4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQCiAqLwoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyAxLiBQQVJBTUVURVIgT1JHQU5JWkFUSU9OCi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KLy8gS2VlcCBhbGwgdHVuYWJsZSBwYXJhbWV0ZXJzIGluIG9uZSBvYmplY3QKLy8gVGhpcyBtYWtlcyBpdCBlYXN5IHRvOgovLyAtIENvbm5lY3QgdG8gVUkgY29udHJvbHMKLy8gLSBSZXNldCB0byBkZWZhdWx0cwovLyAtIFNlcmlhbGl6ZS9zYXZlIGNvbmZpZ3VyYXRpb25zCgpsZXQgcGFyYW1zID0gewogICAgLy8gRGVmaW5lIHBhcmFtZXRlcnMgdGhhdCBtYXRjaCBZT1VSIGFsZ29yaXRobQogICAgLy8gRXhhbXBsZXMgKGN1c3RvbWl6ZSBmb3IgeW91ciBhcnQpOgogICAgLy8gLSBDb3VudHM6IGhvdyBtYW55IGVsZW1lbnRzIChwYXJ0aWNsZXMsIGNpcmNsZXMsIGJyYW5jaGVzLCBldGMuKQogICAgLy8gLSBTY2FsZXM6IHNpemUsIHNwZWVkLCBzcGFjaW5nCiAgICAvLyAtIFByb2JhYmlsaXRpZXM6IGxpa2VsaWhvb2Qgb2YgZXZlbnRzCiAgICAvLyAtIEFuZ2xlczogcm90YXRpb24sIGRpcmVjdGlvbgogICAgLy8gLSBDb2xvcnM6IHBhbGV0dGUgYXJyYXlzCgogICAgc2VlZDogMTIzNDUsCiAgICAvLyBkZWZpbmUgY29sb3JQYWxldHRlIGFzIGFuIGFycmF5IC0tIGNob29zZSB3aGF0ZXZlciBjb2xvcnMgeW91J2QgbGlrZSBbJyNkOTc3NTcnLCAnIzZhOWJjYycsICcjNzg4YzVkJywgJyNiMGFlYTUnXQogICAgLy8gQWRkIFlPVVIgcGFyYW1ldGVycyBoZXJlIGJhc2VkIG9uIHlvdXIgYWxnb3JpdGhtCn07CgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIDIuIFNFRURFRCBSQU5ET01ORVNTIChDcml0aWNhbCBmb3IgcmVwcm9kdWNpYmlsaXR5KQovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIEFMV0FZUyB1c2Ugc2VlZGVkIHJhbmRvbSBmb3IgQXJ0IEJsb2Nrcy1zdHlsZSByZXByb2R1Y2libGUgb3V0cHV0CgpmdW5jdGlvbiBpbml0aWFsaXplU2VlZChzZWVkKSB7CiAgICByYW5kb21TZWVkKHNlZWQpOwogICAgbm9pc2VTZWVkKHNlZWQpOwogICAgLy8gTm93IGFsbCByYW5kb20oKSBhbmQgbm9pc2UoKSBjYWxscyB3aWxsIGJlIGRldGVybWluaXN0aWMKfQoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyAzLiBQNS5KUyBMSUZFQ1lDTEUKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKZnVuY3Rpb24gc2V0dXAoKSB7CiAgICBjcmVhdGVDYW52YXMoODAwLCA4MDApOwoKICAgIC8vIEluaXRpYWxpemUgc2VlZCBmaXJzdAogICAgaW5pdGlhbGl6ZVNlZWQocGFyYW1zLnNlZWQpOwoKICAgIC8vIFNldCB1cCB5b3VyIGdlbmVyYXRpdmUgc3lzdGVtCiAgICAvLyBUaGlzIGlzIHdoZXJlIHlvdSBpbml0aWFsaXplOgogICAgLy8gLSBBcnJheXMgb2Ygb2JqZWN0cwogICAgLy8gLSBHcmlkIHN0cnVjdHVyZXMKICAgIC8vIC0gSW5pdGlhbCBwb3NpdGlvbnMKICAgIC8vIC0gU3RhcnRpbmcgc3RhdGVzCgogICAgLy8gRm9yIHN0YXRpYyBhcnQ6IGNhbGwgbm9Mb29wKCkgYXQgdGhlIGVuZCBvZiBzZXR1cAogICAgLy8gRm9yIGFuaW1hdGVkIGFydDogbGV0IGRyYXcoKSBrZWVwIHJ1bm5pbmcKfQoKZnVuY3Rpb24gZHJhdygpIHsKICAgIC8vIE9wdGlvbiAxOiBTdGF0aWMgZ2VuZXJhdGlvbiAocnVucyBvbmNlLCB0aGVuIHN0b3BzKQogICAgLy8gLSBHZW5lcmF0ZSBldmVyeXRoaW5nIGluIHNldHVwKCkKICAgIC8vIC0gQ2FsbCBub0xvb3AoKSBpbiBzZXR1cCgpCiAgICAvLyAtIGRyYXcoKSBkb2Vzbid0IGRvIG11Y2ggb3IgY2FuIGJlIGVtcHR5CgogICAgLy8gT3B0aW9uIDI6IEFuaW1hdGVkIGdlbmVyYXRpb24gKGNvbnRpbnVvdXMpCiAgICAvLyAtIFVwZGF0ZSB5b3VyIHN5c3RlbSBlYWNoIGZyYW1lCiAgICAvLyAtIENvbW1vbiBwYXR0ZXJuczogcGFydGljbGUgbW92ZW1lbnQsIGdyb3d0aCwgZXZvbHV0aW9uCiAgICAvLyAtIENhbiBvcHRpb25hbGx5IGNhbGwgbm9Mb29wKCkgYWZ0ZXIgTiBmcmFtZXMKCiAgICAvLyBPcHRpb24gMzogVXNlci10cmlnZ2VyZWQgcmVnZW5lcmF0aW9uCiAgICAvLyAtIFVzZSBub0xvb3AoKSBieSBkZWZhdWx0CiAgICAvLyAtIENhbGwgcmVkcmF3KCkgd2hlbiBwYXJhbWV0ZXJzIGNoYW5nZQp9CgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIDQuIENMQVNTIFNUUlVDVFVSRSAoV2hlbiB5b3UgbmVlZCBvYmplY3RzKQovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIFVzZSBjbGFzc2VzIHdoZW4geW91ciBhbGdvcml0aG0gaW52b2x2ZXMgbXVsdGlwbGUgZW50aXRpZXMKLy8gRXhhbXBsZXM6IHBhcnRpY2xlcywgYWdlbnRzLCBjZWxscywgbm9kZXMsIGV0Yy4KCmNsYXNzIEVudGl0eSB7CiAgICBjb25zdHJ1Y3RvcigpIHsKICAgICAgICAvLyBJbml0aWFsaXplIGVudGl0eSBwcm9wZXJ0aWVzCiAgICAgICAgLy8gVXNlIHJhbmRvbSgpIGhlcmUgLSBpdCB3aWxsIGJlIHNlZWRlZAogICAgfQoKICAgIHVwZGF0ZSgpIHsKICAgICAgICAvLyBVcGRhdGUgZW50aXR5IHN0YXRlCiAgICAgICAgLy8gVGhpcyBtaWdodCBpbnZvbHZlOgogICAgICAgIC8vIC0gUGh5c2ljcyBjYWxjdWxhdGlvbnMKICAgICAgICAvLyAtIEJlaGF2aW9yYWwgcnVsZXMKICAgICAgICAvLyAtIEludGVyYWN0aW9ucyB3aXRoIG5laWdoYm9ycwogICAgfQoKICAgIGRpc3BsYXkoKSB7CiAgICAgICAgLy8gUmVuZGVyIHRoZSBlbnRpdHkKICAgICAgICAvLyBLZWVwIHJlbmRlcmluZyBsb2dpYyBzZXBhcmF0ZSBmcm9tIHVwZGF0ZSBsb2dpYwogICAgfQp9CgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIDUuIFBFUkZPUk1BTkNFIENPTlNJREVSQVRJT05TCi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KCi8vIEZvciBsYXJnZSBudW1iZXJzIG9mIGVsZW1lbnRzOgovLyAtIFByZS1jYWxjdWxhdGUgd2hhdCB5b3UgY2FuCi8vIC0gVXNlIHNpbXBsZSBjb2xsaXNpb24gZGV0ZWN0aW9uIChzcGF0aWFsIGhhc2hpbmcgaWYgbmVlZGVkKQovLyAtIExpbWl0IGV4cGVuc2l2ZSBvcGVyYXRpb25zIChzcXJ0LCB0cmlnKSB3aGVuIHBvc3NpYmxlCi8vIC0gQ29uc2lkZXIgdXNpbmcgcDUgdmVjdG9ycyBlZmZpY2llbnRseQoKLy8gRm9yIHNtb290aCBhbmltYXRpb246Ci8vIC0gQWltIGZvciA2MGZwcwovLyAtIFByb2ZpbGUgaWYgdGhpbmdzIGFyZSBzbG93Ci8vIC0gQ29uc2lkZXIgcmVkdWNpbmcgcGFydGljbGUgY291bnRzIG9yIHNpbXBsaWZ5aW5nIGNhbGN1bGF0aW9ucwoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyA2LiBVVElMSVRZIEZVTkNUSU9OUwovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgovLyBDb2xvciB1dGlsaXRpZXMKZnVuY3Rpb24gaGV4VG9SZ2IoaGV4KSB7CiAgICBjb25zdCByZXN1bHQgPSAvXiM/KFthLWZcZF17Mn0pKFthLWZcZF17Mn0pKFthLWZcZF17Mn0pJC9pLmV4ZWMoaGV4KTsKICAgIHJldHVybiByZXN1bHQgPyB7CiAgICAgICAgcjogcGFyc2VJbnQocmVzdWx0WzFdLCAxNiksCiAgICAgICAgZzogcGFyc2VJbnQocmVzdWx0WzJdLCAxNiksCiAgICAgICAgYjogcGFyc2VJbnQocmVzdWx0WzNdLCAxNikKICAgIH0gOiBudWxsOwp9CgpmdW5jdGlvbiBjb2xvckZyb21QYWxldHRlKGluZGV4KSB7CiAgICByZXR1cm4gcGFyYW1zLmNvbG9yUGFsZXR0ZVtpbmRleCAlIHBhcmFtcy5jb2xvclBhbGV0dGUubGVuZ3RoXTsKfQoKLy8gTWFwcGluZyBhbmQgZWFzaW5nCmZ1bmN0aW9uIG1hcFJhbmdlKHZhbHVlLCBpbk1pbiwgaW5NYXgsIG91dE1pbiwgb3V0TWF4KSB7CiAgICByZXR1cm4gb3V0TWluICsgKG91dE1heCAtIG91dE1pbikgKiAoKHZhbHVlIC0gaW5NaW4pIC8gKGluTWF4IC0gaW5NaW4pKTsKfQoKZnVuY3Rpb24gZWFzZUluT3V0Q3ViaWModCkgewogICAgcmV0dXJuIHQgPCAwLjUgPyA0ICogdCAqIHQgKiB0IDogMSAtIE1hdGgucG93KC0yICogdCArIDIsIDMpIC8gMjsKfQoKLy8gQ29uc3RyYWluIHRvIGJvdW5kcwpmdW5jdGlvbiB3cmFwQXJvdW5kKHZhbHVlLCBtYXgpIHsKICAgIGlmICh2YWx1ZSA8IDApIHJldHVybiBtYXg7CiAgICBpZiAodmFsdWUgPiBtYXgpIHJldHVybiAwOwogICAgcmV0dXJuIHZhbHVlOwp9CgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIDcuIFBBUkFNRVRFUiBVUERBVEVTIChDb25uZWN0IHRvIFVJKQovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgpmdW5jdGlvbiB1cGRhdGVQYXJhbWV0ZXIocGFyYW1OYW1lLCB2YWx1ZSkgewogICAgcGFyYW1zW3BhcmFtTmFtZV0gPSB2YWx1ZTsKICAgIC8vIERlY2lkZSBpZiB5b3UgbmVlZCB0byByZWdlbmVyYXRlIG9yIGp1c3QgdXBkYXRlCiAgICAvLyBTb21lIHBhcmFtcyBjYW4gdXBkYXRlIGluIHJlYWwtdGltZSwgb3RoZXJzIG5lZWQgZnVsbCByZWdlbmVyYXRpb24KfQoKZnVuY3Rpb24gcmVnZW5lcmF0ZSgpIHsKICAgIC8vIFJlaW5pdGlhbGl6ZSB5b3VyIGdlbmVyYXRpdmUgc3lzdGVtCiAgICAvLyBVc2VmdWwgd2hlbiBwYXJhbWV0ZXJzIGNoYW5nZSBzaWduaWZpY2FudGx5CiAgICBpbml0aWFsaXplU2VlZChwYXJhbXMuc2VlZCk7CiAgICAvLyBUaGVuIHJlZ2VuZXJhdGUgeW91ciBzeXN0ZW0KfQoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyA4LiBDT01NT04gUDUuSlMgUEFUVEVSTlMKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKLy8gRHJhd2luZyB3aXRoIHRyYW5zcGFyZW5jeSBmb3IgdHJhaWxzL2ZhZGluZwpmdW5jdGlvbiBmYWRlQmFja2dyb3VuZChvcGFjaXR5KSB7CiAgICBmaWxsKDI1MCwgMjQ5LCAyNDUsIG9wYWNpdHkpOyAvLyBBbnRocm9waWMgbGlnaHQgd2l0aCBhbHBoYQogICAgbm9TdHJva2UoKTsKICAgIHJlY3QoMCwgMCwgd2lkdGgsIGhlaWdodCk7Cn0KCi8vIFVzaW5nIG5vaXNlIGZvciBvcmdhbmljIHZhcmlhdGlvbgpmdW5jdGlvbiBnZXROb2lzZVZhbHVlKHgsIHksIHNjYWxlID0gMC4wMSkgewogICAgcmV0dXJuIG5vaXNlKHggKiBzY2FsZSwgeSAqIHNjYWxlKTsKfQoKLy8gQ3JlYXRpbmcgdmVjdG9ycyBmcm9tIGFuZ2xlcwpmdW5jdGlvbiB2ZWN0b3JGcm9tQW5nbGUoYW5nbGUsIG1hZ25pdHVkZSA9IDEpIHsKICAgIHJldHVybiBjcmVhdGVWZWN0b3IoY29zKGFuZ2xlKSwgc2luKGFuZ2xlKSkubXVsdChtYWduaXR1ZGUpOwp9CgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIDkuIEVYUE9SVCBGVU5DVElPTlMKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKZnVuY3Rpb24gZXhwb3J0SW1hZ2UoKSB7CiAgICBzYXZlQ2FudmFzKCdnZW5lcmF0aXZlLWFydC0nICsgcGFyYW1zLnNlZWQsICdwbmcnKTsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyBSRU1FTUJFUgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vCi8vIFRoZXNlIGFyZSBUT09MUyBhbmQgUFJJTkNJUExFUywgbm90IGEgcmVjaXBlLgovLyBZb3VyIGFsZ29yaXRobWljIHBoaWxvc29waHkgc2hvdWxkIGd1aWRlIFdIQVQgeW91IGNyZWF0ZS4KLy8gVGhpcyBzdHJ1Y3R1cmUgaGVscHMgeW91IGNyZWF0ZSBpdCBXRUxMLgovLwovLyBGb2N1cyBvbjoKLy8gLSBDbGVhbiwgcmVhZGFibGUgY29kZQovLyAtIFBhcmFtZXRlcml6ZWQgZm9yIGV4cGxvcmF0aW9uCi8vIC0gU2VlZGVkIGZvciByZXByb2R1Y2liaWxpdHkKLy8gLSBQZXJmb3JtYW50IGV4ZWN1dGlvbgovLwovLyBUaGUgYXJ0IGl0c2VsZiBpcyBlbnRpcmVseSB1cCB0byB5b3UhCi8vCi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0=
+/**
+ * ═══════════════════════════════════════════════════════════════════════════
+ *                  P5.JS GENERATIVE ART - BEST PRACTICES
+ * ═══════════════════════════════════════════════════════════════════════════
+ *
+ * This file shows STRUCTURE and PRINCIPLES for p5.js generative art.
+ * It does NOT prescribe what art you should create.
+ *
+ * Your algorithmic philosophy should guide what you build.
+ * These are just best practices for how to structure your code.
+ *
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+
+// ============================================================================
+// 1. PARAMETER ORGANIZATION
+// ============================================================================
+// Keep all tunable parameters in one object
+// This makes it easy to:
+// - Connect to UI controls
+// - Reset to defaults
+// - Serialize/save configurations
+
+let params = {
+    // Define parameters that match YOUR algorithm
+    // Examples (customize for your art):
+    // - Counts: how many elements (particles, circles, branches, etc.)
+    // - Scales: size, speed, spacing
+    // - Probabilities: likelihood of events
+    // - Angles: rotation, direction
+    // - Colors: palette arrays
+
+    seed: 12345,
+    // define colorPalette as an array -- choose whatever colors you'd like ['#d97757', '#6a9bcc', '#788c5d', '#b0aea5']
+    // Add YOUR parameters here based on your algorithm
+};
+
+// ============================================================================
+// 2. SEEDED RANDOMNESS (Critical for reproducibility)
+// ============================================================================
+// ALWAYS use seeded random for Art Blocks-style reproducible output
+
+function initializeSeed(seed) {
+    randomSeed(seed);
+    noiseSeed(seed);
+    // Now all random() and noise() calls will be deterministic
+}
+
+// ============================================================================
+// 3. P5.JS LIFECYCLE
+// ============================================================================
+
+function setup() {
+    createCanvas(800, 800);
+
+    // Initialize seed first
+    initializeSeed(params.seed);
+
+    // Set up your generative system
+    // This is where you initialize:
+    // - Arrays of objects
+    // - Grid structures
+    // - Initial positions
+    // - Starting states
+
+    // For static art: call noLoop() at the end of setup
+    // For animated art: let draw() keep running
+}
+
+function draw() {
+    // Option 1: Static generation (runs once, then stops)
+    // - Generate everything in setup()
+    // - Call noLoop() in setup()
+    // - draw() doesn't do much or can be empty
+
+    // Option 2: Animated generation (continuous)
+    // - Update your system each frame
+    // - Common patterns: particle movement, growth, evolution
+    // - Can optionally call noLoop() after N frames
+
+    // Option 3: User-triggered regeneration
+    // - Use noLoop() by default
+    // - Call redraw() when parameters change
+}
+
+// ============================================================================
+// 4. CLASS STRUCTURE (When you need objects)
+// ============================================================================
+// Use classes when your algorithm involves multiple entities
+// Examples: particles, agents, cells, nodes, etc.
+
+class Entity {
+    constructor() {
+        // Initialize entity properties
+        // Use random() here - it will be seeded
+    }
+
+    update() {
+        // Update entity state
+        // This might involve:
+        // - Physics calculations
+        // - Behavioral rules
+        // - Interactions with neighbors
+    }
+
+    display() {
+        // Render the entity
+        // Keep rendering logic separate from update logic
+    }
+}
+
+// ============================================================================
+// 5. PERFORMANCE CONSIDERATIONS
+// ============================================================================
+
+// For large numbers of elements:
+// - Pre-calculate what you can
+// - Use simple collision detection (spatial hashing if needed)
+// - Limit expensive operations (sqrt, trig) when possible
+// - Consider using p5 vectors efficiently
+
+// For smooth animation:
+// - Aim for 60fps
+// - Profile if things are slow
+// - Consider reducing particle counts or simplifying calculations
+
+// ============================================================================
+// 6. UTILITY FUNCTIONS
+// ============================================================================
+
+// Color utilities
+function hexToRgb(hex) {
+    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16)
+    } : null;
+}
+
+function colorFromPalette(index) {
+    return params.colorPalette[index % params.colorPalette.length];
+}
+
+// Mapping and easing
+function mapRange(value, inMin, inMax, outMin, outMax) {
+    return outMin + (outMax - outMin) * ((value - inMin) / (inMax - inMin));
+}
+
+function easeInOutCubic(t) {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
+// Constrain to bounds
+function wrapAround(value, max) {
+    if (value < 0) return max;
+    if (value > max) return 0;
+    return value;
+}
+
+// ============================================================================
+// 7. PARAMETER UPDATES (Connect to UI)
+// ============================================================================
+
+function updateParameter(paramName, value) {
+    params[paramName] = value;
+    // Decide if you need to regenerate or just update
+    // Some params can update in real-time, others need full regeneration
+}
+
+function regenerate() {
+    // Reinitialize your generative system
+    // Useful when parameters change significantly
+    initializeSeed(params.seed);
+    // Then regenerate your system
+}
+
+// ============================================================================
+// 8. COMMON P5.JS PATTERNS
+// ============================================================================
+
+// Drawing with transparency for trails/fading
+function fadeBackground(opacity) {
+    fill(250, 249, 245, opacity); // Anthropic light with alpha
+    noStroke();
+    rect(0, 0, width, height);
+}
+
+// Using noise for organic variation
+function getNoiseValue(x, y, scale = 0.01) {
+    return noise(x * scale, y * scale);
+}
+
+// Creating vectors from angles
+function vectorFromAngle(angle, magnitude = 1) {
+    return createVector(cos(angle), sin(angle)).mult(magnitude);
+}
+
+// ============================================================================
+// 9. EXPORT FUNCTIONS
+// ============================================================================
+
+function exportImage() {
+    saveCanvas('generative-art-' + params.seed, 'png');
+}
+
+// ============================================================================
+// REMEMBER
+// ============================================================================
+//
+// These are TOOLS and PRINCIPLES, not a recipe.
+// Your algorithmic philosophy should guide WHAT you create.
+// This structure helps you create it WELL.
+//
+// Focus on:
+// - Clean, readable code
+// - Parameterized for exploration
+// - Seeded for reproducibility
+// - Performant execution
+//
+// The art itself is entirely up to you!
+//
+// ============================================================================

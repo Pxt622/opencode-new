@@ -1,1 +1,140 @@
-IyBCcmFuZCBHdWlkZWxpbmVzIFRlbXBsYXRlCgpVc2UgdGhpcyB0ZW1wbGF0ZSB0byBjcmVhdGUgY29tcHJlaGVuc2l2ZSBicmFuZCBndWlkZWxpbmVzIGZvciBhbnkgcHJvamVjdC4KCiMjIERvY3VtZW50IFN0cnVjdHVyZQoKYGBgbWFya2Rvd24KIyBCcmFuZCBHdWlkZWxpbmVzIHZ7WC5ZfQoKIyMgUXVpY2sgUmVmZXJlbmNlCi0gKipQcmltYXJ5IENvbG9yOioqICNYWFhYWFgKLSAqKlNlY29uZGFyeSBDb2xvcjoqKiAjWFhYWFhYCi0gKipQcmltYXJ5IEZvbnQ6Kioge2ZvbnQtZmFtaWx5fQotICoqVm9pY2U6KiogezMga2V5IHRyYWl0c30KCiMjIDEuIENvbG9yIFBhbGV0dGUKCiMjIyBQcmltYXJ5IENvbG9ycwp8IE5hbWUgfCBIZXggfCBSR0IgfCBVc2FnZSB8CnwtLS0tLS18LS0tLS18LS0tLS18LS0tLS0tLXwKfCB7TmFtZX0gfCAje2hleH0gfCByZ2Ioe3J9LHtnfSx7Yn0pIHwgUHJpbWFyeSBicmFuZCBjb2xvciwgQ1RBcywgaGVhZGVycyB8Cnwge05hbWV9IHwgI3toZXh9IHwgcmdiKHtyfSx7Z30se2J9KSB8IFN1cHBvcnRpbmcgYWNjZW50IHwKCiMjIyBTZWNvbmRhcnkgQ29sb3JzCnwgTmFtZSB8IEhleCB8IFJHQiB8IFVzYWdlIHwKfC0tLS0tLXwtLS0tLXwtLS0tLXwtLS0tLS0tfAp8IHtOYW1lfSB8ICN7aGV4fSB8IHJnYih7cn0se2d9LHtifSkgfCBTZWNvbmRhcnkgZWxlbWVudHMgfAp8IHtOYW1lfSB8ICN7aGV4fSB8IHJnYih7cn0se2d9LHtifSkgfCBIaWdobGlnaHRzIHwKCiMjIyBOZXV0cmFsIFBhbGV0dGUKfCBOYW1lIHwgSGV4IHwgUkdCIHwgVXNhZ2UgfAp8LS0tLS0tfC0tLS0tfC0tLS0tfC0tLS0tLS18CnwgQmFja2dyb3VuZCB8ICN7aGV4fSB8IHJnYih7cn0se2d9LHtifSkgfCBQYWdlIGJhY2tncm91bmRzIHwKfCBUZXh0IFByaW1hcnkgfCAje2hleH0gfCByZ2Ioe3J9LHtnfSx7Yn0pIHwgQm9keSB0ZXh0IHwKfCBUZXh0IFNlY29uZGFyeSB8ICN7aGV4fSB8IHJnYih7cn0se2d9LHtifSkgfCBDYXB0aW9ucywgbXV0ZWQgdGV4dCB8CnwgQm9yZGVyIHwgI3toZXh9IHwgcmdiKHtyfSx7Z30se2J9KSB8IERpdmlkZXJzLCBib3JkZXJzIHwKCiMjIyBBY2Nlc3NpYmlsaXR5Ci0gVGV4dC9CYWNrZ3JvdW5kIENvbnRyYXN0OiB7cmF0aW99OjEgKFdDQUcge2xldmVsfSkKLSBDVEEgQ29udHJhc3Q6IHtyYXRpb306MQotIEFsbCBpbnRlcmFjdGl2ZSBlbGVtZW50cyBtZWV0IFdDQUcgMi4xIEFBCgojIyAyLiBUeXBvZ3JhcGh5CgojIyMgRm9udCBTdGFjawpgYGBjc3MKLS1mb250LWhlYWRpbmc6ICd7Rm9udH0nLCBzYW5zLXNlcmlmOwotLWZvbnQtYm9keTogJ3tGb250fScsIHNhbnMtc2VyaWY7Ci0tZm9udC1tb25vOiAne0ZvbnR9JywgbW9ub3NwYWNlOwpgYGAKCiMjIyBUeXBlIFNjYWxlCnwgRWxlbWVudCB8IEZvbnQgfCBXZWlnaHQgfCBTaXplIChEZXNrdG9wL01vYmlsZSkgfCBMaW5lIEhlaWdodCB8CnwtLS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLXwKfCBIMSB8IHtmb250fSB8IDcwMCB8IDQ4cHggLyAzMnB4IHwgMS4yIHwKfCBIMiB8IHtmb250fSB8IDYwMCB8IDM2cHggLyAyOHB4IHwgMS4yNSB8CnwgSDMgfCB7Zm9udH0gfCA2MDAgfCAyOHB4IC8gMjRweCB8IDEuMyB8CnwgSDQgfCB7Zm9udH0gfCA2MDAgfCAyNHB4IC8gMjBweCB8IDEuMzUgfAp8IEJvZHkgfCB7Zm9udH0gfCA0MDAgfCAxNnB4IC8gMTZweCB8IDEuNSB8CnwgU21hbGwgfCB7Zm9udH0gfCA0MDAgfCAxNHB4IC8gMTRweCB8IDEuNSB8CnwgQ2FwdGlvbiB8IHtmb250fSB8IDQwMCB8IDEycHggLyAxMnB4IHwgMS40IHwKCiMjIDMuIExvZ28gVXNhZ2UKCiMjIyBWYXJpYW50cwotICoqUHJpbWFyeToqKiBGdWxsIGhvcml6b250YWwgbG9nbyB3aXRoIHdvcmRtYXJrCi0gKipTdGFja2VkOioqIFZlcnRpY2FsIGFycmFuZ2VtZW50IGZvciBzcXVhcmUgc3BhY2VzCi0gKipJY29uOioqIFN5bWJvbCBvbmx5IGZvciBmYXZpY29ucywgYXBwIGljb25zCi0gKipNb25vY2hyb21lOioqIFNpbmdsZSBjb2xvciBmb3IgbGltaXRlZCBwYWxldHRlcwoKIyMjIENsZWFyIFNwYWNlCk1pbmltdW0gY2xlYXIgc3BhY2UgPSBoZWlnaHQgb2YgbG9nbyBtYXJrCgojIyMgTWluaW11bSBTaXplCi0gRGlnaXRhbDogODBweCB3aWR0aCBtaW5pbXVtCi0gUHJpbnQ6IDI1bW0gd2lkdGggbWluaW11bQoKIyMjIERvbid0cwotIERvbid0IHJvdGF0ZSBvciBza2V3Ci0gRG9uJ3QgY2hhbmdlIGNvbG9ycyBvdXRzaWRlIGFwcHJvdmVkIHBhbGV0dGUKLSBEb24ndCBhZGQgZWZmZWN0cyAoc2hhZG93cywgZ3JhZGllbnRzKQotIERvbid0IGNyb3Agb3IgbW9kaWZ5IHByb3BvcnRpb25zCi0gRG9uJ3QgcGxhY2Ugb24gYnVzeSBiYWNrZ3JvdW5kcwoKIyMgNC4gVm9pY2UgJiBUb25lCgojIyMgQnJhbmQgUGVyc29uYWxpdHkKe1RyYWl0IDF9OiB7RGVzY3JpcHRpb259CntUcmFpdCAyfToge0Rlc2NyaXB0aW9ufQp7VHJhaXQgM306IHtEZXNjcmlwdGlvbn0KCiMjIyBWb2ljZSBDaGFydAp8IFRyYWl0IHwgV2UgQXJlIHwgV2UgQXJlIE5vdCB8CnwtLS0tLS0tfC0tLS0tLS0tfC0tLS0tLS0tLS0tLXwKfCB7VHJhaXR9IHwge0Rlc2NyaXB0aW9ufSB8IHtBbnRpLWRlc2NyaXB0aW9ufSB8CgojIyMgVG9uZSBieSBDb250ZXh0CnwgQ29udGV4dCB8IFRvbmUgfCBFeGFtcGxlIHwKfC0tLS0tLS0tLXwtLS0tLS18LS0tLS0tLS0tfAp8IE1hcmtldGluZyB8IHt0b25lfSB8ICJ7ZXhhbXBsZX0iIHwKfCBTdXBwb3J0IHwge3RvbmV9IHwgIntleGFtcGxlfSIgfAp8IEVycm9yIE1lc3NhZ2VzIHwge3RvbmV9IHwgIntleGFtcGxlfSIgfAp8IFN1Y2Nlc3MgfCB7dG9uZX0gfCAie2V4YW1wbGV9IiB8CgojIyMgUHJvaGliaXRlZCBUZXJtcwotIHt0ZXJtIDF9IChyZWFzb24pCi0ge3Rlcm0gMn0gKHJlYXNvbikKCiMjIDUuIEltYWdlcnkgR3VpZGVsaW5lcwoKIyMjIFBob3RvZ3JhcGh5IFN0eWxlCi0ge0xpZ2h0aW5nIHByZWZlcmVuY2V9Ci0ge1N1YmplY3QgZ3VpZGVsaW5lc30KLSB7Q29sb3IgdHJlYXRtZW50fQoKIyMjIElsbHVzdHJhdGlvbnMKLSBTdHlsZToge2Rlc2NyaXB0aW9ufQotIENvbG9yczogQnJhbmQgcGFsZXR0ZSBvbmx5Ci0gU3Ryb2tlOiB7d2VpZ2h0fXB4CgojIyMgSWNvbnMKLSBTdHlsZToge291dGxpbmVkL2ZpbGxlZC9kdW90b25lfQotIFNpemU6IDI0cHggYmFzZSBncmlkCi0gQ29ybmVyIHJhZGl1czoge3ZhbHVlfXB4CmBgYAoKIyMgVXNhZ2UKCjEuIENvcHkgdGVtcGxhdGUgYWJvdmUKMi4gRmlsbCBpbiBicmFuZC1zcGVjaWZpYyB2YWx1ZXMKMy4gU2F2ZSBhcyBgZG9jcy9icmFuZC1ndWlkZWxpbmVzLm1kYAo0LiBSZWZlcmVuY2UgaW4gY29udGVudCB3b3JrZmxvd3MKCiMjIEV4dHJhY3RhYmxlIEZpZWxkcwoKU2NyaXB0cyBjYW4gZXh0cmFjdDoKLSBgY29sb3JzLnByaW1hcnlgLCBgY29sb3JzLnNlY29uZGFyeWAsIGBjb2xvcnMubmV1dHJhbGAKLSBgdHlwb2dyYXBoeS5oZWFkaW5nYCwgYHR5cG9ncmFwaHkuYm9keWAKLSBgdm9pY2UudHJhaXRzYCwgYHZvaWNlLnByb2hpYml0ZWRgCi0gYGxvZ28udmFyaWFudHNgLCBgbG9nby5taW5TaXplYAo=
+# Brand Guidelines Template
+
+Use this template to create comprehensive brand guidelines for any project.
+
+## Document Structure
+
+```markdown
+# Brand Guidelines v{X.Y}
+
+## Quick Reference
+- **Primary Color:** #XXXXXX
+- **Secondary Color:** #XXXXXX
+- **Primary Font:** {font-family}
+- **Voice:** {3 key traits}
+
+## 1. Color Palette
+
+### Primary Colors
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| {Name} | #{hex} | rgb({r},{g},{b}) | Primary brand color, CTAs, headers |
+| {Name} | #{hex} | rgb({r},{g},{b}) | Supporting accent |
+
+### Secondary Colors
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| {Name} | #{hex} | rgb({r},{g},{b}) | Secondary elements |
+| {Name} | #{hex} | rgb({r},{g},{b}) | Highlights |
+
+### Neutral Palette
+| Name | Hex | RGB | Usage |
+|------|-----|-----|-------|
+| Background | #{hex} | rgb({r},{g},{b}) | Page backgrounds |
+| Text Primary | #{hex} | rgb({r},{g},{b}) | Body text |
+| Text Secondary | #{hex} | rgb({r},{g},{b}) | Captions, muted text |
+| Border | #{hex} | rgb({r},{g},{b}) | Dividers, borders |
+
+### Accessibility
+- Text/Background Contrast: {ratio}:1 (WCAG {level})
+- CTA Contrast: {ratio}:1
+- All interactive elements meet WCAG 2.1 AA
+
+## 2. Typography
+
+### Font Stack
+```css
+--font-heading: '{Font}', sans-serif;
+--font-body: '{Font}', sans-serif;
+--font-mono: '{Font}', monospace;
+```
+
+### Type Scale
+| Element | Font | Weight | Size (Desktop/Mobile) | Line Height |
+|---------|------|--------|----------------------|-------------|
+| H1 | {font} | 700 | 48px / 32px | 1.2 |
+| H2 | {font} | 600 | 36px / 28px | 1.25 |
+| H3 | {font} | 600 | 28px / 24px | 1.3 |
+| H4 | {font} | 600 | 24px / 20px | 1.35 |
+| Body | {font} | 400 | 16px / 16px | 1.5 |
+| Small | {font} | 400 | 14px / 14px | 1.5 |
+| Caption | {font} | 400 | 12px / 12px | 1.4 |
+
+## 3. Logo Usage
+
+### Variants
+- **Primary:** Full horizontal logo with wordmark
+- **Stacked:** Vertical arrangement for square spaces
+- **Icon:** Symbol only for favicons, app icons
+- **Monochrome:** Single color for limited palettes
+
+### Clear Space
+Minimum clear space = height of logo mark
+
+### Minimum Size
+- Digital: 80px width minimum
+- Print: 25mm width minimum
+
+### Don'ts
+- Don't rotate or skew
+- Don't change colors outside approved palette
+- Don't add effects (shadows, gradients)
+- Don't crop or modify proportions
+- Don't place on busy backgrounds
+
+## 4. Voice & Tone
+
+### Brand Personality
+{Trait 1}: {Description}
+{Trait 2}: {Description}
+{Trait 3}: {Description}
+
+### Voice Chart
+| Trait | We Are | We Are Not |
+|-------|--------|------------|
+| {Trait} | {Description} | {Anti-description} |
+
+### Tone by Context
+| Context | Tone | Example |
+|---------|------|---------|
+| Marketing | {tone} | "{example}" |
+| Support | {tone} | "{example}" |
+| Error Messages | {tone} | "{example}" |
+| Success | {tone} | "{example}" |
+
+### Prohibited Terms
+- {term 1} (reason)
+- {term 2} (reason)
+
+## 5. Imagery Guidelines
+
+### Photography Style
+- {Lighting preference}
+- {Subject guidelines}
+- {Color treatment}
+
+### Illustrations
+- Style: {description}
+- Colors: Brand palette only
+- Stroke: {weight}px
+
+### Icons
+- Style: {outlined/filled/duotone}
+- Size: 24px base grid
+- Corner radius: {value}px
+```
+
+## Usage
+
+1. Copy template above
+2. Fill in brand-specific values
+3. Save as `docs/brand-guidelines.md`
+4. Reference in content workflows
+
+## Extractable Fields
+
+Scripts can extract:
+- `colors.primary`, `colors.secondary`, `colors.neutral`
+- `typography.heading`, `typography.body`
+- `voice.traits`, `voice.prohibited`
+- `logo.variants`, `logo.minSize`

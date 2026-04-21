@@ -1,1 +1,114 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKTG9nbyBEZXNpZ24gU2VhcmNoIC0gQ0xJIGZvciBzZWFyY2hpbmcgbG9nbyBkZXNpZ24gZ3VpZGVsaW5lcwpVc2FnZTogcHl0aG9uIHNlYXJjaC5weSAiPHF1ZXJ5PiIgWy0tZG9tYWluIDxkb21haW4+XSBbLS1tYXgtcmVzdWx0cyAzXQogICAgICAgcHl0aG9uIHNlYXJjaC5weSAiPHF1ZXJ5PiIgLS1kZXNpZ24tYnJpZWYgWy1wICJCcmFuZCBOYW1lIl0KCkRvbWFpbnM6IHN0eWxlLCBjb2xvciwgaW5kdXN0cnkKIiIiCgppbXBvcnQgYXJncGFyc2UKZnJvbSBjb3JlIGltcG9ydCBDU1ZfQ09ORklHLCBNQVhfUkVTVUxUUywgc2VhcmNoLCBzZWFyY2hfYWxsCgoKZGVmIGZvcm1hdF9vdXRwdXQocmVzdWx0KToKICAgICIiIkZvcm1hdCByZXN1bHRzIGZvciBDbGF1ZGUgY29uc3VtcHRpb24gKHRva2VuLW9wdGltaXplZCkiIiIKICAgIGlmICJlcnJvciIgaW4gcmVzdWx0OgogICAgICAgIHJldHVybiBmIkVycm9yOiB7cmVzdWx0WydlcnJvciddfSIKCiAgICBvdXRwdXQgPSBbXQogICAgb3V0cHV0LmFwcGVuZChmIiMjIExvZ28gRGVzaWduIFNlYXJjaCBSZXN1bHRzIikKICAgIG91dHB1dC5hcHBlbmQoZiIqKkRvbWFpbjoqKiB7cmVzdWx0Wydkb21haW4nXX0gfCAqKlF1ZXJ5OioqIHtyZXN1bHRbJ3F1ZXJ5J119IikKICAgIG91dHB1dC5hcHBlbmQoZiIqKlNvdXJjZToqKiB7cmVzdWx0WydmaWxlJ119IHwgKipGb3VuZDoqKiB7cmVzdWx0Wydjb3VudCddfSByZXN1bHRzXG4iKQoKICAgIGZvciBpLCByb3cgaW4gZW51bWVyYXRlKHJlc3VsdFsncmVzdWx0cyddLCAxKToKICAgICAgICBvdXRwdXQuYXBwZW5kKGYiIyMjIFJlc3VsdCB7aX0iKQogICAgICAgIGZvciBrZXksIHZhbHVlIGluIHJvdy5pdGVtcygpOgogICAgICAgICAgICB2YWx1ZV9zdHIgPSBzdHIodmFsdWUpCiAgICAgICAgICAgIGlmIGxlbih2YWx1ZV9zdHIpID4gMzAwOgogICAgICAgICAgICAgICAgdmFsdWVfc3RyID0gdmFsdWVfc3RyWzozMDBdICsgIi4uLiIKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIi0gKip7a2V5fToqKiB7dmFsdWVfc3RyfSIpCiAgICAgICAgb3V0cHV0LmFwcGVuZCgiIikKCiAgICByZXR1cm4gIlxuIi5qb2luKG91dHB1dCkKCgpkZWYgZ2VuZXJhdGVfZGVzaWduX2JyaWVmKHF1ZXJ5LCBicmFuZF9uYW1lPU5vbmUpOgogICAgIiIiR2VuZXJhdGUgYSBjb21wcmVoZW5zaXZlIGxvZ28gZGVzaWduIGJyaWVmIGJhc2VkIG9uIHF1ZXJ5IiIiCiAgICByZXN1bHRzID0gc2VhcmNoX2FsbChxdWVyeSwgbWF4X3Jlc3VsdHM9MikKCiAgICBvdXRwdXQgPSBbXQogICAgb3V0cHV0LmFwcGVuZCgiPSIgKiA2MCkKICAgIGlmIGJyYW5kX25hbWU6CiAgICAgICAgb3V0cHV0LmFwcGVuZChmIiAgTE9HTyBERVNJR04gQlJJRUY6IHticmFuZF9uYW1lLnVwcGVyKCl9IikKICAgIGVsc2U6CiAgICAgICAgb3V0cHV0LmFwcGVuZCgiICBMT0dPIERFU0lHTiBCUklFRiIpCiAgICBvdXRwdXQuYXBwZW5kKCI9IiAqIDYwKQogICAgb3V0cHV0LmFwcGVuZChmIiAgUXVlcnk6IHtxdWVyeX0iKQogICAgb3V0cHV0LmFwcGVuZCgiPSIgKiA2MCkKICAgIG91dHB1dC5hcHBlbmQoIiIpCgogICAgIyBJbmR1c3RyeSByZWNvbW1lbmRhdGlvbnMKICAgIGlmICJpbmR1c3RyeSIgaW4gcmVzdWx0czoKICAgICAgICBvdXRwdXQuYXBwZW5kKCIjIyBJTkRVU1RSWSBBTkFMWVNJUyIpCiAgICAgICAgZm9yIHIgaW4gcmVzdWx0c1siaW5kdXN0cnkiXToKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIioqSW5kdXN0cnk6Kioge3IuZ2V0KCdJbmR1c3RyeScsICdOL0EnKX0iKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGYiLSBSZWNvbW1lbmRlZCBTdHlsZXM6IHtyLmdldCgnUmVjb21tZW5kZWQgU3R5bGVzJywgJ04vQScpfSIpCiAgICAgICAgICAgIG91dHB1dC5hcHBlbmQoZiItIENvbG9yczoge3IuZ2V0KCdQcmltYXJ5IENvbG9ycycsICdOL0EnKX0iKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGYiLSBUeXBvZ3JhcGh5OiB7ci5nZXQoJ1R5cG9ncmFwaHknLCAnTi9BJyl9IikKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIi0gU3ltYm9sczoge3IuZ2V0KCdDb21tb24gU3ltYm9scycsICdOL0EnKX0iKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGYiLSBNb29kOiB7ci5nZXQoJ01vb2QnLCAnTi9BJyl9IikKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIi0gQmVzdCBQcmFjdGljZXM6IHtyLmdldCgnQmVzdCBQcmFjdGljZXMnLCAnTi9BJyl9IikKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIi0gQXZvaWQ6IHtyLmdldCgnQXZvaWQnLCAnTi9BJyl9IikKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZCgiIikKCiAgICAjIFN0eWxlIHJlY29tbWVuZGF0aW9ucwogICAgaWYgInN0eWxlIiBpbiByZXN1bHRzOgogICAgICAgIG91dHB1dC5hcHBlbmQoIiMjIFNUWUxFIFJFQ09NTUVOREFUSU9OUyIpCiAgICAgICAgZm9yIHIgaW4gcmVzdWx0c1sic3R5bGUiXToKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIioqe3IuZ2V0KCdTdHlsZSBOYW1lJywgJ04vQScpfSoqICh7ci5nZXQoJ0NhdGVnb3J5JywgJ04vQScpfSkiKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGYiLSBDb2xvcnM6IHtyLmdldCgnUHJpbWFyeSBDb2xvcnMnLCAnTi9BJyl9IHwge3IuZ2V0KCdTZWNvbmRhcnkgQ29sb3JzJywgJ04vQScpfSIpCiAgICAgICAgICAgIG91dHB1dC5hcHBlbmQoZiItIFR5cG9ncmFwaHk6IHtyLmdldCgnVHlwb2dyYXBoeScsICdOL0EnKX0iKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGYiLSBFZmZlY3RzOiB7ci5nZXQoJ0VmZmVjdHMnLCAnTi9BJyl9IikKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIi0gQmVzdCBGb3I6IHtyLmdldCgnQmVzdCBGb3InLCAnTi9BJyl9IikKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIi0gQ29tcGxleGl0eToge3IuZ2V0KCdDb21wbGV4aXR5JywgJ04vQScpfSIpCiAgICAgICAgICAgIG91dHB1dC5hcHBlbmQoIiIpCgogICAgIyBDb2xvciByZWNvbW1lbmRhdGlvbnMKICAgIGlmICJjb2xvciIgaW4gcmVzdWx0czoKICAgICAgICBvdXRwdXQuYXBwZW5kKCIjIyBDT0xPUiBQQUxFVFRFIE9QVElPTlMiKQogICAgICAgIGZvciByIGluIHJlc3VsdHNbImNvbG9yIl06CiAgICAgICAgICAgIG91dHB1dC5hcHBlbmQoZiIqKntyLmdldCgnUGFsZXR0ZSBOYW1lJywgJ04vQScpfSoqIikKICAgICAgICAgICAgb3V0cHV0LmFwcGVuZChmIi0gUHJpbWFyeToge3IuZ2V0KCdQcmltYXJ5IEhleCcsICdOL0EnKX0iKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGYiLSBTZWNvbmRhcnk6IHtyLmdldCgnU2Vjb25kYXJ5IEhleCcsICdOL0EnKX0iKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGYiLSBBY2NlbnQ6IHtyLmdldCgnQWNjZW50IEhleCcsICdOL0EnKX0iKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKGYiLSBCYWNrZ3JvdW5kOiB7ci5nZXQoJ0JhY2tncm91bmQgSGV4JywgJ04vQScpfSIpCiAgICAgICAgICAgIG91dHB1dC5hcHBlbmQoZiItIFBzeWNob2xvZ3k6IHtyLmdldCgnUHN5Y2hvbG9neScsICdOL0EnKX0iKQogICAgICAgICAgICBvdXRwdXQuYXBwZW5kKCIiKQoKICAgIG91dHB1dC5hcHBlbmQoIj0iICogNjApCiAgICByZXR1cm4gIlxuIi5qb2luKG91dHB1dCkKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcGFyc2VyID0gYXJncGFyc2UuQXJndW1lbnRQYXJzZXIoZGVzY3JpcHRpb249IkxvZ28gRGVzaWduIFNlYXJjaCIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCJxdWVyeSIsIGhlbHA9IlNlYXJjaCBxdWVyeSIpCiAgICBwYXJzZXIuYWRkX2FyZ3VtZW50KCItLWRvbWFpbiIsICItZCIsIGNob2ljZXM9bGlzdChDU1ZfQ09ORklHLmtleXMoKSksIGhlbHA9IlNlYXJjaCBkb21haW4iKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1tYXgtcmVzdWx0cyIsICItbiIsIHR5cGU9aW50LCBkZWZhdWx0PU1BWF9SRVNVTFRTLCBoZWxwPSJNYXggcmVzdWx0cyAoZGVmYXVsdDogMykiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1qc29uIiwgYWN0aW9uPSJzdG9yZV90cnVlIiwgaGVscD0iT3V0cHV0IGFzIEpTT04iKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1kZXNpZ24tYnJpZWYiLCAiLWRiIiwgYWN0aW9uPSJzdG9yZV90cnVlIiwgaGVscD0iR2VuZXJhdGUgY29tcHJlaGVuc2l2ZSBkZXNpZ24gYnJpZWYiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLS1icmFuZC1uYW1lIiwgIi1wIiwgdHlwZT1zdHIsIGRlZmF1bHQ9Tm9uZSwgaGVscD0iQnJhbmQgbmFtZSBmb3IgZGVzaWduIGJyaWVmIikKCiAgICBhcmdzID0gcGFyc2VyLnBhcnNlX2FyZ3MoKQoKICAgIGlmIGFyZ3MuZGVzaWduX2JyaWVmOgogICAgICAgIHJlc3VsdCA9IGdlbmVyYXRlX2Rlc2lnbl9icmllZihhcmdzLnF1ZXJ5LCBhcmdzLmJyYW5kX25hbWUpCiAgICAgICAgcHJpbnQocmVzdWx0KQogICAgZWxzZToKICAgICAgICByZXN1bHQgPSBzZWFyY2goYXJncy5xdWVyeSwgYXJncy5kb21haW4sIGFyZ3MubWF4X3Jlc3VsdHMpCiAgICAgICAgaWYgYXJncy5qc29uOgogICAgICAgICAgICBpbXBvcnQganNvbgogICAgICAgICAgICBwcmludChqc29uLmR1bXBzKHJlc3VsdCwgaW5kZW50PTIsIGVuc3VyZV9hc2NpaT1GYWxzZSkpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcHJpbnQoZm9ybWF0X291dHB1dChyZXN1bHQpKQo=
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Logo Design Search - CLI for searching logo design guidelines
+Usage: python search.py "<query>" [--domain <domain>] [--max-results 3]
+       python search.py "<query>" --design-brief [-p "Brand Name"]
+
+Domains: style, color, industry
+"""
+
+import argparse
+from core import CSV_CONFIG, MAX_RESULTS, search, search_all
+
+
+def format_output(result):
+    """Format results for Claude consumption (token-optimized)"""
+    if "error" in result:
+        return f"Error: {result['error']}"
+
+    output = []
+    output.append(f"## Logo Design Search Results")
+    output.append(f"**Domain:** {result['domain']} | **Query:** {result['query']}")
+    output.append(f"**Source:** {result['file']} | **Found:** {result['count']} results\n")
+
+    for i, row in enumerate(result['results'], 1):
+        output.append(f"### Result {i}")
+        for key, value in row.items():
+            value_str = str(value)
+            if len(value_str) > 300:
+                value_str = value_str[:300] + "..."
+            output.append(f"- **{key}:** {value_str}")
+        output.append("")
+
+    return "\n".join(output)
+
+
+def generate_design_brief(query, brand_name=None):
+    """Generate a comprehensive logo design brief based on query"""
+    results = search_all(query, max_results=2)
+
+    output = []
+    output.append("=" * 60)
+    if brand_name:
+        output.append(f"  LOGO DESIGN BRIEF: {brand_name.upper()}")
+    else:
+        output.append("  LOGO DESIGN BRIEF")
+    output.append("=" * 60)
+    output.append(f"  Query: {query}")
+    output.append("=" * 60)
+    output.append("")
+
+    # Industry recommendations
+    if "industry" in results:
+        output.append("## INDUSTRY ANALYSIS")
+        for r in results["industry"]:
+            output.append(f"**Industry:** {r.get('Industry', 'N/A')}")
+            output.append(f"- Recommended Styles: {r.get('Recommended Styles', 'N/A')}")
+            output.append(f"- Colors: {r.get('Primary Colors', 'N/A')}")
+            output.append(f"- Typography: {r.get('Typography', 'N/A')}")
+            output.append(f"- Symbols: {r.get('Common Symbols', 'N/A')}")
+            output.append(f"- Mood: {r.get('Mood', 'N/A')}")
+            output.append(f"- Best Practices: {r.get('Best Practices', 'N/A')}")
+            output.append(f"- Avoid: {r.get('Avoid', 'N/A')}")
+            output.append("")
+
+    # Style recommendations
+    if "style" in results:
+        output.append("## STYLE RECOMMENDATIONS")
+        for r in results["style"]:
+            output.append(f"**{r.get('Style Name', 'N/A')}** ({r.get('Category', 'N/A')})")
+            output.append(f"- Colors: {r.get('Primary Colors', 'N/A')} | {r.get('Secondary Colors', 'N/A')}")
+            output.append(f"- Typography: {r.get('Typography', 'N/A')}")
+            output.append(f"- Effects: {r.get('Effects', 'N/A')}")
+            output.append(f"- Best For: {r.get('Best For', 'N/A')}")
+            output.append(f"- Complexity: {r.get('Complexity', 'N/A')}")
+            output.append("")
+
+    # Color recommendations
+    if "color" in results:
+        output.append("## COLOR PALETTE OPTIONS")
+        for r in results["color"]:
+            output.append(f"**{r.get('Palette Name', 'N/A')}**")
+            output.append(f"- Primary: {r.get('Primary Hex', 'N/A')}")
+            output.append(f"- Secondary: {r.get('Secondary Hex', 'N/A')}")
+            output.append(f"- Accent: {r.get('Accent Hex', 'N/A')}")
+            output.append(f"- Background: {r.get('Background Hex', 'N/A')}")
+            output.append(f"- Psychology: {r.get('Psychology', 'N/A')}")
+            output.append("")
+
+    output.append("=" * 60)
+    return "\n".join(output)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Logo Design Search")
+    parser.add_argument("query", help="Search query")
+    parser.add_argument("--domain", "-d", choices=list(CSV_CONFIG.keys()), help="Search domain")
+    parser.add_argument("--max-results", "-n", type=int, default=MAX_RESULTS, help="Max results (default: 3)")
+    parser.add_argument("--json", action="store_true", help="Output as JSON")
+    parser.add_argument("--design-brief", "-db", action="store_true", help="Generate comprehensive design brief")
+    parser.add_argument("--brand-name", "-p", type=str, default=None, help="Brand name for design brief")
+
+    args = parser.parse_args()
+
+    if args.design_brief:
+        result = generate_design_brief(args.query, args.brand_name)
+        print(result)
+    else:
+        result = search(args.query, args.domain, args.max_results)
+        if args.json:
+            import json
+            print(json.dumps(result, indent=2, ensure_ascii=False))
+        else:
+            print(format_output(result))

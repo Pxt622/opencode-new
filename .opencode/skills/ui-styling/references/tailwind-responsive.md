@@ -1,1 +1,382 @@
-IyBUYWlsd2luZCBDU1MgUmVzcG9uc2l2ZSBEZXNpZ24KCk1vYmlsZS1maXJzdCBicmVha3BvaW50cywgcmVzcG9uc2l2ZSB1dGlsaXRpZXMsIGFuZCBhZGFwdGl2ZSBsYXlvdXRzLgoKIyMgTW9iaWxlLUZpcnN0IEFwcHJvYWNoCgpUYWlsd2luZCB1c2VzIG1vYmlsZS1maXJzdCByZXNwb25zaXZlIGRlc2lnbi4gQmFzZSBzdHlsZXMgYXBwbHkgdG8gYWxsIHNjcmVlbiBzaXplcywgdGhlbiB1c2UgYnJlYWtwb2ludCBwcmVmaXhlcyB0byBvdmVycmlkZSBhdCBsYXJnZXIgc2l6ZXMuCgpgYGBodG1sCjwhLS0gQmFzZTogMSBjb2x1bW4gKG1vYmlsZSkKICAgICBzbTogMiBjb2x1bW5zICh0YWJsZXQpCiAgICAgbGc6IDQgY29sdW1ucyAoZGVza3RvcCkgLS0+CjxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQiPgogIDxkaXY+SXRlbSAxPC9kaXY+CiAgPGRpdj5JdGVtIDI8L2Rpdj4KICA8ZGl2Pkl0ZW0gMzwvZGl2PgogIDxkaXY+SXRlbSA0PC9kaXY+CjwvZGl2PgpgYGAKCiMjIEJyZWFrcG9pbnQgU3lzdGVtCgoqKkRlZmF1bHQgYnJlYWtwb2ludHM6KioKCnwgUHJlZml4IHwgTWluIFdpZHRoIHwgQ1NTIE1lZGlhIFF1ZXJ5IHwKfC0tLS0tLS0tfC0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tfAp8IGBzbTpgIHwgNjQwcHggfCBgQG1lZGlhIChtaW4td2lkdGg6IDY0MHB4KWAgfAp8IGBtZDpgIHwgNzY4cHggfCBgQG1lZGlhIChtaW4td2lkdGg6IDc2OHB4KWAgfAp8IGBsZzpgIHwgMTAyNHB4IHwgYEBtZWRpYSAobWluLXdpZHRoOiAxMDI0cHgpYCB8CnwgYHhsOmAgfCAxMjgwcHggfCBgQG1lZGlhIChtaW4td2lkdGg6IDEyODBweClgIHwKfCBgMnhsOmAgfCAxNTM2cHggfCBgQG1lZGlhIChtaW4td2lkdGg6IDE1MzZweClgIHwKCiMjIFJlc3BvbnNpdmUgUGF0dGVybnMKCiMjIyBMYXlvdXQgQ2hhbmdlcwoKYGBgaHRtbAo8IS0tIFZlcnRpY2FsIG9uIG1vYmlsZSwgaG9yaXpvbnRhbCBvbiBkZXNrdG9wIC0tPgo8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGxnOmZsZXgtcm93IGdhcC00Ij4KICA8ZGl2PkxlZnQ8L2Rpdj4KICA8ZGl2PlJpZ2h0PC9kaXY+CjwvZGl2PgoKPCEtLSAxIGNvbHVtbiAtPiAyIGNvbHVtbnMgLT4gMyBjb2x1bW5zIC0tPgo8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0yIHhsOmdyaWQtY29scy0zIGdhcC02Ij4KICA8ZGl2Pkl0ZW0gMTwvZGl2PgogIDxkaXY+SXRlbSAyPC9kaXY+CiAgPGRpdj5JdGVtIDM8L2Rpdj4KPC9kaXY+CmBgYAoKIyMjIFZpc2liaWxpdHkKCmBgYGh0bWwKPCEtLSBIaWRlIG9uIG1vYmlsZSwgc2hvdyBvbiBkZXNrdG9wIC0tPgo8ZGl2IGNsYXNzPSJoaWRkZW4gbGc6YmxvY2siPgogIERlc2t0b3Agb25seSBjb250ZW50CjwvZGl2PgoKPCEtLSBTaG93IG9uIG1vYmlsZSwgaGlkZSBvbiBkZXNrdG9wIC0tPgo8ZGl2IGNsYXNzPSJibG9jayBsZzpoaWRkZW4iPgogIE1vYmlsZSBvbmx5IGNvbnRlbnQKPC9kaXY+Cgo8IS0tIERpZmZlcmVudCBjb250ZW50IHBlciBicmVha3BvaW50IC0tPgo8ZGl2IGNsYXNzPSJsZzpoaWRkZW4iPk1vYmlsZSBtZW51PC9kaXY+CjxkaXYgY2xhc3M9ImhpZGRlbiBsZzpmbGV4Ij5EZXNrdG9wIG5hdmlnYXRpb248L2Rpdj4KYGBgCgojIyMgVHlwb2dyYXBoeQoKYGBgaHRtbAo8IS0tIFJlc3BvbnNpdmUgdGV4dCBzaXplcyAtLT4KPGgxIGNsYXNzPSJ0ZXh0LTJ4bCBtZDp0ZXh0LTR4bCBsZzp0ZXh0LTZ4bCBmb250LWJvbGQiPgogIEhlYWRpbmcgc2NhbGVzIHdpdGggc2NyZWVuIHNpemUKPC9oMT4KCjxwIGNsYXNzPSJ0ZXh0LXNtIG1kOnRleHQtYmFzZSBsZzp0ZXh0LWxnIj4KICBCb2R5IHRleHQgc2NhbGVzIGFwcHJvcHJpYXRlbHkKPC9wPgpgYGAKCiMjIyBTcGFjaW5nCgpgYGBodG1sCjwhLS0gUmVzcG9uc2l2ZSBwYWRkaW5nIC0tPgo8ZGl2IGNsYXNzPSJwLTQgbWQ6cC02IGxnOnAtOCI+CiAgTW9yZSBwYWRkaW5nIG9uIGxhcmdlciBzY3JlZW5zCjwvZGl2PgoKPCEtLSBSZXNwb25zaXZlIGdhcCAtLT4KPGRpdiBjbGFzcz0iZmxleCBnYXAtMiBtZDpnYXAtNCBsZzpnYXAtNiI+CiAgPGRpdj5JdGVtIDE8L2Rpdj4KICA8ZGl2Pkl0ZW0gMjwvZGl2Pgo8L2Rpdj4KYGBgCgojIyMgV2lkdGgKCmBgYGh0bWwKPCEtLSBGdWxsIHdpZHRoIG9uIG1vYmlsZSwgY29uc3RyYWluZWQgb24gZGVza3RvcCAtLT4KPGRpdiBjbGFzcz0idy1mdWxsIGxnOnctMS8yIHhsOnctMS8zIj4KICBSZXNwb25zaXZlIHdpZHRoCjwvZGl2PgoKPCEtLSBSZXNwb25zaXZlIG1heC13aWR0aCAtLT4KPGRpdiBjbGFzcz0ibWF4LXctc20gbWQ6bWF4LXctMnhsIGxnOm1heC13LTR4bCBteC1hdXRvIj4KICBDZW50ZXJlZCB3aXRoIHJlc3BvbnNpdmUgbWF4IHdpZHRoCjwvZGl2PgpgYGAKCiMjIENvbW1vbiBSZXNwb25zaXZlIExheW91dHMKCiMjIyBTaWRlYmFyIExheW91dAoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGxnOmZsZXgtcm93IG1pbi1oLXNjcmVlbiI+CiAgPCEtLSBTaWRlYmFyOiBGdWxsIHdpZHRoIG9uIG1vYmlsZSwgZml4ZWQgb24gZGVza3RvcCAtLT4KICA8YXNpZGUgY2xhc3M9InctZnVsbCBsZzp3LTY0IGJnLWdyYXktMTAwIHAtNCI+CiAgICBTaWRlYmFyCiAgPC9hc2lkZT4KCiAgPCEtLSBNYWluIGNvbnRlbnQgLS0+CiAgPG1haW4gY2xhc3M9ImZsZXgtMSBwLTQgbWQ6cC04Ij4KICAgIE1haW4gY29udGVudAogIDwvbWFpbj4KPC9kaXY+CmBgYAoKIyMjIENhcmQgR3JpZAoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0xIHNtOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy0zIHhsOmdyaWQtY29scy00IGdhcC00IG1kOmdhcC02Ij4KICA8ZGl2IGNsYXNzPSJiZy13aGl0ZSByb3VuZGVkLWxnIHNoYWRvdyBwLTYiPkNhcmQgMTwvZGl2PgogIDxkaXYgY2xhc3M9ImJnLXdoaXRlIHJvdW5kZWQtbGcgc2hhZG93IHAtNiI+Q2FyZCAyPC9kaXY+CiAgPGRpdiBjbGFzcz0iYmctd2hpdGUgcm91bmRlZC1sZyBzaGFkb3cgcC02Ij5DYXJkIDM8L2Rpdj4KICA8ZGl2IGNsYXNzPSJiZy13aGl0ZSByb3VuZGVkLWxnIHNoYWRvdyBwLTYiPkNhcmQgNDwvZGl2Pgo8L2Rpdj4KYGBgCgojIyMgSGVybyBTZWN0aW9uCgpgYGBodG1sCjxzZWN0aW9uIGNsYXNzPSJweS0xMiBtZDpweS0yMCBsZzpweS0zMiI+CiAgPGRpdiBjbGFzcz0iY29udGFpbmVyIG14LWF1dG8gcHgtNCI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIGxnOmZsZXgtcm93IGl0ZW1zLWNlbnRlciBnYXAtOCBsZzpnYXAtMTIiPgogICAgICA8ZGl2IGNsYXNzPSJmbGV4LTEgdGV4dC1jZW50ZXIgbGc6dGV4dC1sZWZ0Ij4KICAgICAgICA8aDEgY2xhc3M9InRleHQtNHhsIG1kOnRleHQtNXhsIGxnOnRleHQtNnhsIGZvbnQtYm9sZCBtYi00Ij4KICAgICAgICAgIEhlcm8gVGl0bGUKICAgICAgICA8L2gxPgogICAgICAgIDxwIGNsYXNzPSJ0ZXh0LWxnIG1kOnRleHQteGwgbWItNiI+CiAgICAgICAgICBIZXJvIGRlc2NyaXB0aW9uCiAgICAgICAgPC9wPgogICAgICAgIDxidXR0b24gY2xhc3M9InB4LTYgcHktMyBtZDpweC04IG1kOnB5LTQiPgogICAgICAgICAgQ1RBIEJ1dHRvbgogICAgICAgIDwvYnV0dG9uPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iZmxleC0xIj4KICAgICAgICA8aW1nIHNyYz0iaGVyby5qcGciIGNsYXNzPSJ3LWZ1bGwgcm91bmRlZC1sZyIgLz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC9zZWN0aW9uPgpgYGAKCiMjIyBOYXZpZ2F0aW9uCgpgYGBodG1sCjxuYXYgY2xhc3M9ImJnLXdoaXRlIHNoYWRvdyI+CiAgPGRpdiBjbGFzcz0iY29udGFpbmVyIG14LWF1dG8gcHgtNCI+CiAgICA8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gaC0xNiI+CiAgICAgIDxkaXYgY2xhc3M9InRleHQteGwgZm9udC1ib2xkIj5Mb2dvPC9kaXY+CgogICAgICA8IS0tIERlc2t0b3AgbmF2aWdhdGlvbiAtLT4KICAgICAgPGRpdiBjbGFzcz0iaGlkZGVuIG1kOmZsZXggZ2FwLTYiPgogICAgICAgIDxhIGhyZWY9IiMiPkhvbWU8L2E+CiAgICAgICAgPGEgaHJlZj0iIyI+QWJvdXQ8L2E+CiAgICAgICAgPGEgaHJlZj0iIyI+U2VydmljZXM8L2E+CiAgICAgICAgPGEgaHJlZj0iIyI+Q29udGFjdDwvYT4KICAgICAgPC9kaXY+CgogICAgICA8IS0tIE1vYmlsZSBtZW51IGJ1dHRvbiAtLT4KICAgICAgPGJ1dHRvbiBjbGFzcz0ibWQ6aGlkZGVuIj4KICAgICAgICA8c3ZnIGNsYXNzPSJ3LTYgaC02Ij4uLi48L3N2Zz4KICAgICAgPC9idXR0b24+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC9uYXY+CmBgYAoKIyMgTWF4LVdpZHRoIFF1ZXJpZXMKCkFwcGx5IHN0eWxlcyBvbmx5IGJlbG93IGNlcnRhaW4gYnJlYWtwb2ludCB1c2luZyBgbWF4LSo6YCBwcmVmaXg6CgpgYGBodG1sCjwhLS0gT25seSBvbiBtb2JpbGUgYW5kIHRhYmxldCAoYmVsb3cgMTAyNHB4KSAtLT4KPGRpdiBjbGFzcz0ibWF4LWxnOnRleHQtY2VudGVyIj4KICBDZW50ZXJlZCBvbiBtb2JpbGUvdGFibGV0LCBsZWZ0LWFsaWduZWQgb24gZGVza3RvcAo8L2Rpdj4KCjwhLS0gT25seSBvbiBtb2JpbGUgKGJlbG93IDY0MHB4KSAtLT4KPGRpdiBjbGFzcz0ibWF4LXNtOmhpZGRlbiI+CiAgSGlkZGVuIG9ubHkgb24gbW9iaWxlCjwvZGl2PgpgYGAKCkF2YWlsYWJsZTogYG1heC1zbTpgIGBtYXgtbWQ6YCBgbWF4LWxnOmAgYG1heC14bDpgIGBtYXgtMnhsOmAKCiMjIFJhbmdlIFF1ZXJpZXMKCkFwcGx5IHN0eWxlcyBiZXR3ZWVuIGJyZWFrcG9pbnRzOgoKYGBgaHRtbAo8IS0tIE9ubHkgb24gdGFibGV0cyAoYmV0d2VlbiBtZCBhbmQgbGcpIC0tPgo8ZGl2IGNsYXNzPSJtZDpibG9jayBsZzpoaWRkZW4iPgogIFZpc2libGUgb25seSBvbiB0YWJsZXRzCjwvZGl2PgoKPCEtLSBCZXR3ZWVuIHNtIGFuZCB4bCAtLT4KPGRpdiBjbGFzcz0ic206Z3JpZC1jb2xzLTIgeGw6Z3JpZC1jb2xzLTQiPgogIDIgY29sdW1ucyBvbiB0YWJsZXQsIDQgb24gZXh0cmEgbGFyZ2UKPC9kaXY+CmBgYAoKIyMgQ29udGFpbmVyIFF1ZXJpZXMKClN0eWxlIGVsZW1lbnRzIGJhc2VkIG9uIHBhcmVudCBjb250YWluZXIgd2lkdGg6CgpgYGBodG1sCjxkaXYgY2xhc3M9IkBjb250YWluZXIiPgogIDxkaXYgY2xhc3M9IkBtZDpncmlkLWNvbHMtMiBAbGc6Z3JpZC1jb2xzLTMiPgogICAgUmVzcG9uZHMgdG8gcGFyZW50IHdpZHRoLCBub3Qgdmlld3BvcnQKICA8L2Rpdj4KPC9kaXY+CmBgYAoKQ29udGFpbmVyIHF1ZXJ5IGJyZWFrcG9pbnRzOiBgQHNtOmAgYEBtZDpgIGBAbGc6YCBgQHhsOmAgYEAyeGw6YAoKIyMgQ3VzdG9tIEJyZWFrcG9pbnRzCgpEZWZpbmUgY3VzdG9tIGJyZWFrcG9pbnRzIGluIHRoZW1lOgoKYGBgY3NzCkB0aGVtZSB7CiAgLS1icmVha3BvaW50LTN4bDogMTIwcmVtOyAgLyogMTkyMHB4ICovCiAgLS1icmVha3BvaW50LXRhYmxldDogNDhyZW07ICAvKiA3NjhweCAqLwp9CmBgYAoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJ0YWJsZXQ6Z3JpZC1jb2xzLTIgM3hsOmdyaWQtY29scy02Ij4KICBVc2VzIGN1c3RvbSBicmVha3BvaW50cwo8L2Rpdj4KYGBgCgojIyBSZXNwb25zaXZlIFN0YXRlIFZhcmlhbnRzCgpDb21iaW5lIHJlc3BvbnNpdmUgd2l0aCBob3Zlci9mb2N1czoKCmBgYGh0bWwKPCEtLSBIb3ZlciBlZmZlY3Qgb25seSBvbiBkZXNrdG9wIC0tPgo8YnV0dG9uIGNsYXNzPSJsZzpob3ZlcjpzY2FsZS0xMDUiPgogIFNjYWxlIG9uIGhvdmVyIChkZXNrdG9wIG9ubHkpCjwvYnV0dG9uPgoKPCEtLSBEaWZmZXJlbnQgaG92ZXIgY29sb3JzIHBlciBicmVha3BvaW50IC0tPgo8YSBjbGFzcz0iaG92ZXI6dGV4dC1ibHVlLTYwMCBsZzpob3Zlcjp0ZXh0LXB1cnBsZS02MDAiPgogIExpbmsKPC9hPgpgYGAKCiMjIEJlc3QgUHJhY3RpY2VzCgojIyMgMS4gTW9iaWxlLUZpcnN0IERlc2lnbgoKU3RhcnQgd2l0aCBtb2JpbGUgc3R5bGVzLCBhZGQgY29tcGxleGl0eSBhdCBsYXJnZXIgYnJlYWtwb2ludHM6CgpgYGBodG1sCjwhLS0gR29vZDogTW9iaWxlIGZpcnN0IC0tPgo8ZGl2IGNsYXNzPSJ0ZXh0LWJhc2UgbWQ6dGV4dC1sZyBsZzp0ZXh0LXhsIj4KCjwhLS0gQXZvaWQ6IERlc2t0b3AgZmlyc3QgLS0+CjxkaXYgY2xhc3M9InRleHQteGwgbGc6dGV4dC1iYXNlIj4KYGBgCgojIyMgMi4gQ29uc2lzdGVudCBCcmVha3BvaW50IFVzYWdlCgpVc2Ugc2FtZSBicmVha3BvaW50cyBhY3Jvc3MgcmVsYXRlZCBlbGVtZW50czoKCmBgYGh0bWwKPGRpdiBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtMyBnYXAtNCBtZDpnYXAtNiBsZzpnYXAtOCI+CiAgU3BhY2luZyBzY2FsZXMgd2l0aCBsYXlvdXQKPC9kaXY+CmBgYAoKIyMjIDMuIFRlc3QgYXQgQnJlYWtwb2ludCBCb3VuZGFyaWVzCgpUZXN0IGF0IGV4YWN0IGJyZWFrcG9pbnQgd2lkdGhzICg2NDBweCwgNzY4cHgsIDEwMjRweCwgZXRjLikgdG8gY2F0Y2ggZWRnZSBjYXNlcy4KCiMjIyA0LiBVc2UgQ29udGFpbmVyIGZvciBDb250ZW50IFdpZHRoCgpgYGBodG1sCjxkaXYgY2xhc3M9ImNvbnRhaW5lciBteC1hdXRvIHB4LTQgc206cHgtNiBsZzpweC04Ij4KICA8ZGl2IGNsYXNzPSJtYXgtdy03eGwiPgogICAgQ29udGVudCB3aXRoIGNvbnNpc3RlbnQgbWF4IHdpZHRoCiAgPC9kaXY+CjwvZGl2PgpgYGAKCiMjIyA1LiBQcm9ncmVzc2l2ZSBFbmhhbmNlbWVudAoKRW5zdXJlIGNvcmUgZnVuY3Rpb25hbGl0eSB3b3JrcyBvbiBtb2JpbGUsIGVuaGFuY2UgZm9yIGxhcmdlciBzY3JlZW5zOgoKYGBgaHRtbAo8IS0tIENvcmUgbGF5b3V0IHdvcmtzIG9uIG1vYmlsZSAtLT4KPGRpdiBjbGFzcz0icC00Ij4KICA8IS0tIEVuaGFuY2VkIHNwYWNpbmcgb24gZGVza3RvcCAtLT4KICA8ZGl2IGNsYXNzPSJsZzpwLTgiPgogICAgQ29udGVudAogIDwvZGl2Pgo8L2Rpdj4KYGBgCgojIyMgNi4gQXZvaWQgVG9vIE1hbnkgQnJlYWtwb2ludHMKClVzZSAyLTMgYnJlYWtwb2ludHMgcGVyIGVsZW1lbnQgZm9yIG1haW50YWluYWJpbGl0eToKCmBgYGh0bWwKPCEtLSBHb29kOiAyIGJyZWFrcG9pbnRzIC0tPgo8ZGl2IGNsYXNzPSJncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMiBsZzpncmlkLWNvbHMtNCI+Cgo8IS0tIEF2b2lkOiBUb28gbWFueSBicmVha3BvaW50cyAtLT4KPGRpdiBjbGFzcz0iZ3JpZC1jb2xzLTEgc206Z3JpZC1jb2xzLTIgbWQ6Z3JpZC1jb2xzLTMgbGc6Z3JpZC1jb2xzLTQgeGw6Z3JpZC1jb2xzLTUgMnhsOmdyaWQtY29scy02Ij4KYGBgCgojIyBDb21tb24gUmVzcG9uc2l2ZSBVdGlsaXRpZXMKCiMjIyBSZXNwb25zaXZlIERpc3BsYXkKCmBgYGh0bWwKPGRpdiBjbGFzcz0iYmxvY2sgbWQ6ZmxleCBsZzpncmlkIj4KICBDaGFuZ2VzIGRpc3BsYXkgdHlwZSBwZXIgYnJlYWtwb2ludAo8L2Rpdj4KYGBgCgojIyMgUmVzcG9uc2l2ZSBQb3NpdGlvbgoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJyZWxhdGl2ZSBsZzphYnNvbHV0ZSI+CiAgUG9zaXRpb25lZCBkaWZmZXJlbnRseSBwZXIgYnJlYWtwb2ludAo8L2Rpdj4KYGBgCgojIyMgUmVzcG9uc2l2ZSBPcmRlcgoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtY29sIj4KICA8ZGl2IGNsYXNzPSJvcmRlci0yIGxnOm9yZGVyLTEiPkZpcnN0IG9uIGRlc2t0b3A8L2Rpdj4KICA8ZGl2IGNsYXNzPSJvcmRlci0xIGxnOm9yZGVyLTIiPkZpcnN0IG9uIG1vYmlsZTwvZGl2Pgo8L2Rpdj4KYGBgCgojIyMgUmVzcG9uc2l2ZSBPdmVyZmxvdwoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJvdmVyZmxvdy1hdXRvIGxnOm92ZXJmbG93LXZpc2libGUiPgogIFNjcm9sbGFibGUgb24gbW9iaWxlLCBleHBhbmRlZCBvbiBkZXNrdG9wCjwvZGl2PgpgYGAKCiMjIFRlc3RpbmcgQ2hlY2tsaXN0CgotIFsgXSBUZXN0IGF0IDMyMHB4IChzbWFsbCBtb2JpbGUpCi0gWyBdIFRlc3QgYXQgNjQwcHggKG1vYmlsZSBicmVha3BvaW50KQotIFsgXSBUZXN0IGF0IDc2OHB4ICh0YWJsZXQgYnJlYWtwb2ludCkKLSBbIF0gVGVzdCBhdCAxMDI0cHggKGRlc2t0b3AgYnJlYWtwb2ludCkKLSBbIF0gVGVzdCBhdCAxMjgwcHggKGxhcmdlIGRlc2t0b3AgYnJlYWtwb2ludCkKLSBbIF0gVGVzdCBsYW5kc2NhcGUgb3JpZW50YXRpb24KLSBbIF0gVmVyaWZ5IHRvdWNoIHRhcmdldHMgKG1pbiA0NHg0NHB4KQotIFsgXSBDaGVjayB0ZXh0IHJlYWRhYmlsaXR5IGF0IGFsbCBzaXplcwotIFsgXSBWZXJpZnkgbmF2aWdhdGlvbiB3b3JrcyBvbiBtb2JpbGUKLSBbIF0gVGVzdCB3aXRoIGJyb3dzZXIgem9vbQo=
+# Tailwind CSS Responsive Design
+
+Mobile-first breakpoints, responsive utilities, and adaptive layouts.
+
+## Mobile-First Approach
+
+Tailwind uses mobile-first responsive design. Base styles apply to all screen sizes, then use breakpoint prefixes to override at larger sizes.
+
+```html
+<!-- Base: 1 column (mobile)
+     sm: 2 columns (tablet)
+     lg: 4 columns (desktop) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+  <div>Item 4</div>
+</div>
+```
+
+## Breakpoint System
+
+**Default breakpoints:**
+
+| Prefix | Min Width | CSS Media Query |
+|--------|-----------|-----------------|
+| `sm:` | 640px | `@media (min-width: 640px)` |
+| `md:` | 768px | `@media (min-width: 768px)` |
+| `lg:` | 1024px | `@media (min-width: 1024px)` |
+| `xl:` | 1280px | `@media (min-width: 1280px)` |
+| `2xl:` | 1536px | `@media (min-width: 1536px)` |
+
+## Responsive Patterns
+
+### Layout Changes
+
+```html
+<!-- Vertical on mobile, horizontal on desktop -->
+<div class="flex flex-col lg:flex-row gap-4">
+  <div>Left</div>
+  <div>Right</div>
+</div>
+
+<!-- 1 column -> 2 columns -> 3 columns -->
+<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+</div>
+```
+
+### Visibility
+
+```html
+<!-- Hide on mobile, show on desktop -->
+<div class="hidden lg:block">
+  Desktop only content
+</div>
+
+<!-- Show on mobile, hide on desktop -->
+<div class="block lg:hidden">
+  Mobile only content
+</div>
+
+<!-- Different content per breakpoint -->
+<div class="lg:hidden">Mobile menu</div>
+<div class="hidden lg:flex">Desktop navigation</div>
+```
+
+### Typography
+
+```html
+<!-- Responsive text sizes -->
+<h1 class="text-2xl md:text-4xl lg:text-6xl font-bold">
+  Heading scales with screen size
+</h1>
+
+<p class="text-sm md:text-base lg:text-lg">
+  Body text scales appropriately
+</p>
+```
+
+### Spacing
+
+```html
+<!-- Responsive padding -->
+<div class="p-4 md:p-6 lg:p-8">
+  More padding on larger screens
+</div>
+
+<!-- Responsive gap -->
+<div class="flex gap-2 md:gap-4 lg:gap-6">
+  <div>Item 1</div>
+  <div>Item 2</div>
+</div>
+```
+
+### Width
+
+```html
+<!-- Full width on mobile, constrained on desktop -->
+<div class="w-full lg:w-1/2 xl:w-1/3">
+  Responsive width
+</div>
+
+<!-- Responsive max-width -->
+<div class="max-w-sm md:max-w-2xl lg:max-w-4xl mx-auto">
+  Centered with responsive max width
+</div>
+```
+
+## Common Responsive Layouts
+
+### Sidebar Layout
+
+```html
+<div class="flex flex-col lg:flex-row min-h-screen">
+  <!-- Sidebar: Full width on mobile, fixed on desktop -->
+  <aside class="w-full lg:w-64 bg-gray-100 p-4">
+    Sidebar
+  </aside>
+
+  <!-- Main content -->
+  <main class="flex-1 p-4 md:p-8">
+    Main content
+  </main>
+</div>
+```
+
+### Card Grid
+
+```html
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
+  <div class="bg-white rounded-lg shadow p-6">Card 1</div>
+  <div class="bg-white rounded-lg shadow p-6">Card 2</div>
+  <div class="bg-white rounded-lg shadow p-6">Card 3</div>
+  <div class="bg-white rounded-lg shadow p-6">Card 4</div>
+</div>
+```
+
+### Hero Section
+
+```html
+<section class="py-12 md:py-20 lg:py-32">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+      <div class="flex-1 text-center lg:text-left">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+          Hero Title
+        </h1>
+        <p class="text-lg md:text-xl mb-6">
+          Hero description
+        </p>
+        <button class="px-6 py-3 md:px-8 md:py-4">
+          CTA Button
+        </button>
+      </div>
+      <div class="flex-1">
+        <img src="hero.jpg" class="w-full rounded-lg" />
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+### Navigation
+
+```html
+<nav class="bg-white shadow">
+  <div class="container mx-auto px-4">
+    <div class="flex items-center justify-between h-16">
+      <div class="text-xl font-bold">Logo</div>
+
+      <!-- Desktop navigation -->
+      <div class="hidden md:flex gap-6">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <!-- Mobile menu button -->
+      <button class="md:hidden">
+        <svg class="w-6 h-6">...</svg>
+      </button>
+    </div>
+  </div>
+</nav>
+```
+
+## Max-Width Queries
+
+Apply styles only below certain breakpoint using `max-*:` prefix:
+
+```html
+<!-- Only on mobile and tablet (below 1024px) -->
+<div class="max-lg:text-center">
+  Centered on mobile/tablet, left-aligned on desktop
+</div>
+
+<!-- Only on mobile (below 640px) -->
+<div class="max-sm:hidden">
+  Hidden only on mobile
+</div>
+```
+
+Available: `max-sm:` `max-md:` `max-lg:` `max-xl:` `max-2xl:`
+
+## Range Queries
+
+Apply styles between breakpoints:
+
+```html
+<!-- Only on tablets (between md and lg) -->
+<div class="md:block lg:hidden">
+  Visible only on tablets
+</div>
+
+<!-- Between sm and xl -->
+<div class="sm:grid-cols-2 xl:grid-cols-4">
+  2 columns on tablet, 4 on extra large
+</div>
+```
+
+## Container Queries
+
+Style elements based on parent container width:
+
+```html
+<div class="@container">
+  <div class="@md:grid-cols-2 @lg:grid-cols-3">
+    Responds to parent width, not viewport
+  </div>
+</div>
+```
+
+Container query breakpoints: `@sm:` `@md:` `@lg:` `@xl:` `@2xl:`
+
+## Custom Breakpoints
+
+Define custom breakpoints in theme:
+
+```css
+@theme {
+  --breakpoint-3xl: 120rem;  /* 1920px */
+  --breakpoint-tablet: 48rem;  /* 768px */
+}
+```
+
+```html
+<div class="tablet:grid-cols-2 3xl:grid-cols-6">
+  Uses custom breakpoints
+</div>
+```
+
+## Responsive State Variants
+
+Combine responsive with hover/focus:
+
+```html
+<!-- Hover effect only on desktop -->
+<button class="lg:hover:scale-105">
+  Scale on hover (desktop only)
+</button>
+
+<!-- Different hover colors per breakpoint -->
+<a class="hover:text-blue-600 lg:hover:text-purple-600">
+  Link
+</a>
+```
+
+## Best Practices
+
+### 1. Mobile-First Design
+
+Start with mobile styles, add complexity at larger breakpoints:
+
+```html
+<!-- Good: Mobile first -->
+<div class="text-base md:text-lg lg:text-xl">
+
+<!-- Avoid: Desktop first -->
+<div class="text-xl lg:text-base">
+```
+
+### 2. Consistent Breakpoint Usage
+
+Use same breakpoints across related elements:
+
+```html
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
+  Spacing scales with layout
+</div>
+```
+
+### 3. Test at Breakpoint Boundaries
+
+Test at exact breakpoint widths (640px, 768px, 1024px, etc.) to catch edge cases.
+
+### 4. Use Container for Content Width
+
+```html
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-7xl">
+    Content with consistent max width
+  </div>
+</div>
+```
+
+### 5. Progressive Enhancement
+
+Ensure core functionality works on mobile, enhance for larger screens:
+
+```html
+<!-- Core layout works on mobile -->
+<div class="p-4">
+  <!-- Enhanced spacing on desktop -->
+  <div class="lg:p-8">
+    Content
+  </div>
+</div>
+```
+
+### 6. Avoid Too Many Breakpoints
+
+Use 2-3 breakpoints per element for maintainability:
+
+```html
+<!-- Good: 2 breakpoints -->
+<div class="grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+
+<!-- Avoid: Too many breakpoints -->
+<div class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+```
+
+## Common Responsive Utilities
+
+### Responsive Display
+
+```html
+<div class="block md:flex lg:grid">
+  Changes display type per breakpoint
+</div>
+```
+
+### Responsive Position
+
+```html
+<div class="relative lg:absolute">
+  Positioned differently per breakpoint
+</div>
+```
+
+### Responsive Order
+
+```html
+<div class="flex flex-col">
+  <div class="order-2 lg:order-1">First on desktop</div>
+  <div class="order-1 lg:order-2">First on mobile</div>
+</div>
+```
+
+### Responsive Overflow
+
+```html
+<div class="overflow-auto lg:overflow-visible">
+  Scrollable on mobile, expanded on desktop
+</div>
+```
+
+## Testing Checklist
+
+- [ ] Test at 320px (small mobile)
+- [ ] Test at 640px (mobile breakpoint)
+- [ ] Test at 768px (tablet breakpoint)
+- [ ] Test at 1024px (desktop breakpoint)
+- [ ] Test at 1280px (large desktop breakpoint)
+- [ ] Test landscape orientation
+- [ ] Verify touch targets (min 44x44px)
+- [ ] Check text readability at all sizes
+- [ ] Verify navigation works on mobile
+- [ ] Test with browser zoom

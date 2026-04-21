@@ -1,1 +1,106 @@
-IyBNZXNzYWdlIEJhdGNoZXMgQVBJIOKAlCBUeXBlU2NyaXB0CgpUaGUgQmF0Y2hlcyBBUEkgKGBQT1NUIC92MS9tZXNzYWdlcy9iYXRjaGVzYCkgcHJvY2Vzc2VzIE1lc3NhZ2VzIEFQSSByZXF1ZXN0cyBhc3luY2hyb25vdXNseSBhdCA1MCUgb2Ygc3RhbmRhcmQgcHJpY2VzLgoKIyMgS2V5IEZhY3RzCgotIFVwIHRvIDEwMCwwMDAgcmVxdWVzdHMgb3IgMjU2IE1CIHBlciBiYXRjaAotIE1vc3QgYmF0Y2hlcyBjb21wbGV0ZSB3aXRoaW4gMSBob3VyOyBtYXhpbXVtIDI0IGhvdXJzCi0gUmVzdWx0cyBhdmFpbGFibGUgZm9yIDI5IGRheXMgYWZ0ZXIgY3JlYXRpb24KLSA1MCUgY29zdCByZWR1Y3Rpb24gb24gYWxsIHRva2VuIHVzYWdlCi0gQWxsIE1lc3NhZ2VzIEFQSSBmZWF0dXJlcyBzdXBwb3J0ZWQgKHZpc2lvbiwgdG9vbHMsIGNhY2hpbmcsIGV0Yy4pCgotLS0KCiMjIENyZWF0ZSBhIEJhdGNoCgpgYGB0eXBlc2NyaXB0CmltcG9ydCBBbnRocm9waWMgZnJvbSAiQGFudGhyb3BpYy1haS9zZGsiOwoKY29uc3QgY2xpZW50ID0gbmV3IEFudGhyb3BpYygpOwoKY29uc3QgbWVzc2FnZUJhdGNoID0gYXdhaXQgY2xpZW50Lm1lc3NhZ2VzLmJhdGNoZXMuY3JlYXRlKHsKICByZXF1ZXN0czogWwogICAgewogICAgICBjdXN0b21faWQ6ICJyZXF1ZXN0LTEiLAogICAgICBwYXJhbXM6IHsKICAgICAgICBtb2RlbDogImNsYXVkZS1vcHVzLTQtNiIsCiAgICAgICAgbWF4X3Rva2VuczogMTYwMDAsCiAgICAgICAgbWVzc2FnZXM6IFsKICAgICAgICAgIHsgcm9sZTogInVzZXIiLCBjb250ZW50OiAiU3VtbWFyaXplIGNsaW1hdGUgY2hhbmdlIGltcGFjdHMiIH0sCiAgICAgICAgXSwKICAgICAgfSwKICAgIH0sCiAgICB7CiAgICAgIGN1c3RvbV9pZDogInJlcXVlc3QtMiIsCiAgICAgIHBhcmFtczogewogICAgICAgIG1vZGVsOiAiY2xhdWRlLW9wdXMtNC02IiwKICAgICAgICBtYXhfdG9rZW5zOiAxNjAwMCwKICAgICAgICBtZXNzYWdlczogWwogICAgICAgICAgeyByb2xlOiAidXNlciIsIGNvbnRlbnQ6ICJFeHBsYWluIHF1YW50dW0gY29tcHV0aW5nIGJhc2ljcyIgfSwKICAgICAgICBdLAogICAgICB9LAogICAgfSwKICBdLAp9KTsKCmNvbnNvbGUubG9nKGBCYXRjaCBJRDogJHttZXNzYWdlQmF0Y2guaWR9YCk7CmNvbnNvbGUubG9nKGBTdGF0dXM6ICR7bWVzc2FnZUJhdGNoLnByb2Nlc3Npbmdfc3RhdHVzfWApOwpgYGAKCi0tLQoKIyMgUG9sbCBmb3IgQ29tcGxldGlvbgoKYGBgdHlwZXNjcmlwdApsZXQgYmF0Y2g7CndoaWxlICh0cnVlKSB7CiAgYmF0Y2ggPSBhd2FpdCBjbGllbnQubWVzc2FnZXMuYmF0Y2hlcy5yZXRyaWV2ZShtZXNzYWdlQmF0Y2guaWQpOwogIGlmIChiYXRjaC5wcm9jZXNzaW5nX3N0YXR1cyA9PT0gImVuZGVkIikgYnJlYWs7CiAgY29uc29sZS5sb2coCiAgICBgU3RhdHVzOiAke2JhdGNoLnByb2Nlc3Npbmdfc3RhdHVzfSwgcHJvY2Vzc2luZzogJHtiYXRjaC5yZXF1ZXN0X2NvdW50cy5wcm9jZXNzaW5nfWAsCiAgKTsKICBhd2FpdCBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gc2V0VGltZW91dChyZXNvbHZlLCA2MF8wMDApKTsKfQoKY29uc29sZS5sb2coIkJhdGNoIGNvbXBsZXRlISIpOwpjb25zb2xlLmxvZyhgU3VjY2VlZGVkOiAke2JhdGNoLnJlcXVlc3RfY291bnRzLnN1Y2NlZWRlZH1gKTsKY29uc29sZS5sb2coYEVycm9yZWQ6ICR7YmF0Y2gucmVxdWVzdF9jb3VudHMuZXJyb3JlZH1gKTsKYGBgCgotLS0KCiMjIFJldHJpZXZlIFJlc3VsdHMKCmBgYHR5cGVzY3JpcHQKZm9yIGF3YWl0IChjb25zdCByZXN1bHQgb2YgYXdhaXQgY2xpZW50Lm1lc3NhZ2VzLmJhdGNoZXMucmVzdWx0cygKICBtZXNzYWdlQmF0Y2guaWQsCikpIHsKICBzd2l0Y2ggKHJlc3VsdC5yZXN1bHQudHlwZSkgewogICAgY2FzZSAic3VjY2VlZGVkIjoKICAgICAgY29uc29sZS5sb2coCiAgICAgICAgYFske3Jlc3VsdC5jdXN0b21faWR9XSAke3Jlc3VsdC5yZXN1bHQubWVzc2FnZS5jb250ZW50WzBdLnRleHQuc2xpY2UoMCwgMTAwKX1gLAogICAgICApOwogICAgICBicmVhazsKICAgIGNhc2UgImVycm9yZWQiOgogICAgICBpZiAocmVzdWx0LnJlc3VsdC5lcnJvci50eXBlID09PSAiaW52YWxpZF9yZXF1ZXN0IikgewogICAgICAgIGNvbnNvbGUubG9nKGBbJHtyZXN1bHQuY3VzdG9tX2lkfV0gVmFsaWRhdGlvbiBlcnJvciAtIGZpeCBhbmQgcmV0cnlgKTsKICAgICAgfSBlbHNlIHsKICAgICAgICBjb25zb2xlLmxvZyhgWyR7cmVzdWx0LmN1c3RvbV9pZH1dIFNlcnZlciBlcnJvciAtIHNhZmUgdG8gcmV0cnlgKTsKICAgICAgfQogICAgICBicmVhazsKICAgIGNhc2UgImV4cGlyZWQiOgogICAgICBjb25zb2xlLmxvZyhgWyR7cmVzdWx0LmN1c3RvbV9pZH1dIEV4cGlyZWQgLSByZXN1Ym1pdGApOwogICAgICBicmVhazsKICB9Cn0KYGBgCgotLS0KCiMjIENhbmNlbCBhIEJhdGNoCgpgYGB0eXBlc2NyaXB0CmNvbnN0IGNhbmNlbGxlZCA9IGF3YWl0IGNsaWVudC5tZXNzYWdlcy5iYXRjaGVzLmNhbmNlbChtZXNzYWdlQmF0Y2guaWQpOwpjb25zb2xlLmxvZyhgU3RhdHVzOiAke2NhbmNlbGxlZC5wcm9jZXNzaW5nX3N0YXR1c31gKTsgLy8gImNhbmNlbGluZyIKYGBgCg==
+# Message Batches API — TypeScript
+
+The Batches API (`POST /v1/messages/batches`) processes Messages API requests asynchronously at 50% of standard prices.
+
+## Key Facts
+
+- Up to 100,000 requests or 256 MB per batch
+- Most batches complete within 1 hour; maximum 24 hours
+- Results available for 29 days after creation
+- 50% cost reduction on all token usage
+- All Messages API features supported (vision, tools, caching, etc.)
+
+---
+
+## Create a Batch
+
+```typescript
+import Anthropic from "@anthropic-ai/sdk";
+
+const client = new Anthropic();
+
+const messageBatch = await client.messages.batches.create({
+  requests: [
+    {
+      custom_id: "request-1",
+      params: {
+        model: "claude-opus-4-6",
+        max_tokens: 16000,
+        messages: [
+          { role: "user", content: "Summarize climate change impacts" },
+        ],
+      },
+    },
+    {
+      custom_id: "request-2",
+      params: {
+        model: "claude-opus-4-6",
+        max_tokens: 16000,
+        messages: [
+          { role: "user", content: "Explain quantum computing basics" },
+        ],
+      },
+    },
+  ],
+});
+
+console.log(`Batch ID: ${messageBatch.id}`);
+console.log(`Status: ${messageBatch.processing_status}`);
+```
+
+---
+
+## Poll for Completion
+
+```typescript
+let batch;
+while (true) {
+  batch = await client.messages.batches.retrieve(messageBatch.id);
+  if (batch.processing_status === "ended") break;
+  console.log(
+    `Status: ${batch.processing_status}, processing: ${batch.request_counts.processing}`,
+  );
+  await new Promise((resolve) => setTimeout(resolve, 60_000));
+}
+
+console.log("Batch complete!");
+console.log(`Succeeded: ${batch.request_counts.succeeded}`);
+console.log(`Errored: ${batch.request_counts.errored}`);
+```
+
+---
+
+## Retrieve Results
+
+```typescript
+for await (const result of await client.messages.batches.results(
+  messageBatch.id,
+)) {
+  switch (result.result.type) {
+    case "succeeded":
+      console.log(
+        `[${result.custom_id}] ${result.result.message.content[0].text.slice(0, 100)}`,
+      );
+      break;
+    case "errored":
+      if (result.result.error.type === "invalid_request") {
+        console.log(`[${result.custom_id}] Validation error - fix and retry`);
+      } else {
+        console.log(`[${result.custom_id}] Server error - safe to retry`);
+      }
+      break;
+    case "expired":
+      console.log(`[${result.custom_id}] Expired - resubmit`);
+      break;
+  }
+}
+```
+
+---
+
+## Cancel a Batch
+
+```typescript
+const cancelled = await client.messages.batches.cancel(messageBatch.id);
+console.log(`Status: ${cancelled.processing_status}`); // "canceling"
+```

@@ -1,1 +1,19 @@
-IyBPY2VhbiBEZXB0aHMKCkEgcHJvZmVzc2lvbmFsIGFuZCBjYWxtaW5nIG1hcml0aW1lIHRoZW1lIHRoYXQgZXZva2VzIHRoZSBzZXJlbml0eSBvZiBkZWVwIG9jZWFuIHdhdGVycy4KCiMjIENvbG9yIFBhbGV0dGUKCi0gKipEZWVwIE5hdnkqKjogYCMxYTIzMzJgIC0gUHJpbWFyeSBiYWNrZ3JvdW5kIGNvbG9yCi0gKipUZWFsKio6IGAjMmQ4YjhiYCAtIEFjY2VudCBjb2xvciBmb3IgaGlnaGxpZ2h0cyBhbmQgZW1waGFzaXMKLSAqKlNlYWZvYW0qKjogYCNhOGRhZGNgIC0gU2Vjb25kYXJ5IGFjY2VudCBmb3IgbGlnaHRlciBlbGVtZW50cwotICoqQ3JlYW0qKjogYCNmMWZhZWVgIC0gVGV4dCBhbmQgbGlnaHQgYmFja2dyb3VuZHMKCiMjIFR5cG9ncmFwaHkKCi0gKipIZWFkZXJzKio6IERlamFWdSBTYW5zIEJvbGQKLSAqKkJvZHkgVGV4dCoqOiBEZWphVnUgU2FucwoKIyMgQmVzdCBVc2VkIEZvcgoKQ29ycG9yYXRlIHByZXNlbnRhdGlvbnMsIGZpbmFuY2lhbCByZXBvcnRzLCBwcm9mZXNzaW9uYWwgY29uc3VsdGluZyBkZWNrcywgdHJ1c3QtYnVpbGRpbmcgY29udGVudC4K
+# Ocean Depths
+
+A professional and calming maritime theme that evokes the serenity of deep ocean waters.
+
+## Color Palette
+
+- **Deep Navy**: `#1a2332` - Primary background color
+- **Teal**: `#2d8b8b` - Accent color for highlights and emphasis
+- **Seafoam**: `#a8dadc` - Secondary accent for lighter elements
+- **Cream**: `#f1faee` - Text and light backgrounds
+
+## Typography
+
+- **Headers**: DejaVu Sans Bold
+- **Body Text**: DejaVu Sans
+
+## Best Used For
+
+Corporate presentations, financial reports, professional consulting decks, trust-building content.

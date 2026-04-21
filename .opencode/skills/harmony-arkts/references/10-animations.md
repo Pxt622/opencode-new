@@ -1,1 +1,34 @@
-IyBBcmtUUyDliqjnlLvlvIDlj5EKCiMjIOWxnuaAp+WKqOeUuwoKYGBgdHlwZXNjcmlwdApAU3RhdGUgb3BhY2l0eTogbnVtYmVyID0gMQoKYnVpbGQoKSB7CiAgQ29sdW1uKCkgewogICAgVGV4dCgnQW5pbWF0ZWQnKQogICAgICAub3BhY2l0eSh0aGlzLm9wYWNpdHkpCiAgICAgIC5vbkNsaWNrKCgpID0+IHsKICAgICAgICBhbmltYXRlVG8oewogICAgICAgICAgZHVyYXRpb246IDMwMCwKICAgICAgICAgIGN1cnZlOiBDdXJ2ZS5FYXNlT3V0CiAgICAgICAgfSwgKCkgPT4gewogICAgICAgICAgdGhpcy5vcGFjaXR5ID0gdGhpcy5vcGFjaXR5ID09PSAxID8gMCA6IDEKICAgICAgICB9KQogICAgICB9KQogIH0KfQpgYGAKCiMjIOmhtemdoui9rOWcugoKYGBgdHlwZXNjcmlwdAovLyDlhajlsYDphY3nva4Kcm91dGVyLnB1c2hVcmwoewogIHVybDogJ3BhZ2VzL0RldGFpbCcKfSwgcm91dGVyLlJvdXRlck1vZGUuU2luZ2xlKQoKLy8g6Ieq5a6a5LmJ6L2s5Zy65Yqo55S7CnRyYW5zaXRpb24oVHJhbnNpdGlvbkVmZmVjdC5PUEFDSVRZLmFuaW1hdGlvbih7IGR1cmF0aW9uOiAzMDAgfSkpCmBgYAo=
+# ArkTS 动画开发
+
+## 属性动画
+
+```typescript
+@State opacity: number = 1
+
+build() {
+  Column() {
+    Text('Animated')
+      .opacity(this.opacity)
+      .onClick(() => {
+        animateTo({
+          duration: 300,
+          curve: Curve.EaseOut
+        }, () => {
+          this.opacity = this.opacity === 1 ? 0 : 1
+        })
+      })
+  }
+}
+```
+
+## 页面转场
+
+```typescript
+// 全局配置
+router.pushUrl({
+  url: 'pages/Detail'
+}, router.RouterMode.Single)
+
+// 自定义转场动画
+transition(TransitionEffect.OPACITY.animation({ duration: 300 }))
+```

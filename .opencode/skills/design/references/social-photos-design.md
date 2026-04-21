@@ -1,1 +1,329 @@
-IyBTb2NpYWwgUGhvdG9zIERlc2lnbiBHdWlkZQoKRGVzaWduIHNvY2lhbCBtZWRpYSBpbWFnZXMgdmlhIEhUTUwvQ1NTIHJlbmRlcmluZyArIHNjcmVlbnNob3QgZXhwb3J0LiBPcmNoZXN0cmF0ZXMgYHVpLXV4LXByby1tYXhgLCBgYnJhbmRgLCBgZGVzaWduLXN5c3RlbWAsIGFuZCBgY2hyb21lLWRldnRvb2xzYCBza2lsbHMuCgojIyBQbGF0Zm9ybSBTaXplcwoKfCBQbGF0Zm9ybSB8IFR5cGUgfCBTaXplIChweCkgfCBBc3BlY3QgfAp8LS0tLS0tLS0tLXwtLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS18CnwgSW5zdGFncmFtIHwgUG9zdCB8IDEwODAgeCAxMDgwIHwgMToxIHwKfCBJbnN0YWdyYW0gfCBTdG9yeS9SZWVsIHwgMTA4MCB4IDE5MjAgfCA5OjE2IHwKfCBJbnN0YWdyYW0gfCBDYXJvdXNlbCB8IDEwODAgeCAxMzUwIHwgNDo1IHwKfCBGYWNlYm9vayB8IFBvc3QgfCAxMjAwIHggNjMwIHwgfjEuOToxIHwKfCBGYWNlYm9vayB8IFN0b3J5IHwgMTA4MCB4IDE5MjAgfCA5OjE2IHwKfCBUd2l0dGVyL1ggfCBQb3N0IHwgMTIwMCB4IDY3NSB8IDE2OjkgfAp8IFR3aXR0ZXIvWCB8IENhcmQgfCA4MDAgeCA0MTggfCB+MS45MToxIHwKfCBMaW5rZWRJbiB8IFBvc3QgfCAxMjAwIHggNjI3IHwgfjEuOTE6MSB8CnwgTGlua2VkSW4gfCBBcnRpY2xlIHwgMTIwMCB4IDY0NCB8IH4xLjg2OjEgfAp8IFBpbnRlcmVzdCB8IFBpbiB8IDEwMDAgeCAxNTAwIHwgMjozIHwKfCBZb3VUdWJlIHwgVGh1bWJuYWlsIHwgMTI4MCB4IDcyMCB8IDE2OjkgfAp8IFRpa1RvayB8IENvdmVyIHwgMTA4MCB4IDE5MjAgfCA5OjE2IHwKfCBUaHJlYWRzIHwgUG9zdCB8IDEwODAgeCAxMDgwIHwgMToxIHwKCiMjIFdvcmtmbG93CgojIyMgU3RlcCAxOiBBY3RpdmF0ZSBQcm9qZWN0IE1hbmFnZW1lbnQKCkludm9rZSBgcHJvamVjdC1tYW5hZ2VtZW50YCBza2lsbCB0byBjcmVhdGUgcGVyc2lzdGVudCBUT0RPIHRhc2tzIHZpYSBDbGF1ZGUncyBuYXRpdmUgdGFzayBvcmNoZXN0cmF0aW9uLiBCcmVhayBkb3duIGludG86Ci0gUmVxdWlyZW1lbnQgYW5hbHlzaXMgdGFzawotIElkZWEgZ2VuZXJhdGlvbiB0YXNrKHMpCi0gSFRNTCBkZXNpZ24gdGFzayhzKSDigJQgY2FuIHBhcmFsbGVsaXplIHBlciBzaXplL3ZhcmlhbnQKLSBTY3JlZW5zaG90IGV4cG9ydCB0YXNrKHMpIOKAlCBjYW4gcGFyYWxsZWxpemUgcGVyIGZpbGUKLSBSZXBvcnQgZ2VuZXJhdGlvbiB0YXNrCgpTcGF3biBwYXJhbGxlbCBzdWJhZ2VudHMgZm9yIGluZGVwZW5kZW50IHRhc2tzIChlLmcuLCBtdWx0aXBsZSBIVE1MIGZpbGVzIGZvciBkaWZmZXJlbnQgc2l6ZXMpLgoKIyMjIFN0ZXAgMjogQW5hbHl6ZSBSZXF1aXJlbWVudHMKClBhcnNlIHVzZXIgaW5wdXQgZm9yOgotICoqU3ViamVjdC90b3BpYyoqIOKAlCB3aGF0IHRoZSBzb2NpYWwgcGhvdG8gcmVwcmVzZW50cwotICoqVGFyZ2V0IHBsYXRmb3JtcyoqIOKAlCB3aGljaCBzaXplcyBuZWVkZWQgKGRlZmF1bHQ6IEluc3RhZ3JhbSBQb3N0IDE6MSArIFN0b3J5IDk6MTYpCi0gKipWaXN1YWwgc3R5bGUqKiDigJQgbWluaW1hbGlzdCwgYm9sZCwgZ3JhZGllbnQsIHBob3RvLWJhc2VkLCBldGMuCi0gKipCcmFuZCBjb250ZXh0Kiog4oCUIHJlYWQgZnJvbSBgZG9jcy9icmFuZC1ndWlkZWxpbmVzLm1kYCBpZiBleGlzdHMKLSAqKkNvbnRlbnQgZWxlbWVudHMqKiDigJQgaGVhZGxpbmUsIHN1YnRleHQsIENUQSwgaW1hZ2VzLCBpY29ucwotICoqUXVhbnRpdHkqKiDigJQgaG93IG1hbnkgdmFyaWF0aW9ucyAoZGVmYXVsdDogMykKCiMjIyBTdGVwIDM6IEdlbmVyYXRlIElkZWFzCgpDcmVhdGUgMy01IGNvbmNlcHQgaWRlYXMgdGhhdDoKLSBNYXRjaCB0aGUgaW5wdXQgcHJvbXB0L3JlcXVpcmVtZW50cwotIENvbnNpZGVyIHBsYXRmb3JtLXNwZWNpZmljIGJlc3QgcHJhY3RpY2VzCi0gVmFyeSBpbiBjb21wb3NpdGlvbiwgY29sb3IsIHR5cG9ncmFwaHkgYXBwcm9hY2gKLSBBbGlnbiB3aXRoIGJyYW5kIGd1aWRlbGluZXMgaWYgYXZhaWxhYmxlCgpQcmVzZW50IGlkZWFzIHRvIHVzZXIgdmlhIGBBc2tVc2VyUXVlc3Rpb25gIGZvciBhcHByb3ZhbCBiZWZvcmUgZGVzaWduaW5nLgoKIyMjIFN0ZXAgNDogRGVzaWduIEhUTUwgRmlsZXMKCkFjdGl2YXRlIHRoZXNlIHNraWxscyBpbiBzZXF1ZW5jZToKCjEuICoqYC9ja206YnJhbmRgKiog4oCUIEV4dHJhY3QgYnJhbmQgY29sb3JzLCBmb250cywgdm9pY2UgZnJvbSB1c2VyJ3MgcHJvamVjdAoyLiAqKmAvY2ttOmRlc2lnbi1zeXN0ZW1gKiog4oCUIEdldCBkZXNpZ24gdG9rZW5zIChzcGFjaW5nLCB0eXBvZ3JhcGh5IHNjYWxlLCBjb2xvciBwYWxldHRlKQozLiAqKlJhbmRvbWx5IGludm9rZSBPTkUgb2Y6KiogYC9jazp1aS11eC1wcm8tbWF4YCBPUiBgL2NrOmZyb250ZW5kLWRlc2lnbmAg4oCUIGZvciBsYXlvdXQsIGhpZXJhcmNoeSwgdmlzdWFsIGJhbGFuY2UuIFBpY2sgb25lIGF0IHJhbmRvbSBlYWNoIHJ1biBmb3IgZGVzaWduIHZhcmlldHkuCgpGb3IgZWFjaCBhcHByb3ZlZCBpZGVhICsgZWFjaCB0YXJnZXQgc2l6ZSwgY3JlYXRlIGFuIEhUTUwgZmlsZToKCmBgYApvdXRwdXQvc29jaWFsLXBob3Rvcy8K4pSc4pSA4pSAIGlkZWEtMS1pbnN0YWdyYW0tcG9zdC0xMDgweDEwODAuaHRtbArilJzilIDilIAgaWRlYS0xLWluc3RhZ3JhbS1zdG9yeS0xMDgweDE5MjAuaHRtbArilJzilIDilIAgaWRlYS0yLWluc3RhZ3JhbS1wb3N0LTEwODB4MTA4MC5odG1sCuKUnOKUgOKUgCBpZGVhLTItaW5zdGFncmFtLXN0b3J5LTEwODB4MTkyMC5odG1sCuKUlOKUgOKUgCAuLi4KYGBgCgojIyMjIEhUTUwgRGVzaWduIFJ1bGVzCgotICoqVmlld3BvcnQqKiDigJQgU2V0IGV4YWN0IHBpeGVsIGRpbWVuc2lvbnMgbWF0Y2hpbmcgdGFyZ2V0IHNpemUKLSAqKlNlbGYtY29udGFpbmVkKiog4oCUIElubGluZSBhbGwgQ1NTLCBlbWJlZCBmb250cyB2aWEgR29vZ2xlIEZvbnRzIENETgotICoqTm8gc2Nyb2xsaW5nKiog4oCUIEV2ZXJ5dGhpbmcgZml0cyBpbiBvbmUgdmlld3BvcnQKLSAqKkhpZ2ggY29udHJhc3QqKiDigJQgVGV4dCByZWFkYWJsZSBhdCB0aHVtYm5haWwgc2l6ZQotICoqQnJhbmQtYWxpZ25lZCoqIOKAlCBVc2UgZXh0cmFjdGVkIGJyYW5kIGNvbG9ycy9mb250cwotICoqU2FmZSB6b25lcyoqIOKAlCBDcml0aWNhbCBjb250ZW50IHdpdGhpbiBjZW50cmFsIDgwJSBhcmVhCi0gKipUeXBvZ3JhcGh5Kiog4oCUIE1pbiAyNHB4IGZvciBoZWFkbGluZXMsIG1pbiAxNnB4IGZvciBib2R5IGF0IDEwODBweCB3aWR0aAotICoqVmlzdWFsIGhpZXJhcmNoeSoqIOKAlCBPbmUgZm9jYWwgcG9pbnQsIGNsZWFyIHJlYWRpbmcgZmxvdwoKIyMjIyBIVE1MIFRlbXBsYXRlIFN0cnVjdHVyZQoKYGBgaHRtbAo8IURPQ1RZUEUgaHRtbD4KPGh0bWw+CjxoZWFkPgogIDxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KICA8bWV0YSBuYW1lPSJ2aWV3cG9ydCIgY29udGVudD0id2lkdGg9e1dJRFRIfSwgaW5pdGlhbC1zY2FsZT0xLjAiPgogIDxsaW5rIGhyZWY9Imh0dHBzOi8vZm9udHMuZ29vZ2xlYXBpcy5jb20vY3NzMj9mYW1pbHk9e0ZPTlR9JmRpc3BsYXk9c3dhcCIgcmVsPSJzdHlsZXNoZWV0Ij4KICA8c3R5bGU+CiAgICAqIHsgbWFyZ2luOiAwOyBwYWRkaW5nOiAwOyBib3gtc2l6aW5nOiBib3JkZXItYm94OyB9CiAgICBodG1sLCBib2R5IHsKICAgICAgd2lkdGg6IHtXSURUSH1weDsKICAgICAgaGVpZ2h0OiB7SEVJR0hUfXB4OwogICAgICBvdmVyZmxvdzogaGlkZGVuOwogICAgICBmb250LWZhbWlseTogJ3tGT05UfScsIHNhbnMtc2VyaWY7CiAgICB9CiAgICAuY2FudmFzIHsKICAgICAgd2lkdGg6IHtXSURUSH1weDsKICAgICAgaGVpZ2h0OiB7SEVJR0hUfXB4OwogICAgICBwb3NpdGlvbjogcmVsYXRpdmU7CiAgICAgIC8qIEJhY2tncm91bmQ6IGdyYWRpZW50LCBzb2xpZCwgb3IgaW1hZ2UgKi8KICAgIH0KICAgIC8qIERlc2lnbiB0b2tlbnMgZnJvbSBicmFuZC9kZXNpZ24tc3lzdGVtICovCiAgPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KICA8ZGl2IGNsYXNzPSJjYW52YXMiPgogICAgPCEtLSBDb250ZW50IGxheWVycyAtLT4KICA8L2Rpdj4KPC9ib2R5Pgo8L2h0bWw+CmBgYAoKIyMjIFN0ZXAgNTogU2NyZWVuc2hvdCBFeHBvcnQKClVzZSBDaHJvbWUgaGVhZGxlc3MsIGBjaHJvbWUtZGV2dG9vbHNgIHNraWxsLCBvciBQbGF5d3JpZ2h0L1B1cHBldGVlciB0byBjYXB0dXJlIGV4YWN0LXNpemUgc2NyZWVuc2hvdHMuCgoqKklNUE9SVEFOVDoqKiBBbHdheXMgYWRkIGEgZGVsYXkgKDMtNXMpIGFmdGVyIHBhZ2UgbG9hZCBmb3IgZm9udHMvaW1hZ2VzIHRvIGZ1bGx5IHJlbmRlciBiZWZvcmUgY2FwdHVyZS4KCiMjIyMgT3B0aW9uIEE6IENocm9tZSBIZWFkbGVzcyBDTEkgKFJlY29tbWVuZGVkIOKAlCB6ZXJvIGRlcGVuZGVuY2llcykKCmBgYGJhc2gKQ0hST01FPSIvQXBwbGljYXRpb25zL0dvb2dsZSBDaHJvbWUuYXBwL0NvbnRlbnRzL01hY09TL0dvb2dsZSBDaHJvbWUiCkRFTEFZPTUgICMgc2Vjb25kcyBmb3IgZm9udHMvaW1hZ2VzIHRvIGxvYWQKCiIkQ0hST01FIiBcCiAgLS1oZWFkbGVzcyBcCiAgLS1kaXNhYmxlLWdwdSBcCiAgLS1uby1zYW5kYm94IFwKICAtLWhpZGUtc2Nyb2xsYmFycyBcCiAgLS13aW5kb3ctc2l6ZT0iJHtXSURUSH0sJHtIRUlHSFR9IiBcCiAgLS12aXJ0dWFsLXRpbWUtYnVkZ2V0PSQoKERFTEFZICogMTAwMCkpIFwKICAtLXNjcmVlbnNob3Q9Im91dHB1dC5wbmciIFwKICAiZmlsZTovLy9wYXRoL3RvL2ZpbGUuaHRtbCIKYGBgCgpLZXkgZmxhZ3M6Ci0gYC0tdmlydHVhbC10aW1lLWJ1ZGdldD01MDAwYCDigJQgd2FpdHMgNXMgdmlydHVhbCB0aW1lIGZvciBhc3NldHMgKEdvb2dsZSBGb250cywgaW1hZ2VzKSB0byBsb2FkCi0gYC0taGlkZS1zY3JvbGxiYXJzYCDigJQgcHJldmVudHMgc2Nyb2xsYmFyIGFydGlmYWN0cyBpbiBzY3JlZW5zaG90cwotIGAtLXdpbmRvdy1zaXplPVd4SGAg4oCUIHNldHMgZXhhY3QgcGl4ZWwgZGltZW5zaW9ucwoKIyMjIyBPcHRpb24gQjogY2hyb21lLWRldnRvb2xzIHNraWxsCgpJbnZva2UgYC9jaHJvbWUtZGV2dG9vbHNgIHdpdGggaW5zdHJ1Y3Rpb25zIHRvOgoxLiBPcGVuIGVhY2ggSFRNTCBmaWxlIGluIGJyb3dzZXIKMi4gU2V0IHZpZXdwb3J0IHRvIGV4YWN0IHRhcmdldCBkaW1lbnNpb25zCjMuIFdhaXQgMy01cyBmb3IgZm9udHMvaW1hZ2VzIHRvIGZ1bGx5IGxvYWQKNC4gU2NyZWVuc2hvdCBmdWxsIHBhZ2UgdG8gUE5HCjUuIFNhdmUgdG8gYG91dHB1dC9zb2NpYWwtcGhvdG9zL2V4cG9ydHMvYAoKIyMjIyBPcHRpb24gQzogUGxheXdyaWdodCBzY3JpcHQKCmBgYGphdmFzY3JpcHQKY29uc3QgeyBjaHJvbWl1bSB9ID0gcmVxdWlyZSgncGxheXdyaWdodCcpOwoKYXN5bmMgZnVuY3Rpb24gY2FwdHVyZVNjcmVlbnNob3RzKGh0bWxGaWxlcykgewogIGNvbnN0IGJyb3dzZXIgPSBhd2FpdCBjaHJvbWl1bS5sYXVuY2goKTsKCiAgZm9yIChjb25zdCBmaWxlIG9mIGh0bWxGaWxlcykgewogICAgY29uc3QgW3dpZHRoLCBoZWlnaHRdID0gZmlsZS5tYXRjaCgvKFxkKyl4KFxkKykvKS5zbGljZSgxKS5tYXAoTnVtYmVyKTsKCiAgICBjb25zdCBwYWdlID0gYXdhaXQgYnJvd3Nlci5uZXdQYWdlKCk7CiAgICBhd2FpdCBwYWdlLnNldFZpZXdwb3J0U2l6ZSh7IHdpZHRoLCBoZWlnaHQgfSk7CiAgICBhd2FpdCBwYWdlLmdvdG8oYGZpbGU6Ly8ke2ZpbGV9YCwgeyB3YWl0VW50aWw6ICduZXR3b3JraWRsZScgfSk7CiAgICAvLyBXYWl0IGZvciBmb250cy9pbWFnZXMgdG8gZnVsbHkgcmVuZGVyCiAgICBhd2FpdCBwYWdlLndhaXRGb3JUaW1lb3V0KDMwMDApOwoKICAgIGNvbnN0IG91dHB1dFBhdGggPSBmaWxlLnJlcGxhY2UoJy5odG1sJywgJy5wbmcnKS5yZXBsYWNlKCdzb2NpYWwtcGhvdG9zLycsICdzb2NpYWwtcGhvdG9zL2V4cG9ydHMvJyk7CiAgICBhd2FpdCBwYWdlLnNjcmVlbnNob3QoeyBwYXRoOiBvdXRwdXRQYXRoLCB0eXBlOiAncG5nJyB9KTsKICAgIGF3YWl0IHBhZ2UuY2xvc2UoKTsKICB9CgogIGF3YWl0IGJyb3dzZXIuY2xvc2UoKTsKfQpgYGAKCiMjIyMgT3B0aW9uIEQ6IFB1cHBldGVlciBzY3JpcHQKCmBgYGphdmFzY3JpcHQKY29uc3QgcHVwcGV0ZWVyID0gcmVxdWlyZSgncHVwcGV0ZWVyJyk7Cgphc3luYyBmdW5jdGlvbiBjYXB0dXJlU2NyZWVuc2hvdHMoaHRtbEZpbGVzKSB7CiAgY29uc3QgYnJvd3NlciA9IGF3YWl0IHB1cHBldGVlci5sYXVuY2goKTsKCiAgZm9yIChjb25zdCBmaWxlIG9mIGh0bWxGaWxlcykgewogICAgY29uc3QgW3dpZHRoLCBoZWlnaHRdID0gZmlsZS5tYXRjaCgvKFxkKyl4KFxkKykvKS5zbGljZSgxKS5tYXAoTnVtYmVyKTsKCiAgICBjb25zdCBwYWdlID0gYXdhaXQgYnJvd3Nlci5uZXdQYWdlKCk7CiAgICBhd2FpdCBwYWdlLnNldFZpZXdwb3J0KHsgd2lkdGgsIGhlaWdodCwgZGV2aWNlU2NhbGVGYWN0b3I6IDIgfSk7IC8vIDJ4IGZvciByZXRpbmEKICAgIGF3YWl0IHBhZ2UuZ290byhgZmlsZTovLyR7ZmlsZX1gLCB7IHdhaXRVbnRpbDogJ25ldHdvcmtpZGxlMCcgfSk7CiAgICAvLyBXYWl0IGZvciBmb250cy9pbWFnZXMgdG8gZnVsbHkgcmVuZGVyCiAgICBhd2FpdCBuZXcgUHJvbWlzZShyID0+IHNldFRpbWVvdXQociwgMzAwMCkpOwoKICAgIGNvbnN0IG91dHB1dFBhdGggPSBmaWxlLnJlcGxhY2UoJy5odG1sJywgJy5wbmcnKS5yZXBsYWNlKCdzb2NpYWwtcGhvdG9zLycsICdzb2NpYWwtcGhvdG9zL2V4cG9ydHMvJyk7CiAgICBhd2FpdCBwYWdlLnNjcmVlbnNob3QoeyBwYXRoOiBvdXRwdXRQYXRoLCB0eXBlOiAncG5nJyB9KTsKICAgIGF3YWl0IHBhZ2UuY2xvc2UoKTsKICB9CgogIGF3YWl0IGJyb3dzZXIuY2xvc2UoKTsKfQpgYGAKCioqSU1QT1JUQU5UOioqIFVzZSBgZGV2aWNlU2NhbGVGYWN0b3I6IDJgIGZvciByZXRpbmEtcXVhbGl0eSBvdXRwdXQgKFB1cHBldGVlciBvbmx5KS4KCiMjIyBTdGVwIDY6IFZlcmlmeSAmIEZpeCBEZXNpZ25zCgpVc2UgQ2hyb21lIE1DUCBvciBgY2hyb21lLWRldnRvb2xzYCBza2lsbCB0byB2aXN1YWxseSBpbnNwZWN0IGVhY2ggZXhwb3J0ZWQgUE5HOgoKMS4gT3BlbiBleHBvcnRlZCBzY3JlZW5zaG90cyBhbmQgY2hlY2sgZm9yIGxheW91dC9zdHlsaW5nIGlzc3VlcwoyLiBWZXJpZnk6IGZvbnRzIHJlbmRlcmVkIGNvcnJlY3RseSwgY29sb3JzIG1hdGNoIGJyYW5kLCB0ZXh0IHJlYWRhYmxlIGF0IHRodW1ibmFpbCBzaXplCjMuIENoZWNrOiBubyBvdmVyZmxvdywgbm8gY3V0LW9mZiBjb250ZW50LCBzYWZlIHpvbmVzIHJlc3BlY3RlZCwgdmlzdWFsIGhpZXJhcmNoeSBjbGVhcgo0LiBJZiBpc3N1ZXMgZm91bmQg4oaSIGZpeCBIVE1MIHNvdXJjZSDihpIgcmUtZXhwb3J0IHNjcmVlbnNob3Qg4oaSIHZlcmlmeSBhZ2Fpbgo1LiBSZXBlYXQgdW50aWwgYWxsIGRlc2lnbnMgcGFzcyB2aXN1YWwgUUEKCioqQ29tbW9uIGlzc3VlcyB0byBjaGVjazoqKgotIEZvbnRzIG5vdCBsb2FkZWQgKGZhbGxiYWNrIHRvIHN5c3RlbSBmb250cykKLSBUZXh0IG92ZXJmbG93IG9yIGNsaXBwaW5nCi0gRWxlbWVudHMgb3V0c2lkZSBzYWZlIHpvbmUgKGNlbnRyYWwgODAlKQotIExvdyBjb250cmFzdCB0ZXh0IChiZWxvdyBXQ0FHIEFBIDQuNToxKQotIE1pc2FsaWduZWQgZWxlbWVudHMgb3IgYnJva2VuIGxheW91dHMKCiMjIyBTdGVwIDc6IEdlbmVyYXRlIFN1bW1hcnkgUmVwb3J0CgpTYXZlIHJlcG9ydCB0byBgcGxhbnMvcmVwb3J0cy9gIHdpdGggbmFtaW5nIHBhdHRlcm4gZnJvbSBzZXNzaW9uIGhvb2tzLgoKUmVwb3J0IHN0cnVjdHVyZToKCmBgYG1hcmtkb3duCiMgU29jaWFsIFBob3RvcyBEZXNpZ24gUmVwb3J0CgojIyBPdmVydmlldwotIFByb21wdC9yZXF1aXJlbWVudHM6IHtvcmlnaW5hbCBpbnB1dH0KLSBQbGF0Zm9ybXM6IHt0YXJnZXQgcGxhdGZvcm1zfQotIFZhcmlhdGlvbnM6IHtjb3VudH0KLSBTdHlsZToge2Nob3NlbiBzdHlsZX0KCiMjIElkZWFzIEdlbmVyYXRlZAoxLiAqKntJZGVhIG5hbWV9Kiog4oCUIHticmllZiBkZXNjcmlwdGlvbiwgcmF0aW9uYWxlfQoyLiAuLi4KCiMjIERlc2lnbiBEZWNpc2lvbnMKLSBDb2xvciBwYWxldHRlOiB7Y29sb3JzIHVzZWQsIHdoeX0KLSBUeXBvZ3JhcGh5OiB7Zm9udHMsIHNpemVzLCB3aHl9Ci0gTGF5b3V0OiB7Y29tcG9zaXRpb24gYXBwcm9hY2gsIHdoeX0KLSBCcmFuZCBhbGlnbm1lbnQ6IHtob3cgYnJhbmQgZ3VpZGVsaW5lcyBpbmZsdWVuY2VkIGRlc2lnbn0KCiMjIE91dHB1dCBGaWxlcwp8IEZpbGUgfCBTaXplIHwgUGxhdGZvcm0gfCBQcmV2aWV3IHwKfC0tLS0tLXwtLS0tLS18LS0tLS0tLS0tLXwtLS0tLS0tLS18CnwgZXhwb3J0cy97ZmlsZW5hbWV9LnBuZyB8IHtXeEh9IHwge3BsYXRmb3JtfSB8IHtkZXNjcmlwdGlvbn0gfAoKIyMgV2h5IFRoaXMgV29ya3MKLSB7UGxhdGZvcm0tc3BlY2lmaWMgcmVhc29uaW5nfQotIHtCcmFuZCBhbGlnbm1lbnQgcmVhc29uaW5nfQotIHtWaXN1YWwgaGllcmFyY2h5IHJlYXNvbmluZ30KLSB7RW5nYWdlbWVudCBwb3RlbnRpYWwgcmVhc29uaW5nfQoKIyMgUmVjb21tZW5kYXRpb25zCi0ge0EvQiB0ZXN0IHN1Z2dlc3Rpb25zfQotIHtQbGF0Zm9ybS1zcGVjaWZpYyB0aXBzfQotIHtJdGVyYXRpb24gb3Bwb3J0dW5pdGllc30KYGBgCgojIyMgU3RlcCA4OiBPcmdhbml6ZSBPdXRwdXQKCkludm9rZSBgYXNzZXRzLW9yZ2FuaXppbmdgIHNraWxsIHRvIG9yZ2FuaXplIGFsbCBvdXRwdXQgZmlsZXMgYW5kIHJlcG9ydHM6Ci0gTW92ZS9jb3B5IGV4cG9ydGVkIFBOR3MgdG8gcHJvcGVyIGFzc2V0IGRpcmVjdG9yaWVzCi0gRW5zdXJlIHJlcG9ydHMgYXJlIGluIGBwbGFucy9yZXBvcnRzL2Agd2l0aCBjb3JyZWN0IG5hbWluZwotIENsZWFuIHVwIGludGVybWVkaWF0ZSBIVE1MIGZpbGVzIGlmIHJlcXVlc3RlZAotIFRhZyBvdXRwdXRzIHdpdGggbWV0YWRhdGEgKHBsYXRmb3JtLCBzaXplLCBjb25jZXB0IG5hbWUpCgojIyBEZXNpZ24gQmVzdCBQcmFjdGljZXMKCiMjIyBQbGF0Zm9ybS1TcGVjaWZpYyBUaXBzCgotICoqSW5zdGFncmFtKiog4oCUIFZpc3VhbC1maXJzdCwgbWluaW1hbCB0ZXh0ICg8MjAlKSwgc3Ryb25nIGNvbG9ycywgbGlmZXN0eWxlIGZlZWwKLSAqKkZhY2Vib29rKiog4oCUIEluZm9ybWF0aXZlLCBjYW4gaGF2ZSBtb3JlIHRleHQsIGV5ZS1jYXRjaGluZyBpbiBmZWVkCi0gKipUd2l0dGVyL1gqKiDigJQgQm9sZCBoZWFkbGluZXMsIGNvbnRyYXN0IGZvciBkYXJrL2xpZ2h0IG1vZGUsIGNsZWFyIG1lc3NhZ2UKLSAqKkxpbmtlZEluKiog4oCUIFByb2Zlc3Npb25hbCwgY2xlYW4sIGRhdGEtZHJpdmVuIHZpc3VhbHMsIHRob3VnaHQgbGVhZGVyc2hpcAotICoqUGludGVyZXN0Kiog4oCUIFZlcnRpY2FsIGZvcm1hdCwgdGV4dCBvdmVybGF5IG9uIGltYWdlcywgaG93LXRvIHN0eWxlCi0gKipZb3VUdWJlKiog4oCUIEZhY2UgY2xvc2UtdXBzIHBlcmZvcm0gYmVzdCwgYnJpZ2h0IGNvbG9ycywgcmVhZGFibGUgYXQgc21hbGwgc2l6ZQotICoqVGlrVG9rKiog4oCUIFRyZW5keSwgZW5lcmdldGljLCBib2xkIHR5cG9ncmFwaHksIHlvdXRoLW9yaWVudGVkCgojIyMgQXJ0IERpcmVjdGlvbiBTdHlsZXMgKFJldXNlIGZyb20gQmFubmVyKQoKfCBTdHlsZSB8IEJlc3QgRm9yIHwgS2V5IEVsZW1lbnRzIHwKfC0tLS0tLS18LS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLXwKfCBNaW5pbWFsaXN0IHwgU2FhUywgdGVjaCwgbHV4dXJ5IHwgV2hpdGVzcGFjZSwgc2luZ2xlIGFjY2VudCBjb2xvciwgY2xlYW4gdHlwZSB8CnwgQm9sZCBUeXBvZ3JhcGh5IHwgQW5ub3VuY2VtZW50cywgcXVvdGVzIHwgTGFyZ2UgdHlwZSwgaGlnaCBjb250cmFzdCwgbWluaW1hbCBpbWFnZXJ5IHwKfCBHcmFkaWVudCBNZXNoIHwgTW9kZXJuIGJyYW5kcywgYXBwcyB8IEZsdWlkIGNvbG9yIHRyYW5zaXRpb25zLCBmbG9hdGluZyBlbGVtZW50cyB8CnwgUGhvdG8tQmFzZWQgfCBMaWZlc3R5bGUsIGUtY29tbWVyY2UgfCBIZXJvIGltYWdlLCBzdWJ0bGUgb3ZlcmxheSwgdGV4dCBvbiBpbWFnZSB8CnwgR2VvbWV0cmljIHwgVGVjaCwgZmludGVjaCB8IFNoYXBlcywgcGF0dGVybnMsIHN0cnVjdHVyZWQgbGF5b3V0cyB8CnwgR2xhc3Ntb3JwaGlzbSB8IFNhYVMsIG1vZGVybiBhcHBzIHwgRnJvc3RlZCBnbGFzcywgYmx1ciBlZmZlY3RzLCB0cmFuc3BhcmVuY3kgfAp8IEZsYXQgSWxsdXN0cmF0aW9uIHwgRWR1Y2F0aW9uLCBoZWFsdGggfCBDdXN0b20gaWxsdXN0cmF0aW9ucywgZnJpZW5kbHksIGFwcHJvYWNoYWJsZSB8CnwgRHVvdG9uZSB8IENyZWF0aXZlLCBlZGl0b3JpYWwgfCBUd28tY29sb3IgdHJlYXRtZW50IG9uIHBob3RvcyB8CnwgQ29sbGFnZSB8IEZhc2hpb24sIGN1bHR1cmUgfCBNaXhlZCBtZWRpYSwgb3ZlcmxhcHBpbmcgZWxlbWVudHMgfAp8IDNEL0lzb21ldHJpYyB8IFRlY2gsIHByb2R1Y3QgfCBEZXB0aCwgc2hhZG93cywgbW9kZXJuIHBlcnNwZWN0aXZlIHwKCiMjIyBDb2xvciAmIENvbnRyYXN0CgotIEVuc3VyZSBXQ0FHIEFBIGNvbnRyYXN0IHJhdGlvICg0LjU6MSBtaW4pIGZvciBhbGwgdGV4dAotIFRlc3QgZGVzaWducyBhdCA1MCUgc2l6ZSB0byB2ZXJpZnkgcmVhZGFiaWxpdHkKLSBDb25zaWRlciBwbGF0Zm9ybSBkYXJrL2xpZ2h0IG1vZGUgY29tcGF0aWJpbGl0eQotIFVzZSBicmFuZCBwcmltYXJ5IGNvbG9yIGFzIGRvbWluYW50LCBzZWNvbmRhcnkgYXMgYWNjZW50CgojIyMgVHlwb2dyYXBoeSBIaWVyYXJjaHkKCnwgRWxlbWVudCB8IE1pbiBTaXplIChhdCAxMDgwcHgpIHwgV2VpZ2h0IHwKfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tLS18LS0tLS0tLS18CnwgSGVhZGxpbmUgfCA0OHB4IHwgQm9sZC9CbGFjayB8CnwgU3ViaGVhZGxpbmUgfCAzMnB4IHwgU2VtaWJvbGQgfAp8IEJvZHkgfCAyNHB4IHwgUmVndWxhciB8CnwgQ2FwdGlvbiB8IDE4cHggfCBSZWd1bGFyL0xpZ2h0IHwKfCBDVEEgfCAyOHB4IHwgQm9sZCB8CgojIyBTZWN1cml0eSAmIFNjb3BlCgpUaGlzIHN1Yi1za2lsbCBoYW5kbGVzIHNvY2lhbCBtZWRpYSBpbWFnZSBkZXNpZ24gb25seS4gRG9lcyBOT1QgaGFuZGxlOgotIFZpZGVvIGNvbnRlbnQgY3JlYXRpb24KLSBBbmltYXRpb24vbW90aW9uIGdyYXBoaWNzCi0gUHJpbnQgcHJvZHVjdGlvbiBmaWxlcyAoQ01ZSywgYmxlZWQpCi0gRGlyZWN0IHNvY2lhbCBtZWRpYSBwb3N0aW5nL3NjaGVkdWxpbmcKLSBBSSBpbWFnZSBnZW5lcmF0aW9uICh1c2UgYGFpLWFydGlzdGAgc2tpbGwgZm9yIHRoYXQpCg==
+# Social Photos Design Guide
+
+Design social media images via HTML/CSS rendering + screenshot export. Orchestrates `ui-ux-pro-max`, `brand`, `design-system`, and `chrome-devtools` skills.
+
+## Platform Sizes
+
+| Platform | Type | Size (px) | Aspect |
+|----------|------|-----------|--------|
+| Instagram | Post | 1080 x 1080 | 1:1 |
+| Instagram | Story/Reel | 1080 x 1920 | 9:16 |
+| Instagram | Carousel | 1080 x 1350 | 4:5 |
+| Facebook | Post | 1200 x 630 | ~1.9:1 |
+| Facebook | Story | 1080 x 1920 | 9:16 |
+| Twitter/X | Post | 1200 x 675 | 16:9 |
+| Twitter/X | Card | 800 x 418 | ~1.91:1 |
+| LinkedIn | Post | 1200 x 627 | ~1.91:1 |
+| LinkedIn | Article | 1200 x 644 | ~1.86:1 |
+| Pinterest | Pin | 1000 x 1500 | 2:3 |
+| YouTube | Thumbnail | 1280 x 720 | 16:9 |
+| TikTok | Cover | 1080 x 1920 | 9:16 |
+| Threads | Post | 1080 x 1080 | 1:1 |
+
+## Workflow
+
+### Step 1: Activate Project Management
+
+Invoke `project-management` skill to create persistent TODO tasks via Claude's native task orchestration. Break down into:
+- Requirement analysis task
+- Idea generation task(s)
+- HTML design task(s) — can parallelize per size/variant
+- Screenshot export task(s) — can parallelize per file
+- Report generation task
+
+Spawn parallel subagents for independent tasks (e.g., multiple HTML files for different sizes).
+
+### Step 2: Analyze Requirements
+
+Parse user input for:
+- **Subject/topic** — what the social photo represents
+- **Target platforms** — which sizes needed (default: Instagram Post 1:1 + Story 9:16)
+- **Visual style** — minimalist, bold, gradient, photo-based, etc.
+- **Brand context** — read from `docs/brand-guidelines.md` if exists
+- **Content elements** — headline, subtext, CTA, images, icons
+- **Quantity** — how many variations (default: 3)
+
+### Step 3: Generate Ideas
+
+Create 3-5 concept ideas that:
+- Match the input prompt/requirements
+- Consider platform-specific best practices
+- Vary in composition, color, typography approach
+- Align with brand guidelines if available
+
+Present ideas to user via `AskUserQuestion` for approval before designing.
+
+### Step 4: Design HTML Files
+
+Activate these skills in sequence:
+
+1. **`/ckm:brand`** — Extract brand colors, fonts, voice from user's project
+2. **`/ckm:design-system`** — Get design tokens (spacing, typography scale, color palette)
+3. **Randomly invoke ONE of:** `/ck:ui-ux-pro-max` OR `/ck:frontend-design` — for layout, hierarchy, visual balance. Pick one at random each run for design variety.
+
+For each approved idea + each target size, create an HTML file:
+
+```
+output/social-photos/
+├── idea-1-instagram-post-1080x1080.html
+├── idea-1-instagram-story-1080x1920.html
+├── idea-2-instagram-post-1080x1080.html
+├── idea-2-instagram-story-1080x1920.html
+└── ...
+```
+
+#### HTML Design Rules
+
+- **Viewport** — Set exact pixel dimensions matching target size
+- **Self-contained** — Inline all CSS, embed fonts via Google Fonts CDN
+- **No scrolling** — Everything fits in one viewport
+- **High contrast** — Text readable at thumbnail size
+- **Brand-aligned** — Use extracted brand colors/fonts
+- **Safe zones** — Critical content within central 80% area
+- **Typography** — Min 24px for headlines, min 16px for body at 1080px width
+- **Visual hierarchy** — One focal point, clear reading flow
+
+#### HTML Template Structure
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width={WIDTH}, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family={FONT}&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: {WIDTH}px;
+      height: {HEIGHT}px;
+      overflow: hidden;
+      font-family: '{FONT}', sans-serif;
+    }
+    .canvas {
+      width: {WIDTH}px;
+      height: {HEIGHT}px;
+      position: relative;
+      /* Background: gradient, solid, or image */
+    }
+    /* Design tokens from brand/design-system */
+  </style>
+</head>
+<body>
+  <div class="canvas">
+    <!-- Content layers -->
+  </div>
+</body>
+</html>
+```
+
+### Step 5: Screenshot Export
+
+Use Chrome headless, `chrome-devtools` skill, or Playwright/Puppeteer to capture exact-size screenshots.
+
+**IMPORTANT:** Always add a delay (3-5s) after page load for fonts/images to fully render before capture.
+
+#### Option A: Chrome Headless CLI (Recommended — zero dependencies)
+
+```bash
+CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+DELAY=5  # seconds for fonts/images to load
+
+"$CHROME" \
+  --headless \
+  --disable-gpu \
+  --no-sandbox \
+  --hide-scrollbars \
+  --window-size="${WIDTH},${HEIGHT}" \
+  --virtual-time-budget=$((DELAY * 1000)) \
+  --screenshot="output.png" \
+  "file:///path/to/file.html"
+```
+
+Key flags:
+- `--virtual-time-budget=5000` — waits 5s virtual time for assets (Google Fonts, images) to load
+- `--hide-scrollbars` — prevents scrollbar artifacts in screenshots
+- `--window-size=WxH` — sets exact pixel dimensions
+
+#### Option B: chrome-devtools skill
+
+Invoke `/chrome-devtools` with instructions to:
+1. Open each HTML file in browser
+2. Set viewport to exact target dimensions
+3. Wait 3-5s for fonts/images to fully load
+4. Screenshot full page to PNG
+5. Save to `output/social-photos/exports/`
+
+#### Option C: Playwright script
+
+```javascript
+const { chromium } = require('playwright');
+
+async function captureScreenshots(htmlFiles) {
+  const browser = await chromium.launch();
+
+  for (const file of htmlFiles) {
+    const [width, height] = file.match(/(\d+)x(\d+)/).slice(1).map(Number);
+
+    const page = await browser.newPage();
+    await page.setViewportSize({ width, height });
+    await page.goto(`file://${file}`, { waitUntil: 'networkidle' });
+    // Wait for fonts/images to fully render
+    await page.waitForTimeout(3000);
+
+    const outputPath = file.replace('.html', '.png').replace('social-photos/', 'social-photos/exports/');
+    await page.screenshot({ path: outputPath, type: 'png' });
+    await page.close();
+  }
+
+  await browser.close();
+}
+```
+
+#### Option D: Puppeteer script
+
+```javascript
+const puppeteer = require('puppeteer');
+
+async function captureScreenshots(htmlFiles) {
+  const browser = await puppeteer.launch();
+
+  for (const file of htmlFiles) {
+    const [width, height] = file.match(/(\d+)x(\d+)/).slice(1).map(Number);
+
+    const page = await browser.newPage();
+    await page.setViewport({ width, height, deviceScaleFactor: 2 }); // 2x for retina
+    await page.goto(`file://${file}`, { waitUntil: 'networkidle0' });
+    // Wait for fonts/images to fully render
+    await new Promise(r => setTimeout(r, 3000));
+
+    const outputPath = file.replace('.html', '.png').replace('social-photos/', 'social-photos/exports/');
+    await page.screenshot({ path: outputPath, type: 'png' });
+    await page.close();
+  }
+
+  await browser.close();
+}
+```
+
+**IMPORTANT:** Use `deviceScaleFactor: 2` for retina-quality output (Puppeteer only).
+
+### Step 6: Verify & Fix Designs
+
+Use Chrome MCP or `chrome-devtools` skill to visually inspect each exported PNG:
+
+1. Open exported screenshots and check for layout/styling issues
+2. Verify: fonts rendered correctly, colors match brand, text readable at thumbnail size
+3. Check: no overflow, no cut-off content, safe zones respected, visual hierarchy clear
+4. If issues found → fix HTML source → re-export screenshot → verify again
+5. Repeat until all designs pass visual QA
+
+**Common issues to check:**
+- Fonts not loaded (fallback to system fonts)
+- Text overflow or clipping
+- Elements outside safe zone (central 80%)
+- Low contrast text (below WCAG AA 4.5:1)
+- Misaligned elements or broken layouts
+
+### Step 7: Generate Summary Report
+
+Save report to `plans/reports/` with naming pattern from session hooks.
+
+Report structure:
+
+```markdown
+# Social Photos Design Report
+
+## Overview
+- Prompt/requirements: {original input}
+- Platforms: {target platforms}
+- Variations: {count}
+- Style: {chosen style}
+
+## Ideas Generated
+1. **{Idea name}** — {brief description, rationale}
+2. ...
+
+## Design Decisions
+- Color palette: {colors used, why}
+- Typography: {fonts, sizes, why}
+- Layout: {composition approach, why}
+- Brand alignment: {how brand guidelines influenced design}
+
+## Output Files
+| File | Size | Platform | Preview |
+|------|------|----------|---------|
+| exports/{filename}.png | {WxH} | {platform} | {description} |
+
+## Why This Works
+- {Platform-specific reasoning}
+- {Brand alignment reasoning}
+- {Visual hierarchy reasoning}
+- {Engagement potential reasoning}
+
+## Recommendations
+- {A/B test suggestions}
+- {Platform-specific tips}
+- {Iteration opportunities}
+```
+
+### Step 8: Organize Output
+
+Invoke `assets-organizing` skill to organize all output files and reports:
+- Move/copy exported PNGs to proper asset directories
+- Ensure reports are in `plans/reports/` with correct naming
+- Clean up intermediate HTML files if requested
+- Tag outputs with metadata (platform, size, concept name)
+
+## Design Best Practices
+
+### Platform-Specific Tips
+
+- **Instagram** — Visual-first, minimal text (<20%), strong colors, lifestyle feel
+- **Facebook** — Informative, can have more text, eye-catching in feed
+- **Twitter/X** — Bold headlines, contrast for dark/light mode, clear message
+- **LinkedIn** — Professional, clean, data-driven visuals, thought leadership
+- **Pinterest** — Vertical format, text overlay on images, how-to style
+- **YouTube** — Face close-ups perform best, bright colors, readable at small size
+- **TikTok** — Trendy, energetic, bold typography, youth-oriented
+
+### Art Direction Styles (Reuse from Banner)
+
+| Style | Best For | Key Elements |
+|-------|----------|--------------|
+| Minimalist | SaaS, tech, luxury | Whitespace, single accent color, clean type |
+| Bold Typography | Announcements, quotes | Large type, high contrast, minimal imagery |
+| Gradient Mesh | Modern brands, apps | Fluid color transitions, floating elements |
+| Photo-Based | Lifestyle, e-commerce | Hero image, subtle overlay, text on image |
+| Geometric | Tech, fintech | Shapes, patterns, structured layouts |
+| Glassmorphism | SaaS, modern apps | Frosted glass, blur effects, transparency |
+| Flat Illustration | Education, health | Custom illustrations, friendly, approachable |
+| Duotone | Creative, editorial | Two-color treatment on photos |
+| Collage | Fashion, culture | Mixed media, overlapping elements |
+| 3D/Isometric | Tech, product | Depth, shadows, modern perspective |
+
+### Color & Contrast
+
+- Ensure WCAG AA contrast ratio (4.5:1 min) for all text
+- Test designs at 50% size to verify readability
+- Consider platform dark/light mode compatibility
+- Use brand primary color as dominant, secondary as accent
+
+### Typography Hierarchy
+
+| Element | Min Size (at 1080px) | Weight |
+|---------|---------------------|--------|
+| Headline | 48px | Bold/Black |
+| Subheadline | 32px | Semibold |
+| Body | 24px | Regular |
+| Caption | 18px | Regular/Light |
+| CTA | 28px | Bold |
+
+## Security & Scope
+
+This sub-skill handles social media image design only. Does NOT handle:
+- Video content creation
+- Animation/motion graphics
+- Print production files (CMYK, bleed)
+- Direct social media posting/scheduling
+- AI image generation (use `ai-artist` skill for that)

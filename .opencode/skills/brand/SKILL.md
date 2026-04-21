@@ -1,1 +1,97 @@
-LS0tCm5hbWU6IGNrbTpicmFuZApkZXNjcmlwdGlvbjogQnJhbmQgdm9pY2UsIHZpc3VhbCBpZGVudGl0eSwgbWVzc2FnaW5nIGZyYW1ld29ya3MsIGFzc2V0IG1hbmFnZW1lbnQsIGJyYW5kIGNvbnNpc3RlbmN5LiBBY3RpdmF0ZSBmb3IgYnJhbmRlZCBjb250ZW50LCB0b25lIG9mIHZvaWNlLCBtYXJrZXRpbmcgYXNzZXRzLCBicmFuZCBjb21wbGlhbmNlLCBzdHlsZSBndWlkZXMuCmFyZ3VtZW50LWhpbnQ6ICJbdXBkYXRlfHJldmlld3xjcmVhdGVdIFthcmdzXSIKbWV0YWRhdGE6CiAgYXV0aG9yOiBjbGF1ZGVraXQKICB2ZXJzaW9uOiAiMS4wLjAiCi0tLQoKIyBCcmFuZAoKQnJhbmQgaWRlbnRpdHksIHZvaWNlLCBtZXNzYWdpbmcsIGFzc2V0IG1hbmFnZW1lbnQsIGFuZCBjb25zaXN0ZW5jeSBmcmFtZXdvcmtzLgoKIyMgV2hlbiB0byBVc2UKCi0gQnJhbmQgdm9pY2UgZGVmaW5pdGlvbiBhbmQgY29udGVudCB0b25lIGd1aWRhbmNlCi0gVmlzdWFsIGlkZW50aXR5IHN0YW5kYXJkcyBhbmQgc3R5bGUgZ3VpZGUgZGV2ZWxvcG1lbnQKLSBNZXNzYWdpbmcgZnJhbWV3b3JrIGNyZWF0aW9uCi0gQnJhbmQgY29uc2lzdGVuY3kgcmV2aWV3IGFuZCBhdWRpdAotIEFzc2V0IG9yZ2FuaXphdGlvbiwgbmFtaW5nLCBhbmQgYXBwcm92YWwKLSBDb2xvciBwYWxldHRlIG1hbmFnZW1lbnQgYW5kIHR5cG9ncmFwaHkgc3BlY3MKCiMjIFF1aWNrIFN0YXJ0CgoqKkluamVjdCBicmFuZCBjb250ZXh0IGludG8gcHJvbXB0czoqKgpgYGBiYXNoCm5vZGUgc2NyaXB0cy9pbmplY3QtYnJhbmQtY29udGV4dC5janMKbm9kZSBzY3JpcHRzL2luamVjdC1icmFuZC1jb250ZXh0LmNqcyAtLWpzb24KYGBgCgoqKlZhbGlkYXRlIGFuIGFzc2V0OioqCmBgYGJhc2gKbm9kZSBzY3JpcHRzL3ZhbGlkYXRlLWFzc2V0LmNqcyA8YXNzZXQtcGF0aD4KYGBgCgoqKkV4dHJhY3QvY29tcGFyZSBjb2xvcnM6KioKYGBgYmFzaApub2RlIHNjcmlwdHMvZXh0cmFjdC1jb2xvcnMuY2pzIC0tcGFsZXR0ZQpub2RlIHNjcmlwdHMvZXh0cmFjdC1jb2xvcnMuY2pzIDxpbWFnZS1wYXRoPgpgYGAKCiMjIEJyYW5kIFN5bmMgV29ya2Zsb3cKCmBgYGJhc2gKIyAxLiBFZGl0IGRvY3MvYnJhbmQtZ3VpZGVsaW5lcy5tZCAob3IgdXNlIC9icmFuZCB1cGRhdGUpCiMgMi4gU3luYyB0byBkZXNpZ24gdG9rZW5zCm5vZGUgc2NyaXB0cy9zeW5jLWJyYW5kLXRvLXRva2Vucy5janMKIyAzLiBWZXJpZnkKbm9kZSBzY3JpcHRzL2luamVjdC1icmFuZC1jb250ZXh0LmNqcyAtLWpzb24gfCBoZWFkIC0yMApgYGAKCioqRmlsZXMgc3luY2VkOioqCi0gYGRvY3MvYnJhbmQtZ3VpZGVsaW5lcy5tZGAg4oaSIFNvdXJjZSBvZiB0cnV0aAotIGBhc3NldHMvZGVzaWduLXRva2Vucy5qc29uYCDihpIgVG9rZW4gZGVmaW5pdGlvbnMKLSBgYXNzZXRzL2Rlc2lnbi10b2tlbnMuY3NzYCDihpIgQ1NTIHZhcmlhYmxlcwoKIyMgU3ViY29tbWFuZHMKCnwgU3ViY29tbWFuZCB8IERlc2NyaXB0aW9uIHwgUmVmZXJlbmNlIHwKfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tfAp8IGB1cGRhdGVgIHwgVXBkYXRlIGJyYW5kIGlkZW50aXR5IGFuZCBzeW5jIHRvIGFsbCBkZXNpZ24gc3lzdGVtcyB8IGByZWZlcmVuY2VzL3VwZGF0ZS5tZGAgfAoKIyMgUmVmZXJlbmNlcwoKfCBUb3BpYyB8IEZpbGUgfAp8LS0tLS0tLXwtLS0tLS18CnwgVm9pY2UgRnJhbWV3b3JrIHwgYHJlZmVyZW5jZXMvdm9pY2UtZnJhbWV3b3JrLm1kYCB8CnwgVmlzdWFsIElkZW50aXR5IHwgYHJlZmVyZW5jZXMvdmlzdWFsLWlkZW50aXR5Lm1kYCB8CnwgTWVzc2FnaW5nIHwgYHJlZmVyZW5jZXMvbWVzc2FnaW5nLWZyYW1ld29yay5tZGAgfAp8IENvbnNpc3RlbmN5IHwgYHJlZmVyZW5jZXMvY29uc2lzdGVuY3ktY2hlY2tsaXN0Lm1kYCB8CnwgR3VpZGVsaW5lcyBUZW1wbGF0ZSB8IGByZWZlcmVuY2VzL2JyYW5kLWd1aWRlbGluZS10ZW1wbGF0ZS5tZGAgfAp8IEFzc2V0IE9yZ2FuaXphdGlvbiB8IGByZWZlcmVuY2VzL2Fzc2V0LW9yZ2FuaXphdGlvbi5tZGAgfAp8IENvbG9yIE1hbmFnZW1lbnQgfCBgcmVmZXJlbmNlcy9jb2xvci1wYWxldHRlLW1hbmFnZW1lbnQubWRgIHwKfCBUeXBvZ3JhcGh5IHwgYHJlZmVyZW5jZXMvdHlwb2dyYXBoeS1zcGVjaWZpY2F0aW9ucy5tZGAgfAp8IExvZ28gVXNhZ2UgfCBgcmVmZXJlbmNlcy9sb2dvLXVzYWdlLXJ1bGVzLm1kYCB8CnwgQXBwcm92YWwgQ2hlY2tsaXN0IHwgYHJlZmVyZW5jZXMvYXBwcm92YWwtY2hlY2tsaXN0Lm1kYCB8CgojIyBTY3JpcHRzCgp8IFNjcmlwdCB8IFB1cnBvc2UgfAp8LS0tLS0tLS18LS0tLS0tLS0tfAp8IGBzY3JpcHRzL2luamVjdC1icmFuZC1jb250ZXh0LmNqc2AgfCBFeHRyYWN0IGJyYW5kIGNvbnRleHQgZm9yIHByb21wdCBpbmplY3Rpb24gfAp8IGBzY3JpcHRzL3N5bmMtYnJhbmQtdG8tdG9rZW5zLmNqc2AgfCBTeW5jIGJyYW5kLWd1aWRlbGluZXMubWQg4oaSIGRlc2lnbi10b2tlbnMuanNvbi9jc3MgfAp8IGBzY3JpcHRzL3ZhbGlkYXRlLWFzc2V0LmNqc2AgfCBWYWxpZGF0ZSBhc3NldCBuYW1pbmcsIHNpemUsIGZvcm1hdCB8CnwgYHNjcmlwdHMvZXh0cmFjdC1jb2xvcnMuY2pzYCB8IEV4dHJhY3QgYW5kIGNvbXBhcmUgY29sb3JzIGFnYWluc3QgcGFsZXR0ZSB8CgojIyBUZW1wbGF0ZXMKCnwgVGVtcGxhdGUgfCBQdXJwb3NlIHwKfC0tLS0tLS0tLS18LS0tLS0tLS0tfAp8IGB0ZW1wbGF0ZXMvYnJhbmQtZ3VpZGVsaW5lcy1zdGFydGVyLm1kYCB8IENvbXBsZXRlIHN0YXJ0ZXIgdGVtcGxhdGUgZm9yIG5ldyBicmFuZHMgfAoKIyMgUm91dGluZwoKMS4gUGFyc2Ugc3ViY29tbWFuZCBmcm9tIGAkQVJHVU1FTlRTYCAoZmlyc3Qgd29yZCkKMi4gTG9hZCBjb3JyZXNwb25kaW5nIGByZWZlcmVuY2VzL3tzdWJjb21tYW5kfS5tZGAKMy4gRXhlY3V0ZSB3aXRoIHJlbWFpbmluZyBhcmd1bWVudHMK
+---
+name: ckm:brand
+description: Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides.
+argument-hint: "[update|review|create] [args]"
+metadata:
+  author: claudekit
+  version: "1.0.0"
+---
+
+# Brand
+
+Brand identity, voice, messaging, asset management, and consistency frameworks.
+
+## When to Use
+
+- Brand voice definition and content tone guidance
+- Visual identity standards and style guide development
+- Messaging framework creation
+- Brand consistency review and audit
+- Asset organization, naming, and approval
+- Color palette management and typography specs
+
+## Quick Start
+
+**Inject brand context into prompts:**
+```bash
+node scripts/inject-brand-context.cjs
+node scripts/inject-brand-context.cjs --json
+```
+
+**Validate an asset:**
+```bash
+node scripts/validate-asset.cjs <asset-path>
+```
+
+**Extract/compare colors:**
+```bash
+node scripts/extract-colors.cjs --palette
+node scripts/extract-colors.cjs <image-path>
+```
+
+## Brand Sync Workflow
+
+```bash
+# 1. Edit docs/brand-guidelines.md (or use /brand update)
+# 2. Sync to design tokens
+node scripts/sync-brand-to-tokens.cjs
+# 3. Verify
+node scripts/inject-brand-context.cjs --json | head -20
+```
+
+**Files synced:**
+- `docs/brand-guidelines.md` → Source of truth
+- `assets/design-tokens.json` → Token definitions
+- `assets/design-tokens.css` → CSS variables
+
+## Subcommands
+
+| Subcommand | Description | Reference |
+|------------|-------------|-----------|
+| `update` | Update brand identity and sync to all design systems | `references/update.md` |
+
+## References
+
+| Topic | File |
+|-------|------|
+| Voice Framework | `references/voice-framework.md` |
+| Visual Identity | `references/visual-identity.md` |
+| Messaging | `references/messaging-framework.md` |
+| Consistency | `references/consistency-checklist.md` |
+| Guidelines Template | `references/brand-guideline-template.md` |
+| Asset Organization | `references/asset-organization.md` |
+| Color Management | `references/color-palette-management.md` |
+| Typography | `references/typography-specifications.md` |
+| Logo Usage | `references/logo-usage-rules.md` |
+| Approval Checklist | `references/approval-checklist.md` |
+
+## Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/inject-brand-context.cjs` | Extract brand context for prompt injection |
+| `scripts/sync-brand-to-tokens.cjs` | Sync brand-guidelines.md → design-tokens.json/css |
+| `scripts/validate-asset.cjs` | Validate asset naming, size, format |
+| `scripts/extract-colors.cjs` | Extract and compare colors against palette |
+
+## Templates
+
+| Template | Purpose |
+|----------|---------|
+| `templates/brand-guidelines-starter.md` | Complete starter template for new brands |
+
+## Routing
+
+1. Parse subcommand from `$ARGUMENTS` (first word)
+2. Load corresponding `references/{subcommand}.md`
+3. Execute with remaining arguments

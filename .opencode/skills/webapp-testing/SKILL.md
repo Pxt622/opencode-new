@@ -1,1 +1,96 @@
-LS0tCm5hbWU6IHdlYmFwcC10ZXN0aW5nCmRlc2NyaXB0aW9uOiBUb29sa2l0IGZvciBpbnRlcmFjdGluZyB3aXRoIGFuZCB0ZXN0aW5nIGxvY2FsIHdlYiBhcHBsaWNhdGlvbnMgdXNpbmcgUGxheXdyaWdodC4gU3VwcG9ydHMgdmVyaWZ5aW5nIGZyb250ZW5kIGZ1bmN0aW9uYWxpdHksIGRlYnVnZ2luZyBVSSBiZWhhdmlvciwgY2FwdHVyaW5nIGJyb3dzZXIgc2NyZWVuc2hvdHMsIGFuZCB2aWV3aW5nIGJyb3dzZXIgbG9ncy4KbGljZW5zZTogQ29tcGxldGUgdGVybXMgaW4gTElDRU5TRS50eHQKLS0tCgojIFdlYiBBcHBsaWNhdGlvbiBUZXN0aW5nCgpUbyB0ZXN0IGxvY2FsIHdlYiBhcHBsaWNhdGlvbnMsIHdyaXRlIG5hdGl2ZSBQeXRob24gUGxheXdyaWdodCBzY3JpcHRzLgoKKipIZWxwZXIgU2NyaXB0cyBBdmFpbGFibGUqKjoKLSBgc2NyaXB0cy93aXRoX3NlcnZlci5weWAgLSBNYW5hZ2VzIHNlcnZlciBsaWZlY3ljbGUgKHN1cHBvcnRzIG11bHRpcGxlIHNlcnZlcnMpCgoqKkFsd2F5cyBydW4gc2NyaXB0cyB3aXRoIGAtLWhlbHBgIGZpcnN0KiogdG8gc2VlIHVzYWdlLiBETyBOT1QgcmVhZCB0aGUgc291cmNlIHVudGlsIHlvdSB0cnkgcnVubmluZyB0aGUgc2NyaXB0IGZpcnN0IGFuZCBmaW5kIHRoYXQgYSBjdXN0b21pemVkIHNvbHV0aW9uIGlzIGFic2x1dGVseSBuZWNlc3NhcnkuIFRoZXNlIHNjcmlwdHMgY2FuIGJlIHZlcnkgbGFyZ2UgYW5kIHRodXMgcG9sbHV0ZSB5b3VyIGNvbnRleHQgd2luZG93LiBUaGV5IGV4aXN0IHRvIGJlIGNhbGxlZCBkaXJlY3RseSBhcyBibGFjay1ib3ggc2NyaXB0cyByYXRoZXIgdGhhbiBpbmdlc3RlZCBpbnRvIHlvdXIgY29udGV4dCB3aW5kb3cuCgojIyBEZWNpc2lvbiBUcmVlOiBDaG9vc2luZyBZb3VyIEFwcHJvYWNoCgpgYGAKVXNlciB0YXNrIOKGkiBJcyBpdCBzdGF0aWMgSFRNTD8KICAgIOKUnOKUgCBZZXMg4oaSIFJlYWQgSFRNTCBmaWxlIGRpcmVjdGx5IHRvIGlkZW50aWZ5IHNlbGVjdG9ycwogICAg4pSCICAgICAgICAg4pSc4pSAIFN1Y2Nlc3Mg4oaSIFdyaXRlIFBsYXl3cmlnaHQgc2NyaXB0IHVzaW5nIHNlbGVjdG9ycwogICAg4pSCICAgICAgICAg4pSU4pSAIEZhaWxzL0luY29tcGxldGUg4oaSIFRyZWF0IGFzIGR5bmFtaWMgKGJlbG93KQogICAg4pSCCiAgICDilJTilIAgTm8gKGR5bmFtaWMgd2ViYXBwKSDihpIgSXMgdGhlIHNlcnZlciBhbHJlYWR5IHJ1bm5pbmc/CiAgICAgICAg4pSc4pSAIE5vIOKGkiBSdW46IHB5dGhvbiBzY3JpcHRzL3dpdGhfc2VydmVyLnB5IC0taGVscAogICAgICAgIOKUgiAgICAgICAgVGhlbiB1c2UgdGhlIGhlbHBlciArIHdyaXRlIHNpbXBsaWZpZWQgUGxheXdyaWdodCBzY3JpcHQKICAgICAgICDilIIKICAgICAgICDilJTilIAgWWVzIOKGkiBSZWNvbm5haXNzYW5jZS10aGVuLWFjdGlvbjoKICAgICAgICAgICAgMS4gTmF2aWdhdGUgYW5kIHdhaXQgZm9yIG5ldHdvcmtpZGxlCiAgICAgICAgICAgIDIuIFRha2Ugc2NyZWVuc2hvdCBvciBpbnNwZWN0IERPTQogICAgICAgICAgICAzLiBJZGVudGlmeSBzZWxlY3RvcnMgZnJvbSByZW5kZXJlZCBzdGF0ZQogICAgICAgICAgICA0LiBFeGVjdXRlIGFjdGlvbnMgd2l0aCBkaXNjb3ZlcmVkIHNlbGVjdG9ycwpgYGAKCiMjIEV4YW1wbGU6IFVzaW5nIHdpdGhfc2VydmVyLnB5CgpUbyBzdGFydCBhIHNlcnZlciwgcnVuIGAtLWhlbHBgIGZpcnN0LCB0aGVuIHVzZSB0aGUgaGVscGVyOgoKKipTaW5nbGUgc2VydmVyOioqCmBgYGJhc2gKcHl0aG9uIHNjcmlwdHMvd2l0aF9zZXJ2ZXIucHkgLS1zZXJ2ZXIgIm5wbSBydW4gZGV2IiAtLXBvcnQgNTE3MyAtLSBweXRob24geW91cl9hdXRvbWF0aW9uLnB5CmBgYAoKKipNdWx0aXBsZSBzZXJ2ZXJzIChlLmcuLCBiYWNrZW5kICsgZnJvbnRlbmQpOioqCmBgYGJhc2gKcHl0aG9uIHNjcmlwdHMvd2l0aF9zZXJ2ZXIucHkgXAogIC0tc2VydmVyICJjZCBiYWNrZW5kICYmIHB5dGhvbiBzZXJ2ZXIucHkiIC0tcG9ydCAzMDAwIFwKICAtLXNlcnZlciAiY2QgZnJvbnRlbmQgJiYgbnBtIHJ1biBkZXYiIC0tcG9ydCA1MTczIFwKICAtLSBweXRob24geW91cl9hdXRvbWF0aW9uLnB5CmBgYAoKVG8gY3JlYXRlIGFuIGF1dG9tYXRpb24gc2NyaXB0LCBpbmNsdWRlIG9ubHkgUGxheXdyaWdodCBsb2dpYyAoc2VydmVycyBhcmUgbWFuYWdlZCBhdXRvbWF0aWNhbGx5KToKYGBgcHl0aG9uCmZyb20gcGxheXdyaWdodC5zeW5jX2FwaSBpbXBvcnQgc3luY19wbGF5d3JpZ2h0Cgp3aXRoIHN5bmNfcGxheXdyaWdodCgpIGFzIHA6CiAgICBicm93c2VyID0gcC5jaHJvbWl1bS5sYXVuY2goaGVhZGxlc3M9VHJ1ZSkgIyBBbHdheXMgbGF1bmNoIGNocm9taXVtIGluIGhlYWRsZXNzIG1vZGUKICAgIHBhZ2UgPSBicm93c2VyLm5ld19wYWdlKCkKICAgIHBhZ2UuZ290bygnaHR0cDovL2xvY2FsaG9zdDo1MTczJykgIyBTZXJ2ZXIgYWxyZWFkeSBydW5uaW5nIGFuZCByZWFkeQogICAgcGFnZS53YWl0X2Zvcl9sb2FkX3N0YXRlKCduZXR3b3JraWRsZScpICMgQ1JJVElDQUw6IFdhaXQgZm9yIEpTIHRvIGV4ZWN1dGUKICAgICMgLi4uIHlvdXIgYXV0b21hdGlvbiBsb2dpYwogICAgYnJvd3Nlci5jbG9zZSgpCmBgYAoKIyMgUmVjb25uYWlzc2FuY2UtVGhlbi1BY3Rpb24gUGF0dGVybgoKMS4gKipJbnNwZWN0IHJlbmRlcmVkIERPTSoqOgogICBgYGBweXRob24KICAgcGFnZS5zY3JlZW5zaG90KHBhdGg9Jy90bXAvaW5zcGVjdC5wbmcnLCBmdWxsX3BhZ2U9VHJ1ZSkKICAgY29udGVudCA9IHBhZ2UuY29udGVudCgpCiAgIHBhZ2UubG9jYXRvcignYnV0dG9uJykuYWxsKCkKICAgYGBgCgoyLiAqKklkZW50aWZ5IHNlbGVjdG9ycyoqIGZyb20gaW5zcGVjdGlvbiByZXN1bHRzCgozLiAqKkV4ZWN1dGUgYWN0aW9ucyoqIHVzaW5nIGRpc2NvdmVyZWQgc2VsZWN0b3JzCgojIyBDb21tb24gUGl0ZmFsbAoK4p2MICoqRG9uJ3QqKiBpbnNwZWN0IHRoZSBET00gYmVmb3JlIHdhaXRpbmcgZm9yIGBuZXR3b3JraWRsZWAgb24gZHluYW1pYyBhcHBzCuKchSAqKkRvKiogd2FpdCBmb3IgYHBhZ2Uud2FpdF9mb3JfbG9hZF9zdGF0ZSgnbmV0d29ya2lkbGUnKWAgYmVmb3JlIGluc3BlY3Rpb24KCiMjIEJlc3QgUHJhY3RpY2VzCgotICoqVXNlIGJ1bmRsZWQgc2NyaXB0cyBhcyBibGFjayBib3hlcyoqIC0gVG8gYWNjb21wbGlzaCBhIHRhc2ssIGNvbnNpZGVyIHdoZXRoZXIgb25lIG9mIHRoZSBzY3JpcHRzIGF2YWlsYWJsZSBpbiBgc2NyaXB0cy9gIGNhbiBoZWxwLiBUaGVzZSBzY3JpcHRzIGhhbmRsZSBjb21tb24sIGNvbXBsZXggd29ya2Zsb3dzIHJlbGlhYmx5IHdpdGhvdXQgY2x1dHRlcmluZyB0aGUgY29udGV4dCB3aW5kb3cuIFVzZSBgLS1oZWxwYCB0byBzZWUgdXNhZ2UsIHRoZW4gaW52b2tlIGRpcmVjdGx5LiAKLSBVc2UgYHN5bmNfcGxheXdyaWdodCgpYCBmb3Igc3luY2hyb25vdXMgc2NyaXB0cwotIEFsd2F5cyBjbG9zZSB0aGUgYnJvd3NlciB3aGVuIGRvbmUKLSBVc2UgZGVzY3JpcHRpdmUgc2VsZWN0b3JzOiBgdGV4dD1gLCBgcm9sZT1gLCBDU1Mgc2VsZWN0b3JzLCBvciBJRHMKLSBBZGQgYXBwcm9wcmlhdGUgd2FpdHM6IGBwYWdlLndhaXRfZm9yX3NlbGVjdG9yKClgIG9yIGBwYWdlLndhaXRfZm9yX3RpbWVvdXQoKWAKCiMjIFJlZmVyZW5jZSBGaWxlcwoKLSAqKmV4YW1wbGVzLyoqIC0gRXhhbXBsZXMgc2hvd2luZyBjb21tb24gcGF0dGVybnM6CiAgLSBgZWxlbWVudF9kaXNjb3ZlcnkucHlgIC0gRGlzY292ZXJpbmcgYnV0dG9ucywgbGlua3MsIGFuZCBpbnB1dHMgb24gYSBwYWdlCiAgLSBgc3RhdGljX2h0bWxfYXV0b21hdGlvbi5weWAgLSBVc2luZyBmaWxlOi8vIFVSTHMgZm9yIGxvY2FsIEhUTUwKICAtIGBjb25zb2xlX2xvZ2dpbmcucHlgIC0gQ2FwdHVyaW5nIGNvbnNvbGUgbG9ncyBkdXJpbmcgYXV0b21hdGlvbg==
+---
+name: webapp-testing
+description: Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.
+license: Complete terms in LICENSE.txt
+---
+
+# Web Application Testing
+
+To test local web applications, write native Python Playwright scripts.
+
+**Helper Scripts Available**:
+- `scripts/with_server.py` - Manages server lifecycle (supports multiple servers)
+
+**Always run scripts with `--help` first** to see usage. DO NOT read the source until you try running the script first and find that a customized solution is abslutely necessary. These scripts can be very large and thus pollute your context window. They exist to be called directly as black-box scripts rather than ingested into your context window.
+
+## Decision Tree: Choosing Your Approach
+
+```
+User task → Is it static HTML?
+    ├─ Yes → Read HTML file directly to identify selectors
+    │         ├─ Success → Write Playwright script using selectors
+    │         └─ Fails/Incomplete → Treat as dynamic (below)
+    │
+    └─ No (dynamic webapp) → Is the server already running?
+        ├─ No → Run: python scripts/with_server.py --help
+        │        Then use the helper + write simplified Playwright script
+        │
+        └─ Yes → Reconnaissance-then-action:
+            1. Navigate and wait for networkidle
+            2. Take screenshot or inspect DOM
+            3. Identify selectors from rendered state
+            4. Execute actions with discovered selectors
+```
+
+## Example: Using with_server.py
+
+To start a server, run `--help` first, then use the helper:
+
+**Single server:**
+```bash
+python scripts/with_server.py --server "npm run dev" --port 5173 -- python your_automation.py
+```
+
+**Multiple servers (e.g., backend + frontend):**
+```bash
+python scripts/with_server.py \
+  --server "cd backend && python server.py" --port 3000 \
+  --server "cd frontend && npm run dev" --port 5173 \
+  -- python your_automation.py
+```
+
+To create an automation script, include only Playwright logic (servers are managed automatically):
+```python
+from playwright.sync_api import sync_playwright
+
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True) # Always launch chromium in headless mode
+    page = browser.new_page()
+    page.goto('http://localhost:5173') # Server already running and ready
+    page.wait_for_load_state('networkidle') # CRITICAL: Wait for JS to execute
+    # ... your automation logic
+    browser.close()
+```
+
+## Reconnaissance-Then-Action Pattern
+
+1. **Inspect rendered DOM**:
+   ```python
+   page.screenshot(path='/tmp/inspect.png', full_page=True)
+   content = page.content()
+   page.locator('button').all()
+   ```
+
+2. **Identify selectors** from inspection results
+
+3. **Execute actions** using discovered selectors
+
+## Common Pitfall
+
+❌ **Don't** inspect the DOM before waiting for `networkidle` on dynamic apps
+✅ **Do** wait for `page.wait_for_load_state('networkidle')` before inspection
+
+## Best Practices
+
+- **Use bundled scripts as black boxes** - To accomplish a task, consider whether one of the scripts available in `scripts/` can help. These scripts handle common, complex workflows reliably without cluttering the context window. Use `--help` to see usage, then invoke directly. 
+- Use `sync_playwright()` for synchronous scripts
+- Always close the browser when done
+- Use descriptive selectors: `text=`, `role=`, CSS selectors, or IDs
+- Add appropriate waits: `page.wait_for_selector()` or `page.wait_for_timeout()`
+
+## Reference Files
+
+- **examples/** - Examples showing common patterns:
+  - `element_discovery.py` - Discovering buttons, links, and inputs on a page
+  - `static_html_automation.py` - Using file:// URLs for local HTML
+  - `console_logging.py` - Capturing console logs during automation

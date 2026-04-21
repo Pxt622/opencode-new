@@ -1,1 +1,375 @@
-IyBDbGF1ZGUgQVBJIOKAlCBQSFAKCj4gKipOb3RlOioqIFRoZSBQSFAgU0RLIGlzIHRoZSBvZmZpY2lhbCBBbnRocm9waWMgU0RLIGZvciBQSFAuIEEgYmV0YSB0b29sIHJ1bm5lciBpcyBhdmFpbGFibGUgdmlhIGAkY2xpZW50LT5iZXRhLT5tZXNzYWdlcy0+dG9vbFJ1bm5lcigpYC4gU3RydWN0dXJlZCBvdXRwdXQgaGVscGVycyBhcmUgc3VwcG9ydGVkIHZpYSBgU3RydWN0dXJlZE91dHB1dE1vZGVsYCBjbGFzc2VzLiBBZ2VudCBTREsgaXMgbm90IGF2YWlsYWJsZS4gQmVkcm9jaywgVmVydGV4IEFJLCBhbmQgRm91bmRyeSBjbGllbnRzIGFyZSBzdXBwb3J0ZWQuCgojIyBJbnN0YWxsYXRpb24KCmBgYGJhc2gKY29tcG9zZXIgcmVxdWlyZSAiYW50aHJvcGljLWFpL3NkayIKYGBgCgojIyBDbGllbnQgSW5pdGlhbGl6YXRpb24KCmBgYHBocAp1c2UgQW50aHJvcGljXENsaWVudDsKCi8vIFVzaW5nIEFQSSBrZXkgZnJvbSBlbnZpcm9ubWVudCB2YXJpYWJsZQokY2xpZW50ID0gbmV3IENsaWVudChhcGlLZXk6IGdldGVudigiQU5USFJPUElDX0FQSV9LRVkiKSk7CmBgYAoKIyMjIEFtYXpvbiBCZWRyb2NrCgpgYGBwaHAKdXNlIEFudGhyb3BpY1xCZWRyb2NrOwoKLy8gQ29uc3RydWN0b3IgaXMgcHJpdmF0ZSDigJQgdXNlIHRoZSBzdGF0aWMgZmFjdG9yeS4gUmVhZHMgQVdTIGNyZWRlbnRpYWxzIGZyb20gZW52LgokY2xpZW50ID0gQmVkcm9ja1xDbGllbnQ6OmZyb21FbnZpcm9ubWVudChyZWdpb246ICd1cy1lYXN0LTEnKTsKYGBgCgojIyMgR29vZ2xlIFZlcnRleCBBSQoKYGBgcGhwCnVzZSBBbnRocm9waWNcVmVydGV4OwoKLy8gQ29uc3RydWN0b3IgaXMgcHJpdmF0ZS4gUGFyYW1ldGVyIGlzIGBsb2NhdGlvbmAsIG5vdCBgcmVnaW9uYC4KJGNsaWVudCA9IFZlcnRleFxDbGllbnQ6OmZyb21FbnZpcm9ubWVudCgKICAgIGxvY2F0aW9uOiAndXMtZWFzdDUnLAogICAgcHJvamVjdElkOiAnbXktcHJvamVjdC1pZCcsCik7CmBgYAoKIyMjIEFudGhyb3BpYyBGb3VuZHJ5CgpgYGBwaHAKdXNlIEFudGhyb3BpY1xGb3VuZHJ5OwoKLy8gQ29uc3RydWN0b3IgaXMgcHJpdmF0ZS4gYmFzZVVybCBvciByZXNvdXJjZSBpcyByZXF1aXJlZC4KJGNsaWVudCA9IEZvdW5kcnlcQ2xpZW50Ojp3aXRoQ3JlZGVudGlhbHMoCiAgICBhdXRoVG9rZW46IGdldGVudignQU5USFJPUElDX0ZPVU5EUllfQVVUSF9UT0tFTicpLAogICAgYmFzZVVybDogJ2h0dHBzOi8vPHJlc291cmNlPi5zZXJ2aWNlcy5haS5henVyZS5jb20vYW50aHJvcGljJywKKTsKYGBgCgotLS0KCiMjIEJhc2ljIE1lc3NhZ2UgUmVxdWVzdAoKYGBgcGhwCiRtZXNzYWdlID0gJGNsaWVudC0+bWVzc2FnZXMtPmNyZWF0ZSgKICAgIG1vZGVsOiAnY2xhdWRlLW9wdXMtNC02JywKICAgIG1heFRva2VuczogMTYwMDAsCiAgICBtZXNzYWdlczogWwogICAgICAgIFsncm9sZScgPT4gJ3VzZXInLCAnY29udGVudCcgPT4gJ1doYXQgaXMgdGhlIGNhcGl0YWwgb2YgRnJhbmNlPyddLAogICAgXSwKKTsKCi8vIGNvbnRlbnQgaXMgYW4gYXJyYXkgb2YgcG9seW1vcnBoaWMgYmxvY2tzIChUZXh0QmxvY2ssIFRvb2xVc2VCbG9jaywKLy8gVGhpbmtpbmdCbG9jaykuIEFjY2Vzc2luZyAtPnRleHQgb24gY29udGVudFswXSB3aXRob3V0IGNoZWNraW5nIHRoZSBibG9jawovLyB0eXBlIHdpbGwgdGhyb3cgaWYgdGhlIGZpcnN0IGJsb2NrIGlzIG5vdCBhIFRleHRCbG9jayAoZS5nLiwgd2hlbiBleHRlbmRlZAovLyB0aGlua2luZyBpcyBlbmFibGVkIGFuZCBhIFRoaW5raW5nQmxvY2sgY29tZXMgZmlyc3QpLiBBbHdheXMgZ3VhcmQ6CmZvcmVhY2ggKCRtZXNzYWdlLT5jb250ZW50IGFzICRibG9jaykgewogICAgaWYgKCRibG9jay0+dHlwZSA9PT0gJ3RleHQnKSB7CiAgICAgICAgZWNobyAkYmxvY2stPnRleHQ7CiAgICB9Cn0KYGBgCgpJZiB5b3Ugb25seSB3YW50IHRoZSBmaXJzdCB0ZXh0IGJsb2NrOgoKYGBgcGhwCmZvcmVhY2ggKCRtZXNzYWdlLT5jb250ZW50IGFzICRibG9jaykgewogICAgaWYgKCRibG9jay0+dHlwZSA9PT0gJ3RleHQnKSB7CiAgICAgICAgZWNobyAkYmxvY2stPnRleHQ7CiAgICAgICAgYnJlYWs7CiAgICB9Cn0KYGBgCgotLS0KCiMjIFN0cmVhbWluZwoKPiAqKlJlcXVpcmVzIFNESyB2MC41LjArLioqIHYwLjQuMCBhbmQgZWFybGllciB1c2VkIGEgc2luZ2xlIGAkcGFyYW1zYCBhcnJheTsgY2FsbGluZyB3aXRoIG5hbWVkIHBhcmFtZXRlcnMgdGhyb3dzIGBVbmtub3duIG5hbWVkIHBhcmFtZXRlciAkbW9kZWxgLiBVcGdyYWRlOiBgY29tcG9zZXIgcmVxdWlyZSAiYW50aHJvcGljLWFpL3NkazpeMC43ImAKCmBgYHBocAp1c2UgQW50aHJvcGljXE1lc3NhZ2VzXFJhd0NvbnRlbnRCbG9ja0RlbHRhRXZlbnQ7CnVzZSBBbnRocm9waWNcTWVzc2FnZXNcVGV4dERlbHRhOwoKJHN0cmVhbSA9ICRjbGllbnQtPm1lc3NhZ2VzLT5jcmVhdGVTdHJlYW0oCiAgICBtb2RlbDogJ2NsYXVkZS1vcHVzLTQtNicsCiAgICBtYXhUb2tlbnM6IDY0MDAwLAogICAgbWVzc2FnZXM6IFsKICAgICAgICBbJ3JvbGUnID0+ICd1c2VyJywgJ2NvbnRlbnQnID0+ICdXcml0ZSBhIGhhaWt1J10sCiAgICBdLAopOwoKZm9yZWFjaCAoJHN0cmVhbSBhcyAkZXZlbnQpIHsKICAgIGlmICgkZXZlbnQgaW5zdGFuY2VvZiBSYXdDb250ZW50QmxvY2tEZWx0YUV2ZW50ICYmICRldmVudC0+ZGVsdGEgaW5zdGFuY2VvZiBUZXh0RGVsdGEpIHsKICAgICAgICBlY2hvICRldmVudC0+ZGVsdGEtPnRleHQ7CiAgICB9Cn0KYGBgCgotLS0KCiMjIFRvb2wgVXNlCgojIyMgVG9vbCBSdW5uZXIgKEJldGEpCgoqKkJldGE6KiogVGhlIFBIUCBTREsgcHJvdmlkZXMgYSB0b29sIHJ1bm5lciB2aWEgYCRjbGllbnQtPmJldGEtPm1lc3NhZ2VzLT50b29sUnVubmVyKClgLiBEZWZpbmUgdG9vbHMgd2l0aCBgQmV0YVJ1bm5hYmxlVG9vbGAg4oCUIGEgZGVmaW5pdGlvbiBhcnJheSBwbHVzIGEgYHJ1bmAgY2xvc3VyZToKCmBgYHBocAp1c2UgQW50aHJvcGljXExpYlxUb29sc1xCZXRhUnVubmFibGVUb29sOwoKJHdlYXRoZXJUb29sID0gbmV3IEJldGFSdW5uYWJsZVRvb2woCiAgICBkZWZpbml0aW9uOiBbCiAgICAgICAgJ25hbWUnID0+ICdnZXRfd2VhdGhlcicsCiAgICAgICAgJ2Rlc2NyaXB0aW9uJyA9PiAnR2V0IHRoZSBjdXJyZW50IHdlYXRoZXIgZm9yIGEgbG9jYXRpb24uJywKICAgICAgICAnaW5wdXRfc2NoZW1hJyA9PiBbCiAgICAgICAgICAgICd0eXBlJyA9PiAnb2JqZWN0JywKICAgICAgICAgICAgJ3Byb3BlcnRpZXMnID0+IFsKICAgICAgICAgICAgICAgICdsb2NhdGlvbicgPT4gWyd0eXBlJyA9PiAnc3RyaW5nJywgJ2Rlc2NyaXB0aW9uJyA9PiAnQ2l0eSBhbmQgc3RhdGUnXSwKICAgICAgICAgICAgXSwKICAgICAgICAgICAgJ3JlcXVpcmVkJyA9PiBbJ2xvY2F0aW9uJ10sCiAgICAgICAgXSwKICAgIF0sCiAgICBydW46IGZ1bmN0aW9uIChhcnJheSAkaW5wdXQpOiBzdHJpbmcgewogICAgICAgIHJldHVybiAiVGhlIHdlYXRoZXIgaW4geyRpbnB1dFsnbG9jYXRpb24nXX0gaXMgc3VubnkgYW5kIDcywrBGLiI7CiAgICB9LAopOwoKJHJ1bm5lciA9ICRjbGllbnQtPmJldGEtPm1lc3NhZ2VzLT50b29sUnVubmVyKAogICAgbWF4VG9rZW5zOiAxNjAwMCwKICAgIG1lc3NhZ2VzOiBbWydyb2xlJyA9PiAndXNlcicsICdjb250ZW50JyA9PiAnV2hhdCBpcyB0aGUgd2VhdGhlciBpbiBQYXJpcz8nXV0sCiAgICBtb2RlbDogJ2NsYXVkZS1vcHVzLTQtNicsCiAgICB0b29sczogWyR3ZWF0aGVyVG9vbF0sCik7Cgpmb3JlYWNoICgkcnVubmVyIGFzICRtZXNzYWdlKSB7CiAgICBmb3JlYWNoICgkbWVzc2FnZS0+Y29udGVudCBhcyAkYmxvY2spIHsKICAgICAgICBpZiAoJGJsb2NrLT50eXBlID09PSAndGV4dCcpIHsKICAgICAgICAgICAgZWNobyAkYmxvY2stPnRleHQ7CiAgICAgICAgfQogICAgfQp9CmBgYAoKIyMjIE1hbnVhbCBMb29wCgpUb29scyBhcmUgcGFzc2VkIGFzIGFycmF5cy4gKipUaGUgU0RLIHVzZXMgY2FtZWxDYXNlIGtleXMqKiAoYGlucHV0U2NoZW1hYCwgYHRvb2xVc2VJRGAsIGBzdG9wUmVhc29uYCkgYW5kIGF1dG8tbWFwcyB0byB0aGUgQVBJJ3Mgc25ha2VfY2FzZSBvbiB0aGUgd2lyZSDigJQgc2luY2UgdjAuNS4wLiBTZWUgW3NoYXJlZCB0b29sIHVzZSBjb25jZXB0c10oLi4vc2hhcmVkL3Rvb2wtdXNlLWNvbmNlcHRzLm1kKSBmb3IgdGhlIGxvb3AgcGF0dGVybi4KCmBgYHBocAp1c2UgQW50aHJvcGljXE1lc3NhZ2VzXFRvb2xVc2VCbG9jazsKCiR0b29scyA9IFsKICAgIFsKICAgICAgICAnbmFtZScgPT4gJ2dldF93ZWF0aGVyJywKICAgICAgICAnZGVzY3JpcHRpb24nID0+ICdHZXQgdGhlIGN1cnJlbnQgd2VhdGhlciBpbiBhIGdpdmVuIGxvY2F0aW9uJywKICAgICAgICAnaW5wdXRTY2hlbWEnID0+IFsgIC8vIGNhbWVsQ2FzZSwgbm90IGlucHV0X3NjaGVtYQogICAgICAgICAgICAndHlwZScgPT4gJ29iamVjdCcsCiAgICAgICAgICAgICdwcm9wZXJ0aWVzJyA9PiBbCiAgICAgICAgICAgICAgICAnbG9jYXRpb24nID0+IFsndHlwZScgPT4gJ3N0cmluZycsICdkZXNjcmlwdGlvbicgPT4gJ0NpdHkgYW5kIHN0YXRlJ10sCiAgICAgICAgICAgIF0sCiAgICAgICAgICAgICdyZXF1aXJlZCcgPT4gWydsb2NhdGlvbiddLAogICAgICAgIF0sCiAgICBdLApdOwoKJG1lc3NhZ2VzID0gW1sncm9sZScgPT4gJ3VzZXInLCAnY29udGVudCcgPT4gJ1doYXQgaXMgdGhlIHdlYXRoZXIgaW4gU0Y/J11dOwoKJHJlc3BvbnNlID0gJGNsaWVudC0+bWVzc2FnZXMtPmNyZWF0ZSgKICAgIG1vZGVsOiAnY2xhdWRlLW9wdXMtNC02JywKICAgIG1heFRva2VuczogMTYwMDAsCiAgICB0b29sczogJHRvb2xzLAogICAgbWVzc2FnZXM6ICRtZXNzYWdlcywKKTsKCndoaWxlICgkcmVzcG9uc2UtPnN0b3BSZWFzb24gPT09ICd0b29sX3VzZScpIHsgIC8vIGNhbWVsQ2FzZSBwcm9wZXJ0eQogICAgJHRvb2xSZXN1bHRzID0gW107CiAgICBmb3JlYWNoICgkcmVzcG9uc2UtPmNvbnRlbnQgYXMgJGJsb2NrKSB7CiAgICAgICAgaWYgKCRibG9jayBpbnN0YW5jZW9mIFRvb2xVc2VCbG9jaykgewogICAgICAgICAgICAvLyAkYmxvY2stPm5hbWUgIDogc3RyaW5nICAgICAgICAgICAgICAg4oCUIHRvb2wgbmFtZSB0byBkaXNwYXRjaCBvbgogICAgICAgICAgICAvLyAkYmxvY2stPmlucHV0IDogYXJyYXk8c3RyaW5nLG1peGVkPiAg4oCUIHBhcnNlZCBKU09OIGlucHV0CiAgICAgICAgICAgIC8vICRibG9jay0+aWQgICAgOiBzdHJpbmcgICAgICAgICAgICAgICDigJQgcGFzcyBiYWNrIGFzIHRvb2xVc2VJRAogICAgICAgICAgICAkcmVzdWx0ID0gZXhlY3V0ZVlvdXJUb29sKCRibG9jay0+bmFtZSwgJGJsb2NrLT5pbnB1dCk7CiAgICAgICAgICAgICR0b29sUmVzdWx0c1tdID0gWwogICAgICAgICAgICAgICAgJ3R5cGUnID0+ICd0b29sX3Jlc3VsdCcsCiAgICAgICAgICAgICAgICAndG9vbFVzZUlEJyA9PiAkYmxvY2stPmlkLCAgLy8gY2FtZWxDYXNlLCBub3QgdG9vbF91c2VfaWQKICAgICAgICAgICAgICAgICdjb250ZW50JyA9PiAkcmVzdWx0LAogICAgICAgICAgICBdOwogICAgICAgIH0KICAgIH0KCiAgICAvLyBBcHBlbmQgYXNzaXN0YW50IHR1cm4gKyB1c2VyIHR1cm4gd2l0aCB0b29sIHJlc3VsdHMKICAgICRtZXNzYWdlc1tdID0gWydyb2xlJyA9PiAnYXNzaXN0YW50JywgJ2NvbnRlbnQnID0+ICRyZXNwb25zZS0+Y29udGVudF07CiAgICAkbWVzc2FnZXNbXSA9IFsncm9sZScgPT4gJ3VzZXInLCAnY29udGVudCcgPT4gJHRvb2xSZXN1bHRzXTsKCiAgICAkcmVzcG9uc2UgPSAkY2xpZW50LT5tZXNzYWdlcy0+Y3JlYXRlKAogICAgICAgIG1vZGVsOiAnY2xhdWRlLW9wdXMtNC02JywKICAgICAgICBtYXhUb2tlbnM6IDE2MDAwLAogICAgICAgIHRvb2xzOiAkdG9vbHMsCiAgICAgICAgbWVzc2FnZXM6ICRtZXNzYWdlcywKICAgICk7Cn0KCi8vIEZpbmFsIHRleHQgcmVzcG9uc2UKZm9yZWFjaCAoJHJlc3BvbnNlLT5jb250ZW50IGFzICRibG9jaykgewogICAgaWYgKCRibG9jay0+dHlwZSA9PT0gJ3RleHQnKSB7CiAgICAgICAgZWNobyAkYmxvY2stPnRleHQ7CiAgICB9Cn0KYGBgCgpgJGJsb2NrLT50eXBlID09PSAndG9vbF91c2UnYCBhbHNvIHdvcmtzOyBgaW5zdGFuY2VvZiBUb29sVXNlQmxvY2tgIG5hcnJvd3MgZm9yIFBIUFN0YW4uCgoKLS0tCgojIyBFeHRlbmRlZCBUaGlua2luZwoKKipBZGFwdGl2ZSB0aGlua2luZyBpcyB0aGUgcmVjb21tZW5kZWQgbW9kZSBmb3IgQ2xhdWRlIDQuNisgbW9kZWxzLioqIENsYXVkZSBkZWNpZGVzIGR5bmFtaWNhbGx5IHdoZW4gYW5kIGhvdyBtdWNoIHRvIHRoaW5rLgoKYGBgcGhwCnVzZSBBbnRocm9waWNcTWVzc2FnZXNcVGhpbmtpbmdCbG9jazsKCiRtZXNzYWdlID0gJGNsaWVudC0+bWVzc2FnZXMtPmNyZWF0ZSgKICAgIG1vZGVsOiAnY2xhdWRlLW9wdXMtNC02JywKICAgIG1heFRva2VuczogMTYwMDAsCiAgICB0aGlua2luZzogWyd0eXBlJyA9PiAnYWRhcHRpdmUnXSwKICAgIG1lc3NhZ2VzOiBbCiAgICAgICAgWydyb2xlJyA9PiAndXNlcicsICdjb250ZW50JyA9PiAnU29sdmU6IDI3ICogNDUzJ10sCiAgICBdLAopOwoKLy8gVGhpbmtpbmdCbG9jayhzKSBwcmVjZWRlIFRleHRCbG9jayBpbiBjb250ZW50CmZvcmVhY2ggKCRtZXNzYWdlLT5jb250ZW50IGFzICRibG9jaykgewogICAgaWYgKCRibG9jayBpbnN0YW5jZW9mIFRoaW5raW5nQmxvY2spIHsKICAgICAgICBlY2hvICJUaGlua2luZzpcbnskYmxvY2stPnRoaW5raW5nfVxuXG4iOwogICAgICAgIC8vICRibG9jay0+c2lnbmF0dXJlIGlzIGFuIG9wYXF1ZSBzdHJpbmcg4oCUIHByZXNlcnZlIHZlcmJhdGltIGlmCiAgICAgICAgLy8gcGFzc2luZyB0aGlua2luZyBibG9ja3MgYmFjayBpbiBtdWx0aS10dXJuIGNvbnZlcnNhdGlvbnMKICAgIH0gZWxzZWlmICgkYmxvY2stPnR5cGUgPT09ICd0ZXh0JykgewogICAgICAgIGVjaG8gIkFuc3dlcjogeyRibG9jay0+dGV4dH1cbiI7CiAgICB9Cn0KYGBgCgo+ICoqRGVwcmVjYXRlZDoqKiBgWyd0eXBlJyA9PiAnZW5hYmxlZCcsICdidWRnZXRUb2tlbnMnID0+IE5dYCAoZml4ZWQtYnVkZ2V0IGV4dGVuZGVkIHRoaW5raW5nKSBzdGlsbCB3b3JrcyBvbiBDbGF1ZGUgNC42IGJ1dCBpcyBkZXByZWNhdGVkLiBVc2UgYWRhcHRpdmUgdGhpbmtpbmcgYWJvdmUuCgpgJGJsb2NrLT50eXBlID09PSAndGhpbmtpbmcnYCBhbHNvIHdvcmtzIGZvciB0aGUgY2hlY2s7IGBpbnN0YW5jZW9mYCBuYXJyb3dzIGZvciBQSFBTdGFuLgoKLS0tCgojIyBQcm9tcHQgQ2FjaGluZwoKYHN5c3RlbTpgIHRha2VzIGFuIGFycmF5IG9mIHRleHQgYmxvY2tzOyBzZXQgYGNhY2hlQ29udHJvbGAgb24gdGhlIGxhc3QgYmxvY2suIEFycmF5LXNoYXBlIHN5bnRheCAoY2FtZWxDYXNlIGtleXMpIGlzIGlkaW9tYXRpYy4gRm9yIHBsYWNlbWVudCBwYXR0ZXJucyBhbmQgdGhlIHNpbGVudC1pbnZhbGlkYXRvciBhdWRpdCBjaGVja2xpc3QsIHNlZSBgc2hhcmVkL3Byb21wdC1jYWNoaW5nLm1kYC4KCmBgYHBocAokbWVzc2FnZSA9ICRjbGllbnQtPm1lc3NhZ2VzLT5jcmVhdGUoCiAgICBtb2RlbDogJ2NsYXVkZS1vcHVzLTQtNicsCiAgICBtYXhUb2tlbnM6IDE2MDAwLAogICAgc3lzdGVtOiBbCiAgICAgICAgWyd0eXBlJyA9PiAndGV4dCcsICd0ZXh0JyA9PiAkbG9uZ1N5c3RlbVByb21wdCwgJ2NhY2hlQ29udHJvbCcgPT4gWyd0eXBlJyA9PiAnZXBoZW1lcmFsJ11dLAogICAgXSwKICAgIG1lc3NhZ2VzOiBbWydyb2xlJyA9PiAndXNlcicsICdjb250ZW50JyA9PiAnU3VtbWFyaXplIHRoZSBrZXkgcG9pbnRzJ11dLAopOwpgYGAKCkZvciAxLWhvdXIgVFRMOiBgJ2NhY2hlQ29udHJvbCcgPT4gWyd0eXBlJyA9PiAnZXBoZW1lcmFsJywgJ3R0bCcgPT4gJzFoJ11gLiBUaGVyZSdzIGFsc28gYSB0b3AtbGV2ZWwgYGNhY2hlQ29udHJvbDpgIG9uIGBtZXNzYWdlcy0+Y3JlYXRlKC4uLilgIHRoYXQgYXV0by1wbGFjZXMgb24gdGhlIGxhc3QgY2FjaGVhYmxlIGJsb2NrLgoKVmVyaWZ5IGhpdHMgdmlhIGAkbWVzc2FnZS0+dXNhZ2UtPmNhY2hlQ3JlYXRpb25JbnB1dFRva2Vuc2AgLyBgJG1lc3NhZ2UtPnVzYWdlLT5jYWNoZVJlYWRJbnB1dFRva2Vuc2AuCgotLS0KCiMjIFN0cnVjdHVyZWQgT3V0cHV0cwoKIyMjIFVzaW5nIFN0cnVjdHVyZWRPdXRwdXRNb2RlbCAoUmVjb21tZW5kZWQpCgpEZWZpbmUgYSBQSFAgY2xhc3MgaW1wbGVtZW50aW5nIGBTdHJ1Y3R1cmVkT3V0cHV0TW9kZWxgIGFuZCBwYXNzIGl0IGFzIGBvdXRwdXRDb25maWdgOgoKYGBgcGhwCnVzZSBBbnRocm9waWNcTGliXENvbnRyYWN0c1xTdHJ1Y3R1cmVkT3V0cHV0TW9kZWw7CnVzZSBBbnRocm9waWNcTGliXENvbmNlcm5zXFN0cnVjdHVyZWRPdXRwdXRNb2RlbFRyYWl0Owp1c2UgQW50aHJvcGljXExpYlxBdHRyaWJ1dGVzXENvbnN0cmFpbmVkOwoKY2xhc3MgUGVyc29uIGltcGxlbWVudHMgU3RydWN0dXJlZE91dHB1dE1vZGVsCnsKICAgIHVzZSBTdHJ1Y3R1cmVkT3V0cHV0TW9kZWxUcmFpdDsKCiAgICAjW0NvbnN0cmFpbmVkKGRlc2NyaXB0aW9uOiAnRnVsbCBuYW1lJyldCiAgICBwdWJsaWMgc3RyaW5nICRuYW1lOwoKICAgIHB1YmxpYyBpbnQgJGFnZTsKCiAgICBwdWJsaWMgP3N0cmluZyAkZW1haWwgPSBudWxsOyAgLy8gbnVsbGFibGUgPSBvcHRpb25hbCBmaWVsZAp9CgokbWVzc2FnZSA9ICRjbGllbnQtPm1lc3NhZ2VzLT5jcmVhdGUoCiAgICBtb2RlbDogJ2NsYXVkZS1vcHVzLTQtNicsCiAgICBtYXhUb2tlbnM6IDE2MDAwLAogICAgbWVzc2FnZXM6IFtbJ3JvbGUnID0+ICd1c2VyJywgJ2NvbnRlbnQnID0+ICdHZW5lcmF0ZSBhIHByb2ZpbGUgZm9yIEFsaWNlLCBhZ2UgMzAnXV0sCiAgICBvdXRwdXRDb25maWc6IFsnZm9ybWF0JyA9PiBQZXJzb246OmNsYXNzXSwKKTsKCiRwZXJzb24gPSAkbWVzc2FnZS0+cGFyc2VkT3V0cHV0KCk7ICAvLyBQZXJzb24gaW5zdGFuY2UKZWNobyAkcGVyc29uLT5uYW1lOwpgYGAKClR5cGVzIGFyZSBpbmZlcnJlZCBmcm9tIFBIUCB0eXBlIGhpbnRzLiBVc2UgYCNbQ29uc3RyYWluZWQoZGVzY3JpcHRpb246ICcuLi4nKV1gIHRvIGFkZCBkZXNjcmlwdGlvbnMuIE51bGxhYmxlIHByb3BlcnRpZXMgKGA/c3RyaW5nYCkgYmVjb21lIG9wdGlvbmFsIGZpZWxkcy4KCiMjIyBSYXcgU2NoZW1hCgpgYGBwaHAKJG1lc3NhZ2UgPSAkY2xpZW50LT5tZXNzYWdlcy0+Y3JlYXRlKAogICAgbW9kZWw6ICdjbGF1ZGUtb3B1cy00LTYnLAogICAgbWF4VG9rZW5zOiAxNjAwMCwKICAgIG1lc3NhZ2VzOiBbWydyb2xlJyA9PiAndXNlcicsICdjb250ZW50JyA9PiAnRXh0cmFjdDogSm9obiAoam9obkBjby5jb20pLCBFbnRlcnByaXNlIHBsYW4nXV0sCiAgICBvdXRwdXRDb25maWc6IFsKICAgICAgICAnZm9ybWF0JyA9PiBbCiAgICAgICAgICAgICd0eXBlJyA9PiAnanNvbl9zY2hlbWEnLAogICAgICAgICAgICAnc2NoZW1hJyA9PiBbCiAgICAgICAgICAgICAgICAndHlwZScgPT4gJ29iamVjdCcsCiAgICAgICAgICAgICAgICAncHJvcGVydGllcycgPT4gWwogICAgICAgICAgICAgICAgICAgICduYW1lJyA9PiBbJ3R5cGUnID0+ICdzdHJpbmcnXSwKICAgICAgICAgICAgICAgICAgICAnZW1haWwnID0+IFsndHlwZScgPT4gJ3N0cmluZyddLAogICAgICAgICAgICAgICAgICAgICdwbGFuJyA9PiBbJ3R5cGUnID0+ICdzdHJpbmcnXSwKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAncmVxdWlyZWQnID0+IFsnbmFtZScsICdlbWFpbCcsICdwbGFuJ10sCiAgICAgICAgICAgICAgICAnYWRkaXRpb25hbFByb3BlcnRpZXMnID0+IGZhbHNlLAogICAgICAgICAgICBdLAogICAgICAgIF0sCiAgICBdLAopOwoKLy8gRmlyc3QgdGV4dCBibG9jayBjb250YWlucyB2YWxpZCBKU09OCmZvcmVhY2ggKCRtZXNzYWdlLT5jb250ZW50IGFzICRibG9jaykgewogICAgaWYgKCRibG9jay0+dHlwZSA9PT0gJ3RleHQnKSB7CiAgICAgICAgJGRhdGEgPSBqc29uX2RlY29kZSgkYmxvY2stPnRleHQsIHRydWUpOwogICAgICAgIGJyZWFrOwogICAgfQp9CmBgYAoKLS0tCgojIyBCZXRhIEZlYXR1cmVzICYgU2VydmVyLVNpZGUgVG9vbHMKCioqYGJldGFzOmAgaXMgTk9UIGEgcGFyYW0gb24gYCRjbGllbnQtPm1lc3NhZ2VzLT5jcmVhdGUoKWAqKiDigJQgaXQgb25seSBleGlzdHMgb24gdGhlIGJldGEgbmFtZXNwYWNlLiBVc2UgaXQgZm9yIGZlYXR1cmVzIHRoYXQgbmVlZCBhbiBleHBsaWNpdCBvcHQtaW4gaGVhZGVyOgoKYGBgcGhwCnVzZSBBbnRocm9waWNcQmV0YVxNZXNzYWdlc1xCZXRhUmVxdWVzdE1DUFNlcnZlclVSTERlZmluaXRpb247CgokcmVzcG9uc2UgPSAkY2xpZW50LT5iZXRhLT5tZXNzYWdlcy0+Y3JlYXRlKAogICAgbW9kZWw6ICdjbGF1ZGUtb3B1cy00LTYnLAogICAgbWF4VG9rZW5zOiAxNjAwMCwKICAgIG1jcFNlcnZlcnM6IFsKICAgICAgICBCZXRhUmVxdWVzdE1DUFNlcnZlclVSTERlZmluaXRpb246OndpdGgoCiAgICAgICAgICAgIG5hbWU6ICdteS1zZXJ2ZXInLAogICAgICAgICAgICB1cmw6ICdodHRwczovL2V4YW1wbGUuY29tL21jcCcsCiAgICAgICAgKSwKICAgIF0sCiAgICBiZXRhczogWydtY3AtY2xpZW50LTIwMjUtMTEtMjAnXSwgIC8vIG9ubHkgdmFsaWQgb24gLT5iZXRhLT5tZXNzYWdlcwogICAgbWVzc2FnZXM6IFtbJ3JvbGUnID0+ICd1c2VyJywgJ2NvbnRlbnQnID0+ICdVc2UgdGhlIE1DUCB0b29scyddXSwKKTsKYGBgCgoqKlNlcnZlci1zaWRlIHRvb2xzKiogKGJhc2gsIHdlYl9zZWFyY2gsIHRleHRfZWRpdG9yLCBjb2RlX2V4ZWN1dGlvbikgYXJlIEdBIGFuZCB3b3JrIG9uIGJvdGggcGF0aHMg4oCUIGBBbnRocm9waWNcTWVzc2FnZXNcVG9vbEJhc2gyMDI1MDEyNGAgLyBgV2ViU2VhcmNoVG9vbDIwMjYwMjA5YCAvIGBUb29sVGV4dEVkaXRvcjIwMjUwNzI4YCAvIGBDb2RlRXhlY3V0aW9uVG9vbDIwMjYwMTIwYCBmb3Igbm9uLWJldGEsIGBBbnRocm9waWNcQmV0YVxNZXNzYWdlc1xCZXRhVG9vbEJhc2gyMDI1MDEyNGAgLyBgQmV0YVdlYlNlYXJjaFRvb2wyMDI2MDIwOWAgLyBgQmV0YVRvb2xUZXh0RWRpdG9yMjAyNTA3MjhgIC8gYEJldGFDb2RlRXhlY3V0aW9uVG9vbDIwMjYwMTIwYCBmb3IgYmV0YS4gTm8gYGJldGFzOmAgaGVhZGVyIG5lZWRlZCBmb3IgdGhlc2UuCg==
+# Claude API — PHP
+
+> **Note:** The PHP SDK is the official Anthropic SDK for PHP. A beta tool runner is available via `$client->beta->messages->toolRunner()`. Structured output helpers are supported via `StructuredOutputModel` classes. Agent SDK is not available. Bedrock, Vertex AI, and Foundry clients are supported.
+
+## Installation
+
+```bash
+composer require "anthropic-ai/sdk"
+```
+
+## Client Initialization
+
+```php
+use Anthropic\Client;
+
+// Using API key from environment variable
+$client = new Client(apiKey: getenv("ANTHROPIC_API_KEY"));
+```
+
+### Amazon Bedrock
+
+```php
+use Anthropic\Bedrock;
+
+// Constructor is private — use the static factory. Reads AWS credentials from env.
+$client = Bedrock\Client::fromEnvironment(region: 'us-east-1');
+```
+
+### Google Vertex AI
+
+```php
+use Anthropic\Vertex;
+
+// Constructor is private. Parameter is `location`, not `region`.
+$client = Vertex\Client::fromEnvironment(
+    location: 'us-east5',
+    projectId: 'my-project-id',
+);
+```
+
+### Anthropic Foundry
+
+```php
+use Anthropic\Foundry;
+
+// Constructor is private. baseUrl or resource is required.
+$client = Foundry\Client::withCredentials(
+    authToken: getenv('ANTHROPIC_FOUNDRY_AUTH_TOKEN'),
+    baseUrl: 'https://<resource>.services.ai.azure.com/anthropic',
+);
+```
+
+---
+
+## Basic Message Request
+
+```php
+$message = $client->messages->create(
+    model: 'claude-opus-4-6',
+    maxTokens: 16000,
+    messages: [
+        ['role' => 'user', 'content' => 'What is the capital of France?'],
+    ],
+);
+
+// content is an array of polymorphic blocks (TextBlock, ToolUseBlock,
+// ThinkingBlock). Accessing ->text on content[0] without checking the block
+// type will throw if the first block is not a TextBlock (e.g., when extended
+// thinking is enabled and a ThinkingBlock comes first). Always guard:
+foreach ($message->content as $block) {
+    if ($block->type === 'text') {
+        echo $block->text;
+    }
+}
+```
+
+If you only want the first text block:
+
+```php
+foreach ($message->content as $block) {
+    if ($block->type === 'text') {
+        echo $block->text;
+        break;
+    }
+}
+```
+
+---
+
+## Streaming
+
+> **Requires SDK v0.5.0+.** v0.4.0 and earlier used a single `$params` array; calling with named parameters throws `Unknown named parameter $model`. Upgrade: `composer require "anthropic-ai/sdk:^0.7"`
+
+```php
+use Anthropic\Messages\RawContentBlockDeltaEvent;
+use Anthropic\Messages\TextDelta;
+
+$stream = $client->messages->createStream(
+    model: 'claude-opus-4-6',
+    maxTokens: 64000,
+    messages: [
+        ['role' => 'user', 'content' => 'Write a haiku'],
+    ],
+);
+
+foreach ($stream as $event) {
+    if ($event instanceof RawContentBlockDeltaEvent && $event->delta instanceof TextDelta) {
+        echo $event->delta->text;
+    }
+}
+```
+
+---
+
+## Tool Use
+
+### Tool Runner (Beta)
+
+**Beta:** The PHP SDK provides a tool runner via `$client->beta->messages->toolRunner()`. Define tools with `BetaRunnableTool` — a definition array plus a `run` closure:
+
+```php
+use Anthropic\Lib\Tools\BetaRunnableTool;
+
+$weatherTool = new BetaRunnableTool(
+    definition: [
+        'name' => 'get_weather',
+        'description' => 'Get the current weather for a location.',
+        'input_schema' => [
+            'type' => 'object',
+            'properties' => [
+                'location' => ['type' => 'string', 'description' => 'City and state'],
+            ],
+            'required' => ['location'],
+        ],
+    ],
+    run: function (array $input): string {
+        return "The weather in {$input['location']} is sunny and 72°F.";
+    },
+);
+
+$runner = $client->beta->messages->toolRunner(
+    maxTokens: 16000,
+    messages: [['role' => 'user', 'content' => 'What is the weather in Paris?']],
+    model: 'claude-opus-4-6',
+    tools: [$weatherTool],
+);
+
+foreach ($runner as $message) {
+    foreach ($message->content as $block) {
+        if ($block->type === 'text') {
+            echo $block->text;
+        }
+    }
+}
+```
+
+### Manual Loop
+
+Tools are passed as arrays. **The SDK uses camelCase keys** (`inputSchema`, `toolUseID`, `stopReason`) and auto-maps to the API's snake_case on the wire — since v0.5.0. See [shared tool use concepts](../shared/tool-use-concepts.md) for the loop pattern.
+
+```php
+use Anthropic\Messages\ToolUseBlock;
+
+$tools = [
+    [
+        'name' => 'get_weather',
+        'description' => 'Get the current weather in a given location',
+        'inputSchema' => [  // camelCase, not input_schema
+            'type' => 'object',
+            'properties' => [
+                'location' => ['type' => 'string', 'description' => 'City and state'],
+            ],
+            'required' => ['location'],
+        ],
+    ],
+];
+
+$messages = [['role' => 'user', 'content' => 'What is the weather in SF?']];
+
+$response = $client->messages->create(
+    model: 'claude-opus-4-6',
+    maxTokens: 16000,
+    tools: $tools,
+    messages: $messages,
+);
+
+while ($response->stopReason === 'tool_use') {  // camelCase property
+    $toolResults = [];
+    foreach ($response->content as $block) {
+        if ($block instanceof ToolUseBlock) {
+            // $block->name  : string               — tool name to dispatch on
+            // $block->input : array<string,mixed>  — parsed JSON input
+            // $block->id    : string               — pass back as toolUseID
+            $result = executeYourTool($block->name, $block->input);
+            $toolResults[] = [
+                'type' => 'tool_result',
+                'toolUseID' => $block->id,  // camelCase, not tool_use_id
+                'content' => $result,
+            ];
+        }
+    }
+
+    // Append assistant turn + user turn with tool results
+    $messages[] = ['role' => 'assistant', 'content' => $response->content];
+    $messages[] = ['role' => 'user', 'content' => $toolResults];
+
+    $response = $client->messages->create(
+        model: 'claude-opus-4-6',
+        maxTokens: 16000,
+        tools: $tools,
+        messages: $messages,
+    );
+}
+
+// Final text response
+foreach ($response->content as $block) {
+    if ($block->type === 'text') {
+        echo $block->text;
+    }
+}
+```
+
+`$block->type === 'tool_use'` also works; `instanceof ToolUseBlock` narrows for PHPStan.
+
+
+---
+
+## Extended Thinking
+
+**Adaptive thinking is the recommended mode for Claude 4.6+ models.** Claude decides dynamically when and how much to think.
+
+```php
+use Anthropic\Messages\ThinkingBlock;
+
+$message = $client->messages->create(
+    model: 'claude-opus-4-6',
+    maxTokens: 16000,
+    thinking: ['type' => 'adaptive'],
+    messages: [
+        ['role' => 'user', 'content' => 'Solve: 27 * 453'],
+    ],
+);
+
+// ThinkingBlock(s) precede TextBlock in content
+foreach ($message->content as $block) {
+    if ($block instanceof ThinkingBlock) {
+        echo "Thinking:\n{$block->thinking}\n\n";
+        // $block->signature is an opaque string — preserve verbatim if
+        // passing thinking blocks back in multi-turn conversations
+    } elseif ($block->type === 'text') {
+        echo "Answer: {$block->text}\n";
+    }
+}
+```
+
+> **Deprecated:** `['type' => 'enabled', 'budgetTokens' => N]` (fixed-budget extended thinking) still works on Claude 4.6 but is deprecated. Use adaptive thinking above.
+
+`$block->type === 'thinking'` also works for the check; `instanceof` narrows for PHPStan.
+
+---
+
+## Prompt Caching
+
+`system:` takes an array of text blocks; set `cacheControl` on the last block. Array-shape syntax (camelCase keys) is idiomatic. For placement patterns and the silent-invalidator audit checklist, see `shared/prompt-caching.md`.
+
+```php
+$message = $client->messages->create(
+    model: 'claude-opus-4-6',
+    maxTokens: 16000,
+    system: [
+        ['type' => 'text', 'text' => $longSystemPrompt, 'cacheControl' => ['type' => 'ephemeral']],
+    ],
+    messages: [['role' => 'user', 'content' => 'Summarize the key points']],
+);
+```
+
+For 1-hour TTL: `'cacheControl' => ['type' => 'ephemeral', 'ttl' => '1h']`. There's also a top-level `cacheControl:` on `messages->create(...)` that auto-places on the last cacheable block.
+
+Verify hits via `$message->usage->cacheCreationInputTokens` / `$message->usage->cacheReadInputTokens`.
+
+---
+
+## Structured Outputs
+
+### Using StructuredOutputModel (Recommended)
+
+Define a PHP class implementing `StructuredOutputModel` and pass it as `outputConfig`:
+
+```php
+use Anthropic\Lib\Contracts\StructuredOutputModel;
+use Anthropic\Lib\Concerns\StructuredOutputModelTrait;
+use Anthropic\Lib\Attributes\Constrained;
+
+class Person implements StructuredOutputModel
+{
+    use StructuredOutputModelTrait;
+
+    #[Constrained(description: 'Full name')]
+    public string $name;
+
+    public int $age;
+
+    public ?string $email = null;  // nullable = optional field
+}
+
+$message = $client->messages->create(
+    model: 'claude-opus-4-6',
+    maxTokens: 16000,
+    messages: [['role' => 'user', 'content' => 'Generate a profile for Alice, age 30']],
+    outputConfig: ['format' => Person::class],
+);
+
+$person = $message->parsedOutput();  // Person instance
+echo $person->name;
+```
+
+Types are inferred from PHP type hints. Use `#[Constrained(description: '...')]` to add descriptions. Nullable properties (`?string`) become optional fields.
+
+### Raw Schema
+
+```php
+$message = $client->messages->create(
+    model: 'claude-opus-4-6',
+    maxTokens: 16000,
+    messages: [['role' => 'user', 'content' => 'Extract: John (john@co.com), Enterprise plan']],
+    outputConfig: [
+        'format' => [
+            'type' => 'json_schema',
+            'schema' => [
+                'type' => 'object',
+                'properties' => [
+                    'name' => ['type' => 'string'],
+                    'email' => ['type' => 'string'],
+                    'plan' => ['type' => 'string'],
+                ],
+                'required' => ['name', 'email', 'plan'],
+                'additionalProperties' => false,
+            ],
+        ],
+    ],
+);
+
+// First text block contains valid JSON
+foreach ($message->content as $block) {
+    if ($block->type === 'text') {
+        $data = json_decode($block->text, true);
+        break;
+    }
+}
+```
+
+---
+
+## Beta Features & Server-Side Tools
+
+**`betas:` is NOT a param on `$client->messages->create()`** — it only exists on the beta namespace. Use it for features that need an explicit opt-in header:
+
+```php
+use Anthropic\Beta\Messages\BetaRequestMCPServerURLDefinition;
+
+$response = $client->beta->messages->create(
+    model: 'claude-opus-4-6',
+    maxTokens: 16000,
+    mcpServers: [
+        BetaRequestMCPServerURLDefinition::with(
+            name: 'my-server',
+            url: 'https://example.com/mcp',
+        ),
+    ],
+    betas: ['mcp-client-2025-11-20'],  // only valid on ->beta->messages
+    messages: [['role' => 'user', 'content' => 'Use the MCP tools']],
+);
+```
+
+**Server-side tools** (bash, web_search, text_editor, code_execution) are GA and work on both paths — `Anthropic\Messages\ToolBash20250124` / `WebSearchTool20260209` / `ToolTextEditor20250728` / `CodeExecutionTool20260120` for non-beta, `Anthropic\Beta\Messages\BetaToolBash20250124` / `BetaWebSearchTool20260209` / `BetaToolTextEditor20250728` / `BetaCodeExecutionTool20260120` for beta. No `betas:` header needed for these.

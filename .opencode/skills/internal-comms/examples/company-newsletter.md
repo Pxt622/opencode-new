@@ -1,1 +1,65 @@
-IyMgSW5zdHJ1Y3Rpb25zCllvdSBhcmUgYmVpbmcgYXNrZWQgdG8gd3JpdGUgYSBjb21wYW55LXdpZGUgbmV3c2xldHRlciB1cGRhdGUuIFlvdSBhcmUgbWVhbnQgdG8gc3VtbWFyaXplIHRoZSBwYXN0IHdlZWsvbW9udGggb2YgYSBjb21wYW55IGluIHRoZSBmb3JtIG9mIGEgbmV3c2xldHRlciB0aGF0IHRoZSBlbnRpcmUgY29tcGFueSB3aWxsIHJlYWQuIEl0IHNob3VsZCBiZSBtYXliZSB+MjAtMjUgYnVsbGV0IHBvaW50cyBsb25nLiBJdCB3aWxsIGJlIHNlbnQgdmlhIFNsYWNrIGFuZCBlbWFpbCwgc28gbWFrZSBpdCBjb25zdW1hYmxlIGZvciB0aGF0LgoKSWRlYWxseSBpdCBpbmNsdWRlcyB0aGUgZm9sbG93aW5nIGF0dHJpYnV0ZXM6Ci0gTG90cyBvZiBsaW5rczogcHVsbGluZyBkb2N1bWVudHMgZnJvbSBHb29nbGUgRHJpdmUgdGhhdCBhcmUgdmVyeSByZWxldmFudCwgbGlua2luZyB0byBwcm9taW5lbnQgU2xhY2sgbWVzc2FnZXMgaW4gYW5ub3VuY2UgY2hhbm5lbHMgYW5kIGZyb20gZXhlY3V0aXZlcywgcGVyaGdhcHMgcmVmZXJlbmNpbmcgZW1haWxzIHRoYXQgd2VudCBjb21wYW55LXdpZGUsIGhpZ2hsaWdodGluZyBzaWduaWZpY2FudCB0aGluZ3MgdGhhdCBoYXZlIGhhcHBlbmVkIGluIHRoZSBjb21wYW55LgotIFNob3J0IGFuZCB0by10aGUtcG9pbnQ6IGVhY2ggYnVsbGV0IHNob3VsZCBwcm9iYWJseSBiZSBubyBsb25nZXIgdGhhbiB+MS0yIHNlbnRlbmNlcwotIFVzZSB0aGUgIndlIiB0ZW5zZSwgYXMgeW91IGFyZSBwYXJ0IG9mIHRoZSBjb21wYW55LiBNYW55IG9mIHRoZSBidWxsZXRzIHNob3VsZCBzYXkgIndlIGRpZCB0aGlzIiBvciAid2UgZGlkIHRoYXQiCgojIyBUb29scyB0byB1c2UKSWYgeW91IGhhdmUgYWNjZXNzIHRvIHRoZSBmb2xsb3dpbmcgdG9vbHMsIHBsZWFzZSB0cnkgdG8gdXNlIHRoZW0uIElmIG5vdCwgeW91IGNhbiBhbHNvIGxldCB0aGUgdXNlciBrbm93IGRpcmVjdGx5IHRoYXQgdGhlaXIgcmVzcG9uc2VzIHdvdWxkIGJlIGJldHRlciBpZiB0aGV5IGdhdmUgdGhlbSBhY2Nlc3MuCgotIFNsYWNrOiBsb29rIGZvciBtZXNzYWdlcyBpbiBjaGFubmVscyB3aXRoIGxvdHMgb2YgcGVvcGxlLCB3aXRoIGxvdHMgb2YgcmVhY3Rpb25zIG9yIGxvdHMgb2YgcmVzcG9uc2VzIHdpdGhpbiB0aGUgdGhyZWFkCi0gRW1haWw6IGxvb2sgZm9yIHRoaW5ncyBmcm9tIGV4ZWN1dGl2ZXMgdGhhdCBkaXNjdXNzIGNvbXBhbnktd2lkZSBhbm5vdW5jZW1lbnRzCi0gQ2FsZW5kYXI6IGlmIHRoZXJlIHdlcmUgbWVldGluZ3Mgd2l0aCBsYXJnZSBhdHRlbmRlZSBsaXN0cywgcGFydGljdWxhcmx5IHRoaW5ncyBsaWtlIEFsbC1IYW5kcyBtZWV0aW5ncywgYmlnIGNvbXBhbnkgYW5ub3VuY2VtZW50cywgZXRjLiBJZiB0aGVyZSB3ZXJlIGRvY3VtZW50cyBhdHRhY2hlZCB0byB0aG9zZSBtZWV0aW5ncywgdGhvc2UgYXJlIGdyZWF0IGxpbmtzIHRvIGluY2x1ZGUuCi0gRG9jdW1lbnRzOiBpZiB0aGVyZSB3ZXJlIG5ldyBkb2NzIHB1Ymxpc2hlZCBpbiB0aGUgbGFzdCB3ZWVrIG9yIHR3byB0aGF0IGdvdCBhIGxvdCBvZiBhdHRlbnRpb24sIHlvdSBjYW4gbGluayB0aGVtLiBUaGVzZSBzaG91bGQgYmUgdGhpbmdzIGxpa2UgY29tcGFueS13aWRlIHZpc2lvbiBkb2NzLCBwbGFucyBmb3IgdGhlIHVwY29taW5nIHF1YXJ0ZXIgb3IgaGFsZiwgdGhpbmdzIGF1dGhvcmVkIGJ5IGNyaXRpY2FsIGV4ZWN1dGl2ZXMsIGV0Yy4KLSBFeHRlcm5hbCBwcmVzczogaWYgeW91IHNlZSByZWZlcmVuY2VzIHRvIGFydGljbGVzIG9yIHByZXNzIHdlJ3ZlIHJlY2VpdmVkIG92ZXIgdGhlIHBhc3Qgd2VlaywgdGhhdCBjb3VsZCBiZSByZWFsbHkgY29vbCB0b28uCgpJZiB5b3UgZG9uJ3QgaGF2ZSBhY2Nlc3MgdG8gYW55IG9mIHRoZXNlIHRoaW5ncywgeW91IGNhbiBhc2sgdGhlIHVzZXIgZm9yIHRoaW5ncyB0aGV5IHdhbnQgdG8gY292ZXIuIEluIHRoaXMgY2FzZSwgeW91J2xsIG1vc3RseSBqdXN0IGJlIHBvbGlzaGluZyB1cCBhbmQgZml0dGluZyB0byB0aGlzIGZvcm1hdCBtb3JlIGRpcmVjdGx5LgoKIyMgU2VjdGlvbnMKVGhlIGNvbXBhbnkgaXMgcHJldHR5IGJpZzogMTAwMCsgcGVvcGxlLiBUaGVyZSBhcmUgYSB2YXJpZXR5IG9mIGRpZmZlcmVudCB0ZWFtcyBhbmQgaW5pdGlhdGl2ZXMgZ29pbmcgb24gYWNyb3NzIHRoZSBjb21wYW55LiBUbyBtYWtlIHN1cmUgdGhlIHVwZGF0ZSB3b3JrcyB3ZWxsLCB0cnkgYnJlYWtpbmcgaXQgaW50byBzZWN0aW9ucyBvZiBzaW1pbGFyIHRoaW5ncy4gWW91IG1pZ2h0IGJyZWFrIGludG8gY2x1c3RlcnMgbGlrZSB7cHJvZHVjdCBkZXZlbG9wbWVudCwgZ28gdG8gbWFya2V0LCBmaW5hbmNlfSBvciB7cmVjcnVpdGluZywgZXhlY3V0aW9uLCB2aXNpb259LCBvciB7ZXh0ZXJuYWwgbmV3cywgaW50ZXJuYWwgbmV3c30gZXRjLiBUcnkgdG8gbWFrZSBzdXJlIHRoZSBkaWZmZXJlbnQgYXJlYXMgb2YgdGhlIGNvbXBhbnkgYXJlIGhpZ2hsaWdodGVkIHdlbGwuCgojIyBQcmlvcml0aXphdGlvbgpGb2N1cyBvbjoKLSBDb21wYW55LXdpZGUgaW1wYWN0IChub3QgdGVhbS1zcGVjaWZpYyBkZXRhaWxzKQotIEFubm91bmNlbWVudHMgZnJvbSBsZWFkZXJzaGlwCi0gTWFqb3IgbWlsZXN0b25lcyBhbmQgYWNoaWV2ZW1lbnRzCi0gSW5mb3JtYXRpb24gdGhhdCBhZmZlY3RzIG1vc3QgZW1wbG95ZWVzCi0gRXh0ZXJuYWwgcmVjb2duaXRpb24gb3IgcHJlc3MKCkF2b2lkOgotIE92ZXJseSBncmFudWxhciB0ZWFtIHVwZGF0ZXMgKHNhdmUgdGhvc2UgZm9yIDNQcykKLSBJbmZvcm1hdGlvbiBvbmx5IHJlbGV2YW50IHRvIHNtYWxsIGdyb3VwcwotIER1cGxpY2F0ZSBpbmZvcm1hdGlvbiBhbHJlYWR5IGNvbW11bmljYXRlZAoKIyMgRXhhbXBsZSBGb3JtYXRzCgo6bWVnYXBob25lOiBDb21wYW55IEFubm91bmNlbWVudHMKLSBBbm5vdW5jZW1lbnQgMQotIEFubm91bmNlbWVudCAyCi0gQW5ub3VuY2VtZW50IDMKCjpkYXJ0OiBQcm9ncmVzcyBvbiBQcmlvcml0aWVzCi0gQXJlYSAxCiAgICAtIFN1Yi1hcmVhIDEKICAgIC0gU3ViLWFyZWEgMgogICAgLSBTdWItYXJlYSAzCi0gQXJlYSAyCiAgICAtIFN1Yi1hcmVhIDEKICAgIC0gU3ViLWFyZWEgMgogICAgLSBTdWItYXJlYSAzCi0gQXJlYSAzCiAgICAtIFN1Yi1hcmVhIDEKICAgIC0gU3ViLWFyZWEgMgogICAgLSBTdWItYXJlYSAzCgo6cGlsbGFyOiBMZWFkZXJzaGlwIFVwZGF0ZXMKLSBQb3N0IDEKLSBQb3N0IDIKLSBQb3N0IDMKCjp0aHJlYWQ6IFNvY2lhbCBVcGRhdGVzCi0gVXBkYXRlIDEKLSBVcGRhdGUgMgotIFVwZGF0ZSAzCg==
+## Instructions
+You are being asked to write a company-wide newsletter update. You are meant to summarize the past week/month of a company in the form of a newsletter that the entire company will read. It should be maybe ~20-25 bullet points long. It will be sent via Slack and email, so make it consumable for that.
+
+Ideally it includes the following attributes:
+- Lots of links: pulling documents from Google Drive that are very relevant, linking to prominent Slack messages in announce channels and from executives, perhgaps referencing emails that went company-wide, highlighting significant things that have happened in the company.
+- Short and to-the-point: each bullet should probably be no longer than ~1-2 sentences
+- Use the "we" tense, as you are part of the company. Many of the bullets should say "we did this" or "we did that"
+
+## Tools to use
+If you have access to the following tools, please try to use them. If not, you can also let the user know directly that their responses would be better if they gave them access.
+
+- Slack: look for messages in channels with lots of people, with lots of reactions or lots of responses within the thread
+- Email: look for things from executives that discuss company-wide announcements
+- Calendar: if there were meetings with large attendee lists, particularly things like All-Hands meetings, big company announcements, etc. If there were documents attached to those meetings, those are great links to include.
+- Documents: if there were new docs published in the last week or two that got a lot of attention, you can link them. These should be things like company-wide vision docs, plans for the upcoming quarter or half, things authored by critical executives, etc.
+- External press: if you see references to articles or press we've received over the past week, that could be really cool too.
+
+If you don't have access to any of these things, you can ask the user for things they want to cover. In this case, you'll mostly just be polishing up and fitting to this format more directly.
+
+## Sections
+The company is pretty big: 1000+ people. There are a variety of different teams and initiatives going on across the company. To make sure the update works well, try breaking it into sections of similar things. You might break into clusters like {product development, go to market, finance} or {recruiting, execution, vision}, or {external news, internal news} etc. Try to make sure the different areas of the company are highlighted well.
+
+## Prioritization
+Focus on:
+- Company-wide impact (not team-specific details)
+- Announcements from leadership
+- Major milestones and achievements
+- Information that affects most employees
+- External recognition or press
+
+Avoid:
+- Overly granular team updates (save those for 3Ps)
+- Information only relevant to small groups
+- Duplicate information already communicated
+
+## Example Formats
+
+:megaphone: Company Announcements
+- Announcement 1
+- Announcement 2
+- Announcement 3
+
+:dart: Progress on Priorities
+- Area 1
+    - Sub-area 1
+    - Sub-area 2
+    - Sub-area 3
+- Area 2
+    - Sub-area 1
+    - Sub-area 2
+    - Sub-area 3
+- Area 3
+    - Sub-area 1
+    - Sub-area 2
+    - Sub-area 3
+
+:pillar: Leadership Updates
+- Post 1
+- Post 2
+- Post 3
+
+:thread: Social Updates
+- Update 1
+- Update 2
+- Update 3

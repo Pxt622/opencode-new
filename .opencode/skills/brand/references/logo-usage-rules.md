@@ -1,1 +1,185 @@
-IyBMb2dvIFVzYWdlIFJ1bGVzCgpHdWlkZWxpbmVzIGZvciBwcm9wZXIgbG9nbyBpbXBsZW1lbnRhdGlvbiBhY3Jvc3MgYWxsIG1hcmtldGluZyBtYXRlcmlhbHMuCgojIyBMb2dvIFZhcmlhbnRzCgojIyMgUHJpbWFyeSBWYXJpYW50cwp8IFZhcmlhbnQgfCBGaWxlIE5hbWUgfCBVc2UgQ2FzZSB8CnwtLS0tLS0tLS18LS0tLS0tLS0tLS18LS0tLS0tLS0tLXwKfCBGdWxsIEhvcml6b250YWwgfCBsb2dvLWZ1bGwtaG9yaXpvbnRhbC57ZXh0fSB8IFdlYnNpdGUgaGVhZGVycywgZG9jdW1lbnRzIHwKfCBTdGFja2VkIHwgbG9nby1zdGFja2VkLntleHR9IHwgU3F1YXJlIHNwYWNlcywgc29jaWFsIGF2YXRhcnMgfAp8IEljb24gT25seSB8IGxvZ28taWNvbi57ZXh0fSB8IEZhdmljb25zLCBhcHAgaWNvbnMsIHNtYWxsIHNwYWNlcyB8CnwgV29yZG1hcmsgT25seSB8IGxvZ28td29yZG1hcmsue2V4dH0gfCBXaGVuIGljb24gYWxyZWFkeSBwcmVzZW50IHwKCiMjIyBDb2xvciBWYXJpYW50cwp8IFZhcmlhbnQgfCBVc2UgQ2FzZSB8CnwtLS0tLS0tLS18LS0tLS0tLS0tLXwKfCBGdWxsIENvbG9yIHwgRGVmYXVsdCBvbiB3aGl0ZS9saWdodCBiYWNrZ3JvdW5kcyB8CnwgUmV2ZXJzZWQgfCBPbiBkYXJrIGJhY2tncm91bmRzIHwKfCBNb25vY2hyb21lIERhcmsgfCBPbiBsaWdodCBiYWNrZ3JvdW5kcyB3aGVuIGNvbG9yIG5vdCBwb3NzaWJsZSB8CnwgTW9ub2Nocm9tZSBMaWdodCB8IE9uIGRhcmsgYmFja2dyb3VuZHMgd2hlbiBjb2xvciBub3QgcG9zc2libGUgfAoKIyMgQ2xlYXIgU3BhY2UKCiMjIyBNaW5pbXVtIENsZWFyIFNwYWNlClRoZSBjbGVhciBzcGFjZSBhcm91bmQgdGhlIGxvZ28gc2hvdWxkIGVxdWFsIHRoZSBoZWlnaHQgb2YgdGhlIGxvZ28gbWFyayAoaWNvbiBwb3J0aW9uKS4KCmBgYAogICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQCiAgICDilIIgICAgICAgICAgIFt4XSAgICAgICAgICAgICAgIOKUggogICAg4pSCICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICAgICDilIIKICAgIOKUgiAgIOKUgiAgICAgICAgICAgICAgICAgICDilIIgICAgIOKUggpbeF0g4pSCICAg4pSCICAgIFtMT0dPXSAgICAgICAgIOKUgiBbeF0g4pSCCiAgICDilIIgICDilIIgICAgICAgICAgICAgICAgICAg4pSCICAgICDilIIKICAgIOKUgiAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmCAgICAg4pSCCiAgICDilIIgICAgICAgICAgIFt4XSAgICAgICAgICAgICAgIOKUggogICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYCmBgYAoKV2hlcmUgW3hdID0gaGVpZ2h0IG9mIGxvZ28gbWFyawoKIyMgTWluaW11bSBTaXplCgojIyMgRGlnaXRhbAp8IEZvcm1hdCB8IE1pbmltdW0gV2lkdGggfCBOb3RlcyB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS18LS0tLS0tLXwKfCBGdWxsIExvZ28gfCAxMjBweCB8IEFsbCBlbGVtZW50cyBsZWdpYmxlIHwKfCBJY29uIE9ubHkgfCAyNHB4IHwgRmF2aWNvbi9zbWFsbCBpY29ucyB8CnwgSWNvbiBPbmx5IHwgMzJweCB8IFVJIGVsZW1lbnRzIHwKCiMjIyBQcmludAp8IEZvcm1hdCB8IE1pbmltdW0gV2lkdGggfCBOb3RlcyB8CnwtLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS18LS0tLS0tLXwKfCBGdWxsIExvZ28gfCAzNW1tIHwgQnVzaW5lc3MgY2FyZHMsIGxldHRlcmhlYWQgfAp8IEljb24gT25seSB8IDEwbW0gfCBTbWFsbCBwcmludCBpdGVtcyB8CgojIyBDb2xvciBVc2FnZQoKIyMjIEFwcHJvdmVkIEJhY2tncm91bmRzCnwgQmFja2dyb3VuZCB8IExvZ28gVmVyc2lvbiB8CnwtLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS18CnwgV2hpdGUgfCBGdWxsIGNvbG9yIG9yIGRhcmsgbW9ubyB8CnwgTGlnaHQgZ3JheSAoI0Y1RjVGNSspIHwgRnVsbCBjb2xvciBvciBkYXJrIG1vbm8gfAp8IEJyYW5kIHByaW1hcnkgfCBSZXZlcnNlZCAod2hpdGUpIHwKfCBEYXJrICgjMzMzIG9yIGRhcmtlcikgfCBSZXZlcnNlZCAod2hpdGUpIHwKfCBQaG90b2dyYXBoeSB8IEVuc3VyZSBzdWZmaWNpZW50IGNvbnRyYXN0IHwKCiMjIyBDb2xvciBSdWxlcwoxLiBOZXZlciBjaGFuZ2UgbG9nbyBjb2xvcnMgb3V0c2lkZSBhcHByb3ZlZCBwYWxldHRlCjIuIERvbid0IHVzZSBncmFkaWVudHMgb24gdGhlIGxvZ28KMy4gRG9uJ3QgYXBwbHkgdHJhbnNwYXJlbmN5IHRvIGxvZ28gZWxlbWVudHMKNC4gRG9uJ3QgYWRkIHNoYWRvd3Mgb3IgZWZmZWN0cwoKIyMgSW5jb3JyZWN0IFVzYWdlCgojIyMgQWJzb2x1dGUgRG9uJ3RzCi0g4p2MIFN0cmV0Y2ggb3IgY29tcHJlc3MgbG9nbwotIOKdjCBSb3RhdGUgYXQgYW5nbGVzCi0g4p2MIEFkZCBkcm9wIHNoYWRvd3MKLSDinYwgQXBwbHkgZ3JhZGllbnQgZmlsbHMKLSDinYwgVXNlIHVuYXBwcm92ZWQgY29sb3JzCi0g4p2MIEFkZCBzdHJva2VzIG9yIG91dGxpbmVzCi0g4p2MIFBsYWNlIG9uIGJ1c3kgYmFja2dyb3VuZHMKLSDinYwgQ3JvcCBhbnkgcG9ydGlvbgotIOKdjCBSZWFycmFuZ2UgZWxlbWVudHMKLSDinYwgQWRkIGFkZGl0aW9uYWwgZWxlbWVudHMKCiMjIyBWaXN1YWwgRXhhbXBsZXMKYGBgCldST05HOiBTdHJldGNoZWQgICAgICBXUk9ORzogUm90YXRlZCAgICAgICBXUk9ORzogV3JvbmcgY29sb3IK4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICAgICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQICAgICAgICAgIOKUjOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUkArilIIgICBMIE8gRyBPICAgIOKUgiAgICAgIOKUgiAgLyAgICDilIIgICAgICAgICAg4pSCIExPR08gICDilIIgPC0gd3JvbmcgY29sb3IK4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYICAgICAg4pSCIC9MT0dPIOKUgiAgICAgICAgICDilJTilIDilIDilIDilIDilIDilIDilIDilIDilJgKICAgICAgICAgICAgICAgICAgICAgIOKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgC8KYGBgCgojIyBDby1icmFuZGluZwoKIyMjIFBhcnRuZXIgTG9nbyBHdWlkZWxpbmVzCjEuIEVxdWFsIHZpc3VhbCB3ZWlnaHQgKHNhbWUgaGVpZ2h0KQoyLiBBZGVxdWF0ZSBzZXBhcmF0aW9uIGJldHdlZW4gbG9nb3MKMy4gVXNlIGRpdmlkZXIgbGluZSBpZiBuZWVkZWQKNC4gQm90aCBsb2dvcyBpbiB0aGVpciBhcHByb3ZlZCBjb2xvcnMKNS4gQ2xlYXIgc3BhY2UgYXBwbGllcyB0byBib3RoCgojIyMgTGF5b3V0IE9wdGlvbnMKYGBgCk9wdGlvbiBBOiBTaWRlIGJ5IHNpZGUgd2l0aCBkaXZpZGVyCltPVVIgTE9HT10gfCBbUEFSVE5FUiBMT0dPXQoKT3B0aW9uIEI6IFN0YWNrZWQKICAgIFtPVVIgTE9HT10KICAgICAgICArCiAgW1BBUlRORVIgTE9HT10KYGBgCgojIyBGaWxlIEZvcm1hdHMKCiMjIyBSZWNvbW1lbmRlZCBGb3JtYXRzCnwgVXNhZ2UgfCBGb3JtYXQgfCBOb3RlcyB8CnwtLS0tLS0tfC0tLS0tLS0tfC0tLS0tLS18CnwgV2ViIHwgU1ZHIHwgUHJlZmVycmVkLCBzY2FsYWJsZSB8CnwgV2ViIGZhbGxiYWNrIHwgUE5HIHwgV2l0aCB0cmFuc3BhcmVuY3kgfAp8IFByaW50IHwgUERGIHwgVmVjdG9yLCBoaWdoIHF1YWxpdHkgfAp8IFByaW50IGFsdCB8IEVQUyB8IExlZ2FjeSBzeXN0ZW1zIHwKfCBEb2N1bWVudHMgfCBQTkcgfCBIaWdoIHJlcyAoMzAwZHBpKSB8CgojIyMgRmlsZSBPcmdhbml6YXRpb24KYGBgCmFzc2V0cy9sb2dvcy8K4pSc4pSA4pSAIGZ1bGwtaG9yaXpvbnRhbC8K4pSCICAg4pSc4pSA4pSAIGxvZ28tZnVsbC1jb2xvci5zdmcK4pSCICAg4pSc4pSA4pSAIGxvZ28tZnVsbC1jb2xvci5wbmcK4pSCICAg4pSc4pSA4pSAIGxvZ28tcmV2ZXJzZWQuc3ZnCuKUgiAgIOKUnOKUgOKUgCBsb2dvLW1vbm8tZGFyay5zdmcK4pSCICAg4pSU4pSA4pSAIGxvZ28tbW9uby1saWdodC5zdmcK4pSc4pSA4pSAIGljb24tb25seS8K4pSCICAg4pSc4pSA4pSAIGljb24tZnVsbC1jb2xvci5zdmcK4pSCICAg4pSc4pSA4pSAIGljb24tcmV2ZXJzZWQuc3ZnCuKUgiAgIOKUlOKUgOKUgCBmYXZpY29uLmljbwrilJTilIDilIAgbW9ub2Nocm9tZS8KICAgIOKUnOKUgOKUgCBsb2dvLWJsYWNrLnN2ZwogICAg4pSU4pSA4pSAIGxvZ28td2hpdGUuc3ZnCmBgYAoKIyMgUGxhdGZvcm0tU3BlY2lmaWMgR3VpZGVsaW5lcwoKIyMjIFNvY2lhbCBNZWRpYQp8IFBsYXRmb3JtIHwgRm9ybWF0IHwgU2l6ZSB8IE5vdGVzIHwKfC0tLS0tLS0tLS18LS0tLS0tLS18LS0tLS0tfC0tLS0tLS18CnwgTGlua2VkSW4gfCBQTkcgfCAzMDB4MzAwcHggfCBJY29uIG9ubHkgfAp8IFR3aXR0ZXIvWCB8IFBORyB8IDQwMHg0MDBweCB8IEljb24gb25seSB8CnwgRmFjZWJvb2sgfCBQTkcgfCAxODB4MTgwcHggfCBJY29uIG9ubHkgfAp8IEluc3RhZ3JhbSB8IFBORyB8IDMyMHgzMjBweCB8IEljb24gb25seSB8CgojIyMgV2Vic2l0ZQp8IExvY2F0aW9uIHwgVmFyaWFudCB8IFNpemUgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS18LS0tLS0tfAp8IEhlYWRlciB8IEZ1bGwgaG9yaXpvbnRhbCB8IDEyMC0yMDBweCB3aWR0aCB8CnwgRm9vdGVyIHwgRnVsbCBob3Jpem9udGFsIHwgMTAwLTE1MHB4IHdpZHRoIHwKfCBGYXZpY29uIHwgSWNvbiBvbmx5IHwgMzJ4MzJweCB8CnwgQXBwbGUgVG91Y2ggfCBJY29uIG9ubHkgfCAxODB4MTgwcHggfAoKIyMjIERvY3VtZW50cwp8IERvY3VtZW50IHwgVmFyaWFudCB8IFBsYWNlbWVudCB8CnwtLS0tLS0tLS0tfC0tLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCBMZXR0ZXJoZWFkIHwgRnVsbCBob3Jpem9udGFsIHwgVG9wIGxlZnQgfAp8IFByZXNlbnRhdGlvbiB8IEljb24gKyB3b3JkbWFyayB8IFRpdGxlIHNsaWRlIHwKfCBSZXBvcnQgfCBGdWxsIGhvcml6b250YWwgfCBDb3ZlciArIGZvb3RlciB8CgojIyBMb2dvIEFwcHJvdmFsIFByb2Nlc3MKCiMjIyBCZWZvcmUgVXNpbmcgTG9nbwoxLiBWZXJpZnkgeW91IGhhdmUgdGhlIGNvcnJlY3QgdmVyc2lvbgoyLiBDaGVjayBiYWNrZ3JvdW5kIGNvbXBhdGliaWxpdHkKMy4gRW5zdXJlIG1pbmltdW0gc2l6ZSByZXF1aXJlbWVudHMKNC4gQ29uZmlybSBjbGVhciBzcGFjZSBhbGxvY2F0aW9uCjUuIFJldmlldyBhZ2FpbnN0IHRoZXNlIGd1aWRlbGluZXMKCiMjIyBSZXF1ZXN0aW5nIEFwcHJvdmFsCkZvciBub24tc3RhbmRhcmQgdXNlczoKMS4gU3VibWl0IG1vY2t1cCBzaG93aW5nIHByb3Bvc2VkIHVzYWdlCjIuIEluY2x1ZGUgY29udGV4dCAobWVkaXVtLCBhdWRpZW5jZSkKMy4gV2FpdCBmb3IgYnJhbmQgdGVhbSBhcHByb3ZhbAo0LiBEb2N1bWVudCBhcHByb3ZlZCBleGNlcHRpb25zCg==
+# Logo Usage Rules
+
+Guidelines for proper logo implementation across all marketing materials.
+
+## Logo Variants
+
+### Primary Variants
+| Variant | File Name | Use Case |
+|---------|-----------|----------|
+| Full Horizontal | logo-full-horizontal.{ext} | Website headers, documents |
+| Stacked | logo-stacked.{ext} | Square spaces, social avatars |
+| Icon Only | logo-icon.{ext} | Favicons, app icons, small spaces |
+| Wordmark Only | logo-wordmark.{ext} | When icon already present |
+
+### Color Variants
+| Variant | Use Case |
+|---------|----------|
+| Full Color | Default on white/light backgrounds |
+| Reversed | On dark backgrounds |
+| Monochrome Dark | On light backgrounds when color not possible |
+| Monochrome Light | On dark backgrounds when color not possible |
+
+## Clear Space
+
+### Minimum Clear Space
+The clear space around the logo should equal the height of the logo mark (icon portion).
+
+```
+    ┌─────────────────────────────┐
+    │           [x]               │
+    │   ┌───────────────────┐     │
+    │   │                   │     │
+[x] │   │    [LOGO]         │ [x] │
+    │   │                   │     │
+    │   └───────────────────┘     │
+    │           [x]               │
+    └─────────────────────────────┘
+```
+
+Where [x] = height of logo mark
+
+## Minimum Size
+
+### Digital
+| Format | Minimum Width | Notes |
+|--------|---------------|-------|
+| Full Logo | 120px | All elements legible |
+| Icon Only | 24px | Favicon/small icons |
+| Icon Only | 32px | UI elements |
+
+### Print
+| Format | Minimum Width | Notes |
+|--------|---------------|-------|
+| Full Logo | 35mm | Business cards, letterhead |
+| Icon Only | 10mm | Small print items |
+
+## Color Usage
+
+### Approved Backgrounds
+| Background | Logo Version |
+|------------|--------------|
+| White | Full color or dark mono |
+| Light gray (#F5F5F5+) | Full color or dark mono |
+| Brand primary | Reversed (white) |
+| Dark (#333 or darker) | Reversed (white) |
+| Photography | Ensure sufficient contrast |
+
+### Color Rules
+1. Never change logo colors outside approved palette
+2. Don't use gradients on the logo
+3. Don't apply transparency to logo elements
+4. Don't add shadows or effects
+
+## Incorrect Usage
+
+### Absolute Don'ts
+- ❌ Stretch or compress logo
+- ❌ Rotate at angles
+- ❌ Add drop shadows
+- ❌ Apply gradient fills
+- ❌ Use unapproved colors
+- ❌ Add strokes or outlines
+- ❌ Place on busy backgrounds
+- ❌ Crop any portion
+- ❌ Rearrange elements
+- ❌ Add additional elements
+
+### Visual Examples
+```
+WRONG: Stretched      WRONG: Rotated       WRONG: Wrong color
+┌──────────────┐      ┌────────┐          ┌────────┐
+│   L O G O    │      │  /    │          │ LOGO   │ <- wrong color
+└──────────────┘      │ /LOGO │          └────────┘
+                      └───────/
+```
+
+## Co-branding
+
+### Partner Logo Guidelines
+1. Equal visual weight (same height)
+2. Adequate separation between logos
+3. Use divider line if needed
+4. Both logos in their approved colors
+5. Clear space applies to both
+
+### Layout Options
+```
+Option A: Side by side with divider
+[OUR LOGO] | [PARTNER LOGO]
+
+Option B: Stacked
+    [OUR LOGO]
+        +
+  [PARTNER LOGO]
+```
+
+## File Formats
+
+### Recommended Formats
+| Usage | Format | Notes |
+|-------|--------|-------|
+| Web | SVG | Preferred, scalable |
+| Web fallback | PNG | With transparency |
+| Print | PDF | Vector, high quality |
+| Print alt | EPS | Legacy systems |
+| Documents | PNG | High res (300dpi) |
+
+### File Organization
+```
+assets/logos/
+├── full-horizontal/
+│   ├── logo-full-color.svg
+│   ├── logo-full-color.png
+│   ├── logo-reversed.svg
+│   ├── logo-mono-dark.svg
+│   └── logo-mono-light.svg
+├── icon-only/
+│   ├── icon-full-color.svg
+│   ├── icon-reversed.svg
+│   └── favicon.ico
+└── monochrome/
+    ├── logo-black.svg
+    └── logo-white.svg
+```
+
+## Platform-Specific Guidelines
+
+### Social Media
+| Platform | Format | Size | Notes |
+|----------|--------|------|-------|
+| LinkedIn | PNG | 300x300px | Icon only |
+| Twitter/X | PNG | 400x400px | Icon only |
+| Facebook | PNG | 180x180px | Icon only |
+| Instagram | PNG | 320x320px | Icon only |
+
+### Website
+| Location | Variant | Size |
+|----------|---------|------|
+| Header | Full horizontal | 120-200px width |
+| Footer | Full horizontal | 100-150px width |
+| Favicon | Icon only | 32x32px |
+| Apple Touch | Icon only | 180x180px |
+
+### Documents
+| Document | Variant | Placement |
+|----------|---------|-----------|
+| Letterhead | Full horizontal | Top left |
+| Presentation | Icon + wordmark | Title slide |
+| Report | Full horizontal | Cover + footer |
+
+## Logo Approval Process
+
+### Before Using Logo
+1. Verify you have the correct version
+2. Check background compatibility
+3. Ensure minimum size requirements
+4. Confirm clear space allocation
+5. Review against these guidelines
+
+### Requesting Approval
+For non-standard uses:
+1. Submit mockup showing proposed usage
+2. Include context (medium, audience)
+3. Wait for brand team approval
+4. Document approved exceptions

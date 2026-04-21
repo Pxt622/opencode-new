@@ -1,1 +1,22 @@
-PGV2YWx1YXRpb24+CiAgIDxxYV9wYWlyPgogICAgICA8cXVlc3Rpb24+Q2FsY3VsYXRlIHRoZSBjb21wb3VuZCBpbnRlcmVzdCBvbiAkMTAsMDAwIGludmVzdGVkIGF0IDUlIGFubnVhbCBpbnRlcmVzdCByYXRlLCBjb21wb3VuZGVkIG1vbnRobHkgZm9yIDMgeWVhcnMuIFdoYXQgaXMgdGhlIGZpbmFsIGFtb3VudCBpbiBkb2xsYXJzIChyb3VuZGVkIHRvIDIgZGVjaW1hbCBwbGFjZXMpPzwvcXVlc3Rpb24+CiAgICAgIDxhbnN3ZXI+MTE2MTQuNzI8L2Fuc3dlcj4KICAgPC9xYV9wYWlyPgogICA8cWFfcGFpcj4KICAgICAgPHF1ZXN0aW9uPkEgcHJvamVjdGlsZSBpcyBsYXVuY2hlZCBhdCBhIDQ1LWRlZ3JlZSBhbmdsZSB3aXRoIGFuIGluaXRpYWwgdmVsb2NpdHkgb2YgNTAgbS9zLiBDYWxjdWxhdGUgdGhlIHRvdGFsIGRpc3RhbmNlIChpbiBtZXRlcnMpIGl0IGhhcyB0cmF2ZWxlZCBmcm9tIHRoZSBsYXVuY2ggcG9pbnQgYWZ0ZXIgMiBzZWNvbmRzLCBhc3N1bWluZyBnPTkuOCBtL3PCsi4gUm91bmQgdG8gMiBkZWNpbWFsIHBsYWNlcy48L3F1ZXN0aW9uPgogICAgICA8YW5zd2VyPjg3LjI1PC9hbnN3ZXI+CiAgIDwvcWFfcGFpcj4KICAgPHFhX3BhaXI+CiAgICAgIDxxdWVzdGlvbj5BIHNwaGVyZSBoYXMgYSB2b2x1bWUgb2YgNTAwIGN1YmljIG1ldGVycy4gQ2FsY3VsYXRlIGl0cyBzdXJmYWNlIGFyZWEgaW4gc3F1YXJlIG1ldGVycy4gUm91bmQgdG8gMiBkZWNpbWFsIHBsYWNlcy48L3F1ZXN0aW9uPgogICAgICA8YW5zd2VyPjMwNC42NTwvYW5zd2VyPgogICA8L3FhX3BhaXI+CiAgIDxxYV9wYWlyPgogICAgICA8cXVlc3Rpb24+Q2FsY3VsYXRlIHRoZSBwb3B1bGF0aW9uIHN0YW5kYXJkIGRldmlhdGlvbiBvZiB0aGlzIGRhdGFzZXQ6IFsxMiwgMTUsIDE4LCAyMiwgMjUsIDMwLCAzNV0uIFJvdW5kIHRvIDIgZGVjaW1hbCBwbGFjZXMuPC9xdWVzdGlvbj4KICAgICAgPGFuc3dlcj43LjYxPC9hbnN3ZXI+CiAgIDwvcWFfcGFpcj4KICAgPHFhX3BhaXI+CiAgICAgIDxxdWVzdGlvbj5DYWxjdWxhdGUgdGhlIHBIIG9mIGEgc29sdXRpb24gd2l0aCBhIGh5ZHJvZ2VuIGlvbiBjb25jZW50cmF0aW9uIG9mIDMuNSDDlyAxMF4tNSBNLiBSb3VuZCB0byAyIGRlY2ltYWwgcGxhY2VzLjwvcXVlc3Rpb24+CiAgICAgIDxhbnN3ZXI+NC40NjwvYW5zd2VyPgogICA8L3FhX3BhaXI+CjwvZXZhbHVhdGlvbj4K
+<evaluation>
+   <qa_pair>
+      <question>Calculate the compound interest on $10,000 invested at 5% annual interest rate, compounded monthly for 3 years. What is the final amount in dollars (rounded to 2 decimal places)?</question>
+      <answer>11614.72</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>A projectile is launched at a 45-degree angle with an initial velocity of 50 m/s. Calculate the total distance (in meters) it has traveled from the launch point after 2 seconds, assuming g=9.8 m/s². Round to 2 decimal places.</question>
+      <answer>87.25</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>A sphere has a volume of 500 cubic meters. Calculate its surface area in square meters. Round to 2 decimal places.</question>
+      <answer>304.65</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Calculate the population standard deviation of this dataset: [12, 15, 18, 22, 25, 30, 35]. Round to 2 decimal places.</question>
+      <answer>7.61</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Calculate the pH of a solution with a hydrogen ion concentration of 3.5 × 10^-5 M. Round to 2 decimal places.</question>
+      <answer>4.46</answer>
+   </qa_pair>
+</evaluation>

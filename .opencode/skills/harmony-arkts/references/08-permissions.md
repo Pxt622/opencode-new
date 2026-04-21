@@ -1,1 +1,139 @@
-IyBIYXJtb255T1Mg5p2D6ZmQ566h55CGCgojIyDmnYPpmZDlo7DmmI4KCuWcqCBgY29uZmlnLmpzb25gIOS4reWjsOaYjuaJgOmcgOadg+mZkO+8mgoKYGBganNvbgoibW9kdWxlIjogewogICJyZXFQZXJtaXNzaW9ucyI6IFsKICAgIHsgIm5hbWUiOiAib2hvcy5wZXJtaXNzaW9uLklOVEVSTkVUIiB9LAogICAgeyAibmFtZSI6ICJvaG9zLnBlcm1pc3Npb24uR0VUX05FVFdPUktfSU5GTyIgfSwKICAgIHsgIm5hbWUiOiAib2hvcy5wZXJtaXNzaW9uLkNBTUVSQSIgfQogIF0KfQpgYGAKCiMjIOW4uOeUqOadg+mZkAoKfCDmnYPpmZDlkI3np7AgfCDor7TmmI4gfAp8LS0tLS0tLS0tfC0tLS0tLXwKfCBgb2hvcy5wZXJtaXNzaW9uLklOVEVSTkVUYCB8IOWFgeiuuOW6lOeUqOiuv+mXrue9kee7nCB8CnwgYG9ob3MucGVybWlzc2lvbi5HRVRfTkVUV09SS19JTkZPYCB8IOiOt+WPlue9kee7nOS/oeaBryB8CnwgYG9ob3MucGVybWlzc2lvbi5DQU1FUkFgIHwg5YWB6K645bqU55So5L2/55So55u45py6IHwKfCBgb2hvcy5wZXJtaXNzaW9uLlJFQ09SRF9BVURJT2AgfCDlhYHorrjlupTnlKjlvZXpn7MgfAp8IGBvaG9zLnBlcm1pc3Npb24uUkVBRF9DT05UQUNUU2AgfCDor7vlj5bogZTns7vkurogfAp8IGBvaG9zLnBlcm1pc3Npb24uV1JJVEVfQ09OVEFDVFNgIHwg5YaZ5YWl6IGU57O75Lq6IHwKfCBgb2hvcy5wZXJtaXNzaW9uLkFDQ0VTU19MT0NBVElPTmAgfCDojrflj5bkvY3nva7kv6Hmga8gfAp8IGBvaG9zLnBlcm1pc3Npb24uRElTVFJJQlVURURfREFUQVNZTkNgIHwg5YiG5biD5byP5pWw5o2u5ZCM5q2lIHwKCiMjIOWKqOaAgeadg+mZkOeUs+ivtwoKYGBgdHlwZXNjcmlwdAppbXBvcnQgYWJpbGl0eUFjY2Vzc0N0cmwgZnJvbSAnQG9ob3MuYWJpbGl0eUFjY2Vzc0N0cmwnCmltcG9ydCBidW5kbGVNYW5hZ2VyIGZyb20gJ0BvaG9zLmJ1bmRsZS5idW5kbGVNYW5hZ2VyJwoKLy8g6I635Y+W5p2D6ZmQ566h55CG57G7CmxldCBhdE1hbmFnZXIgPSBhYmlsaXR5QWNjZXNzQ3RybC5jcmVhdGVBdE1hbmFnZXIoKQoKLy8g5qOA5p+l5p2D6ZmQ54q25oCBCmxldCByZXN1bHQgPSBhd2FpdCBhdE1hbmFnZXIuY2hlY2tQZXJtaXNzaW9uKAogIGJ1bmRsZU1hbmFnZXIuZ2V0QnVuZGxlTmFtZUJ5VWlkKGdldENvbnRleHQodGhpcykuYXBwbGljYXRpb25JbmZvLnVpZCksCiAgJ29ob3MucGVybWlzc2lvbi5DQU1FUkEnCikKCmlmIChyZXN1bHQgPT0gYWJpbGl0eUFjY2Vzc0N0cmwuR3JhbnRTdGF0dXMuUEVSTUlTU0lPTl9ERU5JRUQpIHsKICAvLyDor7fmsYLmnYPpmZAKICBsZXQgcmVxdWVzdFJlc3VsdCA9IGF3YWl0IGF0TWFuYWdlci5yZXF1ZXN0UGVybWlzc2lvbkZyb21Vc2VyKAogICAgZ2V0Q29udGV4dCh0aGlzKSwKICAgIFsnb2hvcy5wZXJtaXNzaW9uLkNBTUVSQSddCiAgKQp9CmBgYAoKIyMg5p2D6ZmQ5L2/55So5Y6f5YiZCgoxLiAqKuadg+mZkOeUs+ivt+acgOWwj+WMlioq77ya5LiN6KaB55Sz6K+35LiO5Yqf6IO95peg5YWz55qE5p2D6ZmQCjIuICoq5p2D6ZmQ55Sz6K+35a6M5pW0KirvvJrmiYDmnInpnIDopoHnmoTmnYPpmZDpg73opoHlo7DmmI4KMy4gKirmu6HotrPnlKjmiLflj6/nn6UqKu+8muaVj+aEn+adg+mZkOeahOebrueahOmcgOimgeecn+WunuWHhuehruWRiuefpeeUqOaItwo0LiAqKuadg+mZkOWwsei/keeUs+ivtyoq77ya5Zyo55So5oi36Kem5Y+R55u45YWz5Yqf6IO95pe25bCx6L+R5o+Q56S65o6I5p2DCjUuICoq5p2D6ZmQ5LiN5omp5pWjKirvvJrmnKrmjojmnYPnmoTmnYPpmZDkuI3og73mj5Dkvpvnu5nlhbbku5blupTnlKjkvb/nlKgK
+# HarmonyOS 权限管理
+
+## 权限声明
+
+在 `entry/src/main/module.json5` 中声明所需权限：
+
+```json5
+{
+  "module": {
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:permission_internet_reason",
+        "usedScene": {
+          "abilities": ["EntryAbility"],
+          "when": "inuse"
+        }
+      },
+      {
+        "name": "ohos.permission.LOCATION",
+        "reason": "$string:permission_location_reason",
+        "usedScene": {
+          "abilities": ["EntryAbility"],
+          "when": "inuse"
+        }
+      }
+    ]
+  }
+}
+```
+
+> ⚠️ **重要**：`user_grant` 类型的权限必须包含 `reason` 和 `usedScene` 字段，否则构建会失败。
+
+## 权限类型
+
+| 类型 | 说明 | 示例 |
+|------|------|------|
+| `system_grant` | 系统授权，安装时自动授予 | `ohos.permission.INTERNET` |
+| `user_grant` | 用户授权，需要运行时申请 | `ohos.permission.LOCATION` |
+
+## 常用权限
+
+| 权限名称 | 说明 | 类型 |
+|---------|------|------|
+| `ohos.permission.INTERNET` | 允许应用访问网络 | system_grant |
+| `ohos.permission.GET_NETWORK_INFO` | 获取网络信息 | system_grant |
+| `ohos.permission.CAMERA` | 允许应用使用相机 | user_grant |
+| `ohos.permission.RECORD_AUDIO` | 允许应用录音 | user_grant |
+| `ohos.permission.READ_CONTACTS` | 读取联系人 | user_grant |
+| `ohos.permission.WRITE_CONTACTS` | 写入联系人 | user_grant |
+| `ohos.permission.ACCESS_LOCATION` | 获取位置信息 | user_grant |
+| `ohos.permission.LOCATION` | 获取位置信息（API 12+） | user_grant |
+| `ohos.permission.DISTRIBUTED_DATASYNC` | 分布式数据同步 | user_grant |
+
+## 字符串资源定义
+
+在 `resources/base/element/string.json` 中定义权限说明：
+
+```json
+{
+  "string": [
+    {
+      "name": "permission_internet_reason",
+      "value": "用于获取旅行路线、地图数据和AI推荐服务"
+    },
+    {
+      "name": "permission_location_reason",
+      "value": "用于定位当前位置和规划周边游路线"
+    }
+  ]
+}
+```
+
+## usedScene 字段说明
+
+```json5
+{
+  "usedScene": {
+    "abilities": ["EntryAbility"],  // 使用该权限的 Ability 列表
+    "when": "inuse"                 // 使用时机：inuse(使用时) / always(始终)
+  }
+}
+```
+
+| 字段 | 说明 | 可选值 |
+|------|------|--------|
+| `abilities` | 使用该权限的 Ability 名称数组 | `["EntryAbility"]` |
+| `when` | 权限使用时机 | `"inuse"` / `"always"` |
+
+## 动态权限申请
+
+```typescript
+import { abilityAccessCtrl, PermissionRequestResult } from '@kit.AbilityKit'
+import { bundleManager } from '@kit.BundleKit'
+
+// 获取权限管理类
+let atManager = abilityAccessCtrl.createAtManager()
+
+// 检查权限状态
+async function checkPermission(): Promise<boolean> {
+  let result = await atManager.checkAccessToken(
+    bundleManager.getBundleNameByUid(getContext(this).applicationInfo.uid),
+    'ohos.permission.CAMERA'
+  )
+  return result === abilityAccessCtrl.GrantStatus.PERMISSION_GRANTED
+}
+
+// 请求权限
+async function requestPermission(): Promise<boolean> {
+  let requestResult: PermissionRequestResult = await atManager.requestPermissionsFromUser(
+    getContext(this),
+    ['ohos.permission.CAMERA', 'ohos.permission.LOCATION']
+  )
+  return requestResult.authResults.every((result) => result === abilityAccessCtrl.GrantStatus.PERMISSION_GRANTED)
+}
+```
+
+## 权限使用原则
+
+1. **权限申请最小化**：不要申请与功能无关的权限
+2. **权限申请完整**：所有需要的权限都要声明
+3. **满足用户可知**：敏感权限的目的需要真实准确告知用户
+4. **权限就近申请**：在用户触发相关功能时就近提示授权
+5. **权限不扩散**：未授权的权限不能提供给其他应用使用
+
+## 常见构建错误
+
+### reason 和 usedScene 缺失
+
+**错误信息**：`The reason and usedScene attributes are mandatory for user_grant permissions.`
+
+**原因**：`user_grant` 权限缺少 `reason` 或 `usedScene` 字段。
+
+**解决**：为所有 `user_grant` 权限添加完整的 `reason` 和 `usedScene` 配置。
+
+## 参考
+
+- [华为官方文档 - 权限申请指南](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/permissions-for-all)
+- [权限列表](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/permissions-list)

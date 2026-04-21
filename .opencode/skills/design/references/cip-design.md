@@ -1,1 +1,121 @@
-IyBDSVAgRGVzaWduIFJlZmVyZW5jZQoKQ29ycG9yYXRlIElkZW50aXR5IFByb2dyYW0gZGVzaWduIHdpdGggNTArIGRlbGl2ZXJhYmxlcywgMjAgc3R5bGVzLCAyMCBpbmR1c3RyaWVzLiBHZW5lcmF0ZSBtb2NrdXBzIHdpdGggR2VtaW5pIE5hbm8gQmFuYW5hIChGbGFzaC9Qcm8pLgoKIyMgU2NyaXB0cwoKfCBTY3JpcHQgfCBQdXJwb3NlIHwKfC0tLS0tLS0tfC0tLS0tLS0tLXwKfCBgc2NyaXB0cy9jaXAvc2VhcmNoLnB5YCB8IFNlYXJjaCBkZWxpdmVyYWJsZXMsIHN0eWxlcywgaW5kdXN0cmllczsgZ2VuZXJhdGUgQ0lQIGJyaWVmcyB8CnwgYHNjcmlwdHMvY2lwL2dlbmVyYXRlLnB5YCB8IEdlbmVyYXRlIENJUCBtb2NrdXBzIHdpdGggR2VtaW5pIChGbGFzaC9Qcm8pIHwKfCBgc2NyaXB0cy9jaXAvcmVuZGVyLWh0bWwucHlgIHwgUmVuZGVyIEhUTUwgcHJlc2VudGF0aW9uIGZyb20gQ0lQIG1vY2t1cHMgfAp8IGBzY3JpcHRzL2NpcC9jb3JlLnB5YCB8IEJNMjUgc2VhcmNoIGVuZ2luZSBmb3IgQ0lQIGRhdGEgfAoKIyMgQ29tbWFuZHMKCiMjIyBDSVAgQnJpZWYgKFN0YXJ0IEhlcmUpCgpgYGBiYXNoCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9jaXAvc2VhcmNoLnB5ICJ0ZWNoIHN0YXJ0dXAiIC0tY2lwLWJyaWVmIC1iICJCcmFuZE5hbWUiCmBgYAoKIyMjIFNlYXJjaCBEb21haW5zCgpgYGBiYXNoCiMgRGVsaXZlcmFibGVzCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9jaXAvc2VhcmNoLnB5ICJidXNpbmVzcyBjYXJkIGxldHRlcmhlYWQiIC0tZG9tYWluIGRlbGl2ZXJhYmxlCgojIERlc2lnbiBzdHlsZXMKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9zZWFyY2gucHkgImx1eHVyeSBwcmVtaXVtIGVsZWdhbnQiIC0tZG9tYWluIHN0eWxlCgojIEluZHVzdHJ5IGd1aWRlbGluZXMKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9zZWFyY2gucHkgImhvc3BpdGFsaXR5IGhvdGVsIiAtLWRvbWFpbiBpbmR1c3RyeQoKIyBNb2NrdXAgY29udGV4dHMKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9zZWFyY2gucHkgIm9mZmljZSByZWNlcHRpb24iIC0tZG9tYWluIG1vY2t1cApgYGAKCiMjIyBHZW5lcmF0ZSBNb2NrdXBzCgpgYGBiYXNoCiMgV2l0aCBsb2dvIChSRUNPTU1FTkRFRCAtIHVzZXMgaW1hZ2UgZWRpdGluZykKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9nZW5lcmF0ZS5weSAtLWJyYW5kICJUb3BHcm91cCIgLS1sb2dvIC9wYXRoL3RvL2xvZ28ucG5nIC0tZGVsaXZlcmFibGUgImJ1c2luZXNzIGNhcmQiIC0taW5kdXN0cnkgImNvbnN1bHRpbmciCgojIEZ1bGwgQ0lQIHNldCB3aXRoIGxvZ28KcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9nZW5lcmF0ZS5weSAtLWJyYW5kICJUb3BHcm91cCIgLS1sb2dvIC9wYXRoL3RvL2xvZ28ucG5nIC0taW5kdXN0cnkgImNvbnN1bHRpbmciIC0tc2V0CgojIFBybyBtb2RlbCBmb3IgNEsgdGV4dCByZW5kZXJpbmcKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9nZW5lcmF0ZS5weSAtLWJyYW5kICJUb3BHcm91cCIgLS1sb2dvIGxvZ28ucG5nIC0tZGVsaXZlcmFibGUgImJ1c2luZXNzIGNhcmQiIC0tbW9kZWwgcHJvCgojIEN1c3RvbSBkZWxpdmVyYWJsZXMgd2l0aCBhc3BlY3QgcmF0aW8KcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9nZW5lcmF0ZS5weSAtLWJyYW5kICJHcmVlbkxlYWYiIC0tbG9nbyBsb2dvLnBuZyAtLWluZHVzdHJ5ICJvcmdhbmljIGZvb2QiIC0tZGVsaXZlcmFibGVzICJsZXR0ZXJoZWFkLHBhY2thZ2luZyx2ZWhpY2xlIiAtLXJhdGlvIDE2OjkKCiMgV2l0aG91dCBsb2dvIChBSSBnZW5lcmF0ZXMgaW50ZXJwcmV0YXRpb24pCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9jaXAvZ2VuZXJhdGUucHkgLS1icmFuZCAiVGVjaEZsb3ciIC0tZGVsaXZlcmFibGUgImJ1c2luZXNzIGNhcmQiIC0tbm8tbG9nby1wcm9tcHQKYGBgCgojIyMgUmVuZGVyIEhUTUwgUHJlc2VudGF0aW9uCgpgYGBiYXNoCnB5dGhvbjMgfi8uY2xhdWRlL3NraWxscy9kZXNpZ24vc2NyaXB0cy9jaXAvcmVuZGVyLWh0bWwucHkgLS1icmFuZCAiVG9wR3JvdXAiIC0taW5kdXN0cnkgImNvbnN1bHRpbmciIC0taW1hZ2VzIC9wYXRoL3RvL2NpcC1vdXRwdXQKcHl0aG9uMyB+Ly5jbGF1ZGUvc2tpbGxzL2Rlc2lnbi9zY3JpcHRzL2NpcC9yZW5kZXItaHRtbC5weSAtLWJyYW5kICJUb3BHcm91cCIgLS1pbmR1c3RyeSAiY29uc3VsdGluZyIgLS1pbWFnZXMgLi90b3Bncm91cC1jaXAgLS1vdXRwdXQgcHJlc2VudGF0aW9uLmh0bWwKYGBgCgojIyBNb2RlbHMKCi0gYGZsYXNoYCAoZGVmYXVsdCk6IGBnZW1pbmktMi41LWZsYXNoLWltYWdlYCAtIEZhc3QsIGNvc3QtZWZmZWN0aXZlCi0gYHByb2A6IGBnZW1pbmktMy1wcm8taW1hZ2UtcHJldmlld2AgLSBRdWFsaXR5LCA0SyB0ZXh0IHJlbmRlcmluZwoKIyMgRGVsaXZlcmFibGUgQ2F0ZWdvcmllcwoKfCBDYXRlZ29yeSB8IEl0ZW1zIHwKfC0tLS0tLS0tLS18LS0tLS0tLXwKfCBDb3JlIElkZW50aXR5IHwgTG9nbywgTG9nbyBWYXJpYXRpb25zIHwKfCBTdGF0aW9uZXJ5IHwgQnVzaW5lc3MgQ2FyZCwgTGV0dGVyaGVhZCwgRW52ZWxvcGUsIEZvbGRlciwgTm90ZWJvb2ssIFBlbiB8CnwgU2VjdXJpdHkvQWNjZXNzIHwgSUQgQmFkZ2UsIExhbnlhcmQsIEFjY2VzcyBDYXJkIHwKfCBPZmZpY2UgRW52aXJvbm1lbnQgfCBSZWNlcHRpb24gU2lnbmFnZSwgV2F5ZmluZGluZywgTWVldGluZyBSb29tIFNpZ25zLCBXYWxsIEdyYXBoaWNzIHwKfCBBcHBhcmVsIHwgUG9sbyBTaGlydCwgVC1TaGlydCwgQ2FwLCBKYWNrZXQsIEFwcm9uIHwKfCBQcm9tb3Rpb25hbCB8IFRvdGUgQmFnLCBHaWZ0IEJveCwgVVNCIERyaXZlLCBXYXRlciBCb3R0bGUsIE11ZywgVW1icmVsbGEgfAp8IFZlaGljbGUgfCBDYXIgU2VkYW4sIFZhbiwgVHJ1Y2sgfAp8IERpZ2l0YWwgfCBTb2NpYWwgTWVkaWEsIEVtYWlsIFNpZ25hdHVyZSwgUG93ZXJQb2ludCwgRG9jdW1lbnQgVGVtcGxhdGVzIHwKfCBQcm9kdWN0IHwgUGFja2FnaW5nIEJveCwgTGFiZWxzLCBUYWdzLCBSZXRhaWwgRGlzcGxheSB8CnwgRXZlbnRzIHwgVHJhZGUgU2hvdyBCb290aCwgQmFubmVyIFN0YW5kLCBUYWJsZSBDb3ZlciwgQmFja2Ryb3AgfAoKIyMgRGVzaWduIFN0eWxlcwoKfCBTdHlsZSB8IENvbG9ycyB8IEJlc3QgRm9yIHwKfC0tLS0tLS18LS0tLS0tLS18LS0tLS0tLS0tLXwKfCBDb3Jwb3JhdGUgTWluaW1hbCB8IE5hdnksIFdoaXRlLCBCbHVlIHwgRmluYW5jZSwgTGVnYWwsIENvbnN1bHRpbmcgfAp8IE1vZGVybiBUZWNoIHwgUHVycGxlLCBDeWFuLCBHcmVlbiB8IFRlY2gsIFN0YXJ0dXBzLCBTYWFTIHwKfCBMdXh1cnkgUHJlbWl1bSB8IEJsYWNrLCBHb2xkLCBXaGl0ZSB8IEZhc2hpb24sIEpld2VscnksIEhvdGVscyB8CnwgV2FybSBPcmdhbmljIHwgQnJvd24sIEdyZWVuLCBDcmVhbSB8IEZvb2QsIE9yZ2FuaWMsIEFydGlzYW4gfAp8IEJvbGQgRHluYW1pYyB8IFJlZCwgT3JhbmdlLCBCbGFjayB8IFNwb3J0cywgRW50ZXJ0YWlubWVudCB8CgojIyBIVE1MIFByZXNlbnRhdGlvbiBGZWF0dXJlcwoKLSBIZXJvIHNlY3Rpb24gd2l0aCBicmFuZCBuYW1lLCBpbmR1c3RyeSwgc3R5bGUsIG1vb2QKLSBEZWxpdmVyYWJsZSBjYXJkcyB3aXRoIG1vY2t1cCBpbWFnZXMKLSBEZXNjcmlwdGlvbnM6IGNvbmNlcHQsIHB1cnBvc2UsIHNwZWNpZmljYXRpb25zCi0gUmVzcG9uc2l2ZSBkZXNrdG9wL21vYmlsZSwgZGFyayB0aGVtZQotIEltYWdlcyBlbWJlZGRlZCBhcyBiYXNlNjQgKHNpbmdsZS1maWxlIHBvcnRhYmxlKQoKIyMgV29ya2Zsb3cKCjEuIEdlbmVyYXRlIENJUCBicmllZiDihpIgYHNjcmlwdHMvY2lwL3NlYXJjaC5weSAtLWNpcC1icmllZmAKMi4gR2VuZXJhdGUgbW9ja3VwcyB3aXRoIGxvZ28g4oaSIGBzY3JpcHRzL2NpcC9nZW5lcmF0ZS5weSAtLWJyYW5kIC0tbG9nbyAtLWluZHVzdHJ5IC0tc2V0YAozLiBSZW5kZXIgSFRNTCBwcmVzZW50YXRpb24g4oaSIGBzY3JpcHRzL2NpcC9yZW5kZXItaHRtbC5weSAtLWJyYW5kIC0taW5kdXN0cnkgLS1pbWFnZXNgCgoqKlRpcDoqKiBJZiBubyBsb2dvIGV4aXN0cywgdXNlIExvZ28gRGVzaWduIChidWlsdC1pbikgdG8gZ2VuZXJhdGUgb25lIGZpcnN0LgoKIyMgRGV0YWlsZWQgUmVmZXJlbmNlcwoKLSBgcmVmZXJlbmNlcy9jaXAtZGVsaXZlcmFibGUtZ3VpZGUubWRgIC0gRGVsaXZlcmFibGUgc3BlY2lmaWNhdGlvbnMKLSBgcmVmZXJlbmNlcy9jaXAtc3R5bGUtZ3VpZGUubWRgIC0gRGVzaWduIHN0eWxlIGRlc2NyaXB0aW9ucwotIGByZWZlcmVuY2VzL2NpcC1wcm9tcHQtZW5naW5lZXJpbmcubWRgIC0gQUkgZ2VuZXJhdGlvbiBwcm9tcHRzCgojIyBTZXR1cAoKYGBgYmFzaApleHBvcnQgR0VNSU5JX0FQSV9LRVk9InlvdXIta2V5IgpwaXAgaW5zdGFsbCBnb29nbGUtZ2VuYWkgcGlsbG93CmBgYAo=
+# CIP Design Reference
+
+Corporate Identity Program design with 50+ deliverables, 20 styles, 20 industries. Generate mockups with Gemini Nano Banana (Flash/Pro).
+
+## Scripts
+
+| Script | Purpose |
+|--------|---------|
+| `scripts/cip/search.py` | Search deliverables, styles, industries; generate CIP briefs |
+| `scripts/cip/generate.py` | Generate CIP mockups with Gemini (Flash/Pro) |
+| `scripts/cip/render-html.py` | Render HTML presentation from CIP mockups |
+| `scripts/cip/core.py` | BM25 search engine for CIP data |
+
+## Commands
+
+### CIP Brief (Start Here)
+
+```bash
+python3 ~/.claude/skills/design/scripts/cip/search.py "tech startup" --cip-brief -b "BrandName"
+```
+
+### Search Domains
+
+```bash
+# Deliverables
+python3 ~/.claude/skills/design/scripts/cip/search.py "business card letterhead" --domain deliverable
+
+# Design styles
+python3 ~/.claude/skills/design/scripts/cip/search.py "luxury premium elegant" --domain style
+
+# Industry guidelines
+python3 ~/.claude/skills/design/scripts/cip/search.py "hospitality hotel" --domain industry
+
+# Mockup contexts
+python3 ~/.claude/skills/design/scripts/cip/search.py "office reception" --domain mockup
+```
+
+### Generate Mockups
+
+```bash
+# With logo (RECOMMENDED - uses image editing)
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "TopGroup" --logo /path/to/logo.png --deliverable "business card" --industry "consulting"
+
+# Full CIP set with logo
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "TopGroup" --logo /path/to/logo.png --industry "consulting" --set
+
+# Pro model for 4K text rendering
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "TopGroup" --logo logo.png --deliverable "business card" --model pro
+
+# Custom deliverables with aspect ratio
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "GreenLeaf" --logo logo.png --industry "organic food" --deliverables "letterhead,packaging,vehicle" --ratio 16:9
+
+# Without logo (AI generates interpretation)
+python3 ~/.claude/skills/design/scripts/cip/generate.py --brand "TechFlow" --deliverable "business card" --no-logo-prompt
+```
+
+### Render HTML Presentation
+
+```bash
+python3 ~/.claude/skills/design/scripts/cip/render-html.py --brand "TopGroup" --industry "consulting" --images /path/to/cip-output
+python3 ~/.claude/skills/design/scripts/cip/render-html.py --brand "TopGroup" --industry "consulting" --images ./topgroup-cip --output presentation.html
+```
+
+## Models
+
+- `flash` (default): `gemini-2.5-flash-image` - Fast, cost-effective
+- `pro`: `gemini-3-pro-image-preview` - Quality, 4K text rendering
+
+## Deliverable Categories
+
+| Category | Items |
+|----------|-------|
+| Core Identity | Logo, Logo Variations |
+| Stationery | Business Card, Letterhead, Envelope, Folder, Notebook, Pen |
+| Security/Access | ID Badge, Lanyard, Access Card |
+| Office Environment | Reception Signage, Wayfinding, Meeting Room Signs, Wall Graphics |
+| Apparel | Polo Shirt, T-Shirt, Cap, Jacket, Apron |
+| Promotional | Tote Bag, Gift Box, USB Drive, Water Bottle, Mug, Umbrella |
+| Vehicle | Car Sedan, Van, Truck |
+| Digital | Social Media, Email Signature, PowerPoint, Document Templates |
+| Product | Packaging Box, Labels, Tags, Retail Display |
+| Events | Trade Show Booth, Banner Stand, Table Cover, Backdrop |
+
+## Design Styles
+
+| Style | Colors | Best For |
+|-------|--------|----------|
+| Corporate Minimal | Navy, White, Blue | Finance, Legal, Consulting |
+| Modern Tech | Purple, Cyan, Green | Tech, Startups, SaaS |
+| Luxury Premium | Black, Gold, White | Fashion, Jewelry, Hotels |
+| Warm Organic | Brown, Green, Cream | Food, Organic, Artisan |
+| Bold Dynamic | Red, Orange, Black | Sports, Entertainment |
+
+## HTML Presentation Features
+
+- Hero section with brand name, industry, style, mood
+- Deliverable cards with mockup images
+- Descriptions: concept, purpose, specifications
+- Responsive desktop/mobile, dark theme
+- Images embedded as base64 (single-file portable)
+
+## Workflow
+
+1. Generate CIP brief → `scripts/cip/search.py --cip-brief`
+2. Generate mockups with logo → `scripts/cip/generate.py --brand --logo --industry --set`
+3. Render HTML presentation → `scripts/cip/render-html.py --brand --industry --images`
+
+**Tip:** If no logo exists, use Logo Design (built-in) to generate one first.
+
+## Detailed References
+
+- `references/cip-deliverable-guide.md` - Deliverable specifications
+- `references/cip-style-guide.md` - Design style descriptions
+- `references/cip-prompt-engineering.md` - AI generation prompts
+
+## Setup
+
+```bash
+export GEMINI_API_KEY="your-key"
+pip install google-genai pillow
+```

@@ -1,1 +1,169 @@
-IyBBc3NldCBBcHByb3ZhbCBDaGVja2xpc3QKCkNvbXByZWhlbnNpdmUgY2hlY2tsaXN0IGZvciByZXZpZXdpbmcgbWFya2V0aW5nIGFzc2V0cyBiZWZvcmUgYXBwcm92YWwuCgojIyBRdWljayBSZXZpZXcKCkJlZm9yZSBkZXRhaWxlZCByZXZpZXcsIHZlcmlmeToKLSBbIF0gQXNzZXQgc2VydmVzIHN0YXRlZCBwdXJwb3NlCi0gWyBdIFRhcmdldCBhdWRpZW5jZSBhcHByb3ByaWF0ZQotIFsgXSBObyBvYnZpb3VzIGVycm9ycyBvciBpc3N1ZXMKLSBbIF0gQWxpZ25zIHdpdGggY2FtcGFpZ24gZ29hbHMKCiMjIFZpc3VhbCBFbGVtZW50cwoKIyMjIExvZ28gVXNhZ2UKLSBbIF0gQ29ycmVjdCBsb2dvIHZhcmlhbnQgZm9yIGNvbnRleHQKLSBbIF0gUHJvcGVyIGNsZWFyIHNwYWNlIG1haW50YWluZWQKLSBbIF0gTWluaW11bSBzaXplIHJlcXVpcmVtZW50cyBtZXQKLSBbIF0gQXBwcm92ZWQgY29sb3JzIG9ubHkKLSBbIF0gTm8gdW5hdXRob3JpemVkIG1vZGlmaWNhdGlvbnMKLSBbIF0gQXBwcm9wcmlhdGUgZm9yIGJhY2tncm91bmQKCiMjIyBDb2xvciBDb21wbGlhbmNlCi0gWyBdIFVzZXMgYnJhbmQgcGFsZXR0ZSBjb2xvcnMgb25seQotIFsgXSBQcmltYXJ5L3NlY29uZGFyeSByYXRpbyBhcHByb3ByaWF0ZSAoNjAvMzAvMTApCi0gWyBdIFNlbWFudGljIGNvbG9ycyB1c2VkIGNvcnJlY3RseQotIFsgXSBObyBvZmYtYnJhbmQgY29sb3JzIGludHJvZHVjZWQKLSBbIF0gQ29uc2lzdGVudCBhY3Jvc3MgYWxsIGVsZW1lbnRzCgojIyMgVHlwb2dyYXBoeQotIFsgXSBCcmFuZCBmb250cyB1c2VkIHRocm91Z2hvdXQKLSBbIF0gQ29ycmVjdCBmb250IHdlaWdodHMgYXBwbGllZAotIFsgXSBQcm9wZXIgdHlwZSBoaWVyYXJjaHkKLSBbIF0gQXBwcm9wcmlhdGUgc2l6ZXMgZm9yIG1lZGl1bQotIFsgXSBMaW5lIGhlaWdodHMgYWRlcXVhdGUKLSBbIF0gTm8gb3JwaGFucy93aWRvd3MgaW4gYm9keSB0ZXh0CgojIyMgSW1hZ2VyeQotIFsgXSBNYXRjaGVzIGJyYW5kIHBob3RvZ3JhcGh5IHN0eWxlCi0gWyBdIEFwcHJvcHJpYXRlIHN1YmplY3RzL2NvbnRlbnQKLSBbIF0gUXVhbGl0eSBtZWV0cyByZXF1aXJlbWVudHMKLSBbIF0gUHJvcGVybHkgbGljZW5zZWQvY3JlZGl0ZWQKLSBbIF0gT3B0aW1pemVkIGZvciBpbnRlbmRlZCB1c2UKCiMjIEFjY2Vzc2liaWxpdHkKCiMjIyBWaXN1YWwgQWNjZXNzaWJpbGl0eQotIFsgXSBUZXh0IGNvbnRyYXN0IHJhdGlvID49IDQuNToxIChBQSkKLSBbIF0gTGFyZ2UgdGV4dCBjb250cmFzdCA+PSAzOjEKLSBbIF0gSW50ZXJhY3RpdmUgZWxlbWVudHMgaGF2ZSB2aXNpYmxlIGZvY3VzCi0gWyBdIENvbG9yIG5vdCBzb2xlIGluZGljYXRvciBvZiBtZWFuaW5nCi0gWyBdIEFsdCB0ZXh0IGZvciBhbGwgaW1hZ2VzCgojIyMgQ29udGVudCBBY2Nlc3NpYmlsaXR5Ci0gWyBdIENsZWFyIGFuZCBzY2FubmFibGUgbGF5b3V0Ci0gWyBdIFJlYWRhYmxlIGZvbnQgc2l6ZXMKLSBbIF0gTG9naWNhbCByZWFkaW5nIG9yZGVyCi0gWyBdIE1lYW5pbmdmdWwgaGVhZGluZ3Mgc3RydWN0dXJlCi0gWyBdIExpbmtzIGRlc2NyaWJlIGRlc3RpbmF0aW9uCgojIyBDb250ZW50IFF1YWxpdHkKCiMjIyBDb3B5IFJldmlldwotIFsgXSBNYXRjaGVzIGJyYW5kIHZvaWNlCi0gWyBdIEFwcHJvcHJpYXRlIHRvbmUgZm9yIGNvbnRleHQKLSBbIF0gTm8gcHJvaGliaXRlZCB0ZXJtcyB1c2VkCi0gWyBdIFZhbHVlIHByb3Bvc2l0aW9uIGNsZWFyCi0gWyBdIENUQSBjb21wZWxsaW5nIGFuZCBjbGVhcgotIFsgXSBQcm9vZnJlYWQgZm9yIGVycm9ycwoKIyMjIE1lc3NhZ2luZwotIFsgXSBBbGlnbnMgd2l0aCBrZXkgbWVzc2FnZXMKLSBbIF0gRGlmZmVyZW50aWF0b3JzIGhpZ2hsaWdodGVkCi0gWyBdIEJlbmVmaXRzIG92ZXIgZmVhdHVyZXMKLSBbIF0gVGFyZ2V0IGF1ZGllbmNlIGFkZHJlc3NlZAotIFsgXSBObyBjb25mbGljdGluZyBjbGFpbXMKCiMjIFRlY2huaWNhbCBSZXF1aXJlbWVudHMKCiMjIyBGaWxlIFNwZWNpZmljYXRpb25zCi0gWyBdIENvcnJlY3QgZmlsZSBmb3JtYXQKLSBbIF0gQXBwcm9wcmlhdGUgcmVzb2x1dGlvbgotIFsgXSBGaWxlIHNpemUgb3B0aW1pemVkCi0gWyBdIFByb3BlciBuYW1pbmcgY29udmVudGlvbgotIFsgXSBNZXRhZGF0YSBpbmNsdWRlZAoKIyMjIFBsYXRmb3JtIFJlcXVpcmVtZW50cwp8IFBsYXRmb3JtIHwgVmVyaWZpZWQgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS0tfAp8IEluc3RhZ3JhbSB8IFsgXSBDb3JyZWN0IGRpbWVuc2lvbnMgfAp8IFR3aXR0ZXIvWCB8IFsgXSBNZWV0cyByZXF1aXJlbWVudHMgfAp8IExpbmtlZEluIHwgWyBdIFByb2Zlc3Npb25hbCBzdGFuZGFyZHMgfAp8IEZhY2Vib29rIHwgWyBdIEd1aWRlbGluZXMgY29tcGxpYW50IHwKfCBFbWFpbCB8IFsgXSBTaXplIHVuZGVyIDFNQiB8CnwgV2ViIHwgWyBdIE9wdGltaXplZCBmb3Igd2ViIHwKCiMjIExlZ2FsICYgQ29tcGxpYW5jZQoKIyMjIEludGVsbGVjdHVhbCBQcm9wZXJ0eQotIFsgXSBTdG9jayBpbWFnZXMgbGljZW5zZWQKLSBbIF0gTXVzaWMvYXVkaW8gY2xlYXJlZAotIFsgXSBObyB0cmFkZW1hcmsgdmlvbGF0aW9ucwotIFsgXSBVc2VyIGNvbnRlbnQgYXV0aG9yaXplZAotIFsgXSBDcmVkaXRzIGluY2x1ZGVkIHdoZXJlIG5lZWRlZAoKIyMjIFJlZ3VsYXRvcnkKLSBbIF0gUmVxdWlyZWQgZGlzY2xvc3VyZXMgcHJlc2VudAotIFsgXSBObyBtaXNsZWFkaW5nIGNsYWltcwotIFsgXSBQcmljaW5nIGFjY3VyYXRlCi0gWyBdIFRlcm1zIGxpbmtlZCB3aGVyZSBuZWVkZWQKLSBbIF0gUHJpdmFjeSBjb21wbGlhbnQKCiMjIFJldmlldyBTdGF0dXMKCiMjIyBSZXZpZXdlciBTaWduLW9mZgoKfCBSZXZpZXcgQXJlYSB8IFJldmlld2VyIHwgRGF0ZSB8IFN0YXR1cyB8CnwtLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS18LS0tLS0tfC0tLS0tLS0tfAp8IFZpc3VhbCBEZXNpZ24gfCB8IHwgWyBdIFBhc3MgLyBbIF0gUmV2aXNpb25zIHwKfCBDb3B5L0NvbnRlbnQgfCB8IHwgWyBdIFBhc3MgLyBbIF0gUmV2aXNpb25zIHwKfCBCcmFuZCBDb21wbGlhbmNlIHwgfCB8IFsgXSBQYXNzIC8gWyBdIFJldmlzaW9ucyB8CnwgVGVjaG5pY2FsIHwgfCB8IFsgXSBQYXNzIC8gWyBdIFJldmlzaW9ucyB8CnwgTGVnYWwgfCB8IHwgWyBdIFBhc3MgLyBbIF0gUmV2aXNpb25zIHwKCiMjIyBGaW5hbCBBcHByb3ZhbAoKLSBbIF0gQWxsIHJldmlldyBhcmVhcyBwYXNzZWQKLSBbIF0gUmV2aXNpb25zIGNvbXBsZXRlZCAoaWYgYW55KQotIFsgXSBGaW5hbCB2ZXJzaW9uIHVwbG9hZGVkCi0gWyBdIE1ldGFkYXRhIHVwZGF0ZWQKLSBbIF0gUmVhZHkgZm9yIHB1Ymxpc2gvdXNlCgoqKkFwcHJvdmVkIEJ5OioqIF9fX19fX19fX19fX19fXwoKKipEYXRlOioqIF9fX19fX19fX19fX19fXwoKKipWZXJzaW9uOioqIF9fX19fX19fX19fX19fXwoKIyMgQ29tbW9uIElzc3VlcyAmIEZpeGVzCgp8IElzc3VlIHwgRml4IHwKfC0tLS0tLS18LS0tLS18CnwgTG9nbyB0b28gc21hbGwgfCBJbmNyZWFzZSB0byBtaW5pbXVtIHNpemUgfAp8IFdyb25nIGZvbnQgfCBSZXBsYWNlIHdpdGggYnJhbmQgZm9udCB8CnwgTG93IGNvbnRyYXN0IHwgQWRqdXN0IGNvbG9ycyBmb3IgYWNjZXNzaWJpbGl0eSB8CnwgT2ZmLWJyYW5kIGNvbG9yIHwgUmVwbGFjZSB3aXRoIHBhbGV0dGUgY29sb3IgfAp8IEJsdXJyeSBpbWFnZSB8IFVzZSBoaWdoZXIgcmVzb2x1dGlvbiBzb3VyY2UgfAp8IE1pc3NpbmcgYWx0IHRleHQgfCBBZGQgZGVzY3JpcHRpdmUgYWx0IHRleHQgfAp8IFdlYWsgQ1RBIHwgU3RyZW5ndGhlbiBhY3Rpb24tb3JpZW50ZWQgY29weSB8CgojIyBBdXRvbWF0aW9uIFN1cHBvcnQKClRoZSBgdmFsaWRhdGUtYXNzZXQuY2pzYCBzY3JpcHQgY2FuIGF1dG8tY2hlY2s6Ci0gQ29sb3IgcGFsZXR0ZSBjb21wbGlhbmNlCi0gTWluaW11bSBkaW1lbnNpb25zCi0gRmlsZSBmb3JtYXQvc2l6ZQotIE5hbWluZyBjb252ZW50aW9uCi0gQmFzaWMgbWV0YWRhdGEKClJ1bjogYG5vZGUgLmNsYXVkZS9za2lsbHMvYnJhbmQvc2NyaXB0cy92YWxpZGF0ZS1hc3NldC5janMgPGFzc2V0LXBhdGg+YAoKIyMgQXJjaGl2YWwKCkFmdGVyIGFwcHJvdmFsOgoxLiBVcGRhdGUgYXNzZXQgc3RhdHVzIGluIG1hbmlmZXN0Lmpzb24KMi4gQWRkIGFwcHJvdmVyIGFuZCB0aW1lc3RhbXAKMy4gTW92ZSBwcmV2aW91cyB2ZXJzaW9ucyB0byBhcmNoaXZlCjQuIFVwZGF0ZSBjYW1wYWlnbiB0cmFja2luZwo1LiBOb3RpZnkgcmVsZXZhbnQgdGVhbXMK
+# Asset Approval Checklist
+
+Comprehensive checklist for reviewing marketing assets before approval.
+
+## Quick Review
+
+Before detailed review, verify:
+- [ ] Asset serves stated purpose
+- [ ] Target audience appropriate
+- [ ] No obvious errors or issues
+- [ ] Aligns with campaign goals
+
+## Visual Elements
+
+### Logo Usage
+- [ ] Correct logo variant for context
+- [ ] Proper clear space maintained
+- [ ] Minimum size requirements met
+- [ ] Approved colors only
+- [ ] No unauthorized modifications
+- [ ] Appropriate for background
+
+### Color Compliance
+- [ ] Uses brand palette colors only
+- [ ] Primary/secondary ratio appropriate (60/30/10)
+- [ ] Semantic colors used correctly
+- [ ] No off-brand colors introduced
+- [ ] Consistent across all elements
+
+### Typography
+- [ ] Brand fonts used throughout
+- [ ] Correct font weights applied
+- [ ] Proper type hierarchy
+- [ ] Appropriate sizes for medium
+- [ ] Line heights adequate
+- [ ] No orphans/widows in body text
+
+### Imagery
+- [ ] Matches brand photography style
+- [ ] Appropriate subjects/content
+- [ ] Quality meets requirements
+- [ ] Properly licensed/credited
+- [ ] Optimized for intended use
+
+## Accessibility
+
+### Visual Accessibility
+- [ ] Text contrast ratio >= 4.5:1 (AA)
+- [ ] Large text contrast >= 3:1
+- [ ] Interactive elements have visible focus
+- [ ] Color not sole indicator of meaning
+- [ ] Alt text for all images
+
+### Content Accessibility
+- [ ] Clear and scannable layout
+- [ ] Readable font sizes
+- [ ] Logical reading order
+- [ ] Meaningful headings structure
+- [ ] Links describe destination
+
+## Content Quality
+
+### Copy Review
+- [ ] Matches brand voice
+- [ ] Appropriate tone for context
+- [ ] No prohibited terms used
+- [ ] Value proposition clear
+- [ ] CTA compelling and clear
+- [ ] Proofread for errors
+
+### Messaging
+- [ ] Aligns with key messages
+- [ ] Differentiators highlighted
+- [ ] Benefits over features
+- [ ] Target audience addressed
+- [ ] No conflicting claims
+
+## Technical Requirements
+
+### File Specifications
+- [ ] Correct file format
+- [ ] Appropriate resolution
+- [ ] File size optimized
+- [ ] Proper naming convention
+- [ ] Metadata included
+
+### Platform Requirements
+| Platform | Verified |
+|----------|----------|
+| Instagram | [ ] Correct dimensions |
+| Twitter/X | [ ] Meets requirements |
+| LinkedIn | [ ] Professional standards |
+| Facebook | [ ] Guidelines compliant |
+| Email | [ ] Size under 1MB |
+| Web | [ ] Optimized for web |
+
+## Legal & Compliance
+
+### Intellectual Property
+- [ ] Stock images licensed
+- [ ] Music/audio cleared
+- [ ] No trademark violations
+- [ ] User content authorized
+- [ ] Credits included where needed
+
+### Regulatory
+- [ ] Required disclosures present
+- [ ] No misleading claims
+- [ ] Pricing accurate
+- [ ] Terms linked where needed
+- [ ] Privacy compliant
+
+## Review Status
+
+### Reviewer Sign-off
+
+| Review Area | Reviewer | Date | Status |
+|-------------|----------|------|--------|
+| Visual Design | | | [ ] Pass / [ ] Revisions |
+| Copy/Content | | | [ ] Pass / [ ] Revisions |
+| Brand Compliance | | | [ ] Pass / [ ] Revisions |
+| Technical | | | [ ] Pass / [ ] Revisions |
+| Legal | | | [ ] Pass / [ ] Revisions |
+
+### Final Approval
+
+- [ ] All review areas passed
+- [ ] Revisions completed (if any)
+- [ ] Final version uploaded
+- [ ] Metadata updated
+- [ ] Ready for publish/use
+
+**Approved By:** _______________
+
+**Date:** _______________
+
+**Version:** _______________
+
+## Common Issues & Fixes
+
+| Issue | Fix |
+|-------|-----|
+| Logo too small | Increase to minimum size |
+| Wrong font | Replace with brand font |
+| Low contrast | Adjust colors for accessibility |
+| Off-brand color | Replace with palette color |
+| Blurry image | Use higher resolution source |
+| Missing alt text | Add descriptive alt text |
+| Weak CTA | Strengthen action-oriented copy |
+
+## Automation Support
+
+The `validate-asset.cjs` script can auto-check:
+- Color palette compliance
+- Minimum dimensions
+- File format/size
+- Naming convention
+- Basic metadata
+
+Run: `node .claude/skills/brand/scripts/validate-asset.cjs <asset-path>`
+
+## Archival
+
+After approval:
+1. Update asset status in manifest.json
+2. Add approver and timestamp
+3. Move previous versions to archive
+4. Update campaign tracking
+5. Notify relevant teams

@@ -1,1 +1,32 @@
-LS0tCm5hbWU6IGludGVybmFsLWNvbW1zCmRlc2NyaXB0aW9uOiBBIHNldCBvZiByZXNvdXJjZXMgdG8gaGVscCBtZSB3cml0ZSBhbGwga2luZHMgb2YgaW50ZXJuYWwgY29tbXVuaWNhdGlvbnMsIHVzaW5nIHRoZSBmb3JtYXRzIHRoYXQgbXkgY29tcGFueSBsaWtlcyB0byB1c2UuIENsYXVkZSBzaG91bGQgdXNlIHRoaXMgc2tpbGwgd2hlbmV2ZXIgYXNrZWQgdG8gd3JpdGUgc29tZSBzb3J0IG9mIGludGVybmFsIGNvbW11bmljYXRpb25zIChzdGF0dXMgcmVwb3J0cywgbGVhZGVyc2hpcCB1cGRhdGVzLCAzUCB1cGRhdGVzLCBjb21wYW55IG5ld3NsZXR0ZXJzLCBGQVFzLCBpbmNpZGVudCByZXBvcnRzLCBwcm9qZWN0IHVwZGF0ZXMsIGV0Yy4pLgpsaWNlbnNlOiBDb21wbGV0ZSB0ZXJtcyBpbiBMSUNFTlNFLnR4dAotLS0KCiMjIFdoZW4gdG8gdXNlIHRoaXMgc2tpbGwKVG8gd3JpdGUgaW50ZXJuYWwgY29tbXVuaWNhdGlvbnMsIHVzZSB0aGlzIHNraWxsIGZvcjoKLSAzUCB1cGRhdGVzIChQcm9ncmVzcywgUGxhbnMsIFByb2JsZW1zKQotIENvbXBhbnkgbmV3c2xldHRlcnMKLSBGQVEgcmVzcG9uc2VzCi0gU3RhdHVzIHJlcG9ydHMKLSBMZWFkZXJzaGlwIHVwZGF0ZXMKLSBQcm9qZWN0IHVwZGF0ZXMKLSBJbmNpZGVudCByZXBvcnRzCgojIyBIb3cgdG8gdXNlIHRoaXMgc2tpbGwKClRvIHdyaXRlIGFueSBpbnRlcm5hbCBjb21tdW5pY2F0aW9uOgoKMS4gKipJZGVudGlmeSB0aGUgY29tbXVuaWNhdGlvbiB0eXBlKiogZnJvbSB0aGUgcmVxdWVzdAoyLiAqKkxvYWQgdGhlIGFwcHJvcHJpYXRlIGd1aWRlbGluZSBmaWxlKiogZnJvbSB0aGUgYGV4YW1wbGVzL2AgZGlyZWN0b3J5OgogICAgLSBgZXhhbXBsZXMvM3AtdXBkYXRlcy5tZGAgLSBGb3IgUHJvZ3Jlc3MvUGxhbnMvUHJvYmxlbXMgdGVhbSB1cGRhdGVzCiAgICAtIGBleGFtcGxlcy9jb21wYW55LW5ld3NsZXR0ZXIubWRgIC0gRm9yIGNvbXBhbnktd2lkZSBuZXdzbGV0dGVycwogICAgLSBgZXhhbXBsZXMvZmFxLWFuc3dlcnMubWRgIC0gRm9yIGFuc3dlcmluZyBmcmVxdWVudGx5IGFza2VkIHF1ZXN0aW9ucwogICAgLSBgZXhhbXBsZXMvZ2VuZXJhbC1jb21tcy5tZGAgLSBGb3IgYW55dGhpbmcgZWxzZSB0aGF0IGRvZXNuJ3QgZXhwbGljaXRseSBtYXRjaCBvbmUgb2YgdGhlIGFib3ZlCjMuICoqRm9sbG93IHRoZSBzcGVjaWZpYyBpbnN0cnVjdGlvbnMqKiBpbiB0aGF0IGZpbGUgZm9yIGZvcm1hdHRpbmcsIHRvbmUsIGFuZCBjb250ZW50IGdhdGhlcmluZwoKSWYgdGhlIGNvbW11bmljYXRpb24gdHlwZSBkb2Vzbid0IG1hdGNoIGFueSBleGlzdGluZyBndWlkZWxpbmUsIGFzayBmb3IgY2xhcmlmaWNhdGlvbiBvciBtb3JlIGNvbnRleHQgYWJvdXQgdGhlIGRlc2lyZWQgZm9ybWF0LgoKIyMgS2V5d29yZHMKM1AgdXBkYXRlcywgY29tcGFueSBuZXdzbGV0dGVyLCBjb21wYW55IGNvbW1zLCB3ZWVrbHkgdXBkYXRlLCBmYXFzLCBjb21tb24gcXVlc3Rpb25zLCB1cGRhdGVzLCBpbnRlcm5hbCBjb21tcwo=
+---
+name: internal-comms
+description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+license: Complete terms in LICENSE.txt
+---
+
+## When to use this skill
+To write internal communications, use this skill for:
+- 3P updates (Progress, Plans, Problems)
+- Company newsletters
+- FAQ responses
+- Status reports
+- Leadership updates
+- Project updates
+- Incident reports
+
+## How to use this skill
+
+To write any internal communication:
+
+1. **Identify the communication type** from the request
+2. **Load the appropriate guideline file** from the `examples/` directory:
+    - `examples/3p-updates.md` - For Progress/Plans/Problems team updates
+    - `examples/company-newsletter.md` - For company-wide newsletters
+    - `examples/faq-answers.md` - For answering frequently asked questions
+    - `examples/general-comms.md` - For anything else that doesn't explicitly match one of the above
+3. **Follow the specific instructions** in that file for formatting, tone, and content gathering
+
+If the communication type doesn't match any existing guideline, ask for clarification or more context about the desired format.
+
+## Keywords
+3P updates, company newsletter, company comms, weekly update, faqs, common questions, updates, internal comms

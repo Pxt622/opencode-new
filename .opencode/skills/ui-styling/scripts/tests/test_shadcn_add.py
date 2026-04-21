@@ -1,1 +1,266 @@
-IiIiVGVzdHMgZm9yIHNoYWRjbl9hZGQucHkiIiIKCmltcG9ydCBqc29uCmltcG9ydCBzdWJwcm9jZXNzCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aApmcm9tIHVuaXR0ZXN0Lm1vY2sgaW1wb3J0IE1hZ2ljTW9jaywgbW9ja19vcGVuLCBwYXRjaAoKaW1wb3J0IHB5dGVzdAoKIyBBZGQgcGFyZW50IGRpcmVjdG9yeSB0byBwYXRoIGZvciBpbXBvcnRzCmltcG9ydCBzeXMKc3lzLnBhdGguaW5zZXJ0KDAsIHN0cihQYXRoKF9fZmlsZV9fKS5wYXJlbnQucGFyZW50KSkKCmZyb20gc2hhZGNuX2FkZCBpbXBvcnQgU2hhZGNuSW5zdGFsbGVyCgoKY2xhc3MgVGVzdFNoYWRjbkluc3RhbGxlcjoKICAgICIiIlRlc3QgU2hhZGNuSW5zdGFsbGVyIGNsYXNzLiIiIgoKICAgIEBweXRlc3QuZml4dHVyZQogICAgZGVmIHRlbXBfcHJvamVjdChzZWxmLCB0bXBfcGF0aCk6CiAgICAgICAgIiIiQ3JlYXRlIHRlbXBvcmFyeSBwcm9qZWN0IHN0cnVjdHVyZS4iIiIKICAgICAgICBwcm9qZWN0X3Jvb3QgPSB0bXBfcGF0aCAvICJ0ZXN0LXByb2plY3QiCiAgICAgICAgcHJvamVjdF9yb290Lm1rZGlyKCkKCiAgICAgICAgIyBDcmVhdGUgY29tcG9uZW50cy5qc29uCiAgICAgICAgY29tcG9uZW50c19qc29uID0gcHJvamVjdF9yb290IC8gImNvbXBvbmVudHMuanNvbiIKICAgICAgICBjb21wb25lbnRzX2pzb24ud3JpdGVfdGV4dCgKICAgICAgICAgICAganNvbi5kdW1wcyh7CiAgICAgICAgICAgICAgICAic3R5bGUiOiAibmV3LXlvcmsiLAogICAgICAgICAgICAgICAgImFsaWFzZXMiOiB7CiAgICAgICAgICAgICAgICAgICAgImNvbXBvbmVudHMiOiAiQC9jb21wb25lbnRzIiwKICAgICAgICAgICAgICAgICAgICAidXRpbHMiOiAiQC9saWIvdXRpbHMiCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pCiAgICAgICAgKQoKICAgICAgICAjIENyZWF0ZSBjb21wb25lbnRzIGRpcmVjdG9yeQogICAgICAgIHVpX2RpciA9IHByb2plY3Rfcm9vdCAvICJjb21wb25lbnRzIiAvICJ1aSIKICAgICAgICB1aV9kaXIubWtkaXIocGFyZW50cz1UcnVlKQoKICAgICAgICByZXR1cm4gcHJvamVjdF9yb290CgogICAgZGVmIHRlc3RfaW5pdF9kZWZhdWx0X3Byb2plY3Rfcm9vdChzZWxmKToKICAgICAgICAiIiJUZXN0IGluaXRpYWxpemF0aW9uIHdpdGggZGVmYXVsdCBwcm9qZWN0IHJvb3QuIiIiCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKCkKICAgICAgICBhc3NlcnQgaW5zdGFsbGVyLnByb2plY3Rfcm9vdCA9PSBQYXRoLmN3ZCgpCiAgICAgICAgYXNzZXJ0IGluc3RhbGxlci5kcnlfcnVuIGlzIEZhbHNlCgogICAgZGVmIHRlc3RfaW5pdF9jdXN0b21fcHJvamVjdF9yb290KHNlbGYsIHRtcF9wYXRoKToKICAgICAgICAiIiJUZXN0IGluaXRpYWxpemF0aW9uIHdpdGggY3VzdG9tIHByb2plY3Qgcm9vdC4iIiIKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRtcF9wYXRoKQogICAgICAgIGFzc2VydCBpbnN0YWxsZXIucHJvamVjdF9yb290ID09IHRtcF9wYXRoCgogICAgZGVmIHRlc3RfaW5pdF9kcnlfcnVuKHNlbGYpOgogICAgICAgICIiIlRlc3QgaW5pdGlhbGl6YXRpb24gd2l0aCBkcnkgcnVuIG1vZGUuIiIiCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKGRyeV9ydW49VHJ1ZSkKICAgICAgICBhc3NlcnQgaW5zdGFsbGVyLmRyeV9ydW4gaXMgVHJ1ZQoKICAgIGRlZiB0ZXN0X2NoZWNrX3NoYWRjbl9jb25maWdfZXhpc3RzKHNlbGYsIHRlbXBfcHJvamVjdCk6CiAgICAgICAgIiIiVGVzdCBjaGVja2luZyBmb3IgZXhpc3Rpbmcgc2hhZGNuIGNvbmZpZy4iIiIKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRlbXBfcHJvamVjdCkKICAgICAgICBhc3NlcnQgaW5zdGFsbGVyLmNoZWNrX3NoYWRjbl9jb25maWcoKSBpcyBUcnVlCgogICAgZGVmIHRlc3RfY2hlY2tfc2hhZGNuX2NvbmZpZ19ub3RfZXhpc3RzKHNlbGYsIHRtcF9wYXRoKToKICAgICAgICAiIiJUZXN0IGNoZWNraW5nIGZvciBub24tZXhpc3RlbnQgc2hhZGNuIGNvbmZpZy4iIiIKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRtcF9wYXRoKQogICAgICAgIGFzc2VydCBpbnN0YWxsZXIuY2hlY2tfc2hhZGNuX2NvbmZpZygpIGlzIEZhbHNlCgogICAgZGVmIHRlc3RfZ2V0X2luc3RhbGxlZF9jb21wb25lbnRzX2VtcHR5KHNlbGYsIHRlbXBfcHJvamVjdCk6CiAgICAgICAgIiIiVGVzdCBnZXR0aW5nIGluc3RhbGxlZCBjb21wb25lbnRzIHdoZW4gbm9uZSBleGlzdC4iIiIKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRlbXBfcHJvamVjdCkKICAgICAgICBpbnN0YWxsZWQgPSBpbnN0YWxsZXIuZ2V0X2luc3RhbGxlZF9jb21wb25lbnRzKCkKICAgICAgICBhc3NlcnQgaW5zdGFsbGVkID09IFtdCgogICAgZGVmIHRlc3RfZ2V0X2luc3RhbGxlZF9jb21wb25lbnRzX3dpdGhfZmlsZXMoc2VsZiwgdGVtcF9wcm9qZWN0KToKICAgICAgICAiIiJUZXN0IGdldHRpbmcgaW5zdGFsbGVkIGNvbXBvbmVudHMgd2hlbiBmaWxlcyBleGlzdC4iIiIKICAgICAgICB1aV9kaXIgPSB0ZW1wX3Byb2plY3QgLyAiY29tcG9uZW50cyIgLyAidWkiCgogICAgICAgICMgQ3JlYXRlIGNvbXBvbmVudCBmaWxlcwogICAgICAgICh1aV9kaXIgLyAiYnV0dG9uLnRzeCIpLndyaXRlX3RleHQoImV4cG9ydCBjb25zdCBCdXR0b24gPSAoKSA9PiB7fSIpCiAgICAgICAgKHVpX2RpciAvICJjYXJkLnRzeCIpLndyaXRlX3RleHQoImV4cG9ydCBjb25zdCBDYXJkID0gKCkgPT4ge30iKQoKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRlbXBfcHJvamVjdCkKICAgICAgICBpbnN0YWxsZWQgPSBpbnN0YWxsZXIuZ2V0X2luc3RhbGxlZF9jb21wb25lbnRzKCkKCiAgICAgICAgYXNzZXJ0IHNvcnRlZChpbnN0YWxsZWQpID09IFsiYnV0dG9uIiwgImNhcmQiXQoKICAgIGRlZiB0ZXN0X2dldF9pbnN0YWxsZWRfY29tcG9uZW50c19ub19jb25maWcoc2VsZiwgdG1wX3BhdGgpOgogICAgICAgICIiIlRlc3QgZ2V0dGluZyBpbnN0YWxsZWQgY29tcG9uZW50cyB3aXRob3V0IGNvbmZpZy4iIiIKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRtcF9wYXRoKQogICAgICAgIGluc3RhbGxlZCA9IGluc3RhbGxlci5nZXRfaW5zdGFsbGVkX2NvbXBvbmVudHMoKQogICAgICAgIGFzc2VydCBpbnN0YWxsZWQgPT0gW10KCiAgICBkZWYgdGVzdF9hZGRfY29tcG9uZW50c19ub19jb21wb25lbnRzKHNlbGYsIHRlbXBfcHJvamVjdCk6CiAgICAgICAgIiIiVGVzdCBhZGRpbmcgY29tcG9uZW50cyB3aXRoIGVtcHR5IGxpc3QuIiIiCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKHByb2plY3Rfcm9vdD10ZW1wX3Byb2plY3QpCiAgICAgICAgc3VjY2VzcywgbWVzc2FnZSA9IGluc3RhbGxlci5hZGRfY29tcG9uZW50cyhbXSkKCiAgICAgICAgYXNzZXJ0IHN1Y2Nlc3MgaXMgRmFsc2UKICAgICAgICBhc3NlcnQgIk5vIGNvbXBvbmVudHMgc3BlY2lmaWVkIiBpbiBtZXNzYWdlCgogICAgZGVmIHRlc3RfYWRkX2NvbXBvbmVudHNfbm9fY29uZmlnKHNlbGYsIHRtcF9wYXRoKToKICAgICAgICAiIiJUZXN0IGFkZGluZyBjb21wb25lbnRzIHdpdGhvdXQgc2hhZGNuIGNvbmZpZy4iIiIKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRtcF9wYXRoKQogICAgICAgIHN1Y2Nlc3MsIG1lc3NhZ2UgPSBpbnN0YWxsZXIuYWRkX2NvbXBvbmVudHMoWyJidXR0b24iXSkKCiAgICAgICAgYXNzZXJ0IHN1Y2Nlc3MgaXMgRmFsc2UKICAgICAgICBhc3NlcnQgIm5vdCBpbml0aWFsaXplZCIgaW4gbWVzc2FnZQoKICAgIGRlZiB0ZXN0X2FkZF9jb21wb25lbnRzX2FscmVhZHlfaW5zdGFsbGVkKHNlbGYsIHRlbXBfcHJvamVjdCk6CiAgICAgICAgIiIiVGVzdCBhZGRpbmcgY29tcG9uZW50cyB0aGF0IGFyZSBhbHJlYWR5IGluc3RhbGxlZC4iIiIKICAgICAgICB1aV9kaXIgPSB0ZW1wX3Byb2plY3QgLyAiY29tcG9uZW50cyIgLyAidWkiCiAgICAgICAgKHVpX2RpciAvICJidXR0b24udHN4Iikud3JpdGVfdGV4dCgiZXhwb3J0IGNvbnN0IEJ1dHRvbiA9ICgpID0+IHt9IikKCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKHByb2plY3Rfcm9vdD10ZW1wX3Byb2plY3QpCiAgICAgICAgc3VjY2VzcywgbWVzc2FnZSA9IGluc3RhbGxlci5hZGRfY29tcG9uZW50cyhbImJ1dHRvbiJdKQoKICAgICAgICBhc3NlcnQgc3VjY2VzcyBpcyBGYWxzZQogICAgICAgIGFzc2VydCAiYWxyZWFkeSBpbnN0YWxsZWQiIGluIG1lc3NhZ2UKICAgICAgICBhc3NlcnQgImJ1dHRvbiIgaW4gbWVzc2FnZQoKICAgIGRlZiB0ZXN0X2FkZF9jb21wb25lbnRzX3dpdGhfb3ZlcndyaXRlKHNlbGYsIHRlbXBfcHJvamVjdCk6CiAgICAgICAgIiIiVGVzdCBhZGRpbmcgY29tcG9uZW50cyB3aXRoIG92ZXJ3cml0ZSBmbGFnLiIiIgogICAgICAgIHVpX2RpciA9IHRlbXBfcHJvamVjdCAvICJjb21wb25lbnRzIiAvICJ1aSIKICAgICAgICAodWlfZGlyIC8gImJ1dHRvbi50c3giKS53cml0ZV90ZXh0KCJleHBvcnQgY29uc3QgQnV0dG9uID0gKCkgPT4ge30iKQoKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRlbXBfcHJvamVjdCkKCiAgICAgICAgd2l0aCBwYXRjaCgic3VicHJvY2Vzcy5ydW4iKSBhcyBtb2NrX3J1bjoKICAgICAgICAgICAgbW9ja19ydW4ucmV0dXJuX3ZhbHVlID0gTWFnaWNNb2NrKAogICAgICAgICAgICAgICAgc3Rkb3V0PSJDb21wb25lbnQgYWRkZWQgc3VjY2Vzc2Z1bGx5IiwKICAgICAgICAgICAgICAgIHJldHVybmNvZGU9MAogICAgICAgICAgICApCgogICAgICAgICAgICBzdWNjZXNzLCBtZXNzYWdlID0gaW5zdGFsbGVyLmFkZF9jb21wb25lbnRzKFsiYnV0dG9uIl0sIG92ZXJ3cml0ZT1UcnVlKQoKICAgICAgICAgICAgYXNzZXJ0IHN1Y2Nlc3MgaXMgVHJ1ZQogICAgICAgICAgICBhc3NlcnQgIlN1Y2Nlc3NmdWxseSBhZGRlZCIgaW4gbWVzc2FnZQogICAgICAgICAgICBtb2NrX3J1bi5hc3NlcnRfY2FsbGVkX29uY2UoKQoKICAgICAgICAgICAgIyBWZXJpZnkgLS1vdmVyd3JpdGUgZmxhZyB3YXMgcGFzc2VkCiAgICAgICAgICAgIGNhbGxfYXJncyA9IG1vY2tfcnVuLmNhbGxfYXJnc1swXVswXQogICAgICAgICAgICBhc3NlcnQgIi0tb3ZlcndyaXRlIiBpbiBjYWxsX2FyZ3MKCiAgICBkZWYgdGVzdF9hZGRfY29tcG9uZW50c19kcnlfcnVuKHNlbGYsIHRlbXBfcHJvamVjdCk6CiAgICAgICAgIiIiVGVzdCBhZGRpbmcgY29tcG9uZW50cyBpbiBkcnkgcnVuIG1vZGUuIiIiCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKHByb2plY3Rfcm9vdD10ZW1wX3Byb2plY3QsIGRyeV9ydW49VHJ1ZSkKICAgICAgICBzdWNjZXNzLCBtZXNzYWdlID0gaW5zdGFsbGVyLmFkZF9jb21wb25lbnRzKFsiYnV0dG9uIiwgImNhcmQiXSkKCiAgICAgICAgYXNzZXJ0IHN1Y2Nlc3MgaXMgVHJ1ZQogICAgICAgIGFzc2VydCAiV291bGQgcnVuOiIgaW4gbWVzc2FnZQogICAgICAgIGFzc2VydCAiYnV0dG9uIiBpbiBtZXNzYWdlCiAgICAgICAgYXNzZXJ0ICJjYXJkIiBpbiBtZXNzYWdlCgogICAgQHBhdGNoKCJzdWJwcm9jZXNzLnJ1biIpCiAgICBkZWYgdGVzdF9hZGRfY29tcG9uZW50c19zdWNjZXNzKHNlbGYsIG1vY2tfcnVuLCB0ZW1wX3Byb2plY3QpOgogICAgICAgICIiIlRlc3Qgc3VjY2Vzc2Z1bCBjb21wb25lbnQgYWRkaXRpb24uIiIiCiAgICAgICAgbW9ja19ydW4ucmV0dXJuX3ZhbHVlID0gTWFnaWNNb2NrKAogICAgICAgICAgICBzdGRvdXQ9IkNvbXBvbmVudHMgYWRkZWQgc3VjY2Vzc2Z1bGx5IiwKICAgICAgICAgICAgc3RkZXJyPSIiLAogICAgICAgICAgICByZXR1cm5jb2RlPTAKICAgICAgICApCgogICAgICAgIGluc3RhbGxlciA9IFNoYWRjbkluc3RhbGxlcihwcm9qZWN0X3Jvb3Q9dGVtcF9wcm9qZWN0KQogICAgICAgIHN1Y2Nlc3MsIG1lc3NhZ2UgPSBpbnN0YWxsZXIuYWRkX2NvbXBvbmVudHMoWyJidXR0b24iLCAiY2FyZCJdKQoKICAgICAgICBhc3NlcnQgc3VjY2VzcyBpcyBUcnVlCiAgICAgICAgYXNzZXJ0ICJTdWNjZXNzZnVsbHkgYWRkZWQiIGluIG1lc3NhZ2UKICAgICAgICBhc3NlcnQgImJ1dHRvbiIgaW4gbWVzc2FnZQogICAgICAgIGFzc2VydCAiY2FyZCIgaW4gbWVzc2FnZQoKICAgICAgICAjIFZlcmlmeSBjb3JyZWN0IGNvbW1hbmQgd2FzIGNhbGxlZAogICAgICAgIG1vY2tfcnVuLmFzc2VydF9jYWxsZWRfb25jZSgpCiAgICAgICAgY2FsbF9hcmdzID0gbW9ja19ydW4uY2FsbF9hcmdzWzBdWzBdCiAgICAgICAgYXNzZXJ0IGNhbGxfYXJnc1s6M10gPT0gWyJucHgiLCAic2hhZGNuQGxhdGVzdCIsICJhZGQiXQogICAgICAgIGFzc2VydCAiYnV0dG9uIiBpbiBjYWxsX2FyZ3MKICAgICAgICBhc3NlcnQgImNhcmQiIGluIGNhbGxfYXJncwoKICAgIEBwYXRjaCgic3VicHJvY2Vzcy5ydW4iKQogICAgZGVmIHRlc3RfYWRkX2NvbXBvbmVudHNfc3VicHJvY2Vzc19lcnJvcihzZWxmLCBtb2NrX3J1biwgdGVtcF9wcm9qZWN0KToKICAgICAgICAiIiJUZXN0IGNvbXBvbmVudCBhZGRpdGlvbiB3aXRoIHN1YnByb2Nlc3MgZXJyb3IuIiIiCiAgICAgICAgbW9ja19ydW4uc2lkZV9lZmZlY3QgPSBzdWJwcm9jZXNzLkNhbGxlZFByb2Nlc3NFcnJvcigKICAgICAgICAgICAgMSwgImNtZCIsIHN0ZGVycj0iRXJyb3Igb2NjdXJyZWQiCiAgICAgICAgKQoKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRlbXBfcHJvamVjdCkKICAgICAgICBzdWNjZXNzLCBtZXNzYWdlID0gaW5zdGFsbGVyLmFkZF9jb21wb25lbnRzKFsiYnV0dG9uIl0pCgogICAgICAgIGFzc2VydCBzdWNjZXNzIGlzIEZhbHNlCiAgICAgICAgYXNzZXJ0ICJGYWlsZWQgdG8gYWRkIiBpbiBtZXNzYWdlCgogICAgQHBhdGNoKCJzdWJwcm9jZXNzLnJ1biIpCiAgICBkZWYgdGVzdF9hZGRfY29tcG9uZW50c19ucHhfbm90X2ZvdW5kKHNlbGYsIG1vY2tfcnVuLCB0ZW1wX3Byb2plY3QpOgogICAgICAgICIiIlRlc3QgY29tcG9uZW50IGFkZGl0aW9uIHdoZW4gbnB4IGlzIG5vdCBmb3VuZC4iIiIKICAgICAgICBtb2NrX3J1bi5zaWRlX2VmZmVjdCA9IEZpbGVOb3RGb3VuZEVycm9yKCkKCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKHByb2plY3Rfcm9vdD10ZW1wX3Byb2plY3QpCiAgICAgICAgc3VjY2VzcywgbWVzc2FnZSA9IGluc3RhbGxlci5hZGRfY29tcG9uZW50cyhbImJ1dHRvbiJdKQoKICAgICAgICBhc3NlcnQgc3VjY2VzcyBpcyBGYWxzZQogICAgICAgIGFzc2VydCAibnB4IG5vdCBmb3VuZCIgaW4gbWVzc2FnZQoKICAgIGRlZiB0ZXN0X2FkZF9hbGxfY29tcG9uZW50c19ub19jb25maWcoc2VsZiwgdG1wX3BhdGgpOgogICAgICAgICIiIlRlc3QgYWRkaW5nIGFsbCBjb21wb25lbnRzIHdpdGhvdXQgY29uZmlnLiIiIgogICAgICAgIGluc3RhbGxlciA9IFNoYWRjbkluc3RhbGxlcihwcm9qZWN0X3Jvb3Q9dG1wX3BhdGgpCiAgICAgICAgc3VjY2VzcywgbWVzc2FnZSA9IGluc3RhbGxlci5hZGRfYWxsX2NvbXBvbmVudHMoKQoKICAgICAgICBhc3NlcnQgc3VjY2VzcyBpcyBGYWxzZQogICAgICAgIGFzc2VydCAibm90IGluaXRpYWxpemVkIiBpbiBtZXNzYWdlCgogICAgZGVmIHRlc3RfYWRkX2FsbF9jb21wb25lbnRzX2RyeV9ydW4oc2VsZiwgdGVtcF9wcm9qZWN0KToKICAgICAgICAiIiJUZXN0IGFkZGluZyBhbGwgY29tcG9uZW50cyBpbiBkcnkgcnVuIG1vZGUuIiIiCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKHByb2plY3Rfcm9vdD10ZW1wX3Byb2plY3QsIGRyeV9ydW49VHJ1ZSkKICAgICAgICBzdWNjZXNzLCBtZXNzYWdlID0gaW5zdGFsbGVyLmFkZF9hbGxfY29tcG9uZW50cygpCgogICAgICAgIGFzc2VydCBzdWNjZXNzIGlzIFRydWUKICAgICAgICBhc3NlcnQgIldvdWxkIHJ1bjoiIGluIG1lc3NhZ2UKICAgICAgICBhc3NlcnQgIi0tYWxsIiBpbiBtZXNzYWdlCgogICAgQHBhdGNoKCJzdWJwcm9jZXNzLnJ1biIpCiAgICBkZWYgdGVzdF9hZGRfYWxsX2NvbXBvbmVudHNfc3VjY2VzcyhzZWxmLCBtb2NrX3J1biwgdGVtcF9wcm9qZWN0KToKICAgICAgICAiIiJUZXN0IHN1Y2Nlc3NmdWwgYWRkaXRpb24gb2YgYWxsIGNvbXBvbmVudHMuIiIiCiAgICAgICAgbW9ja19ydW4ucmV0dXJuX3ZhbHVlID0gTWFnaWNNb2NrKAogICAgICAgICAgICBzdGRvdXQ9IkFsbCBjb21wb25lbnRzIGFkZGVkIiwKICAgICAgICAgICAgcmV0dXJuY29kZT0wCiAgICAgICAgKQoKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRlbXBfcHJvamVjdCkKICAgICAgICBzdWNjZXNzLCBtZXNzYWdlID0gaW5zdGFsbGVyLmFkZF9hbGxfY29tcG9uZW50cygpCgogICAgICAgIGFzc2VydCBzdWNjZXNzIGlzIFRydWUKICAgICAgICBhc3NlcnQgIlN1Y2Nlc3NmdWxseSBhZGRlZCBhbGwiIGluIG1lc3NhZ2UKCiAgICAgICAgIyBWZXJpZnkgLS1hbGwgZmxhZyB3YXMgcGFzc2VkCiAgICAgICAgY2FsbF9hcmdzID0gbW9ja19ydW4uY2FsbF9hcmdzWzBdWzBdCiAgICAgICAgYXNzZXJ0ICItLWFsbCIgaW4gY2FsbF9hcmdzCgogICAgZGVmIHRlc3RfbGlzdF9pbnN0YWxsZWRfbm9fY29uZmlnKHNlbGYsIHRtcF9wYXRoKToKICAgICAgICAiIiJUZXN0IGxpc3RpbmcgaW5zdGFsbGVkIGNvbXBvbmVudHMgd2l0aG91dCBjb25maWcuIiIiCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKHByb2plY3Rfcm9vdD10bXBfcGF0aCkKICAgICAgICBzdWNjZXNzLCBtZXNzYWdlID0gaW5zdGFsbGVyLmxpc3RfaW5zdGFsbGVkKCkKCiAgICAgICAgYXNzZXJ0IHN1Y2Nlc3MgaXMgRmFsc2UKICAgICAgICBhc3NlcnQgIm5vdCBpbml0aWFsaXplZCIgaW4gbWVzc2FnZQoKICAgIGRlZiB0ZXN0X2xpc3RfaW5zdGFsbGVkX2VtcHR5KHNlbGYsIHRlbXBfcHJvamVjdCk6CiAgICAgICAgIiIiVGVzdCBsaXN0aW5nIGluc3RhbGxlZCBjb21wb25lbnRzIHdoZW4gbm9uZSBleGlzdC4iIiIKICAgICAgICBpbnN0YWxsZXIgPSBTaGFkY25JbnN0YWxsZXIocHJvamVjdF9yb290PXRlbXBfcHJvamVjdCkKICAgICAgICBzdWNjZXNzLCBtZXNzYWdlID0gaW5zdGFsbGVyLmxpc3RfaW5zdGFsbGVkKCkKCiAgICAgICAgYXNzZXJ0IHN1Y2Nlc3MgaXMgVHJ1ZQogICAgICAgIGFzc2VydCAiTm8gY29tcG9uZW50cyBpbnN0YWxsZWQiIGluIG1lc3NhZ2UKCiAgICBkZWYgdGVzdF9saXN0X2luc3RhbGxlZF93aXRoX2NvbXBvbmVudHMoc2VsZiwgdGVtcF9wcm9qZWN0KToKICAgICAgICAiIiJUZXN0IGxpc3RpbmcgaW5zdGFsbGVkIGNvbXBvbmVudHMgd2hlbiB0aGV5IGV4aXN0LiIiIgogICAgICAgIHVpX2RpciA9IHRlbXBfcHJvamVjdCAvICJjb21wb25lbnRzIiAvICJ1aSIKICAgICAgICAodWlfZGlyIC8gImJ1dHRvbi50c3giKS53cml0ZV90ZXh0KCJleHBvcnQgY29uc3QgQnV0dG9uID0gKCkgPT4ge30iKQogICAgICAgICh1aV9kaXIgLyAiY2FyZC50c3giKS53cml0ZV90ZXh0KCJleHBvcnQgY29uc3QgQ2FyZCA9ICgpID0+IHt9IikKCiAgICAgICAgaW5zdGFsbGVyID0gU2hhZGNuSW5zdGFsbGVyKHByb2plY3Rfcm9vdD10ZW1wX3Byb2plY3QpCiAgICAgICAgc3VjY2VzcywgbWVzc2FnZSA9IGluc3RhbGxlci5saXN0X2luc3RhbGxlZCgpCgogICAgICAgIGFzc2VydCBzdWNjZXNzIGlzIFRydWUKICAgICAgICBhc3NlcnQgImJ1dHRvbiIgaW4gbWVzc2FnZQogICAgICAgIGFzc2VydCAiY2FyZCIgaW4gbWVzc2FnZQo=
+"""Tests for shadcn_add.py"""
+
+import json
+import subprocess
+from pathlib import Path
+from unittest.mock import MagicMock, mock_open, patch
+
+import pytest
+
+# Add parent directory to path for imports
+import sys
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from shadcn_add import ShadcnInstaller
+
+
+class TestShadcnInstaller:
+    """Test ShadcnInstaller class."""
+
+    @pytest.fixture
+    def temp_project(self, tmp_path):
+        """Create temporary project structure."""
+        project_root = tmp_path / "test-project"
+        project_root.mkdir()
+
+        # Create components.json
+        components_json = project_root / "components.json"
+        components_json.write_text(
+            json.dumps({
+                "style": "new-york",
+                "aliases": {
+                    "components": "@/components",
+                    "utils": "@/lib/utils"
+                }
+            })
+        )
+
+        # Create components directory
+        ui_dir = project_root / "components" / "ui"
+        ui_dir.mkdir(parents=True)
+
+        return project_root
+
+    def test_init_default_project_root(self):
+        """Test initialization with default project root."""
+        installer = ShadcnInstaller()
+        assert installer.project_root == Path.cwd()
+        assert installer.dry_run is False
+
+    def test_init_custom_project_root(self, tmp_path):
+        """Test initialization with custom project root."""
+        installer = ShadcnInstaller(project_root=tmp_path)
+        assert installer.project_root == tmp_path
+
+    def test_init_dry_run(self):
+        """Test initialization with dry run mode."""
+        installer = ShadcnInstaller(dry_run=True)
+        assert installer.dry_run is True
+
+    def test_check_shadcn_config_exists(self, temp_project):
+        """Test checking for existing shadcn config."""
+        installer = ShadcnInstaller(project_root=temp_project)
+        assert installer.check_shadcn_config() is True
+
+    def test_check_shadcn_config_not_exists(self, tmp_path):
+        """Test checking for non-existent shadcn config."""
+        installer = ShadcnInstaller(project_root=tmp_path)
+        assert installer.check_shadcn_config() is False
+
+    def test_get_installed_components_empty(self, temp_project):
+        """Test getting installed components when none exist."""
+        installer = ShadcnInstaller(project_root=temp_project)
+        installed = installer.get_installed_components()
+        assert installed == []
+
+    def test_get_installed_components_with_files(self, temp_project):
+        """Test getting installed components when files exist."""
+        ui_dir = temp_project / "components" / "ui"
+
+        # Create component files
+        (ui_dir / "button.tsx").write_text("export const Button = () => {}")
+        (ui_dir / "card.tsx").write_text("export const Card = () => {}")
+
+        installer = ShadcnInstaller(project_root=temp_project)
+        installed = installer.get_installed_components()
+
+        assert sorted(installed) == ["button", "card"]
+
+    def test_get_installed_components_no_config(self, tmp_path):
+        """Test getting installed components without config."""
+        installer = ShadcnInstaller(project_root=tmp_path)
+        installed = installer.get_installed_components()
+        assert installed == []
+
+    def test_add_components_no_components(self, temp_project):
+        """Test adding components with empty list."""
+        installer = ShadcnInstaller(project_root=temp_project)
+        success, message = installer.add_components([])
+
+        assert success is False
+        assert "No components specified" in message
+
+    def test_add_components_no_config(self, tmp_path):
+        """Test adding components without shadcn config."""
+        installer = ShadcnInstaller(project_root=tmp_path)
+        success, message = installer.add_components(["button"])
+
+        assert success is False
+        assert "not initialized" in message
+
+    def test_add_components_already_installed(self, temp_project):
+        """Test adding components that are already installed."""
+        ui_dir = temp_project / "components" / "ui"
+        (ui_dir / "button.tsx").write_text("export const Button = () => {}")
+
+        installer = ShadcnInstaller(project_root=temp_project)
+        success, message = installer.add_components(["button"])
+
+        assert success is False
+        assert "already installed" in message
+        assert "button" in message
+
+    def test_add_components_with_overwrite(self, temp_project):
+        """Test adding components with overwrite flag."""
+        ui_dir = temp_project / "components" / "ui"
+        (ui_dir / "button.tsx").write_text("export const Button = () => {}")
+
+        installer = ShadcnInstaller(project_root=temp_project)
+
+        with patch("subprocess.run") as mock_run:
+            mock_run.return_value = MagicMock(
+                stdout="Component added successfully",
+                returncode=0
+            )
+
+            success, message = installer.add_components(["button"], overwrite=True)
+
+            assert success is True
+            assert "Successfully added" in message
+            mock_run.assert_called_once()
+
+            # Verify --overwrite flag was passed
+            call_args = mock_run.call_args[0][0]
+            assert "--overwrite" in call_args
+
+    def test_add_components_dry_run(self, temp_project):
+        """Test adding components in dry run mode."""
+        installer = ShadcnInstaller(project_root=temp_project, dry_run=True)
+        success, message = installer.add_components(["button", "card"])
+
+        assert success is True
+        assert "Would run:" in message
+        assert "button" in message
+        assert "card" in message
+
+    @patch("subprocess.run")
+    def test_add_components_success(self, mock_run, temp_project):
+        """Test successful component addition."""
+        mock_run.return_value = MagicMock(
+            stdout="Components added successfully",
+            stderr="",
+            returncode=0
+        )
+
+        installer = ShadcnInstaller(project_root=temp_project)
+        success, message = installer.add_components(["button", "card"])
+
+        assert success is True
+        assert "Successfully added" in message
+        assert "button" in message
+        assert "card" in message
+
+        # Verify correct command was called
+        mock_run.assert_called_once()
+        call_args = mock_run.call_args[0][0]
+        assert call_args[:3] == ["npx", "shadcn@latest", "add"]
+        assert "button" in call_args
+        assert "card" in call_args
+
+    @patch("subprocess.run")
+    def test_add_components_subprocess_error(self, mock_run, temp_project):
+        """Test component addition with subprocess error."""
+        mock_run.side_effect = subprocess.CalledProcessError(
+            1, "cmd", stderr="Error occurred"
+        )
+
+        installer = ShadcnInstaller(project_root=temp_project)
+        success, message = installer.add_components(["button"])
+
+        assert success is False
+        assert "Failed to add" in message
+
+    @patch("subprocess.run")
+    def test_add_components_npx_not_found(self, mock_run, temp_project):
+        """Test component addition when npx is not found."""
+        mock_run.side_effect = FileNotFoundError()
+
+        installer = ShadcnInstaller(project_root=temp_project)
+        success, message = installer.add_components(["button"])
+
+        assert success is False
+        assert "npx not found" in message
+
+    def test_add_all_components_no_config(self, tmp_path):
+        """Test adding all components without config."""
+        installer = ShadcnInstaller(project_root=tmp_path)
+        success, message = installer.add_all_components()
+
+        assert success is False
+        assert "not initialized" in message
+
+    def test_add_all_components_dry_run(self, temp_project):
+        """Test adding all components in dry run mode."""
+        installer = ShadcnInstaller(project_root=temp_project, dry_run=True)
+        success, message = installer.add_all_components()
+
+        assert success is True
+        assert "Would run:" in message
+        assert "--all" in message
+
+    @patch("subprocess.run")
+    def test_add_all_components_success(self, mock_run, temp_project):
+        """Test successful addition of all components."""
+        mock_run.return_value = MagicMock(
+            stdout="All components added",
+            returncode=0
+        )
+
+        installer = ShadcnInstaller(project_root=temp_project)
+        success, message = installer.add_all_components()
+
+        assert success is True
+        assert "Successfully added all" in message
+
+        # Verify --all flag was passed
+        call_args = mock_run.call_args[0][0]
+        assert "--all" in call_args
+
+    def test_list_installed_no_config(self, tmp_path):
+        """Test listing installed components without config."""
+        installer = ShadcnInstaller(project_root=tmp_path)
+        success, message = installer.list_installed()
+
+        assert success is False
+        assert "not initialized" in message
+
+    def test_list_installed_empty(self, temp_project):
+        """Test listing installed components when none exist."""
+        installer = ShadcnInstaller(project_root=temp_project)
+        success, message = installer.list_installed()
+
+        assert success is True
+        assert "No components installed" in message
+
+    def test_list_installed_with_components(self, temp_project):
+        """Test listing installed components when they exist."""
+        ui_dir = temp_project / "components" / "ui"
+        (ui_dir / "button.tsx").write_text("export const Button = () => {}")
+        (ui_dir / "card.tsx").write_text("export const Card = () => {}")
+
+        installer = ShadcnInstaller(project_root=temp_project)
+        success, message = installer.list_installed()
+
+        assert success is True
+        assert "button" in message
+        assert "card" in message

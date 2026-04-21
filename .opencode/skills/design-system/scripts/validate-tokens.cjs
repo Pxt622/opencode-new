@@ -1,1 +1,251 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICogVmFsaWRhdGUgdG9rZW4gdXNhZ2UgaW4gY29kZWJhc2UKICogRmluZHMgaGFyZGNvZGVkIHZhbHVlcyB0aGF0IHNob3VsZCB1c2UgZGVzaWduIHRva2VucwogKgogKiBVc2FnZToKICogICBub2RlIHZhbGlkYXRlLXRva2Vucy5janMgLS1kaXIgc3JjLwogKiAgIG5vZGUgdmFsaWRhdGUtdG9rZW5zLmNqcyAtLWRpciBzcmMvIC0tZml4CiAqLwoKY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwoKLyoqCiAqIFBhcnNlIGNvbW1hbmQgbGluZSBhcmd1bWVudHMKICovCmZ1bmN0aW9uIHBhcnNlQXJncygpIHsKICBjb25zdCBhcmdzID0gcHJvY2Vzcy5hcmd2LnNsaWNlKDIpOwogIGNvbnN0IG9wdGlvbnMgPSB7CiAgICBkaXI6IG51bGwsCiAgICBmaXg6IGZhbHNlLAogICAgaWdub3JlOiBbJ25vZGVfbW9kdWxlcycsICcuZ2l0JywgJ2Rpc3QnLCAnYnVpbGQnLCAnLm5leHQnXQogIH07CgogIGZvciAobGV0IGkgPSAwOyBpIDwgYXJncy5sZW5ndGg7IGkrKykgewogICAgaWYgKGFyZ3NbaV0gPT09ICctLWRpcicgfHwgYXJnc1tpXSA9PT0gJy1kJykgewogICAgICBvcHRpb25zLmRpciA9IGFyZ3NbKytpXTsKICAgIH0gZWxzZSBpZiAoYXJnc1tpXSA9PT0gJy0tZml4JykgewogICAgICBvcHRpb25zLmZpeCA9IHRydWU7CiAgICB9IGVsc2UgaWYgKGFyZ3NbaV0gPT09ICctLWlnbm9yZScgfHwgYXJnc1tpXSA9PT0gJy1pJykgewogICAgICBvcHRpb25zLmlnbm9yZS5wdXNoKGFyZ3NbKytpXSk7CiAgICB9IGVsc2UgaWYgKGFyZ3NbaV0gPT09ICctLWhlbHAnIHx8IGFyZ3NbaV0gPT09ICctaCcpIHsKICAgICAgY29uc29sZS5sb2coYApVc2FnZTogbm9kZSB2YWxpZGF0ZS10b2tlbnMuY2pzIFtvcHRpb25zXQoKT3B0aW9uczoKICAtZCwgLS1kaXIgPHBhdGg+ICAgICAgRGlyZWN0b3J5IHRvIHNjYW4gKHJlcXVpcmVkKQogIC0tZml4ICAgICAgICAgICAgICAgICBTaG93IHN1Z2dlc3RlZCBmaXhlcyAobm8gYXV0by1maXgpCiAgLWksIC0taWdub3JlIDxkaXI+ICAgIEFkZGl0aW9uYWwgZGlyZWN0b3JpZXMgdG8gaWdub3JlCiAgLWgsIC0taGVscCAgICAgICAgICAgIFNob3cgdGhpcyBoZWxwCgpDaGVja3MgZm9yOgogIC0gSGFyZGNvZGVkIGhleCBjb2xvcnMgKCNSR0IsICNSUkdHQkIpCiAgLSBIYXJkY29kZWQgcGl4ZWwgdmFsdWVzIChleGNlcHQgMCwgMXB4KQogIC0gSGFyZGNvZGVkIHJlbSB2YWx1ZXMgaW4gQ1NTCiAgICAgIGApOwogICAgICBwcm9jZXNzLmV4aXQoMCk7CiAgICB9CiAgfQoKICByZXR1cm4gb3B0aW9uczsKfQoKLyoqCiAqIFBhdHRlcm5zIHRvIGRldGVjdCBoYXJkY29kZWQgdmFsdWVzCiAqLwpjb25zdCBwYXR0ZXJucyA9IHsKICBoZXhDb2xvcjogewogICAgcmVnZXg6IC8jKFswLTlBLUZhLWZdezN9KXsxLDJ9XGIvZywKICAgIG1lc3NhZ2U6ICdIYXJkY29kZWQgaGV4IGNvbG9yJywKICAgIHN1Z2dlc3Rpb246ICdVc2UgdmFyKC0tY29sb3ItKikgdG9rZW4nCiAgfSwKICByZ2JDb2xvcjogewogICAgcmVnZXg6IC9yZ2JccypcKFxzKlxkK1xzKixccypcZCtccyosXHMqXGQrXHMqXCkvZ2ksCiAgICBtZXNzYWdlOiAnSGFyZGNvZGVkIFJHQiBjb2xvcicsCiAgICBzdWdnZXN0aW9uOiAnVXNlIHZhcigtLWNvbG9yLSopIHRva2VuJwogIH0sCiAgcGl4ZWxWYWx1ZTogewogICAgcmVnZXg6IC86XHMqKFxkezIsfSlweC9nLCAvLyAyKyBkaWdpdCBweCB2YWx1ZXMKICAgIG1lc3NhZ2U6ICdIYXJkY29kZWQgcGl4ZWwgdmFsdWUnLAogICAgc3VnZ2VzdGlvbjogJ1VzZSB2YXIoLS1zcGFjZS0qKSBvciB2YXIoLS1yYWRpdXMtKikgdG9rZW4nCiAgfSwKICByZW1WYWx1ZTogewogICAgcmVnZXg6IC86XHMqXGQrXC4/XGQqcmVtKD8hW157XSpcJHZhbHVlKS9nLCAvLyByZW0gbm90IGluIHRva2VuIGRlZmluaXRpb24KICAgIG1lc3NhZ2U6ICdIYXJkY29kZWQgcmVtIHZhbHVlJywKICAgIHN1Z2dlc3Rpb246ICdVc2UgdmFyKC0tc3BhY2UtKikgb3IgdmFyKC0tZm9udC1zaXplLSopIHRva2VuJwogIH0KfTsKCi8qKgogKiBGaWxlIGV4dGVuc2lvbnMgdG8gc2NhbgogKi8KY29uc3QgZXh0ZW5zaW9ucyA9IFsnLmNzcycsICcuc2NzcycsICcudHN4JywgJy5qc3gnLCAnLnRzJywgJy5qcycsICcudnVlJywgJy5zdmVsdGUnXTsKCi8qKgogKiBGaWxlcy9wYXR0ZXJucyB0byBza2lwCiAqLwpjb25zdCBza2lwUGF0dGVybnMgPSBbCiAgL1wubWluXC4oY3NzfGpzKSQvLAogIC90YWlsd2luZFwuY29uZmlnLywKICAvZ2xvYmFsc1wuY3NzLywgLy8gVG9rZW4gZGVmaW5pdGlvbnMKICAvdG9rZW5zXC4oY3NzfGpzb24pLwpdOwoKLyoqCiAqIEdldCBhbGwgZmlsZXMgcmVjdXJzaXZlbHkKICovCmZ1bmN0aW9uIGdldEZpbGVzKGRpciwgaWdub3JlLCBmaWxlcyA9IFtdKSB7CiAgY29uc3QgZW50cmllcyA9IGZzLnJlYWRkaXJTeW5jKGRpciwgeyB3aXRoRmlsZVR5cGVzOiB0cnVlIH0pOwoKICBmb3IgKGNvbnN0IGVudHJ5IG9mIGVudHJpZXMpIHsKICAgIGNvbnN0IGZ1bGxQYXRoID0gcGF0aC5qb2luKGRpciwgZW50cnkubmFtZSk7CgogICAgaWYgKGVudHJ5LmlzRGlyZWN0b3J5KCkpIHsKICAgICAgaWYgKCFpZ25vcmUuaW5jbHVkZXMoZW50cnkubmFtZSkpIHsKICAgICAgICBnZXRGaWxlcyhmdWxsUGF0aCwgaWdub3JlLCBmaWxlcyk7CiAgICAgIH0KICAgIH0gZWxzZSBpZiAoZW50cnkuaXNGaWxlKCkpIHsKICAgICAgY29uc3QgZXh0ID0gcGF0aC5leHRuYW1lKGVudHJ5Lm5hbWUpOwogICAgICBpZiAoZXh0ZW5zaW9ucy5pbmNsdWRlcyhleHQpKSB7CiAgICAgICAgZmlsZXMucHVzaChmdWxsUGF0aCk7CiAgICAgIH0KICAgIH0KICB9CgogIHJldHVybiBmaWxlczsKfQoKLyoqCiAqIENoZWNrIGlmIGZpbGUgc2hvdWxkIGJlIHNraXBwZWQKICovCmZ1bmN0aW9uIHNob3VsZFNraXAoZmlsZVBhdGgpIHsKICByZXR1cm4gc2tpcFBhdHRlcm5zLnNvbWUocGF0dGVybiA9PiBwYXR0ZXJuLnRlc3QoZmlsZVBhdGgpKTsKfQoKLyoqCiAqIFNjYW4gZmlsZSBmb3IgdmlvbGF0aW9ucwogKi8KZnVuY3Rpb24gc2NhbkZpbGUoZmlsZVBhdGgpIHsKICBjb25zdCBjb250ZW50ID0gZnMucmVhZEZpbGVTeW5jKGZpbGVQYXRoLCAndXRmLTgnKTsKICBjb25zdCBsaW5lcyA9IGNvbnRlbnQuc3BsaXQoJ1xuJyk7CiAgY29uc3QgdmlvbGF0aW9ucyA9IFtdOwoKICBsaW5lcy5mb3JFYWNoKChsaW5lLCBpbmRleCkgPT4gewogICAgLy8gU2tpcCBjb21tZW50cwogICAgaWYgKGxpbmUudHJpbSgpLnN0YXJ0c1dpdGgoJy8vJykgfHwgbGluZS50cmltKCkuc3RhcnRzV2l0aCgnLyonKSkgewogICAgICByZXR1cm47CiAgICB9CgogICAgLy8gU2tpcCBsaW5lcyB0aGF0IGFscmVhZHkgdXNlIENTUyB2YXJpYWJsZXMKICAgIGlmIChsaW5lLmluY2x1ZGVzKCd2YXIoLS0nKSkgewogICAgICByZXR1cm47CiAgICB9CgogICAgZm9yIChjb25zdCBbbmFtZSwgcGF0dGVybl0gb2YgT2JqZWN0LmVudHJpZXMocGF0dGVybnMpKSB7CiAgICAgIGNvbnN0IG1hdGNoZXMgPSBsaW5lLm1hdGNoKHBhdHRlcm4ucmVnZXgpOwogICAgICBpZiAobWF0Y2hlcykgewogICAgICAgIG1hdGNoZXMuZm9yRWFjaChtYXRjaCA9PiB7CiAgICAgICAgICAvLyBTa2lwIGNvbW1vbiBleGNlcHRpb25zCiAgICAgICAgICBpZiAobmFtZSA9PT0gJ2hleENvbG9yJyAmJiBbJyMwMDAnLCAnI2ZmZicsICcjRkZGJywgJyMwMDAwMDAnLCAnI0ZGRkZGRiddLmluY2x1ZGVzKG1hdGNoLnRvVXBwZXJDYXNlKCkpKSB7CiAgICAgICAgICAgIHJldHVybjsgLy8gU2tpcCBibGFjay93aGl0ZSwgb2Z0ZW4gaW50ZW50aW9uYWwKICAgICAgICAgIH0KCiAgICAgICAgICB2aW9sYXRpb25zLnB1c2goewogICAgICAgICAgICBmaWxlOiBmaWxlUGF0aCwKICAgICAgICAgICAgbGluZTogaW5kZXggKyAxLAogICAgICAgICAgICBjb2x1bW46IGxpbmUuaW5kZXhPZihtYXRjaCkgKyAxLAogICAgICAgICAgICB2YWx1ZTogbWF0Y2gsCiAgICAgICAgICAgIHR5cGU6IG5hbWUsCiAgICAgICAgICAgIG1lc3NhZ2U6IHBhdHRlcm4ubWVzc2FnZSwKICAgICAgICAgICAgc3VnZ2VzdGlvbjogcGF0dGVybi5zdWdnZXN0aW9uLAogICAgICAgICAgICBjb250ZXh0OiBsaW5lLnRyaW0oKS5zdWJzdHJpbmcoMCwgODApCiAgICAgICAgICB9KTsKICAgICAgICB9KTsKICAgICAgfQogICAgfQogIH0pOwoKICByZXR1cm4gdmlvbGF0aW9uczsKfQoKLyoqCiAqIEZvcm1hdCB2aW9sYXRpb24gcmVwb3J0CiAqLwpmdW5jdGlvbiBmb3JtYXRSZXBvcnQodmlvbGF0aW9ucykgewogIGlmICh2aW9sYXRpb25zLmxlbmd0aCA9PT0gMCkgewogICAgcmV0dXJuICfinIUgTm8gdG9rZW4gdmlvbGF0aW9ucyBmb3VuZCc7CiAgfQoKICBsZXQgcmVwb3J0ID0gYOKaoO+4jyAgRm91bmQgJHt2aW9sYXRpb25zLmxlbmd0aH0gcG90ZW50aWFsIHRva2VuIHZpb2xhdGlvbnM6XG5cbmA7CgogIC8vIEdyb3VwIGJ5IGZpbGUKICBjb25zdCBieUZpbGUgPSB7fTsKICB2aW9sYXRpb25zLmZvckVhY2godiA9PiB7CiAgICBpZiAoIWJ5RmlsZVt2LmZpbGVdKSBieUZpbGVbdi5maWxlXSA9IFtdOwogICAgYnlGaWxlW3YuZmlsZV0ucHVzaCh2KTsKICB9KTsKCiAgZm9yIChjb25zdCBbZmlsZSwgZmlsZVZpb2xhdGlvbnNdIG9mIE9iamVjdC5lbnRyaWVzKGJ5RmlsZSkpIHsKICAgIHJlcG9ydCArPSBg8J+TgSAke2ZpbGV9XG5gOwogICAgZmlsZVZpb2xhdGlvbnMuZm9yRWFjaCh2ID0+IHsKICAgICAgcmVwb3J0ICs9IGAgICBMaW5lICR7di5saW5lfTogJHt2Lm1lc3NhZ2V9XG5gOwogICAgICByZXBvcnQgKz0gYCAgIEZvdW5kOiAke3YudmFsdWV9XG5gOwogICAgICByZXBvcnQgKz0gYCAgIFN1Z2dlc3Rpb246ICR7di5zdWdnZXN0aW9ufVxuYDsKICAgICAgcmVwb3J0ICs9IGAgICBDb250ZXh0OiAke3YuY29udGV4dH1cblxuYDsKICAgIH0pOwogIH0KCiAgLy8gU3VtbWFyeQogIGNvbnN0IGJ5VHlwZSA9IHt9OwogIHZpb2xhdGlvbnMuZm9yRWFjaCh2ID0+IHsKICAgIGJ5VHlwZVt2LnR5cGVdID0gKGJ5VHlwZVt2LnR5cGVdIHx8IDApICsgMTsKICB9KTsKCiAgcmVwb3J0ICs9IGBcbvCfk4ogU3VtbWFyeTpcbmA7CiAgZm9yIChjb25zdCBbdHlwZSwgY291bnRdIG9mIE9iamVjdC5lbnRyaWVzKGJ5VHlwZSkpIHsKICAgIHJlcG9ydCArPSBgICAgJHtwYXR0ZXJuc1t0eXBlXS5tZXNzYWdlfTogJHtjb3VudH1cbmA7CiAgfQoKICByZXR1cm4gcmVwb3J0Owp9CgovKioKICogTWFpbgogKi8KZnVuY3Rpb24gbWFpbigpIHsKICBjb25zdCBvcHRpb25zID0gcGFyc2VBcmdzKCk7CgogIGlmICghb3B0aW9ucy5kaXIpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yOiAtLWRpciBpcyByZXF1aXJlZCcpOwogICAgcHJvY2Vzcy5leGl0KDEpOwogIH0KCiAgY29uc3QgZGlyUGF0aCA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCBvcHRpb25zLmRpcik7CgogIGlmICghZnMuZXhpc3RzU3luYyhkaXJQYXRoKSkgewogICAgY29uc29sZS5lcnJvcihgRXJyb3I6IERpcmVjdG9yeSBub3QgZm91bmQ6ICR7ZGlyUGF0aH1gKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CgogIGNvbnNvbGUubG9nKGBTY2FubmluZyAke2RpclBhdGh9IGZvciB0b2tlbiB2aW9sYXRpb25zLi4uXG5gKTsKCiAgY29uc3QgZmlsZXMgPSBnZXRGaWxlcyhkaXJQYXRoLCBvcHRpb25zLmlnbm9yZSk7CiAgY29uc3QgYWxsVmlvbGF0aW9ucyA9IFtdOwoKICBmb3IgKGNvbnN0IGZpbGUgb2YgZmlsZXMpIHsKICAgIGlmIChzaG91bGRTa2lwKGZpbGUpKSBjb250aW51ZTsKCiAgICBjb25zdCB2aW9sYXRpb25zID0gc2NhbkZpbGUoZmlsZSk7CiAgICBhbGxWaW9sYXRpb25zLnB1c2goLi4udmlvbGF0aW9ucyk7CiAgfQoKICBjb25zb2xlLmxvZyhmb3JtYXRSZXBvcnQoYWxsVmlvbGF0aW9ucykpOwoKICAvLyBFeGl0IHdpdGggZXJyb3IgY29kZSBpZiB2aW9sYXRpb25zIGZvdW5kCiAgaWYgKGFsbFZpb2xhdGlvbnMubGVuZ3RoID4gMCkgewogICAgcHJvY2Vzcy5leGl0KDEpOwogIH0KfQoKbWFpbigpOwo=
+#!/usr/bin/env node
+/**
+ * Validate token usage in codebase
+ * Finds hardcoded values that should use design tokens
+ *
+ * Usage:
+ *   node validate-tokens.cjs --dir src/
+ *   node validate-tokens.cjs --dir src/ --fix
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+/**
+ * Parse command line arguments
+ */
+function parseArgs() {
+  const args = process.argv.slice(2);
+  const options = {
+    dir: null,
+    fix: false,
+    ignore: ['node_modules', '.git', 'dist', 'build', '.next']
+  };
+
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] === '--dir' || args[i] === '-d') {
+      options.dir = args[++i];
+    } else if (args[i] === '--fix') {
+      options.fix = true;
+    } else if (args[i] === '--ignore' || args[i] === '-i') {
+      options.ignore.push(args[++i]);
+    } else if (args[i] === '--help' || args[i] === '-h') {
+      console.log(`
+Usage: node validate-tokens.cjs [options]
+
+Options:
+  -d, --dir <path>      Directory to scan (required)
+  --fix                 Show suggested fixes (no auto-fix)
+  -i, --ignore <dir>    Additional directories to ignore
+  -h, --help            Show this help
+
+Checks for:
+  - Hardcoded hex colors (#RGB, #RRGGBB)
+  - Hardcoded pixel values (except 0, 1px)
+  - Hardcoded rem values in CSS
+      `);
+      process.exit(0);
+    }
+  }
+
+  return options;
+}
+
+/**
+ * Patterns to detect hardcoded values
+ */
+const patterns = {
+  hexColor: {
+    regex: /#([0-9A-Fa-f]{3}){1,2}\b/g,
+    message: 'Hardcoded hex color',
+    suggestion: 'Use var(--color-*) token'
+  },
+  rgbColor: {
+    regex: /rgb\s*\(\s*\d+\s*,\s*\d+\s*,\s*\d+\s*\)/gi,
+    message: 'Hardcoded RGB color',
+    suggestion: 'Use var(--color-*) token'
+  },
+  pixelValue: {
+    regex: /:\s*(\d{2,})px/g, // 2+ digit px values
+    message: 'Hardcoded pixel value',
+    suggestion: 'Use var(--space-*) or var(--radius-*) token'
+  },
+  remValue: {
+    regex: /:\s*\d+\.?\d*rem(?![^{]*\$value)/g, // rem not in token definition
+    message: 'Hardcoded rem value',
+    suggestion: 'Use var(--space-*) or var(--font-size-*) token'
+  }
+};
+
+/**
+ * File extensions to scan
+ */
+const extensions = ['.css', '.scss', '.tsx', '.jsx', '.ts', '.js', '.vue', '.svelte'];
+
+/**
+ * Files/patterns to skip
+ */
+const skipPatterns = [
+  /\.min\.(css|js)$/,
+  /tailwind\.config/,
+  /globals\.css/, // Token definitions
+  /tokens\.(css|json)/
+];
+
+/**
+ * Get all files recursively
+ */
+function getFiles(dir, ignore, files = []) {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) {
+      if (!ignore.includes(entry.name)) {
+        getFiles(fullPath, ignore, files);
+      }
+    } else if (entry.isFile()) {
+      const ext = path.extname(entry.name);
+      if (extensions.includes(ext)) {
+        files.push(fullPath);
+      }
+    }
+  }
+
+  return files;
+}
+
+/**
+ * Check if file should be skipped
+ */
+function shouldSkip(filePath) {
+  return skipPatterns.some(pattern => pattern.test(filePath));
+}
+
+/**
+ * Scan file for violations
+ */
+function scanFile(filePath) {
+  const content = fs.readFileSync(filePath, 'utf-8');
+  const lines = content.split('\n');
+  const violations = [];
+
+  lines.forEach((line, index) => {
+    // Skip comments
+    if (line.trim().startsWith('//') || line.trim().startsWith('/*')) {
+      return;
+    }
+
+    // Skip lines that already use CSS variables
+    if (line.includes('var(--')) {
+      return;
+    }
+
+    for (const [name, pattern] of Object.entries(patterns)) {
+      const matches = line.match(pattern.regex);
+      if (matches) {
+        matches.forEach(match => {
+          // Skip common exceptions
+          if (name === 'hexColor' && ['#000', '#fff', '#FFF', '#000000', '#FFFFFF'].includes(match.toUpperCase())) {
+            return; // Skip black/white, often intentional
+          }
+
+          violations.push({
+            file: filePath,
+            line: index + 1,
+            column: line.indexOf(match) + 1,
+            value: match,
+            type: name,
+            message: pattern.message,
+            suggestion: pattern.suggestion,
+            context: line.trim().substring(0, 80)
+          });
+        });
+      }
+    }
+  });
+
+  return violations;
+}
+
+/**
+ * Format violation report
+ */
+function formatReport(violations) {
+  if (violations.length === 0) {
+    return '✅ No token violations found';
+  }
+
+  let report = `⚠️  Found ${violations.length} potential token violations:\n\n`;
+
+  // Group by file
+  const byFile = {};
+  violations.forEach(v => {
+    if (!byFile[v.file]) byFile[v.file] = [];
+    byFile[v.file].push(v);
+  });
+
+  for (const [file, fileViolations] of Object.entries(byFile)) {
+    report += `📁 ${file}\n`;
+    fileViolations.forEach(v => {
+      report += `   Line ${v.line}: ${v.message}\n`;
+      report += `   Found: ${v.value}\n`;
+      report += `   Suggestion: ${v.suggestion}\n`;
+      report += `   Context: ${v.context}\n\n`;
+    });
+  }
+
+  // Summary
+  const byType = {};
+  violations.forEach(v => {
+    byType[v.type] = (byType[v.type] || 0) + 1;
+  });
+
+  report += `\n📊 Summary:\n`;
+  for (const [type, count] of Object.entries(byType)) {
+    report += `   ${patterns[type].message}: ${count}\n`;
+  }
+
+  return report;
+}
+
+/**
+ * Main
+ */
+function main() {
+  const options = parseArgs();
+
+  if (!options.dir) {
+    console.error('Error: --dir is required');
+    process.exit(1);
+  }
+
+  const dirPath = path.resolve(process.cwd(), options.dir);
+
+  if (!fs.existsSync(dirPath)) {
+    console.error(`Error: Directory not found: ${dirPath}`);
+    process.exit(1);
+  }
+
+  console.log(`Scanning ${dirPath} for token violations...\n`);
+
+  const files = getFiles(dirPath, options.ignore);
+  const allViolations = [];
+
+  for (const file of files) {
+    if (shouldSkip(file)) continue;
+
+    const violations = scanFile(file);
+    allViolations.push(...violations);
+  }
+
+  console.log(formatReport(allViolations));
+
+  // Exit with error code if violations found
+  if (allViolations.length > 0) {
+    process.exit(1);
+  }
+}
+
+main();

@@ -1,1 +1,215 @@
-IyBTZW1hbnRpYyBUb2tlbnMKClB1cnBvc2UtYmFzZWQgYWxpYXNlcyByZWZlcmVuY2luZyBwcmltaXRpdmUgdG9rZW5zLgoKIyMgQ29sb3IgU2VtYW50aWNzCgojIyMgQmFja2dyb3VuZCAmIEZvcmVncm91bmQKCmBgYGNzcwo6cm9vdCB7CiAgLyogUGFnZSBiYWNrZ3JvdW5kICovCiAgLS1jb2xvci1iYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTUwKTsKICAtLWNvbG9yLWZvcmVncm91bmQ6IHZhcigtLWNvbG9yLWdyYXktOTAwKTsKCiAgLyogQ2FyZC9zdXJmYWNlIGJhY2tncm91bmQgKi8KICAtLWNvbG9yLWNhcmQ6IHdoaXRlOwogIC0tY29sb3ItY2FyZC1mb3JlZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTkwMCk7CgogIC8qIFBvcG92ZXIvZHJvcGRvd24gKi8KICAtLWNvbG9yLXBvcG92ZXI6IHdoaXRlOwogIC0tY29sb3ItcG9wb3Zlci1mb3JlZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTkwMCk7Cn0KYGBgCgojIyMgUHJpbWFyeQoKYGBgY3NzCjpyb290IHsKICAtLWNvbG9yLXByaW1hcnk6IHZhcigtLWNvbG9yLWJsdWUtNjAwKTsKICAtLWNvbG9yLXByaW1hcnktaG92ZXI6IHZhcigtLWNvbG9yLWJsdWUtNzAwKTsKICAtLWNvbG9yLXByaW1hcnktYWN0aXZlOiB2YXIoLS1jb2xvci1ibHVlLTgwMCk7CiAgLS1jb2xvci1wcmltYXJ5LWZvcmVncm91bmQ6IHdoaXRlOwp9CmBgYAoKIyMjIFNlY29uZGFyeQoKYGBgY3NzCjpyb290IHsKICAtLWNvbG9yLXNlY29uZGFyeTogdmFyKC0tY29sb3ItZ3JheS0xMDApOwogIC0tY29sb3Itc2Vjb25kYXJ5LWhvdmVyOiB2YXIoLS1jb2xvci1ncmF5LTIwMCk7CiAgLS1jb2xvci1zZWNvbmRhcnktZm9yZWdyb3VuZDogdmFyKC0tY29sb3ItZ3JheS05MDApOwp9CmBgYAoKIyMjIE11dGVkCgpgYGBjc3MKOnJvb3QgewogIC0tY29sb3ItbXV0ZWQ6IHZhcigtLWNvbG9yLWdyYXktMTAwKTsKICAtLWNvbG9yLW11dGVkLWZvcmVncm91bmQ6IHZhcigtLWNvbG9yLWdyYXktNTAwKTsKfQpgYGAKCiMjIyBBY2NlbnQKCmBgYGNzcwo6cm9vdCB7CiAgLS1jb2xvci1hY2NlbnQ6IHZhcigtLWNvbG9yLWdyYXktMTAwKTsKICAtLWNvbG9yLWFjY2VudC1mb3JlZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTkwMCk7Cn0KYGBgCgojIyMgRGVzdHJ1Y3RpdmUKCmBgYGNzcwo6cm9vdCB7CiAgLS1jb2xvci1kZXN0cnVjdGl2ZTogdmFyKC0tY29sb3ItcmVkLTYwMCk7CiAgLS1jb2xvci1kZXN0cnVjdGl2ZS1ob3ZlcjogdmFyKC0tY29sb3ItcmVkLTcwMCk7CiAgLS1jb2xvci1kZXN0cnVjdGl2ZS1mb3JlZ3JvdW5kOiB3aGl0ZTsKfQpgYGAKCiMjIyBTdGF0dXMgQ29sb3JzCgpgYGBjc3MKOnJvb3QgewogIC0tY29sb3Itc3VjY2VzczogdmFyKC0tY29sb3ItZ3JlZW4tNjAwKTsKICAtLWNvbG9yLXN1Y2Nlc3MtZm9yZWdyb3VuZDogd2hpdGU7CgogIC0tY29sb3Itd2FybmluZzogdmFyKC0tY29sb3IteWVsbG93LTUwMCk7CiAgLS1jb2xvci13YXJuaW5nLWZvcmVncm91bmQ6IHZhcigtLWNvbG9yLWdyYXktOTAwKTsKCiAgLS1jb2xvci1lcnJvcjogdmFyKC0tY29sb3ItcmVkLTYwMCk7CiAgLS1jb2xvci1lcnJvci1mb3JlZ3JvdW5kOiB3aGl0ZTsKCiAgLS1jb2xvci1pbmZvOiB2YXIoLS1jb2xvci1ibHVlLTUwMCk7CiAgLS1jb2xvci1pbmZvLWZvcmVncm91bmQ6IHdoaXRlOwp9CmBgYAoKIyMjIEJvcmRlciAmIFJpbmcKCmBgYGNzcwo6cm9vdCB7CiAgLS1jb2xvci1ib3JkZXI6IHZhcigtLWNvbG9yLWdyYXktMjAwKTsKICAtLWNvbG9yLWlucHV0OiB2YXIoLS1jb2xvci1ncmF5LTIwMCk7CiAgLS1jb2xvci1yaW5nOiB2YXIoLS1jb2xvci1ibHVlLTUwMCk7Cn0KYGBgCgojIyBTcGFjaW5nIFNlbWFudGljcwoKYGBgY3NzCjpyb290IHsKICAvKiBDb21wb25lbnQgaW50ZXJuYWwgc3BhY2luZyAqLwogIC0tc3BhY2luZy1jb21wb25lbnQteHM6IHZhcigtLXNwYWNlLTEpOwogIC0tc3BhY2luZy1jb21wb25lbnQtc206IHZhcigtLXNwYWNlLTIpOwogIC0tc3BhY2luZy1jb21wb25lbnQ6IHZhcigtLXNwYWNlLTMpOwogIC0tc3BhY2luZy1jb21wb25lbnQtbGc6IHZhcigtLXNwYWNlLTQpOwoKICAvKiBTZWN0aW9uIHNwYWNpbmcgKi8KICAtLXNwYWNpbmctc2VjdGlvbi1zbTogdmFyKC0tc3BhY2UtOCk7CiAgLS1zcGFjaW5nLXNlY3Rpb246IHZhcigtLXNwYWNlLTEyKTsKICAtLXNwYWNpbmctc2VjdGlvbi1sZzogdmFyKC0tc3BhY2UtMTYpOwoKICAvKiBQYWdlIG1hcmdpbnMgKi8KICAtLXNwYWNpbmctcGFnZS14OiB2YXIoLS1zcGFjZS00KTsKICAtLXNwYWNpbmctcGFnZS15OiB2YXIoLS1zcGFjZS02KTsKfQpgYGAKCiMjIFR5cG9ncmFwaHkgU2VtYW50aWNzCgpgYGBjc3MKOnJvb3QgewogIC8qIEhlYWRpbmdzICovCiAgLS1mb250LWhlYWRpbmc6IHZhcigtLWZvbnQtc2l6ZS0yeGwpOwogIC0tZm9udC1oZWFkaW5nLWxnOiB2YXIoLS1mb250LXNpemUtM3hsKTsKICAtLWZvbnQtaGVhZGluZy14bDogdmFyKC0tZm9udC1zaXplLTR4bCk7CgogIC8qIEJvZHkgKi8KICAtLWZvbnQtYm9keTogdmFyKC0tZm9udC1zaXplLWJhc2UpOwogIC0tZm9udC1ib2R5LXNtOiB2YXIoLS1mb250LXNpemUtc20pOwogIC0tZm9udC1ib2R5LWxnOiB2YXIoLS1mb250LXNpemUtbGcpOwoKICAvKiBMYWJlbHMgJiBDYXB0aW9ucyAqLwogIC0tZm9udC1sYWJlbDogdmFyKC0tZm9udC1zaXplLXNtKTsKICAtLWZvbnQtY2FwdGlvbjogdmFyKC0tZm9udC1zaXplLXhzKTsKfQpgYGAKCiMjIEludGVyYWN0aXZlIFN0YXRlcwoKYGBgY3NzCjpyb290IHsKICAvKiBGb2N1cyByaW5nICovCiAgLS1yaW5nLXdpZHRoOiAycHg7CiAgLS1yaW5nLW9mZnNldDogMnB4OwogIC0tcmluZy1jb2xvcjogdmFyKC0tY29sb3ItcmluZyk7CgogIC8qIE9wYWNpdHkgZm9yIGRpc2FibGVkICovCiAgLS1vcGFjaXR5LWRpc2FibGVkOiAwLjU7CgogIC8qIFRyYW5zaXRpb25zICovCiAgLS10cmFuc2l0aW9uLWNvbG9yczogY29sb3IsIGJhY2tncm91bmQtY29sb3IsIGJvcmRlci1jb2xvcjsKICAtLXRyYW5zaXRpb24tdHJhbnNmb3JtOiB0cmFuc2Zvcm07CiAgLS10cmFuc2l0aW9uLWFsbDogYWxsOwp9CmBgYAoKIyMgRGFyayBNb2RlIE92ZXJyaWRlcwoKYGBgY3NzCi5kYXJrIHsKICAtLWNvbG9yLWJhY2tncm91bmQ6IHZhcigtLWNvbG9yLWdyYXktOTUwKTsKICAtLWNvbG9yLWZvcmVncm91bmQ6IHZhcigtLWNvbG9yLWdyYXktNTApOwoKICAtLWNvbG9yLWNhcmQ6IHZhcigtLWNvbG9yLWdyYXktOTAwKTsKICAtLWNvbG9yLWNhcmQtZm9yZWdyb3VuZDogdmFyKC0tY29sb3ItZ3JheS01MCk7CgogIC0tY29sb3ItcG9wb3ZlcjogdmFyKC0tY29sb3ItZ3JheS05MDApOwogIC0tY29sb3ItcG9wb3Zlci1mb3JlZ3JvdW5kOiB2YXIoLS1jb2xvci1ncmF5LTUwKTsKCiAgLS1jb2xvci1tdXRlZDogdmFyKC0tY29sb3ItZ3JheS04MDApOwogIC0tY29sb3ItbXV0ZWQtZm9yZWdyb3VuZDogdmFyKC0tY29sb3ItZ3JheS00MDApOwoKICAtLWNvbG9yLXNlY29uZGFyeTogdmFyKC0tY29sb3ItZ3JheS04MDApOwogIC0tY29sb3Itc2Vjb25kYXJ5LWZvcmVncm91bmQ6IHZhcigtLWNvbG9yLWdyYXktNTApOwoKICAtLWNvbG9yLWFjY2VudDogdmFyKC0tY29sb3ItZ3JheS04MDApOwogIC0tY29sb3ItYWNjZW50LWZvcmVncm91bmQ6IHZhcigtLWNvbG9yLWdyYXktNTApOwoKICAtLWNvbG9yLWJvcmRlcjogdmFyKC0tY29sb3ItZ3JheS04MDApOwogIC0tY29sb3ItaW5wdXQ6IHZhcigtLWNvbG9yLWdyYXktODAwKTsKfQpgYGAKCiMjIFVzYWdlIFBhdHRlcm5zCgojIyMgQXBwbHlpbmcgU2VtYW50aWMgVG9rZW5zCgpgYGBjc3MKLyogR29vZCAtIHVzZXMgc2VtYW50aWMgdG9rZW5zICovCi5jYXJkIHsKICBiYWNrZ3JvdW5kOiB2YXIoLS1jb2xvci1jYXJkKTsKICBjb2xvcjogdmFyKC0tY29sb3ItY2FyZC1mb3JlZ3JvdW5kKTsKICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1jb2xvci1ib3JkZXIpOwp9CgovKiBCYWQgLSB1c2VzIHByaW1pdGl2ZSB0b2tlbnMgZGlyZWN0bHkgKi8KLmNhcmQgewogIGJhY2tncm91bmQ6IHZhcigtLWNvbG9yLWdyYXktNTApOwogIGNvbG9yOiB2YXIoLS1jb2xvci1ncmF5LTkwMCk7Cn0KYGBgCgojIyMgVGhlbWUgU3dpdGNoaW5nCgpTZW1hbnRpYyB0b2tlbnMgZW5hYmxlIGluc3RhbnQgdGhlbWUgc3dpdGNoaW5nOgoKYGBganMKLy8gVG9nZ2xlIGRhcmsgbW9kZQpkb2N1bWVudC5kb2N1bWVudEVsZW1lbnQuY2xhc3NMaXN0LnRvZ2dsZSgnZGFyaycpOwpgYGAK
+# Semantic Tokens
+
+Purpose-based aliases referencing primitive tokens.
+
+## Color Semantics
+
+### Background & Foreground
+
+```css
+:root {
+  /* Page background */
+  --color-background: var(--color-gray-50);
+  --color-foreground: var(--color-gray-900);
+
+  /* Card/surface background */
+  --color-card: white;
+  --color-card-foreground: var(--color-gray-900);
+
+  /* Popover/dropdown */
+  --color-popover: white;
+  --color-popover-foreground: var(--color-gray-900);
+}
+```
+
+### Primary
+
+```css
+:root {
+  --color-primary: var(--color-blue-600);
+  --color-primary-hover: var(--color-blue-700);
+  --color-primary-active: var(--color-blue-800);
+  --color-primary-foreground: white;
+}
+```
+
+### Secondary
+
+```css
+:root {
+  --color-secondary: var(--color-gray-100);
+  --color-secondary-hover: var(--color-gray-200);
+  --color-secondary-foreground: var(--color-gray-900);
+}
+```
+
+### Muted
+
+```css
+:root {
+  --color-muted: var(--color-gray-100);
+  --color-muted-foreground: var(--color-gray-500);
+}
+```
+
+### Accent
+
+```css
+:root {
+  --color-accent: var(--color-gray-100);
+  --color-accent-foreground: var(--color-gray-900);
+}
+```
+
+### Destructive
+
+```css
+:root {
+  --color-destructive: var(--color-red-600);
+  --color-destructive-hover: var(--color-red-700);
+  --color-destructive-foreground: white;
+}
+```
+
+### Status Colors
+
+```css
+:root {
+  --color-success: var(--color-green-600);
+  --color-success-foreground: white;
+
+  --color-warning: var(--color-yellow-500);
+  --color-warning-foreground: var(--color-gray-900);
+
+  --color-error: var(--color-red-600);
+  --color-error-foreground: white;
+
+  --color-info: var(--color-blue-500);
+  --color-info-foreground: white;
+}
+```
+
+### Border & Ring
+
+```css
+:root {
+  --color-border: var(--color-gray-200);
+  --color-input: var(--color-gray-200);
+  --color-ring: var(--color-blue-500);
+}
+```
+
+## Spacing Semantics
+
+```css
+:root {
+  /* Component internal spacing */
+  --spacing-component-xs: var(--space-1);
+  --spacing-component-sm: var(--space-2);
+  --spacing-component: var(--space-3);
+  --spacing-component-lg: var(--space-4);
+
+  /* Section spacing */
+  --spacing-section-sm: var(--space-8);
+  --spacing-section: var(--space-12);
+  --spacing-section-lg: var(--space-16);
+
+  /* Page margins */
+  --spacing-page-x: var(--space-4);
+  --spacing-page-y: var(--space-6);
+}
+```
+
+## Typography Semantics
+
+```css
+:root {
+  /* Headings */
+  --font-heading: var(--font-size-2xl);
+  --font-heading-lg: var(--font-size-3xl);
+  --font-heading-xl: var(--font-size-4xl);
+
+  /* Body */
+  --font-body: var(--font-size-base);
+  --font-body-sm: var(--font-size-sm);
+  --font-body-lg: var(--font-size-lg);
+
+  /* Labels & Captions */
+  --font-label: var(--font-size-sm);
+  --font-caption: var(--font-size-xs);
+}
+```
+
+## Interactive States
+
+```css
+:root {
+  /* Focus ring */
+  --ring-width: 2px;
+  --ring-offset: 2px;
+  --ring-color: var(--color-ring);
+
+  /* Opacity for disabled */
+  --opacity-disabled: 0.5;
+
+  /* Transitions */
+  --transition-colors: color, background-color, border-color;
+  --transition-transform: transform;
+  --transition-all: all;
+}
+```
+
+## Dark Mode Overrides
+
+```css
+.dark {
+  --color-background: var(--color-gray-950);
+  --color-foreground: var(--color-gray-50);
+
+  --color-card: var(--color-gray-900);
+  --color-card-foreground: var(--color-gray-50);
+
+  --color-popover: var(--color-gray-900);
+  --color-popover-foreground: var(--color-gray-50);
+
+  --color-muted: var(--color-gray-800);
+  --color-muted-foreground: var(--color-gray-400);
+
+  --color-secondary: var(--color-gray-800);
+  --color-secondary-foreground: var(--color-gray-50);
+
+  --color-accent: var(--color-gray-800);
+  --color-accent-foreground: var(--color-gray-50);
+
+  --color-border: var(--color-gray-800);
+  --color-input: var(--color-gray-800);
+}
+```
+
+## Usage Patterns
+
+### Applying Semantic Tokens
+
+```css
+/* Good - uses semantic tokens */
+.card {
+  background: var(--color-card);
+  color: var(--color-card-foreground);
+  border: 1px solid var(--color-border);
+}
+
+/* Bad - uses primitive tokens directly */
+.card {
+  background: var(--color-gray-50);
+  color: var(--color-gray-900);
+}
+```
+
+### Theme Switching
+
+Semantic tokens enable instant theme switching:
+
+```js
+// Toggle dark mode
+document.documentElement.classList.toggle('dark');
+```

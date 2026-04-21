@@ -1,1 +1,373 @@
-IiIiTUNQIFNlcnZlciBFdmFsdWF0aW9uIEhhcm5lc3MKClRoaXMgc2NyaXB0IGV2YWx1YXRlcyBNQ1Agc2VydmVycyBieSBydW5uaW5nIHRlc3QgcXVlc3Rpb25zIGFnYWluc3QgdGhlbSB1c2luZyBDbGF1ZGUuCiIiIgoKaW1wb3J0IGFyZ3BhcnNlCmltcG9ydCBhc3luY2lvCmltcG9ydCBqc29uCmltcG9ydCByZQppbXBvcnQgc3lzCmltcG9ydCB0aW1lCmltcG9ydCB0cmFjZWJhY2sKaW1wb3J0IHhtbC5ldHJlZS5FbGVtZW50VHJlZSBhcyBFVApmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKZnJvbSB0eXBpbmcgaW1wb3J0IEFueQoKZnJvbSBhbnRocm9waWMgaW1wb3J0IEFudGhyb3BpYwoKZnJvbSBjb25uZWN0aW9ucyBpbXBvcnQgY3JlYXRlX2Nvbm5lY3Rpb24KCkVWQUxVQVRJT05fUFJPTVBUID0gIiIiWW91IGFyZSBhbiBBSSBhc3Npc3RhbnQgd2l0aCBhY2Nlc3MgdG8gdG9vbHMuCgpXaGVuIGdpdmVuIGEgdGFzaywgeW91IE1VU1Q6CjEuIFVzZSB0aGUgYXZhaWxhYmxlIHRvb2xzIHRvIGNvbXBsZXRlIHRoZSB0YXNrCjIuIFByb3ZpZGUgc3VtbWFyeSBvZiBlYWNoIHN0ZXAgaW4geW91ciBhcHByb2FjaCwgd3JhcHBlZCBpbiA8c3VtbWFyeT4gdGFncwozLiBQcm92aWRlIGZlZWRiYWNrIG9uIHRoZSB0b29scyBwcm92aWRlZCwgd3JhcHBlZCBpbiA8ZmVlZGJhY2s+IHRhZ3MKNC4gUHJvdmlkZSB5b3VyIGZpbmFsIHJlc3BvbnNlLCB3cmFwcGVkIGluIDxyZXNwb25zZT4gdGFncwoKU3VtbWFyeSBSZXF1aXJlbWVudHM6Ci0gSW4geW91ciA8c3VtbWFyeT4gdGFncywgeW91IG11c3QgZXhwbGFpbjoKICAtIFRoZSBzdGVwcyB5b3UgdG9vayB0byBjb21wbGV0ZSB0aGUgdGFzawogIC0gV2hpY2ggdG9vbHMgeW91IHVzZWQsIGluIHdoYXQgb3JkZXIsIGFuZCB3aHkKICAtIFRoZSBpbnB1dHMgeW91IHByb3ZpZGVkIHRvIGVhY2ggdG9vbAogIC0gVGhlIG91dHB1dHMgeW91IHJlY2VpdmVkIGZyb20gZWFjaCB0b29sCiAgLSBBIHN1bW1hcnkgZm9yIGhvdyB5b3UgYXJyaXZlZCBhdCB0aGUgcmVzcG9uc2UKCkZlZWRiYWNrIFJlcXVpcmVtZW50czoKLSBJbiB5b3VyIDxmZWVkYmFjaz4gdGFncywgcHJvdmlkZSBjb25zdHJ1Y3RpdmUgZmVlZGJhY2sgb24gdGhlIHRvb2xzOgogIC0gQ29tbWVudCBvbiB0b29sIG5hbWVzOiBBcmUgdGhleSBjbGVhciBhbmQgZGVzY3JpcHRpdmU/CiAgLSBDb21tZW50IG9uIGlucHV0IHBhcmFtZXRlcnM6IEFyZSB0aGV5IHdlbGwtZG9jdW1lbnRlZD8gQXJlIHJlcXVpcmVkIHZzIG9wdGlvbmFsIHBhcmFtZXRlcnMgY2xlYXI/CiAgLSBDb21tZW50IG9uIGRlc2NyaXB0aW9uczogRG8gdGhleSBhY2N1cmF0ZWx5IGRlc2NyaWJlIHdoYXQgdGhlIHRvb2wgZG9lcz8KICAtIENvbW1lbnQgb24gYW55IGVycm9ycyBlbmNvdW50ZXJlZCBkdXJpbmcgdG9vbCB1c2FnZTogRGlkIHRoZSB0b29sIGZhaWwgdG8gZXhlY3V0ZT8gRGlkIHRoZSB0b29sIHJldHVybiB0b28gbWFueSB0b2tlbnM/CiAgLSBJZGVudGlmeSBzcGVjaWZpYyBhcmVhcyBmb3IgaW1wcm92ZW1lbnQgYW5kIGV4cGxhaW4gV0hZIHRoZXkgd291bGQgaGVscAogIC0gQmUgc3BlY2lmaWMgYW5kIGFjdGlvbmFibGUgaW4geW91ciBzdWdnZXN0aW9ucwoKUmVzcG9uc2UgUmVxdWlyZW1lbnRzOgotIFlvdXIgcmVzcG9uc2Ugc2hvdWxkIGJlIGNvbmNpc2UgYW5kIGRpcmVjdGx5IGFkZHJlc3Mgd2hhdCB3YXMgYXNrZWQKLSBBbHdheXMgd3JhcCB5b3VyIGZpbmFsIHJlc3BvbnNlIGluIDxyZXNwb25zZT4gdGFncwotIElmIHlvdSBjYW5ub3Qgc29sdmUgdGhlIHRhc2sgcmV0dXJuIDxyZXNwb25zZT5OT1RfRk9VTkQ8L3Jlc3BvbnNlPgotIEZvciBudW1lcmljIHJlc3BvbnNlcywgcHJvdmlkZSBqdXN0IHRoZSBudW1iZXIKLSBGb3IgSURzLCBwcm92aWRlIGp1c3QgdGhlIElECi0gRm9yIG5hbWVzIG9yIHRleHQsIHByb3ZpZGUgdGhlIGV4YWN0IHRleHQgcmVxdWVzdGVkCi0gWW91ciByZXNwb25zZSBzaG91bGQgZ28gbGFzdCIiIgoKCmRlZiBwYXJzZV9ldmFsdWF0aW9uX2ZpbGUoZmlsZV9wYXRoOiBQYXRoKSAtPiBsaXN0W2RpY3Rbc3RyLCBBbnldXToKICAgICIiIlBhcnNlIFhNTCBldmFsdWF0aW9uIGZpbGUgd2l0aCBxYV9wYWlyIGVsZW1lbnRzLiIiIgogICAgdHJ5OgogICAgICAgIHRyZWUgPSBFVC5wYXJzZShmaWxlX3BhdGgpCiAgICAgICAgcm9vdCA9IHRyZWUuZ2V0cm9vdCgpCiAgICAgICAgZXZhbHVhdGlvbnMgPSBbXQoKICAgICAgICBmb3IgcWFfcGFpciBpbiByb290LmZpbmRhbGwoIi4vL3FhX3BhaXIiKToKICAgICAgICAgICAgcXVlc3Rpb25fZWxlbSA9IHFhX3BhaXIuZmluZCgicXVlc3Rpb24iKQogICAgICAgICAgICBhbnN3ZXJfZWxlbSA9IHFhX3BhaXIuZmluZCgiYW5zd2VyIikKCiAgICAgICAgICAgIGlmIHF1ZXN0aW9uX2VsZW0gaXMgbm90IE5vbmUgYW5kIGFuc3dlcl9lbGVtIGlzIG5vdCBOb25lOgogICAgICAgICAgICAgICAgZXZhbHVhdGlvbnMuYXBwZW5kKHsKICAgICAgICAgICAgICAgICAgICAicXVlc3Rpb24iOiAocXVlc3Rpb25fZWxlbS50ZXh0IG9yICIiKS5zdHJpcCgpLAogICAgICAgICAgICAgICAgICAgICJhbnN3ZXIiOiAoYW5zd2VyX2VsZW0udGV4dCBvciAiIikuc3RyaXAoKSwKICAgICAgICAgICAgICAgIH0pCgogICAgICAgIHJldHVybiBldmFsdWF0aW9ucwogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHByaW50KGYiRXJyb3IgcGFyc2luZyBldmFsdWF0aW9uIGZpbGUge2ZpbGVfcGF0aH06IHtlfSIpCiAgICAgICAgcmV0dXJuIFtdCgoKZGVmIGV4dHJhY3RfeG1sX2NvbnRlbnQodGV4dDogc3RyLCB0YWc6IHN0cikgLT4gc3RyIHwgTm9uZToKICAgICIiIkV4dHJhY3QgY29udGVudCBmcm9tIFhNTCB0YWdzLiIiIgogICAgcGF0dGVybiA9IHJmIjx7dGFnfT4oLio/KTwve3RhZ30+IgogICAgbWF0Y2hlcyA9IHJlLmZpbmRhbGwocGF0dGVybiwgdGV4dCwgcmUuRE9UQUxMKQogICAgcmV0dXJuIG1hdGNoZXNbLTFdLnN0cmlwKCkgaWYgbWF0Y2hlcyBlbHNlIE5vbmUKCgphc3luYyBkZWYgYWdlbnRfbG9vcCgKICAgIGNsaWVudDogQW50aHJvcGljLAogICAgbW9kZWw6IHN0ciwKICAgIHF1ZXN0aW9uOiBzdHIsCiAgICB0b29sczogbGlzdFtkaWN0W3N0ciwgQW55XV0sCiAgICBjb25uZWN0aW9uOiBBbnksCikgLT4gdHVwbGVbc3RyLCBkaWN0W3N0ciwgQW55XV06CiAgICAiIiJSdW4gdGhlIGFnZW50IGxvb3Agd2l0aCBNQ1AgdG9vbHMuIiIiCiAgICBtZXNzYWdlcyA9IFt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogcXVlc3Rpb259XQoKICAgIHJlc3BvbnNlID0gYXdhaXQgYXN5bmNpby50b190aHJlYWQoCiAgICAgICAgY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSwKICAgICAgICBtb2RlbD1tb2RlbCwKICAgICAgICBtYXhfdG9rZW5zPTQwOTYsCiAgICAgICAgc3lzdGVtPUVWQUxVQVRJT05fUFJPTVBULAogICAgICAgIG1lc3NhZ2VzPW1lc3NhZ2VzLAogICAgICAgIHRvb2xzPXRvb2xzLAogICAgKQoKICAgIG1lc3NhZ2VzLmFwcGVuZCh7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiByZXNwb25zZS5jb250ZW50fSkKCiAgICB0b29sX21ldHJpY3MgPSB7fQoKICAgIHdoaWxlIHJlc3BvbnNlLnN0b3BfcmVhc29uID09ICJ0b29sX3VzZSI6CiAgICAgICAgdG9vbF91c2UgPSBuZXh0KGJsb2NrIGZvciBibG9jayBpbiByZXNwb25zZS5jb250ZW50IGlmIGJsb2NrLnR5cGUgPT0gInRvb2xfdXNlIikKICAgICAgICB0b29sX25hbWUgPSB0b29sX3VzZS5uYW1lCiAgICAgICAgdG9vbF9pbnB1dCA9IHRvb2xfdXNlLmlucHV0CgogICAgICAgIHRvb2xfc3RhcnRfdHMgPSB0aW1lLnRpbWUoKQogICAgICAgIHRyeToKICAgICAgICAgICAgdG9vbF9yZXN1bHQgPSBhd2FpdCBjb25uZWN0aW9uLmNhbGxfdG9vbCh0b29sX25hbWUsIHRvb2xfaW5wdXQpCiAgICAgICAgICAgIHRvb2xfcmVzcG9uc2UgPSBqc29uLmR1bXBzKHRvb2xfcmVzdWx0KSBpZiBpc2luc3RhbmNlKHRvb2xfcmVzdWx0LCAoZGljdCwgbGlzdCkpIGVsc2Ugc3RyKHRvb2xfcmVzdWx0KQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgdG9vbF9yZXNwb25zZSA9IGYiRXJyb3IgZXhlY3V0aW5nIHRvb2wge3Rvb2xfbmFtZX06IHtzdHIoZSl9XG4iCiAgICAgICAgICAgIHRvb2xfcmVzcG9uc2UgKz0gdHJhY2ViYWNrLmZvcm1hdF9leGMoKQogICAgICAgIHRvb2xfZHVyYXRpb24gPSB0aW1lLnRpbWUoKSAtIHRvb2xfc3RhcnRfdHMKCiAgICAgICAgaWYgdG9vbF9uYW1lIG5vdCBpbiB0b29sX21ldHJpY3M6CiAgICAgICAgICAgIHRvb2xfbWV0cmljc1t0b29sX25hbWVdID0geyJjb3VudCI6IDAsICJkdXJhdGlvbnMiOiBbXX0KICAgICAgICB0b29sX21ldHJpY3NbdG9vbF9uYW1lXVsiY291bnQiXSArPSAxCiAgICAgICAgdG9vbF9tZXRyaWNzW3Rvb2xfbmFtZV1bImR1cmF0aW9ucyJdLmFwcGVuZCh0b29sX2R1cmF0aW9uKQoKICAgICAgICBtZXNzYWdlcy5hcHBlbmQoewogICAgICAgICAgICAicm9sZSI6ICJ1c2VyIiwKICAgICAgICAgICAgImNvbnRlbnQiOiBbewogICAgICAgICAgICAgICAgInR5cGUiOiAidG9vbF9yZXN1bHQiLAogICAgICAgICAgICAgICAgInRvb2xfdXNlX2lkIjogdG9vbF91c2UuaWQsCiAgICAgICAgICAgICAgICAiY29udGVudCI6IHRvb2xfcmVzcG9uc2UsCiAgICAgICAgICAgIH1dCiAgICAgICAgfSkKCiAgICAgICAgcmVzcG9uc2UgPSBhd2FpdCBhc3luY2lvLnRvX3RocmVhZCgKICAgICAgICAgICAgY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSwKICAgICAgICAgICAgbW9kZWw9bW9kZWwsCiAgICAgICAgICAgIG1heF90b2tlbnM9NDA5NiwKICAgICAgICAgICAgc3lzdGVtPUVWQUxVQVRJT05fUFJPTVBULAogICAgICAgICAgICBtZXNzYWdlcz1tZXNzYWdlcywKICAgICAgICAgICAgdG9vbHM9dG9vbHMsCiAgICAgICAgKQogICAgICAgIG1lc3NhZ2VzLmFwcGVuZCh7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiByZXNwb25zZS5jb250ZW50fSkKCiAgICByZXNwb25zZV90ZXh0ID0gbmV4dCgKICAgICAgICAoYmxvY2sudGV4dCBmb3IgYmxvY2sgaW4gcmVzcG9uc2UuY29udGVudCBpZiBoYXNhdHRyKGJsb2NrLCAidGV4dCIpKSwKICAgICAgICBOb25lLAogICAgKQogICAgcmV0dXJuIHJlc3BvbnNlX3RleHQsIHRvb2xfbWV0cmljcwoKCmFzeW5jIGRlZiBldmFsdWF0ZV9zaW5nbGVfdGFzaygKICAgIGNsaWVudDogQW50aHJvcGljLAogICAgbW9kZWw6IHN0ciwKICAgIHFhX3BhaXI6IGRpY3Rbc3RyLCBBbnldLAogICAgdG9vbHM6IGxpc3RbZGljdFtzdHIsIEFueV1dLAogICAgY29ubmVjdGlvbjogQW55LAogICAgdGFza19pbmRleDogaW50LAopIC0+IGRpY3Rbc3RyLCBBbnldOgogICAgIiIiRXZhbHVhdGUgYSBzaW5nbGUgUUEgcGFpciB3aXRoIHRoZSBnaXZlbiB0b29scy4iIiIKICAgIHN0YXJ0X3RpbWUgPSB0aW1lLnRpbWUoKQoKICAgIHByaW50KGYiVGFzayB7dGFza19pbmRleCArIDF9OiBSdW5uaW5nIHRhc2sgd2l0aCBxdWVzdGlvbjoge3FhX3BhaXJbJ3F1ZXN0aW9uJ119IikKICAgIHJlc3BvbnNlLCB0b29sX21ldHJpY3MgPSBhd2FpdCBhZ2VudF9sb29wKGNsaWVudCwgbW9kZWwsIHFhX3BhaXJbInF1ZXN0aW9uIl0sIHRvb2xzLCBjb25uZWN0aW9uKQoKICAgIHJlc3BvbnNlX3ZhbHVlID0gZXh0cmFjdF94bWxfY29udGVudChyZXNwb25zZSwgInJlc3BvbnNlIikKICAgIHN1bW1hcnkgPSBleHRyYWN0X3htbF9jb250ZW50KHJlc3BvbnNlLCAic3VtbWFyeSIpCiAgICBmZWVkYmFjayA9IGV4dHJhY3RfeG1sX2NvbnRlbnQocmVzcG9uc2UsICJmZWVkYmFjayIpCgogICAgZHVyYXRpb25fc2Vjb25kcyA9IHRpbWUudGltZSgpIC0gc3RhcnRfdGltZQoKICAgIHJldHVybiB7CiAgICAgICAgInF1ZXN0aW9uIjogcWFfcGFpclsicXVlc3Rpb24iXSwKICAgICAgICAiZXhwZWN0ZWQiOiBxYV9wYWlyWyJhbnN3ZXIiXSwKICAgICAgICAiYWN0dWFsIjogcmVzcG9uc2VfdmFsdWUsCiAgICAgICAgInNjb3JlIjogaW50KHJlc3BvbnNlX3ZhbHVlID09IHFhX3BhaXJbImFuc3dlciJdKSBpZiByZXNwb25zZV92YWx1ZSBlbHNlIDAsCiAgICAgICAgInRvdGFsX2R1cmF0aW9uIjogZHVyYXRpb25fc2Vjb25kcywKICAgICAgICAidG9vbF9jYWxscyI6IHRvb2xfbWV0cmljcywKICAgICAgICAibnVtX3Rvb2xfY2FsbHMiOiBzdW0obGVuKG1ldHJpY3NbImR1cmF0aW9ucyJdKSBmb3IgbWV0cmljcyBpbiB0b29sX21ldHJpY3MudmFsdWVzKCkpLAogICAgICAgICJzdW1tYXJ5Ijogc3VtbWFyeSwKICAgICAgICAiZmVlZGJhY2siOiBmZWVkYmFjaywKICAgIH0KCgpSRVBPUlRfSEVBREVSID0gIiIiCiMgRXZhbHVhdGlvbiBSZXBvcnQKCiMjIFN1bW1hcnkKCi0gKipBY2N1cmFjeSoqOiB7Y29ycmVjdH0ve3RvdGFsfSAoe2FjY3VyYWN5Oi4xZn0lKQotICoqQXZlcmFnZSBUYXNrIER1cmF0aW9uKio6IHthdmVyYWdlX2R1cmF0aW9uX3M6LjJmfXMKLSAqKkF2ZXJhZ2UgVG9vbCBDYWxscyBwZXIgVGFzayoqOiB7YXZlcmFnZV90b29sX2NhbGxzOi4yZn0KLSAqKlRvdGFsIFRvb2wgQ2FsbHMqKjoge3RvdGFsX3Rvb2xfY2FsbHN9CgotLS0KIiIiCgpUQVNLX1RFTVBMQVRFID0gIiIiCiMjIyBUYXNrIHt0YXNrX251bX0KCioqUXVlc3Rpb24qKjoge3F1ZXN0aW9ufQoqKkdyb3VuZCBUcnV0aCBBbnN3ZXIqKjogYHtleHBlY3RlZF9hbnN3ZXJ9YAoqKkFjdHVhbCBBbnN3ZXIqKjogYHthY3R1YWxfYW5zd2VyfWAKKipDb3JyZWN0Kio6IHtjb3JyZWN0X2luZGljYXRvcn0KKipEdXJhdGlvbioqOiB7dG90YWxfZHVyYXRpb246LjJmfXMKKipUb29sIENhbGxzKio6IHt0b29sX2NhbGxzfQoKKipTdW1tYXJ5KioKe3N1bW1hcnl9CgoqKkZlZWRiYWNrKioKe2ZlZWRiYWNrfQoKLS0tCiIiIgoKCmFzeW5jIGRlZiBydW5fZXZhbHVhdGlvbigKICAgIGV2YWxfcGF0aDogUGF0aCwKICAgIGNvbm5lY3Rpb246IEFueSwKICAgIG1vZGVsOiBzdHIgPSAiY2xhdWRlLTMtNy1zb25uZXQtMjAyNTAyMTkiLAopIC0+IHN0cjoKICAgICIiIlJ1biBldmFsdWF0aW9uIHdpdGggTUNQIHNlcnZlciB0b29scy4iIiIKICAgIHByaW50KCLwn5qAIFN0YXJ0aW5nIEV2YWx1YXRpb24iKQoKICAgIGNsaWVudCA9IEFudGhyb3BpYygpCgogICAgdG9vbHMgPSBhd2FpdCBjb25uZWN0aW9uLmxpc3RfdG9vbHMoKQogICAgcHJpbnQoZiLwn5OLIExvYWRlZCB7bGVuKHRvb2xzKX0gdG9vbHMgZnJvbSBNQ1Agc2VydmVyIikKCiAgICBxYV9wYWlycyA9IHBhcnNlX2V2YWx1YXRpb25fZmlsZShldmFsX3BhdGgpCiAgICBwcmludChmIvCfk4sgTG9hZGVkIHtsZW4ocWFfcGFpcnMpfSBldmFsdWF0aW9uIHRhc2tzIikKCiAgICByZXN1bHRzID0gW10KICAgIGZvciBpLCBxYV9wYWlyIGluIGVudW1lcmF0ZShxYV9wYWlycyk6CiAgICAgICAgcHJpbnQoZiJQcm9jZXNzaW5nIHRhc2sge2kgKyAxfS97bGVuKHFhX3BhaXJzKX0iKQogICAgICAgIHJlc3VsdCA9IGF3YWl0IGV2YWx1YXRlX3NpbmdsZV90YXNrKGNsaWVudCwgbW9kZWwsIHFhX3BhaXIsIHRvb2xzLCBjb25uZWN0aW9uLCBpKQogICAgICAgIHJlc3VsdHMuYXBwZW5kKHJlc3VsdCkKCiAgICBjb3JyZWN0ID0gc3VtKHJbInNjb3JlIl0gZm9yIHIgaW4gcmVzdWx0cykKICAgIGFjY3VyYWN5ID0gKGNvcnJlY3QgLyBsZW4ocmVzdWx0cykpICogMTAwIGlmIHJlc3VsdHMgZWxzZSAwCiAgICBhdmVyYWdlX2R1cmF0aW9uX3MgPSBzdW0oclsidG90YWxfZHVyYXRpb24iXSBmb3IgciBpbiByZXN1bHRzKSAvIGxlbihyZXN1bHRzKSBpZiByZXN1bHRzIGVsc2UgMAogICAgYXZlcmFnZV90b29sX2NhbGxzID0gc3VtKHJbIm51bV90b29sX2NhbGxzIl0gZm9yIHIgaW4gcmVzdWx0cykgLyBsZW4ocmVzdWx0cykgaWYgcmVzdWx0cyBlbHNlIDAKICAgIHRvdGFsX3Rvb2xfY2FsbHMgPSBzdW0oclsibnVtX3Rvb2xfY2FsbHMiXSBmb3IgciBpbiByZXN1bHRzKQoKICAgIHJlcG9ydCA9IFJFUE9SVF9IRUFERVIuZm9ybWF0KAogICAgICAgIGNvcnJlY3Q9Y29ycmVjdCwKICAgICAgICB0b3RhbD1sZW4ocmVzdWx0cyksCiAgICAgICAgYWNjdXJhY3k9YWNjdXJhY3ksCiAgICAgICAgYXZlcmFnZV9kdXJhdGlvbl9zPWF2ZXJhZ2VfZHVyYXRpb25fcywKICAgICAgICBhdmVyYWdlX3Rvb2xfY2FsbHM9YXZlcmFnZV90b29sX2NhbGxzLAogICAgICAgIHRvdGFsX3Rvb2xfY2FsbHM9dG90YWxfdG9vbF9jYWxscywKICAgICkKCiAgICByZXBvcnQgKz0gIiIuam9pbihbCiAgICAgICAgVEFTS19URU1QTEFURS5mb3JtYXQoCiAgICAgICAgICAgIHRhc2tfbnVtPWkgKyAxLAogICAgICAgICAgICBxdWVzdGlvbj1xYV9wYWlyWyJxdWVzdGlvbiJdLAogICAgICAgICAgICBleHBlY3RlZF9hbnN3ZXI9cWFfcGFpclsiYW5zd2VyIl0sCiAgICAgICAgICAgIGFjdHVhbF9hbnN3ZXI9cmVzdWx0WyJhY3R1YWwiXSBvciAiTi9BIiwKICAgICAgICAgICAgY29ycmVjdF9pbmRpY2F0b3I9IuKchSIgaWYgcmVzdWx0WyJzY29yZSJdIGVsc2UgIuKdjCIsCiAgICAgICAgICAgIHRvdGFsX2R1cmF0aW9uPXJlc3VsdFsidG90YWxfZHVyYXRpb24iXSwKICAgICAgICAgICAgdG9vbF9jYWxscz1qc29uLmR1bXBzKHJlc3VsdFsidG9vbF9jYWxscyJdLCBpbmRlbnQ9MiksCiAgICAgICAgICAgIHN1bW1hcnk9cmVzdWx0WyJzdW1tYXJ5Il0gb3IgIk4vQSIsCiAgICAgICAgICAgIGZlZWRiYWNrPXJlc3VsdFsiZmVlZGJhY2siXSBvciAiTi9BIiwKICAgICAgICApCiAgICAgICAgZm9yIGksIChxYV9wYWlyLCByZXN1bHQpIGluIGVudW1lcmF0ZSh6aXAocWFfcGFpcnMsIHJlc3VsdHMpKQogICAgXSkKCiAgICByZXR1cm4gcmVwb3J0CgoKZGVmIHBhcnNlX2hlYWRlcnMoaGVhZGVyX2xpc3Q6IGxpc3Rbc3RyXSkgLT4gZGljdFtzdHIsIHN0cl06CiAgICAiIiJQYXJzZSBoZWFkZXIgc3RyaW5ncyBpbiBmb3JtYXQgJ0tleTogVmFsdWUnIGludG8gYSBkaWN0aW9uYXJ5LiIiIgogICAgaGVhZGVycyA9IHt9CiAgICBpZiBub3QgaGVhZGVyX2xpc3Q6CiAgICAgICAgcmV0dXJuIGhlYWRlcnMKCiAgICBmb3IgaGVhZGVyIGluIGhlYWRlcl9saXN0OgogICAgICAgIGlmICI6IiBpbiBoZWFkZXI6CiAgICAgICAgICAgIGtleSwgdmFsdWUgPSBoZWFkZXIuc3BsaXQoIjoiLCAxKQogICAgICAgICAgICBoZWFkZXJzW2tleS5zdHJpcCgpXSA9IHZhbHVlLnN0cmlwKCkKICAgICAgICBlbHNlOgogICAgICAgICAgICBwcmludChmIldhcm5pbmc6IElnbm9yaW5nIG1hbGZvcm1lZCBoZWFkZXI6IHtoZWFkZXJ9IikKICAgIHJldHVybiBoZWFkZXJzCgoKZGVmIHBhcnNlX2Vudl92YXJzKGVudl9saXN0OiBsaXN0W3N0cl0pIC0+IGRpY3Rbc3RyLCBzdHJdOgogICAgIiIiUGFyc2UgZW52aXJvbm1lbnQgdmFyaWFibGUgc3RyaW5ncyBpbiBmb3JtYXQgJ0tFWT1WQUxVRScgaW50byBhIGRpY3Rpb25hcnkuIiIiCiAgICBlbnYgPSB7fQogICAgaWYgbm90IGVudl9saXN0OgogICAgICAgIHJldHVybiBlbnYKCiAgICBmb3IgZW52X3ZhciBpbiBlbnZfbGlzdDoKICAgICAgICBpZiAiPSIgaW4gZW52X3ZhcjoKICAgICAgICAgICAga2V5LCB2YWx1ZSA9IGVudl92YXIuc3BsaXQoIj0iLCAxKQogICAgICAgICAgICBlbnZba2V5LnN0cmlwKCldID0gdmFsdWUuc3RyaXAoKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHByaW50KGYiV2FybmluZzogSWdub3JpbmcgbWFsZm9ybWVkIGVudmlyb25tZW50IHZhcmlhYmxlOiB7ZW52X3Zhcn0iKQogICAgcmV0dXJuIGVudgoKCmFzeW5jIGRlZiBtYWluKCk6CiAgICBwYXJzZXIgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcigKICAgICAgICBkZXNjcmlwdGlvbj0iRXZhbHVhdGUgTUNQIHNlcnZlcnMgdXNpbmcgdGVzdCBxdWVzdGlvbnMiLAogICAgICAgIGZvcm1hdHRlcl9jbGFzcz1hcmdwYXJzZS5SYXdEZXNjcmlwdGlvbkhlbHBGb3JtYXR0ZXIsCiAgICAgICAgZXBpbG9nPSIiIgpFeGFtcGxlczoKICAjIEV2YWx1YXRlIGEgbG9jYWwgc3RkaW8gTUNQIHNlcnZlcgogIHB5dGhvbiBldmFsdWF0aW9uLnB5IC10IHN0ZGlvIC1jIHB5dGhvbiAtYSBteV9zZXJ2ZXIucHkgZXZhbC54bWwKCiAgIyBFdmFsdWF0ZSBhbiBTU0UgTUNQIHNlcnZlcgogIHB5dGhvbiBldmFsdWF0aW9uLnB5IC10IHNzZSAtdSBodHRwczovL2V4YW1wbGUuY29tL21jcCAtSCAiQXV0aG9yaXphdGlvbjogQmVhcmVyIHRva2VuIiBldmFsLnhtbAoKICAjIEV2YWx1YXRlIGFuIEhUVFAgTUNQIHNlcnZlciB3aXRoIGN1c3RvbSBtb2RlbAogIHB5dGhvbiBldmFsdWF0aW9uLnB5IC10IGh0dHAgLXUgaHR0cHM6Ly9leGFtcGxlLmNvbS9tY3AgLW0gY2xhdWRlLTMtNS1zb25uZXQtMjAyNDEwMjIgZXZhbC54bWwKICAgICAgICAiIiIsCiAgICApCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiZXZhbF9maWxlIiwgdHlwZT1QYXRoLCBoZWxwPSJQYXRoIHRvIGV2YWx1YXRpb24gWE1MIGZpbGUiKQogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLXQiLCAiLS10cmFuc3BvcnQiLCBjaG9pY2VzPVsic3RkaW8iLCAic3NlIiwgImh0dHAiXSwgZGVmYXVsdD0ic3RkaW8iLCBoZWxwPSJUcmFuc3BvcnQgdHlwZSAoZGVmYXVsdDogc3RkaW8pIikKICAgIHBhcnNlci5hZGRfYXJndW1lbnQoIi1tIiwgIi0tbW9kZWwiLCBkZWZhdWx0PSJjbGF1ZGUtMy03LXNvbm5ldC0yMDI1MDIxOSIsIGhlbHA9IkNsYXVkZSBtb2RlbCB0byB1c2UgKGRlZmF1bHQ6IGNsYXVkZS0zLTctc29ubmV0LTIwMjUwMjE5KSIpCgogICAgc3RkaW9fZ3JvdXAgPSBwYXJzZXIuYWRkX2FyZ3VtZW50X2dyb3VwKCJzdGRpbyBvcHRpb25zIikKICAgIHN0ZGlvX2dyb3VwLmFkZF9hcmd1bWVudCgiLWMiLCAiLS1jb21tYW5kIiwgaGVscD0iQ29tbWFuZCB0byBydW4gTUNQIHNlcnZlciAoc3RkaW8gb25seSkiKQogICAgc3RkaW9fZ3JvdXAuYWRkX2FyZ3VtZW50KCItYSIsICItLWFyZ3MiLCBuYXJncz0iKyIsIGhlbHA9IkFyZ3VtZW50cyBmb3IgdGhlIGNvbW1hbmQgKHN0ZGlvIG9ubHkpIikKICAgIHN0ZGlvX2dyb3VwLmFkZF9hcmd1bWVudCgiLWUiLCAiLS1lbnYiLCBuYXJncz0iKyIsIGhlbHA9IkVudmlyb25tZW50IHZhcmlhYmxlcyBpbiBLRVk9VkFMVUUgZm9ybWF0IChzdGRpbyBvbmx5KSIpCgogICAgcmVtb3RlX2dyb3VwID0gcGFyc2VyLmFkZF9hcmd1bWVudF9ncm91cCgic3NlL2h0dHAgb3B0aW9ucyIpCiAgICByZW1vdGVfZ3JvdXAuYWRkX2FyZ3VtZW50KCItdSIsICItLXVybCIsIGhlbHA9Ik1DUCBzZXJ2ZXIgVVJMIChzc2UvaHR0cCBvbmx5KSIpCiAgICByZW1vdGVfZ3JvdXAuYWRkX2FyZ3VtZW50KCItSCIsICItLWhlYWRlciIsIG5hcmdzPSIrIiwgZGVzdD0iaGVhZGVycyIsIGhlbHA9IkhUVFAgaGVhZGVycyBpbiAnS2V5OiBWYWx1ZScgZm9ybWF0IChzc2UvaHR0cCBvbmx5KSIpCgogICAgcGFyc2VyLmFkZF9hcmd1bWVudCgiLW8iLCAiLS1vdXRwdXQiLCB0eXBlPVBhdGgsIGhlbHA9Ik91dHB1dCBmaWxlIGZvciBldmFsdWF0aW9uIHJlcG9ydCAoZGVmYXVsdDogc3Rkb3V0KSIpCgogICAgYXJncyA9IHBhcnNlci5wYXJzZV9hcmdzKCkKCiAgICBpZiBub3QgYXJncy5ldmFsX2ZpbGUuZXhpc3RzKCk6CiAgICAgICAgcHJpbnQoZiJFcnJvcjogRXZhbHVhdGlvbiBmaWxlIG5vdCBmb3VuZDoge2FyZ3MuZXZhbF9maWxlfSIpCiAgICAgICAgc3lzLmV4aXQoMSkKCiAgICBoZWFkZXJzID0gcGFyc2VfaGVhZGVycyhhcmdzLmhlYWRlcnMpIGlmIGFyZ3MuaGVhZGVycyBlbHNlIE5vbmUKICAgIGVudl92YXJzID0gcGFyc2VfZW52X3ZhcnMoYXJncy5lbnYpIGlmIGFyZ3MuZW52IGVsc2UgTm9uZQoKICAgIHRyeToKICAgICAgICBjb25uZWN0aW9uID0gY3JlYXRlX2Nvbm5lY3Rpb24oCiAgICAgICAgICAgIHRyYW5zcG9ydD1hcmdzLnRyYW5zcG9ydCwKICAgICAgICAgICAgY29tbWFuZD1hcmdzLmNvbW1hbmQsCiAgICAgICAgICAgIGFyZ3M9YXJncy5hcmdzLAogICAgICAgICAgICBlbnY9ZW52X3ZhcnMsCiAgICAgICAgICAgIHVybD1hcmdzLnVybCwKICAgICAgICAgICAgaGVhZGVycz1oZWFkZXJzLAogICAgICAgICkKICAgIGV4Y2VwdCBWYWx1ZUVycm9yIGFzIGU6CiAgICAgICAgcHJpbnQoZiJFcnJvcjoge2V9IikKICAgICAgICBzeXMuZXhpdCgxKQoKICAgIHByaW50KGYi8J+UlyBDb25uZWN0aW5nIHRvIE1DUCBzZXJ2ZXIgdmlhIHthcmdzLnRyYW5zcG9ydH0uLi4iKQoKICAgIGFzeW5jIHdpdGggY29ubmVjdGlvbjoKICAgICAgICBwcmludCgi4pyFIENvbm5lY3RlZCBzdWNjZXNzZnVsbHkiKQogICAgICAgIHJlcG9ydCA9IGF3YWl0IHJ1bl9ldmFsdWF0aW9uKGFyZ3MuZXZhbF9maWxlLCBjb25uZWN0aW9uLCBhcmdzLm1vZGVsKQoKICAgICAgICBpZiBhcmdzLm91dHB1dDoKICAgICAgICAgICAgYXJncy5vdXRwdXQud3JpdGVfdGV4dChyZXBvcnQpCiAgICAgICAgICAgIHByaW50KGYiXG7inIUgUmVwb3J0IHNhdmVkIHRvIHthcmdzLm91dHB1dH0iKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHByaW50KCJcbiIgKyByZXBvcnQpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIGFzeW5jaW8ucnVuKG1haW4oKSkK
+"""MCP Server Evaluation Harness
+
+This script evaluates MCP servers by running test questions against them using Claude.
+"""
+
+import argparse
+import asyncio
+import json
+import re
+import sys
+import time
+import traceback
+import xml.etree.ElementTree as ET
+from pathlib import Path
+from typing import Any
+
+from anthropic import Anthropic
+
+from connections import create_connection
+
+EVALUATION_PROMPT = """You are an AI assistant with access to tools.
+
+When given a task, you MUST:
+1. Use the available tools to complete the task
+2. Provide summary of each step in your approach, wrapped in <summary> tags
+3. Provide feedback on the tools provided, wrapped in <feedback> tags
+4. Provide your final response, wrapped in <response> tags
+
+Summary Requirements:
+- In your <summary> tags, you must explain:
+  - The steps you took to complete the task
+  - Which tools you used, in what order, and why
+  - The inputs you provided to each tool
+  - The outputs you received from each tool
+  - A summary for how you arrived at the response
+
+Feedback Requirements:
+- In your <feedback> tags, provide constructive feedback on the tools:
+  - Comment on tool names: Are they clear and descriptive?
+  - Comment on input parameters: Are they well-documented? Are required vs optional parameters clear?
+  - Comment on descriptions: Do they accurately describe what the tool does?
+  - Comment on any errors encountered during tool usage: Did the tool fail to execute? Did the tool return too many tokens?
+  - Identify specific areas for improvement and explain WHY they would help
+  - Be specific and actionable in your suggestions
+
+Response Requirements:
+- Your response should be concise and directly address what was asked
+- Always wrap your final response in <response> tags
+- If you cannot solve the task return <response>NOT_FOUND</response>
+- For numeric responses, provide just the number
+- For IDs, provide just the ID
+- For names or text, provide the exact text requested
+- Your response should go last"""
+
+
+def parse_evaluation_file(file_path: Path) -> list[dict[str, Any]]:
+    """Parse XML evaluation file with qa_pair elements."""
+    try:
+        tree = ET.parse(file_path)
+        root = tree.getroot()
+        evaluations = []
+
+        for qa_pair in root.findall(".//qa_pair"):
+            question_elem = qa_pair.find("question")
+            answer_elem = qa_pair.find("answer")
+
+            if question_elem is not None and answer_elem is not None:
+                evaluations.append({
+                    "question": (question_elem.text or "").strip(),
+                    "answer": (answer_elem.text or "").strip(),
+                })
+
+        return evaluations
+    except Exception as e:
+        print(f"Error parsing evaluation file {file_path}: {e}")
+        return []
+
+
+def extract_xml_content(text: str, tag: str) -> str | None:
+    """Extract content from XML tags."""
+    pattern = rf"<{tag}>(.*?)</{tag}>"
+    matches = re.findall(pattern, text, re.DOTALL)
+    return matches[-1].strip() if matches else None
+
+
+async def agent_loop(
+    client: Anthropic,
+    model: str,
+    question: str,
+    tools: list[dict[str, Any]],
+    connection: Any,
+) -> tuple[str, dict[str, Any]]:
+    """Run the agent loop with MCP tools."""
+    messages = [{"role": "user", "content": question}]
+
+    response = await asyncio.to_thread(
+        client.messages.create,
+        model=model,
+        max_tokens=4096,
+        system=EVALUATION_PROMPT,
+        messages=messages,
+        tools=tools,
+    )
+
+    messages.append({"role": "assistant", "content": response.content})
+
+    tool_metrics = {}
+
+    while response.stop_reason == "tool_use":
+        tool_use = next(block for block in response.content if block.type == "tool_use")
+        tool_name = tool_use.name
+        tool_input = tool_use.input
+
+        tool_start_ts = time.time()
+        try:
+            tool_result = await connection.call_tool(tool_name, tool_input)
+            tool_response = json.dumps(tool_result) if isinstance(tool_result, (dict, list)) else str(tool_result)
+        except Exception as e:
+            tool_response = f"Error executing tool {tool_name}: {str(e)}\n"
+            tool_response += traceback.format_exc()
+        tool_duration = time.time() - tool_start_ts
+
+        if tool_name not in tool_metrics:
+            tool_metrics[tool_name] = {"count": 0, "durations": []}
+        tool_metrics[tool_name]["count"] += 1
+        tool_metrics[tool_name]["durations"].append(tool_duration)
+
+        messages.append({
+            "role": "user",
+            "content": [{
+                "type": "tool_result",
+                "tool_use_id": tool_use.id,
+                "content": tool_response,
+            }]
+        })
+
+        response = await asyncio.to_thread(
+            client.messages.create,
+            model=model,
+            max_tokens=4096,
+            system=EVALUATION_PROMPT,
+            messages=messages,
+            tools=tools,
+        )
+        messages.append({"role": "assistant", "content": response.content})
+
+    response_text = next(
+        (block.text for block in response.content if hasattr(block, "text")),
+        None,
+    )
+    return response_text, tool_metrics
+
+
+async def evaluate_single_task(
+    client: Anthropic,
+    model: str,
+    qa_pair: dict[str, Any],
+    tools: list[dict[str, Any]],
+    connection: Any,
+    task_index: int,
+) -> dict[str, Any]:
+    """Evaluate a single QA pair with the given tools."""
+    start_time = time.time()
+
+    print(f"Task {task_index + 1}: Running task with question: {qa_pair['question']}")
+    response, tool_metrics = await agent_loop(client, model, qa_pair["question"], tools, connection)
+
+    response_value = extract_xml_content(response, "response")
+    summary = extract_xml_content(response, "summary")
+    feedback = extract_xml_content(response, "feedback")
+
+    duration_seconds = time.time() - start_time
+
+    return {
+        "question": qa_pair["question"],
+        "expected": qa_pair["answer"],
+        "actual": response_value,
+        "score": int(response_value == qa_pair["answer"]) if response_value else 0,
+        "total_duration": duration_seconds,
+        "tool_calls": tool_metrics,
+        "num_tool_calls": sum(len(metrics["durations"]) for metrics in tool_metrics.values()),
+        "summary": summary,
+        "feedback": feedback,
+    }
+
+
+REPORT_HEADER = """
+# Evaluation Report
+
+## Summary
+
+- **Accuracy**: {correct}/{total} ({accuracy:.1f}%)
+- **Average Task Duration**: {average_duration_s:.2f}s
+- **Average Tool Calls per Task**: {average_tool_calls:.2f}
+- **Total Tool Calls**: {total_tool_calls}
+
+---
+"""
+
+TASK_TEMPLATE = """
+### Task {task_num}
+
+**Question**: {question}
+**Ground Truth Answer**: `{expected_answer}`
+**Actual Answer**: `{actual_answer}`
+**Correct**: {correct_indicator}
+**Duration**: {total_duration:.2f}s
+**Tool Calls**: {tool_calls}
+
+**Summary**
+{summary}
+
+**Feedback**
+{feedback}
+
+---
+"""
+
+
+async def run_evaluation(
+    eval_path: Path,
+    connection: Any,
+    model: str = "claude-3-7-sonnet-20250219",
+) -> str:
+    """Run evaluation with MCP server tools."""
+    print("🚀 Starting Evaluation")
+
+    client = Anthropic()
+
+    tools = await connection.list_tools()
+    print(f"📋 Loaded {len(tools)} tools from MCP server")
+
+    qa_pairs = parse_evaluation_file(eval_path)
+    print(f"📋 Loaded {len(qa_pairs)} evaluation tasks")
+
+    results = []
+    for i, qa_pair in enumerate(qa_pairs):
+        print(f"Processing task {i + 1}/{len(qa_pairs)}")
+        result = await evaluate_single_task(client, model, qa_pair, tools, connection, i)
+        results.append(result)
+
+    correct = sum(r["score"] for r in results)
+    accuracy = (correct / len(results)) * 100 if results else 0
+    average_duration_s = sum(r["total_duration"] for r in results) / len(results) if results else 0
+    average_tool_calls = sum(r["num_tool_calls"] for r in results) / len(results) if results else 0
+    total_tool_calls = sum(r["num_tool_calls"] for r in results)
+
+    report = REPORT_HEADER.format(
+        correct=correct,
+        total=len(results),
+        accuracy=accuracy,
+        average_duration_s=average_duration_s,
+        average_tool_calls=average_tool_calls,
+        total_tool_calls=total_tool_calls,
+    )
+
+    report += "".join([
+        TASK_TEMPLATE.format(
+            task_num=i + 1,
+            question=qa_pair["question"],
+            expected_answer=qa_pair["answer"],
+            actual_answer=result["actual"] or "N/A",
+            correct_indicator="✅" if result["score"] else "❌",
+            total_duration=result["total_duration"],
+            tool_calls=json.dumps(result["tool_calls"], indent=2),
+            summary=result["summary"] or "N/A",
+            feedback=result["feedback"] or "N/A",
+        )
+        for i, (qa_pair, result) in enumerate(zip(qa_pairs, results))
+    ])
+
+    return report
+
+
+def parse_headers(header_list: list[str]) -> dict[str, str]:
+    """Parse header strings in format 'Key: Value' into a dictionary."""
+    headers = {}
+    if not header_list:
+        return headers
+
+    for header in header_list:
+        if ":" in header:
+            key, value = header.split(":", 1)
+            headers[key.strip()] = value.strip()
+        else:
+            print(f"Warning: Ignoring malformed header: {header}")
+    return headers
+
+
+def parse_env_vars(env_list: list[str]) -> dict[str, str]:
+    """Parse environment variable strings in format 'KEY=VALUE' into a dictionary."""
+    env = {}
+    if not env_list:
+        return env
+
+    for env_var in env_list:
+        if "=" in env_var:
+            key, value = env_var.split("=", 1)
+            env[key.strip()] = value.strip()
+        else:
+            print(f"Warning: Ignoring malformed environment variable: {env_var}")
+    return env
+
+
+async def main():
+    parser = argparse.ArgumentParser(
+        description="Evaluate MCP servers using test questions",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Evaluate a local stdio MCP server
+  python evaluation.py -t stdio -c python -a my_server.py eval.xml
+
+  # Evaluate an SSE MCP server
+  python evaluation.py -t sse -u https://example.com/mcp -H "Authorization: Bearer token" eval.xml
+
+  # Evaluate an HTTP MCP server with custom model
+  python evaluation.py -t http -u https://example.com/mcp -m claude-3-5-sonnet-20241022 eval.xml
+        """,
+    )
+
+    parser.add_argument("eval_file", type=Path, help="Path to evaluation XML file")
+    parser.add_argument("-t", "--transport", choices=["stdio", "sse", "http"], default="stdio", help="Transport type (default: stdio)")
+    parser.add_argument("-m", "--model", default="claude-3-7-sonnet-20250219", help="Claude model to use (default: claude-3-7-sonnet-20250219)")
+
+    stdio_group = parser.add_argument_group("stdio options")
+    stdio_group.add_argument("-c", "--command", help="Command to run MCP server (stdio only)")
+    stdio_group.add_argument("-a", "--args", nargs="+", help="Arguments for the command (stdio only)")
+    stdio_group.add_argument("-e", "--env", nargs="+", help="Environment variables in KEY=VALUE format (stdio only)")
+
+    remote_group = parser.add_argument_group("sse/http options")
+    remote_group.add_argument("-u", "--url", help="MCP server URL (sse/http only)")
+    remote_group.add_argument("-H", "--header", nargs="+", dest="headers", help="HTTP headers in 'Key: Value' format (sse/http only)")
+
+    parser.add_argument("-o", "--output", type=Path, help="Output file for evaluation report (default: stdout)")
+
+    args = parser.parse_args()
+
+    if not args.eval_file.exists():
+        print(f"Error: Evaluation file not found: {args.eval_file}")
+        sys.exit(1)
+
+    headers = parse_headers(args.headers) if args.headers else None
+    env_vars = parse_env_vars(args.env) if args.env else None
+
+    try:
+        connection = create_connection(
+            transport=args.transport,
+            command=args.command,
+            args=args.args,
+            env=env_vars,
+            url=args.url,
+            headers=headers,
+        )
+    except ValueError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
+
+    print(f"🔗 Connecting to MCP server via {args.transport}...")
+
+    async with connection:
+        print("✅ Connected successfully")
+        report = await run_evaluation(args.eval_file, connection, args.model)
+
+        if args.output:
+            args.output.write_text(report)
+            print(f"\n✅ Report saved to {args.output}")
+        else:
+            print("\n" + report)
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

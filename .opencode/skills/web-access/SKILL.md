@@ -1,1 +1,295 @@
-LS0tCm5hbWU6IHdlYi1hY2Nlc3MKbGljZW5zZTogTUlUCmdpdGh1YjogaHR0cHM6Ly9naXRodWIuY29tL2V6ZS1pcy93ZWItYWNjZXNzCmRlc2NyaXB0aW9uOgogIOaJgOacieiBlOe9keaTjeS9nOW/hemhu+mAmui/h+atpCBza2lsbCDlpITnkIbvvIzljIXmi6zvvJrmkJzntKLjgIHnvZHpobXmipPlj5bjgIHnmbvlvZXlkI7mk43kvZzjgIHnvZHnu5zkuqTkupLnrYnjgIIKICDop6blj5HlnLrmma/vvJrnlKjmiLfopoHmsYLmkJzntKLkv6Hmga/jgIHmn6XnnIvnvZHpobXlhoXlrrnjgIHorr/pl67pnIDopoHnmbvlvZXnmoTnvZHnq5njgIHmk43kvZznvZHpobXnlYzpnaLjgIHmipPlj5bnpL7kuqTlqpLkvZPlhoXlrrnvvIjlsI/nuqLkuabjgIHlvq7ljZrjgIHmjqjnibnnrYnvvInjgIHor7vlj5bliqjmgIHmuLLmn5PpobXpnaLjgIHku6Xlj4rku7vkvZXpnIDopoHnnJ/lrp7mtY/op4jlmajnjq/looPnmoTnvZHnu5zku7vliqHjgIIKbWV0YWRhdGE6CiAgYXV0aG9yOiDkuIDms71FemUgKOmAgumFjTogQXRsYXMpCiAgdmVyc2lvbjogIjIuNC4zLWFkYXB0ZWQiCiAgb3JpZ2luYWw6IGh0dHBzOi8vZ2l0aHViLmNvbS9lemUtaXMvd2ViLWFjY2VzcwotLS0KCiMgd2ViLWFjY2VzcyBTa2lsbCAoT3BlbkNvZGUg6YCC6YWN54mIKQoKPiDmnKwgc2tpbGwg5rqQ6IeqIFtlemUtaXMvd2ViLWFjY2Vzc10oaHR0cHM6Ly9naXRodWIuY29tL2V6ZS1pcy93ZWItYWNjZXNzKe+8jOW3sumSiOWvuSBPcGVuQ29kZSDnjq/looPov5vooYzpgILphY3jgIIKCiMjIE9wZW5Db2RlIOeOr+Wig+mAgumFjeivtOaYjgoKIyMjIOiEmuacrOi3r+W+hAotIFNraWxsIOebruW9lTogYC5vcGVuY29kZS9za2lsbHMvd2ViLWFjY2Vzcy9gCi0g6ISa5pys55uu5b2VOiBgc2NyaXB0cy9gCi0g6LCD55So56S65L6LOiBgbm9kZSBzY3JpcHRzL2NoZWNrLWRlcHMubWpzYAoKIyMjIOWGhee9ruW3peWFt+aYoOWwhAp8IHdlYi1hY2Nlc3Mg5Y6f55Sf6IO95YqbIHwgT3BlbkNvZGUg6YCC6YWNIHwKfC0tLS0tLS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS18CnwgQ2xhdWRlIENvZGUg5YaF572u5pCc57SiIHwg5L2/55SoIGBXZWJTZWFyY2hgIOW3peWFtyB8CnwgQ2xhdWRlIENvZGUg5YaF572uIGZldGNoIHwg5L2/55SoIGBXZWJGZXRjaGAg5bel5YW3IHwKfCBDRFAgUHJveHkg5rWP6KeI5ZmoIHwg5L2/55SoIGAvZGV2LWJyb3dzZXJgIHNraWxsIOaIliBgc2NyaXB0cy9jZHAtcHJveHkubWpzYCB8CgotLS0KCiMjIOWJjee9ruajgOafpQoK5Zyo5byA5aeL6IGU572R5pON5L2c5YmN77yM5YWI5qOA5p+lIENEUCDmqKHlvI/lj6/nlKjmgKfvvJoKCmBgYGJhc2gKbm9kZSAic2NyaXB0cy9jaGVjay1kZXBzLm1qcyIKYGBgCgrmnKrpgJrov4fml7blvJXlr7znlKjmiLflrozmiJDorr7nva7vvJoKLSAqKk5vZGUuanMgMjIrKirvvJrlv4XpnIDvvIjkvb/nlKjljp/nlJ8gV2ViU29ja2V077yJ44CC54mI5pys5L2O5LqOIDIyIOWPr+eUqOS9humcgOWuieijhSBgd3NgIOaooeWdl+OAggotICoqQ2hyb21lIHJlbW90ZS1kZWJ1Z2dpbmcqKu+8muWcqCBDaHJvbWUg5Zyw5Z2A5qCP5omT5byAIGBjaHJvbWU6Ly9pbnNwZWN0LyNyZW1vdGUtZGVidWdnaW5nYO+8jOWLvumAiSAqKiJBbGxvdyByZW1vdGUgZGVidWdnaW5nIGZvciB0aGlzIGJyb3dzZXIgaW5zdGFuY2UiKiog5Y2z5Y+v77yM5Y+v6IO96ZyA6KaB6YeN5ZCv5rWP6KeI5Zmo44CCCgrmo4Dmn6XpgJrov4flkI7lubblv4XpobvlnKjlm57lpI3kuK3lkJHnlKjmiLfnm7TmjqXlsZXnpLrku6XkuIvpobvnn6XvvIzlho3lkK/liqggQ0RQIFByb3h5IOaJp+ihjOaTjeS9nO+8mgoKYGBgCua4qemmqOaPkOekuu+8mumDqOWIhuermeeCueWvuea1j+iniOWZqOiHquWKqOWMluaTjeS9nOajgOa1i+S4peagvO+8jOWtmOWcqOi0puWPt+WwgeemgemjjumZqeOAguW3suWGhee9rumYsuaKpOaOquaWveS9huaXoOazleWujOWFqOmBv+WFje+8jEFnZW50IOe7p+e7reaTjeS9nOWNs+inhuS4uuaOpeWPl+OAggpgYGAKCi0tLQoKIyMg5rWP6KeI5ZOy5a2mCgoqKuWDj+S6uuS4gOagt+aAneiAg++8jOWFvOmhvumrmOaViOS4jumAguW6lOaAp+eahOWujOaIkOS7u+WKoeOAgioqCgrmiafooYzku7vliqHml7bkuI3kvJrov4fluqbkvp3otZblm7rmnInljbDosaHmiYDop4TliJLnmoTmraXpqqTvvIzogIzmmK/luKbnnYDnm67moIfov5vlhaXvvIzovrnnnIvovrnliKTmlq3vvIzpgYfliLDpmLvnoo3lsLHop6PlhrPvvIzlj5HnjrDlhoXlrrnkuI3lpJ/lsLHmt7HlhaXigJTigJTlhajnqIvlm7Tnu5XjgIzmiJHopoHovr7miJDku4DkuYjjgI3lgZrlhrPnrZbjgILov5nkuKogc2tpbGwg55qE5omA5pyJ6KGM5Li66YO95bqU6YG15b6q6L+Z5Liq6YC76L6R44CCCgoqKuKRoCDmi7/liLDor7fmsYIqKiDigJQg5YWI5piO56Gu55So5oi36KaB5YGa5LuA5LmI77yM5a6a5LmJ5oiQ5Yqf5qCH5YeG77ya5LuA5LmI566X5a6M5oiQ5LqG77yf6ZyA6KaB6I635Y+W5LuA5LmI5L+h5oGv44CB5omn6KGM5LuA5LmI5pON5L2c44CB6L6+5Yiw5LuA5LmI57uT5p6c77yf6L+Z5piv5ZCO57ut5omA5pyJ5Yik5pat55qE6ZSa54K544CCCgoqKuKRoSDpgInmi6notbfngrkqKiDigJQg5qC55o2u5Lu75Yqh5oCn6LSo44CB5bmz5Y+w54m55b6B44CB6L6+5oiQ5p2h5Lu277yM6YCJ5LiA5Liq5pyA5Y+v6IO955u06L6+55qE5pa55byP5L2c5Li656ys5LiA5q2l5Y676aqM6K+B44CC5LiA5qyh5oiQ5Yqf5b2T54S25pyA5aW977yb5LiN5oiQ5Yqf5YiZ5Zyo4pGi5Lit6LCD5pW044CC5q+U5aaC77yM6ZyA6KaB5pON5L2c6aG16Z2i44CB6ZyA6KaB55m75b2V5oCB44CB5bey55+l6Z2Z5oCB5pa55byP5LiN5Y+v6L6+55qE5bmz5Y+w77yI5bCP57qi5Lmm44CB5b6u5L+h5YWs5LyX5Y+3562J77yJ4oaSIOebtOaOpSBDRFAKCioq4pGiIOi/h+eoi+agoemqjCoqIOKAlCDmr4/kuIDmraXnmoTnu5Pmnpzpg73mmK/or4Hmja7vvIzkuI3lj6rmmK/miJDlip/miJblpLHotKXnmoTkuozlhYPkv6Hlj7fjgILnlKjnu5Pmnpzlr7nnhafikaDnmoTmiJDlip/moIflh4bvvIzmm7TmlrDkvaDlr7nnm67moIfnmoTliKTmlq3vvJrot6/lvoTlnKjmjqjov5vlkJfvvJ/nu5PmnpznmoTmlbTkvZPpnaLosozvvIjotKjph4/jgIHnm7jlhbPluqbjgIHph4/nuqfvvInmmK/lkKbmjIflkJHnm67moIflj6/ovr7vvJ/lj5HnjrDmlrnlkJHplJnkuobnq4vljbPosIPmlbTvvIzkuI3lnKjlkIzkuIDkuKrmlrnlvI/kuIrlj43lpI3ph43or5XigJTigJTmkJzntKLmsqHlkb3kuK3kuI3nrYnkuo4i6L+Y5rKh5om+5a+55pa55rOVIu+8jOS5n+WPr+iDveaYryLnm67moIfkuI3lrZjlnKgi77ybQVBJIOaKpemUmeOAgemhtemdoue8uuWwkemihOacn+WFg+e0oOOAgemHjeivleaXoOaUueWWhO+8jOmDveaYr+WcqOWRiuivieS9oOivpemHjeaWsOivhOS8sOaWueWQkeOAgumBh+WIsOW8ueeql+OAgeeZu+W9leWimeetiemanOeije+8jOWIpOaWreWug+aYr+WQpuecn+eahOaMoeS9j+S6huebruagh++8muaMoeS9j+S6huWwseWkhOeQhu+8jOayoeaMoeS9j+Wwsee7lei/h+KAlOKAlOWGheWuueWPr+iDveW3suWcqOmhtemdoiBET00g5Lit77yM5Lqk5LqS5Y+q5piv5bGV56S65omL5q6144CCCgoqKuKRoyDlrozmiJDliKTmlq0qKiDigJQg5a+554Wn5a6a5LmJ55qE5Lu75Yqh5oiQ5Yqf5qCH5YeG77yM56Gu6K6k5Lu75Yqh5a6M5oiQ5ZCO5omN5YGc5q2i77yM5L2G5Lmf5LiN6KaB6L+H5bqm5pON5L2c77yM5LiN5Li65LqGIuWujOaVtCLogIzmtarotLnku6Pku7fjgIIKCi0tLQoKIyMg6IGU572R5bel5YW36YCJ5oupCgotICoq56Gu5L+d5L+h5oGv55qE55yf5a6e5oCn77yM5LiA5omL5L+h5oGv5LyY5LqO5LqM5omL5L+h5oGvKirvvJrmkJzntKLlvJXmk47lkozogZrlkIjlubPlj7DmmK/kv6Hmga/lj5HnjrDlhaXlj6PjgILlvZPlpJrmrKHmkJzntKLlsJ3or5XlkI7msqHmnInotKjnmoTmlLnov5vml7bvvIzljYfnuqfliLDmm7TmoLnmnKznmoTojrflj5bmlrnlvI/vvJrlrprkvY3kuIDmiYvmnaXmupDvvIjlrpjnvZHjgIHlrpjmlrnlubPlj7DjgIHljp/lp4vpobXpnaLvvInjgIIKCnwg5Zy65pmvIHwg5bel5YW3IHwKfC0tLS0tLXwtLS0tLS18Cnwg5pCc57Si5pGY6KaB5oiW5YWz6ZSu6K+N57uT5p6c77yM5Y+R546w5L+h5oGv5p2l5rqQIHwgKipXZWJTZWFyY2gqKiB8CnwgVVJMIOW3suefpe+8jOmcgOimgeS7jumhtemdouWumuWQkeaPkOWPlueJueWumuS/oeaBryB8ICoqV2ViRmV0Y2gqKu+8iOaLieWPlue9kemhteWGheWuue+8jOeUseWwj+aooeWei+agueaNriBwcm9tcHQg5o+Q5Y+W77yM6L+U5Zue5aSE55CG5ZCO57uT5p6c77yJIHwKfCBVUkwg5bey55+l77yM6ZyA6KaB5Y6f5aeLIEhUTUwg5rqQ56CB77yIbWV0YeOAgUpTT04tTEQg562J57uT5p6E5YyW5a2X5q6177yJIHwgKipjdXJsKiogfAp8IOmdnuWFrOW8gOWGheWuue+8jOaIluW3suefpemdmeaAgeWxguaXoOaViOeahOW5s+WPsO+8iOWwj+e6ouS5puOAgeW+ruS/oeWFrOS8l+WPt+etieWFrOW8gOWGheWuueS5n+iiq+WPjeeIrOmZkOWItu+8iSB8ICoq5rWP6KeI5ZmoIENEUCoq77yI55u05o6l77yM6Lez6L+H6Z2Z5oCB5bGC77yJIHwKfCDpnIDopoHnmbvlvZXmgIHjgIHkuqTkupLmk43kvZzvvIzmiJbpnIDopoHlg4/kurrkuIDmoLflnKjmtY/op4jlmajlhoXoh6rnlLHlr7zoiKrmjqLntKIgfCAqKua1j+iniOWZqCBDRFAqKiB8CgrmtY/op4jlmaggQ0RQIOS4jeimgeaxgiBVUkwg5bey55+l4oCU4oCU5Y+v5LuO5Lu75oSP5YWl5Y+j5Ye65Y+R77yM6YCa6L+H6aG16Z2i5YaF5pCc57Si44CB54K55Ye744CB6Lez6L2s562J5pa55byP5om+5Yiw55uu5qCH5YaF5a6544CCV2ViU2VhcmNo44CBV2ViRmV0Y2jjgIFjdXJsIOWdh+S4jeWkhOeQhueZu+W9leaAgeOAggoKKipKaW5hKirvvIjlj6/pgInpooTlpITnkIblsYLvvIzlj6/kuI4gV2ViRmV0Y2gvY3VybCDnu4TlkIjkvb/nlKjvvIznlLHkuo7lhbbnibnmgKflj6/oioLnnIEgdG9rZW5zIOa2iOiAl++8jOivt+enr+aegeWcqOS7u+WKoeWQiOmAguaXtue7hOWQiOS9v+eUqO+8ie+8muesrOS4ieaWuee9kee7nOacjeWKoe+8jOWPr+Wwhue9kemhtei9rOS4uiBNYXJrZG93bu+8jOWkp+W5heiKguecgSB0b2tlbiDkvYblj6/og73mnInkv6Hmga/mjZ/ogJfjgILosIPnlKjmlrnlvI/kuLogYHIuamluYS5haS9leGFtcGxlLmNvbWDvvIhVUkwg5YmN5Yqg5YmN57yA77yM5LiN5L+d55WZ5Y6f572R5Z2AIGh0dHAg5YmN57yA77yJ77yM6ZmQIDIwIFJQTeOAgumAguWQiOaWh+eroOOAgeWNmuWuouOAgeaWh+aho+OAgVBERiDnrYnku6XmraPmlofkuLrmoLjlv4PnmoTpobXpnaLvvJvlr7nmlbDmja7pnaLmnb/jgIHllYblk4HpobXnrYnpnZ7mlofnq6Dnu5PmnoTpobXpnaLlj6/og73mj5Dlj5bliLDplJnor6/ljLrlnZfjgIIKCui/m+WFpea1j+iniOWZqOWxguWQju+8jGAvZXZhbGAg5bCx5piv5L2g55qE55y8552b5ZKM5omL77yaCgotICoq55yLKirvvJrnlKggYC9ldmFsYCDmn6Xor6IgRE9N77yM5Y+R546w6aG16Z2i5LiK55qE6ZO+5o6l44CB5oyJ6ZKu44CB6KGo5Y2V44CB5paH5pys5YaF5a654oCU4oCU55u45b2T5LqO44CM55yL55yL6L+Z5Liq6aG16Z2i5pyJ5LuA5LmI44CNCi0gKirlgZoqKu+8mueUqCBgL2NsaWNrYCDngrnlh7vlhYPntKDjgIFgL3Njcm9sbGAg5rua5Yqo5Yqg6L2944CBYC9ldmFsYCDloavooajmj5DkuqTigJTigJTlg4/kurrkuIDmoLflnKjpobXpnaLlhoXoh6rnhLblr7zoiKoKLSAqKuivuyoq77ya55SoIGAvZXZhbGAg5o+Q5Y+W5paH5a2X5YaF5a6577yM5Yik5pat5Zu+54mHL+inhumikeaYr+WQpuaJv+i9veaguOW/g+S/oeaBr+KAlOKAlOaYr+WImeaPkOWPluWqkuS9kyBVUkwg5a6a5ZCR6K+75Y+W5oiWIGAvc2NyZWVuc2hvdGAg6KeG6KeJ6K+G5YirCgrmtY/op4jnvZHpobXml7bvvIwqKuWFiOS6huino+mhtemdoue7k+aehO+8jOWGjeWGs+WumuS4i+S4gOatpeWKqOS9nCoq44CC5LiN6ZyA6KaB5o+Q5YmN6KeE5YiS5omA5pyJ5q2l6aqk44CCCgojIyMg56iL5bqP5YyW5pON5L2c5LiOIEdVSSDkuqTkupIKCua1j+iniOWZqOWGheaTjeS9nOmhtemdouacieS4pOenjeaWueW8j++8mgoKLSAqKueoi+W6j+WMluaWueW8jyoq77yI5p6E6YCgIFVSTCDnm7TmjqXlr7zoiKrjgIFldmFsIOaTjeS9nCBET03vvInvvJrmiJDlip/ml7bpgJ/luqblv6vjgIHnsr7noa7vvIzkvYblr7nnvZHnq5nmnaXor7TkuI3mmK/mraPluLjnlKjmiLfooYzkuLrvvIzlj6/og73op6blj5Hlj43niKzmnLrliLbjgIIKLSAqKkdVSSDkuqTkupIqKu+8iOeCueWHu+aMiemSruOAgeWhq+WGmei+k+WFpeahhuOAgea7muWKqOa1j+iniO+8ie+8mkdVSSDmmK/kuLrkurrorr7orqHnmoTvvIznvZHnq5nkuI3kvJrpmZDliLbmraPluLjnmoQgVUkg5pON5L2c77yM56Gu5a6a5oCn5pyA6auY77yM5L2G5q2l6aqk5aSa44CB6YCf5bqm5oWi44CCCgrmoLnmja7lr7nnm67moIflubPlj7DnmoTkuobop6PmnaXngbXmtLvpgInmi6nmlrnlvI/jgIJHVUkg5Lqk5LqS5Lmf5piv56iL5bqP5YyW5pa55byP55qE5pyJ5pWI5o6i5rWL4oCU4oCU6YCa6L+H5LiA5qyh55yf5a6e5Lqk5LqS6KeC5a+f56uZ54K555qE5a6e6ZmF6KGM5Li677yIVVJMIOaooeW8j+OAgeW/hemcgOWPguaVsOOAgemhtemdoui3s+i9rOmAu+i+ke+8ie+8jOS4uuWQjue7reeoi+W6j+WMluaTjeS9nOaPkOS+m+S+neaNru+8m+WQjOaXtuW9k+eoi+W6j+WMluaWueW8j+WPl+mYu+aXtu+8jEdVSSDkuqTkupLmmK/lj6/pnaDnmoTlhZzlupXjgIIKCioq56uZ54K55YaF5Lqk5LqS5Lqn55Sf55qE6ZO+5o6l5piv5Y+v6Z2g55qEKirvvJrpgJrov4fnlKjmiLfop4bop5LkuK3nmoTlj6/kuqTkupLljZXlhYPvvIjljaHniYfjgIHmnaHnm67jgIHmjInpkq7vvInov5vooYznmoTnq5nngrnlhoXkuqTkupLvvIzoh6rnhLbliLDovr7nmoQgVVJMIOWkqeeEtuaQuuW4puW5s+WPsOaJgOmcgOeahOWujOaVtOS4iuS4i+aWh+OAguiAjOaJi+WKqOaehOmAoOeahCBVUkwg5Y+v6IO957y65aSx6ZqQ5byP5b+F6KaB5Y+C5pWw77yM5a+86Ie06KKr5oum5oiq44CB6L+U5Zue6ZSZ6K+v6aG16Z2i44CB55Sa6Iez6Kem5Y+R5Y+N54is44CCCgotLS0KCiMjIOa1j+iniOWZqCBDRFAg5qih5byPCgrpgJrov4cgQ0RQIFByb3h5IOebtOi/nueUqOaIt+aXpeW4uCBDaHJvbWXvvIzlpKnnhLbmkLrluKbnmbvlvZXmgIHvvIzml6DpnIDlkK/liqjni6znq4vmtY/op4jlmajjgIIK6Iul5peg55So5oi35piO56Gu6KaB5rGC77yM5LiN5Li75Yqo5pON5L2c55So5oi35bey5pyJIHRhYu+8jOaJgOacieaTjeS9nOmDveWcqOiHquW3seWIm+W7uueahOWQjuWPsCB0YWIg5Lit6L+b6KGM77yM5L+d5oyB5a+555So5oi3546v5aKD55qE5pyA5bCP5L615YWl44CC5LiN5YWz6Zet55So5oi3IHRhYiDnmoTliY3mj5DkuIvvvIzlrozmiJDku7vliqHlkI7lhbPpl63oh6rlt7HliJvlu7rnmoQgdGFi77yM5L+d5oyB546v5aKD5pW05rSB44CCCgojIyMg5ZCv5YqoCgpgYGBiYXNoCm5vZGUgInNjcmlwdHMvY2hlY2stZGVwcy5tanMiCmBgYAoK6ISa5pys5Lya5L6d5qyh5qOA5p+lIE5vZGUuanPjgIFDaHJvbWUg56uv5Y+j77yM5bm256Gu5L+dIFByb3h5IOW3sui/nuaOpe+8iOacqui/kOihjOWImeiHquWKqOWQr+WKqOW5tuetieW+he+8ieOAglByb3h5IOWQr+WKqOWQjuaMgee7rei/kOihjOOAggoKIyMjIFByb3h5IEFQSQoK5omA5pyJ5pON5L2c6YCa6L+HIGN1cmwg6LCD55SoIEhUVFAgQVBJ77yaCgpgYGBiYXNoCiMg5YiX5Ye655So5oi35bey5omT5byA55qEIHRhYgpjdXJsIC1zIGh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni90YXJnZXRzCgojIOWIm+W7uuaWsOWQjuWPsCB0YWLvvIjoh6rliqjnrYnlvoXliqDovb3vvIkKY3VybCAtcyAiaHR0cDovL2xvY2FsaG9zdDozNDU2L25ldz91cmw9aHR0cHM6Ly9leGFtcGxlLmNvbSIKCiMg6aG16Z2i5L+h5oGvCmN1cmwgLXMgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9pbmZvP3RhcmdldD1JRCIKCiMg5omn6KGM5Lu75oSPIEpT77ya5Y+v6K+75YaZIERPTeOAgeaPkOWPluaVsOaNruOAgeaTjeaOp+WFg+e0oOOAgeinpuWPkeeKtuaAgeWPmOabtOOAgeaPkOS6pOihqOWNleOAgeiwg+eUqOWGhemDqOaWueazlQpjdXJsIC1zIC1YIFBPU1QgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9ldmFsP3RhcmdldD1JRCIgLWQgJ2RvY3VtZW50LnRpdGxlJwoKIyDmjZXojrfpobXpnaLmuLLmn5PnirbmgIHvvIjlkKvop4bpopHlvZPliY3luKfvvIkKY3VybCAtcyAiaHR0cDovL2xvY2FsaG9zdDozNDU2L3NjcmVlbnNob3Q/dGFyZ2V0PUlEJmZpbGU9L3RtcC9zaG90LnBuZyIKCiMg5a+86Iiq44CB5ZCO6YCACmN1cmwgLXMgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9uYXZpZ2F0ZT90YXJnZXQ9SUQmdXJsPVVSTCIKY3VybCAtcyAiaHR0cDovL2xvY2FsaG9zdDozNDU2L2JhY2s/dGFyZ2V0PUlEIgoKIyDngrnlh7vvvIhQT1NUIGJvZHkg5Li6IENTUyDpgInmi6nlmajvvInigJQgSlMgZWwuY2xpY2soKe+8jOeugOWNleW/q+mAn++8jOimhuebluWkp+WkmuaVsOWcuuaZrwpjdXJsIC1zIC1YIFBPU1QgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9jbGljaz90YXJnZXQ9SUQiIC1kICdidXR0b24uc3VibWl0JwoKIyDnnJ/lrp7pvKDmoIfngrnlh7sg4oCUIENEUCBJbnB1dC5kaXNwYXRjaE1vdXNlRXZlbnTvvIznrpfnlKjmiLfmiYvlir/vvIzog73op6blj5Hmlofku7blr7nor53moYYKY3VybCAtcyAtWCBQT1NUICJodHRwOi8vbG9jYWxob3N0OjM0NTYvY2xpY2tBdD90YXJnZXQ9SUQiIC1kICdidXR0b24udXBsb2FkJwoKIyDmlofku7bkuIrkvKAg4oCUIOebtOaOpeiuvue9riBmaWxlIGlucHV0IOeahOacrOWcsOaWh+S7tui3r+W+hO+8jOe7lei/h+aWh+S7tuWvueivneahhgpjdXJsIC1zIC1YIFBPU1QgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9zZXRGaWxlcz90YXJnZXQ9SUQiIC1kICd7InNlbGVjdG9yIjoiaW5wdXRbdHlwZT1maWxlXSIsImZpbGVzIjpbIi9wYXRoL3RvL2ZpbGUucG5nIl19JwoKIyDmu5rliqjvvIjop6blj5Hmh5LliqDovb3vvIkKY3VybCAtcyAiaHR0cDovL2xvY2FsaG9zdDozNDU2L3Njcm9sbD90YXJnZXQ9SUQmeT0zMDAwIgpjdXJsIC1zICJodHRwOi8vbG9jYWxob3N0OjM0NTYvc2Nyb2xsP3RhcmdldD1JRCZkaXJlY3Rpb249Ym90dG9tIgoKIyDlhbPpl60gdGFiCmN1cmwgLXMgImh0dHA6Ly9sb2NhbGhvc3Q6MzQ1Ni9jbG9zZT90YXJnZXQ9SUQiCmBgYAoKIyMjIOmhtemdouWGheWvvOiIqgoK5Lik56eN5pa55byP5omT5byA6aG16Z2i5YaF55qE6ZO+5o6l77yaCgotICoqYC9jbGlja2AqKu+8muWcqOW9k+WJjSB0YWIg5YaF55u05o6l54K55Ye755So5oi36KeG6KeS5Lit55qE5Y+v5Lqk5LqS5Y2V5YWD77yM566A5Y2V55u05o6l77yM5Liy6KGM5aSE55CG44CC6YCC5ZCI6ZyA6KaB5Zyo5ZCM5LiA6aG16Z2i5YaF6L+e57ut5pON5L2c55qE5Zy65pmv77yM5aaC54K55Ye75bGV5byA44CB57+76aG144CB6L+b5YWl6K+m5oOF562J44CCCi0gKipgL25ld2AgKyDlrozmlbQgVVJMKirvvJrkvb/nlKjnm67moIfpk77mjqXnmoTlrozmlbTlnLDlnYDvvIjljIXlkKvmiYDmnIlVUkzlj4LmlbDvvInvvIzlnKjmlrAgdGFiIOS4reaJk+W8gOOAgumAguWQiOmcgOimgeWQjOaXtuiuv+mXruWkmuS4qumhtemdoueahOWcuuaZr+OAggoK5b6I5aSa572R56uZ55qE6ZO+5o6l5YyF5ZCr5Lya6K+d55u45YWz55qE5Y+C5pWw77yI5aaCIHRva2Vu77yJ77yM6L+Z5Lqb5Y+C5pWw5piv5q2j5bi46K6/6Zeu5omA5b+F6ZyA55qE44CC5o+Q5Y+WIFVSTCDml7blupTkv53nlZnlrozmlbTlnLDlnYDvvIzkuI3opoHoo4HliarmiJbnnIHnlaXlj4LmlbDjgIIKCiMjIyDlqpLkvZPotYTmupDmj5Dlj5YKCuWIpOaWreWGheWuueWcqOWbvueJh+mHjOaXtu+8jOeUqCBgL2V2YWxgIOS7jiBET00g55u05o6l5ou/5Zu+54mHIFVSTO+8jOWGjeWumuWQkeivu+WPluKAlOKAlOavlOWFqOmhteaIquWbvueyvuWHhuW+l+WkmuOAggoKIyMjIOaKgOacr+S6i+WungotIOmhtemdouS4reWtmOWcqOWkp+mHj+W3suWKoOi9veS9huacquWxleekuueahOWGheWuueKAlOKAlOi9ruaSreS4remdnuW9k+WJjeW4p+eahOWbvueJh+OAgeaKmOWPoOWMuuWdl+eahOaWh+Wtl+OAgeaHkuWKoOi9veWNoOS9jeWFg+e0oOetie+8jOWug+S7rOWtmOWcqOS6jiBET00g5Lit5L2G5a+555So5oi35LiN5Y+v6KeB44CC5Lul5pWw5o2u57uT5p6E77yI5a655Zmo44CB5bGe5oCn44CB6IqC54K55YWz57O777yJ5Li65Y2V5L2N5oCd6ICD77yM5Y+v5Lul55u05o6l6Kem6L6+6L+Z5Lqb5YaF5a6544CCCi0gRE9NIOS4reWtmOWcqOmAieaLqeWZqOS4jeWPr+i3qOi2iueahOi+ueeVjO+8iFNoYWRvdyBET00g55qEIGBzaGFkb3dSb290YOOAgWlmcmFtZSDnmoQgYGNvbnRlbnREb2N1bWVudGDnrYnvvInjgIJldmFsIOmAkuW9kumBjeWOhuWPr+S4gOasoeepv+mAj+aJgOacieWxgue6p++8jOi/lOWbnuW4puagh+etvueahOe7k+aehOWMluWGheWuue+8jOmAguWQiOW/q+mAn+S6huino+acquefpemhtemdoueahOWujOaVtOe7k+aehOOAggotIGAvc2Nyb2xsYCDliLDlupXpg6jkvJrop6blj5Hmh5LliqDovb3vvIzkvb/mnKrov5vlhaXop4blj6PnmoTlm77niYflrozmiJDliqDovb3jgILmj5Dlj5blm77niYcgVVJMIOWJjeiLpeacqua7muWKqO+8jOmDqOWIhuWbvueJh+WPr+iDveWwmuacquWKoOi9veOAggotIOaLv+WIsOWqkuS9k+i1hOa6kCBVUkwg5ZCO77yM5YWs5byA6LWE5rqQ5Y+v55u05o6l5LiL6L295Yiw5pys5Zyw5ZCO55So6K+75Y+W77yb6ZyA6KaB55m75b2V5oCB5omN5Y+v6I635Y+W55qE6LWE5rqQ5omN6ZyA6KaB5Zyo5rWP6KeI5Zmo5YaFIG5hdmlnYXRlICsgc2NyZWVuc2hvdOOAggotIOefreaXtumXtOWGheWvhumbhuaJk+W8gOWkp+mHj+mhtemdou+8iOWmguaJuemHjyBgL25ld2DvvInlj6/og73op6blj5HnvZHnq5nnmoTlj43niKzpo47mjqfjgIIKLSDlubPlj7Dov5Tlm57nmoQi5YaF5a655LiN5a2Y5ZyoIiLpobXpnaLkuI3op4HkuoYi562J5o+Q56S65LiN5LiA5a6a5Y+N5pig55yf5a6e54q25oCB77yM5Lmf5Y+v6IO95piv6K6/6Zeu5pa55byP55qE6Zeu6aKY77yI5aaCIFVSTCDnvLrlpLHlv4XopoHlj4LmlbDjgIHop6blj5Hlj43niKzvvInogIzpnZ7lhoXlrrnmnKzouqvnmoTpl67popjjgIIKCiMjIyDop4bpopHlhoXlrrnojrflj5YKCueUqOaItyBDaHJvbWUg55yf5a6e5riy5p+T77yM5oiq5Zu+5Y+v5o2V6I635b2T5YmN6KeG6aKR5bin44CC5qC45b+D6IO95Yqb77ya6YCa6L+HIGAvZXZhbGAg5pON5o6nIGA8dmlkZW8+YCDlhYPntKDvvIjojrflj5bml7bplb/jgIFzZWVrIOWIsOS7u+aEj+aXtumXtOeCueOAgeaSreaUvi/mmoLlgZwv5YWo5bGP77yJ77yM6YWN5ZCIIGAvc2NyZWVuc2hvdGAg6YeH5bin77yM5Y+v5a+56KeG6aKR5YaF5a656L+b6KGM56a75pWj6YeH5qC35YiG5p6Q44CCCgojIyMg55m75b2V5Yik5patCgrnlKjmiLfml6XluLggQ2hyb21lIOWkqeeEtuaQuuW4pueZu+W9leaAge+8jOWkp+WkmuaVsOW4uOeUqOe9keermeW3sueZu+W9leOAggoK55m75b2V5Yik5pat55qE5qC45b+D6Zeu6aKY5Y+q5pyJ5LiA5Liq77yaKirnm67moIflhoXlrrnmi7/liLDkuoblkJfvvJ8qKgoK5omT5byA6aG16Z2i5ZCO5YWI5bCd6K+V6I635Y+W55uu5qCH5YaF5a6544CC5Y+q5pyJ5b2T56Gu6K6kKirnm67moIflhoXlrrnml6Dms5Xojrflj5YqKuS4lOWIpOaWreeZu+W9leiDveino+WGs+aXtu+8jOaJjeWRiuefpeeUqOaIt++8mgo+ICLlvZPliY3pobXpnaLlnKjmnKrnmbvlvZXnirbmgIHkuIvml6Dms5Xojrflj5Zb5YW35L2T5YaF5a65Xe+8jOivt+WcqOS9oOeahCBDaHJvbWUg5Lit55m75b2VIFvnvZHnq5nlkI1d77yM5a6M5oiQ5ZCO5ZGK6K+J5oiR57un57ut44CCIgoK55m75b2V5a6M5oiQ5ZCO5peg6ZyA6YeN5ZCv5Lu75L2V5Lic6KW/77yM55u05o6l5Yi35paw6aG16Z2i57un57ut44CCCgojIyMg5Lu75Yqh57uT5p2fCgrnlKggYC9jbG9zZWAg5YWz6Zet6Ieq5bex5Yib5bu655qEIHRhYu+8jOW/hemhu+S/neeVmeeUqOaIt+WOn+acieeahCB0YWIg5LiN5Y+X5b2x5ZON44CCCgpQcm94eSDmjIHnu63ov5DooYzvvIzkuI3lu7rorq7kuLvliqjlgZzmraLigJTigJTph43lkK/lkI7pnIDopoHlnKggQ2hyb21lIOS4remHjeaWsOaOiOadgyBDRFAg6L+e5o6l44CCCgotLS0KCiMjIOW5tuihjOiwg+eglO+8muWtkCBBZ2VudCDliIbmsrvnrZbnlaUKCuS7u+WKoeWMheWQq+WkmuS4qioq54us56uLKirosIPnoJTnm67moIfml7bvvIjlpoLlkIzml7bosIPnoJQgTiDkuKrpobnnm67jgIFOIOS4quadpea6kO+8ie+8jOm8k+WKseWQiOeQhuWIhuayu+e7meWtkCBBZ2VudCDlubbooYzmiafooYzvvIzogIzpnZ7kuLsgQWdlbnQg5Liy6KGM5aSE55CG44CCCgoqKuWlveWkhO+8mioqCi0gKirpgJ/luqYqKu+8muWkmuWtkCBBZ2VudCDlubbooYzvvIzmgLvogJfml7bnuqbnrYnkuo7ljZXkuKrlrZDku7vliqHml7bplb8KLSAqKuS4iuS4i+aWh+S/neaKpCoq77ya5oqT5Y+W5YaF5a655LiN6L+b5YWl5Li7IEFnZW50IOS4iuS4i+aWh++8jOS4uyBBZ2VudCDlj6rmjqXmlLbmkZjopoHvvIzoioLnnIEgdG9rZW4KCioq5bm26KGMIENEUCDmk43kvZwqKu+8muavj+S4quWtkCBBZ2VudCDlnKjlvZPliY3nlKjmiLfmtY/op4jlmajlrp7kvovkuK3vvIzoh6rooYzliJvlu7rmiYDpnIDnmoTlkI7lj7AgdGFi77yIYC9uZXdg77yJ77yM6Ieq6KGM5pON5L2c77yM5Lu75Yqh57uT5p2f6Ieq6KGM5YWz6Zet77yIYC9jbG9zZWDvvInjgILmiYDmnInlrZAgQWdlbnQg5YWx5Lqr5LiA5LiqIENocm9tZeOAgeS4gOS4qiBQcm94ee+8jOmAmui/h+S4jeWQjCB0YXJnZXRJZCDmk43kvZzkuI3lkIwgdGFi77yM5peg56ue5oCB6aOO6Zmp44CCCgoqKuWtkCBBZ2VudCBQcm9tcHQg5YaZ5rOV77ya55uu5qCH5a+85ZCR77yM6ICM6Z2e5q2l6aqk5oyH5LukKioKLSDlv4XpobvlnKjlrZAgQWdlbnQgcHJvbXB0IOS4reWGmSBg5b+F6aG75Yqg6L29IHdlYi1hY2Nlc3Mgc2tpbGwg5bm26YG15b6q5oyH5byVYCDvvIzlrZAgQWdlbnQg5Lya6Ieq5Yqo5Yqg6L29IHNraWxs77yM5peg6ZyA5ZyoIHByb21wdCDkuK3lpI3liLYgc2tpbGwg5YaF5a655oiW5oyH5a6a6Lev5b6E44CCCi0g5a2QIEFnZW50IOacieiHquS4u+WIpOaWreiDveWKm+OAguS4uyBBZ2VudCDnmoTogYzotKPmmK/or7TmuIXmpZoqKuimgeS7gOS5iCoq77yM5LuF5Zyo5b+F6KaB5LiO56Gu5L+h5pe26ZmQ5a6aKirmgI7kuYjlgZoqKuOAgui/h+W6puaMh+WumuatpemqpOS8muWJpeWkuuWtkCBBZ2VudCDnmoTliKTmlq3nqbrpl7TvvIzlj43ogIzlvJXlhaXkuLsgQWdlbnQg55qE5YGH6K6+6ZSZ6K+v44CCKirpgb/lhY0gcHJvbXB0IOeUqOivjeWvueWtkCBBZ2VudCDooYzkuLrnmoTmmpfnpLoqKu+8muOAjOaQnOe0onh444CN5Lya5oqK5a2QIEFnZW50IOmUmuWumuWIsCBXZWJTZWFyY2jvvIzogIzlrp7pmYXkuIrmnInkupvlj43niKznq5nngrnpnIDopoEgQ0RQIOebtOaOpeiuv+mXruS4u+ermeaJjeiDveacieaViOiOt+WPluWGheWuueOAguS4uyBBZ2VudCDlhpkgcHJvbXB0IOaXtuW6lOaPj+i/sOebruagh++8iOOAjOiOt+WPluOAjeOAjOiwg+eglOOAjeOAjOS6huino+OAje+8ie+8jOmBv+WFjeeUqOaal+ekuuWFt+S9k+aJi+auteeahOWKqOivje+8iOOAjOaQnOe0ouOAjeOAjOaKk+WPluOAjeOAjOeIrOWPluOAje+8ieOAggoKKirliIbmsrvliKTmlq3moIflh4bvvJoqKgoKfCDpgILlkIjliIbmsrsgfCDkuI3pgILlkIjliIbmsrsgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS0tLXwKfCDnm67moIfnm7jkupLni6znq4vvvIznu5PmnpzkupLkuI3kvp3otZYgfCDnm67moIfmnInkvp3otZblhbPns7vvvIzkuIvkuIDkuKrpnIDopoHkuIrkuIDkuKrnmoTnu5PmnpwgfAp8IOavj+S4quWtkOS7u+WKoemHj+i2s+Wkn+Wkp++8iOWkmumhteaKk+WPluOAgeWkmui9ruaQnOe0ou+8iSB8IOeugOWNleWNlemhteafpeivou+8jOWIhuayu+W8gOmUgOWkp+S6juaUtuebiiB8Cnwg6ZyA6KaBIENEUCDmtY/op4jlmajmiJbplb/ml7bpl7Tov5DooYznmoTku7vliqEgfCDlh6DmrKEgV2ViU2VhcmNoIC8gSmluYSDlsLHog73lrozmiJDnmoTovbvph4/mn6Xor6IgfAoKLS0tCgojIyDkv6Hmga/moLjlrp7nsbvku7vliqEKCuaguOWunueahOebruagh+aYryoq5LiA5omL5p2l5rqQKirvvIzogIzpnZ7mm7TlpJrnmoTkuozmiYvmiqXpgZPjgILlpJrkuKrlqpLkvZPlvJXnlKjlkIzkuIDkuKrplJnor6/kvJrpgKDmiJDlvqrnjq/ljbDor4HlgYfosaHjgIIKCuaQnOe0ouW8leaTjuWSjOiBmuWQiOW5s+WPsOaYr+S/oeaBr+WPkeeOsOWFpeWPo++8jOaYryoq5a6a5L2NKirkv6Hmga/nmoTlt6XlhbfvvIzkuI3lj6/nlKjkuo7nm7TmjqUqKuivgeaYjioq55yf5Lyq44CC5om+5Yiw5p2l5rqQ5ZCO77yM55u05o6l6K6/6Zeu6K+75Y+W5Y6f5paH44CC5ZCM5LiA5Y6f5YiZ6YCC55So5LqO5bel5YW36IO95YqbL+eUqOazleeahOiwg+eglOKAlOKAlOWumOaWueaWh+aho+aYr+S4gOaJi+adpea6kO+8jOS4jeehruWumuaXtuWFiOafpeaWh+aho+aIlua6kOegge+8jOS4jeeMnOa1i+OAggoKfCDkv6Hmga/nsbvlnosgfCDkuIDmiYvmnaXmupAgfAp8LS0tLS0tLS0tLXwtLS0tLS0tLS18Cnwg5pS/562WL+azleinhCB8IOWPkeW4g+acuuaehOWumOe9kSB8Cnwg5LyB5Lia5YWs5ZGKIHwg5YWs5Y+45a6Y5pa55paw6Ze76aG1IHwKfCDlrabmnK/lo7DmmI4gfCDljp/lp4vorrrmlocv5py65p6E5a6Y572RIHwKfCDlt6Xlhbfog73lipsv55So5rOVIHwg5a6Y5pa55paH5qGj44CB5rqQ56CBIHwKCioq5om+5LiN5Yiw5a6Y572R5pe2KirvvJrmnYPlqIHlqpLkvZPnmoTljp/liJvmiqXpgZPvvIjpnZ7ovazovb3vvInlj6/kvZzkuLrmrKHnuqfkvp3mja7vvIzkvYbpnIDlkJHnlKjmiLfor7TmmI7vvJoi5pyq5om+5Yiw5a6Y5pa55Y6f5paH77yM5Lul5LiL5qC45a6e5p2l6IeqW+WqkuS9k+WQjV3miqXpgZPvvIzlrZjlnKjovazov7Dor6/lt67lj6/og73jgIIi5Y2V5LiA5p2l5rqQ5pe25ZCM5qC35ZCR55So5oi35aOw5piO44CCCgotLS0KCiMjIOermeeCuee7j+mqjAoK5pON5L2c5Lit56ev57Sv55qE54m55a6a572R56uZ57uP6aqM77yM5oyJ5Z+f5ZCN5a2Y5YKo5ZyoIGByZWZlcmVuY2VzL3NpdGUtcGF0dGVybnMvYCDkuIvjgIIKCuehruWumuebruagh+e9keermeWQju+8jOWmguaenOWJjee9ruajgOafpei+k+WHuueahCBzaXRlLXBhdHRlcm5zIOWIl+ihqOS4reacieWMuemFjeeahOermeeCue+8jOW/hemhu+ivu+WPluWvueW6lOaWh+S7tuiOt+WPluWFiOmqjOefpeivhu+8iOW5s+WPsOeJueW+geOAgeacieaViOaooeW8j+OAgeW3suefpemZt+mYse+8ieOAgue7j+mqjOWGheWuueagh+azqOS6huWPkeeOsOaXpeacn++8jOW9k+S9nOWPr+iDveacieaViOeahOaPkOekuuiAjOmdnuS/neivgeKAlOKAlOWmguaenOaMiee7j+mqjOaTjeS9nOWksei0pe+8jOWbnumAgOmAmueUqOaooeW8j+W5tuabtOaWsOe7j+mqjOaWh+S7tuOAggoKQ0RQIOaTjeS9nOaIkOWKn+WujOaIkOWQju+8jOWmguaenOWPkeeOsOS6huacieW/heimgeiusOW9lee7j+mqjOeahOaWsOermeeCueaIluaWsOaooeW8j++8iFVSTCDnu5PmnoTjgIHlubPlj7DnibnlvoHjgIHmk43kvZznrZbnlaXvvInvvIzkuLvliqjlhpnlhaXlr7nlupTnmoTnq5nngrnnu4/pqozmlofku7bjgILlj6rlhpnnu4/ov4fpqozor4HnmoTkuovlrp7vvIzkuI3lhpnmnKrnoa7orqTnmoTnjJzmtYvjgIIKCuaWh+S7tuagvOW8j++8mgpgYGBtYXJrZG93bgotLS0KZG9tYWluOiBleGFtcGxlLmNvbQphbGlhc2VzOiBb56S65L6LLCBFeGFtcGxlXQp1cGRhdGVkOiAyMDI2LTAzLTE5Ci0tLQojIyDlubPlj7DnibnlvoEK5p625p6E44CB5Y+N54is6KGM5Li644CB55m75b2V6ZyA5rGC44CB5YaF5a655Yqg6L295pa55byP562J5LqL5a6eCgojIyDmnInmlYjmqKHlvI8K5bey6aqM6K+B55qEIFVSTCDmqKHlvI/jgIHmk43kvZznrZbnlaXjgIHpgInmi6nlmagKCiMjIOW3suefpemZt+mYsQrku4DkuYjkvJrlpLHotKXku6Xlj4rkuLrku4DkuYgKYGBgCue7j+mqjC/pmbfpmLHlhoXlrrnmoIfms6jlj5HnjrDml6XmnJ/vvIzlvZPkvZwi5Y+v6IO95pyJ5pWI55qE5o+Q56S6IuiAjOmdniLkv53or4HmraPnoa7nmoTkuovlrp4i44CCCgotLS0KCiMjIFJlZmVyZW5jZXMg57Si5byVCgp8IOaWh+S7tiB8IOS9leaXtuWKoOi9vSB8CnwtLS0tLS18LS0tLS0tLS0tfAp8IGByZWZlcmVuY2VzL2NkcC1hcGkubWRgIHwg6ZyA6KaBIENEUCBBUEkg6K+m57uG5Y+C6ICD44CBSlMg5o+Q5Y+W5qih5byP44CB6ZSZ6K+v5aSE55CG5pe2IHwKfCBgcmVmZXJlbmNlcy9zaXRlLXBhdHRlcm5zL3tkb21haW59Lm1kYCB8IOehruWumuebruagh+e9keermeWQju+8jOivu+WPluWvueW6lOermeeCuee7j+mqjCB8CgotLS0KCiMjIFdpbmRvd3Mg546v5aKD5rOo5oSP5LqL6aG5CgoxLiAqKk5vZGUuanMg6Lev5b6EKirvvJpXaW5kb3dzIOS4iuehruS/nSBOb2RlLmpzIOWcqCBQQVRIIOS4rQoyLiAqKuiEmuacrOiwg+eUqCoq77ya5L2/55So5q2j5pac5p2g6Lev5b6E5oiW5byV5Y+35YyF6KO555qE6Lev5b6ECjMuICoqQ2hyb21lIOi3r+W+hCoq77yaYGNocm9tZTovL2luc3BlY3QvI3JlbW90ZS1kZWJ1Z2dpbmdgIOWQjOagt+mAgueUqOS6jiBXaW5kb3dzIENocm9tZQoKYGBgYmFzaAojIFdpbmRvd3Mg5LiK5qOA5p+lIE5vZGUuanMg54mI5pysCm5vZGUgLS12ZXJzaW9uCgojIOajgOafpSBDaHJvbWUg6L+c56iL6LCD6K+V5piv5ZCm5byA5ZCvCiMg6K6/6ZeuIGNocm9tZTovL2luc3BlY3QvI3JlbW90ZS1kZWJ1Z2dpbmcg5p+l55yLCmBgYAo=
+---
+name: web-access
+license: MIT
+github: https://github.com/eze-is/web-access
+description:
+  所有联网操作必须通过此 skill 处理，包括：搜索、网页抓取、登录后操作、网络交互等。
+  触发场景：用户要求搜索信息、查看网页内容、访问需要登录的网站、操作网页界面、抓取社交媒体内容（小红书、微博、推特等）、读取动态渲染页面、以及任何需要真实浏览器环境的网络任务。
+metadata:
+  author: 一泽Eze (适配: Atlas)
+  version: "2.4.3-adapted"
+  original: https://github.com/eze-is/web-access
+---
+
+# web-access Skill (OpenCode 适配版)
+
+> 本 skill 源自 [eze-is/web-access](https://github.com/eze-is/web-access)，已针对 OpenCode 环境进行适配。
+
+## OpenCode 环境适配说明
+
+### 脚本路径
+- Skill 目录: `.opencode/skills/web-access/`
+- 脚本目录: `scripts/`
+- 调用示例: `node scripts/check-deps.mjs`
+
+### 内置工具映射
+| web-access 原生能力 | OpenCode 适配 |
+|---------------------|---------------|
+| Claude Code 内置搜索 | 使用 `WebSearch` 工具 |
+| Claude Code 内置 fetch | 使用 `WebFetch` 工具 |
+| CDP Proxy 浏览器 | 使用 `/dev-browser` skill 或 `scripts/cdp-proxy.mjs` |
+
+---
+
+## 前置检查
+
+在开始联网操作前，先检查 CDP 模式可用性：
+
+```bash
+node "scripts/check-deps.mjs"
+```
+
+未通过时引导用户完成设置：
+- **Node.js 22+**：必需（使用原生 WebSocket）。版本低于 22 可用但需安装 `ws` 模块。
+- **Chrome remote-debugging**：在 Chrome 地址栏打开 `chrome://inspect/#remote-debugging`，勾选 **"Allow remote debugging for this browser instance"** 即可，可能需要重启浏览器。
+
+检查通过后并必须在回复中向用户直接展示以下须知，再启动 CDP Proxy 执行操作：
+
+```
+温馨提示：部分站点对浏览器自动化操作检测严格，存在账号封禁风险。已内置防护措施但无法完全避免，Agent 继续操作即视为接受。
+```
+
+---
+
+## 浏览哲学
+
+**像人一样思考，兼顾高效与适应性的完成任务。**
+
+执行任务时不会过度依赖固有印象所规划的步骤，而是带着目标进入，边看边判断，遇到阻碍就解决，发现内容不够就深入——全程围绕「我要达成什么」做决策。这个 skill 的所有行为都应遵循这个逻辑。
+
+**① 拿到请求** — 先明确用户要做什么，定义成功标准：什么算完成了？需要获取什么信息、执行什么操作、达到什么结果？这是后续所有判断的锚点。
+
+**② 选择起点** — 根据任务性质、平台特征、达成条件，选一个最可能直达的方式作为第一步去验证。一次成功当然最好；不成功则在③中调整。比如，需要操作页面、需要登录态、已知静态方式不可达的平台（小红书、微信公众号等）→ 直接 CDP
+
+**③ 过程校验** — 每一步的结果都是证据，不只是成功或失败的二元信号。用结果对照①的成功标准，更新你对目标的判断：路径在推进吗？结果的整体面貌（质量、相关度、量级）是否指向目标可达？发现方向错了立即调整，不在同一个方式上反复重试——搜索没命中不等于"还没找对方法"，也可能是"目标不存在"；API 报错、页面缺少预期元素、重试无改善，都是在告诉你该重新评估方向。遇到弹窗、登录墙等障碍，判断它是否真的挡住了目标：挡住了就处理，没挡住就绕过——内容可能已在页面 DOM 中，交互只是展示手段。
+
+**④ 完成判断** — 对照定义的任务成功标准，确认任务完成后才停止，但也不要过度操作，不为了"完整"而浪费代价。
+
+---
+
+## 联网工具选择
+
+- **确保信息的真实性，一手信息优于二手信息**：搜索引擎和聚合平台是信息发现入口。当多次搜索尝试后没有质的改进时，升级到更根本的获取方式：定位一手来源（官网、官方平台、原始页面）。
+
+| 场景 | 工具 |
+|------|------|
+| 搜索摘要或关键词结果，发现信息来源 | **WebSearch** |
+| URL 已知，需要从页面定向提取特定信息 | **WebFetch**（拉取网页内容，由小模型根据 prompt 提取，返回处理后结果） |
+| URL 已知，需要原始 HTML 源码（meta、JSON-LD 等结构化字段） | **curl** |
+| 非公开内容，或已知静态层无效的平台（小红书、微信公众号等公开内容也被反爬限制） | **浏览器 CDP**（直接，跳过静态层） |
+| 需要登录态、交互操作，或需要像人一样在浏览器内自由导航探索 | **浏览器 CDP** |
+
+浏览器 CDP 不要求 URL 已知——可从任意入口出发，通过页面内搜索、点击、跳转等方式找到目标内容。WebSearch、WebFetch、curl 均不处理登录态。
+
+**Jina**（可选预处理层，可与 WebFetch/curl 组合使用，由于其特性可节省 tokens 消耗，请积极在任务合适时组合使用）：第三方网络服务，可将网页转为 Markdown，大幅节省 token 但可能有信息损耗。调用方式为 `r.jina.ai/example.com`（URL 前加前缀，不保留原网址 http 前缀），限 20 RPM。适合文章、博客、文档、PDF 等以正文为核心的页面；对数据面板、商品页等非文章结构页面可能提取到错误区块。
+
+进入浏览器层后，`/eval` 就是你的眼睛和手：
+
+- **看**：用 `/eval` 查询 DOM，发现页面上的链接、按钮、表单、文本内容——相当于「看看这个页面有什么」
+- **做**：用 `/click` 点击元素、`/scroll` 滚动加载、`/eval` 填表提交——像人一样在页面内自然导航
+- **读**：用 `/eval` 提取文字内容，判断图片/视频是否承载核心信息——是则提取媒体 URL 定向读取或 `/screenshot` 视觉识别
+
+浏览网页时，**先了解页面结构，再决定下一步动作**。不需要提前规划所有步骤。
+
+### 程序化操作与 GUI 交互
+
+浏览器内操作页面有两种方式：
+
+- **程序化方式**（构造 URL 直接导航、eval 操作 DOM）：成功时速度快、精确，但对网站来说不是正常用户行为，可能触发反爬机制。
+- **GUI 交互**（点击按钮、填写输入框、滚动浏览）：GUI 是为人设计的，网站不会限制正常的 UI 操作，确定性最高，但步骤多、速度慢。
+
+根据对目标平台的了解来灵活选择方式。GUI 交互也是程序化方式的有效探测——通过一次真实交互观察站点的实际行为（URL 模式、必需参数、页面跳转逻辑），为后续程序化操作提供依据；同时当程序化方式受阻时，GUI 交互是可靠的兜底。
+
+**站点内交互产生的链接是可靠的**：通过用户视角中的可交互单元（卡片、条目、按钮）进行的站点内交互，自然到达的 URL 天然携带平台所需的完整上下文。而手动构造的 URL 可能缺失隐式必要参数，导致被拦截、返回错误页面、甚至触发反爬。
+
+---
+
+## 浏览器 CDP 模式
+
+通过 CDP Proxy 直连用户日常 Chrome，天然携带登录态，无需启动独立浏览器。
+若无用户明确要求，不主动操作用户已有 tab，所有操作都在自己创建的后台 tab 中进行，保持对用户环境的最小侵入。不关闭用户 tab 的前提下，完成任务后关闭自己创建的 tab，保持环境整洁。
+
+### 启动
+
+```bash
+node "scripts/check-deps.mjs"
+```
+
+脚本会依次检查 Node.js、Chrome 端口，并确保 Proxy 已连接（未运行则自动启动并等待）。Proxy 启动后持续运行。
+
+### Proxy API
+
+所有操作通过 curl 调用 HTTP API：
+
+```bash
+# 列出用户已打开的 tab
+curl -s http://localhost:3456/targets
+
+# 创建新后台 tab（自动等待加载）
+curl -s "http://localhost:3456/new?url=https://example.com"
+
+# 页面信息
+curl -s "http://localhost:3456/info?target=ID"
+
+# 执行任意 JS：可读写 DOM、提取数据、操控元素、触发状态变更、提交表单、调用内部方法
+curl -s -X POST "http://localhost:3456/eval?target=ID" -d 'document.title'
+
+# 捕获页面渲染状态（含视频当前帧）
+curl -s "http://localhost:3456/screenshot?target=ID&file=/tmp/shot.png"
+
+# 导航、后退
+curl -s "http://localhost:3456/navigate?target=ID&url=URL"
+curl -s "http://localhost:3456/back?target=ID"
+
+# 点击（POST body 为 CSS 选择器）— JS el.click()，简单快速，覆盖大多数场景
+curl -s -X POST "http://localhost:3456/click?target=ID" -d 'button.submit'
+
+# 真实鼠标点击 — CDP Input.dispatchMouseEvent，算用户手势，能触发文件对话框
+curl -s -X POST "http://localhost:3456/clickAt?target=ID" -d 'button.upload'
+
+# 文件上传 — 直接设置 file input 的本地文件路径，绕过文件对话框
+curl -s -X POST "http://localhost:3456/setFiles?target=ID" -d '{"selector":"input[type=file]","files":["/path/to/file.png"]}'
+
+# 滚动（触发懒加载）
+curl -s "http://localhost:3456/scroll?target=ID&y=3000"
+curl -s "http://localhost:3456/scroll?target=ID&direction=bottom"
+
+# 关闭 tab
+curl -s "http://localhost:3456/close?target=ID"
+```
+
+### 页面内导航
+
+两种方式打开页面内的链接：
+
+- **`/click`**：在当前 tab 内直接点击用户视角中的可交互单元，简单直接，串行处理。适合需要在同一页面内连续操作的场景，如点击展开、翻页、进入详情等。
+- **`/new` + 完整 URL**：使用目标链接的完整地址（包含所有URL参数），在新 tab 中打开。适合需要同时访问多个页面的场景。
+
+很多网站的链接包含会话相关的参数（如 token），这些参数是正常访问所必需的。提取 URL 时应保留完整地址，不要裁剪或省略参数。
+
+### 媒体资源提取
+
+判断内容在图片里时，用 `/eval` 从 DOM 直接拿图片 URL，再定向读取——比全页截图精准得多。
+
+### 技术事实
+- 页面中存在大量已加载但未展示的内容——轮播中非当前帧的图片、折叠区块的文字、懒加载占位元素等，它们存在于 DOM 中但对用户不可见。以数据结构（容器、属性、节点关系）为单位思考，可以直接触达这些内容。
+- DOM 中存在选择器不可跨越的边界（Shadow DOM 的 `shadowRoot`、iframe 的 `contentDocument`等）。eval 递归遍历可一次穿透所有层级，返回带标签的结构化内容，适合快速了解未知页面的完整结构。
+- `/scroll` 到底部会触发懒加载，使未进入视口的图片完成加载。提取图片 URL 前若未滚动，部分图片可能尚未加载。
+- 拿到媒体资源 URL 后，公开资源可直接下载到本地后用读取；需要登录态才可获取的资源才需要在浏览器内 navigate + screenshot。
+- 短时间内密集打开大量页面（如批量 `/new`）可能触发网站的反爬风控。
+- 平台返回的"内容不存在""页面不见了"等提示不一定反映真实状态，也可能是访问方式的问题（如 URL 缺失必要参数、触发反爬）而非内容本身的问题。
+
+### 视频内容获取
+
+用户 Chrome 真实渲染，截图可捕获当前视频帧。核心能力：通过 `/eval` 操控 `<video>` 元素（获取时长、seek 到任意时间点、播放/暂停/全屏），配合 `/screenshot` 采帧，可对视频内容进行离散采样分析。
+
+### 登录判断
+
+用户日常 Chrome 天然携带登录态，大多数常用网站已登录。
+
+登录判断的核心问题只有一个：**目标内容拿到了吗？**
+
+打开页面后先尝试获取目标内容。只有当确认**目标内容无法获取**且判断登录能解决时，才告知用户：
+> "当前页面在未登录状态下无法获取[具体内容]，请在你的 Chrome 中登录 [网站名]，完成后告诉我继续。"
+
+登录完成后无需重启任何东西，直接刷新页面继续。
+
+### 任务结束
+
+用 `/close` 关闭自己创建的 tab，必须保留用户原有的 tab 不受影响。
+
+Proxy 持续运行，不建议主动停止——重启后需要在 Chrome 中重新授权 CDP 连接。
+
+---
+
+## 并行调研：子 Agent 分治策略
+
+任务包含多个**独立**调研目标时（如同时调研 N 个项目、N 个来源），鼓励合理分治给子 Agent 并行执行，而非主 Agent 串行处理。
+
+**好处：**
+- **速度**：多子 Agent 并行，总耗时约等于单个子任务时长
+- **上下文保护**：抓取内容不进入主 Agent 上下文，主 Agent 只接收摘要，节省 token
+
+**并行 CDP 操作**：每个子 Agent 在当前用户浏览器实例中，自行创建所需的后台 tab（`/new`），自行操作，任务结束自行关闭（`/close`）。所有子 Agent 共享一个 Chrome、一个 Proxy，通过不同 targetId 操作不同 tab，无竞态风险。
+
+**子 Agent Prompt 写法：目标导向，而非步骤指令**
+- 必须在子 Agent prompt 中写 `必须加载 web-access skill 并遵循指引` ，子 Agent 会自动加载 skill，无需在 prompt 中复制 skill 内容或指定路径。
+- 子 Agent 有自主判断能力。主 Agent 的职责是说清楚**要什么**，仅在必要与确信时限定**怎么做**。过度指定步骤会剥夺子 Agent 的判断空间，反而引入主 Agent 的假设错误。**避免 prompt 用词对子 Agent 行为的暗示**：「搜索xx」会把子 Agent 锚定到 WebSearch，而实际上有些反爬站点需要 CDP 直接访问主站才能有效获取内容。主 Agent 写 prompt 时应描述目标（「获取」「调研」「了解」），避免用暗示具体手段的动词（「搜索」「抓取」「爬取」）。
+
+**分治判断标准：**
+
+| 适合分治 | 不适合分治 |
+|----------|-----------|
+| 目标相互独立，结果互不依赖 | 目标有依赖关系，下一个需要上一个的结果 |
+| 每个子任务量足够大（多页抓取、多轮搜索） | 简单单页查询，分治开销大于收益 |
+| 需要 CDP 浏览器或长时间运行的任务 | 几次 WebSearch / Jina 就能完成的轻量查询 |
+
+---
+
+## 信息核实类任务
+
+核实的目标是**一手来源**，而非更多的二手报道。多个媒体引用同一个错误会造成循环印证假象。
+
+搜索引擎和聚合平台是信息发现入口，是**定位**信息的工具，不可用于直接**证明**真伪。找到来源后，直接访问读取原文。同一原则适用于工具能力/用法的调研——官方文档是一手来源，不确定时先查文档或源码，不猜测。
+
+| 信息类型 | 一手来源 |
+|----------|---------|
+| 政策/法规 | 发布机构官网 |
+| 企业公告 | 公司官方新闻页 |
+| 学术声明 | 原始论文/机构官网 |
+| 工具能力/用法 | 官方文档、源码 |
+
+**找不到官网时**：权威媒体的原创报道（非转载）可作为次级依据，但需向用户说明："未找到官方原文，以下核实来自[媒体名]报道，存在转述误差可能。"单一来源时同样向用户声明。
+
+---
+
+## 站点经验
+
+操作中积累的特定网站经验，按域名存储在 `references/site-patterns/` 下。
+
+确定目标网站后，如果前置检查输出的 site-patterns 列表中有匹配的站点，必须读取对应文件获取先验知识（平台特征、有效模式、已知陷阱）。经验内容标注了发现日期，当作可能有效的提示而非保证——如果按经验操作失败，回退通用模式并更新经验文件。
+
+CDP 操作成功完成后，如果发现了有必要记录经验的新站点或新模式（URL 结构、平台特征、操作策略），主动写入对应的站点经验文件。只写经过验证的事实，不写未确认的猜测。
+
+文件格式：
+```markdown
+---
+domain: example.com
+aliases: [示例, Example]
+updated: 2026-03-19
+---
+## 平台特征
+架构、反爬行为、登录需求、内容加载方式等事实
+
+## 有效模式
+已验证的 URL 模式、操作策略、选择器
+
+## 已知陷阱
+什么会失败以及为什么
+```
+经验/陷阱内容标注发现日期，当作"可能有效的提示"而非"保证正确的事实"。
+
+---
+
+## References 索引
+
+| 文件 | 何时加载 |
+|------|---------|
+| `references/cdp-api.md` | 需要 CDP API 详细参考、JS 提取模式、错误处理时 |
+| `references/site-patterns/{domain}.md` | 确定目标网站后，读取对应站点经验 |
+
+---
+
+## Windows 环境注意事项
+
+1. **Node.js 路径**：Windows 上确保 Node.js 在 PATH 中
+2. **脚本调用**：使用正斜杠路径或引号包裹的路径
+3. **Chrome 路径**：`chrome://inspect/#remote-debugging` 同样适用于 Windows Chrome
+
+```bash
+# Windows 上检查 Node.js 版本
+node --version
+
+# 检查 Chrome 远程调试是否开启
+# 访问 chrome://inspect/#remote-debugging 查看
+```

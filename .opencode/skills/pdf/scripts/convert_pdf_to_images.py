@@ -1,1 +1,33 @@
-aW1wb3J0IG9zCmltcG9ydCBzeXMKCmZyb20gcGRmMmltYWdlIGltcG9ydCBjb252ZXJ0X2Zyb21fcGF0aAoKCgoKZGVmIGNvbnZlcnQocGRmX3BhdGgsIG91dHB1dF9kaXIsIG1heF9kaW09MTAwMCk6CiAgICBpbWFnZXMgPSBjb252ZXJ0X2Zyb21fcGF0aChwZGZfcGF0aCwgZHBpPTIwMCkKCiAgICBmb3IgaSwgaW1hZ2UgaW4gZW51bWVyYXRlKGltYWdlcyk6CiAgICAgICAgd2lkdGgsIGhlaWdodCA9IGltYWdlLnNpemUKICAgICAgICBpZiB3aWR0aCA+IG1heF9kaW0gb3IgaGVpZ2h0ID4gbWF4X2RpbToKICAgICAgICAgICAgc2NhbGVfZmFjdG9yID0gbWluKG1heF9kaW0gLyB3aWR0aCwgbWF4X2RpbSAvIGhlaWdodCkKICAgICAgICAgICAgbmV3X3dpZHRoID0gaW50KHdpZHRoICogc2NhbGVfZmFjdG9yKQogICAgICAgICAgICBuZXdfaGVpZ2h0ID0gaW50KGhlaWdodCAqIHNjYWxlX2ZhY3RvcikKICAgICAgICAgICAgaW1hZ2UgPSBpbWFnZS5yZXNpemUoKG5ld193aWR0aCwgbmV3X2hlaWdodCkpCiAgICAgICAgCiAgICAgICAgaW1hZ2VfcGF0aCA9IG9zLnBhdGguam9pbihvdXRwdXRfZGlyLCBmInBhZ2Vfe2krMX0ucG5nIikKICAgICAgICBpbWFnZS5zYXZlKGltYWdlX3BhdGgpCiAgICAgICAgcHJpbnQoZiJTYXZlZCBwYWdlIHtpKzF9IGFzIHtpbWFnZV9wYXRofSAoc2l6ZToge2ltYWdlLnNpemV9KSIpCgogICAgcHJpbnQoZiJDb252ZXJ0ZWQge2xlbihpbWFnZXMpfSBwYWdlcyB0byBQTkcgaW1hZ2VzIikKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgaWYgbGVuKHN5cy5hcmd2KSAhPSAzOgogICAgICAgIHByaW50KCJVc2FnZTogY29udmVydF9wZGZfdG9faW1hZ2VzLnB5IFtpbnB1dCBwZGZdIFtvdXRwdXQgZGlyZWN0b3J5XSIpCiAgICAgICAgc3lzLmV4aXQoMSkKICAgIHBkZl9wYXRoID0gc3lzLmFyZ3ZbMV0KICAgIG91dHB1dF9kaXJlY3RvcnkgPSBzeXMuYXJndlsyXQogICAgY29udmVydChwZGZfcGF0aCwgb3V0cHV0X2RpcmVjdG9yeSkK
+import os
+import sys
+
+from pdf2image import convert_from_path
+
+
+
+
+def convert(pdf_path, output_dir, max_dim=1000):
+    images = convert_from_path(pdf_path, dpi=200)
+
+    for i, image in enumerate(images):
+        width, height = image.size
+        if width > max_dim or height > max_dim:
+            scale_factor = min(max_dim / width, max_dim / height)
+            new_width = int(width * scale_factor)
+            new_height = int(height * scale_factor)
+            image = image.resize((new_width, new_height))
+        
+        image_path = os.path.join(output_dir, f"page_{i+1}.png")
+        image.save(image_path)
+        print(f"Saved page {i+1} as {image_path} (size: {image.size})")
+
+    print(f"Converted {len(images)} pages to PNG images")
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: convert_pdf_to_images.py [input pdf] [output directory]")
+        sys.exit(1)
+    pdf_path = sys.argv[1]
+    output_directory = sys.argv[2]
+    convert(pdf_path, output_directory)

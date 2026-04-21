@@ -1,1 +1,269 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwoiIiIKR0lGIEJ1aWxkZXIgLSBDb3JlIG1vZHVsZSBmb3IgYXNzZW1ibGluZyBmcmFtZXMgaW50byBHSUZzIG9wdGltaXplZCBmb3IgU2xhY2suCgpUaGlzIG1vZHVsZSBwcm92aWRlcyB0aGUgbWFpbiBpbnRlcmZhY2UgZm9yIGNyZWF0aW5nIEdJRnMgZnJvbSBwcm9ncmFtbWF0aWNhbGx5CmdlbmVyYXRlZCBmcmFtZXMsIHdpdGggYXV0b21hdGljIG9wdGltaXphdGlvbiBmb3IgU2xhY2sncyByZXF1aXJlbWVudHMuCiIiIgoKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCmZyb20gdHlwaW5nIGltcG9ydCBPcHRpb25hbAoKaW1wb3J0IGltYWdlaW8udjMgYXMgaW1hZ2VpbwppbXBvcnQgbnVtcHkgYXMgbnAKZnJvbSBQSUwgaW1wb3J0IEltYWdlCgoKY2xhc3MgR0lGQnVpbGRlcjoKICAgICIiIkJ1aWxkZXIgZm9yIGNyZWF0aW5nIG9wdGltaXplZCBHSUZzIGZyb20gZnJhbWVzLiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCB3aWR0aDogaW50ID0gNDgwLCBoZWlnaHQ6IGludCA9IDQ4MCwgZnBzOiBpbnQgPSAxNSk6CiAgICAgICAgIiIiCiAgICAgICAgSW5pdGlhbGl6ZSBHSUYgYnVpbGRlci4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgd2lkdGg6IEZyYW1lIHdpZHRoIGluIHBpeGVscwogICAgICAgICAgICBoZWlnaHQ6IEZyYW1lIGhlaWdodCBpbiBwaXhlbHMKICAgICAgICAgICAgZnBzOiBGcmFtZXMgcGVyIHNlY29uZAogICAgICAgICIiIgogICAgICAgIHNlbGYud2lkdGggPSB3aWR0aAogICAgICAgIHNlbGYuaGVpZ2h0ID0gaGVpZ2h0CiAgICAgICAgc2VsZi5mcHMgPSBmcHMKICAgICAgICBzZWxmLmZyYW1lczogbGlzdFtucC5uZGFycmF5XSA9IFtdCgogICAgZGVmIGFkZF9mcmFtZShzZWxmLCBmcmFtZTogbnAubmRhcnJheSB8IEltYWdlLkltYWdlKToKICAgICAgICAiIiIKICAgICAgICBBZGQgYSBmcmFtZSB0byB0aGUgR0lGLgoKICAgICAgICBBcmdzOgogICAgICAgICAgICBmcmFtZTogRnJhbWUgYXMgbnVtcHkgYXJyYXkgb3IgUElMIEltYWdlICh3aWxsIGJlIGNvbnZlcnRlZCB0byBSR0IpCiAgICAgICAgIiIiCiAgICAgICAgaWYgaXNpbnN0YW5jZShmcmFtZSwgSW1hZ2UuSW1hZ2UpOgogICAgICAgICAgICBmcmFtZSA9IG5wLmFycmF5KGZyYW1lLmNvbnZlcnQoIlJHQiIpKQoKICAgICAgICAjIEVuc3VyZSBmcmFtZSBpcyBjb3JyZWN0IHNpemUKICAgICAgICBpZiBmcmFtZS5zaGFwZVs6Ml0gIT0gKHNlbGYuaGVpZ2h0LCBzZWxmLndpZHRoKToKICAgICAgICAgICAgcGlsX2ZyYW1lID0gSW1hZ2UuZnJvbWFycmF5KGZyYW1lKQogICAgICAgICAgICBwaWxfZnJhbWUgPSBwaWxfZnJhbWUucmVzaXplKAogICAgICAgICAgICAgICAgKHNlbGYud2lkdGgsIHNlbGYuaGVpZ2h0KSwgSW1hZ2UuUmVzYW1wbGluZy5MQU5DWk9TCiAgICAgICAgICAgICkKICAgICAgICAgICAgZnJhbWUgPSBucC5hcnJheShwaWxfZnJhbWUpCgogICAgICAgIHNlbGYuZnJhbWVzLmFwcGVuZChmcmFtZSkKCiAgICBkZWYgYWRkX2ZyYW1lcyhzZWxmLCBmcmFtZXM6IGxpc3RbbnAubmRhcnJheSB8IEltYWdlLkltYWdlXSk6CiAgICAgICAgIiIiQWRkIG11bHRpcGxlIGZyYW1lcyBhdCBvbmNlLiIiIgogICAgICAgIGZvciBmcmFtZSBpbiBmcmFtZXM6CiAgICAgICAgICAgIHNlbGYuYWRkX2ZyYW1lKGZyYW1lKQoKICAgIGRlZiBvcHRpbWl6ZV9jb2xvcnMoCiAgICAgICAgc2VsZiwgbnVtX2NvbG9yczogaW50ID0gMTI4LCB1c2VfZ2xvYmFsX3BhbGV0dGU6IGJvb2wgPSBUcnVlCiAgICApIC0+IGxpc3RbbnAubmRhcnJheV06CiAgICAgICAgIiIiCiAgICAgICAgUmVkdWNlIGNvbG9ycyBpbiBhbGwgZnJhbWVzIHVzaW5nIHF1YW50aXphdGlvbi4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgbnVtX2NvbG9yczogVGFyZ2V0IG51bWJlciBvZiBjb2xvcnMgKDgtMjU2KQogICAgICAgICAgICB1c2VfZ2xvYmFsX3BhbGV0dGU6IFVzZSBhIHNpbmdsZSBwYWxldHRlIGZvciBhbGwgZnJhbWVzIChiZXR0ZXIgY29tcHJlc3Npb24pCgogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIExpc3Qgb2YgY29sb3Itb3B0aW1pemVkIGZyYW1lcwogICAgICAgICIiIgogICAgICAgIG9wdGltaXplZCA9IFtdCgogICAgICAgIGlmIHVzZV9nbG9iYWxfcGFsZXR0ZSBhbmQgbGVuKHNlbGYuZnJhbWVzKSA+IDE6CiAgICAgICAgICAgICMgQ3JlYXRlIGEgZ2xvYmFsIHBhbGV0dGUgZnJvbSBhbGwgZnJhbWVzCiAgICAgICAgICAgICMgU2FtcGxlIGZyYW1lcyB0byBidWlsZCBwYWxldHRlCiAgICAgICAgICAgIHNhbXBsZV9zaXplID0gbWluKDUsIGxlbihzZWxmLmZyYW1lcykpCiAgICAgICAgICAgIHNhbXBsZV9pbmRpY2VzID0gWwogICAgICAgICAgICAgICAgaW50KGkgKiBsZW4oc2VsZi5mcmFtZXMpIC8gc2FtcGxlX3NpemUpIGZvciBpIGluIHJhbmdlKHNhbXBsZV9zaXplKQogICAgICAgICAgICBdCiAgICAgICAgICAgIHNhbXBsZV9mcmFtZXMgPSBbc2VsZi5mcmFtZXNbaV0gZm9yIGkgaW4gc2FtcGxlX2luZGljZXNdCgogICAgICAgICAgICAjIENvbWJpbmUgc2FtcGxlIGZyYW1lcyBpbnRvIGEgc2luZ2xlIGltYWdlIGZvciBwYWxldHRlIGdlbmVyYXRpb24KICAgICAgICAgICAgIyBGbGF0dGVuIGVhY2ggZnJhbWUgdG8gZ2V0IGFsbCBwaXhlbHMsIHRoZW4gc3RhY2sgdGhlbQogICAgICAgICAgICBhbGxfcGl4ZWxzID0gbnAudnN0YWNrKAogICAgICAgICAgICAgICAgW2YucmVzaGFwZSgtMSwgMykgZm9yIGYgaW4gc2FtcGxlX2ZyYW1lc10KICAgICAgICAgICAgKSAgIyAodG90YWxfcGl4ZWxzLCAzKQoKICAgICAgICAgICAgIyBDcmVhdGUgYSBwcm9wZXJseS1zaGFwZWQgUkdCIGltYWdlIGZyb20gdGhlIHBpeGVsIGRhdGEKICAgICAgICAgICAgIyBXZSdsbCBtYWtlIGEgcm91Z2hseSBzcXVhcmUgaW1hZ2UgZnJvbSBhbGwgdGhlIHBpeGVscwogICAgICAgICAgICB0b3RhbF9waXhlbHMgPSBsZW4oYWxsX3BpeGVscykKICAgICAgICAgICAgd2lkdGggPSBtaW4oNTEyLCBpbnQobnAuc3FydCh0b3RhbF9waXhlbHMpKSkgICMgUmVhc29uYWJsZSB3aWR0aCwgbWF4IDUxMgogICAgICAgICAgICBoZWlnaHQgPSAodG90YWxfcGl4ZWxzICsgd2lkdGggLSAxKSAvLyB3aWR0aCAgIyBDZWlsaW5nIGRpdmlzaW9uCgogICAgICAgICAgICAjIFBhZCBpZiBuZWNlc3NhcnkgdG8gZmlsbCB0aGUgcmVjdGFuZ2xlCiAgICAgICAgICAgIHBpeGVsc19uZWVkZWQgPSB3aWR0aCAqIGhlaWdodAogICAgICAgICAgICBpZiBwaXhlbHNfbmVlZGVkID4gdG90YWxfcGl4ZWxzOgogICAgICAgICAgICAgICAgcGFkZGluZyA9IG5wLnplcm9zKChwaXhlbHNfbmVlZGVkIC0gdG90YWxfcGl4ZWxzLCAzKSwgZHR5cGU9bnAudWludDgpCiAgICAgICAgICAgICAgICBhbGxfcGl4ZWxzID0gbnAudnN0YWNrKFthbGxfcGl4ZWxzLCBwYWRkaW5nXSkKCiAgICAgICAgICAgICMgUmVzaGFwZSB0byBwcm9wZXIgUkdCIGltYWdlIGZvcm1hdCAoSCwgVywgMykKICAgICAgICAgICAgaW1nX2FycmF5ID0gKAogICAgICAgICAgICAgICAgYWxsX3BpeGVsc1s6cGl4ZWxzX25lZWRlZF0ucmVzaGFwZShoZWlnaHQsIHdpZHRoLCAzKS5hc3R5cGUobnAudWludDgpCiAgICAgICAgICAgICkKICAgICAgICAgICAgY29tYmluZWRfaW1nID0gSW1hZ2UuZnJvbWFycmF5KGltZ19hcnJheSwgbW9kZT0iUkdCIikKCiAgICAgICAgICAgICMgR2VuZXJhdGUgZ2xvYmFsIHBhbGV0dGUKICAgICAgICAgICAgZ2xvYmFsX3BhbGV0dGUgPSBjb21iaW5lZF9pbWcucXVhbnRpemUoY29sb3JzPW51bV9jb2xvcnMsIG1ldGhvZD0yKQoKICAgICAgICAgICAgIyBBcHBseSBnbG9iYWwgcGFsZXR0ZSB0byBhbGwgZnJhbWVzCiAgICAgICAgICAgIGZvciBmcmFtZSBpbiBzZWxmLmZyYW1lczoKICAgICAgICAgICAgICAgIHBpbF9mcmFtZSA9IEltYWdlLmZyb21hcnJheShmcmFtZSkKICAgICAgICAgICAgICAgIHF1YW50aXplZCA9IHBpbF9mcmFtZS5xdWFudGl6ZShwYWxldHRlPWdsb2JhbF9wYWxldHRlLCBkaXRoZXI9MSkKICAgICAgICAgICAgICAgIG9wdGltaXplZC5hcHBlbmQobnAuYXJyYXkocXVhbnRpemVkLmNvbnZlcnQoIlJHQiIpKSkKICAgICAgICBlbHNlOgogICAgICAgICAgICAjIFVzZSBwZXItZnJhbWUgcXVhbnRpemF0aW9uCiAgICAgICAgICAgIGZvciBmcmFtZSBpbiBzZWxmLmZyYW1lczoKICAgICAgICAgICAgICAgIHBpbF9mcmFtZSA9IEltYWdlLmZyb21hcnJheShmcmFtZSkKICAgICAgICAgICAgICAgIHF1YW50aXplZCA9IHBpbF9mcmFtZS5xdWFudGl6ZShjb2xvcnM9bnVtX2NvbG9ycywgbWV0aG9kPTIsIGRpdGhlcj0xKQogICAgICAgICAgICAgICAgb3B0aW1pemVkLmFwcGVuZChucC5hcnJheShxdWFudGl6ZWQuY29udmVydCgiUkdCIikpKQoKICAgICAgICByZXR1cm4gb3B0aW1pemVkCgogICAgZGVmIGRlZHVwbGljYXRlX2ZyYW1lcyhzZWxmLCB0aHJlc2hvbGQ6IGZsb2F0ID0gMC45OTk1KSAtPiBpbnQ6CiAgICAgICAgIiIiCiAgICAgICAgUmVtb3ZlIGR1cGxpY2F0ZSBvciBuZWFyLWR1cGxpY2F0ZSBjb25zZWN1dGl2ZSBmcmFtZXMuCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIHRocmVzaG9sZDogU2ltaWxhcml0eSB0aHJlc2hvbGQgKDAuMC0xLjApLiBIaWdoZXIgPSBtb3JlIHN0cmljdCAoMC45OTk1ID0gbmVhcmx5IGlkZW50aWNhbCkuCiAgICAgICAgICAgICAgICAgICAgICBVc2UgMC45OTk1KyB0byBwcmVzZXJ2ZSBzdWJ0bGUgYW5pbWF0aW9ucywgMC45OCBmb3IgYWdncmVzc2l2ZSByZW1vdmFsLgoKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICBOdW1iZXIgb2YgZnJhbWVzIHJlbW92ZWQKICAgICAgICAiIiIKICAgICAgICBpZiBsZW4oc2VsZi5mcmFtZXMpIDwgMjoKICAgICAgICAgICAgcmV0dXJuIDAKCiAgICAgICAgZGVkdXBsaWNhdGVkID0gW3NlbGYuZnJhbWVzWzBdXQogICAgICAgIHJlbW92ZWRfY291bnQgPSAwCgogICAgICAgIGZvciBpIGluIHJhbmdlKDEsIGxlbihzZWxmLmZyYW1lcykpOgogICAgICAgICAgICAjIENvbXBhcmUgd2l0aCBwcmV2aW91cyBmcmFtZQogICAgICAgICAgICBwcmV2X2ZyYW1lID0gbnAuYXJyYXkoZGVkdXBsaWNhdGVkWy0xXSwgZHR5cGU9bnAuZmxvYXQzMikKICAgICAgICAgICAgY3Vycl9mcmFtZSA9IG5wLmFycmF5KHNlbGYuZnJhbWVzW2ldLCBkdHlwZT1ucC5mbG9hdDMyKQoKICAgICAgICAgICAgIyBDYWxjdWxhdGUgc2ltaWxhcml0eSAobm9ybWFsaXplZCkKICAgICAgICAgICAgZGlmZiA9IG5wLmFicyhwcmV2X2ZyYW1lIC0gY3Vycl9mcmFtZSkKICAgICAgICAgICAgc2ltaWxhcml0eSA9IDEuMCAtIChucC5tZWFuKGRpZmYpIC8gMjU1LjApCgogICAgICAgICAgICAjIEtlZXAgZnJhbWUgaWYgc3VmZmljaWVudGx5IGRpZmZlcmVudAogICAgICAgICAgICAjIEhpZ2ggdGhyZXNob2xkICgwLjk5OTUrKSBtZWFucyBvbmx5IHJlbW92ZSBuZWFybHkgaWRlbnRpY2FsIGZyYW1lcwogICAgICAgICAgICBpZiBzaW1pbGFyaXR5IDwgdGhyZXNob2xkOgogICAgICAgICAgICAgICAgZGVkdXBsaWNhdGVkLmFwcGVuZChzZWxmLmZyYW1lc1tpXSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHJlbW92ZWRfY291bnQgKz0gMQoKICAgICAgICBzZWxmLmZyYW1lcyA9IGRlZHVwbGljYXRlZAogICAgICAgIHJldHVybiByZW1vdmVkX2NvdW50CgogICAgZGVmIHNhdmUoCiAgICAgICAgc2VsZiwKICAgICAgICBvdXRwdXRfcGF0aDogc3RyIHwgUGF0aCwKICAgICAgICBudW1fY29sb3JzOiBpbnQgPSAxMjgsCiAgICAgICAgb3B0aW1pemVfZm9yX2Vtb2ppOiBib29sID0gRmFsc2UsCiAgICAgICAgcmVtb3ZlX2R1cGxpY2F0ZXM6IGJvb2wgPSBGYWxzZSwKICAgICkgLT4gZGljdDoKICAgICAgICAiIiIKICAgICAgICBTYXZlIGZyYW1lcyBhcyBvcHRpbWl6ZWQgR0lGIGZvciBTbGFjay4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgb3V0cHV0X3BhdGg6IFdoZXJlIHRvIHNhdmUgdGhlIEdJRgogICAgICAgICAgICBudW1fY29sb3JzOiBOdW1iZXIgb2YgY29sb3JzIHRvIHVzZSAoZmV3ZXIgPSBzbWFsbGVyIGZpbGUpCiAgICAgICAgICAgIG9wdGltaXplX2Zvcl9lbW9qaTogSWYgVHJ1ZSwgb3B0aW1pemUgZm9yIGVtb2ppIHNpemUgKDEyOHgxMjgsIGZld2VyIGNvbG9ycykKICAgICAgICAgICAgcmVtb3ZlX2R1cGxpY2F0ZXM6IElmIFRydWUsIHJlbW92ZSBkdXBsaWNhdGUgY29uc2VjdXRpdmUgZnJhbWVzIChvcHQtaW4pCgogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIERpY3Rpb25hcnkgd2l0aCBmaWxlIGluZm8gKHBhdGgsIHNpemUsIGRpbWVuc2lvbnMsIGZyYW1lX2NvdW50KQogICAgICAgICIiIgogICAgICAgIGlmIG5vdCBzZWxmLmZyYW1lczoKICAgICAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiTm8gZnJhbWVzIHRvIHNhdmUuIEFkZCBmcmFtZXMgd2l0aCBhZGRfZnJhbWUoKSBmaXJzdC4iKQoKICAgICAgICBvdXRwdXRfcGF0aCA9IFBhdGgob3V0cHV0X3BhdGgpCgogICAgICAgICMgUmVtb3ZlIGR1cGxpY2F0ZSBmcmFtZXMgdG8gcmVkdWNlIGZpbGUgc2l6ZQogICAgICAgIGlmIHJlbW92ZV9kdXBsaWNhdGVzOgogICAgICAgICAgICByZW1vdmVkID0gc2VsZi5kZWR1cGxpY2F0ZV9mcmFtZXModGhyZXNob2xkPTAuOTk5NSkKICAgICAgICAgICAgaWYgcmVtb3ZlZCA+IDA6CiAgICAgICAgICAgICAgICBwcmludCgKICAgICAgICAgICAgICAgICAgICBmIiAgUmVtb3ZlZCB7cmVtb3ZlZH0gbmVhcmx5IGlkZW50aWNhbCBmcmFtZXMgKHByZXNlcnZlZCBzdWJ0bGUgYW5pbWF0aW9ucykiCiAgICAgICAgICAgICAgICApCgogICAgICAgICMgT3B0aW1pemUgZm9yIGVtb2ppIGlmIHJlcXVlc3RlZAogICAgICAgIGlmIG9wdGltaXplX2Zvcl9lbW9qaToKICAgICAgICAgICAgaWYgc2VsZi53aWR0aCA+IDEyOCBvciBzZWxmLmhlaWdodCA+IDEyODoKICAgICAgICAgICAgICAgIHByaW50KAogICAgICAgICAgICAgICAgICAgIGYiICBSZXNpemluZyBmcm9tIHtzZWxmLndpZHRofXh7c2VsZi5oZWlnaHR9IHRvIDEyOHgxMjggZm9yIGVtb2ppIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgc2VsZi53aWR0aCA9IDEyOAogICAgICAgICAgICAgICAgc2VsZi5oZWlnaHQgPSAxMjgKICAgICAgICAgICAgICAgICMgUmVzaXplIGFsbCBmcmFtZXMKICAgICAgICAgICAgICAgIHJlc2l6ZWRfZnJhbWVzID0gW10KICAgICAgICAgICAgICAgIGZvciBmcmFtZSBpbiBzZWxmLmZyYW1lczoKICAgICAgICAgICAgICAgICAgICBwaWxfZnJhbWUgPSBJbWFnZS5mcm9tYXJyYXkoZnJhbWUpCiAgICAgICAgICAgICAgICAgICAgcGlsX2ZyYW1lID0gcGlsX2ZyYW1lLnJlc2l6ZSgoMTI4LCAxMjgpLCBJbWFnZS5SZXNhbXBsaW5nLkxBTkNaT1MpCiAgICAgICAgICAgICAgICAgICAgcmVzaXplZF9mcmFtZXMuYXBwZW5kKG5wLmFycmF5KHBpbF9mcmFtZSkpCiAgICAgICAgICAgICAgICBzZWxmLmZyYW1lcyA9IHJlc2l6ZWRfZnJhbWVzCiAgICAgICAgICAgIG51bV9jb2xvcnMgPSBtaW4obnVtX2NvbG9ycywgNDgpICAjIE1vcmUgYWdncmVzc2l2ZSBjb2xvciBsaW1pdCBmb3IgZW1vamkKCiAgICAgICAgICAgICMgTW9yZSBhZ2dyZXNzaXZlIEZQUyByZWR1Y3Rpb24gZm9yIGVtb2ppCiAgICAgICAgICAgIGlmIGxlbihzZWxmLmZyYW1lcykgPiAxMjoKICAgICAgICAgICAgICAgIHByaW50KAogICAgICAgICAgICAgICAgICAgIGYiICBSZWR1Y2luZyBmcmFtZXMgZnJvbSB7bGVuKHNlbGYuZnJhbWVzKX0gdG8gfjEyIGZvciBlbW9qaSBzaXplIgogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgIyBLZWVwIGV2ZXJ5IG50aCBmcmFtZSB0byBnZXQgY2xvc2UgdG8gMTIgZnJhbWVzCiAgICAgICAgICAgICAgICBrZWVwX2V2ZXJ5ID0gbWF4KDEsIGxlbihzZWxmLmZyYW1lcykgLy8gMTIpCiAgICAgICAgICAgICAgICBzZWxmLmZyYW1lcyA9IFsKICAgICAgICAgICAgICAgICAgICBzZWxmLmZyYW1lc1tpXSBmb3IgaSBpbiByYW5nZSgwLCBsZW4oc2VsZi5mcmFtZXMpLCBrZWVwX2V2ZXJ5KQogICAgICAgICAgICAgICAgXQoKICAgICAgICAjIE9wdGltaXplIGNvbG9ycyB3aXRoIGdsb2JhbCBwYWxldHRlCiAgICAgICAgb3B0aW1pemVkX2ZyYW1lcyA9IHNlbGYub3B0aW1pemVfY29sb3JzKG51bV9jb2xvcnMsIHVzZV9nbG9iYWxfcGFsZXR0ZT1UcnVlKQoKICAgICAgICAjIENhbGN1bGF0ZSBmcmFtZSBkdXJhdGlvbiBpbiBtaWxsaXNlY29uZHMKICAgICAgICBmcmFtZV9kdXJhdGlvbiA9IDEwMDAgLyBzZWxmLmZwcwoKICAgICAgICAjIFNhdmUgR0lGCiAgICAgICAgaW1hZ2Vpby5pbXdyaXRlKAogICAgICAgICAgICBvdXRwdXRfcGF0aCwKICAgICAgICAgICAgb3B0aW1pemVkX2ZyYW1lcywKICAgICAgICAgICAgZHVyYXRpb249ZnJhbWVfZHVyYXRpb24sCiAgICAgICAgICAgIGxvb3A9MCwgICMgSW5maW5pdGUgbG9vcAogICAgICAgICkKCiAgICAgICAgIyBHZXQgZmlsZSBpbmZvCiAgICAgICAgZmlsZV9zaXplX2tiID0gb3V0cHV0X3BhdGguc3RhdCgpLnN0X3NpemUgLyAxMDI0CiAgICAgICAgZmlsZV9zaXplX21iID0gZmlsZV9zaXplX2tiIC8gMTAyNAoKICAgICAgICBpbmZvID0gewogICAgICAgICAgICAicGF0aCI6IHN0cihvdXRwdXRfcGF0aCksCiAgICAgICAgICAgICJzaXplX2tiIjogZmlsZV9zaXplX2tiLAogICAgICAgICAgICAic2l6ZV9tYiI6IGZpbGVfc2l6ZV9tYiwKICAgICAgICAgICAgImRpbWVuc2lvbnMiOiBmIntzZWxmLndpZHRofXh7c2VsZi5oZWlnaHR9IiwKICAgICAgICAgICAgImZyYW1lX2NvdW50IjogbGVuKG9wdGltaXplZF9mcmFtZXMpLAogICAgICAgICAgICAiZnBzIjogc2VsZi5mcHMsCiAgICAgICAgICAgICJkdXJhdGlvbl9zZWNvbmRzIjogbGVuKG9wdGltaXplZF9mcmFtZXMpIC8gc2VsZi5mcHMsCiAgICAgICAgICAgICJjb2xvcnMiOiBudW1fY29sb3JzLAogICAgICAgIH0KCiAgICAgICAgIyBQcmludCBpbmZvCiAgICAgICAgcHJpbnQoZiJcbuKckyBHSUYgY3JlYXRlZCBzdWNjZXNzZnVsbHkhIikKICAgICAgICBwcmludChmIiAgUGF0aDoge291dHB1dF9wYXRofSIpCiAgICAgICAgcHJpbnQoZiIgIFNpemU6IHtmaWxlX3NpemVfa2I6LjFmfSBLQiAoe2ZpbGVfc2l6ZV9tYjouMmZ9IE1CKSIpCiAgICAgICAgcHJpbnQoZiIgIERpbWVuc2lvbnM6IHtzZWxmLndpZHRofXh7c2VsZi5oZWlnaHR9IikKICAgICAgICBwcmludChmIiAgRnJhbWVzOiB7bGVuKG9wdGltaXplZF9mcmFtZXMpfSBAIHtzZWxmLmZwc30gZnBzIikKICAgICAgICBwcmludChmIiAgRHVyYXRpb246IHtpbmZvWydkdXJhdGlvbl9zZWNvbmRzJ106LjFmfXMiKQogICAgICAgIHByaW50KGYiICBDb2xvcnM6IHtudW1fY29sb3JzfSIpCgogICAgICAgICMgU2l6ZSBpbmZvCiAgICAgICAgaWYgb3B0aW1pemVfZm9yX2Vtb2ppOgogICAgICAgICAgICBwcmludChmIiAgT3B0aW1pemVkIGZvciBlbW9qaSAoMTI4eDEyOCwgcmVkdWNlZCBjb2xvcnMpIikKICAgICAgICBpZiBmaWxlX3NpemVfbWIgPiAxLjA6CiAgICAgICAgICAgIHByaW50KGYiXG4gIE5vdGU6IExhcmdlIGZpbGUgc2l6ZSAoe2ZpbGVfc2l6ZV9rYjouMWZ9IEtCKSIpCiAgICAgICAgICAgIHByaW50KCIgIENvbnNpZGVyOiBmZXdlciBmcmFtZXMsIHNtYWxsZXIgZGltZW5zaW9ucywgb3IgZmV3ZXIgY29sb3JzIikKCiAgICAgICAgcmV0dXJuIGluZm8KCiAgICBkZWYgY2xlYXIoc2VsZik6CiAgICAgICAgIiIiQ2xlYXIgYWxsIGZyYW1lcyAodXNlZnVsIGZvciBjcmVhdGluZyBtdWx0aXBsZSBHSUZzKS4iIiIKICAgICAgICBzZWxmLmZyYW1lcyA9IFtdCg==
+#!/usr/bin/env python3
+"""
+GIF Builder - Core module for assembling frames into GIFs optimized for Slack.
+
+This module provides the main interface for creating GIFs from programmatically
+generated frames, with automatic optimization for Slack's requirements.
+"""
+
+from pathlib import Path
+from typing import Optional
+
+import imageio.v3 as imageio
+import numpy as np
+from PIL import Image
+
+
+class GIFBuilder:
+    """Builder for creating optimized GIFs from frames."""
+
+    def __init__(self, width: int = 480, height: int = 480, fps: int = 15):
+        """
+        Initialize GIF builder.
+
+        Args:
+            width: Frame width in pixels
+            height: Frame height in pixels
+            fps: Frames per second
+        """
+        self.width = width
+        self.height = height
+        self.fps = fps
+        self.frames: list[np.ndarray] = []
+
+    def add_frame(self, frame: np.ndarray | Image.Image):
+        """
+        Add a frame to the GIF.
+
+        Args:
+            frame: Frame as numpy array or PIL Image (will be converted to RGB)
+        """
+        if isinstance(frame, Image.Image):
+            frame = np.array(frame.convert("RGB"))
+
+        # Ensure frame is correct size
+        if frame.shape[:2] != (self.height, self.width):
+            pil_frame = Image.fromarray(frame)
+            pil_frame = pil_frame.resize(
+                (self.width, self.height), Image.Resampling.LANCZOS
+            )
+            frame = np.array(pil_frame)
+
+        self.frames.append(frame)
+
+    def add_frames(self, frames: list[np.ndarray | Image.Image]):
+        """Add multiple frames at once."""
+        for frame in frames:
+            self.add_frame(frame)
+
+    def optimize_colors(
+        self, num_colors: int = 128, use_global_palette: bool = True
+    ) -> list[np.ndarray]:
+        """
+        Reduce colors in all frames using quantization.
+
+        Args:
+            num_colors: Target number of colors (8-256)
+            use_global_palette: Use a single palette for all frames (better compression)
+
+        Returns:
+            List of color-optimized frames
+        """
+        optimized = []
+
+        if use_global_palette and len(self.frames) > 1:
+            # Create a global palette from all frames
+            # Sample frames to build palette
+            sample_size = min(5, len(self.frames))
+            sample_indices = [
+                int(i * len(self.frames) / sample_size) for i in range(sample_size)
+            ]
+            sample_frames = [self.frames[i] for i in sample_indices]
+
+            # Combine sample frames into a single image for palette generation
+            # Flatten each frame to get all pixels, then stack them
+            all_pixels = np.vstack(
+                [f.reshape(-1, 3) for f in sample_frames]
+            )  # (total_pixels, 3)
+
+            # Create a properly-shaped RGB image from the pixel data
+            # We'll make a roughly square image from all the pixels
+            total_pixels = len(all_pixels)
+            width = min(512, int(np.sqrt(total_pixels)))  # Reasonable width, max 512
+            height = (total_pixels + width - 1) // width  # Ceiling division
+
+            # Pad if necessary to fill the rectangle
+            pixels_needed = width * height
+            if pixels_needed > total_pixels:
+                padding = np.zeros((pixels_needed - total_pixels, 3), dtype=np.uint8)
+                all_pixels = np.vstack([all_pixels, padding])
+
+            # Reshape to proper RGB image format (H, W, 3)
+            img_array = (
+                all_pixels[:pixels_needed].reshape(height, width, 3).astype(np.uint8)
+            )
+            combined_img = Image.fromarray(img_array, mode="RGB")
+
+            # Generate global palette
+            global_palette = combined_img.quantize(colors=num_colors, method=2)
+
+            # Apply global palette to all frames
+            for frame in self.frames:
+                pil_frame = Image.fromarray(frame)
+                quantized = pil_frame.quantize(palette=global_palette, dither=1)
+                optimized.append(np.array(quantized.convert("RGB")))
+        else:
+            # Use per-frame quantization
+            for frame in self.frames:
+                pil_frame = Image.fromarray(frame)
+                quantized = pil_frame.quantize(colors=num_colors, method=2, dither=1)
+                optimized.append(np.array(quantized.convert("RGB")))
+
+        return optimized
+
+    def deduplicate_frames(self, threshold: float = 0.9995) -> int:
+        """
+        Remove duplicate or near-duplicate consecutive frames.
+
+        Args:
+            threshold: Similarity threshold (0.0-1.0). Higher = more strict (0.9995 = nearly identical).
+                      Use 0.9995+ to preserve subtle animations, 0.98 for aggressive removal.
+
+        Returns:
+            Number of frames removed
+        """
+        if len(self.frames) < 2:
+            return 0
+
+        deduplicated = [self.frames[0]]
+        removed_count = 0
+
+        for i in range(1, len(self.frames)):
+            # Compare with previous frame
+            prev_frame = np.array(deduplicated[-1], dtype=np.float32)
+            curr_frame = np.array(self.frames[i], dtype=np.float32)
+
+            # Calculate similarity (normalized)
+            diff = np.abs(prev_frame - curr_frame)
+            similarity = 1.0 - (np.mean(diff) / 255.0)
+
+            # Keep frame if sufficiently different
+            # High threshold (0.9995+) means only remove nearly identical frames
+            if similarity < threshold:
+                deduplicated.append(self.frames[i])
+            else:
+                removed_count += 1
+
+        self.frames = deduplicated
+        return removed_count
+
+    def save(
+        self,
+        output_path: str | Path,
+        num_colors: int = 128,
+        optimize_for_emoji: bool = False,
+        remove_duplicates: bool = False,
+    ) -> dict:
+        """
+        Save frames as optimized GIF for Slack.
+
+        Args:
+            output_path: Where to save the GIF
+            num_colors: Number of colors to use (fewer = smaller file)
+            optimize_for_emoji: If True, optimize for emoji size (128x128, fewer colors)
+            remove_duplicates: If True, remove duplicate consecutive frames (opt-in)
+
+        Returns:
+            Dictionary with file info (path, size, dimensions, frame_count)
+        """
+        if not self.frames:
+            raise ValueError("No frames to save. Add frames with add_frame() first.")
+
+        output_path = Path(output_path)
+
+        # Remove duplicate frames to reduce file size
+        if remove_duplicates:
+            removed = self.deduplicate_frames(threshold=0.9995)
+            if removed > 0:
+                print(
+                    f"  Removed {removed} nearly identical frames (preserved subtle animations)"
+                )
+
+        # Optimize for emoji if requested
+        if optimize_for_emoji:
+            if self.width > 128 or self.height > 128:
+                print(
+                    f"  Resizing from {self.width}x{self.height} to 128x128 for emoji"
+                )
+                self.width = 128
+                self.height = 128
+                # Resize all frames
+                resized_frames = []
+                for frame in self.frames:
+                    pil_frame = Image.fromarray(frame)
+                    pil_frame = pil_frame.resize((128, 128), Image.Resampling.LANCZOS)
+                    resized_frames.append(np.array(pil_frame))
+                self.frames = resized_frames
+            num_colors = min(num_colors, 48)  # More aggressive color limit for emoji
+
+            # More aggressive FPS reduction for emoji
+            if len(self.frames) > 12:
+                print(
+                    f"  Reducing frames from {len(self.frames)} to ~12 for emoji size"
+                )
+                # Keep every nth frame to get close to 12 frames
+                keep_every = max(1, len(self.frames) // 12)
+                self.frames = [
+                    self.frames[i] for i in range(0, len(self.frames), keep_every)
+                ]
+
+        # Optimize colors with global palette
+        optimized_frames = self.optimize_colors(num_colors, use_global_palette=True)
+
+        # Calculate frame duration in milliseconds
+        frame_duration = 1000 / self.fps
+
+        # Save GIF
+        imageio.imwrite(
+            output_path,
+            optimized_frames,
+            duration=frame_duration,
+            loop=0,  # Infinite loop
+        )
+
+        # Get file info
+        file_size_kb = output_path.stat().st_size / 1024
+        file_size_mb = file_size_kb / 1024
+
+        info = {
+            "path": str(output_path),
+            "size_kb": file_size_kb,
+            "size_mb": file_size_mb,
+            "dimensions": f"{self.width}x{self.height}",
+            "frame_count": len(optimized_frames),
+            "fps": self.fps,
+            "duration_seconds": len(optimized_frames) / self.fps,
+            "colors": num_colors,
+        }
+
+        # Print info
+        print(f"\n✓ GIF created successfully!")
+        print(f"  Path: {output_path}")
+        print(f"  Size: {file_size_kb:.1f} KB ({file_size_mb:.2f} MB)")
+        print(f"  Dimensions: {self.width}x{self.height}")
+        print(f"  Frames: {len(optimized_frames)} @ {self.fps} fps")
+        print(f"  Duration: {info['duration_seconds']:.1f}s")
+        print(f"  Colors: {num_colors}")
+
+        # Size info
+        if optimize_for_emoji:
+            print(f"  Optimized for emoji (128x128, reduced colors)")
+        if file_size_mb > 1.0:
+            print(f"\n  Note: Large file size ({file_size_kb:.1f} KB)")
+            print("  Consider: fewer frames, smaller dimensions, or fewer colors")
+
+        return info
+
+    def clear(self):
+        """Clear all frames (useful for creating multiple GIFs)."""
+        self.frames = []

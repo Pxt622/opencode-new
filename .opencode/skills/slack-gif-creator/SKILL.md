@@ -1,1 +1,254 @@
-LS0tCm5hbWU6IHNsYWNrLWdpZi1jcmVhdG9yCmRlc2NyaXB0aW9uOiBLbm93bGVkZ2UgYW5kIHV0aWxpdGllcyBmb3IgY3JlYXRpbmcgYW5pbWF0ZWQgR0lGcyBvcHRpbWl6ZWQgZm9yIFNsYWNrLiBQcm92aWRlcyBjb25zdHJhaW50cywgdmFsaWRhdGlvbiB0b29scywgYW5kIGFuaW1hdGlvbiBjb25jZXB0cy4gVXNlIHdoZW4gdXNlcnMgcmVxdWVzdCBhbmltYXRlZCBHSUZzIGZvciBTbGFjayBsaWtlICJtYWtlIG1lIGEgR0lGIG9mIFggZG9pbmcgWSBmb3IgU2xhY2suIgpsaWNlbnNlOiBDb21wbGV0ZSB0ZXJtcyBpbiBMSUNFTlNFLnR4dAotLS0KCiMgU2xhY2sgR0lGIENyZWF0b3IKCkEgdG9vbGtpdCBwcm92aWRpbmcgdXRpbGl0aWVzIGFuZCBrbm93bGVkZ2UgZm9yIGNyZWF0aW5nIGFuaW1hdGVkIEdJRnMgb3B0aW1pemVkIGZvciBTbGFjay4KCiMjIFNsYWNrIFJlcXVpcmVtZW50cwoKKipEaW1lbnNpb25zOioqCi0gRW1vamkgR0lGczogMTI4eDEyOCAocmVjb21tZW5kZWQpCi0gTWVzc2FnZSBHSUZzOiA0ODB4NDgwCgoqKlBhcmFtZXRlcnM6KioKLSBGUFM6IDEwLTMwIChsb3dlciBpcyBzbWFsbGVyIGZpbGUgc2l6ZSkKLSBDb2xvcnM6IDQ4LTEyOCAoZmV3ZXIgPSBzbWFsbGVyIGZpbGUgc2l6ZSkKLSBEdXJhdGlvbjogS2VlcCB1bmRlciAzIHNlY29uZHMgZm9yIGVtb2ppIEdJRnMKCiMjIENvcmUgV29ya2Zsb3cKCmBgYHB5dGhvbgpmcm9tIGNvcmUuZ2lmX2J1aWxkZXIgaW1wb3J0IEdJRkJ1aWxkZXIKZnJvbSBQSUwgaW1wb3J0IEltYWdlLCBJbWFnZURyYXcKCiMgMS4gQ3JlYXRlIGJ1aWxkZXIKYnVpbGRlciA9IEdJRkJ1aWxkZXIod2lkdGg9MTI4LCBoZWlnaHQ9MTI4LCBmcHM9MTApCgojIDIuIEdlbmVyYXRlIGZyYW1lcwpmb3IgaSBpbiByYW5nZSgxMik6CiAgICBmcmFtZSA9IEltYWdlLm5ldygnUkdCJywgKDEyOCwgMTI4KSwgKDI0MCwgMjQ4LCAyNTUpKQogICAgZHJhdyA9IEltYWdlRHJhdy5EcmF3KGZyYW1lKQoKICAgICMgRHJhdyB5b3VyIGFuaW1hdGlvbiB1c2luZyBQSUwgcHJpbWl0aXZlcwogICAgIyAoY2lyY2xlcywgcG9seWdvbnMsIGxpbmVzLCBldGMuKQoKICAgIGJ1aWxkZXIuYWRkX2ZyYW1lKGZyYW1lKQoKIyAzLiBTYXZlIHdpdGggb3B0aW1pemF0aW9uCmJ1aWxkZXIuc2F2ZSgnb3V0cHV0LmdpZicsIG51bV9jb2xvcnM9NDgsIG9wdGltaXplX2Zvcl9lbW9qaT1UcnVlKQpgYGAKCiMjIERyYXdpbmcgR3JhcGhpY3MKCiMjIyBXb3JraW5nIHdpdGggVXNlci1VcGxvYWRlZCBJbWFnZXMKSWYgYSB1c2VyIHVwbG9hZHMgYW4gaW1hZ2UsIGNvbnNpZGVyIHdoZXRoZXIgdGhleSB3YW50IHRvOgotICoqVXNlIGl0IGRpcmVjdGx5KiogKGUuZy4sICJhbmltYXRlIHRoaXMiLCAic3BsaXQgdGhpcyBpbnRvIGZyYW1lcyIpCi0gKipVc2UgaXQgYXMgaW5zcGlyYXRpb24qKiAoZS5nLiwgIm1ha2Ugc29tZXRoaW5nIGxpa2UgdGhpcyIpCgpMb2FkIGFuZCB3b3JrIHdpdGggaW1hZ2VzIHVzaW5nIFBJTDoKYGBgcHl0aG9uCmZyb20gUElMIGltcG9ydCBJbWFnZQoKdXBsb2FkZWQgPSBJbWFnZS5vcGVuKCdmaWxlLnBuZycpCiMgVXNlIGRpcmVjdGx5LCBvciBqdXN0IGFzIHJlZmVyZW5jZSBmb3IgY29sb3JzL3N0eWxlCmBgYAoKIyMjIERyYXdpbmcgZnJvbSBTY3JhdGNoCldoZW4gZHJhd2luZyBncmFwaGljcyBmcm9tIHNjcmF0Y2gsIHVzZSBQSUwgSW1hZ2VEcmF3IHByaW1pdGl2ZXM6CgpgYGBweXRob24KZnJvbSBQSUwgaW1wb3J0IEltYWdlRHJhdwoKZHJhdyA9IEltYWdlRHJhdy5EcmF3KGZyYW1lKQoKIyBDaXJjbGVzL292YWxzCmRyYXcuZWxsaXBzZShbeDEsIHkxLCB4MiwgeTJdLCBmaWxsPShyLCBnLCBiKSwgb3V0bGluZT0ociwgZywgYiksIHdpZHRoPTMpCgojIFN0YXJzLCB0cmlhbmdsZXMsIGFueSBwb2x5Z29uCnBvaW50cyA9IFsoeDEsIHkxKSwgKHgyLCB5MiksICh4MywgeTMpLCAuLi5dCmRyYXcucG9seWdvbihwb2ludHMsIGZpbGw9KHIsIGcsIGIpLCBvdXRsaW5lPShyLCBnLCBiKSwgd2lkdGg9MykKCiMgTGluZXMKZHJhdy5saW5lKFsoeDEsIHkxKSwgKHgyLCB5MildLCBmaWxsPShyLCBnLCBiKSwgd2lkdGg9NSkKCiMgUmVjdGFuZ2xlcwpkcmF3LnJlY3RhbmdsZShbeDEsIHkxLCB4MiwgeTJdLCBmaWxsPShyLCBnLCBiKSwgb3V0bGluZT0ociwgZywgYiksIHdpZHRoPTMpCmBgYAoKKipEb24ndCB1c2U6KiogRW1vamkgZm9udHMgKHVucmVsaWFibGUgYWNyb3NzIHBsYXRmb3Jtcykgb3IgYXNzdW1lIHByZS1wYWNrYWdlZCBncmFwaGljcyBleGlzdCBpbiB0aGlzIHNraWxsLgoKIyMjIE1ha2luZyBHcmFwaGljcyBMb29rIEdvb2QKCkdyYXBoaWNzIHNob3VsZCBsb29rIHBvbGlzaGVkIGFuZCBjcmVhdGl2ZSwgbm90IGJhc2ljLiBIZXJlJ3MgaG93OgoKKipVc2UgdGhpY2tlciBsaW5lcyoqIC0gQWx3YXlzIHNldCBgd2lkdGg9MmAgb3IgaGlnaGVyIGZvciBvdXRsaW5lcyBhbmQgbGluZXMuIFRoaW4gbGluZXMgKHdpZHRoPTEpIGxvb2sgY2hvcHB5IGFuZCBhbWF0ZXVyaXNoLgoKKipBZGQgdmlzdWFsIGRlcHRoKio6Ci0gVXNlIGdyYWRpZW50cyBmb3IgYmFja2dyb3VuZHMgKGBjcmVhdGVfZ3JhZGllbnRfYmFja2dyb3VuZGApCi0gTGF5ZXIgbXVsdGlwbGUgc2hhcGVzIGZvciBjb21wbGV4aXR5IChlLmcuLCBhIHN0YXIgd2l0aCBhIHNtYWxsZXIgc3RhciBpbnNpZGUpCgoqKk1ha2Ugc2hhcGVzIG1vcmUgaW50ZXJlc3RpbmcqKjoKLSBEb24ndCBqdXN0IGRyYXcgYSBwbGFpbiBjaXJjbGUgLSBhZGQgaGlnaGxpZ2h0cywgcmluZ3MsIG9yIHBhdHRlcm5zCi0gU3RhcnMgY2FuIGhhdmUgZ2xvd3MgKGRyYXcgbGFyZ2VyLCBzZW1pLXRyYW5zcGFyZW50IHZlcnNpb25zIGJlaGluZCkKLSBDb21iaW5lIG11bHRpcGxlIHNoYXBlcyAoc3RhcnMgKyBzcGFya2xlcywgY2lyY2xlcyArIHJpbmdzKQoKKipQYXkgYXR0ZW50aW9uIHRvIGNvbG9ycyoqOgotIFVzZSB2aWJyYW50LCBjb21wbGVtZW50YXJ5IGNvbG9ycwotIEFkZCBjb250cmFzdCAoZGFyayBvdXRsaW5lcyBvbiBsaWdodCBzaGFwZXMsIGxpZ2h0IG91dGxpbmVzIG9uIGRhcmsgc2hhcGVzKQotIENvbnNpZGVyIHRoZSBvdmVyYWxsIGNvbXBvc2l0aW9uCgoqKkZvciBjb21wbGV4IHNoYXBlcyoqIChoZWFydHMsIHNub3dmbGFrZXMsIGV0Yy4pOgotIFVzZSBjb21iaW5hdGlvbnMgb2YgcG9seWdvbnMgYW5kIGVsbGlwc2VzCi0gQ2FsY3VsYXRlIHBvaW50cyBjYXJlZnVsbHkgZm9yIHN5bW1ldHJ5Ci0gQWRkIGRldGFpbHMgKGEgaGVhcnQgY2FuIGhhdmUgYSBoaWdobGlnaHQgY3VydmUsIHNub3dmbGFrZXMgaGF2ZSBpbnRyaWNhdGUgYnJhbmNoZXMpCgpCZSBjcmVhdGl2ZSBhbmQgZGV0YWlsZWQhIEEgZ29vZCBTbGFjayBHSUYgc2hvdWxkIGxvb2sgcG9saXNoZWQsIG5vdCBsaWtlIHBsYWNlaG9sZGVyIGdyYXBoaWNzLgoKIyMgQXZhaWxhYmxlIFV0aWxpdGllcwoKIyMjIEdJRkJ1aWxkZXIgKGBjb3JlLmdpZl9idWlsZGVyYCkKQXNzZW1ibGVzIGZyYW1lcyBhbmQgb3B0aW1pemVzIGZvciBTbGFjazoKYGBgcHl0aG9uCmJ1aWxkZXIgPSBHSUZCdWlsZGVyKHdpZHRoPTEyOCwgaGVpZ2h0PTEyOCwgZnBzPTEwKQpidWlsZGVyLmFkZF9mcmFtZShmcmFtZSkgICMgQWRkIFBJTCBJbWFnZQpidWlsZGVyLmFkZF9mcmFtZXMoZnJhbWVzKSAgIyBBZGQgbGlzdCBvZiBmcmFtZXMKYnVpbGRlci5zYXZlKCdvdXQuZ2lmJywgbnVtX2NvbG9ycz00OCwgb3B0aW1pemVfZm9yX2Vtb2ppPVRydWUsIHJlbW92ZV9kdXBsaWNhdGVzPVRydWUpCmBgYAoKIyMjIFZhbGlkYXRvcnMgKGBjb3JlLnZhbGlkYXRvcnNgKQpDaGVjayBpZiBHSUYgbWVldHMgU2xhY2sgcmVxdWlyZW1lbnRzOgpgYGBweXRob24KZnJvbSBjb3JlLnZhbGlkYXRvcnMgaW1wb3J0IHZhbGlkYXRlX2dpZiwgaXNfc2xhY2tfcmVhZHkKCiMgRGV0YWlsZWQgdmFsaWRhdGlvbgpwYXNzZXMsIGluZm8gPSB2YWxpZGF0ZV9naWYoJ215LmdpZicsIGlzX2Vtb2ppPVRydWUsIHZlcmJvc2U9VHJ1ZSkKCiMgUXVpY2sgY2hlY2sKaWYgaXNfc2xhY2tfcmVhZHkoJ215LmdpZicpOgogICAgcHJpbnQoIlJlYWR5ISIpCmBgYAoKIyMjIEVhc2luZyBGdW5jdGlvbnMgKGBjb3JlLmVhc2luZ2ApClNtb290aCBtb3Rpb24gaW5zdGVhZCBvZiBsaW5lYXI6CmBgYHB5dGhvbgpmcm9tIGNvcmUuZWFzaW5nIGltcG9ydCBpbnRlcnBvbGF0ZQoKIyBQcm9ncmVzcyBmcm9tIDAuMCB0byAxLjAKdCA9IGkgLyAobnVtX2ZyYW1lcyAtIDEpCgojIEFwcGx5IGVhc2luZwp5ID0gaW50ZXJwb2xhdGUoc3RhcnQ9MCwgZW5kPTQwMCwgdD10LCBlYXNpbmc9J2Vhc2Vfb3V0JykKCiMgQXZhaWxhYmxlOiBsaW5lYXIsIGVhc2VfaW4sIGVhc2Vfb3V0LCBlYXNlX2luX291dCwKIyAgICAgICAgICAgYm91bmNlX291dCwgZWxhc3RpY19vdXQsIGJhY2tfb3V0CmBgYAoKIyMjIEZyYW1lIEhlbHBlcnMgKGBjb3JlLmZyYW1lX2NvbXBvc2VyYCkKQ29udmVuaWVuY2UgZnVuY3Rpb25zIGZvciBjb21tb24gbmVlZHM6CmBgYHB5dGhvbgpmcm9tIGNvcmUuZnJhbWVfY29tcG9zZXIgaW1wb3J0ICgKICAgIGNyZWF0ZV9ibGFua19mcmFtZSwgICAgICAgICAjIFNvbGlkIGNvbG9yIGJhY2tncm91bmQKICAgIGNyZWF0ZV9ncmFkaWVudF9iYWNrZ3JvdW5kLCAgIyBWZXJ0aWNhbCBncmFkaWVudAogICAgZHJhd19jaXJjbGUsICAgICAgICAgICAgICAgICMgSGVscGVyIGZvciBjaXJjbGVzCiAgICBkcmF3X3RleHQsICAgICAgICAgICAgICAgICAgIyBTaW1wbGUgdGV4dCByZW5kZXJpbmcKICAgIGRyYXdfc3RhciAgICAgICAgICAgICAgICAgICAjIDUtcG9pbnRlZCBzdGFyCikKYGBgCgojIyBBbmltYXRpb24gQ29uY2VwdHMKCiMjIyBTaGFrZS9WaWJyYXRlCk9mZnNldCBvYmplY3QgcG9zaXRpb24gd2l0aCBvc2NpbGxhdGlvbjoKLSBVc2UgYG1hdGguc2luKClgIG9yIGBtYXRoLmNvcygpYCB3aXRoIGZyYW1lIGluZGV4Ci0gQWRkIHNtYWxsIHJhbmRvbSB2YXJpYXRpb25zIGZvciBuYXR1cmFsIGZlZWwKLSBBcHBseSB0byB4IGFuZC9vciB5IHBvc2l0aW9uCgojIyMgUHVsc2UvSGVhcnRiZWF0ClNjYWxlIG9iamVjdCBzaXplIHJoeXRobWljYWxseToKLSBVc2UgYG1hdGguc2luKHQgKiBmcmVxdWVuY3kgKiAyICogbWF0aC5waSlgIGZvciBzbW9vdGggcHVsc2UKLSBGb3IgaGVhcnRiZWF0OiB0d28gcXVpY2sgcHVsc2VzIHRoZW4gcGF1c2UgKGFkanVzdCBzaW5lIHdhdmUpCi0gU2NhbGUgYmV0d2VlbiAwLjggYW5kIDEuMiBvZiBiYXNlIHNpemUKCiMjIyBCb3VuY2UKT2JqZWN0IGZhbGxzIGFuZCBib3VuY2VzOgotIFVzZSBgaW50ZXJwb2xhdGUoKWAgd2l0aCBgZWFzaW5nPSdib3VuY2Vfb3V0J2AgZm9yIGxhbmRpbmcKLSBVc2UgYGVhc2luZz0nZWFzZV9pbidgIGZvciBmYWxsaW5nIChhY2NlbGVyYXRpbmcpCi0gQXBwbHkgZ3Jhdml0eSBieSBpbmNyZWFzaW5nIHkgdmVsb2NpdHkgZWFjaCBmcmFtZQoKIyMjIFNwaW4vUm90YXRlClJvdGF0ZSBvYmplY3QgYXJvdW5kIGNlbnRlcjoKLSBQSUw6IGBpbWFnZS5yb3RhdGUoYW5nbGUsIHJlc2FtcGxlPUltYWdlLkJJQ1VCSUMpYAotIEZvciB3b2JibGU6IHVzZSBzaW5lIHdhdmUgZm9yIGFuZ2xlIGluc3RlYWQgb2YgbGluZWFyCgojIyMgRmFkZSBJbi9PdXQKR3JhZHVhbGx5IGFwcGVhciBvciBkaXNhcHBlYXI6Ci0gQ3JlYXRlIFJHQkEgaW1hZ2UsIGFkanVzdCBhbHBoYSBjaGFubmVsCi0gT3IgdXNlIGBJbWFnZS5ibGVuZChpbWFnZTEsIGltYWdlMiwgYWxwaGEpYAotIEZhZGUgaW46IGFscGhhIGZyb20gMCB0byAxCi0gRmFkZSBvdXQ6IGFscGhhIGZyb20gMSB0byAwCgojIyMgU2xpZGUKTW92ZSBvYmplY3QgZnJvbSBvZmYtc2NyZWVuIHRvIHBvc2l0aW9uOgotIFN0YXJ0IHBvc2l0aW9uOiBvdXRzaWRlIGZyYW1lIGJvdW5kcwotIEVuZCBwb3NpdGlvbjogdGFyZ2V0IGxvY2F0aW9uCi0gVXNlIGBpbnRlcnBvbGF0ZSgpYCB3aXRoIGBlYXNpbmc9J2Vhc2Vfb3V0J2AgZm9yIHNtb290aCBzdG9wCi0gRm9yIG92ZXJzaG9vdDogdXNlIGBlYXNpbmc9J2JhY2tfb3V0J2AKCiMjIyBab29tClNjYWxlIGFuZCBwb3NpdGlvbiBmb3Igem9vbSBlZmZlY3Q6Ci0gWm9vbSBpbjogc2NhbGUgZnJvbSAwLjEgdG8gMi4wLCBjcm9wIGNlbnRlcgotIFpvb20gb3V0OiBzY2FsZSBmcm9tIDIuMCB0byAxLjAKLSBDYW4gYWRkIG1vdGlvbiBibHVyIGZvciBkcmFtYSAoUElMIGZpbHRlcikKCiMjIyBFeHBsb2RlL1BhcnRpY2xlIEJ1cnN0CkNyZWF0ZSBwYXJ0aWNsZXMgcmFkaWF0aW5nIG91dHdhcmQ6Ci0gR2VuZXJhdGUgcGFydGljbGVzIHdpdGggcmFuZG9tIGFuZ2xlcyBhbmQgdmVsb2NpdGllcwotIFVwZGF0ZSBlYWNoIHBhcnRpY2xlOiBgeCArPSB2eGAsIGB5ICs9IHZ5YAotIEFkZCBncmF2aXR5OiBgdnkgKz0gZ3Jhdml0eV9jb25zdGFudGAKLSBGYWRlIG91dCBwYXJ0aWNsZXMgb3ZlciB0aW1lIChyZWR1Y2UgYWxwaGEpCgojIyBPcHRpbWl6YXRpb24gU3RyYXRlZ2llcwoKT25seSB3aGVuIGFza2VkIHRvIG1ha2UgdGhlIGZpbGUgc2l6ZSBzbWFsbGVyLCBpbXBsZW1lbnQgYSBmZXcgb2YgdGhlIGZvbGxvd2luZyBtZXRob2RzOgoKMS4gKipGZXdlciBmcmFtZXMqKiAtIExvd2VyIEZQUyAoMTAgaW5zdGVhZCBvZiAyMCkgb3Igc2hvcnRlciBkdXJhdGlvbgoyLiAqKkZld2VyIGNvbG9ycyoqIC0gYG51bV9jb2xvcnM9NDhgIGluc3RlYWQgb2YgMTI4CjMuICoqU21hbGxlciBkaW1lbnNpb25zKiogLSAxMjh4MTI4IGluc3RlYWQgb2YgNDgweDQ4MAo0LiAqKlJlbW92ZSBkdXBsaWNhdGVzKiogLSBgcmVtb3ZlX2R1cGxpY2F0ZXM9VHJ1ZWAgaW4gc2F2ZSgpCjUuICoqRW1vamkgbW9kZSoqIC0gYG9wdGltaXplX2Zvcl9lbW9qaT1UcnVlYCBhdXRvLW9wdGltaXplcwoKYGBgcHl0aG9uCiMgTWF4aW11bSBvcHRpbWl6YXRpb24gZm9yIGVtb2ppCmJ1aWxkZXIuc2F2ZSgKICAgICdlbW9qaS5naWYnLAogICAgbnVtX2NvbG9ycz00OCwKICAgIG9wdGltaXplX2Zvcl9lbW9qaT1UcnVlLAogICAgcmVtb3ZlX2R1cGxpY2F0ZXM9VHJ1ZQopCmBgYAoKIyMgUGhpbG9zb3BoeQoKVGhpcyBza2lsbCBwcm92aWRlczoKLSAqKktub3dsZWRnZSoqOiBTbGFjaydzIHJlcXVpcmVtZW50cyBhbmQgYW5pbWF0aW9uIGNvbmNlcHRzCi0gKipVdGlsaXRpZXMqKjogR0lGQnVpbGRlciwgdmFsaWRhdG9ycywgZWFzaW5nIGZ1bmN0aW9ucwotICoqRmxleGliaWxpdHkqKjogQ3JlYXRlIHRoZSBhbmltYXRpb24gbG9naWMgdXNpbmcgUElMIHByaW1pdGl2ZXMKCkl0IGRvZXMgTk9UIHByb3ZpZGU6Ci0gUmlnaWQgYW5pbWF0aW9uIHRlbXBsYXRlcyBvciBwcmUtbWFkZSBmdW5jdGlvbnMKLSBFbW9qaSBmb250IHJlbmRlcmluZyAodW5yZWxpYWJsZSBhY3Jvc3MgcGxhdGZvcm1zKQotIEEgbGlicmFyeSBvZiBwcmUtcGFja2FnZWQgZ3JhcGhpY3MgYnVpbHQgaW50byB0aGUgc2tpbGwKCioqTm90ZSBvbiB1c2VyIHVwbG9hZHMqKjogVGhpcyBza2lsbCBkb2Vzbid0IGluY2x1ZGUgcHJlLWJ1aWx0IGdyYXBoaWNzLCBidXQgaWYgYSB1c2VyIHVwbG9hZHMgYW4gaW1hZ2UsIHVzZSBQSUwgdG8gbG9hZCBhbmQgd29yayB3aXRoIGl0IC0gaW50ZXJwcmV0IGJhc2VkIG9uIHRoZWlyIHJlcXVlc3Qgd2hldGhlciB0aGV5IHdhbnQgaXQgdXNlZCBkaXJlY3RseSBvciBqdXN0IGFzIGluc3BpcmF0aW9uLgoKQmUgY3JlYXRpdmUhIENvbWJpbmUgY29uY2VwdHMgKGJvdW5jaW5nICsgcm90YXRpbmcsIHB1bHNpbmcgKyBzbGlkaW5nLCBldGMuKSBhbmQgdXNlIFBJTCdzIGZ1bGwgY2FwYWJpbGl0aWVzLgoKIyMgRGVwZW5kZW5jaWVzCgpgYGBiYXNoCnBpcCBpbnN0YWxsIHBpbGxvdyBpbWFnZWlvIG51bXB5CmBgYAo=
+---
+name: slack-gif-creator
+description: Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like "make me a GIF of X doing Y for Slack."
+license: Complete terms in LICENSE.txt
+---
+
+# Slack GIF Creator
+
+A toolkit providing utilities and knowledge for creating animated GIFs optimized for Slack.
+
+## Slack Requirements
+
+**Dimensions:**
+- Emoji GIFs: 128x128 (recommended)
+- Message GIFs: 480x480
+
+**Parameters:**
+- FPS: 10-30 (lower is smaller file size)
+- Colors: 48-128 (fewer = smaller file size)
+- Duration: Keep under 3 seconds for emoji GIFs
+
+## Core Workflow
+
+```python
+from core.gif_builder import GIFBuilder
+from PIL import Image, ImageDraw
+
+# 1. Create builder
+builder = GIFBuilder(width=128, height=128, fps=10)
+
+# 2. Generate frames
+for i in range(12):
+    frame = Image.new('RGB', (128, 128), (240, 248, 255))
+    draw = ImageDraw.Draw(frame)
+
+    # Draw your animation using PIL primitives
+    # (circles, polygons, lines, etc.)
+
+    builder.add_frame(frame)
+
+# 3. Save with optimization
+builder.save('output.gif', num_colors=48, optimize_for_emoji=True)
+```
+
+## Drawing Graphics
+
+### Working with User-Uploaded Images
+If a user uploads an image, consider whether they want to:
+- **Use it directly** (e.g., "animate this", "split this into frames")
+- **Use it as inspiration** (e.g., "make something like this")
+
+Load and work with images using PIL:
+```python
+from PIL import Image
+
+uploaded = Image.open('file.png')
+# Use directly, or just as reference for colors/style
+```
+
+### Drawing from Scratch
+When drawing graphics from scratch, use PIL ImageDraw primitives:
+
+```python
+from PIL import ImageDraw
+
+draw = ImageDraw.Draw(frame)
+
+# Circles/ovals
+draw.ellipse([x1, y1, x2, y2], fill=(r, g, b), outline=(r, g, b), width=3)
+
+# Stars, triangles, any polygon
+points = [(x1, y1), (x2, y2), (x3, y3), ...]
+draw.polygon(points, fill=(r, g, b), outline=(r, g, b), width=3)
+
+# Lines
+draw.line([(x1, y1), (x2, y2)], fill=(r, g, b), width=5)
+
+# Rectangles
+draw.rectangle([x1, y1, x2, y2], fill=(r, g, b), outline=(r, g, b), width=3)
+```
+
+**Don't use:** Emoji fonts (unreliable across platforms) or assume pre-packaged graphics exist in this skill.
+
+### Making Graphics Look Good
+
+Graphics should look polished and creative, not basic. Here's how:
+
+**Use thicker lines** - Always set `width=2` or higher for outlines and lines. Thin lines (width=1) look choppy and amateurish.
+
+**Add visual depth**:
+- Use gradients for backgrounds (`create_gradient_background`)
+- Layer multiple shapes for complexity (e.g., a star with a smaller star inside)
+
+**Make shapes more interesting**:
+- Don't just draw a plain circle - add highlights, rings, or patterns
+- Stars can have glows (draw larger, semi-transparent versions behind)
+- Combine multiple shapes (stars + sparkles, circles + rings)
+
+**Pay attention to colors**:
+- Use vibrant, complementary colors
+- Add contrast (dark outlines on light shapes, light outlines on dark shapes)
+- Consider the overall composition
+
+**For complex shapes** (hearts, snowflakes, etc.):
+- Use combinations of polygons and ellipses
+- Calculate points carefully for symmetry
+- Add details (a heart can have a highlight curve, snowflakes have intricate branches)
+
+Be creative and detailed! A good Slack GIF should look polished, not like placeholder graphics.
+
+## Available Utilities
+
+### GIFBuilder (`core.gif_builder`)
+Assembles frames and optimizes for Slack:
+```python
+builder = GIFBuilder(width=128, height=128, fps=10)
+builder.add_frame(frame)  # Add PIL Image
+builder.add_frames(frames)  # Add list of frames
+builder.save('out.gif', num_colors=48, optimize_for_emoji=True, remove_duplicates=True)
+```
+
+### Validators (`core.validators`)
+Check if GIF meets Slack requirements:
+```python
+from core.validators import validate_gif, is_slack_ready
+
+# Detailed validation
+passes, info = validate_gif('my.gif', is_emoji=True, verbose=True)
+
+# Quick check
+if is_slack_ready('my.gif'):
+    print("Ready!")
+```
+
+### Easing Functions (`core.easing`)
+Smooth motion instead of linear:
+```python
+from core.easing import interpolate
+
+# Progress from 0.0 to 1.0
+t = i / (num_frames - 1)
+
+# Apply easing
+y = interpolate(start=0, end=400, t=t, easing='ease_out')
+
+# Available: linear, ease_in, ease_out, ease_in_out,
+#           bounce_out, elastic_out, back_out
+```
+
+### Frame Helpers (`core.frame_composer`)
+Convenience functions for common needs:
+```python
+from core.frame_composer import (
+    create_blank_frame,         # Solid color background
+    create_gradient_background,  # Vertical gradient
+    draw_circle,                # Helper for circles
+    draw_text,                  # Simple text rendering
+    draw_star                   # 5-pointed star
+)
+```
+
+## Animation Concepts
+
+### Shake/Vibrate
+Offset object position with oscillation:
+- Use `math.sin()` or `math.cos()` with frame index
+- Add small random variations for natural feel
+- Apply to x and/or y position
+
+### Pulse/Heartbeat
+Scale object size rhythmically:
+- Use `math.sin(t * frequency * 2 * math.pi)` for smooth pulse
+- For heartbeat: two quick pulses then pause (adjust sine wave)
+- Scale between 0.8 and 1.2 of base size
+
+### Bounce
+Object falls and bounces:
+- Use `interpolate()` with `easing='bounce_out'` for landing
+- Use `easing='ease_in'` for falling (accelerating)
+- Apply gravity by increasing y velocity each frame
+
+### Spin/Rotate
+Rotate object around center:
+- PIL: `image.rotate(angle, resample=Image.BICUBIC)`
+- For wobble: use sine wave for angle instead of linear
+
+### Fade In/Out
+Gradually appear or disappear:
+- Create RGBA image, adjust alpha channel
+- Or use `Image.blend(image1, image2, alpha)`
+- Fade in: alpha from 0 to 1
+- Fade out: alpha from 1 to 0
+
+### Slide
+Move object from off-screen to position:
+- Start position: outside frame bounds
+- End position: target location
+- Use `interpolate()` with `easing='ease_out'` for smooth stop
+- For overshoot: use `easing='back_out'`
+
+### Zoom
+Scale and position for zoom effect:
+- Zoom in: scale from 0.1 to 2.0, crop center
+- Zoom out: scale from 2.0 to 1.0
+- Can add motion blur for drama (PIL filter)
+
+### Explode/Particle Burst
+Create particles radiating outward:
+- Generate particles with random angles and velocities
+- Update each particle: `x += vx`, `y += vy`
+- Add gravity: `vy += gravity_constant`
+- Fade out particles over time (reduce alpha)
+
+## Optimization Strategies
+
+Only when asked to make the file size smaller, implement a few of the following methods:
+
+1. **Fewer frames** - Lower FPS (10 instead of 20) or shorter duration
+2. **Fewer colors** - `num_colors=48` instead of 128
+3. **Smaller dimensions** - 128x128 instead of 480x480
+4. **Remove duplicates** - `remove_duplicates=True` in save()
+5. **Emoji mode** - `optimize_for_emoji=True` auto-optimizes
+
+```python
+# Maximum optimization for emoji
+builder.save(
+    'emoji.gif',
+    num_colors=48,
+    optimize_for_emoji=True,
+    remove_duplicates=True
+)
+```
+
+## Philosophy
+
+This skill provides:
+- **Knowledge**: Slack's requirements and animation concepts
+- **Utilities**: GIFBuilder, validators, easing functions
+- **Flexibility**: Create the animation logic using PIL primitives
+
+It does NOT provide:
+- Rigid animation templates or pre-made functions
+- Emoji font rendering (unreliable across platforms)
+- A library of pre-packaged graphics built into the skill
+
+**Note on user uploads**: This skill doesn't include pre-built graphics, but if a user uploads an image, use PIL to load and work with it - interpret based on their request whether they want it used directly or just as inspiration.
+
+Be creative! Combine concepts (bouncing + rotating, pulsing + sliding, etc.) and use PIL's full capabilities.
+
+## Dependencies
+
+```bash
+pip install pillow imageio numpy
+```

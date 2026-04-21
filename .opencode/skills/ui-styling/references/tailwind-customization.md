@@ -1,1 +1,483 @@
-IyBUYWlsd2luZCBDU1MgQ3VzdG9taXphdGlvbgoKQ29uZmlnIGZpbGUgc3RydWN0dXJlLCBjdXN0b20gdXRpbGl0aWVzLCBwbHVnaW5zLCBhbmQgdGhlbWUgZXh0ZW5zaW9ucy4KCiMjIEB0aGVtZSBEaXJlY3RpdmUKCk1vZGVybiBhcHByb2FjaCB0byBjdXN0b21pemUgVGFpbHdpbmQgdXNpbmcgQ1NTOgoKYGBgY3NzCkBpbXBvcnQgInRhaWx3aW5kY3NzIjsKCkB0aGVtZSB7CiAgLyogQ3VzdG9tIGNvbG9ycyAqLwogIC0tY29sb3ItYnJhbmQtNTA6IG9rbGNoKDAuOTcgMC4wMiAyNjQpOwogIC0tY29sb3ItYnJhbmQtNTAwOiBva2xjaCgwLjU1IDAuMjIgMjY0KTsKICAtLWNvbG9yLWJyYW5kLTkwMDogb2tsY2goMC4yNSAwLjE1IDI2NCk7CgogIC8qIEN1c3RvbSBmb250cyAqLwogIC0tZm9udC1kaXNwbGF5OiAiU2F0b3NoaSIsICJJbnRlciIsIHNhbnMtc2VyaWY7CiAgLS1mb250LWJvZHk6ICJJbnRlciIsIHN5c3RlbS11aSwgc2Fucy1zZXJpZjsKCiAgLyogQ3VzdG9tIHNwYWNpbmcgKi8KICAtLXNwYWNpbmctMTg6IGNhbGModmFyKC0tc3BhY2luZykgKiAxOCk7CiAgLS1zcGFjaW5nLW5hdmJhcjogNC41cmVtOwoKICAvKiBDdXN0b20gYnJlYWtwb2ludHMgKi8KICAtLWJyZWFrcG9pbnQtM3hsOiAxMjByZW07CiAgLS1icmVha3BvaW50LXRhYmxldDogNDhyZW07CgogIC8qIEN1c3RvbSBzaGFkb3dzICovCiAgLS1zaGFkb3ctZ2xvdzogMCAwIDIwcHggcmdiYSgxMzksIDkyLCAyNDYsIDAuMyk7CgogIC8qIEN1c3RvbSByYWRpdXMgKi8KICAtLXJhZGl1cy1sYXJnZTogMS41cmVtOwp9CmBgYAoKKipVc2FnZToqKgpgYGBodG1sCjxkaXYgY2xhc3M9ImJnLWJyYW5kLTUwMCBmb250LWRpc3BsYXkgc2hhZG93LWdsb3cgcm91bmRlZC1sYXJnZSI+CiAgQ3VzdG9tIHRoZW1lZCBlbGVtZW50CjwvZGl2PgoKPGRpdiBjbGFzcz0idGFibGV0OmdyaWQtY29scy0yIDN4bDpncmlkLWNvbHMtNiI+CiAgQ3VzdG9tIGJyZWFrcG9pbnRzCjwvZGl2PgpgYGAKCiMjIENvbG9yIEN1c3RvbWl6YXRpb24KCiMjIyBDdXN0b20gQ29sb3IgUGFsZXR0ZQoKYGBgY3NzCkB0aGVtZSB7CiAgLyogRnVsbCBjb2xvciBzY2FsZSAqLwogIC0tY29sb3ItcHJpbWFyeS01MDogb2tsY2goMC45OCAwLjAyIDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTEwMDogb2tsY2goMC45NSAwLjA1IDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTIwMDogb2tsY2goMC45MCAwLjEwIDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTMwMDogb2tsY2goMC44NSAwLjE1IDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTQwMDogb2tsY2goMC43NSAwLjE4IDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTUwMDogb2tsY2goMC42NSAwLjIyIDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTYwMDogb2tsY2goMC41NSAwLjIyIDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTcwMDogb2tsY2goMC40NSAwLjIwIDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTgwMDogb2tsY2goMC4zNSAwLjE4IDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTkwMDogb2tsY2goMC4yNSAwLjE1IDI1MCk7CiAgLS1jb2xvci1wcmltYXJ5LTk1MDogb2tsY2goMC4xNSAwLjEwIDI1MCk7Cn0KYGBgCgojIyMgU2VtYW50aWMgQ29sb3JzCgpgYGBjc3MKQHRoZW1lIHsKICAtLWNvbG9yLXN1Y2Nlc3M6IG9rbGNoKDAuNjUgMC4xOCAxNDUpOwogIC0tY29sb3Itd2FybmluZzogb2tsY2goMC43NSAwLjE1IDg1KTsKICAtLWNvbG9yLWVycm9yOiBva2xjaCgwLjYwIDAuMjIgMjUpOwogIC0tY29sb3ItaW5mbzogb2tsY2goMC42NSAwLjE4IDI0MCk7Cn0KYGBgCgpgYGBodG1sCjxkaXYgY2xhc3M9ImJnLXN1Y2Nlc3MgdGV4dC13aGl0ZSI+U3VjY2VzcyBtZXNzYWdlPC9kaXY+CjxkaXYgY2xhc3M9ImJvcmRlci1lcnJvciI+RXJyb3Igc3RhdGU8L2Rpdj4KYGBgCgojIyBUeXBvZ3JhcGh5IEN1c3RvbWl6YXRpb24KCiMjIyBDdXN0b20gRm9udHMKCmBgYGNzcwpAdGhlbWUgewogIC0tZm9udC1zYW5zOiAiSW50ZXIiLCBzeXN0ZW0tdWksIHNhbnMtc2VyaWY7CiAgLS1mb250LXNlcmlmOiAiTWVycml3ZWF0aGVyIiwgR2VvcmdpYSwgc2VyaWY7CiAgLS1mb250LW1vbm86ICJKZXRCcmFpbnMgTW9ubyIsIENvbnNvbGFzLCBtb25vc3BhY2U7CiAgLS1mb250LWRpc3BsYXk6ICJQbGF5ZmFpciBEaXNwbGF5Iiwgc2VyaWY7Cn0KYGBgCgpgYGBodG1sCjxoMSBjbGFzcz0iZm9udC1kaXNwbGF5Ij5EaXNwbGF5IGhlYWRpbmc8L2gxPgo8cCBjbGFzcz0iZm9udC1zYW5zIj5Cb2R5IHRleHQ8L3A+Cjxjb2RlIGNsYXNzPSJmb250LW1vbm8iPkNvZGUgYmxvY2s8L2NvZGU+CmBgYAoKIyMjIEN1c3RvbSBGb250IFNpemVzCgpgYGBjc3MKQHRoZW1lIHsKICAtLWZvbnQtc2l6ZS14czogMC43NXJlbTsKICAtLWZvbnQtc2l6ZS1zbTogMC44NzVyZW07CiAgLS1mb250LXNpemUtYmFzZTogMXJlbTsKICAtLWZvbnQtc2l6ZS1sZzogMS4xMjVyZW07CiAgLS1mb250LXNpemUteGw6IDEuMjVyZW07CiAgLS1mb250LXNpemUtMnhsOiAxLjVyZW07CiAgLS1mb250LXNpemUtM3hsOiAxLjg3NXJlbTsKICAtLWZvbnQtc2l6ZS00eGw6IDIuMjVyZW07CiAgLS1mb250LXNpemUtNXhsOiAzcmVtOwogIC0tZm9udC1zaXplLWp1bWJvOiA0cmVtOwp9CmBgYAoKIyMgU3BhY2luZyBDdXN0b21pemF0aW9uCgpgYGBjc3MKQHRoZW1lIHsKICAvKiBBZGQgY3VzdG9tIHNwYWNpbmcgdmFsdWVzICovCiAgLS1zcGFjaW5nLTEzOiBjYWxjKHZhcigtLXNwYWNpbmcpICogMTMpOwogIC0tc3BhY2luZy0xNTogY2FsYyh2YXIoLS1zcGFjaW5nKSAqIDE1KTsKICAtLXNwYWNpbmctMTg6IGNhbGModmFyKC0tc3BhY2luZykgKiAxOCk7CgogIC8qIE5hbWVkIHNwYWNpbmcgKi8KICAtLXNwYWNpbmctaGVhZGVyOiA0cmVtOwogIC0tc3BhY2luZy1mb290ZXI6IDNyZW07CiAgLS1zcGFjaW5nLXNlY3Rpb246IDZyZW07Cn0KYGBgCgpgYGBodG1sCjxkaXYgY2xhc3M9InAtMTgiPkN1c3RvbSBwYWRkaW5nPC9kaXY+CjxzZWN0aW9uIGNsYXNzPSJweS1zZWN0aW9uIj5TZWN0aW9uIHNwYWNpbmc8L3NlY3Rpb24+CmBgYAoKIyMgQ3VzdG9tIFV0aWxpdGllcwoKQ3JlYXRlIHJldXNhYmxlIHV0aWxpdHkgY2xhc3NlczoKCmBgYGNzcwpAdXRpbGl0eSBjb250ZW50LWF1dG8gewogIGNvbnRlbnQtdmlzaWJpbGl0eTogYXV0bzsKfQoKQHV0aWxpdHkgdGFiLSogewogIHRhYi1zaXplOiB2YXIoLS10YWItc2l6ZS0qKTsKfQoKQHV0aWxpdHkgZ2xhc3MgewogIGJhY2tncm91bmQ6IHJnYmEoMjU1LCAyNTUsIDI1NSwgMC4xKTsKICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoMTBweCk7CiAgYm9yZGVyOiAxcHggc29saWQgcmdiYSgyNTUsIDI1NSwgMjU1LCAwLjIpOwp9CmBgYAoKKipVc2FnZToqKgpgYGBodG1sCjxkaXYgY2xhc3M9ImNvbnRlbnQtYXV0byI+T3B0aW1pemVkIHJlbmRlcmluZzwvZGl2Pgo8cHJlIGNsYXNzPSJ0YWItNCI+Q29kZSB3aXRoIDQtc3BhY2UgdGFiczwvcHJlPgo8ZGl2IGNsYXNzPSJnbGFzcyI+R2xhc3Ntb3JwaGlzbSBlZmZlY3Q8L2Rpdj4KYGBgCgojIyBDdXN0b20gVmFyaWFudHMKCkNyZWF0ZSBjdXN0b20gc3RhdGUgdmFyaWFudHM6CgpgYGBjc3MKQGN1c3RvbS12YXJpYW50IHRoZW1lLW1pZG5pZ2h0ICgmOndoZXJlKFtkYXRhLXRoZW1lPSJtaWRuaWdodCJdICopKTsKQGN1c3RvbS12YXJpYW50IGFyaWEtY2hlY2tlZCAoJlthcmlhLWNoZWNrZWQ9InRydWUiXSk7CkBjdXN0b20tdmFyaWFudCByZXF1aXJlZCAoJjpyZXF1aXJlZCk7CmBgYAoKKipVc2FnZToqKgpgYGBodG1sCjxkaXYgZGF0YS10aGVtZT0ibWlkbmlnaHQiPgogIDxkaXYgY2xhc3M9InRoZW1lLW1pZG5pZ2h0OmJnLW5hdnktOTAwIj4KICAgIEFwcGxpZXMgaW4gbWlkbmlnaHQgdGhlbWUKICA8L2Rpdj4KPC9kaXY+Cgo8aW5wdXQgY2xhc3M9InJlcXVpcmVkOmJvcmRlci1yZWQtNTAwIiByZXF1aXJlZCAvPgpgYGAKCiMjIExheWVyIE9yZ2FuaXphdGlvbgoKT3JnYW5pemUgQ1NTIGludG8gbGF5ZXJzOgoKYGBgY3NzCkBsYXllciBiYXNlIHsKICBoMSB7CiAgICBAYXBwbHkgdGV4dC00eGwgZm9udC1ib2xkIHRyYWNraW5nLXRpZ2h0OwogIH0KCiAgaDIgewogICAgQGFwcGx5IHRleHQtM3hsIGZvbnQtc2VtaWJvbGQ7CiAgfQoKICBhIHsKICAgIEBhcHBseSB0ZXh0LWJsdWUtNjAwIGhvdmVyOnRleHQtYmx1ZS03MDAgdW5kZXJsaW5lLW9mZnNldC00IGhvdmVyOnVuZGVybGluZTsKICB9CgogIGJvZHkgewogICAgQGFwcGx5IGJnLWJhY2tncm91bmQgdGV4dC1mb3JlZ3JvdW5kIGFudGlhbGlhc2VkOwogIH0KfQoKQGxheWVyIGNvbXBvbmVudHMgewogIC5idG4gewogICAgQGFwcGx5IHB4LTQgcHktMiByb3VuZGVkLWxnIGZvbnQtbWVkaXVtIHRyYW5zaXRpb24tY29sb3JzOwogIH0KCiAgLmJ0bi1wcmltYXJ5IHsKICAgIEBhcHBseSBiZy1ibHVlLTYwMCB0ZXh0LXdoaXRlIGhvdmVyOmJnLWJsdWUtNzAwOwogIH0KCiAgLmJ0bi1zZWNvbmRhcnkgewogICAgQGFwcGx5IGJnLWdyYXktMjAwIHRleHQtZ3JheS05MDAgaG92ZXI6YmctZ3JheS0zMDA7CiAgfQoKICAuY2FyZCB7CiAgICBAYXBwbHkgYmctd2hpdGUgcm91bmRlZC14bCBzaGFkb3ctbWQgcC02IGhvdmVyOnNoYWRvdy1sZyB0cmFuc2l0aW9uLXNoYWRvdzsKICB9CgogIC5pbnB1dCB7CiAgICBAYXBwbHkgdy1mdWxsIHB4LTQgcHktMiBib3JkZXIgYm9yZGVyLWdyYXktMzAwIHJvdW5kZWQtbGcgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctYmx1ZS01MDAgZm9jdXM6Ym9yZGVyLXRyYW5zcGFyZW50OwogIH0KfQoKQGxheWVyIHV0aWxpdGllcyB7CiAgLnRleHQtYmFsYW5jZSB7CiAgICB0ZXh0LXdyYXA6IGJhbGFuY2U7CiAgfQoKICAuc2Nyb2xsYmFyLWhpZGUgewogICAgLW1zLW92ZXJmbG93LXN0eWxlOiBub25lOwogICAgc2Nyb2xsYmFyLXdpZHRoOiBub25lOwogIH0KICAuc2Nyb2xsYmFyLWhpZGU6Oi13ZWJraXQtc2Nyb2xsYmFyIHsKICAgIGRpc3BsYXk6IG5vbmU7CiAgfQp9CmBgYAoKIyMgQGFwcGx5IERpcmVjdGl2ZQoKRXh0cmFjdCByZXBlYXRlZCB1dGlsaXR5IHBhdHRlcm5zOgoKYGBgY3NzCi5idG4tcHJpbWFyeSB7CiAgQGFwcGx5IGJnLWJsdWUtNjAwIGhvdmVyOmJnLWJsdWUtNzAwIGFjdGl2ZTpiZy1ibHVlLTgwMCB0ZXh0LXdoaXRlIGZvbnQtc2VtaWJvbGQgcHgtNiBweS0zIHJvdW5kZWQtbGcgc2hhZG93LW1kIGhvdmVyOnNoYWRvdy1sZyB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0yMDAgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctNCBmb2N1czpyaW5nLWJsdWUtMzAwOwp9CgouaW5wdXQtZmllbGQgewogIEBhcHBseSB3LWZ1bGwgcHgtNCBweS0yIGJvcmRlciBib3JkZXItZ3JheS0zMDAgcm91bmRlZC1tZCBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctYmx1ZS01MDAgZm9jdXM6Ym9yZGVyLXRyYW5zcGFyZW50IGRpc2FibGVkOmJnLWdyYXktMTAwIGRpc2FibGVkOmN1cnNvci1ub3QtYWxsb3dlZDsKfQoKLnNlY3Rpb24tY29udGFpbmVyIHsKICBAYXBwbHkgY29udGFpbmVyIG14LWF1dG8gcHgtNCBzbTpweC02IGxnOnB4LTggbWF4LXctN3hsOwp9CmBgYAoKKipVc2FnZToqKgpgYGBodG1sCjxidXR0b24gY2xhc3M9ImJ0bi1wcmltYXJ5Ij5DbGljayBtZTwvYnV0dG9uPgo8aW5wdXQgY2xhc3M9ImlucHV0LWZpZWxkIiAvPgo8ZGl2IGNsYXNzPSJzZWN0aW9uLWNvbnRhaW5lciI+Q29udGVudDwvZGl2PgpgYGAKCiMjIFBsdWdpbnMKCiMjIyBPZmZpY2lhbCBQbHVnaW5zCgpgYGBiYXNoCm5wbSBpbnN0YWxsIC1EIEB0YWlsd2luZGNzcy90eXBvZ3JhcGh5IEB0YWlsd2luZGNzcy9mb3JtcyBAdGFpbHdpbmRjc3MvY29udGFpbmVyLXF1ZXJpZXMKYGBgCgpgYGBqYXZhc2NyaXB0Ci8vIHRhaWx3aW5kLmNvbmZpZy5qcwpleHBvcnQgZGVmYXVsdCB7CiAgcGx1Z2luczogWwogICAgcmVxdWlyZSgnQHRhaWx3aW5kY3NzL3R5cG9ncmFwaHknKSwKICAgIHJlcXVpcmUoJ0B0YWlsd2luZGNzcy9mb3JtcycpLAogICAgcmVxdWlyZSgnQHRhaWx3aW5kY3NzL2NvbnRhaW5lci1xdWVyaWVzJyksCiAgXSwKfQpgYGAKCioqVHlwb2dyYXBoeSBwbHVnaW46KioKYGBgaHRtbAo8YXJ0aWNsZSBjbGFzcz0icHJvc2UgbGc6cHJvc2UteGwiPgogIDxoMT5TdHlsZWQgYXJ0aWNsZTwvaDE+CiAgPHA+QXV0b21hdGljYWxseSBzdHlsZWQgcHJvc2UgY29udGVudDwvcD4KPC9hcnRpY2xlPgpgYGAKCioqRm9ybXMgcGx1Z2luOioqCmBgYGh0bWwKPCEtLSBBdXRvbWF0aWNhbGx5IHN0eWxlZCBmb3JtIGVsZW1lbnRzIC0tPgo8aW5wdXQgdHlwZT0idGV4dCIgLz4KPHNlbGVjdD48L3NlbGVjdD4KPHRleHRhcmVhPjwvdGV4dGFyZWE+CmBgYAoKIyMjIEN1c3RvbSBQbHVnaW4KCmBgYGphdmFzY3JpcHQKLy8gdGFpbHdpbmQuY29uZmlnLmpzCmNvbnN0IHBsdWdpbiA9IHJlcXVpcmUoJ3RhaWx3aW5kY3NzL3BsdWdpbicpCgpleHBvcnQgZGVmYXVsdCB7CiAgcGx1Z2luczogWwogICAgcGx1Z2luKGZ1bmN0aW9uKHsgYWRkVXRpbGl0aWVzLCBhZGRDb21wb25lbnRzLCB0aGVtZSB9KSB7CiAgICAgIC8vIEFkZCB1dGlsaXRpZXMKICAgICAgYWRkVXRpbGl0aWVzKHsKICAgICAgICAnLnRleHQtc2hhZG93JzogewogICAgICAgICAgdGV4dFNoYWRvdzogJzJweCAycHggNHB4IHJnYmEoMCwgMCwgMCwgMC4xKScsCiAgICAgICAgfSwKICAgICAgICAnLnRleHQtc2hhZG93LWxnJzogewogICAgICAgICAgdGV4dFNoYWRvdzogJzRweCA0cHggOHB4IHJnYmEoMCwgMCwgMCwgMC4yKScsCiAgICAgICAgfSwKICAgICAgfSkKCiAgICAgIC8vIEFkZCBjb21wb25lbnRzCiAgICAgIGFkZENvbXBvbmVudHMoewogICAgICAgICcuY2FyZC1jdXN0b20nOiB7CiAgICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IHRoZW1lKCdjb2xvcnMud2hpdGUnKSwKICAgICAgICAgIGJvcmRlclJhZGl1czogdGhlbWUoJ2JvcmRlclJhZGl1cy5sZycpLAogICAgICAgICAgcGFkZGluZzogdGhlbWUoJ3NwYWNpbmcuNicpLAogICAgICAgICAgYm94U2hhZG93OiB0aGVtZSgnYm94U2hhZG93Lm1kJyksCiAgICAgICAgfSwKICAgICAgfSkKICAgIH0pLAogIF0sCn0KYGBgCgojIyBDb25maWd1cmF0aW9uIEV4YW1wbGVzCgojIyMgQ29tcGxldGUgVGFpbHdpbmQgQ29uZmlnCgpgYGBqYXZhc2NyaXB0Ci8vIHRhaWx3aW5kLmNvbmZpZy50cwppbXBvcnQgdHlwZSB7IENvbmZpZyB9IGZyb20gJ3RhaWx3aW5kY3NzJwoKY29uc3QgY29uZmlnOiBDb25maWcgPSB7CiAgZGFya01vZGU6IFsiY2xhc3MiXSwKICBjb250ZW50OiBbCiAgICAnLi9wYWdlcy8qKi8qLnt0cyx0c3h9JywKICAgICcuL2NvbXBvbmVudHMvKiovKi57dHMsdHN4fScsCiAgICAnLi9hcHAvKiovKi57dHMsdHN4fScsCiAgXSwKICB0aGVtZTogewogICAgY29udGFpbmVyOiB7CiAgICAgIGNlbnRlcjogdHJ1ZSwKICAgICAgcGFkZGluZzogIjJyZW0iLAogICAgICBzY3JlZW5zOiB7CiAgICAgICAgIjJ4bCI6ICIxNDAwcHgiLAogICAgICB9LAogICAgfSwKICAgIGV4dGVuZDogewogICAgICBjb2xvcnM6IHsKICAgICAgICBib3JkZXI6ICJoc2wodmFyKC0tYm9yZGVyKSkiLAogICAgICAgIGlucHV0OiAiaHNsKHZhcigtLWlucHV0KSkiLAogICAgICAgIHJpbmc6ICJoc2wodmFyKC0tcmluZykpIiwKICAgICAgICBiYWNrZ3JvdW5kOiAiaHNsKHZhcigtLWJhY2tncm91bmQpKSIsCiAgICAgICAgZm9yZWdyb3VuZDogImhzbCh2YXIoLS1mb3JlZ3JvdW5kKSkiLAogICAgICAgIHByaW1hcnk6IHsKICAgICAgICAgIERFRkFVTFQ6ICJoc2wodmFyKC0tcHJpbWFyeSkpIiwKICAgICAgICAgIGZvcmVncm91bmQ6ICJoc2wodmFyKC0tcHJpbWFyeS1mb3JlZ3JvdW5kKSkiLAogICAgICAgIH0sCiAgICAgICAgYnJhbmQ6IHsKICAgICAgICAgIDUwOiAnI2YwZjlmZicsCiAgICAgICAgICA1MDA6ICcjM2I4MmY2JywKICAgICAgICAgIDkwMDogJyMxZTNhOGEnLAogICAgICAgIH0sCiAgICAgIH0sCiAgICAgIGZvbnRGYW1pbHk6IHsKICAgICAgICBzYW5zOiBbJ0ludGVyJywgJ3N5c3RlbS11aScsICdzYW5zLXNlcmlmJ10sCiAgICAgICAgZGlzcGxheTogWydQbGF5ZmFpciBEaXNwbGF5JywgJ3NlcmlmJ10sCiAgICAgIH0sCiAgICAgIHNwYWNpbmc6IHsKICAgICAgICAnMTgnOiAnNC41cmVtJywKICAgICAgICAnODgnOiAnMjJyZW0nLAogICAgICAgICcxMjgnOiAnMzJyZW0nLAogICAgICB9LAogICAgICBib3JkZXJSYWRpdXM6IHsKICAgICAgICBsZzogInZhcigtLXJhZGl1cykiLAogICAgICAgIG1kOiAiY2FsYyh2YXIoLS1yYWRpdXMpIC0gMnB4KSIsCiAgICAgICAgc206ICJjYWxjKHZhcigtLXJhZGl1cykgLSA0cHgpIiwKICAgICAgfSwKICAgICAga2V5ZnJhbWVzOiB7CiAgICAgICAgInNsaWRlLWluIjogewogICAgICAgICAgIjAlIjogeyB0cmFuc2Zvcm06ICJ0cmFuc2xhdGVYKC0xMDAlKSIgfSwKICAgICAgICAgICIxMDAlIjogeyB0cmFuc2Zvcm06ICJ0cmFuc2xhdGVYKDApIiB9LAogICAgICAgIH0sCiAgICAgIH0sCiAgICAgIGFuaW1hdGlvbjogewogICAgICAgICJzbGlkZS1pbiI6ICJzbGlkZS1pbiAwLjVzIGVhc2Utb3V0IiwKICAgICAgfSwKICAgIH0sCiAgfSwKICBwbHVnaW5zOiBbcmVxdWlyZSgidGFpbHdpbmRjc3MtYW5pbWF0ZSIpXSwKfQoKZXhwb3J0IGRlZmF1bHQgY29uZmlnCmBgYAoKIyMgRGFyayBNb2RlIENvbmZpZ3VyYXRpb24KCmBgYGphdmFzY3JpcHQKLy8gdGFpbHdpbmQuY29uZmlnLmpzCmV4cG9ydCBkZWZhdWx0IHsKICBkYXJrTW9kZTogWyJjbGFzcyJdLCAgLy8gb3IgIm1lZGlhIiBmb3IgYXV0b21hdGljCiAgLy8gLi4uCn0KYGBgCgoqKlVzYWdlOioqCmBgYGh0bWwKPCEtLSBDbGFzcy1iYXNlZCAtLT4KPGh0bWwgY2xhc3M9ImRhcmsiPgogIDxkaXYgY2xhc3M9ImJnLXdoaXRlIGRhcms6YmctZ3JheS05MDAiPgogICAgUmVzcG9uZHMgdG8gLmRhcmsgY2xhc3MKICA8L2Rpdj4KPC9odG1sPgoKPCEtLSBNZWRpYSBxdWVyeS1iYXNlZCAtLT4KPGRpdiBjbGFzcz0iYmctd2hpdGUgZGFyazpiZy1ncmF5LTkwMCI+CiAgUmVzcG9uZHMgdG8gc3lzdGVtIHByZWZlcmVuY2UgYXV0b21hdGljYWxseQo8L2Rpdj4KYGBgCgojIyBDb250ZW50IENvbmZpZ3VyYXRpb24KClNwZWNpZnkgZmlsZXMgdG8gc2NhbiBmb3IgY2xhc3NlczoKCmBgYGphdmFzY3JpcHQKLy8gdGFpbHdpbmQuY29uZmlnLmpzCmV4cG9ydCBkZWZhdWx0IHsKICBjb250ZW50OiBbCiAgICAiLi9zcmMvKiovKi57anMsanN4LHRzLHRzeH0iLAogICAgIi4vYXBwLyoqLyoue2pzLGpzeCx0cyx0c3h9IiwKICAgICIuL2NvbXBvbmVudHMvKiovKi57anMsanN4LHRzLHRzeH0iLAogICAgIi4vcGFnZXMvKiovKi57anMsanN4LHRzLHRzeH0iLAogIF0sCiAgLy8gLi4uCn0KYGBgCgojIyMgU2FmZWxpc3QKClByZXNlcnZlIGR5bmFtaWMgY2xhc3NlczoKCmBgYGphdmFzY3JpcHQKZXhwb3J0IGRlZmF1bHQgewogIHNhZmVsaXN0OiBbCiAgICAnYmctcmVkLTUwMCcsCiAgICAnYmctZ3JlZW4tNTAwJywKICAgICdiZy1ibHVlLTUwMCcsCiAgICB7CiAgICAgIHBhdHRlcm46IC9iZy0ocmVkfGdyZWVufGJsdWUpLSgxMDB8NTAwfDkwMCkvLAogICAgfSwKICBdLAp9CmBgYAoKIyMgQmVzdCBQcmFjdGljZXMKCjEuICoqVXNlIEB0aGVtZSBmb3Igc2ltcGxlIGN1c3RvbWl6YXRpb25zKio6IFByZWZlciBDU1MtYmFzZWQgY3VzdG9taXphdGlvbgoyLiAqKkV4dHJhY3QgY29tcG9uZW50cyBzcGFyaW5nbHkqKjogVXNlIEBhcHBseSBvbmx5IGZvciB0cnVseSByZXBlYXRlZCBwYXR0ZXJucwozLiAqKkxldmVyYWdlIGRlc2lnbiB0b2tlbnMqKjogRGVmaW5lIGN1c3RvbSB0b2tlbnMgaW4gQHRoZW1lCjQuICoqTGF5ZXIgb3JnYW5pemF0aW9uKio6IEtlZXAgYmFzZSwgY29tcG9uZW50cywgYW5kIHV0aWxpdGllcyBzZXBhcmF0ZQo1LiAqKlBsdWdpbiBmb3IgY29tcGxleCBsb2dpYyoqOiBVc2UgcGx1Z2lucyBmb3IgYWR2YW5jZWQgY3VzdG9taXphdGlvbnMKNi4gKipUZXN0IGRhcmsgbW9kZSoqOiBFbnN1cmUgY3VzdG9tIGNvbG9ycyB3b3JrIGluIGJvdGggdGhlbWVzCjcuICoqRG9jdW1lbnQgY3VzdG9tIHV0aWxpdGllcyoqOiBBZGQgY29tbWVudHMgZXhwbGFpbmluZyBjdXN0b20gY2xhc3Nlcwo4LiAqKlNlbWFudGljIG5hbWluZyoqOiBVc2UgZGVzY3JpcHRpdmUgbmFtZXMgKHByaW1hcnkgbm90IGJsdWUpCg==
+# Tailwind CSS Customization
+
+Config file structure, custom utilities, plugins, and theme extensions.
+
+## @theme Directive
+
+Modern approach to customize Tailwind using CSS:
+
+```css
+@import "tailwindcss";
+
+@theme {
+  /* Custom colors */
+  --color-brand-50: oklch(0.97 0.02 264);
+  --color-brand-500: oklch(0.55 0.22 264);
+  --color-brand-900: oklch(0.25 0.15 264);
+
+  /* Custom fonts */
+  --font-display: "Satoshi", "Inter", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  /* Custom spacing */
+  --spacing-18: calc(var(--spacing) * 18);
+  --spacing-navbar: 4.5rem;
+
+  /* Custom breakpoints */
+  --breakpoint-3xl: 120rem;
+  --breakpoint-tablet: 48rem;
+
+  /* Custom shadows */
+  --shadow-glow: 0 0 20px rgba(139, 92, 246, 0.3);
+
+  /* Custom radius */
+  --radius-large: 1.5rem;
+}
+```
+
+**Usage:**
+```html
+<div class="bg-brand-500 font-display shadow-glow rounded-large">
+  Custom themed element
+</div>
+
+<div class="tablet:grid-cols-2 3xl:grid-cols-6">
+  Custom breakpoints
+</div>
+```
+
+## Color Customization
+
+### Custom Color Palette
+
+```css
+@theme {
+  /* Full color scale */
+  --color-primary-50: oklch(0.98 0.02 250);
+  --color-primary-100: oklch(0.95 0.05 250);
+  --color-primary-200: oklch(0.90 0.10 250);
+  --color-primary-300: oklch(0.85 0.15 250);
+  --color-primary-400: oklch(0.75 0.18 250);
+  --color-primary-500: oklch(0.65 0.22 250);
+  --color-primary-600: oklch(0.55 0.22 250);
+  --color-primary-700: oklch(0.45 0.20 250);
+  --color-primary-800: oklch(0.35 0.18 250);
+  --color-primary-900: oklch(0.25 0.15 250);
+  --color-primary-950: oklch(0.15 0.10 250);
+}
+```
+
+### Semantic Colors
+
+```css
+@theme {
+  --color-success: oklch(0.65 0.18 145);
+  --color-warning: oklch(0.75 0.15 85);
+  --color-error: oklch(0.60 0.22 25);
+  --color-info: oklch(0.65 0.18 240);
+}
+```
+
+```html
+<div class="bg-success text-white">Success message</div>
+<div class="border-error">Error state</div>
+```
+
+## Typography Customization
+
+### Custom Fonts
+
+```css
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Merriweather", Georgia, serif;
+  --font-mono: "JetBrains Mono", Consolas, monospace;
+  --font-display: "Playfair Display", serif;
+}
+```
+
+```html
+<h1 class="font-display">Display heading</h1>
+<p class="font-sans">Body text</p>
+<code class="font-mono">Code block</code>
+```
+
+### Custom Font Sizes
+
+```css
+@theme {
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+  --font-size-jumbo: 4rem;
+}
+```
+
+## Spacing Customization
+
+```css
+@theme {
+  /* Add custom spacing values */
+  --spacing-13: calc(var(--spacing) * 13);
+  --spacing-15: calc(var(--spacing) * 15);
+  --spacing-18: calc(var(--spacing) * 18);
+
+  /* Named spacing */
+  --spacing-header: 4rem;
+  --spacing-footer: 3rem;
+  --spacing-section: 6rem;
+}
+```
+
+```html
+<div class="p-18">Custom padding</div>
+<section class="py-section">Section spacing</section>
+```
+
+## Custom Utilities
+
+Create reusable utility classes:
+
+```css
+@utility content-auto {
+  content-visibility: auto;
+}
+
+@utility tab-* {
+  tab-size: var(--tab-size-*);
+}
+
+@utility glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+```
+
+**Usage:**
+```html
+<div class="content-auto">Optimized rendering</div>
+<pre class="tab-4">Code with 4-space tabs</pre>
+<div class="glass">Glassmorphism effect</div>
+```
+
+## Custom Variants
+
+Create custom state variants:
+
+```css
+@custom-variant theme-midnight (&:where([data-theme="midnight"] *));
+@custom-variant aria-checked (&[aria-checked="true"]);
+@custom-variant required (&:required);
+```
+
+**Usage:**
+```html
+<div data-theme="midnight">
+  <div class="theme-midnight:bg-navy-900">
+    Applies in midnight theme
+  </div>
+</div>
+
+<input class="required:border-red-500" required />
+```
+
+## Layer Organization
+
+Organize CSS into layers:
+
+```css
+@layer base {
+  h1 {
+    @apply text-4xl font-bold tracking-tight;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold;
+  }
+
+  a {
+    @apply text-blue-600 hover:text-blue-700 underline-offset-4 hover:underline;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors;
+  }
+
+  .btn-primary {
+    @apply bg-blue-600 text-white hover:bg-blue-700;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-900 hover:bg-gray-300;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow;
+  }
+
+  .input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+```
+
+## @apply Directive
+
+Extract repeated utility patterns:
+
+```css
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-4 focus:ring-blue-300;
+}
+
+.input-field {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100 disabled:cursor-not-allowed;
+}
+
+.section-container {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+}
+```
+
+**Usage:**
+```html
+<button class="btn-primary">Click me</button>
+<input class="input-field" />
+<div class="section-container">Content</div>
+```
+
+## Plugins
+
+### Official Plugins
+
+```bash
+npm install -D @tailwindcss/typography @tailwindcss/forms @tailwindcss/container-queries
+```
+
+```javascript
+// tailwind.config.js
+export default {
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/container-queries'),
+  ],
+}
+```
+
+**Typography plugin:**
+```html
+<article class="prose lg:prose-xl">
+  <h1>Styled article</h1>
+  <p>Automatically styled prose content</p>
+</article>
+```
+
+**Forms plugin:**
+```html
+<!-- Automatically styled form elements -->
+<input type="text" />
+<select></select>
+<textarea></textarea>
+```
+
+### Custom Plugin
+
+```javascript
+// tailwind.config.js
+const plugin = require('tailwindcss/plugin')
+
+export default {
+  plugins: [
+    plugin(function({ addUtilities, addComponents, theme }) {
+      // Add utilities
+      addUtilities({
+        '.text-shadow': {
+          textShadow: '2px 2px 4px rgba(0, 0, 0, 0.1)',
+        },
+        '.text-shadow-lg': {
+          textShadow: '4px 4px 8px rgba(0, 0, 0, 0.2)',
+        },
+      })
+
+      // Add components
+      addComponents({
+        '.card-custom': {
+          backgroundColor: theme('colors.white'),
+          borderRadius: theme('borderRadius.lg'),
+          padding: theme('spacing.6'),
+          boxShadow: theme('boxShadow.md'),
+        },
+      })
+    }),
+  ],
+}
+```
+
+## Configuration Examples
+
+### Complete Tailwind Config
+
+```javascript
+// tailwind.config.ts
+import type { Config } from 'tailwindcss'
+
+const config: Config = {
+  darkMode: ["class"],
+  content: [
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+  ],
+  theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
+    extend: {
+      colors: {
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        brand: {
+          50: '#f0f9ff',
+          500: '#3b82f6',
+          900: '#1e3a8a',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        display: ['Playfair Display', 'serif'],
+      },
+      spacing: {
+        '18': '4.5rem',
+        '88': '22rem',
+        '128': '32rem',
+      },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        "slide-in": {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        "slide-in": "slide-in 0.5s ease-out",
+      },
+    },
+  },
+  plugins: [require("tailwindcss-animate")],
+}
+
+export default config
+```
+
+## Dark Mode Configuration
+
+```javascript
+// tailwind.config.js
+export default {
+  darkMode: ["class"],  // or "media" for automatic
+  // ...
+}
+```
+
+**Usage:**
+```html
+<!-- Class-based -->
+<html class="dark">
+  <div class="bg-white dark:bg-gray-900">
+    Responds to .dark class
+  </div>
+</html>
+
+<!-- Media query-based -->
+<div class="bg-white dark:bg-gray-900">
+  Responds to system preference automatically
+</div>
+```
+
+## Content Configuration
+
+Specify files to scan for classes:
+
+```javascript
+// tailwind.config.js
+export default {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./app/**/*.{js,jsx,ts,tsx}",
+    "./components/**/*.{js,jsx,ts,tsx}",
+    "./pages/**/*.{js,jsx,ts,tsx}",
+  ],
+  // ...
+}
+```
+
+### Safelist
+
+Preserve dynamic classes:
+
+```javascript
+export default {
+  safelist: [
+    'bg-red-500',
+    'bg-green-500',
+    'bg-blue-500',
+    {
+      pattern: /bg-(red|green|blue)-(100|500|900)/,
+    },
+  ],
+}
+```
+
+## Best Practices
+
+1. **Use @theme for simple customizations**: Prefer CSS-based customization
+2. **Extract components sparingly**: Use @apply only for truly repeated patterns
+3. **Leverage design tokens**: Define custom tokens in @theme
+4. **Layer organization**: Keep base, components, and utilities separate
+5. **Plugin for complex logic**: Use plugins for advanced customizations
+6. **Test dark mode**: Ensure custom colors work in both themes
+7. **Document custom utilities**: Add comments explaining custom classes
+8. **Semantic naming**: Use descriptive names (primary not blue)

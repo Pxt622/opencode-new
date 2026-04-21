@@ -1,1 +1,455 @@
-IyBUYWlsd2luZCBDU1MgVXRpbGl0eSBSZWZlcmVuY2UKCkNvcmUgdXRpbGl0eSBjbGFzc2VzIGZvciBsYXlvdXQsIHNwYWNpbmcsIHR5cG9ncmFwaHksIGNvbG9ycywgYm9yZGVycywgYW5kIHNoYWRvd3MuCgojIyBMYXlvdXQgVXRpbGl0aWVzCgojIyMgRGlzcGxheQoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJibG9jayI+QmxvY2s8L2Rpdj4KPGRpdiBjbGFzcz0iaW5saW5lLWJsb2NrIj5JbmxpbmUgQmxvY2s8L2Rpdj4KPGRpdiBjbGFzcz0iaW5saW5lIj5JbmxpbmU8L2Rpdj4KPGRpdiBjbGFzcz0iZmxleCI+RmxleGJveDwvZGl2Pgo8ZGl2IGNsYXNzPSJpbmxpbmUtZmxleCI+SW5saW5lIEZsZXg8L2Rpdj4KPGRpdiBjbGFzcz0iZ3JpZCI+R3JpZDwvZGl2Pgo8ZGl2IGNsYXNzPSJpbmxpbmUtZ3JpZCI+SW5saW5lIEdyaWQ8L2Rpdj4KPGRpdiBjbGFzcz0iaGlkZGVuIj5IaWRkZW48L2Rpdj4KYGBgCgojIyMgRmxleGJveAoKKipDb250YWluZXI6KioKYGBgaHRtbAo8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtcm93Ij5Sb3cgKGRlZmF1bHQpPC9kaXY+CjxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wiPkNvbHVtbjwvZGl2Pgo8ZGl2IGNsYXNzPSJmbGV4IGZsZXgtcm93LXJldmVyc2UiPlJldmVyc2Ugcm93PC9kaXY+CjxkaXYgY2xhc3M9ImZsZXggZmxleC1jb2wtcmV2ZXJzZSI+UmV2ZXJzZSBjb2x1bW48L2Rpdj4KYGBgCgoqKkp1c3RpZnkgKG1haW4gYXhpcyk6KioKYGBgaHRtbAo8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktc3RhcnQiPlN0YXJ0PC9kaXY+CjxkaXYgY2xhc3M9ImZsZXgganVzdGlmeS1jZW50ZXIiPkNlbnRlcjwvZGl2Pgo8ZGl2IGNsYXNzPSJmbGV4IGp1c3RpZnktZW5kIj5FbmQ8L2Rpdj4KPGRpdiBjbGFzcz0iZmxleCBqdXN0aWZ5LWJldHdlZW4iPlNwYWNlIGJldHdlZW48L2Rpdj4KPGRpdiBjbGFzcz0iZmxleCBqdXN0aWZ5LWFyb3VuZCI+U3BhY2UgYXJvdW5kPC9kaXY+CjxkaXYgY2xhc3M9ImZsZXgganVzdGlmeS1ldmVubHkiPlNwYWNlIGV2ZW5seTwvZGl2PgpgYGAKCioqQWxpZ24gKGNyb3NzIGF4aXMpOioqCmBgYGh0bWwKPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1zdGFydCI+U3RhcnQ8L2Rpdj4KPGRpdiBjbGFzcz0iZmxleCBpdGVtcy1jZW50ZXIiPkNlbnRlcjwvZGl2Pgo8ZGl2IGNsYXNzPSJmbGV4IGl0ZW1zLWVuZCI+RW5kPC9kaXY+CjxkaXYgY2xhc3M9ImZsZXggaXRlbXMtYmFzZWxpbmUiPkJhc2VsaW5lPC9kaXY+CjxkaXYgY2xhc3M9ImZsZXggaXRlbXMtc3RyZXRjaCI+U3RyZXRjaDwvZGl2PgpgYGAKCioqR2FwOioqCmBgYGh0bWwKPGRpdiBjbGFzcz0iZmxleCBnYXAtNCI+QWxsIHNpZGVzPC9kaXY+CjxkaXYgY2xhc3M9ImZsZXggZ2FwLXgtNiBnYXAteS0yIj5YIGFuZCBZPC9kaXY+CmBgYAoKKipXcmFwOioqCmBgYGh0bWwKPGRpdiBjbGFzcz0iZmxleCBmbGV4LXdyYXAiPldyYXA8L2Rpdj4KPGRpdiBjbGFzcz0iZmxleCBmbGV4LW5vd3JhcCI+Tm8gd3JhcDwvZGl2PgpgYGAKCiMjIyBHcmlkCgoqKkNvbHVtbnM6KioKYGBgaHRtbAo8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0xIj4xIGNvbHVtbjwvZGl2Pgo8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0yIj4yIGNvbHVtbnM8L2Rpdj4KPGRpdiBjbGFzcz0iZ3JpZCBncmlkLWNvbHMtMyI+MyBjb2x1bW5zPC9kaXY+CjxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1jb2xzLTQiPjQgY29sdW1uczwvZGl2Pgo8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy0xMiI+MTIgY29sdW1uczwvZGl2Pgo8ZGl2IGNsYXNzPSJncmlkIGdyaWQtY29scy1bMWZyXzUwMHB4XzJmcl0iPkN1c3RvbTwvZGl2PgpgYGAKCioqUm93czoqKgpgYGBodG1sCjxkaXYgY2xhc3M9ImdyaWQgZ3JpZC1yb3dzLTMiPjMgcm93czwvZGl2Pgo8ZGl2IGNsYXNzPSJncmlkIGdyaWQtcm93cy1bYXV0b18xZnJfYXV0b10iPkN1c3RvbTwvZGl2PgpgYGAKCioqU3BhbjoqKgpgYGBodG1sCjxkaXYgY2xhc3M9ImNvbC1zcGFuLTIiPlNwYW4gMiBjb2x1bW5zPC9kaXY+CjxkaXYgY2xhc3M9InJvdy1zcGFuLTMiPlNwYW4gMyByb3dzPC9kaXY+CmBgYAoKKipHYXA6KioKYGBgaHRtbAo8ZGl2IGNsYXNzPSJncmlkIGdhcC00Ij5BbGwgc2lkZXM8L2Rpdj4KPGRpdiBjbGFzcz0iZ3JpZCBnYXAteC04IGdhcC15LTQiPlggYW5kIFk8L2Rpdj4KYGBgCgojIyMgUG9zaXRpb25pbmcKCmBgYGh0bWwKPGRpdiBjbGFzcz0ic3RhdGljIj5TdGF0aWMgKGRlZmF1bHQpPC9kaXY+CjxkaXYgY2xhc3M9InJlbGF0aXZlIj5SZWxhdGl2ZTwvZGl2Pgo8ZGl2IGNsYXNzPSJhYnNvbHV0ZSI+QWJzb2x1dGU8L2Rpdj4KPGRpdiBjbGFzcz0iZml4ZWQiPkZpeGVkPC9kaXY+CjxkaXYgY2xhc3M9InN0aWNreSI+U3RpY2t5PC9kaXY+Cgo8IS0tIFBvc2l0aW9uIHZhbHVlcyAtLT4KPGRpdiBjbGFzcz0iYWJzb2x1dGUgdG9wLTAgcmlnaHQtMCI+VG9wIHJpZ2h0PC9kaXY+CjxkaXYgY2xhc3M9ImFic29sdXRlIGluc2V0LTAiPkFsbCBzaWRlcyAwPC9kaXY+CjxkaXYgY2xhc3M9ImFic29sdXRlIGluc2V0LXgtNCI+TGVmdC9yaWdodCA0PC9kaXY+CjxkaXYgY2xhc3M9ImFic29sdXRlIGluc2V0LXktOCI+VG9wL2JvdHRvbSA4PC9kaXY+CmBgYAoKIyMjIFotSW5kZXgKCmBgYGh0bWwKPGRpdiBjbGFzcz0iei0wIj56LWluZGV4OiAwPC9kaXY+CjxkaXYgY2xhc3M9InotMTAiPnotaW5kZXg6IDEwPC9kaXY+CjxkaXYgY2xhc3M9InotMjAiPnotaW5kZXg6IDIwPC9kaXY+CjxkaXYgY2xhc3M9InotNTAiPnotaW5kZXg6IDUwPC9kaXY+CmBgYAoKIyMgU3BhY2luZyBVdGlsaXRpZXMKCiMjIyBQYWRkaW5nCgpgYGBodG1sCjxkaXYgY2xhc3M9InAtNCI+QWxsIHNpZGVzPC9kaXY+CjxkaXYgY2xhc3M9InB4LTYiPkxlZnQgYW5kIHJpZ2h0PC9kaXY+CjxkaXYgY2xhc3M9InB5LTMiPlRvcCBhbmQgYm90dG9tPC9kaXY+CjxkaXYgY2xhc3M9InB0LTgiPlRvcDwvZGl2Pgo8ZGl2IGNsYXNzPSJwci00Ij5SaWdodDwvZGl2Pgo8ZGl2IGNsYXNzPSJwYi0yIj5Cb3R0b208L2Rpdj4KPGRpdiBjbGFzcz0icGwtNiI+TGVmdDwvZGl2PgpgYGAKCiMjIyBNYXJnaW4KCmBgYGh0bWwKPGRpdiBjbGFzcz0ibS00Ij5BbGwgc2lkZXM8L2Rpdj4KPGRpdiBjbGFzcz0ibXgtYXV0byI+Q2VudGVyIGhvcml6b250YWxseTwvZGl2Pgo8ZGl2IGNsYXNzPSJteS02Ij5Ub3AgYW5kIGJvdHRvbTwvZGl2Pgo8ZGl2IGNsYXNzPSJtdC04Ij5Ub3A8L2Rpdj4KPGRpdiBjbGFzcz0iLW10LTQiPk5lZ2F0aXZlIHRvcDwvZGl2Pgo8ZGl2IGNsYXNzPSJtbC1hdXRvIj5QdXNoIHRvIHJpZ2h0PC9kaXY+CmBgYAoKIyMjIFNwYWNlIEJldHdlZW4KCmBgYGh0bWwKPGRpdiBjbGFzcz0ic3BhY2UteC00Ij5Ib3Jpem9udGFsIHNwYWNpbmc8L2Rpdj4KPGRpdiBjbGFzcz0ic3BhY2UteS02Ij5WZXJ0aWNhbCBzcGFjaW5nPC9kaXY+CmBgYAoKIyMjIFNwYWNpbmcgU2NhbGUKCi0gYDBgOiAwcHgKLSBgcHhgOiAxcHgKLSBgMC41YDogMC4xMjVyZW0gKDJweCkKLSBgMWA6IDAuMjVyZW0gKDRweCkKLSBgMmA6IDAuNXJlbSAoOHB4KQotIGAzYDogMC43NXJlbSAoMTJweCkKLSBgNGA6IDFyZW0gKDE2cHgpCi0gYDZgOiAxLjVyZW0gKDI0cHgpCi0gYDhgOiAycmVtICgzMnB4KQotIGAxMmA6IDNyZW0gKDQ4cHgpCi0gYDE2YDogNHJlbSAoNjRweCkKLSBgMjRgOiA2cmVtICg5NnB4KQoKIyMgVHlwb2dyYXBoeQoKIyMjIEZvbnQgU2l6ZQoKYGBgaHRtbAo8cCBjbGFzcz0idGV4dC14cyI+RXh0cmEgc21hbGwgKDEycHgpPC9wPgo8cCBjbGFzcz0idGV4dC1zbSI+U21hbGwgKDE0cHgpPC9wPgo8cCBjbGFzcz0idGV4dC1iYXNlIj5CYXNlICgxNnB4KTwvcD4KPHAgY2xhc3M9InRleHQtbGciPkxhcmdlICgxOHB4KTwvcD4KPHAgY2xhc3M9InRleHQteGwiPlhMICgyMHB4KTwvcD4KPHAgY2xhc3M9InRleHQtMnhsIj4yWEwgKDI0cHgpPC9wPgo8cCBjbGFzcz0idGV4dC0zeGwiPjNYTCAoMzBweCk8L3A+CjxwIGNsYXNzPSJ0ZXh0LTR4bCI+NFhMICgzNnB4KTwvcD4KPHAgY2xhc3M9InRleHQtNXhsIj41WEwgKDQ4cHgpPC9wPgpgYGAKCiMjIyBGb250IFdlaWdodAoKYGBgaHRtbAo8cCBjbGFzcz0iZm9udC10aGluIj5UaGluICgxMDApPC9wPgo8cCBjbGFzcz0iZm9udC1saWdodCI+TGlnaHQgKDMwMCk8L3A+CjxwIGNsYXNzPSJmb250LW5vcm1hbCI+Tm9ybWFsICg0MDApPC9wPgo8cCBjbGFzcz0iZm9udC1tZWRpdW0iPk1lZGl1bSAoNTAwKTwvcD4KPHAgY2xhc3M9ImZvbnQtc2VtaWJvbGQiPlNlbWlib2xkICg2MDApPC9wPgo8cCBjbGFzcz0iZm9udC1ib2xkIj5Cb2xkICg3MDApPC9wPgo8cCBjbGFzcz0iZm9udC1ibGFjayI+QmxhY2sgKDkwMCk8L3A+CmBgYAoKIyMjIFRleHQgQWxpZ25tZW50CgpgYGBodG1sCjxwIGNsYXNzPSJ0ZXh0LWxlZnQiPkxlZnQ8L3A+CjxwIGNsYXNzPSJ0ZXh0LWNlbnRlciI+Q2VudGVyPC9wPgo8cCBjbGFzcz0idGV4dC1yaWdodCI+UmlnaHQ8L3A+CjxwIGNsYXNzPSJ0ZXh0LWp1c3RpZnkiPkp1c3RpZnk8L3A+CmBgYAoKIyMjIExpbmUgSGVpZ2h0CgpgYGBodG1sCjxwIGNsYXNzPSJsZWFkaW5nLW5vbmUiPjE8L3A+CjxwIGNsYXNzPSJsZWFkaW5nLXRpZ2h0Ij4xLjI1PC9wPgo8cCBjbGFzcz0ibGVhZGluZy1ub3JtYWwiPjEuNTwvcD4KPHAgY2xhc3M9ImxlYWRpbmctcmVsYXhlZCI+MS43NTwvcD4KPHAgY2xhc3M9ImxlYWRpbmctbG9vc2UiPjI8L3A+CmBgYAoKIyMjIENvbWJpbmVkIEZvbnQgVXRpbGl0aWVzCgpgYGBodG1sCjxoMSBjbGFzcz0idGV4dC00eGwvdGlnaHQgZm9udC1ib2xkIj4KICBGb250IHNpemUgNHhsIHdpdGggdGlnaHQgbGluZSBoZWlnaHQKPC9oMT4KYGBgCgojIyMgVGV4dCBUcmFuc2Zvcm0KCmBgYGh0bWwKPHAgY2xhc3M9InVwcGVyY2FzZSI+VVBQRVJDQVNFPC9wPgo8cCBjbGFzcz0ibG93ZXJjYXNlIj5sb3dlcmNhc2U8L3A+CjxwIGNsYXNzPSJjYXBpdGFsaXplIj5DYXBpdGFsaXplPC9wPgo8cCBjbGFzcz0ibm9ybWFsLWNhc2UiPk5vcm1hbDwvcD4KYGBgCgojIyMgVGV4dCBEZWNvcmF0aW9uCgpgYGBodG1sCjxwIGNsYXNzPSJ1bmRlcmxpbmUiPlVuZGVybGluZTwvcD4KPHAgY2xhc3M9ImxpbmUtdGhyb3VnaCI+TGluZSB0aHJvdWdoPC9wPgo8cCBjbGFzcz0ibm8tdW5kZXJsaW5lIj5ObyB1bmRlcmxpbmU8L3A+CmBgYAoKIyMjIFRleHQgT3ZlcmZsb3cKCmBgYGh0bWwKPHAgY2xhc3M9InRydW5jYXRlIj5UcnVuY2F0ZSB3aXRoIGVsbGlwc2lzLi4uPC9wPgo8cCBjbGFzcz0ibGluZS1jbGFtcC0zIj5DbGFtcCB0byAzIGxpbmVzLi4uPC9wPgo8cCBjbGFzcz0idGV4dC1lbGxpcHNpcyBvdmVyZmxvdy1oaWRkZW4iPkVsbGlwc2lzPC9wPgpgYGAKCiMjIENvbG9ycwoKIyMjIFRleHQgQ29sb3JzCgpgYGBodG1sCjxwIGNsYXNzPSJ0ZXh0LWJsYWNrIj5CbGFjazwvcD4KPHAgY2xhc3M9InRleHQtd2hpdGUiPldoaXRlPC9wPgo8cCBjbGFzcz0idGV4dC1ncmF5LTUwMCI+R3JheSA1MDA8L3A+CjxwIGNsYXNzPSJ0ZXh0LXJlZC02MDAiPlJlZCA2MDA8L3A+CjxwIGNsYXNzPSJ0ZXh0LWJsdWUtNTAwIj5CbHVlIDUwMDwvcD4KPHAgY2xhc3M9InRleHQtZ3JlZW4tNjAwIj5HcmVlbiA2MDA8L3A+CmBgYAoKIyMjIEJhY2tncm91bmQgQ29sb3JzCgpgYGBodG1sCjxkaXYgY2xhc3M9ImJnLXdoaXRlIj5XaGl0ZTwvZGl2Pgo8ZGl2IGNsYXNzPSJiZy1ncmF5LTEwMCI+R3JheSAxMDA8L2Rpdj4KPGRpdiBjbGFzcz0iYmctYmx1ZS01MDAiPkJsdWUgNTAwPC9kaXY+CjxkaXYgY2xhc3M9ImJnLXJlZC02MDAiPlJlZCA2MDA8L2Rpdj4KYGBgCgojIyMgQ29sb3IgU2NhbGUKCkVhY2ggY29sb3IgaGFzIDExIHNoYWRlcyAoNTAtOTUwKToKLSBgNTBgOiBMaWdodGVzdAotIGAxMDAtNDAwYDogTGlnaHQgdmFyaWF0aW9ucwotIGA1MDBgOiBCYXNlIGNvbG9yCi0gYDYwMC04MDBgOiBEYXJrIHZhcmlhdGlvbnMKLSBgOTUwYDogRGFya2VzdAoKIyMjIE9wYWNpdHkgTW9kaWZpZXJzCgpgYGBodG1sCjxkaXYgY2xhc3M9ImJnLWJsYWNrLzc1Ij43NSUgb3BhY2l0eTwvZGl2Pgo8ZGl2IGNsYXNzPSJ0ZXh0LWJsdWUtNTAwLzMwIj4zMCUgb3BhY2l0eTwvZGl2Pgo8ZGl2IGNsYXNzPSJiZy1wdXJwbGUtNTAwL1swLjg3XSI+ODclIG9wYWNpdHk8L2Rpdj4KYGBgCgojIyMgR3JhZGllbnRzCgpgYGBodG1sCjxkaXYgY2xhc3M9ImJnLWdyYWRpZW50LXRvLXIgZnJvbS1ibHVlLTUwMCB0by1wdXJwbGUtNjAwIj4KICBMZWZ0IHRvIHJpZ2h0IGdyYWRpZW50CjwvZGl2Pgo8ZGl2IGNsYXNzPSJiZy1ncmFkaWVudC10by1iciBmcm9tLXBpbmstNTAwIHZpYS1yZWQtNTAwIHRvLXllbGxvdy01MDAiPgogIFdpdGggdmlhIGNvbG9yCjwvZGl2PgpgYGAKCkRpcmVjdGlvbnM6IGB0by10IHwgdG8tdHIgfCB0by1yIHwgdG8tYnIgfCB0by1iIHwgdG8tYmwgfCB0by1sIHwgdG8tdGxgCgojIyBCb3JkZXJzCgojIyMgQm9yZGVyIFdpZHRoCgpgYGBodG1sCjxkaXYgY2xhc3M9ImJvcmRlciI+MXB4IGFsbCBzaWRlczwvZGl2Pgo8ZGl2IGNsYXNzPSJib3JkZXItMiI+MnB4IGFsbCBzaWRlczwvZGl2Pgo8ZGl2IGNsYXNzPSJib3JkZXItdCI+VG9wIG9ubHk8L2Rpdj4KPGRpdiBjbGFzcz0iYm9yZGVyLXItNCI+UmlnaHQgNHB4PC9kaXY+CjxkaXYgY2xhc3M9ImJvcmRlci1iLTIiPkJvdHRvbSAycHg8L2Rpdj4KPGRpdiBjbGFzcz0iYm9yZGVyLWwiPkxlZnQgb25seTwvZGl2Pgo8ZGl2IGNsYXNzPSJib3JkZXItMCI+Tm8gYm9yZGVyPC9kaXY+CmBgYAoKIyMjIEJvcmRlciBDb2xvcgoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJib3JkZXIgYm9yZGVyLWdyYXktMzAwIj5HcmF5PC9kaXY+CjxkaXYgY2xhc3M9ImJvcmRlci0yIGJvcmRlci1ibHVlLTUwMCI+Qmx1ZTwvZGl2Pgo8ZGl2IGNsYXNzPSJib3JkZXIgYm9yZGVyLXJlZC02MDAvNTAiPlJlZCB3aXRoIG9wYWNpdHk8L2Rpdj4KYGBgCgojIyMgQm9yZGVyIFJhZGl1cwoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJyb3VuZGVkIj4wLjI1cmVtPC9kaXY+CjxkaXYgY2xhc3M9InJvdW5kZWQtbWQiPjAuMzc1cmVtPC9kaXY+CjxkaXYgY2xhc3M9InJvdW5kZWQtbGciPjAuNXJlbTwvZGl2Pgo8ZGl2IGNsYXNzPSJyb3VuZGVkLXhsIj4wLjc1cmVtPC9kaXY+CjxkaXYgY2xhc3M9InJvdW5kZWQtMnhsIj4xcmVtPC9kaXY+CjxkaXYgY2xhc3M9InJvdW5kZWQtZnVsbCI+OTk5OXB4PC9kaXY+Cgo8IS0tIEluZGl2aWR1YWwgY29ybmVycyAtLT4KPGRpdiBjbGFzcz0icm91bmRlZC10LWxnIj5Ub3AgY29ybmVyczwvZGl2Pgo8ZGl2IGNsYXNzPSJyb3VuZGVkLWJyLXhsIj5Cb3R0b20gcmlnaHQ8L2Rpdj4KYGBgCgojIyMgQm9yZGVyIFN0eWxlCgpgYGBodG1sCjxkaXYgY2xhc3M9ImJvcmRlciBib3JkZXItc29saWQiPlNvbGlkPC9kaXY+CjxkaXYgY2xhc3M9ImJvcmRlci0yIGJvcmRlci1kYXNoZWQiPkRhc2hlZDwvZGl2Pgo8ZGl2IGNsYXNzPSJib3JkZXIgYm9yZGVyLWRvdHRlZCI+RG90dGVkPC9kaXY+CmBgYAoKIyMgU2hhZG93cwoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJzaGFkb3ctc20iPlNtYWxsPC9kaXY+CjxkaXYgY2xhc3M9InNoYWRvdyI+RGVmYXVsdDwvZGl2Pgo8ZGl2IGNsYXNzPSJzaGFkb3ctbWQiPk1lZGl1bTwvZGl2Pgo8ZGl2IGNsYXNzPSJzaGFkb3ctbGciPkxhcmdlPC9kaXY+CjxkaXYgY2xhc3M9InNoYWRvdy14bCI+RXh0cmEgbGFyZ2U8L2Rpdj4KPGRpdiBjbGFzcz0ic2hhZG93LTJ4bCI+MlhMPC9kaXY+CjxkaXYgY2xhc3M9InNoYWRvdy1ub25lIj5ObyBzaGFkb3c8L2Rpdj4KYGBgCgojIyMgQ29sb3JlZCBTaGFkb3dzCgpgYGBodG1sCjxkaXYgY2xhc3M9InNoYWRvdy1sZyBzaGFkb3ctYmx1ZS01MDAvNTAiPkJsdWUgc2hhZG93PC9kaXY+CmBgYAoKIyMgV2lkdGggJiBIZWlnaHQKCiMjIyBXaWR0aAoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJ3LWZ1bGwiPjEwMCU8L2Rpdj4KPGRpdiBjbGFzcz0idy0xLzIiPjUwJTwvZGl2Pgo8ZGl2IGNsYXNzPSJ3LTEvMyI+MzMuMzMzJTwvZGl2Pgo8ZGl2IGNsYXNzPSJ3LTY0Ij4xNnJlbTwvZGl2Pgo8ZGl2IGNsYXNzPSJ3LVs1MDBweF0iPjUwMHB4PC9kaXY+CjxkaXYgY2xhc3M9Inctc2NyZWVuIj4xMDB2dzwvZGl2PgoKPCEtLSBNaW4vTWF4IHdpZHRoIC0tPgo8ZGl2IGNsYXNzPSJtaW4tdy0wIj5taW4td2lkdGg6IDA8L2Rpdj4KPGRpdiBjbGFzcz0ibWF4LXctbWQiPm1heC13aWR0aDogMjhyZW08L2Rpdj4KPGRpdiBjbGFzcz0ibWF4LXctc2NyZWVuLXhsIj5tYXgtd2lkdGg6IDEyODBweDwvZGl2PgpgYGAKCiMjIyBIZWlnaHQKCmBgYGh0bWwKPGRpdiBjbGFzcz0iaC1mdWxsIj4xMDAlPC9kaXY+CjxkaXYgY2xhc3M9Imgtc2NyZWVuIj4xMDB2aDwvZGl2Pgo8ZGl2IGNsYXNzPSJoLTY0Ij4xNnJlbTwvZGl2Pgo8ZGl2IGNsYXNzPSJoLVs1MDBweF0iPjUwMHB4PC9kaXY+Cgo8IS0tIE1pbi9NYXggaGVpZ2h0IC0tPgo8ZGl2IGNsYXNzPSJtaW4taC1zY3JlZW4iPm1pbi1oZWlnaHQ6IDEwMHZoPC9kaXY+CjxkaXYgY2xhc3M9Im1heC1oLTk2Ij5tYXgtaGVpZ2h0OiAyNHJlbTwvZGl2PgpgYGAKCiMjIEFyYml0cmFyeSBWYWx1ZXMKClVzZSBzcXVhcmUgYnJhY2tldHMgZm9yIGN1c3RvbSB2YWx1ZXM6CgpgYGBodG1sCjwhLS0gU3BhY2luZyAtLT4KPGRpdiBjbGFzcz0icC1bMTdweF0iPkN1c3RvbSBwYWRkaW5nPC9kaXY+CjxkaXYgY2xhc3M9InRvcC1bMTE3cHhdIj5DdXN0b20gcG9zaXRpb248L2Rpdj4KCjwhLS0gQ29sb3JzIC0tPgo8ZGl2IGNsYXNzPSJiZy1bI2JhZGE1NV0iPkhleCBjb2xvcjwvZGl2Pgo8ZGl2IGNsYXNzPSJ0ZXh0LVtyZ2IoMTIzLDQ1LDY3KV0iPlJHQjwvZGl2PgoKPCEtLSBTaXplcyAtLT4KPGRpdiBjbGFzcz0idy1bNTAwcHhdIj5DdXN0b20gd2lkdGg8L2Rpdj4KPGRpdiBjbGFzcz0idGV4dC1bMjJweF0iPkN1c3RvbSBmb250IHNpemU8L2Rpdj4KCjwhLS0gQ1NTIHZhcmlhYmxlcyAtLT4KPGRpdiBjbGFzcz0iYmctW3ZhcigtLWJyYW5kLWNvbG9yKV0iPkNTUyB2YXI8L2Rpdj4KCjwhLS0gQ29tcGxleCB2YWx1ZXMgLS0+CjxkaXYgY2xhc3M9ImdyaWQtY29scy1bMWZyXzUwMHB4XzJmcl0iPkN1c3RvbSBncmlkPC9kaXY+CmBgYAoKIyMgQXNwZWN0IFJhdGlvCgpgYGBodG1sCjxkaXYgY2xhc3M9ImFzcGVjdC1zcXVhcmUiPjE6MTwvZGl2Pgo8ZGl2IGNsYXNzPSJhc3BlY3QtdmlkZW8iPjE2Ojk8L2Rpdj4KPGRpdiBjbGFzcz0iYXNwZWN0LVs0LzNdIj40OjM8L2Rpdj4KYGBgCgojIyBPdmVyZmxvdwoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJvdmVyZmxvdy1hdXRvIj5BdXRvIHNjcm9sbDwvZGl2Pgo8ZGl2IGNsYXNzPSJvdmVyZmxvdy1oaWRkZW4iPkhpZGRlbjwvZGl2Pgo8ZGl2IGNsYXNzPSJvdmVyZmxvdy1zY3JvbGwiPkFsd2F5cyBzY3JvbGw8L2Rpdj4KPGRpdiBjbGFzcz0ib3ZlcmZsb3cteC1hdXRvIj5Ib3Jpem9udGFsIHNjcm9sbDwvZGl2Pgo8ZGl2IGNsYXNzPSJvdmVyZmxvdy15LWhpZGRlbiI+Tm8gdmVydGljYWwgc2Nyb2xsPC9kaXY+CmBgYAoKIyMgT3BhY2l0eQoKYGBgaHRtbAo8ZGl2IGNsYXNzPSJvcGFjaXR5LTAiPjAlPC9kaXY+CjxkaXYgY2xhc3M9Im9wYWNpdHktNTAiPjUwJTwvZGl2Pgo8ZGl2IGNsYXNzPSJvcGFjaXR5LTc1Ij43NSU8L2Rpdj4KPGRpdiBjbGFzcz0ib3BhY2l0eS0xMDAiPjEwMCU8L2Rpdj4KYGBgCgojIyBDdXJzb3IKCmBgYGh0bWwKPGRpdiBjbGFzcz0iY3Vyc29yLXBvaW50ZXIiPlBvaW50ZXI8L2Rpdj4KPGRpdiBjbGFzcz0iY3Vyc29yLXdhaXQiPldhaXQ8L2Rpdj4KPGRpdiBjbGFzcz0iY3Vyc29yLW5vdC1hbGxvd2VkIj5Ob3QgYWxsb3dlZDwvZGl2Pgo8ZGl2IGNsYXNzPSJjdXJzb3ItZGVmYXVsdCI+RGVmYXVsdDwvZGl2PgpgYGAKCiMjIFVzZXIgU2VsZWN0CgpgYGBodG1sCjxkaXYgY2xhc3M9InNlbGVjdC1ub25lIj5ObyBzZWxlY3Q8L2Rpdj4KPGRpdiBjbGFzcz0ic2VsZWN0LXRleHQiPlRleHQgc2VsZWN0YWJsZTwvZGl2Pgo8ZGl2IGNsYXNzPSJzZWxlY3QtYWxsIj5TZWxlY3QgYWxsPC9kaXY+CmBgYAo=
+# Tailwind CSS Utility Reference
+
+Core utility classes for layout, spacing, typography, colors, borders, and shadows.
+
+## Layout Utilities
+
+### Display
+
+```html
+<div class="block">Block</div>
+<div class="inline-block">Inline Block</div>
+<div class="inline">Inline</div>
+<div class="flex">Flexbox</div>
+<div class="inline-flex">Inline Flex</div>
+<div class="grid">Grid</div>
+<div class="inline-grid">Inline Grid</div>
+<div class="hidden">Hidden</div>
+```
+
+### Flexbox
+
+**Container:**
+```html
+<div class="flex flex-row">Row (default)</div>
+<div class="flex flex-col">Column</div>
+<div class="flex flex-row-reverse">Reverse row</div>
+<div class="flex flex-col-reverse">Reverse column</div>
+```
+
+**Justify (main axis):**
+```html
+<div class="flex justify-start">Start</div>
+<div class="flex justify-center">Center</div>
+<div class="flex justify-end">End</div>
+<div class="flex justify-between">Space between</div>
+<div class="flex justify-around">Space around</div>
+<div class="flex justify-evenly">Space evenly</div>
+```
+
+**Align (cross axis):**
+```html
+<div class="flex items-start">Start</div>
+<div class="flex items-center">Center</div>
+<div class="flex items-end">End</div>
+<div class="flex items-baseline">Baseline</div>
+<div class="flex items-stretch">Stretch</div>
+```
+
+**Gap:**
+```html
+<div class="flex gap-4">All sides</div>
+<div class="flex gap-x-6 gap-y-2">X and Y</div>
+```
+
+**Wrap:**
+```html
+<div class="flex flex-wrap">Wrap</div>
+<div class="flex flex-nowrap">No wrap</div>
+```
+
+### Grid
+
+**Columns:**
+```html
+<div class="grid grid-cols-1">1 column</div>
+<div class="grid grid-cols-2">2 columns</div>
+<div class="grid grid-cols-3">3 columns</div>
+<div class="grid grid-cols-4">4 columns</div>
+<div class="grid grid-cols-12">12 columns</div>
+<div class="grid grid-cols-[1fr_500px_2fr]">Custom</div>
+```
+
+**Rows:**
+```html
+<div class="grid grid-rows-3">3 rows</div>
+<div class="grid grid-rows-[auto_1fr_auto]">Custom</div>
+```
+
+**Span:**
+```html
+<div class="col-span-2">Span 2 columns</div>
+<div class="row-span-3">Span 3 rows</div>
+```
+
+**Gap:**
+```html
+<div class="grid gap-4">All sides</div>
+<div class="grid gap-x-8 gap-y-4">X and Y</div>
+```
+
+### Positioning
+
+```html
+<div class="static">Static (default)</div>
+<div class="relative">Relative</div>
+<div class="absolute">Absolute</div>
+<div class="fixed">Fixed</div>
+<div class="sticky">Sticky</div>
+
+<!-- Position values -->
+<div class="absolute top-0 right-0">Top right</div>
+<div class="absolute inset-0">All sides 0</div>
+<div class="absolute inset-x-4">Left/right 4</div>
+<div class="absolute inset-y-8">Top/bottom 8</div>
+```
+
+### Z-Index
+
+```html
+<div class="z-0">z-index: 0</div>
+<div class="z-10">z-index: 10</div>
+<div class="z-20">z-index: 20</div>
+<div class="z-50">z-index: 50</div>
+```
+
+## Spacing Utilities
+
+### Padding
+
+```html
+<div class="p-4">All sides</div>
+<div class="px-6">Left and right</div>
+<div class="py-3">Top and bottom</div>
+<div class="pt-8">Top</div>
+<div class="pr-4">Right</div>
+<div class="pb-2">Bottom</div>
+<div class="pl-6">Left</div>
+```
+
+### Margin
+
+```html
+<div class="m-4">All sides</div>
+<div class="mx-auto">Center horizontally</div>
+<div class="my-6">Top and bottom</div>
+<div class="mt-8">Top</div>
+<div class="-mt-4">Negative top</div>
+<div class="ml-auto">Push to right</div>
+```
+
+### Space Between
+
+```html
+<div class="space-x-4">Horizontal spacing</div>
+<div class="space-y-6">Vertical spacing</div>
+```
+
+### Spacing Scale
+
+- `0`: 0px
+- `px`: 1px
+- `0.5`: 0.125rem (2px)
+- `1`: 0.25rem (4px)
+- `2`: 0.5rem (8px)
+- `3`: 0.75rem (12px)
+- `4`: 1rem (16px)
+- `6`: 1.5rem (24px)
+- `8`: 2rem (32px)
+- `12`: 3rem (48px)
+- `16`: 4rem (64px)
+- `24`: 6rem (96px)
+
+## Typography
+
+### Font Size
+
+```html
+<p class="text-xs">Extra small (12px)</p>
+<p class="text-sm">Small (14px)</p>
+<p class="text-base">Base (16px)</p>
+<p class="text-lg">Large (18px)</p>
+<p class="text-xl">XL (20px)</p>
+<p class="text-2xl">2XL (24px)</p>
+<p class="text-3xl">3XL (30px)</p>
+<p class="text-4xl">4XL (36px)</p>
+<p class="text-5xl">5XL (48px)</p>
+```
+
+### Font Weight
+
+```html
+<p class="font-thin">Thin (100)</p>
+<p class="font-light">Light (300)</p>
+<p class="font-normal">Normal (400)</p>
+<p class="font-medium">Medium (500)</p>
+<p class="font-semibold">Semibold (600)</p>
+<p class="font-bold">Bold (700)</p>
+<p class="font-black">Black (900)</p>
+```
+
+### Text Alignment
+
+```html
+<p class="text-left">Left</p>
+<p class="text-center">Center</p>
+<p class="text-right">Right</p>
+<p class="text-justify">Justify</p>
+```
+
+### Line Height
+
+```html
+<p class="leading-none">1</p>
+<p class="leading-tight">1.25</p>
+<p class="leading-normal">1.5</p>
+<p class="leading-relaxed">1.75</p>
+<p class="leading-loose">2</p>
+```
+
+### Combined Font Utilities
+
+```html
+<h1 class="text-4xl/tight font-bold">
+  Font size 4xl with tight line height
+</h1>
+```
+
+### Text Transform
+
+```html
+<p class="uppercase">UPPERCASE</p>
+<p class="lowercase">lowercase</p>
+<p class="capitalize">Capitalize</p>
+<p class="normal-case">Normal</p>
+```
+
+### Text Decoration
+
+```html
+<p class="underline">Underline</p>
+<p class="line-through">Line through</p>
+<p class="no-underline">No underline</p>
+```
+
+### Text Overflow
+
+```html
+<p class="truncate">Truncate with ellipsis...</p>
+<p class="line-clamp-3">Clamp to 3 lines...</p>
+<p class="text-ellipsis overflow-hidden">Ellipsis</p>
+```
+
+## Colors
+
+### Text Colors
+
+```html
+<p class="text-black">Black</p>
+<p class="text-white">White</p>
+<p class="text-gray-500">Gray 500</p>
+<p class="text-red-600">Red 600</p>
+<p class="text-blue-500">Blue 500</p>
+<p class="text-green-600">Green 600</p>
+```
+
+### Background Colors
+
+```html
+<div class="bg-white">White</div>
+<div class="bg-gray-100">Gray 100</div>
+<div class="bg-blue-500">Blue 500</div>
+<div class="bg-red-600">Red 600</div>
+```
+
+### Color Scale
+
+Each color has 11 shades (50-950):
+- `50`: Lightest
+- `100-400`: Light variations
+- `500`: Base color
+- `600-800`: Dark variations
+- `950`: Darkest
+
+### Opacity Modifiers
+
+```html
+<div class="bg-black/75">75% opacity</div>
+<div class="text-blue-500/30">30% opacity</div>
+<div class="bg-purple-500/[0.87]">87% opacity</div>
+```
+
+### Gradients
+
+```html
+<div class="bg-gradient-to-r from-blue-500 to-purple-600">
+  Left to right gradient
+</div>
+<div class="bg-gradient-to-br from-pink-500 via-red-500 to-yellow-500">
+  With via color
+</div>
+```
+
+Directions: `to-t | to-tr | to-r | to-br | to-b | to-bl | to-l | to-tl`
+
+## Borders
+
+### Border Width
+
+```html
+<div class="border">1px all sides</div>
+<div class="border-2">2px all sides</div>
+<div class="border-t">Top only</div>
+<div class="border-r-4">Right 4px</div>
+<div class="border-b-2">Bottom 2px</div>
+<div class="border-l">Left only</div>
+<div class="border-0">No border</div>
+```
+
+### Border Color
+
+```html
+<div class="border border-gray-300">Gray</div>
+<div class="border-2 border-blue-500">Blue</div>
+<div class="border border-red-600/50">Red with opacity</div>
+```
+
+### Border Radius
+
+```html
+<div class="rounded">0.25rem</div>
+<div class="rounded-md">0.375rem</div>
+<div class="rounded-lg">0.5rem</div>
+<div class="rounded-xl">0.75rem</div>
+<div class="rounded-2xl">1rem</div>
+<div class="rounded-full">9999px</div>
+
+<!-- Individual corners -->
+<div class="rounded-t-lg">Top corners</div>
+<div class="rounded-br-xl">Bottom right</div>
+```
+
+### Border Style
+
+```html
+<div class="border border-solid">Solid</div>
+<div class="border-2 border-dashed">Dashed</div>
+<div class="border border-dotted">Dotted</div>
+```
+
+## Shadows
+
+```html
+<div class="shadow-sm">Small</div>
+<div class="shadow">Default</div>
+<div class="shadow-md">Medium</div>
+<div class="shadow-lg">Large</div>
+<div class="shadow-xl">Extra large</div>
+<div class="shadow-2xl">2XL</div>
+<div class="shadow-none">No shadow</div>
+```
+
+### Colored Shadows
+
+```html
+<div class="shadow-lg shadow-blue-500/50">Blue shadow</div>
+```
+
+## Width & Height
+
+### Width
+
+```html
+<div class="w-full">100%</div>
+<div class="w-1/2">50%</div>
+<div class="w-1/3">33.333%</div>
+<div class="w-64">16rem</div>
+<div class="w-[500px]">500px</div>
+<div class="w-screen">100vw</div>
+
+<!-- Min/Max width -->
+<div class="min-w-0">min-width: 0</div>
+<div class="max-w-md">max-width: 28rem</div>
+<div class="max-w-screen-xl">max-width: 1280px</div>
+```
+
+### Height
+
+```html
+<div class="h-full">100%</div>
+<div class="h-screen">100vh</div>
+<div class="h-64">16rem</div>
+<div class="h-[500px]">500px</div>
+
+<!-- Min/Max height -->
+<div class="min-h-screen">min-height: 100vh</div>
+<div class="max-h-96">max-height: 24rem</div>
+```
+
+## Arbitrary Values
+
+Use square brackets for custom values:
+
+```html
+<!-- Spacing -->
+<div class="p-[17px]">Custom padding</div>
+<div class="top-[117px]">Custom position</div>
+
+<!-- Colors -->
+<div class="bg-[#bada55]">Hex color</div>
+<div class="text-[rgb(123,45,67)]">RGB</div>
+
+<!-- Sizes -->
+<div class="w-[500px]">Custom width</div>
+<div class="text-[22px]">Custom font size</div>
+
+<!-- CSS variables -->
+<div class="bg-[var(--brand-color)]">CSS var</div>
+
+<!-- Complex values -->
+<div class="grid-cols-[1fr_500px_2fr]">Custom grid</div>
+```
+
+## Aspect Ratio
+
+```html
+<div class="aspect-square">1:1</div>
+<div class="aspect-video">16:9</div>
+<div class="aspect-[4/3]">4:3</div>
+```
+
+## Overflow
+
+```html
+<div class="overflow-auto">Auto scroll</div>
+<div class="overflow-hidden">Hidden</div>
+<div class="overflow-scroll">Always scroll</div>
+<div class="overflow-x-auto">Horizontal scroll</div>
+<div class="overflow-y-hidden">No vertical scroll</div>
+```
+
+## Opacity
+
+```html
+<div class="opacity-0">0%</div>
+<div class="opacity-50">50%</div>
+<div class="opacity-75">75%</div>
+<div class="opacity-100">100%</div>
+```
+
+## Cursor
+
+```html
+<div class="cursor-pointer">Pointer</div>
+<div class="cursor-wait">Wait</div>
+<div class="cursor-not-allowed">Not allowed</div>
+<div class="cursor-default">Default</div>
+```
+
+## User Select
+
+```html
+<div class="select-none">No select</div>
+<div class="select-text">Text selectable</div>
+<div class="select-all">Select all</div>
+```

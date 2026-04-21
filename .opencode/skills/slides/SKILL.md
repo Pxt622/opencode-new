@@ -1,1 +1,42 @@
-LS0tCm5hbWU6IGNrbTpzbGlkZXMKZGVzY3JpcHRpb246IENyZWF0ZSBzdHJhdGVnaWMgSFRNTCBwcmVzZW50YXRpb25zIHdpdGggQ2hhcnQuanMsIGRlc2lnbiB0b2tlbnMsIHJlc3BvbnNpdmUgbGF5b3V0cywgY29weXdyaXRpbmcgZm9ybXVsYXMsIGFuZCBjb250ZXh0dWFsIHNsaWRlIHN0cmF0ZWdpZXMuCmFyZ3VtZW50LWhpbnQ6ICJbdG9waWNdIFtzbGlkZS1jb3VudF0iCm1ldGFkYXRhOgogIGF1dGhvcjogY2xhdWRla2l0CiAgdmVyc2lvbjogIjEuMC4wIgotLS0KCiMgU2xpZGVzCgpTdHJhdGVnaWMgSFRNTCBwcmVzZW50YXRpb24gZGVzaWduIHdpdGggZGF0YSB2aXN1YWxpemF0aW9uLgoKPGFyZ3M+JEFSR1VNRU5UUzwvYXJncz4KCiMjIFdoZW4gdG8gVXNlCgotIE1hcmtldGluZyBwcmVzZW50YXRpb25zIGFuZCBwaXRjaCBkZWNrcwotIERhdGEtZHJpdmVuIHNsaWRlcyB3aXRoIENoYXJ0LmpzCi0gU3RyYXRlZ2ljIHNsaWRlIGRlc2lnbiB3aXRoIGxheW91dCBwYXR0ZXJucwotIENvcHl3cml0aW5nLW9wdGltaXplZCBwcmVzZW50YXRpb24gY29udGVudAoKIyMgU3ViY29tbWFuZHMKCnwgU3ViY29tbWFuZCB8IERlc2NyaXB0aW9uIHwgUmVmZXJlbmNlIHwKfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tfAp8IGBjcmVhdGVgIHwgQ3JlYXRlIHN0cmF0ZWdpYyBwcmVzZW50YXRpb24gc2xpZGVzIHwgYHJlZmVyZW5jZXMvY3JlYXRlLm1kYCB8CgojIyBSZWZlcmVuY2VzIChLbm93bGVkZ2UgQmFzZSkKCnwgVG9waWMgfCBGaWxlIHwKfC0tLS0tLS18LS0tLS0tfAp8IExheW91dCBQYXR0ZXJucyB8IGByZWZlcmVuY2VzL2xheW91dC1wYXR0ZXJucy5tZGAgfAp8IEhUTUwgVGVtcGxhdGUgfCBgcmVmZXJlbmNlcy9odG1sLXRlbXBsYXRlLm1kYCB8CnwgQ29weXdyaXRpbmcgRm9ybXVsYXMgfCBgcmVmZXJlbmNlcy9jb3B5d3JpdGluZy1mb3JtdWxhcy5tZGAgfAp8IFNsaWRlIFN0cmF0ZWdpZXMgfCBgcmVmZXJlbmNlcy9zbGlkZS1zdHJhdGVnaWVzLm1kYCB8CgojIyBSb3V0aW5nCgoxLiBQYXJzZSBzdWJjb21tYW5kIGZyb20gYCRBUkdVTUVOVFNgIChmaXJzdCB3b3JkKQoyLiBMb2FkIGNvcnJlc3BvbmRpbmcgYHJlZmVyZW5jZXMve3N1YmNvbW1hbmR9Lm1kYAozLiBFeGVjdXRlIHdpdGggcmVtYWluaW5nIGFyZ3VtZW50cwo=
+---
+name: ckm:slides
+description: Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies.
+argument-hint: "[topic] [slide-count]"
+metadata:
+  author: claudekit
+  version: "1.0.0"
+---
+
+# Slides
+
+Strategic HTML presentation design with data visualization.
+
+<args>$ARGUMENTS</args>
+
+## When to Use
+
+- Marketing presentations and pitch decks
+- Data-driven slides with Chart.js
+- Strategic slide design with layout patterns
+- Copywriting-optimized presentation content
+
+## Subcommands
+
+| Subcommand | Description | Reference |
+|------------|-------------|-----------|
+| `create` | Create strategic presentation slides | `references/create.md` |
+
+## References (Knowledge Base)
+
+| Topic | File |
+|-------|------|
+| Layout Patterns | `references/layout-patterns.md` |
+| HTML Template | `references/html-template.md` |
+| Copywriting Formulas | `references/copywriting-formulas.md` |
+| Slide Strategies | `references/slide-strategies.md` |
+
+## Routing
+
+1. Parse subcommand from `$ARGUMENTS` (first word)
+2. Load corresponding `references/{subcommand}.md`
+3. Execute with remaining arguments

@@ -1,1 +1,355 @@
-IyBBZ2VudCBTREsg4oCUIFB5dGhvbgoKVGhlIENsYXVkZSBBZ2VudCBTREsgcHJvdmlkZXMgYSBoaWdoZXItbGV2ZWwgaW50ZXJmYWNlIGZvciBidWlsZGluZyBBSSBhZ2VudHMgd2l0aCBidWlsdC1pbiB0b29scywgc2FmZXR5IGZlYXR1cmVzLCBhbmQgYWdlbnRpYyBjYXBhYmlsaXRpZXMuCgojIyBJbnN0YWxsYXRpb24KCmBgYGJhc2gKcGlwIGluc3RhbGwgY2xhdWRlLWFnZW50LXNkawpgYGAKCi0tLQoKIyMgUXVpY2sgU3RhcnQKCmBgYHB5dGhvbgppbXBvcnQgYW55aW8KZnJvbSBjbGF1ZGVfYWdlbnRfc2RrIGltcG9ydCBxdWVyeSwgQ2xhdWRlQWdlbnRPcHRpb25zLCBSZXN1bHRNZXNzYWdlCgphc3luYyBkZWYgbWFpbigpOgogICAgYXN5bmMgZm9yIG1lc3NhZ2UgaW4gcXVlcnkoCiAgICAgICAgcHJvbXB0PSJFeHBsYWluIHRoaXMgY29kZWJhc2UiLAogICAgICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKGFsbG93ZWRfdG9vbHM9WyJSZWFkIiwgIkdsb2IiLCAiR3JlcCJdKQogICAgKToKICAgICAgICBpZiBpc2luc3RhbmNlKG1lc3NhZ2UsIFJlc3VsdE1lc3NhZ2UpOgogICAgICAgICAgICBwcmludChtZXNzYWdlLnJlc3VsdCkKCmFueWlvLnJ1bihtYWluKQpgYGAKCi0tLQoKIyMgQnVpbHQtaW4gVG9vbHMKCnwgVG9vbCAgICAgIHwgRGVzY3JpcHRpb24gICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfAp8IFJlYWQgICAgICB8IFJlYWQgZmlsZXMgaW4gdGhlIHdvcmtzcGFjZSAgICAgICAgICB8CnwgV3JpdGUgICAgIHwgQ3JlYXRlIG5ldyBmaWxlcyAgICAgICAgICAgICAgICAgICAgIHwKfCBFZGl0ICAgICAgfCBNYWtlIHByZWNpc2UgZWRpdHMgdG8gZXhpc3RpbmcgZmlsZXMgfAp8IEJhc2ggICAgICB8IEV4ZWN1dGUgc2hlbGwgY29tbWFuZHMgICAgICAgICAgICAgICB8CnwgR2xvYiAgICAgIHwgRmluZCBmaWxlcyBieSBwYXR0ZXJuICAgICAgICAgICAgICAgIHwKfCBHcmVwICAgICAgfCBTZWFyY2ggZmlsZXMgYnkgY29udGVudCAgICAgICAgICAgICAgfAp8IFdlYlNlYXJjaCB8IFNlYXJjaCB0aGUgd2ViIGZvciBpbmZvcm1hdGlvbiAgICAgICB8CnwgV2ViRmV0Y2ggICAgICAgIHwgRmV0Y2ggYW5kIGFuYWx5emUgd2ViIHBhZ2VzICAgICAgICAgIHwKfCBBc2tVc2VyUXVlc3Rpb24gfCBBc2sgdXNlciBjbGFyaWZ5aW5nIHF1ZXN0aW9ucyAgICAgICAgIHwKfCBBZ2VudCAgICAgICAgICAgfCBTcGF3biBzdWJhZ2VudHMgICAgICAgICAgICAgICAgICAgICAgfAoKLS0tCgojIyBQcmltYXJ5IEludGVyZmFjZXMKCiMjIyBgcXVlcnkoKWAg4oCUIFNpbXBsZSBPbmUtU2hvdCBVc2FnZQoKVGhlIGBxdWVyeSgpYCBmdW5jdGlvbiBpcyB0aGUgc2ltcGxlc3Qgd2F5IHRvIHJ1biBhbiBhZ2VudC4gSXQgcmV0dXJucyBhbiBhc3luYyBpdGVyYXRvciBvZiBtZXNzYWdlcy4KCmBgYHB5dGhvbgpmcm9tIGNsYXVkZV9hZ2VudF9zZGsgaW1wb3J0IHF1ZXJ5LCBDbGF1ZGVBZ2VudE9wdGlvbnMsIFJlc3VsdE1lc3NhZ2UKCmFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgcHJvbXB0PSJFeHBsYWluIHRoaXMgY29kZWJhc2UiLAogICAgb3B0aW9ucz1DbGF1ZGVBZ2VudE9wdGlvbnMoYWxsb3dlZF90b29scz1bIlJlYWQiLCAiR2xvYiIsICJHcmVwIl0pCik6CiAgICBpZiBpc2luc3RhbmNlKG1lc3NhZ2UsIFJlc3VsdE1lc3NhZ2UpOgogICAgICAgIHByaW50KG1lc3NhZ2UucmVzdWx0KQpgYGAKCiMjIyBgQ2xhdWRlU0RLQ2xpZW50YCDigJQgRnVsbCBDb250cm9sCgpgQ2xhdWRlU0RLQ2xpZW50YCBwcm92aWRlcyBmdWxsIGNvbnRyb2wgb3ZlciB0aGUgYWdlbnQgbGlmZWN5Y2xlLiBVc2UgaXQgd2hlbiB5b3UgbmVlZCBjdXN0b20gdG9vbHMsIGhvb2tzLCBzdHJlYW1pbmcsIG9yIHRoZSBhYmlsaXR5IHRvIGludGVycnVwdCBleGVjdXRpb24uCgpgYGBweXRob24KaW1wb3J0IGFueWlvCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgQ2xhdWRlU0RLQ2xpZW50LCBDbGF1ZGVBZ2VudE9wdGlvbnMsIEFzc2lzdGFudE1lc3NhZ2UsIFRleHRCbG9jawoKYXN5bmMgZGVmIG1haW4oKToKICAgIG9wdGlvbnMgPSBDbGF1ZGVBZ2VudE9wdGlvbnMoYWxsb3dlZF90b29scz1bIlJlYWQiLCAiR2xvYiIsICJHcmVwIl0pCiAgICBhc3luYyB3aXRoIENsYXVkZVNES0NsaWVudChvcHRpb25zPW9wdGlvbnMpIGFzIGNsaWVudDoKICAgICAgICBhd2FpdCBjbGllbnQucXVlcnkoIkV4cGxhaW4gdGhpcyBjb2RlYmFzZSIpCiAgICAgICAgYXN5bmMgZm9yIG1lc3NhZ2UgaW4gY2xpZW50LnJlY2VpdmVfcmVzcG9uc2UoKToKICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShtZXNzYWdlLCBBc3Npc3RhbnRNZXNzYWdlKToKICAgICAgICAgICAgICAgIGZvciBibG9jayBpbiBtZXNzYWdlLmNvbnRlbnQ6CiAgICAgICAgICAgICAgICAgICAgaWYgaXNpbnN0YW5jZShibG9jaywgVGV4dEJsb2NrKToKICAgICAgICAgICAgICAgICAgICAgICAgcHJpbnQoYmxvY2sudGV4dCkKCmFueWlvLnJ1bihtYWluKQpgYGAKCmBDbGF1ZGVTREtDbGllbnRgIHN1cHBvcnRzOgoKLSAqKkNvbnRleHQgbWFuYWdlcioqIChgYXN5bmMgd2l0aGApIGZvciBhdXRvbWF0aWMgcmVzb3VyY2UgY2xlYW51cAotICoqYGNsaWVudC5xdWVyeShwcm9tcHQpYCoqIHRvIHNlbmQgYSBwcm9tcHQgdG8gdGhlIGFnZW50Ci0gKipgcmVjZWl2ZV9yZXNwb25zZSgpYCoqIGZvciBzdHJlYW1pbmcgbWVzc2FnZXMgdW50aWwgY29tcGxldGlvbgotICoqYGludGVycnVwdCgpYCoqIHRvIHN0b3AgYWdlbnQgZXhlY3V0aW9uIG1pZC10YXNrCi0gKipSZXF1aXJlZCBmb3IgY3VzdG9tIHRvb2xzKiogKHZpYSBTREsgTUNQIHNlcnZlcnMpCgotLS0KCiMjIFBlcm1pc3Npb24gU3lzdGVtCgpgYGBweXRob24KZnJvbSBjbGF1ZGVfYWdlbnRfc2RrIGltcG9ydCBxdWVyeSwgQ2xhdWRlQWdlbnRPcHRpb25zLCBSZXN1bHRNZXNzYWdlCgphc3luYyBmb3IgbWVzc2FnZSBpbiBxdWVyeSgKICAgIHByb21wdD0iUmVmYWN0b3IgdGhlIGF1dGhlbnRpY2F0aW9uIG1vZHVsZSIsCiAgICBvcHRpb25zPUNsYXVkZUFnZW50T3B0aW9ucygKICAgICAgICBhbGxvd2VkX3Rvb2xzPVsiUmVhZCIsICJFZGl0IiwgIldyaXRlIl0sCiAgICAgICAgcGVybWlzc2lvbl9tb2RlPSJhY2NlcHRFZGl0cyIgICMgQXV0by1hY2NlcHQgZmlsZSBlZGl0cwogICAgKQopOgogICAgaWYgaXNpbnN0YW5jZShtZXNzYWdlLCBSZXN1bHRNZXNzYWdlKToKICAgICAgICBwcmludChtZXNzYWdlLnJlc3VsdCkKYGBgCgpQZXJtaXNzaW9uIG1vZGVzOgoKLSBgImRlZmF1bHQiYDogUHJvbXB0IGZvciBkYW5nZXJvdXMgb3BlcmF0aW9ucwotIGAicGxhbiJgOiBQbGFubmluZyBvbmx5LCBubyBleGVjdXRpb24KLSBgImFjY2VwdEVkaXRzImA6IEF1dG8tYWNjZXB0IGZpbGUgZWRpdHMKLSBgImJ5cGFzc1Blcm1pc3Npb25zImA6IFNraXAgYWxsIHByb21wdHMgKHVzZSB3aXRoIGNhdXRpb24pCgotLS0KCiMjIE1DUCAoTW9kZWwgQ29udGV4dCBQcm90b2NvbCkgU3VwcG9ydAoKYGBgcHl0aG9uCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcXVlcnksIENsYXVkZUFnZW50T3B0aW9ucywgUmVzdWx0TWVzc2FnZQoKYXN5bmMgZm9yIG1lc3NhZ2UgaW4gcXVlcnkoCiAgICBwcm9tcHQ9Ik9wZW4gZXhhbXBsZS5jb20gYW5kIGRlc2NyaWJlIHdoYXQgeW91IHNlZSIsCiAgICBvcHRpb25zPUNsYXVkZUFnZW50T3B0aW9ucygKICAgICAgICBtY3Bfc2VydmVycz17CiAgICAgICAgICAgICJwbGF5d3JpZ2h0IjogeyJjb21tYW5kIjogIm5weCIsICJhcmdzIjogWyJAcGxheXdyaWdodC9tY3BAbGF0ZXN0Il19CiAgICAgICAgfQogICAgKQopOgogICAgaWYgaXNpbnN0YW5jZShtZXNzYWdlLCBSZXN1bHRNZXNzYWdlKToKICAgICAgICBwcmludChtZXNzYWdlLnJlc3VsdCkKYGBgCgotLS0KCiMjIEhvb2tzCgpDdXN0b21pemUgYWdlbnQgYmVoYXZpb3Igd2l0aCBob29rcyB1c2luZyBjYWxsYmFjayBmdW5jdGlvbnM6CgpgYGBweXRob24KZnJvbSBjbGF1ZGVfYWdlbnRfc2RrIGltcG9ydCBxdWVyeSwgQ2xhdWRlQWdlbnRPcHRpb25zLCBIb29rTWF0Y2hlciwgUmVzdWx0TWVzc2FnZQoKYXN5bmMgZGVmIGxvZ19maWxlX2NoYW5nZShpbnB1dF9kYXRhLCB0b29sX3VzZV9pZCwgY29udGV4dCk6CiAgICBmaWxlX3BhdGggPSBpbnB1dF9kYXRhLmdldCgndG9vbF9pbnB1dCcsIHt9KS5nZXQoJ2ZpbGVfcGF0aCcsICd1bmtub3duJykKICAgIHByaW50KGYiTW9kaWZpZWQ6IHtmaWxlX3BhdGh9IikKICAgIHJldHVybiB7fQoKYXN5bmMgZm9yIG1lc3NhZ2UgaW4gcXVlcnkoCiAgICBwcm9tcHQ9IlJlZmFjdG9yIHV0aWxzLnB5IiwKICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKAogICAgICAgIHBlcm1pc3Npb25fbW9kZT0iYWNjZXB0RWRpdHMiLAogICAgICAgIGhvb2tzPXsKICAgICAgICAgICAgIlBvc3RUb29sVXNlIjogW0hvb2tNYXRjaGVyKG1hdGNoZXI9IkVkaXR8V3JpdGUiLCBob29rcz1bbG9nX2ZpbGVfY2hhbmdlXSldCiAgICAgICAgfQogICAgKQopOgogICAgaWYgaXNpbnN0YW5jZShtZXNzYWdlLCBSZXN1bHRNZXNzYWdlKToKICAgICAgICBwcmludChtZXNzYWdlLnJlc3VsdCkKYGBgCgpIb29rIGNhbGxiYWNrIGlucHV0cyBmb3IgdG9vbC1saWZlY3ljbGUgZXZlbnRzIChgUHJlVG9vbFVzZWAsIGBQb3N0VG9vbFVzZWAsIGBQb3N0VG9vbFVzZUZhaWx1cmVgKSBpbmNsdWRlIGBhZ2VudF9pZGAgYW5kIGBhZ2VudF90eXBlYCBmaWVsZHMsIGFsbG93aW5nIGhvb2tzIHRvIGlkZW50aWZ5IHdoaWNoIGFnZW50IChtYWluIG9yIHN1YmFnZW50KSB0cmlnZ2VyZWQgdGhlIHRvb2wgY2FsbC4KCkF2YWlsYWJsZSBob29rIGV2ZW50czogYFByZVRvb2xVc2VgLCBgUG9zdFRvb2xVc2VgLCBgUG9zdFRvb2xVc2VGYWlsdXJlYCwgYFVzZXJQcm9tcHRTdWJtaXRgLCBgU3RvcGAsIGBTdWJhZ2VudFN0b3BgLCBgUHJlQ29tcGFjdGAsIGBOb3RpZmljYXRpb25gLCBgU3ViYWdlbnRTdGFydGAsIGBQZXJtaXNzaW9uUmVxdWVzdGAKCi0tLQoKIyMgQ29tbW9uIE9wdGlvbnMKCmBxdWVyeSgpYCB0YWtlcyBhIHRvcC1sZXZlbCBgcHJvbXB0YCAoc3RyaW5nKSBhbmQgYW4gYG9wdGlvbnNgIG9iamVjdCAoYENsYXVkZUFnZW50T3B0aW9uc2ApOgoKYGBgcHl0aG9uCmFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KHByb21wdD0iLi4uIiwgb3B0aW9ucz1DbGF1ZGVBZ2VudE9wdGlvbnMoLi4uKSk6CmBgYAoKfCBPcHRpb24gICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IFR5cGUgICB8IERlc2NyaXB0aW9uICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSB8IC0tLS0tLSB8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgY3dkYCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8IHN0cmluZyB8IFdvcmtpbmcgZGlyZWN0b3J5IGZvciBmaWxlIG9wZXJhdGlvbnMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgYWxsb3dlZF90b29sc2AgICAgICAgICAgICAgICAgICAgICB8IGxpc3QgICB8IFRvb2xzIHRoZSBhZ2VudCBjYW4gdXNlIChlLmcuLCBgWyJSZWFkIiwgIkVkaXQiLCAiQmFzaCJdYCkgICAgICAgICAgICAgICAgfAp8IGB0b29sc2AgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgbGlzdCAgIHwgQnVpbHQtaW4gdG9vbHMgdG8gbWFrZSBhdmFpbGFibGUgKHJlc3RyaWN0cyB0aGUgZGVmYXVsdCBzZXQpICAgICAgICAgICAgICAgfAp8IGBkaXNhbGxvd2VkX3Rvb2xzYCAgICAgICAgICAgICAgICAgIHwgbGlzdCAgIHwgVG9vbHMgdG8gZXhwbGljaXRseSBkaXNhbGxvdyAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBwZXJtaXNzaW9uX21vZGVgICAgICAgICAgICAgICAgICAgIHwgc3RyaW5nIHwgSG93IHRvIGhhbmRsZSBwZXJtaXNzaW9uIHByb21wdHMgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBtY3Bfc2VydmVyc2AgICAgICAgICAgICAgICAgICAgICAgIHwgZGljdCAgIHwgTUNQIHNlcnZlcnMgdG8gY29ubmVjdCB0byAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBob29rc2AgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgZGljdCAgIHwgSG9va3MgZm9yIGN1c3RvbWl6aW5nIGJlaGF2aW9yICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBzeXN0ZW1fcHJvbXB0YCAgICAgICAgICAgICAgICAgICAgIHwgc3RyaW5nIHwgQ3VzdG9tIHN5c3RlbSBwcm9tcHQgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBtYXhfdHVybnNgICAgICAgICAgICAgICAgICAgICAgICAgIHwgaW50ICAgIHwgTWF4aW11bSBhZ2VudCB0dXJucyBiZWZvcmUgc3RvcHBpbmcgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBtYXhfYnVkZ2V0X3VzZGAgICAgICAgICAgICAgICAgICAgIHwgZmxvYXQgIHwgTWF4aW11bSBidWRnZXQgaW4gVVNEIGZvciB0aGUgcXVlcnkgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBtb2RlbGAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgc3RyaW5nIHwgTW9kZWwgSUQgKGRlZmF1bHQ6IGRldGVybWluZWQgYnkgQ0xJKSAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBhZ2VudHNgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgZGljdCAgIHwgU3ViYWdlbnQgZGVmaW5pdGlvbnMgKGBkaWN0W3N0ciwgQWdlbnREZWZpbml0aW9uXWApICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBvdXRwdXRfZm9ybWF0YCAgICAgICAgICAgICAgICAgICAgIHwgZGljdCAgIHwgU3RydWN0dXJlZCBvdXRwdXQgc2NoZW1hICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGB0aGlua2luZ2AgICAgICAgICAgICAgICAgICAgICAgICAgIHwgZGljdCAgIHwgVGhpbmtpbmcvcmVhc29uaW5nIGNvbnRyb2wgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfAp8IGBiZXRhc2AgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwgbGlzdCAgIHwgQmV0YSBmZWF0dXJlcyB0byBlbmFibGUgKGUuZy4sIGBbImNvbnRleHQtMW0tMjAyNS0wOC0wNyJdYCkgICAgICAgICAgICAgICB8CnwgYHNldHRpbmdfc291cmNlc2AgICAgICAgICAgICAgICAgICAgfCBsaXN0ICAgfCBTZXR0aW5ncyB0byBsb2FkIChlLmcuLCBgWyJwcm9qZWN0Il1gKS4gRGVmYXVsdDogbm9uZSAobm8gQ0xBVURFLm1kIGZpbGVzKSB8CnwgYGVudmAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCBkaWN0ICAgfCBFbnZpcm9ubWVudCB2YXJpYWJsZXMgdG8gc2V0IGZvciB0aGUgc2Vzc2lvbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8CgotLS0KCiMjIE1lc3NhZ2UgVHlwZXMKCmBgYHB5dGhvbgpmcm9tIGNsYXVkZV9hZ2VudF9zZGsgaW1wb3J0IHF1ZXJ5LCBDbGF1ZGVBZ2VudE9wdGlvbnMsIFJlc3VsdE1lc3NhZ2UsIFN5c3RlbU1lc3NhZ2UKCmFzeW5jIGZvciBtZXNzYWdlIGluIHF1ZXJ5KAogICAgcHJvbXB0PSJGaW5kIFRPRE8gY29tbWVudHMiLAogICAgb3B0aW9ucz1DbGF1ZGVBZ2VudE9wdGlvbnMoYWxsb3dlZF90b29scz1bIlJlYWQiLCAiR2xvYiIsICJHcmVwIl0pCik6CiAgICBpZiBpc2luc3RhbmNlKG1lc3NhZ2UsIFJlc3VsdE1lc3NhZ2UpOgogICAgICAgIHByaW50KG1lc3NhZ2UucmVzdWx0KQogICAgICAgIHByaW50KGYiU3RvcCByZWFzb246IHttZXNzYWdlLnN0b3BfcmVhc29ufSIpICAjIGUuZy4sICJlbmRfdHVybiIsICJtYXhfdHVybnMiCiAgICBlbGlmIGlzaW5zdGFuY2UobWVzc2FnZSwgU3lzdGVtTWVzc2FnZSkgYW5kIG1lc3NhZ2Uuc3VidHlwZSA9PSAiaW5pdCI6CiAgICAgICAgc2Vzc2lvbl9pZCA9IG1lc3NhZ2UuZGF0YS5nZXQoInNlc3Npb25faWQiKSAgIyBDYXB0dXJlIGZvciByZXN1bWluZyBsYXRlcgpgYGAKCmBBc3Npc3RhbnRNZXNzYWdlYCBpbmNsdWRlcyBwZXItdHVybiBgdXNhZ2VgIGRhdGEgKGEgZGljdCBtYXRjaGluZyB0aGUgQW50aHJvcGljIEFQSSB1c2FnZSBzaGFwZSkgZm9yIHRyYWNraW5nIGNvc3RzOgoKYGBgcHl0aG9uCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcXVlcnksIENsYXVkZUFnZW50T3B0aW9ucywgQXNzaXN0YW50TWVzc2FnZQoKYXN5bmMgZm9yIG1lc3NhZ2UgaW4gcXVlcnkocHJvbXB0PSIuLi4iLCBvcHRpb25zPUNsYXVkZUFnZW50T3B0aW9ucygpKToKICAgIGlmIGlzaW5zdGFuY2UobWVzc2FnZSwgQXNzaXN0YW50TWVzc2FnZSkgYW5kIG1lc3NhZ2UudXNhZ2U6CiAgICAgICAgcHJpbnQoZiJJbnB1dDoge21lc3NhZ2UudXNhZ2VbJ2lucHV0X3Rva2VucyddfSwgT3V0cHV0OiB7bWVzc2FnZS51c2FnZVsnb3V0cHV0X3Rva2VucyddfSIpCmBgYAoKVHlwZWQgdGFzayBtZXNzYWdlIHN1YmNsYXNzZXMgYXJlIGF2YWlsYWJsZSBmb3IgYmV0dGVyIHR5cGUgc2FmZXR5IHdoZW4gaGFuZGxpbmcgc3ViYWdlbnQgdGFzayBldmVudHM6Ci0gYFRhc2tTdGFydGVkTWVzc2FnZWAg4oCUIGVtaXR0ZWQgd2hlbiBhIHN1YmFnZW50IHRhc2sgaXMgcmVnaXN0ZXJlZAotIGBUYXNrUHJvZ3Jlc3NNZXNzYWdlYCDigJQgcmVhbC10aW1lIHByb2dyZXNzIHVwZGF0ZXMgd2l0aCBjdW11bGF0aXZlIHVzYWdlIG1ldHJpY3MKLSBgVGFza05vdGlmaWNhdGlvbk1lc3NhZ2VgIOKAlCB0YXNrIGNvbXBsZXRpb24gbm90aWZpY2F0aW9ucwoKYFJhdGVMaW1pdEV2ZW50YCBpcyBlbWl0dGVkIHdoZW4gdGhlIHJhdGUgbGltaXQgc3RhdHVzIHRyYW5zaXRpb25zIChlLmcuLCBmcm9tIGBhbGxvd2VkYCB0byBgYWxsb3dlZF93YXJuaW5nYCBvciBgcmVqZWN0ZWRgKS4gVXNlIGl0IHRvIHdhcm4gdXNlcnMgb3IgYmFjayBvZmYgZ3JhY2VmdWxseToKCmBgYHB5dGhvbgpmcm9tIGNsYXVkZV9hZ2VudF9zZGsgaW1wb3J0IHF1ZXJ5LCBDbGF1ZGVBZ2VudE9wdGlvbnMsIFJhdGVMaW1pdEV2ZW50Cgphc3luYyBmb3IgbWVzc2FnZSBpbiBxdWVyeShwcm9tcHQ9Ii4uLiIsIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKCkpOgogICAgaWYgaXNpbnN0YW5jZShtZXNzYWdlLCBSYXRlTGltaXRFdmVudCk6CiAgICAgICAgcHJpbnQoZiJSYXRlIGxpbWl0IHN0YXR1czoge21lc3NhZ2UucmF0ZV9saW1pdF9pbmZvLnN0YXR1c30iKQogICAgICAgIGlmIG1lc3NhZ2UucmF0ZV9saW1pdF9pbmZvLnJlc2V0c19hdDoKICAgICAgICAgICAgcHJpbnQoZiJSZXNldHMgYXQ6IHttZXNzYWdlLnJhdGVfbGltaXRfaW5mby5yZXNldHNfYXR9IikKYGBgCgotLS0KCiMjIFN1YmFnZW50cwoKYGBgcHl0aG9uCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcXVlcnksIENsYXVkZUFnZW50T3B0aW9ucywgQWdlbnREZWZpbml0aW9uLCBSZXN1bHRNZXNzYWdlCgphc3luYyBmb3IgbWVzc2FnZSBpbiBxdWVyeSgKICAgIHByb21wdD0iVXNlIHRoZSBjb2RlLXJldmlld2VyIGFnZW50IHRvIHJldmlldyB0aGlzIGNvZGViYXNlIiwKICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKAogICAgICAgIGFsbG93ZWRfdG9vbHM9WyJSZWFkIiwgIkdsb2IiLCAiR3JlcCIsICJBZ2VudCJdLAogICAgICAgIGFnZW50cz17CiAgICAgICAgICAgICJjb2RlLXJldmlld2VyIjogQWdlbnREZWZpbml0aW9uKAogICAgICAgICAgICAgICAgZGVzY3JpcHRpb249IkV4cGVydCBjb2RlIHJldmlld2VyIGZvciBxdWFsaXR5IGFuZCBzZWN1cml0eSByZXZpZXdzLiIsCiAgICAgICAgICAgICAgICBwcm9tcHQ9IkFuYWx5emUgY29kZSBxdWFsaXR5IGFuZCBzdWdnZXN0IGltcHJvdmVtZW50cy4iLAogICAgICAgICAgICAgICAgdG9vbHM9WyJSZWFkIiwgIkdsb2IiLCAiR3JlcCJdCiAgICAgICAgICAgICkKICAgICAgICB9CiAgICApCik6CiAgICBpZiBpc2luc3RhbmNlKG1lc3NhZ2UsIFJlc3VsdE1lc3NhZ2UpOgogICAgICAgIHByaW50KG1lc3NhZ2UucmVzdWx0KQpgYGAKCi0tLQoKIyMgRXJyb3IgSGFuZGxpbmcKCmBgYHB5dGhvbgpmcm9tIGNsYXVkZV9hZ2VudF9zZGsgaW1wb3J0IHF1ZXJ5LCBDbGF1ZGVBZ2VudE9wdGlvbnMsIENMSU5vdEZvdW5kRXJyb3IsIENMSUNvbm5lY3Rpb25FcnJvciwgUmVzdWx0TWVzc2FnZQoKdHJ5OgogICAgYXN5bmMgZm9yIG1lc3NhZ2UgaW4gcXVlcnkoCiAgICAgICAgcHJvbXB0PSIuLi4iLAogICAgICAgIG9wdGlvbnM9Q2xhdWRlQWdlbnRPcHRpb25zKGFsbG93ZWRfdG9vbHM9WyJSZWFkIl0pCiAgICApOgogICAgICAgIGlmIGlzaW5zdGFuY2UobWVzc2FnZSwgUmVzdWx0TWVzc2FnZSk6CiAgICAgICAgICAgIHByaW50KG1lc3NhZ2UucmVzdWx0KQpleGNlcHQgQ0xJTm90Rm91bmRFcnJvcjoKICAgIHByaW50KCJDbGF1ZGUgQ29kZSBDTEkgbm90IGZvdW5kLiBJbnN0YWxsIHdpdGg6IHBpcCBpbnN0YWxsIGNsYXVkZS1hZ2VudC1zZGsiKQpleGNlcHQgQ0xJQ29ubmVjdGlvbkVycm9yIGFzIGU6CiAgICBwcmludChmIkNvbm5lY3Rpb24gZXJyb3I6IHtlfSIpCmBgYAoKLS0tCgojIyBTZXNzaW9uIEhpc3RvcnkKClJldHJpZXZlIHBhc3Qgc2Vzc2lvbiBkYXRhIHdpdGggdG9wLWxldmVsIGZ1bmN0aW9uczoKCmBgYHB5dGhvbgpmcm9tIGNsYXVkZV9hZ2VudF9zZGsgaW1wb3J0IGxpc3Rfc2Vzc2lvbnMsIGdldF9zZXNzaW9uX21lc3NhZ2VzCgojIExpc3QgYWxsIHBhc3Qgc2Vzc2lvbnMgKHN5bmMgZnVuY3Rpb24g4oCUIG5vIGF3YWl0KQpzZXNzaW9ucyA9IGxpc3Rfc2Vzc2lvbnMoKQpmb3Igc2Vzc2lvbiBpbiBzZXNzaW9uczoKICAgIHByaW50KGYie3Nlc3Npb24uc2Vzc2lvbl9pZH06IHtzZXNzaW9uLmN3ZH0iKQoKIyBHZXQgbWVzc2FnZXMgZnJvbSBhIHNwZWNpZmljIHNlc3Npb24gKHN5bmMgZnVuY3Rpb24g4oCUIG5vIGF3YWl0KQptZXNzYWdlcyA9IGdldF9zZXNzaW9uX21lc3NhZ2VzKHNlc3Npb25faWQ9Ii4uLiIpCmZvciBtc2cgaW4gbWVzc2FnZXM6CiAgICBwcmludChtc2cpCmBgYAoKIyMjIFNlc3Npb24gTXV0YXRpb25zCgpSZW5hbWUgb3IgdGFnIHNlc3Npb25zIChzeW5jIGZ1bmN0aW9ucyDigJQgbm8gYXdhaXQpOgoKYGBgcHl0aG9uCmZyb20gY2xhdWRlX2FnZW50X3NkayBpbXBvcnQgcmVuYW1lX3Nlc3Npb24sIHRhZ19zZXNzaW9uCgojIFJlbmFtZSBhIHNlc3Npb24KcmVuYW1lX3Nlc3Npb24oc2Vzc2lvbl9pZD0iLi4uIiwgdGl0bGU9Ik15IHJlZmFjdG9yaW5nIHNlc3Npb24iKQoKIyBUYWcgYSBzZXNzaW9uICh0YWdzIGFyZSBVbmljb2RlLXNhbml0aXplZCBhdXRvbWF0aWNhbGx5KQp0YWdfc2Vzc2lvbihzZXNzaW9uX2lkPSIuLi4iLCB0YWc9ImV4cGVyaW1lbnQiKQoKIyBDbGVhciBhIHRhZwp0YWdfc2Vzc2lvbihzZXNzaW9uX2lkPSIuLi4iLCB0YWc9Tm9uZSkKCiMgT3B0aW9uYWxseSBzY29wZSB0byBhIHNwZWNpZmljIHByb2plY3QgZGlyZWN0b3J5CnJlbmFtZV9zZXNzaW9uKHNlc3Npb25faWQ9Ii4uLiIsIHRpdGxlPSJOZXcgdGl0bGUiLCBkaXJlY3Rvcnk9Ii9wYXRoL3RvL3Byb2plY3QiKQpgYGAKCi0tLQoKIyMgTUNQIFNlcnZlciBNYW5hZ2VtZW50CgpNYW5hZ2UgTUNQIHNlcnZlcnMgYXQgcnVudGltZSB1c2luZyBgQ2xhdWRlU0RLQ2xpZW50YDoKCmBgYHB5dGhvbgphc3luYyB3aXRoIENsYXVkZVNES0NsaWVudChvcHRpb25zPW9wdGlvbnMpIGFzIGNsaWVudDoKICAgICMgUmVjb25uZWN0IGEgZGlzY29ubmVjdGVkIE1DUCBzZXJ2ZXIKICAgIGF3YWl0IGNsaWVudC5yZWNvbm5lY3RfbWNwX3NlcnZlcigibXktc2VydmVyIikKCiAgICAjIFRvZ2dsZSBhbiBNQ1Agc2VydmVyIG9uL29mZgogICAgYXdhaXQgY2xpZW50LnRvZ2dsZV9tY3Bfc2VydmVyKCJteS1zZXJ2ZXIiLCBlbmFibGVkPUZhbHNlKQoKICAgICMgR2V0IHN0YXR1cyBvZiBhbGwgTUNQIHNlcnZlcnMKICAgIHN0YXR1cyA9IGF3YWl0IGNsaWVudC5nZXRfbWNwX3N0YXR1cygpICAjIHJldHVybnMgTWNwU3RhdHVzUmVzcG9uc2UKYGBgCgotLS0KCiMjIEJlc3QgUHJhY3RpY2VzCgoxLiAqKkFsd2F5cyBzcGVjaWZ5IGFsbG93ZWRfdG9vbHMqKiDigJQgRXhwbGljaXRseSBsaXN0IHdoaWNoIHRvb2xzIHRoZSBhZ2VudCBjYW4gdXNlCjIuICoqU2V0IHdvcmtpbmcgZGlyZWN0b3J5Kiog4oCUIEFsd2F5cyBzcGVjaWZ5IGBjd2RgIGZvciBmaWxlIG9wZXJhdGlvbnMKMy4gKipVc2UgYXBwcm9wcmlhdGUgcGVybWlzc2lvbiBtb2RlcyoqIOKAlCBTdGFydCB3aXRoIGAiZGVmYXVsdCJgIGFuZCBvbmx5IGVzY2FsYXRlIHdoZW4gbmVlZGVkCjQuICoqSGFuZGxlIGFsbCBtZXNzYWdlIHR5cGVzKiog4oCUIENoZWNrIGZvciBgUmVzdWx0TWVzc2FnZWAgdG8gZ2V0IGFnZW50IG91dHB1dAo1LiAqKkxpbWl0IG1heF90dXJucyoqIOKAlCBQcmV2ZW50IHJ1bmF3YXkgYWdlbnRzIHdpdGggcmVhc29uYWJsZSBsaW1pdHMK
+# Agent SDK — Python
+
+The Claude Agent SDK provides a higher-level interface for building AI agents with built-in tools, safety features, and agentic capabilities.
+
+## Installation
+
+```bash
+pip install claude-agent-sdk
+```
+
+---
+
+## Quick Start
+
+```python
+import anyio
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage
+
+async def main():
+    async for message in query(
+        prompt="Explain this codebase",
+        options=ClaudeAgentOptions(allowed_tools=["Read", "Glob", "Grep"])
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+
+anyio.run(main)
+```
+
+---
+
+## Built-in Tools
+
+| Tool      | Description                          |
+| --------- | ------------------------------------ |
+| Read      | Read files in the workspace          |
+| Write     | Create new files                     |
+| Edit      | Make precise edits to existing files |
+| Bash      | Execute shell commands               |
+| Glob      | Find files by pattern                |
+| Grep      | Search files by content              |
+| WebSearch | Search the web for information       |
+| WebFetch        | Fetch and analyze web pages          |
+| AskUserQuestion | Ask user clarifying questions         |
+| Agent           | Spawn subagents                      |
+
+---
+
+## Primary Interfaces
+
+### `query()` — Simple One-Shot Usage
+
+The `query()` function is the simplest way to run an agent. It returns an async iterator of messages.
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage
+
+async for message in query(
+    prompt="Explain this codebase",
+    options=ClaudeAgentOptions(allowed_tools=["Read", "Glob", "Grep"])
+):
+    if isinstance(message, ResultMessage):
+        print(message.result)
+```
+
+### `ClaudeSDKClient` — Full Control
+
+`ClaudeSDKClient` provides full control over the agent lifecycle. Use it when you need custom tools, hooks, streaming, or the ability to interrupt execution.
+
+```python
+import anyio
+from claude_agent_sdk import ClaudeSDKClient, ClaudeAgentOptions, AssistantMessage, TextBlock
+
+async def main():
+    options = ClaudeAgentOptions(allowed_tools=["Read", "Glob", "Grep"])
+    async with ClaudeSDKClient(options=options) as client:
+        await client.query("Explain this codebase")
+        async for message in client.receive_response():
+            if isinstance(message, AssistantMessage):
+                for block in message.content:
+                    if isinstance(block, TextBlock):
+                        print(block.text)
+
+anyio.run(main)
+```
+
+`ClaudeSDKClient` supports:
+
+- **Context manager** (`async with`) for automatic resource cleanup
+- **`client.query(prompt)`** to send a prompt to the agent
+- **`receive_response()`** for streaming messages until completion
+- **`interrupt()`** to stop agent execution mid-task
+- **Required for custom tools** (via SDK MCP servers)
+
+---
+
+## Permission System
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage
+
+async for message in query(
+    prompt="Refactor the authentication module",
+    options=ClaudeAgentOptions(
+        allowed_tools=["Read", "Edit", "Write"],
+        permission_mode="acceptEdits"  # Auto-accept file edits
+    )
+):
+    if isinstance(message, ResultMessage):
+        print(message.result)
+```
+
+Permission modes:
+
+- `"default"`: Prompt for dangerous operations
+- `"plan"`: Planning only, no execution
+- `"acceptEdits"`: Auto-accept file edits
+- `"bypassPermissions"`: Skip all prompts (use with caution)
+
+---
+
+## MCP (Model Context Protocol) Support
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage
+
+async for message in query(
+    prompt="Open example.com and describe what you see",
+    options=ClaudeAgentOptions(
+        mcp_servers={
+            "playwright": {"command": "npx", "args": ["@playwright/mcp@latest"]}
+        }
+    )
+):
+    if isinstance(message, ResultMessage):
+        print(message.result)
+```
+
+---
+
+## Hooks
+
+Customize agent behavior with hooks using callback functions:
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, HookMatcher, ResultMessage
+
+async def log_file_change(input_data, tool_use_id, context):
+    file_path = input_data.get('tool_input', {}).get('file_path', 'unknown')
+    print(f"Modified: {file_path}")
+    return {}
+
+async for message in query(
+    prompt="Refactor utils.py",
+    options=ClaudeAgentOptions(
+        permission_mode="acceptEdits",
+        hooks={
+            "PostToolUse": [HookMatcher(matcher="Edit|Write", hooks=[log_file_change])]
+        }
+    )
+):
+    if isinstance(message, ResultMessage):
+        print(message.result)
+```
+
+Hook callback inputs for tool-lifecycle events (`PreToolUse`, `PostToolUse`, `PostToolUseFailure`) include `agent_id` and `agent_type` fields, allowing hooks to identify which agent (main or subagent) triggered the tool call.
+
+Available hook events: `PreToolUse`, `PostToolUse`, `PostToolUseFailure`, `UserPromptSubmit`, `Stop`, `SubagentStop`, `PreCompact`, `Notification`, `SubagentStart`, `PermissionRequest`
+
+---
+
+## Common Options
+
+`query()` takes a top-level `prompt` (string) and an `options` object (`ClaudeAgentOptions`):
+
+```python
+async for message in query(prompt="...", options=ClaudeAgentOptions(...)):
+```
+
+| Option                              | Type   | Description                                                                |
+| ----------------------------------- | ------ | -------------------------------------------------------------------------- |
+| `cwd`                               | string | Working directory for file operations                                      |
+| `allowed_tools`                     | list   | Tools the agent can use (e.g., `["Read", "Edit", "Bash"]`)                |
+| `tools`                             | list   | Built-in tools to make available (restricts the default set)               |
+| `disallowed_tools`                  | list   | Tools to explicitly disallow                                               |
+| `permission_mode`                   | string | How to handle permission prompts                                           |
+| `mcp_servers`                       | dict   | MCP servers to connect to                                                  |
+| `hooks`                             | dict   | Hooks for customizing behavior                                             |
+| `system_prompt`                     | string | Custom system prompt                                                       |
+| `max_turns`                         | int    | Maximum agent turns before stopping                                        |
+| `max_budget_usd`                    | float  | Maximum budget in USD for the query                                        |
+| `model`                             | string | Model ID (default: determined by CLI)                                      |
+| `agents`                            | dict   | Subagent definitions (`dict[str, AgentDefinition]`)                        |
+| `output_format`                     | dict   | Structured output schema                                                   |
+| `thinking`                          | dict   | Thinking/reasoning control                                                 |
+| `betas`                             | list   | Beta features to enable (e.g., `["context-1m-2025-08-07"]`)               |
+| `setting_sources`                   | list   | Settings to load (e.g., `["project"]`). Default: none (no CLAUDE.md files) |
+| `env`                               | dict   | Environment variables to set for the session                               |
+
+---
+
+## Message Types
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, ResultMessage, SystemMessage
+
+async for message in query(
+    prompt="Find TODO comments",
+    options=ClaudeAgentOptions(allowed_tools=["Read", "Glob", "Grep"])
+):
+    if isinstance(message, ResultMessage):
+        print(message.result)
+        print(f"Stop reason: {message.stop_reason}")  # e.g., "end_turn", "max_turns"
+    elif isinstance(message, SystemMessage) and message.subtype == "init":
+        session_id = message.data.get("session_id")  # Capture for resuming later
+```
+
+`AssistantMessage` includes per-turn `usage` data (a dict matching the Anthropic API usage shape) for tracking costs:
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, AssistantMessage
+
+async for message in query(prompt="...", options=ClaudeAgentOptions()):
+    if isinstance(message, AssistantMessage) and message.usage:
+        print(f"Input: {message.usage['input_tokens']}, Output: {message.usage['output_tokens']}")
+```
+
+Typed task message subclasses are available for better type safety when handling subagent task events:
+- `TaskStartedMessage` — emitted when a subagent task is registered
+- `TaskProgressMessage` — real-time progress updates with cumulative usage metrics
+- `TaskNotificationMessage` — task completion notifications
+
+`RateLimitEvent` is emitted when the rate limit status transitions (e.g., from `allowed` to `allowed_warning` or `rejected`). Use it to warn users or back off gracefully:
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, RateLimitEvent
+
+async for message in query(prompt="...", options=ClaudeAgentOptions()):
+    if isinstance(message, RateLimitEvent):
+        print(f"Rate limit status: {message.rate_limit_info.status}")
+        if message.rate_limit_info.resets_at:
+            print(f"Resets at: {message.rate_limit_info.resets_at}")
+```
+
+---
+
+## Subagents
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, AgentDefinition, ResultMessage
+
+async for message in query(
+    prompt="Use the code-reviewer agent to review this codebase",
+    options=ClaudeAgentOptions(
+        allowed_tools=["Read", "Glob", "Grep", "Agent"],
+        agents={
+            "code-reviewer": AgentDefinition(
+                description="Expert code reviewer for quality and security reviews.",
+                prompt="Analyze code quality and suggest improvements.",
+                tools=["Read", "Glob", "Grep"]
+            )
+        }
+    )
+):
+    if isinstance(message, ResultMessage):
+        print(message.result)
+```
+
+---
+
+## Error Handling
+
+```python
+from claude_agent_sdk import query, ClaudeAgentOptions, CLINotFoundError, CLIConnectionError, ResultMessage
+
+try:
+    async for message in query(
+        prompt="...",
+        options=ClaudeAgentOptions(allowed_tools=["Read"])
+    ):
+        if isinstance(message, ResultMessage):
+            print(message.result)
+except CLINotFoundError:
+    print("Claude Code CLI not found. Install with: pip install claude-agent-sdk")
+except CLIConnectionError as e:
+    print(f"Connection error: {e}")
+```
+
+---
+
+## Session History
+
+Retrieve past session data with top-level functions:
+
+```python
+from claude_agent_sdk import list_sessions, get_session_messages
+
+# List all past sessions (sync function — no await)
+sessions = list_sessions()
+for session in sessions:
+    print(f"{session.session_id}: {session.cwd}")
+
+# Get messages from a specific session (sync function — no await)
+messages = get_session_messages(session_id="...")
+for msg in messages:
+    print(msg)
+```
+
+### Session Mutations
+
+Rename or tag sessions (sync functions — no await):
+
+```python
+from claude_agent_sdk import rename_session, tag_session
+
+# Rename a session
+rename_session(session_id="...", title="My refactoring session")
+
+# Tag a session (tags are Unicode-sanitized automatically)
+tag_session(session_id="...", tag="experiment")
+
+# Clear a tag
+tag_session(session_id="...", tag=None)
+
+# Optionally scope to a specific project directory
+rename_session(session_id="...", title="New title", directory="/path/to/project")
+```
+
+---
+
+## MCP Server Management
+
+Manage MCP servers at runtime using `ClaudeSDKClient`:
+
+```python
+async with ClaudeSDKClient(options=options) as client:
+    # Reconnect a disconnected MCP server
+    await client.reconnect_mcp_server("my-server")
+
+    # Toggle an MCP server on/off
+    await client.toggle_mcp_server("my-server", enabled=False)
+
+    # Get status of all MCP servers
+    status = await client.get_mcp_status()  # returns McpStatusResponse
+```
+
+---
+
+## Best Practices
+
+1. **Always specify allowed_tools** — Explicitly list which tools the agent can use
+2. **Set working directory** — Always specify `cwd` for file operations
+3. **Use appropriate permission modes** — Start with `"default"` and only escalate when needed
+4. **Handle all message types** — Check for `ResultMessage` to get agent output
+5. **Limit max_turns** — Prevent runaway agents with reasonable limits

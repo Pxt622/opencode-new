@@ -1,1 +1,118 @@
-IyBCYW5uZXIgU2l6ZXMgJiBBcnQgRGlyZWN0aW9uIFN0eWxlcyBSZWZlcmVuY2UKCiMjIENvbXBsZXRlIEJhbm5lciBTaXplcwoKIyMjIFNvY2lhbCBNZWRpYQp8IFBsYXRmb3JtIHwgVHlwZSB8IFNpemUgKHB4KSB8IEFzcGVjdCBSYXRpbyB8CnwtLS0tLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLXwKfCBGYWNlYm9vayB8IENvdmVyIChkZXNrdG9wKSB8IDgyMCDDlyAzMTIgfCB+Mi42OjEgfAp8IEZhY2Vib29rIHwgQ292ZXIgKG1vYmlsZSkgfCA2NDAgw5cgMzYwIHwgfjE2OjkgfAp8IEZhY2Vib29rIHwgRXZlbnQgY292ZXIgfCAxOTIwIMOXIDEwODAgfCAxNjo5IHwKfCBUd2l0dGVyL1ggfCBIZWFkZXIgfCAxNTAwIMOXIDUwMCB8IDM6MSB8CnwgVHdpdHRlci9YIHwgQWQgYmFubmVyIHwgODAwIMOXIDQxOCB8IH4yOjEgfAp8IExpbmtlZEluIHwgQ29tcGFueSBjb3ZlciB8IDExMjggw5cgMTkxIHwgfjY6MSB8CnwgTGlua2VkSW4gfCBQZXJzb25hbCBiYW5uZXIgfCAxNTg0IMOXIDM5NiB8IDQ6MSB8CnwgWW91VHViZSB8IENoYW5uZWwgYXJ0IHwgMjU2MCDDlyAxNDQwIHwgMTY6OSB8CnwgWW91VHViZSB8IFNhZmUgYXJlYSB8IDE1NDYgw5cgNDIzIHwgfjMuNzoxIHwKfCBJbnN0YWdyYW0gfCBTdG9yaWVzIHwgMTA4MCDDlyAxOTIwIHwgOToxNiB8CnwgSW5zdGFncmFtIHwgUG9zdCB8IDEwODAgw5cgMTA4MCB8IDE6MSB8CnwgUGludGVyZXN0IHwgUGluIHwgMTAwMCDDlyAxNTAwIHwgMjozIHwKCiMjIyBXZWIgLyBEaXNwbGF5IEFkcyAoR29vZ2xlIERpc3BsYXkgTmV0d29yaykKfCBOYW1lIHwgU2l6ZSAocHgpIHwgTm90ZXMgfAp8LS0tLS0tfC0tLS0tLS0tLS0tfC0tLS0tLS18CnwgTWVkaXVtIFJlY3RhbmdsZSB8IDMwMCDDlyAyNTAgfCBIaWdoZXN0IENUUiB8CnwgTGVhZGVyYm9hcmQgfCA3Mjggw5cgOTAgfCBUb3Agb2YgcGFnZSB8CnwgV2lkZSBTa3lzY3JhcGVyIHwgMTYwIMOXIDYwMCB8IFNpZGViYXIgfAp8IEhhbGYgUGFnZSB8IDMwMCDDlyA2MDAgfCBQcmVtaXVtIHwKfCBMYXJnZSBSZWN0YW5nbGUgfCAzMzYgw5cgMjgwIHwgSGlnaCBwZXJmb3JtZXIgfAp8IE1vYmlsZSBCYW5uZXIgfCAzMjAgw5cgNTAgfCBNb2JpbGUgZGVmYXVsdCB8CnwgTGFyZ2UgTW9iaWxlIHwgMzIwIMOXIDEwMCB8IE1vYmlsZSBoZXJvIHwKfCBCaWxsYm9hcmQgfCA5NzAgw5cgMjUwIHwgRGVza3RvcCBoZXJvIHwKCiMjIyBXZWJzaXRlCnwgVHlwZSB8IFNpemUgKHB4KSB8CnwtLS0tLS18LS0tLS0tLS0tLS18CnwgRnVsbC13aWR0aCBoZXJvIHwgMTkyMCDDlyA2MDDigJMxMDgwIHwKfCBTZWN0aW9uIGJhbm5lciB8IDEyMDAgw5cgNDAwIHwKfCBCbG9nIGhlYWRlciB8IDEyMDAgw5cgNjI4IHwKfCBFbWFpbCBoZWFkZXIgfCA2MDAgw5cgMjAwIHwKCiMjIyBQcmludAp8IFR5cGUgfCBTaXplIHwKfC0tLS0tLXwtLS0tLS18CnwgUm9sbC11cCB8IDg1MG1tIMOXIDIwMDBtbSB8CnwgU3RlcC1hbmQtcmVwZWF0IHwgOGZ0IMOXIDhmdCB8CnwgVmlueWwgb3V0ZG9vciB8IDZmdCDDlyAzZnQgfAp8IFRyYWRlIHNob3cgfCAzM2luIMOXIDc4aW4gfAoKIyMgMjIgQXJ0IERpcmVjdGlvbiBTdHlsZXMKCjEuICoqTWluaW1hbGlzdCoqIOKAlCBXaGl0ZSBzcGFjZSBkb21pbmFudCwgc2luZ2xlIGZvY2FsIGVsZW1lbnQsIDEtMiBjb2xvcnMsIGNsZWFuIHNhbnMtc2VyaWYKMi4gKipCb2xkIFR5cG9ncmFwaHkqKiDigJQgVHlwZSBJUyB0aGUgZGVzaWduOyBvdmVyc2l6ZWQsIGV4cHJlc3NpdmUgbGV0dGVyZm9ybXMgZmlsbCBjYW52YXMKMy4gKipHcmFkaWVudCAvIENvbG9yIFdhc2gqKiDigJQgU21vb3RoIHRyYW5zaXRpb25zLCBtZXNoIGdyYWRpZW50cywgY2hyb21hdGljIGJsZW5kcwo0LiAqKlBob3RvLUJhc2VkKiog4oCUIEZ1bGwtYmxlZWQgcGhvdG9ncmFwaHkgd2l0aCB0ZXh0IG92ZXJsYXk7IGhlcm8gbGlmZXN0eWxlIGltYWdlcnkKNS4gKipJbGx1c3RyYXRlZCAvIEhhbmQtRHJhd24qKiDigJQgQ3VzdG9tIGlsbHVzdHJhdGlvbnMsIGJlc3Bva2UgaWNvbnMsIGFydGlzYW4gZmVlbAo2LiAqKkdlb21ldHJpYyAvIEFic3RyYWN0Kiog4oCUIFNoYXBlcywgbGluZXMsIGdyaWRzIGFzIHByaW1hcnkgdmlzdWFsIGVsZW1lbnRzCjcuICoqUmV0cm8gLyBWaW50YWdlKiog4oCUIERpc3RyZXNzZWQgdGV4dHVyZXMsIG11dGVkIHBhbGV0dGVzLCBzZXJpZiB0eXBlLCBoYWxmdG9uZSBkb3RzCjguICoqR2xhc3Ntb3JwaGlzbSoqIOKAlCBGcm9zdGVkIGdsYXNzIHBhbmVscywgYmx1ciBiYWNrZHJvcCwgc3VidGxlIGJvcmRlciBnbG93CjkuICoqM0QgLyBTY3VscHR1cmFsKiog4oCUIFJlbmRlcmVkIG9iamVjdHMsIGRlcHRoLCBzaGFkb3dzOyBwcm9kdWN0LWNlbnRyaWMKMTAuICoqTmVvbiAvIEN5YmVycHVuayoqIOKAlCBEYXJrIGJhY2tncm91bmRzLCBnbG93aW5nIG5lb24gYWNjZW50cywgaGlnaCBjb250cmFzdAoxMS4gKipEdW90b25lKiog4oCUIFR3by1jb2xvciBwaG90byB0cmVhdG1lbnQ7IGJvbGQgYnJhbmQgY29sb3Igb3ZlcmxheSBvbiBpbWFnZQoxMi4gKipFZGl0b3JpYWwgLyBNYWdhemluZSoqIOKAlCBHcmlkLWhlYXZ5IGxheW91dHMsIHB1bGwgcXVvdGVzLCBqb3VybmFsaXN0aWMgY29tcG9zaXRpb24KMTMuICoqQ29sbGFnZSAvIE1peGVkIE1lZGlhKiog4oCUIEN1dC1wYXBlciB0ZXh0dXJlcywgcGhvdG8gY3V0b3V0cywgbGF5ZXJlZCBlbGVtZW50cwoxNC4gKipSZXRybyBGdXR1cmlzbSoqIOKAlCBTcGFjZS1hZ2Ugbm9zdGFsZ2lhLCBjaHJvbWUsIGdyYWRpZW50cywgb3B0aW1pc20KMTUuICoqRXhwcmVzc2l2ZSAvIEFudGktRGVzaWduKiog4oCUIENoYW90aWMgbGF5b3V0cywgbWl4ZWQgZm9udHMsIGRlbGliZXJhdGUgIndyb25nIiBjb21wb3NpdGlvbgoxNi4gKipEaWdpLUN1dGUgLyBLYXdhaWkqKiDigJQgUm91bmRlZCBzaGFwZXMsIHBhc3RlbCBncmFkaWVudHMsIHBpeGVsIGFydCwgcGxheWZ1bCBjaGFyYWN0ZXJzCjE3LiAqKlRhY3RpbGUgLyBTZW5zb3J5Kiog4oCUIFB1ZmZ5L3NxdWlzaHkgdGV4dHVyZXMsIGh5cGVyLXJlYWwgbWF0ZXJpYWxzLCBlbWJvc3NlZCBmZWVsCjE4LiAqKkRhdGEgLyBJbmZvZ3JhcGhpYyoqIOKAlCBTdGF0cyBmcm9udC1hbmQtY2VudGVyLCBjaGFydHMsIG51bWJlcnMgYXMgaGVyb2VzCjE5LiAqKkRhcmsgTW9kZSAvIE1vb2R5Kiog4oCUIE5lYXItYmxhY2sgYmFja2dyb3VuZHMsIHJpY2ggamV3ZWwgdG9uZXMsIGhpZ2ggY29udHJhc3QKMjAuICoqRmxhdCAvIFNvbGlkIENvbG9yKiog4oCUIFNpbmdsZSBiYWNrZ3JvdW5kIGNvbG9yLCBjbGVhbiBpY29ucywgbm8gZ3JhZGllbnRzCjIxLiAqKk5hdHVyZSAvIE9yZ2FuaWMqKiDigJQgRWFydGh5IHRvbmVzLCBib3RhbmljYWwgbW90aWZzLCBzdXN0YWluYWJsZSBicmFuZCBmZWVsCjIyLiAqKk1vdGlvbi1SZWFkeSAvIEtpbmV0aWMqKiDigJQgRGVzaWduZWQgZm9yIGFuaW1hdGlvbjsgbGF5ZXJlZCBlbGVtZW50cywgbG9vcGFibGUKCiMjIERlc2lnbiBQcmluY2lwbGVzCgojIyMgVmlzdWFsIEhpZXJhcmNoeSAoMy1ab25lIFJ1bGUpCi0gKipUb3AqKjogTG9nbyBvciBtYWluIHZhbHVlIHByb3AKLSAqKk1pZGRsZSoqOiBTdXBwb3J0aW5nIG1lc3NhZ2UgKyB2aXN1YWxzCi0gKipCb3R0b20qKjogQ1RBIChidXR0b24vUVIvVVJMKQoKIyMjIFNhZmUgWm9uZXMKLSBDcml0aWNhbCBjb250ZW50IGluIGNlbnRyYWwgNzAtODAlIG9mIGNhbnZhcwotIEF2b2lkIHRleHQvQ1RBIHdpdGhpbiA1MC0xMDBweCBvZiBlZGdlcwotIFlvdVR1YmU6IDE1NDYgw5cgNDIzcHggc2FmZSBhcmVhIGluc2lkZSAyNTYwIMOXIDE0NDAKLSBNZXRhL0luc3RhZ3JhbTogY2VudHJhbCA4MCUgdG8gYXZvaWQgVUkgY2hyb21lCgojIyMgQ1RBIFJ1bGVzCi0gT25lIENUQSBwZXIgYmFubmVyCi0gSGlnaCBjb250cmFzdCB2cyBiYWNrZ3JvdW5kCi0gQm90dG9tLXJpZ2h0IHBsYWNlbWVudCAodGVybWluYWwgYXJlYSkKLSBNaW4gNDRweCBoZWlnaHQgZm9yIG1vYmlsZSB0YXAgdGFyZ2V0cwotIEFjdGlvbiB2ZXJiczogIkdldCIsICJTdGFydCIsICJEb3dubG9hZCIsICJDbGFpbSIKCiMjIyBUeXBvZ3JhcGh5Ci0gTWF4IDIgdHlwZWZhY2VzIHBlciBiYW5uZXIKLSBNaW4gMTZweCBib2R5LCDiiaUzMnB4IGhlYWRsaW5lIChkaWdpdGFsKQotIE1pbiA0LjU6MSBjb250cmFzdCByYXRpbwotIE1heCA3IHdvcmRzL2xpbmUsIDMgbGluZXMgZm9yIGFkcwoKIyMjIFRleHQtdG8tSW1hZ2UgUmF0aW8KLSBBZHM6IHVuZGVyIDIwJSB0ZXh0IChNZXRhIHBlbmFsaXplcykKLSBTb2NpYWwgY292ZXJzOiA2MC80MCBpbWFnZS10by10ZXh0Ci0gUHJpbnQ6IDcwcHQrIGhlYWRsaW5lcyBmb3IgMy01bSB2aWV3aW5nIGRpc3RhbmNlCgojIyMgUHJpbnQgU3BlY3MKLSAzMDAgRFBJIG1pbmltdW0gKDE1MCBEUEkgZm9yIGxhcmdlIGZvcm1hdCkKLSAzLTVtbSBibGVlZCBhbGwgc2lkZXMKLSBDTVlLIGNvbG9yIG1vZGUKLSAxcHQgcGVyIGZvb3Qgdmlld2luZyBkaXN0YW5jZSBydWxlCgojIyBQaW50ZXJlc3QgUmVzZWFyY2ggUXVlcmllcwoKVXNlIHRoZXNlIHNlYXJjaCBxdWVyaWVzIG9uIFBpbnRlcmVzdCBmb3IgYXJ0IGRpcmVjdGlvbiByZWZlcmVuY2VzOgotIGBbcHVycG9zZV0gYmFubmVyIGRlc2lnbiBbc3R5bGVdYCAoZS5nLiwgInNvY2lhbCBtZWRpYSBiYW5uZXIgbWluaW1hbGlzdCIpCi0gYFtwbGF0Zm9ybV0gY292ZXIgZGVzaWduIGluc3BpcmF0aW9uYCAoZS5nLiwgInlvdXR1YmUgY2hhbm5lbCBhcnQgZGVzaWduIikKLSBgY3JlYXRpdmUgYmFubmVyIGxheW91dCBbaW5kdXN0cnldYCAoZS5nLiwgImNyZWF0aXZlIGJhbm5lciBsYXlvdXQgdGVjaCBzdGFydHVwIikKLSBgW3N0eWxlXSBncmFwaGljIGRlc2lnbiAyMDI2YCAoZS5nLiwgImdyYWRpZW50IGdyYXBoaWMgZGVzaWduIDIwMjYiKQotIGBiYW5uZXIgYWQgZGVzaWduIFtwcm9kdWN0IHR5cGVdYCAoZS5nLiwgImJhbm5lciBhZCBkZXNpZ24gc2FhcyIpCg==
+# Banner Sizes & Art Direction Styles Reference
+
+## Complete Banner Sizes
+
+### Social Media
+| Platform | Type | Size (px) | Aspect Ratio |
+|----------|------|-----------|--------------|
+| Facebook | Cover (desktop) | 820 × 312 | ~2.6:1 |
+| Facebook | Cover (mobile) | 640 × 360 | ~16:9 |
+| Facebook | Event cover | 1920 × 1080 | 16:9 |
+| Twitter/X | Header | 1500 × 500 | 3:1 |
+| Twitter/X | Ad banner | 800 × 418 | ~2:1 |
+| LinkedIn | Company cover | 1128 × 191 | ~6:1 |
+| LinkedIn | Personal banner | 1584 × 396 | 4:1 |
+| YouTube | Channel art | 2560 × 1440 | 16:9 |
+| YouTube | Safe area | 1546 × 423 | ~3.7:1 |
+| Instagram | Stories | 1080 × 1920 | 9:16 |
+| Instagram | Post | 1080 × 1080 | 1:1 |
+| Pinterest | Pin | 1000 × 1500 | 2:3 |
+
+### Web / Display Ads (Google Display Network)
+| Name | Size (px) | Notes |
+|------|-----------|-------|
+| Medium Rectangle | 300 × 250 | Highest CTR |
+| Leaderboard | 728 × 90 | Top of page |
+| Wide Skyscraper | 160 × 600 | Sidebar |
+| Half Page | 300 × 600 | Premium |
+| Large Rectangle | 336 × 280 | High performer |
+| Mobile Banner | 320 × 50 | Mobile default |
+| Large Mobile | 320 × 100 | Mobile hero |
+| Billboard | 970 × 250 | Desktop hero |
+
+### Website
+| Type | Size (px) |
+|------|-----------|
+| Full-width hero | 1920 × 600–1080 |
+| Section banner | 1200 × 400 |
+| Blog header | 1200 × 628 |
+| Email header | 600 × 200 |
+
+### Print
+| Type | Size |
+|------|------|
+| Roll-up | 850mm × 2000mm |
+| Step-and-repeat | 8ft × 8ft |
+| Vinyl outdoor | 6ft × 3ft |
+| Trade show | 33in × 78in |
+
+## 22 Art Direction Styles
+
+1. **Minimalist** — White space dominant, single focal element, 1-2 colors, clean sans-serif
+2. **Bold Typography** — Type IS the design; oversized, expressive letterforms fill canvas
+3. **Gradient / Color Wash** — Smooth transitions, mesh gradients, chromatic blends
+4. **Photo-Based** — Full-bleed photography with text overlay; hero lifestyle imagery
+5. **Illustrated / Hand-Drawn** — Custom illustrations, bespoke icons, artisan feel
+6. **Geometric / Abstract** — Shapes, lines, grids as primary visual elements
+7. **Retro / Vintage** — Distressed textures, muted palettes, serif type, halftone dots
+8. **Glassmorphism** — Frosted glass panels, blur backdrop, subtle border glow
+9. **3D / Sculptural** — Rendered objects, depth, shadows; product-centric
+10. **Neon / Cyberpunk** — Dark backgrounds, glowing neon accents, high contrast
+11. **Duotone** — Two-color photo treatment; bold brand color overlay on image
+12. **Editorial / Magazine** — Grid-heavy layouts, pull quotes, journalistic composition
+13. **Collage / Mixed Media** — Cut-paper textures, photo cutouts, layered elements
+14. **Retro Futurism** — Space-age nostalgia, chrome, gradients, optimism
+15. **Expressive / Anti-Design** — Chaotic layouts, mixed fonts, deliberate "wrong" composition
+16. **Digi-Cute / Kawaii** — Rounded shapes, pastel gradients, pixel art, playful characters
+17. **Tactile / Sensory** — Puffy/squishy textures, hyper-real materials, embossed feel
+18. **Data / Infographic** — Stats front-and-center, charts, numbers as heroes
+19. **Dark Mode / Moody** — Near-black backgrounds, rich jewel tones, high contrast
+20. **Flat / Solid Color** — Single background color, clean icons, no gradients
+21. **Nature / Organic** — Earthy tones, botanical motifs, sustainable brand feel
+22. **Motion-Ready / Kinetic** — Designed for animation; layered elements, loopable
+
+## Design Principles
+
+### Visual Hierarchy (3-Zone Rule)
+- **Top**: Logo or main value prop
+- **Middle**: Supporting message + visuals
+- **Bottom**: CTA (button/QR/URL)
+
+### Safe Zones
+- Critical content in central 70-80% of canvas
+- Avoid text/CTA within 50-100px of edges
+- YouTube: 1546 × 423px safe area inside 2560 × 1440
+- Meta/Instagram: central 80% to avoid UI chrome
+
+### CTA Rules
+- One CTA per banner
+- High contrast vs background
+- Bottom-right placement (terminal area)
+- Min 44px height for mobile tap targets
+- Action verbs: "Get", "Start", "Download", "Claim"
+
+### Typography
+- Max 2 typefaces per banner
+- Min 16px body, ≥32px headline (digital)
+- Min 4.5:1 contrast ratio
+- Max 7 words/line, 3 lines for ads
+
+### Text-to-Image Ratio
+- Ads: under 20% text (Meta penalizes)
+- Social covers: 60/40 image-to-text
+- Print: 70pt+ headlines for 3-5m viewing distance
+
+### Print Specs
+- 300 DPI minimum (150 DPI for large format)
+- 3-5mm bleed all sides
+- CMYK color mode
+- 1pt per foot viewing distance rule
+
+## Pinterest Research Queries
+
+Use these search queries on Pinterest for art direction references:
+- `[purpose] banner design [style]` (e.g., "social media banner minimalist")
+- `[platform] cover design inspiration` (e.g., "youtube channel art design")
+- `creative banner layout [industry]` (e.g., "creative banner layout tech startup")
+- `[style] graphic design 2026` (e.g., "gradient graphic design 2026")
+- `banner ad design [product type]` (e.g., "banner ad design saas")

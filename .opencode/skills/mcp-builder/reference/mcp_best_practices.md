@@ -1,1 +1,249 @@
-IyBNQ1AgU2VydmVyIEJlc3QgUHJhY3RpY2VzCgojIyBRdWljayBSZWZlcmVuY2UKCiMjIyBTZXJ2ZXIgTmFtaW5nCi0gKipQeXRob24qKjogYHtzZXJ2aWNlfV9tY3BgIChlLmcuLCBgc2xhY2tfbWNwYCkKLSAqKk5vZGUvVHlwZVNjcmlwdCoqOiBge3NlcnZpY2V9LW1jcC1zZXJ2ZXJgIChlLmcuLCBgc2xhY2stbWNwLXNlcnZlcmApCgojIyMgVG9vbCBOYW1pbmcKLSBVc2Ugc25ha2VfY2FzZSB3aXRoIHNlcnZpY2UgcHJlZml4Ci0gRm9ybWF0OiBge3NlcnZpY2V9X3thY3Rpb259X3tyZXNvdXJjZX1gCi0gRXhhbXBsZTogYHNsYWNrX3NlbmRfbWVzc2FnZWAsIGBnaXRodWJfY3JlYXRlX2lzc3VlYAoKIyMjIFJlc3BvbnNlIEZvcm1hdHMKLSBTdXBwb3J0IGJvdGggSlNPTiBhbmQgTWFya2Rvd24gZm9ybWF0cwotIEpTT04gZm9yIHByb2dyYW1tYXRpYyBwcm9jZXNzaW5nCi0gTWFya2Rvd24gZm9yIGh1bWFuIHJlYWRhYmlsaXR5CgojIyMgUGFnaW5hdGlvbgotIEFsd2F5cyByZXNwZWN0IGBsaW1pdGAgcGFyYW1ldGVyCi0gUmV0dXJuIGBoYXNfbW9yZWAsIGBuZXh0X29mZnNldGAsIGB0b3RhbF9jb3VudGAKLSBEZWZhdWx0IHRvIDIwLTUwIGl0ZW1zCgojIyMgVHJhbnNwb3J0Ci0gKipTdHJlYW1hYmxlIEhUVFAqKjogRm9yIHJlbW90ZSBzZXJ2ZXJzLCBtdWx0aS1jbGllbnQgc2NlbmFyaW9zCi0gKipzdGRpbyoqOiBGb3IgbG9jYWwgaW50ZWdyYXRpb25zLCBjb21tYW5kLWxpbmUgdG9vbHMKLSBBdm9pZCBTU0UgKGRlcHJlY2F0ZWQgaW4gZmF2b3Igb2Ygc3RyZWFtYWJsZSBIVFRQKQoKLS0tCgojIyBTZXJ2ZXIgTmFtaW5nIENvbnZlbnRpb25zCgpGb2xsb3cgdGhlc2Ugc3RhbmRhcmRpemVkIG5hbWluZyBwYXR0ZXJuczoKCioqUHl0aG9uKio6IFVzZSBmb3JtYXQgYHtzZXJ2aWNlfV9tY3BgIChsb3dlcmNhc2Ugd2l0aCB1bmRlcnNjb3JlcykKLSBFeGFtcGxlczogYHNsYWNrX21jcGAsIGBnaXRodWJfbWNwYCwgYGppcmFfbWNwYAoKKipOb2RlL1R5cGVTY3JpcHQqKjogVXNlIGZvcm1hdCBge3NlcnZpY2V9LW1jcC1zZXJ2ZXJgIChsb3dlcmNhc2Ugd2l0aCBoeXBoZW5zKQotIEV4YW1wbGVzOiBgc2xhY2stbWNwLXNlcnZlcmAsIGBnaXRodWItbWNwLXNlcnZlcmAsIGBqaXJhLW1jcC1zZXJ2ZXJgCgpUaGUgbmFtZSBzaG91bGQgYmUgZ2VuZXJhbCwgZGVzY3JpcHRpdmUgb2YgdGhlIHNlcnZpY2UgYmVpbmcgaW50ZWdyYXRlZCwgZWFzeSB0byBpbmZlciBmcm9tIHRoZSB0YXNrIGRlc2NyaXB0aW9uLCBhbmQgd2l0aG91dCB2ZXJzaW9uIG51bWJlcnMuCgotLS0KCiMjIFRvb2wgTmFtaW5nIGFuZCBEZXNpZ24KCiMjIyBUb29sIE5hbWluZwoKMS4gKipVc2Ugc25ha2VfY2FzZSoqOiBgc2VhcmNoX3VzZXJzYCwgYGNyZWF0ZV9wcm9qZWN0YCwgYGdldF9jaGFubmVsX2luZm9gCjIuICoqSW5jbHVkZSBzZXJ2aWNlIHByZWZpeCoqOiBBbnRpY2lwYXRlIHRoYXQgeW91ciBNQ1Agc2VydmVyIG1heSBiZSB1c2VkIGFsb25nc2lkZSBvdGhlciBNQ1Agc2VydmVycwogICAtIFVzZSBgc2xhY2tfc2VuZF9tZXNzYWdlYCBpbnN0ZWFkIG9mIGp1c3QgYHNlbmRfbWVzc2FnZWAKICAgLSBVc2UgYGdpdGh1Yl9jcmVhdGVfaXNzdWVgIGluc3RlYWQgb2YganVzdCBgY3JlYXRlX2lzc3VlYAozLiAqKkJlIGFjdGlvbi1vcmllbnRlZCoqOiBTdGFydCB3aXRoIHZlcmJzIChnZXQsIGxpc3QsIHNlYXJjaCwgY3JlYXRlLCBldGMuKQo0LiAqKkJlIHNwZWNpZmljKio6IEF2b2lkIGdlbmVyaWMgbmFtZXMgdGhhdCBjb3VsZCBjb25mbGljdCB3aXRoIG90aGVyIHNlcnZlcnMKCiMjIyBUb29sIERlc2lnbgoKLSBUb29sIGRlc2NyaXB0aW9ucyBtdXN0IG5hcnJvd2x5IGFuZCB1bmFtYmlndW91c2x5IGRlc2NyaWJlIGZ1bmN0aW9uYWxpdHkKLSBEZXNjcmlwdGlvbnMgbXVzdCBwcmVjaXNlbHkgbWF0Y2ggYWN0dWFsIGZ1bmN0aW9uYWxpdHkKLSBQcm92aWRlIHRvb2wgYW5ub3RhdGlvbnMgKHJlYWRPbmx5SGludCwgZGVzdHJ1Y3RpdmVIaW50LCBpZGVtcG90ZW50SGludCwgb3BlbldvcmxkSGludCkKLSBLZWVwIHRvb2wgb3BlcmF0aW9ucyBmb2N1c2VkIGFuZCBhdG9taWMKCi0tLQoKIyMgUmVzcG9uc2UgRm9ybWF0cwoKQWxsIHRvb2xzIHRoYXQgcmV0dXJuIGRhdGEgc2hvdWxkIHN1cHBvcnQgbXVsdGlwbGUgZm9ybWF0czoKCiMjIyBKU09OIEZvcm1hdCAoYHJlc3BvbnNlX2Zvcm1hdD0ianNvbiJgKQotIE1hY2hpbmUtcmVhZGFibGUgc3RydWN0dXJlZCBkYXRhCi0gSW5jbHVkZSBhbGwgYXZhaWxhYmxlIGZpZWxkcyBhbmQgbWV0YWRhdGEKLSBDb25zaXN0ZW50IGZpZWxkIG5hbWVzIGFuZCB0eXBlcwotIFVzZSBmb3IgcHJvZ3JhbW1hdGljIHByb2Nlc3NpbmcKCiMjIyBNYXJrZG93biBGb3JtYXQgKGByZXNwb25zZV9mb3JtYXQ9Im1hcmtkb3duImAsIHR5cGljYWxseSBkZWZhdWx0KQotIEh1bWFuLXJlYWRhYmxlIGZvcm1hdHRlZCB0ZXh0Ci0gVXNlIGhlYWRlcnMsIGxpc3RzLCBhbmQgZm9ybWF0dGluZyBmb3IgY2xhcml0eQotIENvbnZlcnQgdGltZXN0YW1wcyB0byBodW1hbi1yZWFkYWJsZSBmb3JtYXQKLSBTaG93IGRpc3BsYXkgbmFtZXMgd2l0aCBJRHMgaW4gcGFyZW50aGVzZXMKLSBPbWl0IHZlcmJvc2UgbWV0YWRhdGEKCi0tLQoKIyMgUGFnaW5hdGlvbgoKRm9yIHRvb2xzIHRoYXQgbGlzdCByZXNvdXJjZXM6CgotICoqQWx3YXlzIHJlc3BlY3QgdGhlIGBsaW1pdGAgcGFyYW1ldGVyKioKLSAqKkltcGxlbWVudCBwYWdpbmF0aW9uKio6IFVzZSBgb2Zmc2V0YCBvciBjdXJzb3ItYmFzZWQgcGFnaW5hdGlvbgotICoqUmV0dXJuIHBhZ2luYXRpb24gbWV0YWRhdGEqKjogSW5jbHVkZSBgaGFzX21vcmVgLCBgbmV4dF9vZmZzZXRgL2BuZXh0X2N1cnNvcmAsIGB0b3RhbF9jb3VudGAKLSAqKk5ldmVyIGxvYWQgYWxsIHJlc3VsdHMgaW50byBtZW1vcnkqKjogRXNwZWNpYWxseSBpbXBvcnRhbnQgZm9yIGxhcmdlIGRhdGFzZXRzCi0gKipEZWZhdWx0IHRvIHJlYXNvbmFibGUgbGltaXRzKio6IDIwLTUwIGl0ZW1zIGlzIHR5cGljYWwKCkV4YW1wbGUgcGFnaW5hdGlvbiByZXNwb25zZToKYGBganNvbgp7CiAgInRvdGFsIjogMTUwLAogICJjb3VudCI6IDIwLAogICJvZmZzZXQiOiAwLAogICJpdGVtcyI6IFsuLi5dLAogICJoYXNfbW9yZSI6IHRydWUsCiAgIm5leHRfb2Zmc2V0IjogMjAKfQpgYGAKCi0tLQoKIyMgVHJhbnNwb3J0IE9wdGlvbnMKCiMjIyBTdHJlYW1hYmxlIEhUVFAKCioqQmVzdCBmb3IqKjogUmVtb3RlIHNlcnZlcnMsIHdlYiBzZXJ2aWNlcywgbXVsdGktY2xpZW50IHNjZW5hcmlvcwoKKipDaGFyYWN0ZXJpc3RpY3MqKjoKLSBCaWRpcmVjdGlvbmFsIGNvbW11bmljYXRpb24gb3ZlciBIVFRQCi0gU3VwcG9ydHMgbXVsdGlwbGUgc2ltdWx0YW5lb3VzIGNsaWVudHMKLSBDYW4gYmUgZGVwbG95ZWQgYXMgYSB3ZWIgc2VydmljZQotIEVuYWJsZXMgc2VydmVyLXRvLWNsaWVudCBub3RpZmljYXRpb25zCgoqKlVzZSB3aGVuKio6Ci0gU2VydmluZyBtdWx0aXBsZSBjbGllbnRzIHNpbXVsdGFuZW91c2x5Ci0gRGVwbG95aW5nIGFzIGEgY2xvdWQgc2VydmljZQotIEludGVncmF0aW9uIHdpdGggd2ViIGFwcGxpY2F0aW9ucwoKIyMjIHN0ZGlvCgoqKkJlc3QgZm9yKio6IExvY2FsIGludGVncmF0aW9ucywgY29tbWFuZC1saW5lIHRvb2xzCgoqKkNoYXJhY3RlcmlzdGljcyoqOgotIFN0YW5kYXJkIGlucHV0L291dHB1dCBzdHJlYW0gY29tbXVuaWNhdGlvbgotIFNpbXBsZSBzZXR1cCwgbm8gbmV0d29yayBjb25maWd1cmF0aW9uIG5lZWRlZAotIFJ1bnMgYXMgYSBzdWJwcm9jZXNzIG9mIHRoZSBjbGllbnQKCioqVXNlIHdoZW4qKjoKLSBCdWlsZGluZyB0b29scyBmb3IgbG9jYWwgZGV2ZWxvcG1lbnQgZW52aXJvbm1lbnRzCi0gSW50ZWdyYXRpbmcgd2l0aCBkZXNrdG9wIGFwcGxpY2F0aW9ucwotIFNpbmdsZS11c2VyLCBzaW5nbGUtc2Vzc2lvbiBzY2VuYXJpb3MKCioqTm90ZSoqOiBzdGRpbyBzZXJ2ZXJzIHNob3VsZCBOT1QgbG9nIHRvIHN0ZG91dCAodXNlIHN0ZGVyciBmb3IgbG9nZ2luZykKCiMjIyBUcmFuc3BvcnQgU2VsZWN0aW9uCgp8IENyaXRlcmlvbiB8IHN0ZGlvIHwgU3RyZWFtYWJsZSBIVFRQIHwKfC0tLS0tLS0tLS0tfC0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS18CnwgKipEZXBsb3ltZW50KiogfCBMb2NhbCB8IFJlbW90ZSB8CnwgKipDbGllbnRzKiogfCBTaW5nbGUgfCBNdWx0aXBsZSB8CnwgKipDb21wbGV4aXR5KiogfCBMb3cgfCBNZWRpdW0gfAp8ICoqUmVhbC10aW1lKiogfCBObyB8IFllcyB8CgotLS0KCiMjIFNlY3VyaXR5IEJlc3QgUHJhY3RpY2VzCgojIyMgQXV0aGVudGljYXRpb24gYW5kIEF1dGhvcml6YXRpb24KCioqT0F1dGggMi4xKio6Ci0gVXNlIHNlY3VyZSBPQXV0aCAyLjEgd2l0aCBjZXJ0aWZpY2F0ZXMgZnJvbSByZWNvZ25pemVkIGF1dGhvcml0aWVzCi0gVmFsaWRhdGUgYWNjZXNzIHRva2VucyBiZWZvcmUgcHJvY2Vzc2luZyByZXF1ZXN0cwotIE9ubHkgYWNjZXB0IHRva2VucyBzcGVjaWZpY2FsbHkgaW50ZW5kZWQgZm9yIHlvdXIgc2VydmVyCgoqKkFQSSBLZXlzKio6Ci0gU3RvcmUgQVBJIGtleXMgaW4gZW52aXJvbm1lbnQgdmFyaWFibGVzLCBuZXZlciBpbiBjb2RlCi0gVmFsaWRhdGUga2V5cyBvbiBzZXJ2ZXIgc3RhcnR1cAotIFByb3ZpZGUgY2xlYXIgZXJyb3IgbWVzc2FnZXMgd2hlbiBhdXRoZW50aWNhdGlvbiBmYWlscwoKIyMjIElucHV0IFZhbGlkYXRpb24KCi0gU2FuaXRpemUgZmlsZSBwYXRocyB0byBwcmV2ZW50IGRpcmVjdG9yeSB0cmF2ZXJzYWwKLSBWYWxpZGF0ZSBVUkxzIGFuZCBleHRlcm5hbCBpZGVudGlmaWVycwotIENoZWNrIHBhcmFtZXRlciBzaXplcyBhbmQgcmFuZ2VzCi0gUHJldmVudCBjb21tYW5kIGluamVjdGlvbiBpbiBzeXN0ZW0gY2FsbHMKLSBVc2Ugc2NoZW1hIHZhbGlkYXRpb24gKFB5ZGFudGljL1pvZCkgZm9yIGFsbCBpbnB1dHMKCiMjIyBFcnJvciBIYW5kbGluZwoKLSBEb24ndCBleHBvc2UgaW50ZXJuYWwgZXJyb3JzIHRvIGNsaWVudHMKLSBMb2cgc2VjdXJpdHktcmVsZXZhbnQgZXJyb3JzIHNlcnZlci1zaWRlCi0gUHJvdmlkZSBoZWxwZnVsIGJ1dCBub3QgcmV2ZWFsaW5nIGVycm9yIG1lc3NhZ2VzCi0gQ2xlYW4gdXAgcmVzb3VyY2VzIGFmdGVyIGVycm9ycwoKIyMjIEROUyBSZWJpbmRpbmcgUHJvdGVjdGlvbgoKRm9yIHN0cmVhbWFibGUgSFRUUCBzZXJ2ZXJzIHJ1bm5pbmcgbG9jYWxseToKLSBFbmFibGUgRE5TIHJlYmluZGluZyBwcm90ZWN0aW9uCi0gVmFsaWRhdGUgdGhlIGBPcmlnaW5gIGhlYWRlciBvbiBhbGwgaW5jb21pbmcgY29ubmVjdGlvbnMKLSBCaW5kIHRvIGAxMjcuMC4wLjFgIHJhdGhlciB0aGFuIGAwLjAuMC4wYAoKLS0tCgojIyBUb29sIEFubm90YXRpb25zCgpQcm92aWRlIGFubm90YXRpb25zIHRvIGhlbHAgY2xpZW50cyB1bmRlcnN0YW5kIHRvb2wgYmVoYXZpb3I6Cgp8IEFubm90YXRpb24gfCBUeXBlIHwgRGVmYXVsdCB8IERlc2NyaXB0aW9uIHwKfC0tLS0tLS0tLS0tfC0tLS0tLXwtLS0tLS0tLS18LS0tLS0tLS0tLS0tLXwKfCBgcmVhZE9ubHlIaW50YCB8IGJvb2xlYW4gfCBmYWxzZSB8IFRvb2wgZG9lcyBub3QgbW9kaWZ5IGl0cyBlbnZpcm9ubWVudCB8CnwgYGRlc3RydWN0aXZlSGludGAgfCBib29sZWFuIHwgdHJ1ZSB8IFRvb2wgbWF5IHBlcmZvcm0gZGVzdHJ1Y3RpdmUgdXBkYXRlcyB8CnwgYGlkZW1wb3RlbnRIaW50YCB8IGJvb2xlYW4gfCBmYWxzZSB8IFJlcGVhdGVkIGNhbGxzIHdpdGggc2FtZSBhcmdzIGhhdmUgbm8gYWRkaXRpb25hbCBlZmZlY3QgfAp8IGBvcGVuV29ybGRIaW50YCB8IGJvb2xlYW4gfCB0cnVlIHwgVG9vbCBpbnRlcmFjdHMgd2l0aCBleHRlcm5hbCBlbnRpdGllcyB8CgoqKkltcG9ydGFudCoqOiBBbm5vdGF0aW9ucyBhcmUgaGludHMsIG5vdCBzZWN1cml0eSBndWFyYW50ZWVzLiBDbGllbnRzIHNob3VsZCBub3QgbWFrZSBzZWN1cml0eS1jcml0aWNhbCBkZWNpc2lvbnMgYmFzZWQgc29sZWx5IG9uIGFubm90YXRpb25zLgoKLS0tCgojIyBFcnJvciBIYW5kbGluZwoKLSBVc2Ugc3RhbmRhcmQgSlNPTi1SUEMgZXJyb3IgY29kZXMKLSBSZXBvcnQgdG9vbCBlcnJvcnMgd2l0aGluIHJlc3VsdCBvYmplY3RzIChub3QgcHJvdG9jb2wtbGV2ZWwgZXJyb3JzKQotIFByb3ZpZGUgaGVscGZ1bCwgc3BlY2lmaWMgZXJyb3IgbWVzc2FnZXMgd2l0aCBzdWdnZXN0ZWQgbmV4dCBzdGVwcwotIERvbid0IGV4cG9zZSBpbnRlcm5hbCBpbXBsZW1lbnRhdGlvbiBkZXRhaWxzCi0gQ2xlYW4gdXAgcmVzb3VyY2VzIHByb3Blcmx5IG9uIGVycm9ycwoKRXhhbXBsZSBlcnJvciBoYW5kbGluZzoKYGBgdHlwZXNjcmlwdAp0cnkgewogIGNvbnN0IHJlc3VsdCA9IHBlcmZvcm1PcGVyYXRpb24oKTsKICByZXR1cm4geyBjb250ZW50OiBbeyB0eXBlOiAidGV4dCIsIHRleHQ6IHJlc3VsdCB9XSB9Owp9IGNhdGNoIChlcnJvcikgewogIHJldHVybiB7CiAgICBpc0Vycm9yOiB0cnVlLAogICAgY29udGVudDogW3sKICAgICAgdHlwZTogInRleHQiLAogICAgICB0ZXh0OiBgRXJyb3I6ICR7ZXJyb3IubWVzc2FnZX0uIFRyeSB1c2luZyBmaWx0ZXI9J2FjdGl2ZV9vbmx5JyB0byByZWR1Y2UgcmVzdWx0cy5gCiAgICB9XQogIH07Cn0KYGBgCgotLS0KCiMjIFRlc3RpbmcgUmVxdWlyZW1lbnRzCgpDb21wcmVoZW5zaXZlIHRlc3Rpbmcgc2hvdWxkIGNvdmVyOgoKLSAqKkZ1bmN0aW9uYWwgdGVzdGluZyoqOiBWZXJpZnkgY29ycmVjdCBleGVjdXRpb24gd2l0aCB2YWxpZC9pbnZhbGlkIGlucHV0cwotICoqSW50ZWdyYXRpb24gdGVzdGluZyoqOiBUZXN0IGludGVyYWN0aW9uIHdpdGggZXh0ZXJuYWwgc3lzdGVtcwotICoqU2VjdXJpdHkgdGVzdGluZyoqOiBWYWxpZGF0ZSBhdXRoLCBpbnB1dCBzYW5pdGl6YXRpb24sIHJhdGUgbGltaXRpbmcKLSAqKlBlcmZvcm1hbmNlIHRlc3RpbmcqKjogQ2hlY2sgYmVoYXZpb3IgdW5kZXIgbG9hZCwgdGltZW91dHMKLSAqKkVycm9yIGhhbmRsaW5nKio6IEVuc3VyZSBwcm9wZXIgZXJyb3IgcmVwb3J0aW5nIGFuZCBjbGVhbnVwCgotLS0KCiMjIERvY3VtZW50YXRpb24gUmVxdWlyZW1lbnRzCgotIFByb3ZpZGUgY2xlYXIgZG9jdW1lbnRhdGlvbiBvZiBhbGwgdG9vbHMgYW5kIGNhcGFiaWxpdGllcwotIEluY2x1ZGUgd29ya2luZyBleGFtcGxlcyAoYXQgbGVhc3QgMyBwZXIgbWFqb3IgZmVhdHVyZSkKLSBEb2N1bWVudCBzZWN1cml0eSBjb25zaWRlcmF0aW9ucwotIFNwZWNpZnkgcmVxdWlyZWQgcGVybWlzc2lvbnMgYW5kIGFjY2VzcyBsZXZlbHMKLSBEb2N1bWVudCByYXRlIGxpbWl0cyBhbmQgcGVyZm9ybWFuY2UgY2hhcmFjdGVyaXN0aWNzCg==
+# MCP Server Best Practices
+
+## Quick Reference
+
+### Server Naming
+- **Python**: `{service}_mcp` (e.g., `slack_mcp`)
+- **Node/TypeScript**: `{service}-mcp-server` (e.g., `slack-mcp-server`)
+
+### Tool Naming
+- Use snake_case with service prefix
+- Format: `{service}_{action}_{resource}`
+- Example: `slack_send_message`, `github_create_issue`
+
+### Response Formats
+- Support both JSON and Markdown formats
+- JSON for programmatic processing
+- Markdown for human readability
+
+### Pagination
+- Always respect `limit` parameter
+- Return `has_more`, `next_offset`, `total_count`
+- Default to 20-50 items
+
+### Transport
+- **Streamable HTTP**: For remote servers, multi-client scenarios
+- **stdio**: For local integrations, command-line tools
+- Avoid SSE (deprecated in favor of streamable HTTP)
+
+---
+
+## Server Naming Conventions
+
+Follow these standardized naming patterns:
+
+**Python**: Use format `{service}_mcp` (lowercase with underscores)
+- Examples: `slack_mcp`, `github_mcp`, `jira_mcp`
+
+**Node/TypeScript**: Use format `{service}-mcp-server` (lowercase with hyphens)
+- Examples: `slack-mcp-server`, `github-mcp-server`, `jira-mcp-server`
+
+The name should be general, descriptive of the service being integrated, easy to infer from the task description, and without version numbers.
+
+---
+
+## Tool Naming and Design
+
+### Tool Naming
+
+1. **Use snake_case**: `search_users`, `create_project`, `get_channel_info`
+2. **Include service prefix**: Anticipate that your MCP server may be used alongside other MCP servers
+   - Use `slack_send_message` instead of just `send_message`
+   - Use `github_create_issue` instead of just `create_issue`
+3. **Be action-oriented**: Start with verbs (get, list, search, create, etc.)
+4. **Be specific**: Avoid generic names that could conflict with other servers
+
+### Tool Design
+
+- Tool descriptions must narrowly and unambiguously describe functionality
+- Descriptions must precisely match actual functionality
+- Provide tool annotations (readOnlyHint, destructiveHint, idempotentHint, openWorldHint)
+- Keep tool operations focused and atomic
+
+---
+
+## Response Formats
+
+All tools that return data should support multiple formats:
+
+### JSON Format (`response_format="json"`)
+- Machine-readable structured data
+- Include all available fields and metadata
+- Consistent field names and types
+- Use for programmatic processing
+
+### Markdown Format (`response_format="markdown"`, typically default)
+- Human-readable formatted text
+- Use headers, lists, and formatting for clarity
+- Convert timestamps to human-readable format
+- Show display names with IDs in parentheses
+- Omit verbose metadata
+
+---
+
+## Pagination
+
+For tools that list resources:
+
+- **Always respect the `limit` parameter**
+- **Implement pagination**: Use `offset` or cursor-based pagination
+- **Return pagination metadata**: Include `has_more`, `next_offset`/`next_cursor`, `total_count`
+- **Never load all results into memory**: Especially important for large datasets
+- **Default to reasonable limits**: 20-50 items is typical
+
+Example pagination response:
+```json
+{
+  "total": 150,
+  "count": 20,
+  "offset": 0,
+  "items": [...],
+  "has_more": true,
+  "next_offset": 20
+}
+```
+
+---
+
+## Transport Options
+
+### Streamable HTTP
+
+**Best for**: Remote servers, web services, multi-client scenarios
+
+**Characteristics**:
+- Bidirectional communication over HTTP
+- Supports multiple simultaneous clients
+- Can be deployed as a web service
+- Enables server-to-client notifications
+
+**Use when**:
+- Serving multiple clients simultaneously
+- Deploying as a cloud service
+- Integration with web applications
+
+### stdio
+
+**Best for**: Local integrations, command-line tools
+
+**Characteristics**:
+- Standard input/output stream communication
+- Simple setup, no network configuration needed
+- Runs as a subprocess of the client
+
+**Use when**:
+- Building tools for local development environments
+- Integrating with desktop applications
+- Single-user, single-session scenarios
+
+**Note**: stdio servers should NOT log to stdout (use stderr for logging)
+
+### Transport Selection
+
+| Criterion | stdio | Streamable HTTP |
+|-----------|-------|-----------------|
+| **Deployment** | Local | Remote |
+| **Clients** | Single | Multiple |
+| **Complexity** | Low | Medium |
+| **Real-time** | No | Yes |
+
+---
+
+## Security Best Practices
+
+### Authentication and Authorization
+
+**OAuth 2.1**:
+- Use secure OAuth 2.1 with certificates from recognized authorities
+- Validate access tokens before processing requests
+- Only accept tokens specifically intended for your server
+
+**API Keys**:
+- Store API keys in environment variables, never in code
+- Validate keys on server startup
+- Provide clear error messages when authentication fails
+
+### Input Validation
+
+- Sanitize file paths to prevent directory traversal
+- Validate URLs and external identifiers
+- Check parameter sizes and ranges
+- Prevent command injection in system calls
+- Use schema validation (Pydantic/Zod) for all inputs
+
+### Error Handling
+
+- Don't expose internal errors to clients
+- Log security-relevant errors server-side
+- Provide helpful but not revealing error messages
+- Clean up resources after errors
+
+### DNS Rebinding Protection
+
+For streamable HTTP servers running locally:
+- Enable DNS rebinding protection
+- Validate the `Origin` header on all incoming connections
+- Bind to `127.0.0.1` rather than `0.0.0.0`
+
+---
+
+## Tool Annotations
+
+Provide annotations to help clients understand tool behavior:
+
+| Annotation | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `readOnlyHint` | boolean | false | Tool does not modify its environment |
+| `destructiveHint` | boolean | true | Tool may perform destructive updates |
+| `idempotentHint` | boolean | false | Repeated calls with same args have no additional effect |
+| `openWorldHint` | boolean | true | Tool interacts with external entities |
+
+**Important**: Annotations are hints, not security guarantees. Clients should not make security-critical decisions based solely on annotations.
+
+---
+
+## Error Handling
+
+- Use standard JSON-RPC error codes
+- Report tool errors within result objects (not protocol-level errors)
+- Provide helpful, specific error messages with suggested next steps
+- Don't expose internal implementation details
+- Clean up resources properly on errors
+
+Example error handling:
+```typescript
+try {
+  const result = performOperation();
+  return { content: [{ type: "text", text: result }] };
+} catch (error) {
+  return {
+    isError: true,
+    content: [{
+      type: "text",
+      text: `Error: ${error.message}. Try using filter='active_only' to reduce results.`
+    }]
+  };
+}
+```
+
+---
+
+## Testing Requirements
+
+Comprehensive testing should cover:
+
+- **Functional testing**: Verify correct execution with valid/invalid inputs
+- **Integration testing**: Test interaction with external systems
+- **Security testing**: Validate auth, input sanitization, rate limiting
+- **Performance testing**: Check behavior under load, timeouts
+- **Error handling**: Ensure proper error reporting and cleanup
+
+---
+
+## Documentation Requirements
+
+- Provide clear documentation of all tools and capabilities
+- Include working examples (at least 3 per major feature)
+- Document security considerations
+- Specify required permissions and access levels
+- Document rate limits and performance characteristics

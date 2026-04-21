@@ -1,1 +1,601 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQ0KLy8gQ0RQIFByb3h5IC0g6YCa6L+HIEhUVFAgQVBJIOaTjeaOp+eUqOaIt+aXpeW4uCBDaHJvbWUNCi8vIOimgeaxgu+8mkNocm9tZSDlt7LlvIDlkK8gLS1yZW1vdGUtZGVidWdnaW5nLXBvcnQNCi8vIE5vZGUuanMgMjIr77yI5L2/55So5Y6f55SfIFdlYlNvY2tldO+8iQ0KDQppbXBvcnQgaHR0cCBmcm9tICdub2RlOmh0dHAnOw0KaW1wb3J0IHsgVVJMIH0gZnJvbSAnbm9kZTp1cmwnOw0KaW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnOw0KaW1wb3J0IHBhdGggZnJvbSAnbm9kZTpwYXRoJzsNCmltcG9ydCBvcyBmcm9tICdub2RlOm9zJzsNCmltcG9ydCBuZXQgZnJvbSAnbm9kZTpuZXQnOw0KDQpjb25zdCBQT1JUID0gcGFyc2VJbnQocHJvY2Vzcy5lbnYuQ0RQX1BST1hZX1BPUlQgfHwgJzM0NTYnKTsNCmxldCB3cyA9IG51bGw7DQpsZXQgY21kSWQgPSAwOw0KY29uc3QgcGVuZGluZyA9IG5ldyBNYXAoKTsgLy8gaWQgLT4ge3Jlc29sdmUsIHRpbWVyfQ0KY29uc3Qgc2Vzc2lvbnMgPSBuZXcgTWFwKCk7IC8vIHRhcmdldElkIC0+IHNlc3Npb25JZA0KDQovLyAtLS0gV2ViU29ja2V0IOWFvOWuueWxgiAtLS0NCmxldCBXUzsNCmlmICh0eXBlb2YgZ2xvYmFsVGhpcy5XZWJTb2NrZXQgIT09ICd1bmRlZmluZWQnKSB7DQogIC8vIE5vZGUgMjIrIOWOn+eUnyBXZWJTb2NrZXTvvIjmtY/op4jlmajlhbzlrrkgQVBJ77yJDQogIFdTID0gZ2xvYmFsVGhpcy5XZWJTb2NrZXQ7DQp9IGVsc2Ugew0KICAvLyDlm57pgIDliLAgd3Mg5qih5Z2XDQogIHRyeSB7DQogICAgV1MgPSAoYXdhaXQgaW1wb3J0KCd3cycpKS5kZWZhdWx0Ow0KICB9IGNhdGNoIHsNCiAgICBjb25zb2xlLmVycm9yKCdbQ0RQIFByb3h5XSDplJnor6/vvJpOb2RlLmpzIOeJiOacrCA8IDIyIOS4lOacquWuieijhSB3cyDmqKHlnZcnKTsNCiAgICBjb25zb2xlLmVycm9yKCcgIOino+WGs+aWueahiO+8muWNh+e6p+WIsCBOb2RlLmpzIDIyKyDmiJbmiafooYwgbnBtIGluc3RhbGwgLWcgd3MnKTsNCiAgICBwcm9jZXNzLmV4aXQoMSk7DQogIH0NCn0NCg0KLy8gLS0tIOiHquWKqOWPkeeOsCBDaHJvbWUg6LCD6K+V56uv5Y+jIC0tLQ0KYXN5bmMgZnVuY3Rpb24gZGlzY292ZXJDaHJvbWVQb3J0KCkgew0KICAvLyAxLiDlsJ3or5Xor7sgRGV2VG9vbHNBY3RpdmVQb3J0IOaWh+S7tg0KICBjb25zdCBwb3NzaWJsZVBhdGhzID0gW107DQogIGNvbnN0IHBsYXRmb3JtID0gb3MucGxhdGZvcm0oKTsNCg0KICBpZiAocGxhdGZvcm0gPT09ICdkYXJ3aW4nKSB7DQogICAgY29uc3QgaG9tZSA9IG9zLmhvbWVkaXIoKTsNCiAgICBwb3NzaWJsZVBhdGhzLnB1c2goDQogICAgICBwYXRoLmpvaW4oaG9tZSwgJ0xpYnJhcnkvQXBwbGljYXRpb24gU3VwcG9ydC9Hb29nbGUvQ2hyb21lL0RldlRvb2xzQWN0aXZlUG9ydCcpLA0KICAgICAgcGF0aC5qb2luKGhvbWUsICdMaWJyYXJ5L0FwcGxpY2F0aW9uIFN1cHBvcnQvR29vZ2xlL0Nocm9tZSBDYW5hcnkvRGV2VG9vbHNBY3RpdmVQb3J0JyksDQogICAgICBwYXRoLmpvaW4oaG9tZSwgJ0xpYnJhcnkvQXBwbGljYXRpb24gU3VwcG9ydC9DaHJvbWl1bS9EZXZUb29sc0FjdGl2ZVBvcnQnKSwNCiAgICApOw0KICB9IGVsc2UgaWYgKHBsYXRmb3JtID09PSAnbGludXgnKSB7DQogICAgY29uc3QgaG9tZSA9IG9zLmhvbWVkaXIoKTsNCiAgICBwb3NzaWJsZVBhdGhzLnB1c2goDQogICAgICBwYXRoLmpvaW4oaG9tZSwgJy5jb25maWcvZ29vZ2xlLWNocm9tZS9EZXZUb29sc0FjdGl2ZVBvcnQnKSwNCiAgICAgIHBhdGguam9pbihob21lLCAnLmNvbmZpZy9jaHJvbWl1bS9EZXZUb29sc0FjdGl2ZVBvcnQnKSwNCiAgICApOw0KICB9IGVsc2UgaWYgKHBsYXRmb3JtID09PSAnd2luMzInKSB7DQogICAgY29uc3QgbG9jYWxBcHBEYXRhID0gcHJvY2Vzcy5lbnYuTE9DQUxBUFBEQVRBIHx8ICcnOw0KICAgIHBvc3NpYmxlUGF0aHMucHVzaCgNCiAgICAgIHBhdGguam9pbihsb2NhbEFwcERhdGEsICdHb29nbGUvQ2hyb21lL1VzZXIgRGF0YS9EZXZUb29sc0FjdGl2ZVBvcnQnKSwNCiAgICAgIHBhdGguam9pbihsb2NhbEFwcERhdGEsICdDaHJvbWl1bS9Vc2VyIERhdGEvRGV2VG9vbHNBY3RpdmVQb3J0JyksDQogICAgKTsNCiAgfQ0KDQogIGZvciAoY29uc3QgcCBvZiBwb3NzaWJsZVBhdGhzKSB7DQogICAgdHJ5IHsNCiAgICAgIGNvbnN0IGNvbnRlbnQgPSBmcy5yZWFkRmlsZVN5bmMocCwgJ3V0Zi04JykudHJpbSgpOw0KICAgICAgY29uc3QgbGluZXMgPSBjb250ZW50LnNwbGl0KCdcbicpOw0KICAgICAgY29uc3QgcG9ydCA9IHBhcnNlSW50KGxpbmVzWzBdKTsNCiAgICAgIGlmIChwb3J0ID4gMCAmJiBwb3J0IDwgNjU1MzYpIHsNCiAgICAgICAgY29uc3Qgb2sgPSBhd2FpdCBjaGVja1BvcnQocG9ydCk7DQogICAgICAgIGlmIChvaykgew0KICAgICAgICAgIC8vIOesrOS6jOihjOaYr+W4piBVVUlEIOeahCBXZWJTb2NrZXQg6Lev5b6E77yI5aaCIC9kZXZ0b29scy9icm93c2VyL3h4eC14eHjvvIkNCiAgICAgICAgICAvLyDpnZ7mmL7lvI8gLS1yZW1vdGUtZGVidWdnaW5nLXBvcnQg5ZCv5Yqo5pe277yMQ2hyb21lIOWPr+iDveWPquaOpeWPl+atpOi3r+W+hA0KICAgICAgICAgIGNvbnN0IHdzUGF0aCA9IGxpbmVzWzFdIHx8IG51bGw7DQogICAgICAgICAgY29uc29sZS5sb2coYFtDRFAgUHJveHldIOS7jiBEZXZUb29sc0FjdGl2ZVBvcnQg5Y+R546w56uv5Y+jOiAke3BvcnR9JHt3c1BhdGggPyAnICjluKYgd3NQYXRoKScgOiAnJ31gKTsNCiAgICAgICAgICByZXR1cm4geyBwb3J0LCB3c1BhdGggfTsNCiAgICAgICAgfQ0KICAgICAgfQ0KICAgIH0gY2F0Y2ggeyAvKiDmlofku7bkuI3lrZjlnKjvvIznu6fnu60gKi8gfQ0KICB9DQoNCiAgLy8gMi4g5omr5o+P5bi455So56uv5Y+jDQogIGNvbnN0IGNvbW1vblBvcnRzID0gWzkyMjIsIDkyMjksIDkzMzNdOw0KICBmb3IgKGNvbnN0IHBvcnQgb2YgY29tbW9uUG9ydHMpIHsNCiAgICBjb25zdCBvayA9IGF3YWl0IGNoZWNrUG9ydChwb3J0KTsNCiAgICBpZiAob2spIHsNCiAgICAgIGNvbnNvbGUubG9nKGBbQ0RQIFByb3h5XSDmiavmj4/lj5HnjrAgQ2hyb21lIOiwg+ivleerr+WPozogJHtwb3J0fWApOw0KICAgICAgcmV0dXJuIHsgcG9ydCwgd3NQYXRoOiBudWxsIH07DQogICAgfQ0KICB9DQoNCiAgcmV0dXJuIG51bGw7DQp9DQoNCi8vIOeUqCBUQ1Ag5o6i5rWL56uv5Y+j5piv5ZCm55uR5ZCs4oCU4oCU6YG/5YWNIFdlYlNvY2tldCDov57mjqXop6blj5EgQ2hyb21lIOWuieWFqOW8ueeqlw0KLy8g77yIV2ViU29ja2V0IOaOoua1i+S8muiiqyBDaHJvbWUg6KeG5Li66LCD6K+V6L+e5o6l77yM5by55Ye65o6I5p2D5a+56K+d5qGG77yJDQpmdW5jdGlvbiBjaGVja1BvcnQocG9ydCkgew0KICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHsNCiAgICBjb25zdCBzb2NrZXQgPSBuZXQuY3JlYXRlQ29ubmVjdGlvbihwb3J0LCAnMTI3LjAuMC4xJyk7DQogICAgY29uc3QgdGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHsgc29ja2V0LmRlc3Ryb3koKTsgcmVzb2x2ZShmYWxzZSk7IH0sIDIwMDApOw0KICAgIHNvY2tldC5vbmNlKCdjb25uZWN0JywgKCkgPT4geyBjbGVhclRpbWVvdXQodGltZXIpOyBzb2NrZXQuZGVzdHJveSgpOyByZXNvbHZlKHRydWUpOyB9KTsNCiAgICBzb2NrZXQub25jZSgnZXJyb3InLCAoKSA9PiB7IGNsZWFyVGltZW91dCh0aW1lcik7IHJlc29sdmUoZmFsc2UpOyB9KTsNCiAgfSk7DQp9DQoNCmZ1bmN0aW9uIGdldFdlYlNvY2tldFVybChwb3J0LCB3c1BhdGgpIHsNCiAgaWYgKHdzUGF0aCkgcmV0dXJuIGB3czovLzEyNy4wLjAuMToke3BvcnR9JHt3c1BhdGh9YDsNCiAgcmV0dXJuIGB3czovLzEyNy4wLjAuMToke3BvcnR9L2RldnRvb2xzL2Jyb3dzZXJgOw0KfQ0KDQovLyAtLS0gV2ViU29ja2V0IOi/nuaOpeeuoeeQhiAtLS0NCmxldCBjaHJvbWVQb3J0ID0gbnVsbDsNCmxldCBjaHJvbWVXc1BhdGggPSBudWxsOw0KDQpsZXQgY29ubmVjdGluZ1Byb21pc2UgPSBudWxsOw0KYXN5bmMgZnVuY3Rpb24gY29ubmVjdCgpIHsNCiAgaWYgKHdzICYmICh3cy5yZWFkeVN0YXRlID09PSBXUy5PUEVOIHx8IHdzLnJlYWR5U3RhdGUgPT09IDEpKSByZXR1cm47DQogIGlmIChjb25uZWN0aW5nUHJvbWlzZSkgcmV0dXJuIGNvbm5lY3RpbmdQcm9taXNlOyAgLy8g5aSN55So6L+b6KGM5Lit55qE6L+e5o6lDQoNCiAgaWYgKCFjaHJvbWVQb3J0KSB7DQogICAgY29uc3QgZGlzY292ZXJlZCA9IGF3YWl0IGRpc2NvdmVyQ2hyb21lUG9ydCgpOw0KICAgIGlmICghZGlzY292ZXJlZCkgew0KICAgICAgdGhyb3cgbmV3IEVycm9yKA0KICAgICAgICAnQ2hyb21lIOacquW8gOWQr+i/nOeoi+iwg+ivleerr+WPo+OAguivt+eUqOS7peS4i+aWueW8j+WQr+WKqCBDaHJvbWXvvJpcbicgKw0KICAgICAgICAnICBtYWNPUzogL0FwcGxpY2F0aW9ucy9Hb29nbGVcXCBDaHJvbWUuYXBwL0NvbnRlbnRzL01hY09TL0dvb2dsZVxcIENocm9tZSAtLXJlbW90ZS1kZWJ1Z2dpbmctcG9ydD05MjIyXG4nICsNCiAgICAgICAgJyAgTGludXg6IGdvb2dsZS1jaHJvbWUgLS1yZW1vdGUtZGVidWdnaW5nLXBvcnQ9OTIyMlxuJyArDQogICAgICAgICcgIOaIluWcqCBjaHJvbWU6Ly9mbGFncyDkuK3mkJzntKIgInJlbW90ZSBkZWJ1Z2dpbmciIOW5tuWQr+eUqCcNCiAgICAgICk7DQogICAgfQ0KICAgIGNocm9tZVBvcnQgPSBkaXNjb3ZlcmVkLnBvcnQ7DQogICAgY2hyb21lV3NQYXRoID0gZGlzY292ZXJlZC53c1BhdGg7DQogIH0NCg0KICBjb25zdCB3c1VybCA9IGdldFdlYlNvY2tldFVybChjaHJvbWVQb3J0LCBjaHJvbWVXc1BhdGgpOw0KICBpZiAoIXdzVXJsKSB0aHJvdyBuZXcgRXJyb3IoJ+aXoOazleiOt+WPliBDaHJvbWUgV2ViU29ja2V0IFVSTCcpOw0KDQogIHJldHVybiBjb25uZWN0aW5nUHJvbWlzZSA9IG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsNCiAgICB3cyA9IG5ldyBXUyh3c1VybCk7DQoNCiAgICBjb25zdCBvbk9wZW4gPSAoKSA9PiB7DQogICAgICBjbGVhbnVwKCk7DQogICAgICBjb25uZWN0aW5nUHJvbWlzZSA9IG51bGw7DQogICAgICBjb25zb2xlLmxvZyhgW0NEUCBQcm94eV0g5bey6L+e5o6lIENocm9tZSAo56uv5Y+jICR7Y2hyb21lUG9ydH0pYCk7DQogICAgICByZXNvbHZlKCk7DQogICAgfTsNCiAgICBjb25zdCBvbkVycm9yID0gKGUpID0+IHsNCiAgICAgIGNsZWFudXAoKTsNCiAgICAgIGNvbm5lY3RpbmdQcm9taXNlID0gbnVsbDsNCiAgICAgIHdzID0gbnVsbDsNCiAgICAgIGNocm9tZVBvcnQgPSBudWxsOw0KICAgICAgY2hyb21lV3NQYXRoID0gbnVsbDsNCiAgICAgIGNvbnN0IG1zZyA9IGUubWVzc2FnZSB8fCBlLmVycm9yPy5tZXNzYWdlIHx8ICfov57mjqXlpLHotKUnOw0KICAgICAgY29uc29sZS5lcnJvcignW0NEUCBQcm94eV0g6L+e5o6l6ZSZ6K+vOicsIG1zZywgJ++8iOerr+WPo+e8k+WtmOW3sua4hemZpO+8jOS4i+asoeWwhumHjeaWsOWPkeeOsO+8iScpOw0KICAgICAgcmVqZWN0KG5ldyBFcnJvcihtc2cpKTsNCiAgICB9Ow0KICAgIGNvbnN0IG9uQ2xvc2UgPSAoKSA9PiB7DQogICAgICBjb25zb2xlLmxvZygnW0NEUCBQcm94eV0g6L+e5o6l5pat5byAJyk7DQogICAgICB3cyA9IG51bGw7DQogICAgICBjaHJvbWVQb3J0ID0gbnVsbDsgLy8g6YeN572u56uv5Y+j57yT5a2Y77yM5LiL5qyh6L+e5o6l6YeN5paw5Y+R546wDQogICAgICBjaHJvbWVXc1BhdGggPSBudWxsOw0KICAgICAgc2Vzc2lvbnMuY2xlYXIoKTsNCiAgICB9Ow0KICAgIGNvbnN0IG9uTWVzc2FnZSA9IChldnQpID0+IHsNCiAgICAgIGNvbnN0IGRhdGEgPSB0eXBlb2YgZXZ0ID09PSAnc3RyaW5nJyA/IGV2dCA6IChldnQuZGF0YSB8fCBldnQpOw0KICAgICAgY29uc3QgbXNnID0gSlNPTi5wYXJzZSh0eXBlb2YgZGF0YSA9PT0gJ3N0cmluZycgPyBkYXRhIDogZGF0YS50b1N0cmluZygpKTsNCg0KICAgICAgaWYgKG1zZy5tZXRob2QgPT09ICdUYXJnZXQuYXR0YWNoZWRUb1RhcmdldCcpIHsNCiAgICAgICAgY29uc3QgeyBzZXNzaW9uSWQsIHRhcmdldEluZm8gfSA9IG1zZy5wYXJhbXM7DQogICAgICAgIHNlc3Npb25zLnNldCh0YXJnZXRJbmZvLnRhcmdldElkLCBzZXNzaW9uSWQpOw0KICAgICAgfQ0KICAgICAgLy8g5oum5oiq6aG16Z2i5a+5IENocm9tZSDosIPor5Xnq6/lj6PnmoTmjqLmtYvor7fmsYLvvIjlj43po47mjqfvvIkNCiAgICAgIGlmIChtc2cubWV0aG9kID09PSAnRmV0Y2gucmVxdWVzdFBhdXNlZCcpIHsNCiAgICAgICAgY29uc3QgeyByZXF1ZXN0SWQsIHNlc3Npb25JZDogc2lkIH0gPSBtc2cucGFyYW1zOw0KICAgICAgICBzZW5kQ0RQKCdGZXRjaC5mYWlsUmVxdWVzdCcsIHsgcmVxdWVzdElkLCBlcnJvclJlYXNvbjogJ0Nvbm5lY3Rpb25SZWZ1c2VkJyB9LCBzaWQpLmNhdGNoKCgpID0+IHt9KTsNCiAgICAgIH0NCiAgICAgIGlmIChtc2cuaWQgJiYgcGVuZGluZy5oYXMobXNnLmlkKSkgew0KICAgICAgICBjb25zdCB7IHJlc29sdmUsIHRpbWVyIH0gPSBwZW5kaW5nLmdldChtc2cuaWQpOw0KICAgICAgICBjbGVhclRpbWVvdXQodGltZXIpOw0KICAgICAgICBwZW5kaW5nLmRlbGV0ZShtc2cuaWQpOw0KICAgICAgICByZXNvbHZlKG1zZyk7DQogICAgICB9DQogICAgfTsNCg0KICAgIGZ1bmN0aW9uIGNsZWFudXAoKSB7DQogICAgICB3cy5yZW1vdmVFdmVudExpc3RlbmVyPy4oJ29wZW4nLCBvbk9wZW4pOw0KICAgICAgd3MucmVtb3ZlRXZlbnRMaXN0ZW5lcj8uKCdlcnJvcicsIG9uRXJyb3IpOw0KICAgIH0NCg0KICAgIC8vIOWFvOWuuSBOb2RlIOWOn+eUnyBXZWJTb2NrZXQg5ZKMIHdzIOaooeWdl+eahOS6i+S7tiBBUEkNCiAgICBpZiAod3Mub24pIHsNCiAgICAgIHdzLm9uKCdvcGVuJywgb25PcGVuKTsNCiAgICAgIHdzLm9uKCdlcnJvcicsIG9uRXJyb3IpOw0KICAgICAgd3Mub24oJ2Nsb3NlJywgb25DbG9zZSk7DQogICAgICB3cy5vbignbWVzc2FnZScsIG9uTWVzc2FnZSk7DQogICAgfSBlbHNlIHsNCiAgICAgIHdzLmFkZEV2ZW50TGlzdGVuZXIoJ29wZW4nLCBvbk9wZW4pOw0KICAgICAgd3MuYWRkRXZlbnRMaXN0ZW5lcignZXJyb3InLCBvbkVycm9yKTsNCiAgICAgIHdzLmFkZEV2ZW50TGlzdGVuZXIoJ2Nsb3NlJywgb25DbG9zZSk7DQogICAgICB3cy5hZGRFdmVudExpc3RlbmVyKCdtZXNzYWdlJywgb25NZXNzYWdlKTsNCiAgICB9DQogIH0pOw0KfQ0KDQpmdW5jdGlvbiBzZW5kQ0RQKG1ldGhvZCwgcGFyYW1zID0ge30sIHNlc3Npb25JZCA9IG51bGwpIHsNCiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsNCiAgICBpZiAoIXdzIHx8ICh3cy5yZWFkeVN0YXRlICE9PSBXUy5PUEVOICYmIHdzLnJlYWR5U3RhdGUgIT09IDEpKSB7DQogICAgICByZXR1cm4gcmVqZWN0KG5ldyBFcnJvcignV2ViU29ja2V0IOacqui/nuaOpScpKTsNCiAgICB9DQogICAgY29uc3QgaWQgPSArK2NtZElkOw0KICAgIGNvbnN0IG1zZyA9IHsgaWQsIG1ldGhvZCwgcGFyYW1zIH07DQogICAgaWYgKHNlc3Npb25JZCkgbXNnLnNlc3Npb25JZCA9IHNlc3Npb25JZDsNCiAgICBjb25zdCB0aW1lciA9IHNldFRpbWVvdXQoKCkgPT4gew0KICAgICAgcGVuZGluZy5kZWxldGUoaWQpOw0KICAgICAgcmVqZWN0KG5ldyBFcnJvcignQ0RQIOWRveS7pOi2heaXtjogJyArIG1ldGhvZCkpOw0KICAgIH0sIDMwMDAwKTsNCiAgICBwZW5kaW5nLnNldChpZCwgeyByZXNvbHZlLCB0aW1lciB9KTsNCiAgICB3cy5zZW5kKEpTT04uc3RyaW5naWZ5KG1zZykpOw0KICB9KTsNCn0NCg0KLy8g5bey5ZCv55So56uv5Y+j5oum5oiq55qEIHNlc3Npb24g6ZuG5ZCI77yI6YG/5YWN6YeN5aSN5ZCv55So77yJDQpjb25zdCBwb3J0R3VhcmRlZFNlc3Npb25zID0gbmV3IFNldCgpOw0KDQphc3luYyBmdW5jdGlvbiBlbnN1cmVTZXNzaW9uKHRhcmdldElkKSB7DQogIGlmIChzZXNzaW9ucy5oYXModGFyZ2V0SWQpKSByZXR1cm4gc2Vzc2lvbnMuZ2V0KHRhcmdldElkKTsNCiAgY29uc3QgcmVzcCA9IGF3YWl0IHNlbmRDRFAoJ1RhcmdldC5hdHRhY2hUb1RhcmdldCcsIHsgdGFyZ2V0SWQsIGZsYXR0ZW46IHRydWUgfSk7DQogIGlmIChyZXNwLnJlc3VsdD8uc2Vzc2lvbklkKSB7DQogICAgY29uc3Qgc2lkID0gcmVzcC5yZXN1bHQuc2Vzc2lvbklkOw0KICAgIHNlc3Npb25zLnNldCh0YXJnZXRJZCwgc2lkKTsNCiAgICAvLyDlkK/nlKjosIPor5Xnq6/lj6PmjqLmtYvmi6bmiKoNCiAgICBhd2FpdCBlbmFibGVQb3J0R3VhcmQoc2lkKTsNCiAgICByZXR1cm4gc2lkOw0KICB9DQogIHRocm93IG5ldyBFcnJvcignYXR0YWNoIOWksei0pTogJyArIEpTT04uc3RyaW5naWZ5KHJlc3AuZXJyb3IpKTsNCn0NCg0KLy8g5oum5oiq6aG16Z2i5a+5IENocm9tZSDosIPor5Xnq6/lj6PnmoTmjqLmtYvvvIjlj43po47mjqfvvIkNCi8vIOWPquaLpuaIqiAxMjcuMC4wLjE6e2Nocm9tZVBvcnR9IOeahOivt+axgu+8jOS4jeW9seWTjeWFtuS7luS7u+S9leacrOWcsOacjeWKoQ0KYXN5bmMgZnVuY3Rpb24gZW5hYmxlUG9ydEd1YXJkKHNlc3Npb25JZCkgew0KICBpZiAoIWNocm9tZVBvcnQgfHwgcG9ydEd1YXJkZWRTZXNzaW9ucy5oYXMoc2Vzc2lvbklkKSkgcmV0dXJuOw0KICB0cnkgew0KICAgIGF3YWl0IHNlbmRDRFAoJ0ZldGNoLmVuYWJsZScsIHsNCiAgICAgIHBhdHRlcm5zOiBbDQogICAgICAgIHsgdXJsUGF0dGVybjogYGh0dHA6Ly8xMjcuMC4wLjE6JHtjaHJvbWVQb3J0fS8qYCwgcmVxdWVzdFN0YWdlOiAnUmVxdWVzdCcgfSwNCiAgICAgICAgeyB1cmxQYXR0ZXJuOiBgaHR0cDovL2xvY2FsaG9zdDoke2Nocm9tZVBvcnR9LypgLCByZXF1ZXN0U3RhZ2U6ICdSZXF1ZXN0JyB9LA0KICAgICAgXQ0KICAgIH0sIHNlc3Npb25JZCk7DQogICAgcG9ydEd1YXJkZWRTZXNzaW9ucy5hZGQoc2Vzc2lvbklkKTsNCiAgfSBjYXRjaCB7IC8qIEZldGNoIOWfn+WQr+eUqOWksei0peS4jeW9seWTjeS4u+a1geeoiyAqLyB9DQp9DQoNCi8vIC0tLSDnrYnlvoXpobXpnaLliqDovb0gLS0tDQphc3luYyBmdW5jdGlvbiB3YWl0Rm9yTG9hZChzZXNzaW9uSWQsIHRpbWVvdXRNcyA9IDE1MDAwKSB7DQogIC8vIOWQr+eUqCBQYWdlIOWfnw0KICBhd2FpdCBzZW5kQ0RQKCdQYWdlLmVuYWJsZScsIHt9LCBzZXNzaW9uSWQpOw0KDQogIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gew0KICAgIGxldCByZXNvbHZlZCA9IGZhbHNlOw0KICAgIGNvbnN0IGRvbmUgPSAocmVzdWx0KSA9PiB7DQogICAgICBpZiAocmVzb2x2ZWQpIHJldHVybjsNCiAgICAgIHJlc29sdmVkID0gdHJ1ZTsNCiAgICAgIGNsZWFyVGltZW91dCh0aW1lcik7DQogICAgICBjbGVhckludGVydmFsKGNoZWNrSW50ZXJ2YWwpOw0KICAgICAgcmVzb2x2ZShyZXN1bHQpOw0KICAgIH07DQoNCiAgICBjb25zdCB0aW1lciA9IHNldFRpbWVvdXQoKCkgPT4gZG9uZSgndGltZW91dCcpLCB0aW1lb3V0TXMpOw0KICAgIGNvbnN0IGNoZWNrSW50ZXJ2YWwgPSBzZXRJbnRlcnZhbChhc3luYyAoKSA9PiB7DQogICAgICB0cnkgew0KICAgICAgICBjb25zdCByZXNwID0gYXdhaXQgc2VuZENEUCgnUnVudGltZS5ldmFsdWF0ZScsIHsNCiAgICAgICAgICBleHByZXNzaW9uOiAnZG9jdW1lbnQucmVhZHlTdGF0ZScsDQogICAgICAgICAgcmV0dXJuQnlWYWx1ZTogdHJ1ZSwNCiAgICAgICAgfSwgc2Vzc2lvbklkKTsNCiAgICAgICAgaWYgKHJlc3AucmVzdWx0Py5yZXN1bHQ/LnZhbHVlID09PSAnY29tcGxldGUnKSB7DQogICAgICAgICAgZG9uZSgnY29tcGxldGUnKTsNCiAgICAgICAgfQ0KICAgICAgfSBjYXRjaCB7IC8qIOW/veeVpSAqLyB9DQogICAgfSwgNTAwKTsNCiAgfSk7DQp9DQoNCi8vIC0tLSDor7vlj5YgUE9TVCBib2R5IC0tLQ0KYXN5bmMgZnVuY3Rpb24gcmVhZEJvZHkocmVxKSB7DQogIGxldCBib2R5ID0gJyc7DQogIGZvciBhd2FpdCAoY29uc3QgY2h1bmsgb2YgcmVxKSBib2R5ICs9IGNodW5rOw0KICByZXR1cm4gYm9keTsNCn0NCg0KLy8gLS0tIEhUVFAgQVBJIC0tLQ0KY29uc3Qgc2VydmVyID0gaHR0cC5jcmVhdGVTZXJ2ZXIoYXN5bmMgKHJlcSwgcmVzKSA9PiB7DQogIGNvbnN0IHBhcnNlZCA9IG5ldyBVUkwocmVxLnVybCwgYGh0dHA6Ly9sb2NhbGhvc3Q6JHtQT1JUfWApOw0KICBjb25zdCBwYXRobmFtZSA9IHBhcnNlZC5wYXRobmFtZTsNCiAgY29uc3QgcSA9IE9iamVjdC5mcm9tRW50cmllcyhwYXJzZWQuc2VhcmNoUGFyYW1zKTsNCg0KICByZXMuc2V0SGVhZGVyKCdDb250ZW50LVR5cGUnLCAnYXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOCcpOw0KDQogIHRyeSB7DQogICAgLy8gL2hlYWx0aCDkuI3pnIDopoHov57mjqUgQ2hyb21lDQogICAgaWYgKHBhdGhuYW1lID09PSAnL2hlYWx0aCcpIHsNCiAgICAgIGNvbnN0IGNvbm5lY3RlZCA9IHdzICYmICh3cy5yZWFkeVN0YXRlID09PSBXUy5PUEVOIHx8IHdzLnJlYWR5U3RhdGUgPT09IDEpOw0KICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeSh7IHN0YXR1czogJ29rJywgY29ubmVjdGVkLCBzZXNzaW9uczogc2Vzc2lvbnMuc2l6ZSwgY2hyb21lUG9ydCB9KSk7DQogICAgICByZXR1cm47DQogICAgfQ0KDQogICAgYXdhaXQgY29ubmVjdCgpOw0KDQogICAgLy8gR0VUIC90YXJnZXRzIC0g5YiX5Ye65omA5pyJ6aG16Z2iDQogICAgaWYgKHBhdGhuYW1lID09PSAnL3RhcmdldHMnKSB7DQogICAgICBjb25zdCByZXNwID0gYXdhaXQgc2VuZENEUCgnVGFyZ2V0LmdldFRhcmdldHMnKTsNCiAgICAgIGNvbnN0IHBhZ2VzID0gcmVzcC5yZXN1bHQudGFyZ2V0SW5mb3MuZmlsdGVyKHQgPT4gdC50eXBlID09PSAncGFnZScpOw0KICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeShwYWdlcywgbnVsbCwgMikpOw0KICAgIH0NCg0KICAgIC8vIEdFVCAvbmV3P3VybD14eHggLSDliJvlu7rmlrDlkI7lj7AgdGFiDQogICAgZWxzZSBpZiAocGF0aG5hbWUgPT09ICcvbmV3Jykgew0KICAgICAgY29uc3QgdGFyZ2V0VXJsID0gcS51cmwgfHwgJ2Fib3V0OmJsYW5rJzsNCiAgICAgIGNvbnN0IHJlc3AgPSBhd2FpdCBzZW5kQ0RQKCdUYXJnZXQuY3JlYXRlVGFyZ2V0JywgeyB1cmw6IHRhcmdldFVybCwgYmFja2dyb3VuZDogdHJ1ZSB9KTsNCiAgICAgIGNvbnN0IHRhcmdldElkID0gcmVzcC5yZXN1bHQudGFyZ2V0SWQ7DQoNCiAgICAgIC8vIOetieW+hemhtemdouWKoOi9vQ0KICAgICAgaWYgKHRhcmdldFVybCAhPT0gJ2Fib3V0OmJsYW5rJykgew0KICAgICAgICB0cnkgew0KICAgICAgICAgIGNvbnN0IHNpZCA9IGF3YWl0IGVuc3VyZVNlc3Npb24odGFyZ2V0SWQpOw0KICAgICAgICAgIGF3YWl0IHdhaXRGb3JMb2FkKHNpZCk7DQogICAgICAgIH0gY2F0Y2ggeyAvKiDpnZ7oh7Tlkb3vvIznu6fnu60gKi8gfQ0KICAgICAgfQ0KDQogICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHsgdGFyZ2V0SWQgfSkpOw0KICAgIH0NCg0KICAgIC8vIEdFVCAvY2xvc2U/dGFyZ2V0PXh4eCAtIOWFs+mXrSB0YWINCiAgICBlbHNlIGlmIChwYXRobmFtZSA9PT0gJy9jbG9zZScpIHsNCiAgICAgIGNvbnN0IHJlc3AgPSBhd2FpdCBzZW5kQ0RQKCdUYXJnZXQuY2xvc2VUYXJnZXQnLCB7IHRhcmdldElkOiBxLnRhcmdldCB9KTsNCiAgICAgIHNlc3Npb25zLmRlbGV0ZShxLnRhcmdldCk7DQogICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHJlc3AucmVzdWx0KSk7DQogICAgfQ0KDQogICAgLy8gR0VUIC9uYXZpZ2F0ZT90YXJnZXQ9eHh4JnVybD15eXkgLSDlr7zoiKrvvIjoh6rliqjnrYnlvoXliqDovb3vvIkNCiAgICBlbHNlIGlmIChwYXRobmFtZSA9PT0gJy9uYXZpZ2F0ZScpIHsNCiAgICAgIGNvbnN0IHNpZCA9IGF3YWl0IGVuc3VyZVNlc3Npb24ocS50YXJnZXQpOw0KICAgICAgY29uc3QgcmVzcCA9IGF3YWl0IHNlbmRDRFAoJ1BhZ2UubmF2aWdhdGUnLCB7IHVybDogcS51cmwgfSwgc2lkKTsNCg0KICAgICAgLy8g562J5b6F6aG16Z2i5Yqg6L295a6M5oiQDQogICAgICBhd2FpdCB3YWl0Rm9yTG9hZChzaWQpOw0KDQogICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHJlc3AucmVzdWx0KSk7DQogICAgfQ0KDQogICAgLy8gR0VUIC9iYWNrP3RhcmdldD14eHggLSDlkI7pgIANCiAgICBlbHNlIGlmIChwYXRobmFtZSA9PT0gJy9iYWNrJykgew0KICAgICAgY29uc3Qgc2lkID0gYXdhaXQgZW5zdXJlU2Vzc2lvbihxLnRhcmdldCk7DQogICAgICBhd2FpdCBzZW5kQ0RQKCdSdW50aW1lLmV2YWx1YXRlJywgeyBleHByZXNzaW9uOiAnaGlzdG9yeS5iYWNrKCknIH0sIHNpZCk7DQogICAgICBhd2FpdCB3YWl0Rm9yTG9hZChzaWQpOw0KICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeSh7IG9rOiB0cnVlIH0pKTsNCiAgICB9DQoNCiAgICAvLyBQT1NUIC9ldmFsP3RhcmdldD14eHggLSDmiafooYwgSlMNCiAgICBlbHNlIGlmIChwYXRobmFtZSA9PT0gJy9ldmFsJykgew0KICAgICAgY29uc3Qgc2lkID0gYXdhaXQgZW5zdXJlU2Vzc2lvbihxLnRhcmdldCk7DQogICAgICBjb25zdCBib2R5ID0gYXdhaXQgcmVhZEJvZHkocmVxKTsNCiAgICAgIGNvbnN0IGV4cHIgPSBib2R5IHx8IHEuZXhwciB8fCAnZG9jdW1lbnQudGl0bGUnOw0KICAgICAgY29uc3QgcmVzcCA9IGF3YWl0IHNlbmRDRFAoJ1J1bnRpbWUuZXZhbHVhdGUnLCB7DQogICAgICAgIGV4cHJlc3Npb246IGV4cHIsDQogICAgICAgIHJldHVybkJ5VmFsdWU6IHRydWUsDQogICAgICAgIGF3YWl0UHJvbWlzZTogdHJ1ZSwNCiAgICAgIH0sIHNpZCk7DQogICAgICBpZiAocmVzcC5yZXN1bHQ/LnJlc3VsdD8udmFsdWUgIT09IHVuZGVmaW5lZCkgew0KICAgICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHsgdmFsdWU6IHJlc3AucmVzdWx0LnJlc3VsdC52YWx1ZSB9KSk7DQogICAgICB9IGVsc2UgaWYgKHJlc3AucmVzdWx0Py5leGNlcHRpb25EZXRhaWxzKSB7DQogICAgICAgIHJlcy5zdGF0dXNDb2RlID0gNDAwOw0KICAgICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6IHJlc3AucmVzdWx0LmV4Y2VwdGlvbkRldGFpbHMudGV4dCB9KSk7DQogICAgICB9IGVsc2Ugew0KICAgICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHJlc3AucmVzdWx0KSk7DQogICAgICB9DQogICAgfQ0KDQogICAgLy8gUE9TVCAvY2xpY2s/dGFyZ2V0PXh4eCAtIOeCueWHu++8iGJvZHkg5Li6IENTUyDpgInmi6nlmajvvIkNCiAgICAvLyBQT1NUIC9jbGljaz90YXJnZXQ9eHh4IOKAlCBKUyDlsYLpnaLngrnlh7vvvIjnroDljZXlv6vpgJ/vvIzopobnm5blpKflpJrmlbDlnLrmma/vvIkNCiAgICBlbHNlIGlmIChwYXRobmFtZSA9PT0gJy9jbGljaycpIHsNCiAgICAgIGNvbnN0IHNpZCA9IGF3YWl0IGVuc3VyZVNlc3Npb24ocS50YXJnZXQpOw0KICAgICAgY29uc3Qgc2VsZWN0b3IgPSBhd2FpdCByZWFkQm9keShyZXEpOw0KICAgICAgaWYgKCFzZWxlY3Rvcikgew0KICAgICAgICByZXMuc3RhdHVzQ29kZSA9IDQwMDsNCiAgICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAnUE9TVCBib2R5IOmcgOimgSBDU1Mg6YCJ5oup5ZmoJyB9KSk7DQogICAgICAgIHJldHVybjsNCiAgICAgIH0NCiAgICAgIGNvbnN0IHNlbGVjdG9ySnNvbiA9IEpTT04uc3RyaW5naWZ5KHNlbGVjdG9yKTsNCiAgICAgIGNvbnN0IGpzID0gYCgoKSA9PiB7DQogICAgICAgIGNvbnN0IGVsID0gZG9jdW1lbnQucXVlcnlTZWxlY3Rvcigke3NlbGVjdG9ySnNvbn0pOw0KICAgICAgICBpZiAoIWVsKSByZXR1cm4geyBlcnJvcjogJ+acquaJvuWIsOWFg+e0oDogJyArICR7c2VsZWN0b3JKc29ufSB9Ow0KICAgICAgICBlbC5zY3JvbGxJbnRvVmlldyh7IGJsb2NrOiAnY2VudGVyJyB9KTsNCiAgICAgICAgZWwuY2xpY2soKTsNCiAgICAgICAgcmV0dXJuIHsgY2xpY2tlZDogdHJ1ZSwgdGFnOiBlbC50YWdOYW1lLCB0ZXh0OiAoZWwudGV4dENvbnRlbnQgfHwgJycpLnNsaWNlKDAsIDEwMCkgfTsNCiAgICAgIH0pKClgOw0KICAgICAgY29uc3QgcmVzcCA9IGF3YWl0IHNlbmRDRFAoJ1J1bnRpbWUuZXZhbHVhdGUnLCB7DQogICAgICAgIGV4cHJlc3Npb246IGpzLA0KICAgICAgICByZXR1cm5CeVZhbHVlOiB0cnVlLA0KICAgICAgICBhd2FpdFByb21pc2U6IHRydWUsDQogICAgICB9LCBzaWQpOw0KICAgICAgaWYgKHJlc3AucmVzdWx0Py5yZXN1bHQ/LnZhbHVlKSB7DQogICAgICAgIGNvbnN0IHZhbCA9IHJlc3AucmVzdWx0LnJlc3VsdC52YWx1ZTsNCiAgICAgICAgaWYgKHZhbC5lcnJvcikgew0KICAgICAgICAgIHJlcy5zdGF0dXNDb2RlID0gNDAwOw0KICAgICAgICAgIHJlcy5lbmQoSlNPTi5zdHJpbmdpZnkodmFsKSk7DQogICAgICAgIH0gZWxzZSB7DQogICAgICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeSh2YWwpKTsNCiAgICAgICAgfQ0KICAgICAgfSBlbHNlIHsNCiAgICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeShyZXNwLnJlc3VsdCkpOw0KICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIFBPU1QgL2NsaWNrQXQ/dGFyZ2V0PXh4eCDigJQgQ0RQIOa1j+iniOWZqOe6p+ecn+Wunum8oOagh+eCueWHu++8iOeul+eUqOaIt+aJi+WKv++8jOiDveinpuWPkeaWh+S7tuWvueivneahhuOAgee7lei/h+WPjeiHquWKqOWMluajgOa1i++8iQ0KICAgIGVsc2UgaWYgKHBhdGhuYW1lID09PSAnL2NsaWNrQXQnKSB7DQogICAgICBjb25zdCBzaWQgPSBhd2FpdCBlbnN1cmVTZXNzaW9uKHEudGFyZ2V0KTsNCiAgICAgIGNvbnN0IHNlbGVjdG9yID0gYXdhaXQgcmVhZEJvZHkocmVxKTsNCiAgICAgIGlmICghc2VsZWN0b3IpIHsNCiAgICAgICAgcmVzLnN0YXR1c0NvZGUgPSA0MDA7DQogICAgICAgIHJlcy5lbmQoSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogJ1BPU1QgYm9keSDpnIDopoEgQ1NTIOmAieaLqeWZqCcgfSkpOw0KICAgICAgICByZXR1cm47DQogICAgICB9DQogICAgICBjb25zdCBzZWxlY3Rvckpzb24gPSBKU09OLnN0cmluZ2lmeShzZWxlY3Rvcik7DQogICAgICBjb25zdCBqcyA9IGAoKCkgPT4gew0KICAgICAgICBjb25zdCBlbCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJHtzZWxlY3Rvckpzb259KTsNCiAgICAgICAgaWYgKCFlbCkgcmV0dXJuIHsgZXJyb3I6ICfmnKrmib7liLDlhYPntKA6ICcgKyAke3NlbGVjdG9ySnNvbn0gfTsNCiAgICAgICAgZWwuc2Nyb2xsSW50b1ZpZXcoeyBibG9jazogJ2NlbnRlcicgfSk7DQogICAgICAgIGNvbnN0IHJlY3QgPSBlbC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKTsNCiAgICAgICAgcmV0dXJuIHsgeDogcmVjdC54ICsgcmVjdC53aWR0aCAvIDIsIHk6IHJlY3QueSArIHJlY3QuaGVpZ2h0IC8gMiwgdGFnOiBlbC50YWdOYW1lLCB0ZXh0OiAoZWwudGV4dENvbnRlbnQgfHwgJycpLnNsaWNlKDAsIDEwMCkgfTsNCiAgICAgIH0pKClgOw0KICAgICAgY29uc3QgY29vcmRSZXNwID0gYXdhaXQgc2VuZENEUCgnUnVudGltZS5ldmFsdWF0ZScsIHsNCiAgICAgICAgZXhwcmVzc2lvbjoganMsDQogICAgICAgIHJldHVybkJ5VmFsdWU6IHRydWUsDQogICAgICAgIGF3YWl0UHJvbWlzZTogdHJ1ZSwNCiAgICAgIH0sIHNpZCk7DQogICAgICBjb25zdCBjb29yZCA9IGNvb3JkUmVzcC5yZXN1bHQ/LnJlc3VsdD8udmFsdWU7DQogICAgICBpZiAoIWNvb3JkIHx8IGNvb3JkLmVycm9yKSB7DQogICAgICAgIHJlcy5zdGF0dXNDb2RlID0gNDAwOw0KICAgICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KGNvb3JkIHx8IGNvb3JkUmVzcC5yZXN1bHQpKTsNCiAgICAgICAgcmV0dXJuOw0KICAgICAgfQ0KICAgICAgYXdhaXQgc2VuZENEUCgnSW5wdXQuZGlzcGF0Y2hNb3VzZUV2ZW50Jywgew0KICAgICAgICB0eXBlOiAnbW91c2VQcmVzc2VkJywgeDogY29vcmQueCwgeTogY29vcmQueSwgYnV0dG9uOiAnbGVmdCcsIGNsaWNrQ291bnQ6IDENCiAgICAgIH0sIHNpZCk7DQogICAgICBhd2FpdCBzZW5kQ0RQKCdJbnB1dC5kaXNwYXRjaE1vdXNlRXZlbnQnLCB7DQogICAgICAgIHR5cGU6ICdtb3VzZVJlbGVhc2VkJywgeDogY29vcmQueCwgeTogY29vcmQueSwgYnV0dG9uOiAnbGVmdCcsIGNsaWNrQ291bnQ6IDENCiAgICAgIH0sIHNpZCk7DQogICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHsgY2xpY2tlZDogdHJ1ZSwgeDogY29vcmQueCwgeTogY29vcmQueSwgdGFnOiBjb29yZC50YWcsIHRleHQ6IGNvb3JkLnRleHQgfSkpOw0KICAgIH0NCg0KICAgIC8vIFBPU1QgL3NldEZpbGVzP3RhcmdldD14eHgg4oCUIOe7mSBmaWxlIGlucHV0IOiuvue9ruacrOWcsOaWh+S7tu+8iOe7lei/h+aWh+S7tuWvueivneahhu+8iQ0KICAgIC8vIGJvZHk6IEpTT04geyAic2VsZWN0b3IiOiAiaW5wdXRbdHlwZT1maWxlXSIsICJmaWxlcyI6IFsiL3BhdGgvdG8vZmlsZTEucG5nIiwgIi9wYXRoL3RvL2ZpbGUyLnBuZyJdIH0NCiAgICBlbHNlIGlmIChwYXRobmFtZSA9PT0gJy9zZXRGaWxlcycpIHsNCiAgICAgIGNvbnN0IHNpZCA9IGF3YWl0IGVuc3VyZVNlc3Npb24ocS50YXJnZXQpOw0KICAgICAgY29uc3QgYm9keSA9IEpTT04ucGFyc2UoYXdhaXQgcmVhZEJvZHkocmVxKSk7DQogICAgICBpZiAoIWJvZHkuc2VsZWN0b3IgfHwgIWJvZHkuZmlsZXMpIHsNCiAgICAgICAgcmVzLnN0YXR1c0NvZGUgPSA0MDA7DQogICAgICAgIHJlcy5lbmQoSlNPTi5zdHJpbmdpZnkoeyBlcnJvcjogJ+mcgOimgSBzZWxlY3RvciDlkowgZmlsZXMg5a2X5q61JyB9KSk7DQogICAgICAgIHJldHVybjsNCiAgICAgIH0NCiAgICAgIC8vIOiOt+WPliBET00g6IqC54K5DQogICAgICBhd2FpdCBzZW5kQ0RQKCdET00uZW5hYmxlJywge30sIHNpZCk7DQogICAgICBjb25zdCBkb2MgPSBhd2FpdCBzZW5kQ0RQKCdET00uZ2V0RG9jdW1lbnQnLCB7fSwgc2lkKTsNCiAgICAgIGNvbnN0IG5vZGUgPSBhd2FpdCBzZW5kQ0RQKCdET00ucXVlcnlTZWxlY3RvcicsIHsNCiAgICAgICAgbm9kZUlkOiBkb2MucmVzdWx0LnJvb3Qubm9kZUlkLA0KICAgICAgICBzZWxlY3RvcjogYm9keS5zZWxlY3Rvcg0KICAgICAgfSwgc2lkKTsNCiAgICAgIGlmICghbm9kZS5yZXN1bHQ/Lm5vZGVJZCkgew0KICAgICAgICByZXMuc3RhdHVzQ29kZSA9IDQwMDsNCiAgICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeSh7IGVycm9yOiAn5pyq5om+5Yiw5YWD57SgOiAnICsgYm9keS5zZWxlY3RvciB9KSk7DQogICAgICAgIHJldHVybjsNCiAgICAgIH0NCiAgICAgIC8vIOiuvue9ruaWh+S7tg0KICAgICAgYXdhaXQgc2VuZENEUCgnRE9NLnNldEZpbGVJbnB1dEZpbGVzJywgew0KICAgICAgICBub2RlSWQ6IG5vZGUucmVzdWx0Lm5vZGVJZCwNCiAgICAgICAgZmlsZXM6IGJvZHkuZmlsZXMNCiAgICAgIH0sIHNpZCk7DQogICAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHsgc3VjY2VzczogdHJ1ZSwgZmlsZXM6IGJvZHkuZmlsZXMubGVuZ3RoIH0pKTsNCiAgICB9DQoNCiAgICAvLyBHRVQgL3Njcm9sbD90YXJnZXQ9eHh4Jnk9MzAwMCAtIOa7muWKqA0KICAgIGVsc2UgaWYgKHBhdGhuYW1lID09PSAnL3Njcm9sbCcpIHsNCiAgICAgIGNvbnN0IHNpZCA9IGF3YWl0IGVuc3VyZVNlc3Npb24ocS50YXJnZXQpOw0KICAgICAgY29uc3QgeSA9IHBhcnNlSW50KHEueSB8fCAnMzAwMCcpOw0KICAgICAgY29uc3QgZGlyZWN0aW9uID0gcS5kaXJlY3Rpb24gfHwgJ2Rvd24nOyAvLyBkb3duIHwgdXAgfCB0b3AgfCBib3R0b20NCiAgICAgIGxldCBqczsNCiAgICAgIGlmIChkaXJlY3Rpb24gPT09ICd0b3AnKSB7DQogICAgICAgIGpzID0gJ3dpbmRvdy5zY3JvbGxUbygwLCAwKTsgInNjcm9sbGVkIHRvIHRvcCInOw0KICAgICAgfSBlbHNlIGlmIChkaXJlY3Rpb24gPT09ICdib3R0b20nKSB7DQogICAgICAgIGpzID0gJ3dpbmRvdy5zY3JvbGxUbygwLCBkb2N1bWVudC5ib2R5LnNjcm9sbEhlaWdodCk7ICJzY3JvbGxlZCB0byBib3R0b20iJzsNCiAgICAgIH0gZWxzZSBpZiAoZGlyZWN0aW9uID09PSAndXAnKSB7DQogICAgICAgIGpzID0gYHdpbmRvdy5zY3JvbGxCeSgwLCAtJHtNYXRoLmFicyh5KX0pOyAic2Nyb2xsZWQgdXAgJHtNYXRoLmFicyh5KX1weCJgOw0KICAgICAgfSBlbHNlIHsNCiAgICAgICAganMgPSBgd2luZG93LnNjcm9sbEJ5KDAsICR7TWF0aC5hYnMoeSl9KTsgInNjcm9sbGVkIGRvd24gJHtNYXRoLmFicyh5KX1weCJgOw0KICAgICAgfQ0KICAgICAgY29uc3QgcmVzcCA9IGF3YWl0IHNlbmRDRFAoJ1J1bnRpbWUuZXZhbHVhdGUnLCB7DQogICAgICAgIGV4cHJlc3Npb246IGpzLA0KICAgICAgICByZXR1cm5CeVZhbHVlOiB0cnVlLA0KICAgICAgfSwgc2lkKTsNCiAgICAgIC8vIOetieW+heaHkuWKoOi9veinpuWPkQ0KICAgICAgYXdhaXQgbmV3IFByb21pc2UociA9PiBzZXRUaW1lb3V0KHIsIDgwMCkpOw0KICAgICAgcmVzLmVuZChKU09OLnN0cmluZ2lmeSh7IHZhbHVlOiByZXNwLnJlc3VsdD8ucmVzdWx0Py52YWx1ZSB9KSk7DQogICAgfQ0KDQogICAgLy8gR0VUIC9zY3JlZW5zaG90P3RhcmdldD14eHgmZmlsZT0vdG1wL3gucG5nIC0g5oiq5Zu+DQogICAgZWxzZSBpZiAocGF0aG5hbWUgPT09ICcvc2NyZWVuc2hvdCcpIHsNCiAgICAgIGNvbnN0IHNpZCA9IGF3YWl0IGVuc3VyZVNlc3Npb24ocS50YXJnZXQpOw0KICAgICAgY29uc3QgZm9ybWF0ID0gcS5mb3JtYXQgfHwgJ3BuZyc7DQogICAgICBjb25zdCByZXNwID0gYXdhaXQgc2VuZENEUCgnUGFnZS5jYXB0dXJlU2NyZWVuc2hvdCcsIHsNCiAgICAgICAgZm9ybWF0LA0KICAgICAgICBxdWFsaXR5OiBmb3JtYXQgPT09ICdqcGVnJyA/IDgwIDogdW5kZWZpbmVkLA0KICAgICAgfSwgc2lkKTsNCiAgICAgIGlmIChxLmZpbGUpIHsNCiAgICAgICAgZnMud3JpdGVGaWxlU3luYyhxLmZpbGUsIEJ1ZmZlci5mcm9tKHJlc3AucmVzdWx0LmRhdGEsICdiYXNlNjQnKSk7DQogICAgICAgIHJlcy5lbmQoSlNPTi5zdHJpbmdpZnkoeyBzYXZlZDogcS5maWxlIH0pKTsNCiAgICAgIH0gZWxzZSB7DQogICAgICAgIHJlcy5zZXRIZWFkZXIoJ0NvbnRlbnQtVHlwZScsICdpbWFnZS8nICsgZm9ybWF0KTsNCiAgICAgICAgcmVzLmVuZChCdWZmZXIuZnJvbShyZXNwLnJlc3VsdC5kYXRhLCAnYmFzZTY0JykpOw0KICAgICAgfQ0KICAgIH0NCg0KICAgIC8vIEdFVCAvaW5mbz90YXJnZXQ9eHh4IC0g6I635Y+W6aG16Z2i5L+h5oGvDQogICAgZWxzZSBpZiAocGF0aG5hbWUgPT09ICcvaW5mbycpIHsNCiAgICAgIGNvbnN0IHNpZCA9IGF3YWl0IGVuc3VyZVNlc3Npb24ocS50YXJnZXQpOw0KICAgICAgY29uc3QgcmVzcCA9IGF3YWl0IHNlbmRDRFAoJ1J1bnRpbWUuZXZhbHVhdGUnLCB7DQogICAgICAgIGV4cHJlc3Npb246ICdKU09OLnN0cmluZ2lmeSh7dGl0bGU6IGRvY3VtZW50LnRpdGxlLCB1cmw6IGxvY2F0aW9uLmhyZWYsIHJlYWR5OiBkb2N1bWVudC5yZWFkeVN0YXRlfSknLA0KICAgICAgICByZXR1cm5CeVZhbHVlOiB0cnVlLA0KICAgICAgfSwgc2lkKTsNCiAgICAgIHJlcy5lbmQocmVzcC5yZXN1bHQ/LnJlc3VsdD8udmFsdWUgfHwgJ3t9Jyk7DQogICAgfQ0KDQogICAgZWxzZSB7DQogICAgICByZXMuc3RhdHVzQ29kZSA9IDQwNDsNCiAgICAgIHJlcy5lbmQoSlNPTi5zdHJpbmdpZnkoew0KICAgICAgICBlcnJvcjogJ+acquefpeerr+eCuScsDQogICAgICAgIGVuZHBvaW50czogew0KICAgICAgICAgICcvaGVhbHRoJzogJ0dFVCAtIOWBpeW6t+ajgOafpScsDQogICAgICAgICAgJy90YXJnZXRzJzogJ0dFVCAtIOWIl+WHuuaJgOaciemhtemdoiB0YWInLA0KICAgICAgICAgICcvbmV3P3VybD0nOiAnR0VUIC0g5Yib5bu65paw5ZCO5Y+wIHRhYu+8iOiHquWKqOetieW+heWKoOi9ve+8iScsDQogICAgICAgICAgJy9jbG9zZT90YXJnZXQ9JzogJ0dFVCAtIOWFs+mXrSB0YWInLA0KICAgICAgICAgICcvbmF2aWdhdGU/dGFyZ2V0PSZ1cmw9JzogJ0dFVCAtIOWvvOiIqu+8iOiHquWKqOetieW+heWKoOi9ve+8iScsDQogICAgICAgICAgJy9iYWNrP3RhcmdldD0nOiAnR0VUIC0g5ZCO6YCAJywNCiAgICAgICAgICAnL2luZm8/dGFyZ2V0PSc6ICdHRVQgLSDpobXpnaLmoIfpopgvVVJML+eKtuaAgScsDQogICAgICAgICAgJy9ldmFsP3RhcmdldD0nOiAnUE9TVCBib2R5PUpT6KGo6L6+5byPIC0g5omn6KGMIEpTJywNCiAgICAgICAgICAnL2NsaWNrP3RhcmdldD0nOiAnUE9TVCBib2R5PUNTU+mAieaLqeWZqCAtIOeCueWHu+WFg+e0oCcsDQogICAgICAgICAgJy9zY3JvbGw/dGFyZ2V0PSZ5PSZkaXJlY3Rpb249JzogJ0dFVCAtIOa7muWKqOmhtemdoicsDQogICAgICAgICAgJy9zY3JlZW5zaG90P3RhcmdldD0mZmlsZT0nOiAnR0VUIC0g5oiq5Zu+JywNCiAgICAgICAgfSwNCiAgICAgIH0pKTsNCiAgICB9DQogIH0gY2F0Y2ggKGUpIHsNCiAgICByZXMuc3RhdHVzQ29kZSA9IDUwMDsNCiAgICByZXMuZW5kKEpTT04uc3RyaW5naWZ5KHsgZXJyb3I6IGUubWVzc2FnZSB9KSk7DQogIH0NCn0pOw0KDQovLyDmo4Dmn6Xnq6/lj6PmmK/lkKbooqvljaDnlKgNCmZ1bmN0aW9uIGNoZWNrUG9ydEF2YWlsYWJsZShwb3J0KSB7DQogIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gew0KICAgIGNvbnN0IHMgPSBuZXQuY3JlYXRlU2VydmVyKCk7DQogICAgcy5vbmNlKCdlcnJvcicsICgpID0+IHJlc29sdmUoZmFsc2UpKTsNCiAgICBzLm9uY2UoJ2xpc3RlbmluZycsICgpID0+IHsgcy5jbG9zZSgpOyByZXNvbHZlKHRydWUpOyB9KTsNCiAgICBzLmxpc3Rlbihwb3J0LCAnMTI3LjAuMC4xJyk7DQogIH0pOw0KfQ0KDQphc3luYyBmdW5jdGlvbiBtYWluKCkgew0KICAvLyDmo4Dmn6XmmK/lkKblt7LmnIkgcHJveHkg5Zyo6L+Q6KGMDQogIGNvbnN0IGF2YWlsYWJsZSA9IGF3YWl0IGNoZWNrUG9ydEF2YWlsYWJsZShQT1JUKTsNCiAgaWYgKCFhdmFpbGFibGUpIHsNCiAgICAvLyDpqozor4Hlt7LmnInlrp7kvovmmK/lkKblgaXlurcNCiAgICB0cnkgew0KICAgICAgY29uc3Qgb2sgPSBhd2FpdCBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gew0KICAgICAgICBodHRwLmdldChgaHR0cDovLzEyNy4wLjAuMToke1BPUlR9L2hlYWx0aGAsIHsgdGltZW91dDogMjAwMCB9LCAocmVzKSA9PiB7DQogICAgICAgICAgbGV0IGQgPSAnJzsNCiAgICAgICAgICByZXMub24oJ2RhdGEnLCBjID0+IGQgKz0gYyk7DQogICAgICAgICAgcmVzLm9uKCdlbmQnLCAoKSA9PiByZXNvbHZlKGQuaW5jbHVkZXMoJyJvayInKSkpOw0KICAgICAgICB9KS5vbignZXJyb3InLCAoKSA9PiByZXNvbHZlKGZhbHNlKSk7DQogICAgICB9KTsNCiAgICAgIGlmIChvaykgew0KICAgICAgICBjb25zb2xlLmxvZyhgW0NEUCBQcm94eV0g5bey5pyJ5a6e5L6L6L+Q6KGM5Zyo56uv5Y+jICR7UE9SVH3vvIzpgIDlh7pgKTsNCiAgICAgICAgcHJvY2Vzcy5leGl0KDApOw0KICAgICAgfQ0KICAgIH0gY2F0Y2ggeyAvKiDnq6/lj6PljaDnlKjkvYbpnZ4gcHJveHnvvIznu6fnu63miqXplJkgKi8gfQ0KICAgIGNvbnNvbGUuZXJyb3IoYFtDRFAgUHJveHldIOerr+WPoyAke1BPUlR9IOW3suiiq+WNoOeUqGApOw0KICAgIHByb2Nlc3MuZXhpdCgxKTsNCiAgfQ0KDQogIHNlcnZlci5saXN0ZW4oUE9SVCwgJzEyNy4wLjAuMScsICgpID0+IHsNCiAgICBjb25zb2xlLmxvZyhgW0NEUCBQcm94eV0g6L+Q6KGM5ZyoIGh0dHA6Ly9sb2NhbGhvc3Q6JHtQT1JUfWApOw0KICAgIC8vIOWQr+WKqOaXtuWwneivlei/nuaOpSBDaHJvbWXvvIjpnZ7pmLvloZ7vvIkNCiAgICBjb25uZWN0KCkuY2F0Y2goZSA9PiBjb25zb2xlLmVycm9yKCdbQ0RQIFByb3h5XSDliJ3lp4vov57mjqXlpLHotKU6JywgZS5tZXNzYWdlLCAn77yI5bCG5Zyo6aaW5qyh6K+35rGC5pe26YeN6K+V77yJJykpOw0KICB9KTsNCn0NCg0KLy8g6Ziy5q2i5pyq5o2V6I635byC5bi45a+86Ie06L+b56iL5bSp5rqDDQpwcm9jZXNzLm9uKCd1bmNhdWdodEV4Y2VwdGlvbicsIChlKSA9PiB7DQogIGNvbnNvbGUuZXJyb3IoJ1tDRFAgUHJveHldIOacquaNleiOt+W8guW4uDonLCBlLm1lc3NhZ2UpOw0KfSk7DQpwcm9jZXNzLm9uKCd1bmhhbmRsZWRSZWplY3Rpb24nLCAoZSkgPT4gew0KICBjb25zb2xlLmVycm9yKCdbQ0RQIFByb3h5XSDmnKrlpITnkIbmi5Lnu506JywgZT8ubWVzc2FnZSB8fCBlKTsNCn0pOw0KDQptYWluKCk7DQo=
+#!/usr/bin/env node
+// CDP Proxy - 通过 HTTP API 操控用户日常 Chrome
+// 要求：Chrome 已开启 --remote-debugging-port
+// Node.js 22+（使用原生 WebSocket）
+
+import http from 'node:http';
+import { URL } from 'node:url';
+import fs from 'node:fs';
+import path from 'node:path';
+import os from 'node:os';
+import net from 'node:net';
+
+const PORT = parseInt(process.env.CDP_PROXY_PORT || '3456');
+let ws = null;
+let cmdId = 0;
+const pending = new Map(); // id -> {resolve, timer}
+const sessions = new Map(); // targetId -> sessionId
+
+// --- WebSocket 兼容层 ---
+let WS;
+if (typeof globalThis.WebSocket !== 'undefined') {
+  // Node 22+ 原生 WebSocket（浏览器兼容 API）
+  WS = globalThis.WebSocket;
+} else {
+  // 回退到 ws 模块
+  try {
+    WS = (await import('ws')).default;
+  } catch {
+    console.error('[CDP Proxy] 错误：Node.js 版本 < 22 且未安装 ws 模块');
+    console.error('  解决方案：升级到 Node.js 22+ 或执行 npm install -g ws');
+    process.exit(1);
+  }
+}
+
+// --- 自动发现 Chrome 调试端口 ---
+async function discoverChromePort() {
+  // 1. 尝试读 DevToolsActivePort 文件
+  const possiblePaths = [];
+  const platform = os.platform();
+
+  if (platform === 'darwin') {
+    const home = os.homedir();
+    possiblePaths.push(
+      path.join(home, 'Library/Application Support/Google/Chrome/DevToolsActivePort'),
+      path.join(home, 'Library/Application Support/Google/Chrome Canary/DevToolsActivePort'),
+      path.join(home, 'Library/Application Support/Chromium/DevToolsActivePort'),
+    );
+  } else if (platform === 'linux') {
+    const home = os.homedir();
+    possiblePaths.push(
+      path.join(home, '.config/google-chrome/DevToolsActivePort'),
+      path.join(home, '.config/chromium/DevToolsActivePort'),
+    );
+  } else if (platform === 'win32') {
+    const localAppData = process.env.LOCALAPPDATA || '';
+    possiblePaths.push(
+      path.join(localAppData, 'Google/Chrome/User Data/DevToolsActivePort'),
+      path.join(localAppData, 'Chromium/User Data/DevToolsActivePort'),
+    );
+  }
+
+  for (const p of possiblePaths) {
+    try {
+      const content = fs.readFileSync(p, 'utf-8').trim();
+      const lines = content.split('\n');
+      const port = parseInt(lines[0]);
+      if (port > 0 && port < 65536) {
+        const ok = await checkPort(port);
+        if (ok) {
+          // 第二行是带 UUID 的 WebSocket 路径（如 /devtools/browser/xxx-xxx）
+          // 非显式 --remote-debugging-port 启动时，Chrome 可能只接受此路径
+          const wsPath = lines[1] || null;
+          console.log(`[CDP Proxy] 从 DevToolsActivePort 发现端口: ${port}${wsPath ? ' (带 wsPath)' : ''}`);
+          return { port, wsPath };
+        }
+      }
+    } catch { /* 文件不存在，继续 */ }
+  }
+
+  // 2. 扫描常用端口
+  const commonPorts = [9222, 9229, 9333];
+  for (const port of commonPorts) {
+    const ok = await checkPort(port);
+    if (ok) {
+      console.log(`[CDP Proxy] 扫描发现 Chrome 调试端口: ${port}`);
+      return { port, wsPath: null };
+    }
+  }
+
+  return null;
+}
+
+// 用 TCP 探测端口是否监听——避免 WebSocket 连接触发 Chrome 安全弹窗
+// （WebSocket 探测会被 Chrome 视为调试连接，弹出授权对话框）
+function checkPort(port) {
+  return new Promise((resolve) => {
+    const socket = net.createConnection(port, '127.0.0.1');
+    const timer = setTimeout(() => { socket.destroy(); resolve(false); }, 2000);
+    socket.once('connect', () => { clearTimeout(timer); socket.destroy(); resolve(true); });
+    socket.once('error', () => { clearTimeout(timer); resolve(false); });
+  });
+}
+
+function getWebSocketUrl(port, wsPath) {
+  if (wsPath) return `ws://127.0.0.1:${port}${wsPath}`;
+  return `ws://127.0.0.1:${port}/devtools/browser`;
+}
+
+// --- WebSocket 连接管理 ---
+let chromePort = null;
+let chromeWsPath = null;
+
+let connectingPromise = null;
+async function connect() {
+  if (ws && (ws.readyState === WS.OPEN || ws.readyState === 1)) return;
+  if (connectingPromise) return connectingPromise;  // 复用进行中的连接
+
+  if (!chromePort) {
+    const discovered = await discoverChromePort();
+    if (!discovered) {
+      throw new Error(
+        'Chrome 未开启远程调试端口。请用以下方式启动 Chrome：\n' +
+        '  macOS: /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome --remote-debugging-port=9222\n' +
+        '  Linux: google-chrome --remote-debugging-port=9222\n' +
+        '  或在 chrome://flags 中搜索 "remote debugging" 并启用'
+      );
+    }
+    chromePort = discovered.port;
+    chromeWsPath = discovered.wsPath;
+  }
+
+  const wsUrl = getWebSocketUrl(chromePort, chromeWsPath);
+  if (!wsUrl) throw new Error('无法获取 Chrome WebSocket URL');
+
+  return connectingPromise = new Promise((resolve, reject) => {
+    ws = new WS(wsUrl);
+
+    const onOpen = () => {
+      cleanup();
+      connectingPromise = null;
+      console.log(`[CDP Proxy] 已连接 Chrome (端口 ${chromePort})`);
+      resolve();
+    };
+    const onError = (e) => {
+      cleanup();
+      connectingPromise = null;
+      ws = null;
+      chromePort = null;
+      chromeWsPath = null;
+      const msg = e.message || e.error?.message || '连接失败';
+      console.error('[CDP Proxy] 连接错误:', msg, '（端口缓存已清除，下次将重新发现）');
+      reject(new Error(msg));
+    };
+    const onClose = () => {
+      console.log('[CDP Proxy] 连接断开');
+      ws = null;
+      chromePort = null; // 重置端口缓存，下次连接重新发现
+      chromeWsPath = null;
+      sessions.clear();
+    };
+    const onMessage = (evt) => {
+      const data = typeof evt === 'string' ? evt : (evt.data || evt);
+      const msg = JSON.parse(typeof data === 'string' ? data : data.toString());
+
+      if (msg.method === 'Target.attachedToTarget') {
+        const { sessionId, targetInfo } = msg.params;
+        sessions.set(targetInfo.targetId, sessionId);
+      }
+      // 拦截页面对 Chrome 调试端口的探测请求（反风控）
+      if (msg.method === 'Fetch.requestPaused') {
+        const { requestId, sessionId: sid } = msg.params;
+        sendCDP('Fetch.failRequest', { requestId, errorReason: 'ConnectionRefused' }, sid).catch(() => {});
+      }
+      if (msg.id && pending.has(msg.id)) {
+        const { resolve, timer } = pending.get(msg.id);
+        clearTimeout(timer);
+        pending.delete(msg.id);
+        resolve(msg);
+      }
+    };
+
+    function cleanup() {
+      ws.removeEventListener?.('open', onOpen);
+      ws.removeEventListener?.('error', onError);
+    }
+
+    // 兼容 Node 原生 WebSocket 和 ws 模块的事件 API
+    if (ws.on) {
+      ws.on('open', onOpen);
+      ws.on('error', onError);
+      ws.on('close', onClose);
+      ws.on('message', onMessage);
+    } else {
+      ws.addEventListener('open', onOpen);
+      ws.addEventListener('error', onError);
+      ws.addEventListener('close', onClose);
+      ws.addEventListener('message', onMessage);
+    }
+  });
+}
+
+function sendCDP(method, params = {}, sessionId = null) {
+  return new Promise((resolve, reject) => {
+    if (!ws || (ws.readyState !== WS.OPEN && ws.readyState !== 1)) {
+      return reject(new Error('WebSocket 未连接'));
+    }
+    const id = ++cmdId;
+    const msg = { id, method, params };
+    if (sessionId) msg.sessionId = sessionId;
+    const timer = setTimeout(() => {
+      pending.delete(id);
+      reject(new Error('CDP 命令超时: ' + method));
+    }, 30000);
+    pending.set(id, { resolve, timer });
+    ws.send(JSON.stringify(msg));
+  });
+}
+
+// 已启用端口拦截的 session 集合（避免重复启用）
+const portGuardedSessions = new Set();
+
+async function ensureSession(targetId) {
+  if (sessions.has(targetId)) return sessions.get(targetId);
+  const resp = await sendCDP('Target.attachToTarget', { targetId, flatten: true });
+  if (resp.result?.sessionId) {
+    const sid = resp.result.sessionId;
+    sessions.set(targetId, sid);
+    // 启用调试端口探测拦截
+    await enablePortGuard(sid);
+    return sid;
+  }
+  throw new Error('attach 失败: ' + JSON.stringify(resp.error));
+}
+
+// 拦截页面对 Chrome 调试端口的探测（反风控）
+// 只拦截 127.0.0.1:{chromePort} 的请求，不影响其他任何本地服务
+async function enablePortGuard(sessionId) {
+  if (!chromePort || portGuardedSessions.has(sessionId)) return;
+  try {
+    await sendCDP('Fetch.enable', {
+      patterns: [
+        { urlPattern: `http://127.0.0.1:${chromePort}/*`, requestStage: 'Request' },
+        { urlPattern: `http://localhost:${chromePort}/*`, requestStage: 'Request' },
+      ]
+    }, sessionId);
+    portGuardedSessions.add(sessionId);
+  } catch { /* Fetch 域启用失败不影响主流程 */ }
+}
+
+// --- 等待页面加载 ---
+async function waitForLoad(sessionId, timeoutMs = 15000) {
+  // 启用 Page 域
+  await sendCDP('Page.enable', {}, sessionId);
+
+  return new Promise((resolve) => {
+    let resolved = false;
+    const done = (result) => {
+      if (resolved) return;
+      resolved = true;
+      clearTimeout(timer);
+      clearInterval(checkInterval);
+      resolve(result);
+    };
+
+    const timer = setTimeout(() => done('timeout'), timeoutMs);
+    const checkInterval = setInterval(async () => {
+      try {
+        const resp = await sendCDP('Runtime.evaluate', {
+          expression: 'document.readyState',
+          returnByValue: true,
+        }, sessionId);
+        if (resp.result?.result?.value === 'complete') {
+          done('complete');
+        }
+      } catch { /* 忽略 */ }
+    }, 500);
+  });
+}
+
+// --- 读取 POST body ---
+async function readBody(req) {
+  let body = '';
+  for await (const chunk of req) body += chunk;
+  return body;
+}
+
+// --- HTTP API ---
+const server = http.createServer(async (req, res) => {
+  const parsed = new URL(req.url, `http://localhost:${PORT}`);
+  const pathname = parsed.pathname;
+  const q = Object.fromEntries(parsed.searchParams);
+
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
+
+  try {
+    // /health 不需要连接 Chrome
+    if (pathname === '/health') {
+      const connected = ws && (ws.readyState === WS.OPEN || ws.readyState === 1);
+      res.end(JSON.stringify({ status: 'ok', connected, sessions: sessions.size, chromePort }));
+      return;
+    }
+
+    await connect();
+
+    // GET /targets - 列出所有页面
+    if (pathname === '/targets') {
+      const resp = await sendCDP('Target.getTargets');
+      const pages = resp.result.targetInfos.filter(t => t.type === 'page');
+      res.end(JSON.stringify(pages, null, 2));
+    }
+
+    // GET /new?url=xxx - 创建新后台 tab
+    else if (pathname === '/new') {
+      const targetUrl = q.url || 'about:blank';
+      const resp = await sendCDP('Target.createTarget', { url: targetUrl, background: true });
+      const targetId = resp.result.targetId;
+
+      // 等待页面加载
+      if (targetUrl !== 'about:blank') {
+        try {
+          const sid = await ensureSession(targetId);
+          await waitForLoad(sid);
+        } catch { /* 非致命，继续 */ }
+      }
+
+      res.end(JSON.stringify({ targetId }));
+    }
+
+    // GET /close?target=xxx - 关闭 tab
+    else if (pathname === '/close') {
+      const resp = await sendCDP('Target.closeTarget', { targetId: q.target });
+      sessions.delete(q.target);
+      res.end(JSON.stringify(resp.result));
+    }
+
+    // GET /navigate?target=xxx&url=yyy - 导航（自动等待加载）
+    else if (pathname === '/navigate') {
+      const sid = await ensureSession(q.target);
+      const resp = await sendCDP('Page.navigate', { url: q.url }, sid);
+
+      // 等待页面加载完成
+      await waitForLoad(sid);
+
+      res.end(JSON.stringify(resp.result));
+    }
+
+    // GET /back?target=xxx - 后退
+    else if (pathname === '/back') {
+      const sid = await ensureSession(q.target);
+      await sendCDP('Runtime.evaluate', { expression: 'history.back()' }, sid);
+      await waitForLoad(sid);
+      res.end(JSON.stringify({ ok: true }));
+    }
+
+    // POST /eval?target=xxx - 执行 JS
+    else if (pathname === '/eval') {
+      const sid = await ensureSession(q.target);
+      const body = await readBody(req);
+      const expr = body || q.expr || 'document.title';
+      const resp = await sendCDP('Runtime.evaluate', {
+        expression: expr,
+        returnByValue: true,
+        awaitPromise: true,
+      }, sid);
+      if (resp.result?.result?.value !== undefined) {
+        res.end(JSON.stringify({ value: resp.result.result.value }));
+      } else if (resp.result?.exceptionDetails) {
+        res.statusCode = 400;
+        res.end(JSON.stringify({ error: resp.result.exceptionDetails.text }));
+      } else {
+        res.end(JSON.stringify(resp.result));
+      }
+    }
+
+    // POST /click?target=xxx - 点击（body 为 CSS 选择器）
+    // POST /click?target=xxx — JS 层面点击（简单快速，覆盖大多数场景）
+    else if (pathname === '/click') {
+      const sid = await ensureSession(q.target);
+      const selector = await readBody(req);
+      if (!selector) {
+        res.statusCode = 400;
+        res.end(JSON.stringify({ error: 'POST body 需要 CSS 选择器' }));
+        return;
+      }
+      const selectorJson = JSON.stringify(selector);
+      const js = `(() => {
+        const el = document.querySelector(${selectorJson});
+        if (!el) return { error: '未找到元素: ' + ${selectorJson} };
+        el.scrollIntoView({ block: 'center' });
+        el.click();
+        return { clicked: true, tag: el.tagName, text: (el.textContent || '').slice(0, 100) };
+      })()`;
+      const resp = await sendCDP('Runtime.evaluate', {
+        expression: js,
+        returnByValue: true,
+        awaitPromise: true,
+      }, sid);
+      if (resp.result?.result?.value) {
+        const val = resp.result.result.value;
+        if (val.error) {
+          res.statusCode = 400;
+          res.end(JSON.stringify(val));
+        } else {
+          res.end(JSON.stringify(val));
+        }
+      } else {
+        res.end(JSON.stringify(resp.result));
+      }
+    }
+
+    // POST /clickAt?target=xxx — CDP 浏览器级真实鼠标点击（算用户手势，能触发文件对话框、绕过反自动化检测）
+    else if (pathname === '/clickAt') {
+      const sid = await ensureSession(q.target);
+      const selector = await readBody(req);
+      if (!selector) {
+        res.statusCode = 400;
+        res.end(JSON.stringify({ error: 'POST body 需要 CSS 选择器' }));
+        return;
+      }
+      const selectorJson = JSON.stringify(selector);
+      const js = `(() => {
+        const el = document.querySelector(${selectorJson});
+        if (!el) return { error: '未找到元素: ' + ${selectorJson} };
+        el.scrollIntoView({ block: 'center' });
+        const rect = el.getBoundingClientRect();
+        return { x: rect.x + rect.width / 2, y: rect.y + rect.height / 2, tag: el.tagName, text: (el.textContent || '').slice(0, 100) };
+      })()`;
+      const coordResp = await sendCDP('Runtime.evaluate', {
+        expression: js,
+        returnByValue: true,
+        awaitPromise: true,
+      }, sid);
+      const coord = coordResp.result?.result?.value;
+      if (!coord || coord.error) {
+        res.statusCode = 400;
+        res.end(JSON.stringify(coord || coordResp.result));
+        return;
+      }
+      await sendCDP('Input.dispatchMouseEvent', {
+        type: 'mousePressed', x: coord.x, y: coord.y, button: 'left', clickCount: 1
+      }, sid);
+      await sendCDP('Input.dispatchMouseEvent', {
+        type: 'mouseReleased', x: coord.x, y: coord.y, button: 'left', clickCount: 1
+      }, sid);
+      res.end(JSON.stringify({ clicked: true, x: coord.x, y: coord.y, tag: coord.tag, text: coord.text }));
+    }
+
+    // POST /setFiles?target=xxx — 给 file input 设置本地文件（绕过文件对话框）
+    // body: JSON { "selector": "input[type=file]", "files": ["/path/to/file1.png", "/path/to/file2.png"] }
+    else if (pathname === '/setFiles') {
+      const sid = await ensureSession(q.target);
+      const body = JSON.parse(await readBody(req));
+      if (!body.selector || !body.files) {
+        res.statusCode = 400;
+        res.end(JSON.stringify({ error: '需要 selector 和 files 字段' }));
+        return;
+      }
+      // 获取 DOM 节点
+      await sendCDP('DOM.enable', {}, sid);
+      const doc = await sendCDP('DOM.getDocument', {}, sid);
+      const node = await sendCDP('DOM.querySelector', {
+        nodeId: doc.result.root.nodeId,
+        selector: body.selector
+      }, sid);
+      if (!node.result?.nodeId) {
+        res.statusCode = 400;
+        res.end(JSON.stringify({ error: '未找到元素: ' + body.selector }));
+        return;
+      }
+      // 设置文件
+      await sendCDP('DOM.setFileInputFiles', {
+        nodeId: node.result.nodeId,
+        files: body.files
+      }, sid);
+      res.end(JSON.stringify({ success: true, files: body.files.length }));
+    }
+
+    // GET /scroll?target=xxx&y=3000 - 滚动
+    else if (pathname === '/scroll') {
+      const sid = await ensureSession(q.target);
+      const y = parseInt(q.y || '3000');
+      const direction = q.direction || 'down'; // down | up | top | bottom
+      let js;
+      if (direction === 'top') {
+        js = 'window.scrollTo(0, 0); "scrolled to top"';
+      } else if (direction === 'bottom') {
+        js = 'window.scrollTo(0, document.body.scrollHeight); "scrolled to bottom"';
+      } else if (direction === 'up') {
+        js = `window.scrollBy(0, -${Math.abs(y)}); "scrolled up ${Math.abs(y)}px"`;
+      } else {
+        js = `window.scrollBy(0, ${Math.abs(y)}); "scrolled down ${Math.abs(y)}px"`;
+      }
+      const resp = await sendCDP('Runtime.evaluate', {
+        expression: js,
+        returnByValue: true,
+      }, sid);
+      // 等待懒加载触发
+      await new Promise(r => setTimeout(r, 800));
+      res.end(JSON.stringify({ value: resp.result?.result?.value }));
+    }
+
+    // GET /screenshot?target=xxx&file=/tmp/x.png - 截图
+    else if (pathname === '/screenshot') {
+      const sid = await ensureSession(q.target);
+      const format = q.format || 'png';
+      const resp = await sendCDP('Page.captureScreenshot', {
+        format,
+        quality: format === 'jpeg' ? 80 : undefined,
+      }, sid);
+      if (q.file) {
+        fs.writeFileSync(q.file, Buffer.from(resp.result.data, 'base64'));
+        res.end(JSON.stringify({ saved: q.file }));
+      } else {
+        res.setHeader('Content-Type', 'image/' + format);
+        res.end(Buffer.from(resp.result.data, 'base64'));
+      }
+    }
+
+    // GET /info?target=xxx - 获取页面信息
+    else if (pathname === '/info') {
+      const sid = await ensureSession(q.target);
+      const resp = await sendCDP('Runtime.evaluate', {
+        expression: 'JSON.stringify({title: document.title, url: location.href, ready: document.readyState})',
+        returnByValue: true,
+      }, sid);
+      res.end(resp.result?.result?.value || '{}');
+    }
+
+    else {
+      res.statusCode = 404;
+      res.end(JSON.stringify({
+        error: '未知端点',
+        endpoints: {
+          '/health': 'GET - 健康检查',
+          '/targets': 'GET - 列出所有页面 tab',
+          '/new?url=': 'GET - 创建新后台 tab（自动等待加载）',
+          '/close?target=': 'GET - 关闭 tab',
+          '/navigate?target=&url=': 'GET - 导航（自动等待加载）',
+          '/back?target=': 'GET - 后退',
+          '/info?target=': 'GET - 页面标题/URL/状态',
+          '/eval?target=': 'POST body=JS表达式 - 执行 JS',
+          '/click?target=': 'POST body=CSS选择器 - 点击元素',
+          '/scroll?target=&y=&direction=': 'GET - 滚动页面',
+          '/screenshot?target=&file=': 'GET - 截图',
+        },
+      }));
+    }
+  } catch (e) {
+    res.statusCode = 500;
+    res.end(JSON.stringify({ error: e.message }));
+  }
+});
+
+// 检查端口是否被占用
+function checkPortAvailable(port) {
+  return new Promise((resolve) => {
+    const s = net.createServer();
+    s.once('error', () => resolve(false));
+    s.once('listening', () => { s.close(); resolve(true); });
+    s.listen(port, '127.0.0.1');
+  });
+}
+
+async function main() {
+  // 检查是否已有 proxy 在运行
+  const available = await checkPortAvailable(PORT);
+  if (!available) {
+    // 验证已有实例是否健康
+    try {
+      const ok = await new Promise((resolve) => {
+        http.get(`http://127.0.0.1:${PORT}/health`, { timeout: 2000 }, (res) => {
+          let d = '';
+          res.on('data', c => d += c);
+          res.on('end', () => resolve(d.includes('"ok"')));
+        }).on('error', () => resolve(false));
+      });
+      if (ok) {
+        console.log(`[CDP Proxy] 已有实例运行在端口 ${PORT}，退出`);
+        process.exit(0);
+      }
+    } catch { /* 端口占用但非 proxy，继续报错 */ }
+    console.error(`[CDP Proxy] 端口 ${PORT} 已被占用`);
+    process.exit(1);
+  }
+
+  server.listen(PORT, '127.0.0.1', () => {
+    console.log(`[CDP Proxy] 运行在 http://localhost:${PORT}`);
+    // 启动时尝试连接 Chrome（非阻塞）
+    connect().catch(e => console.error('[CDP Proxy] 初始连接失败:', e.message, '（将在首次请求时重试）'));
+  });
+}
+
+// 防止未捕获异常导致进程崩溃
+process.on('uncaughtException', (e) => {
+  console.error('[CDP Proxy] 未捕获异常:', e.message);
+});
+process.on('unhandledRejection', (e) => {
+  console.error('[CDP Proxy] 未处理拒绝:', e?.message || e);
+});
+
+main();

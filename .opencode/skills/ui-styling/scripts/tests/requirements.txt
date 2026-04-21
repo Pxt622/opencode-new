@@ -1,1 +1,3 @@
-cHl0ZXN0Pj03LjQuMApweXRlc3QtY292Pj00LjEuMApweXRlc3QtbW9jaz49My4xMS4xCg==
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-mock>=3.11.1

@@ -1,1 +1,207 @@
-IyBEZXNpZ24gUm91dGluZyBHdWlkZQoKV2hlbiB0byB1c2UgZWFjaCBkZXNpZ24gc3ViLXNraWxsLgoKIyMgU2tpbGwgT3ZlcnZpZXcKCnwgU2tpbGwgfCBQdXJwb3NlIHwgS2V5IEZpbGVzIHwKfC0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLS0tfAp8IGJyYW5kIHwgQnJhbmQgaWRlbnRpdHksIHZvaWNlLCBhc3NldHMgfCBTS0lMTC5tZCArIDEwIHJlZmVyZW5jZXMgKyAzIHNjcmlwdHMgfAp8IGRlc2lnbi1zeXN0ZW0gfCBUb2tlbiBhcmNoaXRlY3R1cmUsIHNwZWNzIHwgU0tJTEwubWQgKyA3IHJlZmVyZW5jZXMgKyAyIHNjcmlwdHMgfAp8IHVpLXN0eWxpbmcgfCBDb21wb25lbnQgaW1wbGVtZW50YXRpb24gfCBTS0lMTC5tZCArIDcgcmVmZXJlbmNlcyArIDIgc2NyaXB0cyB8CnwgbG9nby1kZXNpZ24gfCBBSSBsb2dvIGdlbmVyYXRpb24gKDU1IHN0eWxlcywgMzAgcGFsZXR0ZXMpIHwgU0tJTEwubWQgKyA0IHJlZmVyZW5jZXMgKyAyIHNjcmlwdHMgfAp8IGNpcC1kZXNpZ24gfCBDb3Jwb3JhdGUgSWRlbnRpdHkgUHJvZ3JhbSAoNTAgZGVsaXZlcmFibGVzKSB8IFNLSUxMLm1kICsgMyByZWZlcmVuY2VzICsgMyBzY3JpcHRzIHwKfCBzbGlkZXMgfCBIVE1MIHByZXNlbnRhdGlvbnMgd2l0aCBDaGFydC5qcyB8IFNLSUxMLm1kICsgNCByZWZlcmVuY2VzIHwKfCBiYW5uZXItZGVzaWduIHwgQmFubmVycyBmb3Igc29jaWFsLCBhZHMsIHdlYiwgcHJpbnQgKDIyIHN0eWxlcykgfCBTS0lMTC5tZCArIDEgcmVmZXJlbmNlIHwKfCBpY29uLWRlc2lnbiB8IFNWRyBpY29uIGdlbmVyYXRpb24gKDE1IHN0eWxlcywgR2VtaW5pIDMuMSBQcm8pIHwgU0tJTEwubWQgKyAxIHJlZmVyZW5jZSArIDEgc2NyaXB0IHwKCiMjIFJvdXRpbmcgYnkgVGFzayBUeXBlCgojIyMgQnJhbmQgSWRlbnRpdHkgVGFza3MKKirihpIgYnJhbmQqKgoKLSBEZWZpbmUgYnJhbmQgY29sb3JzIGFuZCB0eXBvZ3JhcGh5Ci0gQ3JlYXRlIGxvZ28gdXNhZ2UgZ3VpZGVsaW5lcwotIEVzdGFibGlzaCBicmFuZCB2b2ljZSBhbmQgdG9uZQotIE9yZ2FuaXplIGFuZCB2YWxpZGF0ZSBhc3NldHMKLSBDcmVhdGUgbWVzc2FnaW5nIGZyYW1ld29ya3MKLSBBdWRpdCBicmFuZCBjb25zaXN0ZW5jeQoKIyMjIFRva2VuIFN5c3RlbSBUYXNrcwoqKuKGkiBkZXNpZ24tc3lzdGVtKioKCi0gQ3JlYXRlIGRlc2lnbiB0b2tlbnMgSlNPTgotIEdlbmVyYXRlIENTUyB2YXJpYWJsZXMKLSBEZWZpbmUgY29tcG9uZW50IHNwZWNpZmljYXRpb25zCi0gTWFwIHRva2VucyB0byBUYWlsd2luZCBjb25maWcKLSBWYWxpZGF0ZSB0b2tlbiB1c2FnZSBpbiBjb2RlCi0gRG9jdW1lbnQgc3RhdGUgYW5kIHZhcmlhbnRzCgojIyMgSW1wbGVtZW50YXRpb24gVGFza3MKKirihpIgdWktc3R5bGluZyoqCgotIEFkZCBzaGFkY24vdWkgY29tcG9uZW50cwotIFN0eWxlIHdpdGggVGFpbHdpbmQgY2xhc3NlcwotIEltcGxlbWVudCBkYXJrIG1vZGUKLSBDcmVhdGUgcmVzcG9uc2l2ZSBsYXlvdXRzCi0gQnVpbGQgYWNjZXNzaWJsZSBjb21wb25lbnRzCgojIyMgTG9nbyBEZXNpZ24gVGFza3MKKirihpIgbG9nby1kZXNpZ24qKgoKLSBDcmVhdGUgbG9nb3Mgd2l0aCBBSSAoR2VtaW5pIE5hbm8gQmFuYW5hKQotIFNlYXJjaCBsb2dvIHN0eWxlcywgY29sb3IgcGFsZXR0ZXMsIGluZHVzdHJ5IGd1aWRlbGluZXMKLSBHZW5lcmF0ZSBkZXNpZ24gYnJpZWZzCi0gRXhwbG9yZSA1NSsgc3R5bGVzIChtaW5pbWFsaXN0LCB2aW50YWdlLCBsdXh1cnksIGdlb21ldHJpYywgZXRjLikKCiMjIyBDb3Jwb3JhdGUgSWRlbnRpdHkgUHJvZ3JhbSBUYXNrcwoqKuKGkiBjaXAtZGVzaWduKioKCi0gR2VuZXJhdGUgQ0lQIGRlbGl2ZXJhYmxlcyAoYnVzaW5lc3MgY2FyZHMsIGxldHRlcmhlYWRzLCBzaWduYWdlLCB2ZWhpY2xlcywgYXBwYXJlbCkKLSBDcmVhdGUgQ0lQIGJyaWVmcyB3aXRoIGluZHVzdHJ5L3N0eWxlIGFuYWx5c2lzCi0gR2VuZXJhdGUgbW9ja3VwcyB3aXRoL3dpdGhvdXQgbG9nbyAoR2VtaW5pIEZsYXNoL1BybykKLSBSZW5kZXIgSFRNTCBwcmVzZW50YXRpb25zIGZyb20gQ0lQIG1vY2t1cHMKCiMjIyBQcmVzZW50YXRpb24gVGFza3MKKirihpIgc2xpZGVzKioKCi0gQ3JlYXRlIHN0cmF0ZWdpYyBIVE1MIHByZXNlbnRhdGlvbnMKLSBEYXRhIHZpc3VhbGl6YXRpb24gd2l0aCBDaGFydC5qcwotIEFwcGx5IGNvcHl3cml0aW5nIGZvcm11bGFzIHRvIHNsaWRlIGNvbnRlbnQKLSBVc2UgbGF5b3V0IHBhdHRlcm5zIGFuZCBkZXNpZ24gdG9rZW5zCgojIyMgQmFubmVyIERlc2lnbiBUYXNrcwoqKuKGkiBiYW5uZXItZGVzaWduKioKCi0gRGVzaWduIGJhbm5lcnMgZm9yIHNvY2lhbCBtZWRpYSAoRmFjZWJvb2ssIFR3aXR0ZXIsIExpbmtlZEluLCBZb3VUdWJlLCBJbnN0YWdyYW0pCi0gQ3JlYXRlIGFkIGJhbm5lcnMgKEdvb2dsZSBBZHMsIE1ldGEgQWRzKQotIFdlYnNpdGUgaGVybyBiYW5uZXJzIGFuZCBoZWFkZXJzCi0gUHJpbnQgYmFubmVycyBhbmQgY292ZXJzCi0gMjIgYXJ0IGRpcmVjdGlvbiBzdHlsZXMgKG1pbmltYWxpc3QsIGJvbGQgdHlwb2dyYXBoeSwgZ3JhZGllbnQsIGdsYXNzbW9ycGhpc20sIGV0Yy4pCgojIyMgSWNvbiBEZXNpZ24gVGFza3MKKirihpIgaWNvbi1kZXNpZ24qKgoKLSBHZW5lcmF0ZSBTVkcgaWNvbnMgd2l0aCBBSSAoR2VtaW5pIDMuMSBQcm8gUHJldmlldykKLSBCYXRjaCBpY29uIHZhcmlhdGlvbnMgaW4gbXVsdGlwbGUgc3R5bGVzCi0gTXVsdGktc2l6ZSBleHBvcnQgKDE2cHgsIDI0cHgsIDMycHgsIDQ4cHgpCi0gMTUgc3R5bGVzOiBvdXRsaW5lZCwgZmlsbGVkLCBkdW90b25lLCByb3VuZGVkLCBzaGFycCwgZ3JhZGllbnQsIGV0Yy4KLSAxMiBjYXRlZ29yaWVzOiBuYXZpZ2F0aW9uLCBhY3Rpb24sIGNvbW11bmljYXRpb24sIG1lZGlhLCBjb21tZXJjZSwgZGF0YQoKIyMgUm91dGluZyBieSBRdWVzdGlvbiBUeXBlCgp8IFF1ZXN0aW9uIHwgU2tpbGwgfAp8LS0tLS0tLS0tLXwtLS0tLS0tfAp8ICJXaGF0IGNvbG9yIHNob3VsZCB0aGlzIGJlPyIgfCBicmFuZCB8CnwgIkhvdyBkbyBJIGNyZWF0ZSBhIHRva2VuIGZvciBYPyIgfCBkZXNpZ24tc3lzdGVtIHwKfCAiSG93IGRvIEkgYnVpbGQgYSBidXR0b24gY29tcG9uZW50PyIgfCB1aS1zdHlsaW5nIHwKfCAiSXMgdGhpcyBvbi1icmFuZD8iIHwgYnJhbmQgfAp8ICJTaG91bGQgSSB1c2UgYSBDU1MgdmFyaWFibGUgaGVyZT8iIHwgZGVzaWduLXN5c3RlbSB8CnwgIkhvdyBkbyBJIGFkZCBkYXJrIG1vZGU/IiB8IHVpLXN0eWxpbmcgfAp8ICJDcmVhdGUgYSBsb2dvIGZvciBteSBicmFuZCIgfCBsb2dvLWRlc2lnbiB8CnwgIkdlbmVyYXRlIGJ1c2luZXNzIGNhcmQgbW9ja3VwcyIgfCBjaXAtZGVzaWduIHwKfCAiQ3JlYXRlIGEgcGl0Y2ggZGVjayIgfCBzbGlkZXMgfAp8ICJEZXNpZ24gYnJhbmQgaWRlbnRpdHkgcGFja2FnZSIgfCBjaXAtZGVzaWduIHwKfCAiV2hhdCBsb2dvIHN0eWxlIGZpdHMgbXkgaW5kdXN0cnk/IiB8IGxvZ28tZGVzaWduIHwKfCAiRGVzaWduIGEgRmFjZWJvb2sgY292ZXIiIHwgYmFubmVyLWRlc2lnbiB8CnwgIkNyZWF0ZSBhZCBiYW5uZXJzIGZvciBHb29nbGUiIHwgYmFubmVyLWRlc2lnbiB8CnwgIk1ha2UgYSB3ZWJzaXRlIGhlcm8gYmFubmVyIiB8IGJhbm5lci1kZXNpZ24gfAp8ICJHZW5lcmF0ZSBhIHNldHRpbmdzIGljb24iIHwgaWNvbi1kZXNpZ24gfAp8ICJDcmVhdGUgU1ZHIGljb25zIGZvciBteSBhcHAiIHwgaWNvbi1kZXNpZ24gfAp8ICJEZXNpZ24gYW4gaWNvbiBzZXQiIHwgaWNvbi1kZXNpZ24gfAoKIyMgTXVsdGktU2tpbGwgV29ya2Zsb3dzCgojIyMgTmV3IFByb2plY3QgU2V0dXAKCmBgYAoxLiBicmFuZCDihpIgRGVmaW5lIGlkZW50aXR5CiAgIC0gQ29sb3JzLCB0eXBvZ3JhcGh5LCB2b2ljZQoKMi4gZGVzaWduLXN5c3RlbSDihpIgQ3JlYXRlIHRva2VucwogICAtIFByaW1pdGl2ZSwgc2VtYW50aWMsIGNvbXBvbmVudAoKMy4gdWktc3R5bGluZyDihpIgSW1wbGVtZW50CiAgIC0gQ29uZmlndXJlIFRhaWx3aW5kLCBhZGQgY29tcG9uZW50cwpgYGAKCiMjIyBEZXNpZ24gU3lzdGVtIE1pZ3JhdGlvbgoKYGBgCjEuIGJyYW5kIOKGkiBBdWRpdCBleGlzdGluZwogICAtIEV4dHJhY3QgYnJhbmQgY29sb3JzLCBmb250cwoKMi4gZGVzaWduLXN5c3RlbSDihpIgRm9ybWFsaXplIHRva2VucwogICAtIENyZWF0ZSB0aHJlZS1sYXllciBhcmNoaXRlY3R1cmUKCjMuIHVpLXN0eWxpbmcg4oaSIFVwZGF0ZSBjb2RlCiAgIC0gUmVwbGFjZSBoYXJkY29kZWQgdmFsdWVzCmBgYAoKIyMjIENvbXBvbmVudCBDcmVhdGlvbgoKYGBgCjEuIGRlc2lnbi1zeXN0ZW0g4oaSIFJlZmVyZW5jZSBzcGVjcwogICAtIEJ1dHRvbiBzdGF0ZXMsIHNpemVzLCB2YXJpYW50cwoKMi4gdWktc3R5bGluZyDihpIgSW1wbGVtZW50CiAgIC0gQnVpbGQgd2l0aCBzaGFkY24vdWkgKyBUYWlsd2luZApgYGAKCiMjIFNraWxsIERlcGVuZGVuY2llcwoKYGBgCmJyYW5kCiAgICDihpMgKGNvbG9ycywgdHlwb2dyYXBoeSkKZGVzaWduLXN5c3RlbQogICAg4oaTICh0b2tlbnMsIHNwZWNzKQp1aS1zdHlsaW5nCiAgICDihpMgKGNvbXBvbmVudHMpCkFwcGxpY2F0aW9uIENvZGUKYGBgCgojIyBRdWljayBDb21tYW5kcwoKKipCcmFuZDoqKgpgYGBiYXNoCm5vZGUgLmNsYXVkZS9za2lsbHMvYnJhbmQvc2NyaXB0cy9pbmplY3QtYnJhbmQtY29udGV4dC5janMKbm9kZSAuY2xhdWRlL3NraWxscy9icmFuZC9zY3JpcHRzL3ZhbGlkYXRlLWFzc2V0LmNqcyA8cGF0aD4KYGBgCgoqKlRva2VuczoqKgpgYGBiYXNoCm5vZGUgLmNsYXVkZS9za2lsbHMvZGVzaWduLXN5c3RlbS9zY3JpcHRzL2dlbmVyYXRlLXRva2Vucy5janMgLWMgdG9rZW5zLmpzb24Kbm9kZSAuY2xhdWRlL3NraWxscy9kZXNpZ24tc3lzdGVtL3NjcmlwdHMvdmFsaWRhdGUtdG9rZW5zLmNqcyAtZCBzcmMvCmBgYAoKKipDb21wb25lbnRzOioqCmBgYGJhc2gKbnB4IHNoYWRjbkBsYXRlc3QgYWRkIGJ1dHRvbiBjYXJkIGlucHV0CmBgYAoKIyMgV2hlbiB0byBVc2UgTXVsdGlwbGUgU2tpbGxzCgpVc2UgKiphbGwgZWlnaHQqKiB3aGVuOgotIENvbXBsZXRlIGJyYW5kIHBhY2thZ2UgZnJvbSBzY3JhdGNoIChsb2dvIOKGkiBDSVAg4oaSIHByZXNlbnRhdGlvbikKClVzZSAqKmJyYW5kICsgZGVzaWduLXN5c3RlbSArIHVpLXN0eWxpbmcqKiB3aGVuOgotIERlc2lnbiBzeXN0ZW0gc2V0dXAgYW5kIGltcGxlbWVudGF0aW9uCgpVc2UgKipsb2dvLWRlc2lnbiArIGNpcC1kZXNpZ24qKiB3aGVuOgotIENvbXBsZXRlIGJyYW5kIGlkZW50aXR5IHBhY2thZ2Ugd2l0aCBkZWxpdmVyYWJsZSBtb2NrdXBzCgpVc2UgKipsb2dvLWRlc2lnbiArIGNpcC1kZXNpZ24gKyBzbGlkZXMqKiB3aGVuOgotIEJyYW5kIHBpdGNoOiBnZW5lcmF0ZSBsb2dvLCBjcmVhdGUgQ0lQIG1vY2t1cHMsIGJ1aWxkIHBpdGNoIGRlY2sKClVzZSAqKmJhbm5lci1kZXNpZ24gKyBicmFuZCoqIHdoZW46Ci0gU29jaWFsIG1lZGlhIHByZXNlbmNlOiBicmFuZGVkIGJhbm5lcnMgYWNyb3NzIGFsbCBwbGF0Zm9ybXMKClVzZSAqKmljb24tZGVzaWduICsgZGVzaWduLXN5c3RlbSoqIHdoZW46Ci0gQ3VzdG9tIGljb24gc2V0IG1hdGNoaW5nIGRlc2lnbiB0b2tlbnMgYW5kIGNvbXBvbmVudCBzcGVjcwoKVXNlICoqYnJhbmQgKyBkZXNpZ24tc3lzdGVtKiogd2hlbjoKLSBEZWZpbmluZyBkZXNpZ24gbGFuZ3VhZ2Ugd2l0aG91dCBpbXBsZW1lbnRhdGlvbgoKVXNlICoqZGVzaWduLXN5c3RlbSArIHVpLXN0eWxpbmcqKiB3aGVuOgotIEltcGxlbWVudGluZyBleGlzdGluZyBicmFuZCBpbiBjb2RlCi0gQnVpbGRpbmcgY29tcG9uZW50IGxpYnJhcnkK
+# Design Routing Guide
+
+When to use each design sub-skill.
+
+## Skill Overview
+
+| Skill | Purpose | Key Files |
+|-------|---------|-----------|
+| brand | Brand identity, voice, assets | SKILL.md + 10 references + 3 scripts |
+| design-system | Token architecture, specs | SKILL.md + 7 references + 2 scripts |
+| ui-styling | Component implementation | SKILL.md + 7 references + 2 scripts |
+| logo-design | AI logo generation (55 styles, 30 palettes) | SKILL.md + 4 references + 2 scripts |
+| cip-design | Corporate Identity Program (50 deliverables) | SKILL.md + 3 references + 3 scripts |
+| slides | HTML presentations with Chart.js | SKILL.md + 4 references |
+| banner-design | Banners for social, ads, web, print (22 styles) | SKILL.md + 1 reference |
+| icon-design | SVG icon generation (15 styles, Gemini 3.1 Pro) | SKILL.md + 1 reference + 1 script |
+
+## Routing by Task Type
+
+### Brand Identity Tasks
+**→ brand**
+
+- Define brand colors and typography
+- Create logo usage guidelines
+- Establish brand voice and tone
+- Organize and validate assets
+- Create messaging frameworks
+- Audit brand consistency
+
+### Token System Tasks
+**→ design-system**
+
+- Create design tokens JSON
+- Generate CSS variables
+- Define component specifications
+- Map tokens to Tailwind config
+- Validate token usage in code
+- Document state and variants
+
+### Implementation Tasks
+**→ ui-styling**
+
+- Add shadcn/ui components
+- Style with Tailwind classes
+- Implement dark mode
+- Create responsive layouts
+- Build accessible components
+
+### Logo Design Tasks
+**→ logo-design**
+
+- Create logos with AI (Gemini Nano Banana)
+- Search logo styles, color palettes, industry guidelines
+- Generate design briefs
+- Explore 55+ styles (minimalist, vintage, luxury, geometric, etc.)
+
+### Corporate Identity Program Tasks
+**→ cip-design**
+
+- Generate CIP deliverables (business cards, letterheads, signage, vehicles, apparel)
+- Create CIP briefs with industry/style analysis
+- Generate mockups with/without logo (Gemini Flash/Pro)
+- Render HTML presentations from CIP mockups
+
+### Presentation Tasks
+**→ slides**
+
+- Create strategic HTML presentations
+- Data visualization with Chart.js
+- Apply copywriting formulas to slide content
+- Use layout patterns and design tokens
+
+### Banner Design Tasks
+**→ banner-design**
+
+- Design banners for social media (Facebook, Twitter, LinkedIn, YouTube, Instagram)
+- Create ad banners (Google Ads, Meta Ads)
+- Website hero banners and headers
+- Print banners and covers
+- 22 art direction styles (minimalist, bold typography, gradient, glassmorphism, etc.)
+
+### Icon Design Tasks
+**→ icon-design**
+
+- Generate SVG icons with AI (Gemini 3.1 Pro Preview)
+- Batch icon variations in multiple styles
+- Multi-size export (16px, 24px, 32px, 48px)
+- 15 styles: outlined, filled, duotone, rounded, sharp, gradient, etc.
+- 12 categories: navigation, action, communication, media, commerce, data
+
+## Routing by Question Type
+
+| Question | Skill |
+|----------|-------|
+| "What color should this be?" | brand |
+| "How do I create a token for X?" | design-system |
+| "How do I build a button component?" | ui-styling |
+| "Is this on-brand?" | brand |
+| "Should I use a CSS variable here?" | design-system |
+| "How do I add dark mode?" | ui-styling |
+| "Create a logo for my brand" | logo-design |
+| "Generate business card mockups" | cip-design |
+| "Create a pitch deck" | slides |
+| "Design brand identity package" | cip-design |
+| "What logo style fits my industry?" | logo-design |
+| "Design a Facebook cover" | banner-design |
+| "Create ad banners for Google" | banner-design |
+| "Make a website hero banner" | banner-design |
+| "Generate a settings icon" | icon-design |
+| "Create SVG icons for my app" | icon-design |
+| "Design an icon set" | icon-design |
+
+## Multi-Skill Workflows
+
+### New Project Setup
+
+```
+1. brand → Define identity
+   - Colors, typography, voice
+
+2. design-system → Create tokens
+   - Primitive, semantic, component
+
+3. ui-styling → Implement
+   - Configure Tailwind, add components
+```
+
+### Design System Migration
+
+```
+1. brand → Audit existing
+   - Extract brand colors, fonts
+
+2. design-system → Formalize tokens
+   - Create three-layer architecture
+
+3. ui-styling → Update code
+   - Replace hardcoded values
+```
+
+### Component Creation
+
+```
+1. design-system → Reference specs
+   - Button states, sizes, variants
+
+2. ui-styling → Implement
+   - Build with shadcn/ui + Tailwind
+```
+
+## Skill Dependencies
+
+```
+brand
+    ↓ (colors, typography)
+design-system
+    ↓ (tokens, specs)
+ui-styling
+    ↓ (components)
+Application Code
+```
+
+## Quick Commands
+
+**Brand:**
+```bash
+node .claude/skills/brand/scripts/inject-brand-context.cjs
+node .claude/skills/brand/scripts/validate-asset.cjs <path>
+```
+
+**Tokens:**
+```bash
+node .claude/skills/design-system/scripts/generate-tokens.cjs -c tokens.json
+node .claude/skills/design-system/scripts/validate-tokens.cjs -d src/
+```
+
+**Components:**
+```bash
+npx shadcn@latest add button card input
+```
+
+## When to Use Multiple Skills
+
+Use **all eight** when:
+- Complete brand package from scratch (logo → CIP → presentation)
+
+Use **brand + design-system + ui-styling** when:
+- Design system setup and implementation
+
+Use **logo-design + cip-design** when:
+- Complete brand identity package with deliverable mockups
+
+Use **logo-design + cip-design + slides** when:
+- Brand pitch: generate logo, create CIP mockups, build pitch deck
+
+Use **banner-design + brand** when:
+- Social media presence: branded banners across all platforms
+
+Use **icon-design + design-system** when:
+- Custom icon set matching design tokens and component specs
+
+Use **brand + design-system** when:
+- Defining design language without implementation
+
+Use **design-system + ui-styling** when:
+- Implementing existing brand in code
+- Building component library

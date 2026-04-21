@@ -1,1 +1,109 @@
-IyBMb2dvIFN0eWxlIEd1aWRlCgojIyBDb3JlIExvZ28gVHlwZXMKCiMjIyAxLiBXb3JkbWFyayAoTG9nb3R5cGUpClRleHQtb25seSBsb2dvIHVzaW5nIGN1c3RvbSB0eXBvZ3JhcGh5LgotICoqQmVzdCBmb3I6KiogRXN0YWJsaXNoZWQgYnJhbmRzLCBkaXN0aW5jdGl2ZSBuYW1lcwotICoqRXhhbXBsZXM6KiogR29vZ2xlLCBDb2NhLUNvbGEsIEZlZEV4Ci0gKipUeXBvZ3JhcGh5OioqIEN1c3RvbSBsZXR0ZXJmb3JtcywgdW5pcXVlIGtlcm5pbmcKLSAqKlRpcDoqKiBOYW1lIG11c3QgYmUgbWVtb3JhYmxlIGFuZCBwcm9ub3VuY2VhYmxlCgojIyMgMi4gTGV0dGVybWFyayAoTW9ub2dyYW0pCkluaXRpYWxzIG9yIGFiYnJldmlhdGVkIGxldHRlcnMuCi0gKipCZXN0IGZvcjoqKiBMb25nIGNvbXBhbnkgbmFtZXMsIHByb2Zlc3Npb25hbCBmaXJtcwotICoqRXhhbXBsZXM6KiogSUJNLCBIQk8sIE5BU0EKLSAqKlR5cG9ncmFwaHk6KiogQm9sZCBnZW9tZXRyaWMgc2Fucy1zZXJpZgotICoqVGlwOioqIFdvcmtzIHdlbGwgZm9yIGJyYW5kcyB3aXRoIDItNCBsZXR0ZXIgYWJicmV2aWF0aW9ucwoKIyMjIDMuIFBpY3RvcmlhbCBNYXJrIChCcmFuZCBNYXJrKQpTdGFuZGFsb25lIGljb24gb3Igc3ltYm9sLgotICoqQmVzdCBmb3I6KiogR2xvYmFsIGJyYW5kcyB3aXRoIHJlY29nbml0aW9uCi0gKipFeGFtcGxlczoqKiBBcHBsZSwgVHdpdHRlciwgVGFyZ2V0Ci0gKipEZXNpZ246KiogU2ltcGxlLCBzY2FsYWJsZSwgbWVtb3JhYmxlIHNoYXBlCi0gKipUaXA6KiogUmVxdWlyZXMgYnJhbmQgZXF1aXR5IHRvIHdvcmsgYWxvbmUKCiMjIyA0LiBBYnN0cmFjdCBNYXJrCk5vbi1yZXByZXNlbnRhdGlvbmFsIGdlb21ldHJpYyBzaGFwZXMuCi0gKipCZXN0IGZvcjoqKiBUZWNoIGNvbXBhbmllcywgZGlmZmVyZW50aWF0aW5nIGJyYW5kcwotICoqRXhhbXBsZXM6KiogUGVwc2ksIEFpcmJuYiwgU3BvdGlmeQotICoqRGVzaWduOioqIFVuaXF1ZSBzaGFwZSBjb252ZXlpbmcgYnJhbmQgdmFsdWVzCi0gKipUaXA6KiogQ2FuIHJlcHJlc2VudCBjb21wbGV4IGlkZWFzIHNpbXBseQoKIyMjIDUuIE1hc2NvdApDaGFyYWN0ZXIgcmVwcmVzZW50aW5nIHRoZSBicmFuZC4KLSAqKkJlc3QgZm9yOioqIEZhbWlseSBicmFuZHMsIHNwb3J0cyB0ZWFtcywgZm9vZAotICoqRXhhbXBsZXM6KiogS0ZDLCBQcmluZ2xlcywgTWljaGVsaW4KLSAqKkRlc2lnbjoqKiBGcmllbmRseSwgZXhwcmVzc2l2ZSwgdmVyc2F0aWxlCi0gKipUaXA6KiogQ2FuIGV2b2x2ZSB3aXRoIGJyYW5kIHdoaWxlIG1haW50YWluaW5nIHJlY29nbml0aW9uCgojIyMgNi4gRW1ibGVtClN5bWJvbCBlbmNsb3NlZCB3aXRoaW4gYSBzaGFwZS4KLSAqKkJlc3QgZm9yOioqIFRyYWRpdGlvbmFsIGJyYW5kcywgb3JnYW5pemF0aW9ucwotICoqRXhhbXBsZXM6KiogU3RhcmJ1Y2tzLCBIYXJsZXktRGF2aWRzb24sIE5GTAotICoqRGVzaWduOioqIEJhZGdlLCBzZWFsLCBvciBjcmVzdCBzdHlsZQotICoqVGlwOioqIE1heSBoYXZlIHNjYWxhYmlsaXR5IGNoYWxsZW5nZXMKCiMjIyA3LiBDb21iaW5hdGlvbiBNYXJrCkljb24gKyB0ZXh0IGluIHVuaWZpZWQgZGVzaWduLgotICoqQmVzdCBmb3I6KiogTmV3IGJyYW5kcywgdmVyc2F0aWxlIGFwcGxpY2F0aW9ucwotICoqRXhhbXBsZXM6KiogQnVyZ2VyIEtpbmcsIExhY29zdGUsIERvcml0b3MKLSAqKkRlc2lnbjoqKiBMb2NrdXAgd2l0aCBmbGV4aWJsZSBhcnJhbmdlbWVudHMKLSAqKlRpcDoqKiBNb3N0IHZlcnNhdGlsZSwgY2FuIHNlcGFyYXRlIGVsZW1lbnRzIGxhdGVyCgojIyBBZXN0aGV0aWMgU3R5bGVzCgojIyMgTWluaW1hbGlzdAotIENsZWFuIGxpbmVzLCBlc3NlbnRpYWwgZWxlbWVudHMgb25seQotIEhpZ2ggd2hpdGUgc3BhY2UsIHNpbXBsZSBnZW9tZXRyeQotIExpbWl0ZWQgY29sb3IgcGFsZXR0ZSAoMS0yIGNvbG9ycykKLSAqKlVzZToqKiBUZWNoLCBwcm9mZXNzaW9uYWwgc2VydmljZXMsIG1vZGVybiBicmFuZHMKCiMjIyBWaW50YWdlL1JldHJvCi0gTm9zdGFsZ2ljLCBoZXJpdGFnZSBmZWVsCi0gRGlzdHJlc3NlZCB0ZXh0dXJlcywgbXV0ZWQgY29sb3JzCi0gU2NyaXB0IG9yIHNsYWIgc2VyaWYgdHlwb2dyYXBoeQotICoqVXNlOioqIENyYWZ0IGJyYW5kcywgYXJ0aXNhbiBwcm9kdWN0cwoKIyMjIEx1eHVyeS9QcmVtaXVtCi0gRWxlZ2FudCwgcmVmaW5lZCBhZXN0aGV0aWMKLSBHb2xkLCBibGFjaywgd2hpdGUgY29sb3Igc2NoZW1lCi0gVGhpbiBzZXJpZnMgb3Igc29waGlzdGljYXRlZCBzYW5zCi0gKipVc2U6KiogRmFzaGlvbiwgamV3ZWxyeSwgaGlnaC1lbmQgc2VydmljZXMKCiMjIyBHZW9tZXRyaWMKLSBNYXRoZW1hdGljYWwgcHJlY2lzaW9uCi0gQ2lyY2xlcywgdHJpYW5nbGVzLCBzcXVhcmVzCi0gUGVyZmVjdCBzeW1tZXRyeQotICoqVXNlOioqIEFyY2hpdGVjdHVyZSwgdGVjaCwgbW9kZXJuIGJyYW5kcwoKIyMjIE9yZ2FuaWMvTmF0dXJhbAotIEZsb3dpbmcsIGltcGVyZmVjdCBsaW5lcwotIEVhcnRoIHRvbmVzLCBuYXR1cmFsIGNvbG9ycwotIEhhbmQtZHJhd24gZmVlbAotICoqVXNlOioqIEVjbyBicmFuZHMsIHdlbGxuZXNzLCBvcmdhbmljIHByb2R1Y3RzCgojIyMgR3JhZGllbnQvTW9kZXJuCi0gQ29sb3IgdHJhbnNpdGlvbnMsIHZpYnJhbnQgcGFsZXR0ZXMKLSBEaW1lbnNpb25hbCBkZXB0aAotIENvbnRlbXBvcmFyeSBmZWVsCi0gKipVc2U6KiogQXBwcywgdGVjaCBzdGFydHVwcywgZGlnaXRhbCBwcm9kdWN0cwoKIyMgU3R5bGUgU2VsZWN0aW9uIE1hdHJpeAoKfCBCcmFuZCBUeXBlIHwgUHJpbWFyeSBTdHlsZSB8IFNlY29uZGFyeSBPcHRpb25zIHwKfC0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLXwKfCBUZWNoIFN0YXJ0dXAgfCBNaW5pbWFsaXN0LCBBYnN0cmFjdCB8IEdlb21ldHJpYywgR3JhZGllbnQgfAp8IExhdyBGaXJtIHwgV29yZG1hcmssIEVtYmxlbSB8IExldHRlcm1hcmsgfAp8IFJlc3RhdXJhbnQgfCBNYXNjb3QsIEJhZGdlIHwgVmludGFnZSwgQ29tYmluYXRpb24gfAp8IEZhc2hpb24gfCBXb3JkbWFyaywgTHV4dXJ5IHwgTW9ub2dyYW0sIExpbmUgQXJ0IHwKfCBIZWFsdGhjYXJlIHwgUHJvZmVzc2lvbmFsLCBMaW5lIEFydCB8IEFic3RyYWN0LCBDb21iaW5hdGlvbiB8CnwgTm9uLVByb2ZpdCB8IENvbWJpbmF0aW9uLCBFbWJsZW0gfCBPcmdhbmljLCBIYW5kLURyYXduIHwKCiMjIFNjYWxhYmlsaXR5IENoZWNrbGlzdAoKLSBbIF0gUmVjb2duaXphYmxlIGF0IDE2eDE2IHBpeGVscyAoZmF2aWNvbikKLSBbIF0gQ2xlYXIgYXQgYnVzaW5lc3MgY2FyZCBzaXplCi0gWyBdIFdvcmtzIGluIHNpbmdsZSBjb2xvcgotIFsgXSBNYWludGFpbnMgY2xhcml0eSBpbiBibGFjay93aGl0ZQotIFsgXSBObyB0aW55IGRldGFpbHMgdGhhdCBkaXNhcHBlYXIgd2hlbiBzY2FsZWQK
+# Logo Style Guide
+
+## Core Logo Types
+
+### 1. Wordmark (Logotype)
+Text-only logo using custom typography.
+- **Best for:** Established brands, distinctive names
+- **Examples:** Google, Coca-Cola, FedEx
+- **Typography:** Custom letterforms, unique kerning
+- **Tip:** Name must be memorable and pronounceable
+
+### 2. Lettermark (Monogram)
+Initials or abbreviated letters.
+- **Best for:** Long company names, professional firms
+- **Examples:** IBM, HBO, NASA
+- **Typography:** Bold geometric sans-serif
+- **Tip:** Works well for brands with 2-4 letter abbreviations
+
+### 3. Pictorial Mark (Brand Mark)
+Standalone icon or symbol.
+- **Best for:** Global brands with recognition
+- **Examples:** Apple, Twitter, Target
+- **Design:** Simple, scalable, memorable shape
+- **Tip:** Requires brand equity to work alone
+
+### 4. Abstract Mark
+Non-representational geometric shapes.
+- **Best for:** Tech companies, differentiating brands
+- **Examples:** Pepsi, Airbnb, Spotify
+- **Design:** Unique shape conveying brand values
+- **Tip:** Can represent complex ideas simply
+
+### 5. Mascot
+Character representing the brand.
+- **Best for:** Family brands, sports teams, food
+- **Examples:** KFC, Pringles, Michelin
+- **Design:** Friendly, expressive, versatile
+- **Tip:** Can evolve with brand while maintaining recognition
+
+### 6. Emblem
+Symbol enclosed within a shape.
+- **Best for:** Traditional brands, organizations
+- **Examples:** Starbucks, Harley-Davidson, NFL
+- **Design:** Badge, seal, or crest style
+- **Tip:** May have scalability challenges
+
+### 7. Combination Mark
+Icon + text in unified design.
+- **Best for:** New brands, versatile applications
+- **Examples:** Burger King, Lacoste, Doritos
+- **Design:** Lockup with flexible arrangements
+- **Tip:** Most versatile, can separate elements later
+
+## Aesthetic Styles
+
+### Minimalist
+- Clean lines, essential elements only
+- High white space, simple geometry
+- Limited color palette (1-2 colors)
+- **Use:** Tech, professional services, modern brands
+
+### Vintage/Retro
+- Nostalgic, heritage feel
+- Distressed textures, muted colors
+- Script or slab serif typography
+- **Use:** Craft brands, artisan products
+
+### Luxury/Premium
+- Elegant, refined aesthetic
+- Gold, black, white color scheme
+- Thin serifs or sophisticated sans
+- **Use:** Fashion, jewelry, high-end services
+
+### Geometric
+- Mathematical precision
+- Circles, triangles, squares
+- Perfect symmetry
+- **Use:** Architecture, tech, modern brands
+
+### Organic/Natural
+- Flowing, imperfect lines
+- Earth tones, natural colors
+- Hand-drawn feel
+- **Use:** Eco brands, wellness, organic products
+
+### Gradient/Modern
+- Color transitions, vibrant palettes
+- Dimensional depth
+- Contemporary feel
+- **Use:** Apps, tech startups, digital products
+
+## Style Selection Matrix
+
+| Brand Type | Primary Style | Secondary Options |
+|------------|---------------|-------------------|
+| Tech Startup | Minimalist, Abstract | Geometric, Gradient |
+| Law Firm | Wordmark, Emblem | Lettermark |
+| Restaurant | Mascot, Badge | Vintage, Combination |
+| Fashion | Wordmark, Luxury | Monogram, Line Art |
+| Healthcare | Professional, Line Art | Abstract, Combination |
+| Non-Profit | Combination, Emblem | Organic, Hand-Drawn |
+
+## Scalability Checklist
+
+- [ ] Recognizable at 16x16 pixels (favicon)
+- [ ] Clear at business card size
+- [ ] Works in single color
+- [ ] Maintains clarity in black/white
+- [ ] No tiny details that disappear when scaled

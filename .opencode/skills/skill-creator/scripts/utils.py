@@ -1,1 +1,47 @@
-IiIiU2hhcmVkIHV0aWxpdGllcyBmb3Igc2tpbGwtY3JlYXRvciBzY3JpcHRzLiIiIgoKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgoKCmRlZiBwYXJzZV9za2lsbF9tZChza2lsbF9wYXRoOiBQYXRoKSAtPiB0dXBsZVtzdHIsIHN0ciwgc3RyXToKICAgICIiIlBhcnNlIGEgU0tJTEwubWQgZmlsZSwgcmV0dXJuaW5nIChuYW1lLCBkZXNjcmlwdGlvbiwgZnVsbF9jb250ZW50KS4iIiIKICAgIGNvbnRlbnQgPSAoc2tpbGxfcGF0aCAvICJTS0lMTC5tZCIpLnJlYWRfdGV4dCgpCiAgICBsaW5lcyA9IGNvbnRlbnQuc3BsaXQoIlxuIikKCiAgICBpZiBsaW5lc1swXS5zdHJpcCgpICE9ICItLS0iOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoIlNLSUxMLm1kIG1pc3NpbmcgZnJvbnRtYXR0ZXIgKG5vIG9wZW5pbmcgLS0tKSIpCgogICAgZW5kX2lkeCA9IE5vbmUKICAgIGZvciBpLCBsaW5lIGluIGVudW1lcmF0ZShsaW5lc1sxOl0sIHN0YXJ0PTEpOgogICAgICAgIGlmIGxpbmUuc3RyaXAoKSA9PSAiLS0tIjoKICAgICAgICAgICAgZW5kX2lkeCA9IGkKICAgICAgICAgICAgYnJlYWsKCiAgICBpZiBlbmRfaWR4IGlzIE5vbmU6CiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcigiU0tJTEwubWQgbWlzc2luZyBmcm9udG1hdHRlciAobm8gY2xvc2luZyAtLS0pIikKCiAgICBuYW1lID0gIiIKICAgIGRlc2NyaXB0aW9uID0gIiIKICAgIGZyb250bWF0dGVyX2xpbmVzID0gbGluZXNbMTplbmRfaWR4XQogICAgaSA9IDAKICAgIHdoaWxlIGkgPCBsZW4oZnJvbnRtYXR0ZXJfbGluZXMpOgogICAgICAgIGxpbmUgPSBmcm9udG1hdHRlcl9saW5lc1tpXQogICAgICAgIGlmIGxpbmUuc3RhcnRzd2l0aCgibmFtZToiKToKICAgICAgICAgICAgbmFtZSA9IGxpbmVbbGVuKCJuYW1lOiIpOl0uc3RyaXAoKS5zdHJpcCgnIicpLnN0cmlwKCInIikKICAgICAgICBlbGlmIGxpbmUuc3RhcnRzd2l0aCgiZGVzY3JpcHRpb246Iik6CiAgICAgICAgICAgIHZhbHVlID0gbGluZVtsZW4oImRlc2NyaXB0aW9uOiIpOl0uc3RyaXAoKQogICAgICAgICAgICAjIEhhbmRsZSBZQU1MIG11bHRpbGluZSBpbmRpY2F0b3JzICg+LCB8LCA+LSwgfC0pCiAgICAgICAgICAgIGlmIHZhbHVlIGluICgiPiIsICJ8IiwgIj4tIiwgInwtIik6CiAgICAgICAgICAgICAgICBjb250aW51YXRpb25fbGluZXM6IGxpc3Rbc3RyXSA9IFtdCiAgICAgICAgICAgICAgICBpICs9IDEKICAgICAgICAgICAgICAgIHdoaWxlIGkgPCBsZW4oZnJvbnRtYXR0ZXJfbGluZXMpIGFuZCAoZnJvbnRtYXR0ZXJfbGluZXNbaV0uc3RhcnRzd2l0aCgiICAiKSBvciBmcm9udG1hdHRlcl9saW5lc1tpXS5zdGFydHN3aXRoKCJcdCIpKToKICAgICAgICAgICAgICAgICAgICBjb250aW51YXRpb25fbGluZXMuYXBwZW5kKGZyb250bWF0dGVyX2xpbmVzW2ldLnN0cmlwKCkpCiAgICAgICAgICAgICAgICAgICAgaSArPSAxCiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9ICIgIi5qb2luKGNvbnRpbnVhdGlvbl9saW5lcykKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGVsc2U6CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiA9IHZhbHVlLnN0cmlwKCciJykuc3RyaXAoIiciKQogICAgICAgIGkgKz0gMQoKICAgIHJldHVybiBuYW1lLCBkZXNjcmlwdGlvbiwgY29udGVudAo=
+"""Shared utilities for skill-creator scripts."""
+
+from pathlib import Path
+
+
+
+def parse_skill_md(skill_path: Path) -> tuple[str, str, str]:
+    """Parse a SKILL.md file, returning (name, description, full_content)."""
+    content = (skill_path / "SKILL.md").read_text()
+    lines = content.split("\n")
+
+    if lines[0].strip() != "---":
+        raise ValueError("SKILL.md missing frontmatter (no opening ---)")
+
+    end_idx = None
+    for i, line in enumerate(lines[1:], start=1):
+        if line.strip() == "---":
+            end_idx = i
+            break
+
+    if end_idx is None:
+        raise ValueError("SKILL.md missing frontmatter (no closing ---)")
+
+    name = ""
+    description = ""
+    frontmatter_lines = lines[1:end_idx]
+    i = 0
+    while i < len(frontmatter_lines):
+        line = frontmatter_lines[i]
+        if line.startswith("name:"):
+            name = line[len("name:"):].strip().strip('"').strip("'")
+        elif line.startswith("description:"):
+            value = line[len("description:"):].strip()
+            # Handle YAML multiline indicators (>, |, >-, |-)
+            if value in (">", "|", ">-", "|-"):
+                continuation_lines: list[str] = []
+                i += 1
+                while i < len(frontmatter_lines) and (frontmatter_lines[i].startswith("  ") or frontmatter_lines[i].startswith("\t")):
+                    continuation_lines.append(frontmatter_lines[i].strip())
+                    i += 1
+                description = " ".join(continuation_lines)
+                continue
+            else:
+                description = value.strip('"').strip("'")
+        i += 1
+
+    return name, description, content

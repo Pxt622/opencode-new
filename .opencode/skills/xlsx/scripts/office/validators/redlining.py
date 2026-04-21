@@ -1,1 +1,247 @@
-IiIiClZhbGlkYXRvciBmb3IgdHJhY2tlZCBjaGFuZ2VzIGluIFdvcmQgZG9jdW1lbnRzLgoiIiIKCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCB0ZW1wZmlsZQppbXBvcnQgemlwZmlsZQpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCgpjbGFzcyBSZWRsaW5pbmdWYWxpZGF0b3I6CgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHVucGFja2VkX2Rpciwgb3JpZ2luYWxfZG9jeCwgdmVyYm9zZT1GYWxzZSwgYXV0aG9yPSJDbGF1ZGUiKToKICAgICAgICBzZWxmLnVucGFja2VkX2RpciA9IFBhdGgodW5wYWNrZWRfZGlyKQogICAgICAgIHNlbGYub3JpZ2luYWxfZG9jeCA9IFBhdGgob3JpZ2luYWxfZG9jeCkKICAgICAgICBzZWxmLnZlcmJvc2UgPSB2ZXJib3NlCiAgICAgICAgc2VsZi5hdXRob3IgPSBhdXRob3IKICAgICAgICBzZWxmLm5hbWVzcGFjZXMgPSB7CiAgICAgICAgICAgICJ3IjogImh0dHA6Ly9zY2hlbWFzLm9wZW54bWxmb3JtYXRzLm9yZy93b3JkcHJvY2Vzc2luZ21sLzIwMDYvbWFpbiIKICAgICAgICB9CgogICAgZGVmIHJlcGFpcihzZWxmKSAtPiBpbnQ6CiAgICAgICAgcmV0dXJuIDAKCiAgICBkZWYgdmFsaWRhdGUoc2VsZik6CiAgICAgICAgbW9kaWZpZWRfZmlsZSA9IHNlbGYudW5wYWNrZWRfZGlyIC8gIndvcmQiIC8gImRvY3VtZW50LnhtbCIKICAgICAgICBpZiBub3QgbW9kaWZpZWRfZmlsZS5leGlzdHMoKToKICAgICAgICAgICAgcHJpbnQoZiJGQUlMRUQgLSBNb2RpZmllZCBkb2N1bWVudC54bWwgbm90IGZvdW5kIGF0IHttb2RpZmllZF9maWxlfSIpCiAgICAgICAgICAgIHJldHVybiBGYWxzZQoKICAgICAgICB0cnk6CiAgICAgICAgICAgIGltcG9ydCB4bWwuZXRyZWUuRWxlbWVudFRyZWUgYXMgRVQKCiAgICAgICAgICAgIHRyZWUgPSBFVC5wYXJzZShtb2RpZmllZF9maWxlKQogICAgICAgICAgICByb290ID0gdHJlZS5nZXRyb290KCkKCiAgICAgICAgICAgIGRlbF9lbGVtZW50cyA9IHJvb3QuZmluZGFsbCgiLi8vdzpkZWwiLCBzZWxmLm5hbWVzcGFjZXMpCiAgICAgICAgICAgIGluc19lbGVtZW50cyA9IHJvb3QuZmluZGFsbCgiLi8vdzppbnMiLCBzZWxmLm5hbWVzcGFjZXMpCgogICAgICAgICAgICBhdXRob3JfZGVsX2VsZW1lbnRzID0gWwogICAgICAgICAgICAgICAgZWxlbQogICAgICAgICAgICAgICAgZm9yIGVsZW0gaW4gZGVsX2VsZW1lbnRzCiAgICAgICAgICAgICAgICBpZiBlbGVtLmdldChmInt7e3NlbGYubmFtZXNwYWNlc1sndyddfX19YXV0aG9yIikgPT0gc2VsZi5hdXRob3IKICAgICAgICAgICAgXQogICAgICAgICAgICBhdXRob3JfaW5zX2VsZW1lbnRzID0gWwogICAgICAgICAgICAgICAgZWxlbQogICAgICAgICAgICAgICAgZm9yIGVsZW0gaW4gaW5zX2VsZW1lbnRzCiAgICAgICAgICAgICAgICBpZiBlbGVtLmdldChmInt7e3NlbGYubmFtZXNwYWNlc1sndyddfX19YXV0aG9yIikgPT0gc2VsZi5hdXRob3IKICAgICAgICAgICAgXQoKICAgICAgICAgICAgaWYgbm90IGF1dGhvcl9kZWxfZWxlbWVudHMgYW5kIG5vdCBhdXRob3JfaW5zX2VsZW1lbnRzOgogICAgICAgICAgICAgICAgaWYgc2VsZi52ZXJib3NlOgogICAgICAgICAgICAgICAgICAgIHByaW50KGYiUEFTU0VEIC0gTm8gdHJhY2tlZCBjaGFuZ2VzIGJ5IHtzZWxmLmF1dGhvcn0gZm91bmQuIikKICAgICAgICAgICAgICAgIHJldHVybiBUcnVlCgogICAgICAgIGV4Y2VwdCBFeGNlcHRpb246CiAgICAgICAgICAgIHBhc3MKCiAgICAgICAgd2l0aCB0ZW1wZmlsZS5UZW1wb3JhcnlEaXJlY3RvcnkoKSBhcyB0ZW1wX2RpcjoKICAgICAgICAgICAgdGVtcF9wYXRoID0gUGF0aCh0ZW1wX2RpcikKCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHdpdGggemlwZmlsZS5aaXBGaWxlKHNlbGYub3JpZ2luYWxfZG9jeCwgInIiKSBhcyB6aXBfcmVmOgogICAgICAgICAgICAgICAgICAgIHppcF9yZWYuZXh0cmFjdGFsbCh0ZW1wX3BhdGgpCiAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgIHByaW50KGYiRkFJTEVEIC0gRXJyb3IgdW5wYWNraW5nIG9yaWdpbmFsIGRvY3g6IHtlfSIpCiAgICAgICAgICAgICAgICByZXR1cm4gRmFsc2UKCiAgICAgICAgICAgIG9yaWdpbmFsX2ZpbGUgPSB0ZW1wX3BhdGggLyAid29yZCIgLyAiZG9jdW1lbnQueG1sIgogICAgICAgICAgICBpZiBub3Qgb3JpZ2luYWxfZmlsZS5leGlzdHMoKToKICAgICAgICAgICAgICAgIHByaW50KAogICAgICAgICAgICAgICAgICAgIGYiRkFJTEVEIC0gT3JpZ2luYWwgZG9jdW1lbnQueG1sIG5vdCBmb3VuZCBpbiB7c2VsZi5vcmlnaW5hbF9kb2N4fSIKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHJldHVybiBGYWxzZQoKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgaW1wb3J0IHhtbC5ldHJlZS5FbGVtZW50VHJlZSBhcyBFVAoKICAgICAgICAgICAgICAgIG1vZGlmaWVkX3RyZWUgPSBFVC5wYXJzZShtb2RpZmllZF9maWxlKQogICAgICAgICAgICAgICAgbW9kaWZpZWRfcm9vdCA9IG1vZGlmaWVkX3RyZWUuZ2V0cm9vdCgpCiAgICAgICAgICAgICAgICBvcmlnaW5hbF90cmVlID0gRVQucGFyc2Uob3JpZ2luYWxfZmlsZSkKICAgICAgICAgICAgICAgIG9yaWdpbmFsX3Jvb3QgPSBvcmlnaW5hbF90cmVlLmdldHJvb3QoKQogICAgICAgICAgICBleGNlcHQgRVQuUGFyc2VFcnJvciBhcyBlOgogICAgICAgICAgICAgICAgcHJpbnQoZiJGQUlMRUQgLSBFcnJvciBwYXJzaW5nIFhNTCBmaWxlczoge2V9IikKICAgICAgICAgICAgICAgIHJldHVybiBGYWxzZQoKICAgICAgICAgICAgc2VsZi5fcmVtb3ZlX2F1dGhvcl90cmFja2VkX2NoYW5nZXMob3JpZ2luYWxfcm9vdCkKICAgICAgICAgICAgc2VsZi5fcmVtb3ZlX2F1dGhvcl90cmFja2VkX2NoYW5nZXMobW9kaWZpZWRfcm9vdCkKCiAgICAgICAgICAgIG1vZGlmaWVkX3RleHQgPSBzZWxmLl9leHRyYWN0X3RleHRfY29udGVudChtb2RpZmllZF9yb290KQogICAgICAgICAgICBvcmlnaW5hbF90ZXh0ID0gc2VsZi5fZXh0cmFjdF90ZXh0X2NvbnRlbnQob3JpZ2luYWxfcm9vdCkKCiAgICAgICAgICAgIGlmIG1vZGlmaWVkX3RleHQgIT0gb3JpZ2luYWxfdGV4dDoKICAgICAgICAgICAgICAgIGVycm9yX21lc3NhZ2UgPSBzZWxmLl9nZW5lcmF0ZV9kZXRhaWxlZF9kaWZmKAogICAgICAgICAgICAgICAgICAgIG9yaWdpbmFsX3RleHQsIG1vZGlmaWVkX3RleHQKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIHByaW50KGVycm9yX21lc3NhZ2UpCiAgICAgICAgICAgICAgICByZXR1cm4gRmFsc2UKCiAgICAgICAgICAgIGlmIHNlbGYudmVyYm9zZToKICAgICAgICAgICAgICAgIHByaW50KGYiUEFTU0VEIC0gQWxsIGNoYW5nZXMgYnkge3NlbGYuYXV0aG9yfSBhcmUgcHJvcGVybHkgdHJhY2tlZCIpCiAgICAgICAgICAgIHJldHVybiBUcnVlCgogICAgZGVmIF9nZW5lcmF0ZV9kZXRhaWxlZF9kaWZmKHNlbGYsIG9yaWdpbmFsX3RleHQsIG1vZGlmaWVkX3RleHQpOgogICAgICAgIGVycm9yX3BhcnRzID0gWwogICAgICAgICAgICBmIkZBSUxFRCAtIERvY3VtZW50IHRleHQgZG9lc24ndCBtYXRjaCBhZnRlciByZW1vdmluZyB7c2VsZi5hdXRob3J9J3MgdHJhY2tlZCBjaGFuZ2VzIiwKICAgICAgICAgICAgIiIsCiAgICAgICAgICAgICJMaWtlbHkgY2F1c2VzOiIsCiAgICAgICAgICAgICIgIDEuIE1vZGlmaWVkIHRleHQgaW5zaWRlIGFub3RoZXIgYXV0aG9yJ3MgPHc6aW5zPiBvciA8dzpkZWw+IHRhZ3MiLAogICAgICAgICAgICAiICAyLiBNYWRlIGVkaXRzIHdpdGhvdXQgcHJvcGVyIHRyYWNrZWQgY2hhbmdlcyIsCiAgICAgICAgICAgICIgIDMuIERpZG4ndCBuZXN0IDx3OmRlbD4gaW5zaWRlIDx3Omlucz4gd2hlbiBkZWxldGluZyBhbm90aGVyJ3MgaW5zZXJ0aW9uIiwKICAgICAgICAgICAgIiIsCiAgICAgICAgICAgICJGb3IgcHJlLXJlZGxpbmVkIGRvY3VtZW50cywgdXNlIGNvcnJlY3QgcGF0dGVybnM6IiwKICAgICAgICAgICAgIiAgLSBUbyByZWplY3QgYW5vdGhlcidzIElOU0VSVElPTjogTmVzdCA8dzpkZWw+IGluc2lkZSB0aGVpciA8dzppbnM+IiwKICAgICAgICAgICAgIiAgLSBUbyByZXN0b3JlIGFub3RoZXIncyBERUxFVElPTjogQWRkIG5ldyA8dzppbnM+IEFGVEVSIHRoZWlyIDx3OmRlbD4iLAogICAgICAgICAgICAiIiwKICAgICAgICBdCgogICAgICAgIGdpdF9kaWZmID0gc2VsZi5fZ2V0X2dpdF93b3JkX2RpZmYob3JpZ2luYWxfdGV4dCwgbW9kaWZpZWRfdGV4dCkKICAgICAgICBpZiBnaXRfZGlmZjoKICAgICAgICAgICAgZXJyb3JfcGFydHMuZXh0ZW5kKFsiRGlmZmVyZW5jZXM6IiwgIj09PT09PT09PT09PSIsIGdpdF9kaWZmXSkKICAgICAgICBlbHNlOgogICAgICAgICAgICBlcnJvcl9wYXJ0cy5hcHBlbmQoIlVuYWJsZSB0byBnZW5lcmF0ZSB3b3JkIGRpZmYgKGdpdCBub3QgYXZhaWxhYmxlKSIpCgogICAgICAgIHJldHVybiAiXG4iLmpvaW4oZXJyb3JfcGFydHMpCgogICAgZGVmIF9nZXRfZ2l0X3dvcmRfZGlmZihzZWxmLCBvcmlnaW5hbF90ZXh0LCBtb2RpZmllZF90ZXh0KToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHdpdGggdGVtcGZpbGUuVGVtcG9yYXJ5RGlyZWN0b3J5KCkgYXMgdGVtcF9kaXI6CiAgICAgICAgICAgICAgICB0ZW1wX3BhdGggPSBQYXRoKHRlbXBfZGlyKQoKICAgICAgICAgICAgICAgIG9yaWdpbmFsX2ZpbGUgPSB0ZW1wX3BhdGggLyAib3JpZ2luYWwudHh0IgogICAgICAgICAgICAgICAgbW9kaWZpZWRfZmlsZSA9IHRlbXBfcGF0aCAvICJtb2RpZmllZC50eHQiCgogICAgICAgICAgICAgICAgb3JpZ2luYWxfZmlsZS53cml0ZV90ZXh0KG9yaWdpbmFsX3RleHQsIGVuY29kaW5nPSJ1dGYtOCIpCiAgICAgICAgICAgICAgICBtb2RpZmllZF9maWxlLndyaXRlX3RleHQobW9kaWZpZWRfdGV4dCwgZW5jb2Rpbmc9InV0Zi04IikKCiAgICAgICAgICAgICAgICByZXN1bHQgPSBzdWJwcm9jZXNzLnJ1bigKICAgICAgICAgICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAgICAgICAgICJnaXQiLAogICAgICAgICAgICAgICAgICAgICAgICAiZGlmZiIsCiAgICAgICAgICAgICAgICAgICAgICAgICItLXdvcmQtZGlmZj1wbGFpbiIsCiAgICAgICAgICAgICAgICAgICAgICAgICItLXdvcmQtZGlmZi1yZWdleD0uIiwgIAogICAgICAgICAgICAgICAgICAgICAgICAiLVUwIiwgIAogICAgICAgICAgICAgICAgICAgICAgICAiLS1uby1pbmRleCIsCiAgICAgICAgICAgICAgICAgICAgICAgIHN0cihvcmlnaW5hbF9maWxlKSwKICAgICAgICAgICAgICAgICAgICAgICAgc3RyKG1vZGlmaWVkX2ZpbGUpLAogICAgICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgICAgICAgICAgY2FwdHVyZV9vdXRwdXQ9VHJ1ZSwKICAgICAgICAgICAgICAgICAgICB0ZXh0PVRydWUsCiAgICAgICAgICAgICAgICApCgogICAgICAgICAgICAgICAgaWYgcmVzdWx0LnN0ZG91dC5zdHJpcCgpOgogICAgICAgICAgICAgICAgICAgIGxpbmVzID0gcmVzdWx0LnN0ZG91dC5zcGxpdCgiXG4iKQogICAgICAgICAgICAgICAgICAgIGNvbnRlbnRfbGluZXMgPSBbXQogICAgICAgICAgICAgICAgICAgIGluX2NvbnRlbnQgPSBGYWxzZQogICAgICAgICAgICAgICAgICAgIGZvciBsaW5lIGluIGxpbmVzOgogICAgICAgICAgICAgICAgICAgICAgICBpZiBsaW5lLnN0YXJ0c3dpdGgoIkBAIik6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbl9jb250ZW50ID0gVHJ1ZQogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUKICAgICAgICAgICAgICAgICAgICAgICAgaWYgaW5fY29udGVudCBhbmQgbGluZS5zdHJpcCgpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgY29udGVudF9saW5lcy5hcHBlbmQobGluZSkKCiAgICAgICAgICAgICAgICAgICAgaWYgY29udGVudF9saW5lczoKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuICJcbiIuam9pbihjb250ZW50X2xpbmVzKQoKICAgICAgICAgICAgICAgIHJlc3VsdCA9IHN1YnByb2Nlc3MucnVuKAogICAgICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAgICAgImdpdCIsCiAgICAgICAgICAgICAgICAgICAgICAgICJkaWZmIiwKICAgICAgICAgICAgICAgICAgICAgICAgIi0td29yZC1kaWZmPXBsYWluIiwKICAgICAgICAgICAgICAgICAgICAgICAgIi1VMCIsICAKICAgICAgICAgICAgICAgICAgICAgICAgIi0tbm8taW5kZXgiLAogICAgICAgICAgICAgICAgICAgICAgICBzdHIob3JpZ2luYWxfZmlsZSksCiAgICAgICAgICAgICAgICAgICAgICAgIHN0cihtb2RpZmllZF9maWxlKSwKICAgICAgICAgICAgICAgICAgICBdLAogICAgICAgICAgICAgICAgICAgIGNhcHR1cmVfb3V0cHV0PVRydWUsCiAgICAgICAgICAgICAgICAgICAgdGV4dD1UcnVlLAogICAgICAgICAgICAgICAgKQoKICAgICAgICAgICAgICAgIGlmIHJlc3VsdC5zdGRvdXQuc3RyaXAoKToKICAgICAgICAgICAgICAgICAgICBsaW5lcyA9IHJlc3VsdC5zdGRvdXQuc3BsaXQoIlxuIikKICAgICAgICAgICAgICAgICAgICBjb250ZW50X2xpbmVzID0gW10KICAgICAgICAgICAgICAgICAgICBpbl9jb250ZW50ID0gRmFsc2UKICAgICAgICAgICAgICAgICAgICBmb3IgbGluZSBpbiBsaW5lczoKICAgICAgICAgICAgICAgICAgICAgICAgaWYgbGluZS5zdGFydHN3aXRoKCJAQCIpOgogICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5fY29udGVudCA9IFRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgICAgICAgICAgICAgIGlmIGluX2NvbnRlbnQgYW5kIGxpbmUuc3RyaXAoKToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnRfbGluZXMuYXBwZW5kKGxpbmUpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuICJcbiIuam9pbihjb250ZW50X2xpbmVzKQoKICAgICAgICBleGNlcHQgKHN1YnByb2Nlc3MuQ2FsbGVkUHJvY2Vzc0Vycm9yLCBGaWxlTm90Rm91bmRFcnJvciwgRXhjZXB0aW9uKToKICAgICAgICAgICAgcGFzcwoKICAgICAgICByZXR1cm4gTm9uZQoKICAgIGRlZiBfcmVtb3ZlX2F1dGhvcl90cmFja2VkX2NoYW5nZXMoc2VsZiwgcm9vdCk6CiAgICAgICAgaW5zX3RhZyA9IGYie3t7c2VsZi5uYW1lc3BhY2VzWyd3J119fX1pbnMiCiAgICAgICAgZGVsX3RhZyA9IGYie3t7c2VsZi5uYW1lc3BhY2VzWyd3J119fX1kZWwiCiAgICAgICAgYXV0aG9yX2F0dHIgPSBmInt7e3NlbGYubmFtZXNwYWNlc1sndyddfX19YXV0aG9yIgoKICAgICAgICBmb3IgcGFyZW50IGluIHJvb3QuaXRlcigpOgogICAgICAgICAgICB0b19yZW1vdmUgPSBbXQogICAgICAgICAgICBmb3IgY2hpbGQgaW4gcGFyZW50OgogICAgICAgICAgICAgICAgaWYgY2hpbGQudGFnID09IGluc190YWcgYW5kIGNoaWxkLmdldChhdXRob3JfYXR0cikgPT0gc2VsZi5hdXRob3I6CiAgICAgICAgICAgICAgICAgICAgdG9fcmVtb3ZlLmFwcGVuZChjaGlsZCkKICAgICAgICAgICAgZm9yIGVsZW0gaW4gdG9fcmVtb3ZlOgogICAgICAgICAgICAgICAgcGFyZW50LnJlbW92ZShlbGVtKQoKICAgICAgICBkZWx0ZXh0X3RhZyA9IGYie3t7c2VsZi5uYW1lc3BhY2VzWyd3J119fX1kZWxUZXh0IgogICAgICAgIHRfdGFnID0gZiJ7e3tzZWxmLm5hbWVzcGFjZXNbJ3cnXX19fXQiCgogICAgICAgIGZvciBwYXJlbnQgaW4gcm9vdC5pdGVyKCk6CiAgICAgICAgICAgIHRvX3Byb2Nlc3MgPSBbXQogICAgICAgICAgICBmb3IgY2hpbGQgaW4gcGFyZW50OgogICAgICAgICAgICAgICAgaWYgY2hpbGQudGFnID09IGRlbF90YWcgYW5kIGNoaWxkLmdldChhdXRob3JfYXR0cikgPT0gc2VsZi5hdXRob3I6CiAgICAgICAgICAgICAgICAgICAgdG9fcHJvY2Vzcy5hcHBlbmQoKGNoaWxkLCBsaXN0KHBhcmVudCkuaW5kZXgoY2hpbGQpKSkKCiAgICAgICAgICAgIGZvciBkZWxfZWxlbSwgZGVsX2luZGV4IGluIHJldmVyc2VkKHRvX3Byb2Nlc3MpOgogICAgICAgICAgICAgICAgZm9yIGVsZW0gaW4gZGVsX2VsZW0uaXRlcigpOgogICAgICAgICAgICAgICAgICAgIGlmIGVsZW0udGFnID09IGRlbHRleHRfdGFnOgogICAgICAgICAgICAgICAgICAgICAgICBlbGVtLnRhZyA9IHRfdGFnCgogICAgICAgICAgICAgICAgZm9yIGNoaWxkIGluIHJldmVyc2VkKGxpc3QoZGVsX2VsZW0pKToKICAgICAgICAgICAgICAgICAgICBwYXJlbnQuaW5zZXJ0KGRlbF9pbmRleCwgY2hpbGQpCiAgICAgICAgICAgICAgICBwYXJlbnQucmVtb3ZlKGRlbF9lbGVtKQoKICAgIGRlZiBfZXh0cmFjdF90ZXh0X2NvbnRlbnQoc2VsZiwgcm9vdCk6CiAgICAgICAgcF90YWcgPSBmInt7e3NlbGYubmFtZXNwYWNlc1sndyddfX19cCIKICAgICAgICB0X3RhZyA9IGYie3t7c2VsZi5uYW1lc3BhY2VzWyd3J119fX10IgoKICAgICAgICBwYXJhZ3JhcGhzID0gW10KICAgICAgICBmb3IgcF9lbGVtIGluIHJvb3QuZmluZGFsbChmIi4vL3twX3RhZ30iKToKICAgICAgICAgICAgdGV4dF9wYXJ0cyA9IFtdCiAgICAgICAgICAgIGZvciB0X2VsZW0gaW4gcF9lbGVtLmZpbmRhbGwoZiIuLy97dF90YWd9Iik6CiAgICAgICAgICAgICAgICBpZiB0X2VsZW0udGV4dDoKICAgICAgICAgICAgICAgICAgICB0ZXh0X3BhcnRzLmFwcGVuZCh0X2VsZW0udGV4dCkKICAgICAgICAgICAgcGFyYWdyYXBoX3RleHQgPSAiIi5qb2luKHRleHRfcGFydHMpCiAgICAgICAgICAgIGlmIHBhcmFncmFwaF90ZXh0OgogICAgICAgICAgICAgICAgcGFyYWdyYXBocy5hcHBlbmQocGFyYWdyYXBoX3RleHQpCgogICAgICAgIHJldHVybiAiXG4iLmpvaW4ocGFyYWdyYXBocykKCgppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOgogICAgcmFpc2UgUnVudGltZUVycm9yKCJUaGlzIG1vZHVsZSBzaG91bGQgbm90IGJlIHJ1biBkaXJlY3RseS4iKQo=
+"""
+Validator for tracked changes in Word documents.
+"""
+
+import subprocess
+import tempfile
+import zipfile
+from pathlib import Path
+
+
+class RedliningValidator:
+
+    def __init__(self, unpacked_dir, original_docx, verbose=False, author="Claude"):
+        self.unpacked_dir = Path(unpacked_dir)
+        self.original_docx = Path(original_docx)
+        self.verbose = verbose
+        self.author = author
+        self.namespaces = {
+            "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+        }
+
+    def repair(self) -> int:
+        return 0
+
+    def validate(self):
+        modified_file = self.unpacked_dir / "word" / "document.xml"
+        if not modified_file.exists():
+            print(f"FAILED - Modified document.xml not found at {modified_file}")
+            return False
+
+        try:
+            import xml.etree.ElementTree as ET
+
+            tree = ET.parse(modified_file)
+            root = tree.getroot()
+
+            del_elements = root.findall(".//w:del", self.namespaces)
+            ins_elements = root.findall(".//w:ins", self.namespaces)
+
+            author_del_elements = [
+                elem
+                for elem in del_elements
+                if elem.get(f"{{{self.namespaces['w']}}}author") == self.author
+            ]
+            author_ins_elements = [
+                elem
+                for elem in ins_elements
+                if elem.get(f"{{{self.namespaces['w']}}}author") == self.author
+            ]
+
+            if not author_del_elements and not author_ins_elements:
+                if self.verbose:
+                    print(f"PASSED - No tracked changes by {self.author} found.")
+                return True
+
+        except Exception:
+            pass
+
+        with tempfile.TemporaryDirectory() as temp_dir:
+            temp_path = Path(temp_dir)
+
+            try:
+                with zipfile.ZipFile(self.original_docx, "r") as zip_ref:
+                    zip_ref.extractall(temp_path)
+            except Exception as e:
+                print(f"FAILED - Error unpacking original docx: {e}")
+                return False
+
+            original_file = temp_path / "word" / "document.xml"
+            if not original_file.exists():
+                print(
+                    f"FAILED - Original document.xml not found in {self.original_docx}"
+                )
+                return False
+
+            try:
+                import xml.etree.ElementTree as ET
+
+                modified_tree = ET.parse(modified_file)
+                modified_root = modified_tree.getroot()
+                original_tree = ET.parse(original_file)
+                original_root = original_tree.getroot()
+            except ET.ParseError as e:
+                print(f"FAILED - Error parsing XML files: {e}")
+                return False
+
+            self._remove_author_tracked_changes(original_root)
+            self._remove_author_tracked_changes(modified_root)
+
+            modified_text = self._extract_text_content(modified_root)
+            original_text = self._extract_text_content(original_root)
+
+            if modified_text != original_text:
+                error_message = self._generate_detailed_diff(
+                    original_text, modified_text
+                )
+                print(error_message)
+                return False
+
+            if self.verbose:
+                print(f"PASSED - All changes by {self.author} are properly tracked")
+            return True
+
+    def _generate_detailed_diff(self, original_text, modified_text):
+        error_parts = [
+            f"FAILED - Document text doesn't match after removing {self.author}'s tracked changes",
+            "",
+            "Likely causes:",
+            "  1. Modified text inside another author's <w:ins> or <w:del> tags",
+            "  2. Made edits without proper tracked changes",
+            "  3. Didn't nest <w:del> inside <w:ins> when deleting another's insertion",
+            "",
+            "For pre-redlined documents, use correct patterns:",
+            "  - To reject another's INSERTION: Nest <w:del> inside their <w:ins>",
+            "  - To restore another's DELETION: Add new <w:ins> AFTER their <w:del>",
+            "",
+        ]
+
+        git_diff = self._get_git_word_diff(original_text, modified_text)
+        if git_diff:
+            error_parts.extend(["Differences:", "============", git_diff])
+        else:
+            error_parts.append("Unable to generate word diff (git not available)")
+
+        return "\n".join(error_parts)
+
+    def _get_git_word_diff(self, original_text, modified_text):
+        try:
+            with tempfile.TemporaryDirectory() as temp_dir:
+                temp_path = Path(temp_dir)
+
+                original_file = temp_path / "original.txt"
+                modified_file = temp_path / "modified.txt"
+
+                original_file.write_text(original_text, encoding="utf-8")
+                modified_file.write_text(modified_text, encoding="utf-8")
+
+                result = subprocess.run(
+                    [
+                        "git",
+                        "diff",
+                        "--word-diff=plain",
+                        "--word-diff-regex=.",  
+                        "-U0",  
+                        "--no-index",
+                        str(original_file),
+                        str(modified_file),
+                    ],
+                    capture_output=True,
+                    text=True,
+                )
+
+                if result.stdout.strip():
+                    lines = result.stdout.split("\n")
+                    content_lines = []
+                    in_content = False
+                    for line in lines:
+                        if line.startswith("@@"):
+                            in_content = True
+                            continue
+                        if in_content and line.strip():
+                            content_lines.append(line)
+
+                    if content_lines:
+                        return "\n".join(content_lines)
+
+                result = subprocess.run(
+                    [
+                        "git",
+                        "diff",
+                        "--word-diff=plain",
+                        "-U0",  
+                        "--no-index",
+                        str(original_file),
+                        str(modified_file),
+                    ],
+                    capture_output=True,
+                    text=True,
+                )
+
+                if result.stdout.strip():
+                    lines = result.stdout.split("\n")
+                    content_lines = []
+                    in_content = False
+                    for line in lines:
+                        if line.startswith("@@"):
+                            in_content = True
+                            continue
+                        if in_content and line.strip():
+                            content_lines.append(line)
+                    return "\n".join(content_lines)
+
+        except (subprocess.CalledProcessError, FileNotFoundError, Exception):
+            pass
+
+        return None
+
+    def _remove_author_tracked_changes(self, root):
+        ins_tag = f"{{{self.namespaces['w']}}}ins"
+        del_tag = f"{{{self.namespaces['w']}}}del"
+        author_attr = f"{{{self.namespaces['w']}}}author"
+
+        for parent in root.iter():
+            to_remove = []
+            for child in parent:
+                if child.tag == ins_tag and child.get(author_attr) == self.author:
+                    to_remove.append(child)
+            for elem in to_remove:
+                parent.remove(elem)
+
+        deltext_tag = f"{{{self.namespaces['w']}}}delText"
+        t_tag = f"{{{self.namespaces['w']}}}t"
+
+        for parent in root.iter():
+            to_process = []
+            for child in parent:
+                if child.tag == del_tag and child.get(author_attr) == self.author:
+                    to_process.append((child, list(parent).index(child)))
+
+            for del_elem, del_index in reversed(to_process):
+                for elem in del_elem.iter():
+                    if elem.tag == deltext_tag:
+                        elem.tag = t_tag
+
+                for child in reversed(list(del_elem)):
+                    parent.insert(del_index, child)
+                parent.remove(del_elem)
+
+    def _extract_text_content(self, root):
+        p_tag = f"{{{self.namespaces['w']}}}p"
+        t_tag = f"{{{self.namespaces['w']}}}t"
+
+        paragraphs = []
+        for p_elem in root.findall(f".//{p_tag}"):
+            text_parts = []
+            for t_elem in p_elem.findall(f".//{t_tag}"):
+                if t_elem.text:
+                    text_parts.append(t_elem.text)
+            paragraph_text = "".join(text_parts)
+            if paragraph_text:
+                paragraphs.append(paragraph_text)
+
+        return "\n".join(paragraphs)
+
+
+if __name__ == "__main__":
+    raise RuntimeError("This module should not be run directly.")

@@ -1,1 +1,154 @@
-LS0tCmRlc2NyaXB0aW9uOiBBcmNoaXZlIGEgY29tcGxldGVkIGNoYW5nZSBpbiB0aGUgZXhwZXJpbWVudGFsIHdvcmtmbG93Ci0tLQoKQXJjaGl2ZSBhIGNvbXBsZXRlZCBjaGFuZ2UgaW4gdGhlIGV4cGVyaW1lbnRhbCB3b3JrZmxvdy4KCioqSW5wdXQqKjogT3B0aW9uYWxseSBzcGVjaWZ5IGEgY2hhbmdlIG5hbWUgYWZ0ZXIgYC9vcHN4LWFyY2hpdmVgIChlLmcuLCBgL29wc3gtYXJjaGl2ZSBhZGQtYXV0aGApLiBJZiBvbWl0dGVkLCBjaGVjayBpZiBpdCBjYW4gYmUgaW5mZXJyZWQgZnJvbSBjb252ZXJzYXRpb24gY29udGV4dC4gSWYgdmFndWUgb3IgYW1iaWd1b3VzIHlvdSBNVVNUIHByb21wdCBmb3IgYXZhaWxhYmxlIGNoYW5nZXMuCgoqKlN0ZXBzKioKCjEuICoqSWYgbm8gY2hhbmdlIG5hbWUgcHJvdmlkZWQsIHByb21wdCBmb3Igc2VsZWN0aW9uKioKCiAgIFJ1biBgb3BlbnNwZWMgbGlzdCAtLWpzb25gIHRvIGdldCBhdmFpbGFibGUgY2hhbmdlcy4gVXNlIHRoZSAqKkFza1VzZXJRdWVzdGlvbiB0b29sKiogdG8gbGV0IHRoZSB1c2VyIHNlbGVjdC4KCiAgIFNob3cgb25seSBhY3RpdmUgY2hhbmdlcyAobm90IGFscmVhZHkgYXJjaGl2ZWQpLgogICBJbmNsdWRlIHRoZSBzY2hlbWEgdXNlZCBmb3IgZWFjaCBjaGFuZ2UgaWYgYXZhaWxhYmxlLgoKICAgKipJTVBPUlRBTlQqKjogRG8gTk9UIGd1ZXNzIG9yIGF1dG8tc2VsZWN0IGEgY2hhbmdlLiBBbHdheXMgbGV0IHRoZSB1c2VyIGNob29zZS4KCjIuICoqQ2hlY2sgYXJ0aWZhY3QgY29tcGxldGlvbiBzdGF0dXMqKgoKICAgUnVuIGBvcGVuc3BlYyBzdGF0dXMgLS1jaGFuZ2UgIjxuYW1lPiIgLS1qc29uYCB0byBjaGVjayBhcnRpZmFjdCBjb21wbGV0aW9uLgoKICAgUGFyc2UgdGhlIEpTT04gdG8gdW5kZXJzdGFuZDoKICAgLSBgc2NoZW1hTmFtZWA6IFRoZSB3b3JrZmxvdyBiZWluZyB1c2VkCiAgIC0gYGFydGlmYWN0c2A6IExpc3Qgb2YgYXJ0aWZhY3RzIHdpdGggdGhlaXIgc3RhdHVzIChgZG9uZWAgb3Igb3RoZXIpCgogICAqKklmIGFueSBhcnRpZmFjdHMgYXJlIG5vdCBgZG9uZWA6KioKICAgLSBEaXNwbGF5IHdhcm5pbmcgbGlzdGluZyBpbmNvbXBsZXRlIGFydGlmYWN0cwogICAtIFByb21wdCB1c2VyIGZvciBjb25maXJtYXRpb24gdG8gY29udGludWUKICAgLSBQcm9jZWVkIGlmIHVzZXIgY29uZmlybXMKCjMuICoqQ2hlY2sgdGFzayBjb21wbGV0aW9uIHN0YXR1cyoqCgogICBSZWFkIHRoZSB0YXNrcyBmaWxlICh0eXBpY2FsbHkgYHRhc2tzLm1kYCkgdG8gY2hlY2sgZm9yIGluY29tcGxldGUgdGFza3MuCgogICBDb3VudCB0YXNrcyBtYXJrZWQgd2l0aCBgLSBbIF1gIChpbmNvbXBsZXRlKSB2cyBgLSBbeF1gIChjb21wbGV0ZSkuCgogICAqKklmIGluY29tcGxldGUgdGFza3MgZm91bmQ6KioKICAgLSBEaXNwbGF5IHdhcm5pbmcgc2hvd2luZyBjb3VudCBvZiBpbmNvbXBsZXRlIHRhc2tzCiAgIC0gUHJvbXB0IHVzZXIgZm9yIGNvbmZpcm1hdGlvbiB0byBjb250aW51ZQogICAtIFByb2NlZWQgaWYgdXNlciBjb25maXJtcwoKICAgKipJZiBubyB0YXNrcyBmaWxlIGV4aXN0czoqKiBQcm9jZWVkIHdpdGhvdXQgdGFzay1yZWxhdGVkIHdhcm5pbmcuCgo0LiAqKkFzc2VzcyBkZWx0YSBzcGVjIHN5bmMgc3RhdGUqKgoKICAgQ2hlY2sgZm9yIGRlbHRhIHNwZWNzIGF0IGBvcGVuc3BlYy9jaGFuZ2VzLzxuYW1lPi9zcGVjcy9gLiBJZiBub25lIGV4aXN0LCBwcm9jZWVkIHdpdGhvdXQgc3luYyBwcm9tcHQuCgogICAqKklmIGRlbHRhIHNwZWNzIGV4aXN0OioqCiAgIC0gQ29tcGFyZSBlYWNoIGRlbHRhIHNwZWMgd2l0aCBpdHMgY29ycmVzcG9uZGluZyBtYWluIHNwZWMgYXQgYG9wZW5zcGVjL3NwZWNzLzxjYXBhYmlsaXR5Pi9zcGVjLm1kYAogICAtIERldGVybWluZSB3aGF0IGNoYW5nZXMgd291bGQgYmUgYXBwbGllZCAoYWRkcywgbW9kaWZpY2F0aW9ucywgcmVtb3ZhbHMsIHJlbmFtZXMpCiAgIC0gU2hvdyBhIGNvbWJpbmVkIHN1bW1hcnkgYmVmb3JlIHByb21wdGluZwoKICAgKipQcm9tcHQgb3B0aW9uczoqKgogICAtIElmIGNoYW5nZXMgbmVlZGVkOiAiU3luYyBub3cgKHJlY29tbWVuZGVkKSIsICJBcmNoaXZlIHdpdGhvdXQgc3luY2luZyIKICAgLSBJZiBhbHJlYWR5IHN5bmNlZDogIkFyY2hpdmUgbm93IiwgIlN5bmMgYW55d2F5IiwgIkNhbmNlbCIKCiAgIElmIHVzZXIgY2hvb3NlcyBzeW5jLCB1c2UgVGFzayB0b29sIChzdWJhZ2VudF90eXBlOiAiZ2VuZXJhbC1wdXJwb3NlIiwgcHJvbXB0OiAiVXNlIFNraWxsIHRvb2wgdG8gaW52b2tlIG9wZW5zcGVjLXN5bmMtc3BlY3MgZm9yIGNoYW5nZSAnPG5hbWU+Jy4gRGVsdGEgc3BlYyBhbmFseXNpczogPGluY2x1ZGUgdGhlIGFuYWx5emVkIGRlbHRhIHNwZWMgc3VtbWFyeT4iKS4gUHJvY2VlZCB0byBhcmNoaXZlIHJlZ2FyZGxlc3Mgb2YgY2hvaWNlLgoKNS4gKipQZXJmb3JtIHRoZSBhcmNoaXZlKioKCiAgIENyZWF0ZSB0aGUgYXJjaGl2ZSBkaXJlY3RvcnkgaWYgaXQgZG9lc24ndCBleGlzdDoKICAgYGBgYmFzaAogICBta2RpciAtcCBvcGVuc3BlYy9jaGFuZ2VzL2FyY2hpdmUKICAgYGBgCgogICBHZW5lcmF0ZSB0YXJnZXQgbmFtZSB1c2luZyBjdXJyZW50IGRhdGU6IGBZWVlZLU1NLURELTxjaGFuZ2UtbmFtZT5gCgogICAqKkNoZWNrIGlmIHRhcmdldCBhbHJlYWR5IGV4aXN0czoqKgogICAtIElmIHllczogRmFpbCB3aXRoIGVycm9yLCBzdWdnZXN0IHJlbmFtaW5nIGV4aXN0aW5nIGFyY2hpdmUgb3IgdXNpbmcgZGlmZmVyZW50IGRhdGUKICAgLSBJZiBubzogTW92ZSB0aGUgY2hhbmdlIGRpcmVjdG9yeSB0byBhcmNoaXZlCgogICBgYGBiYXNoCiAgIG12IG9wZW5zcGVjL2NoYW5nZXMvPG5hbWU+IG9wZW5zcGVjL2NoYW5nZXMvYXJjaGl2ZS9ZWVlZLU1NLURELTxuYW1lPgogICBgYGAKCjYuICoqRGlzcGxheSBzdW1tYXJ5KioKCiAgIFNob3cgYXJjaGl2ZSBjb21wbGV0aW9uIHN1bW1hcnkgaW5jbHVkaW5nOgogICAtIENoYW5nZSBuYW1lCiAgIC0gU2NoZW1hIHRoYXQgd2FzIHVzZWQKICAgLSBBcmNoaXZlIGxvY2F0aW9uCiAgIC0gU3BlYyBzeW5jIHN0YXR1cyAoc3luY2VkIC8gc3luYyBza2lwcGVkIC8gbm8gZGVsdGEgc3BlY3MpCiAgIC0gTm90ZSBhYm91dCBhbnkgd2FybmluZ3MgKGluY29tcGxldGUgYXJ0aWZhY3RzL3Rhc2tzKQoKKipPdXRwdXQgT24gU3VjY2VzcyoqCgpgYGAKIyMgQXJjaGl2ZSBDb21wbGV0ZQoKKipDaGFuZ2U6KiogPGNoYW5nZS1uYW1lPgoqKlNjaGVtYToqKiA8c2NoZW1hLW5hbWU+CioqQXJjaGl2ZWQgdG86Kiogb3BlbnNwZWMvY2hhbmdlcy9hcmNoaXZlL1lZWVktTU0tREQtPG5hbWU+LwoqKlNwZWNzOioqIOKckyBTeW5jZWQgdG8gbWFpbiBzcGVjcwoKQWxsIGFydGlmYWN0cyBjb21wbGV0ZS4gQWxsIHRhc2tzIGNvbXBsZXRlLgpgYGAKCioqT3V0cHV0IE9uIFN1Y2Nlc3MgKE5vIERlbHRhIFNwZWNzKSoqCgpgYGAKIyMgQXJjaGl2ZSBDb21wbGV0ZQoKKipDaGFuZ2U6KiogPGNoYW5nZS1uYW1lPgoqKlNjaGVtYToqKiA8c2NoZW1hLW5hbWU+CioqQXJjaGl2ZWQgdG86Kiogb3BlbnNwZWMvY2hhbmdlcy9hcmNoaXZlL1lZWVktTU0tREQtPG5hbWU+LwoqKlNwZWNzOioqIE5vIGRlbHRhIHNwZWNzCgpBbGwgYXJ0aWZhY3RzIGNvbXBsZXRlLiBBbGwgdGFza3MgY29tcGxldGUuCmBgYAoKKipPdXRwdXQgT24gU3VjY2VzcyBXaXRoIFdhcm5pbmdzKioKCmBgYAojIyBBcmNoaXZlIENvbXBsZXRlICh3aXRoIHdhcm5pbmdzKQoKKipDaGFuZ2U6KiogPGNoYW5nZS1uYW1lPgoqKlNjaGVtYToqKiA8c2NoZW1hLW5hbWU+CioqQXJjaGl2ZWQgdG86Kiogb3BlbnNwZWMvY2hhbmdlcy9hcmNoaXZlL1lZWVktTU0tREQtPG5hbWU+LwoqKlNwZWNzOioqIFN5bmMgc2tpcHBlZCAodXNlciBjaG9zZSB0byBza2lwKQoKKipXYXJuaW5nczoqKgotIEFyY2hpdmVkIHdpdGggMiBpbmNvbXBsZXRlIGFydGlmYWN0cwotIEFyY2hpdmVkIHdpdGggMyBpbmNvbXBsZXRlIHRhc2tzCi0gRGVsdGEgc3BlYyBzeW5jIHdhcyBza2lwcGVkICh1c2VyIGNob3NlIHRvIHNraXApCgpSZXZpZXcgdGhlIGFyY2hpdmUgaWYgdGhpcyB3YXMgbm90IGludGVudGlvbmFsLgpgYGAKCioqT3V0cHV0IE9uIEVycm9yIChBcmNoaXZlIEV4aXN0cykqKgoKYGBgCiMjIEFyY2hpdmUgRmFpbGVkCgoqKkNoYW5nZToqKiA8Y2hhbmdlLW5hbWU+CioqVGFyZ2V0OioqIG9wZW5zcGVjL2NoYW5nZXMvYXJjaGl2ZS9ZWVlZLU1NLURELTxuYW1lPi8KClRhcmdldCBhcmNoaXZlIGRpcmVjdG9yeSBhbHJlYWR5IGV4aXN0cy4KCioqT3B0aW9uczoqKgoxLiBSZW5hbWUgdGhlIGV4aXN0aW5nIGFyY2hpdmUKMi4gRGVsZXRlIHRoZSBleGlzdGluZyBhcmNoaXZlIGlmIGl0J3MgYSBkdXBsaWNhdGUKMy4gV2FpdCB1bnRpbCBhIGRpZmZlcmVudCBkYXRlIHRvIGFyY2hpdmUKYGBgCgoqKkd1YXJkcmFpbHMqKgotIEFsd2F5cyBwcm9tcHQgZm9yIGNoYW5nZSBzZWxlY3Rpb24gaWYgbm90IHByb3ZpZGVkCi0gVXNlIGFydGlmYWN0IGdyYXBoIChvcGVuc3BlYyBzdGF0dXMgLS1qc29uKSBmb3IgY29tcGxldGlvbiBjaGVja2luZwotIERvbid0IGJsb2NrIGFyY2hpdmUgb24gd2FybmluZ3MgLSBqdXN0IGluZm9ybSBhbmQgY29uZmlybQotIFByZXNlcnZlIC5vcGVuc3BlYy55YW1sIHdoZW4gbW92aW5nIHRvIGFyY2hpdmUgKGl0IG1vdmVzIHdpdGggdGhlIGRpcmVjdG9yeSkKLSBTaG93IGNsZWFyIHN1bW1hcnkgb2Ygd2hhdCBoYXBwZW5lZAotIElmIHN5bmMgaXMgcmVxdWVzdGVkLCB1c2UgdGhlIFNraWxsIHRvb2wgdG8gaW52b2tlIGBvcGVuc3BlYy1zeW5jLXNwZWNzYCAoYWdlbnQtZHJpdmVuKQotIElmIGRlbHRhIHNwZWNzIGV4aXN0LCBhbHdheXMgcnVuIHRoZSBzeW5jIGFzc2Vzc21lbnQgYW5kIHNob3cgdGhlIGNvbWJpbmVkIHN1bW1hcnkgYmVmb3JlIHByb21wdGluZwo=
+---
+description: Archive a completed change in the experimental workflow
+---
+
+Archive a completed change in the experimental workflow.
+
+**Input**: Optionally specify a change name after `/opsx-archive` (e.g., `/opsx-archive add-auth`). If omitted, check if it can be inferred from conversation context. If vague or ambiguous you MUST prompt for available changes.
+
+**Steps**
+
+1. **If no change name provided, prompt for selection**
+
+   Run `openspec list --json` to get available changes. Use the **AskUserQuestion tool** to let the user select.
+
+   Show only active changes (not already archived).
+   Include the schema used for each change if available.
+
+   **IMPORTANT**: Do NOT guess or auto-select a change. Always let the user choose.
+
+2. **Check artifact completion status**
+
+   Run `openspec status --change "<name>" --json` to check artifact completion.
+
+   Parse the JSON to understand:
+   - `schemaName`: The workflow being used
+   - `artifacts`: List of artifacts with their status (`done` or other)
+
+   **If any artifacts are not `done`:**
+   - Display warning listing incomplete artifacts
+   - Prompt user for confirmation to continue
+   - Proceed if user confirms
+
+3. **Check task completion status**
+
+   Read the tasks file (typically `tasks.md`) to check for incomplete tasks.
+
+   Count tasks marked with `- [ ]` (incomplete) vs `- [x]` (complete).
+
+   **If incomplete tasks found:**
+   - Display warning showing count of incomplete tasks
+   - Prompt user for confirmation to continue
+   - Proceed if user confirms
+
+   **If no tasks file exists:** Proceed without task-related warning.
+
+4. **Assess delta spec sync state**
+
+   Check for delta specs at `openspec/changes/<name>/specs/`. If none exist, proceed without sync prompt.
+
+   **If delta specs exist:**
+   - Compare each delta spec with its corresponding main spec at `openspec/specs/<capability>/spec.md`
+   - Determine what changes would be applied (adds, modifications, removals, renames)
+   - Show a combined summary before prompting
+
+   **Prompt options:**
+   - If changes needed: "Sync now (recommended)", "Archive without syncing"
+   - If already synced: "Archive now", "Sync anyway", "Cancel"
+
+   If user chooses sync, use Task tool (subagent_type: "general-purpose", prompt: "Use Skill tool to invoke openspec-sync-specs for change '<name>'. Delta spec analysis: <include the analyzed delta spec summary>"). Proceed to archive regardless of choice.
+
+5. **Perform the archive**
+
+   Create the archive directory if it doesn't exist:
+   ```bash
+   mkdir -p openspec/changes/archive
+   ```
+
+   Generate target name using current date: `YYYY-MM-DD-<change-name>`
+
+   **Check if target already exists:**
+   - If yes: Fail with error, suggest renaming existing archive or using different date
+   - If no: Move the change directory to archive
+
+   ```bash
+   mv openspec/changes/<name> openspec/changes/archive/YYYY-MM-DD-<name>
+   ```
+
+6. **Display summary**
+
+   Show archive completion summary including:
+   - Change name
+   - Schema that was used
+   - Archive location
+   - Spec sync status (synced / sync skipped / no delta specs)
+   - Note about any warnings (incomplete artifacts/tasks)
+
+**Output On Success**
+
+```
+## Archive Complete
+
+**Change:** <change-name>
+**Schema:** <schema-name>
+**Archived to:** openspec/changes/archive/YYYY-MM-DD-<name>/
+**Specs:** ✓ Synced to main specs
+
+All artifacts complete. All tasks complete.
+```
+
+**Output On Success (No Delta Specs)**
+
+```
+## Archive Complete
+
+**Change:** <change-name>
+**Schema:** <schema-name>
+**Archived to:** openspec/changes/archive/YYYY-MM-DD-<name>/
+**Specs:** No delta specs
+
+All artifacts complete. All tasks complete.
+```
+
+**Output On Success With Warnings**
+
+```
+## Archive Complete (with warnings)
+
+**Change:** <change-name>
+**Schema:** <schema-name>
+**Archived to:** openspec/changes/archive/YYYY-MM-DD-<name>/
+**Specs:** Sync skipped (user chose to skip)
+
+**Warnings:**
+- Archived with 2 incomplete artifacts
+- Archived with 3 incomplete tasks
+- Delta spec sync was skipped (user chose to skip)
+
+Review the archive if this was not intentional.
+```
+
+**Output On Error (Archive Exists)**
+
+```
+## Archive Failed
+
+**Change:** <change-name>
+**Target:** openspec/changes/archive/YYYY-MM-DD-<name>/
+
+Target archive directory already exists.
+
+**Options:**
+1. Rename the existing archive
+2. Delete the existing archive if it's a duplicate
+3. Wait until a different date to archive
+```
+
+**Guardrails**
+- Always prompt for change selection if not provided
+- Use artifact graph (openspec status --json) for completion checking
+- Don't block archive on warnings - just inform and confirm
+- Preserve .openspec.yaml when moving to archive (it moves with the directory)
+- Show clear summary of what happened
+- If sync is requested, use the Skill tool to invoke `openspec-sync-specs` (agent-driven)
+- If delta specs exist, always run the sync assessment and show the combined summary before prompting

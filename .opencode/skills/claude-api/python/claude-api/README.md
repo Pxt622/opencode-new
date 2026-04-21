@@ -1,1 +1,420 @@
-IyBDbGF1ZGUgQVBJIOKAlCBQeXRob24KCiMjIEluc3RhbGxhdGlvbgoKYGBgYmFzaApwaXAgaW5zdGFsbCBhbnRocm9waWMKYGBgCgojIyBDbGllbnQgSW5pdGlhbGl6YXRpb24KCmBgYHB5dGhvbgppbXBvcnQgYW50aHJvcGljCgojIERlZmF1bHQgKHVzZXMgQU5USFJPUElDX0FQSV9LRVkgZW52IHZhcikKY2xpZW50ID0gYW50aHJvcGljLkFudGhyb3BpYygpCgojIEV4cGxpY2l0IEFQSSBrZXkKY2xpZW50ID0gYW50aHJvcGljLkFudGhyb3BpYyhhcGlfa2V5PSJ5b3VyLWFwaS1rZXkiKQoKIyBBc3luYyBjbGllbnQKYXN5bmNfY2xpZW50ID0gYW50aHJvcGljLkFzeW5jQW50aHJvcGljKCkKYGBgCgotLS0KCiMjIEJhc2ljIE1lc3NhZ2UgUmVxdWVzdAoKYGBgcHl0aG9uCnJlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSgKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIG1lc3NhZ2VzPVsKICAgICAgICB7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIldoYXQgaXMgdGhlIGNhcGl0YWwgb2YgRnJhbmNlPyJ9CiAgICBdCikKIyByZXNwb25zZS5jb250ZW50IGlzIGEgbGlzdCBvZiBjb250ZW50IGJsb2NrIG9iamVjdHMgKFRleHRCbG9jaywgVGhpbmtpbmdCbG9jaywKIyBUb29sVXNlQmxvY2ssIC4uLikuIENoZWNrIC50eXBlIGJlZm9yZSBhY2Nlc3NpbmcgLnRleHQuCmZvciBibG9jayBpbiByZXNwb25zZS5jb250ZW50OgogICAgaWYgYmxvY2sudHlwZSA9PSAidGV4dCI6CiAgICAgICAgcHJpbnQoYmxvY2sudGV4dCkKYGBgCgotLS0KCiMjIFN5c3RlbSBQcm9tcHRzCgpgYGBweXRob24KcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgc3lzdGVtPSJZb3UgYXJlIGEgaGVscGZ1bCBjb2RpbmcgYXNzaXN0YW50LiBBbHdheXMgcHJvdmlkZSBleGFtcGxlcyBpbiBQeXRob24uIiwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIkhvdyBkbyBJIHJlYWQgYSBKU09OIGZpbGU/In1dCikKYGBgCgotLS0KCiMjIFZpc2lvbiAoSW1hZ2VzKQoKIyMjIEJhc2U2NAoKYGBgcHl0aG9uCmltcG9ydCBiYXNlNjQKCndpdGggb3BlbigiaW1hZ2UucG5nIiwgInJiIikgYXMgZjoKICAgIGltYWdlX2RhdGEgPSBiYXNlNjQuc3RhbmRhcmRfYjY0ZW5jb2RlKGYucmVhZCgpKS5kZWNvZGUoInV0Zi04IikKCnJlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSgKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIG1lc3NhZ2VzPVt7CiAgICAgICAgInJvbGUiOiAidXNlciIsCiAgICAgICAgImNvbnRlbnQiOiBbCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJ0eXBlIjogImltYWdlIiwKICAgICAgICAgICAgICAgICJzb3VyY2UiOiB7CiAgICAgICAgICAgICAgICAgICAgInR5cGUiOiAiYmFzZTY0IiwKICAgICAgICAgICAgICAgICAgICAibWVkaWFfdHlwZSI6ICJpbWFnZS9wbmciLAogICAgICAgICAgICAgICAgICAgICJkYXRhIjogaW1hZ2VfZGF0YQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICB7InR5cGUiOiAidGV4dCIsICJ0ZXh0IjogIldoYXQncyBpbiB0aGlzIGltYWdlPyJ9CiAgICAgICAgXQogICAgfV0KKQpgYGAKCiMjIyBVUkwKCmBgYHB5dGhvbgpyZXNwb25zZSA9IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICBtZXNzYWdlcz1bewogICAgICAgICJyb2xlIjogInVzZXIiLAogICAgICAgICJjb250ZW50IjogWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAidHlwZSI6ICJpbWFnZSIsCiAgICAgICAgICAgICAgICAic291cmNlIjogewogICAgICAgICAgICAgICAgICAgICJ0eXBlIjogInVybCIsCiAgICAgICAgICAgICAgICAgICAgInVybCI6ICJodHRwczovL2V4YW1wbGUuY29tL2ltYWdlLnBuZyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSwKICAgICAgICAgICAgeyJ0eXBlIjogInRleHQiLCAidGV4dCI6ICJEZXNjcmliZSB0aGlzIGltYWdlIn0KICAgICAgICBdCiAgICB9XQopCmBgYAoKLS0tCgojIyBQcm9tcHQgQ2FjaGluZwoKQ2FjaGUgbGFyZ2UgY29udGV4dCB0byByZWR1Y2UgY29zdHMgKHVwIHRvIDkwJSBzYXZpbmdzKS4gKipDYWNoaW5nIGlzIGEgcHJlZml4IG1hdGNoKiog4oCUIGFueSBieXRlIGNoYW5nZSBhbnl3aGVyZSBpbiB0aGUgcHJlZml4IGludmFsaWRhdGVzIGV2ZXJ5dGhpbmcgYWZ0ZXIgaXQuIEZvciBwbGFjZW1lbnQgcGF0dGVybnMsIGFyY2hpdGVjdHVyYWwgZ3VpZGFuY2UgKGZyb3plbiBzeXN0ZW0gcHJvbXB0LCBkZXRlcm1pbmlzdGljIHRvb2wgb3JkZXIsIHdoZXJlIHRvIHB1dCB2b2xhdGlsZSBjb250ZW50KSwgYW5kIHRoZSBzaWxlbnQtaW52YWxpZGF0b3IgYXVkaXQgY2hlY2tsaXN0LCByZWFkIGBzaGFyZWQvcHJvbXB0LWNhY2hpbmcubWRgLgoKIyMjIEF1dG9tYXRpYyBDYWNoaW5nIChSZWNvbW1lbmRlZCkKClVzZSB0b3AtbGV2ZWwgYGNhY2hlX2NvbnRyb2xgIHRvIGF1dG9tYXRpY2FsbHkgY2FjaGUgdGhlIGxhc3QgY2FjaGVhYmxlIGJsb2NrIGluIHRoZSByZXF1ZXN0IOKAlCBubyBuZWVkIHRvIGFubm90YXRlIGluZGl2aWR1YWwgY29udGVudCBibG9ja3M6CgpgYGBweXRob24KcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgY2FjaGVfY29udHJvbD17InR5cGUiOiAiZXBoZW1lcmFsIn0sICAjIGF1dG8tY2FjaGVzIHRoZSBsYXN0IGNhY2hlYWJsZSBibG9jawogICAgc3lzdGVtPSJZb3UgYXJlIGFuIGV4cGVydCBvbiB0aGlzIGxhcmdlIGRvY3VtZW50Li4uIiwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlN1bW1hcml6ZSB0aGUga2V5IHBvaW50cyJ9XQopCmBgYAoKIyMjIE1hbnVhbCBDYWNoZSBDb250cm9sCgpGb3IgZmluZS1ncmFpbmVkIGNvbnRyb2wsIGFkZCBgY2FjaGVfY29udHJvbGAgdG8gc3BlY2lmaWMgY29udGVudCBibG9ja3M6CgpgYGBweXRob24KcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgc3lzdGVtPVt7CiAgICAgICAgInR5cGUiOiAidGV4dCIsCiAgICAgICAgInRleHQiOiAiWW91IGFyZSBhbiBleHBlcnQgb24gdGhpcyBsYXJnZSBkb2N1bWVudC4uLiIsCiAgICAgICAgImNhY2hlX2NvbnRyb2wiOiB7InR5cGUiOiAiZXBoZW1lcmFsIn0gICMgZGVmYXVsdCBUVEwgaXMgNSBtaW51dGVzCiAgICB9XSwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlN1bW1hcml6ZSB0aGUga2V5IHBvaW50cyJ9XQopCgojIFdpdGggZXhwbGljaXQgVFRMICh0aW1lLXRvLWxpdmUpCnJlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSgKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIHN5c3RlbT1bewogICAgICAgICJ0eXBlIjogInRleHQiLAogICAgICAgICJ0ZXh0IjogIllvdSBhcmUgYW4gZXhwZXJ0IG9uIHRoaXMgbGFyZ2UgZG9jdW1lbnQuLi4iLAogICAgICAgICJjYWNoZV9jb250cm9sIjogeyJ0eXBlIjogImVwaGVtZXJhbCIsICJ0dGwiOiAiMWgifSAgIyAxIGhvdXIgVFRMCiAgICB9XSwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlN1bW1hcml6ZSB0aGUga2V5IHBvaW50cyJ9XQopCmBgYAoKIyMjIFZlcmlmeWluZyBDYWNoZSBIaXRzCgpgYGBweXRob24KcHJpbnQocmVzcG9uc2UudXNhZ2UuY2FjaGVfY3JlYXRpb25faW5wdXRfdG9rZW5zKSAgIyB0b2tlbnMgd3JpdHRlbiB0byBjYWNoZSAofjEuMjV4IGNvc3QpCnByaW50KHJlc3BvbnNlLnVzYWdlLmNhY2hlX3JlYWRfaW5wdXRfdG9rZW5zKSAgICAgICMgdG9rZW5zIHNlcnZlZCBmcm9tIGNhY2hlICh+MC4xeCBjb3N0KQpwcmludChyZXNwb25zZS51c2FnZS5pbnB1dF90b2tlbnMpICAgICAgICAgICAgICAgICAjIHVuY2FjaGVkIHRva2VucyAoZnVsbCBjb3N0KQpgYGAKCklmIGBjYWNoZV9yZWFkX2lucHV0X3Rva2Vuc2AgaXMgemVybyBhY3Jvc3MgcmVwZWF0ZWQgaWRlbnRpY2FsLXByZWZpeCByZXF1ZXN0cywgYSBzaWxlbnQgaW52YWxpZGF0b3IgaXMgYXQgd29yayDigJQgYGRhdGV0aW1lLm5vdygpYCBvciBhIFVVSUQgaW4gdGhlIHN5c3RlbSBwcm9tcHQsIHVuc29ydGVkIGBqc29uLmR1bXBzKClgLCBvciBhIHZhcnlpbmcgdG9vbCBzZXQuIFNlZSBgc2hhcmVkL3Byb21wdC1jYWNoaW5nLm1kYCBmb3IgdGhlIGZ1bGwgYXVkaXQgdGFibGUuCgotLS0KCiMjIEV4dGVuZGVkIFRoaW5raW5nCgo+ICoqT3B1cyA0LjYgYW5kIFNvbm5ldCA0LjY6KiogVXNlIGFkYXB0aXZlIHRoaW5raW5nLiBgYnVkZ2V0X3Rva2Vuc2AgaXMgZGVwcmVjYXRlZCBvbiBib3RoIE9wdXMgNC42IGFuZCBTb25uZXQgNC42Lgo+ICoqT2xkZXIgbW9kZWxzOioqIFVzZSBgdGhpbmtpbmc6IHt0eXBlOiAiZW5hYmxlZCIsIGJ1ZGdldF90b2tlbnM6IE59YCAobXVzdCBiZSA8IGBtYXhfdG9rZW5zYCwgbWluIDEwMjQpLgoKYGBgcHl0aG9uCiMgT3B1cyA0LjY6IGFkYXB0aXZlIHRoaW5raW5nIChyZWNvbW1lbmRlZCkKcmVzcG9uc2UgPSBjbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICBtYXhfdG9rZW5zPTE2MDAwLAogICAgdGhpbmtpbmc9eyJ0eXBlIjogImFkYXB0aXZlIn0sCiAgICBvdXRwdXRfY29uZmlnPXsiZWZmb3J0IjogImhpZ2gifSwgICMgbG93IHwgbWVkaXVtIHwgaGlnaCB8IG1heAogICAgbWVzc2FnZXM9W3sicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiAiU29sdmUgdGhpcyBzdGVwIGJ5IHN0ZXAuLi4ifV0KKQoKIyBBY2Nlc3MgdGhpbmtpbmcgYW5kIHJlc3BvbnNlCmZvciBibG9jayBpbiByZXNwb25zZS5jb250ZW50OgogICAgaWYgYmxvY2sudHlwZSA9PSAidGhpbmtpbmciOgogICAgICAgIHByaW50KGYiVGhpbmtpbmc6IHtibG9jay50aGlua2luZ30iKQogICAgZWxpZiBibG9jay50eXBlID09ICJ0ZXh0IjoKICAgICAgICBwcmludChmIlJlc3BvbnNlOiB7YmxvY2sudGV4dH0iKQpgYGAKCi0tLQoKIyMgRXJyb3IgSGFuZGxpbmcKCmBgYHB5dGhvbgppbXBvcnQgYW50aHJvcGljCgp0cnk6CiAgICByZXNwb25zZSA9IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoLi4uKQpleGNlcHQgYW50aHJvcGljLkJhZFJlcXVlc3RFcnJvciBhcyBlOgogICAgcHJpbnQoZiJCYWQgcmVxdWVzdDoge2UubWVzc2FnZX0iKQpleGNlcHQgYW50aHJvcGljLkF1dGhlbnRpY2F0aW9uRXJyb3I6CiAgICBwcmludCgiSW52YWxpZCBBUEkga2V5IikKZXhjZXB0IGFudGhyb3BpYy5QZXJtaXNzaW9uRGVuaWVkRXJyb3I6CiAgICBwcmludCgiQVBJIGtleSBsYWNrcyByZXF1aXJlZCBwZXJtaXNzaW9ucyIpCmV4Y2VwdCBhbnRocm9waWMuTm90Rm91bmRFcnJvcjoKICAgIHByaW50KCJJbnZhbGlkIG1vZGVsIG9yIGVuZHBvaW50IikKZXhjZXB0IGFudGhyb3BpYy5SYXRlTGltaXRFcnJvciBhcyBlOgogICAgcmV0cnlfYWZ0ZXIgPSBpbnQoZS5yZXNwb25zZS5oZWFkZXJzLmdldCgicmV0cnktYWZ0ZXIiLCAiNjAiKSkKICAgIHByaW50KGYiUmF0ZSBsaW1pdGVkLiBSZXRyeSBhZnRlciB7cmV0cnlfYWZ0ZXJ9cy4iKQpleGNlcHQgYW50aHJvcGljLkFQSVN0YXR1c0Vycm9yIGFzIGU6CiAgICBpZiBlLnN0YXR1c19jb2RlID49IDUwMDoKICAgICAgICBwcmludChmIlNlcnZlciBlcnJvciAoe2Uuc3RhdHVzX2NvZGV9KS4gUmV0cnkgbGF0ZXIuIikKICAgIGVsc2U6CiAgICAgICAgcHJpbnQoZiJBUEkgZXJyb3I6IHtlLm1lc3NhZ2V9IikKZXhjZXB0IGFudGhyb3BpYy5BUElDb25uZWN0aW9uRXJyb3I6CiAgICBwcmludCgiTmV0d29yayBlcnJvci4gQ2hlY2sgaW50ZXJuZXQgY29ubmVjdGlvbi4iKQpgYGAKCi0tLQoKIyMgTXVsdGktVHVybiBDb252ZXJzYXRpb25zCgpUaGUgQVBJIGlzIHN0YXRlbGVzcyDigJQgc2VuZCB0aGUgZnVsbCBjb252ZXJzYXRpb24gaGlzdG9yeSBlYWNoIHRpbWUuCgpgYGBweXRob24KY2xhc3MgQ29udmVyc2F0aW9uTWFuYWdlcjoKICAgICIiIk1hbmFnZSBtdWx0aS10dXJuIGNvbnZlcnNhdGlvbnMgd2l0aCB0aGUgQ2xhdWRlIEFQSS4iIiIKCiAgICBkZWYgX19pbml0X18oc2VsZiwgY2xpZW50OiBhbnRocm9waWMuQW50aHJvcGljLCBtb2RlbDogc3RyLCBzeXN0ZW06IHN0ciA9IE5vbmUpOgogICAgICAgIHNlbGYuY2xpZW50ID0gY2xpZW50CiAgICAgICAgc2VsZi5tb2RlbCA9IG1vZGVsCiAgICAgICAgc2VsZi5zeXN0ZW0gPSBzeXN0ZW0KICAgICAgICBzZWxmLm1lc3NhZ2VzID0gW10KCiAgICBkZWYgc2VuZChzZWxmLCB1c2VyX21lc3NhZ2U6IHN0ciwgKiprd2FyZ3MpIC0+IHN0cjoKICAgICAgICAiIiJTZW5kIGEgbWVzc2FnZSBhbmQgZ2V0IGEgcmVzcG9uc2UuIiIiCiAgICAgICAgc2VsZi5tZXNzYWdlcy5hcHBlbmQoeyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6IHVzZXJfbWVzc2FnZX0pCgogICAgICAgIHJlc3BvbnNlID0gc2VsZi5jbGllbnQubWVzc2FnZXMuY3JlYXRlKAogICAgICAgICAgICBtb2RlbD1zZWxmLm1vZGVsLAogICAgICAgICAgICBtYXhfdG9rZW5zPWt3YXJncy5nZXQoIm1heF90b2tlbnMiLCAxNjAwMCksCiAgICAgICAgICAgIHN5c3RlbT1zZWxmLnN5c3RlbSwKICAgICAgICAgICAgbWVzc2FnZXM9c2VsZi5tZXNzYWdlcywKICAgICAgICAgICAgKiprd2FyZ3MKICAgICAgICApCgogICAgICAgIGFzc2lzdGFudF9tZXNzYWdlID0gbmV4dCgKICAgICAgICAgICAgKGIudGV4dCBmb3IgYiBpbiByZXNwb25zZS5jb250ZW50IGlmIGIudHlwZSA9PSAidGV4dCIpLCAiIgogICAgICAgICkKICAgICAgICBzZWxmLm1lc3NhZ2VzLmFwcGVuZCh7InJvbGUiOiAiYXNzaXN0YW50IiwgImNvbnRlbnQiOiBhc3Npc3RhbnRfbWVzc2FnZX0pCgogICAgICAgIHJldHVybiBhc3Npc3RhbnRfbWVzc2FnZQoKIyBVc2FnZQpjb252ZXJzYXRpb24gPSBDb252ZXJzYXRpb25NYW5hZ2VyKAogICAgY2xpZW50PWFudGhyb3BpYy5BbnRocm9waWMoKSwKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgc3lzdGVtPSJZb3UgYXJlIGEgaGVscGZ1bCBhc3Npc3RhbnQuIgopCgpyZXNwb25zZTEgPSBjb252ZXJzYXRpb24uc2VuZCgiTXkgbmFtZSBpcyBBbGljZS4iKQpyZXNwb25zZTIgPSBjb252ZXJzYXRpb24uc2VuZCgiV2hhdCdzIG15IG5hbWU/IikgICMgQ2xhdWRlIHJlbWVtYmVycyAiQWxpY2UiCmBgYAoKKipSdWxlczoqKgoKLSBNZXNzYWdlcyBtdXN0IGFsdGVybmF0ZSBiZXR3ZWVuIGB1c2VyYCBhbmQgYGFzc2lzdGFudGAKLSBGaXJzdCBtZXNzYWdlIG11c3QgYmUgYHVzZXJgCgotLS0KCiMjIyBDb21wYWN0aW9uIChsb25nIGNvbnZlcnNhdGlvbnMpCgo+ICoqQmV0YSwgT3B1cyA0LjYgYW5kIFNvbm5ldCA0LjYuKiogV2hlbiBjb252ZXJzYXRpb25zIGFwcHJvYWNoIHRoZSAyMDBLIGNvbnRleHQgd2luZG93LCBjb21wYWN0aW9uIGF1dG9tYXRpY2FsbHkgc3VtbWFyaXplcyBlYXJsaWVyIGNvbnRleHQgc2VydmVyLXNpZGUuIFRoZSBBUEkgcmV0dXJucyBhIGBjb21wYWN0aW9uYCBibG9jazsgeW91IG11c3QgcGFzcyBpdCBiYWNrIG9uIHN1YnNlcXVlbnQgcmVxdWVzdHMg4oCUIGFwcGVuZCBgcmVzcG9uc2UuY29udGVudGAsIG5vdCBqdXN0IHRoZSB0ZXh0LgoKYGBgcHl0aG9uCmltcG9ydCBhbnRocm9waWMKCmNsaWVudCA9IGFudGhyb3BpYy5BbnRocm9waWMoKQptZXNzYWdlcyA9IFtdCgpkZWYgY2hhdCh1c2VyX21lc3NhZ2U6IHN0cikgLT4gc3RyOgogICAgbWVzc2FnZXMuYXBwZW5kKHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiB1c2VyX21lc3NhZ2V9KQoKICAgIHJlc3BvbnNlID0gY2xpZW50LmJldGEubWVzc2FnZXMuY3JlYXRlKAogICAgICAgIGJldGFzPVsiY29tcGFjdC0yMDI2LTAxLTEyIl0sCiAgICAgICAgbW9kZWw9ImNsYXVkZS1vcHVzLTQtNiIsCiAgICAgICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgICAgICBtZXNzYWdlcz1tZXNzYWdlcywKICAgICAgICBjb250ZXh0X21hbmFnZW1lbnQ9ewogICAgICAgICAgICAiZWRpdHMiOiBbeyJ0eXBlIjogImNvbXBhY3RfMjAyNjAxMTIifV0KICAgICAgICB9CiAgICApCgogICAgIyBBcHBlbmQgZnVsbCBjb250ZW50IOKAlCBjb21wYWN0aW9uIGJsb2NrcyBtdXN0IGJlIHByZXNlcnZlZAogICAgbWVzc2FnZXMuYXBwZW5kKHsicm9sZSI6ICJhc3Npc3RhbnQiLCAiY29udGVudCI6IHJlc3BvbnNlLmNvbnRlbnR9KQoKICAgIHJldHVybiBuZXh0KGJsb2NrLnRleHQgZm9yIGJsb2NrIGluIHJlc3BvbnNlLmNvbnRlbnQgaWYgYmxvY2sudHlwZSA9PSAidGV4dCIpCgojIENvbXBhY3Rpb24gdHJpZ2dlcnMgYXV0b21hdGljYWxseSB3aGVuIGNvbnRleHQgZ3Jvd3MgbGFyZ2UKcHJpbnQoY2hhdCgiSGVscCBtZSBidWlsZCBhIFB5dGhvbiB3ZWIgc2NyYXBlciIpKQpwcmludChjaGF0KCJBZGQgc3VwcG9ydCBmb3IgSmF2YVNjcmlwdC1yZW5kZXJlZCBwYWdlcyIpKQpwcmludChjaGF0KCJOb3cgYWRkIHJhdGUgbGltaXRpbmcgYW5kIGVycm9yIGhhbmRsaW5nIikpCmBgYAoKLS0tCgojIyBTdG9wIFJlYXNvbnMKClRoZSBgc3RvcF9yZWFzb25gIGZpZWxkIGluIHRoZSByZXNwb25zZSBpbmRpY2F0ZXMgd2h5IHRoZSBtb2RlbCBzdG9wcGVkIGdlbmVyYXRpbmc6Cgp8IFZhbHVlIHwgTWVhbmluZyB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBgZW5kX3R1cm5gIHwgQ2xhdWRlIGZpbmlzaGVkIGl0cyByZXNwb25zZSBuYXR1cmFsbHkgfAp8IGBtYXhfdG9rZW5zYCB8IEhpdCB0aGUgYG1heF90b2tlbnNgIGxpbWl0IOKAlCBpbmNyZWFzZSBpdCBvciB1c2Ugc3RyZWFtaW5nIHwKfCBgc3RvcF9zZXF1ZW5jZWAgfCBIaXQgYSBjdXN0b20gc3RvcCBzZXF1ZW5jZSB8CnwgYHRvb2xfdXNlYCB8IENsYXVkZSB3YW50cyB0byBjYWxsIGEgdG9vbCDigJQgZXhlY3V0ZSBpdCBhbmQgY29udGludWUgfAp8IGBwYXVzZV90dXJuYCB8IE1vZGVsIHBhdXNlZCBhbmQgY2FuIGJlIHJlc3VtZWQgKGFnZW50aWMgZmxvd3MpIHwKfCBgcmVmdXNhbGAgfCBDbGF1ZGUgcmVmdXNlZCBmb3Igc2FmZXR5IHJlYXNvbnMg4oCUIG91dHB1dCBtYXkgbm90IG1hdGNoIHlvdXIgc2NoZW1hIHwKCi0tLQoKIyMgQ29zdCBPcHRpbWl6YXRpb24gU3RyYXRlZ2llcwoKIyMjIDEuIFVzZSBQcm9tcHQgQ2FjaGluZyBmb3IgUmVwZWF0ZWQgQ29udGV4dAoKYGBgcHl0aG9uCiMgQXV0b21hdGljIGNhY2hpbmcgKHNpbXBsZXN0IOKAlCBjYWNoZXMgdGhlIGxhc3QgY2FjaGVhYmxlIGJsb2NrKQpyZXNwb25zZSA9IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoCiAgICBtb2RlbD0iY2xhdWRlLW9wdXMtNC02IiwKICAgIG1heF90b2tlbnM9MTYwMDAsCiAgICBjYWNoZV9jb250cm9sPXsidHlwZSI6ICJlcGhlbWVyYWwifSwKICAgIHN5c3RlbT1sYXJnZV9kb2N1bWVudF90ZXh0LCAgIyBlLmcuLCA1MEtCIG9mIGNvbnRleHQKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlN1bW1hcml6ZSB0aGUga2V5IHBvaW50cyJ9XQopCgojIEZpcnN0IHJlcXVlc3Q6IGZ1bGwgY29zdAojIFN1YnNlcXVlbnQgcmVxdWVzdHM6IH45MCUgY2hlYXBlciBmb3IgY2FjaGVkIHBvcnRpb24KYGBgCgojIyMgMi4gQ2hvb3NlIHRoZSBSaWdodCBNb2RlbAoKYGBgcHl0aG9uCiMgRGVmYXVsdCB0byBPcHVzIGZvciBtb3N0IHRhc2tzCnJlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSgKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLCAgIyAkNS4wMC8kMjUuMDAgcGVyIDFNIHRva2VucwogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIkV4cGxhaW4gcXVhbnR1bSBjb21wdXRpbmcifV0KKQoKIyBVc2UgU29ubmV0IGZvciBoaWdoLXZvbHVtZSBwcm9kdWN0aW9uIHdvcmtsb2FkcwpzdGFuZGFyZF9yZXNwb25zZSA9IGNsaWVudC5tZXNzYWdlcy5jcmVhdGUoCiAgICBtb2RlbD0iY2xhdWRlLXNvbm5ldC00LTYiLCAgIyAkMy4wMC8kMTUuMDAgcGVyIDFNIHRva2VucwogICAgbWF4X3Rva2Vucz0xNjAwMCwKICAgIG1lc3NhZ2VzPVt7InJvbGUiOiAidXNlciIsICJjb250ZW50IjogIlN1bW1hcml6ZSB0aGlzIGRvY3VtZW50In1dCikKCiMgVXNlIEhhaWt1IG9ubHkgZm9yIHNpbXBsZSwgc3BlZWQtY3JpdGljYWwgdGFza3MKc2ltcGxlX3Jlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzLmNyZWF0ZSgKICAgIG1vZGVsPSJjbGF1ZGUtaGFpa3UtNC01IiwgICMgJDEuMDAvJDUuMDAgcGVyIDFNIHRva2VucwogICAgbWF4X3Rva2Vucz0yNTYsCiAgICBtZXNzYWdlcz1beyJyb2xlIjogInVzZXIiLCAiY29udGVudCI6ICJDbGFzc2lmeSB0aGlzIGFzIHBvc2l0aXZlIG9yIG5lZ2F0aXZlIn1dCikKYGBgCgojIyMgMy4gVXNlIFRva2VuIENvdW50aW5nIEJlZm9yZSBSZXF1ZXN0cwoKYGBgcHl0aG9uCmNvdW50X3Jlc3BvbnNlID0gY2xpZW50Lm1lc3NhZ2VzLmNvdW50X3Rva2VucygKICAgIG1vZGVsPSJjbGF1ZGUtb3B1cy00LTYiLAogICAgbWVzc2FnZXM9bWVzc2FnZXMsCiAgICBzeXN0ZW09c3lzdGVtCikKCmVzdGltYXRlZF9pbnB1dF9jb3N0ID0gY291bnRfcmVzcG9uc2UuaW5wdXRfdG9rZW5zICogMC4wMDAwMDUgICMgJDUvMU0gdG9rZW5zCnByaW50KGYiRXN0aW1hdGVkIGlucHV0IGNvc3Q6ICR7ZXN0aW1hdGVkX2lucHV0X2Nvc3Q6LjRmfSIpCmBgYAoKLS0tCgojIyBSZXRyeSB3aXRoIEV4cG9uZW50aWFsIEJhY2tvZmYKCj4gKipOb3RlOioqIFRoZSBBbnRocm9waWMgU0RLIGF1dG9tYXRpY2FsbHkgcmV0cmllcyByYXRlIGxpbWl0ICg0MjkpIGFuZCBzZXJ2ZXIgZXJyb3JzICg1eHgpIHdpdGggZXhwb25lbnRpYWwgYmFja29mZi4gWW91IGNhbiBjb25maWd1cmUgdGhpcyB3aXRoIGBtYXhfcmV0cmllc2AgKGRlZmF1bHQ6IDIpLiBPbmx5IGltcGxlbWVudCBjdXN0b20gcmV0cnkgbG9naWMgaWYgeW91IG5lZWQgYmVoYXZpb3IgYmV5b25kIHdoYXQgdGhlIFNESyBwcm92aWRlcy4KCmBgYHB5dGhvbgppbXBvcnQgdGltZQppbXBvcnQgcmFuZG9tCmltcG9ydCBhbnRocm9waWMKCmRlZiBjYWxsX3dpdGhfcmV0cnkoCiAgICBjbGllbnQ6IGFudGhyb3BpYy5BbnRocm9waWMsCiAgICBtYXhfcmV0cmllczogaW50ID0gNSwKICAgIGJhc2VfZGVsYXk6IGZsb2F0ID0gMS4wLAogICAgbWF4X2RlbGF5OiBmbG9hdCA9IDYwLjAsCiAgICAqKmt3YXJncwopOgogICAgIiIiQ2FsbCB0aGUgQVBJIHdpdGggZXhwb25lbnRpYWwgYmFja29mZiByZXRyeS4iIiIKICAgIGxhc3RfZXhjZXB0aW9uID0gTm9uZQoKICAgIGZvciBhdHRlbXB0IGluIHJhbmdlKG1heF9yZXRyaWVzKToKICAgICAgICB0cnk6CiAgICAgICAgICAgIHJldHVybiBjbGllbnQubWVzc2FnZXMuY3JlYXRlKCoqa3dhcmdzKQogICAgICAgIGV4Y2VwdCBhbnRocm9waWMuUmF0ZUxpbWl0RXJyb3IgYXMgZToKICAgICAgICAgICAgbGFzdF9leGNlcHRpb24gPSBlCiAgICAgICAgZXhjZXB0IGFudGhyb3BpYy5BUElTdGF0dXNFcnJvciBhcyBlOgogICAgICAgICAgICBpZiBlLnN0YXR1c19jb2RlID49IDUwMDoKICAgICAgICAgICAgICAgIGxhc3RfZXhjZXB0aW9uID0gZQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcmFpc2UgICMgQ2xpZW50IGVycm9ycyAoNHh4IGV4Y2VwdCA0MjkpIHNob3VsZCBub3QgYmUgcmV0cmllZAoKICAgICAgICBkZWxheSA9IG1pbihiYXNlX2RlbGF5ICogKDIgKiogYXR0ZW1wdCkgKyByYW5kb20udW5pZm9ybSgwLCAxKSwgbWF4X2RlbGF5KQogICAgICAgIHByaW50KGYiUmV0cnkge2F0dGVtcHQgKyAxfS97bWF4X3JldHJpZXN9IGFmdGVyIHtkZWxheTouMWZ9cyIpCiAgICAgICAgdGltZS5zbGVlcChkZWxheSkKCiAgICByYWlzZSBsYXN0X2V4Y2VwdGlvbgpgYGAK
+# Claude API — Python
+
+## Installation
+
+```bash
+pip install anthropic
+```
+
+## Client Initialization
+
+```python
+import anthropic
+
+# Default (uses ANTHROPIC_API_KEY env var)
+client = anthropic.Anthropic()
+
+# Explicit API key
+client = anthropic.Anthropic(api_key="your-api-key")
+
+# Async client
+async_client = anthropic.AsyncAnthropic()
+```
+
+---
+
+## Basic Message Request
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[
+        {"role": "user", "content": "What is the capital of France?"}
+    ]
+)
+# response.content is a list of content block objects (TextBlock, ThinkingBlock,
+# ToolUseBlock, ...). Check .type before accessing .text.
+for block in response.content:
+    if block.type == "text":
+        print(block.text)
+```
+
+---
+
+## System Prompts
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    system="You are a helpful coding assistant. Always provide examples in Python.",
+    messages=[{"role": "user", "content": "How do I read a JSON file?"}]
+)
+```
+
+---
+
+## Vision (Images)
+
+### Base64
+
+```python
+import base64
+
+with open("image.png", "rb") as f:
+    image_data = base64.standard_b64encode(f.read()).decode("utf-8")
+
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{
+        "role": "user",
+        "content": [
+            {
+                "type": "image",
+                "source": {
+                    "type": "base64",
+                    "media_type": "image/png",
+                    "data": image_data
+                }
+            },
+            {"type": "text", "text": "What's in this image?"}
+        ]
+    }]
+)
+```
+
+### URL
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    messages=[{
+        "role": "user",
+        "content": [
+            {
+                "type": "image",
+                "source": {
+                    "type": "url",
+                    "url": "https://example.com/image.png"
+                }
+            },
+            {"type": "text", "text": "Describe this image"}
+        ]
+    }]
+)
+```
+
+---
+
+## Prompt Caching
+
+Cache large context to reduce costs (up to 90% savings). **Caching is a prefix match** — any byte change anywhere in the prefix invalidates everything after it. For placement patterns, architectural guidance (frozen system prompt, deterministic tool order, where to put volatile content), and the silent-invalidator audit checklist, read `shared/prompt-caching.md`.
+
+### Automatic Caching (Recommended)
+
+Use top-level `cache_control` to automatically cache the last cacheable block in the request — no need to annotate individual content blocks:
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    cache_control={"type": "ephemeral"},  # auto-caches the last cacheable block
+    system="You are an expert on this large document...",
+    messages=[{"role": "user", "content": "Summarize the key points"}]
+)
+```
+
+### Manual Cache Control
+
+For fine-grained control, add `cache_control` to specific content blocks:
+
+```python
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    system=[{
+        "type": "text",
+        "text": "You are an expert on this large document...",
+        "cache_control": {"type": "ephemeral"}  # default TTL is 5 minutes
+    }],
+    messages=[{"role": "user", "content": "Summarize the key points"}]
+)
+
+# With explicit TTL (time-to-live)
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    system=[{
+        "type": "text",
+        "text": "You are an expert on this large document...",
+        "cache_control": {"type": "ephemeral", "ttl": "1h"}  # 1 hour TTL
+    }],
+    messages=[{"role": "user", "content": "Summarize the key points"}]
+)
+```
+
+### Verifying Cache Hits
+
+```python
+print(response.usage.cache_creation_input_tokens)  # tokens written to cache (~1.25x cost)
+print(response.usage.cache_read_input_tokens)      # tokens served from cache (~0.1x cost)
+print(response.usage.input_tokens)                 # uncached tokens (full cost)
+```
+
+If `cache_read_input_tokens` is zero across repeated identical-prefix requests, a silent invalidator is at work — `datetime.now()` or a UUID in the system prompt, unsorted `json.dumps()`, or a varying tool set. See `shared/prompt-caching.md` for the full audit table.
+
+---
+
+## Extended Thinking
+
+> **Opus 4.6 and Sonnet 4.6:** Use adaptive thinking. `budget_tokens` is deprecated on both Opus 4.6 and Sonnet 4.6.
+> **Older models:** Use `thinking: {type: "enabled", budget_tokens: N}` (must be < `max_tokens`, min 1024).
+
+```python
+# Opus 4.6: adaptive thinking (recommended)
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    thinking={"type": "adaptive"},
+    output_config={"effort": "high"},  # low | medium | high | max
+    messages=[{"role": "user", "content": "Solve this step by step..."}]
+)
+
+# Access thinking and response
+for block in response.content:
+    if block.type == "thinking":
+        print(f"Thinking: {block.thinking}")
+    elif block.type == "text":
+        print(f"Response: {block.text}")
+```
+
+---
+
+## Error Handling
+
+```python
+import anthropic
+
+try:
+    response = client.messages.create(...)
+except anthropic.BadRequestError as e:
+    print(f"Bad request: {e.message}")
+except anthropic.AuthenticationError:
+    print("Invalid API key")
+except anthropic.PermissionDeniedError:
+    print("API key lacks required permissions")
+except anthropic.NotFoundError:
+    print("Invalid model or endpoint")
+except anthropic.RateLimitError as e:
+    retry_after = int(e.response.headers.get("retry-after", "60"))
+    print(f"Rate limited. Retry after {retry_after}s.")
+except anthropic.APIStatusError as e:
+    if e.status_code >= 500:
+        print(f"Server error ({e.status_code}). Retry later.")
+    else:
+        print(f"API error: {e.message}")
+except anthropic.APIConnectionError:
+    print("Network error. Check internet connection.")
+```
+
+---
+
+## Multi-Turn Conversations
+
+The API is stateless — send the full conversation history each time.
+
+```python
+class ConversationManager:
+    """Manage multi-turn conversations with the Claude API."""
+
+    def __init__(self, client: anthropic.Anthropic, model: str, system: str = None):
+        self.client = client
+        self.model = model
+        self.system = system
+        self.messages = []
+
+    def send(self, user_message: str, **kwargs) -> str:
+        """Send a message and get a response."""
+        self.messages.append({"role": "user", "content": user_message})
+
+        response = self.client.messages.create(
+            model=self.model,
+            max_tokens=kwargs.get("max_tokens", 16000),
+            system=self.system,
+            messages=self.messages,
+            **kwargs
+        )
+
+        assistant_message = next(
+            (b.text for b in response.content if b.type == "text"), ""
+        )
+        self.messages.append({"role": "assistant", "content": assistant_message})
+
+        return assistant_message
+
+# Usage
+conversation = ConversationManager(
+    client=anthropic.Anthropic(),
+    model="claude-opus-4-6",
+    system="You are a helpful assistant."
+)
+
+response1 = conversation.send("My name is Alice.")
+response2 = conversation.send("What's my name?")  # Claude remembers "Alice"
+```
+
+**Rules:**
+
+- Messages must alternate between `user` and `assistant`
+- First message must be `user`
+
+---
+
+### Compaction (long conversations)
+
+> **Beta, Opus 4.6 and Sonnet 4.6.** When conversations approach the 200K context window, compaction automatically summarizes earlier context server-side. The API returns a `compaction` block; you must pass it back on subsequent requests — append `response.content`, not just the text.
+
+```python
+import anthropic
+
+client = anthropic.Anthropic()
+messages = []
+
+def chat(user_message: str) -> str:
+    messages.append({"role": "user", "content": user_message})
+
+    response = client.beta.messages.create(
+        betas=["compact-2026-01-12"],
+        model="claude-opus-4-6",
+        max_tokens=16000,
+        messages=messages,
+        context_management={
+            "edits": [{"type": "compact_20260112"}]
+        }
+    )
+
+    # Append full content — compaction blocks must be preserved
+    messages.append({"role": "assistant", "content": response.content})
+
+    return next(block.text for block in response.content if block.type == "text")
+
+# Compaction triggers automatically when context grows large
+print(chat("Help me build a Python web scraper"))
+print(chat("Add support for JavaScript-rendered pages"))
+print(chat("Now add rate limiting and error handling"))
+```
+
+---
+
+## Stop Reasons
+
+The `stop_reason` field in the response indicates why the model stopped generating:
+
+| Value | Meaning |
+|-------|---------|
+| `end_turn` | Claude finished its response naturally |
+| `max_tokens` | Hit the `max_tokens` limit — increase it or use streaming |
+| `stop_sequence` | Hit a custom stop sequence |
+| `tool_use` | Claude wants to call a tool — execute it and continue |
+| `pause_turn` | Model paused and can be resumed (agentic flows) |
+| `refusal` | Claude refused for safety reasons — output may not match your schema |
+
+---
+
+## Cost Optimization Strategies
+
+### 1. Use Prompt Caching for Repeated Context
+
+```python
+# Automatic caching (simplest — caches the last cacheable block)
+response = client.messages.create(
+    model="claude-opus-4-6",
+    max_tokens=16000,
+    cache_control={"type": "ephemeral"},
+    system=large_document_text,  # e.g., 50KB of context
+    messages=[{"role": "user", "content": "Summarize the key points"}]
+)
+
+# First request: full cost
+# Subsequent requests: ~90% cheaper for cached portion
+```
+
+### 2. Choose the Right Model
+
+```python
+# Default to Opus for most tasks
+response = client.messages.create(
+    model="claude-opus-4-6",  # $5.00/$25.00 per 1M tokens
+    max_tokens=16000,
+    messages=[{"role": "user", "content": "Explain quantum computing"}]
+)
+
+# Use Sonnet for high-volume production workloads
+standard_response = client.messages.create(
+    model="claude-sonnet-4-6",  # $3.00/$15.00 per 1M tokens
+    max_tokens=16000,
+    messages=[{"role": "user", "content": "Summarize this document"}]
+)
+
+# Use Haiku only for simple, speed-critical tasks
+simple_response = client.messages.create(
+    model="claude-haiku-4-5",  # $1.00/$5.00 per 1M tokens
+    max_tokens=256,
+    messages=[{"role": "user", "content": "Classify this as positive or negative"}]
+)
+```
+
+### 3. Use Token Counting Before Requests
+
+```python
+count_response = client.messages.count_tokens(
+    model="claude-opus-4-6",
+    messages=messages,
+    system=system
+)
+
+estimated_input_cost = count_response.input_tokens * 0.000005  # $5/1M tokens
+print(f"Estimated input cost: ${estimated_input_cost:.4f}")
+```
+
+---
+
+## Retry with Exponential Backoff
+
+> **Note:** The Anthropic SDK automatically retries rate limit (429) and server errors (5xx) with exponential backoff. You can configure this with `max_retries` (default: 2). Only implement custom retry logic if you need behavior beyond what the SDK provides.
+
+```python
+import time
+import random
+import anthropic
+
+def call_with_retry(
+    client: anthropic.Anthropic,
+    max_retries: int = 5,
+    base_delay: float = 1.0,
+    max_delay: float = 60.0,
+    **kwargs
+):
+    """Call the API with exponential backoff retry."""
+    last_exception = None
+
+    for attempt in range(max_retries):
+        try:
+            return client.messages.create(**kwargs)
+        except anthropic.RateLimitError as e:
+            last_exception = e
+        except anthropic.APIStatusError as e:
+            if e.status_code >= 500:
+                last_exception = e
+            else:
+                raise  # Client errors (4xx except 429) should not be retried
+
+        delay = min(base_delay * (2 ** attempt) + random.uniform(0, 1), max_delay)
+        print(f"Retry {attempt + 1}/{max_retries} after {delay:.1f}s")
+        time.sleep(delay)
+
+    raise last_exception
+```

@@ -1,1 +1,19 @@
-IyBHb2xkZW4gSG91cgoKQSByaWNoIGFuZCB3YXJtIGF1dHVtbmFsIHBhbGV0dGUgdGhhdCBjcmVhdGVzIGFuIGludml0aW5nIGFuZCBzb3BoaXN0aWNhdGVkIGF0bW9zcGhlcmUuCgojIyBDb2xvciBQYWxldHRlCgotICoqTXVzdGFyZCBZZWxsb3cqKjogYCNmNGE5MDBgIC0gQm9sZCBwcmltYXJ5IGFjY2VudAotICoqVGVycmFjb3R0YSoqOiBgI2MxNjY2YmAgLSBXYXJtIHNlY29uZGFyeSBjb2xvcgotICoqV2FybSBCZWlnZSoqOiBgI2Q0Yjg5NmAgLSBOZXV0cmFsIGJhY2tncm91bmRzCi0gKipDaG9jb2xhdGUgQnJvd24qKjogYCM0YTQwM2FgIC0gRGFyayB0ZXh0IGFuZCBhbmNob3JzCgojIyBUeXBvZ3JhcGh5CgotICoqSGVhZGVycyoqOiBGcmVlU2FucyBCb2xkCi0gKipCb2R5IFRleHQqKjogRnJlZVNhbnMKCiMjIEJlc3QgVXNlZCBGb3IKClJlc3RhdXJhbnQgcHJlc2VudGF0aW9ucywgaG9zcGl0YWxpdHkgYnJhbmRzLCBmYWxsIGNhbXBhaWducywgY296eSBsaWZlc3R5bGUgY29udGVudCwgYXJ0aXNhbiBwcm9kdWN0cy4K
+# Golden Hour
+
+A rich and warm autumnal palette that creates an inviting and sophisticated atmosphere.
+
+## Color Palette
+
+- **Mustard Yellow**: `#f4a900` - Bold primary accent
+- **Terracotta**: `#c1666b` - Warm secondary color
+- **Warm Beige**: `#d4b896` - Neutral backgrounds
+- **Chocolate Brown**: `#4a403a` - Dark text and anchors
+
+## Typography
+
+- **Headers**: FreeSans Bold
+- **Body Text**: FreeSans
+
+## Best Used For
+
+Restaurant presentations, hospitality brands, fall campaigns, cozy lifestyle content, artisan products.

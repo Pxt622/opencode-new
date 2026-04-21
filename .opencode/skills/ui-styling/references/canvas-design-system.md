@@ -1,1 +1,320 @@
-IyBDYW52YXMgRGVzaWduIFN5c3RlbQoKVmlzdWFsIGRlc2lnbiBwaGlsb3NvcGh5LCBzeXN0ZW1hdGljIGNvbXBvc2l0aW9uLCBhbmQgc29waGlzdGljYXRlZCB2aXN1YWwgY29tbXVuaWNhdGlvbi4KCiMjIERlc2lnbiBQaGlsb3NvcGh5IEFwcHJvYWNoCgpDYW52YXMgZGVzaWduIG9wZXJhdGVzIHRocm91Z2ggdHdvLXBoYXNlIHByb2Nlc3M6CgojIyMgUGhhc2UgMTogRGVzaWduIFBoaWxvc29waHkgQ3JlYXRpb24KCkNyZWF0ZSB2aXN1YWwgcGhpbG9zb3BoeSAtIGFlc3RoZXRpYyBtb3ZlbWVudCBleHByZXNzZWQgdGhyb3VnaCBmb3JtLCBzcGFjZSwgY29sb3IsIGNvbXBvc2l0aW9uLiBOb3QgbGF5b3V0cyBvciB0ZW1wbGF0ZXMsIGJ1dCBwdXJlIHZpc3VhbCBwaGlsb3NvcGh5LgoKKipXaGF0IGlzIGNyZWF0ZWQ6KiogRGVzaWduIG1hbmlmZXN0byBlbXBoYXNpemluZzoKLSBWaXN1YWwgZXhwcmVzc2lvbiBvdmVyIHRleHQKLSBTcGF0aWFsIGNvbW11bmljYXRpb24KLSBBcnRpc3RpYyBpbnRlcnByZXRhdGlvbgotIE1pbmltYWwgd29yZHMgYXMgdmlzdWFsIGFjY2VudAoKKipQaGlsb3NvcGh5IHN0cnVjdHVyZSAoNC02IHBhcmFncmFwaHMpOioqCi0gU3BhY2UgYW5kIGZvcm0gcHJpbmNpcGxlcwotIENvbG9yIGFuZCBtYXRlcmlhbCBhcHByb2FjaAotIFNjYWxlIGFuZCByaHl0aG0gZ3VpZGFuY2UKLSBDb21wb3NpdGlvbiBhbmQgYmFsYW5jZSBydWxlcwotIFZpc3VhbCBoaWVyYXJjaHkgc3lzdGVtCgojIyMgUGhhc2UgMjogVmlzdWFsIEV4cHJlc3Npb24KCkV4cHJlc3MgcGhpbG9zb3BoeSB0aHJvdWdoIGNhbnZhcyBhcnRpZmFjdHM6Ci0gOTAlIHZpc3VhbCBkZXNpZ24KLSAxMCUgZXNzZW50aWFsIHRleHQKLSBNdXNldW0tcXVhbGl0eSBleGVjdXRpb24KLSBTeXN0ZW1hdGljIHBhdHRlcm5zCi0gU29waGlzdGljYXRlZCBjb21wb3NpdGlvbgoKIyMgQ29yZSBQcmluY2lwbGVzCgojIyMgMS4gVmlzdWFsIENvbW11bmljYXRpb24gRmlyc3QKCkluZm9ybWF0aW9uIGxpdmVzIGluIGRlc2lnbiwgbm90IHBhcmFncmFwaHMuIEV4cHJlc3MgaWRlYXMgdGhyb3VnaDoKLSBDb2xvciB6b25lcyBhbmQgZmllbGRzCi0gR2VvbWV0cmljIHByZWNpc2lvbgotIFNwYXRpYWwgcmVsYXRpb25zaGlwcwotIFZpc3VhbCB3ZWlnaHQgYW5kIHRlbnNpb24KLSBGb3JtIGFuZCBzdHJ1Y3R1cmUKCiMjIyAyLiBNaW5pbWFsIFRleHQgSW50ZWdyYXRpb24KClRleHQgYXMgcmFyZSwgcG93ZXJmdWwgZ2VzdHVyZToKLSBOZXZlciBwYXJhZ3JhcGhzCi0gT25seSBlc3NlbnRpYWwgd29yZHMKLSBJbnRlZ3JhdGVkIGludG8gdmlzdWFsIGFyY2hpdGVjdHVyZQotIFNtYWxsIGxhYmVscywgaHVnZSBpbXBhY3QKLSBUeXBvZ3JhcGh5IGFzIHZpc3VhbCBlbGVtZW50CgojIyMgMy4gRXhwZXJ0IENyYWZ0c21hbnNoaXAKCldvcmsgbXVzdCBhcHBlYXI6Ci0gTWV0aWN1bG91c2x5IGNyYWZ0ZWQKLSBMYWJvcmVkIG92ZXIgd2l0aCBjYXJlCi0gUHJvZHVjdCBvZiBjb3VudGxlc3MgaG91cnMKLSBGcm9tIGFic29sdXRlIHRvcCBvZiBmaWVsZAotIE1hc3Rlci1sZXZlbCBleGVjdXRpb24KCiMjIyA0LiBTeXN0ZW1hdGljIFBhdHRlcm5zCgpVc2Ugc2NpZW50aWZpYyB2aXN1YWwgbGFuZ3VhZ2U6Ci0gUmVwZWF0aW5nIHBhdHRlcm5zCi0gUGVyZmVjdCBzaGFwZXMKLSBEZW5zZSBhY2N1bXVsYXRpb24gb2YgbWFya3MKLSBMYXllcmVkIGVsZW1lbnRzCi0gUGF0aWVudCByZXBldGl0aW9uIHJld2FyZHMgc3VzdGFpbmVkIHZpZXdpbmcKCiMjIERlc2lnbiBNb3ZlbWVudCBFeGFtcGxlcwoKIyMjIENvbmNyZXRlIFBvZXRyeQoqKlBoaWxvc29waHk6KiogQ29tbXVuaWNhdGlvbiB0aHJvdWdoIG1vbnVtZW50YWwgZm9ybSBhbmQgYm9sZCBnZW9tZXRyeS4KCioqRXhwcmVzc2lvbjoqKgotIE1hc3NpdmUgY29sb3IgYmxvY2tzCi0gU2N1bHB0dXJhbCB0eXBvZ3JhcGh5IChodWdlIHdvcmRzLCB0aW55IGxhYmVscykKLSBCcnV0YWxpc3Qgc3BhdGlhbCBkaXZpc2lvbnMKLSBQb2xpc2ggcG9zdGVyIGVuZXJneSBtZWV0cyBMZSBDb3JidXNpZXIKLSBJZGVhcyB0aHJvdWdoIHZpc3VhbCB3ZWlnaHQgYW5kIHNwYXRpYWwgdGVuc2lvbgotIFRleHQgYXMgcmFyZSwgcG93ZXJmdWwgZ2VzdHVyZQoKIyMjIENocm9tYXRpYyBMYW5ndWFnZQoqKlBoaWxvc29waHk6KiogQ29sb3IgYXMgcHJpbWFyeSBpbmZvcm1hdGlvbiBzeXN0ZW0uCgoqKkV4cHJlc3Npb246KioKLSBHZW9tZXRyaWMgcHJlY2lzaW9uCi0gQ29sb3Igem9uZXMgY3JlYXRlIG1lYW5pbmcKLSBUeXBvZ3JhcGh5IG1pbmltYWwgLSBzbWFsbCBzYW5zLXNlcmlmIGxhYmVscwotIEpvc2VmIEFsYmVycycgaW50ZXJhY3Rpb24gbWVldHMgZGF0YSB2aXN1YWxpemF0aW9uCi0gSW5mb3JtYXRpb24gZW5jb2RlZCBzcGF0aWFsbHkgYW5kIGNocm9tYXRpY2FsbHkKLSBXb3JkcyBvbmx5IGFuY2hvciB3aGF0IGNvbG9yIHNob3dzCgojIyMgQW5hbG9nIE1lZGl0YXRpb24KKipQaGlsb3NvcGh5OioqIFF1aWV0IHZpc3VhbCBjb250ZW1wbGF0aW9uIHRocm91Z2ggdGV4dHVyZSBhbmQgYnJlYXRoaW5nIHJvb20uCgoqKkV4cHJlc3Npb246KioKLSBQYXBlciBncmFpbiwgaW5rIGJsZWVkcwotIFZhc3QgbmVnYXRpdmUgc3BhY2UKLSBQaG90b2dyYXBoeSBhbmQgaWxsdXN0cmF0aW9uIGRvbWluYXRlCi0gVHlwb2dyYXBoeSB3aGlzcGVyZWQgKHNtYWxsLCByZXN0cmFpbmVkKQotIEphcGFuZXNlIHBob3RvYm9vayBhZXN0aGV0aWMKLSBJbWFnZXMgYnJlYXRoZSBhY3Jvc3MgcGFnZXMKLSBUZXh0IGFwcGVhcnMgc3BhcmluZ2x5IC0gc2hvcnQgcGhyYXNlcyBvbmx5CgojIyMgT3JnYW5pYyBTeXN0ZW1zCioqUGhpbG9zb3BoeToqKiBOYXR1cmFsIGNsdXN0ZXJpbmcgYW5kIG1vZHVsYXIgZ3Jvd3RoIHBhdHRlcm5zLgoKKipFeHByZXNzaW9uOioqCi0gUm91bmRlZCBmb3JtcwotIE9yZ2FuaWMgYXJyYW5nZW1lbnRzCi0gQ29sb3IgZnJvbSBuYXR1cmUgdGhyb3VnaCBhcmNoaXRlY3R1cmUKLSBJbmZvcm1hdGlvbiB0aHJvdWdoIHZpc3VhbCBkaWFncmFtcwotIFNwYXRpYWwgcmVsYXRpb25zaGlwcyBhbmQgaWNvbm9ncmFwaHkKLSBUZXh0IG9ubHkgZm9yIGtleSBsYWJlbHMgZmxvYXRpbmcgaW4gc3BhY2UKLSBDb21wb3NpdGlvbiB0ZWxscyBzdG9yeSB0aHJvdWdoIHNwYXRpYWwgb3JjaGVzdHJhdGlvbgoKIyMjIEdlb21ldHJpYyBTaWxlbmNlCioqUGhpbG9zb3BoeToqKiBQdXJlIG9yZGVyIGFuZCByZXN0cmFpbnQuCgoqKkV4cHJlc3Npb246KioKLSBHcmlkLWJhc2VkIHByZWNpc2lvbgotIEJvbGQgcGhvdG9ncmFwaHkgb3Igc3RhcmsgZ3JhcGhpY3MKLSBEcmFtYXRpYyBuZWdhdGl2ZSBzcGFjZQotIFR5cG9ncmFwaHkgcHJlY2lzZSBidXQgbWluaW1hbAotIFNtYWxsIGVzc2VudGlhbCB0ZXh0LCBsYXJnZSBxdWlldCB6b25lcwotIFN3aXNzIGZvcm1hbGlzbSBtZWV0cyBCcnV0YWxpc3QgbWF0ZXJpYWwgaG9uZXN0eQotIFN0cnVjdHVyZSBjb21tdW5pY2F0ZXMsIG5vdCB3b3JkcwotIEV2ZXJ5IGFsaWdubWVudCBmcm9tIGNvdW50bGVzcyByZWZpbmVtZW50cwoKIyMgSW1wbGVtZW50YXRpb24gR3VpZGVsaW5lcwoKIyMjIFN1YnRsZSBSZWZlcmVuY2UgSW50ZWdyYXRpb24KCkVtYmVkIGNvbmNlcHR1YWwgRE5BIHdpdGhvdXQgYW5ub3VuY2luZzoKLSBOaWNoZSByZWZlcmVuY2Ugd292ZW4gaW52aXNpYmx5Ci0gVGhvc2Ugd2hvIGtub3cgZmVlbCBpdCBpbnR1aXRpdmVseQotIE90aGVycyBleHBlcmllbmNlIG1hc3RlcmZ1bCBhYnN0cmFjdCBjb21wb3NpdGlvbgotIExpa2UgamF6eiBtdXNpY2lhbiBxdW90aW5nIGFub3RoZXIgc29uZwotIFNvcGhpc3RpY2F0ZWQsIG5ldmVyIGxpdGVyYWwKLSBSZWZlcmVuY2UgZW5oYW5jZXMgZGVwdGggcXVpZXRseQoKIyMjIENvbG9yIEFwcHJvYWNoCgoqKkludGVudGlvbmFsIHBhbGV0dGU6KioKLSBMaW1pdGVkIGNvbG9ycyAoMi01KQotIENvaGVzaXZlIHN5c3RlbQotIFB1cnBvc2VmdWwgcmVsYXRpb25zaGlwcwotIG9rbGNoIGNvbG9yIHNwYWNlIGZvciBwcmVjaXNpb24KLSBFYWNoIHNoYWRlIGNhcnJpZXMgbWVhbmluZwoKKipFeGFtcGxlIHBhbGV0dGU6KioKYGBgCi0tY29sb3ItcHJpbWFyeTogb2tsY2goMC41NSAwLjIyIDI2NCkKLS1jb2xvci1hY2NlbnQ6IG9rbGNoKDAuNzUgMC4xOCA0NSkKLS1jb2xvci1uZXV0cmFsOiBva2xjaCgwLjkwIDAuMDIgMjY0KQotLWNvbG9yLWRhcms6IG9rbGNoKDAuMjUgMC4xNSAyNjQpCmBgYAoKIyMjIFR5cG9ncmFwaHkgU3lzdGVtCgoqKlRoaW4gZm9udHMgcHJlZmVycmVkOioqCi0gTGlnaHQgd2VpZ2h0cyAoMjAwLTMwMCkKLSBDbGVhbiBzYW5zLXNlcmlmcwotIEdlb21ldHJpYyBwcmVjaXNpb24KLSBTbWFsbCBzaXplcyBmb3IgbGFiZWxzCi0gTGFyZ2Ugc2l6ZXMgZm9yIGltcGFjdCBtb21lbnRzCgoqKkZvbnQgaW50ZWdyYXRpb246KioKLSBTZWFyY2ggYC4vY2FudmFzLWZvbnRzYCBkaXJlY3RvcnkKLSBEb3dubG9hZCBuZWVkZWQgZm9udHMKLSBCcmluZyB0eXBvZ3JhcGh5IG9udG8gY2FudmFzCi0gUGFydCBvZiBhcnQsIG5vdCB0eXBlc2V0IGRpZ2l0YWxseQoKIyMjIENvbXBvc2l0aW9uIFJ1bGVzCgoqKlN5c3RlbWF0aWMgYXBwcm9hY2g6KioKLSBSZXBlYXRpbmcgcGF0dGVybnMgZXN0YWJsaXNoIHJoeXRobQotIFBlcmZlY3QgZ2VvbWV0cmljIHNoYXBlcwotIENsaW5pY2FsIHR5cG9ncmFwaHkKLSBSZWZlcmVuY2UgbWFya2VycyBzdWdnZXN0IGltYWdpbmFyeSBkaXNjaXBsaW5lCi0gRGVuc2UgYWNjdW11bGF0aW9uIGJ1aWxkcyBtZWFuaW5nCi0gTGF5ZXJlZCBwYXR0ZXJucyByZXdhcmQgYXR0ZW50aW9uCgoqKlNwYWNpbmcgZGlzY2lwbGluZToqKgotIE5vdGhpbmcgZmFsbHMgb2ZmIHBhZ2UKLSBOb3RoaW5nIG92ZXJsYXBzCi0gRXZlcnkgZWxlbWVudCB3aXRoaW4gY2FudmFzIGJvdW5kYXJpZXMKLSBQcm9wZXIgbWFyZ2lucyBub24tbmVnb3RpYWJsZQotIEJyZWF0aGluZyByb29tIGFuZCBjbGVhciBzZXBhcmF0aW9uCi0gUHJvZmVzc2lvbmFsIGV4ZWN1dGlvbiBtYW5kYXRvcnkKCiMjIyBDYW52YXMgQm91bmRhcmllcwoKKipUZWNobmljYWwgc3BlY3M6KioKLSBTaW5nbGUgcGFnZSBkZWZhdWx0IChtdWx0aS1wYWdlIHdoZW4gcmVxdWVzdGVkKQotIFBERiBvciBQTkcgb3V0cHV0Ci0gSGlnaCByZXNvbHV0aW9uCi0gQ2xlYW4gbWFyZ2lucwotIENvbnRhaW5lZCBjb21wb3NpdGlvbgotIEZsYXdsZXNzIGZvcm1hdHRpbmcKCiMjIE11bHRpLVBhZ2UgRGVzaWduIFN5c3RlbXMKCldoZW4gY3JlYXRpbmcgbXVsdGlwbGUgcGFnZXM6CgojIyMgQXBwcm9hY2gKLSBUcmVhdCBmaXJzdCBwYWdlIGFzIHNpbmdsZSBwYWdlIGluIGNvZmZlZSB0YWJsZSBib29rCi0gQ3JlYXRlIG1vcmUgcGFnZXMgYWxvbmcgc2FtZSBwaGlsb3NvcGh5Ci0gRGlzdGluY3RseSBkaWZmZXJlbnQgYnV0IGNvaGVzaXZlCi0gUGFnZXMgdGVsbCBzdG9yeSB0YXN0ZWZ1bGx5Ci0gRnVsbCBjcmVhdGl2ZSBmcmVlZG9tCgojIyMgQ29uc2lzdGVuY3kgRWxlbWVudHMKLSBTaGFyZWQgY29sb3IgcGFsZXR0ZQotIENvbnNpc3RlbnQgdHlwb2dyYXBoeSBzeXN0ZW0KLSBSZWxhdGVkIGNvbXBvc2l0aW9uYWwgYXBwcm9hY2gKLSBWaXN1YWwgbGFuZ3VhZ2UgY29udGludWl0eQotIFBoaWxvc29waGljYWwgdGhyZWFkIHRocm91Z2hvdXQKCiMjIyBWYXJpYXRpb24gU3RyYXRlZ3kKLSBVbmlxdWUgdHdpc3QgcGVyIHBhZ2UKLSBEaWZmZXJlbnQgZm9jYWwgcG9pbnRzCi0gVmFyaWVkIHNwYXRpYWwgYXJyYW5nZW1lbnRzCi0gQ29tcGxlbWVudGFyeSBwYXR0ZXJucwotIFByb2dyZXNzaXZlIHZpc3VhbCBuYXJyYXRpdmUKCiMjIEV4ZWN1dGlvbiBDaGVja2xpc3QKCkJlZm9yZSBmaW5hbGl6aW5nOgoKLSBbIF0gUGhpbG9zb3BoeSBndWlkZXMgZXZlcnkgZGVjaXNpb24KLSBbIF0gOTAlIHZpc3VhbCwgMTAlIHRleHQgbWF4aW11bQotIFsgXSBUZXh0IG1pbmltYWwgYW5kIGludGVncmF0ZWQKLSBbIF0gTm90aGluZyBvdmVybGFwcyBvciBmYWxscyBvZmYgcGFnZQotIFsgXSBNYXJnaW5zIGFuZCBzcGFjaW5nIHByaXN0aW5lCi0gWyBdIENvbXBvc2l0aW9uIGNvaGVzaXZlIHdpdGggYXJ0Ci0gWyBdIEFwcGVhcnMgbWV0aWN1bG91c2x5IGNyYWZ0ZWQKLSBbIF0gTWFzdGVyLWxldmVsIGV4ZWN1dGlvbiBldmlkZW50Ci0gWyBdIFNvcGhpc3RpY2F0ZWQsIG5ldmVyIGFtYXRldXIKLSBbIF0gQ291bGQgYmUgZGlzcGxheWVkIGluIG11c2V1bQotIFsgXSBQcm92ZXMgdW5kZW5pYWJsZSBleHBlcnRpc2UKLSBbIF0gRm9ybWF0dGluZyBmbGF3bGVzcwotIFsgXSBFdmVyeSBkZXRhaWwgcGVyZmVjdAoKIyMgUXVhbGl0eSBTdGFuZGFyZHMKCiMjIyBXaGF0IHRvIEF2b2lkCi0gQ2FydG9vbnkgYWVzdGhldGljcwotIEFtYXRldXIgZXhlY3V0aW9uCi0gVGV4dC1oZWF2eSBjb21wb3NpdGlvbgotIFJhbmRvbSBwbGFjZW1lbnQKLSBPdmVybGFwcGluZyBlbGVtZW50cwotIEluY29uc2lzdGVudCBzcGFjaW5nCi0gT2J2aW91cyBBSSBnZW5lcmF0aW9uCi0gTGFjayBvZiByZWZpbmVtZW50CgojIyMgV2hhdCB0byBBY2hpZXZlCi0gTXVzZXVtIHF1YWxpdHkKLSBNYWdhemluZSB3b3J0aHkKLSBBcnQgb2JqZWN0IHN0YXR1cwotIENvdW50bGVzcyBob3VycyBhcHBlYXJhbmNlCi0gVG9wLW9mLWZpZWxkIGNyYWZ0c21hbnNoaXAKLSBQaGlsb3NvcGhpY2FsIGNvaGVyZW5jZQotIFZpc3VhbCBzb3BoaXN0aWNhdGlvbgotIFN5c3RlbWF0aWMgcHJlY2lzaW9uCgojIyBSZWZpbmVtZW50IFByb2Nlc3MKCiMjIyBJbml0aWFsIFBhc3MKQ3JlYXRlIGJhc2VkIG9uIHBoaWxvc29waHkgYW5kIHByaW5jaXBsZXMuCgojIyMgU2Vjb25kIFBhc3MgKENyaXRpY2FsKQotIERvbid0IGFkZCBtb3JlIGdyYXBoaWNzCi0gUmVmaW5lIHdoYXQgZXhpc3RzCi0gTWFrZSBleHRyZW1lbHkgY3Jpc3AKLSBSZXNwZWN0IG1pbmltYWxpc20gcGhpbG9zb3BoeQotIEluY3JlYXNlIGNvaGVzaW9uIHdpdGggYXJ0Ci0gTWFrZSBleGlzdGluZyBlbGVtZW50cyBtb3JlIGFydGlzdGljCi0gUG9saXNoIHJhdGhlciB0aGFuIGV4cGFuZAoKIyMjIEZpbmFsIFZlcmlmaWNhdGlvbgpVc2VyIGFscmVhZHkgc2FpZDogIkl0IGlzbid0IHBlcmZlY3QgZW5vdWdoLiBNdXN0IGJlIHByaXN0aW5lLCBtYXN0ZXJwaWVjZSBvZiBjcmFmdHNtYW5zaGlwLCBhcyBpZiBhYm91dCB0byBiZSBkaXNwbGF5ZWQgaW4gbXVzZXVtLiIKCkFwcGx5IHRoaXMgc3RhbmRhcmQgYmVmb3JlIGRlbGl2ZXJ5LgoKIyMgT3V0cHV0IEZvcm1hdAoKKipSZXF1aXJlZCBmaWxlczoqKgoxLiBEZXNpZ24gcGhpbG9zb3BoeSAoLm1kIGZpbGUpCjIuIFZpc3VhbCBleHByZXNzaW9uICgucGRmIG9yIC5wbmcpCgoqKlBoaWxvc29waHkgZmlsZSBjb250YWluczoqKgotIE1vdmVtZW50IG5hbWUKLSA0LTYgcGFyYWdyYXBoIHBoaWxvc29waHkKLSBWaXN1YWwgcHJpbmNpcGxlcwotIEV4ZWN1dGlvbiBndWlkYW5jZQoKKipDYW52YXMgZmlsZSBjb250YWluczoqKgotIFZpc3VhbCBpbnRlcnByZXRhdGlvbgotIE1pbmltYWwgdGV4dAotIFN5c3RlbWF0aWMgY29tcG9zaXRpb24KLSBFeHBlcnQtbGV2ZWwgZXhlY3V0aW9uCgojIyBVc2UgQ2FzZXMKCkFwcGx5IGNhbnZhcyBkZXNpZ24gZm9yOgotIEJyYW5kIGlkZW50aXR5IHN5c3RlbXMKLSBQb3N0ZXIgZGVzaWducwotIFZpc3VhbCBtYW5pZmVzdG9zCi0gRGVzaWduIHN5c3RlbSBkb2N1bWVudGF0aW9uCi0gQXJ0IHBpZWNlcyBhbmQgY29tcG9zaXRpb25zCi0gQ29uY2VwdHVhbCB2aXN1YWwgZnJhbWV3b3JrcwotIEVkaXRvcmlhbCBkZXNpZ24KLSBFeGhpYml0aW9uIG1hdGVyaWFscwotIENvZmZlZSB0YWJsZSBib29rcwotIERlc2lnbiBwaGlsb3NvcGh5IGRlbW9uc3RyYXRpb25zCg==
+# Canvas Design System
+
+Visual design philosophy, systematic composition, and sophisticated visual communication.
+
+## Design Philosophy Approach
+
+Canvas design operates through two-phase process:
+
+### Phase 1: Design Philosophy Creation
+
+Create visual philosophy - aesthetic movement expressed through form, space, color, composition. Not layouts or templates, but pure visual philosophy.
+
+**What is created:** Design manifesto emphasizing:
+- Visual expression over text
+- Spatial communication
+- Artistic interpretation
+- Minimal words as visual accent
+
+**Philosophy structure (4-6 paragraphs):**
+- Space and form principles
+- Color and material approach
+- Scale and rhythm guidance
+- Composition and balance rules
+- Visual hierarchy system
+
+### Phase 2: Visual Expression
+
+Express philosophy through canvas artifacts:
+- 90% visual design
+- 10% essential text
+- Museum-quality execution
+- Systematic patterns
+- Sophisticated composition
+
+## Core Principles
+
+### 1. Visual Communication First
+
+Information lives in design, not paragraphs. Express ideas through:
+- Color zones and fields
+- Geometric precision
+- Spatial relationships
+- Visual weight and tension
+- Form and structure
+
+### 2. Minimal Text Integration
+
+Text as rare, powerful gesture:
+- Never paragraphs
+- Only essential words
+- Integrated into visual architecture
+- Small labels, huge impact
+- Typography as visual element
+
+### 3. Expert Craftsmanship
+
+Work must appear:
+- Meticulously crafted
+- Labored over with care
+- Product of countless hours
+- From absolute top of field
+- Master-level execution
+
+### 4. Systematic Patterns
+
+Use scientific visual language:
+- Repeating patterns
+- Perfect shapes
+- Dense accumulation of marks
+- Layered elements
+- Patient repetition rewards sustained viewing
+
+## Design Movement Examples
+
+### Concrete Poetry
+**Philosophy:** Communication through monumental form and bold geometry.
+
+**Expression:**
+- Massive color blocks
+- Sculptural typography (huge words, tiny labels)
+- Brutalist spatial divisions
+- Polish poster energy meets Le Corbusier
+- Ideas through visual weight and spatial tension
+- Text as rare, powerful gesture
+
+### Chromatic Language
+**Philosophy:** Color as primary information system.
+
+**Expression:**
+- Geometric precision
+- Color zones create meaning
+- Typography minimal - small sans-serif labels
+- Josef Albers' interaction meets data visualization
+- Information encoded spatially and chromatically
+- Words only anchor what color shows
+
+### Analog Meditation
+**Philosophy:** Quiet visual contemplation through texture and breathing room.
+
+**Expression:**
+- Paper grain, ink bleeds
+- Vast negative space
+- Photography and illustration dominate
+- Typography whispered (small, restrained)
+- Japanese photobook aesthetic
+- Images breathe across pages
+- Text appears sparingly - short phrases only
+
+### Organic Systems
+**Philosophy:** Natural clustering and modular growth patterns.
+
+**Expression:**
+- Rounded forms
+- Organic arrangements
+- Color from nature through architecture
+- Information through visual diagrams
+- Spatial relationships and iconography
+- Text only for key labels floating in space
+- Composition tells story through spatial orchestration
+
+### Geometric Silence
+**Philosophy:** Pure order and restraint.
+
+**Expression:**
+- Grid-based precision
+- Bold photography or stark graphics
+- Dramatic negative space
+- Typography precise but minimal
+- Small essential text, large quiet zones
+- Swiss formalism meets Brutalist material honesty
+- Structure communicates, not words
+- Every alignment from countless refinements
+
+## Implementation Guidelines
+
+### Subtle Reference Integration
+
+Embed conceptual DNA without announcing:
+- Niche reference woven invisibly
+- Those who know feel it intuitively
+- Others experience masterful abstract composition
+- Like jazz musician quoting another song
+- Sophisticated, never literal
+- Reference enhances depth quietly
+
+### Color Approach
+
+**Intentional palette:**
+- Limited colors (2-5)
+- Cohesive system
+- Purposeful relationships
+- oklch color space for precision
+- Each shade carries meaning
+
+**Example palette:**
+```
+--color-primary: oklch(0.55 0.22 264)
+--color-accent: oklch(0.75 0.18 45)
+--color-neutral: oklch(0.90 0.02 264)
+--color-dark: oklch(0.25 0.15 264)
+```
+
+### Typography System
+
+**Thin fonts preferred:**
+- Light weights (200-300)
+- Clean sans-serifs
+- Geometric precision
+- Small sizes for labels
+- Large sizes for impact moments
+
+**Font integration:**
+- Search `./canvas-fonts` directory
+- Download needed fonts
+- Bring typography onto canvas
+- Part of art, not typeset digitally
+
+### Composition Rules
+
+**Systematic approach:**
+- Repeating patterns establish rhythm
+- Perfect geometric shapes
+- Clinical typography
+- Reference markers suggest imaginary discipline
+- Dense accumulation builds meaning
+- Layered patterns reward attention
+
+**Spacing discipline:**
+- Nothing falls off page
+- Nothing overlaps
+- Every element within canvas boundaries
+- Proper margins non-negotiable
+- Breathing room and clear separation
+- Professional execution mandatory
+
+### Canvas Boundaries
+
+**Technical specs:**
+- Single page default (multi-page when requested)
+- PDF or PNG output
+- High resolution
+- Clean margins
+- Contained composition
+- Flawless formatting
+
+## Multi-Page Design Systems
+
+When creating multiple pages:
+
+### Approach
+- Treat first page as single page in coffee table book
+- Create more pages along same philosophy
+- Distinctly different but cohesive
+- Pages tell story tastefully
+- Full creative freedom
+
+### Consistency Elements
+- Shared color palette
+- Consistent typography system
+- Related compositional approach
+- Visual language continuity
+- Philosophical thread throughout
+
+### Variation Strategy
+- Unique twist per page
+- Different focal points
+- Varied spatial arrangements
+- Complementary patterns
+- Progressive visual narrative
+
+## Execution Checklist
+
+Before finalizing:
+
+- [ ] Philosophy guides every decision
+- [ ] 90% visual, 10% text maximum
+- [ ] Text minimal and integrated
+- [ ] Nothing overlaps or falls off page
+- [ ] Margins and spacing pristine
+- [ ] Composition cohesive with art
+- [ ] Appears meticulously crafted
+- [ ] Master-level execution evident
+- [ ] Sophisticated, never amateur
+- [ ] Could be displayed in museum
+- [ ] Proves undeniable expertise
+- [ ] Formatting flawless
+- [ ] Every detail perfect
+
+## Quality Standards
+
+### What to Avoid
+- Cartoony aesthetics
+- Amateur execution
+- Text-heavy composition
+- Random placement
+- Overlapping elements
+- Inconsistent spacing
+- Obvious AI generation
+- Lack of refinement
+
+### What to Achieve
+- Museum quality
+- Magazine worthy
+- Art object status
+- Countless hours appearance
+- Top-of-field craftsmanship
+- Philosophical coherence
+- Visual sophistication
+- Systematic precision
+
+## Refinement Process
+
+### Initial Pass
+Create based on philosophy and principles.
+
+### Second Pass (Critical)
+- Don't add more graphics
+- Refine what exists
+- Make extremely crisp
+- Respect minimalism philosophy
+- Increase cohesion with art
+- Make existing elements more artistic
+- Polish rather than expand
+
+### Final Verification
+User already said: "It isn't perfect enough. Must be pristine, masterpiece of craftsmanship, as if about to be displayed in museum."
+
+Apply this standard before delivery.
+
+## Output Format
+
+**Required files:**
+1. Design philosophy (.md file)
+2. Visual expression (.pdf or .png)
+
+**Philosophy file contains:**
+- Movement name
+- 4-6 paragraph philosophy
+- Visual principles
+- Execution guidance
+
+**Canvas file contains:**
+- Visual interpretation
+- Minimal text
+- Systematic composition
+- Expert-level execution
+
+## Use Cases
+
+Apply canvas design for:
+- Brand identity systems
+- Poster designs
+- Visual manifestos
+- Design system documentation
+- Art pieces and compositions
+- Conceptual visual frameworks
+- Editorial design
+- Exhibition materials
+- Coffee table books
+- Design philosophy demonstrations

@@ -1,1 +1,318 @@
-IiIiQWRkIGNvbW1lbnRzIHRvIERPQ1ggZG9jdW1lbnRzLgoKVXNhZ2U6CiAgICBweXRob24gY29tbWVudC5weSB1bnBhY2tlZC8gMCAiQ29tbWVudCB0ZXh0IgogICAgcHl0aG9uIGNvbW1lbnQucHkgdW5wYWNrZWQvIDEgIlJlcGx5IHRleHQiIC0tcGFyZW50IDAKClRleHQgc2hvdWxkIGJlIHByZS1lc2NhcGVkIFhNTCAoZS5nLiwgJmFtcDsgZm9yICYsICYjeDIwMTk7IGZvciBzbWFydCBxdW90ZXMpLgoKQWZ0ZXIgcnVubmluZywgYWRkIG1hcmtlcnMgdG8gZG9jdW1lbnQueG1sOgogIDx3OmNvbW1lbnRSYW5nZVN0YXJ0IHc6aWQ9IjAiLz4KICAuLi4gY29tbWVudGVkIGNvbnRlbnQgLi4uCiAgPHc6Y29tbWVudFJhbmdlRW5kIHc6aWQ9IjAiLz4KICA8dzpyPjx3OnJQcj48dzpyU3R5bGUgdzp2YWw9IkNvbW1lbnRSZWZlcmVuY2UiLz48L3c6clByPjx3OmNvbW1lbnRSZWZlcmVuY2UgdzppZD0iMCIvPjwvdzpyPgoiIiIKCmltcG9ydCBhcmdwYXJzZQppbXBvcnQgcmFuZG9tCmltcG9ydCBzaHV0aWwKaW1wb3J0IHN5cwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZXpvbmUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgZGVmdXNlZHhtbC5taW5pZG9tCgpURU1QTEFURV9ESVIgPSBQYXRoKF9fZmlsZV9fKS5wYXJlbnQgLyAidGVtcGxhdGVzIgpOUyA9IHsKICAgICJ3IjogImh0dHA6Ly9zY2hlbWFzLm9wZW54bWxmb3JtYXRzLm9yZy93b3JkcHJvY2Vzc2luZ21sLzIwMDYvbWFpbiIsCiAgICAidzE0IjogImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vb2ZmaWNlL3dvcmQvMjAxMC93b3JkbWwiLAogICAgIncxNSI6ICJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL29mZmljZS93b3JkLzIwMTIvd29yZG1sIiwKICAgICJ3MTZjaWQiOiAiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS9vZmZpY2Uvd29yZC8yMDE2L3dvcmRtbC9jaWQiLAogICAgIncxNmNleCI6ICJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL29mZmljZS93b3JkLzIwMTgvd29yZG1sL2NleCIsCn0KCkNPTU1FTlRfWE1MID0gIiIiXAo8dzpjb21tZW50IHc6aWQ9IntpZH0iIHc6YXV0aG9yPSJ7YXV0aG9yfSIgdzpkYXRlPSJ7ZGF0ZX0iIHc6aW5pdGlhbHM9Intpbml0aWFsc30iPgogIDx3OnAgdzE0OnBhcmFJZD0ie3BhcmFfaWR9IiB3MTQ6dGV4dElkPSI3Nzc3Nzc3NyI+CiAgICA8dzpyPgogICAgICA8dzpyUHI+PHc6clN0eWxlIHc6dmFsPSJDb21tZW50UmVmZXJlbmNlIi8+PC93OnJQcj4KICAgICAgPHc6YW5ub3RhdGlvblJlZi8+CiAgICA8L3c6cj4KICAgIDx3OnI+CiAgICAgIDx3OnJQcj4KICAgICAgICA8dzpjb2xvciB3OnZhbD0iMDAwMDAwIi8+CiAgICAgICAgPHc6c3ogdzp2YWw9IjIwIi8+CiAgICAgICAgPHc6c3pDcyB3OnZhbD0iMjAiLz4KICAgICAgPC93OnJQcj4KICAgICAgPHc6dD57dGV4dH08L3c6dD4KICAgIDwvdzpyPgogIDwvdzpwPgo8L3c6Y29tbWVudD4iIiIKCkNPTU1FTlRfTUFSS0VSX1RFTVBMQVRFID0gIiIiCkFkZCB0byBkb2N1bWVudC54bWwgKG1hcmtlcnMgbXVzdCBiZSBkaXJlY3QgY2hpbGRyZW4gb2YgdzpwLCBuZXZlciBpbnNpZGUgdzpyKToKICA8dzpjb21tZW50UmFuZ2VTdGFydCB3OmlkPSJ7Y2lkfSIvPgogIDx3OnI+Li4uPC93OnI+CiAgPHc6Y29tbWVudFJhbmdlRW5kIHc6aWQ9IntjaWR9Ii8+CiAgPHc6cj48dzpyUHI+PHc6clN0eWxlIHc6dmFsPSJDb21tZW50UmVmZXJlbmNlIi8+PC93OnJQcj48dzpjb21tZW50UmVmZXJlbmNlIHc6aWQ9IntjaWR9Ii8+PC93OnI+IiIiCgpSRVBMWV9NQVJLRVJfVEVNUExBVEUgPSAiIiIKTmVzdCBtYXJrZXJzIGluc2lkZSBwYXJlbnQge3BpZH0ncyBtYXJrZXJzIChtYXJrZXJzIG11c3QgYmUgZGlyZWN0IGNoaWxkcmVuIG9mIHc6cCwgbmV2ZXIgaW5zaWRlIHc6cik6CiAgPHc6Y29tbWVudFJhbmdlU3RhcnQgdzppZD0ie3BpZH0iLz48dzpjb21tZW50UmFuZ2VTdGFydCB3OmlkPSJ7Y2lkfSIvPgogIDx3OnI+Li4uPC93OnI+CiAgPHc6Y29tbWVudFJhbmdlRW5kIHc6aWQ9IntjaWR9Ii8+PHc6Y29tbWVudFJhbmdlRW5kIHc6aWQ9IntwaWR9Ii8+CiAgPHc6cj48dzpyUHI+PHc6clN0eWxlIHc6dmFsPSJDb21tZW50UmVmZXJlbmNlIi8+PC93OnJQcj48dzpjb21tZW50UmVmZXJlbmNlIHc6aWQ9IntwaWR9Ii8+PC93OnI+CiAgPHc6cj48dzpyUHI+PHc6clN0eWxlIHc6dmFsPSJDb21tZW50UmVmZXJlbmNlIi8+PC93OnJQcj48dzpjb21tZW50UmVmZXJlbmNlIHc6aWQ9IntjaWR9Ii8+PC93OnI+IiIiCgoKZGVmIF9nZW5lcmF0ZV9oZXhfaWQoKSAtPiBzdHI6CiAgICByZXR1cm4gZiJ7cmFuZG9tLnJhbmRpbnQoMCwgMHg3RkZGRkZGRSk6MDhYfSIKCgpTTUFSVF9RVU9URV9FTlRJVElFUyA9IHsKICAgICJcdTIwMWMiOiAiJiN4MjAxQzsiLCAgCiAgICAiXHUyMDFkIjogIiYjeDIwMUQ7IiwgIAogICAgIlx1MjAxOCI6ICImI3gyMDE4OyIsICAKICAgICJcdTIwMTkiOiAiJiN4MjAxOTsiLCAgCn0KCgpkZWYgX2VuY29kZV9zbWFydF9xdW90ZXModGV4dDogc3RyKSAtPiBzdHI6CiAgICBmb3IgY2hhciwgZW50aXR5IGluIFNNQVJUX1FVT1RFX0VOVElUSUVTLml0ZW1zKCk6CiAgICAgICAgdGV4dCA9IHRleHQucmVwbGFjZShjaGFyLCBlbnRpdHkpCiAgICByZXR1cm4gdGV4dAoKCmRlZiBfYXBwZW5kX3htbCh4bWxfcGF0aDogUGF0aCwgcm9vdF90YWc6IHN0ciwgY29udGVudDogc3RyKSAtPiBOb25lOgogICAgZG9tID0gZGVmdXNlZHhtbC5taW5pZG9tLnBhcnNlU3RyaW5nKHhtbF9wYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIHJvb3QgPSBkb20uZ2V0RWxlbWVudHNCeVRhZ05hbWUocm9vdF90YWcpWzBdCiAgICBuc19hdHRycyA9ICIgIi5qb2luKGYneG1sbnM6e2t9PSJ7dn0iJyBmb3IgaywgdiBpbiBOUy5pdGVtcygpKQogICAgd3JhcHBlcl9kb20gPSBkZWZ1c2VkeG1sLm1pbmlkb20ucGFyc2VTdHJpbmcoZiI8cm9vdCB7bnNfYXR0cnN9Pntjb250ZW50fTwvcm9vdD4iKQogICAgZm9yIGNoaWxkIGluIHdyYXBwZXJfZG9tLmRvY3VtZW50RWxlbWVudC5jaGlsZE5vZGVzOiAgCiAgICAgICAgaWYgY2hpbGQubm9kZVR5cGUgPT0gY2hpbGQuRUxFTUVOVF9OT0RFOgogICAgICAgICAgICByb290LmFwcGVuZENoaWxkKGRvbS5pbXBvcnROb2RlKGNoaWxkLCBUcnVlKSkKICAgIG91dHB1dCA9IF9lbmNvZGVfc21hcnRfcXVvdGVzKGRvbS50b3htbChlbmNvZGluZz0iVVRGLTgiKS5kZWNvZGUoInV0Zi04IikpCiAgICB4bWxfcGF0aC53cml0ZV90ZXh0KG91dHB1dCwgZW5jb2Rpbmc9InV0Zi04IikKCgpkZWYgX2ZpbmRfcGFyYV9pZChjb21tZW50c19wYXRoOiBQYXRoLCBjb21tZW50X2lkOiBpbnQpIC0+IHN0ciB8IE5vbmU6CiAgICBkb20gPSBkZWZ1c2VkeG1sLm1pbmlkb20ucGFyc2VTdHJpbmcoY29tbWVudHNfcGF0aC5yZWFkX3RleHQoZW5jb2Rpbmc9InV0Zi04IikpCiAgICBmb3IgYyBpbiBkb20uZ2V0RWxlbWVudHNCeVRhZ05hbWUoInc6Y29tbWVudCIpOgogICAgICAgIGlmIGMuZ2V0QXR0cmlidXRlKCJ3OmlkIikgPT0gc3RyKGNvbW1lbnRfaWQpOgogICAgICAgICAgICBmb3IgcCBpbiBjLmdldEVsZW1lbnRzQnlUYWdOYW1lKCJ3OnAiKToKICAgICAgICAgICAgICAgIGlmIHBpZCA6PSBwLmdldEF0dHJpYnV0ZSgidzE0OnBhcmFJZCIpOgogICAgICAgICAgICAgICAgICAgIHJldHVybiBwaWQKICAgIHJldHVybiBOb25lCgoKZGVmIF9nZXRfbmV4dF9yaWQocmVsc19wYXRoOiBQYXRoKSAtPiBpbnQ6CiAgICBkb20gPSBkZWZ1c2VkeG1sLm1pbmlkb20ucGFyc2VTdHJpbmcocmVsc19wYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIG1heF9yaWQgPSAwCiAgICBmb3IgcmVsIGluIGRvbS5nZXRFbGVtZW50c0J5VGFnTmFtZSgiUmVsYXRpb25zaGlwIik6CiAgICAgICAgcmlkID0gcmVsLmdldEF0dHJpYnV0ZSgiSWQiKQogICAgICAgIGlmIHJpZCBhbmQgcmlkLnN0YXJ0c3dpdGgoInJJZCIpOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBtYXhfcmlkID0gbWF4KG1heF9yaWQsIGludChyaWRbMzpdKSkKICAgICAgICAgICAgZXhjZXB0IFZhbHVlRXJyb3I6CiAgICAgICAgICAgICAgICBwYXNzCiAgICByZXR1cm4gbWF4X3JpZCArIDEKCgpkZWYgX2hhc19yZWxhdGlvbnNoaXAocmVsc19wYXRoOiBQYXRoLCB0YXJnZXQ6IHN0cikgLT4gYm9vbDoKICAgIGRvbSA9IGRlZnVzZWR4bWwubWluaWRvbS5wYXJzZVN0cmluZyhyZWxzX3BhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgZm9yIHJlbCBpbiBkb20uZ2V0RWxlbWVudHNCeVRhZ05hbWUoIlJlbGF0aW9uc2hpcCIpOgogICAgICAgIGlmIHJlbC5nZXRBdHRyaWJ1dGUoIlRhcmdldCIpID09IHRhcmdldDoKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgIHJldHVybiBGYWxzZQoKCmRlZiBfaGFzX2NvbnRlbnRfdHlwZShjdF9wYXRoOiBQYXRoLCBwYXJ0X25hbWU6IHN0cikgLT4gYm9vbDoKICAgIGRvbSA9IGRlZnVzZWR4bWwubWluaWRvbS5wYXJzZVN0cmluZyhjdF9wYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIGZvciBvdmVycmlkZSBpbiBkb20uZ2V0RWxlbWVudHNCeVRhZ05hbWUoIk92ZXJyaWRlIik6CiAgICAgICAgaWYgb3ZlcnJpZGUuZ2V0QXR0cmlidXRlKCJQYXJ0TmFtZSIpID09IHBhcnRfbmFtZToKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgIHJldHVybiBGYWxzZQoKCmRlZiBfZW5zdXJlX2NvbW1lbnRfcmVsYXRpb25zaGlwcyh1bnBhY2tlZF9kaXI6IFBhdGgpIC0+IE5vbmU6CiAgICByZWxzX3BhdGggPSB1bnBhY2tlZF9kaXIgLyAid29yZCIgLyAiX3JlbHMiIC8gImRvY3VtZW50LnhtbC5yZWxzIgogICAgaWYgbm90IHJlbHNfcGF0aC5leGlzdHMoKToKICAgICAgICByZXR1cm4KCiAgICBpZiBfaGFzX3JlbGF0aW9uc2hpcChyZWxzX3BhdGgsICJjb21tZW50cy54bWwiKToKICAgICAgICByZXR1cm4gIAoKICAgIGRvbSA9IGRlZnVzZWR4bWwubWluaWRvbS5wYXJzZVN0cmluZyhyZWxzX3BhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgcm9vdCA9IGRvbS5kb2N1bWVudEVsZW1lbnQKICAgIG5leHRfcmlkID0gX2dldF9uZXh0X3JpZChyZWxzX3BhdGgpCgogICAgcmVscyA9IFsKICAgICAgICAoCiAgICAgICAgICAgICJodHRwOi8vc2NoZW1hcy5vcGVueG1sZm9ybWF0cy5vcmcvb2ZmaWNlRG9jdW1lbnQvMjAwNi9yZWxhdGlvbnNoaXBzL2NvbW1lbnRzIiwKICAgICAgICAgICAgImNvbW1lbnRzLnhtbCIsCiAgICAgICAgKSwKICAgICAgICAoCiAgICAgICAgICAgICJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL29mZmljZS8yMDExL3JlbGF0aW9uc2hpcHMvY29tbWVudHNFeHRlbmRlZCIsCiAgICAgICAgICAgICJjb21tZW50c0V4dGVuZGVkLnhtbCIsCiAgICAgICAgKSwKICAgICAgICAoCiAgICAgICAgICAgICJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL29mZmljZS8yMDE2LzA5L3JlbGF0aW9uc2hpcHMvY29tbWVudHNJZHMiLAogICAgICAgICAgICAiY29tbWVudHNJZHMueG1sIiwKICAgICAgICApLAogICAgICAgICgKICAgICAgICAgICAgImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vb2ZmaWNlLzIwMTgvMDgvcmVsYXRpb25zaGlwcy9jb21tZW50c0V4dGVuc2libGUiLAogICAgICAgICAgICAiY29tbWVudHNFeHRlbnNpYmxlLnhtbCIsCiAgICAgICAgKSwKICAgIF0KCiAgICBmb3IgcmVsX3R5cGUsIHRhcmdldCBpbiByZWxzOgogICAgICAgIHJlbCA9IGRvbS5jcmVhdGVFbGVtZW50KCJSZWxhdGlvbnNoaXAiKQogICAgICAgIHJlbC5zZXRBdHRyaWJ1dGUoIklkIiwgZiJySWR7bmV4dF9yaWR9IikKICAgICAgICByZWwuc2V0QXR0cmlidXRlKCJUeXBlIiwgcmVsX3R5cGUpCiAgICAgICAgcmVsLnNldEF0dHJpYnV0ZSgiVGFyZ2V0IiwgdGFyZ2V0KQogICAgICAgIHJvb3QuYXBwZW5kQ2hpbGQocmVsKSAgCiAgICAgICAgbmV4dF9yaWQgKz0gMQoKICAgIHJlbHNfcGF0aC53cml0ZV9ieXRlcyhkb20udG94bWwoZW5jb2Rpbmc9IlVURi04IikpCgoKZGVmIF9lbnN1cmVfY29tbWVudF9jb250ZW50X3R5cGVzKHVucGFja2VkX2RpcjogUGF0aCkgLT4gTm9uZToKICAgIGN0X3BhdGggPSB1bnBhY2tlZF9kaXIgLyAiW0NvbnRlbnRfVHlwZXNdLnhtbCIKICAgIGlmIG5vdCBjdF9wYXRoLmV4aXN0cygpOgogICAgICAgIHJldHVybgoKICAgIGlmIF9oYXNfY29udGVudF90eXBlKGN0X3BhdGgsICIvd29yZC9jb21tZW50cy54bWwiKToKICAgICAgICByZXR1cm4gIAoKICAgIGRvbSA9IGRlZnVzZWR4bWwubWluaWRvbS5wYXJzZVN0cmluZyhjdF9wYXRoLnJlYWRfdGV4dChlbmNvZGluZz0idXRmLTgiKSkKICAgIHJvb3QgPSBkb20uZG9jdW1lbnRFbGVtZW50CgogICAgb3ZlcnJpZGVzID0gWwogICAgICAgICgKICAgICAgICAgICAgIi93b3JkL2NvbW1lbnRzLnhtbCIsCiAgICAgICAgICAgICJhcHBsaWNhdGlvbi92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQud29yZHByb2Nlc3NpbmdtbC5jb21tZW50cyt4bWwiLAogICAgICAgICksCiAgICAgICAgKAogICAgICAgICAgICAiL3dvcmQvY29tbWVudHNFeHRlbmRlZC54bWwiLAogICAgICAgICAgICAiYXBwbGljYXRpb24vdm5kLm9wZW54bWxmb3JtYXRzLW9mZmljZWRvY3VtZW50LndvcmRwcm9jZXNzaW5nbWwuY29tbWVudHNFeHRlbmRlZCt4bWwiLAogICAgICAgICksCiAgICAgICAgKAogICAgICAgICAgICAiL3dvcmQvY29tbWVudHNJZHMueG1sIiwKICAgICAgICAgICAgImFwcGxpY2F0aW9uL3ZuZC5vcGVueG1sZm9ybWF0cy1vZmZpY2Vkb2N1bWVudC53b3JkcHJvY2Vzc2luZ21sLmNvbW1lbnRzSWRzK3htbCIsCiAgICAgICAgKSwKICAgICAgICAoCiAgICAgICAgICAgICIvd29yZC9jb21tZW50c0V4dGVuc2libGUueG1sIiwKICAgICAgICAgICAgImFwcGxpY2F0aW9uL3ZuZC5vcGVueG1sZm9ybWF0cy1vZmZpY2Vkb2N1bWVudC53b3JkcHJvY2Vzc2luZ21sLmNvbW1lbnRzRXh0ZW5zaWJsZSt4bWwiLAogICAgICAgICksCiAgICBdCgogICAgZm9yIHBhcnRfbmFtZSwgY29udGVudF90eXBlIGluIG92ZXJyaWRlczoKICAgICAgICBvdmVycmlkZSA9IGRvbS5jcmVhdGVFbGVtZW50KCJPdmVycmlkZSIpCiAgICAgICAgb3ZlcnJpZGUuc2V0QXR0cmlidXRlKCJQYXJ0TmFtZSIsIHBhcnRfbmFtZSkKICAgICAgICBvdmVycmlkZS5zZXRBdHRyaWJ1dGUoIkNvbnRlbnRUeXBlIiwgY29udGVudF90eXBlKQogICAgICAgIHJvb3QuYXBwZW5kQ2hpbGQob3ZlcnJpZGUpICAKCiAgICBjdF9wYXRoLndyaXRlX2J5dGVzKGRvbS50b3htbChlbmNvZGluZz0iVVRGLTgiKSkKCgpkZWYgYWRkX2NvbW1lbnQoCiAgICB1bnBhY2tlZF9kaXI6IHN0ciwKICAgIGNvbW1lbnRfaWQ6IGludCwKICAgIHRleHQ6IHN0ciwKICAgIGF1dGhvcjogc3RyID0gIkNsYXVkZSIsCiAgICBpbml0aWFsczogc3RyID0gIkMiLAogICAgcGFyZW50X2lkOiBpbnQgfCBOb25lID0gTm9uZSwKKSAtPiB0dXBsZVtzdHIsIHN0cl06CiAgICB3b3JkID0gUGF0aCh1bnBhY2tlZF9kaXIpIC8gIndvcmQiCiAgICBpZiBub3Qgd29yZC5leGlzdHMoKToKICAgICAgICByZXR1cm4gIiIsIGYiRXJyb3I6IHt3b3JkfSBub3QgZm91bmQiCgogICAgcGFyYV9pZCwgZHVyYWJsZV9pZCA9IF9nZW5lcmF0ZV9oZXhfaWQoKSwgX2dlbmVyYXRlX2hleF9pZCgpCiAgICB0cyA9IGRhdGV0aW1lLm5vdyh0aW1lem9uZS51dGMpLnN0cmZ0aW1lKCIlWS0lbS0lZFQlSDolTTolU1oiKQoKICAgIGNvbW1lbnRzID0gd29yZCAvICJjb21tZW50cy54bWwiCiAgICBmaXJzdF9jb21tZW50ID0gbm90IGNvbW1lbnRzLmV4aXN0cygpCiAgICBpZiBmaXJzdF9jb21tZW50OgogICAgICAgIHNodXRpbC5jb3B5KFRFTVBMQVRFX0RJUiAvICJjb21tZW50cy54bWwiLCBjb21tZW50cykKICAgICAgICBfZW5zdXJlX2NvbW1lbnRfcmVsYXRpb25zaGlwcyhQYXRoKHVucGFja2VkX2RpcikpCiAgICAgICAgX2Vuc3VyZV9jb21tZW50X2NvbnRlbnRfdHlwZXMoUGF0aCh1bnBhY2tlZF9kaXIpKQogICAgX2FwcGVuZF94bWwoCiAgICAgICAgY29tbWVudHMsCiAgICAgICAgInc6Y29tbWVudHMiLAogICAgICAgIENPTU1FTlRfWE1MLmZvcm1hdCgKICAgICAgICAgICAgaWQ9Y29tbWVudF9pZCwKICAgICAgICAgICAgYXV0aG9yPWF1dGhvciwKICAgICAgICAgICAgZGF0ZT10cywKICAgICAgICAgICAgaW5pdGlhbHM9aW5pdGlhbHMsCiAgICAgICAgICAgIHBhcmFfaWQ9cGFyYV9pZCwKICAgICAgICAgICAgdGV4dD10ZXh0LCAgCiAgICAgICAgKSwKICAgICkKCiAgICBleHQgPSB3b3JkIC8gImNvbW1lbnRzRXh0ZW5kZWQueG1sIgogICAgaWYgbm90IGV4dC5leGlzdHMoKToKICAgICAgICBzaHV0aWwuY29weShURU1QTEFURV9ESVIgLyAiY29tbWVudHNFeHRlbmRlZC54bWwiLCBleHQpCiAgICBpZiBwYXJlbnRfaWQgaXMgbm90IE5vbmU6CiAgICAgICAgcGFyZW50X3BhcmEgPSBfZmluZF9wYXJhX2lkKGNvbW1lbnRzLCBwYXJlbnRfaWQpCiAgICAgICAgaWYgbm90IHBhcmVudF9wYXJhOgogICAgICAgICAgICByZXR1cm4gIiIsIGYiRXJyb3I6IFBhcmVudCBjb21tZW50IHtwYXJlbnRfaWR9IG5vdCBmb3VuZCIKICAgICAgICBfYXBwZW5kX3htbCgKICAgICAgICAgICAgZXh0LAogICAgICAgICAgICAidzE1OmNvbW1lbnRzRXgiLAogICAgICAgICAgICBmJzx3MTU6Y29tbWVudEV4IHcxNTpwYXJhSWQ9IntwYXJhX2lkfSIgdzE1OnBhcmFJZFBhcmVudD0ie3BhcmVudF9wYXJhfSIgdzE1OmRvbmU9IjAiLz4nLAogICAgICAgICkKICAgIGVsc2U6CiAgICAgICAgX2FwcGVuZF94bWwoCiAgICAgICAgICAgIGV4dCwKICAgICAgICAgICAgIncxNTpjb21tZW50c0V4IiwKICAgICAgICAgICAgZic8dzE1OmNvbW1lbnRFeCB3MTU6cGFyYUlkPSJ7cGFyYV9pZH0iIHcxNTpkb25lPSIwIi8+JywKICAgICAgICApCgogICAgaWRzID0gd29yZCAvICJjb21tZW50c0lkcy54bWwiCiAgICBpZiBub3QgaWRzLmV4aXN0cygpOgogICAgICAgIHNodXRpbC5jb3B5KFRFTVBMQVRFX0RJUiAvICJjb21tZW50c0lkcy54bWwiLCBpZHMpCiAgICBfYXBwZW5kX3htbCgKICAgICAgICBpZHMsCiAgICAgICAgIncxNmNpZDpjb21tZW50c0lkcyIsCiAgICAgICAgZic8dzE2Y2lkOmNvbW1lbnRJZCB3MTZjaWQ6cGFyYUlkPSJ7cGFyYV9pZH0iIHcxNmNpZDpkdXJhYmxlSWQ9IntkdXJhYmxlX2lkfSIvPicsCiAgICApCgogICAgZXh0ZW5zaWJsZSA9IHdvcmQgLyAiY29tbWVudHNFeHRlbnNpYmxlLnhtbCIKICAgIGlmIG5vdCBleHRlbnNpYmxlLmV4aXN0cygpOgogICAgICAgIHNodXRpbC5jb3B5KFRFTVBMQVRFX0RJUiAvICJjb21tZW50c0V4dGVuc2libGUueG1sIiwgZXh0ZW5zaWJsZSkKICAgIF9hcHBlbmRfeG1sKAogICAgICAgIGV4dGVuc2libGUsCiAgICAgICAgIncxNmNleDpjb21tZW50c0V4dGVuc2libGUiLAogICAgICAgIGYnPHcxNmNleDpjb21tZW50RXh0ZW5zaWJsZSB3MTZjZXg6ZHVyYWJsZUlkPSJ7ZHVyYWJsZV9pZH0iIHcxNmNleDpkYXRlVXRjPSJ7dHN9Ii8+JywKICAgICkKCiAgICBhY3Rpb24gPSAicmVwbHkiIGlmIHBhcmVudF9pZCBpcyBub3QgTm9uZSBlbHNlICJjb21tZW50IgogICAgcmV0dXJuIHBhcmFfaWQsIGYiQWRkZWQge2FjdGlvbn0ge2NvbW1lbnRfaWR9IChwYXJhX2lkPXtwYXJhX2lkfSkiCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHAgPSBhcmdwYXJzZS5Bcmd1bWVudFBhcnNlcihkZXNjcmlwdGlvbj0iQWRkIGNvbW1lbnRzIHRvIERPQ1ggZG9jdW1lbnRzIikKICAgIHAuYWRkX2FyZ3VtZW50KCJ1bnBhY2tlZF9kaXIiLCBoZWxwPSJVbnBhY2tlZCBET0NYIGRpcmVjdG9yeSIpCiAgICBwLmFkZF9hcmd1bWVudCgiY29tbWVudF9pZCIsIHR5cGU9aW50LCBoZWxwPSJDb21tZW50IElEIChtdXN0IGJlIHVuaXF1ZSkiKQogICAgcC5hZGRfYXJndW1lbnQoInRleHQiLCBoZWxwPSJDb21tZW50IHRleHQiKQogICAgcC5hZGRfYXJndW1lbnQoIi0tYXV0aG9yIiwgZGVmYXVsdD0iQ2xhdWRlIiwgaGVscD0iQXV0aG9yIG5hbWUiKQogICAgcC5hZGRfYXJndW1lbnQoIi0taW5pdGlhbHMiLCBkZWZhdWx0PSJDIiwgaGVscD0iQXV0aG9yIGluaXRpYWxzIikKICAgIHAuYWRkX2FyZ3VtZW50KCItLXBhcmVudCIsIHR5cGU9aW50LCBoZWxwPSJQYXJlbnQgY29tbWVudCBJRCAoZm9yIHJlcGxpZXMpIikKICAgIGFyZ3MgPSBwLnBhcnNlX2FyZ3MoKQoKICAgIHBhcmFfaWQsIG1zZyA9IGFkZF9jb21tZW50KAogICAgICAgIGFyZ3MudW5wYWNrZWRfZGlyLAogICAgICAgIGFyZ3MuY29tbWVudF9pZCwKICAgICAgICBhcmdzLnRleHQsCiAgICAgICAgYXJncy5hdXRob3IsCiAgICAgICAgYXJncy5pbml0aWFscywKICAgICAgICBhcmdzLnBhcmVudCwKICAgICkKICAgIHByaW50KG1zZykKICAgIGlmICJFcnJvciIgaW4gbXNnOgogICAgICAgIHN5cy5leGl0KDEpCiAgICBjaWQgPSBhcmdzLmNvbW1lbnRfaWQKICAgIGlmIGFyZ3MucGFyZW50IGlzIG5vdCBOb25lOgogICAgICAgIHByaW50KFJFUExZX01BUktFUl9URU1QTEFURS5mb3JtYXQocGlkPWFyZ3MucGFyZW50LCBjaWQ9Y2lkKSkKICAgIGVsc2U6CiAgICAgICAgcHJpbnQoQ09NTUVOVF9NQVJLRVJfVEVNUExBVEUuZm9ybWF0KGNpZD1jaWQpKQo=
+"""Add comments to DOCX documents.
+
+Usage:
+    python comment.py unpacked/ 0 "Comment text"
+    python comment.py unpacked/ 1 "Reply text" --parent 0
+
+Text should be pre-escaped XML (e.g., &amp; for &, &#x2019; for smart quotes).
+
+After running, add markers to document.xml:
+  <w:commentRangeStart w:id="0"/>
+  ... commented content ...
+  <w:commentRangeEnd w:id="0"/>
+  <w:r><w:rPr><w:rStyle w:val="CommentReference"/></w:rPr><w:commentReference w:id="0"/></w:r>
+"""
+
+import argparse
+import random
+import shutil
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+import defusedxml.minidom
+
+TEMPLATE_DIR = Path(__file__).parent / "templates"
+NS = {
+    "w": "http://schemas.openxmlformats.org/wordprocessingml/2006/main",
+    "w14": "http://schemas.microsoft.com/office/word/2010/wordml",
+    "w15": "http://schemas.microsoft.com/office/word/2012/wordml",
+    "w16cid": "http://schemas.microsoft.com/office/word/2016/wordml/cid",
+    "w16cex": "http://schemas.microsoft.com/office/word/2018/wordml/cex",
+}
+
+COMMENT_XML = """\
+<w:comment w:id="{id}" w:author="{author}" w:date="{date}" w:initials="{initials}">
+  <w:p w14:paraId="{para_id}" w14:textId="77777777">
+    <w:r>
+      <w:rPr><w:rStyle w:val="CommentReference"/></w:rPr>
+      <w:annotationRef/>
+    </w:r>
+    <w:r>
+      <w:rPr>
+        <w:color w:val="000000"/>
+        <w:sz w:val="20"/>
+        <w:szCs w:val="20"/>
+      </w:rPr>
+      <w:t>{text}</w:t>
+    </w:r>
+  </w:p>
+</w:comment>"""
+
+COMMENT_MARKER_TEMPLATE = """
+Add to document.xml (markers must be direct children of w:p, never inside w:r):
+  <w:commentRangeStart w:id="{cid}"/>
+  <w:r>...</w:r>
+  <w:commentRangeEnd w:id="{cid}"/>
+  <w:r><w:rPr><w:rStyle w:val="CommentReference"/></w:rPr><w:commentReference w:id="{cid}"/></w:r>"""
+
+REPLY_MARKER_TEMPLATE = """
+Nest markers inside parent {pid}'s markers (markers must be direct children of w:p, never inside w:r):
+  <w:commentRangeStart w:id="{pid}"/><w:commentRangeStart w:id="{cid}"/>
+  <w:r>...</w:r>
+  <w:commentRangeEnd w:id="{cid}"/><w:commentRangeEnd w:id="{pid}"/>
+  <w:r><w:rPr><w:rStyle w:val="CommentReference"/></w:rPr><w:commentReference w:id="{pid}"/></w:r>
+  <w:r><w:rPr><w:rStyle w:val="CommentReference"/></w:rPr><w:commentReference w:id="{cid}"/></w:r>"""
+
+
+def _generate_hex_id() -> str:
+    return f"{random.randint(0, 0x7FFFFFFE):08X}"
+
+
+SMART_QUOTE_ENTITIES = {
+    "\u201c": "&#x201C;",  
+    "\u201d": "&#x201D;",  
+    "\u2018": "&#x2018;",  
+    "\u2019": "&#x2019;",  
+}
+
+
+def _encode_smart_quotes(text: str) -> str:
+    for char, entity in SMART_QUOTE_ENTITIES.items():
+        text = text.replace(char, entity)
+    return text
+
+
+def _append_xml(xml_path: Path, root_tag: str, content: str) -> None:
+    dom = defusedxml.minidom.parseString(xml_path.read_text(encoding="utf-8"))
+    root = dom.getElementsByTagName(root_tag)[0]
+    ns_attrs = " ".join(f'xmlns:{k}="{v}"' for k, v in NS.items())
+    wrapper_dom = defusedxml.minidom.parseString(f"<root {ns_attrs}>{content}</root>")
+    for child in wrapper_dom.documentElement.childNodes:  
+        if child.nodeType == child.ELEMENT_NODE:
+            root.appendChild(dom.importNode(child, True))
+    output = _encode_smart_quotes(dom.toxml(encoding="UTF-8").decode("utf-8"))
+    xml_path.write_text(output, encoding="utf-8")
+
+
+def _find_para_id(comments_path: Path, comment_id: int) -> str | None:
+    dom = defusedxml.minidom.parseString(comments_path.read_text(encoding="utf-8"))
+    for c in dom.getElementsByTagName("w:comment"):
+        if c.getAttribute("w:id") == str(comment_id):
+            for p in c.getElementsByTagName("w:p"):
+                if pid := p.getAttribute("w14:paraId"):
+                    return pid
+    return None
+
+
+def _get_next_rid(rels_path: Path) -> int:
+    dom = defusedxml.minidom.parseString(rels_path.read_text(encoding="utf-8"))
+    max_rid = 0
+    for rel in dom.getElementsByTagName("Relationship"):
+        rid = rel.getAttribute("Id")
+        if rid and rid.startswith("rId"):
+            try:
+                max_rid = max(max_rid, int(rid[3:]))
+            except ValueError:
+                pass
+    return max_rid + 1
+
+
+def _has_relationship(rels_path: Path, target: str) -> bool:
+    dom = defusedxml.minidom.parseString(rels_path.read_text(encoding="utf-8"))
+    for rel in dom.getElementsByTagName("Relationship"):
+        if rel.getAttribute("Target") == target:
+            return True
+    return False
+
+
+def _has_content_type(ct_path: Path, part_name: str) -> bool:
+    dom = defusedxml.minidom.parseString(ct_path.read_text(encoding="utf-8"))
+    for override in dom.getElementsByTagName("Override"):
+        if override.getAttribute("PartName") == part_name:
+            return True
+    return False
+
+
+def _ensure_comment_relationships(unpacked_dir: Path) -> None:
+    rels_path = unpacked_dir / "word" / "_rels" / "document.xml.rels"
+    if not rels_path.exists():
+        return
+
+    if _has_relationship(rels_path, "comments.xml"):
+        return  
+
+    dom = defusedxml.minidom.parseString(rels_path.read_text(encoding="utf-8"))
+    root = dom.documentElement
+    next_rid = _get_next_rid(rels_path)
+
+    rels = [
+        (
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments",
+            "comments.xml",
+        ),
+        (
+            "http://schemas.microsoft.com/office/2011/relationships/commentsExtended",
+            "commentsExtended.xml",
+        ),
+        (
+            "http://schemas.microsoft.com/office/2016/09/relationships/commentsIds",
+            "commentsIds.xml",
+        ),
+        (
+            "http://schemas.microsoft.com/office/2018/08/relationships/commentsExtensible",
+            "commentsExtensible.xml",
+        ),
+    ]
+
+    for rel_type, target in rels:
+        rel = dom.createElement("Relationship")
+        rel.setAttribute("Id", f"rId{next_rid}")
+        rel.setAttribute("Type", rel_type)
+        rel.setAttribute("Target", target)
+        root.appendChild(rel)  
+        next_rid += 1
+
+    rels_path.write_bytes(dom.toxml(encoding="UTF-8"))
+
+
+def _ensure_comment_content_types(unpacked_dir: Path) -> None:
+    ct_path = unpacked_dir / "[Content_Types].xml"
+    if not ct_path.exists():
+        return
+
+    if _has_content_type(ct_path, "/word/comments.xml"):
+        return  
+
+    dom = defusedxml.minidom.parseString(ct_path.read_text(encoding="utf-8"))
+    root = dom.documentElement
+
+    overrides = [
+        (
+            "/word/comments.xml",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
+        ),
+        (
+            "/word/commentsExtended.xml",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtended+xml",
+        ),
+        (
+            "/word/commentsIds.xml",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsIds+xml",
+        ),
+        (
+            "/word/commentsExtensible.xml",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtensible+xml",
+        ),
+    ]
+
+    for part_name, content_type in overrides:
+        override = dom.createElement("Override")
+        override.setAttribute("PartName", part_name)
+        override.setAttribute("ContentType", content_type)
+        root.appendChild(override)  
+
+    ct_path.write_bytes(dom.toxml(encoding="UTF-8"))
+
+
+def add_comment(
+    unpacked_dir: str,
+    comment_id: int,
+    text: str,
+    author: str = "Claude",
+    initials: str = "C",
+    parent_id: int | None = None,
+) -> tuple[str, str]:
+    word = Path(unpacked_dir) / "word"
+    if not word.exists():
+        return "", f"Error: {word} not found"
+
+    para_id, durable_id = _generate_hex_id(), _generate_hex_id()
+    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+    comments = word / "comments.xml"
+    first_comment = not comments.exists()
+    if first_comment:
+        shutil.copy(TEMPLATE_DIR / "comments.xml", comments)
+        _ensure_comment_relationships(Path(unpacked_dir))
+        _ensure_comment_content_types(Path(unpacked_dir))
+    _append_xml(
+        comments,
+        "w:comments",
+        COMMENT_XML.format(
+            id=comment_id,
+            author=author,
+            date=ts,
+            initials=initials,
+            para_id=para_id,
+            text=text,  
+        ),
+    )
+
+    ext = word / "commentsExtended.xml"
+    if not ext.exists():
+        shutil.copy(TEMPLATE_DIR / "commentsExtended.xml", ext)
+    if parent_id is not None:
+        parent_para = _find_para_id(comments, parent_id)
+        if not parent_para:
+            return "", f"Error: Parent comment {parent_id} not found"
+        _append_xml(
+            ext,
+            "w15:commentsEx",
+            f'<w15:commentEx w15:paraId="{para_id}" w15:paraIdParent="{parent_para}" w15:done="0"/>',
+        )
+    else:
+        _append_xml(
+            ext,
+            "w15:commentsEx",
+            f'<w15:commentEx w15:paraId="{para_id}" w15:done="0"/>',
+        )
+
+    ids = word / "commentsIds.xml"
+    if not ids.exists():
+        shutil.copy(TEMPLATE_DIR / "commentsIds.xml", ids)
+    _append_xml(
+        ids,
+        "w16cid:commentsIds",
+        f'<w16cid:commentId w16cid:paraId="{para_id}" w16cid:durableId="{durable_id}"/>',
+    )
+
+    extensible = word / "commentsExtensible.xml"
+    if not extensible.exists():
+        shutil.copy(TEMPLATE_DIR / "commentsExtensible.xml", extensible)
+    _append_xml(
+        extensible,
+        "w16cex:commentsExtensible",
+        f'<w16cex:commentExtensible w16cex:durableId="{durable_id}" w16cex:dateUtc="{ts}"/>',
+    )
+
+    action = "reply" if parent_id is not None else "comment"
+    return para_id, f"Added {action} {comment_id} (para_id={para_id})"
+
+
+if __name__ == "__main__":
+    p = argparse.ArgumentParser(description="Add comments to DOCX documents")
+    p.add_argument("unpacked_dir", help="Unpacked DOCX directory")
+    p.add_argument("comment_id", type=int, help="Comment ID (must be unique)")
+    p.add_argument("text", help="Comment text")
+    p.add_argument("--author", default="Claude", help="Author name")
+    p.add_argument("--initials", default="C", help="Author initials")
+    p.add_argument("--parent", type=int, help="Parent comment ID (for replies)")
+    args = p.parse_args()
+
+    para_id, msg = add_comment(
+        args.unpacked_dir,
+        args.comment_id,
+        args.text,
+        args.author,
+        args.initials,
+        args.parent,
+    )
+    print(msg)
+    if "Error" in msg:
+        sys.exit(1)
+    cid = args.comment_id
+    if args.parent is not None:
+        print(REPLY_MARKER_TEMPLATE.format(pid=args.parent, cid=cid))
+    else:
+        print(COMMENT_MARKER_TEMPLATE.format(cid=cid))
